@@ -1,0 +1,19 @@
+# Publication Governance
+
+## Repository Ownership
+
+This repository owns publication governance for MarkOrbit publications. It defines repository-level structure, shared publication standards, review organization, release organization, and Codex task boundaries.
+
+## Book Ownership
+
+Each book owns its manuscript, book-specific specifications, book-specific editorial files, and book-specific release notes.
+
+## Codex Boundaries
+
+Codex does not define MarkOrbit architecture.
+
+Codex may only implement explicit repository tasks that are provided by a human operator. Codex work must preserve existing book content unless a task explicitly authorizes content changes.
+
+## Architecture Change Control
+
+Architecture changes require human approval. Repository maintenance, publication scaffolding, and placeholder files must not introduce architectural decisions.
