@@ -1,0 +1,310 @@
+schema: markorbit.publishing.constitution/v1
+
+constitution:
+
+  title: MarkOrbit Publishing Constitution
+
+  version: 1.0.0
+
+  status: Stable
+
+  authority: MarkOrbit Publications
+
+  applies_to:
+
+    - All Books
+
+    - White Papers
+
+    - Architecture Essays
+
+    - Companion Publications
+
+purpose: >
+
+  The Publishing Constitution defines the permanent
+  editorial principles governing every official
+  MarkOrbit publication.
+
+  These principles exist to ensure long-term consistency,
+  architectural integrity and publication quality.
+
+--------------------------------------------------------------------
+
+principle_01:
+
+  name: Ideas Before Products
+
+  statement: >
+
+    Publications explain ideas rather than products.
+
+  rationale: >
+
+    Products evolve.
+
+    Ideas endure.
+
+--------------------------------------------------------------------
+
+principle_02:
+
+  name: Industry Before Implementation
+
+  statement: >
+
+    Every publication begins by explaining
+    the industry problem before introducing
+    any implementation.
+
+--------------------------------------------------------------------
+
+principle_03:
+
+  name: Principles Before Features
+
+  statement: >
+
+    Books explain principles.
+
+    Specifications define architecture.
+
+    Products implement architecture.
+
+--------------------------------------------------------------------
+
+principle_04:
+
+  name: Architecture Before Technology
+
+  statement: >
+
+    Technologies may change.
+
+    Architecture should remain stable.
+
+--------------------------------------------------------------------
+
+principle_05:
+
+  name: Ecosystem Before Organisation
+
+  statement: >
+
+    Publications describe ecosystems
+    rather than individual organisations.
+
+--------------------------------------------------------------------
+
+principle_06:
+
+  name: Long-term Thinking
+
+  statement: >
+
+    Every publication should remain valuable
+    regardless of temporary technologies,
+    AI models or implementation details.
+
+--------------------------------------------------------------------
+
+principle_07:
+
+  name: One Question Per Chapter
+
+  statement: >
+
+    Every chapter answers one primary question.
+
+--------------------------------------------------------------------
+
+principle_08:
+
+  name: One Argument Per Part
+
+  statement: >
+
+    Every Part advances one central argument.
+
+--------------------------------------------------------------------
+
+principle_09:
+
+  name: Frozen Structure
+
+  statement: >
+
+    After the table of contents has been frozen,
+    chapter order and publication structure
+    shall not change during writing.
+
+--------------------------------------------------------------------
+
+principle_10:
+
+  name: Rewrite Instead of Continuous Editing
+
+  statement: >
+
+    Editorial feedback is incorporated through
+    rewrite cycles rather than continuous modification.
+
+--------------------------------------------------------------------
+
+principle_11:
+
+  name: Canonical Terminology
+
+  statement: >
+
+    Every architectural term shall have one
+    canonical definition.
+
+--------------------------------------------------------------------
+
+principle_12:
+
+  name: Concept First Appearance
+
+  statement: >
+
+    Every new concept is introduced only once.
+
+    Later chapters assume understanding.
+
+--------------------------------------------------------------------
+
+principle_13:
+
+  name: Shared Language
+
+  statement: >
+
+    Publications establish the language
+    of the ecosystem.
+
+--------------------------------------------------------------------
+
+principle_14:
+
+  name: Explain Why Before How
+
+  statement: >
+
+    Explanations should begin with purpose
+    before mechanism.
+
+--------------------------------------------------------------------
+
+principle_15:
+
+  name: Independent Publications
+
+  statement: >
+
+    Every book should be understandable
+    on its own while remaining consistent
+    with the publication series.
+
+--------------------------------------------------------------------
+
+principle_16:
+
+  name: No Marketing
+
+  statement: >
+
+    Publications are knowledge artifacts.
+
+    They are never marketing materials.
+
+--------------------------------------------------------------------
+
+principle_17:
+
+  name: Publication Over Documentation
+
+  statement: >
+
+    Books should be written as enduring publications
+    rather than software documentation.
+
+--------------------------------------------------------------------
+
+principle_18:
+
+  name: Implementation Independence
+
+  statement: >
+
+    Books should avoid implementation details
+    whenever possible.
+
+--------------------------------------------------------------------
+
+principle_19:
+
+  name: Publication Immutability
+
+  statement: >
+
+    Published editions are immutable.
+
+    Corrections are made through
+    subsequent editions.
+
+--------------------------------------------------------------------
+
+principle_20:
+
+  name: Knowledge Evolution
+
+  statement: >
+
+    Publications evolve through editions.
+
+    Architecture evolves through validation.
+
+    Ecosystems evolve through participation.
+
+--------------------------------------------------------------------
+
+editorial_contract:
+
+  every_book_must:
+
+    - explain one central thesis
+
+    - preserve architectural consistency
+
+    - maintain canonical terminology
+
+    - follow publication workflow
+
+    - complete all review rounds
+
+--------------------------------------------------------------------
+
+publisher_contract:
+
+  publication_requires:
+
+    - structure review
+
+    - content review
+
+    - editorial review
+
+    - publication review
+
+--------------------------------------------------------------------
+
+closing_statement: >
+
+  MarkOrbit Publications exist to establish
+  the long-term knowledge system of the
+  MarkOrbit ecosystem.
+
+  Every publication should contribute
+  to that knowledge system while remaining
+  faithful to this Constitution.

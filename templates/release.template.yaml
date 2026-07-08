@@ -1,0 +1,104 @@
+schema: markorbit.release/v1
+
+release:
+
+  owner: MarkOrbit Publications
+
+versioning:
+
+  semantic: true
+
+lifecycle:
+
+  - Draft
+
+  - Internal Review
+
+  - Rewrite
+
+  - Release Candidate
+
+  - Published
+
+artifacts:
+
+  markdown
+
+  pdf
+
+  epub
+
+  docx
+
+  html
+
+  website
+
+release_notes:
+
+  required: true
+
+  changelog: CHANGELOG.md
+
+quality:
+
+  required:
+
+    manuscript_complete
+
+    publication_manifest
+
+    editorial_review
+
+    publication_review
+
+    terminology_review
+
+    glossary_review
+
+    illustration_review
+
+checks:
+
+  broken_links
+
+  numbering
+
+  terminology
+
+  references
+
+  chapter_order
+
+tagging:
+
+  draft:
+
+    Draft-x.y
+
+  rc:
+
+    RC-x
+
+  stable:
+
+    vMajor.Minor.Patch
+
+distribution:
+
+  github_release: true
+
+  website: true
+
+  print_ready: true
+
+archiving:
+
+  preserve_all_releases: true
+
+  immutable_after_publication: true
+
+publication_statement: >
+
+  Only Published releases become part of the
+  permanent MarkOrbit Publications archive.

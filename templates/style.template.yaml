@@ -1,0 +1,110 @@
+schema: markorbit.style/v1
+
+style:
+
+  language:
+
+    primary: English
+
+    standard: International English
+
+voice:
+
+  perspective:
+
+    Industry
+
+  tone:
+
+    Professional
+
+  narrative:
+
+    Explanatory
+
+writing:
+
+  paragraphs:
+
+    short: preferred
+
+  headings:
+
+    atx: true
+
+  oxford_comma: true
+
+  active_voice: preferred
+
+chapter:
+
+  must_begin_with:
+
+    title
+
+    quotation
+
+  must_end_with:
+
+    transition
+
+    canonical_statement
+
+terminology:
+
+  canonical_only: true
+
+  glossary_source:
+
+    Appendix A
+
+prohibited:
+
+  marketing_language
+
+  feature_list
+
+  implementation_detail
+
+  sprint_language
+
+  roadmap
+
+  database_schema
+
+preferred:
+
+  first_principles
+
+  long_term_thinking
+
+  architectural_reasoning
+
+  ecosystem_language
+
+illustrations:
+
+  encouraged: true
+
+  diagram_first: true
+
+citations:
+
+  use_quotes: true
+
+  long_quotes: false
+
+consistency:
+
+  title_case:
+
+    chapter_titles
+
+  sentence_case:
+
+    body
+
+publishing_goal: >
+
+  The publication should read as a long-term
+  architectural book rather than software documentation.

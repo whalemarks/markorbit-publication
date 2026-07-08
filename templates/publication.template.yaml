@@ -1,0 +1,376 @@
+schema: markorbit.publication/v4
+schema_version: 4.0.0
+
+manifest:
+
+  id: markorbit-book-01
+
+  type: publication
+
+  role: canonical_manifest
+
+  single_source_of_truth: true
+
+  status: active
+
+  generated_files:
+
+    - README.md
+    - TOC
+    - Release Notes
+    - PDF
+    - EPUB
+    - DOCX
+    - HTML
+
+publication:
+
+  title: MarkOrbit
+
+  subtitle: The Operating System for Global Brand Services
+
+  short_title: MarkOrbit Book 01
+
+  series:
+
+    name: MarkOrbit Publications
+
+    volume: 1
+
+  edition: First Edition
+
+  version: 2.0.0-draft
+
+  language: en
+
+  publication_type: Book
+
+  maturity:
+
+    stage: Draft
+
+    rewrite_cycle: 2
+
+identity:
+
+  publisher: MarkOrbit Architecture Committee
+
+  copyright:
+
+    holder: MarkOrbit
+
+    year: 2026
+
+  license:
+
+    type: All Rights Reserved
+
+repository:
+
+  organization: MarkOrbit
+
+  repository: markorbit-publications
+
+  root: book-01-operating-system
+
+  branch: main
+
+editorial:
+
+  publishing_mode: true
+
+  freeze_toc: true
+
+  rewrite_after_review: true
+
+  review_rounds: 4
+
+  review_policy:
+
+    structure
+
+    content
+
+    editorial
+
+    publication
+
+writing_rules:
+
+  one_question_per_chapter: true
+
+  one_argument_per_part: true
+
+  introduce_concept_once: true
+
+  no_product_marketing: true
+
+  no_prd_language: true
+
+  no_feature_lists: true
+
+  no_module_description: true
+
+  no_architecture_change_during_writing: true
+
+narrative:
+
+  thesis: >
+
+    Every mature professional industry eventually develops
+    a shared operating system.
+
+  storyline:
+
+    - Brands
+
+    - Professional Services
+
+    - Industry Evolution
+
+    - Shared Infrastructure
+
+    - Operating System
+
+    - Business
+
+    - Workplace
+
+    - Operating Model
+
+    - Global Service Network
+
+    - Ecosystem Evolution
+
+structure:
+
+  front_matter:
+
+    - 00_Preface.md
+
+    - 01_Contents.md
+
+  body:
+
+    part_1:
+
+      title: The Opportunity
+
+      chapters:
+
+        - 02_Chapter_01.md
+
+        - 03_Chapter_02.md
+
+    part_2:
+
+      title: The Operating System
+
+      chapters:
+
+        - 04_Chapter_03.md
+
+        - 05_Chapter_04.md
+
+    part_3:
+
+      title: The Operating Model
+
+      chapters:
+
+        - 06_Chapter_05.md
+
+        - 07_Chapter_06.md
+
+        - 08_Chapter_07.md
+
+    part_4:
+
+      title: The Ecosystem
+
+      chapters:
+
+        - 09_Chapter_08.md
+
+        - 10_Chapter_09.md
+
+  appendices:
+
+    - 11_Appendix_A.md
+
+    - 12_Appendix_B.md
+
+    - 13_Appendix_C.md
+
+chapter_contract:
+
+  each_chapter_must_have:
+
+    opening_quote
+
+    central_question
+
+    central_argument
+
+    transition_to_next
+
+    canonical_sentence
+
+  must_not_include:
+
+    implementation
+
+    sprint
+
+    roadmap
+
+    api
+
+    database
+
+    product_backlog
+
+part_contract:
+
+  each_part_must_answer:
+
+    Part I:
+
+      Why
+
+    Part II:
+
+      What
+
+    Part III:
+
+      How
+
+    Part IV:
+
+      Evolution
+
+terminology:
+
+  source_of_truth:
+
+    Appendix A
+
+  canonical_only: true
+
+illustrations:
+
+  required: true
+
+  minimum:
+
+    diagrams: 12
+
+    frameworks: 8
+
+    tables: 6
+
+publication_quality:
+
+  required_before_rc:
+
+    manuscript_complete
+
+    terminology_review
+
+    architecture_review
+
+    editorial_review
+
+    publication_review
+
+    illustration_review
+
+outputs:
+
+  formats:
+
+    markdown
+
+    pdf
+
+    epub
+
+    docx
+
+    html
+
+    website
+
+release:
+
+  semantic_versioning: true
+
+  stages:
+
+    Draft
+
+    Release Candidate
+
+    Published
+
+knowledge_system:
+
+  companion_publications:
+
+    Book 02:
+
+      MarkOrbit Core Specification
+
+    Book 03:
+
+      Workplace Framework
+
+    Book 04:
+
+      MarkReg
+
+    Book 05:
+
+      MarkOrbit Lite
+
+    Book 06:
+
+      Mark Global Service Network
+
+governance:
+
+  architecture_owner:
+
+    MarkOrbit Architecture Committee
+
+  editorial_owner:
+
+    MarkOrbit Editorial Committee
+
+  publication_owner:
+
+    MarkOrbit Publications
+
+constitutional_principles:
+
+  - Industry Before Product
+
+  - Principles Before Implementation
+
+  - Architecture Before Features
+
+  - Ecosystem Before Organisation
+
+  - Knowledge Before Marketing
+
+  - Rewrite Instead of Continuous Editing
+
+closing_statement: >
+
+  This publication establishes the conceptual foundation
+  of the MarkOrbit ecosystem.
+
+  It defines ideas rather than implementations,
+  principles rather than products,
+  and architecture rather than software.

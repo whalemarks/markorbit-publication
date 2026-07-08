@@ -1,0 +1,284 @@
+schema: markorbit.publication.schema/v1
+
+schema_info:
+  title: MarkOrbit Publication Manifest Schema
+  version: 1.0.0
+  status: Stable
+  authority: MarkOrbit Publications
+  purpose: >
+    Defines the standard structure for publication.yaml files
+    used by all official MarkOrbit publications.
+
+required_top_level_fields:
+  - schema
+  - schema_version
+  - manifest
+  - publication
+  - identity
+  - repository
+  - editorial
+  - writing_rules
+  - narrative
+  - structure
+  - chapter_contract
+  - terminology
+  - outputs
+  - release
+  - governance
+
+field_definitions:
+  schema:
+    type: string
+    required: true
+    description: Publication manifest schema identifier.
+
+  schema_version:
+    type: string
+    required: true
+    description: Version of this publication manifest schema.
+
+  manifest:
+    type: object
+    required: true
+    fields:
+      id:
+        type: string
+        required: true
+      type:
+        type: string
+        required: true
+      role:
+        type: string
+        required: true
+      single_source_of_truth:
+        type: boolean
+        required: true
+      status:
+        type: string
+        required: true
+
+  publication:
+    type: object
+    required: true
+    fields:
+      title:
+        type: string
+        required: true
+      subtitle:
+        type: string
+        required: false
+      short_title:
+        type: string
+        required: false
+      series:
+        type: object
+        required: true
+        fields:
+          name:
+            type: string
+            required: true
+          volume:
+            type: integer
+            required: true
+      edition:
+        type: string
+        required: true
+      version:
+        type: string
+        required: true
+      language:
+        type: string
+        required: true
+      publication_type:
+        type: string
+        required: true
+      maturity:
+        type: object
+        required: true
+
+  identity:
+    type: object
+    required: true
+    fields:
+      publisher:
+        type: string
+        required: true
+      copyright:
+        type: object
+        required: true
+      license:
+        type: object
+        required: true
+
+  repository:
+    type: object
+    required: true
+    fields:
+      organization:
+        type: string
+        required: true
+      repository:
+        type: string
+        required: true
+      root:
+        type: string
+        required: true
+      branch:
+        type: string
+        required: true
+
+  editorial:
+    type: object
+    required: true
+    fields:
+      publishing_mode:
+        type: boolean
+        required: true
+      freeze_toc:
+        type: boolean
+        required: true
+      rewrite_after_review:
+        type: boolean
+        required: true
+      review_rounds:
+        type: integer
+        required: true
+      review_policy:
+        type: list
+        required: true
+
+  writing_rules:
+    type: object
+    required: true
+    description: >
+      Defines manuscript-level writing constraints.
+
+  narrative:
+    type: object
+    required: true
+    fields:
+      thesis:
+        type: string
+        required: true
+      storyline:
+        type: list
+        required: true
+
+  structure:
+    type: object
+    required: true
+    fields:
+      front_matter:
+        type: list
+        required: true
+      body:
+        type: object
+        required: true
+      appendices:
+        type: list
+        required: false
+
+  chapter_contract:
+    type: object
+    required: true
+    fields:
+      each_chapter_must_have:
+        type: list
+        required: true
+      must_not_include:
+        type: list
+        required: true
+
+  terminology:
+    type: object
+    required: true
+    fields:
+      source_of_truth:
+        type: string
+        required: true
+      canonical_only:
+        type: boolean
+        required: true
+
+  illustrations:
+    type: object
+    required: false
+    fields:
+      required:
+        type: boolean
+        required: false
+      minimum:
+        type: object
+        required: false
+
+  outputs:
+    type: object
+    required: true
+    fields:
+      formats:
+        type: list
+        required: true
+
+  release:
+    type: object
+    required: true
+    fields:
+      semantic_versioning:
+        type: boolean
+        required: true
+      stages:
+        type: list
+        required: true
+
+  knowledge_system:
+    type: object
+    required: false
+    fields:
+      companion_publications:
+        type: object
+        required: false
+
+  governance:
+    type: object
+    required: true
+    fields:
+      architecture_owner:
+        type: string
+        required: true
+      editorial_owner:
+        type: string
+        required: true
+      publication_owner:
+        type: string
+        required: true
+
+validation_rules:
+  - rule: publication_yaml_must_match_schema
+    description: Every publication.yaml must follow this schema.
+
+  - rule: manuscript_files_must_exist
+    description: Every file listed in structure must exist in manuscript/.
+
+  - rule: frozen_structure_must_not_change_during_writing
+    description: Once freeze_toc is true, structure changes require a new rewrite cycle.
+
+  - rule: chapter_contract_required
+    description: Every chapter must satisfy the chapter contract.
+
+  - rule: canonical_terminology_required
+    description: Terms must follow the glossary source of truth.
+
+  - rule: release_requires_quality_gate
+    description: Release Candidate and Published stages require all quality checks.
+
+compatibility:
+  minimum_publication_yaml_schema: markorbit.publication/v4
+  compatible_with:
+    - markorbit.editorial/v1
+    - markorbit.style/v1
+    - markorbit.release/v1
+    - markorbit.publishing.constitution/v1
+
+closing_statement: >
+  This schema ensures that every MarkOrbit publication is structured,
+  governed and released according to a common publication standard.

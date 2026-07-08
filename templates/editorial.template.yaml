@@ -1,0 +1,96 @@
+schema: markorbit.editorial/v1
+
+editorial:
+
+  mode: Publishing
+
+  owner: MarkOrbit Editorial Committee
+
+purpose: >
+
+  Defines the editorial workflow for every official
+  MarkOrbit publication.
+
+workflow:
+
+  - Planning
+
+  - Freeze Structure
+
+  - Draft
+
+  - Review
+
+  - Rewrite
+
+  - Release Candidate
+
+  - Publication
+
+freeze_policy:
+
+  toc: true
+
+  chapter_order: true
+
+  part_order: true
+
+  appendix_order: true
+
+writing:
+
+  continuous: true
+
+  no_structure_changes: true
+
+review:
+
+  rounds:
+
+    - Structure
+
+    - Content
+
+    - Editorial
+
+    - Publication
+
+rewrite:
+
+  after_each_review: true
+
+  preserve_publication_history: true
+
+editor_rules:
+
+  one_question_per_chapter: true
+
+  one_argument_per_part: true
+
+  introduce_concept_once: true
+
+  no_duplicate_explanation: true
+
+  chapter_transition_required: true
+
+publisher_rules:
+
+  review_files_are_not_published: true
+
+  rewrite_creates_new_manuscript: true
+
+  only_release_candidate_is_publishable: true
+
+quality_gate:
+
+  draft:
+
+    completed_manuscript
+
+  rc:
+
+    all_reviews_completed
+
+  publication:
+
+    editorial_approval
