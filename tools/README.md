@@ -6,15 +6,42 @@ All scripts use only the Python standard library.
 
 ## `validate_links.py`
 
-Scans Markdown files in the repository, detects internal Markdown references ending in `.md`, and reports references whose target files do not exist. The checker supports repository-global links and links that are internal to a book directory.
+Scans Markdown files, validates internal Markdown links ending in `.md`, and reports links whose target files do not exist. The checker supports repository-wide validation, path-scoped validation, normal links relative to the source file, repository-root links such as `books/...`, and book-internal links written relative to the book root.
 
-Run:
+Strict Markdown link mode is the default. In this mode, the script validates only actual inline Markdown links such as:
+
+- `[text](path.md)`
+- `[text](../path.md)`
+- `[text](folder/file.md#anchor)`
+
+Strict mode does not treat plain-text paths as broken links, does not validate links inside fenced code blocks, and does not report future or planned references unless they are written as actual Markdown links.
+
+Run repository-wide validation:
 
 ```bash
 python tools/validate_links.py
 ```
 
-The script prints a readable report and exits with a non-zero status when missing internal Markdown references are found. It does not modify files.
+Run book-scoped validation:
+
+```bash
+python tools/validate_links.py books/book-03-execution-system
+python tools/validate_links.py books/book-02-core-specification
+```
+
+Limit report detail while still showing total counts:
+
+```bash
+python tools/validate_links.py --max-report 200
+```
+
+Optionally scan plain-text `.md` paths as warnings:
+
+```bash
+python tools/validate_links.py --include-plain-paths
+```
+
+Plain-text path warnings are optional and do not affect the exit status. The script exits with a non-zero status only when actual inline Markdown links are broken in the selected scope. It does not modify files.
 
 ## `validate_manifest.py`
 
