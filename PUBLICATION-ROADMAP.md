@@ -26,4 +26,4 @@ Create the Book 03 — MarkOrbit Execution System foundation scaffold after Book
 
 ## Future Planning Notes
 
-- Idea Intake Pack 01 captured Distillery, Artifact, Render, Edit, and Publish for future Book 01-3 planning review. These ideas are not added to active release scope by this note.
+- Intake 001 is accepted for future publication planning: Book 01 may receive architecture-principle notes for Distillery and the Artifact / Render / Edit / Publish chain; Book 02 remains limited to future boundary notes with no MVP or Core-spec expansion; Book 03 may consider future execution-planning boundaries; Book 04 product surfaces remain future-only; Tech Radar remains research-only. These ideas are not added to active release scope by this note.

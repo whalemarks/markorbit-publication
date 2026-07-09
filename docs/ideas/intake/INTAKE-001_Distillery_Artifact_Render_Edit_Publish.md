@@ -1,5 +1,9 @@
 # INTAKE-001: Distillery, Artifact, Render, Edit, Publish
 
+## Status
+
+Reviewed — accepted for publication planning.
+
 ## Source Idea Documents
 
 1. Mo Distillery（知识精馏工厂）构想总结
