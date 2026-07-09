@@ -1,8 +1,18 @@
 # Book 03 Status
 
 - Status: Scaffolded
-- Current phase: Round 0 preparation
-- Next required review: Book 03 Round 0 Review
+- Round 0 Review result: Conditional Pass
+- Current phase: Round 0 Fix Pack 01
+- Next gate: Book 03 Round 1 Review
+- No full chapter writing yet.
+
+## Pending Before Drafting
+
+- TOC approval
+- Book 02 dependency map approval
+- Book 04 boundary map approval
+- Execution glossary approval
+- MVP execution boundary approval
 
 ## Known Pending Decisions
 

@@ -1,6 +1,6 @@
 # Book 03 — MarkOrbit Execution System
 
-Draft table of contents only. This scaffold is subject to Book 03 Round 0 Review.
+Draft table of contents only. This scaffold is subject to Book 03 Round 0 Fix Pack 01 review and approval before drafting.
 
 ## 00 Preface
 
@@ -14,82 +14,88 @@ Draft table of contents only. This scaffold is subject to Book 03 Round 0 Review
 
 04 Execution Principles
 
-05 Execution Boundaries
+05 Execution Boundary
 
-06 From Core Contracts to Operational Execution
+06 Execution Context
+
+07 From Core Contracts to Execution Runtime
 
 ## Part II — Execution Architecture
 
-07 Execution Layer Overview
+08 Execution Layer Overview
 
-08 Workflow Coordination Model
+09 Execution Object and State Model
 
-09 Task System Model
+10 Workflow Coordination Model
 
-10 Review and Approval Model
+11 Task Lifecycle Model
 
-11 Communication Execution Model
+12 Review and Approval Lifecycle
 
-12 Event Trace and Audit Model
+13 Communication Execution Boundary
 
-13 Permission and Policy Gates
+14 Event Trace, Audit and Replay
 
-14 Human-AI Collaboration Boundary
+15 Permission and Policy Gates
 
-## Part III — Execution Domains
+16 Human-AI Execution Handoff
 
-15 Intake Execution
+## Part III — Execution Patterns
 
-16 Application Execution
+17 Intake Execution Pattern
 
-17 Communication Review Execution
+18 Application Preparation Pattern
 
-18 Provider Routing Execution
+19 Communication Review Pattern
 
-19 Office Action Response Execution
+20 Provider Routing Preparation Pattern
 
-20 Renewal Execution
+21 Office Action Response Preparation Pattern
 
-21 Assignment Execution
+22 Renewal Preparation Pattern
 
-22 Evidence Review Execution
+23 Assignment Preparation Pattern
+
+24 Evidence Review Preparation Pattern
 
 ## Part IV — Execution Governance
 
-23 Execution State Management
+25 Idempotency and Retry Governance
 
-24 Idempotency and Retry
+26 Error Handling and Safe Failure
 
-25 Error Handling
+27 Versioning and Change Control
 
-26 Versioning and Change Control
+28 Human Review Governance
 
-27 Human Review Governance
+29 Agent-Assisted Execution Governance
 
-28 Agent-Assisted Execution Governance
+30 Execution Observability and Audit
 
 ## Part V — MVP Execution System
 
-29 Execution MVP Boundary
+31 Execution MVP Boundary
 
-30 Execution MVP Workflow Set
+32 MVP Execution Workflow Set
 
-31 Execution Implementation Readiness
+33 MVP Implementation Readiness
 
-32 Codex Execution Roadmap
+34 Codex Execution Roadmap
 
 ## Appendices
 
 A Execution Glossary
 
-B Workflow Index
+B Execution Context Index
 
-C Task Index
+C Workflow Pattern Index
 
-D Review Index
+D Task Lifecycle Index
 
-E Communication Index
+E Review Gate Index
 
-F Event Trace Index
+F Communication Boundary Index
 
-G Human-AI Collaboration Index
+G Event Trace Index
+
+H Human-AI Collaboration Index
