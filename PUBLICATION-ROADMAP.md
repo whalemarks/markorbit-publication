@@ -23,3 +23,7 @@ Package Book 02 release-candidate artifacts after review and cleanup are approve
 ## Phase 5: Book 03 Foundation Scaffold
 
 Create the Book 03 — MarkOrbit Execution System foundation scaffold after Book 02 migration. Book 03 is positioned as the execution layer between Book 02 Core Specification and Book 04 Product System.
+
+## Future Planning Notes
+
+- Idea Intake Pack 01 captured Distillery, Artifact, Render, Edit, and Publish for future Book 01-3 planning review. These ideas are not added to active release scope by this note.
