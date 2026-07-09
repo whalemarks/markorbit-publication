@@ -26,3 +26,7 @@
 - Relationship with Workflow / Task / Review / Communication / Event Trace
 - Relationship with AI agents and Human Review
 - Relationship with Book 04 Product System
+
+## Future Planning Notes
+
+- Round 1 planning should consider Artifact / Render / Publish execution boundaries in a future planning pass without changing current drafting readiness.
