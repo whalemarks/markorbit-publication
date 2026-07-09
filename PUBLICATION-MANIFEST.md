@@ -12,8 +12,20 @@ This repository manages publication structure and governance. It does not indepe
 |---|---|---|---|
 | Book 01 | MarkOrbit Architecture Canon | `books/book-01-architecture-canon/` | Planned |
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Migrated |
-| Book 03 | MarkOrbit Workplace Specification | `books/book-03-workplace-specification/` | Planned |
+| Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Planned |
 | Book 04 | MarkOrbit Product System | `books/book-04-product-system/` | Planned |
+
+## Planned Book Positioning
+
+### Book 03 — MarkOrbit Execution System
+
+Chinese title: Book 03 — MarkOrbit 执行系统
+
+Canonical path: `books/book-03-execution-system/`
+
+Book 03 defines how MarkOrbit turns Core contracts into governed operational execution across workflows, tasks, reviews, communications, events and human-AI collaboration.
+
+Book 03 定义 MarkOrbit 如何把 Core 契约转化为可治理的业务执行，覆盖工作流、任务、审查、通信、事件追踪以及人机协同执行边界。
 
 ## Current Canonical Book Path for Book 02
 
