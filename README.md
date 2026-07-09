@@ -19,3 +19,7 @@ This repository coordinates publication-level structure and governance across th
 ## Book Content
 
 Existing book content is preserved. Book migration, manuscript cleanup, and architecture changes are handled only through explicit future tasks.
+
+## Planned Books
+
+- Book 03 — MarkOrbit Execution System (`books/book-03-execution-system/`) is scaffolded / planned. It defines how Core contracts become governed operational execution.
