@@ -5,7 +5,7 @@
 - Title: Book 03 — MarkOrbit Execution System
 - Chinese title: Book 03 — MarkOrbit 执行系统
 - Canonical path: `books/book-03-execution-system/`
-- Status: Scaffolded / planned
+- Status: Planning — Round 1 Fix Pack 01
 - Positioning: Defines how Core contracts become governed operational execution.
 
 ## Directory Purpose
@@ -31,6 +31,11 @@
 - `planning/B03-PLN-0004_Round0_Review_Plan.md` — Round 0 review plan scaffold.
 - `planning/B03-PLN-0005_Book_02_Dependency_Map.md` — Book 02 dependency map scaffold.
 - `planning/B03-PLN-0006_Book_04_Boundary_Map.md` — Book 04 boundary map scaffold.
+- `planning/B03-PLN-0007_MVP_Execution_Boundary.md` — MVP execution boundary planning file.
+- `planning/B03-PLN-0008_Review_Gate_Model.md` — review gate model planning file.
+- `planning/B03-PLN-0009_Communication_Boundary.md` — communication boundary planning file.
+- `planning/B03-PLN-0010_Event_Trace_Audit_Replay.md` — event trace, audit, and replay planning file.
+- `planning/B03-PLN-0011_Chapter_Briefs.md` — concise briefs for TOC chapters 02 through 34.
 
 ## Index Inventory
 
