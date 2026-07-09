@@ -29,4 +29,4 @@
 
 ## Future Planning Notes
 
-- Round 1 planning should consider Artifact / Render / Publish execution boundaries in a future planning pass without changing current drafting readiness.
+- Intake 001 has been accepted for future Book 03 planning consideration, including possible Distillation Workflow, Artifact Execution Flow, Render Execution Flow, Publish Execution Boundary, and Human Review / Permission / Policy / Audit governance notes in a later planning pass. This does not change current drafting readiness and does not mark Book 03 as ready for full drafting.
