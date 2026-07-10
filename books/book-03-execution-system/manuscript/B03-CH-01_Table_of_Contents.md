@@ -2,7 +2,7 @@
 
 Working table of contents.
 
-Chapters 02–07 are the accepted Part I Draft 1 baseline. Chapter 08 is drafted and pending owner review. All drafted chapters remain subject to editorial compression, precise Book 02 dependency linking, glossary review, and final publication review.
+Chapters 02–08 are accepted Draft 1. Chapters 09–16 are complete as Part II Pack 02 Draft 1 and pending grouped owner review. All drafted chapters remain subject to editorial compression, precise Book 02 dependency linking, glossary review, and final publication review.
 
 ## 00 Preface
 
@@ -26,27 +26,29 @@ Draft 1 complete and accepted.
 
 ## Part II — Execution Architecture
 
-Drafting in progress.
+Draft 1 complete. Chapters 09–16 pending grouped owner review.
 
-08 Execution Layer Overview — Draft 1, pending owner review
+08 Execution Layer Overview — Draft 1, accepted
 
-09 Execution Object and State Model — next after Chapter 08 review
+09 Execution Object and State Model — Part II Pack 02 Draft 1
 
-10 Workflow Coordination Model
+10 Workflow Coordination Model — Part II Pack 02 Draft 1
 
-11 Task Lifecycle Model
+11 Task Lifecycle Model — Part II Pack 02 Draft 1
 
-12 Review and Approval Lifecycle
+12 Review and Approval Lifecycle — Part II Pack 02 Draft 1
 
-13 Communication Execution Boundary
+13 Communication Execution Boundary — Part II Pack 02 Draft 1
 
-14 Event Trace, Audit and Replay
+14 Event Trace, Audit and Replay — Part II Pack 02 Draft 1
 
-15 Permission and Policy Gates
+15 Permission and Policy Gates — Part II Pack 02 Draft 1
 
-16 Human-AI Execution Handoff
+16 Human-AI Execution Handoff — Part II Pack 02 Draft 1
 
 ## Part III — Execution Patterns
+
+Next after Part II Pack 02 review: Chapter 17.
 
 17 Intake Execution Pattern
 

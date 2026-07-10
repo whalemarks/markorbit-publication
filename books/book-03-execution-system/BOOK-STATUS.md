@@ -3,51 +3,68 @@
 - Status: Drafting
 - Round 0 Review result: Conditional Pass
 - Round 1 Review result: Pass with Targeted Fixes
-- Draft 1 decision: Chapters 02–07 accepted as the formal Part I Draft 1 on 2026-07-10.
-- Current phase: Part II drafting — Chapter 08
-- Drafted chapters: 02–08
-- Chapter 08 status: Draft 1 prepared; pending owner review
-- Next drafting target after review: Chapter 09 — Execution Object and State Model
-- Next gate: Chapter 08 Draft 1 review
+- Part I decision: Chapters 02–07 accepted as the formal Part I Draft 1 on 2026-07-10.
+- Chapter 08 decision: Accepted as Draft 1 through merged PR #14 on 2026-07-10.
+- Current phase: Part II Pack 02 review
+- Drafted chapters: 02–16
+- Part II Pack 02 scope: Chapters 09–16
+- Part II Pack 02 status: Draft 1 prepared; pending owner review
+- Next drafting target after review: Chapter 17 — Intake Execution Pattern
+- Next gate: Part II Pack 02 review
 
 ## Draft Status
 
-Part I — Execution System Foundation is complete as the accepted Draft 1 baseline.
+Part I — Execution System Foundation is the accepted Draft 1 baseline.
 
-Part II — Execution Architecture has begun with Chapter 08 — Execution Layer Overview. Chapters 02–08 contain approximately 21,600 English words in total.
+Part II — Execution Architecture is complete at Draft 1 level:
 
-Draft 1 is an active manuscript baseline. It is not publication-ready text, implementation authority, a replacement for Book 02 Core contracts, or approval of new Core architecture.
+- Chapter 08 is accepted.
+- Chapters 09–16 are prepared as one grouped branch and review pack.
 
-## Chapter 08 Draft Result
+Chapters 02–16 contain approximately 43,900 English words in total. The Part II Pack 02 chapters contain approximately 22,310 English words.
 
-Chapter 08:
+Draft 1 is not publication-ready text, implementation authority, a replacement for Book 02 Core contracts, or approval of new Core architecture.
 
-- maps nine conceptual Execution responsibility areas;
-- distinguishes coordination from Core ownership;
-- defines preview, apply, review-return, and failure/retry paths;
-- maps the layer to Book 02 workflow, contract, governance, and implementation-depth sources;
-- establishes the detailed scope of Chapters 09–16;
-- adds direct Markdown references to fourteen Book 02 and Book 03 dependency files.
+## Part II Pack 02 Result
 
-The component names are responsibility areas only. They do not create new Core services, APIs, schemas, queues, workers, or Product modules.
+The pack defines:
+
+- Execution Object and State Model;
+- Workflow Coordination Model;
+- Task Lifecycle Model;
+- Review and Approval Lifecycle;
+- Communication Execution Boundary;
+- Event Trace, Audit and Replay;
+- Permission and Policy Gates;
+- Human–AI Execution Handoff.
+
+The pack preserves Core ownership, service-owned mutation, separate state sources, Human Review accountability, no-direct-Event-emission rules, AI assistance limits, and Book 04 Product ownership.
+
+## Known Book 02 Dependency Gap
+
+The Book 02 Object Index declares Workflow State, Workflow Transition, Task Status, Matter Status, Order Status, Trademark Status and related objects. Some companion object files referenced by existing specs are not present at their expected canonical paths.
+
+Book 03 does not fill these gaps. Chapter 09 relies on existing Object indexes, primary Object specs, Common Contracts and API/Workflow Contracts, and routes missing Core definitions back to Book 02.
 
 ## Follow-Up Before Publication Review
 
-- Reduce repeated boundary and governance language across Chapters 02–07.
-- Extend Chapter 08's precise Book 02 dependency-linking standard to later chapters and the earlier Part I draft.
-- Replace placeholder entries in the Execution Glossary with reviewed working definitions.
-- Review Chapter 08 for architectural accuracy and editorial length.
-- Run full repository validation after the next editorial and dependency-linking pass.
-- Keep future Distillery and Artifact / Render / Edit / Publish material within the accepted Intake 001 planning safeguards.
+- Reduce repeated boundary language across Part I.
+- Review Chapter 08 and Chapter 09 for editorial compression.
+- Validate terminology introduced as conceptual views or responsibility labels.
+- Extend precise Book 02 dependency linking to Part I.
+- Replace placeholder Execution Glossary entries with reviewed working definitions.
+- Resolve or record Book 02 missing companion Object specifications.
+- Run repository-local validators after checkout-based review.
+- Keep future Distillery and Artifact / Render / Edit / Publish material within Intake 001 safeguards.
 
 ## Drafting Boundary
 
-Chapter 09 may begin after Chapter 08 Draft 1 review. New chapters must:
+Chapter 17 may begin after Part II Pack 02 review. New chapters must:
 
 - consume Book 02 without redefining Core;
 - preserve Book 04 ownership of Product UI and product surfaces;
+- preserve the Part II state, workflow, Task, review, Communication, Event, gate and Human–AI boundaries;
 - identify protected actions and required Human Review;
-- keep AI and agents within assistance boundaries;
 - avoid implementation code, service design, API schemas, and tool-defined architecture.
 
 ## Future Planning Notes

@@ -18,6 +18,8 @@ Book 03 is in active drafting.
 
 Part I — Execution System Foundation, Chapters 02–07, is the accepted Draft 1 baseline.
 
-Part II — Execution Architecture has begun. Chapter 08 — Execution Layer Overview is drafted and pending owner review. Chapter 09 — Execution Object and State Model is the next drafting target after that review.
+Part II — Execution Architecture, Chapters 08–16, is complete at Draft 1 level. Chapter 08 is accepted; Chapters 09–16 are grouped as Part II Pack 02 and are pending owner review.
 
-Draft 1 is not final publication text and must not be treated as implementation authority or as a replacement for Book 02 Core contracts. Editorial compression, precise dependency references, and reviewed glossary definitions remain required before publication review.
+Chapter 17 — Intake Execution Pattern is the next drafting target after Part II Pack 02 review.
+
+Draft 1 is not final publication text and must not be treated as implementation authority or as a replacement for Book 02 Core contracts. Editorial compression, dependency resolution, precise source references, and reviewed glossary definitions remain required before publication review.
