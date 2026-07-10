@@ -5,15 +5,15 @@
 - Title: Book 03 — MarkOrbit Execution System
 - Chinese title: Book 03 — MarkOrbit 执行系统
 - Canonical path: `books/book-03-execution-system/`
-- Status: Planning — Round 1 Fix Pack 01
+- Status: Drafting — Part I Draft 1
 - Positioning: Defines how Core contracts become governed operational execution.
 
 ## Directory Purpose
 
-- `manuscript/` contains scaffold-only manuscript placeholders.
-- `planning/` contains Round 0 planning scaffolds and review preparation notes.
-- `reviews/` contains future Book 03 review records.
-- `indexes/` contains future execution-domain and execution-model indexes.
+- `manuscript/` contains the active manuscript, working table of contents, and remaining scaffold content.
+- `planning/` contains approved planning inputs, boundary notes, chapter briefs, and earlier review preparation.
+- `reviews/` contains Book 03 review and reconciliation records.
+- `indexes/` contains execution-domain and execution-model indexes, including placeholders that still require review.
 - `assets/` contains future Book 03 publication assets.
 - `assets/diagrams/` contains future diagram assets.
 - `templates/` contains Book 03 planning, chapter, and review templates.
@@ -21,7 +21,15 @@
 ## Manuscript Inventory
 
 - `manuscript/B03-CH-00_Preface.md` — scaffold only.
-- `manuscript/B03-CH-01_Table_of_Contents.md` — draft table-of-contents scaffold only.
+- `manuscript/B03-CH-01_Table_of_Contents.md` — active working table of contents.
+- `manuscript/B03-CH-02_Why_Execution_System_Exists.md` — Part I Draft 1.
+- `manuscript/B03-CH-03_Position_Between_Core_and_Product.md` — Part I Draft 1.
+- `manuscript/B03-CH-04_Execution_Principles.md` — Part I Draft 1.
+- `manuscript/B03-CH-05_Execution_Boundary.md` — Part I Draft 1.
+- `manuscript/B03-CH-06_Execution_Context.md` — Part I Draft 1.
+- `manuscript/B03-CH-07_From_Core_Contracts_to_Execution_Runtime.md` — Part I Draft 1.
+
+Chapters 02–07 are the formal Part I Draft 1 baseline. They are not final publication text or authority to redefine Book 02 Core contracts.
 
 ## Planning Inventory
 
@@ -37,15 +45,17 @@
 - `planning/B03-PLN-0010_Event_Trace_Audit_Replay.md` — event trace, audit, and replay planning file.
 - `planning/B03-PLN-0011_Chapter_Briefs.md` — concise briefs for TOC chapters 02 through 34.
 
+## Review Inventory
+
+- `reviews/B03-REV-0001_Part_I_Draft_1_Reconciliation.md` — records the decision and follow-up requirements for the Part I Draft 1 baseline.
+
 ## Index Inventory
 
 - `indexes/communication-index.md` — communication index scaffold.
-- `indexes/event-trace-index.md` — event trace index scaffold.
+- `indexes/event-trace-index.md` — event-trace index scaffold.
 - `indexes/execution-domain-index.md` — execution-domain index scaffold.
-- `indexes/execution-glossary-index.md` — execution glossary index scaffold.
+- `indexes/execution-glossary-index.md` — execution glossary index; working definitions remain pending.
 - `indexes/human-ai-collaboration-index.md` — human-AI collaboration index scaffold.
 - `indexes/review-index.md` — review index scaffold.
 - `indexes/task-index.md` — task index scaffold.
 - `indexes/workflow-index.md` — workflow index scaffold.
-
-No full chapter content is included in this scaffold.
