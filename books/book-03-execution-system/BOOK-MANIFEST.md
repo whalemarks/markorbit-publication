@@ -5,7 +5,7 @@
 - Title: Book 03 — MarkOrbit Execution System
 - Chinese title: Book 03 — MarkOrbit 执行系统
 - Canonical path: `books/book-03-execution-system/`
-- Status: Drafting — Part I Draft 1
+- Status: Drafting — Part II Chapter 08
 - Positioning: Defines how Core contracts become governed operational execution.
 
 ## Directory Purpose
@@ -28,8 +28,9 @@
 - `manuscript/B03-CH-05_Execution_Boundary.md` — Part I Draft 1.
 - `manuscript/B03-CH-06_Execution_Context.md` — Part I Draft 1.
 - `manuscript/B03-CH-07_From_Core_Contracts_to_Execution_Runtime.md` — Part I Draft 1.
+- `manuscript/B03-CH-08_Execution_Layer_Overview.md` — Part II Draft 1; pending owner review.
 
-Chapters 02–07 are the formal Part I Draft 1 baseline. They are not final publication text or authority to redefine Book 02 Core contracts.
+Chapters 02–07 are the accepted Part I Draft 1 baseline. Chapter 08 begins Part II and is ready for owner review. None of these chapters is final publication text or authority to redefine Book 02 Core contracts.
 
 ## Planning Inventory
 
@@ -48,6 +49,7 @@ Chapters 02–07 are the formal Part I Draft 1 baseline. They are not final publ
 ## Review Inventory
 
 - `reviews/B03-REV-0001_Part_I_Draft_1_Reconciliation.md` — records the decision and follow-up requirements for the Part I Draft 1 baseline.
+- `reviews/B03-REV-0002_CH08_Draft_1_Review.md` — records Chapter 08 scope, dependency validation, findings, and pending owner review.
 
 ## Index Inventory
 
