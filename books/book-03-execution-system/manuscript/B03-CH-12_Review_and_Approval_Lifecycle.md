@@ -53,7 +53,6 @@ It consumes:
 - [Error Contract](../../book-02-core-specification/core-specs/contracts/common/errors.md)
 - [Task API Contract](../../book-02-core-specification/core-specs/contracts/api/task-api-contract.md)
 - [Workflow Contract API Contract](../../book-02-core-specification/core-specs/contracts/api/workflow-contract-api-contract.md)
-- [Communication API Contract](../../book-02-core-specification/core-specs/contracts/api/communication-api-contract.md)
 - [Review Gate Model](../planning/B03-PLN-0008_Review_Gate_Model.md)
 
 Book 03 consumes the Human Review Contract. It does not create new review decisions, reviewer authority or approval semantics.
