@@ -2,7 +2,7 @@
 
 Working table of contents.
 
-Chapters 02–07 are accepted as the formal Part I Draft 1 baseline. They remain subject to editorial compression, precise Book 02 dependency linking, glossary review, and final publication review. Chapter 08 is the next drafting target.
+Chapters 02–07 are the accepted Part I Draft 1 baseline. Chapter 08 is drafted and pending owner review. All drafted chapters remain subject to editorial compression, precise Book 02 dependency linking, glossary review, and final publication review.
 
 ## 00 Preface
 
@@ -10,7 +10,7 @@ Chapters 02–07 are accepted as the formal Part I Draft 1 baseline. They remain
 
 ## Part I — Execution System Foundation
 
-Draft 1 complete.
+Draft 1 complete and accepted.
 
 02 Why Execution System Exists
 
@@ -26,11 +26,11 @@ Draft 1 complete.
 
 ## Part II — Execution Architecture
 
-Not yet drafted. Next: Chapter 08.
+Drafting in progress.
 
-08 Execution Layer Overview
+08 Execution Layer Overview — Draft 1, pending owner review
 
-09 Execution Object and State Model
+09 Execution Object and State Model — next after Chapter 08 review
 
 10 Workflow Coordination Model
 
