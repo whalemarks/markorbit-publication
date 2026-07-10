@@ -55,7 +55,6 @@ It consumes:
 - [Error Contract](../../book-02-core-specification/core-specs/contracts/common/errors.md)
 - [Versioning Contract](../../book-02-core-specification/core-specs/contracts/common/versioning.md)
 - [AI Context Contract](../../book-02-core-specification/core-specs/contracts/common/ai-context.md)
-- [Implementation Depth Matrix](../../book-02-core-specification/core-specs/implementation/implementation-depth-matrix.md)
 - [Developer Start Here](../../book-02-core-specification/core-specs/DEVELOPER_START_HERE.md)
 
 Book 03 consumes decisions and coordinates enforcement. It does not define or evaluate rules.
