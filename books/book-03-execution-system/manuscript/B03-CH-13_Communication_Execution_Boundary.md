@@ -54,7 +54,6 @@ This chapter extends:
 It consumes:
 
 - [Communication Object](../../book-02-core-specification/core-specs/objects/communication.md)
-- [Communication API Contract](../../book-02-core-specification/core-specs/contracts/api/communication-api-contract.md)
 - [Human Review Contract](../../book-02-core-specification/core-specs/contracts/common/human-review.md)
 - [Permission Context Contract](../../book-02-core-specification/core-specs/contracts/common/permission-context.md)
 - [Policy Context Contract](../../book-02-core-specification/core-specs/contracts/common/policy-context.md)
@@ -65,7 +64,6 @@ It consumes:
 - [Error Contract](../../book-02-core-specification/core-specs/contracts/common/errors.md)
 - [Versioning Contract](../../book-02-core-specification/core-specs/contracts/common/versioning.md)
 - [Communication Review Workflow Contract](../../book-02-core-specification/core-specs/contracts/workflows/communication-review-workflow-contract.md)
-- [Communication Boundary Planning](../planning/B03-PLN-0009_Communication_Boundary.md)
 
 Book 03 uses existing Communication states and contract outcomes. It does not create a second messaging model.
 
