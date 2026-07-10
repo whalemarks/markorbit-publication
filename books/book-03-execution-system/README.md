@@ -16,6 +16,8 @@ Workplace is a future product surface. It is not the subject of Book 03, and Boo
 
 Book 03 is in active drafting.
 
-Part I — Execution System Foundation, Chapters 02–07, is accepted as the formal Draft 1 baseline. Chapter 08 — Execution Layer Overview is the next drafting target.
+Part I — Execution System Foundation, Chapters 02–07, is the accepted Draft 1 baseline.
 
-Draft 1 is not final publication text and must not be treated as implementation authority or as a replacement for Book 02 Core contracts. Editorial compression, precise Book 02 dependency references, and reviewed glossary definitions remain required before publication review.
+Part II — Execution Architecture has begun. Chapter 08 — Execution Layer Overview is drafted and pending owner review. Chapter 09 — Execution Object and State Model is the next drafting target after that review.
+
+Draft 1 is not final publication text and must not be treated as implementation authority or as a replacement for Book 02 Core contracts. Editorial compression, precise dependency references, and reviewed glossary definitions remain required before publication review.
