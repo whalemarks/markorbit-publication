@@ -50,7 +50,6 @@ Chapters 02–08 are accepted Draft 1. Chapters 09–16 complete Part II at Draf
 - `planning/B03-PLN-0006_Book_04_Boundary_Map.md` — Book 04 boundary map scaffold.
 - `planning/B03-PLN-0007_MVP_Execution_Boundary.md` — MVP execution boundary planning file.
 - `planning/B03-PLN-0008_Review_Gate_Model.md` — review gate model planning file.
-- `planning/B03-PLN-0009_Communication_Boundary.md` — communication boundary planning file.
 - `planning/B03-PLN-0010_Event_Trace_Audit_Replay.md` — event trace, audit, and replay planning file.
 - `planning/B03-PLN-0011_Chapter_Briefs.md` — concise briefs for TOC chapters 02 through 34.
 
