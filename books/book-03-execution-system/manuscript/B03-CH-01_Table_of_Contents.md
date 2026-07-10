@@ -1,12 +1,16 @@
 # Book 03 — MarkOrbit Execution System
 
-Draft table of contents only. This scaffold is subject to Book 03 Round 0 Fix Pack 01 review and approval before drafting.
+Working table of contents.
+
+Chapters 02–07 are accepted as the formal Part I Draft 1 baseline. They remain subject to editorial compression, precise Book 02 dependency linking, glossary review, and final publication review. Chapter 08 is the next drafting target.
 
 ## 00 Preface
 
 ## 01 Table of Contents
 
 ## Part I — Execution System Foundation
+
+Draft 1 complete.
 
 02 Why Execution System Exists
 
@@ -21,6 +25,8 @@ Draft table of contents only. This scaffold is subject to Book 03 Round 0 Fix Pa
 07 From Core Contracts to Execution Runtime
 
 ## Part II — Execution Architecture
+
+Not yet drafted. Next: Chapter 08.
 
 08 Execution Layer Overview
 
