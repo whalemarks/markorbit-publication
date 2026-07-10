@@ -1,6 +1,6 @@
 # Book 03 — MarkOrbit Execution System
 
-Book 03 is the MarkOrbit Execution System book. It defines how MarkOrbit turns Book 02 Core contracts into governed operational execution across workflows, tasks, reviews, communications, events, and human-AI collaboration.
+Book 03 defines how MarkOrbit turns Book 02 Core contracts into governed operational execution across workflows, tasks, reviews, communications, events, and human-AI collaboration.
 
 ## Position in the Series
 
@@ -8,10 +8,14 @@ Book 03 sits between Book 02 and Book 04:
 
 - Book 02 — MarkOrbit Core Specification defines Core contracts, domains, architecture, and canonical rules.
 - Book 03 — MarkOrbit Execution System defines execution coordination that consumes those Core contracts.
-- Book 04 — MarkOrbit Product System is reserved for product-system and product-surface definition.
+- Book 04 — MarkOrbit Product System defines product systems, product surfaces, and UI/UX.
 
-Workplace is a future product surface. It is not the subject of Book 03, and this scaffold does not define Workplace UI, product behavior, or implementation details.
+Workplace is a future product surface. It is not the subject of Book 03, and Book 03 does not define Workplace UI or product behavior.
 
-## Scaffold Status
+## Drafting Status
 
-This directory is a foundation scaffold only. Manuscript and planning files are placeholders for review-driven development and must not be treated as final chapter content.
+Book 03 is in active drafting.
+
+Part I — Execution System Foundation, Chapters 02–07, is accepted as the formal Draft 1 baseline. Chapter 08 — Execution Layer Overview is the next drafting target.
+
+Draft 1 is not final publication text and must not be treated as implementation authority or as a replacement for Book 02 Core contracts. Editorial compression, precise Book 02 dependency references, and reviewed glossary definitions remain required before publication review.
