@@ -57,7 +57,6 @@ It consumes:
 - [Versioning Contract](../../book-02-core-specification/core-specs/contracts/common/versioning.md)
 - [Core Traceability Matrix](../../book-02-core-specification/core-specs/TRACEABILITY.md)
 - [MVP Cut v0.1](../../book-02-core-specification/core-specs/implementation/mvp-cut-v0.1.md)
-- [Implementation Depth Matrix](../../book-02-core-specification/core-specs/implementation/implementation-depth-matrix.md)
 
 Book 03 coordinates only approved Workflow Contracts and existing controlled outcomes. Missing Workflow or transition definitions remain Book 02 dependencies.
 
