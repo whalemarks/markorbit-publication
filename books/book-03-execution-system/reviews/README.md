@@ -1,3 +1,7 @@
 # Book 03 Reviews
 
-This directory will contain Book 03 review records. Round 0 review materials are pending.
+This directory contains Book 03 review and reconciliation records.
+
+## Review Inventory
+
+- `B03-REV-0001_Part_I_Draft_1_Reconciliation.md` — records acceptance of Chapters 02–07 as the formal Part I Draft 1 baseline, identifies remaining quality work, and authorizes Chapter 08 as the next drafting target.
