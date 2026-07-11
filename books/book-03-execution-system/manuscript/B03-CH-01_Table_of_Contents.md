@@ -2,7 +2,7 @@
 
 Working table of contents.
 
-Chapters 02–08 are accepted Draft 1. Chapters 09–16 are complete as Part II Pack 02 Draft 1 and pending grouped owner review. All drafted chapters remain subject to editorial compression, precise Book 02 dependency linking, glossary review, and final publication review.
+Chapters 02–16 are accepted Draft 1. Part III Pack 03 groups Chapters 17–24; Chapter 17 is drafted and Chapter 18 is next. All drafted chapters remain subject to editorial compression, precise Book 02 dependency linking, glossary review, and final publication review.
 
 ## 00 Preface
 
@@ -26,33 +26,33 @@ Draft 1 complete and accepted.
 
 ## Part II — Execution Architecture
 
-Draft 1 complete. Chapters 09–16 pending grouped owner review.
+Draft 1 complete and accepted.
 
 08 Execution Layer Overview — Draft 1, accepted
 
-09 Execution Object and State Model — Part II Pack 02 Draft 1
+09 Execution Object and State Model — Draft 1, accepted
 
-10 Workflow Coordination Model — Part II Pack 02 Draft 1
+10 Workflow Coordination Model — Draft 1, accepted
 
-11 Task Lifecycle Model — Part II Pack 02 Draft 1
+11 Task Lifecycle Model — Draft 1, accepted
 
-12 Review and Approval Lifecycle — Part II Pack 02 Draft 1
+12 Review and Approval Lifecycle — Draft 1, accepted
 
-13 Communication Execution Boundary — Part II Pack 02 Draft 1
+13 Communication Execution Boundary — Draft 1, accepted
 
-14 Event Trace, Audit and Replay — Part II Pack 02 Draft 1
+14 Event Trace, Audit and Replay — Draft 1, accepted
 
-15 Permission and Policy Gates — Part II Pack 02 Draft 1
+15 Permission and Policy Gates — Draft 1, accepted
 
-16 Human-AI Execution Handoff — Part II Pack 02 Draft 1
+16 Human-AI Execution Handoff — Draft 1, accepted
 
 ## Part III — Execution Patterns
 
-Next after Part II Pack 02 review: Chapter 17.
+Pack 03 in progress. Chapters 17–24 share one grouped branch and review unit.
 
-17 Intake Execution Pattern
+17 Intake Execution Pattern — Part III Pack 03 Draft 1
 
-18 Application Preparation Pattern
+18 Application Preparation Pattern — next drafting target
 
 19 Communication Review Pattern
 
