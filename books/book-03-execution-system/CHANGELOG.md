@@ -5,6 +5,7 @@
 - Accepted Part II Pack 02, Chapters 09–16, through merged PR #15.
 - Added Chapter 17 — Intake Execution Pattern as the first chapter of grouped Part III Pack 03.
 - Added Chapter 18 — Application Preparation Pattern, preserving the separation among preparation, professional review, filing authorization and official submission.
+- Added Chapter 19 — Communication Review Pattern, preserving version-bound review and the separate Communication Service send boundary.
 
 ## Unreleased
 
