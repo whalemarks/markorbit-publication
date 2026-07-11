@@ -7,10 +7,10 @@
 - Chapter 08 decision: Accepted as Draft 1 through merged PR #14 on 2026-07-10.
 - Part II decision: Chapters 09–16 accepted as Draft 1 through merged PR #15 on 2026-07-11.
 - Current phase: Part III Pack 03 drafting
-- Drafted chapters: 02–19
+- Drafted chapters: 02–20
 - Part III Pack 03 scope: Chapters 17–24
-- Part III Pack 03 status: Chapters 17–19 drafted; pack in progress
-- Next drafting target: Chapter 20 — Provider Routing Preparation Pattern
+- Part III Pack 03 status: Chapters 17–20 drafted; pack in progress
+- Next drafting target: Chapter 21 — Office Action Response Preparation Pattern
 - Next gate: Complete Chapters 17–24 and prepare grouped Pack 03 review
 
 ## Draft Status
@@ -19,10 +19,10 @@ Parts I and II are accepted Draft 1 baselines.
 
 Part III — Execution Patterns is in progress:
 
-- Chapters 17–19 are drafted.
-- Chapters 20–24 remain to be drafted on the same grouped branch.
+- Chapters 17–20 are drafted.
+- Chapters 21–24 remain to be drafted on the same grouped branch.
 
-Chapters 02–19 contain approximately 56,500 English words in total. Part III Pack 03 currently contains approximately 12,635 English words.
+Chapters 02–20 contain approximately 60,400 English words in total. Part III Pack 03 currently contains approximately 16,529 English words.
 
 Draft 1 is not publication-ready text, implementation authority, a replacement for Book 02 Core contracts, or approval of new Core architecture.
 
@@ -63,6 +63,10 @@ Chapter 18 separates application workspace preparation, professional review, fil
 
 Chapter 19 operationalizes Communication review as Draft → Preview → Human Review → version-bound decision → Communication Service status update → separate send boundary. Approval for send remains distinct from transmission, delivery and recipient acceptance.
 
+## Chapter 20 Result
+
+Chapter 20 preserves Provider Routing as a current MVP preview-only stub. It separates discovery, eligibility, comparison, recommendation, Human Review, selection, engagement and instruction; apply remains disabled and no provider, Task, Communication, commitment, payment or Event is created.
+
 ## Known Book 02 Dependency Gap
 
 The Book 02 Object Index declares Workflow State, Workflow Transition, Task Status, Matter Status, Order Status, Trademark Status and related objects. Some companion object files referenced by existing specs are not present at their expected canonical paths.
@@ -82,7 +86,7 @@ Book 03 does not fill these gaps. It relies on existing indexes, primary Object 
 
 ## Drafting Boundary
 
-Chapter 20 may proceed on the Part III Pack 03 branch. New pattern chapters must:
+Chapter 21 may proceed on the Part III Pack 03 branch. New pattern chapters must:
 
 - consume the corresponding Book 02 Workflow Specification and Workflow Contract;
 - distinguish preview, apply and protected downstream action;
