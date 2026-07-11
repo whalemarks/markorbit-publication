@@ -2,7 +2,7 @@
 
 Working table of contents.
 
-Chapters 02–16 are accepted Draft 1. Part III Pack 03 groups Chapters 17–24; Chapters 17–23 are drafted and Chapter 24 is next. All drafted chapters remain subject to editorial compression, precise Book 02 dependency linking, glossary review, and final publication review.
+Chapters 02–16 are accepted Draft 1. Part III Pack 03 groups Chapters 17–24; all eight chapters are Draft 1 and pending grouped owner review. Drafted chapters remain subject to editorial compression, precise Book 02 dependency linking, glossary review and final publication review.
 
 ## 00 Preface
 
@@ -48,7 +48,7 @@ Draft 1 complete and accepted.
 
 ## Part III — Execution Patterns
 
-Pack 03 in progress. Chapters 17–24 share one grouped branch and review unit.
+Pack 03 Draft 1 complete; grouped owner review pending.
 
 17 Intake Execution Pattern — Part III Pack 03 Draft 1
 
@@ -64,11 +64,11 @@ Pack 03 in progress. Chapters 17–24 share one grouped branch and review unit.
 
 23 Assignment Preparation Pattern — Part III Pack 03 Draft 1
 
-24 Evidence Review Preparation Pattern — next drafting target
+24 Evidence Review Preparation Pattern — Part III Pack 03 Draft 1
 
 ## Part IV — Execution Governance
 
-25 Idempotency and Retry Governance
+25 Idempotency and Retry Governance — next after Pack 03 acceptance
 
 26 Error Handling and Safe Failure
 
