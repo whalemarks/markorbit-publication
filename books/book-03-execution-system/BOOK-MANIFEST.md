@@ -5,7 +5,7 @@
 - Title: Book 03 — MarkOrbit Execution System
 - Chinese title: Book 03 — MarkOrbit 执行系统
 - Canonical path: `books/book-03-execution-system/`
-- Status: Drafting — Part II Draft 1 complete; Pack 02 pending review
+- Status: Drafting — Parts I–II accepted; Part III Pack 03 in progress
 - Positioning: Defines how Core contracts become governed operational execution.
 
 ## Directory Purpose
@@ -29,16 +29,17 @@
 - `manuscript/B03-CH-06_Execution_Context.md` — Part I Draft 1, accepted.
 - `manuscript/B03-CH-07_From_Core_Contracts_to_Execution_Runtime.md` — Part I Draft 1, accepted.
 - `manuscript/B03-CH-08_Execution_Layer_Overview.md` — Part II Draft 1, accepted.
-- `manuscript/B03-CH-09_Execution_Object_and_State_Model.md` — Part II Pack 02 Draft 1, pending owner review.
-- `manuscript/B03-CH-10_Workflow_Coordination_Model.md` — Part II Pack 02 Draft 1, pending owner review.
-- `manuscript/B03-CH-11_Task_Lifecycle_Model.md` — Part II Pack 02 Draft 1, pending owner review.
-- `manuscript/B03-CH-12_Review_and_Approval_Lifecycle.md` — Part II Pack 02 Draft 1, pending owner review.
-- `manuscript/B03-CH-13_Communication_Execution_Boundary.md` — Part II Pack 02 Draft 1, pending owner review.
-- `manuscript/B03-CH-14_Event_Trace_Audit_and_Replay.md` — Part II Pack 02 Draft 1, pending owner review.
-- `manuscript/B03-CH-15_Permission_and_Policy_Gates.md` — Part II Pack 02 Draft 1, pending owner review.
-- `manuscript/B03-CH-16_Human_AI_Execution_Handoff.md` — Part II Pack 02 Draft 1, pending owner review.
+- `manuscript/B03-CH-09_Execution_Object_and_State_Model.md` — Part II Draft 1, accepted.
+- `manuscript/B03-CH-10_Workflow_Coordination_Model.md` — Part II Draft 1, accepted.
+- `manuscript/B03-CH-11_Task_Lifecycle_Model.md` — Part II Draft 1, accepted.
+- `manuscript/B03-CH-12_Review_and_Approval_Lifecycle.md` — Part II Draft 1, accepted.
+- `manuscript/B03-CH-13_Communication_Execution_Boundary.md` — Part II Draft 1, accepted.
+- `manuscript/B03-CH-14_Event_Trace_Audit_and_Replay.md` — Part II Draft 1, accepted.
+- `manuscript/B03-CH-15_Permission_and_Policy_Gates.md` — Part II Draft 1, accepted.
+- `manuscript/B03-CH-16_Human_AI_Execution_Handoff.md` — Part II Draft 1, accepted.
+- `manuscript/B03-CH-17_Intake_Execution_Pattern.md` — Part III Pack 03 Draft 1, pack in progress.
 
-Chapters 02–08 are accepted Draft 1. Chapters 09–16 complete Part II at Draft 1 level and are ready for grouped owner review. None of these chapters is final publication text or authority to redefine Book 02 Core contracts.
+Chapters 02–16 are accepted Draft 1. Chapter 17 begins Part III Pack 03 on a grouped Chapters 17–24 branch. None of these chapters is final publication text or authority to redefine Book 02 Core contracts.
 
 ## Planning Inventory
 
@@ -57,7 +58,7 @@ Chapters 02–08 are accepted Draft 1. Chapters 09–16 complete Part II at Draf
 
 - `reviews/B03-REV-0001_Part_I_Draft_1_Reconciliation.md` — records acceptance of the Part I Draft 1 baseline.
 - `reviews/B03-REV-0002_CH08_Draft_1_Review.md` — records Chapter 08 review and acceptance.
-- `reviews/B03-REV-0003_Part_II_Pack_02_Review.md` — records grouped review of Chapters 09–16.
+- `reviews/B03-REV-0003_Part_II_Pack_02_Review.md` — records acceptance of Chapters 09–16 through merged PR #15.
 
 ## Index Inventory
 
