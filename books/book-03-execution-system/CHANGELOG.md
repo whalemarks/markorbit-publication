@@ -1,5 +1,10 @@
 # Book 03 Changelog
 
+## 2026-07-11
+
+- Accepted Part II Pack 02, Chapters 09–16, through merged PR #15.
+- Added Chapter 17 — Intake Execution Pattern as the first chapter of grouped Part III Pack 03.
+
 ## Unreleased
 
 - Added Part II Pack 02 with Chapters 09–16: Execution Object and State, Workflow Coordination, Task Lifecycle, Review and Approval, Communication Execution, Event Trace/Audit/Replay, Permission/Policy Gates, and Human–AI Execution Handoff.
