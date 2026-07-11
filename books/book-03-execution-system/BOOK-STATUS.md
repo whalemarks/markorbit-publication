@@ -7,10 +7,10 @@
 - Chapter 08 decision: Accepted as Draft 1 through merged PR #14 on 2026-07-10.
 - Part II decision: Chapters 09–16 accepted as Draft 1 through merged PR #15 on 2026-07-11.
 - Current phase: Part III Pack 03 drafting
-- Drafted chapters: 02–17
+- Drafted chapters: 02–18
 - Part III Pack 03 scope: Chapters 17–24
-- Part III Pack 03 status: Chapter 17 drafted; pack in progress
-- Next drafting target: Chapter 18 — Application Preparation Pattern
+- Part III Pack 03 status: Chapters 17–18 drafted; pack in progress
+- Next drafting target: Chapter 19 — Communication Review Pattern
 - Next gate: Complete Chapters 17–24 and prepare grouped Pack 03 review
 
 ## Draft Status
@@ -19,10 +19,10 @@ Parts I and II are accepted Draft 1 baselines.
 
 Part III — Execution Patterns is in progress:
 
-- Chapter 17 — Intake Execution Pattern is drafted.
-- Chapters 18–24 remain to be drafted on the same grouped branch.
+- Chapters 17–18 are drafted.
+- Chapters 19–24 remain to be drafted on the same grouped branch.
 
-Chapters 02–17 contain approximately 48,000 English words in total. Chapter 17 contains approximately 4,119 English words.
+Chapters 02–18 contain approximately 52,700 English words in total. Part III Pack 03 currently contains approximately 8,840 English words.
 
 Draft 1 is not publication-ready text, implementation authority, a replacement for Book 02 Core contracts, or approval of new Core architecture.
 
@@ -55,6 +55,10 @@ Chapter 17 defines Intake as a governed preparation pattern:
 - missing information is a normal recoverable outcome;
 - successful intake does not authorize filing, payment, provider commitment or external send.
 
+## Chapter 18 Result
+
+Chapter 18 separates application workspace preparation, professional review, filing authorization and official submission. It coordinates applicant, mark, jurisdiction, Classification, Document, Evidence, Matter, Order and Task readiness without permitting autonomous professional finalization, payment, provider commitment or official filing.
+
 ## Known Book 02 Dependency Gap
 
 The Book 02 Object Index declares Workflow State, Workflow Transition, Task Status, Matter Status, Order Status, Trademark Status and related objects. Some companion object files referenced by existing specs are not present at their expected canonical paths.
@@ -74,7 +78,7 @@ Book 03 does not fill these gaps. It relies on existing indexes, primary Object 
 
 ## Drafting Boundary
 
-Chapter 18 may proceed on the Part III Pack 03 branch. New pattern chapters must:
+Chapter 19 may proceed on the Part III Pack 03 branch. New pattern chapters must:
 
 - consume the corresponding Book 02 Workflow Specification and Workflow Contract;
 - distinguish preview, apply and protected downstream action;
