@@ -2,9 +2,9 @@
 
 ## Review Status
 
-Ready for grouped owner review.
+Accepted through merged PR #15 on 2026-07-11.
 
-This review covers Chapters 09–16 on one branch and in one pull request. It does not mark the chapters as final or accepted.
+This review covers Chapters 09–16 on one branch and in one pull request. The pack is accepted as Draft 1; it is not final publication text.
 
 ## Scope
 
@@ -137,4 +137,4 @@ The branch validation must confirm:
 
 ## Next Action
 
-If Part II Pack 02 is accepted and merged, begin Part III as a grouped execution-pattern pack starting with Chapter 17 — Intake Execution Pattern.
+Part II Pack 02 was accepted and merged. Part III now proceeds as grouped Pack 03 covering Chapters 17–24, beginning with Chapter 17 — Intake Execution Pattern.
