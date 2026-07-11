@@ -6,6 +6,7 @@
 - Added Chapter 17 — Intake Execution Pattern as the first chapter of grouped Part III Pack 03.
 - Added Chapter 18 — Application Preparation Pattern, preserving the separation among preparation, professional review, filing authorization and official submission.
 - Added Chapter 19 — Communication Review Pattern, preserving version-bound review and the separate Communication Service send boundary.
+- Added Chapter 20 — Provider Routing Preparation Pattern, preserving the current preview-only stub depth and prohibiting provider selection or engagement.
 
 ## Unreleased
 
