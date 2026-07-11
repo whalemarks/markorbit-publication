@@ -40,8 +40,9 @@
 - `manuscript/B03-CH-17_Intake_Execution_Pattern.md` — Part III Pack 03 Draft 1, pack in progress.
 - `manuscript/B03-CH-18_Application_Preparation_Pattern.md` — Part III Pack 03 Draft 1, pack in progress.
 - `manuscript/B03-CH-19_Communication_Review_Pattern.md` — Part III Pack 03 Draft 1, pack in progress.
+- `manuscript/B03-CH-20_Provider_Routing_Preparation_Pattern.md` — Part III Pack 03 Draft 1, pack in progress.
 
-Chapters 02–16 are accepted Draft 1. Chapters 17–19 are drafted on the grouped Part III Pack 03 branch covering Chapters 17–24. None of these chapters is final publication text or authority to redefine Book 02 Core contracts.
+Chapters 02–16 are accepted Draft 1. Chapters 17–20 are drafted on the grouped Part III Pack 03 branch covering Chapters 17–24. None of these chapters is final publication text or authority to redefine Book 02 Core contracts.
 
 ## Planning Inventory
 
