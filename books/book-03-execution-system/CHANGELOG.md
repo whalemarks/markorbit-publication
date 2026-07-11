@@ -9,6 +9,7 @@
 - Added Chapter 20 — Provider Routing Preparation Pattern, preserving the current preview-only stub depth and prohibiting provider selection or engagement.
 - Added Chapter 21 — Office Action Response Preparation Pattern, separating notice extraction and deadline context from professional strategy, review and official submission.
 - Added Chapter 22 — Renewal Preparation Pattern, separating lifecycle signals and renewal windows from certified deadlines, payment and official filing.
+- Added Chapter 23 — Assignment Preparation Pattern, separating transaction documents and signatures from legal effect, recordal and owner-state mutation.
 
 ## Unreleased
 
