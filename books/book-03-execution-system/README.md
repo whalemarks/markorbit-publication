@@ -20,6 +20,6 @@ Part I — Execution System Foundation, Chapters 02–07, is the accepted Draft 
 
 Parts I and II, Chapters 02–16, are accepted Draft 1 baselines.
 
-Part III Pack 03 groups Chapters 17–24 on one branch. Chapters 17–22 are drafted; Chapter 23 — Assignment Preparation Pattern is next.
+Part III Pack 03 groups Chapters 17–24 on one branch. Chapters 17–23 are drafted; Chapter 24 — Evidence Review Preparation Pattern is next.
 
 Draft 1 is not final publication text and must not be treated as implementation authority or as a replacement for Book 02 Core contracts. Editorial compression, dependency resolution, precise source references, and reviewed glossary definitions remain required before publication review.
