@@ -7,10 +7,10 @@
 - Chapter 08 decision: Accepted as Draft 1 through merged PR #14 on 2026-07-10.
 - Part II decision: Chapters 09–16 accepted as Draft 1 through merged PR #15 on 2026-07-11.
 - Current phase: Part III Pack 03 drafting
-- Drafted chapters: 02–21
+- Drafted chapters: 02–22
 - Part III Pack 03 scope: Chapters 17–24
-- Part III Pack 03 status: Chapters 17–21 drafted; pack in progress
-- Next drafting target: Chapter 22 — Renewal Preparation Pattern
+- Part III Pack 03 status: Chapters 17–22 drafted; pack in progress
+- Next drafting target: Chapter 23 — Assignment Preparation Pattern
 - Next gate: Complete Chapters 17–24 and prepare grouped Pack 03 review
 
 ## Draft Status
@@ -19,10 +19,10 @@ Parts I and II are accepted Draft 1 baselines.
 
 Part III — Execution Patterns is in progress:
 
-- Chapters 17–21 are drafted.
-- Chapters 22–24 remain to be drafted on the same grouped branch.
+- Chapters 17–22 are drafted.
+- Chapters 23–24 remain to be drafted on the same grouped branch.
 
-Chapters 02–21 contain approximately 64,400 English words in total. Part III Pack 03 currently contains approximately 20,566 English words.
+Chapters 02–22 contain approximately 68,300 English words in total. Part III Pack 03 currently contains approximately 24,485 English words.
 
 Draft 1 is not publication-ready text, implementation authority, a replacement for Book 02 Core contracts, or approval of new Core architecture.
 
@@ -71,6 +71,10 @@ Chapter 20 preserves Provider Routing as a current MVP preview-only stub. It sep
 
 Chapter 21 preserves Office Action Response as a current preview-only stub. It separates original notice, OCR, translation, extraction, deadline context, issue categorization, legal strategy, Evidence, drafting, Human Review, filing authorization and official submission; apply remains disabled.
 
+## Chapter 22 Result
+
+Chapter 22 preserves Renewal as a current preview-only stub. It separates lifecycle signals, renewal windows, grace periods, certified deadlines, eligibility, owner and scope review, Evidence, fees, payment, filing and official acknowledgment; apply remains disabled.
+
 ## Known Book 02 Dependency Gap
 
 The Book 02 Object Index declares Workflow State, Workflow Transition, Task Status, Matter Status, Order Status, Trademark Status and related objects. Some companion object files referenced by existing specs are not present at their expected canonical paths.
@@ -90,7 +94,7 @@ Book 03 does not fill these gaps. It relies on existing indexes, primary Object 
 
 ## Drafting Boundary
 
-Chapter 22 may proceed on the Part III Pack 03 branch. New pattern chapters must:
+Chapter 23 may proceed on the Part III Pack 03 branch. New pattern chapters must:
 
 - consume the corresponding Book 02 Workflow Specification and Workflow Contract;
 - distinguish preview, apply and protected downstream action;
