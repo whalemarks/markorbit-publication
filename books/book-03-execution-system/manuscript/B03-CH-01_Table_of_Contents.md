@@ -2,7 +2,7 @@
 
 Working table of contents.
 
-Chapters 02–16 are accepted Draft 1. Part III Pack 03 groups Chapters 17–24; Chapter 17 is drafted and Chapter 18 is next. All drafted chapters remain subject to editorial compression, precise Book 02 dependency linking, glossary review, and final publication review.
+Chapters 02–16 are accepted Draft 1. Part III Pack 03 groups Chapters 17–24; Chapters 17–18 are drafted and Chapter 19 is next. All drafted chapters remain subject to editorial compression, precise Book 02 dependency linking, glossary review, and final publication review.
 
 ## 00 Preface
 
@@ -52,9 +52,9 @@ Pack 03 in progress. Chapters 17–24 share one grouped branch and review unit.
 
 17 Intake Execution Pattern — Part III Pack 03 Draft 1
 
-18 Application Preparation Pattern — next drafting target
+18 Application Preparation Pattern — Part III Pack 03 Draft 1
 
-19 Communication Review Pattern
+19 Communication Review Pattern — next drafting target
 
 20 Provider Routing Preparation Pattern
 
