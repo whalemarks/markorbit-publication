@@ -7,7 +7,7 @@
 **Domain Category:** Professional Domain  
 **Source Chapter:** B02-CH-22 — Domain Specification; B02-CH-23 — Object Specification  
 **Source Domain Spec:** core-specs/domains/trademark.md  
-**Related Object Specs:** core-specs/objects/brand.md; core-specs/objects/trademark-application.md; core-specs/objects/trademark-registration.md; core-specs/objects/trademark-status.md; core-specs/objects/trademark-owner-reference.md; core-specs/objects/trademark-mark-representation.md; core-specs/objects/trademark-goods-services-reference.md  
+**Related Object Specs:** core-specs/objects/brand.md; core-specs/objects/trademark-application.md; core-specs/objects/trademark-registration.md; core-specs/objects/trademark-owner-reference.md; core-specs/objects/trademark-mark-representation.md; core-specs/objects/trademark-goods-services-reference.md
 **Related Service Specs:** core-specs/services/trademark-registration-service.md; core-specs/services/trademark-status-service.md; core-specs/services/trademark-owner-reference-service.md; core-specs/services/trademark-brand-link-service.md; core-specs/services/trademark-classification-reference-service.md; core-specs/services/trademark-reference-validation-service.md  
 **Related Event Specs:** core-specs/events/trademark-created.md; core-specs/events/trademark-updated.md; core-specs/events/trademark-status-changed.md; core-specs/events/trademark-brand-linked.md; core-specs/events/trademark-owner-linked.md; core-specs/events/trademark-classification-linked.md; core-specs/events/trademark-reference-validated.md  
 **Related Contract Specs:** core-specs/contracts/trademark/trademark-contract.md; core-specs/contracts/trademark/trademark-application-contract.md; core-specs/contracts/trademark/trademark-registration-contract.md; core-specs/contracts/trademark/trademark-status-contract.md; core-specs/contracts/trademark/trademark-brand-link-contract.md; core-specs/contracts/trademark/trademark-classification-reference-contract.md  
@@ -230,6 +230,8 @@ Unknown
 ```
 
 ## 7.2 status
+
+Trademark Status is a parent-owned Controlled State Value Specification of Trademark, not an independent identity-bearing Core Object. Only the Trademark owning Service may mutate `status`; each status change requires an Event trace. AI and Product UI may display or summarize allowed status values but must not define new Trademark statuses or directly change them.
 
 MVP controlled values:
 

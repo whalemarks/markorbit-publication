@@ -7,7 +7,7 @@
 - **Full-book editorial result:** Pass with controlled owner acceptance; owner acceptance recorded upon merge
 - **Current phase:** Publication finishing and dependency reconciliation
 - **Next publication gate:** Final line edit and publication-readiness work
-- **Next implementation gate:** Book 02 dependency decision
+- **Next implementation gate:** Book 02 status-value and workflow-component specification pack
 - **Implementation authority:** Controlled planning only; no external protected action authorized
 - **Editorial pass date:** 2026-07-12
 
@@ -100,11 +100,13 @@ Apply remains disabled.
 
 ## 5. Known Dependency Conditions
 
-Book 03 still depends on approved Book 02 contracts and their typed implementation.
+Book 02 status/transition classification decision is resolved upon merge of PUB-TASK-B02-001. Book 03 still depends on the Book 02 status-value and workflow-component specification pack, approved Book 02 contracts and their typed implementation.
 
 Some Book 02 references cannot be validated inside a standalone Book 03 archive because the sibling Book 02 directory is not included. This is a repository-context condition, not a Book 03 internal-link failure.
 
-Missing or incomplete Core contracts must be routed back to Book 02. Book 03 must not provide local replacements.
+Missing or incomplete Core contracts and status/component specifications must be routed back to Book 02. Book 03 must not provide local replacements.
+
+Ready for unrestricted implementation: NO. External protected action authorized: NO.
 
 ## 6. Remaining Publication Work
 

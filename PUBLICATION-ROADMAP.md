@@ -26,7 +26,7 @@ Book 03 — MarkOrbit Execution System contains CH00–CH34 and Appendices A–H
 
 Manuscript completion and owner acceptance are recorded. Final publication readiness, unrestricted implementation readiness and external protected-action authority remain separate gates and are not approved.
 
-Book 02 dependency decision remains a separate implementation-readiness gate.
+Book 02 status/transition classification is resolved upon merge of PUB-TASK-B02-001, but the Book 02 status-value and workflow-component specification pack remains a separate implementation-readiness gate.
 
 ## Phase 6: Book 03 Publication Finishing
 
@@ -39,7 +39,7 @@ Prepare Book 03 for final publication through:
 - cross-book reference reconciliation;
 - release-candidate packaging.
 
-Book 02 dependency decision remains a separate implementation-readiness gate.
+Book 02 status-value and workflow-component specification pack remains a separate implementation-readiness gate.
 
 ## Future Planning Notes
 

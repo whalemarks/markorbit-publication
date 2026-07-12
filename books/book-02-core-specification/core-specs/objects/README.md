@@ -351,10 +351,10 @@ Objects with operational state must define a state model.
 Examples:
 
 ```text
-Trademark Status
-Order Status
-Matter Status
-Task Status
+Trademark status values (Controlled State Value Specification, not Core Object)
+Order status values (Controlled State Value Specification, not Core Object)
+Matter status values (Controlled State Value Specification, not Core Object)
+Task status values (Controlled State Value Specification, not Core Object)
 Review Status
 AI Output Status
 Codex Task Status
@@ -616,7 +616,6 @@ brand.md
 brand-owner.md
 trademark.md
 trademark-owner.md
-trademark-status.md
 trademark-goods-services.md
 trademark-lifecycle-record.md
 jurisdiction.md
@@ -633,17 +632,12 @@ document-metadata.md
 customer.md
 order.md
 order-item.md
-order-status.md
 order-to-matter-link.md
 matter.md
-matter-status.md
 matter-context.md
 workflow-contract.md
-workflow-state.md
-workflow-transition.md
 task.md
 task-assignment.md
-task-status.md
 event.md
 event-payload.md
 responsibility-assignment.md

@@ -7,7 +7,7 @@
 **Domain Category:** Business Execution Domain  
 **Source Chapter:** B02-CH-16 — Core Execution Primitives; B02-CH-22 — Domain Specification; B02-CH-23 — Object Specification  
 **Source Domain Spec:** core-specs/domains/workflow-contract.md  
-**Related Object Specs:** core-specs/objects/matter.md; core-specs/objects/task.md; core-specs/objects/event.md; core-specs/objects/workflow-state.md; core-specs/objects/workflow-transition.md; core-specs/objects/workflow-guard.md; core-specs/objects/workflow-action.md; core-specs/objects/workflow-status.md  
+**Related Object Specs:** core-specs/objects/matter.md; core-specs/objects/task.md; core-specs/objects/event.md; core-specs/objects/workflow-guard.md; core-specs/objects/workflow-action.md; core-specs/objects/workflow-status.md
 **Related Service Specs:** core-specs/services/workflow-contract-registration-service.md; core-specs/services/workflow-state-service.md; core-specs/services/workflow-transition-validation-service.md; core-specs/services/workflow-guard-evaluation-service.md; core-specs/services/workflow-contract-reference-validation-service.md  
 **Related Event Specs:** core-specs/events/workflow-contract-created.md; core-specs/events/workflow-contract-updated.md; core-specs/events/workflow-transition-validated.md; core-specs/events/workflow-transition-rejected.md; core-specs/events/workflow-state-changed.md; core-specs/events/workflow-contract-reference-validated.md  
 **Related Contract Specs:** core-specs/contracts/workflow/workflow-contract.md; core-specs/contracts/workflow/workflow-state-contract.md; core-specs/contracts/workflow/workflow-transition-contract.md; core-specs/contracts/workflow/workflow-guard-contract.md; core-specs/contracts/workflow/workflow-action-contract.md  
@@ -281,6 +281,8 @@ applicable_object_type
 ```
 
 A status list without transitions is not a Workflow Contract.
+
+A Workflow State is a Workflow Contract Component defined inside `state_definitions`, and a Workflow Transition is a Workflow Contract Component defined inside `transition_definitions`. Neither component is an independent identity-bearing Core Object, aggregate root, Workflow instance, Task, Event, Service or Product UI status. Transition definitions do not execute mutation; they reference allowed owning-Service actions, guards, permission/policy/Human Review requirements, expected Event outcomes, rejection results, idempotency and audit requirements. Events record transition outcomes, while owning Services execute approved state changes.
 
 ## 8.2 Workflow Contract Is Not Product UI Status List
 

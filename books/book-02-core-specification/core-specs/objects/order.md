@@ -7,7 +7,7 @@
 **Domain Category:** Business Execution Domain  
 **Source Chapter:** B02-CH-22 — Domain Specification; B02-CH-23 — Object Specification  
 **Source Domain Spec:** core-specs/domains/order.md  
-**Related Object Specs:** core-specs/objects/customer.md; core-specs/objects/matter.md; core-specs/objects/opportunity.md; core-specs/objects/order-line.md; core-specs/objects/order-status.md; core-specs/objects/order-scope.md; core-specs/objects/order-commercial-reference.md  
+**Related Object Specs:** core-specs/objects/customer.md; core-specs/objects/matter.md; core-specs/objects/opportunity.md; core-specs/objects/order-line.md; core-specs/objects/order-scope.md; core-specs/objects/order-commercial-reference.md
 **Related Service Specs:** core-specs/services/order-registration-service.md; core-specs/services/order-status-service.md; core-specs/services/order-scope-service.md; core-specs/services/order-line-service.md; core-specs/services/order-matter-link-service.md; core-specs/services/order-reference-validation-service.md  
 **Related Event Specs:** core-specs/events/order-created.md; core-specs/events/order-updated.md; core-specs/events/order-status-changed.md; core-specs/events/order-line-added.md; core-specs/events/order-matter-linked.md; core-specs/events/order-reference-validated.md  
 **Related Contract Specs:** core-specs/contracts/order/order-contract.md; core-specs/contracts/order/order-line-contract.md; core-specs/contracts/order/order-scope-contract.md; core-specs/contracts/order/order-status-contract.md; core-specs/contracts/order/order-matter-link-contract.md; core-specs/contracts/order/order-commercial-reference-contract.md  
@@ -236,6 +236,8 @@ Unknown
 ```
 
 ## 7.2 status
+
+Order Status is a parent-owned Controlled State Value Specification of Order, not an independent identity-bearing Core Object. Only the Order owning Service may mutate `status`; each status change requires an Event trace. AI and Product UI may display or summarize allowed status values but must not define new Order statuses or directly change them.
 
 MVP controlled values:
 

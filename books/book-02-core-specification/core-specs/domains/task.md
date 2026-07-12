@@ -7,7 +7,7 @@
 **Source Chapter:** B02-CH-08 — Ontology and Domain Classification  
 **Source Appendix:** B02-APP-B — Core Domain Index  
 **Source Index:** indexes/domain-index.md  
-**Related Object Specs:** core-specs/objects/task.md; core-specs/objects/task-type.md; core-specs/objects/task-status.md; core-specs/objects/task-assignment.md; core-specs/objects/task-scope.md; core-specs/objects/task-result.md; core-specs/objects/task-dependency.md  
+**Related Object Specs:** core-specs/objects/task.md; core-specs/objects/task-type.md; core-specs/objects/task-assignment.md; core-specs/objects/task-scope.md; core-specs/objects/task-result.md; core-specs/objects/task-dependency.md
 **Related Service Specs:** core-specs/services/task-creation-service.md; core-specs/services/task-assignment-service.md; core-specs/services/task-status-service.md; core-specs/services/task-result-service.md; core-specs/services/task-dependency-service.md; core-specs/services/task-reference-validation-service.md  
 **Related Event Specs:** core-specs/events/task-created.md; core-specs/events/task-assigned.md; core-specs/events/task-status-changed.md; core-specs/events/task-started.md; core-specs/events/task-completed.md; core-specs/events/task-blocked.md; core-specs/events/task-result-submitted.md; core-specs/events/task-reference-validated.md  
 **Related Contract Specs:** core-specs/contracts/task/task-contract.md; core-specs/contracts/task/task-assignment-contract.md; core-specs/contracts/task/task-status-contract.md; core-specs/contracts/task/task-result-contract.md; core-specs/contracts/task/task-dependency-contract.md  
