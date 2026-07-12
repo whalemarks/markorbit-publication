@@ -1,12 +1,13 @@
 # Book 03 Status
 
 - **Book:** Book 03 — MarkOrbit Execution System
-- **Status:** Complete Draft 1 — full-book consistency and editorial pass complete
+- **Status:** Complete Draft 1 — Owner Accepted
 - **Manuscript scope:** Chapters 00–34
 - **Appendix scope:** Appendices A–H
-- **Full-book editorial result:** Pass with controlled owner acceptance
-- **Current phase:** Full-book owner review and publication-readiness review
-- **Next gate:** Owner acceptance of the complete Draft 1 baseline
+- **Full-book editorial result:** Pass with controlled owner acceptance; owner acceptance recorded upon merge
+- **Current phase:** Publication finishing and dependency reconciliation
+- **Next publication gate:** Final line edit and publication-readiness work
+- **Next implementation gate:** Book 02 dependency decision
 - **Implementation authority:** Controlled planning only; no external protected action authorized
 - **Editorial pass date:** 2026-07-12
 
@@ -17,10 +18,10 @@
 | Preface and TOC | 00–01 | Complete and editorially reconciled |
 | Part I — Execution System Foundation | 02–07 | Accepted Draft 1 baseline; terminology normalized |
 | Part II — Execution Architecture | 08–16 | Accepted Draft 1 baseline; terminology normalized |
-| Part III — Execution Patterns | 17–24 | Complete Draft 1; editorial review passed; owner acceptance pending |
-| Part IV — Execution Governance | 25–30 | Complete Draft 1; editorial review passed; owner acceptance pending |
-| Part V — MVP Execution System | 31–34 | Complete Draft 1; editorial review passed; owner acceptance pending |
-| Appendices | A–H | Active working appendices completed |
+| Part III — Execution Patterns | 17–24 | Owner-accepted Draft 1 baseline |
+| Part IV — Execution Governance | 25–30 | Owner-accepted Draft 1 baseline |
+| Part V — MVP Execution System | 31–34 | Owner-accepted Draft 1 baseline |
+| Appendices | A–H | Owner-accepted Draft 1 baseline; publication wording remains subject to final freeze |
 
 ## 2. Editorial Work Completed
 
@@ -109,7 +110,6 @@ Missing or incomplete Core contracts must be routed back to Book 02. Book 03 mus
 
 Before final publication:
 
-- conduct owner acceptance of Parts III–V;
 - perform a final native-English line edit;
 - verify Book 02 links in the complete publication repository;
 - reconcile any changed Book 02 contract names or paths;
@@ -121,13 +121,13 @@ Before final publication:
 ## 7. Current Decision
 
 ```text
-Book 03 Complete Draft 1: PASS
+Book 03 Complete Draft 1: OWNER ACCEPTED
 Full-book architecture consistency: PASS
 Terminology consistency: PASS
 Editorial compression: PASS
 Internal Markdown links: PASS
-Ready for owner acceptance: YES
-Ready for unrestricted implementation: NO
-Ready for external protected action: NO
-Ready for final publication without another copyedit: NO
+Owner acceptance: PASS
+Unrestricted implementation readiness: NO
+External protected action authorized: NO
+Final publication readiness: NO
 ```

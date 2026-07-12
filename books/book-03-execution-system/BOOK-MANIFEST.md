@@ -5,11 +5,11 @@
 - **Title:** Book 03 — MarkOrbit Execution System
 - **Chinese title:** Book 03 — MarkOrbit 执行系统
 - **Canonical path:** `books/book-03-execution-system/`
-- **Status:** Complete Draft 1 — full-book editorial reconciliation complete
+- **Status:** Complete Draft 1 — Owner Accepted
 - **Positioning:** Defines how approved Core contracts become governed operational execution.
 - **Manuscript:** Chapters 00–34
 - **Appendices:** A–H
-- **Current gate:** Full-book owner acceptance and publication review
+- **Current gate:** Publication finishing and Book 02 dependency decision
 
 ## Directory Purpose
 
@@ -91,6 +91,7 @@
 - `reviews/B03-REV-0003_Part_II_Pack_02_Review.md`
 - `reviews/B03-REV-0004_Part_III_Pack_03_Review.md`
 - `reviews/B03-REV-0005_Full_Book_Consistency_and_Editorial_Review.md`
+- `reviews/B03-REV-0006_Full_Book_Owner_Acceptance.md`
 
 ## Authority Boundary
 

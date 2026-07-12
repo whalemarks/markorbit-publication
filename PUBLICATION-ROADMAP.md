@@ -20,11 +20,26 @@ Perform Book 02 Round 3 cleanup after migration and validation planning are comp
 
 Package Book 02 release-candidate artifacts after review and cleanup are approved.
 
-## Phase 5: Book 03 Complete Draft 1
+## Phase 5: Complete Draft 1 — Owner Accepted
 
-Book 03 — MarkOrbit Execution System now contains CH00–CH34 and Appendices A–H as Complete Draft 1. It is pending owner acceptance and remains the execution layer between Book 02 Core Specification and Book 04 Product System.
+Book 03 — MarkOrbit Execution System contains CH00–CH34 and Appendices A–H as Complete Draft 1 / Owner Accepted. It remains the execution layer between Book 02 Core Specification and Book 04 Product System.
 
-Final publication readiness and Execution implementation readiness remain separate gates; Book 02 status-object dependencies require a separate owner decision.
+Manuscript completion and owner acceptance are recorded. Final publication readiness, unrestricted implementation readiness and external protected-action authority remain separate gates and are not approved.
+
+Book 02 dependency decision remains a separate implementation-readiness gate.
+
+## Phase 6: Book 03 Publication Finishing
+
+Prepare Book 03 for final publication through:
+
+- final native-English line edit;
+- diagrams;
+- citation and styling conventions;
+- appendix/glossary freeze;
+- cross-book reference reconciliation;
+- release-candidate packaging.
+
+Book 02 dependency decision remains a separate implementation-readiness gate.
 
 ## Future Planning Notes
 

@@ -2,6 +2,12 @@
 
 ## 2026-07-12
 
+- Added `B03-REV-0006_Full_Book_Owner_Acceptance.md`.
+- Recorded owner acceptance of CH00–CH34 and Appendices A–H.
+- Froze the complete Draft 1 controlled baseline.
+- Advanced publication work to final line edit and publication readiness.
+- Preserved Book 02 dependency review as the implementation-readiness gate.
+- Confirmed no external protected action was authorized.
 - Completed Chapters 25–34 and the full Book 03 main manuscript.
 - Replaced the Preface scaffold with a publication-grade Preface.
 - Replaced the working TOC with a clean linked Table of Contents.

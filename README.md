@@ -22,4 +22,4 @@ Existing book content is preserved. Book migration, manuscript cleanup, and arch
 
 ## Current Book Status
 
-- Book 03 — MarkOrbit Execution System (`books/book-03-execution-system/`) is Complete Draft 1 and pending owner acceptance. Final publication readiness and Execution readiness remain separate approval gates.
+- Book 03 — MarkOrbit Execution System (`books/book-03-execution-system/`) is Complete Draft 1 / Owner Accepted, pending final publication preparation, and not execution-ready pending dependency review. Manuscript completion, owner acceptance, final publication readiness, implementation readiness and external protected-action authority remain separate states; final publication, unrestricted implementation and external protected action are not approved.
