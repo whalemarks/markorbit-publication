@@ -360,7 +360,7 @@ Escalation is not rejection and not approval.
 
 ## 10. Approval Reliance
 
-After review, the downstream owning service decides whether the review satisfies its gate.
+After review, the downstream owning Service decides whether the review satisfies its gate.
 
 The service may check:
 
@@ -415,7 +415,7 @@ Review outcome recorded
 → Execution refreshes target state
 → Permission re-evaluated
 → Policy re-evaluated
-→ owning service checks review reliance
+→ owning Service checks review reliance
 → downstream request accepted or rejected
 → trace recorded
 ```
@@ -483,7 +483,7 @@ Draft
 → Review
 → Approval
 → Prepare Send
-→ Send by owning service
+→ Send by owning Service
 → Record
 → Audit
 ```
@@ -736,7 +736,7 @@ Request
 → record status and decision
 → validate scope, version and freshness
 → refresh Permission, Policy and source state
-→ ask owning service to perform the next allowed action
+→ ask owning Service to perform the next allowed action
 → preserve trace
 ```
 

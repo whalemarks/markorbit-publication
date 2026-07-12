@@ -1,23 +1,80 @@
 # Book 03 — MarkOrbit Execution System
 
-Book 03 defines how MarkOrbit turns Book 02 Core contracts into governed operational execution across workflows, tasks, reviews, communications, events, and human-AI collaboration.
+Book 03 defines how MarkOrbit turns approved Book 02 Core contracts into governed operational execution across Workflows, Tasks, Human Review, Communications, Events and Human–AI collaboration.
 
 ## Position in the Series
 
-- Book 02 defines Core contracts, domains, architecture, and canonical rules.
-- Book 03 defines execution coordination that consumes those Core contracts.
-- Book 04 defines product systems, product surfaces, and UI/UX.
+```text
+Book 02 — Core Specification
+↓
+Book 03 — Execution System
+↓
+Book 04 — Product System
+```
 
-Workplace is a future product surface. It is not the subject of Book 03, and Book 03 does not define Workplace UI or product behavior.
+- Book 02 defines canonical contracts and authority.
+- Book 03 defines execution coordination and governance.
+- Integration connects approved Services to external systems.
+- Book 04 defines Product surfaces and user experience.
 
-## Drafting Status
+## Current Status
 
-Book 03 is in active drafting.
+The complete Chapters 00–34 Draft 1 manuscript is present.
 
-Parts I and II, Chapters 02–16, are accepted Draft 1 baselines.
+The full-book consistency, terminology and editorial-compression pass was completed on 2026-07-12. Active appendices A–H are also present.
 
-Part III Pack 03 groups Chapters 17–24 on one branch. All eight execution-pattern chapters are drafted and ready for grouped owner review. The pack contains approximately 32,592 English words; Chapters 02–24 contain approximately 76,400 English words in total.
+Current result:
 
-The next drafting target after Pack 03 acceptance is Chapter 25 — Idempotency and Retry Governance.
+```text
+Complete Draft 1: PASS
+Ready for full-book owner acceptance: YES
+Ready for final publication without another copyedit: NO
+Ready for external protected execution: NO
+```
 
-Draft 1 is not final publication text and must not be treated as implementation authority or as a replacement for Book 02 Core contracts. Editorial compression, dependency resolution, glossary review and final publication review remain required.
+See:
+
+- [Book Status](BOOK-STATUS.md)
+- [Book Manifest](BOOK-MANIFEST.md)
+- [Book Governance](BOOK-GOVERNANCE.md)
+- [Table of Contents](manuscript/B03-CH-01_Table_of_Contents.md)
+- [Full-Book Editorial Review](reviews/B03-REV-0005_Full_Book_Consistency_and_Editorial_Review.md)
+
+## Core Principle
+
+```text
+Core defines.
+Execution coordinates.
+Integration connects.
+Products consume.
+Humans review.
+AI assists.
+Owning Services mutate.
+Events trace.
+```
+
+## MVP Boundary
+
+Depth A internal apply:
+
+- Intake Execution;
+- Application Preparation;
+- Communication Review, without send.
+
+Depth B preview only:
+
+- Provider Routing;
+- Office Action Response;
+- Renewal;
+- Assignment;
+- Evidence Review.
+
+External send, filing, payment, provider engagement, recordal and autonomous professional action remain deferred.
+
+## Manuscript Size
+
+The manuscript contains approximately **119,762 English words** across Chapters 00–34.
+
+## Publication Note
+
+Draft 1 is an architecture and implementation-planning baseline. It remains subject to owner acceptance, Book 02 link verification, final line editing, diagram decisions and publication release control.

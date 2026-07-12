@@ -48,7 +48,7 @@ It may describe:
 - a permission requirement;
 - a policy requirement;
 - a Human Review boundary;
-- an AI / agent governance rule;
+- an AI and agent governance rule;
 - an idempotency requirement;
 - an error contract;
 - a versioning rule;
@@ -347,7 +347,7 @@ Provider instruction requires supervisor review.
 
 ### 8.4 Human Review Gate
 
-Checks whether an authorized human reviewer has completed review.
+Checks whether an authorized Human Reviewer has completed review.
 
 Example:
 
@@ -498,7 +498,7 @@ A trace should preserve the distinction between:
 
 ```text
 AI prepared.
-Human reviewed.
+Human Reviewed.
 System executed.
 Event recorded.
 ```
@@ -762,7 +762,7 @@ Artifact prepared
 ↓
 Publish package generated
 ↓
-Human review if required
+Human Review if required
 ↓
 User confirms platform and content
 ↓
@@ -975,7 +975,7 @@ Task Lifecycle
 Review Gates
 Communication Boundary
 Permission / Policy Gates
-Human-AI Handoff
+Human–AI Handoff
 Event Trace / Audit
 Safe Failure
 Retry / Idempotency
@@ -1080,4 +1080,4 @@ Execution Runtime makes valid work safely operable.
 
 Product surfaces make operable work usable.
 
-This closes Part I of Book 03. The next part can now move from foundation to architecture: the layers, objects, states, workflows, tasks, review gates, communications, Events, permissions and human-AI handoffs that make the Execution System work.
+This closes Part I of Book 03. The next part can now move from foundation to architecture: the layers, objects, states, workflows, tasks, review gates, communications, Events, permissions and human–AI handoffs that make the Execution System work.

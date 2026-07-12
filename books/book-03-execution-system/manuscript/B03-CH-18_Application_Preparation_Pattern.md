@@ -17,7 +17,7 @@ Which Documents and Evidence are available?
 Which Matter and Order context applies?
 What can be prepared through preview?
 Which professional conclusions require Human Review?
-What may be applied through owning services?
+What may be applied through owning Services?
 Why does an applied preparation workflow still stop before official filing?
 ```
 
@@ -142,7 +142,7 @@ It is not proof that:
 - filing fees were paid;
 - a provider was instructed.
 
-Only the owning service and verified external result may support those facts.
+Only the owning Service and verified external result may support those facts.
 
 ### 3.3 Suggested Classification Is Not Final Classification
 
@@ -634,7 +634,7 @@ A conceptual view may separate:
 | Readiness boundary | Question |
 |---|---|
 | Workspace readiness | Can the application-preparation context be assembled? |
-| Record readiness | May owning services create or link scoped Core records? |
+| Record readiness | May owning Services create or link scoped Core records? |
 | Task readiness | Is there enough context for Task Service to create active preparation Tasks? |
 | Professional review readiness | Is a stable package available for a named reviewer and scope? |
 | Commercial readiness | Does the Order context authorize the intended service scope? |
@@ -896,7 +896,7 @@ Which application package was evaluated?
 Which versions and sources were used?
 What was suggested by AI?
 What was approved by a human?
-Which owning service changed each record?
+Which owning Service changed each record?
 What remained missing or restricted?
 Why was the pattern allowed, paused or blocked?
 Which separate action is required next?
@@ -1000,7 +1000,7 @@ Each review is version-bound.
 
 ### 21.5 Apply
 
-If current gates allow, owning services may:
+If current gates allow, owning Services may:
 
 - create or update Trademark preparation records;
 - link the Brand;
@@ -1043,7 +1043,7 @@ The Application Preparation Pattern is correct when:
 - [ ] payment and provider commitment remain outside the pattern;
 - [ ] preview has no side effects;
 - [ ] apply uses current versions, Idempotency, Permission and Policy;
-- [ ] owning services perform all mutations;
+- [ ] owning Services perform all mutations;
 - [ ] Task Service alone creates active Tasks;
 - [ ] Human Review is scope- and version-bound;
 - [ ] a prepared workspace is not called filing-ready without the required composite review;
@@ -1056,48 +1056,11 @@ The Application Preparation Pattern is correct when:
 
 ## 23. Product Boundary
 
-Book 04 may decide how Products:
-
-- collect applicant and mark information;
-- compare mark versions;
-- present jurisdiction alternatives;
-- support Classification selection;
-- request Documents;
-- show preparation gaps;
-- display Matter and Order mismatches;
-- expose review Tasks;
-- present a preparation summary;
-- distinguish draft, reviewed, authorized and filed states.
-
-Book 03 requires those distinctions to remain available.
-
-It does not define screens, wizards, recommendation controls, progress bars, pricing interfaces or submission buttons.
-
----
+Book 04 may present applicant, mark, jurisdiction, Classification, Document and readiness workflows. It must preserve the distinction among preparation, professional review, filing authorization and official filing. Book 03 does not define wizards, recommendations or filing controls.
 
 ## 24. Implementation Boundary
 
-This chapter does not define:
-
-- a new Application Preparation Object;
-- a universal filing-readiness status;
-- new Classification rules;
-- jurisdiction decision logic;
-- legal advice;
-- fee calculation;
-- provider-selection logic;
-- official filing connectors;
-- payment execution;
-- service or API design;
-- schemas;
-- queues;
-- workers;
-- Product UI;
-- a full workflow engine.
-
-Implementation must return to the cited Book 02 Workflow, Workflow Contract, API Contracts, owning services, validation and test sources.
-
----
+This pattern adds no universal filing-readiness object, Classification rule, jurisdiction decision engine, fee model, provider selection, filing connector, payment capability or Product UI. Implementation returns to Book 02 contracts and owning Services.
 
 ## 25. Chapter Result
 
@@ -1110,7 +1073,7 @@ Prepare jurisdiction context without pretending strategy is settled.
 Suggest Classification without converting suggestion into professional truth.
 Link Documents and Evidence without certifying sufficiency.
 Align Matter, Order and Tasks without executing payment or filing.
-Apply only through owning services.
+Apply only through owning Services.
 Stop before official submission.
 ```
 

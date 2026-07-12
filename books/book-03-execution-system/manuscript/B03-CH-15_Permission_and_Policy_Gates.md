@@ -67,9 +67,9 @@ A gate has four responsibilities:
 
 ```text
 1. identify required evaluation;
-2. obtain a valid decision from the owning service;
+2. obtain a valid decision from the owning Service;
 3. preserve decision scope, freshness and safe trace;
-4. ensure the owning service enforces the outcome.
+4. ensure the owning Service enforces the outcome.
 ```
 
 Execution must not:
@@ -119,7 +119,7 @@ Book 02 defines:
 - Invalid;
 - Unknown.
 
-Protected behavior may continue only when the owning service accepts the decision for the exact operation.
+Protected behavior may continue only when the owning Service accepts the decision for the exact operation.
 
 Conditional must be resolved unless the owning contract explicitly allows conditional behavior.
 
@@ -219,7 +219,7 @@ Operation request
 → Policy Service evaluates
 → validate Policy decision
 → Human Review if Policy requires
-→ owning service enforces
+→ owning Service enforces
 → Event/Audit trace
 ```
 
@@ -263,7 +263,7 @@ Execution must obtain or validate current decisions at the protected boundary.
 
 Permission Service and Policy Service return decisions.
 
-The target owning service enforces them for its operation.
+The target owning Service enforces them for its operation.
 
 For example:
 
@@ -274,7 +274,7 @@ For example:
 - Document Service enforces Document access and mutation;
 - Matter Service enforces Matter changes.
 
-Workflow cannot force an owning service to accept Allowed if the decision does not match the operation.
+Workflow cannot force an owning Service to accept Allowed if the decision does not match the operation.
 
 Product cannot force a service by enabling a button.
 
@@ -321,7 +321,7 @@ It does not mean:
 - review executes action;
 - review authorizes a changed version automatically.
 
-After review, the owning service confirms:
+After review, the owning Service confirms:
 
 - correct scope;
 - correct version;
@@ -500,7 +500,7 @@ Recovery depends on the safe next step:
 - reduce data scope;
 - change operation;
 - validate reference;
-- use owning service;
+- use owning Service;
 - no action available.
 
 Retry without changed authority or context is not useful.
@@ -570,7 +570,7 @@ Policy returns Restricted with:
 
 ### 17.3 Review
 
-An authorized human reviews the redacted package and intended recipient.
+An authorized Human Reviews the redacted package and intended recipient.
 
 Review approves the redacted version only.
 

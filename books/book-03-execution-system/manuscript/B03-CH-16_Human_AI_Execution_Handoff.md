@@ -32,7 +32,7 @@ The Human–AI Execution Handoff exists to preserve the boundary.
 ```text
 AI prepares.
 Execution packages context.
-Human reviews or decides where required.
+Human Reviews or decides where required.
 Owning Service performs allowed action.
 Trace distinguishes every role.
 ```
@@ -339,7 +339,7 @@ After review, Execution refreshes Permission, Policy, state and version.
 
 ## 9. Service Handoff
 
-If review and gates allow, Execution may prepare a request for an owning service.
+If review and gates allow, Execution may prepare a request for an owning Service.
 
 The service handoff includes:
 
@@ -355,7 +355,7 @@ The service handoff includes:
 - version;
 - audit context.
 
-The owning service may accept or reject.
+The owning Service may accept or reject.
 
 AI does not call the service as an independent authority.
 
@@ -404,7 +404,7 @@ A revision loop may be:
 
 ```text
 AI draft
-→ human review
+→ Human Review
 → changes requested
 → human or AI-assisted revision
 → new version
@@ -454,7 +454,7 @@ If Policy omits fields:
 - the human must not assume full context;
 - downstream action may require different authority or context.
 
-A human reviewer with broader access may conduct a separate governed review.
+A Human Reviewer with broader access may conduct a separate governed review.
 
 That does not retroactively make the AI output full-context.
 
@@ -573,7 +573,7 @@ Audit should distinguish:
 ```text
 AI prepared.
 Human edited.
-Human reviewed.
+Human Reviewed.
 Human approved.
 Execution revalidated.
 Owning Service acted.
@@ -760,7 +760,7 @@ AI prepares
 → handoff package preserves source, limits and version
 → human receives and reviews where required
 → Execution refreshes gates
-→ owning service acts
+→ owning Service acts
 → trace distinguishes every role
 ```
 

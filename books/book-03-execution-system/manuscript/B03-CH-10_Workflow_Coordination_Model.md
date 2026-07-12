@@ -116,7 +116,7 @@ Execution identifies:
 
 - Workflow Contract reference and version;
 - target object references;
-- owning services;
+- owning Services;
 - required Common Contracts;
 - required Permission and Policy scopes;
 - Human Review requirements;
@@ -137,7 +137,7 @@ Apply is a protected, duplicate-sensitive request to Workflow Contract Service.
 
 ### 3.5 Delegate
 
-Workflow Contract Service coordinates allowed calls to owning services. Active Task creation routes through Task Service.
+Workflow Contract Service coordinates allowed calls to owning Services. Active Task creation routes through Task Service.
 
 ### 3.6 Observe
 
@@ -260,7 +260,7 @@ Independent steps may be evaluated or delegated in parallel where contracts perm
 
 Parallel execution does not authorize:
 
-- shared state mutation outside owning services;
+- shared state mutation outside owning Services;
 - inconsistent versions;
 - duplicated Tasks;
 - duplicated Events;
@@ -340,7 +340,7 @@ It does not mutate service-owned state.
 
 For every delegated action, the workflow must know:
 
-- owning service;
+- owning Service;
 - request contract;
 - target reference;
 - allowed operation;
@@ -382,7 +382,7 @@ The workflow may not reverse the order merely because later information is alrea
 
 Passing review, Permission and Policy context to a service does not force success.
 
-The owning service applies its own state and contract rules.
+The owning Service applies its own state and contract rules.
 
 ---
 
@@ -489,7 +489,7 @@ A partial outcome should preserve:
 - rejected delegations;
 - skipped steps;
 - active Task references created;
-- state changes accepted by owning services;
+- state changes accepted by owning Services;
 - unresolved review;
 - safe errors;
 - Event references;
@@ -558,7 +558,7 @@ The Error Contract may direct:
 - request Permission;
 - request Policy review;
 - request Human Review;
-- use owning service;
+- use owning Service;
 - retry later;
 - check downstream service;
 - contact support.
@@ -736,7 +736,7 @@ This is truthful coordination.
 ## 18. Workflow Invariants
 
 1. Workflow uses an approved Contract.
-2. Workflow coordinates; owning services act.
+2. Workflow coordinates; owning Services act.
 3. Preview has no protected side effects.
 4. Apply is protected and idempotent.
 5. Apply revalidates current context.
@@ -870,7 +870,7 @@ Resolve
 → Preview
 → Review if required
 → Apply with current gates and idempotency
-→ Delegate to owning services
+→ Delegate to owning Services
 → Observe complete, partial, blocked or failed outcomes
 → Preserve trace
 → Expose a truthful Product result

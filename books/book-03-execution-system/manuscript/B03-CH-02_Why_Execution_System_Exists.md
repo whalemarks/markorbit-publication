@@ -4,7 +4,7 @@
 
 This chapter explains why Book 03 exists as the **MarkOrbit Execution System**.
 
-Book 02 defines Core. It gives MarkOrbit its domains, objects, services, contracts, events, governance primitives, validation rules, and AI / agent boundaries. But Core alone does not operate a business. It does not decide when a task should move forward, when a workflow should pause, when a communication must be reviewed, or how execution remains traceable across people, systems, and AI-assisted work.
+Book 02 defines Core. It gives MarkOrbit its domains, objects, services, contracts, events, governance primitives, validation rules, and AI and agent boundaries. But Core alone does not operate a business. It does not decide when a task should move forward, when a workflow should pause, when a communication must be reviewed, or how execution remains traceable across people, systems, and AI-assisted work.
 
 Book 03 exists because MarkOrbit needs a governed layer between **Core contracts** and **Product surfaces**.
 
@@ -37,12 +37,12 @@ It defines:
 - what a workflow contract permits;
 - what an event represents;
 - what permission and policy gates require;
-- what human review means;
+- what Human Review means;
 - what AI and agents may or may not do.
 
 But Core intentionally does not become the operating layer.
 
-Core should not contain every business sequence, task transition, human review path, communication review process, retry rule, product handoff, or operational pattern. If Core tried to own all of that, it would become too large, too procedural, and too unstable.
+Core should not contain every business sequence, task transition, Human Review path, communication review process, retry rule, product handoff, or operational pattern. If Core tried to own all of that, it would become too large, too procedural, and too unstable.
 
 Core should remain stable.
 
@@ -53,7 +53,7 @@ The Execution System consumes Core contracts and coordinates them into governed 
 ```text
 When does a workflow begin?
 Which tasks must exist before execution can continue?
-Where must human review stop the process?
+Where must Human Review stop the process?
 When is a communication only a draft?
 When can a protected action proceed?
 How should failure be recorded?
@@ -70,7 +70,7 @@ That is why Book 03 must exist.
 
 ## 2. The Gap Between Validity and Operation
 
-Book 02 can define that a workflow contract exists. It can define that a task has state. It can define that permission and policy checks are required. It can define that human review is different from AI output.
+Book 02 can define that a workflow contract exists. It can define that a task has state. It can define that permission and policy checks are required. It can define that Human Review is different from AI output.
 
 But there is still a gap.
 
@@ -140,7 +140,7 @@ Book 03 may describe how execution uses:
 - task contracts;
 - event contracts;
 - permission and policy gates;
-- human review;
+- Human Review;
 - AI context and agent governance;
 - idempotency;
 - error handling;
@@ -211,7 +211,7 @@ Book 03 owns:
   review gates
   communication boundary
   event trace behavior
-  human-AI handoff
+  human–AI handoff
   execution governance
 
 Book 04 owns:
@@ -343,7 +343,7 @@ This is especially important when AI-assisted work is involved. The system must 
 
 ```text
 AI suggested.
-Human reviewed.
+Human Reviewed.
 System executed.
 Event recorded.
 ```
@@ -435,7 +435,7 @@ For the Book 03 MVP, the focus is not to build every tool. The focus is to defin
 - communication boundary;
 - permission and policy gates;
 - event trace and audit;
-- human-AI handoff;
+- human–AI handoff;
 - safe failure and retry;
 - clear non-goals.
 
@@ -474,7 +474,7 @@ This chapter only establishes why the Execution System must exist as a separate 
 
 Book 03 exists because MarkOrbit needs a governed operational layer between Core and Product.
 
-Core defines what is valid. Product defines what users operate. But professional execution needs more than validity and more than interface. It needs coordination, review, permissions, policies, communication boundaries, task lifecycle, event trace, safe failure, and human-AI handoff.
+Core defines what is valid. Product defines what users operate. But professional execution needs more than validity and more than interface. It needs coordination, review, permissions, policies, communication boundaries, task lifecycle, event trace, safe failure, and human–AI handoff.
 
 The Execution System provides that layer.
 
@@ -484,7 +484,7 @@ Its purpose can be summarized as:
 Core defines.
 Execution coordinates.
 Product surfaces consume.
-Human review governs protected action.
+Human Review governs protected action.
 AI assists but does not approve.
 Events trace what happened.
 ```

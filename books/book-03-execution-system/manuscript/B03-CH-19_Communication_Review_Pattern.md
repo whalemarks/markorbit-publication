@@ -628,7 +628,7 @@ Even Communication Service acceptance may differ from:
 - read;
 - recipient acceptance.
 
-Execution must record only the result supported by the owning service and available evidence.
+Execution must record only the result supported by the owning Service and available evidence.
 
 ---
 
@@ -963,47 +963,11 @@ The Communication Review Pattern is correct when:
 
 ## 20. Product Boundary
 
-Book 04 may decide how Products:
-
-- edit a draft;
-- compare versions;
-- display sources;
-- show risk flags;
-- select a review action;
-- request revisions;
-- display approval conditions;
-- show an approved-for-send outcome;
-- present a separate send action;
-- show transmission or delivery evidence.
-
-Book 03 requires the underlying distinctions.
-
-It does not define editors, buttons, inboxes, recipient pickers, templates, approval controls or send interfaces.
-
-Product must not label approval as sent.
-
----
+Book 04 may provide drafting, comparison, review and later send surfaces. It must preserve draft, reviewed, approved-for-send, sent and delivered as separate states. Book 03 does not define editors, inboxes or send interfaces.
 
 ## 21. Implementation Boundary
 
-This chapter does not define:
-
-- new Communication states;
-- a new review contract;
-- external messaging infrastructure;
-- email or portal connectors;
-- recipient discovery;
-- delivery guarantees;
-- template engines;
-- autonomous legal writing;
-- Product UI;
-- service or API schemas;
-- queues or workers;
-- a full communication center.
-
-Implementation must return to the cited Book 02 Workflow, Workflow Contract, Communication Object, owning services, Common Contracts, validation and tests.
-
----
+This pattern adds no new Communication state model, messaging connector, template engine, queue, API schema or Product UI. Communication send remains a separate Service-owned and separately approved capability.
 
 ## 22. Chapter Result
 

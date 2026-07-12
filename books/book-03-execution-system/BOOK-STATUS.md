@@ -1,80 +1,133 @@
 # Book 03 Status
 
-- Status: Drafting
-- Round 0 Review result: Conditional Pass
-- Round 1 Review result: Pass with Targeted Fixes
-- Part I decision: Chapters 02–07 accepted as the formal Part I Draft 1 on 2026-07-10.
-- Chapter 08 decision: Accepted as Draft 1 through merged PR #14 on 2026-07-10.
-- Part II decision: Chapters 09–16 accepted as Draft 1 through merged PR #15 on 2026-07-11.
-- Current phase: Part III Pack 03 grouped owner review
-- Drafted chapters: 02–24
-- Part III Pack 03 scope: Chapters 17–24
-- Part III Pack 03 status: Draft 1 prepared; pending grouped owner review
-- Next drafting target after acceptance: Chapter 25 — Idempotency and Retry Governance
-- Next gate: Review and accept Part III Pack 03
+- **Book:** Book 03 — MarkOrbit Execution System
+- **Status:** Complete Draft 1 — full-book consistency and editorial pass complete
+- **Manuscript scope:** Chapters 00–34
+- **Appendix scope:** Appendices A–H
+- **Full-book editorial result:** Pass with controlled owner acceptance
+- **Current phase:** Full-book owner review and publication-readiness review
+- **Next gate:** Owner acceptance of the complete Draft 1 baseline
+- **Implementation authority:** Controlled planning only; no external protected action authorized
+- **Editorial pass date:** 2026-07-12
 
-## Draft Status
+## 1. Part Status
 
-Parts I and II are accepted Draft 1 baselines.
+| Part | Chapters | Status |
+|---|---:|---|
+| Preface and TOC | 00–01 | Complete and editorially reconciled |
+| Part I — Execution System Foundation | 02–07 | Accepted Draft 1 baseline; terminology normalized |
+| Part II — Execution Architecture | 08–16 | Accepted Draft 1 baseline; terminology normalized |
+| Part III — Execution Patterns | 17–24 | Complete Draft 1; editorial review passed; owner acceptance pending |
+| Part IV — Execution Governance | 25–30 | Complete Draft 1; editorial review passed; owner acceptance pending |
+| Part V — MVP Execution System | 31–34 | Complete Draft 1; editorial review passed; owner acceptance pending |
+| Appendices | A–H | Active working appendices completed |
 
-Part III — Execution Patterns is complete as a grouped Draft 1 review unit:
+## 2. Editorial Work Completed
 
-- Chapters 17–24 are drafted.
-- The pack contains approximately 32,592 English words.
-- Chapters 02–24 contain approximately 76,400 English words in total.
-- Review record: [B03-REV-0004 — Part III Pack 03 Review](reviews/B03-REV-0004_Part_III_Pack_03_Review.md).
+The full-book pass completed:
 
-Draft 1 is not publication-ready text, implementation authority, a replacement for Book 02 Core contracts, or approval of new Core architecture.
+- a publication-grade Preface;
+- a clean linked Table of Contents;
+- canonical terminology normalization;
+- compression of repeated Product and implementation boundary language;
+- compression of repeated governance dependency blocks;
+- replacement of scaffold indexes with active appendices;
+- a canonical Execution Glossary;
+- full repository status and manifest reconciliation;
+- internal Markdown-link validation;
+- a complete full-book review record.
 
-## Part III Pack 03 Result
+The manuscript contains approximately **119,762 English words** across Chapters 00–34.
 
-The pack applies the Part II architecture to eight recurring execution patterns:
+## 3. Architecture Decision
 
-- Intake;
+The complete manuscript remains aligned with:
+
+```text
+Core defines.
+Execution coordinates.
+Integration connects.
+Products consume.
+Humans review.
+AI assists.
+Owning Services mutate.
+Events trace.
+```
+
+The manuscript consistently preserves:
+
+- Workflow coordination without direct Core mutation;
+- Task plan / active Task separation;
+- Human Review as accountable and version-bound;
+- Permission and Policy as current gates;
+- Communication approval / send / delivery separation;
+- Event ownership by owning Services;
+- AI and agent assistance without protected authority;
+- safe failure, idempotency, versioning and audit;
+- Product ownership by Book 04.
+
+## 4. MVP Decision
+
+Current MVP depth remains:
+
+### Depth A — Internal Apply
+
+- Intake Execution;
 - Application Preparation;
-- Communication Review;
+- Communication Review.
+
+These workflows may coordinate only approved internal effects through owning Services. Communication Review does not send.
+
+### Depth B — Preview Only
+
 - Provider Routing Preparation;
 - Office Action Response Preparation;
 - Renewal Preparation;
 - Assignment Preparation;
 - Evidence Review Preparation.
 
-Across the pack, preview remains side-effect free, apply follows current Book 02 Workflow depth, owning Services retain mutation, Human Review remains accountable, Permission and Policy fail closed, Workflow does not emit Events directly, AI remains preparation-only, and Product remains Book 04-owned.
+Apply remains disabled.
 
-Chapters 17–19 consume workflows currently marked Must Build Now. Chapter 19 does not send Communication. Chapters 20–24 consume workflows currently marked Stub Now / Preview Only; apply remains disabled. Broader future Workflow Contracts do not override current Workflow Specification depth.
+### Depth C — Deferred
 
-## Chapter Results
+- external Communication send;
+- filing and submission;
+- payment;
+- provider engagement and instruction;
+- official recordal;
+- autonomous professional execution.
 
-- Chapter 17: Intake separates receipt, engagement, reliability, duplicate candidates, readiness and protected downstream action.
-- Chapter 18: Application Preparation separates workspace preparation, professional review, filing authorization and official submission.
-- Chapter 19: Communication Review binds review to exact versions and preserves a separate Communication Service send boundary.
-- Chapter 20: Provider Routing keeps discovery, comparison and recommendation separate from selection, engagement, instruction and payment.
-- Chapter 21: Office Action Response separates notice extraction and deadline context from legal strategy, filing authorization and submission.
-- Chapter 22: Renewal separates lifecycle signals and windows from certified deadlines, eligibility, Evidence, payment and filing.
-- Chapter 23: Assignment separates request, agreement and signature from legal effect, recordal and internal owner-state mutation.
-- Chapter 24: Evidence Review separates source material, Documents, Evidence, propositions and coverage from authenticity, sufficiency, admissibility, official acceptability and submission.
+## 5. Known Dependency Conditions
 
-## Known Book 02 Dependency Gap
+Book 03 still depends on approved Book 02 contracts and their typed implementation.
 
-The Book 02 Object Index declares Workflow State, Workflow Transition, Task Status, Matter Status, Order Status, Trademark Status and related objects. Some companion object files referenced by existing specs are not present at their expected canonical paths.
+Some Book 02 references cannot be validated inside a standalone Book 03 archive because the sibling Book 02 directory is not included. This is a repository-context condition, not a Book 03 internal-link failure.
 
-Book 03 does not fill these gaps. It relies on existing indexes, primary Object specs, Common Contracts, API Contracts and Workflow Contracts, and routes missing Core definitions back to Book 02.
+Missing or incomplete Core contracts must be routed back to Book 02. Book 03 must not provide local replacements.
 
-## Follow-Up Before Publication Review
+## 6. Remaining Publication Work
 
-- Reduce repeated boundary language across Parts I–III.
-- Review Chapters 08–09 for editorial compression.
-- Validate terminology introduced as conceptual views or responsibility labels.
-- Extend precise Book 02 dependency linking to Part I.
-- Replace placeholder Execution Glossary entries with reviewed working definitions.
-- Resolve or record Book 02 missing companion Object specifications.
-- Run repository-local validators after checkout-based review.
-- Keep Distillery and Artifact / Render / Edit / Publish material within Intake 001 safeguards.
+Before final publication:
 
-## Drafting Boundary
+- conduct owner acceptance of Parts III–V;
+- perform a final native-English line edit;
+- verify Book 02 links in the complete publication repository;
+- reconcile any changed Book 02 contract names or paths;
+- decide diagram and visual requirements;
+- finalize citation and publishing conventions;
+- freeze the glossary and appendix naming;
+- produce the publication release package.
 
-Chapter 25 may proceed after Part III Pack 03 review and merge. Part IV governance chapters must consume Book 02 contracts, preserve owning-Service and Product boundaries, keep review/Permission/Policy gates explicit, and avoid implementation code, API schemas or new Core validation rules.
+## 7. Current Decision
 
-## Future Planning Notes
-
-Intake 001 remains accepted for future Book 03 planning consideration, including possible Distillation Workflow, Artifact Execution Flow, Render Execution Flow, Publish Execution Boundary, and Human Review / Permission / Policy / Audit governance. These topics remain exploratory unless separately reviewed and approved.
+```text
+Book 03 Complete Draft 1: PASS
+Full-book architecture consistency: PASS
+Terminology consistency: PASS
+Editorial compression: PASS
+Internal Markdown links: PASS
+Ready for owner acceptance: YES
+Ready for unrestricted implementation: NO
+Ready for external protected action: NO
+Ready for final publication without another copyedit: NO
+```

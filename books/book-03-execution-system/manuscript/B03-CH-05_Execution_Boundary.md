@@ -76,7 +76,7 @@ This includes:
 - retry and idempotency behavior;
 - error handling and safe failure;
 - versioning in execution;
-- human-AI handoff;
+- human–AI handoff;
 - execution observability;
 - MVP execution boundary;
 - execution pattern definitions.
@@ -221,7 +221,7 @@ Book 03 must not create or redefine:
 - permission primitives;
 - policy primitives;
 - Human Review definitions;
-- AI / agent authority;
+- AI and agent authority;
 - validation rules;
 - Core MVP scope.
 
@@ -465,7 +465,7 @@ AI prepares output
 ↓
 System labels output as AI-assisted
 ↓
-Human reviews
+Human Reviews
 ↓
 Permission and policy gates run
 ↓
@@ -687,7 +687,7 @@ Does it create a new service boundary?
 Does it invent a workflow contract?
 Does it invent an Event?
 Does it change permission or policy primitives?
-Does it expand AI / Agent authority?
+Does it expand AI and agent authority?
 ```
 
 If yes, stop and mark a Book 02 dependency.

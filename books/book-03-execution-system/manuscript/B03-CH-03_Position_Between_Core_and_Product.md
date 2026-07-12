@@ -70,7 +70,7 @@ Core owns:
 - workflow contracts;
 - event contracts;
 - permission and policy primitives;
-- human review boundaries;
+- Human Review boundaries;
 - AI context and agent governance;
 - idempotency;
 - errors;
@@ -122,7 +122,7 @@ Execution owns:
 - permission and policy gates in operation;
 - idempotency and retry behavior;
 - safe failure behavior;
-- human-AI handoff;
+- human–AI handoff;
 - execution observability;
 - execution MVP boundary.
 
@@ -252,7 +252,7 @@ AI is useful, but AI cannot be allowed to become a hidden execution authority.
 
 If AI behavior is embedded directly into product surfaces, users may not know where suggestion ends and approval begins. If agents are connected directly to workflows without execution governance, protected actions may become unsafe.
 
-Book 03 makes human-AI handoff explicit.
+Book 03 makes human–AI handoff explicit.
 
 The boundary is simple:
 
@@ -298,8 +298,8 @@ Book 02 provides:
   API contracts
   event contracts
   permission / policy contracts
-  human review boundaries
-  AI / agent governance
+  Human Review boundaries
+  AI and agent governance
   idempotency / error / versioning contracts
   validation rules
 
@@ -311,7 +311,7 @@ Book 03 consumes them to define:
   protected execution
   event trace behavior
   retry / failure behavior
-  human-AI handoff
+  human–AI handoff
 ```
 
 This prevents Book 03 from creating its own parallel contract system.
@@ -396,7 +396,7 @@ structure extraction
 ↓
 validation
 ↓
-human review
+Human Review
 ↓
 publication to Mo Brain / Capability Catalog / Skill Library
 ↓

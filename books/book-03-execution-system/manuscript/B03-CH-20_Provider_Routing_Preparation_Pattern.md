@@ -458,7 +458,7 @@ A useful recommendation may say:
 Provider A appears suitable for language and jurisdiction capability,
 subject to current availability, conflict clearance and fee confirmation.
 Provider B remains an alternative with incomplete commercial data.
-Final selection requires authorized human review.
+Final selection requires authorized Human Review.
 ```
 
 It must not say “Provider A has been appointed.”
@@ -611,7 +611,7 @@ It does not itself:
 - send instructions;
 - start professional work.
 
-The relevant owning services must separately accept the downstream request.
+The relevant owning Services must separately accept the downstream request.
 
 ---
 
@@ -814,7 +814,7 @@ Where a preview result is retained under an owning contract, audit context shoul
 - that no provider was contacted;
 - which Workflow version was evaluated.
 
-Event references, where later returned by owning services, remain trace rather than selection commands.
+Event references, where later returned by owning Services, remain trace rather than selection commands.
 
 ---
 
@@ -952,46 +952,11 @@ The Provider Routing Preparation Pattern is correct when:
 
 ## 21. Product Boundary
 
-Book 04 may decide how Products:
-
-- collect routing constraints;
-- display candidate providers;
-- compare visible factors;
-- explain missing data;
-- show commercial terms;
-- request Human Review;
-- present a conditional recommendation;
-- show that apply is unavailable;
-- hand off to future selection or Communication flows.
-
-Book 03 requires the underlying distinctions and governance.
-
-It does not define provider cards, ranking UI, filters, scoring widgets, quote tables, selection buttons or marketplace interactions.
-
----
+Book 04 may present provider candidates, comparisons, missing data and review requirements. It must show that the result is advisory and that apply is unavailable. Book 03 does not define ranking widgets, selection controls or marketplace behavior.
 
 ## 22. Implementation Boundary
 
-This chapter does not define:
-
-- provider ranking weights;
-- a scoring engine;
-- provider marketplace rules;
-- automatic selection;
-- conflict-check logic;
-- commercial approval logic;
-- provider contracts;
-- payment execution;
-- enabled routing apply;
-- external provider connectors;
-- Communication sending;
-- service or API schemas;
-- Product UI;
-- a full routing engine.
-
-Implementation must follow the current Book 02 Workflow depth first. Any move from preview stub to enabled apply requires a separate Book 02 scope decision.
-
----
+This pattern adds no scoring engine, automatic selection, conflict engine, engagement contract, payment, provider connector or send capability. Moving beyond preview requires a separate Core and Execution scope decision.
 
 ## 23. Chapter Result
 

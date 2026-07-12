@@ -18,7 +18,7 @@ What is missing, conflicting or restricted?
 Which workflow preview is applicable?
 Which Tasks may be planned?
 Which review or governance gates must stop progress?
-What may be applied through owning services?
+What may be applied through owning Services?
 What must remain prepared but unexecuted?
 ```
 
@@ -117,7 +117,7 @@ The intake result may be:
 - Policy restricted;
 - not applicable;
 - ready for apply;
-- applied through owning services;
+- applied through owning Services;
 - safely failed;
 - paused for a later continuation.
 
@@ -134,7 +134,7 @@ Intake may structure a request.
 Intake may not manufacture professional truth.
 Intake may prepare a Workflow preview.
 Preview may not create state.
-Apply may coordinate owning services only after current gates pass.
+Apply may coordinate owning Services only after current gates pass.
 Apply does not authorize external filing, payment, provider commitment or send.
 ```
 
@@ -189,7 +189,7 @@ Even a successfully applied Customer Intake Workflow does not:
 - certify registrability;
 - certify evidence sufficiency.
 
-It creates or links only those Core records that owning services are allowed to create under the contract.
+It creates or links only those Core records that owning Services are allowed to create under the contract.
 
 ---
 
@@ -260,7 +260,7 @@ The pattern contains eight conceptual stages.
 4. Assess duplication and conflict
 5. Prepare Workflow preview
 6. Evaluate readiness and gates
-7. Coordinate apply through owning services
+7. Coordinate apply through owning Services
 8. Return traceable outcome and next action
 ```
 
@@ -403,7 +403,7 @@ Separate requests may refer to the same real-world customer, Brand or matter.
 
 This is not solved by idempotency alone.
 
-Execution may identify candidate duplication, but owning services and applicable review rules decide whether records should be reused, linked or kept separate.
+Execution may identify candidate duplication, but owning Services and applicable review rules decide whether records should be reused, linked or kept separate.
 
 ### 9.3 Conflicting Sources
 
@@ -749,7 +749,7 @@ Audit context should make it possible to reconstruct:
 - what AI contributed;
 - which fields were missing or restricted;
 - which gate stopped or allowed progress;
-- which owning service produced each state change;
+- which owning Service produced each state change;
 - what next action was exposed.
 
 ---
@@ -857,7 +857,7 @@ Permission and Policy are evaluated. Human Review is required if a professional 
 
 ### 20.6 Apply
 
-If allowed, owning services may create or link Customer, Brand, Matter and draft Order context; Document Service may validate or link allowed references; Task Service may create active information-collection Tasks.
+If allowed, owning Services may create or link Customer, Brand, Matter and draft Order context; Document Service may validate or link allowed references; Task Service may create active information-collection Tasks.
 
 ### 20.7 Handoff
 
@@ -887,7 +887,7 @@ An Intake Execution Pattern is correctly applied when:
 - [ ] Permission and Policy are independently evaluated;
 - [ ] required Human Review is specific and version-bound;
 - [ ] apply requires current version and idempotency context;
-- [ ] owning services perform state changes;
+- [ ] owning Services perform state changes;
 - [ ] Task plans do not become active Tasks outside Task Service;
 - [ ] draft Communications are not sent;
 - [ ] AI assistance remains preparation-only;
@@ -899,45 +899,11 @@ An Intake Execution Pattern is correctly applied when:
 
 ## 22. Product Boundary
 
-Book 04 may decide how a Product:
-
-- asks intake questions;
-- shows progress;
-- presents missing information;
-- displays candidate matches;
-- requests Document upload;
-- exposes preview and apply actions;
-- shows a review requirement;
-- explains a safe pause;
-- offers the next preparation pattern.
-
-Book 03 requires the governed outcomes and distinctions to exist.
-
-It does not define screens, controls, interaction order, component behavior or user-facing labels.
-
----
+Book 04 may define intake questions, upload flows, progress, missing-information views and the transition to later preparation. Book 03 requires those Products to preserve candidate, verified, reviewed and applied states. It does not define screens or interaction design.
 
 ## 23. Implementation Boundary
 
-This chapter does not define:
-
-- a new Intake Object;
-- a new readiness schema;
-- a new Workflow Contract;
-- a new service;
-- API endpoints;
-- database tables;
-- queues or workers;
-- OCR implementation;
-- matching algorithms;
-- legal validation rules;
-- a full CRM lifecycle;
-- autonomous engagement acceptance;
-- Product UI.
-
-Implementation must return to the Book 02 workflow, contract, service, validation and test sources.
-
----
+This pattern adds no new Intake object, Workflow Contract, Service, API, persistence model, matching engine or legal-validation rule. Implementation must consume the cited Book 02 contracts and owning Services.
 
 ## 24. Chapter Result
 
@@ -949,7 +915,7 @@ Structure without inventing.
 Preview without side effects.
 Expose gaps without hiding restriction.
 Gate before apply.
-Mutate only through owning services.
+Mutate only through owning Services.
 Hand off an exact next action.
 ```
 

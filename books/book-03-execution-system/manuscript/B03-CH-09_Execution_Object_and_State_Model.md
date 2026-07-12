@@ -212,7 +212,7 @@ Examples:
 | Workflow Contract state/application | Workflow Contract Object, Contract, and Service |
 | Communication status or send result | Communication Object and Communication Service |
 | Review status and decision | Human Review Contract plus owning-service reliance rules |
-| Event record | Event Service or the state-changing owning service under the Event specification |
+| Event record | Event Service or the state-changing owning Service under the Event specification |
 
 Book 03 may coordinate a request to the authority. It may observe the response. It may preserve the trace. It may derive a progress explanation.
 
@@ -240,7 +240,7 @@ The Reference Contract provides:
 The important rules are:
 
 ```text
-The owning service validates its own reference.
+The owning Service validates its own reference.
 A valid reference does not imply read Permission.
 A readable reference does not imply mutation Permission.
 Reference status does not replace authoritative object state.
@@ -256,7 +256,7 @@ matter reference
 order reference
 workflow contract reference
 task references
-human review reference
+Human Review reference
 communication reference
 event references
 ```
@@ -308,7 +308,7 @@ The view should be able to answer:
 | What is requested but not yet applied? | Workflow preview, task plan, or transition request |
 | Which gates have outcomes? | Permission, Policy, Human Review, validation, idempotency |
 | What is blocking or missing? | Safe Error Contract and governing workflow |
-| Which owning service acted? | Service result and audit source |
+| Which owning Service acted? | Service result and audit source |
 | What changed? | Previous/current state response and allowed Event references |
 | What can happen next? | Contract-valid next step, not an AI guess |
 | What may Product display? | Safe, permissioned, policy-compliant projection |
@@ -410,8 +410,8 @@ Execution may know that:
 
 - no authoritative action occurred;
 - delegation was attempted;
-- an owning service succeeded;
-- an owning service rejected;
+- an owning Service succeeded;
+- an owning Service rejected;
 - Event references were returned;
 - an Event is restricted;
 - audit context is partial.
@@ -430,7 +430,7 @@ For coordination and Product consumption, Book 03 may derive explanations such a
 - blocked by Permission;
 - restricted by Policy;
 - transition requested;
-- delegated to owning service;
+- delegated to owning Service;
 - failed safely;
 - retry may be available;
 - completed with trace;
@@ -475,13 +475,13 @@ The canonical path is:
 ```text
 1. Resolve the target Core Object reference.
 2. Read or validate the current authorized state.
-3. Resolve the owning service and applicable contract.
+3. Resolve the owning Service and applicable contract.
 4. Assemble actor, organization, Permission, Policy, review,
    version, idempotency and audit context.
-5. Submit a transition request to the owning service.
+5. Submit a transition request to the owning Service.
 6. Owning service validates the transition.
 7. Owning service accepts or rejects.
-8. If accepted, owning service changes state.
+8. If accepted, owning Service changes state.
 9. Owning service or Event Service records allowed Event trace.
 10. Execution receives previous/current state and trace references.
 11. Execution refreshes its Progress View.
@@ -506,7 +506,7 @@ does not mean:
 current_status = Completed
 ```
 
-until the owning service accepts the request.
+until the owning Service accepts the request.
 
 ### 10.2 Review Is Not Transition
 
@@ -522,7 +522,7 @@ After review, Execution must refresh:
 - version;
 - other required gates.
 
-Then it may request the owning service action.
+Then it may request the owning Service action.
 
 ### 10.3 Event Is Not Transition Authority
 
@@ -744,7 +744,7 @@ What was attempted?
 Against which object?
 Under which authority?
 Using which version and context?
-What did the owning service return?
+What did the owning Service return?
 Which trace supports the result?
 ```
 
@@ -806,7 +806,7 @@ It remains separate from:
 - workflow apply;
 - official submission.
 
-The owning service decides whether the review satisfies the action requirement.
+The owning Service decides whether the review satisfies the action requirement.
 
 ---
 
@@ -985,7 +985,7 @@ Chapter 09 defines the shared state discipline for the remaining Execution Archi
 | 13 — Communication Execution Boundary | Draft, reviewed, approved, sent, failed, and recorded Communication distinctions |
 | 14 — Event Trace, Audit and Replay | Event observation, correlation, reconstruction, and no-command replay boundary |
 | 15 — Permission and Policy Gates | Independent decision state, fail-closed behavior, restriction, redaction, and review requirement |
-| 16 — Human-AI Execution Handoff | AI output status, provenance, human acceptance/rejection, and authority transfer limits |
+| 16 — Human–AI Execution Handoff | AI output status, provenance, human acceptance/rejection, and authority transfer limits |
 
 Later chapters may add detail. They must not collapse the state layers defined here.
 
@@ -1003,7 +1003,7 @@ A new object copies Trademark, Matter, Order, Task, Communication, review, and E
 
 ### 21.3 Requested Equals Current
 
-A transition request is displayed or stored as if the owning service already accepted it.
+A transition request is displayed or stored as if the owning Service already accepted it.
 
 ### 21.4 Completed Means Everything
 
@@ -1111,7 +1111,7 @@ Reference Core Objects
 → separate requested from current
 → consume contract outcomes
 → derive a bounded progress view
-→ request transitions through owning services
+→ request transitions through owning Services
 → preserve Event and audit trace
 → expose a safe Product projection
 ```

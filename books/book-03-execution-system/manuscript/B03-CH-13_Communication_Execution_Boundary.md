@@ -589,7 +589,7 @@ AI discloses missing cost confirmation.
 
 ### 16.2 Review
 
-A human reviewer confirms:
+A Human Reviewer confirms:
 
 - provider;
 - service scope;

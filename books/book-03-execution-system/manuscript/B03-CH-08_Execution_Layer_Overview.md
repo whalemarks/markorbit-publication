@@ -12,7 +12,7 @@ The map answers five practical questions:
 What responsibilities exist inside the Execution layer?
 How do those responsibilities connect?
 Which Book 02 contracts constrain each responsibility?
-Which owning service may perform state-changing behavior?
+Which owning Service may perform state-changing behavior?
 What outcome may be exposed to Product without moving governance into Product?
 ```
 
@@ -78,7 +78,7 @@ A correct execution path may:
 - prepare a preview;
 - create a task plan;
 - route work to Human Review;
-- delegate an allowed action to an owning service;
+- delegate an allowed action to an owning Service;
 - pause;
 - block;
 - return a safe failure;
@@ -405,12 +405,12 @@ Chapters 12 and 15 will define review/approval lifecycle and Permission/Policy g
 After gates are evaluated, Execution has two broad outcomes:
 
 ```text
-Delegate an allowed action to the owning service
+Delegate an allowed action to the owning Service
 or
 pause safely without pretending completion
 ```
 
-Delegation does not guarantee success. The owning service still applies its own contract, state, and validation rules.
+Delegation does not guarantee success. The owning Service still applies its own contract, state, and validation rules.
 
 Examples include:
 
@@ -419,7 +419,7 @@ Examples include:
 - Document Service attaches or retrieves an allowed Document;
 - Evidence Service records an allowed Evidence operation;
 - Matter Service performs an allowed Matter transition;
-- Event Service or the state-changing owning service records the trace allowed by Book 02.
+- Event Service or the state-changing owning Service records the trace allowed by Book 02.
 
 If the service rejects the request, Execution records and exposes the safe failure. It must not override the service merely because earlier gates passed.
 
@@ -445,7 +445,7 @@ The trace should allow an authorized reviewer to distinguish:
 - resulting Event references;
 - final exposed outcome.
 
-Execution does not emit authoritative Events directly. It consumes Event references returned by owning services or Event Service and associates them with the execution path.
+Execution does not emit authoritative Events directly. It consumes Event references returned by owning Services or Event Service and associates them with the execution path.
 
 Audit Context and correlation references connect the steps without turning Book 03 into an event-sourcing system.
 
@@ -486,7 +486,7 @@ Execution may expose a product-consumable result such as:
 - restricted by Policy;
 - changes requested;
 - approved but not executed;
-- delegated to an owning service;
+- delegated to an owning Service;
 - safely failed;
 - retry available;
 - completed with trace references.
@@ -566,7 +566,7 @@ Resolve current sources
 → rebuild or refresh context
 → evaluate all required gates
 → enforce idempotency
-→ delegate to owning services
+→ delegate to owning Services
 → preserve trace
 → expose outcome
 ```
@@ -645,7 +645,7 @@ A communication review request illustrates how the responsibility areas cooperat
 9. If all required gates pass, Execution delegates the allowed send
    request to Communication Service.
 10. Communication Service accepts or rejects under its own contract.
-11. The owning service records authoritative trace.
+11. The owning Service records authoritative trace.
 12. Execution exposes sent, blocked, failed or retryable status with
     allowed Event references.
 ```
@@ -671,7 +671,7 @@ Every later Execution Architecture chapter must preserve these invariants:
 
 1. Source and contract resolution precede protected coordination.
 2. Execution Context preserves provenance and does not replace Core truth.
-3. Workflow coordinates; owning services mutate.
+3. Workflow coordinates; owning Services mutate.
 4. Preview has no protected side effects.
 5. Apply revalidates current context and required gates.
 6. Task plan is not an active Task.
@@ -702,7 +702,7 @@ The rest of Part II expands the overview without changing its ownership rules.
 | 13 — Communication Execution Boundary | Draft, review, approve, send handoff, record, and audit |
 | 14 — Event Trace, Audit and Replay | Event observation, trace assembly, audit evidence, and controlled replay boundaries |
 | 15 — Permission and Policy Gates | Independent evaluations, fail-closed behavior, restriction, redaction, and review requirements |
-| 16 — Human-AI Execution Handoff | Assistance provenance, transfer of responsibility, review, acceptance, rejection, and downstream limits |
+| 16 — Human–AI Execution Handoff | Assistance provenance, transfer of responsibility, review, acceptance, rejection, and downstream limits |
 
 Chapter 08 provides the shared map. The later chapters supply the detailed models.
 
@@ -742,7 +742,7 @@ Apply relies on an old preview without rechecking source state, versions, Permis
 
 ### 20.8 Trace Without Ownership
 
-Execution writes an authoritative Event as a substitute for calling the owning service.
+Execution writes an authoritative Event as a substitute for calling the owning Service.
 
 Each anti-pattern collapses a responsibility boundary that Book 02 requires Book 03 to preserve.
 
@@ -787,7 +787,7 @@ interpret
 → expose outcome
 ```
 
-At every state-changing boundary, the owning service remains authoritative. Permission, Policy, Human Review, idempotency, versioning, errors, and Event trace remain independent contract concerns. AI may help prepare the path, but it cannot authorize the path. Product may expose the result, but it cannot define the result.
+At every state-changing boundary, the owning Service remains authoritative. Permission, Policy, Human Review, idempotency, versioning, errors, and Event trace remain independent contract concerns. AI may help prepare the path, but it cannot authorize the path. Product may expose the result, but it cannot define the result.
 
 This overview establishes the architecture for Part II.
 

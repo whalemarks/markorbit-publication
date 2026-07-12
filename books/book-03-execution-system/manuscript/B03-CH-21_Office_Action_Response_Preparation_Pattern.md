@@ -1018,46 +1018,11 @@ The Office Action Response Preparation Pattern is correct when:
 
 ## 22. Product Boundary
 
-Book 04 may decide how Products:
-
-- upload and display a notice;
-- compare original, OCR and translation;
-- show issue categories;
-- present a deadline warning;
-- display affected classes and items;
-- organize Documents and Evidence;
-- show possible response paths;
-- request professional review;
-- display Task plan preview;
-- expose that apply is unavailable.
-
-Book 03 requires the underlying distinctions.
-
-It does not define notice viewers, calendars, drafting editors, risk scores, response wizards, filing buttons or provider-selection UI.
-
----
+Book 04 may display the notice, extracted issues, source comparisons, deadline warnings, Evidence gaps and review questions. It must show that no strategy was approved and no response was submitted.
 
 ## 23. Implementation Boundary
 
-This chapter does not define:
-
-- deadline calculation or certification logic;
-- substantive legal rules;
-- refusal analysis algorithms;
-- success prediction;
-- Evidence sufficiency rules;
-- enabled apply;
-- official filing connectors;
-- provider selection;
-- payment execution;
-- service or API schemas;
-- Product UI;
-- a full office-action management engine;
-- an autonomous legal response Agent.
-
-Implementation must follow the current Book 02 Workflow depth. Moving beyond preview requires a separate Book 02 scope decision.
-
----
+This pattern adds no deadline-certification logic, substantive legal rules, success prediction, Evidence sufficiency rules, filing connector, provider selection, payment or autonomous legal-response agent. Apply remains disabled.
 
 ## 24. Chapter Result
 

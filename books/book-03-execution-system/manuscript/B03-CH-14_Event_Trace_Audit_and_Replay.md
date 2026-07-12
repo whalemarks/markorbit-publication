@@ -74,7 +74,7 @@ Examples may include:
 - Document attached;
 - routing selection recorded.
 
-The Event producer is the owning service or Event Service under the approved architecture.
+The Event producer is the owning Service or Event Service under the approved architecture.
 
 Execution must not emit an Event merely because:
 
@@ -96,7 +96,7 @@ Event and Audit Context serve different purposes.
 | Concern | Event | Audit Context |
 |---|---|---|
 | Primary meaning | Completed fact | Context of an operation |
-| Owner | Event Service or owning service under Event spec | Common Contract used by governed operations |
+| Owner | Event Service or owning Service under Event spec | Common Contract used by governed operations |
 | Can create business state? | No; records state-changing fact | No |
 | Includes actor/context? | As defined by payload | May connect actor, target, subject, decisions and trace |
 | Can be command? | No | No |
@@ -196,7 +196,7 @@ An Event proves a fact at its recorded time.
 
 It may not prove current state.
 
-Execution may need the owning service's current state before a protected action.
+Execution may need the owning Service's current state before a protected action.
 
 ### 6.2 Event Visibility
 

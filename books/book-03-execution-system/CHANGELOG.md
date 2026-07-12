@@ -1,5 +1,21 @@
 # Book 03 Changelog
 
+## 2026-07-12
+
+- Completed Chapters 25–34 and the full Book 03 main manuscript.
+- Replaced the Preface scaffold with a publication-grade Preface.
+- Replaced the working TOC with a clean linked Table of Contents.
+- Completed the full-book architecture-consistency review.
+- Normalized canonical terminology, including Human Review, Human–AI, owning Service, preview, apply and protected action.
+- Compressed repeated Product, implementation and dependency boundary language across Parts III–V.
+- Replaced scaffold indexes with active Appendices A–H.
+- Added the canonical Execution Glossary and Execution Context Index.
+- Added `B03-REV-0005_Full_Book_Consistency_and_Editorial_Review.md`.
+- Updated `BOOK-GOVERNANCE.md`, `BOOK-MANIFEST.md`, `BOOK-STATUS.md`, `README.md` and `publication.yaml`.
+- Confirmed the MVP depth lock: three internal-apply workflows, five preview-only workflows and no external protected action.
+- Confirmed all Book 03 internal Markdown targets resolve inside the repository.
+- Advanced the next gate to full-book owner acceptance and publication-readiness review.
+
 ## 2026-07-11
 
 - Accepted Part II Pack 02, Chapters 09–16, through merged PR #15.

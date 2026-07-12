@@ -640,7 +640,7 @@ The AI summary is not an evidence sufficiency decision.
 
 ### 18.3 Review
 
-The human reviewer examines source evidence and records a review decision.
+The Human Reviewer examines source evidence and records a review decision.
 
 If more information is needed, the Task may move from UnderReview back to InProgress.
 

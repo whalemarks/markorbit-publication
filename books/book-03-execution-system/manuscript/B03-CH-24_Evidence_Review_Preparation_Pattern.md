@@ -707,7 +707,7 @@ A future enabled preparation path would still require:
 - Communication Review;
 - provider boundary;
 - official submission boundary;
-- Event trace through owning services;
+- Event trace through owning Services;
 - safe error and continuation rules.
 
 This chapter does not enable that scope.
@@ -1063,46 +1063,11 @@ The Evidence Review Preparation Pattern is correct when:
 
 ## 24. Product Boundary
 
-Book 04 may decide how Products:
-
-- upload and group sources;
-- define review purpose;
-- display source metadata;
-- show chronology;
-- map goods/services;
-- display gaps and contradictions;
-- compare original and translation;
-- request Human Review;
-- show Task plan preview;
-- explain that apply is unavailable.
-
-Book 03 requires the underlying distinctions.
-
-It does not define evidence galleries, document viewers, coverage charts, confidence UI, review controls or submission buttons.
-
----
+Book 04 may present Evidence inventories, metadata, chronology, mappings, gaps and contradictions. It must show that organization is not authenticity, admissibility, sufficiency or official acceptance.
 
 ## 25. Implementation Boundary
 
-This chapter does not define:
-
-- substantive Evidence rules;
-- authenticity verification;
-- legal sufficiency;
-- admissibility;
-- official acceptability;
-- use or distinctiveness law;
-- enabled apply;
-- provider selection;
-- official submission connectors;
-- service or API schemas;
-- Product UI;
-- a full Evidence management engine;
-- an autonomous legal Evidence reviewer.
-
-Implementation must follow the current Book 02 Workflow depth. Any move beyond preview requires a separate Book 02 scope decision.
-
----
+This pattern adds no substantive Evidence rules, authenticity verification, admissibility decision, sufficiency certification, submission connector or autonomous Evidence reviewer. Apply remains disabled.
 
 ## 26. Part III Result
 
@@ -1123,7 +1088,7 @@ Across the pack:
 
 - preview is side-effect free;
 - apply follows the current Book 02 depth;
-- owning services retain state;
+- owning Services retain state;
 - Task plans do not become active Tasks outside Task Service;
 - Communication drafts are not sent;
 - Workflow does not emit Events;

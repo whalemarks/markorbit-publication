@@ -195,11 +195,11 @@ AI and agents must not:
 
 This principle does not make AI less valuable. It makes AI safe enough to use.
 
-The Execution System should therefore include explicit human-AI handoff points:
+The Execution System should therefore include explicit human–AI handoff points:
 
 ```text
 AI prepares.
-Human reviews.
+Human Reviews.
 Policy checks.
 Permission gates.
 System executes.
@@ -587,7 +587,7 @@ review gates
 communication boundary
 event trace
 permission / policy gates
-human-AI handoff
+human–AI handoff
 safe failure
 basic observability
 ```
@@ -628,7 +628,7 @@ Reviewability means:
 - decisions are visible;
 - boundaries are explicit;
 - AI involvement is identified;
-- human review points are recorded;
+- Human Review points are recorded;
 - failures are understandable;
 - outputs are traceable;
 - protected actions are auditable.

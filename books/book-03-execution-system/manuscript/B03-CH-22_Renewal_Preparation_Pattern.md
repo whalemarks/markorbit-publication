@@ -645,7 +645,7 @@ A later enabled preparation path would still require:
 - provider-routing boundary;
 - payment boundary;
 - separate official submission;
-- Event trace through owning services.
+- Event trace through owning Services.
 
 This chapter does not authorize future enablement.
 
@@ -703,7 +703,7 @@ The outline must identify:
 
 No Communication or Notification is created or sent by the current stub.
 
-A future external message requires Communication Review and the owning service.
+A future external message requires Communication Review and the owning Service.
 
 ### 13.1 Reminder Wording
 
@@ -853,7 +853,7 @@ Where retained under an owning contract, audit context should preserve:
 - Workflow version;
 - explicit no-side-effect result.
 
-Future owning services may return Event references as trace.
+Future owning Services may return Event references as trace.
 
 They do not command filing or prove renewal.
 
@@ -991,46 +991,11 @@ The Renewal Preparation Pattern is correct when:
 
 ## 21. Product Boundary
 
-Book 04 may decide how Products:
-
-- display renewal candidates;
-- show source dates;
-- show ordinary and grace-period warnings;
-- request owner confirmation;
-- compare registered scope and Evidence;
-- collect Documents;
-- present fees;
-- request review;
-- show Task plan preview;
-- explain that apply is unavailable.
-
-Book 03 requires the underlying distinctions.
-
-It does not define renewal dashboards, calendars, reminders, portfolio tables, payment screens, provider cards or filing controls.
-
----
+Book 04 may present renewal candidates, source dates, window warnings, owner checks, Evidence gaps, fees and review needs. It must show that no deadline was certified, no payment occurred and no renewal was filed.
 
 ## 22. Implementation Boundary
 
-This chapter does not define:
-
-- deadline calculation or certification;
-- renewal eligibility rules;
-- jurisdiction legal logic;
-- Evidence sufficiency;
-- enabled apply;
-- Notifications;
-- provider selection;
-- payment processing;
-- official filing connectors;
-- service or API schemas;
-- Product UI;
-- a full docketing engine;
-- an autonomous renewal Agent.
-
-Implementation must follow the current Book 02 Workflow depth. Any move beyond preview requires a separate Book 02 scope decision.
-
----
+This pattern adds no deadline engine, eligibility rule, docketing engine, payment, provider selection, filing connector or autonomous renewal agent. Apply remains disabled under the current Workflow depth.
 
 ## 23. Chapter Result
 

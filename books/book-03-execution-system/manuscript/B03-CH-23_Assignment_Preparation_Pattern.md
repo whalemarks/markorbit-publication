@@ -1036,47 +1036,11 @@ The Assignment Preparation Pattern is correct when:
 
 ## 23. Product Boundary
 
-Book 04 may decide how Products:
-
-- select affected Trademarks;
-- enter party information;
-- compare owner sources;
-- display chain of title;
-- collect Documents;
-- compare versions;
-- show signature or formalities gaps;
-- request professional review;
-- display Task plan preview;
-- explain that apply is unavailable.
-
-Book 03 requires the underlying distinctions.
-
-It does not define transaction wizards, ownership diagrams, signature controls, Document editors, provider UI, payment screens or filing buttons.
-
----
+Book 04 may present affected Trademarks, parties, chain of title, Documents, signature gaps and review needs. It must show that package preparation is not legal transfer or official recordal.
 
 ## 24. Implementation Boundary
 
-This chapter does not define:
-
-- ownership law;
-- contract validity;
-- effective-date rules;
-- signature validation;
-- notarization or legalization logic;
-- chain-of-title certification;
-- enabled apply;
-- owner mutation;
-- provider selection;
-- payment processing;
-- official filing connectors;
-- service or API schemas;
-- Product UI;
-- an autonomous assignment Agent.
-
-Implementation must follow the current Book 02 Workflow depth. Any expansion beyond preview requires a separate Book 02 scope decision.
-
----
+This pattern adds no ownership-law engine, signature certification, chain-of-title certification, owner mutation, payment, provider selection, filing connector or autonomous assignment agent. Apply remains disabled.
 
 ## 25. Chapter Result
 
