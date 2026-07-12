@@ -20,3 +20,8 @@
 - Initialized the unified MarkOrbit publication repository structure.
 - Added root publication governance, manifest, roadmap, style guide, glossary, and changelog files.
 - Added shared, review, release, tools, and Codex placeholder directories.
+
+
+## PUB-TASK-B02-002
+
+PUB-TASK-B02-002: added Book 02 status value and workflow component specification pack; controlled values unchanged; classification decision unchanged; next gate is status/workflow contract and fixture coverage; Execution readiness and external protected action authorization remain NO.

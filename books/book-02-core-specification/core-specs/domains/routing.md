@@ -875,7 +875,7 @@ Suggested Eligibility Result values:
 Eligible
 Ineligible
 ReviewRequired
-BlockedByPolicy
+PolicyRequired
 MissingCapability
 MissingJurisdictionScope
 Inactive

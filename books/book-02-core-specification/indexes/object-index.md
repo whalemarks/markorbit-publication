@@ -316,14 +316,14 @@ A Core Object marked `Deferred` belongs to future releases.
 
 The following legacy IDs are retained as historical references only. They are not active independent identity-bearing Core Objects and must not be reassigned.
 
-| Legacy ID | Existing Name | Canonical Classification | Parent / Owner | Status |
-|-----------|---------------|--------------------------|----------------|--------|
-| OBJ-TM-003 | Trademark Status | Controlled State Value Specification | Trademark | Reclassified |
-| OBJ-ORD-004 | Order Status | Controlled State Value Specification | Order | Reclassified |
-| OBJ-MAT-002 | Matter Status | Controlled State Value Specification | Matter | Reclassified |
-| OBJ-WFC-002 | Workflow State | Workflow Contract Component | Workflow Contract | Reclassified |
-| OBJ-WFC-003 | Workflow Transition | Workflow Contract Component | Workflow Contract | Reclassified |
-| OBJ-TSK-003 | Task Status | Controlled State Value Specification | Task | Reclassified |
+| Legacy ID | Existing Name | Canonical Classification | Parent / Owner | Status | Canonical specification |
+|-----------|---------------|--------------------------|----------------|--------|-------------------------|
+| OBJ-TM-003 | Trademark Status | Controlled State Value Specification | Trademark | Reclassified | controlled-state-values/trademark-status-values.md |
+| OBJ-ORD-004 | Order Status | Controlled State Value Specification | Order | Reclassified | controlled-state-values/order-status-values.md |
+| OBJ-MAT-002 | Matter Status | Controlled State Value Specification | Matter | Reclassified | controlled-state-values/matter-status-values.md |
+| OBJ-WFC-002 | Workflow State | Workflow Contract Component | Workflow Contract | Reclassified | workflows/components/workflow-state-definition.md |
+| OBJ-WFC-003 | Workflow Transition | Workflow Contract Component | Workflow Contract | Reclassified | workflows/components/workflow-transition-definition.md |
+| OBJ-TSK-003 | Task Status | Controlled State Value Specification | Task | Reclassified | controlled-state-values/task-status-values.md |
 
 Active Must Implement object inventory excludes these six legacy entries. The first executable Core kernel must implement their parent fields or Workflow Contract structures, not standalone aggregate roots.
 

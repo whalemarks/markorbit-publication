@@ -694,3 +694,8 @@ This Order Service Specification is accepted only if:
 ---
 
 **End of Service Specification**
+
+
+## PUB-TASK-B02-002 Status Mutation Reference
+
+`changeOrderStatus` must consume `core-specs/controlled-state-values/order-status-values.md`, validate current status, requested status and transition, preserve previous and next state, retain Permission, Policy, Human Review and idempotency context, and produce or require `OrderStatusChanged` Event trace. Invalid transitions cannot be bypassed through API PATCH or Product UI.

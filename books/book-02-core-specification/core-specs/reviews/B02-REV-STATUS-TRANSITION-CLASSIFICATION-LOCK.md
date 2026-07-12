@@ -91,3 +91,13 @@ Workflow Contract Component Specification Pack
 - Workflow Transition Definition
 ```
 
+
+
+## PUB-TASK-B02-002
+
+Completion note: Follow-up specification pack completed by PUB-TASK-B02-002 upon merge.
+
+
+## PUB-TASK-B02-002 compatibility mapping
+
+Historical transition terms in the original lock are mapped by the follow-up component spec as follows: Rejected -> Denied; BlockedByPermission -> PermissionRequired; BlockedByPolicy -> PolicyRequired; BlockedByGuard -> Blocked. This note does not change the original owner decision.

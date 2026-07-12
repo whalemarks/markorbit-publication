@@ -44,3 +44,8 @@ Book 02 status-value and workflow-component specification pack remains a separat
 ## Future Planning Notes
 
 - Intake 001 is accepted for future publication planning: Book 01 may receive architecture-principle notes for Distillery and the Artifact / Render / Edit / Publish chain; Book 02 remains limited to future boundary notes with no MVP or Core-spec expansion; Book 03 may consider future execution-planning boundaries; Book 04 product surfaces remain future-only; Tech Radar remains research-only. These ideas are not added to active release scope by this note.
+
+
+## PUB-TASK-B02-002
+
+PUB-TASK-B02-002 adds four Controlled State Value Specifications and two Workflow Contract Component Specifications. Controlled values and classification decision are unchanged. Next gate is contract and fixture coverage; Execution readiness and external protected action authorization remain NO.

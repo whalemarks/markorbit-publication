@@ -674,3 +674,8 @@ This Task Object Specification is accepted only if:
 ---
 
 **End of Object Specification**
+
+
+## PUB-TASK-B02-002 Controlled State Value Reference
+
+`status` remains parent-owned by this object. Canonical semantics and transition constraints are defined by `core-specs/controlled-state-values/task-status-values.md`. This object specification preserves the existing controlled value list and does not restore any legacy status concept as an active Core Object. Product UI and AI may consume but not define or mutate status values.
