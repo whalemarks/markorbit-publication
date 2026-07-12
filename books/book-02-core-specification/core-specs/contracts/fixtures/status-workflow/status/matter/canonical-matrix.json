@@ -1,0 +1,197 @@
+{
+  "case_type": "positive",
+  "contains_production_data": false,
+  "expected": {
+    "allowed_transitions": [
+      {
+        "from": "Draft",
+        "to": "Open"
+      },
+      {
+        "from": "Draft",
+        "to": "Cancelled"
+      },
+      {
+        "from": "Draft",
+        "to": "Archived"
+      },
+      {
+        "from": "Open",
+        "to": "InProgress"
+      },
+      {
+        "from": "Open",
+        "to": "WaitingForCustomer"
+      },
+      {
+        "from": "Open",
+        "to": "WaitingForAgent"
+      },
+      {
+        "from": "Open",
+        "to": "WaitingForOffice"
+      },
+      {
+        "from": "Open",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "Open",
+        "to": "Blocked"
+      },
+      {
+        "from": "Open",
+        "to": "Completed"
+      },
+      {
+        "from": "Open",
+        "to": "Cancelled"
+      },
+      {
+        "from": "InProgress",
+        "to": "WaitingForCustomer"
+      },
+      {
+        "from": "InProgress",
+        "to": "WaitingForAgent"
+      },
+      {
+        "from": "InProgress",
+        "to": "WaitingForOffice"
+      },
+      {
+        "from": "InProgress",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "InProgress",
+        "to": "Blocked"
+      },
+      {
+        "from": "InProgress",
+        "to": "Completed"
+      },
+      {
+        "from": "InProgress",
+        "to": "Cancelled"
+      },
+      {
+        "from": "WaitingForCustomer",
+        "to": "InProgress"
+      },
+      {
+        "from": "WaitingForCustomer",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "WaitingForCustomer",
+        "to": "Blocked"
+      },
+      {
+        "from": "WaitingForCustomer",
+        "to": "Cancelled"
+      },
+      {
+        "from": "WaitingForAgent",
+        "to": "InProgress"
+      },
+      {
+        "from": "WaitingForAgent",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "WaitingForAgent",
+        "to": "Blocked"
+      },
+      {
+        "from": "WaitingForAgent",
+        "to": "Cancelled"
+      },
+      {
+        "from": "WaitingForOffice",
+        "to": "InProgress"
+      },
+      {
+        "from": "WaitingForOffice",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "WaitingForOffice",
+        "to": "Blocked"
+      },
+      {
+        "from": "WaitingForOffice",
+        "to": "Cancelled"
+      },
+      {
+        "from": "ReviewRequired",
+        "to": "InProgress"
+      },
+      {
+        "from": "ReviewRequired",
+        "to": "WaitingForCustomer"
+      },
+      {
+        "from": "ReviewRequired",
+        "to": "WaitingForAgent"
+      },
+      {
+        "from": "ReviewRequired",
+        "to": "WaitingForOffice"
+      },
+      {
+        "from": "ReviewRequired",
+        "to": "Blocked"
+      },
+      {
+        "from": "ReviewRequired",
+        "to": "Completed"
+      },
+      {
+        "from": "ReviewRequired",
+        "to": "Cancelled"
+      },
+      {
+        "from": "Blocked",
+        "to": "InProgress"
+      },
+      {
+        "from": "Blocked",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "Blocked",
+        "to": "Cancelled"
+      },
+      {
+        "from": "Completed",
+        "to": "Archived"
+      },
+      {
+        "from": "Cancelled",
+        "to": "Archived"
+      }
+    ],
+    "canonical_values": [
+      "Draft",
+      "Open",
+      "InProgress",
+      "WaitingForCustomer",
+      "WaitingForAgent",
+      "WaitingForOffice",
+      "ReviewRequired",
+      "Blocked",
+      "Completed",
+      "Cancelled",
+      "Archived",
+      "DeletedReferenceOnly"
+    ]
+  },
+  "fixture_id": "b02-matter-canonical-matrix",
+  "fixture_type": "StatusMatrix",
+  "fixture_version": "v0.1.0",
+  "input": {},
+  "synthetic": true,
+  "target_contract_id": "B02-CONTRACT-STATUS-MATTER",
+  "target_spec_id": "B02-CSV-MATTER-STATUS"
+}

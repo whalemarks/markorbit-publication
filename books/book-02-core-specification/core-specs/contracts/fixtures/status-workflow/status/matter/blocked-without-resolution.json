@@ -1,0 +1,21 @@
+{
+  "case_type": "negative",
+  "contains_production_data": false,
+  "expected": {
+    "decision": "Blocked",
+    "event_type": null,
+    "performed": false
+  },
+  "fixture_id": "b02-matter-blocked-without-resolution",
+  "fixture_type": "StatusTransition",
+  "fixture_version": "v0.1.0",
+  "input": {
+    "current_status": "Blocked",
+    "requested_action": "blocked_without_resolution",
+    "requested_status": "InProgress",
+    "source_context": {}
+  },
+  "synthetic": true,
+  "target_contract_id": "B02-CONTRACT-STATUS-MATTER",
+  "target_spec_id": "B02-CSV-MATTER-STATUS"
+}

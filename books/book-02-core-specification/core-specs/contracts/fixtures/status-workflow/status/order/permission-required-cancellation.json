@@ -1,0 +1,21 @@
+{
+  "case_type": "negative",
+  "contains_production_data": false,
+  "expected": {
+    "decision": "PermissionRequired",
+    "event_type": null,
+    "performed": false
+  },
+  "fixture_id": "b02-order-permission-required-cancellation",
+  "fixture_type": "StatusTransition",
+  "fixture_version": "v0.1.0",
+  "input": {
+    "current_status": "Confirmed",
+    "requested_action": "permission_required_cancellation",
+    "requested_status": "Cancelled",
+    "source_context": {}
+  },
+  "synthetic": true,
+  "target_contract_id": "B02-CONTRACT-STATUS-ORDER",
+  "target_spec_id": "B02-CSV-ORDER-STATUS"
+}

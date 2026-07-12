@@ -1,0 +1,18 @@
+{
+  "case_type": "negative",
+  "contains_production_data": false,
+  "expected": {
+    "decision": "InvalidTransition",
+    "mutation_performed": false
+  },
+  "fixture_id": "b02-workflow-invalid-terminal-outgoing-transition",
+  "fixture_type": "WorkflowTransitionValidation",
+  "fixture_version": "v0.1.0",
+  "input": {
+    "current_state_key": "done",
+    "requested_state_key": "draft"
+  },
+  "synthetic": true,
+  "target_contract_id": "B02-CONTRACT-WORKFLOW-TRANSITION-DEFINITION",
+  "target_spec_id": "B02-WFC-TRANSITION-DEFINITION"
+}

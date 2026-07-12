@@ -1278,3 +1278,8 @@ Matter API Contract consumes `core-specs/controlled-state-values/matter-status-v
 Matter API Contract does not define `Suspended` as canonical status. Legacy suspension semantics require governed migration or Human Review before any canonical status transition. Endpoint paths remain unchanged.
 
 **End of API Contract**
+
+
+# PUB-TASK-B02-003 Status Transition Contract Consumption
+
+Status mutation requests MUST consume `../status/status-transition-contract.md` and `../status/matter-status-contract.md`. PATCH or generic update MUST NOT bypass transition validation. Responses distinguish validation decision from performed owner-Service result. The API does not perform mutation; it calls the owning Service. Endpoint paths are unchanged and no endpoint is added.

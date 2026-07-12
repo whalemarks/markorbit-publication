@@ -1,0 +1,21 @@
+{
+  "case_type": "positive",
+  "contains_production_data": false,
+  "expected": {
+    "decision": "Allowed",
+    "event_type": "TrademarkStatusChanged",
+    "performed": false
+  },
+  "fixture_id": "b02-trademark-valid-pending-filing-to-filed",
+  "fixture_type": "StatusTransition",
+  "fixture_version": "v0.1.0",
+  "input": {
+    "current_status": "PendingFiling",
+    "requested_action": "valid_pending_filing_to_filed",
+    "requested_status": "Filed",
+    "source_context": {}
+  },
+  "synthetic": true,
+  "target_contract_id": "B02-CONTRACT-STATUS-TRADEMARK",
+  "target_spec_id": "B02-CSV-TRADEMARK-STATUS"
+}

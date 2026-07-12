@@ -769,3 +769,8 @@ Deferred
 ---
 
 **End of TASK-002 — Contract Fixture System**
+
+Publication canonical fixture source:
+core-specs/contracts/fixtures/status-workflow/
+
+Future implementation fixtures must inherit or be generated from canonical publication fixtures. Publication fixtures are not production runtime fixtures.

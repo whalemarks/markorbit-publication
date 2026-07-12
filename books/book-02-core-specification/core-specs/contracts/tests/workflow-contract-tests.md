@@ -1231,3 +1231,8 @@ This Workflow Contract Tests file is accepted only if:
 ---
 
 **End of Workflow Contract Tests**
+
+
+# PUB-TASK-B02-003 Canonical Fixture Pack
+
+Use `../fixtures/status-workflow/` as the canonical publication fixture pack. Status tests use matrix fixtures; API tests distinguish transition decision from performed owner-Service result; Workflow tests assert `mutation_performed=false`; unsupported versions, invalid transitions, missing permission/policy/review, protected external action, and invalid idempotent replay fail closed.

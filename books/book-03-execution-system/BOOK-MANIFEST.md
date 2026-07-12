@@ -103,3 +103,10 @@ It does not authorize external Communication send, official filing, payment, pro
 ## PUB-TASK-B02-002
 
 Book 02 status-value and workflow-component specification pack: resolved upon merge of PUB-TASK-B02-002. Next implementation gate: Book 02 status/workflow contract and fixture coverage. Ready for unrestricted implementation: NO. External protected action authorized: NO.
+
+Book 02 status/workflow contract and fixture coverage: resolved upon merge of PUB-TASK-B02-003.
+Next gate: Book 02 typed implementation mapping.
+Complete Draft 1 / Owner Accepted: YES.
+Ready for final publication: NO.
+Ready for unrestricted implementation: NO.
+External protected action authorized: NO.

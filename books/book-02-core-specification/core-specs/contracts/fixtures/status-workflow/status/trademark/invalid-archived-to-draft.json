@@ -1,0 +1,21 @@
+{
+  "case_type": "negative",
+  "contains_production_data": false,
+  "expected": {
+    "decision": "InvalidTransition",
+    "event_type": null,
+    "performed": false
+  },
+  "fixture_id": "b02-trademark-invalid-archived-to-draft",
+  "fixture_type": "StatusTransition",
+  "fixture_version": "v0.1.0",
+  "input": {
+    "current_status": "Archived",
+    "requested_action": "invalid_archived_to_draft",
+    "requested_status": "Draft",
+    "source_context": {}
+  },
+  "synthetic": true,
+  "target_contract_id": "B02-CONTRACT-STATUS-TRADEMARK",
+  "target_spec_id": "B02-CSV-TRADEMARK-STATUS"
+}

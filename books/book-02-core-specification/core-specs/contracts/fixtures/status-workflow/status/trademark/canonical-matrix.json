@@ -1,0 +1,234 @@
+{
+  "case_type": "positive",
+  "contains_production_data": false,
+  "expected": {
+    "allowed_transitions": [
+      {
+        "from": "Draft",
+        "to": "Planned"
+      },
+      {
+        "from": "Planned",
+        "to": "Draft"
+      },
+      {
+        "from": "Draft",
+        "to": "PendingFiling"
+      },
+      {
+        "from": "Planned",
+        "to": "PendingFiling"
+      },
+      {
+        "from": "PendingFiling",
+        "to": "Planned"
+      },
+      {
+        "from": "PendingFiling",
+        "to": "Filed"
+      },
+      {
+        "from": "PendingFiling",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "PendingFiling",
+        "to": "Abandoned"
+      },
+      {
+        "from": "Filed",
+        "to": "UnderExamination"
+      },
+      {
+        "from": "Filed",
+        "to": "Published"
+      },
+      {
+        "from": "Filed",
+        "to": "Opposed"
+      },
+      {
+        "from": "Filed",
+        "to": "Registered"
+      },
+      {
+        "from": "Filed",
+        "to": "Refused"
+      },
+      {
+        "from": "Filed",
+        "to": "Abandoned"
+      },
+      {
+        "from": "Filed",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "UnderExamination",
+        "to": "Published"
+      },
+      {
+        "from": "UnderExamination",
+        "to": "Opposed"
+      },
+      {
+        "from": "UnderExamination",
+        "to": "Registered"
+      },
+      {
+        "from": "UnderExamination",
+        "to": "Refused"
+      },
+      {
+        "from": "UnderExamination",
+        "to": "Abandoned"
+      },
+      {
+        "from": "UnderExamination",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "Published",
+        "to": "Opposed"
+      },
+      {
+        "from": "Published",
+        "to": "Registered"
+      },
+      {
+        "from": "Published",
+        "to": "Refused"
+      },
+      {
+        "from": "Published",
+        "to": "Abandoned"
+      },
+      {
+        "from": "Published",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "Opposed",
+        "to": "Registered"
+      },
+      {
+        "from": "Opposed",
+        "to": "Refused"
+      },
+      {
+        "from": "Opposed",
+        "to": "Abandoned"
+      },
+      {
+        "from": "Opposed",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "Registered",
+        "to": "RenewalDue"
+      },
+      {
+        "from": "Registered",
+        "to": "Expired"
+      },
+      {
+        "from": "Registered",
+        "to": "Cancelled"
+      },
+      {
+        "from": "Registered",
+        "to": "Invalidated"
+      },
+      {
+        "from": "Registered",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "RenewalDue",
+        "to": "Registered"
+      },
+      {
+        "from": "RenewalDue",
+        "to": "Expired"
+      },
+      {
+        "from": "RenewalDue",
+        "to": "Cancelled"
+      },
+      {
+        "from": "RenewalDue",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "Refused",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "Refused",
+        "to": "Abandoned"
+      },
+      {
+        "from": "Refused",
+        "to": "Archived"
+      },
+      {
+        "from": "Abandoned",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "Abandoned",
+        "to": "Archived"
+      },
+      {
+        "from": "Cancelled",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "Cancelled",
+        "to": "Archived"
+      },
+      {
+        "from": "Expired",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "Expired",
+        "to": "Archived"
+      },
+      {
+        "from": "Invalidated",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "Invalidated",
+        "to": "Archived"
+      }
+    ],
+    "canonical_values": [
+      "Draft",
+      "Planned",
+      "PendingFiling",
+      "Filed",
+      "UnderExamination",
+      "Published",
+      "Opposed",
+      "Registered",
+      "Refused",
+      "Abandoned",
+      "Cancelled",
+      "Expired",
+      "Invalidated",
+      "RenewalDue",
+      "ReviewRequired",
+      "Archived",
+      "DeletedReferenceOnly"
+    ]
+  },
+  "fixture_id": "b02-trademark-canonical-matrix",
+  "fixture_type": "StatusMatrix",
+  "fixture_version": "v0.1.0",
+  "input": {},
+  "synthetic": true,
+  "target_contract_id": "B02-CONTRACT-STATUS-TRADEMARK",
+  "target_spec_id": "B02-CSV-TRADEMARK-STATUS"
+}

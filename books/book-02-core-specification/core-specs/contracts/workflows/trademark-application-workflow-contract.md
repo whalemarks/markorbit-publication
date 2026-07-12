@@ -1337,3 +1337,8 @@ This Trademark Application Workflow Contract is accepted only if:
 ---
 
 **End of Trademark Application Workflow Contract**
+
+
+## PUB-TASK-B02-003 Component Contract References
+
+State definitions conform to `components/workflow-state-definition-contract.md` (`B02-CONTRACT-WORKFLOW-STATE-DEFINITION`). Transition definitions conform to `components/workflow-transition-definition-contract.md` (`B02-CONTRACT-WORKFLOW-TRANSITION-DEFINITION`). Workflow Contract validates and routes only; it does not perform target object mutation or authorize protected external action.

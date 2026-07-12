@@ -410,3 +410,8 @@ This Traceability Matrix is accepted only if:
 Canonical chain: classification decision -> controlled state/component spec -> parent object -> owning service -> API/contract -> future fixture -> future typed implementation. Status values flow from Controlled State Value Specification to parent object status field to owning Service consumed canonical values.
 
 **End of Core Traceability Matrix**
+
+
+# PUB-TASK-B02-003 Status/Workflow Contract Fixture Coverage
+
+Contract Layer Map additions: `contracts/status/`, `contracts/fixtures/status-workflow/`, and `contracts/workflows/components/`. Traceability: Controlled State Value Specification -> Status Contract -> API Contract -> Fixture -> Validator -> future typed implementation. Workflow Component Specification -> Workflow Component Contract -> Workflow Contract/API Contract -> Fixture -> Validator -> future typed implementation.

@@ -624,3 +624,8 @@ Immediate next actions:
 ---
 
 **End of CHANGELOG**
+
+
+## PUB-TASK-B02-003
+
+Added Book 02 status/workflow contract and deterministic fixture coverage. Next gate: Book 02 typed implementation mapping. External protected action remains unauthorized.

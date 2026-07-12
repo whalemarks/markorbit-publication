@@ -142,3 +142,10 @@ Owner-accepted Complete Draft 1: YES
 Ready for final publication: NO
 Ready for unrestricted implementation: NO
 External protected action authorized: NO
+
+Book 02 status/workflow contract and fixture coverage: resolved upon merge of PUB-TASK-B02-003.
+Next gate: Book 02 typed implementation mapping.
+Complete Draft 1 / Owner Accepted: YES.
+Ready for final publication: NO.
+Ready for unrestricted implementation: NO.
+External protected action authorized: NO.

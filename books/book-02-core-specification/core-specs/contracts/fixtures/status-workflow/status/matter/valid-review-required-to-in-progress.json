@@ -1,0 +1,21 @@
+{
+  "case_type": "positive",
+  "contains_production_data": false,
+  "expected": {
+    "decision": "Allowed",
+    "event_type": "MatterStatusChanged",
+    "performed": false
+  },
+  "fixture_id": "b02-matter-valid-review-required-to-in-progress",
+  "fixture_type": "StatusTransition",
+  "fixture_version": "v0.1.0",
+  "input": {
+    "current_status": "ReviewRequired",
+    "requested_action": "valid_review_required_to_in_progress",
+    "requested_status": "InProgress",
+    "source_context": {}
+  },
+  "synthetic": true,
+  "target_contract_id": "B02-CONTRACT-STATUS-MATTER",
+  "target_spec_id": "B02-CSV-MATTER-STATUS"
+}

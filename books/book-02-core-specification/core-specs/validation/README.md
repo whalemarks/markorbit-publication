@@ -1091,3 +1091,8 @@ Do not generate detailed validation specs before the template exists.
 ---
 
 **End of README**
+
+
+# PUB-TASK-B02-003 Status/Workflow Contract Fixture Coverage
+
+Contract Layer Map additions: `contracts/status/`, `contracts/fixtures/status-workflow/`, and `contracts/workflows/components/`. Traceability: Controlled State Value Specification -> Status Contract -> API Contract -> Fixture -> Validator -> future typed implementation. Workflow Component Specification -> Workflow Component Contract -> Workflow Contract/API Contract -> Fixture -> Validator -> future typed implementation.

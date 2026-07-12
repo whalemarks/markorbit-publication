@@ -1,0 +1,21 @@
+{
+  "case_type": "positive",
+  "contains_production_data": false,
+  "expected": {
+    "decision": "Allowed",
+    "event_type": "TaskStatusChanged",
+    "performed": false
+  },
+  "fixture_id": "b02-task-valid-open-to-assigned",
+  "fixture_type": "StatusTransition",
+  "fixture_version": "v0.1.0",
+  "input": {
+    "current_status": "Open",
+    "requested_action": "valid_open_to_assigned",
+    "requested_status": "Assigned",
+    "source_context": {}
+  },
+  "synthetic": true,
+  "target_contract_id": "B02-CONTRACT-STATUS-TASK",
+  "target_spec_id": "B02-CSV-TASK-STATUS"
+}
