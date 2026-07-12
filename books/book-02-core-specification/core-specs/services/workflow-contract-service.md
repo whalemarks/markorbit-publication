@@ -319,6 +319,7 @@ ReviewRequired
 ApprovalRequired
 PermissionRequired
 PolicyRequired
+InvalidState
 InvalidTransition
 Unknown
 ```

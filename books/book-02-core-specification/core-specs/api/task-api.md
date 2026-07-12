@@ -1244,4 +1244,14 @@ This API Specification is accepted only if:
 
 ---
 
+
+## State Boundary Reference
+
+Task API status requests route to Task Service and consume `core-specs/controlled-state-values/task-status-values.md`; governed reopen is not an ordinary silent status patch.
+
+
+## Reopen Status Boundary
+
+Task reopen returns canonical `Open` after valid `Completed -> Open` or `Cancelled -> Open`; it does not return `Reopened` as status. Endpoint path remains unchanged and no endpoint is added.
+
 **End of API Specification**

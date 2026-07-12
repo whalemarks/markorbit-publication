@@ -237,7 +237,7 @@ Unknown
 
 ## 7.2 status
 
-Order Status is a parent-owned Controlled State Value Specification of Order, not an independent identity-bearing Core Object. Only the Order owning Service may mutate `status`; each status change requires an Event trace. AI and Product UI may display or summarize allowed status values but must not define new Order statuses or directly change them.
+Order Status is a parent-owned Controlled State Value Specification of Order, not an independent identity-bearing Core Object. Only the Order owning Service may mutate `status`; each status change requires an Event trace, and `core-specs/controlled-state-values/order-status-values.md` is the canonical semantic and transition source. AI and Product UI may display or summarize allowed status values but must not define new Order statuses or directly change them.
 
 MVP controlled values:
 

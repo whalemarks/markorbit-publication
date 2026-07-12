@@ -49,3 +49,8 @@
 - Book 03 Round 1 Fix Pack 01 — added MVP execution boundary, review gate model, communication boundary, event trace/audit/replay boundary, and concise chapter briefs.
 - Book 03 Round 0 Fix Pack 01 — TOC and Boundary Rewrite.
 - Created Book 03 foundation scaffold for MarkOrbit Execution System.
+
+
+## PUB-TASK-B02-002
+
+PUB-TASK-B02-002 records Book 02 status-value and workflow-component specification pack as resolved upon merge; next gate is Book 02 status/workflow contract and fixture coverage. Execution readiness remains NO and external protected action remains unauthorized.

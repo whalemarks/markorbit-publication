@@ -13,3 +13,12 @@ owner_acceptance: "accepted"
 next_publication_gate: "final line edit and publication readiness"
 next_implementation_gate: "book_02_dependency_decision"
 external_protected_action_authorized: false
+
+# PUB-TASK-B02-002 dependency status
+pub_task_b02_002:
+  status_value_workflow_component_pack: resolved_upon_merge
+  next_implementation_gate: Book 02 status/workflow contract and fixture coverage
+  owner_accepted_complete_draft_1: true
+  ready_for_final_publication: false
+  ready_for_unrestricted_implementation: false
+  external_protected_action_authorized: false

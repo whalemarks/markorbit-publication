@@ -7,7 +7,7 @@
 - **Full-book editorial result:** Pass with controlled owner acceptance; owner acceptance recorded upon merge
 - **Current phase:** Publication finishing and dependency reconciliation
 - **Next publication gate:** Final line edit and publication-readiness work
-- **Next implementation gate:** Book 02 status-value and workflow-component specification pack
+- **Next implementation gate:** Book 02 status/workflow contract and fixture coverage
 - **Implementation authority:** Controlled planning only; no external protected action authorized
 - **Editorial pass date:** 2026-07-12
 
@@ -133,3 +133,12 @@ Unrestricted implementation readiness: NO
 External protected action authorized: NO
 Final publication readiness: NO
 ```
+
+## PUB-TASK-B02-002 Dependency Update
+
+Book 02 status-value and workflow-component specification pack: resolved upon merge of PUB-TASK-B02-002.
+
+Owner-accepted Complete Draft 1: YES
+Ready for final publication: NO
+Ready for unrestricted implementation: NO
+External protected action authorized: NO

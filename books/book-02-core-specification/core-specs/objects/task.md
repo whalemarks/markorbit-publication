@@ -246,7 +246,7 @@ Unknown
 
 ## 7.2 status
 
-Task Status is a parent-owned Controlled State Value Specification of Task, not an independent identity-bearing Core Object. Only the Task owning Service may mutate `status`; each status change requires an Event trace. AI and Product UI may display or summarize allowed status values but must not define new Task statuses or directly change them.
+Task Status is a parent-owned Controlled State Value Specification of Task, not an independent identity-bearing Core Object. Only the Task owning Service may mutate `status`; each status change requires an Event trace, and `core-specs/controlled-state-values/task-status-values.md` is the canonical semantic and transition source. AI and Product UI may display or summarize allowed status values but must not define new Task statuses or directly change them.
 
 MVP controlled values:
 

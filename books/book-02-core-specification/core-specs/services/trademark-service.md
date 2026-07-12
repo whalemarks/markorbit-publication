@@ -310,6 +310,8 @@ Unknown
 
 ## 9.2 status
 
+Consumed canonical values from [Trademark Status Values](../controlled-state-values/trademark-status-values.md):
+
 ```text
 Draft
 Planned
@@ -329,6 +331,8 @@ ReviewRequired
 Archived
 DeletedReferenceOnly
 ```
+
+The Controlled State Value Specification [Trademark Status Values](../controlled-state-values/trademark-status-values.md) is the canonical source for legal Trademark status values and transition semantics. Trademark owns current state truth. Trademark Service validates and performs mutation. The Service must not define an alternate active status list.
 
 ## 9.3 brand_link_type
 

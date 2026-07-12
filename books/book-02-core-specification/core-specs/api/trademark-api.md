@@ -1040,4 +1040,9 @@ This API Specification is accepted only if:
 
 ---
 
+
+## State Boundary Reference
+
+Trademark API status requests route to Trademark Service and consume `core-specs/controlled-state-values/trademark-status-values.md`; official-source-derived status updates require source and normalization evidence.
+
 **End of API Specification**

@@ -240,13 +240,15 @@ Suggested controlled values:
 
 ```text
 Allowed
-Rejected
+Denied
+Blocked
 ReviewRequired
-BlockedByPermission
-BlockedByPolicy
-BlockedByGuard
+ApprovalRequired
+PermissionRequired
+PolicyRequired
 InvalidState
 InvalidTransition
+Unknown
 ```
 
 ## 7.4 guard_type
@@ -441,7 +443,7 @@ WorkflowContractVersionCreated
 WorkflowStateDefined
 WorkflowTransitionDefined
 WorkflowTransitionValidated
-WorkflowTransitionRejected
+WorkflowTransitionDenied
 WorkflowStateChanged
 WorkflowGuardEvaluated
 WorkflowContractArchived

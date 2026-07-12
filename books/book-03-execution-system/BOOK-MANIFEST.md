@@ -98,3 +98,8 @@
 This manifest records the Book 03 publication state.
 
 It does not authorize external Communication send, official filing, payment, provider engagement, official recordal or autonomous professional execution.
+
+
+## PUB-TASK-B02-002
+
+Book 02 status-value and workflow-component specification pack: resolved upon merge of PUB-TASK-B02-002. Next implementation gate: Book 02 status/workflow contract and fixture coverage. Ready for unrestricted implementation: NO. External protected action authorized: NO.

@@ -691,4 +691,9 @@ This Workflow Contracts Index is accepted only if:
 
 ---
 
+
+## Workflow Contract Component Consumption
+
+Workflow Contracts must reference `core-specs/workflows/components/workflow-state-definition.md` and `core-specs/workflows/components/workflow-transition-definition.md`. Contract state and transition structures must conform to component schema. Contracts validate and route only; actual domain mutation remains with owning Services and protected external action is not authorized by the contract.
+
 **End of Workflow Contracts Index**

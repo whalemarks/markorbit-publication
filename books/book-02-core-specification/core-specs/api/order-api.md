@@ -1295,4 +1295,14 @@ This API Specification is accepted only if:
 
 ---
 
+
+## State Boundary Reference
+
+Order API status requests route to Order Service and consume `core-specs/controlled-state-values/order-status-values.md`; requests cannot define Order statuses or bypass Order transition validation.
+
+
+## Accept Action Status Boundary
+
+`POST /orders/{id}/accept` is a compatibility action endpoint. It returns canonical status `Confirmed` on success, never `Accepted`; denied confirmation does not create `Rejected` status. Endpoint path is unchanged and no new endpoint is added.
+
 **End of API Specification**

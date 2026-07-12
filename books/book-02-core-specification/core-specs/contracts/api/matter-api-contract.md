@@ -1267,4 +1267,14 @@ This Matter API Contract is accepted only if:
 
 ---
 
+
+## Canonical Status Contract Consumption
+
+Matter API Contract consumes `core-specs/controlled-state-values/matter-status-values.md`. Requests cannot define new Matter statuses, cannot bypass Matter Service or linked Workflow Contract validation, cannot use PATCH or generic update to bypass invalid transitions, and responses/errors must preserve reason, blocker/review and requirement context without changing endpoint paths.
+
+
+## Suspended Status Boundary
+
+Matter API Contract does not define `Suspended` as canonical status. Legacy suspension semantics require governed migration or Human Review before any canonical status transition. Endpoint paths remain unchanged.
+
 **End of API Contract**
