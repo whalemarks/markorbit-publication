@@ -132,7 +132,21 @@ def case_workflow_service_rejected_active(root: Path) -> None:
 def case_transition_rejected_outside_compatibility(root: Path) -> None:
     path = root / "books/book-02-core-specification/core-specs/workflows/components/workflow-transition-definition.md"
     text = path.read_text(encoding="utf-8")
-    path.write_text(text.replace("# Prohibited Overreach", "Rejected\n\n# Prohibited Overreach", 1), encoding="utf-8")
+    path.write_text(text.replace("# Failure Behavior", "Active transition decision: Rejected\n\n# Failure Behavior", 1), encoding="utf-8")
+
+
+def case_transition_denied_replaced_by_rejected(root: Path) -> None:
+    path = root / "books/book-02-core-specification/core-specs/workflows/components/workflow-transition-definition.md"
+    text = path.read_text(encoding="utf-8")
+    path.write_text(text.replace("Allowed\nDenied\nBlocked", "Allowed\nRejected\nBlocked", 1), encoding="utf-8")
+
+
+def case_compatibility_rejected_mapping_removed(root: Path) -> None:
+    replace(root / "books/book-02-core-specification/core-specs/workflows/components/workflow-transition-definition.md", "| Rejected | Denied |\n", "")
+
+
+def case_compatibility_rejected_mapping_wrong(root: Path) -> None:
+    replace(root / "books/book-02-core-specification/core-specs/workflows/components/workflow-transition-definition.md", "| Rejected | Denied |", "| Rejected | Blocked |")
 
 
 def case_accept_order_confirmed_rule_removed(root: Path) -> None:
@@ -177,6 +191,9 @@ CASES: list[tuple[str, Callable[[Path], None], str]] = [
     ("Service Markdown link replaced by bare path", case_service_markdown_link_replaced_by_bare_path, "service-status-source-link-missing"),
     ("Workflow Contract Service Rejected active", case_workflow_service_rejected_active, "workflow-decision-vocabulary"),
     ("Workflow transition Rejected outside Compatibility", case_transition_rejected_outside_compatibility, "legacy-workflow-decision-term"),
+    ("Workflow transition Denied replaced by Rejected", case_transition_denied_replaced_by_rejected, "workflow-decision-vocabulary"),
+    ("Workflow compatibility Rejected mapping removed", case_compatibility_rejected_mapping_removed, "workflow-compatibility-mapping"),
+    ("Workflow compatibility Rejected mapping wrong", case_compatibility_rejected_mapping_wrong, "workflow-compatibility-mapping"),
     ("acceptOrder Confirmed rule removed", case_accept_order_confirmed_rule_removed, "accept-order-confirmed-mapping"),
     ("OrderAccepted next_status Accepted", case_order_accepted_next_status_accepted, "order-accepted-not-status"),
     ("MatterSuspended active Event", case_matter_suspended_active_event, "matter-suspended-active-event"),
@@ -184,8 +201,32 @@ CASES: list[tuple[str, Callable[[Path], None], str]] = [
 ]
 
 
+def case_nontransition_rejected_vocabularies_allowed(root: Path) -> None:
+    path = root / "books/book-02-core-specification/core-specs/api/workflow-contract-api.md"
+    text = path.read_text(encoding="utf-8")
+    required = ["Previewed\nApplied\nRejected", "Previewed\nPrepared\nCreated\nRejected", "DuplicateRejected", "ApplicationRejected"]
+    missing = [item for item in required if item not in text]
+    if missing:
+        raise AssertionError(f"positive fixture missing restored nontransition vocabulary: {missing}")
+
+
+POSITIVE_CASES: list[tuple[str, Callable[[Path], None]]] = [
+    ("Workflow API nontransition Rejected vocabularies allowed", case_nontransition_rejected_vocabularies_allowed),
+]
+
+
 def main() -> int:
     failures: list[str] = []
+    for name, mutator in POSITIVE_CASES:
+        with tempfile.TemporaryDirectory() as directory:
+            fixture = copy_fixture(Path(directory))
+            mutator(fixture)
+            result = run_validator(fixture)
+            output = result.stdout + result.stderr
+            if result.returncode != 0:
+                failures.append(f"{name}: expected validator pass; rc={result.returncode}; output={output}")
+            else:
+                print(f"PASS positive case: {name}")
     for name, mutator, expected in CASES:
         with tempfile.TemporaryDirectory() as directory:
             fixture = copy_fixture(Path(directory))

@@ -235,22 +235,69 @@ class Validator:
         match = re.search(rf"^# {re.escape(heading)}$\n(.*?)(?=^# |\Z)", text, re.MULTILINE | re.DOTALL)
         return match.group(1) if match else ""
 
+    def compatibility_section_span(self, text: str, heading: str) -> tuple[int, int] | None:
+        match = re.search(rf"^# {re.escape(heading)}$\n", text, re.MULTILINE)
+        if not match:
+            return None
+        next_heading = re.search(r"^# ", text[match.end():], re.MULTILINE)
+        end = match.end() + next_heading.start() if next_heading else len(text)
+        return match.start(), end
+
+    def parse_compatibility_mapping(self, section: str) -> dict[str, str]:
+        mapping: dict[str, str] = {}
+        for line in section.splitlines():
+            match = re.match(r"^\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|$", line.strip())
+            if not match:
+                continue
+            legacy, canonical = (part.strip() for part in match.groups())
+            if legacy in {"Legacy term", "---"} or canonical in {"Canonical term", "---"}:
+                continue
+            mapping[legacy] = canonical
+        return mapping
+
     def validate_legacy_term_scope(self) -> None:
-        scoped_files = [
-            self.core / "workflows/components/workflow-transition-definition.md",
+        transition_path = self.core / "workflows/components/workflow-transition-definition.md"
+        transition_text = self.read(transition_path)
+        compatibility_span = self.compatibility_section_span(transition_text, "Compatibility")
+        if compatibility_span is None:
+            self.fail(transition_path, "workflow-compatibility-section", "# Compatibility section", "missing")
+            compatibility = ""
+            outside = transition_text
+        else:
+            start, end = compatibility_span
+            compatibility = transition_text[start:end]
+            outside = transition_text[:start] + transition_text[end:]
+
+        expected_mapping = {
+            "Rejected": "Denied",
+            "BlockedByPermission": "PermissionRequired",
+            "BlockedByPolicy": "PolicyRequired",
+            "BlockedByGuard": "Blocked",
+        }
+        actual_mapping = self.parse_compatibility_mapping(compatibility)
+        if actual_mapping != expected_mapping:
+            self.fail(transition_path, "workflow-compatibility-mapping", expected_mapping, actual_mapping)
+
+        for term in LEGACY_TERMS:
+            if term in outside:
+                self.fail(
+                    transition_path,
+                    "legacy-workflow-decision-term",
+                    "legacy terms only in workflow-transition-definition.md # Compatibility",
+                    term,
+                )
+
+        scoped_decision_files = [
             self.core / "services/workflow-contract-service.md",
             self.core / "objects/workflow-contract.md",
             self.core / "api/workflow-contract-api.md",
             self.core / "contracts/api/workflow-contract-api-contract.md",
         ]
-        compatibility_path = self.core / "workflows/components/workflow-transition-definition.md"
-        for path in scoped_files:
-            text = self.read(path)
-            compatibility = self.section_text(text, "Compatibility") if path == compatibility_path else ""
-            outside = text.replace(compatibility, "", 1) if compatibility else text
-            for term in LEGACY_TERMS:
-                if term in outside:
-                    self.fail(path, "legacy-workflow-decision-term", "only workflow-transition-definition.md # Compatibility", term)
+        for path in scoped_decision_files:
+            decision_values = self.decision_block(self.read(path))
+            active_legacy_terms = [term for term in LEGACY_TERMS if term in decision_values]
+            if active_legacy_terms:
+                self.fail(path, "legacy-workflow-decision-term", "canonical decision block excludes legacy terms", active_legacy_terms)
 
     def validate_behavioral_ambiguity(self) -> None:
         order = self.read(self.core / "services/order-service.md")
