@@ -136,7 +136,7 @@ Codex Object
 
 Book 02 also recognizes specification categories that are not Core Objects:
 
-- **Controlled Value Specification** — has no independent identity; is owned by a parent object or contract; defines legal values and semantics; may be versioned; may define transition constraints; cannot mutate independently; cannot become an aggregate root.
+- **Controlled State Value Specification** — has no independent identity; is owned by a parent object or contract; defines legal values and semantics; may be versioned; may define transition constraints; cannot mutate independently; cannot become an aggregate root.
 - **Workflow Contract Component** — exists inside Workflow Contract; may define structure and validation; does not execute independently; does not own business state; does not directly call external actions; is not defined by Product UI.
 - **Contract** — defines exchange, validation or obligation shape for objects, services, events, APIs or workflows.
 - **Event** — records meaningful changes or outcomes without owning the changed state.
@@ -312,7 +312,7 @@ A Core Object marked `Deferred` belongs to future releases.
 | OBJ-CX-003 | Test Fixture | Specification Governance | Wave 0 | Must Implement |
 | OBJ-CX-004 | Implementation Artifact | Codex Task System | Wave 0–7 | Partial Implement |
 
-## 7.4 Reclassified Legacy Status and Workflow Entries
+## 7.6 Reclassified Legacy Status and Workflow Entries
 
 The following legacy IDs are retained as historical references only. They are not active independent identity-bearing Core Objects and must not be reassigned.
 

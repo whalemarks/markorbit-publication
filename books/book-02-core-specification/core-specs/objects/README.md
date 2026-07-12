@@ -351,10 +351,10 @@ Objects with operational state must define a state model.
 Examples:
 
 ```text
-Trademark status values (Controlled Value Specification, not Core Object)
-Order status values (Controlled Value Specification, not Core Object)
-Matter status values (Controlled Value Specification, not Core Object)
-Task status values (Controlled Value Specification, not Core Object)
+Trademark status values (Controlled State Value Specification, not Core Object)
+Order status values (Controlled State Value Specification, not Core Object)
+Matter status values (Controlled State Value Specification, not Core Object)
+Task status values (Controlled State Value Specification, not Core Object)
 Review Status
 AI Output Status
 Codex Task Status
