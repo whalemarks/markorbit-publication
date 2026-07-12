@@ -36,6 +36,12 @@ Unrestricted implementation readiness: NO
 - Legacy Service vocabulary is compatibility-only.
 - Workflow State and Transition specs implement all required component sections.
 - Required Service/API/Contract/Workflow references resolve.
+- Legacy operation, Event, API and error names cannot create alternate status semantics.
+- Order accept action resolves only to canonical `Confirmed`.
+- Matter Suspended legacy vocabulary cannot create `Suspended` status.
+- Task reopen resolves only to canonical `Open`.
+- All Service canonical references are resolvable Markdown links.
+- Workflow legacy decision terms exist only inside the explicit Workflow Transition Compatibility section.
 
 ## Remaining Gates
 

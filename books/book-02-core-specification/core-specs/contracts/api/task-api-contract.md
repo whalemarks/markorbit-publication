@@ -1250,4 +1250,9 @@ This Task API Contract is accepted only if:
 
 Task API Contract consumes `core-specs/controlled-state-values/task-status-values.md`. Requests cannot define new Task statuses, cannot bypass Task Service, cannot silently reopen through generic update, and responses/errors must preserve reason, assignment, completion, reopen and requirement context without adding endpoints or changing endpoint paths.
 
+
+## Reopen Status Boundary
+
+Task API Contract treats reopen as governed operation returning canonical `Open` and requiring Task Service validation plus status/event trace. `Reopened` is not a Task status. Endpoint paths remain unchanged.
+
 **End of API Contract**

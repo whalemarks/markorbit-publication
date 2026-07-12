@@ -1206,4 +1206,9 @@ This API Specification is accepted only if:
 
 Matter API status requests route to Matter Service and consume `core-specs/controlled-state-values/matter-status-values.md`; Workflow Contract constraints apply when linked.
 
+
+## Suspended Status Boundary
+
+Matter has no canonical `Suspended` status. API responses and errors must use canonical Matter statuses or explicit reason context, not a `Suspended` status. Endpoint paths remain unchanged and no endpoint is added.
+
 **End of API Specification**

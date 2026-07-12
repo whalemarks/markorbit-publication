@@ -443,7 +443,7 @@ WorkflowContractVersionCreated
 WorkflowStateDefined
 WorkflowTransitionDefined
 WorkflowTransitionValidated
-WorkflowTransitionRejected
+WorkflowTransitionDenied
 WorkflowStateChanged
 WorkflowGuardEvaluated
 WorkflowContractArchived

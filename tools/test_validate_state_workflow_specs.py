@@ -83,7 +83,9 @@ def case_task_service_reopened_active(root: Path) -> None:
 def case_service_reference_removed(root: Path) -> None:
     path = root / "books/book-02-core-specification/core-specs/services/order-service.md"
     text = path.read_text(encoding="utf-8")
-    path.write_text(text.replace("core-specs/controlled-state-values/order-status-values.md", "core-specs/controlled-state-values/order-status-values-removed.md"), encoding="utf-8")
+    text = text.replace("../controlled-state-values/order-status-values.md", "../controlled-state-values/order-status-values-removed.md")
+    text = text.replace("core-specs/controlled-state-values/order-status-values.md", "core-specs/controlled-state-values/order-status-values-removed.md")
+    path.write_text(text, encoding="utf-8")
 
 
 def case_service_order_changed(root: Path) -> None:
@@ -114,6 +116,47 @@ def case_component_acceptance_section_removed(root: Path) -> None:
     path.write_text(text[:start] + text[end:], encoding="utf-8")
 
 
+def case_service_markdown_link_replaced_by_bare_path(root: Path) -> None:
+    path = root / "books/book-02-core-specification/core-specs/services/order-service.md"
+    text = path.read_text(encoding="utf-8")
+    text = text.replace("[Order Status Values](../controlled-state-values/order-status-values.md)", "core-specs/controlled-state-values/order-status-values.md")
+    path.write_text(text, encoding="utf-8")
+
+
+def case_workflow_service_rejected_active(root: Path) -> None:
+    path = root / "books/book-02-core-specification/core-specs/services/workflow-contract-service.md"
+    text = path.read_text(encoding="utf-8")
+    path.write_text(text.replace("Allowed\nDenied", "Allowed\nRejected\nDenied", 1), encoding="utf-8")
+
+
+def case_transition_rejected_outside_compatibility(root: Path) -> None:
+    path = root / "books/book-02-core-specification/core-specs/workflows/components/workflow-transition-definition.md"
+    text = path.read_text(encoding="utf-8")
+    path.write_text(text.replace("# Prohibited Overreach", "Rejected\n\n# Prohibited Overreach", 1), encoding="utf-8")
+
+
+def case_accept_order_confirmed_rule_removed(root: Path) -> None:
+    path = root / "books/book-02-core-specification/core-specs/services/order-service.md"
+    text = path.read_text(encoding="utf-8")
+    path.write_text(text.replace("A successful `acceptOrder` operation may only request the canonical transition `PendingConfirmation -> Confirmed`", "A successful `acceptOrder` operation may request acceptance"), encoding="utf-8")
+
+
+def case_order_accepted_next_status_accepted(root: Path) -> None:
+    path = root / "books/book-02-core-specification/core-specs/services/order-service.md"
+    text = path.read_text(encoding="utf-8")
+    path.write_text(text.replace("next_status=Confirmed", "next_status=Accepted"), encoding="utf-8")
+
+
+def case_matter_suspended_active_event(root: Path) -> None:
+    replace(root / "books/book-02-core-specification/core-specs/services/matter-service.md", "MatterCancelled\nMatterArchived", "MatterCancelled\nMatterSuspended\nMatterArchived")
+
+
+def case_task_reopen_status_trace_removed(root: Path) -> None:
+    path = root / "books/book-02-core-specification/core-specs/services/task-service.md"
+    text = path.read_text(encoding="utf-8")
+    path.write_text(text.replace("`TaskStatusChanged` trace, ", ""), encoding="utf-8")
+
+
 CASES: list[tuple[str, Callable[[Path], None], str]] = [
     ("order status value removed", case_order_value_removed, "canonical-values"),
     ("unexpected status value added", case_unexpected_status_added, "canonical-values"),
@@ -126,11 +169,18 @@ CASES: list[tuple[str, Callable[[Path], None], str]] = [
     ("Order Service Quoted active", case_order_service_quoted_active, "service-controlled-values"),
     ("Matter Service Suspended active", case_matter_service_suspended_active, "service-controlled-values"),
     ("Task Service Reopened active", case_task_service_reopened_active, "service-controlled-values"),
-    ("Service canonical reference removed", case_service_reference_removed, "service-status-source-reference"),
+    ("Service canonical reference removed", case_service_reference_removed, "service-status-source-link-missing"),
     ("Service active status order changed", case_service_order_changed, "service-controlled-values"),
     ("component Permission and Policy removed", case_component_permission_section_removed, "component-section"),
     ("component Versioning removed", case_component_versioning_section_removed, "component-section"),
     ("component Acceptance Criteria removed", case_component_acceptance_section_removed, "component-section"),
+    ("Service Markdown link replaced by bare path", case_service_markdown_link_replaced_by_bare_path, "service-status-source-link-missing"),
+    ("Workflow Contract Service Rejected active", case_workflow_service_rejected_active, "workflow-decision-vocabulary"),
+    ("Workflow transition Rejected outside Compatibility", case_transition_rejected_outside_compatibility, "legacy-workflow-decision-term"),
+    ("acceptOrder Confirmed rule removed", case_accept_order_confirmed_rule_removed, "accept-order-confirmed-mapping"),
+    ("OrderAccepted next_status Accepted", case_order_accepted_next_status_accepted, "order-accepted-not-status"),
+    ("MatterSuspended active Event", case_matter_suspended_active_event, "matter-suspended-active-event"),
+    ("Task reopen TaskStatusChanged removed", case_task_reopen_status_trace_removed, "task-reopen-trace"),
 ]
 
 

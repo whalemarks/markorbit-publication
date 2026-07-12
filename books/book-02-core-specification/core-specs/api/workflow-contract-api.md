@@ -782,7 +782,7 @@ Unknown
 ```text
 Previewed
 Applied
-Rejected
+Denied
 PolicyRestricted
 PermissionDenied
 ReviewRequired
@@ -795,7 +795,7 @@ Unknown
 Previewed
 Prepared
 Created
-Rejected
+Denied
 PolicyRestricted
 PermissionDenied
 ReviewRequired
@@ -1018,9 +1018,9 @@ MatterReferenceInvalid
 OrderReferenceInvalid
 TaskReferenceInvalid
 ValidationFailed
-DuplicateRejected
+DuplicateDenied
 StateInvalid
-ApplicationRejected
+ApplicationDenied
 TaskPlanInvalid
 RestrictedFieldViolation
 RestrictedWorkflowContractData

@@ -187,7 +187,7 @@ advanced order analytics
 | linkOrderMatter | Link Order to Matter | Yes | OrderMatterLinked |
 | validateOrderReference | Validate whether Order can be referenced | Yes | OrderReferenceValidated |
 | validateOrderReadiness | Validate readiness for Matter creation/execution | Yes | OrderReadinessValidated |
-| acceptOrder | Mark Order accepted | Yes | OrderAccepted |
+| acceptOrder | Compatibility business action requesting `PendingConfirmation -> Confirmed` | Yes | OrderAccepted / OrderStatusChanged |
 | cancelOrder | Cancel Order | Yes | OrderCancelled |
 | archiveOrder | Archive Order reference | Partial | OrderArchived |
 
@@ -325,7 +325,7 @@ Unknown
 
 ## 9.2 status
 
-Consumed canonical values from `core-specs/controlled-state-values/order-status-values.md`:
+Consumed canonical values from [Order Status Values](../controlled-state-values/order-status-values.md):
 
 ```text
 Draft
@@ -341,7 +341,7 @@ Archived
 DeletedReferenceOnly
 ```
 
-The Controlled State Value Specification `core-specs/controlled-state-values/order-status-values.md` is the canonical source for legal Order status values and transition semantics. Order owns current state truth. Order Service validates current state, requested state and canonical transition, preserves previous/next state plus actor, reason, permission, policy, review and idempotency context, and produces or requires `OrderStatusChanged` event trace. The Service must not define an alternate active status list.
+The Controlled State Value Specification [Order Status Values](../controlled-state-values/order-status-values.md) is the canonical source for legal Order status values and transition semantics. Order owns current state truth. Order Service validates current state, requested state and canonical transition, preserves previous/next state plus actor, reason, permission, policy, review and idempotency context, and produces or requires `OrderStatusChanged` event trace. The Service must not define an alternate active status list.
 
 ### 9.2.1 Deprecated Order Service Status Vocabulary
 
@@ -386,7 +386,7 @@ Invalid
 NotFound
 Draft
 Cancelled
-Rejected
+OrderRequestDenied
 Completed
 Archived
 ReviewRequired
@@ -437,6 +437,16 @@ Workflow Contract governs execution transitions.
 ## 10.7 Order Changes Must Be Auditable
 
 Order-sensitive operations must preserve actor, source, request context, linked object trace and event trace.
+## 10.8 Accept Order Compatibility Action
+
+`acceptOrder` is a compatibility/business action, not a status value. A successful `acceptOrder` operation may only request the canonical transition `PendingConfirmation -> Confirmed`; it must invoke the same canonical status-transition validation used by `changeOrderStatus` and must never write `Accepted` as `Order.status`. It requires authorized actor, validated commercial scope, permission, policy, Human Review where applicable, idempotency, previous status, `next_status=Confirmed`, reason and `OrderStatusChanged` trace. If current state cannot enter `Confirmed`, return canonical transition failure and do not force acceptance.
+
+`POST /orders/{id}/accept` is a compatibility action endpoint that calls `acceptOrder`. On success it returns canonical status `Confirmed`, never `Accepted`; it cannot bypass `PendingConfirmation -> Confirmed`, does not mean payment completed, does not mean Matter exists and does not mean professional work is complete.
+
+`OrderAccepted` is an action/event name, not a status value. Its payload must include `previous_status`, `next_status=Confirmed`, actor, reason, permission context, policy context, review context where applicable and event time. `OrderStatusChanged` remains the canonical status mutation trace; do not emit only `OrderAccepted` for status mutation.
+
+`OrderRequestDenied` is the active action-result Event/error for denied accept/confirmation or other business requests. It does not change `Order.status`, must record reason, actor and policy context, and does not automatically map to `Cancelled`. Deprecated `OrderRejected` is a legacy compatibility Event/error alias only; it is not a canonical Order status and not automatic cancellation.
+
 
 ---
 
@@ -476,7 +486,7 @@ OrderMatterLinked
 OrderReadinessValidated
 OrderAccepted
 OrderCancelled
-OrderRejected
+OrderRequestDenied
 OrderCompleted
 OrderArchived
 OrderReferenceValidated
@@ -589,7 +599,7 @@ Order Service must enforce:
 [ ] changeOrderStatus follows allowed lifecycle.
 [ ] linkOrderCustomer references valid Customer.
 [ ] linkOrderMatter references valid Matter where implemented.
-[ ] validateOrderReference rejects missing, cancelled, rejected, archived or deleted-reference orders where not allowed.
+[ ] validateOrderReference rejects missing, cancelled, archived or deleted-reference Orders where reference is not allowed, and returns a denied validation result when policy or business confirmation requirements are not satisfied.
 [ ] validateOrderReadiness does not create Matter automatically.
 [ ] Order Service does not process payment or invoice.
 [ ] Order Service does not create Task automatically.
@@ -619,7 +629,7 @@ TrademarkNotFound
 MatterNotFound
 OrderNotReady
 OrderCancelled
-OrderRejected
+OrderRequestDenied
 OrderCompleted
 PaymentOutOfScope
 InvoiceOutOfScope

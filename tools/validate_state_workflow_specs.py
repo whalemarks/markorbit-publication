@@ -164,11 +164,13 @@ class Validator:
             if len(service_actual) != expected_count:
                 self.fail(service_path, "service-controlled-value-count", expected_count, len(service_actual))
             service_ref = f"../controlled-state-values/{spec_file}"
-            literal_ref = f"core-specs/controlled-state-values/{spec_file}"
-            targets = self.markdown_link_targets(service_text, spec_file)
-            has_resolving_link = any((service_path.parent / target).resolve().exists() for target in targets)
-            if literal_ref not in service_text and not has_resolving_link:
-                self.fail(service_path, "service-status-source-reference", literal_ref, "missing")
+            targets = re.findall(r"\[[^\]]+\]\(([^)]+)\)", service_text)
+            if service_ref not in targets:
+                self.fail(service_path, "service-status-source-link-missing", service_ref, targets)
+            elif (service_path.parent / service_ref).resolve() != (self.core / "controlled-state-values" / spec_file).resolve():
+                self.fail(service_path, "service-status-source-link-target", str((self.core / "controlled-state-values" / spec_file).resolve()), service_ref)
+            elif not (service_path.parent / service_ref).resolve().exists():
+                self.fail(service_path, "service-status-source-link-target", "existing canonical status spec", service_ref)
             for legacy_term in SERVICE_LEGACY_TERMS[name]:
                 if legacy_term in service_actual:
                     self.fail(service_path, "legacy-service-term-active", "compatibility/deprecation note only", legacy_term)
@@ -229,6 +231,10 @@ class Validator:
             if actual != DECISIONS:
                 self.fail(path, "workflow-decision-vocabulary", DECISIONS, actual)
 
+    def section_text(self, text: str, heading: str) -> str:
+        match = re.search(rf"^# {re.escape(heading)}$\n(.*?)(?=^# |\Z)", text, re.MULTILINE | re.DOTALL)
+        return match.group(1) if match else ""
+
     def validate_legacy_term_scope(self) -> None:
         scoped_files = [
             self.core / "workflows/components/workflow-transition-definition.md",
@@ -237,14 +243,39 @@ class Validator:
             self.core / "api/workflow-contract-api.md",
             self.core / "contracts/api/workflow-contract-api-contract.md",
         ]
+        compatibility_path = self.core / "workflows/components/workflow-transition-definition.md"
         for path in scoped_files:
             text = self.read(path)
-            for term in ["BlockedByPermission", "BlockedByPolicy", "BlockedByGuard"]:
-                if term not in text:
-                    continue
-                if path == self.core / "workflows/components/workflow-transition-definition.md" and "# Compatibility" in text:
-                    continue
-                self.fail(path, "legacy-workflow-decision-term", "compatibility mapping/note only", term)
+            compatibility = self.section_text(text, "Compatibility") if path == compatibility_path else ""
+            outside = text.replace(compatibility, "", 1) if compatibility else text
+            for term in LEGACY_TERMS:
+                if term in outside:
+                    self.fail(path, "legacy-workflow-decision-term", "only workflow-transition-definition.md # Compatibility", term)
+
+    def validate_behavioral_ambiguity(self) -> None:
+        order = self.read(self.core / "services/order-service.md")
+        if "A successful `acceptOrder` operation may only request the canonical transition `PendingConfirmation -> Confirmed`" not in order:
+            self.fail(self.core / "services/order-service.md", "accept-order-confirmed-mapping", "PendingConfirmation -> Confirmed", "missing")
+        if "never write `Accepted` as `Order.status`" not in order or "next_status=Confirmed" not in order:
+            self.fail(self.core / "services/order-service.md", "order-accepted-not-status", "OrderAccepted action with next_status=Confirmed", "missing")
+        if "OrderStatusChanged" not in order:
+            self.fail(self.core / "services/order-service.md", "order-status-changed-required", "OrderStatusChanged", "missing")
+        active_order_region = re.search(r"# 12\. Event Usage(.*?)(?=---\n\n# 13\. API Usage)", order, re.DOTALL)
+        active_order_events = active_order_region.group(1) if active_order_region else ""
+        if "OrderRejected" in active_order_events:
+            self.fail(self.core / "services/order-service.md", "order-rejected-active-event", "OrderRequestDenied active; OrderRejected compatibility only", "OrderRejected")
+        if "OrderRequestDenied" not in order:
+            self.fail(self.core / "services/order-service.md", "order-request-denied", "OrderRequestDenied", "missing")
+        matter = self.read(self.core / "services/matter-service.md")
+        active_matter_region = re.search(r"# 12\. Event Usage(.*?)(?=---\n\n# 13\. API Usage)", matter, re.DOTALL)
+        active_matter_events = active_matter_region.group(1) if active_matter_region else ""
+        if "MatterSuspended" in active_matter_events:
+            self.fail(self.core / "services/matter-service.md", "matter-suspended-active-event", "legacy compatibility only", "MatterSuspended")
+        if "must not set `Matter.status` to `Suspended`" not in matter:
+            self.fail(self.core / "services/matter-service.md", "matter-suspended-compatibility", "must not set Suspended", "missing")
+        task = self.read(self.core / "services/task-service.md")
+        if "moves `Completed -> Open` or `Cancelled -> Open`" not in task or "`TaskStatusChanged` trace" not in task or "`TaskReopened` trace" not in task:
+            self.fail(self.core / "services/task-service.md", "task-reopen-trace", "Open plus TaskStatusChanged and TaskReopened", "missing")
 
     def validate_object_index(self) -> None:
         path = self.root / "books/book-02-core-specification/indexes/object-index.md"
@@ -280,6 +311,7 @@ class Validator:
         self.validate_required_sections()
         self.validate_decision_vocabulary()
         self.validate_legacy_term_scope()
+        self.validate_behavioral_ambiguity()
         self.validate_object_index()
         if self.errors:
             for error in self.errors:

@@ -1281,4 +1281,9 @@ This Order API Contract is accepted only if:
 
 Order API Contract consumes `core-specs/controlled-state-values/order-status-values.md`. Requests cannot define new Order statuses, cannot bypass Order Service, cannot use PATCH or generic update to bypass invalid transitions, and responses/errors must preserve actor, reason, permission, policy and review requirement context without adding endpoints or changing endpoint paths.
 
+
+## Accept Action Status Boundary
+
+`POST /orders/{id}/accept` calls Order Service compatibility action semantics. Success returns canonical `Confirmed`; denial returns reason/requirement context and does not create `Rejected` status. Endpoint path remains unchanged and no endpoint is added.
+
 **End of API Contract**

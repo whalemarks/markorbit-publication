@@ -314,7 +314,7 @@ Unknown
 
 ## 9.2 status
 
-Consumed canonical values from `core-specs/controlled-state-values/matter-status-values.md`:
+Consumed canonical values from [Matter Status Values](../controlled-state-values/matter-status-values.md):
 
 ```text
 Draft
@@ -331,7 +331,7 @@ Archived
 DeletedReferenceOnly
 ```
 
-The Controlled State Value Specification `core-specs/controlled-state-values/matter-status-values.md` is the canonical source for legal Matter status values and transition semantics. Matter owns current state truth. Matter Service validates and performs mutation, preserving current/next status, actor, reason, blocker or review context, Workflow Contract validation when applicable, and Event trace. The Service must not define an alternate active status list.
+The Controlled State Value Specification [Matter Status Values](../controlled-state-values/matter-status-values.md) is the canonical source for legal Matter status values and transition semantics. Matter owns current state truth. Matter Service validates and performs mutation, preserving current/next status, actor, reason, blocker or review context, Workflow Contract validation when applicable, and Event trace. The Service must not define an alternate active status list.
 
 ### 9.2.1 Deprecated Matter Service Status Vocabulary
 
@@ -422,6 +422,10 @@ Where a Workflow Contract is linked, Matter status changes must comply with allo
 
 Matter-sensitive operations must preserve actor, source, request context, linked object trace and event trace.
 
+## 10.8 Suspended Legacy Compatibility
+
+`MatterSuspended` is not an active status Event and must not set `Matter.status` to `Suspended`. Legacy imports that contain suspension semantics require governed migration or Human Review before mapping to a canonical transition such as `MatterStatusChanged` with `next_status=Blocked`, `next_status=ReviewRequired`, or another approved canonical state. Do not automatically map `Suspended -> Blocked` or `Suspended -> ReviewRequired`.
+
 ---
 
 # 11. Relationships
@@ -463,7 +467,6 @@ MatterEvidenceLinked
 MatterCommunicationLinked
 MatterCompleted
 MatterCancelled
-MatterSuspended
 MatterArchived
 MatterReferenceValidated
 ```
@@ -607,7 +610,6 @@ DocumentNotFound
 EvidenceNotFound
 CommunicationNotFound
 WorkflowTransitionNotAllowed
-MatterSuspended
 MatterCancelled
 MatterCompleted
 ReviewRequired
