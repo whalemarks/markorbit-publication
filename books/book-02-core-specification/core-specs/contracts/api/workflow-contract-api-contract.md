@@ -1229,8 +1229,3 @@ Unknown
 Legacy terms are compatibility-only and must not be returned as active workflow transition decisions.
 
 **End of API Contract**
-
-
-# PUB-TASK-B02-003 Workflow Component Contract Consumption
-
-Workflow Contract API consumes `../workflows/components/workflow-state-definition-contract.md` and `../workflows/components/workflow-transition-definition-contract.md` for definition validation and transition validation. Workflow validation results always report `mutation_performed=false`; the API validates and routes only. Protected external action defaults to deny unless a separate owning authority authorizes it. Endpoint paths are unchanged and no endpoint is added.

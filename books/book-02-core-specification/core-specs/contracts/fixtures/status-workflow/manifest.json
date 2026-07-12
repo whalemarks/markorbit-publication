@@ -13,6 +13,30 @@
     },
     {
       "case_type": "positive",
+      "fixture_id": "b02-order-canonical-matrix",
+      "fixture_type": "StatusMatrix",
+      "path": "status/order/canonical-matrix.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-ORDER",
+      "target_spec_id": "B02-CSV-ORDER-STATUS"
+    },
+    {
+      "case_type": "positive",
+      "fixture_id": "b02-matter-canonical-matrix",
+      "fixture_type": "StatusMatrix",
+      "path": "status/matter/canonical-matrix.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-MATTER",
+      "target_spec_id": "B02-CSV-MATTER-STATUS"
+    },
+    {
+      "case_type": "positive",
+      "fixture_id": "b02-task-canonical-matrix",
+      "fixture_type": "StatusMatrix",
+      "path": "status/task/canonical-matrix.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-TASK",
+      "target_spec_id": "B02-CSV-TASK-STATUS"
+    },
+    {
+      "case_type": "positive",
       "fixture_id": "b02-trademark-valid-pending-filing-to-filed",
       "fixture_type": "StatusTransition",
       "path": "status/trademark/valid-pending-filing-to-filed.json",
@@ -42,14 +66,6 @@
       "path": "status/trademark/invalid-archived-to-draft.json",
       "target_contract_id": "B02-CONTRACT-STATUS-TRADEMARK",
       "target_spec_id": "B02-CSV-TRADEMARK-STATUS"
-    },
-    {
-      "case_type": "positive",
-      "fixture_id": "b02-order-canonical-matrix",
-      "fixture_type": "StatusMatrix",
-      "path": "status/order/canonical-matrix.json",
-      "target_contract_id": "B02-CONTRACT-STATUS-ORDER",
-      "target_spec_id": "B02-CSV-ORDER-STATUS"
     },
     {
       "case_type": "positive",
@@ -85,14 +101,6 @@
     },
     {
       "case_type": "positive",
-      "fixture_id": "b02-matter-canonical-matrix",
-      "fixture_type": "StatusMatrix",
-      "path": "status/matter/canonical-matrix.json",
-      "target_contract_id": "B02-CONTRACT-STATUS-MATTER",
-      "target_spec_id": "B02-CSV-MATTER-STATUS"
-    },
-    {
-      "case_type": "positive",
       "fixture_id": "b02-matter-valid-in-progress-to-waiting-for-office",
       "fixture_type": "StatusTransition",
       "path": "status/matter/valid-in-progress-to-waiting-for-office.json",
@@ -122,14 +130,6 @@
       "path": "status/matter/invalid-archived-to-open.json",
       "target_contract_id": "B02-CONTRACT-STATUS-MATTER",
       "target_spec_id": "B02-CSV-MATTER-STATUS"
-    },
-    {
-      "case_type": "positive",
-      "fixture_id": "b02-task-canonical-matrix",
-      "fixture_type": "StatusMatrix",
-      "path": "status/task/canonical-matrix.json",
-      "target_contract_id": "B02-CONTRACT-STATUS-TASK",
-      "target_spec_id": "B02-CSV-TASK-STATUS"
     },
     {
       "case_type": "positive",

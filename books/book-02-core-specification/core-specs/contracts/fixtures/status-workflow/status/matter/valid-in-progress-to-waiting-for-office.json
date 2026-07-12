@@ -2,18 +2,94 @@
   "case_type": "positive",
   "contains_production_data": false,
   "expected": {
-    "decision": "Allowed",
-    "event_type": "MatterStatusChanged",
-    "performed": false
+    "status_transition_decision": {
+      "current_status": "InProgress",
+      "decision": "Allowed",
+      "decision_reference_id": "decision_fixture_001",
+      "evaluated_at": "2026-01-01T00:00:00Z",
+      "missing_requirements": [],
+      "mutation_authorized_for_owner_service": true,
+      "reason_code": "synthetic_allowed",
+      "requested_status": "WaitingForOffice",
+      "required_next_action": null,
+      "transition_request_reference_id": "transition_fixture_001"
+    },
+    "status_transition_result": {
+      "audit_reference_id": "audit_fixture_001",
+      "correlation_id": "correlation_fixture_001",
+      "decision_reference_id": "decision_fixture_001",
+      "event_reference_id": "event_fixture_001",
+      "event_type": "MatterStatusChanged",
+      "failure_reason_code": null,
+      "idempotency_key": "idempotency_fixture_001",
+      "next_status": "WaitingForOffice",
+      "object_reference_id": "mat_fixture_001",
+      "object_type": "Matter",
+      "owner_service": "Matter Service",
+      "owner_service_operation": "MatterService.changeStatus",
+      "performed": true,
+      "performed_at": "2026-01-01T00:00:00Z",
+      "previous_status": "InProgress",
+      "status_changed": true,
+      "transition_request_reference_id": "transition_fixture_001"
+    }
   },
   "fixture_id": "b02-matter-valid-in-progress-to-waiting-for-office",
   "fixture_type": "StatusTransition",
   "fixture_version": "v0.1.0",
   "input": {
-    "current_status": "InProgress",
-    "requested_action": "valid_in_progress_to_waiting_for_office",
-    "requested_status": "WaitingForOffice",
-    "source_context": {}
+    "status_transition_request": {
+      "actor_context": {
+        "actor_reference_id": "actor_fixture_001",
+        "agent_contract_reference_id": null,
+        "agent_reference_id": null,
+        "organization_reference_id": "org_fixture_001"
+      },
+      "approval_context": {
+        "approval_reference_id": null,
+        "approval_status": "NotRequired"
+      },
+      "contract_version": "v0.1.0",
+      "correlation_id": "correlation_fixture_001",
+      "current_status": "InProgress",
+      "domain_guard_context": {
+        "assignee_reference_id": null,
+        "blocker_resolution_reference_id": null,
+        "completion_context_reference_id": null,
+        "domain_context": null,
+        "matter_reference_id": null
+      },
+      "human_review_context": {
+        "human_review_reference_id": null,
+        "review_status": "NotRequired"
+      },
+      "idempotency_key": "idempotency_fixture_001",
+      "permission_context": {
+        "permission_decision_reference_id": "perm_fixture_001",
+        "permission_status": "Allowed"
+      },
+      "policy_context": {
+        "policy_decision_reference_id": "policy_fixture_001",
+        "policy_status": "Allowed"
+      },
+      "reason_code": "synthetic_valid_in_progress_to_waiting_for_office",
+      "requested_action": "waitForOffice",
+      "requested_status": "WaitingForOffice",
+      "source_context": {
+        "jurisdiction_reference_id": null,
+        "normalization_evidence_reference_id": null,
+        "source_reference_id": null,
+        "source_type": null,
+        "source_validation_status": "NotRequired",
+        "source_version_or_timestamp": null
+      },
+      "subject": {
+        "object_reference_id": "mat_fixture_001",
+        "object_type": "Matter",
+        "owner_service": "Matter Service"
+      },
+      "transition_request_reference_id": "transition_fixture_001"
+    }
   },
   "synthetic": true,
   "target_contract_id": "B02-CONTRACT-STATUS-MATTER",

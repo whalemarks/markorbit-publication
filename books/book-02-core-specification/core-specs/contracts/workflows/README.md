@@ -822,8 +822,3 @@ This README is accepted only if:
 Workflow Contracts must reference `core-specs/workflows/components/workflow-state-definition.md` and `core-specs/workflows/components/workflow-transition-definition.md`. Contract state and transition structures must conform to component schema. Contracts validate and route only; actual domain mutation remains with owning Services and protected external action is not authorized by the contract.
 
 **End of Workflow Contracts README**
-
-
-## PUB-TASK-B02-003 Component Contract References
-
-State definitions conform to `components/workflow-state-definition-contract.md` (`B02-CONTRACT-WORKFLOW-STATE-DEFINITION`). Transition definitions conform to `components/workflow-transition-definition-contract.md` (`B02-CONTRACT-WORKFLOW-TRANSITION-DEFINITION`). Workflow Contract validates and routes only; it does not perform target object mutation or authorize protected external action.

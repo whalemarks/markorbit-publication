@@ -1287,8 +1287,3 @@ Order API Contract consumes `core-specs/controlled-state-values/order-status-val
 `POST /orders/{id}/accept` calls Order Service compatibility action semantics. Success returns canonical `Confirmed`; denial returns reason/requirement context and does not create `Rejected` status. Endpoint path remains unchanged and no endpoint is added.
 
 **End of API Contract**
-
-
-# PUB-TASK-B02-003 Status Transition Contract Consumption
-
-Status mutation requests MUST consume `../status/status-transition-contract.md` and `../status/order-status-contract.md`. PATCH or generic update MUST NOT bypass transition validation. Responses distinguish validation decision from performed owner-Service result. The API does not perform mutation; it calls the owning Service. Endpoint paths are unchanged and no endpoint is added.

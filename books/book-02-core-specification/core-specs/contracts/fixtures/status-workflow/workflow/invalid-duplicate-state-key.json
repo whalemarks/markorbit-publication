@@ -8,54 +8,59 @@
   "fixture_type": "WorkflowStateDefinition",
   "fixture_version": "v0.1.0",
   "input": {
-    "states": [
-      {
-        "allowed_actor_types": [
-          "User"
-        ],
-        "display_name": "Draft",
-        "entry_requirements": [],
-        "exit_requirements": [],
-        "external_action_boundary": "No external action authorized",
-        "is_active": true,
-        "is_initial": true,
-        "is_terminal": false,
-        "meaning": "Synthetic draft",
-        "metadata": null,
-        "required_approval_references": [],
-        "required_document_references": [],
-        "required_event_references": [],
-        "required_evidence_references": [],
-        "required_permission_references": [],
-        "required_policy_references": [],
-        "required_review_references": [],
-        "state_category": "Planning",
-        "state_key": "draft"
-      },
-      {
-        "allowed_actor_types": [
-          "User"
-        ],
-        "display_name": "Done",
-        "entry_requirements": [],
-        "exit_requirements": [],
-        "external_action_boundary": "No external action authorized",
-        "is_active": false,
-        "is_initial": false,
-        "is_terminal": true,
-        "meaning": "Synthetic terminal",
-        "metadata": null,
-        "required_approval_references": [],
-        "required_document_references": [],
-        "required_event_references": [],
-        "required_evidence_references": [],
-        "required_permission_references": [],
-        "required_policy_references": [],
-        "required_review_references": [],
-        "state_category": "Terminal",
-        "state_key": "draft"
-      }
-    ]
+    "transition_definitions": [],
+    "workflow_state_definition_set": {
+      "states": [
+        {
+          "allowed_actor_types": [
+            "User"
+          ],
+          "display_name": "Draft",
+          "entry_requirements": [],
+          "exit_requirements": [],
+          "external_action_boundary": "No external action authorized",
+          "is_active": true,
+          "is_initial": true,
+          "is_terminal": false,
+          "meaning": "Synthetic draft",
+          "metadata": null,
+          "required_approval_references": [],
+          "required_document_references": [],
+          "required_event_references": [],
+          "required_evidence_references": [],
+          "required_permission_references": [],
+          "required_policy_references": [],
+          "required_review_references": [],
+          "state_category": "Active",
+          "state_key": "draft"
+        },
+        {
+          "allowed_actor_types": [
+            "User"
+          ],
+          "display_name": "Draft",
+          "entry_requirements": [],
+          "exit_requirements": [],
+          "external_action_boundary": "No external action authorized",
+          "is_active": true,
+          "is_initial": false,
+          "is_terminal": false,
+          "meaning": "Synthetic draft",
+          "metadata": null,
+          "required_approval_references": [],
+          "required_document_references": [],
+          "required_event_references": [],
+          "required_evidence_references": [],
+          "required_permission_references": [],
+          "required_policy_references": [],
+          "required_review_references": [],
+          "state_category": "Active",
+          "state_key": "draft"
+        }
+      ],
+      "workflow_contract_reference_id": "wfc_fixture_001",
+      "workflow_contract_version": "v0.1.0"
+    }
   },
   "synthetic": true,
   "target_contract_id": "B02-CONTRACT-WORKFLOW-STATE-DEFINITION",

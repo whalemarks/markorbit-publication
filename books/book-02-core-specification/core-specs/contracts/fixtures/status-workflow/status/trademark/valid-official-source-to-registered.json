@@ -2,22 +2,93 @@
   "case_type": "positive",
   "contains_production_data": false,
   "expected": {
-    "decision": "Allowed",
-    "event_type": "TrademarkStatusChanged",
-    "performed": false
+    "status_transition_decision": {
+      "current_status": "Filed",
+      "decision": "Allowed",
+      "decision_reference_id": "decision_fixture_001",
+      "evaluated_at": "2026-01-01T00:00:00Z",
+      "missing_requirements": [],
+      "mutation_authorized_for_owner_service": true,
+      "reason_code": "synthetic_allowed",
+      "requested_status": "Registered",
+      "required_next_action": null,
+      "transition_request_reference_id": "transition_fixture_001"
+    },
+    "status_transition_result": {
+      "audit_reference_id": "audit_fixture_001",
+      "correlation_id": "correlation_fixture_001",
+      "decision_reference_id": "decision_fixture_001",
+      "event_reference_id": "event_fixture_001",
+      "event_type": "TrademarkStatusChanged",
+      "failure_reason_code": null,
+      "idempotency_key": "idempotency_fixture_001",
+      "next_status": "Registered",
+      "object_reference_id": "tm_fixture_001",
+      "object_type": "Trademark",
+      "owner_service": "Trademark Service",
+      "owner_service_operation": "TrademarkService.changeStatus",
+      "performed": true,
+      "performed_at": "2026-01-01T00:00:00Z",
+      "previous_status": "Filed",
+      "status_changed": true,
+      "transition_request_reference_id": "transition_fixture_001"
+    }
   },
   "fixture_id": "b02-trademark-valid-official-source-to-registered",
   "fixture_type": "StatusTransition",
   "fixture_version": "v0.1.0",
   "input": {
-    "current_status": "Filed",
-    "requested_action": "valid_official_source_to_registered",
-    "requested_status": "Registered",
-    "source_context": {
-      "jurisdiction_reference_id": "jur_fixture_001",
-      "normalization_evidence_reference_id": "evidence_fixture_001",
-      "source_reference_id": "source_fixture_001",
-      "source_version_or_timestamp": "2026-01-01T00:00:00Z"
+    "status_transition_request": {
+      "actor_context": {
+        "actor_reference_id": "actor_fixture_001",
+        "agent_contract_reference_id": null,
+        "agent_reference_id": null,
+        "organization_reference_id": "org_fixture_001"
+      },
+      "approval_context": {
+        "approval_reference_id": null,
+        "approval_status": "NotRequired"
+      },
+      "contract_version": "v0.1.0",
+      "correlation_id": "correlation_fixture_001",
+      "current_status": "Filed",
+      "domain_guard_context": {
+        "assignee_reference_id": null,
+        "blocker_resolution_reference_id": null,
+        "completion_context_reference_id": null,
+        "domain_context": null,
+        "matter_reference_id": null
+      },
+      "human_review_context": {
+        "human_review_reference_id": null,
+        "review_status": "NotRequired"
+      },
+      "idempotency_key": "idempotency_fixture_001",
+      "permission_context": {
+        "permission_decision_reference_id": "perm_fixture_001",
+        "permission_status": "Allowed"
+      },
+      "policy_context": {
+        "policy_decision_reference_id": "policy_fixture_001",
+        "policy_status": "Allowed"
+      },
+      "reason_code": "synthetic_valid_official_source_to_registered",
+      "requested_action": "normalizeOfficialStatus",
+      "requested_status": "Registered",
+      "source_context": {
+        "jurisdiction_reference_id": "jur_fixture_001",
+        "normalization_evidence_reference_id": "evidence_fixture_001",
+        "source_reference_id": "source_fixture_001",
+        "source_type": "official_register",
+        "source_validation_status": "Valid",
+        "source_version_or_timestamp": "2026-01-01T00:00:00Z"
+      },
+      "subject": {
+        "object_reference_id": "tm_fixture_001",
+        "object_type": "Trademark",
+        "owner_service": "Trademark Service"
+      },
+      "transition_request_reference_id": "transition_fixture_001"
     }
   },
   "synthetic": true,

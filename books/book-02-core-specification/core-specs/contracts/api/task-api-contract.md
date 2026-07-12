@@ -1256,8 +1256,3 @@ Task API Contract consumes `core-specs/controlled-state-values/task-status-value
 Task API Contract treats reopen as governed operation returning canonical `Open` and requiring Task Service validation plus status/event trace. `Reopened` is not a Task status. Endpoint paths remain unchanged.
 
 **End of API Contract**
-
-
-# PUB-TASK-B02-003 Status Transition Contract Consumption
-
-Status mutation requests MUST consume `../status/status-transition-contract.md` and `../status/task-status-contract.md`. PATCH or generic update MUST NOT bypass transition validation. Responses distinguish validation decision from performed owner-Service result. The API does not perform mutation; it calls the owning Service. Endpoint paths are unchanged and no endpoint is added.
