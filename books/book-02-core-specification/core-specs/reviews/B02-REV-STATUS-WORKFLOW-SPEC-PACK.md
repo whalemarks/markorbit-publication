@@ -23,6 +23,15 @@ Human Review boundary preserved: YES
 External protected action authorized: NO
 Unrestricted implementation readiness: NO
 
+## Acceptance Criteria for Merge
+
+- Exact canonical values and counts are validated for Trademark, Order, Matter and Task.
+- Exact transition matrices are validated for all four status specifications.
+- Status value semantics are meaningful and value-specific, not boilerplate lifecycle text.
+- Validator negative tests cover value drift, matrix drift, duplicate Spec IDs, active inventory regression, active legacy workflow decisions and missing canonical paths.
+- No active specification content exists after explicit end markers.
+- Unrelated domain vocabularies, including Routing Eligibility Result, are not rewritten as Workflow Transition decisions.
+
 ## Remaining Gates
 
 Gate 1: status/workflow contract and fixture coverage

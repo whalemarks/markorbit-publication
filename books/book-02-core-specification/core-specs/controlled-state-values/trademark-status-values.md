@@ -30,15 +30,15 @@ Owner: MarkOrbit Publications Editorial Board
 
 # 1. Purpose
 
-Defines legal values, semantics, transitions and governance for `Trademark.status`. The parent object owns state truth; Trademark Service is the only mutation authority.
+Defines legal values, semantics, transitions and governance for `Trademark.status`.
 
 # 2. Classification
 
-This is not an independent Core Object, aggregate root, repository, table, source of truth or UI status list.
+This is a Controlled State Value Specification owned by the parent object. It is not an independent Core Object, aggregate root, repository, table, source of truth or UI list.
 
 # 3. Parent Ownership
 
-Trademark owns the state field. The owning Service validates current status, requested status and transition before mutation.
+Trademark owns state truth. Trademark Service is the only mutation authority.
 
 # 4. Parent Field
 
@@ -90,39 +90,39 @@ DeletedReferenceOnly
 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 
-| Draft | Canonical Trademark lifecycle state `Draft`. | Internal Planning State | Yes | Active | Non-terminal | Yes | No | No | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TrademarkStatusChanged` with previous and next status. |
+| Draft | Record is being prepared and is not ready for committed execution. | Internal Planning State | Yes | Active | Non-terminal | Yes | No | No | Enter when record is being prepared and is not ready for committed execution. | Exit only through an allowed transition with owning-Service validation. | `TrademarkStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| Planned | Canonical Trademark lifecycle state `Planned`. | Internal Planning State | No | Active | Non-terminal | Yes | No | No | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TrademarkStatusChanged` with previous and next status. |
+| Planned | Internal plan exists but filing has not been requested. | Internal Planning State | No | Active | Non-terminal | Yes | No | No | Enter when internal plan exists but filing has not been requested. | Exit only through an allowed transition with owning-Service validation. | `TrademarkStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| PendingFiling | Canonical Trademark lifecycle state `PendingFiling`. | Internal Planning State | No | Active | Non-terminal | Yes | No | No | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TrademarkStatusChanged` with previous and next status. |
+| PendingFiling | Filing preparation is ready for validation before filed evidence exists. | Internal Planning State | No | Active | Non-terminal | Yes | No | No | Enter when filing preparation is ready for validation before filed evidence exists. | Exit only through an allowed transition with owning-Service validation. | `TrademarkStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| Filed | Canonical Trademark lifecycle state `Filed`. | Official / Procedural Normalized State | No | Active | Non-terminal | Yes | Yes | No | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TrademarkStatusChanged` with previous and next status. |
+| Filed | A normalized filing state has been validated from source evidence. | Official / Procedural Normalized State | No | Active | Non-terminal | Yes | Yes | No | Enter when a normalized filing state has been validated from source evidence. | Exit only through an allowed transition with owning-Service validation. | `TrademarkStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| UnderExamination | Canonical Trademark lifecycle state `UnderExamination`. | Official / Procedural Normalized State | No | Active | Non-terminal | Yes | Yes | No | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TrademarkStatusChanged` with previous and next status. |
+| UnderExamination | Official examination is understood to be pending or active from validated source context. | Official / Procedural Normalized State | No | Active | Non-terminal | Yes | Yes | No | Enter when official examination is understood to be pending or active from validated source context. | Exit only through an allowed transition with owning-Service validation. | `TrademarkStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| Published | Canonical Trademark lifecycle state `Published`. | Official / Procedural Normalized State | No | Active | Non-terminal | Yes | Yes | No | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TrademarkStatusChanged` with previous and next status. |
+| Published | Publication/opposition-window state has been normalized from source context. | Official / Procedural Normalized State | No | Active | Non-terminal | Yes | Yes | No | Enter when publication/opposition-window state has been normalized from source context. | Exit only through an allowed transition with owning-Service validation. | `TrademarkStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| Opposed | Canonical Trademark lifecycle state `Opposed`. | Official / Procedural Normalized State | No | Active | Non-terminal | Yes | Yes | No | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TrademarkStatusChanged` with previous and next status. |
+| Opposed | Opposition or contested procedure has been normalized from source context. | Official / Procedural Normalized State | No | Active | Non-terminal | Yes | Yes | No | Enter when opposition or contested procedure has been normalized from source context. | Exit only through an allowed transition with owning-Service validation. | `TrademarkStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| Registered | Canonical Trademark lifecycle state `Registered`. | Official / Procedural Normalized State | No | Active | Non-terminal | Yes | Yes | No | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TrademarkStatusChanged` with previous and next status. |
+| Registered | Registration/protection has been normalized from validated official or professional source context; later exits may be maintenance-related. | Official / Procedural Normalized State | No | Active | Non-terminal | Yes | Yes | Guarded | Enter when registration/protection has been normalized from validated official or professional source context; later exits may be maintenance-related. | Exit only through an allowed transition with owning-Service validation. | `TrademarkStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| Refused | Canonical Trademark lifecycle state `Refused`. | Inactive State | No | Inactive | Non-terminal | Yes | No | Yes | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TrademarkStatusChanged` with previous and next status. |
+| Refused | Refusal outcome has been normalized and is inactive unless reviewed or abandoned. | Inactive State | No | Inactive | Non-terminal | Guarded | Yes | Yes | Enter when refusal outcome has been normalized and is inactive unless reviewed or abandoned. | Exit only through an allowed transition with owning-Service validation. | `TrademarkStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| Abandoned | Canonical Trademark lifecycle state `Abandoned`. | Inactive State | No | Inactive | Non-terminal | Yes | No | No | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TrademarkStatusChanged` with previous and next status. |
+| Abandoned | Application or record is no longer actively pursued. | Inactive State | No | Inactive | Non-terminal | Guarded | No | No | Enter when application or record is no longer actively pursued. | Exit only through an allowed transition with owning-Service validation. | `TrademarkStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| Cancelled | Canonical Trademark lifecycle state `Cancelled`. | Inactive State | No | Inactive | Non-terminal | Guarded | No | Yes | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TrademarkStatusChanged` with previous and next status. |
+| Cancelled | Cancellation outcome or governed cancellation has been recorded. | Inactive State | No | Inactive | Non-terminal | Guarded | Yes | Yes | Enter when cancellation outcome or governed cancellation has been recorded. | Exit only through an allowed transition with owning-Service validation. | `TrademarkStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| Expired | Canonical Trademark lifecycle state `Expired`. | Inactive State | No | Inactive | Non-terminal | Yes | No | No | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TrademarkStatusChanged` with previous and next status. |
+| Expired | Protection period has lapsed based on validated maintenance/source context. | Inactive State | No | Inactive | Non-terminal | Guarded | Yes | No | Enter when protection period has lapsed based on validated maintenance/source context. | Exit only through an allowed transition with owning-Service validation. | `TrademarkStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| Invalidated | Canonical Trademark lifecycle state `Invalidated`. | Inactive State | No | Inactive | Non-terminal | Yes | No | Yes | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TrademarkStatusChanged` with previous and next status. |
+| Invalidated | Invalidity outcome has been normalized from authoritative or reviewed context. | Inactive State | No | Inactive | Non-terminal | Guarded | Yes | Yes | Enter when invalidity outcome has been normalized from authoritative or reviewed context. | Exit only through an allowed transition with owning-Service validation. | `TrademarkStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| RenewalDue | Canonical Trademark lifecycle state `RenewalDue`. | Official / Procedural Normalized State | No | Active | Non-terminal | Yes | Yes | No | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TrademarkStatusChanged` with previous and next status. |
+| RenewalDue | Registered record requires maintenance attention before expiry or loss. | Maintenance State | No | Active | Non-terminal | Yes | Yes | Guarded | Enter when registered record requires maintenance attention before expiry or loss. | Exit only through an allowed transition with owning-Service validation. | `TrademarkStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| ReviewRequired | Canonical Trademark lifecycle state `ReviewRequired`. | Governance State | No | Active | Non-terminal | Yes | No | Yes | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TrademarkStatusChanged` with previous and next status. |
+| ReviewRequired | Governance hold for source conflict, uncertain mapping, legal ambiguity or required professional decision; not an official result. | Governance State | No | Active | Non-terminal | Yes | No | Yes | Enter when governance hold for source conflict, uncertain mapping, legal ambiguity or required professional decision; not an official result. | Exit only through an allowed transition with owning-Service validation. | `TrademarkStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| Archived | Canonical Trademark lifecycle state `Archived`. | Archival / Reference-Only State | No | Inactive | Terminal | Guarded | No | No | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TrademarkStatusChanged` with previous and next status. |
+| Archived | Inactive archival state retained for history and ordinary reporting. | Archival / Reference-Only State | No | Inactive | Terminal | Guarded | No | Guarded | Enter when inactive archival state retained for history and ordinary reporting. | No ordinary exit; restoration is deferred governance. | `TrademarkStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| DeletedReferenceOnly | Canonical Trademark lifecycle state `DeletedReferenceOnly`. | Archival / Reference-Only State | No | Inactive | Terminal | No | No | Yes | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TrademarkStatusChanged` with previous and next status. |
+| DeletedReferenceOnly | Terminal tombstone/reference-only state with no normal business transition. | Archival / Reference-Only State | No | Inactive | Terminal | No | No | Yes | Enter when terminal tombstone/reference-only state with no normal business transition. | No ordinary business exit. | `TrademarkStatusChanged` with prior status, next status, actor, reason and audit context. |
 
 # 7. State Categories
 
@@ -130,11 +130,11 @@ Internal Planning State; Official / Procedural Normalized State; Maintenance Sta
 
 # 8. Initial State Rules
 
-`Draft` is the default initial state unless a governed import contract explicitly validates another initial state.
+`Draft` is the normal initial state unless governed import validation permits another existing-source state.
 
 # 9. Terminal and Inactive State Rules
 
-`Archived` is terminal archival. `DeletedReferenceOnly` is terminal reference/tombstone and does not allow normal business transitions.
+`Archived` is terminal archival for ordinary flow. `DeletedReferenceOnly` is terminal reference/tombstone state.
 
 # 10. Transition Model
 
@@ -244,7 +244,7 @@ Invalidated -> Archived
 
 # 11. Transition Validation
 
-Default deny: unlisted transitions return `InvalidTransition` unless an applicable Workflow Contract defines a stricter allowed route. Validate current status, requested status, actor, permission, policy, guards, idempotency and event trace.
+Unlisted transitions return `InvalidTransition` unless a stricter applicable Workflow Contract also validates the route. Validate current status, requested status, actor, permission, policy, guards, idempotency and event trace.
 
 # 12. Owning Service Mutation Authority
 
@@ -252,35 +252,35 @@ Only Trademark Service mutates `Trademark.status` and must preserve previous sta
 
 # 13. Permission and Policy
 
-Permission and Policy are mandatory for sensitive, terminal, reopening or externally sourced transitions.
+Permission and Policy are mandatory for sensitive, terminal, reopening, cancellation, completion, archival or externally sourced transitions.
 
 # 14. Human Review
 
-Leaving `ReviewRequired` requires Human Review outcome. Sensitive professional decisions require Human Review and may not be automated.
+Leaving `ReviewRequired` requires a Human Review outcome. Official/procedural uncertainty, source conflicts, ambiguous jurisdictional interpretation, refusal/cancellation/invalidity interpretation, or unsupported transition requests require Human Review. `ReviewRequired` is not an alternative official lifecycle result and cannot be used as a back door around invalid transitions.
 
 # 15. Event Requirements
 
-Each mutation produces or requires `TrademarkStatusChanged` with previous/next state and reason semantics.
+Each mutation produces or requires `TrademarkStatusChanged` with previous/next status and reason semantics.
 
 # 16. API and Contract Consumption
 
-API requests cannot define states or bypass transition validation. Contracts consume this spec and may constrain but not expand status truth.
+API requests cannot define states or bypass transition validation. Contracts consume this spec and may constrain but not expand state truth.
 
 # 17. AI Boundary
 
-AI may explain, summarize or recommend for review only; AI cannot create values, mutate status or approve protected actions.
+AI may explain, summarize or recommend for review only; AI cannot create values, mutate status, approve, cancel, complete, archive or execute protected action.
 
 # 18. Product Consumption
 
-Product UI consumes these values and labels only; UI text is not canonical state definition.
+Product UI consumes these values and may render labels; UI text is not canonical state definition.
 
 # 19. Source and Official-Status Boundary
 
-Trademark.status is a MarkOrbit normalized state. It is not automatically the verbatim official-office status. Official/procedural entries require source reference, source timestamp/version, normalization evidence, jurisdiction context, validation result and Human Review when needed.
+Trademark.status is a MarkOrbit normalized state. It is not automatically the verbatim official-office status. Entering official/procedural normalized or inactive official-outcome states requires source reference, source timestamp or version, normalization evidence, jurisdiction context, validation result and Human Review when needed.
 
 # 20. Compatibility and Versioning
 
-Legacy Object ID is historical only and must not be used as a new Spec ID.
+Legacy Object ID is historical/reclassified metadata only and must not be used as a new Spec ID.
 
 # 21. Failure and Reason Semantics
 
@@ -300,16 +300,16 @@ Must implement specification semantics, validation references and event trace.
 
 # 25. Deferred Scope
 
-Runtime fixtures, typed implementation mapping and negative tests are future gates.
+Runtime fixtures, typed implementation mapping and negative tests beyond this validator are future gates.
 
 # 26. Prohibited Overreach
 
-No independent Core Object, source of truth, database enum, ORM model, runtime workflow engine or endpoint path change is created here.
+No independent Core Object, source of truth, database enum, ORM model, workflow engine or endpoint path change is created here.
 
 # 27. Acceptance Criteria
 
-Canonical value list is exact; transitions are default-deny; owning Service and Event trace are preserved.
+Canonical value list is exact; transition matrix is exact; owning Service and Event trace are preserved; semantics are meaningful and not boilerplate.
 
 # 28. Revision Notes
 
-0.1.0 Draft for PUB-TASK-B02-002.
+0.1.0 Draft for PUB-TASK-B02-002; strengthened by PUB-TASK-B02-002-FIX-01.

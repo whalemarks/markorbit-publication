@@ -817,8 +817,3 @@ This README is accepted only if:
 ---
 
 **End of Workflow Contracts README**
-
-
-## PUB-TASK-B02-002 Component Governance Reference
-
-Workflow state models must consume `core-specs/workflows/components/workflow-state-definition.md`. Transition rules must consume `core-specs/workflows/components/workflow-transition-definition.md`. Free-text transitions cannot bypass terminal, guard, review, approval, event or failure semantics. Workflow Contracts do not own domain mutation and do not authorize protected external action.

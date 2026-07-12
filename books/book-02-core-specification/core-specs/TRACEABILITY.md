@@ -405,8 +405,3 @@ This Traceability Matrix is accepted only if:
 ---
 
 **End of Core Traceability Matrix**
-
-
-## PUB-TASK-B02-002
-
-PUB-TASK-B02-002 traceability chain: classification decision -> controlled state/component spec -> service/API/contract reference -> future fixtures -> future implementation.

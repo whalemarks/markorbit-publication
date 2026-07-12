@@ -30,15 +30,15 @@ Owner: MarkOrbit Publications Editorial Board
 
 # 1. Purpose
 
-Defines legal values, semantics, transitions and governance for `Task.status`. The parent object owns state truth; Task Service is the only mutation authority.
+Defines legal values, semantics, transitions and governance for `Task.status`.
 
 # 2. Classification
 
-This is not an independent Core Object, aggregate root, repository, table, source of truth or UI status list.
+This is a Controlled State Value Specification owned by the parent object. It is not an independent Core Object, aggregate root, repository, table, source of truth or UI list.
 
 # 3. Parent Ownership
 
-Task owns the state field. The owning Service validates current status, requested status and transition before mutation.
+Task owns state truth. Task Service is the only mutation authority.
 
 # 4. Parent Field
 
@@ -78,27 +78,27 @@ DeletedReferenceOnly
 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 
-| Draft | Canonical Task lifecycle state `Draft`. | Internal Planning State | Yes | Active | Non-terminal | Yes | No | No | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TaskStatusChanged` with previous and next status. |
+| Draft | Record is being prepared and is not ready for committed execution. | Internal Planning State | Yes | Active | Non-terminal | Yes | No | No | Enter when record is being prepared and is not ready for committed execution. | Exit only through an allowed transition with owning-Service validation. | `TaskStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| Open | Canonical Task lifecycle state `Open`. | Internal Planning State | No | Active | Non-terminal | Yes | No | No | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TaskStatusChanged` with previous and next status. |
+| Open | Parent is active and available for work but may not yet be actively performed. | Internal Planning State | No | Active | Non-terminal | Yes | No | No | Enter when parent is active and available for work but may not yet be actively performed. | Exit only through an allowed transition with owning-Service validation. | `TaskStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| Assigned | Canonical Task lifecycle state `Assigned`. | Internal Planning State | No | Active | Non-terminal | Yes | No | No | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TaskStatusChanged` with previous and next status. |
+| Assigned | Task has valid assignee and responsibility context, but active performance may not have started. | Internal Planning State | No | Active | Non-terminal | Yes | No | No | Enter when task has valid assignee and responsibility context, but active performance may not have started. | Exit only through an allowed transition with owning-Service validation. | `TaskStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| InProgress | Canonical Task lifecycle state `InProgress`. | Internal Planning State | No | Active | Non-terminal | Yes | No | No | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TaskStatusChanged` with previous and next status. |
+| InProgress | Work or fulfillment related to the parent is actively underway. | Internal Planning State | No | Active | Non-terminal | Yes | No | No | Enter when work or fulfillment related to the parent is actively underway. | Exit only through an allowed transition with owning-Service validation. | `TaskStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| Waiting | Canonical Task lifecycle state `Waiting`. | Internal Planning State | No | Active | Non-terminal | Yes | No | No | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TaskStatusChanged` with previous and next status. |
+| Waiting | Task remains active but is waiting on input, dependency or timing. | Internal Planning State | No | Active | Non-terminal | Yes | No | No | Enter when task remains active but is waiting on input, dependency or timing. | Exit only through an allowed transition with owning-Service validation. | `TaskStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| Blocked | Canonical Task lifecycle state `Blocked`. | Governance State | No | Active | Non-terminal | Yes | No | No | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TaskStatusChanged` with previous and next status. |
+| Blocked | Progress is halted by a blocker that must be resolved or reviewed. | Governance State | No | Active | Non-terminal | Yes | No | No | Enter when progress is halted by a blocker that must be resolved or reviewed. | Exit only through an allowed transition with owning-Service validation. | `TaskStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| ReviewRequired | Canonical Task lifecycle state `ReviewRequired`. | Governance State | No | Active | Non-terminal | Yes | No | Yes | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TaskStatusChanged` with previous and next status. |
+| ReviewRequired | Governance hold for source conflict, uncertain mapping, legal ambiguity or required professional decision; not an official result. | Governance State | No | Active | Non-terminal | Yes | No | Yes | Enter when governance hold for source conflict, uncertain mapping, legal ambiguity or required professional decision; not an official result. | Exit only through an allowed transition with owning-Service validation. | `TaskStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| Completed | Canonical Task lifecycle state `Completed`. | Inactive State | No | Inactive | Non-terminal | Guarded | No | No | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TaskStatusChanged` with previous and next status. |
+| Completed | Parent-level work is complete according to its own completion criteria. | Inactive State | No | Inactive | Non-terminal | Guarded | No | Guarded | Enter when parent-level work is complete according to its own completion criteria. | Exit only through an allowed transition with owning-Service validation. | `TaskStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| Cancelled | Canonical Task lifecycle state `Cancelled`. | Inactive State | No | Inactive | Non-terminal | Guarded | No | Yes | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TaskStatusChanged` with previous and next status. |
+| Cancelled | Cancellation outcome or governed cancellation has been recorded. | Inactive State | No | Inactive | Non-terminal | Guarded | No | Yes | Enter when cancellation outcome or governed cancellation has been recorded. | Exit only through an allowed transition with owning-Service validation. | `TaskStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| Archived | Canonical Task lifecycle state `Archived`. | Archival / Reference-Only State | No | Inactive | Terminal | Guarded | No | No | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TaskStatusChanged` with previous and next status. |
+| Archived | Inactive archival state retained for history and ordinary reporting. | Archival / Reference-Only State | No | Inactive | Terminal | Guarded | No | Guarded | Enter when inactive archival state retained for history and ordinary reporting. | No ordinary exit; restoration is deferred governance. | `TaskStatusChanged` with prior status, next status, actor, reason and audit context. |
 
-| DeletedReferenceOnly | Canonical Task lifecycle state `DeletedReferenceOnly`. | Archival / Reference-Only State | No | Inactive | Terminal | No | No | Yes | Valid owning-service request or source evidence. | Allowed transition, review outcome or archival action. | `TaskStatusChanged` with previous and next status. |
+| DeletedReferenceOnly | Terminal tombstone/reference-only state with no normal business transition. | Archival / Reference-Only State | No | Inactive | Terminal | No | No | Yes | Enter when terminal tombstone/reference-only state with no normal business transition. | No ordinary business exit. | `TaskStatusChanged` with prior status, next status, actor, reason and audit context. |
 
 # 7. State Categories
 
@@ -106,11 +106,11 @@ Internal Planning State; Official / Procedural Normalized State; Maintenance Sta
 
 # 8. Initial State Rules
 
-`Draft` is the default initial state unless a governed import contract explicitly validates another initial state.
+`Draft` is the normal initial state unless governed import validation permits another existing-source state.
 
 # 9. Terminal and Inactive State Rules
 
-`Archived` is terminal archival. `DeletedReferenceOnly` is terminal reference/tombstone and does not allow normal business transitions.
+`Archived` is terminal archival for ordinary flow. `DeletedReferenceOnly` is terminal reference/tombstone state.
 
 # 10. Transition Model
 
@@ -200,7 +200,7 @@ Cancelled -> Open
 
 # 11. Transition Validation
 
-Default deny: unlisted transitions return `InvalidTransition` unless an applicable Workflow Contract defines a stricter allowed route. Validate current status, requested status, actor, permission, policy, guards, idempotency and event trace.
+Unlisted transitions return `InvalidTransition` unless a stricter applicable Workflow Contract also validates the route. Validate current status, requested status, actor, permission, policy, guards, idempotency and event trace.
 
 # 12. Owning Service Mutation Authority
 
@@ -208,35 +208,35 @@ Only Task Service mutates `Task.status` and must preserve previous status, next 
 
 # 13. Permission and Policy
 
-Permission and Policy are mandatory for sensitive, terminal, reopening or externally sourced transitions.
+Permission and Policy are mandatory for sensitive, terminal, reopening, cancellation, completion, archival or externally sourced transitions.
 
 # 14. Human Review
 
-Leaving `ReviewRequired` requires Human Review outcome. Sensitive professional decisions require Human Review and may not be automated.
+Leaving `ReviewRequired` requires a review result. Leaving `Blocked` requires blocker resolution. AI must not automatically complete, cancel, archive or reopen Tasks.
 
 # 15. Event Requirements
 
-Each mutation produces or requires `TaskStatusChanged` with previous/next state and reason semantics.
+Each mutation produces or requires `TaskStatusChanged` with previous/next status and reason semantics.
 
 # 16. API and Contract Consumption
 
-API requests cannot define states or bypass transition validation. Contracts consume this spec and may constrain but not expand status truth.
+API requests cannot define states or bypass transition validation. Contracts consume this spec and may constrain but not expand state truth.
 
 # 17. AI Boundary
 
-AI may explain, summarize or recommend for review only; AI cannot create values, mutate status or approve protected actions.
+AI may explain, summarize or recommend for review only; AI cannot create values, mutate status, approve, cancel, complete, archive or execute protected action.
 
 # 18. Product Consumption
 
-Product UI consumes these values and labels only; UI text is not canonical state definition.
+Product UI consumes these values and may render labels; UI text is not canonical state definition.
 
 # 19. Source and Official-Status Boundary
 
-External or operational signals must be validated before status mutation and do not become state truth by themselves.
+`Assigned` requires an assignee reference. `Completed` requires completion context. Governed reopen is limited to the explicit reopen operation.
 
 # 20. Compatibility and Versioning
 
-Legacy Object ID is historical only and must not be used as a new Spec ID.
+Legacy Object ID is historical/reclassified metadata only and must not be used as a new Spec ID.
 
 # 21. Failure and Reason Semantics
 
@@ -250,8 +250,9 @@ Valid: `Draft -> Open` through Task Service with event trace.
 
 Invalid: Product UI directly changes `Task.status` or invents a new state.
 
-# 23.1 Governed Reopen Exception
-`Completed -> Open` and `Cancelled -> Open` require governed reopen operation with actor, permission, policy, reason, prior status, new status, audit context, event trace and Workflow Contract validation when applicable. Ordinary `changeTaskStatus` must not silently reopen.
+## Governed Reopen Exception
+
+`Completed -> Open` and `Cancelled -> Open` are governed reopen exceptions requiring an explicit governed reopen operation with actor, permission, policy, reopen reason, prior status, new status, audit context, event trace and Workflow Contract validation when applicable. Ordinary `changeTaskStatus` must not silently reopen.
 
 # 24. MVP Scope
 
@@ -259,16 +260,16 @@ Must implement specification semantics, validation references and event trace.
 
 # 25. Deferred Scope
 
-Runtime fixtures, typed implementation mapping and negative tests are future gates.
+Runtime fixtures, typed implementation mapping and negative tests beyond this validator are future gates.
 
 # 26. Prohibited Overreach
 
-No independent Core Object, source of truth, database enum, ORM model, runtime workflow engine or endpoint path change is created here.
+No independent Core Object, source of truth, database enum, ORM model, workflow engine or endpoint path change is created here.
 
 # 27. Acceptance Criteria
 
-Canonical value list is exact; transitions are default-deny; owning Service and Event trace are preserved.
+Canonical value list is exact; transition matrix is exact; owning Service and Event trace are preserved; semantics are meaningful and not boilerplate.
 
 # 28. Revision Notes
 
-0.1.0 Draft for PUB-TASK-B02-002.
+0.1.0 Draft for PUB-TASK-B02-002; strengthened by PUB-TASK-B02-002-FIX-01.

@@ -240,13 +240,15 @@ Suggested controlled values:
 
 ```text
 Allowed
-Rejected
+Denied
+Blocked
 ReviewRequired
+ApprovalRequired
 PermissionRequired
 PolicyRequired
-Blocked
 InvalidState
 InvalidTransition
+Unknown
 ```
 
 ## 7.4 guard_type
@@ -621,8 +623,3 @@ This Workflow Contract Object Specification is accepted only if:
 ---
 
 **End of Object Specification**
-
-
-## PUB-TASK-B02-002 Workflow Component Reference
-
-Workflow Contract continues to own `state_definitions` and `transition_definitions`. Their canonical component semantics are defined by `core-specs/workflows/components/workflow-state-definition.md` and `core-specs/workflows/components/workflow-transition-definition.md`. Canonical transition decisions are `Allowed`, `Denied`, `Blocked`, `ReviewRequired`, `ApprovalRequired`, `PermissionRequired`, `PolicyRequired`, `InvalidState`, `InvalidTransition`, and `Unknown`. Workflow Contract validates and routes; it does not perform Trademark, Order, Matter or Task mutation or authorize protected external action.

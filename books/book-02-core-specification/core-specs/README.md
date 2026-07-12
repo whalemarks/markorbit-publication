@@ -1186,8 +1186,3 @@ Do not generate detailed domain, object, service, event, API or agent specs befo
 ---
 
 **End of README**
-
-
-## PUB-TASK-B02-002
-
-Required directory structure now includes `core-specs/controlled-state-values/` and `core-specs/workflows/components/` for parent-owned state values and Workflow Contract embedded components.

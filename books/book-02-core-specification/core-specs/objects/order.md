@@ -237,7 +237,7 @@ Unknown
 
 ## 7.2 status
 
-Order Status is a parent-owned Controlled State Value Specification of Order, not an independent identity-bearing Core Object. Only the Order owning Service may mutate `status`; each status change requires an Event trace. AI and Product UI may display or summarize allowed status values but must not define new Order statuses or directly change them.
+Order Status is a parent-owned Controlled State Value Specification of Order, not an independent identity-bearing Core Object. Only the Order owning Service may mutate `status`; each status change requires an Event trace, and `core-specs/controlled-state-values/order-status-values.md` is the canonical semantic and transition source. AI and Product UI may display or summarize allowed status values but must not define new Order statuses or directly change them.
 
 MVP controlled values:
 
@@ -644,8 +644,3 @@ This Order Object Specification is accepted only if:
 ---
 
 **End of Object Specification**
-
-
-## PUB-TASK-B02-002 Controlled State Value Reference
-
-`status` remains parent-owned by this object. Canonical semantics and transition constraints are defined by `core-specs/controlled-state-values/order-status-values.md`. This object specification preserves the existing controlled value list and does not restore any legacy status concept as an active Core Object. Product UI and AI may consume but not define or mutate status values.

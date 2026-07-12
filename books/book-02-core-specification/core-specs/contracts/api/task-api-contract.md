@@ -1246,8 +1246,3 @@ This Task API Contract is accepted only if:
 ---
 
 **End of API Contract**
-
-
-## PUB-TASK-B02-002 State and Workflow Reference
-
-API requests cannot define canonical status or workflow states. API calls route to the owning Service, invalid transitions cannot be bypassed through PATCH, and workflow transition validation returns decision, reason and review/permission/policy requirements without directly performing domain mutation. This task adds no endpoint and changes no endpoint path.

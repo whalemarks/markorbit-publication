@@ -1208,9 +1208,24 @@ This Workflow Contract API Contract is accepted only if:
 
 ---
 
+
+## Workflow Transition Decision Vocabulary
+
+Active canonical workflow transition decisions are:
+
+```text
+Allowed
+Denied
+Blocked
+ReviewRequired
+ApprovalRequired
+PermissionRequired
+PolicyRequired
+InvalidState
+InvalidTransition
+Unknown
+```
+
+Legacy terms are compatibility-only and must not be returned as active workflow transition decisions.
+
 **End of API Contract**
-
-
-## PUB-TASK-B02-002 State and Workflow Reference
-
-API requests cannot define canonical status or workflow states. API calls route to the owning Service, invalid transitions cannot be bypassed through PATCH, and workflow transition validation returns decision, reason and review/permission/policy requirements without directly performing domain mutation. This task adds no endpoint and changes no endpoint path.

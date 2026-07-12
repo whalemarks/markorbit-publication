@@ -319,6 +319,7 @@ ReviewRequired
 ApprovalRequired
 PermissionRequired
 PolicyRequired
+InvalidState
 InvalidTransition
 Unknown
 ```
@@ -648,8 +649,3 @@ This Workflow Contract Service Specification is accepted only if:
 ---
 
 **End of Service Specification**
-
-
-## PUB-TASK-B02-002 Transition Decision Vocabulary
-
-`validateWorkflowTransition` must use `Allowed`, `Denied`, `Blocked`, `ReviewRequired`, `ApprovalRequired`, `PermissionRequired`, `PolicyRequired`, `InvalidState`, `InvalidTransition`, and `Unknown` as the active canonical decision vocabulary from `core-specs/workflows/components/workflow-transition-definition.md`. Historical compatibility mapping is maintained only in the component specification. Workflow Contract Service validates structure and transitions, returns a decision, references owning Service action, and must not directly mutate domain objects or execute protected external actions.
