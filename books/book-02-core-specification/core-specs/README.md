@@ -174,6 +174,8 @@ core-specs/contracts/
 core-specs/api/
 core-specs/agents/
 core-specs/workflows/
+core-specs/workflows/components/
+core-specs/controlled-state-values/
 core-specs/cross-cutting/
 core-specs/validation/
 ```
@@ -1184,5 +1186,10 @@ Do not generate detailed domain, object, service, event, API or agent specs befo
 | 0.1.0 | Draft | Initial core-specs directory README for second canonical draft. Defines directory purpose, boundaries, source chain, subdirectory responsibilities, priority specs, validation requirements and handoff to codex-tasks/. |
 
 ---
+
+
+## Controlled State and Workflow Component Directories
+
+Required directory structure includes `core-specs/controlled-state-values/` for parent-owned state value semantics and `core-specs/workflows/components/` for Workflow Contract embedded component semantics. These directories are specification sources, not runtime code, database enums or Product UI lists.
 
 **End of README**

@@ -334,20 +334,27 @@ Unknown
 
 ## 9.2 status
 
+Consumed canonical values from `core-specs/controlled-state-values/task-status-values.md`:
+
 ```text
 Draft
 Open
 Assigned
 InProgress
-Blocked
 Waiting
+Blocked
 ReviewRequired
 Completed
 Cancelled
-Reopened
 Archived
 DeletedReferenceOnly
 ```
+
+The Controlled State Value Specification `core-specs/controlled-state-values/task-status-values.md` is the canonical source for legal Task status values and transition semantics. Task owns current state truth. Task Service validates and performs mutation. The Service must not define an alternate active status list.
+
+### 9.2.1 Reopen Compatibility Note
+
+`Reopened` is not a canonical Task status. Reopen is a governed operation that moves `Completed -> Open` or `Cancelled -> Open` and requires actor, permission, policy, reopen reason, prior status, new status, audit context, event trace and Workflow Contract validation when applicable.
 
 ## 9.3 priority
 

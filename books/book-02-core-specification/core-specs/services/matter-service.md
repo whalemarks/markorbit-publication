@@ -314,21 +314,35 @@ Unknown
 
 ## 9.2 status
 
+Consumed canonical values from `core-specs/controlled-state-values/matter-status-values.md`:
+
 ```text
 Draft
 Open
-ReadyToStart
 InProgress
-WaitingForClient
+WaitingForCustomer
 WaitingForAgent
-WaitingForOfficialAction
+WaitingForOffice
 ReviewRequired
+Blocked
 Completed
 Cancelled
-Suspended
 Archived
 DeletedReferenceOnly
 ```
+
+The Controlled State Value Specification `core-specs/controlled-state-values/matter-status-values.md` is the canonical source for legal Matter status values and transition semantics. Matter owns current state truth. Matter Service validates and performs mutation, preserving current/next status, actor, reason, blocker or review context, Workflow Contract validation when applicable, and Event trace. The Service must not define an alternate active status list.
+
+### 9.2.1 Deprecated Matter Service Status Vocabulary
+
+| Legacy Service term | Canonical treatment |
+| --- | --- |
+| WaitingForClient | Deprecated alias for `WaitingForCustomer` in controlled migration only. |
+| WaitingForOfficialAction | Deprecated alias for `WaitingForOffice` in controlled migration only. |
+| ReadyToStart | No automatic canonical mapping; migration rule or Human Review required. |
+| Suspended | No automatic canonical mapping; may resolve to `Blocked` or another state only through governed migration/review. |
+
+Do not assume `ReadyToStart == Open` or `Suspended == Blocked` unless a later migration contract explicitly approves it.
 
 ## 9.3 order_link_type
 

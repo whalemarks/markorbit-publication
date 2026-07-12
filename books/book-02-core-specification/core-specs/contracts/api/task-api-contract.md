@@ -1245,4 +1245,9 @@ This Task API Contract is accepted only if:
 
 ---
 
+
+## Canonical Status Contract Consumption
+
+Task API Contract consumes `core-specs/controlled-state-values/task-status-values.md`. Requests cannot define new Task statuses, cannot bypass Task Service, cannot silently reopen through generic update, and responses/errors must preserve reason, assignment, completion, reopen and requirement context without adding endpoints or changing endpoint paths.
+
 **End of API Contract**

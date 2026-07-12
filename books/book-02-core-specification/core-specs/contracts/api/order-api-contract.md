@@ -1276,4 +1276,9 @@ This Order API Contract is accepted only if:
 
 ---
 
+
+## Canonical Status Contract Consumption
+
+Order API Contract consumes `core-specs/controlled-state-values/order-status-values.md`. Requests cannot define new Order statuses, cannot bypass Order Service, cannot use PATCH or generic update to bypass invalid transitions, and responses/errors must preserve actor, reason, permission, policy and review requirement context without adding endpoints or changing endpoint paths.
+
 **End of API Contract**

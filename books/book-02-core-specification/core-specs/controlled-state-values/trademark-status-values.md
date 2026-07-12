@@ -126,7 +126,14 @@ DeletedReferenceOnly
 
 # 7. State Categories
 
-Internal Planning State; Official / Procedural Normalized State; Maintenance State; Governance State; Inactive State; Archival / Reference-Only State.
+```text
+Internal Planning State
+Official / Procedural Normalized State
+Maintenance State
+Governance State
+Inactive State
+Archival / Reference-Only State
+```
 
 # 8. Initial State Rules
 

@@ -31,6 +31,11 @@ Unrestricted implementation readiness: NO
 - Validator negative tests cover value drift, matrix drift, duplicate Spec IDs, active inventory regression, active legacy workflow decisions and missing canonical paths.
 - No active specification content exists after explicit end markers.
 - Unrelated domain vocabularies, including Routing Eligibility Result, are not rewritten as Workflow Transition decisions.
+- Owning Service active status lists exactly match canonical specs.
+- No alternate Service status source of truth remains.
+- Legacy Service vocabulary is compatibility-only.
+- Workflow State and Transition specs implement all required component sections.
+- Required Service/API/Contract/Workflow references resolve.
 
 ## Remaining Gates
 

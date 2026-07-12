@@ -28,6 +28,28 @@ STATUS_SPECS = {
     "Task": ("B02-CSV-TASK-STATUS", "task-status-values.md", "objects/task.md", 11),
 }
 
+SERVICE_SPECS = {
+    "Trademark": "services/trademark-service.md",
+    "Order": "services/order-service.md",
+    "Matter": "services/matter-service.md",
+    "Task": "services/task-service.md",
+}
+
+SERVICE_LEGACY_TERMS = {
+    "Order": ["Submitted", "ReviewRequired", "Quoted", "Accepted", "Rejected"],
+    "Matter": ["ReadyToStart", "WaitingForClient", "WaitingForOfficialAction", "Suspended"],
+    "Task": ["Reopened"],
+    "Trademark": [],
+}
+
+COMPONENT_REQUIRED_SECTIONS = [
+    "Purpose", "Canonical Meaning", "Parent Contract", "Component Classification", "Scope", "Boundary",
+    "Required Fields", "Validation Rules", "Ownership", "Service Usage", "Event Usage",
+    "Permission and Policy", "Human Review and Approval", "AI Boundary", "Product Consumption",
+    "Compatibility", "Versioning", "Failure Behavior", "Examples", "Prohibited Overreach",
+    "Acceptance Criteria", "Revision Notes",
+]
+
 TRANSITIONS = {
     "Trademark": ["Draft -> Planned", "Planned -> Draft", "Draft -> PendingFiling", "Planned -> PendingFiling", "PendingFiling -> Planned", "PendingFiling -> Filed", "PendingFiling -> ReviewRequired", "PendingFiling -> Abandoned", "Filed -> UnderExamination", "Filed -> Published", "Filed -> Opposed", "Filed -> Registered", "Filed -> Refused", "Filed -> Abandoned", "Filed -> ReviewRequired", "UnderExamination -> Published", "UnderExamination -> Opposed", "UnderExamination -> Registered", "UnderExamination -> Refused", "UnderExamination -> Abandoned", "UnderExamination -> ReviewRequired", "Published -> Opposed", "Published -> Registered", "Published -> Refused", "Published -> Abandoned", "Published -> ReviewRequired", "Opposed -> Registered", "Opposed -> Refused", "Opposed -> Abandoned", "Opposed -> ReviewRequired", "Registered -> RenewalDue", "Registered -> Expired", "Registered -> Cancelled", "Registered -> Invalidated", "Registered -> ReviewRequired", "RenewalDue -> Registered", "RenewalDue -> Expired", "RenewalDue -> Cancelled", "RenewalDue -> ReviewRequired", "Refused -> ReviewRequired", "Refused -> Abandoned", "Refused -> Archived", "Abandoned -> ReviewRequired", "Abandoned -> Archived", "Cancelled -> ReviewRequired", "Cancelled -> Archived", "Expired -> ReviewRequired", "Expired -> Archived", "Invalidated -> ReviewRequired", "Invalidated -> Archived"],
     "Order": ["Draft -> PendingConfirmation", "Draft -> Cancelled", "Draft -> Archived", "PendingConfirmation -> Draft", "PendingConfirmation -> Confirmed", "PendingConfirmation -> Cancelled", "Confirmed -> ReadyForMatter", "Confirmed -> InProgress", "Confirmed -> Cancelled", "ReadyForMatter -> MatterCreated", "ReadyForMatter -> InProgress", "ReadyForMatter -> Cancelled", "MatterCreated -> InProgress", "MatterCreated -> Completed", "MatterCreated -> Cancelled", "InProgress -> WaitingForCustomer", "InProgress -> Completed", "InProgress -> Cancelled", "WaitingForCustomer -> InProgress", "WaitingForCustomer -> Cancelled", "Completed -> Archived", "Cancelled -> Archived"],
@@ -71,6 +93,23 @@ class Validator:
         source = section.group(1) if section else text
         match = re.search(r"^MVP controlled values:\s*\n\s*```text\s*\n(.*?)\n```", source, re.MULTILINE | re.DOTALL)
         return [line.strip() for line in match.group(1).splitlines() if line.strip()] if match else []
+
+    def service_values(self, text: str) -> list[str]:
+        section = re.search(r"^## 9\.2 status\s*\n(.*?)(?=^## 9\.3 |^# 10\. )", text, re.MULTILINE | re.DOTALL)
+        source = section.group(1) if section else text
+        match = re.search(r"```text\s*\n(.*?)\n```", source, re.MULTILINE | re.DOTALL)
+        return [line.strip() for line in match.group(1).splitlines() if line.strip()] if match else []
+
+    def category_values(self, text: str) -> set[str]:
+        rows = re.findall(r"^\| [^|]+ \| [^|]+ \| ([^|]+) \|", text, re.MULTILINE)
+        return {row.strip() for row in rows if row.strip() and row.strip() not in {"State category", "---"}}
+
+    def declared_categories(self, text: str) -> set[str]:
+        values = self.fenced_block_after(text, "7. State Categories")
+        return set(values)
+
+    def markdown_link_targets(self, text: str, label_suffix: str) -> list[str]:
+        return [target for label, target in re.findall(r"\[([^\]]+)\]\(([^)]+)\)", text) if label.endswith(label_suffix)]
 
     def edge_set(self, file: Path, values: list[str], lines: Iterable[str]) -> set[tuple[str, str]]:
         edges: list[tuple[str, str]] = []
@@ -117,6 +156,26 @@ class Validator:
             parent_actual = self.parent_values(self.read(parent_path))
             if parent_actual != expected_values:
                 self.fail(parent_path, "parent-controlled-values", expected_values, parent_actual)
+            service_path = self.core / SERVICE_SPECS[name]
+            service_text = self.read(service_path)
+            service_actual = self.service_values(service_text)
+            if service_actual != expected_values:
+                self.fail(service_path, "service-controlled-values", expected_values, service_actual)
+            if len(service_actual) != expected_count:
+                self.fail(service_path, "service-controlled-value-count", expected_count, len(service_actual))
+            service_ref = f"../controlled-state-values/{spec_file}"
+            literal_ref = f"core-specs/controlled-state-values/{spec_file}"
+            targets = self.markdown_link_targets(service_text, spec_file)
+            has_resolving_link = any((service_path.parent / target).resolve().exists() for target in targets)
+            if literal_ref not in service_text and not has_resolving_link:
+                self.fail(service_path, "service-status-source-reference", literal_ref, "missing")
+            for legacy_term in SERVICE_LEGACY_TERMS[name]:
+                if legacy_term in service_actual:
+                    self.fail(service_path, "legacy-service-term-active", "compatibility/deprecation note only", legacy_term)
+            used_categories = self.category_values(text)
+            declared_categories = self.declared_categories(text)
+            if declared_categories != used_categories:
+                self.fail(path, "state-category-declaration", sorted(used_categories), sorted(declared_categories))
             actual_edges = self.edge_set(path, expected_values, self.fenced_block_after(text, "10. Transition Model"))
             expected_edges = self.edge_set(path, expected_values, TRANSITIONS[name])
             if actual_edges != expected_edges:
@@ -146,12 +205,11 @@ class Validator:
             for number in range(1, 29):
                 if not re.search(rf"^# {number}\. ", text, re.MULTILINE):
                     self.fail(path, "required-section", f"section {number}", "missing")
-        required_component_sections = ["Purpose", "Canonical Meaning", "Required Fields"]
         for file in ["workflow-state-definition.md", "workflow-transition-definition.md"]:
             path = self.core / "workflows/components" / file
             text = self.read(path)
-            for section in required_component_sections:
-                if section not in text:
+            for section in COMPONENT_REQUIRED_SECTIONS:
+                if not re.search(rf"^# {re.escape(section)}$", text, re.MULTILINE):
                     self.fail(path, "component-section", section, "missing")
 
     def decision_block(self, text: str) -> list[str]:
@@ -184,7 +242,7 @@ class Validator:
             for term in ["BlockedByPermission", "BlockedByPolicy", "BlockedByGuard"]:
                 if term not in text:
                     continue
-                if path == self.core / "workflows/components/workflow-transition-definition.md" and "Compatibility Notes" in text:
+                if path == self.core / "workflows/components/workflow-transition-definition.md" and "# Compatibility" in text:
                     continue
                 self.fail(path, "legacy-workflow-decision-term", "compatibility mapping/note only", term)
 

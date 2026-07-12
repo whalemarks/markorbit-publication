@@ -1267,4 +1267,9 @@ This Matter API Contract is accepted only if:
 
 ---
 
+
+## Canonical Status Contract Consumption
+
+Matter API Contract consumes `core-specs/controlled-state-values/matter-status-values.md`. Requests cannot define new Matter statuses, cannot bypass Matter Service or linked Workflow Contract validation, cannot use PATCH or generic update to bypass invalid transitions, and responses/errors must preserve reason, blocker/review and requirement context without changing endpoint paths.
+
 **End of API Contract**

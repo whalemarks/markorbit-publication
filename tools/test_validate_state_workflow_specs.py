@@ -68,6 +68,52 @@ def case_missing_canonical_path(root: Path) -> None:
     (root / "books/book-02-core-specification/core-specs/controlled-state-values/order-status-values.md").unlink()
 
 
+def case_order_service_quoted_active(root: Path) -> None:
+    replace(root / "books/book-02-core-specification/core-specs/services/order-service.md", "Confirmed\nReadyForMatter", "Confirmed\nQuoted\nReadyForMatter")
+
+
+def case_matter_service_suspended_active(root: Path) -> None:
+    replace(root / "books/book-02-core-specification/core-specs/services/matter-service.md", "Cancelled\nArchived", "Cancelled\nSuspended\nArchived")
+
+
+def case_task_service_reopened_active(root: Path) -> None:
+    replace(root / "books/book-02-core-specification/core-specs/services/task-service.md", "Cancelled\nArchived", "Cancelled\nReopened\nArchived")
+
+
+def case_service_reference_removed(root: Path) -> None:
+    path = root / "books/book-02-core-specification/core-specs/services/order-service.md"
+    text = path.read_text(encoding="utf-8")
+    path.write_text(text.replace("core-specs/controlled-state-values/order-status-values.md", "core-specs/controlled-state-values/order-status-values-removed.md"), encoding="utf-8")
+
+
+def case_service_order_changed(root: Path) -> None:
+    replace(root / "books/book-02-core-specification/core-specs/services/order-service.md", "Draft\nPendingConfirmation", "PendingConfirmation\nDraft")
+
+
+def case_component_permission_section_removed(root: Path) -> None:
+    path = root / "books/book-02-core-specification/core-specs/workflows/components/workflow-state-definition.md"
+    text = path.read_text(encoding="utf-8")
+    start = text.index("# Permission and Policy")
+    end = text.index("# Human Review and Approval")
+    path.write_text(text[:start] + text[end:], encoding="utf-8")
+
+
+def case_component_versioning_section_removed(root: Path) -> None:
+    path = root / "books/book-02-core-specification/core-specs/workflows/components/workflow-transition-definition.md"
+    text = path.read_text(encoding="utf-8")
+    start = text.index("# Versioning")
+    end = text.index("# Failure Behavior")
+    path.write_text(text[:start] + text[end:], encoding="utf-8")
+
+
+def case_component_acceptance_section_removed(root: Path) -> None:
+    path = root / "books/book-02-core-specification/core-specs/workflows/components/workflow-transition-definition.md"
+    text = path.read_text(encoding="utf-8")
+    start = text.index("# Acceptance Criteria")
+    end = text.index("# Revision Notes")
+    path.write_text(text[:start] + text[end:], encoding="utf-8")
+
+
 CASES: list[tuple[str, Callable[[Path], None], str]] = [
     ("order status value removed", case_order_value_removed, "canonical-values"),
     ("unexpected status value added", case_unexpected_status_added, "canonical-values"),
@@ -77,6 +123,14 @@ CASES: list[tuple[str, Callable[[Path], None], str]] = [
     ("legacy ID active inventory", case_legacy_id_active_inventory, "active-object-regression"),
     ("Rejected active decision", case_rejected_active_decision, "workflow-decision-vocabulary"),
     ("missing canonical path", case_missing_canonical_path, "missing-file"),
+    ("Order Service Quoted active", case_order_service_quoted_active, "service-controlled-values"),
+    ("Matter Service Suspended active", case_matter_service_suspended_active, "service-controlled-values"),
+    ("Task Service Reopened active", case_task_service_reopened_active, "service-controlled-values"),
+    ("Service canonical reference removed", case_service_reference_removed, "service-status-source-reference"),
+    ("Service active status order changed", case_service_order_changed, "service-controlled-values"),
+    ("component Permission and Policy removed", case_component_permission_section_removed, "component-section"),
+    ("component Versioning removed", case_component_versioning_section_removed, "component-section"),
+    ("component Acceptance Criteria removed", case_component_acceptance_section_removed, "component-section"),
 ]
 
 

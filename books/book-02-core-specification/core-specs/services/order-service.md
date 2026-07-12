@@ -325,21 +325,35 @@ Unknown
 
 ## 9.2 status
 
+Consumed canonical values from `core-specs/controlled-state-values/order-status-values.md`:
+
 ```text
 Draft
-Submitted
-ReviewRequired
-Quoted
-Accepted
-Rejected
-Cancelled
+PendingConfirmation
+Confirmed
 ReadyForMatter
 MatterCreated
 InProgress
+WaitingForCustomer
 Completed
+Cancelled
 Archived
 DeletedReferenceOnly
 ```
+
+The Controlled State Value Specification `core-specs/controlled-state-values/order-status-values.md` is the canonical source for legal Order status values and transition semantics. Order owns current state truth. Order Service validates current state, requested state and canonical transition, preserves previous/next state plus actor, reason, permission, policy, review and idempotency context, and produces or requires `OrderStatusChanged` event trace. The Service must not define an alternate active status list.
+
+### 9.2.1 Deprecated Order Service Status Vocabulary
+
+| Legacy Service term | Canonical treatment |
+| --- | --- |
+| Submitted | Legacy intake/submission notion; not an active canonical Order status. |
+| Quoted | Commercial quotation fact or event; not an active canonical Order status. |
+| Accepted | May only become `Confirmed` through an explicit validated migration rule. |
+| Rejected | Must not be automatically mapped to `Cancelled` without actor, reason and policy context. |
+| ReviewRequired | Transition guard/review result; not an Order status. |
+
+Legacy terms may be consumed only by controlled migration, legacy import or compatibility handling. New contracts, fixtures and implementations must use the canonical 11-value Order status list.
 
 ## 9.3 customer_link_type
 

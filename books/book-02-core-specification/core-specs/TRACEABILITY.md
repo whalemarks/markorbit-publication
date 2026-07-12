@@ -404,4 +404,9 @@ This Traceability Matrix is accepted only if:
 
 ---
 
+
+## Status and Workflow Component Traceability
+
+Canonical chain: classification decision -> controlled state/component spec -> parent object -> owning service -> API/contract -> future fixture -> future typed implementation. Status values flow from Controlled State Value Specification to parent object status field to owning Service consumed canonical values.
+
 **End of Core Traceability Matrix**

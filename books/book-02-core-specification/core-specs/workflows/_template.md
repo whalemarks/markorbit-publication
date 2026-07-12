@@ -1069,4 +1069,9 @@ This Workflow Specification is accepted only if:
 
 ---
 
+
+## Workflow Component Consumption
+
+State Model must consume `core-specs/workflows/components/workflow-state-definition.md`. Transition Rules must consume `core-specs/workflows/components/workflow-transition-definition.md`. Workflow specs must not use unstructured free-text transitions to bypass component schema; terminal, guard, review, approval, event and failure rules consume component semantics.
+
 **End of Workflow Specification**
