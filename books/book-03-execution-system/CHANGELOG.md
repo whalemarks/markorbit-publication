@@ -2,6 +2,9 @@
 
 ## 2026-07-12
 
+- Recorded that PUB-TASK-B02-001 resolves the Book 02 status/transition classification decision upon merge, while the status-value and workflow-component specification pack remains the next implementation gate.
+- Confirmed Book 03 remains not ready for unrestricted implementation and does not authorize external protected action.
+
 - Added `B03-REV-0006_Full_Book_Owner_Acceptance.md`.
 - Recorded owner acceptance of CH00–CH34 and Appendices A–H.
 - Froze the complete Draft 1 controlled baseline.

@@ -7,7 +7,7 @@
 **Domain Category:** Business Execution Domain  
 **Source Chapter:** B02-CH-16 — Core Execution Primitives; B02-CH-22 — Domain Specification; B02-CH-23 — Object Specification  
 **Source Domain Spec:** core-specs/domains/task.md  
-**Related Object Specs:** core-specs/objects/matter.md; core-specs/objects/workflow-contract.md; core-specs/objects/event.md; core-specs/objects/notification.md; core-specs/objects/task-status.md; core-specs/objects/task-assignment.md; core-specs/objects/task-scope.md; core-specs/objects/task-dependency.md  
+**Related Object Specs:** core-specs/objects/matter.md; core-specs/objects/workflow-contract.md; core-specs/objects/event.md; core-specs/objects/notification.md; core-specs/objects/task-assignment.md; core-specs/objects/task-scope.md; core-specs/objects/task-dependency.md
 **Related Service Specs:** core-specs/services/task-registration-service.md; core-specs/services/task-assignment-service.md; core-specs/services/task-status-service.md; core-specs/services/task-dependency-service.md; core-specs/services/task-workflow-service.md; core-specs/services/task-reference-validation-service.md  
 **Related Event Specs:** core-specs/events/task-created.md; core-specs/events/task-updated.md; core-specs/events/task-assigned.md; core-specs/events/task-status-changed.md; core-specs/events/task-completed.md; core-specs/events/task-blocked.md; core-specs/events/task-reference-validated.md  
 **Related Contract Specs:** core-specs/contracts/task/task-contract.md; core-specs/contracts/task/task-assignment-contract.md; core-specs/contracts/task/task-status-contract.md; core-specs/contracts/task/task-dependency-contract.md; core-specs/contracts/task/task-workflow-contract.md  
@@ -245,6 +245,8 @@ Unknown
 ```
 
 ## 7.2 status
+
+Task Status is a parent-owned Controlled State Value Specification of Task, not an independent identity-bearing Core Object. Only the Task owning Service may mutate `status`; each status change requires an Event trace. AI and Product UI may display or summarize allowed status values but must not define new Task statuses or directly change them.
 
 MVP controlled values:
 

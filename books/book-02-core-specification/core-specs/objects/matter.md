@@ -7,7 +7,7 @@
 **Domain Category:** Business Execution Domain  
 **Source Chapter:** B02-CH-22 — Domain Specification; B02-CH-23 — Object Specification  
 **Source Domain Spec:** core-specs/domains/matter.md  
-**Related Object Specs:** core-specs/objects/customer.md; core-specs/objects/order.md; core-specs/objects/task.md; core-specs/objects/workflow-contract.md; core-specs/objects/matter-status.md; core-specs/objects/matter-participant.md; core-specs/objects/matter-scope.md; core-specs/objects/matter-reference.md  
+**Related Object Specs:** core-specs/objects/customer.md; core-specs/objects/order.md; core-specs/objects/task.md; core-specs/objects/workflow-contract.md; core-specs/objects/matter-participant.md; core-specs/objects/matter-scope.md; core-specs/objects/matter-reference.md
 **Related Service Specs:** core-specs/services/matter-registration-service.md; core-specs/services/matter-status-service.md; core-specs/services/matter-scope-service.md; core-specs/services/matter-participant-service.md; core-specs/services/matter-workflow-service.md; core-specs/services/matter-reference-validation-service.md  
 **Related Event Specs:** core-specs/events/matter-created.md; core-specs/events/matter-updated.md; core-specs/events/matter-status-changed.md; core-specs/events/matter-participant-linked.md; core-specs/events/matter-workflow-linked.md; core-specs/events/matter-reference-validated.md  
 **Related Contract Specs:** core-specs/contracts/matter/matter-contract.md; core-specs/contracts/matter/matter-scope-contract.md; core-specs/contracts/matter/matter-status-contract.md; core-specs/contracts/matter/matter-participant-contract.md; core-specs/contracts/matter/matter-workflow-contract.md  
@@ -242,6 +242,8 @@ Unknown
 ```
 
 ## 7.2 status
+
+Matter Status is a parent-owned Controlled State Value Specification of Matter, not an independent identity-bearing Core Object. Only the Matter owning Service may mutate `status`; each status change requires an Event trace. AI and Product UI may display or summarize allowed status values but must not define new Matter statuses or directly change them.
 
 MVP controlled values:
 

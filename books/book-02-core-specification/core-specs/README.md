@@ -732,7 +732,6 @@ brand.md
 brand-owner.md
 trademark.md
 trademark-owner.md
-trademark-status.md
 trademark-goods-services.md
 trademark-lifecycle-record.md
 jurisdiction.md
@@ -749,17 +748,12 @@ document-metadata.md
 customer.md
 order.md
 order-item.md
-order-status.md
 order-to-matter-link.md
 matter.md
-matter-status.md
 matter-context.md
 workflow-contract.md
-workflow-state.md
-workflow-transition.md
 task.md
 task-assignment.md
-task-status.md
 event.md
 event-payload.md
 responsibility-assignment.md

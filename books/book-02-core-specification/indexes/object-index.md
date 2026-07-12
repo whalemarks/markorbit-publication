@@ -132,6 +132,21 @@ Cross-Cutting Object
 Codex Object
 ```
 
+## 5.1 Non-Object Specification Categories
+
+Book 02 also recognizes specification categories that are not Core Objects:
+
+- **Controlled Value Specification** — has no independent identity; is owned by a parent object or contract; defines legal values and semantics; may be versioned; may define transition constraints; cannot mutate independently; cannot become an aggregate root.
+- **Workflow Contract Component** — exists inside Workflow Contract; may define structure and validation; does not execute independently; does not own business state; does not directly call external actions; is not defined by Product UI.
+- **Contract** — defines exchange, validation or obligation shape for objects, services, events, APIs or workflows.
+- **Event** — records meaningful changes or outcomes without owning the changed state.
+- **Service** — owns governed actions and mutations; objects and components do not mutate themselves.
+
+A controlled value set is not automatically a Core Object.
+A workflow component is not automatically a Core Object.
+No independent identity means no independent Core Object.
+No separate source of truth means no independent Core Object.
+
 ---
 
 # 6. MVP Depth Vocabulary
@@ -191,7 +206,6 @@ A Core Object marked `Deferred` belongs to future releases.
 | OBJ-BRD-004 | Brand Market Context | Brand | Phase 2 | Partial Implement |
 | OBJ-TM-001 | Trademark | Trademark | Phase 2 | Must Implement |
 | OBJ-TM-002 | Trademark Owner | Trademark | Phase 2 | Must Implement |
-| OBJ-TM-003 | Trademark Status | Trademark | Phase 2 | Must Implement |
 | OBJ-TM-004 | Trademark GoodsServices | Trademark / Classification | Phase 2 | Must Implement |
 | OBJ-TM-005 | Trademark Image Reference | Trademark / Document | Phase 2 | Partial Implement |
 | OBJ-TM-006 | Trademark Lifecycle Record | Trademark | Phase 2 | Must Implement |
@@ -225,20 +239,15 @@ A Core Object marked `Deferred` belongs to future releases.
 | OBJ-ORD-001 | Order | Order | Phase 3 | Must Implement |
 | OBJ-ORD-002 | Order Item | Order | Phase 3 | Must Implement |
 | OBJ-ORD-003 | Order Requirement | Order | Phase 3 | Must Implement |
-| OBJ-ORD-004 | Order Status | Order | Phase 3 | Must Implement |
 | OBJ-ORD-005 | Order-to-Matter Link | Order / Matter | Phase 3 | Must Implement |
 | OBJ-MAT-001 | Matter | Matter | Phase 3 | Must Implement |
-| OBJ-MAT-002 | Matter Status | Matter | Phase 3 | Must Implement |
 | OBJ-MAT-003 | Matter Participant | Matter | Phase 3 | Must Implement |
 | OBJ-MAT-004 | Matter Context | Matter | Phase 3 | Must Implement |
 | OBJ-MAT-005 | Matter Timeline | Matter / Event | Phase 3 | Partial Implement |
 | OBJ-WFC-001 | Workflow Contract | Workflow Contract | Phase 3 | Must Implement |
-| OBJ-WFC-002 | Workflow State | Workflow Contract | Phase 3 | Must Implement |
-| OBJ-WFC-003 | Workflow Transition | Workflow Contract | Phase 3 | Must Implement |
 | OBJ-WFC-004 | Workflow Rule | Workflow Contract / Policy | Phase 3 | Partial Implement |
 | OBJ-TSK-001 | Task | Task | Phase 3 | Must Implement |
 | OBJ-TSK-002 | Task Assignment | Task / Business Responsibility | Phase 3 | Must Implement |
-| OBJ-TSK-003 | Task Status | Task | Phase 3 | Must Implement |
 | OBJ-TSK-004 | Task Review Link | Task / Business Responsibility | Phase 3 | Must Implement |
 | OBJ-EVT-001 | Event | Event | Phase 3 | Must Implement |
 | OBJ-EVT-002 | Event Payload | Event | Phase 3 | Must Implement |
@@ -303,6 +312,21 @@ A Core Object marked `Deferred` belongs to future releases.
 | OBJ-CX-003 | Test Fixture | Specification Governance | Wave 0 | Must Implement |
 | OBJ-CX-004 | Implementation Artifact | Codex Task System | Wave 0–7 | Partial Implement |
 
+## 7.4 Reclassified Legacy Status and Workflow Entries
+
+The following legacy IDs are retained as historical references only. They are not active independent identity-bearing Core Objects and must not be reassigned.
+
+| Legacy ID | Existing Name | Canonical Classification | Parent / Owner | Status |
+|-----------|---------------|--------------------------|----------------|--------|
+| OBJ-TM-003 | Trademark Status | Controlled State Value Specification | Trademark | Reclassified |
+| OBJ-ORD-004 | Order Status | Controlled State Value Specification | Order | Reclassified |
+| OBJ-MAT-002 | Matter Status | Controlled State Value Specification | Matter | Reclassified |
+| OBJ-WFC-002 | Workflow State | Workflow Contract Component | Workflow Contract | Reclassified |
+| OBJ-WFC-003 | Workflow Transition | Workflow Contract Component | Workflow Contract | Reclassified |
+| OBJ-TSK-003 | Task Status | Controlled State Value Specification | Task | Reclassified |
+
+Active Must Implement object inventory excludes these six legacy entries. The first executable Core kernel must implement their parent fields or Workflow Contract structures, not standalone aggregate roots.
+
 ---
 
 # 8. High-Priority MVP Objects
@@ -327,7 +351,6 @@ Brand
 Brand Owner
 Trademark
 Trademark Owner
-Trademark Status
 Trademark GoodsServices
 Trademark Lifecycle Record
 Jurisdiction
@@ -346,18 +369,13 @@ Customer Contact
 Order
 Order Item
 Order Requirement
-Order Status
 Order-to-Matter Link
 Matter
-Matter Status
 Matter Participant
 Matter Context
 Workflow Contract
-Workflow State
-Workflow Transition
 Task
 Task Assignment
-Task Status
 Task Review Link
 Event
 Event Payload
@@ -465,7 +483,7 @@ Examples:
 | Customer | CustomerCreated |
 | Order | OrderConfirmed |
 | Matter | MatterStatusChanged |
-| Workflow Transition | WorkflowTransitionRequested |
+| Workflow Contract transition definitions | WorkflowTransitionRequested |
 | Task | TaskCompleted |
 | Notification | NotificationSent |
 | Opportunity Signal | OpportunitySignalDetected |

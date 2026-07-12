@@ -7,7 +7,7 @@
 **Source Chapter:** B02-CH-08 — Ontology and Domain Classification  
 **Source Appendix:** B02-APP-B — Core Domain Index  
 **Source Index:** indexes/domain-index.md  
-**Related Object Specs:** core-specs/objects/matter.md; core-specs/objects/matter-type.md; core-specs/objects/matter-status.md; core-specs/objects/matter-scope.md; core-specs/objects/matter-party.md; core-specs/objects/matter-assignment.md; core-specs/objects/matter-professional-context.md  
+**Related Object Specs:** core-specs/objects/matter.md; core-specs/objects/matter-type.md; core-specs/objects/matter-scope.md; core-specs/objects/matter-party.md; core-specs/objects/matter-assignment.md; core-specs/objects/matter-professional-context.md
 **Related Service Specs:** core-specs/services/matter-creation-service.md; core-specs/services/matter-status-service.md; core-specs/services/matter-scope-service.md; core-specs/services/matter-assignment-service.md; core-specs/services/matter-reference-validation-service.md; core-specs/services/order-to-matter-conversion-service.md  
 **Related Event Specs:** core-specs/events/matter-created.md; core-specs/events/matter-updated.md; core-specs/events/matter-status-changed.md; core-specs/events/matter-scope-updated.md; core-specs/events/matter-assigned.md; core-specs/events/matter-reference-validated.md; core-specs/events/order-converted-to-matter.md  
 **Related Contract Specs:** core-specs/contracts/matter/matter-contract.md; core-specs/contracts/matter/matter-scope-contract.md; core-specs/contracts/matter/matter-assignment-contract.md; core-specs/contracts/matter/order-to-matter-conversion-contract.md; core-specs/contracts/matter/matter-audit-contract.md  
