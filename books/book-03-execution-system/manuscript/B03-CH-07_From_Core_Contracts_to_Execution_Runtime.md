@@ -709,9 +709,9 @@ Runtime:
   Reviewer approved version 3.
   Permission check passed.
   Policy check passed.
-  Send boundary is satisfied.
-  User may send or local send process may proceed.
-  Sending result must be recorded.
+  Current MVP stops before send.
+  Execution may generate, validate, preview or prepare the communication artifact.
+  Any send belongs only to a future protected send implementation and must not imply automatic sending or ungoverned local sending.
 ```
 
 This is why runtime matters.

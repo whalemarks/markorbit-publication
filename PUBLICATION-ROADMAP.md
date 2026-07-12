@@ -20,9 +20,11 @@ Perform Book 02 Round 3 cleanup after migration and validation planning are comp
 
 Package Book 02 release-candidate artifacts after review and cleanup are approved.
 
-## Phase 5: Book 03 Foundation Scaffold
+## Phase 5: Book 03 Complete Draft 1 Closeout
 
-Create the Book 03 — MarkOrbit Execution System foundation scaffold after Book 02 migration. Book 03 is positioned as the execution layer between Book 02 Core Specification and Book 04 Product System.
+Book 03 — MarkOrbit Execution System has moved beyond foundation scaffold: CH00–CH34 and Appendices A–H form Complete Draft 1. The book is pending owner acceptance, is not yet final publication, and is not yet execution-ready without dependency review.
+
+This closeout does not start Execution implementation. Before execution readiness, the unresolved Book 02 status-object dependency set requires a separate owner decision: Trademark Status, Order Status, Matter Status, Workflow State, Workflow Transition and Task Status.
 
 ## Future Planning Notes
 

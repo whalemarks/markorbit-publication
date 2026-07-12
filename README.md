@@ -20,6 +20,6 @@ This repository coordinates publication-level structure and governance across th
 
 Existing book content is preserved. Book migration, manuscript cleanup, and architecture changes are handled only through explicit future tasks.
 
-## Planned Books
+## Book Status
 
-- Book 03 — MarkOrbit Execution System (`books/book-03-execution-system/`) is scaffolded / planned. It defines how Core contracts become governed operational execution.
+- Book 03 — MarkOrbit Execution System (`books/book-03-execution-system/`) is Complete Draft 1 / Pending owner acceptance. CH00–CH34 and Appendices A–H form the manuscript Draft 1; it is not yet final publication and is not yet execution-ready without dependency review. This repository-level update does not start Execution implementation.
