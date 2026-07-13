@@ -144,8 +144,21 @@ Ready for unrestricted implementation: NO
 External protected action authorized: NO
 
 Book 02 status/workflow contract and fixture coverage: resolved upon merge of PUB-TASK-B02-003.
-Next gate: Book 02 typed implementation mapping.
+Next gate: Book 04 implementation architecture and project repositories.
 Complete Draft 1 / Owner Accepted: YES.
 Ready for final publication: NO.
 Ready for unrestricted implementation: NO.
 External protected action authorized: NO.
+
+## Book 02 v0.1 Baseline Dependency
+
+Book 02 v0.1 is the frozen Core specification baseline.
+
+Book 03 continues to consume Book 02 but does not reopen it.
+
+New implementation architecture moves to Book 04 and
+the relevant project repositories.
+
+Ready for final publication: NO
+Ready for unrestricted implementation: NO
+External protected action authorized: NO

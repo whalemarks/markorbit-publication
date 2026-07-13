@@ -36,6 +36,16 @@
 - `codex-tasks/TASK-010-mvp-execution-spine.md`
 
 
+## Frozen baseline
+
+- Baseline ID: B02-BASELINE-V0.1
+- Version: 0.1.0
+- Status: Frozen Core Specification Baseline
+- Content baseline commit:
+  a0a31c9a784854c8943eee448337cb91ad316bb4
+- Baseline record: BASELINE.md
+- Change proposal directory: change-proposals/
+
 ## PUB-TASK-B02-002
 
 PUB-TASK-B02-002 adds four Controlled State Value Specifications, two Workflow Contract Component Specifications, and the status/workflow specification validator. Controlled values and the classification decision are unchanged. Next gate: Book 02 status/workflow contract and fixture coverage.
@@ -43,4 +53,14 @@ PUB-TASK-B02-002 adds four Controlled State Value Specifications, two Workflow C
 
 ## PUB-TASK-B02-003
 
-Added Book 02 status/workflow contract and deterministic fixture coverage. Next gate: Book 02 typed implementation mapping. External protected action remains unauthorized.
+Added Book 02 status/workflow contract and deterministic fixture coverage.
+
+Book 02 structural work is closed.
+
+Implementation architecture and typed mappings move
+to Book 04 and the relevant project repositories.
+
+Future Book 02 semantic changes require an accepted
+Book 02 Change Proposal.
+
+External protected action remains unauthorized.

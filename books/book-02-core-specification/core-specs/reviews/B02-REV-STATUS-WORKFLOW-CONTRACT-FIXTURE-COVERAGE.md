@@ -2,8 +2,10 @@
 
 Review ID: B02-REV-STATUS-WORKFLOW-CONTRACT-FIXTURE-COVERAGE
 Task: PUB-TASK-B02-003
-REVIEW STATUS: PENDING OWNER ACCEPTANCE
-DECISION EFFECT: ACCEPTED UPON MERGE
+REVIEW STATUS: OWNER ACCEPTED
+DECISION EFFECT: ACCEPTED BY MERGE
+ACCEPTED MERGE COMMIT:
+a0a31c9a784854c8943eee448337cb91ad316bb4
 
 AUTOMATED CONTRACT VALIDATION: PASS
 AUTOMATED FIXTURE VALIDATION: PASS
@@ -41,6 +43,15 @@ UNRESTRICTED IMPLEMENTATION READY: NO
 - Contract registries and traceability are updated.
 - API/Workflow/Test consumers reference canonical contracts and fixtures.
 
-Next gate: Book 02 typed implementation mapping.
+Book 02 structural gate: CLOSED.
+
+Next architecture gate:
+Book 04 implementation architecture.
+
+Next implementation gates:
+markorbit-core and relevant product repositories.
+
+Further Book 02 semantic changes:
+explicit Change Proposal only.
 
 Still required: runtime validators, runtime negative transition tests, Execution integration readiness review.
