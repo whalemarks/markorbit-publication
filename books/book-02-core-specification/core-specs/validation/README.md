@@ -1090,4 +1090,8 @@ Do not generate detailed validation specs before the template exists.
 
 ---
 
+## Status Workflow Fixture Validation
+
+Fixture Validation includes [Status Workflow Contract Fixture Validation](fixtures/status-workflow-contract-fixture-validation.md). This release-gate validation verifies Status Contracts, Workflow Component Contracts, the status-workflow fixture pack, and exact structural/semantic fixture behavior.
+
 **End of README**

@@ -677,4 +677,23 @@ This Contracts Index is accepted only if:
 
 ---
 
+## Status, Workflow Component, and Fixture Inventory
+
+### Status Contracts
+
+- [Status Transition Contract](status/status-transition-contract.md)
+- [Trademark Status Contract](status/trademark-status-contract.md)
+- [Order Status Contract](status/order-status-contract.md)
+- [Matter Status Contract](status/matter-status-contract.md)
+- [Task Status Contract](status/task-status-contract.md)
+
+### Workflow Component Contracts
+
+- [Workflow State Definition Contract](workflows/components/workflow-state-definition-contract.md)
+- [Workflow Transition Definition Contract](workflows/components/workflow-transition-definition-contract.md)
+
+### Canonical Fixture Packs
+
+- [Status Workflow Fixture Pack](fixtures/status-workflow/index.md)
+
 **End of Contracts Index**

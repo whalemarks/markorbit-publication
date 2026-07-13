@@ -1,0 +1,264 @@
+{
+  "contains_production_data": false,
+  "fixture_pack_id": "B02-FIXTURE-STATUS-WORKFLOW-V1",
+  "fixture_pack_version": "v0.1.0",
+  "fixtures": [
+    {
+      "case_type": "positive",
+      "fixture_id": "b02-trademark-canonical-matrix",
+      "fixture_type": "StatusMatrix",
+      "path": "status/trademark/canonical-matrix.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-TRADEMARK",
+      "target_spec_id": "B02-CSV-TRADEMARK-STATUS"
+    },
+    {
+      "case_type": "positive",
+      "fixture_id": "b02-order-canonical-matrix",
+      "fixture_type": "StatusMatrix",
+      "path": "status/order/canonical-matrix.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-ORDER",
+      "target_spec_id": "B02-CSV-ORDER-STATUS"
+    },
+    {
+      "case_type": "positive",
+      "fixture_id": "b02-matter-canonical-matrix",
+      "fixture_type": "StatusMatrix",
+      "path": "status/matter/canonical-matrix.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-MATTER",
+      "target_spec_id": "B02-CSV-MATTER-STATUS"
+    },
+    {
+      "case_type": "positive",
+      "fixture_id": "b02-task-canonical-matrix",
+      "fixture_type": "StatusMatrix",
+      "path": "status/task/canonical-matrix.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-TASK",
+      "target_spec_id": "B02-CSV-TASK-STATUS"
+    },
+    {
+      "case_type": "positive",
+      "fixture_id": "b02-trademark-valid-pending-filing-to-filed",
+      "fixture_type": "StatusTransition",
+      "path": "status/trademark/valid-pending-filing-to-filed.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-TRADEMARK",
+      "target_spec_id": "B02-CSV-TRADEMARK-STATUS"
+    },
+    {
+      "case_type": "positive",
+      "fixture_id": "b02-trademark-valid-official-source-to-registered",
+      "fixture_type": "StatusTransition",
+      "path": "status/trademark/valid-official-source-to-registered.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-TRADEMARK",
+      "target_spec_id": "B02-CSV-TRADEMARK-STATUS"
+    },
+    {
+      "case_type": "negative",
+      "fixture_id": "b02-trademark-review-required-source-conflict",
+      "fixture_type": "StatusTransition",
+      "path": "status/trademark/review-required-source-conflict.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-TRADEMARK",
+      "target_spec_id": "B02-CSV-TRADEMARK-STATUS"
+    },
+    {
+      "case_type": "negative",
+      "fixture_id": "b02-trademark-invalid-archived-to-draft",
+      "fixture_type": "StatusTransition",
+      "path": "status/trademark/invalid-archived-to-draft.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-TRADEMARK",
+      "target_spec_id": "B02-CSV-TRADEMARK-STATUS"
+    },
+    {
+      "case_type": "positive",
+      "fixture_id": "b02-order-valid-pending-confirmation-to-confirmed",
+      "fixture_type": "StatusTransition",
+      "path": "status/order/valid-pending-confirmation-to-confirmed.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-ORDER",
+      "target_spec_id": "B02-CSV-ORDER-STATUS"
+    },
+    {
+      "case_type": "positive",
+      "fixture_id": "b02-order-valid-accept-order-to-confirmed",
+      "fixture_type": "StatusTransition",
+      "path": "status/order/valid-accept-order-to-confirmed.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-ORDER",
+      "target_spec_id": "B02-CSV-ORDER-STATUS"
+    },
+    {
+      "case_type": "negative",
+      "fixture_id": "b02-order-permission-required-cancellation",
+      "fixture_type": "StatusTransition",
+      "path": "status/order/permission-required-cancellation.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-ORDER",
+      "target_spec_id": "B02-CSV-ORDER-STATUS"
+    },
+    {
+      "case_type": "negative",
+      "fixture_id": "b02-order-invalid-confirmed-to-draft",
+      "fixture_type": "StatusTransition",
+      "path": "status/order/invalid-confirmed-to-draft.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-ORDER",
+      "target_spec_id": "B02-CSV-ORDER-STATUS"
+    },
+    {
+      "case_type": "positive",
+      "fixture_id": "b02-matter-valid-in-progress-to-waiting-for-office",
+      "fixture_type": "StatusTransition",
+      "path": "status/matter/valid-in-progress-to-waiting-for-office.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-MATTER",
+      "target_spec_id": "B02-CSV-MATTER-STATUS"
+    },
+    {
+      "case_type": "positive",
+      "fixture_id": "b02-matter-valid-review-required-to-in-progress",
+      "fixture_type": "StatusTransition",
+      "path": "status/matter/valid-review-required-to-in-progress.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-MATTER",
+      "target_spec_id": "B02-CSV-MATTER-STATUS"
+    },
+    {
+      "case_type": "negative",
+      "fixture_id": "b02-matter-blocked-without-resolution",
+      "fixture_type": "StatusTransition",
+      "path": "status/matter/blocked-without-resolution.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-MATTER",
+      "target_spec_id": "B02-CSV-MATTER-STATUS"
+    },
+    {
+      "case_type": "negative",
+      "fixture_id": "b02-matter-invalid-archived-to-open",
+      "fixture_type": "StatusTransition",
+      "path": "status/matter/invalid-archived-to-open.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-MATTER",
+      "target_spec_id": "B02-CSV-MATTER-STATUS"
+    },
+    {
+      "case_type": "positive",
+      "fixture_id": "b02-task-valid-open-to-assigned",
+      "fixture_type": "StatusTransition",
+      "path": "status/task/valid-open-to-assigned.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-TASK",
+      "target_spec_id": "B02-CSV-TASK-STATUS"
+    },
+    {
+      "case_type": "positive",
+      "fixture_id": "b02-task-valid-in-progress-to-completed",
+      "fixture_type": "StatusTransition",
+      "path": "status/task/valid-in-progress-to-completed.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-TASK",
+      "target_spec_id": "B02-CSV-TASK-STATUS"
+    },
+    {
+      "case_type": "positive",
+      "fixture_id": "b02-task-valid-governed-reopen-to-open",
+      "fixture_type": "StatusTransition",
+      "path": "status/task/valid-governed-reopen-to-open.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-TASK",
+      "target_spec_id": "B02-CSV-TASK-STATUS"
+    },
+    {
+      "case_type": "negative",
+      "fixture_id": "b02-task-invalid-archived-to-open",
+      "fixture_type": "StatusTransition",
+      "path": "status/task/invalid-archived-to-open.json",
+      "target_contract_id": "B02-CONTRACT-STATUS-TASK",
+      "target_spec_id": "B02-CSV-TASK-STATUS"
+    },
+    {
+      "case_type": "positive",
+      "fixture_id": "b02-workflow-valid-state-definition-set",
+      "fixture_type": "WorkflowStateDefinition",
+      "path": "workflow/valid-state-definition-set.json",
+      "target_contract_id": "B02-CONTRACT-WORKFLOW-STATE-DEFINITION",
+      "target_spec_id": "B02-WFC-STATE-DEFINITION"
+    },
+    {
+      "case_type": "negative",
+      "fixture_id": "b02-workflow-invalid-duplicate-state-key",
+      "fixture_type": "WorkflowStateDefinition",
+      "path": "workflow/invalid-duplicate-state-key.json",
+      "target_contract_id": "B02-CONTRACT-WORKFLOW-STATE-DEFINITION",
+      "target_spec_id": "B02-WFC-STATE-DEFINITION"
+    },
+    {
+      "case_type": "negative",
+      "fixture_id": "b02-workflow-invalid-missing-initial-state",
+      "fixture_type": "WorkflowStateDefinition",
+      "path": "workflow/invalid-missing-initial-state.json",
+      "target_contract_id": "B02-CONTRACT-WORKFLOW-STATE-DEFINITION",
+      "target_spec_id": "B02-WFC-STATE-DEFINITION"
+    },
+    {
+      "case_type": "negative",
+      "fixture_id": "b02-workflow-invalid-terminal-outgoing-transition",
+      "fixture_type": "WorkflowTransitionValidation",
+      "path": "workflow/invalid-terminal-outgoing-transition.json",
+      "target_contract_id": "B02-CONTRACT-WORKFLOW-TRANSITION-DEFINITION",
+      "target_spec_id": "B02-WFC-TRANSITION-DEFINITION"
+    },
+    {
+      "case_type": "positive",
+      "fixture_id": "b02-workflow-valid-transition-definition",
+      "fixture_type": "WorkflowTransitionValidation",
+      "path": "workflow/valid-transition-definition.json",
+      "target_contract_id": "B02-CONTRACT-WORKFLOW-TRANSITION-DEFINITION",
+      "target_spec_id": "B02-WFC-TRANSITION-DEFINITION"
+    },
+    {
+      "case_type": "negative",
+      "fixture_id": "b02-workflow-review-required-transition",
+      "fixture_type": "WorkflowTransitionValidation",
+      "path": "workflow/review-required-transition.json",
+      "target_contract_id": "B02-CONTRACT-WORKFLOW-TRANSITION-DEFINITION",
+      "target_spec_id": "B02-WFC-TRANSITION-DEFINITION"
+    },
+    {
+      "case_type": "negative",
+      "fixture_id": "b02-workflow-permission-required-transition",
+      "fixture_type": "WorkflowTransitionValidation",
+      "path": "workflow/permission-required-transition.json",
+      "target_contract_id": "B02-CONTRACT-WORKFLOW-TRANSITION-DEFINITION",
+      "target_spec_id": "B02-WFC-TRANSITION-DEFINITION"
+    },
+    {
+      "case_type": "negative",
+      "fixture_id": "b02-workflow-invalid-transition",
+      "fixture_type": "WorkflowTransitionValidation",
+      "path": "workflow/invalid-transition.json",
+      "target_contract_id": "B02-CONTRACT-WORKFLOW-TRANSITION-DEFINITION",
+      "target_spec_id": "B02-WFC-TRANSITION-DEFINITION"
+    },
+    {
+      "case_type": "negative",
+      "fixture_id": "b02-workflow-protected-external-action-denied",
+      "fixture_type": "WorkflowTransitionValidation",
+      "path": "workflow/protected-external-action-denied.json",
+      "target_contract_id": "B02-CONTRACT-WORKFLOW-TRANSITION-DEFINITION",
+      "target_spec_id": "B02-WFC-TRANSITION-DEFINITION"
+    },
+    {
+      "case_type": "negative",
+      "fixture_id": "b02-workflow-unsupported-contract-version",
+      "fixture_type": "WorkflowTransitionValidation",
+      "path": "workflow/unsupported-contract-version.json",
+      "target_contract_id": "B02-CONTRACT-WORKFLOW-TRANSITION-DEFINITION",
+      "target_spec_id": "B02-WFC-TRANSITION-DEFINITION"
+    },
+    {
+      "case_type": "positive",
+      "fixture_id": "b02-workflow-valid-transition-definition-shape",
+      "fixture_type": "WorkflowTransitionDefinition",
+      "path": "workflow/valid-transition-definition-shape.json",
+      "target_contract_id": "B02-CONTRACT-WORKFLOW-TRANSITION-DEFINITION",
+      "target_spec_id": "B02-WFC-TRANSITION-DEFINITION"
+    },
+    {
+      "case_type": "negative",
+      "fixture_id": "b02-workflow-invalid-transition-definition-missing-owner",
+      "fixture_type": "WorkflowTransitionDefinition",
+      "path": "workflow/invalid-transition-definition-missing-owner.json",
+      "target_contract_id": "B02-CONTRACT-WORKFLOW-TRANSITION-DEFINITION",
+      "target_spec_id": "B02-WFC-TRANSITION-DEFINITION"
+    }
+  ],
+  "synthetic": true
+}

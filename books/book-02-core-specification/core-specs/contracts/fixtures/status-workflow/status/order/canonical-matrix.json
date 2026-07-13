@@ -1,0 +1,116 @@
+{
+  "case_type": "positive",
+  "contains_production_data": false,
+  "expected": {
+    "allowed_transitions": [
+      {
+        "from": "Draft",
+        "to": "PendingConfirmation"
+      },
+      {
+        "from": "Draft",
+        "to": "Cancelled"
+      },
+      {
+        "from": "Draft",
+        "to": "Archived"
+      },
+      {
+        "from": "PendingConfirmation",
+        "to": "Draft"
+      },
+      {
+        "from": "PendingConfirmation",
+        "to": "Confirmed"
+      },
+      {
+        "from": "PendingConfirmation",
+        "to": "Cancelled"
+      },
+      {
+        "from": "Confirmed",
+        "to": "ReadyForMatter"
+      },
+      {
+        "from": "Confirmed",
+        "to": "InProgress"
+      },
+      {
+        "from": "Confirmed",
+        "to": "Cancelled"
+      },
+      {
+        "from": "ReadyForMatter",
+        "to": "MatterCreated"
+      },
+      {
+        "from": "ReadyForMatter",
+        "to": "InProgress"
+      },
+      {
+        "from": "ReadyForMatter",
+        "to": "Cancelled"
+      },
+      {
+        "from": "MatterCreated",
+        "to": "InProgress"
+      },
+      {
+        "from": "MatterCreated",
+        "to": "Completed"
+      },
+      {
+        "from": "MatterCreated",
+        "to": "Cancelled"
+      },
+      {
+        "from": "InProgress",
+        "to": "WaitingForCustomer"
+      },
+      {
+        "from": "InProgress",
+        "to": "Completed"
+      },
+      {
+        "from": "InProgress",
+        "to": "Cancelled"
+      },
+      {
+        "from": "WaitingForCustomer",
+        "to": "InProgress"
+      },
+      {
+        "from": "WaitingForCustomer",
+        "to": "Cancelled"
+      },
+      {
+        "from": "Completed",
+        "to": "Archived"
+      },
+      {
+        "from": "Cancelled",
+        "to": "Archived"
+      }
+    ],
+    "canonical_values": [
+      "Draft",
+      "PendingConfirmation",
+      "Confirmed",
+      "ReadyForMatter",
+      "MatterCreated",
+      "InProgress",
+      "WaitingForCustomer",
+      "Completed",
+      "Cancelled",
+      "Archived",
+      "DeletedReferenceOnly"
+    ]
+  },
+  "fixture_id": "b02-order-canonical-matrix",
+  "fixture_type": "StatusMatrix",
+  "fixture_version": "v0.1.0",
+  "input": {},
+  "synthetic": true,
+  "target_contract_id": "B02-CONTRACT-STATUS-ORDER",
+  "target_spec_id": "B02-CSV-ORDER-STATUS"
+}

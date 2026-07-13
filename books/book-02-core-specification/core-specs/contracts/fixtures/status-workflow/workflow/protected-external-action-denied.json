@@ -1,0 +1,120 @@
+{
+  "case_type": "negative",
+  "contains_production_data": false,
+  "expected": {
+    "workflow_transition_validation_result": {
+      "decision": "Denied",
+      "missing_requirements": [
+        "synthetic_requirement"
+      ],
+      "mutation_performed": false,
+      "owning_service_operation": null,
+      "owning_service_reference": null,
+      "reason_code": "synthetic_denied",
+      "required_next_action": "satisfy_missing_requirements"
+    }
+  },
+  "fixture_id": "b02-workflow-protected-external-action-denied",
+  "fixture_type": "WorkflowTransitionValidation",
+  "fixture_version": "v0.1.0",
+  "input": {
+    "workflow_state_definition_set": {
+      "states": [
+        {
+          "allowed_actor_types": [
+            "User"
+          ],
+          "display_name": "Draft",
+          "entry_requirements": [],
+          "exit_requirements": [],
+          "external_action_boundary": "No external action authorized",
+          "is_active": true,
+          "is_initial": true,
+          "is_terminal": false,
+          "meaning": "Synthetic draft",
+          "metadata": null,
+          "required_approval_references": [],
+          "required_document_references": [],
+          "required_event_references": [],
+          "required_evidence_references": [],
+          "required_permission_references": [],
+          "required_policy_references": [],
+          "required_review_references": [],
+          "state_category": "Active",
+          "state_key": "draft"
+        },
+        {
+          "allowed_actor_types": [
+            "User"
+          ],
+          "display_name": "Done",
+          "entry_requirements": [],
+          "exit_requirements": [],
+          "external_action_boundary": "No external action authorized",
+          "is_active": false,
+          "is_initial": false,
+          "is_terminal": true,
+          "meaning": "Synthetic done",
+          "metadata": null,
+          "required_approval_references": [],
+          "required_document_references": [],
+          "required_event_references": [],
+          "required_evidence_references": [],
+          "required_permission_references": [],
+          "required_policy_references": [],
+          "required_review_references": [],
+          "state_category": "Terminal",
+          "state_key": "done"
+        }
+      ],
+      "workflow_contract_reference_id": "wfc_fixture_001",
+      "workflow_contract_version": "v0.1.0"
+    },
+    "workflow_transition_definitions": [
+      {
+        "approval_requirement": null,
+        "audit_requirement": "required",
+        "capability_references": [],
+        "document_requirements": [],
+        "event_requirements": [],
+        "evidence_requirements": [],
+        "external_action_boundary": "protected_external_action",
+        "failure_behavior": "fail_closed",
+        "from_state_key": "draft",
+        "guard_references": [],
+        "idempotency_requirement": "required",
+        "metadata": null,
+        "notification_requirements": [],
+        "owning_service_operation": "TaskService.routeOnly",
+        "owning_service_reference": "Task Service",
+        "permission_references": [],
+        "policy_references": [],
+        "requested_action": "protected_transition",
+        "responsibility_references": [],
+        "review_requirement": null,
+        "to_state_key": "done",
+        "transition_key": "protected_transition",
+        "trigger_type": "Manual"
+      }
+    ],
+    "workflow_transition_validation_request": {
+      "actor_reference_id": "actor_fixture_001",
+      "approval_reference_id": null,
+      "correlation_id": "correlation_fixture_001",
+      "current_state_key": "draft",
+      "human_review_reference_id": null,
+      "idempotency_key": "idempotency_fixture_001",
+      "permission_decision_reference_id": "perm_fixture_001",
+      "policy_decision_reference_id": "policy_fixture_001",
+      "requested_state_key": "done",
+      "target_object_reference_id": "tsk_fixture_001",
+      "target_object_type": "Task",
+      "transition_key": "protected_transition",
+      "workflow_contract_reference_id": "wfc_fixture_001",
+      "workflow_contract_version": "v0.1.0"
+    }
+  },
+  "synthetic": true,
+  "target_contract_id": "B02-CONTRACT-WORKFLOW-TRANSITION-DEFINITION",
+  "target_spec_id": "B02-WFC-TRANSITION-DEFINITION"
+}

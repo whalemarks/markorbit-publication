@@ -1035,4 +1035,10 @@ This Trademark API Contract is accepted only if:
 
 Trademark API Contract consumes `core-specs/controlled-state-values/trademark-status-values.md`. Requests cannot define new Trademark statuses, cannot bypass Trademark Service, cannot use PATCH or generic update to bypass invalid transitions, and responses/errors must preserve source, reason and requirement context without adding endpoints or changing endpoint paths.
 
+## Status Transition Contract Consumption
+
+Related Contracts: [Trademark Status Contract](../status/trademark-status-contract.md) and [Status Transition Contract](../status/status-transition-contract.md).
+
+Status Transition request validation consumes the shared `status_transition_request` shape. API validation responses consume `status_transition_decision`. Owner Service execution is required before a performed `status_transition_result` can exist. Generic PATCH or update semantics must not bypass the status contract, endpoint paths do not change, no endpoint is added, API does not directly mutate status, and responses must not return legacy statuses that conflict with the canonical status list.
+
 **End of API Contract**

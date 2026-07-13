@@ -499,4 +499,17 @@ This MANIFEST is accepted only if:
 
 ---
 
+## Status/Workflow Contract Fixture Registry
+
+| ID | Canonical path | Category | Status | Version | Owner | Related specification | MVP depth |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| B02-CONTRACT-STATUS-TRANSITION | [contracts/status/status-transition-contract.md](status/status-transition-contract.md) | Status Contract | Draft | 0.1.0 | MarkOrbit Publications Editorial Board | B02-CSV-TRADEMARK-STATUS; B02-CSV-ORDER-STATUS; B02-CSV-MATTER-STATUS; B02-CSV-TASK-STATUS | Must Implement |
+| B02-CONTRACT-STATUS-TRADEMARK | [contracts/status/trademark-status-contract.md](status/trademark-status-contract.md) | Status Contract | Draft | 0.1.0 | MarkOrbit Publications Editorial Board | B02-CSV-TRADEMARK-STATUS | Must Implement |
+| B02-CONTRACT-STATUS-ORDER | [contracts/status/order-status-contract.md](status/order-status-contract.md) | Status Contract | Draft | 0.1.0 | MarkOrbit Publications Editorial Board | B02-CSV-ORDER-STATUS | Must Implement |
+| B02-CONTRACT-STATUS-MATTER | [contracts/status/matter-status-contract.md](status/matter-status-contract.md) | Status Contract | Draft | 0.1.0 | MarkOrbit Publications Editorial Board | B02-CSV-MATTER-STATUS | Must Implement |
+| B02-CONTRACT-STATUS-TASK | [contracts/status/task-status-contract.md](status/task-status-contract.md) | Status Contract | Draft | 0.1.0 | MarkOrbit Publications Editorial Board | B02-CSV-TASK-STATUS | Must Implement |
+| B02-CONTRACT-WORKFLOW-STATE-DEFINITION | [contracts/workflows/components/workflow-state-definition-contract.md](workflows/components/workflow-state-definition-contract.md) | Workflow Component Contract | Draft | 0.1.0 | MarkOrbit Publications Editorial Board | B02-WFC-STATE-DEFINITION | Must Implement |
+| B02-CONTRACT-WORKFLOW-TRANSITION-DEFINITION | [contracts/workflows/components/workflow-transition-definition-contract.md](workflows/components/workflow-transition-definition-contract.md) | Workflow Component Contract | Draft | 0.1.0 | MarkOrbit Publications Editorial Board | B02-WFC-TRANSITION-DEFINITION | Must Implement |
+| B02-FIXTURE-STATUS-WORKFLOW-V1 | [contracts/fixtures/status-workflow/manifest.json](fixtures/status-workflow/manifest.json) | Canonical Fixture Pack | Draft | v0.1.0 | MarkOrbit Publications Editorial Board | Status Contracts and Workflow Component Contracts | Must Implement |
+
 **End of Contracts MANIFEST**

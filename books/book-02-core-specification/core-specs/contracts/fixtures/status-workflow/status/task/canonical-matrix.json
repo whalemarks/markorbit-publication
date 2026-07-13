@@ -1,0 +1,188 @@
+{
+  "case_type": "positive",
+  "contains_production_data": false,
+  "expected": {
+    "allowed_transitions": [
+      {
+        "from": "Draft",
+        "to": "Open"
+      },
+      {
+        "from": "Draft",
+        "to": "Assigned"
+      },
+      {
+        "from": "Draft",
+        "to": "Cancelled"
+      },
+      {
+        "from": "Draft",
+        "to": "Archived"
+      },
+      {
+        "from": "Open",
+        "to": "Assigned"
+      },
+      {
+        "from": "Open",
+        "to": "InProgress"
+      },
+      {
+        "from": "Open",
+        "to": "Waiting"
+      },
+      {
+        "from": "Open",
+        "to": "Blocked"
+      },
+      {
+        "from": "Open",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "Open",
+        "to": "Completed"
+      },
+      {
+        "from": "Open",
+        "to": "Cancelled"
+      },
+      {
+        "from": "Assigned",
+        "to": "InProgress"
+      },
+      {
+        "from": "Assigned",
+        "to": "Waiting"
+      },
+      {
+        "from": "Assigned",
+        "to": "Blocked"
+      },
+      {
+        "from": "Assigned",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "Assigned",
+        "to": "Completed"
+      },
+      {
+        "from": "Assigned",
+        "to": "Cancelled"
+      },
+      {
+        "from": "InProgress",
+        "to": "Waiting"
+      },
+      {
+        "from": "InProgress",
+        "to": "Blocked"
+      },
+      {
+        "from": "InProgress",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "InProgress",
+        "to": "Completed"
+      },
+      {
+        "from": "InProgress",
+        "to": "Cancelled"
+      },
+      {
+        "from": "Waiting",
+        "to": "Assigned"
+      },
+      {
+        "from": "Waiting",
+        "to": "InProgress"
+      },
+      {
+        "from": "Waiting",
+        "to": "Blocked"
+      },
+      {
+        "from": "Waiting",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "Waiting",
+        "to": "Cancelled"
+      },
+      {
+        "from": "Blocked",
+        "to": "Assigned"
+      },
+      {
+        "from": "Blocked",
+        "to": "InProgress"
+      },
+      {
+        "from": "Blocked",
+        "to": "Waiting"
+      },
+      {
+        "from": "Blocked",
+        "to": "ReviewRequired"
+      },
+      {
+        "from": "Blocked",
+        "to": "Cancelled"
+      },
+      {
+        "from": "ReviewRequired",
+        "to": "Assigned"
+      },
+      {
+        "from": "ReviewRequired",
+        "to": "InProgress"
+      },
+      {
+        "from": "ReviewRequired",
+        "to": "Completed"
+      },
+      {
+        "from": "ReviewRequired",
+        "to": "Cancelled"
+      },
+      {
+        "from": "Completed",
+        "to": "Archived"
+      },
+      {
+        "from": "Cancelled",
+        "to": "Archived"
+      },
+      {
+        "from": "Completed",
+        "to": "Open"
+      },
+      {
+        "from": "Cancelled",
+        "to": "Open"
+      }
+    ],
+    "canonical_values": [
+      "Draft",
+      "Open",
+      "Assigned",
+      "InProgress",
+      "Waiting",
+      "Blocked",
+      "ReviewRequired",
+      "Completed",
+      "Cancelled",
+      "Archived",
+      "DeletedReferenceOnly"
+    ]
+  },
+  "fixture_id": "b02-task-canonical-matrix",
+  "fixture_type": "StatusMatrix",
+  "fixture_version": "v0.1.0",
+  "input": {},
+  "synthetic": true,
+  "target_contract_id": "B02-CONTRACT-STATUS-TASK",
+  "target_spec_id": "B02-CSV-TASK-STATUS"
+}

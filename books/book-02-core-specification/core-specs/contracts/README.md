@@ -803,4 +803,12 @@ The Contracts README is accepted only if:
 
 ---
 
+## Status/Workflow Contract and Fixture Layers
+
+The Contract Layer Map includes [Status Contracts](status/index.md), [Workflow Component Contracts](workflows/components/index.md), and the [Status Workflow Fixture Pack](fixtures/status-workflow/index.md).
+
+Status Contracts consume Controlled State Value Specifications. Workflow Component Contracts consume Workflow Component Specifications. Fixtures demonstrate deterministic contract behavior. Validators verify publication consistency. None of these layers owns domain state or performs mutation.
+
+Implementation order is Specification -> Contract -> API/Workflow/Test consumption -> Fixture -> Validator -> future typed implementation. Acceptance requires canonical values and transition matrices to remain parent-owned and owning Services to remain mutation authorities.
+
 **End of Contracts README**

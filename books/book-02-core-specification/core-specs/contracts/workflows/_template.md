@@ -881,4 +881,8 @@ This Workflow Contract is accepted only if:
 
 Workflow Contracts must reference `core-specs/workflows/components/workflow-state-definition.md` and `core-specs/workflows/components/workflow-transition-definition.md`. Contract state and transition structures must conform to component schema. Contracts validate and route only; actual domain mutation remains with owning Services and protected external action is not authorized by the contract.
 
+## Workflow Component Contract Consumption
+
+State Definitions conform to [Workflow State Definition Contract](components/workflow-state-definition-contract.md). Transition Definitions conform to [Workflow Transition Definition Contract](components/workflow-transition-definition-contract.md). Workflow validation does not perform domain mutation; owning Services remain mutation authorities. This reference does not change MVP Depth, does not promote preview-only workflows, does not send Communication Review output, does not submit Trademark Applications, and does not add protected external action.
+
 **End of Workflow Contract Template**

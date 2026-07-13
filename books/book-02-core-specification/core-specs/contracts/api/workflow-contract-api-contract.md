@@ -1228,4 +1228,8 @@ Unknown
 
 Legacy terms are compatibility-only and must not be returned as active workflow transition decisions.
 
+## Workflow Component Contract Consumption
+
+Workflow Contract API definition validation consumes [Workflow State Definition Contract](../workflows/components/workflow-state-definition-contract.md) and [Workflow Transition Definition Contract](../workflows/components/workflow-transition-definition-contract.md). Transition validation uses the full validation request/result shape, always returns `mutation_performed=false`, validates and routes only, defaults protected external action to deny, and does not change endpoint paths.
+
 **End of API Contract**
