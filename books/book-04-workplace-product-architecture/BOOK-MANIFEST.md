@@ -4,15 +4,15 @@
 
 - **Title:** MarkOrbit Workplace and Product Architecture
 - **Canonical path:** `books/book-04-workplace-product-architecture/`
-- **Status:** Chapter Map Owner Accepted
+- **Status:** Pack 01 Drafting in Progress
 - **Positioning:** Defines how an independent professional organization establishes its own operating orbit and consumes MarkOrbit Core, Execution, knowledge, intelligence, capabilities, products and network services through its Workplace.
-- **Current phase:** Book identity, scope, dependency and chapter-map owner acceptance and Pack 01 brief planning.
-- **Current gate:** Controlled drafting of Pack 01 in a separate task and PR.
+- **Current phase:** Controlled drafting of Pack 01.
+- **Current gate:** Editorial review of B04-CH-02 and continuation of Pack 01 drafting.
 
 ## Directory Purpose
 
-- `manuscript/` — contains only the accepted Table of Contents governed by B04-TOC-V0.1.
-- `planning/` — records Book 04 positioning, dependency, decision/open-question and writing-gate planning.
+- `manuscript/` — contains the accepted Table of Contents and active Book 04 manuscript drafts.
+- `planning/` — records Book 04 positioning, dependency, decision/open-question, chapter-brief and writing-pack planning.
 - `reviews/` — records Book 04 review decisions, including B04-REV-0001.
 
 ## File Inventory
@@ -23,6 +23,7 @@
 - `BOOK-GOVERNANCE.md`
 - `publication.yaml`
 - `manuscript/B04-CH-01_Table_of_Contents.md`
+- `manuscript/B04-CH-02_Why_Workplace_Exists.md` — Draft 1; editorial review pending.
 - `planning/B04-PLN-0001_Positioning_and_Scope.md`
 - `planning/B04-PLN-0002_Dependency_Map.md`
 - `planning/B04-PLN-0003_Decision_and_Open_Question_Map.md`
