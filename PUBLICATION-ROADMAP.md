@@ -66,10 +66,25 @@ Phase 8 records that:
 - Book 02 remains the Frozen Core Specification Baseline v0.1 and is not semantically amended by the Architecture Canon.
 - No unrestricted implementation, production deployment or external protected action is authorized.
 
+## Phase 9 — Book 04 Minimal Scaffold
+
+Book 04 — MarkOrbit Workplace and Product Architecture receives a minimal scaffold.
+
+Phase 9 records that:
+
+- the canonical Book 04 directory is created;
+- identity and scope are established;
+- governance is created;
+- the dependency map is created;
+- the provisional TOC is created;
+- manuscript writing has not started;
+- the exact chapter map still awaits owner review;
+- Repository Canonical Alignment Audit remains the next implementation gate;
+- no product implementation or protected action is authorized.
+
 ## Active Future Workstreams
 
 - Architecture Canon maintenance
-- Book 04 minimal scaffold
 - repository Canonical Alignment Audit
 - Lite product-loop validation
 - MarkReg product planning
@@ -94,12 +109,12 @@ The following are reclassified as horizontal architecture/specification or imple
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | `books/book-01-operating-system/` | Existing Draft; publication maturity not reassessed |
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Complete Draft 1 / Owner Accepted |
-| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Planned |
+| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Scaffolded Planning Baseline |
 | Book 05 | MarkReg | `books/book-05-markreg/` | Planned |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
-Publication order does not determine software implementation order. Planned missing Book 04–07 directories may produce manifest warnings but must not produce validation errors.
+Publication order does not determine software implementation order. Planned missing Book 05–07 directories may produce manifest warnings but must not produce validation errors.
 
 ## Future Planning Notes
 

@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-07-13 — Book 04 Minimal Scaffold
+
+- Created the Book 04 minimal scaffold for MarkOrbit Workplace and Product Architecture.
+- Added a provisional six-part chapter map for owner review.
+- Set Book 04 status to `Scaffolded Planning Baseline`.
+- Added no manuscript prose beyond the provisional Table of Contents.
+- Authorized no product implementation or protected action.
+
 ## 2026-07-13
 
 - Recorded owner confirmation of Architecture Canon vNext as an Owner Confirmed Canonical Working Baseline.

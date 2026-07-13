@@ -9,13 +9,13 @@ Book 02 — Core Specification
 ↓
 Book 03 — Execution System
 ↓
-Book 04 — Product System
+Book 04 — Workplace and Product Architecture
 ```
 
 - Book 02 defines canonical contracts and authority.
 - Book 03 defines execution coordination and governance.
 - Integration connects approved Services to external systems.
-- Book 04 defines Product surfaces and user experience.
+- Book 04 owns Workplace and Product Architecture, including how products consume authorized Workplace, Core and Execution foundations.
 
 ## Current Status
 

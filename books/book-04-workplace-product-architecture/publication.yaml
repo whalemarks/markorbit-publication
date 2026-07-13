@@ -1,0 +1,18 @@
+book: "Book 04"
+title: "MarkOrbit Workplace and Product Architecture"
+canonical_path: "books/book-04-workplace-product-architecture/"
+status: "scaffolded_planning_baseline"
+phase: "book identity, scope, dependency and provisional chapter-map planning"
+positioning: "Defines how an independent professional organization establishes its own operating orbit and consumes MarkOrbit Core, Execution, knowledge, intelligence, capabilities, products and network services through its Workplace."
+manuscript_status: "not_started"
+provisional_toc: true
+architecture_direction_owner_confirmed: true
+next_publication_gate: "owner review of provisional chapter map and chapter briefs"
+next_implementation_gate: "repository canonical alignment audit"
+ready_for_final_publication: false
+ready_for_unrestricted_implementation: false
+external_protected_action_authorized: false
+book_02_baseline:
+  id: "B02-BASELINE-V0.1"
+  version: "0.1.0"
+  semantic_change_mode: "explicit_change_proposal_only"
