@@ -1,21 +1,21 @@
 # B04-CH-06 — Workplace Boundaries and Non-Goals
 
-**Status:** Draft 1  
+**Status:** Draft 2 — Pack 01 Editorial Repair  
 **Chapter Map:** B04-TOC-V0.1  
 **Writing Pack:** B04-PACK-01 — Front Matter and Part I
 
 ## Chapter Purpose
 
-This chapter closes Part I by defining what **Workplace** owns, what it consumes, what it coordinates with, and what it must never absorb.
+This chapter closes Part I by defining what **Workplace** is responsible for, what it consumes, what it coordinates with, and what it must never absorb.
 
-The previous chapters established:
+The earlier chapters established:
 
 - why Workplace exists;
 - why each Workplace is an independent organizational Orbit;
-- where Workplace sits between Core, Execution, Products, and Network;
+- how Workplace is positioned between Core, Execution, Products, MGSN, Owning Services, human professionals, and AI Agents;
 - which principles every Workplace must preserve.
 
-This chapter turns those ideas into explicit boundaries.
+This chapter converts those ideas into explicit boundaries.
 
 The core rule is:
 
@@ -31,41 +31,14 @@ or every formal business fact.
 
 Workplace is broad because organizations are broad.
 
+A professional organization needs one coherent operating environment for identity, people, roles, clients, private knowledge, business rules, pricing, preferences, Product access, review visibility, partner relationships, and organizational memory.
+
 But broad scope does not justify unlimited authority.
 
-A professional organization needs one coherent operating environment for:
-
-- identity;
-- people;
-- roles;
-- clients;
-- relationships;
-- private knowledge;
-- business rules;
-- pricing;
-- preferences;
-- Product access;
-- work visibility;
-- review visibility;
-- partner relationships;
-- organizational memory.
-
-That does not mean Workplace should redefine:
-
-- Core semantics;
-- Task lifecycle;
-- Workflow governance;
-- Event ownership;
-- Product behavior;
-- MGSN routing authority;
-- AI Agent runtime;
-- Local Vault implementation;
-- formal mutation ownership.
-
-The central proposition of this chapter is:
+The central proposition is:
 
 ```text
-Workplace owns organizational context.
+Workplace is responsible for organizational context.
 
 Workplace consumes shared semantics and capabilities.
 
@@ -80,26 +53,26 @@ Workplace does not replace the authorities around it.
 
 ---
 
-## 1. Why Boundaries Matter
+## 1. Boundaries Prevent Responsibility Drift
 
 A system rarely becomes over-centralized through one explicit decision.
 
 It usually happens through convenience.
 
-A team says:
+A team may say:
 
-- “The Workplace already has the user, so let it define permissions.”
-- “The Workplace already shows Tasks, so let it own Task states.”
-- “The Workplace already stores client files, so let it become the universal data layer.”
-- “The Workplace already presents AI recommendations, so let it approve them.”
-- “The Workplace already connects providers, so let it appoint them.”
-- “The Workplace already contains multiple Products, so let it become one mega-Product.”
+- the Workplace already has the user, so let it define permissions;
+- the Workplace already displays Tasks, so let it own Task states;
+- the Workplace already stores client files, so let it become the universal data layer;
+- the Workplace already presents AI recommendations, so let it approve them;
+- the Workplace already connects providers, so let it appoint them;
+- the Workplace already hosts several Products, so let it become one mega-Product.
 
 Each step appears practical.
 
-Together, they destroy the architectural separation that makes MarkOrbit scalable and governable.
+Together, they destroy the architectural separation that makes MarkOrbit governable and extensible.
 
-Boundaries exist to prevent:
+Boundaries prevent:
 
 - authority drift;
 - semantic duplication;
@@ -113,15 +86,21 @@ Boundaries exist to prevent:
 
 A boundary is not a refusal to integrate.
 
-It is a rule about **how integration occurs without ownership collapse**.
+It defines how integration occurs without collapsing responsibility or ownership.
+
+Three tests should remain visible throughout this chapter:
+
+```text
+Visibility does not equal ownership.
+
+Invocation does not equal definition.
+
+Context does not equal mutation authority.
+```
 
 ---
 
 ## 2. Workplace and Core
-
-### Relationship
-
-Workplace consumes Core semantics.
 
 Core provides the stable shared professional model.
 
@@ -137,8 +116,6 @@ Workplace
 → authorized organizational context
 ```
 
-### Workplace may consume
-
 Workplace may consume:
 
 - Core Objects;
@@ -151,15 +128,12 @@ Workplace may consume:
 - common validation rules;
 - shared identity concepts.
 
-### Workplace may contribute context
-
-Workplace may supply:
+Workplace may contribute:
 
 - organization identity;
-- user identity;
-- role context;
+- user and role context;
 - client context;
-- organization rules;
+- organization-specific rules;
 - pricing;
 - preferences;
 - reviewer assignment;
@@ -167,42 +141,27 @@ Workplace may supply:
 - Product access;
 - partner relationships.
 
-### Workplace must not own
-
-Workplace must not:
+But Workplace must not:
 
 - create competing definitions of Core Objects;
 - redefine canonical statuses;
-- redefine Service ownership;
-- create alternate Task semantics;
-- create alternate Event semantics;
+- redefine Service authority;
+- create alternate Task or Event semantics;
 - change formal mutation authority;
-- promote organization rules into universal Core rules without change control;
-- silently modify Book 02 semantics.
+- promote one organization’s preference into a universal Core rule without governed change control;
+- silently modify the frozen Book 02 baseline.
 
-### Boundary test
-
-Ask:
+The boundary test is straightforward:
 
 ```text
-Is this concept intended to mean the same thing
-across Products and organizations?
+If a concept must mean the same thing
+across Products and organizations,
+it belongs in Core or requires Core-level governance.
+
+If a rule is specific to one organization,
+client, Product, or operating preference,
+it belongs in organizational or Product context.
 ```
-
-If yes, it may belong in Core or require a Core-level change process.
-
-Ask:
-
-```text
-Is this rule specific to one organization,
-one client,
-one Product,
-or one operating preference?
-```
-
-If yes, it likely belongs in Workplace context or Product behavior, not Core.
-
-### Non-goal
 
 Workplace is not a second Core.
 
@@ -210,9 +169,7 @@ Workplace is not a second Core.
 
 ## 3. Workplace and Execution
 
-### Relationship
-
-Workplace supplies context.
+Workplace supplies authorized context.
 
 Execution governs coordinated work.
 
@@ -225,8 +182,6 @@ Workplace
 Execution
 → how work proceeds, pauses, reviews, fails, and completes
 ```
-
-### Workplace may expose
 
 Workplace may expose:
 
@@ -241,27 +196,23 @@ Workplace may expose:
 - failure notices;
 - audit summaries.
 
-### Workplace may initiate
+It may also initiate or hand off:
 
-Workplace may initiate or hand off:
-
-- user-confirmed intent;
+- confirmed user intent;
 - prepared requests;
 - Product-originated actions;
 - review requests;
 - Workflow entry;
-- provider-routing preparation;
+- collaboration preparation;
 - Artifact preparation.
 
-### Execution must continue to own
-
-Execution must continue to own:
+But Execution remains authoritative for:
 
 - Workflow progression;
 - Task lifecycle;
 - Human Review gates;
 - approval sequencing;
-- communication boundaries;
+- Communication boundaries;
 - protected-action controls;
 - retry;
 - safe failure;
@@ -270,46 +221,21 @@ Execution must continue to own:
 - replay;
 - escalation.
 
-### Workplace must not
+Workplace must not invent its own Task statuses, bypass Human Review, perform protected action directly, treat interface completion as execution completion, or redefine Event ownership.
 
-Workplace must not:
-
-- invent its own Task statuses;
-- bypass Human Review;
-- directly perform protected action;
-- treat UI completion as execution completion;
-- treat user confirmation as formal mutation;
-- allow a Product surface to replace Execution governance;
-- redefine communication send rules;
-- redefine Event ownership.
-
-### Boundary test
-
-Ask:
+The distinction is:
 
 ```text
-Is this about organizational visibility and context?
+Workplace makes governed work visible and contextual.
+
+Execution makes governed work proceed.
 ```
-
-That belongs in Workplace.
-
-Ask:
-
-```text
-Is this about governed progression and operational state?
-```
-
-That belongs in Execution.
-
-### Non-goal
 
 Workplace is not a Workflow engine.
 
 ---
 
 ## 4. Workplace and Products
-
-### Relationship
 
 Workplace is the organizational environment.
 
@@ -323,9 +249,7 @@ Workplace preserves the organization.
 Product serves the journey.
 ```
 
-### Products may use Workplace context
-
-Products may consume:
+Products may consume authorized Workplace context, including:
 
 - organization identity;
 - users and roles;
@@ -338,19 +262,9 @@ Products may consume:
 - review rules;
 - Product entitlements.
 
-### Workplace may host or connect
+Workplace may host or connect Lite, MarkReg, MGSN interfaces, organization-specific applications, and future Products.
 
-Workplace may host or connect:
-
-- Lite;
-- MarkReg;
-- MGSN interfaces;
-- organization-specific applications;
-- future Products.
-
-### Products remain independent
-
-Products may differ in:
+Those Products may differ in:
 
 - navigation;
 - interaction model;
@@ -362,18 +276,16 @@ Products may differ in:
 - recommendation model;
 - embedded or standalone operation.
 
-### Workplace must not become
+That independence is desirable.
+
+What must remain stable is organizational continuity.
 
 Workplace must not become:
 
-- a universal feature catalog;
 - one mandatory monolithic interface;
-- a substitute for Product design;
-- a Product backlog for every domain;
-- a reason to merge all Product repositories;
-- a mega-application that must ship before Product loops are validated.
-
-### Products must not become
+- a universal Product backlog;
+- a reason to merge all Product responsibilities;
+- a mega-application that must be completed before Product loops are validated.
 
 Products must not become:
 
@@ -381,55 +293,40 @@ Products must not become:
 - owners of client relationships;
 - owners of shared Task semantics;
 - owners of private organizational truth;
-- owners of cross-Product authority;
 - substitutes for Workplace.
 
-### Boundary test
-
-Ask:
+The boundary test is:
 
 ```text
-Does this responsibility preserve organizational continuity
-across multiple Products?
+If the responsibility preserves organizational continuity
+across several Products,
+it belongs in Workplace.
+
+If it shapes one focused user journey,
+it belongs in a Product.
 ```
 
-That belongs in Workplace.
-
-Ask:
-
-```text
-Does this responsibility shape a specific user journey?
-```
-
-That belongs in a Product.
-
-### Non-goal
-
-Workplace is not the only Product.
+Workplace is not the only Product, and no Product is the whole Workplace.
 
 ---
 
 ## 5. Workplace and MGSN
 
-### Relationship
+Workplace is the network participation node.
 
-Workplace is the network node.
-
-MGSN connects nodes.
+MGSN enables and governs cross-Workplace discovery, routing, and collaboration interfaces.
 
 The relationship is:
 
 ```text
 Organization / Workplace / Orbit
-→ participates in MGSN
+→ participates through MGSN
 ```
-
-### Workplace may provide to MGSN
 
 Under authorization, Workplace may provide:
 
 - organization identity;
-- public or shared capability profile;
+- public or shared Capability profile;
 - jurisdiction coverage;
 - selected provider evidence;
 - availability;
@@ -438,33 +335,25 @@ Under authorization, Workplace may provide:
 - outcome feedback;
 - trust evidence.
 
-### MGSN may provide to Workplace
-
 MGSN may provide:
 
 - provider candidates;
-- capability discovery;
+- Capability discovery;
 - trust-supported recommendations;
 - jurisdiction coverage;
 - routing explanations;
 - collaboration options;
-- network evidence;
-- partner expansion paths.
-
-### Workplace retains authority over
+- partner-expansion paths.
 
 Workplace retains authority over:
 
 - whether to participate;
 - which profile data is shared;
-- which providers are visible;
+- which relationships remain private;
 - whether a candidate is accepted;
-- which partner is selected;
-- which relationship remains private;
-- which outcome evidence is contributed;
-- whether public discovery is used.
-
-### MGSN must not become
+- which provider is selected;
+- whether public discovery is used;
+- which outcome evidence is contributed.
 
 MGSN must not become:
 
@@ -473,222 +362,30 @@ MGSN must not become:
 - a forced-allocation engine;
 - an automatic provider-appointment authority;
 - the universal owner of trust;
-- the owner of organizational pricing;
+- the owner of organization pricing;
 - the owner of private partner relationships.
 
-### Boundary test
-
-Ask:
+The distinction is:
 
 ```text
-Is this about the organization’s own relationship,
-selection, or network policy?
+MGSN enables connection.
+
+Participating Workplaces retain relationship and selection authority.
 ```
 
-That belongs in Workplace.
-
-Ask:
-
-```text
-Is this about cross-organization discovery,
-routing, and collaboration support?
-```
-
-That belongs in MGSN.
-
-### Non-goal
-
-Workplace is not the network itself.
+Workplace is not the network itself, and MGSN does not own the relationship merely because it supports the connection.
 
 ---
 
-## 6. Workplace and Local Vault
+## 6. Workplace and Private, Local, and Shared Context
 
-### Relationship
+Workplace carries organization-private context while consuming shared knowledge and capabilities.
 
-Local Vault is a logical local/private data boundary.
+These responsibilities must remain distinct.
 
-Workplace is the organizational environment that may use it.
+### Private knowledge and organizational memory
 
-The relationship is:
-
-```text
-Workplace
-→ defines authorized organizational use
-
-Local Vault
-→ provides local/private storage and control boundary
-```
-
-### Workplace may decide
-
-Workplace may govern:
-
-- which data should remain local;
-- which Product may access local data;
-- which user may unlock private context;
-- which records may synchronize;
-- which AI capability may use local context;
-- which retention rule applies;
-- which audit record is required.
-
-### Local Vault may provide
-
-Local Vault may provide:
-
-- local storage;
-- private indexing;
-- controlled retrieval;
-- local encryption;
-- local model context;
-- selective synchronization;
-- offline continuity;
-- local audit support.
-
-### Workplace must not define implementation
-
-Workplace must not define:
-
-- exact storage engine;
-- encryption algorithm;
-- synchronization protocol;
-- file-system layout;
-- local database schema;
-- backup implementation;
-- device-management implementation;
-- network transport.
-
-Those belong to a future Local Vault architecture specification and implementation decisions.
-
-### Boundary test
-
-Ask:
-
-```text
-Is this about why the organization needs local/private control?
-```
-
-That belongs in Workplace architecture.
-
-Ask:
-
-```text
-Is this about how local/private storage technically works?
-```
-
-That belongs in Local Vault specifications.
-
-### Non-goal
-
-Workplace is not a storage engine.
-
----
-
-## 7. Workplace and AI Agent Runtime
-
-### Relationship
-
-Workplace supplies authorized context.
-
-AI Agent Runtime governs Agent identity, permissions, role, tools, and execution limits.
-
-The relationship is:
-
-```text
-Workplace
-→ provides organization, user, client, Product, and purpose context
-
-AI Agent Runtime
-→ governs how an Agent operates within that context
-```
-
-### Workplace may provide
-
-Workplace may provide:
-
-- active organization;
-- active user;
-- user role;
-- client context;
-- private knowledge;
-- Product context;
-- purpose;
-- approved tools;
-- policy references;
-- review requirements.
-
-### AI Agent Runtime must govern
-
-AI Agent Runtime must govern:
-
-- Agent identity;
-- Agent Profile;
-- permission;
-- capability;
-- tool access;
-- context scope;
-- execution time;
-- output type;
-- audit;
-- termination;
-- handoff;
-- prohibited actions.
-
-### Workplace must not assume
-
-Workplace must not assume:
-
-- that any AI Agent may use all organizational context;
-- that Product access equals Agent permission;
-- that model capability equals professional authority;
-- that an AI draft is approved;
-- that an Agent may mutate formal state;
-- that an Agent may send, file, pay, appoint, or instruct.
-
-### Boundary test
-
-Ask:
-
-```text
-Which organization context may the Agent use?
-```
-
-That belongs in Workplace.
-
-Ask:
-
-```text
-How is the Agent governed as a runtime role?
-```
-
-That belongs in Agent governance and runtime specifications.
-
-### Non-goal
-
-Workplace is not an Agent framework.
-
----
-
-## 8. Workplace and Shared Knowledge
-
-### Relationship
-
-Workplace holds private knowledge and organizational memory.
-
-The shared Brain provides governed shared knowledge and context.
-
-The relationship is:
-
-```text
-Private organization knowledge
-+
-shared validated knowledge
-→ authorized context assembly
-```
-
-### Workplace may own
-
-Workplace may own:
+Workplace may preserve:
 
 - private templates;
 - client instructions;
@@ -698,588 +395,376 @@ Workplace may own:
 - local procedures;
 - internal risk interpretations;
 - organization-specific lessons;
-- unpublished strategies.
+- unpublished strategy;
+- historical outcomes.
 
-### Shared knowledge may provide
+Some information may later be shared through explicit governance.
 
-Shared knowledge may provide:
+It does not become shared merely because it exists inside MarkOrbit.
 
-- validated jurisdiction information;
-- approved professional rules;
-- shared terminology;
-- common guidance;
-- cross-organization knowledge;
-- reference materials;
-- reusable patterns.
-
-### Workplace must preserve the distinction
-
-Workplace must preserve:
+The architecture must preserve:
 
 ```text
 private knowledge
 ≠
 shared knowledge
 
-knowledge candidate
-≠
-canonical knowledge
-
 organization preference
 ≠
 universal rule
+
+knowledge candidate
+≠
+canonical knowledge
 ```
 
-### Workplace must not
+### Local Vault
 
-Workplace must not:
+Local Vault provides a logical local or private technical boundary that Workplace may use.
 
-- promote private knowledge into shared knowledge automatically;
-- treat Distillery output as approved;
-- lose source and provenance;
-- merge client-specific instructions into general guidance;
-- allow one Product to own organization memory;
-- hide which knowledge was used.
+Workplace may define policy for:
 
-### Boundary test
+- which data remains local;
+- which Products may access it;
+- which users may unlock it;
+- which records may synchronize;
+- which AI capabilities may use local context;
+- which retention rules apply.
 
-Ask:
+But Workplace architecture does not define the exact storage engine, encryption algorithm, synchronization protocol, file layout, local database schema, or backup mechanism.
 
-```text
-Is this knowledge specific to the organization or client?
-```
+Those belong to future Local Vault specifications and implementation decisions.
 
-That belongs in Workplace-private context.
+### Shared knowledge and capabilities
 
-Ask:
+Workplace may consume shared knowledge, intelligence, Capabilities, Skills, Agent Profiles, Workflows, Artifact services, and Delivery capabilities.
 
-```text
-Is this knowledge intended to be shared and governed broadly?
-```
+It may decide:
 
-That belongs in the Brain or shared knowledge governance.
-
-### Non-goal
-
-Workplace is not the universal knowledge authority.
-
----
-
-## 9. Workplace and Shared Capabilities
-
-### Relationship
-
-Workplace consumes capabilities.
-
-It does not define every capability.
-
-The relationship is:
-
-```text
-Capability Catalog
-→ defines what can be done
-
-Skill Registry
-→ defines governed implementations
-
-Workplace
-→ selects and authorizes use in organization context
-```
-
-### Workplace may decide
-
-Workplace may decide:
-
-- which capability is enabled;
+- which Capability is enabled;
 - which Skill is preferred;
 - which users may invoke it;
 - which clients permit its use;
 - which review level applies;
-- which context may be supplied;
-- which result remains a candidate;
-- which Product may expose it.
+- which Product may expose it;
+- which result remains a candidate.
 
-### Workplace must not
+But Workplace does not redefine shared Capability or Skill semantics.
 
-Workplace must not:
-
-- redefine Capability globally;
-- create ungoverned Skill semantics;
-- treat enabled Skill as permission for every user;
-- treat capability availability as authority;
-- convert capability evidence into a final rating automatically;
-- create Product-specific duplicates of shared Capability definitions without justification.
-
-### Boundary test
-
-Ask:
+The overall rule is:
 
 ```text
-What can the system do?
+Workplace governs authorized organizational use.
+
+Shared systems define and provide reusable functions.
+
+Local Vault provides the local/private technical boundary.
 ```
 
-That belongs in Capability.
-
-Ask:
-
-```text
-Which implementation performs it?
-```
-
-That belongs in Skill.
-
-Ask:
-
-```text
-May this organization use it here and now?
-```
-
-That belongs in Workplace authorization.
-
-### Non-goal
-
-Workplace is not the Capability Catalog.
+Workplace is neither the universal knowledge authority nor the universal storage engine.
 
 ---
 
-## 10. Workplace and Artifact
+## 7. Workplace and AI Agent Runtime
 
-### Relationship
+Workplace supplies authorized organization, user, client, Product, and purpose context.
 
-Workplace supplies organization context for Artifact creation, review, storage, and delivery.
-
-Artifact is a cross-Product business outcome concept.
+AI Agent Runtime governs how an Agent operates within that context.
 
 The relationship is:
 
 ```text
-Content
-→ Artifact
-→ Human Review
-→ Render
-→ Optional Edit
-→ Delivery or Publish
-→ Outcome feedback
+Workplace
+→ supplies authorized context
+
+AI Agent Runtime
+→ governs Agent identity, permission, tools, limits, and trace
 ```
 
-### Workplace may provide
+Workplace may provide:
+
+- active organization;
+- active user;
+- role;
+- client context;
+- private knowledge;
+- Product context;
+- purpose;
+- approved tools;
+- policy references;
+- review requirements.
+
+Agent governance must determine:
+
+- Agent identity;
+- Agent Profile;
+- permission;
+- Capability;
+- tool access;
+- context scope;
+- output type;
+- audit;
+- termination;
+- handoff;
+- prohibited actions.
+
+Workplace must not assume:
+
+- that any AI Agent may use all organizational context;
+- that Product access equals Agent permission;
+- that model capability equals professional authority;
+- that an AI draft is approved;
+- that an Agent may mutate formal state;
+- that an Agent may send, file, pay, appoint, or instruct autonomously.
+
+The boundary is:
+
+```text
+Workplace determines which context may be supplied.
+
+Agent governance determines how the Agent may operate.
+
+Human Review and Owning Services preserve authority.
+```
+
+Workplace is not an Agent framework.
+
+---
+
+## 8. Workplace and Artifacts, Delivery, and Formal State
+
+Workplace supplies organization context for Artifact creation, review, access, and delivery.
+
+It does not collapse the Artifact lifecycle or become the universal system of record.
 
 Workplace may provide:
 
 - organization brand;
 - client context;
 - approved templates;
-- reviewer;
-- delivery preference;
+- reviewer assignment;
+- delivery preferences;
 - private assets;
 - access control;
 - version visibility;
-- retention rules.
+- retention policy.
 
-### Artifact lifecycle must remain distinct
-
-Workplace must preserve:
+The architecture must preserve:
 
 ```text
 Content ≠ Artifact
+
 Artifact ≠ Document
+
 Render ≠ Edit
+
 Delivery ≠ Publish
+
 Draft ≠ approved output
 ```
 
-### Workplace must not
+A Product may generate Content.
 
-Workplace must not:
+A shared service may render an Artifact.
 
-- treat every file as an approved Artifact;
-- treat rendering as approval;
-- treat delivery as publication;
-- treat Product-generated content as final;
-- hide Artifact provenance;
-- overwrite prior versions;
-- allow AI-generated Artifact output to bypass Human Review.
+A human professional may review it.
 
-### Boundary test
+Delivery may send it to a defined recipient.
 
-Ask:
+Publish may make it available to a broader audience.
 
-```text
-Which organization context, asset, reviewer, and delivery rule apply?
-```
+These are related steps, not interchangeable states.
 
-That belongs in Workplace.
+The same discipline applies to formal business facts.
 
-Ask:
+Workplace may display Matters, Tasks, Orders, Communications, Documents, payments, provider engagements, filing status, official outcomes, and Opportunities.
+
+It may prepare intent, draft changes, review requests, recommendations, candidate records, and context packages.
+
+But the proper Owning Service remains authoritative for formal mutation.
 
 ```text
-What is the Artifact lifecycle and cross-Product model?
+Visible or prepared in Workplace
+≠
+formally owned by Workplace
 ```
 
-That belongs in Artifact architecture.
-
-### Non-goal
-
-Workplace is not a generic file manager.
+Workplace is not a generic file manager and not the universal system of record.
 
 ---
 
-## 11. Workplace and Formal Business State
+## 9. What Workplace Is Responsible For
 
-### Relationship
-
-Workplace may display formal state.
-
-It does not automatically own formal state.
-
-Formal business facts remain under the proper Owning Service.
-
-### Workplace may display
-
-Workplace may display:
-
-- Matters;
-- Tasks;
-- Orders;
-- Communications;
-- Documents;
-- payments;
-- provider engagements;
-- filing status;
-- official outcomes;
-- Opportunities.
-
-### Workplace may prepare
-
-Workplace may prepare:
-
-- user intent;
-- draft changes;
-- review requests;
-- recommendations;
-- candidate records;
-- context packages;
-- Product handoffs.
-
-### Owning Services must mutate
-
-Owning Services must mutate:
-
-- formal status;
-- official record;
-- approved Communication send;
-- payment state;
-- provider instruction;
-- formal Opportunity;
-- official filing record;
-- governed Task or Matter state.
-
-### Boundary test
-
-Ask:
-
-```text
-Is this merely visible or prepared in Workplace?
-```
-
-That does not imply ownership.
-
-Ask:
-
-```text
-Which service is authoritative for the formal fact?
-```
-
-That identifies the Owning Service.
-
-### Non-goal
-
-Workplace is not the universal system of record.
-
----
-
-## 12. Workplace and Organizational Memory
-
-### Relationship
-
-Workplace preserves the continuity of the organization.
-
-Organizational memory spans:
-
-- people;
-- clients;
-- matters;
-- Products;
-- outcomes;
-- knowledge;
-- reviews;
-- partners;
-- Artifacts;
-- decisions.
-
-### Workplace should preserve
-
-Workplace should preserve:
-
-- historical context;
-- prior decisions;
-- client preferences;
-- trusted providers;
-- quality lessons;
-- review patterns;
-- outcome history;
-- Product continuity;
-- AI-assisted work trace;
-- changes in policy.
-
-### Workplace must not confuse
-
-Organizational memory must not be confused with:
-
-- raw logs;
-- one Product database;
-- one person’s notes;
-- unvalidated AI summaries;
-- shared public knowledge;
-- permanent retention of all data.
-
-Memory requires:
-
-- scope;
-- provenance;
-- authority;
-- retention;
-- privacy;
-- versioning;
-- review.
-
-### Non-goal
-
-Workplace is not an unlimited archive.
-
----
-
-## 13. Workplace and a Centralized SaaS Tenant
-
-### Relationship
-
-A SaaS tenant may be an implementation mechanism.
-
-Workplace is an architectural concept.
-
-The relationship is:
-
-```text
-Tenant
-→ possible technical partition
-
-Workplace
-→ organizational operating and authority boundary
-```
-
-### A tenant may provide
-
-A tenant may provide:
-
-- data partitioning;
-- user isolation;
-- configuration;
-- billing boundary;
-- access boundary.
-
-### Workplace additionally requires
-
-Workplace additionally requires:
-
-- professional identity;
-- client ownership;
-- relationship continuity;
-- private knowledge;
-- rules;
-- pricing;
-- Product composition;
-- partner trust;
-- professional accountability;
-- organizational memory;
-- network participation.
-
-### Workplace must not be reduced to tenancy
-
-Reducing Workplace to tenancy would ignore:
-
-- autonomy;
-- professional responsibility;
-- organizational capital;
-- Product continuity;
-- private knowledge;
-- trust relationships.
-
-### Non-goal
-
-Workplace is not “multi-tenancy plus more settings.”
-
----
-
-## 14. Workplace and the Organization Itself
-
-Workplace represents the organization’s operating environment.
-
-It is not the legal organization itself.
-
-The organization may exist through:
-
-- legal entities;
-- departments;
-- teams;
-- brands;
-- professional practices;
-- business units;
-- external collaborators.
-
-Workplace is the digital and operational boundary through which these realities are represented and governed.
-
-It must not claim that software representation replaces:
-
-- legal identity;
-- professional qualification;
-- contractual authority;
-- regulatory responsibility;
-- employment authority;
-- client engagement terms.
-
-The organization remains the real professional and commercial actor.
-
-Workplace is its operating environment.
-
----
-
-## 15. What Workplace Owns
-
-Workplace may own or govern the organization-level representation of:
+At the architectural level, Workplace is responsible for the organization-level representation and governance of:
 
 - organization identity;
 - organization profile;
-- users;
-- roles;
+- users and roles;
 - Product access;
 - client context;
 - relationship context;
 - private knowledge;
 - business rules;
-- pricing preferences;
+- pricing and preferences;
 - service catalog;
 - partner preferences;
 - AI context policy;
-- work visibility;
-- review visibility;
+- work and review visibility;
 - network participation preferences;
 - organizational memory;
-- local/private data policy.
+- local and private data policy.
 
-Ownership here means architectural responsibility for organization context.
+This does not imply one database, one service, or one repository.
 
-It does not automatically mean one database, one service, or one repository.
-
----
-
-## 16. What Workplace Consumes
+Logical responsibility and implementation topology are separate decisions.
 
 Workplace consumes:
 
 - Core semantics;
-- Core contracts;
 - governed Execution;
-- shared knowledge;
-- intelligence;
+- shared knowledge and intelligence;
 - Capability definitions;
 - Skills;
 - Agent Profiles;
 - Workflow definitions;
-- Artifact services;
-- Render and Edit capabilities;
-- Delivery and Publish capabilities;
+- Artifact, Render, Edit, Delivery, and Publish capabilities;
 - MGSN interfaces;
 - Product-specific functions;
 - Local Vault functions.
 
-Consumption does not imply ownership.
+It coordinates with Products, Execution, Owning Services, AI Agent Runtime, shared knowledge systems, MGSN, Local Vault, and external organization systems.
+
+Consumption and coordination do not imply ownership.
 
 ---
 
-## 17. What Workplace Coordinates With
+## 10. Boundary Matrix
 
-Workplace coordinates with:
+| Concept | Workplace responsibility | External authority or responsibility | Boundary rule |
+|---|---|---|---|
+| Organization identity and context | Primary organizational responsibility | Organization itself remains the real legal and professional actor | Workplace represents; it does not replace legal identity |
+| Users and roles | Organization-level representation and assignment | Core permission and policy boundaries remain authoritative | Role context must not redefine shared permission semantics |
+| Clients and relationships | Preserves organization-controlled context and continuity | Relevant Owning Services may hold formal records | Platform use does not transfer relationship ownership |
+| Private knowledge | Preserves organization and client-private context | Shared knowledge governance controls promotion to shared states | Private does not become shared automatically |
+| Core semantics | Consumes and applies | Core is authoritative | Workplace must not redefine shared meaning |
+| Workflow and Task progression | Exposes and contextualizes | Execution is authoritative | Visibility does not equal lifecycle ownership |
+| Product UX | Hosts or connects | Product is responsible for its journey | Workplace must not become a universal Product |
+| Capability definition | Authorizes organizational use | Capability Catalog is authoritative | Enabled does not mean universally permitted |
+| Skill implementation | Selects or prefers under policy | Skill Registry governs implementation identity and version | Workplace does not redefine Skill semantics |
+| AI Agent operation | Supplies authorized context | Agent governance controls runtime identity, tools, and limits | Context does not equal Agent authority |
+| Formal business state | Displays and prepares context | Proper Owning Service is authoritative | Workplace does not mutate protected state by convenience |
+| Artifact lifecycle | Supplies organization context, assets, reviewer, and visibility | Artifact architecture and relevant Owning Services govern formal states | Artifact must not collapse into file or Document |
+| Delivery and Publish | Supplies policy and recipient context | Delivery/Publish authorities govern execution and state | Delivery and Publish remain distinct |
+| Local/private technical control | Defines organization policy | Local Vault provides technical boundary | Workplace policy does not define storage implementation |
+| Network participation | Defines organization preferences and selection | MGSN enables and governs connection interfaces | Workplaces retain relationship and selection authority |
+| Professional judgment | Supports evidence and review | Human professionals remain accountable | Software capability does not become professional authority |
 
-- Products;
-- Execution;
-- Owning Services;
-- AI Agent Runtime;
-- shared knowledge systems;
-- capability systems;
-- Artifact and Delivery systems;
-- MGSN;
-- Local Vault;
-- external organizational systems;
-- local operating tools.
+This matrix is an authority map.
 
-Coordination should occur through explicit contracts, context, permission, and handoff.
-
----
-
-## 18. What Workplace Must Never Absorb
-
-Workplace must never absorb:
-
-- all Core semantics;
-- all Workflow logic;
-- all Product behavior;
-- all network authority;
-- all shared knowledge;
-- all Agent governance;
-- all formal state;
-- all data storage;
-- all implementation architecture;
-- all protected-action authority.
-
-The architectural shell must remain a shell.
-
-Its job is coherence, not total ownership.
+It is not a service or repository map.
 
 ---
 
-## 19. Boundary Matrix
+## 11. Explicit Non-Goals
 
-| Concept | Owned by Workplace? | Consumed by Workplace? | Authority owner | Book 04 treatment |
-|---|---:|---:|---|---|
-| Organization identity and context | Yes | Yes | Workplace / organization | Defined as core Workplace responsibility |
-| Users and roles | Organization-level representation | Yes | Workplace with Core permission boundaries | Architectural treatment only |
-| Clients and relationships | Organization context | Yes | Workplace / relevant Owning Services | Relationship boundary defined |
-| Private knowledge | Yes, under organization control | Yes | Workplace / organization | Private-context boundary defined |
-| Shared Core semantics | No | Yes | Core | Must not be redefined |
-| Workflow progression | No | Visible and invoked | Execution | Must not be reimplemented in Workplace |
-| Task lifecycle | No | Visible and contextualized | Execution / Owning Service | Must not drift by Product |
-| Product UX | No | Hosted or connected | Product | Product-specific |
-| Product identity | No | Yes | Product | Workplace must not absorb Product scope |
-| Capability definition | No | Yes | Capability Catalog | Workplace authorizes use |
-| Skill implementation | No | Yes | Skill Registry | Workplace may select or prefer |
-| AI Agent runtime | No | Yes | Agent governance/runtime | Workplace supplies context only |
-| Formal business state | No, unless Workplace is the designated Owning Service for a specific domain | Yes | Proper Owning Service | Mutation authority must remain explicit |
-| Artifact model | No | Yes | Artifact architecture / relevant Owning Service | Cross-Product concept |
-| Render/Edit | No | Yes | Shared capability or Product implementation | Not Workplace-owned by default |
-| Delivery/Publish | No | Yes | Delivery/Publish authority | Must remain distinct |
-| Local Vault implementation | No | Yes | Local Vault specification/implementation | Workplace defines policy, not mechanism |
-| Network routing | No | Yes | MGSN | Workplace retains selection authority |
-| Provider appointment | No | Prepared and confirmed | Human authority + Owning Service | No automatic appointment |
-| Trust evidence | Partly organization-specific | Yes | Workplace and MGSN governance | Contextual, not universal |
-| Professional judgment | No software ownership | Supported | Human Professional | Human accountability preserved |
+Workplace is not:
+
+```text
+a replacement for Core
+
+a replacement for Execution
+
+a universal Product
+
+a case-management system
+
+a tenant account
+
+a central marketplace
+
+an AI Agent framework
+
+a universal database
+
+a file manager
+
+a shared knowledge authority
+
+a Workflow engine
+
+an implementation repository
+
+a deployment model
+
+a production-readiness declaration
+```
+
+Workplace must not:
+
+- redefine Core Objects, Services, statuses, or ownership;
+- redefine Task, Workflow, Review, or Event semantics;
+- bypass Human Review;
+- authorize autonomous AI professional action;
+- perform external Communication send by default;
+- authorize filing, submission, payment, provider instruction, or official recordal;
+- treat candidates as approved;
+- convert recommendations directly into formal Tasks or Opportunities;
+- treat Artifact as identical to Document;
+- treat MGSN as open bidding or forced allocation;
+- treat the organization as a platform-owned account;
+- require one universal Product experience;
+- require cloud centralization;
+- require destructive migration;
+- treat visibility as ownership;
+- treat invocation as definition;
+- treat context as mutation authority.
+
+These are constitutional non-goals.
+
+They do not prohibit future implementation.
+
+They constrain how future implementation must preserve authority and organizational autonomy.
 
 ---
 
-## 20. Book 04 Boundaries
+## 12. Minimum Boundary Lock
 
-Book 04 itself also has boundaries.
+Every conforming Workplace must preserve the following lock:
 
-It defines:
+```text
+Workplace is responsible for authorized organizational context.
+
+Core is authoritative for shared semantics.
+
+Execution is authoritative for governed coordination.
+
+Products are responsible for user journeys and domain composition.
+
+MGSN enables and governs cross-Workplace discovery,
+routing, and collaboration interfaces;
+participating Workplaces retain relationship and selection authority.
+
+Owning Services are authoritative for formal business-state mutation.
+
+Human professionals remain accountable for professional judgment.
+
+AI Agents assist under identity, permission, context, and governance.
+
+Local Vault provides the local/private technical boundary
+under authorized Workplace policy.
+
+Artifact architecture defines the cross-Product outcome model.
+```
+
+This lock may be implemented in different technical forms.
+
+Its authority model must not change.
+
+---
+
+## 13. Book 04 and Chapter Boundary
+
+Book 04 defines:
 
 - Workplace as an independent Orbit;
 - organization context;
@@ -1293,9 +778,9 @@ It defines:
 It does not define:
 
 - Book 02 semantic changes;
-- Book 03 execution semantics;
-- Lite Product requirements;
-- MarkReg Product requirements;
+- Book 03 Execution changes;
+- final Lite requirements;
+- final MarkReg requirements;
 - MGSN implementation;
 - APIs;
 - schemas;
@@ -1305,267 +790,15 @@ It does not define:
 - repository topology;
 - production readiness.
 
+This chapter does not authorize external Communication send, filing, payment, provider appointment, provider instruction, official recordal, autonomous AI action, or unrestricted implementation.
+
 Book 04 is architecture.
 
-It is not a Product PRD.
-
-It is not an implementation manual.
+It is not a Product PRD or implementation manual.
 
 ---
 
-## 21. Explicit Non-Goals
-
-Workplace is not:
-
-```text
-a replacement for Core
-a replacement for Execution
-a universal Product
-a case-management system
-a tenant account
-a central marketplace
-an AI Agent framework
-a universal database
-a file manager
-a knowledge authority
-a Workflow engine
-an implementation repository
-a deployment model
-a production-readiness declaration
-```
-
-Workplace must not:
-
-- redefine Core Objects or Services;
-- redefine Task or Workflow semantics;
-- redefine Event ownership;
-- bypass Human Review;
-- authorize autonomous AI professional action;
-- authorize external Communication send;
-- authorize filing;
-- authorize submission;
-- authorize payment;
-- authorize provider instruction;
-- authorize official recordal;
-- treat candidates as approved;
-- treat recommendations as formal Tasks or Opportunities;
-- treat Artifact as identical to Document;
-- treat MGSN as open bidding;
-- treat the organization as a platform-owned account;
-- require one universal Product experience;
-- require cloud centralization;
-- require destructive migration;
-- treat visibility as ownership;
-- treat invocation as definition;
-- treat context as mutation authority.
-
----
-
-## 22. Boundary Anti-Patterns
-
-### 22.1 The Everything Workplace
-
-Every new responsibility is added to Workplace because it is the most visible layer.
-
-Result:
-
-- centralization;
-- coupling;
-- authority drift.
-
-### 22.2 The Product-Owned Organization
-
-One Product becomes the owner of users, clients, preferences, and private knowledge.
-
-Result:
-
-- Product lock-in;
-- fragmented identity;
-- weak cross-Product continuity.
-
-### 22.3 The Hidden Workflow UI
-
-A Workplace screen implements state transitions without governed Execution.
-
-Result:
-
-- inconsistent Tasks;
-- bypassed review;
-- poor audit.
-
-### 22.4 The Platform-Owned Client
-
-Shared infrastructure becomes the apparent owner of the relationship.
-
-Result:
-
-- weakened autonomy;
-- marketplace drift.
-
-### 22.5 The Universal Knowledge Pool
-
-Private and shared knowledge are merged.
-
-Result:
-
-- confidentiality risk;
-- loss of organizational capital.
-
-### 22.6 The Agent-as-Authority Pattern
-
-AI Agent output mutates state or performs protected action.
-
-Result:
-
-- accountability failure;
-- governance failure.
-
-### 22.7 The Universal Database Assumption
-
-Every Workplace concept is placed in one central database.
-
-Result:
-
-- weak locality;
-- weak privacy;
-- implementation lock-in.
-
-### 22.8 The MGSN-Centered Architecture
-
-The network becomes the center and Workplaces become listings.
-
-Result:
-
-- Orbit model collapse;
-- provider commoditization.
-
----
-
-## 23. Boundary Review Questions
-
-A future architecture or Product proposal should answer:
-
-### Core boundary
-
-- Does this proposal create a new shared semantic?
-- Does it silently modify a frozen Core concept?
-
-### Execution boundary
-
-- Does it define progression, review, approval, or protected action?
-- Does it bypass governed Execution?
-
-### Product boundary
-
-- Is this responsibility Product-specific?
-- Is Workplace absorbing a Product journey?
-
-### Network boundary
-
-- Does this proposal preserve human selection?
-- Does MGSN remain a connector rather than owner?
-
-### AI boundary
-
-- Does AI remain under identity, permission, and context?
-- Can AI output be mistaken for approval?
-
-### Formal-state boundary
-
-- Which Owning Service records the formal fact?
-- Is UI or AI mutating state directly?
-
-### Data boundary
-
-- Which data is private, local, shared, or synchronized?
-- Is sharing explicit and reversible?
-
-### Knowledge boundary
-
-- Is the output a candidate or approved knowledge?
-- Is provenance preserved?
-
-### Artifact boundary
-
-- Is the result Content, Artifact, Document, Render, Delivery, or Publish?
-- Are those concepts being collapsed?
-
-### Implementation boundary
-
-- Is this architecture decision being mistaken for a service, repository, schema, or deployment requirement?
-
-A proposal that cannot answer these questions is not ready for implementation.
-
----
-
-## 24. Minimum Boundary Lock
-
-Every conforming Workplace must preserve this lock:
-
-```text
-Workplace owns organizational context.
-
-Core owns shared meaning.
-
-Execution owns governed coordination.
-
-Products own user journeys.
-
-MGSN owns cross-Workplace connection.
-
-Owning Services own formal mutation.
-
-Humans own professional accountability.
-
-AI Agents assist under governance.
-
-Local Vault owns local/private technical control.
-
-Artifact architecture owns cross-Product outcome structure.
-```
-
-This lock may be implemented in different technical forms.
-
-Its meaning must not change.
-
----
-
-## 25. Non-Goals of This Chapter
-
-This chapter does not define:
-
-- implementation services;
-- database schemas;
-- APIs;
-- message formats;
-- identity federation;
-- local synchronization protocols;
-- Agent runtime code;
-- Product screen designs;
-- MGSN ranking algorithms;
-- trust scoring;
-- Artifact schemas;
-- deployment architecture;
-- repository structure;
-- infrastructure;
-- production operations.
-
-It does not authorize:
-
-- external Communication send;
-- filing;
-- payment;
-- provider appointment;
-- provider instruction;
-- official recordal;
-- autonomous AI action;
-- unrestricted implementation.
-
-Its purpose is to close Part I with a clear constitutional boundary around Workplace.
-
----
-
-## 26. Chapter Conclusion
+## 14. Chapter Conclusion
 
 Workplace is intentionally broad.
 
@@ -1573,19 +806,15 @@ It must hold the organizational context that makes professional operation cohere
 
 But Workplace must not become total.
 
-It must not absorb the meaning defined by Core.
+It must not absorb:
 
-It must not absorb the coordination governed by Execution.
-
-It must not absorb Product journeys.
-
-It must not absorb MGSN.
-
-It must not absorb Agent governance.
-
-It must not absorb Local Vault implementation.
-
-It must not absorb formal mutation authority.
+- the shared meaning defined by Core;
+- the coordination governed by Execution;
+- the journeys owned by Products;
+- the connection role of MGSN;
+- the runtime governance of AI Agents;
+- the technical implementation of Local Vault;
+- the formal mutation authority of Owning Services.
 
 The final distinction is:
 
@@ -1595,17 +824,7 @@ Workplace is where the organization operates.
 It is not where every system responsibility is owned.
 ```
 
-A conforming Workplace preserves:
-
-- organizational autonomy;
-- authorized context;
-- privacy;
-- Human accountability;
-- governed handoff;
-- Product independence;
-- network independence;
-- formal mutation authority;
-- clear technical and publication boundaries.
+A conforming Workplace preserves organizational autonomy, authorized context, privacy, human accountability, governed handoff, Product independence, network independence, and explicit formal-state authority.
 
 This is how MarkOrbit avoids two opposite failures:
 
