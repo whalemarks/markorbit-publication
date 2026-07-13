@@ -39,9 +39,9 @@ Not authorized
 ## Remaining Gates
 
 1. Controlled drafting of Pack 01 in a separate task and PR.
-2. Pack 02–06 brief approval.
-3. Cross-book consistency review.
-4. Controlled chapter drafting for later packs.
+2. Pack 01 part review.
+3. Pack 02–06 chapter-brief approval.
+4. Controlled drafting of Pack 02–06.
 5. Cross-book consistency review.
 6. Full-book editorial review.
 7. Final publication gate.
