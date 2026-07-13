@@ -5,9 +5,9 @@
 - **Book:** Book 04
 - **Title:** MarkOrbit Workplace and Product Architecture
 - **Canonical path:** `books/book-04-workplace-product-architecture/`
-- **Status:** Chapter Map Owner Accepted
+- **Status:** Pack 01 Drafting in Progress
 - **Architecture direction:** Owner Confirmed
-- **Manuscript status:** Not Started
+- **Manuscript status:** Draft 1 in Progress
 - **Chapter Map:** B04-TOC-V0.1 — Owner Accepted
 
 ## Position in the Series
@@ -42,12 +42,16 @@ Book 04 is not a replacement for Book 01, a semantic amendment to Book 02, a rep
 
 Book 04 must not redefine Core Objects or Services, redefine Workflow, Task, Human Review or Event ownership, authorize autonomous AI professional action, authorize external Communication send, authorize filing, submission, payment, provider instruction or official recordal, treat Distillery candidates as approved knowledge or capability, treat recommendations as formal Tasks or Opportunities, treat Artifact as identical to Document, treat MGSN as an open bidding marketplace, or treat Workplace as a centrally owned platform account.
 
+## Manuscript
+
+- [Accepted Table of Contents](manuscript/B04-CH-01_Table_of_Contents.md)
+- [B04-CH-02 — Why Workplace Exists](manuscript/B04-CH-02_Why_Workplace_Exists.md) — Draft 1; editorial review pending
+
 ## Planning Records
 
 - [Book Manifest](BOOK-MANIFEST.md)
 - [Book Status](BOOK-STATUS.md)
 - [Book Governance](BOOK-GOVERNANCE.md)
-- [Accepted Table of Contents](manuscript/B04-CH-01_Table_of_Contents.md)
 - [Positioning and Scope](planning/B04-PLN-0001_Positioning_and_Scope.md)
 - [Dependency Map](planning/B04-PLN-0002_Dependency_Map.md)
 - [Decision and Open Question Map](planning/B04-PLN-0003_Decision_and_Open_Question_Map.md)
@@ -58,7 +62,7 @@ Book 04 must not redefine Core Objects or Services, redefine Workflow, Task, Hum
 
 ## Manuscript Boundary
 
-Manuscript writing has not begun. The Table of Contents is the accepted chapter map B04-TOC-V0.1. It does not authorize chapter drafting outside an approved writing pack, and manuscript writing remains not started.
+Controlled drafting of Pack 01 has begun. B04-CH-02 is Draft 1 and remains pending editorial and owner review. CH00 and CH03–CH06 have not yet been drafted. The accepted chapter map does not authorize drafting outside B04-PACK-01.
 
 ## Authority and Protected-Action Boundary
 
