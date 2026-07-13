@@ -114,8 +114,9 @@ Sources
 
 - Mo Data is the logical data estate, not one universal database.
 - Mo Crawl is acquisition infrastructure.
-- Information Engine normalizes and understands information.
-- Distillery creates validated knowledge and capability candidates.
+- Information Engine produces understood and structured information by normalizing and understanding source material.
+- Distillery produces knowledge, rule, capability, skill and workflow-fragment candidates for subsequent professional validation and governance review.
+- Professional validation and governance determine whether candidates become approved, experimental or rejected records.
 - Brain is the logical knowledge and context plane.
 - Value Factory creates derived value candidates.
 - Mo Intelligence performs scoring, matching, ranking, recommendation and explanation.
