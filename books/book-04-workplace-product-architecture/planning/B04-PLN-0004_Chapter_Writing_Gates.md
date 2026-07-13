@@ -2,80 +2,103 @@
 
 ## Gate 0 — Scaffold
 
-COMPLETE.
+**COMPLETE.**
 
-Required result:
-
-```text
-Identity
-Scope
-Governance
-Dependencies
-Provisional TOC
-Writing gates
-```
+Identity, scope, governance, dependencies, chapter map, and writing controls are present.
 
 ## Gate 1 — Owner TOC Review
 
-COMPLETE.
+**COMPLETE.**
 
 The accepted chapter map is B04-TOC-V0.1, CH00–CH39, six parts.
 
-## Gate 2 — Chapter Briefs
+## Gate 2 — Chapter Direction and Boundary Control
 
-COMPLETE for Pack 01 only.
+**COMPLETE through Part IV for the current Draft baseline.**
 
-Each chapter brief must receive:
+CH00–CH27 were drafted under owner-directed continuation using the accepted chapter map and upstream architecture authorities. The consolidated review verified purpose, upstream authority, required distinctions, examples, non-goals, and cross-chapter boundaries.
 
-- purpose;
-- questions answered;
-- upstream authorities;
-- required distinctions;
-- examples;
-- non-goals;
-- expected cross-references;
-- review conditions.
+Detailed downstream chapter briefs for CH28–CH39 remain deferred until drafting is authorized.
 
-Pack 02–06 briefs are not yet approved.
+## Gate 3 — Writing-Pack Control
 
-## Gate 3 — Writing-Pack Plan
-
-COMPLETE for Pack 01; Pack 02–06 remain planned.
+**COMPLETE through Pack 04.**
 
 ```text
-Pack 1: Front Matter and Part I
-Pack 2: Part II
-Pack 3: Part III
-Pack 4: Part IV
-Pack 5: Part V
-Pack 6: Part VI
+Pack 01: Front Matter and Part I — drafted and reviewed
+Pack 02: Part II — drafted and reviewed
+Pack 03: Part III — drafted and reviewed
+Pack 04: Part IV — drafted and reviewed
+Pack 05: Part V — paused; not drafted
+Pack 06: Part VI — paused; not drafted
 ```
 
-One branch per controlled pack, not one branch per chapter.
+Branching principle:
+
+```text
+one branch per controlled review or writing pack
+not one branch per chapter
+```
 
 ## Gate 4 — Controlled Drafting
 
-IN PROGRESS for Pack 01.
+**COMPLETE for CH00–CH27.**
 
 ```text
-B04-CH-02 — Draft 1 completed; editorial review pending
-B04-CH-03 through B04-CH-06 — pending
-B04-CH-00 — pending until Part I stabilizes
-B04-CH-01 — accepted TOC; not rewritten as prose
+B04-CH-00 through B04-CH-27 — Draft baseline present
+B04-CH-28 through B04-CH-39 — paused; not authorized for drafting
 ```
 
-No Part II chapter is authorized for drafting under this gate.
+No Part V or Part VI chapter is authorized by this gate.
 
-## Gate 5 — Part Reviews
+## Gate 5 — Part and Cross-Part Review
 
-NEXT after all Pack 01 chapter drafts are complete.
+**CH00–CH27 REVIEW COMPLETED; OWNER REVIEW PENDING.**
 
-Architecture, terminology, repetition, progression and cross-book boundaries must be reviewed across the full Part I pack.
+Review record:
 
-## Gate 6 — Full-Book Review
+- `reviews/B04-REV-0002_CH00-CH27_Architecture_and_Editorial_Review.md`
 
-Consistency, compression, links, editorial quality and owner acceptance.
+The review covered:
 
-## Gate 7 — Publication Readiness
+- architecture authority;
+- terminology;
+- responsibility verbs;
+- chapter progression;
+- duplication and overlap;
+- Product and downstream publication boundaries;
+- Book 02 and Book 03 non-amendment;
+- structural validation.
 
-Separate from implementation readiness and protected-action authority.
+## Gate 6 — Owner Acceptance of Current Baseline
+
+**CURRENT GATE.**
+
+```text
+Review consolidated PR
+→ request targeted changes or accept CH00–CH27 baseline
+→ decide whether to authorize Part V and Part VI drafting
+```
+
+Owner acceptance of CH00–CH27 does not constitute full-book acceptance.
+
+## Gate 7 — Full-Book Review
+
+**NOT STARTED.**
+
+Requires CH28–CH39 to be drafted and reviewed if later authorized.
+
+Full-book work includes:
+
+- compression and repetition review;
+- native-English line edit;
+- diagrams;
+- citation and glossary reconciliation;
+- index and cross-book links;
+- final owner review.
+
+## Gate 8 — Publication Readiness
+
+**NOT STARTED.**
+
+Publication readiness remains separate from implementation readiness and protected-action authority.
