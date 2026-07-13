@@ -125,7 +125,7 @@ preserves how this organization understands and operates.
 
 Private Knowledge means:
 
-> professional understanding that is controlled by an Organization Workplace or an authorized client context and is not available for general ecosystem use by default.
+> professional understanding governed within an Organization Workplace by the organization, or within an authorized client context, and not available for general ecosystem use by default.
 
 Private Knowledge may be:
 

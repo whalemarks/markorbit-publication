@@ -2074,7 +2074,7 @@ Need
 The constitutional outcome is:
 
 ```text
-Workplace owns participation context.
+The organization governs its participation context through Workplace.
 
 MGSN Gateway provides the network journey.
 
@@ -2086,7 +2086,7 @@ Trust contextualizes collaboration.
 
 Human professionals select.
 
-Routing records the decision.
+Routing Service records the decision where formal Routing is required.
 
 Execution governs instruction.
 

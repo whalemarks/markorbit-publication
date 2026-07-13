@@ -943,22 +943,22 @@ An Artifact may move through:
 ```text
 Lite Content preparation
 
-Artifact editing
+Artifact formation and versioning
 
 Human Review
 
-Deterministic rendering
+Deterministic Render
 
-Client Delivery
+Optional Edit
 
-Publication
+Delivery or Publish
 
 Reuse in MarkReg or Workplace
 ```
 
 Each stage should preserve lineage.
 
-The final output should remain traceable to source Content, versions, edits, Review, render, and Delivery.
+The final output should remain traceable to source Content, Artifact versions, Review, Render, optional Edit, and Delivery or Publish.
 
 ---
 
@@ -1969,9 +1969,9 @@ Review preserves judgment.
 
 Execution preserves governance.
 
-Owning Services preserve formal truth.
+Owning Services change and record formal business facts.
 
-Artifacts preserve reusable outcomes.
+Artifacts preserve reusable output lineage.
 
 Workplace preserves organizational continuity.
 

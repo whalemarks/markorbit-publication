@@ -2,9 +2,9 @@
 
 ## Repository Purpose
 
-The MarkOrbit publication repository is the unified publication home for MarkOrbit books, shared editorial assets, review materials, release artifacts, architecture decisions, governance records and Codex task records.
+The MarkOrbit publication repository is the unified publication home for MarkOrbit books, shared editorial assets, review materials, release artifacts, architecture decisions, governance records, and Codex task records.
 
-The repository records owner-approved canonical architecture and publications, but editorial or implementation convenience must not silently redefine architecture.
+The repository records owner-approved canonical architecture and controlled publication drafts, but editorial or implementation convenience must not silently redefine architecture.
 
 ## Architecture Authority
 
@@ -22,7 +22,7 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](arc
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | `books/book-01-operating-system/` | Existing Draft; publication maturity not reassessed |
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Complete Draft 1 / Owner Accepted |
-| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Chapter Map Owner Accepted |
+| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | CH00–CH27 Drafted and Reviewed; Paused Before Part V; Owner Review Pending |
 | Book 05 | MarkReg | `books/book-05-markreg/` | Planned |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
@@ -37,13 +37,13 @@ Canonical path: `books/book-01-operating-system/`
 
 Positioning: Defines industry vision and Operating System principles.
 
-Publication state: Existing Draft; publication maturity not reassessed by PUB-TASK-ARCH-001.
+Publication state: Existing Draft; publication maturity not reassessed by the Architecture Canon vNext work.
 
 ### Book 02 — MarkOrbit Core Specification
 
 Canonical path: `books/book-02-core-specification/`
 
-Positioning: Defines shared Core semantics, objects, services and contracts.
+Positioning: Defines shared Core semantics, objects, services, and contracts.
 
 Baseline ID: B02-BASELINE-V0.1. Version: 0.1.0. Status: Frozen Core Specification Baseline. Future semantic change requires the existing Book 02 Change Proposal process.
 
@@ -55,15 +55,15 @@ Canonical path: `books/book-03-execution-system/`
 
 Positioning: Defines how approved Core contracts become governed operational execution.
 
-Publication state: Complete Draft 1 / Owner Accepted; pending final publication preparation. Final publication readiness, implementation readiness and external protected-action authority remain separate states and are not approved.
+Publication state: Complete Draft 1 / Owner Accepted; pending final publication preparation. Final publication readiness, implementation readiness, and external protected-action authority remain separate states and are not approved.
 
 ### Book 04 — MarkOrbit Workplace and Product Architecture
 
 Canonical path: `books/book-04-workplace-product-architecture/`
 
-Positioning: Defines how an independent professional organization establishes its own operating orbit and consumes MarkOrbit Core, Execution, knowledge, intelligence, capabilities, products and network services through its Workplace.
+Positioning: Defines how an independent professional organization establishes its own operating orbit and consumes MarkOrbit Core, Execution, Knowledge, Intelligence, Capabilities, Products, and network services through its Workplace.
 
-Publication state: Chapter Map Owner Accepted. See [Book 04 README](books/book-04-workplace-product-architecture/README.md) and [Book 04 Manifest](books/book-04-workplace-product-architecture/BOOK-MANIFEST.md). Manuscript writing has not begun.
+Publication state: CH00–CH27 are drafted and have completed a consolidated architecture and editorial review recorded by B04-REV-0002. Front Matter and Parts I–IV are pending owner review. CH28–CH39 remain intentionally paused and undrafted.
 
 ### Book 05 — MarkReg
 
@@ -81,4 +81,4 @@ Positioning: Future publication subject for the lightweight Workplace for tradem
 
 Canonical path: `books/book-07-mark-global-service-network/`
 
-Positioning: Future publication subject for the service-routing, capability and trust network connecting independent Workplaces.
+Positioning: Future publication subject for the service-routing, Capability, and Trust network connecting independent Workplaces.

@@ -595,7 +595,7 @@ It may identify:
 - content opportunity;
 - organizational learning opportunity.
 
-Value Factory does not create formal truth.
+Value Factory does not create formal business facts.
 
 Its output should preserve:
 
@@ -1719,7 +1719,7 @@ recommendations, decisions, prepared actions,
 and formal objects remain distinct.
 
 Value Factory produces candidates,
-not formal truth.
+not formal business facts.
 
 Mo Intelligence may score, match,
 rank, recommend, and explain.

@@ -259,7 +259,7 @@ Part III explains how Workplace consumes information, knowledge, intelligence, c
 
 ### Part IV — Product Architecture and Product Embedding
 
-Part IV defines Product independence, shared foundations, Product embedding, Workplace editions, Lite, MarkReg, MGSN interfaces, and cross-Product continuity.
+Part IV defines Product independence, shared foundations, Product embedding, Lite, MarkReg, MGSN interfaces, Workplace editions, and cross-Product continuity.
 
 ### Part V — Outcomes, Artifacts, and Delivery
 

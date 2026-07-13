@@ -345,7 +345,7 @@ MGSN may provide:
 - collaboration options;
 - partner-expansion paths.
 
-Workplace retains authority over:
+The participating organization, represented through Workplace, retains authority over:
 
 - whether to participate;
 - which profile data is shared;
@@ -370,7 +370,7 @@ The distinction is:
 ```text
 MGSN enables connection.
 
-Participating Workplaces retain relationship and selection authority.
+Participating organizations retain relationship and selection authority through their Workplaces.
 ```
 
 Workplace is not the network itself, and MGSN does not own the relationship merely because it supports the connection.
@@ -656,7 +656,7 @@ Consumption and coordination do not imply ownership.
 | Artifact lifecycle | Supplies organization context, assets, reviewer, and visibility | Artifact architecture and relevant Owning Services govern formal states | Artifact must not collapse into file or Document |
 | Delivery and Publish | Supplies policy and recipient context | Delivery/Publish authorities govern execution and state | Delivery and Publish remain distinct |
 | Local/private technical control | Defines organization policy | Local Vault provides technical boundary | Workplace policy does not define storage implementation |
-| Network participation | Defines organization preferences and selection | MGSN enables and governs connection interfaces | Workplaces retain relationship and selection authority |
+| Network participation | Defines organization preferences and selection | MGSN enables and governs connection interfaces | Participating organizations retain relationship and selection authority through their Workplaces |
 | Professional judgment | Supports evidence and review | Human professionals remain accountable | Software capability does not become professional authority |
 
 This matrix is an authority map.
@@ -742,7 +742,7 @@ Products are responsible for user journeys and domain composition.
 
 MGSN enables and governs cross-Workplace discovery,
 routing, and collaboration interfaces;
-participating Workplaces retain relationship and selection authority.
+participating organizations retain relationship and selection authority through their Workplaces.
 
 Owning Services are authoritative for formal business-state mutation.
 

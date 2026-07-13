@@ -470,7 +470,7 @@ A Deployment Profile may describe:
 - shared cloud;
 - dedicated cloud;
 - private cloud;
-- on-premise;
+- on-premises;
 - local-first;
 - hybrid;
 - disconnected preparation mode.
@@ -897,7 +897,7 @@ A local copy of:
 - provider status;
 - official filing status;
 
-does not automatically become formal truth.
+does not automatically become authoritative formal business state.
 
 Synchronization and reconciliation remain governed.
 
@@ -1624,7 +1624,7 @@ Provider Edition becomes platform-owned seller inventory.
 
 ### Local-authority drift
 
-Local deployment treats every local copy as formal truth.
+Local deployment treats every local copy as authoritative formal business state.
 
 ### Dedicated-semantic fork
 

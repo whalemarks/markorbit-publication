@@ -1,45 +1,63 @@
 # B04-PLN-0006 — Writing Pack Plan
 
-Status: Pack 01 drafting in progress; Pack 02–06 planned only  
+Status: Packs 01–04 drafted and reviewed; Packs 05–06 paused  
 Chapter Map: B04-TOC-V0.1  
-Manuscript prose authorized: YES — B04-PACK-01 only
+Current manuscript authority: CH00–CH27 Draft baseline under consolidated owner review
 
 | Pack | Scope | Current status |
 | --- | --- | --- |
-| Pack 01 | Front Matter and Part I, CH00–CH06 | Drafting in progress; CH02 Draft 1 completed; CH00 and CH03–CH06 pending |
-| Pack 02 | Part II, CH07–CH12 | Planned; briefs not yet approved |
-| Pack 03 | Part III, CH13–CH19 | Planned; briefs not yet approved |
-| Pack 04 | Part IV, CH20–CH27 | Planned; briefs not yet approved |
-| Pack 05 | Part V, CH28–CH32 | Planned; briefs not yet approved |
-| Pack 06 | Part VI, CH33–CH39 | Planned; briefs not yet approved |
+| Pack 01 | Front Matter and Part I, CH00–CH06 | Drafted and reviewed |
+| Pack 02 | Part II, CH07–CH12 | Drafted and reviewed |
+| Pack 03 | Part III, CH13–CH19 | Drafted and reviewed |
+| Pack 04 | Part IV, CH20–CH27 | Drafted and reviewed |
+| Pack 05 | Part V, CH28–CH32 | Paused; not drafted |
+| Pack 06 | Part VI, CH33–CH39 | Paused; not drafted |
 
-## Pack 01 Progress
+## Current Draft Baseline
 
 ```text
-B04-CH-01 — Accepted Table of Contents
-B04-CH-02 — Draft 1 completed; editorial review pending
-B04-CH-03 — Not started
-B04-CH-04 — Not started
-B04-CH-05 — Not started
-B04-CH-06 — Not started
-B04-CH-00 — Not started; draft after Part I stabilizes
+B04-CH-00 through B04-CH-27
+→ present
+→ structurally validated
+→ architecture and editorial review completed
+→ targeted revisions applied
+→ owner review pending
 ```
+
+Review record:
+
+- `reviews/B04-REV-0002_CH00-CH27_Architecture_and_Editorial_Review.md`
 
 ## Branching Lock
 
 ```text
-one branch per controlled pack
+one branch per controlled pack or consolidated review
 not one branch per chapter
 ```
 
-All Pack 01 chapters are drafted and reviewed on the same editorial branch and Draft PR. Pack 02–06 remain unauthorized for manuscript drafting.
+The CH00–CH27 review and metadata synchronization belong in one consolidated Draft PR.
 
 ## Current Editorial Gate
 
 ```text
-Review B04-CH-02 Draft 1
-→ revise or accept CH02
-→ continue CH03 through CH06
-→ draft CH00 after Part I stabilizes
-→ perform Pack 01 part review
+Review consolidated CH00–CH27 revision PR
+→ accept or request targeted revisions
+→ decide whether to authorize Pack 05
+→ preserve Pack 06 as paused unless separately authorized
 ```
+
+## Paused Scope
+
+No manuscript prose for CH28–CH39 is authorized by this plan.
+
+Part V and Part VI remain visible in the accepted Table of Contents but are intentionally not drafted.
+
+## Publication and Implementation Boundary
+
+Completion of Packs 01–04 does not establish:
+
+- final publication readiness;
+- full-book owner acceptance;
+- unrestricted implementation readiness;
+- production deployment approval;
+- external protected-action authority.

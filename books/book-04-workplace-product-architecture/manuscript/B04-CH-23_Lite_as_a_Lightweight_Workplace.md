@@ -273,7 +273,17 @@ This is why Today is the natural starting surface.
 
 ## 6. Lite’s Primary Loop Is Today to Outcome
 
-The primary Lite loop is:
+The canonical Lite action spine is:
+
+```text
+Today
+→ Recommendation
+→ Prepared Action
+→ User Confirmation
+→ Product or Workflow Handoff
+```
+
+Lite expands that action spine into a complete user-value loop:
 
 ```text
 Today
@@ -1727,7 +1737,7 @@ Lite organizes attention.
 
 Lite explains and recommends.
 
-Lite prepares business outcomes.
+Lite prepares business outputs and next actions.
 
 Lite preserves private context.
 
