@@ -1,0 +1,1786 @@
+# B04-CH-18 — From Prepared Action to Governed Execution
+
+**Status:** Draft 1  
+**Chapter Map:** B04-TOC-V0.1  
+**Part:** Part III — Knowledge, Intelligence and Capability Consumption
+
+## Chapter Purpose
+
+Chapter 17 ended with a selected recommendation or Next Best Action candidate.
+
+Selection is not execution.
+
+A Product, Assistant, Guide, user, or AI Agent may have already:
+
+- identified the subject;
+- explained why action may be useful;
+- assembled relevant context;
+- selected a Capability and Skill;
+- prepared a draft;
+- gathered required fields;
+- produced an Artifact;
+- compared alternatives;
+- obtained user intent.
+
+None of those facts means that a protected action may occur.
+
+The remaining boundary is:
+
+> What must be prepared, validated, preserved, and handed off before governed Execution may evaluate and coordinate the requested action?
+
+This chapter defines Prepared Action as the architectural bridge between recommendation and Execution.
+
+Prepared Action is not automatically a new Core Object.
+
+It is not a replacement for Task, Workflow, Review, Communication, Document, Routing, Order, Matter, or any Owning Service request.
+
+It is a purpose-bound and versioned handoff representation that makes proposed action explicit enough for governed validation.
+
+The central proposition is:
+
+```text
+Prepared Action
+=
+Action Intent
++ Organization Context
++ Actor and Agent Context
++ Target References
++ Operation Type
++ Input References
++ Prepared Payload
++ Source and Provenance
++ Capability and Skill Trace
++ Permission and Policy Requirements
++ Human Review and Approval Requirements
++ Expected Consequence
++ Downstream Service
++ Idempotency and Correlation
++ Validity and Expiry
++ Missing Requirements
+```
+
+The handoff chain is:
+
+```text
+Recommendation or User Intent
+→ Preparation
+→ Prepared Action Package
+→ Readiness Validation
+→ User Confirmation where applicable
+→ Execution Intake
+→ Permission, Policy, Review, and State Revalidation
+→ Workflow or Service Coordination
+→ Owning Service Operation
+→ Event, Result, and Audit
+```
+
+The constitutional distinctions are:
+
+```text
+Prepared Action ≠ authorized action
+
+Prepared Action ≠ active Task
+
+Prepared Action ≠ Workflow
+
+Prepared Action ≠ approval
+
+Prepared Action ≠ execution request accepted
+
+User confirmation ≠ Human Review
+
+Human Review ≠ execution authority
+
+Permission known during preparation ≠ Permission valid at execution
+
+Complete package ≠ permitted action
+
+Preview ≠ execution
+
+Dry run ≠ mutation
+
+Handoff accepted ≠ action completed
+
+Retry ≠ duplicate execution
+
+Service response ≠ formal success unless owned and recorded
+
+Execution coordinates ≠ Execution owns domain facts
+```
+
+Book 02 remains authoritative for Core Objects, references, Permission, Policy, Human Review context, idempotency, Events, and Owning Services.
+
+Book 03 remains authoritative for governed Execution, Workflow coordination, Task lifecycle, protected-action gates, retries, safe failure, and audit.
+
+This chapter defines the Workplace-to-Execution handoff.
+
+It does not create a second execution system.
+
+---
+
+## 1. Preparation Is a Distinct Architectural Stage
+
+Professional systems often move directly from recommendation to action.
+
+That shortcut is unsafe.
+
+Between deciding that something may be useful and performing it, the system must prepare:
+
+- exact target;
+- exact operation;
+- exact data;
+- exact version;
+- expected consequence;
+- required reviewer;
+- required approval;
+- downstream authority;
+- failure behavior.
+
+Preparation turns an idea into an inspectable proposal.
+
+The sequence is:
+
+```text
+Recommend
+→ Prepare
+→ Confirm
+→ Execute
+```
+
+Each step has a different meaning.
+
+Recommendation proposes.
+
+Preparation makes the proposal concrete.
+
+Confirmation records defined intent.
+
+Execution applies governance and coordinates action.
+
+---
+
+## 2. Prepared Action Is an Architectural Handoff Representation
+
+Prepared Action means:
+
+> a versioned, purpose-bound representation of a proposed operation that contains sufficient identity, target, input, provenance, governance, review, consequence, and downstream-service context for Execution to validate the request safely.
+
+Prepared Action may be represented through:
+
+- a typed contract;
+- a Product handoff package;
+- an Artifact plus operation metadata;
+- a Workflow application request;
+- a service-specific request envelope;
+- a local-to-cloud handoff package.
+
+Book 04 does not require one universal Prepared Action database table.
+
+The architecture requires a stable meaning and minimum handoff semantics.
+
+---
+
+## 3. Prepared Action Is Not Automatically a Core Object
+
+Not every useful architectural concept requires an independent Core Object.
+
+A Prepared Action may be:
+
+- temporary;
+- Product-specific;
+- service-specific;
+- embedded in an Execution intake contract;
+- preserved through references and audit.
+
+Creating a universal Prepared Action object too early could duplicate:
+
+- Task;
+- Workflow application;
+- Communication draft;
+- Document;
+- Routing request;
+- Order request;
+- domain-specific command.
+
+The correct principle is:
+
+```text
+Define the handoff meaning first.
+
+Extract a shared object only if repeated Product loops
+prove that independent identity and lifecycle are required.
+```
+
+Product Loop First, Shared Platform Extraction Second remains applicable.
+
+---
+
+## 4. Prepared Action Is Not a Workflow
+
+A Workflow coordinates durable multi-step work.
+
+A Prepared Action expresses one proposed governed handoff.
+
+A Prepared Action may request:
+
+- application of a Workflow;
+- creation of a Task through Task Service;
+- preparation of a Communication send operation;
+- formalization of a Document;
+- initiation of a Routing request;
+- invocation of an Owning Service.
+
+It does not itself coordinate all later steps.
+
+The distinction is:
+
+```text
+Prepared Action
+→ describes and packages the request
+
+Workflow
+→ coordinates governed multi-step execution
+```
+
+---
+
+## 5. Prepared Action Is Not an Active Task
+
+A Prepared Action may propose that work be created.
+
+Example:
+
+```text
+Prepared Action:
+Request creation of a professional review Task
+for the attached filing package.
+```
+
+The Task does not exist until Task Service accepts and records it.
+
+The Prepared Action may also target an existing Task.
+
+It still does not own Task lifecycle.
+
+The user interface must not show:
+
+```text
+Task created
+```
+
+when only a Task creation request has been prepared.
+
+---
+
+## 6. Prepared Action Is Not a Generic Command
+
+A generic command such as:
+
+```text
+Do this.
+```
+
+is insufficient for professional execution.
+
+The action must specify:
+
+- organization;
+- actor;
+- subject;
+- target;
+- operation;
+- inputs;
+- consequence;
+- restrictions;
+- review;
+- downstream authority.
+
+A Prepared Action should be narrow enough that a user and Execution can understand exactly what is being requested.
+
+---
+
+## 7. The Action Intent Must Be Explicit
+
+Action intent describes what the requester wants to happen.
+
+Examples:
+
+```text
+Prepare an external Communication for send review.
+
+Request creation of a renewal Opportunity.
+
+Request a provider Routing evaluation.
+
+Request application of the trademark filing Workflow.
+
+Request formal registration of the reviewed Document.
+
+Request filing submission through the authorized service.
+```
+
+Intent should not be hidden in:
+
+- button labels;
+- conversational language;
+- prompt text;
+- opaque Agent output;
+- UI route names.
+
+A typed operation is safer than ambiguous prose.
+
+---
+
+## 8. The Intended Consequence Must Be Visible
+
+The same words may have different consequences.
+
+For example:
+
+```text
+Approve this draft.
+```
+
+could mean:
+
+- approve wording for internal use;
+- approve client presentation;
+- approve external send;
+- approve filing submission;
+- approve as a reusable template.
+
+The Prepared Action should identify the intended consequence.
+
+The user should know:
+
+```text
+What formal or external result is being requested?
+```
+
+This is especially important before:
+
+- send;
+- file;
+- pay;
+- publish;
+- appoint;
+- instruct;
+- sign;
+- record;
+- complete.
+
+---
+
+## 9. Organization Context Must Be Fixed
+
+Prepared Action must identify the acting Workplace.
+
+It should preserve:
+
+- organization reference;
+- Workplace context;
+- Product origin;
+- applicable business rules;
+- responsibility context.
+
+A user may belong to several organizations.
+
+The package must not rely on whichever organization happens to be active later.
+
+If organization context changes, the package may require reassembly.
+
+---
+
+## 10. Human Actor and AI Agent Must Remain Distinct
+
+A Prepared Action may be created through human and AI collaboration.
+
+It should preserve:
+
+- requesting human actor;
+- preparing user;
+- participating AI Agent;
+- Agent Contract;
+- selected Skill;
+- Product origin.
+
+An AI Agent must not appear as the human requester.
+
+A human request must not erase AI participation in material preparation.
+
+The trace should distinguish:
+
+```text
+Human requested.
+
+AI prepared.
+
+Reviewer reviewed.
+
+Execution coordinated.
+
+Owning Service recorded.
+```
+
+---
+
+## 11. Target References Must Be Typed
+
+The Prepared Action should identify the target using typed references.
+
+Possible targets include:
+
+- Customer;
+- Trademark;
+- Matter;
+- Order;
+- Task;
+- Communication;
+- Document;
+- Evidence;
+- Opportunity;
+- Routing;
+- provider relationship;
+- Artifact;
+- Workflow application.
+
+A generic identifier is unsafe when domain meaning is known.
+
+The target reference does not transfer ownership.
+
+The consuming service must validate the reference through the owning domain.
+
+---
+
+## 12. Subject and Target May Be Different
+
+The subject of the action may differ from the object being changed.
+
+Example:
+
+```text
+Subject:
+Trademark application
+
+Target operation:
+Create a Communication to the client
+```
+
+Another example:
+
+```text
+Subject:
+Provider capability need
+
+Target operation:
+Create Routing request
+```
+
+Preserving both helps explain professional purpose and downstream effect.
+
+---
+
+## 13. Input References Must Be Stable and Scoped
+
+Prepared Action may rely on:
+
+- client instruction;
+- Document;
+- Evidence;
+- Artifact;
+- Knowledge;
+- provider quotation;
+- fee calculation;
+- recommendation;
+- Task;
+- Matter state;
+- official record.
+
+Inputs should be referenced rather than copied without reason.
+
+The package should identify:
+
+- input identity;
+- version;
+- classification;
+- source;
+- relevant extract or field;
+- access boundary.
+
+The downstream service must not assume that every referenced input is current or sufficient.
+
+---
+
+## 14. Prepared Payload Must Be Separated from Source Inputs
+
+The prepared payload is what the downstream operation may consume.
+
+Examples include:
+
+- Communication draft;
+- filing request data;
+- Task creation details;
+- Routing criteria;
+- Document metadata;
+- payment instruction candidate;
+- Workflow application parameters.
+
+The source input is the material used to prepare it.
+
+These should remain distinguishable.
+
+The payload may contain transformations, selections, or drafting.
+
+It must not masquerade as the original source.
+
+---
+
+## 15. Artifacts May Participate but Do Not Authorize Action
+
+A prepared Artifact may be attached or referenced.
+
+Examples:
+
+- filing package;
+- quote proposal;
+- client email draft;
+- response draft;
+- POA;
+- report;
+- publish package.
+
+Artifact readiness does not prove:
+
+- Human Review;
+- approval;
+- recipient authorization;
+- filing authority;
+- Delivery authority;
+- formal Document status.
+
+Prepared Action identifies how the Artifact is intended to be used.
+
+Part V develops Artifact lifecycle in detail.
+
+---
+
+## 16. Source and Provenance Must Survive the Handoff
+
+Execution should be able to understand material source lineage.
+
+The package may preserve:
+
+- originating recommendation;
+- source references;
+- Knowledge versions;
+- client instructions;
+- Product;
+- Agent;
+- Skill;
+- transformation;
+- reviewer;
+- prior preparation versions.
+
+Handoff must not reduce the request to an unexplained final payload.
+
+Professional action must remain explainable.
+
+---
+
+## 17. Capability and Skill Trace Must Be Preserved
+
+The package may identify:
+
+- required Capability;
+- selected Skill;
+- Skill version;
+- execution location;
+- Agent identity;
+- Tool involvement where material;
+- validation result.
+
+This supports:
+
+- quality review;
+- compatibility validation;
+- incident analysis;
+- historical explanation;
+- fallback decisions.
+
+Skill selection does not authorize the protected action.
+
+It only explains preparation or intended implementation.
+
+---
+
+## 18. Permission Requirement Must Be Declared
+
+The package should identify which Permission is expected to be required.
+
+Examples:
+
+- Communication draft preparation;
+- Communication send request;
+- Task creation request;
+- Workflow application request;
+- Routing selection;
+- Document formalization;
+- filing submission;
+- payment approval.
+
+A preparation-time permission check may improve the user experience.
+
+It is not final authorization.
+
+Execution must re-evaluate protected operations in current context.
+
+---
+
+## 19. Policy Requirement Must Be Declared
+
+Policy may govern:
+
+- client confidentiality;
+- cross-organization disclosure;
+- provider selection;
+- external Communication;
+- filing;
+- payment;
+- local or cloud data;
+- Human Review;
+- dual approval;
+- recipient restrictions;
+- deadline handling.
+
+Prepared Action should carry relevant Policy references or expected policy requirements.
+
+The Product does not decide the final Policy outcome.
+
+---
+
+## 20. Human Review Requirement Must Be Explicit
+
+A Prepared Action should state whether Human Review is required and for what scope.
+
+Possible review scopes include:
+
+- legal content;
+- factual accuracy;
+- recipient;
+- attachments;
+- fee;
+- filing data;
+- provider selection;
+- Evidence sufficiency;
+- publication rights;
+- external wording.
+
+The package may be:
+
+- not yet reviewed;
+- submitted for review;
+- linked to a completed review;
+- invalidated by later changes.
+
+CH19 defines Review and approval in detail.
+
+---
+
+## 21. Approval Requirement Must Be Separate from Review
+
+Review evaluates.
+
+Approval authorizes a defined next step where policy requires it.
+
+A reviewer may conclude:
+
+```text
+The content is accurate.
+```
+
+An approver may still need to decide:
+
+```text
+The organization may send, file, pay, publish, or appoint.
+```
+
+Prepared Action must not combine these decisions into one vague status.
+
+---
+
+## 22. User Confirmation Must Be Typed
+
+User confirmation may mean:
+
+- confirm data;
+- select an option;
+- approve preparation;
+- submit for review;
+- request execution;
+- acknowledge consequence.
+
+A generic confirmation is insufficient for protected action.
+
+The interface should identify:
+
+```text
+By confirming, what exactly is the user requesting?
+```
+
+Confirmation is a recorded intent input.
+
+It is not automatically professional review or formal approval.
+
+---
+
+## 23. Readiness Is Not Authorization
+
+A Prepared Action may be complete and internally consistent.
+
+That only means it is ready for the next validation step.
+
+Readiness may include:
+
+- required fields present;
+- references resolvable;
+- payload version fixed;
+- downstream service identified;
+- known review requirement recorded;
+- no preparation-level errors.
+
+Readiness does not mean:
+
+- Permission allowed;
+- Policy allowed;
+- review complete;
+- approval complete;
+- target state still valid;
+- Owning Service accepted.
+
+The system must avoid a green “Ready” label that implies authority.
+
+A safer label is:
+
+```text
+Ready for Execution Validation
+```
+
+---
+
+## 24. Completeness Must Be Defined by the Target Operation
+
+Different operations require different inputs.
+
+Examples:
+
+### Communication send preparation
+
+May require:
+
+- sender organization;
+- recipient;
+- channel;
+- final draft;
+- attachments;
+- client or Matter reference;
+- review requirement.
+
+### Workflow application request
+
+May require:
+
+- Workflow Contract;
+- version;
+- target;
+- input parameters;
+- actor;
+- Permission and Policy context.
+
+### Filing submission request
+
+May require:
+
+- applicant;
+- mark;
+- jurisdiction;
+- classes;
+- goods and services;
+- documents;
+- fees;
+- reviewer;
+- filing authority.
+
+There is no universal completeness checklist.
+
+The downstream contract defines it.
+
+---
+
+## 25. Missing Requirements Must Remain Explicit
+
+If preparation is incomplete, the package should identify:
+
+- missing data;
+- missing Document;
+- missing client instruction;
+- missing review;
+- missing approval;
+- missing Permission;
+- unresolved conflict;
+- stale source;
+- unsupported Capability;
+- unavailable service.
+
+Missing requirements should not be filled through silent inference.
+
+The system may request clarification or produce a partial package.
+
+---
+
+## 26. Conflict Must Block or Downgrade Handoff
+
+A Prepared Action may contain conflicts such as:
+
+- two client instructions;
+- mismatched recipient;
+- outdated fee;
+- different filing versions;
+- inconsistent applicant name;
+- changed provider;
+- stale Task state;
+- conflicting Policy.
+
+The system should not silently choose one.
+
+Depending on consequence, it may:
+
+- block handoff;
+- require review;
+- preserve alternatives;
+- reassemble;
+- request clarification.
+
+Conflict is part of the execution context.
+
+---
+
+## 27. Version Must Be Fixed Before Review or Handoff
+
+A Prepared Action should have an identifiable version.
+
+The version may include:
+
+- payload;
+- input references;
+- Artifact versions;
+- source versions;
+- recipient;
+- parameters;
+- selected provider;
+- expected consequence.
+
+Review and confirmation apply to that version.
+
+Material modification should create a new version or invalidate prior review.
+
+---
+
+## 28. Material Change Must Invalidate Dependent Decisions
+
+Material changes may include:
+
+- recipient;
+- client;
+- applicant;
+- mark;
+- class;
+- goods and services;
+- jurisdiction;
+- fee;
+- provider;
+- deadline;
+- attachment;
+- legal argument;
+- operation type.
+
+After a material change, the system may require:
+
+- revalidation;
+- new confirmation;
+- new Human Review;
+- new approval;
+- new idempotency context.
+
+The system must not reuse old approval for materially changed action.
+
+---
+
+## 29. Prepared Action Must Be Time-Bound
+
+A package may expire because:
+
+- source changed;
+- deadline passed;
+- Permission changed;
+- Policy changed;
+- target state changed;
+- provider price expired;
+- user role changed;
+- client instruction changed;
+- Artifact changed.
+
+Prepared Action should carry:
+
+- created time;
+- last validated time;
+- effective window;
+- expiry;
+- refresh conditions.
+
+An expired package may remain visible historically.
+
+It must not be executed as current.
+
+---
+
+## 30. Preview Is Not Execution
+
+A Product may show a preview of:
+
+- resulting Communication;
+- status transition;
+- Workflow plan;
+- Task plan;
+- fee;
+- filing package;
+- provider instruction;
+- publication.
+
+Preview helps the user understand consequences.
+
+It must be labeled as a projection.
+
+The actual Owning Service result may differ because of:
+
+- current state;
+- validation;
+- external response;
+- policy;
+- provider acceptance;
+- official system behavior.
+
+---
+
+## 31. Dry Run Is Not Mutation
+
+Execution may support dry run or validation-only modes.
+
+A dry run may evaluate:
+
+- request shape;
+- Permission;
+- Policy;
+- completeness;
+- current target state;
+- expected downstream service;
+- possible transition;
+- required review.
+
+It must not:
+
+- create active objects;
+- send;
+- file;
+- pay;
+- publish;
+- appoint;
+- mutate status.
+
+Dry-run output should be identified as non-mutating.
+
+---
+
+## 32. Prepared Action May Be Built Locally
+
+Local Vault may prepare:
+
+- drafts;
+- filing packages;
+- evidence indexes;
+- provider comparison;
+- local validation;
+- operation parameters.
+
+A protected action still requires governed handoff.
+
+Before accepting a local package, Execution may revalidate:
+
+- organization;
+- user;
+- Agent;
+- source;
+- version;
+- Permission;
+- Policy;
+- target state;
+- integrity.
+
+Local preparation does not create local execution authority.
+
+---
+
+## 33. Offline Preparation Must Not Carry Stale Authority
+
+A user may prepare work offline.
+
+The package may preserve the context available at that time.
+
+On reconnection, Execution must re-evaluate current:
+
+- user status;
+- Permission;
+- Policy;
+- target state;
+- source version;
+- deadline;
+- review;
+- approval.
+
+Offline confirmation should not bypass current governance.
+
+---
+
+## 34. Execution Intake Is a Validation Boundary
+
+Execution intake receives the proposed package.
+
+It should not assume that the Product prepared it correctly.
+
+Intake may validate:
+
+- contract version;
+- operation type;
+- target references;
+- actor and Agent;
+- organization;
+- Product origin;
+- input completeness;
+- current state;
+- source freshness;
+- review and approval requirements;
+- idempotency;
+- downstream authority.
+
+The possible outcome is not only acceptance.
+
+It may be:
+
+- accepted for further coordination;
+- incomplete;
+- rejected;
+- stale;
+- review required;
+- approval required;
+- conflict detected;
+- unsupported operation;
+- downstream unavailable.
+
+---
+
+## 35. Acceptance Into Execution Is Not Completion
+
+When Execution accepts a Prepared Action, it may:
+
+- create or apply a governed Workflow request;
+- request Human Review;
+- request approval;
+- create a Task through Task Service;
+- call an Owning Service;
+- wait for an external dependency;
+- fail safely.
+
+The action has entered governed coordination.
+
+It has not necessarily completed.
+
+The interface should distinguish:
+
+```text
+Handoff accepted
+
+Execution in progress
+
+Awaiting review
+
+Awaiting external result
+
+Completed by Owning Service
+
+Failed or rejected
+```
+
+---
+
+## 36. Execution Must Re-Evaluate Current Permission and Policy
+
+Permission and Policy may change after preparation.
+
+Execution should evaluate them against:
+
+- current actor;
+- current Agent;
+- organization;
+- target;
+- operation;
+- data;
+- intended consequence;
+- current time.
+
+A previously allowed preview does not guarantee current authorization.
+
+PermissionDenied or PolicyRestricted must stop or downgrade the operation safely.
+
+---
+
+## 37. Execution Must Revalidate Target State
+
+The target may change between preparation and execution.
+
+Examples:
+
+- Task completed;
+- Matter closed;
+- Communication already sent;
+- provider already selected;
+- filing already submitted;
+- status changed;
+- Document superseded;
+- deadline passed.
+
+Execution must verify current state.
+
+This protects against time-of-check/time-of-use failure.
+
+The action may require:
+
+- cancellation;
+- new preparation;
+- conflict review;
+- safe no-op;
+- updated operation.
+
+---
+
+## 38. Idempotency Must Be Preserved
+
+Users and systems may retry because of:
+
+- timeout;
+- network failure;
+- unclear status;
+- page refresh;
+- external delay.
+
+A retry must not create duplicate:
+
+- Tasks;
+- Communications;
+- filings;
+- payments;
+- provider appointments;
+- Orders;
+- Events.
+
+Prepared Action and Execution intake should preserve an idempotency context appropriate to the operation.
+
+The user should receive the existing result where the same governed request was already completed.
+
+---
+
+## 39. Correlation and Causation Must Remain Traceable
+
+The system should connect:
+
+- originating observation;
+- recommendation;
+- user selection;
+- Prepared Action;
+- review;
+- approval;
+- Execution request;
+- service operation;
+- Event;
+- result.
+
+Correlation supports end-to-end explanation.
+
+Causation identifies which prior action produced the later event.
+
+These references must not imply that every stage owns the next stage.
+
+---
+
+## 40. Retry Must Not Weaken Governance
+
+A failed request must not retry through:
+
+- a less restricted Agent;
+- another provider;
+- a broader data scope;
+- a bypassed review route;
+- a new operation type.
+
+Retry uses the same governed intent unless a new Prepared Action is created and validated.
+
+Material changes require new confirmation and possibly new review.
+
+---
+
+## 41. Safe Failure Must Preserve Professional Visibility
+
+Failure may arise from:
+
+- Permission denial;
+- Policy restriction;
+- stale target;
+- missing input;
+- failed external service;
+- provider rejection;
+- official portal error;
+- duplicate request;
+- review rejection;
+- expired package.
+
+The result should preserve:
+
+- what failed;
+- whether formal state changed;
+- whether retry is safe;
+- whether re-preparation is required;
+- which user needs attention;
+- which source or package version was involved.
+
+A failed protected action must not be shown as success.
+
+---
+
+## 42. Compensation and Rollback Belong to Governed Execution
+
+Some operations are reversible.
+
+Others require compensation rather than rollback.
+
+Examples:
+
+- revoke a draft;
+- cancel an unsent request;
+- issue corrected Communication;
+- create refund process;
+- file correction;
+- replace provider instruction.
+
+Prepared Action may state expected reversibility.
+
+Execution and the Owning Service determine the valid remedy.
+
+A Product must not invent rollback behavior.
+
+---
+
+## 43. The Owning Service Must Remain Explicit
+
+Every formal mutation must identify the Owning Service.
+
+Examples:
+
+- Task Service creates Task;
+- Communication Service records Communication and send state;
+- Routing Service records Routing decision;
+- Opportunity Service creates Opportunity;
+- Document Service formalizes Document;
+- relevant trademark or Matter service records domain state.
+
+Execution coordinates.
+
+It does not absorb domain ownership.
+
+The rule is:
+
+```text
+Execution validates and coordinates.
+
+Owning Service performs and records the formal operation.
+```
+
+---
+
+## 44. Product Handoff Must Be Transparent
+
+The Product should tell the user:
+
+- what has been prepared;
+- what remains missing;
+- what confirmation means;
+- whether review is required;
+- which service or Workflow will receive the request;
+- what formal effect may occur;
+- what will happen next.
+
+A seamless user experience should not hide the authority boundary.
+
+Transparency improves trust.
+
+---
+
+## 45. The Minimum Prepared Action Model
+
+```text
+Prepared Action Package
+  │
+  ├── package identity and version
+  ├── organization and Product origin
+  ├── requesting actor
+  ├── participating Agent
+  ├── action intent
+  ├── intended consequence
+  ├── subject and target references
+  ├── operation type
+  ├── source and provenance
+  ├── input references and versions
+  ├── prepared payload
+  ├── Artifact references
+  ├── Capability and Skill trace
+  ├── Permission requirements
+  ├── Policy requirements
+  ├── Human Review requirements
+  ├── approval requirements
+  ├── downstream service
+  ├── idempotency and correlation
+  ├── validity and expiry
+  └── missing requirements
+        │
+        ▼
+Preparation-Level Validation
+        │
+        ├── shape
+        ├── completeness
+        ├── reference presence
+        ├── conflict
+        └── readiness for intake
+        │
+        ▼
+Typed User Confirmation or Review Request
+        │
+        ▼
+Execution Intake
+        │
+        ├── current identity
+        ├── current Permission
+        ├── current Policy
+        ├── current target state
+        ├── review and approval
+        ├── idempotency
+        └── owning-service route
+        │
+        ▼
+Accepted / Rejected / Blocked / Review Required /
+Approval Required / Stale / Conflict
+        │
+        ▼
+Governed Coordination
+        │
+        ▼
+Owning Service Result
+        │
+        ▼
+Event, Audit, Outcome, and Workplace Feedback
+```
+
+This is an architectural model.
+
+It is not a final schema, API, queue, Workflow engine, or universal object lifecycle.
+
+---
+
+## 46. Required Distinctions
+
+```text
+Prepared Action ≠ authorized action
+```
+
+Preparation creates an inspectable proposal.
+
+```text
+Prepared Action ≠ Core Object by default
+```
+
+Independent identity should be extracted only when justified.
+
+```text
+Prepared Action ≠ Workflow
+```
+
+The package may request Workflow coordination.
+
+```text
+Prepared Action ≠ active Task
+```
+
+Task Service must create formal Tasks.
+
+```text
+Prepared Artifact ≠ action authority
+```
+
+Artifact readiness does not authorize send, filing, or publication.
+
+```text
+User confirmation ≠ Human Review
+```
+
+Intent and professional evaluation remain separate.
+
+```text
+Human Review ≠ approval
+```
+
+Accuracy evaluation and organizational authorization may differ.
+
+```text
+Readiness ≠ authorization
+```
+
+Complete input still requires governance.
+
+```text
+Preparation-time Permission ≠ execution-time Permission
+```
+
+Execution re-evaluates current context.
+
+```text
+Preview ≠ execution
+```
+
+Projected consequences are not formal results.
+
+```text
+Dry run ≠ mutation
+```
+
+Validation mode must remain non-mutating.
+
+```text
+Execution intake accepted ≠ action completed
+```
+
+Coordination may still be pending.
+
+```text
+Execution ≠ domain owner
+```
+
+Owning Services retain mutation authority.
+
+```text
+Retry ≠ new authority
+```
+
+Retry must preserve the governed request.
+
+```text
+Local preparation ≠ local protected-action authority
+```
+
+Local packages require governed handoff.
+
+---
+
+## 47. Failure Modes This Chapter Prevents
+
+### One-click mutation
+
+A Product button changes protected state directly.
+
+### Preparation-as-approval
+
+A complete draft is treated as approved.
+
+### Confirmation ambiguity
+
+One generic “Confirm” button means several different consequences.
+
+### Shadow Workflow
+
+Prepared Action implements durable multi-step coordination itself.
+
+### Shadow Task
+
+A recommendation or prepared package is displayed as active work.
+
+### Source loss
+
+The final payload reaches Execution without provenance or input version.
+
+### Agent impersonation
+
+AI preparation appears under the human’s identity only.
+
+### Stale authorization
+
+A preparation-time Permission decision is reused after context changes.
+
+### Review reuse after change
+
+Materially changed content keeps an old review or approval.
+
+### Preview-success confusion
+
+A simulation or validation result is shown as formal completion.
+
+### Duplicate protected action
+
+Retry creates duplicate send, filing, payment, or Task.
+
+### Unsafe fallback
+
+Failure retries through a broader Agent, provider, or data scope.
+
+### Local-authority drift
+
+Offline or Local Vault preparation performs protected action without revalidation.
+
+### Execution ownership drift
+
+Execution begins to own Matter, Task, Communication, or Routing facts.
+
+### Hidden failure
+
+The interface says complete while the Owning Service rejected or never recorded the action.
+
+These designs may feel efficient.
+
+They do not conform to MarkOrbit architecture.
+
+---
+
+## 48. Minimum Conformance Rule
+
+A conforming Workplace must preserve the following lock:
+
+```text
+Recommendation and preparation remain distinct from action.
+
+Prepared Action is a purpose-bound,
+versioned handoff representation.
+
+It does not become a universal Core Object by assumption.
+
+Action intent, target, consequence,
+inputs, provenance, review,
+approval, and downstream authority
+remain explicit.
+
+Human actor and AI Agent remain distinguishable.
+
+References remain typed and validated
+by owning domains.
+
+Prepared payload remains distinct
+from source inputs.
+
+Artifacts do not authorize action.
+
+Readiness means ready for validation,
+not ready to mutate.
+
+User confirmation remains typed.
+
+Human Review and approval remain distinct.
+
+Material changes invalidate dependent review,
+approval, and confirmation where required.
+
+Prepared Action remains time-bound.
+
+Preview and dry run remain non-mutating.
+
+Local and offline preparation
+must re-enter governed validation.
+
+Execution intake re-evaluates current identity,
+Permission, Policy, state, review,
+approval, and idempotency.
+
+Acceptance into Execution
+does not mean completion.
+
+Retries do not create duplicates
+or weaken governance.
+
+Execution coordinates.
+
+Owning Services perform and record
+formal business-state mutation.
+
+Events and audit preserve the end-to-end trace.
+
+Humans remain accountable
+for consequential intent and approval.
+```
+
+A technically valid command envelope that violates this lock does not conform.
+
+---
+
+## 49. Chapter Boundary
+
+This chapter defines:
+
+- preparation as a distinct stage;
+- Prepared Action meaning;
+- non-object default;
+- action intent;
+- consequence;
+- organization and actor context;
+- Agent trace;
+- typed target references;
+- input references;
+- prepared payload;
+- Artifact participation;
+- provenance;
+- Capability and Skill trace;
+- Permission and Policy requirements;
+- Human Review and approval requirements;
+- typed confirmation;
+- readiness;
+- completeness;
+- missing requirements;
+- conflict;
+- version;
+- material change;
+- expiry;
+- preview;
+- dry run;
+- local and offline preparation;
+- Execution intake;
+- state revalidation;
+- idempotency;
+- correlation;
+- retry;
+- safe failure;
+- compensation boundary;
+- Owning Service routing;
+- Product transparency.
+
+It does not define:
+
+- the detailed Human Review lifecycle;
+- approval authority;
+- reviewer eligibility;
+- final Owning Service contracts;
+- domain mutation rules;
+- Workflow implementation;
+- Task API;
+- Communication send API;
+- filing connector;
+- payment processing;
+- universal Prepared Action schema;
+- queue implementation;
+- retry algorithm;
+- compensation implementation;
+- Product UI.
+
+Those subjects belong to CH19, Book 02, Book 03, Product publications, future technical specifications, ADRs, and implementation repositories.
+
+This chapter does not modify Book 02 Core semantics.
+
+It does not modify Book 03 Execution authority.
+
+It does not authorize external Communication, filing, payment, provider appointment, publication, official recordal, or autonomous professional action.
+
+---
+
+## 50. Chapter Conclusion
+
+Prepared Action is the constitutional bridge between intelligence and authority.
+
+Before this point, Workplace may:
+
+- observe;
+- explain;
+- recommend;
+- assemble context;
+- retrieve Knowledge;
+- select Capability and Skill;
+- use Assistant, Guide, and AI Agent;
+- prepare drafts and Artifacts.
+
+After this point, the system enters governed Execution.
+
+The correct chain is:
+
+```text
+Recommendation
+→ exact action intent
+→ prepared inputs and payload
+→ source and version trace
+→ typed confirmation
+→ Execution intake
+→ current governance validation
+→ Human Review and approval where required
+→ Owning Service operation
+→ Event and result
+```
+
+The package must answer:
+
+```text
+Who is requesting?
+
+For which organization?
+
+What exactly is proposed?
+
+Which object is affected?
+
+Which sources and versions were used?
+
+What will the action do?
+
+What remains missing?
+
+Which Permission and Policy apply?
+
+Who must review or approve?
+
+Which service owns the formal result?
+
+How will duplication and failure be controlled?
+```
+
+The constitutional outcome is:
+
+```text
+Product prepares.
+
+Assistant explains.
+
+Guide structures.
+
+AI Agent assists.
+
+User expresses typed intent.
+
+Execution validates and coordinates.
+
+Human Review protects judgment.
+
+Owning Service performs and records.
+
+Event and audit preserve trace.
+```
+
+CH19 now addresses the final authority boundary of Part III:
+
+> How do Human Review, approval, Execution authority, and Owning Service mutation remain distinct, and how does the system prove which human judged, which authority approved, which service acted, and which formal fact actually changed?

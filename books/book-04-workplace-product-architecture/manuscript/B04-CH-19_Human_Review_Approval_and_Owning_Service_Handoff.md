@@ -1,0 +1,1799 @@
+# B04-CH-19 — Human Review, Approval and Owning Service Handoff
+
+**Status:** Draft 1  
+**Chapter Map:** B04-TOC-V0.1  
+**Part:** Part III — Knowledge, Intelligence and Capability Consumption
+
+## Chapter Purpose
+
+Chapter 18 defined Prepared Action as the versioned and purpose-bound handoff representation between preparation and governed Execution.
+
+This chapter defines the final authority boundary of Part III:
+
+> How do Human Review, approval, Execution coordination, and Owning Service mutation remain distinct, and how does Workplace prove who judged, who authorized, which service acted, and which formal fact actually changed?
+
+Professional work requires more than system validation.
+
+A filing package may be structurally complete but professionally unsuitable.
+
+A Communication may be grammatically correct but commercially or legally inappropriate.
+
+A provider recommendation may be well ranked but conflicted.
+
+A document may be accurate but not authorized for external use.
+
+A user may be permitted to prepare work but not approve it.
+
+A reviewer may be qualified to evaluate legal content but not authorize payment.
+
+An approver may authorize expenditure but not judge evidence sufficiency.
+
+Execution may coordinate a protected action but does not own the resulting business fact.
+
+The architecture must preserve these different forms of authority.
+
+The central responsibility chain is:
+
+```text
+Prepared Action
+→ Human Review
+→ Review Decision
+→ Approval where required
+→ Execution Intake or Continuation
+→ Current Permission and Policy Revalidation
+→ Owning Service Request
+→ Owning Service Result
+→ Event and Audit
+→ Workplace Feedback
+```
+
+The constitutional distinctions are:
+
+```text
+Human Review ≠ user confirmation
+
+Human Review ≠ approval
+
+Reviewer eligibility ≠ general role membership
+
+Reviewer opinion ≠ formal business-state mutation
+
+AI assistance ≠ Human Review
+
+Approval ≠ execution
+
+Approval authority ≠ professional qualification
+
+Execution acceptance ≠ Owning Service success
+
+Execution coordination ≠ domain ownership
+
+Owning Service result ≠ external-world outcome without evidence
+
+Event ≠ approval
+
+Audit ≠ truth
+
+Review completed ≠ action completed
+
+Rejected review ≠ cancelled formal object
+
+Override ≠ hidden bypass
+
+Client approval ≠ internal professional review
+
+Provider acceptance ≠ organization approval
+```
+
+Book 02 remains authoritative for Identity, Permission, Policy, Core Objects, formal services, Events, references, and domain ownership.
+
+Book 03 remains authoritative for Review, Workflow, Task, protected-action gates, Execution coordination, safe failure, and Owning Service handoff.
+
+This chapter defines how Workplace presents and consumes those authorities.
+
+It does not create a second Review Service, approval engine, or mutation layer.
+
+---
+
+## 1. Human Review Is Accountable Evaluation
+
+Human Review means:
+
+> a traceable evaluation performed by an eligible human reviewer against a defined subject, scope, version, purpose, and decision standard.
+
+Human Review may evaluate:
+
+- factual accuracy;
+- legal analysis;
+- procedural completeness;
+- Evidence sufficiency;
+- client instruction consistency;
+- recipient appropriateness;
+- fee correctness;
+- provider suitability;
+- confidentiality;
+- publication readiness;
+- filing readiness;
+- professional risk.
+
+Review is not merely reading.
+
+A reviewer must produce or record a decision within a defined scope.
+
+The architecture should answer:
+
+```text
+Who reviewed?
+
+Why were they eligible?
+
+What exactly was reviewed?
+
+Which version?
+
+Against which standard?
+
+What decision was made?
+
+What limitations remained?
+
+What happened next?
+```
+
+---
+
+## 2. Review Is Not Passive Visibility
+
+A user may open, read, preview, or comment on an item.
+
+That does not automatically constitute Human Review.
+
+Review requires:
+
+- reviewer identity;
+- eligibility;
+- explicit review scope;
+- review subject;
+- version;
+- decision;
+- timestamp;
+- trace.
+
+The following are not sufficient by themselves:
+
+- document opened;
+- page viewed;
+- user logged in;
+- comment added;
+- “looks good” message;
+- notification acknowledged;
+- draft downloaded.
+
+The system must not infer professional review from passive interaction.
+
+---
+
+## 3. Reviewer Must Be a Human
+
+AI may support review by:
+
+- assembling sources;
+- checking completeness;
+- extracting differences;
+- flagging risks;
+- comparing versions;
+- preparing a checklist;
+- explaining provenance;
+- suggesting questions.
+
+AI cannot be the accountable Human Reviewer.
+
+An AI Agent must not:
+
+- sign a Human Review record;
+- impersonate a reviewer;
+- approve its own output;
+- mark review complete;
+- convert confidence into professional judgment.
+
+The rule is:
+
+```text
+AI may assist the review.
+
+An eligible human must make the review decision.
+```
+
+---
+
+## 4. Reviewer Eligibility Is Contextual
+
+A person may be qualified in general but ineligible for a particular review.
+
+Eligibility may depend on:
+
+- organization membership;
+- role;
+- professional qualification;
+- jurisdiction;
+- subject matter;
+- client or Matter access;
+- independence;
+- conflict status;
+- responsibility assignment;
+- current Permission;
+- current Policy;
+- review level;
+- amount or risk threshold.
+
+The system should not assume:
+
+```text
+Role = Lawyer
+therefore
+eligible for every legal review.
+```
+
+Eligibility must be evaluated against the actual review context.
+
+---
+
+## 5. Reviewer Eligibility Is Not Approval Authority
+
+A person may be eligible to review:
+
+- legal content;
+- filing data;
+- Evidence;
+- translation;
+- provider capability.
+
+They may still lack authority to approve:
+
+- external send;
+- filing;
+- payment;
+- provider appointment;
+- publication;
+- commercial commitment.
+
+Review competence and approval authority are separate.
+
+The architecture may require both.
+
+---
+
+## 6. Review Subject Must Be Explicit
+
+The review subject may be:
+
+- Content;
+- Artifact;
+- Document draft;
+- Communication draft;
+- filing package;
+- Evidence package;
+- provider comparison;
+- Routing recommendation;
+- quotation;
+- Prepared Action;
+- Workflow plan;
+- formal object projection.
+
+The review should identify what is being evaluated.
+
+A review of a Communication draft does not automatically review:
+
+- attachments;
+- recipient;
+- sending authority;
+- commercial terms;
+- later edited version.
+
+The subject boundary must be clear.
+
+---
+
+## 7. Review Scope Must Be Explicit
+
+Review scope defines the questions the reviewer is answering.
+
+Examples:
+
+```text
+Review factual accuracy only.
+
+Review legal sufficiency and procedural completeness.
+
+Review recipient and confidentiality.
+
+Review fee and commercial terms.
+
+Review provider eligibility.
+
+Review filing data against client instruction.
+```
+
+One review may cover several scopes.
+
+The record should not imply broader review than actually performed.
+
+A narrow review should remain narrow.
+
+---
+
+## 8. Review Standard Must Be Identifiable
+
+A review may rely on:
+
+- official rules;
+- validated Knowledge;
+- organization policy;
+- client instruction;
+- engagement terms;
+- professional standard;
+- checklist;
+- source Document;
+- prior decision.
+
+The review context should preserve relevant standards and versions.
+
+The system should not treat a review decision as timeless.
+
+A later rule change may require reassessment.
+
+---
+
+## 9. Review Applies to a Specific Version
+
+Human Review applies to the reviewed representation.
+
+The review should link to:
+
+- subject identity;
+- subject version;
+- Prepared Action version;
+- source versions where material;
+- attachments;
+- recipient or target where material.
+
+Material change may invalidate the review.
+
+Examples include changes to:
+
+- legal position;
+- facts;
+- applicant;
+- mark;
+- classes;
+- goods and services;
+- recipient;
+- fee;
+- provider;
+- attachments;
+- filing route;
+- external wording.
+
+The interface must not preserve an “Approved” badge after material content changes.
+
+---
+
+## 10. Review Decision Must Be Typed
+
+A review decision should have explicit meaning.
+
+Conceptual decisions may include:
+
+```text
+Approved for the stated review scope
+
+Approved with conditions
+
+Revision required
+
+Rejected
+
+Escalated
+
+Unable to conclude
+
+Additional information required
+
+Out of scope
+```
+
+The system should avoid one generic “Done” status.
+
+A review may be complete even when the result is rejection or escalation.
+
+---
+
+## 11. Review Comments and Review Decision Are Different
+
+A reviewer may add:
+
+- comments;
+- questions;
+- annotations;
+- proposed edits;
+- risk notes.
+
+These support review.
+
+They are not the final review decision unless explicitly recorded as such.
+
+The architecture should distinguish:
+
+```text
+Review discussion
+
+Reviewer recommendation
+
+Formal review decision
+```
+
+This prevents informal comments from being treated as approval.
+
+---
+
+## 12. Revision Required Does Not Mean Rejected Forever
+
+A review may identify correctable issues.
+
+The reviewed item may return to preparation.
+
+The cycle is:
+
+```text
+Prepare
+→ Review
+→ Revision Required
+→ Revise
+→ New Version
+→ Re-review
+```
+
+The new version should not inherit the previous approval.
+
+The prior review remains part of history.
+
+---
+
+## 13. Rejection Must Preserve Reason and Scope
+
+A rejected review should identify:
+
+- reviewed subject;
+- version;
+- rejection reason;
+- review scope;
+- reviewer;
+- whether revision is possible;
+- whether escalation is required;
+- whether the underlying formal object remains active.
+
+Rejection of a Prepared Action does not automatically:
+
+- cancel a Matter;
+- close a Task;
+- reject a client;
+- delete an Artifact;
+- terminate a provider relationship.
+
+The relevant Owning Service controls formal consequences.
+
+---
+
+## 14. Escalation Is a Governed Review Outcome
+
+Escalation may be needed because of:
+
+- insufficient authority;
+- conflict;
+- novel legal issue;
+- high value;
+- high risk;
+- source conflict;
+- missing client instruction;
+- cross-organization disclosure;
+- provider dispute.
+
+Escalation should identify:
+
+- why escalation is required;
+- appropriate authority or role;
+- current action state;
+- time sensitivity;
+- access boundary.
+
+Escalation must not expose restricted information to an ineligible recipient.
+
+---
+
+## 15. Multiple Reviews May Be Required
+
+One protected action may require several distinct reviews.
+
+Examples:
+
+```text
+Legal review
++ factual review
++ commercial approval
+
+Translation review
++ recipient review
++ external-send approval
+
+Evidence review
++ filing-data review
++ filing authorization
+```
+
+The system should preserve:
+
+- review type;
+- sequence;
+- independence;
+- dependencies;
+- completion state.
+
+Several approvals should not be collapsed into one anonymous “approved” flag.
+
+---
+
+## 16. Sequential and Parallel Review Are Different
+
+Reviews may occur:
+
+- sequentially, where one review depends on another;
+- in parallel, where several scopes can be evaluated independently.
+
+Example:
+
+```text
+Parallel:
+factual review and translation review
+
+Sequential:
+legal review
+→ organizational approval
+→ filing authorization
+```
+
+Execution or Workflow may coordinate review order.
+
+Workplace presents progress.
+
+It does not redefine the Review lifecycle.
+
+---
+
+## 17. Separation of Duties May Be Required
+
+Policy may require different people to:
+
+- prepare;
+- review;
+- approve;
+- execute;
+- reconcile.
+
+This is particularly relevant for:
+
+- payments;
+- filing submissions;
+- provider appointments;
+- high-risk Communications;
+- publication;
+- Evidence alteration risk.
+
+The same user may perform several roles only where policy permits.
+
+A user must not circumvent separation of duties by acting through an AI Agent.
+
+---
+
+## 18. Conflict of Interest Must Affect Eligibility
+
+A reviewer may be ineligible because of:
+
+- personal interest;
+- provider relationship;
+- client conflict;
+- prior authorship under a strict independence rule;
+- financial interest;
+- organizational separation requirement.
+
+The system may not know every conflict automatically.
+
+It should support:
+
+- declared conflict;
+- policy-based detection;
+- recusal;
+- reassignment;
+- trace.
+
+Conflict status should not be hidden to preserve speed.
+
+---
+
+## 19. Client Approval Is Not Internal Professional Review
+
+A client may approve:
+
+- commercial scope;
+- filing strategy;
+- mark;
+- classes;
+- goods and services;
+- fee;
+- wording;
+- provider choice.
+
+Client approval does not necessarily establish:
+
+- legal sufficiency;
+- filing readiness;
+- Evidence adequacy;
+- internal compliance;
+- organization authorization.
+
+The organization may still require professional review.
+
+The two approvals should remain separately traceable.
+
+---
+
+## 20. Internal Review Is Not Client Instruction
+
+An internal professional may review and recommend an action.
+
+That does not prove the client instructed the action.
+
+Client instruction may require:
+
+- authorized client identity;
+- defined scope;
+- Communication or signed record;
+- effective date;
+- engagement relationship.
+
+The architecture must preserve:
+
+```text
+Professional recommendation
+
+Client instruction
+
+Organization approval
+
+Formal execution
+```
+
+---
+
+## 21. Provider Acceptance Is Not Organization Approval
+
+An external provider may confirm:
+
+- availability;
+- price;
+- willingness;
+- procedural route;
+- local requirement.
+
+That does not authorize the organization to:
+
+- appoint the provider;
+- accept the fee;
+- disclose client information;
+- send instructions;
+- commit payment.
+
+Provider acceptance is one input into the organization’s decision and Routing process.
+
+---
+
+## 22. Approval Authorizes a Defined Consequence
+
+Approval means:
+
+> an explicit authorization by an eligible human or governed authority for a defined action, consequence, scope, version, target, and validity period.
+
+Approval may authorize:
+
+- external Communication;
+- filing submission;
+- payment;
+- provider appointment;
+- publication;
+- formalization;
+- Workflow application;
+- Order conversion;
+- sensitive disclosure.
+
+Approval should identify exactly what it authorizes.
+
+A general approval should not be reused for unrelated consequences.
+
+---
+
+## 23. Approval Is Not Review
+
+Review answers:
+
+```text
+Is this accurate, sufficient, appropriate,
+or professionally acceptable within the review scope?
+```
+
+Approval answers:
+
+```text
+May the organization proceed with this defined consequence?
+```
+
+A review may be positive while approval is denied.
+
+Approval may also be conditional on review completion.
+
+The architecture must preserve both records.
+
+---
+
+## 24. Approval Authority Is Contextual
+
+Approval authority may depend on:
+
+- organization;
+- amount;
+- risk;
+- client;
+- service;
+- jurisdiction;
+- Product;
+- action type;
+- target;
+- external consequence;
+- time.
+
+Examples:
+
+- team lead may approve low-risk internal publication;
+- finance manager may approve payment below a threshold;
+- responsible attorney may approve filing;
+- client contact may approve commercial instruction;
+- organization owner may approve provider appointment.
+
+Authority must be evaluated for the exact action.
+
+---
+
+## 25. Approval Must Be Bound to the Prepared Action Version
+
+Approval should reference:
+
+- Prepared Action identity;
+- version;
+- intended consequence;
+- target;
+- payload or Artifact version;
+- approval scope;
+- expiry;
+- conditions.
+
+Material change invalidates dependent approval where required.
+
+Approval must not float independently from what was approved.
+
+---
+
+## 26. Conditional Approval Must Be Enforceable
+
+Approval may include conditions such as:
+
+- correct the applicant name;
+- do not exceed a fee threshold;
+- use a specified provider;
+- attach the signed POA;
+- send only after client confirmation;
+- file before a defined date;
+- exclude a sensitive attachment.
+
+Conditions must be represented so Execution can validate them.
+
+A free-text condition that no service can enforce may be insufficient for high-risk action.
+
+---
+
+## 27. Approval Expiry Must Be Explicit
+
+Approval may expire because:
+
+- deadline passes;
+- price changes;
+- provider changes;
+- client instruction changes;
+- subject version changes;
+- user role changes;
+- policy changes;
+- approval validity period ends.
+
+Expired approval must not authorize current action.
+
+Historical approval may remain visible for audit.
+
+---
+
+## 28. Approval Revocation Must Be Supported
+
+An approver may revoke approval before execution where policy and action state permit.
+
+Revocation should identify:
+
+- approver;
+- reason;
+- time;
+- affected action;
+- whether Execution has started;
+- whether formal mutation already occurred.
+
+Revocation cannot erase completed external action.
+
+It may trigger:
+
+- stop request;
+- compensation;
+- corrective Communication;
+- escalation.
+
+---
+
+## 29. Approval Override Must Be Explicit
+
+A higher authority may override:
+
+- rejection;
+- recommendation;
+- lower-level approval;
+- Routing recommendation;
+- risk threshold.
+
+Override must not become an invisible bypass.
+
+It should preserve:
+
+- overriding actor;
+- authority basis;
+- original decision;
+- reason;
+- scope;
+- version;
+- consequence;
+- review requirement.
+
+Some decisions may be non-overridable under law or policy.
+
+---
+
+## 30. Emergency Approval Must Remain Governed
+
+Urgent professional situations may require expedited action.
+
+Emergency does not mean no governance.
+
+An emergency path may define:
+
+- eligible emergency authority;
+- action types;
+- minimum required context;
+- temporary approval;
+- mandatory post-action review;
+- audit;
+- expiry.
+
+The system must not label ordinary convenience as emergency.
+
+---
+
+## 31. Approval Does Not Execute the Action
+
+Approval authorizes proceeding.
+
+It does not prove:
+
+- request submitted;
+- Communication sent;
+- payment completed;
+- provider appointed;
+- filing accepted;
+- Document formalized;
+- status changed.
+
+Execution and Owning Service must still act.
+
+The interface should distinguish:
+
+```text
+Approved
+
+Queued for Execution
+
+Execution in progress
+
+Completed by Owning Service
+
+Externally confirmed
+```
+
+---
+
+## 32. Execution Coordinates the Governed Path
+
+Execution is responsible for coordinating:
+
+- current identity checks;
+- Permission;
+- Policy;
+- review dependencies;
+- approval dependencies;
+- Workflow;
+- Task;
+- retries;
+- external waiting;
+- service calls;
+- failure;
+- audit correlation.
+
+Execution does not become the owner of every domain object.
+
+Its purpose is governed coordination.
+
+---
+
+## 33. Execution Must Validate Review and Approval References
+
+Before protected action, Execution should verify:
+
+- required review exists;
+- reviewer was eligible;
+- review subject and version match;
+- decision permits continuation;
+- required approval exists;
+- approver was eligible;
+- approval scope and version match;
+- conditions are satisfied;
+- review or approval has not expired or been revoked.
+
+A reference identifier alone is not enough.
+
+The referenced authority must still be valid.
+
+---
+
+## 34. Execution Must Revalidate Current State
+
+Even after review and approval, current conditions may change.
+
+Execution should revalidate:
+
+- actor status;
+- Agent status;
+- target state;
+- Permission;
+- Policy;
+- client instruction;
+- deadline;
+- provider status;
+- amount;
+- Artifact version;
+- external dependency.
+
+This protects against using valid historical approval in an invalid present context.
+
+---
+
+## 35. Review and Approval Do Not Replace Permission and Policy
+
+A human may approve an action that Permission or Policy still prohibits.
+
+Examples:
+
+- reviewer lacks data-disclosure authority;
+- manager approves payment beyond threshold;
+- client approves disclosure prohibited by law;
+- user approves a suspended provider;
+- approver requests use of restricted AI data.
+
+Execution must not treat approval as a policy bypass.
+
+The chain remains:
+
+```text
+Human judgment
++ Permission
++ Policy
++ current state
++ Owning Service contract
+```
+
+---
+
+## 36. Owning Service Is the Formal Mutation Authority
+
+The Owning Service is the recognized service responsible for changing and recording a formal business fact.
+
+Examples include:
+
+- Task Service for Task lifecycle;
+- Communication Service for Communication state and send preparation;
+- Routing Service for Routing decision;
+- Opportunity Service for Opportunity lifecycle;
+- Document Service for formal Document state;
+- relevant Order, Matter, payment, filing, or domain service for its own facts.
+
+The Owning Service validates its own domain invariants.
+
+Neither Workplace nor Execution may redefine those invariants.
+
+---
+
+## 37. Owning Service Handoff Must Be Typed
+
+Execution should invoke an Owning Service through a defined operation.
+
+The request should identify:
+
+- operation;
+- actor;
+- organization;
+- target;
+- payload;
+- references;
+- review;
+- approval;
+- idempotency;
+- correlation;
+- expected result.
+
+A generic state mutation request is unsafe.
+
+The operation should use the vocabulary and contract of the owning domain.
+
+---
+
+## 38. Owning Service May Still Reject the Request
+
+A fully reviewed and approved request may still fail because:
+
+- target state is invalid;
+- reference is missing;
+- duplicate exists;
+- external dependency failed;
+- business invariant is violated;
+- operation is unsupported;
+- deadline passed;
+- provider rejected;
+- official portal failed.
+
+Approval does not compel the Owning Service to violate domain rules.
+
+The service must return a clear result.
+
+---
+
+## 39. Owning Service Result Is the Formal System Result
+
+The authoritative system result comes from the Owning Service.
+
+Possible outcomes include:
+
+- created;
+- updated;
+- transitioned;
+- accepted;
+- rejected;
+- pending external confirmation;
+- failed;
+- duplicate;
+- no-op.
+
+Workplace should present that result.
+
+It must not invent success from:
+
+- button click;
+- approval;
+- request dispatch;
+- timeout;
+- optimistic UI.
+
+---
+
+## 40. Formal System Result and External Outcome May Differ
+
+An Owning Service may record:
+
+```text
+Submission request sent.
+```
+
+The external office may later:
+
+- accept;
+- reject;
+- delay;
+- issue a receipt;
+- return an error.
+
+The system should distinguish:
+
+```text
+internal request accepted
+
+external transmission completed
+
+external receipt confirmed
+
+official status changed
+```
+
+Formal system success is not always final external-world success.
+
+---
+
+## 41. Event Records Occurrence but Does Not Create Authority
+
+Events may record:
+
+- review completed;
+- approval granted;
+- approval revoked;
+- execution started;
+- service request accepted;
+- formal object changed;
+- external result received.
+
+The Event preserves occurrence and trace.
+
+It does not replace:
+
+- Review record;
+- approval record;
+- Owning Service record;
+- external Evidence.
+
+An Event must not be fabricated by AI or Product UI.
+
+---
+
+## 42. Audit Preserves the Authority Chain
+
+Audit should be able to explain:
+
+```text
+Who prepared?
+
+Which AI Agent assisted?
+
+What was reviewed?
+
+Who reviewed?
+
+Why were they eligible?
+
+What decision was made?
+
+Who approved?
+
+What consequence was approved?
+
+Which Permission and Policy decisions applied?
+
+Which service was invoked?
+
+What result did the service record?
+
+Which Event and external Evidence followed?
+```
+
+Audit supports accountability.
+
+It does not prove that every decision was substantively correct.
+
+---
+
+## 43. Workplace Presents but Does Not Own the Authority Records
+
+Workplace may show:
+
+- review queue;
+- reviewer assignment;
+- review decision;
+- approval status;
+- execution progress;
+- service result;
+- external confirmation.
+
+These are projections of records owned by the appropriate services.
+
+Workplace may collect user intent and display context.
+
+It must not create parallel authoritative review or approval state inside the interface.
+
+---
+
+## 44. Product Surfaces Must Use Precise Status Language
+
+Product labels should distinguish:
+
+```text
+Draft
+
+Ready for Review
+
+Under Review
+
+Revision Required
+
+Reviewed for Legal Content
+
+Approved for External Send
+
+Execution Requested
+
+Execution Accepted
+
+Sent
+
+Externally Delivered
+
+Filed
+
+Official Receipt Confirmed
+```
+
+Ambiguous labels such as:
+
+```text
+Done
+
+Approved
+
+Completed
+```
+
+may be unsafe without context.
+
+The user should understand what has and has not happened.
+
+---
+
+## 45. Rejection and Failure Must Return to the Correct Layer
+
+Different outcomes return to different layers.
+
+Examples:
+
+```text
+Review rejection
+→ preparation and revision
+
+Approval denial
+→ organizational decision or escalation
+
+Permission denial
+→ authority resolution
+
+Policy restriction
+→ policy-compliant alternative or stop
+
+Execution rejection
+→ handoff correction
+
+Owning Service failure
+→ domain-specific retry or remedy
+
+External rejection
+→ Matter or professional response
+```
+
+The system should not send every failure back as a generic error.
+
+---
+
+## 46. Post-Execution Review Is Different from Pre-Execution Review
+
+Some actions may require post-execution evaluation.
+
+Examples:
+
+- emergency filing;
+- automated low-risk system notification;
+- external provider outcome;
+- payment reconciliation;
+- publication quality check;
+- execution incident.
+
+Post-execution review does not retroactively become pre-execution approval.
+
+The record should identify:
+
+- action already taken;
+- authority used;
+- reason;
+- outcome;
+- corrective need.
+
+---
+
+## 47. Outcome Feedback Must Preserve the Original Authority Chain
+
+Later outcomes may show that:
+
+- review was correct;
+- recommendation was poor;
+- provider performed well;
+- filing failed;
+- client benefited;
+- policy was too restrictive;
+- Skill caused an error.
+
+Learning should preserve:
+
+- original context;
+- reviewer;
+- approver;
+- Execution path;
+- service result;
+- external outcome.
+
+Outcome feedback must not rewrite the historical decision as though later knowledge was available earlier.
+
+---
+
+## 48. The Minimum Authority and Handoff Model
+
+```text
+Prepared Action
+  │
+  ├── subject and version
+  ├── intended consequence
+  ├── sources and provenance
+  ├── user and Agent trace
+  └── review and approval requirements
+        │
+        ▼
+Human Review
+  │
+  ├── eligible human reviewer
+  ├── review scope
+  ├── review standard
+  ├── reviewed version
+  ├── findings
+  └── typed decision
+        │
+        ▼
+Approval where required
+  │
+  ├── eligible approver
+  ├── approved consequence
+  ├── target and version
+  ├── conditions
+  ├── validity
+  └── revocation or override rules
+        │
+        ▼
+Execution Validation
+  │
+  ├── current Identity
+  ├── Permission
+  ├── Policy
+  ├── current state
+  ├── valid review
+  ├── valid approval
+  ├── idempotency
+  └── Owning Service route
+        │
+        ▼
+Owning Service Operation
+  │
+  ├── domain validation
+  ├── formal mutation
+  └── authoritative result
+        │
+        ▼
+Event, Audit, External Evidence,
+Outcome Feedback, and Workplace Projection
+```
+
+This is an architectural model.
+
+It is not a final Review schema, approval engine, Workflow implementation, or service API.
+
+---
+
+## 49. Required Distinctions
+
+```text
+Human Review ≠ passive reading
+```
+
+Review requires eligibility, scope, version, and decision.
+
+```text
+AI assistance ≠ Human Review
+```
+
+AI cannot be the accountable reviewer.
+
+```text
+Reviewer eligibility ≠ role label
+```
+
+Eligibility is contextual.
+
+```text
+Review ≠ approval
+```
+
+Evaluation and authorization remain separate.
+
+```text
+Review comments ≠ review decision
+```
+
+Discussion does not equal final judgment.
+
+```text
+Client approval ≠ internal professional review
+```
+
+Different responsibilities apply.
+
+```text
+Internal review ≠ client instruction
+```
+
+The client’s authority remains separate.
+
+```text
+Provider acceptance ≠ organization approval
+```
+
+Provider willingness does not create appointment authority.
+
+```text
+Approval ≠ execution
+```
+
+Approval authorizes a defined next step.
+
+```text
+Approval authority ≠ professional qualification
+```
+
+Commercial authority and professional competence differ.
+
+```text
+Execution acceptance ≠ completion
+```
+
+The Owning Service must act.
+
+```text
+Execution ≠ Owning Service
+```
+
+Coordination and domain mutation remain distinct.
+
+```text
+Owning Service result ≠ final external outcome
+```
+
+External confirmation may still be required.
+
+```text
+Event ≠ authority
+```
+
+Event records occurrence.
+
+```text
+Audit ≠ truth
+```
+
+Audit explains trace but does not certify substantive correctness.
+
+```text
+Override ≠ bypass
+```
+
+Override requires explicit authority and reason.
+
+---
+
+## 50. Failure Modes This Chapter Prevents
+
+### AI-as-reviewer
+
+An AI Agent records professional approval of its own output.
+
+### Login-as-review
+
+Opening a draft is treated as review completion.
+
+### Role-as-universal-eligibility
+
+Any lawyer or manager can review every object.
+
+### Comment-as-approval
+
+An informal comment becomes a formal decision.
+
+### Review-approval collapse
+
+Content accuracy automatically authorizes external action.
+
+### Client-instruction confusion
+
+Internal review is treated as client consent.
+
+### Provider-appointment confusion
+
+Provider availability becomes appointment.
+
+### Floating approval
+
+Approval is reused for a later materially changed version.
+
+### Approval-as-policy-bypass
+
+Human authority overrides Permission or Policy silently.
+
+### One-person hidden control
+
+Preparation, review, approval, execution, and reconciliation are performed without required separation.
+
+### Execution ownership drift
+
+Execution writes domain facts directly.
+
+### Optimistic success
+
+The Product reports completion before the Owning Service records it.
+
+### Event authority drift
+
+An emitted Event is treated as the underlying business record.
+
+### External-outcome confusion
+
+Internal transmission is presented as official acceptance.
+
+### Hidden override
+
+A higher authority bypasses rejection without trace.
+
+### Historical rewriting
+
+Later outcome knowledge changes the apparent basis of the original review.
+
+These systems may feel fast.
+
+They do not conform to MarkOrbit architecture.
+
+---
+
+## 51. Minimum Conformance Rule
+
+A conforming Workplace must preserve the following lock:
+
+```text
+Human Review is performed by
+an eligible and identifiable human.
+
+AI may assist but may not become Reviewer.
+
+Review subject, scope, standard,
+version, decision, and limitations
+remain explicit.
+
+Reviewer eligibility is contextual.
+
+Review comments do not become decisions automatically.
+
+Material changes invalidate dependent review.
+
+Review, client instruction,
+organization approval, and provider acceptance
+remain distinct.
+
+Approval authorizes a defined consequence,
+target, version, scope, and validity period.
+
+Approval authority is evaluated contextually.
+
+Conditions, expiry, revocation,
+and overrides remain enforceable and traceable.
+
+Approval does not bypass Permission or Policy.
+
+Approval does not execute the action.
+
+Execution validates current identity,
+Permission, Policy, state,
+review, approval, and idempotency.
+
+Execution coordinates but does not own domain facts.
+
+Owning Services perform and record
+formal business-state mutation.
+
+Owning Services may reject invalid requests.
+
+Workplace and Products present
+authoritative status without duplicating it.
+
+Events and audit preserve the authority chain.
+
+Formal system results remain distinct
+from later external-world outcomes.
+
+Humans remain accountable
+for professional judgment and approval.
+```
+
+A system with attractive approval screens but no enforceable authority chain does not conform.
+
+---
+
+## 52. Chapter Boundary
+
+This chapter defines:
+
+- Human Review meaning;
+- reviewer eligibility;
+- human-only reviewer responsibility;
+- review subject;
+- scope;
+- standard;
+- version;
+- typed decisions;
+- comments;
+- revision;
+- rejection;
+- escalation;
+- multiple review;
+- sequence;
+- separation of duties;
+- conflict;
+- client approval;
+- internal review;
+- provider acceptance;
+- approval;
+- approval authority;
+- conditions;
+- expiry;
+- revocation;
+- override;
+- emergency approval;
+- Execution validation;
+- review and approval reference validation;
+- Owning Service handoff;
+- formal service result;
+- external outcome distinction;
+- Event;
+- audit;
+- Workplace status presentation;
+- failure routing;
+- post-execution review;
+- outcome feedback.
+
+It does not define:
+
+- final Review database schema;
+- approval database schema;
+- electronic-signature law;
+- professional licensing law;
+- detailed role matrices;
+- exact financial thresholds;
+- Workflow implementation;
+- Owning Service APIs;
+- domain transition rules;
+- external portal behavior;
+- Product UI;
+- production audit infrastructure.
+
+Those subjects belong to Book 02, Book 03, Product publications, legal and compliance specifications, technical architecture, ADRs, and implementation repositories.
+
+This chapter does not modify Book 02 Core semantics.
+
+It does not modify Book 03 Execution authority.
+
+It does not itself authorize filing, Communication transmission, payment, provider appointment, publication, official recordal, or any other protected action.
+
+---
+
+## 53. Chapter Conclusion
+
+Part III began with information and ends with formal authority.
+
+The complete consumption and action chain is:
+
+```text
+Information
+→ authorized context
+→ governed Knowledge
+→ Capability
+→ Skill
+→ Assistant, Guide, or AI Agent
+→ Value Candidate
+→ Recommendation
+→ Next Best Action
+→ Prepared Action
+→ Human Review
+→ Approval
+→ governed Execution
+→ Owning Service
+→ formal result
+→ Event, outcome, and learning
+```
+
+Each layer adds value.
+
+No layer may silently absorb the authority of the next.
+
+The final questions are:
+
+```text
+Who understood?
+
+Who recommended?
+
+Who prepared?
+
+Who reviewed?
+
+Who approved?
+
+Who coordinated?
+
+Which service acted?
+
+Which formal fact changed?
+
+What external outcome followed?
+```
+
+MarkOrbit must preserve a different answer where responsibilities differ.
+
+The constitutional outcome is:
+
+```text
+AI may assist.
+
+Human Reviewer judges.
+
+Approver authorizes.
+
+Execution coordinates.
+
+Owning Service mutates.
+
+Event records.
+
+Audit explains.
+
+Workplace presents.
+
+Organization remains accountable.
+```
+
+This completes Part III.
+
+Part IV now turns from shared knowledge, intelligence, Capability, and governed action to Product architecture:
+
+> How can independent Products create direct user value, evolve at different speeds, embed within Workplace, share stable foundations, and hand context across Product boundaries without becoming one monolithic application?
