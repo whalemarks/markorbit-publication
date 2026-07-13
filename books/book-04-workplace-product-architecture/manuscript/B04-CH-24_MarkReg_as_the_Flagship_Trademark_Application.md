@@ -65,9 +65,10 @@ MarkReg
 =
 Flagship International Trademark Product
 + Need and Strategy Understanding
-+ Jurisdiction and Classification Guidance
-+ Formal Intake
-+ Quotation and Commercial Confirmation
++ Jurisdiction, Classification, and Goods/Services Guidance
++ Search and Risk Assessment Where Applicable
++ Proposal, Quotation, and Commercial Confirmation
++ Formal Intake and Order/Matter Handoff
 + Document and Instruction Preparation
 + Governed Filing Execution
 + Examination and Response Coordination
@@ -79,13 +80,16 @@ Flagship International Trademark Product
 Its primary lifecycle is:
 
 ```text
-Need
-→ Recommendation
-→ Intake
-→ Validation
-→ Commercial Confirmation
-→ Filing Preparation
+Need Recognition
+→ Jurisdiction, Class, and Goods/Services Recommendation
+→ Search and Risk Assessment Where Applicable
+→ Proposal and Quote
+→ Formal Intake
+→ Commercial Instruction
+→ Order and Matter Formalization
+→ Document and Filing Preparation
 → Human Review
+→ Filing Approval Where Required
 → Governed Filing
 → Official Acknowledgement
 → Examination
@@ -150,6 +154,8 @@ The dedicated MarkReg publication, Product charter, PRD, service specifications,
 MarkReg is the flagship Product for international trademark business.
 
 It is flagship because it represents the deepest and most consequential Product loop in the current MarkOrbit architecture.
+
+It is also the principal showcase of a managed professional-service ecosystem: shared Knowledge, governed Execution, external Capabilities, Products, and human professional responsibility composed around one concrete domain lifecycle. `Managed` describes governed coordination; it does not mean that MarkReg or the platform owns client or provider relationships.
 
 It spans:
 
@@ -1174,7 +1180,11 @@ MarkReg presents and contextualizes it.
 
 ---
 
-## 44. Registration Certificate Is an Artifact and Possible Evidence
+## 44. Registration Certificate Requires Artifact, Document, and Evidence Distinctions
+
+An official registration certificate is ordinarily an external formal Document or official record. A scanned, electronic, or provider-delivered representation may also be managed as an Artifact for controlled storage, presentation, or Delivery. The certificate or its verified representation may later serve as Evidence for a defined purpose.
+
+These roles must not be collapsed.
 
 A registration certificate may exist as:
 
@@ -1186,13 +1196,14 @@ A registration certificate may exist as:
 MarkReg should preserve:
 
 - source;
-- format;
-- version;
-- authenticity;
+- formal Document or official-record status;
+- Artifact representation and version where applicable;
+- authenticity or verification state;
 - Delivery;
+- Evidence use where applicable;
 - physical-original status where relevant.
 
-The existence of a scan does not prove possession of the physical original.
+The existence of a scan does not prove possession of the physical original, and an Artifact representation does not replace the authority of the official Document or record.
 
 ---
 
@@ -1587,8 +1598,11 @@ MarkReg Strategy and Recommendation
   ├── jurisdiction candidates
   ├── class candidates
   ├── goods/services candidates
-  ├── risk explanation
+  ├── search and risk requirement
   └── expected cost and route
+        │
+        ▼
+Proposal and Quote
         │
         ▼
 Formal Intake
@@ -1603,7 +1617,12 @@ Formal Intake
   └── missing context
         │
         ▼
-Validation and Commercial Confirmation
+Commercial Instruction and
+Order / Matter Formalization
+through the appropriate Owning Services
+        │
+        ▼
+Validation and Filing Preparation
         │
         ▼
 Provider and Capability Preparation
@@ -1612,16 +1631,23 @@ Provider and Capability Preparation
 Filing Package / Prepared Action
         │
         ▼
-Human Review and Approval
+Human Review
+        │
+        ▼
+Filing Approval Where Required
         │
         ▼
 Governed Execution
         │
         ▼
-Owning Service / Filing Connector / Provider
+Filing-Capable Owning Service
         │
         ▼
-Official Acknowledgement and Lifecycle Events
+Governed Connector or Authorized Provider Route
+        │
+        ▼
+Official System, Acknowledgement,
+and Lifecycle Events
         │
         ▼
 Examination / Publication / Opposition /
@@ -2001,6 +2027,8 @@ What should be protected?
 Where should it be protected?
 
 Which classes and items matter?
+
+What search or risk assessment is required?
 
 Which information and documents are missing?
 

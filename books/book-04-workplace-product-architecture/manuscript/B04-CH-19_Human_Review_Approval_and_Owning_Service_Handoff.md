@@ -700,7 +700,9 @@ Provider acceptance is one input into the organization’s decision and Routing 
 
 Approval means:
 
-> an explicit authorization by an eligible human or governed authority for a defined action, consequence, scope, version, target, and validity period.
+> an explicit authorization by an eligible human acting under a governed organizational, client, or professional approval authority for a defined action, consequence, scope, version, target, and validity period.
+
+Permission and Policy decisions may gate the action, but they are not substitutes for human Approval where Approval is required.
 
 Approval may authorize:
 

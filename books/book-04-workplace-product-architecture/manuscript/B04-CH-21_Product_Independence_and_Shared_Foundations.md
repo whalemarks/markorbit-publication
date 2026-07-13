@@ -835,7 +835,7 @@ The copy should preserve:
 - staleness;
 - mutation route.
 
-A local copy must not become editable formal truth unless the local component is itself the authorized Owning Service.
+A local copy must not become authoritative formal business state unless the local component is itself the authorized Owning Service.
 
 ---
 
@@ -1537,15 +1537,15 @@ The constitutional outcome is:
 ```text
 Products own their journeys.
 
-Workplace owns organizational context.
+Workplace preserves and provides authorized organizational context.
 
-Core owns shared meaning.
+Core defines shared meaning.
 
-Execution owns governed coordination.
+Execution governs coordinated work.
 
-Owning Services own formal mutation.
+Owning Services change formal business facts.
 
-Humans own professional judgment.
+Humans remain accountable for professional judgment.
 
 Shared foundations connect the system
 without turning it into a monolith.

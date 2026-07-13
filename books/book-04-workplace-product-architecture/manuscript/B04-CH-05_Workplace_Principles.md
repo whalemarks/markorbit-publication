@@ -736,7 +736,7 @@ Organizational autonomy requires authorized context.
 
 Authorized context requires privacy and purpose limitation.
 
-Candidate-before-canonical requires Human Review.
+Candidate-before-canonical requires professional validation and governed review.
 
 Human accountability requires governed Execution.
 
