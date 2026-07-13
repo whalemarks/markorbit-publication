@@ -11,8 +11,22 @@ publication:
   series: MarkOrbit Architecture Publications
   project: MarkOrbit
   project_cn: 有标国际商标平台
-  status: canonical_draft
+  status: frozen_core_specification_baseline
   version: 0.1.0
+  baseline:
+    id: B02-BASELINE-V0.1
+    content_baseline_commit: a0a31c9a784854c8943eee448337cb91ad316bb4
+    content_baseline_source: "Merge of PR #22"
+    freeze_effective_upon_merge: PUB-TASK-B02-FREEZE
+    semantic_change_mode: explicit_change_proposal_only
+    maintenance_change_mode: non_semantic_errata_only
+    recommended_tag: book-02-core-baseline-v0.1
+  next_workstreams:
+    - Book 04 implementation architecture
+    - markorbit-core development and conformance backlog
+    - Mo Lite product development
+    - MarkReg trademark workflow development
+    - Mo Crawl and information/value architecture
   language: en
   owner: MarkOrbit Publications Editorial Board
   created_from:

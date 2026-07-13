@@ -26,8 +26,17 @@ pub_task_b02_002:
 # PUB-TASK-B02-003 dependency status
 pub_task_b02_003:
   status_workflow_contract_fixture_coverage: resolved_upon_merge
-  next_implementation_gate: "Book 02 typed implementation mapping"
+  next_implementation_gate: "Book 04 implementation architecture and project repositories"
   owner_accepted_complete_draft_1: true
   ready_for_final_publication: false
+  ready_for_unrestricted_implementation: false
+  external_protected_action_authorized: false
+
+# Book 02 frozen baseline dependency
+book_02_baseline:
+  id: B02-BASELINE-V0.1
+  status: frozen_upon_merge_of_pub_task_b02_freeze
+  content_baseline_commit: a0a31c9a784854c8943eee448337cb91ad316bb4
+  semantic_change_mode: explicit_change_proposal_only
   ready_for_unrestricted_implementation: false
   external_protected_action_authorized: false

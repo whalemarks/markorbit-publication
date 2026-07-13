@@ -41,6 +41,27 @@ Prepare Book 03 for final publication through:
 
 Book 02 status-value and workflow-component specification pack remains a separate implementation-readiness gate.
 
+## Phase 7: Book 02 Core Specification Baseline Freeze
+
+Book 02 v0.1 is frozen after acceptance and merge
+of PUB-TASK-B02-003 and PUB-TASK-B02-FREEZE.
+
+The normative content baseline is:
+a0a31c9a784854c8943eee448337cb91ad316bb4.
+
+No further Book 02 structural expansion is planned
+in the active roadmap.
+
+Future active workstreams:
+
+- Book 04 implementation architecture
+- markorbit-core development
+- Mo Information & Value Stack
+- Mo Crawl
+- Mo Lite
+- MarkReg
+- future cross-project conformance review
+
 ## Future Planning Notes
 
 - Intake 001 is accepted for future publication planning: Book 01 may receive architecture-principle notes for Distillery and the Artifact / Render / Edit / Publish chain; Book 02 remains limited to future boundary notes with no MVP or Core-spec expansion; Book 03 may consider future execution-planning boundaries; Book 04 product surfaces remain future-only; Tech Radar remains research-only. These ideas are not added to active release scope by this note.
@@ -53,4 +74,11 @@ PUB-TASK-B02-002 adds four Controlled State Value Specifications and two Workflo
 
 ## PUB-TASK-B02-003
 
-Added Book 02 status/workflow contract and deterministic fixture coverage. Next gate: Book 02 typed implementation mapping. External protected action remains unauthorized.
+Added Book 02 status/workflow contract and deterministic fixture coverage.
+
+Book 02 structural coverage is complete.
+
+Typed implementation mapping and implementation architecture
+move to Book 04 and relevant code repositories.
+
+External protected action remains unauthorized.

@@ -623,4 +623,20 @@ Immediate next actions:
 
 ---
 
+## Book 02 v0.1 baseline freeze
+
+- PR #22 merged as the content baseline for the Book 02 v0.1 Core specification.
+- Content baseline commit: `a0a31c9a784854c8943eee448337cb91ad316bb4`.
+- Status/Workflow contract and fixture coverage is accepted.
+- Book 02 structural work is closed.
+- Book 02 is frozen as the v0.1 Core specification baseline.
+- Future non-semantic errata remain allowed through labeled maintenance changes.
+- Semantic changes require a Book 02 Change Proposal.
+- Implementation architecture moves to Book 04.
+- Project-specific work moves to relevant project repositories.
+- External protected actions remain unauthorized.
+
+Historical next-action entries remain as publication history
+and are superseded by this baseline freeze record.
+
 **End of CHANGELOG**
