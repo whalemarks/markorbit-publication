@@ -2,14 +2,14 @@
 
 This is the unified MarkOrbit publication repository.
 
-It is a publication, specification and architecture-governance repository, not a software product repository. Its purpose is to manage the publication structure, governance, shared editorial assets, review workflow, release artifacts and owner-approved MarkOrbit architecture records for multiple MarkOrbit books.
+It is a publication, specification, and architecture-governance repository, not a software Product repository. Its purpose is to manage publication structure, governance, shared editorial assets, review workflow, release artifacts, and owner-approved MarkOrbit architecture records across the book series.
 
 ## Repository Layout
 
-- `architecture/` records owner-approved architecture canon, decision registers and open questions.
-- `books/` stores MarkOrbit books. Each book lives under `books/` in its own book directory.
+- `architecture/` records owner-approved architecture canon, decision registers, and open questions.
+- `books/` stores MarkOrbit books. Each book lives under `books/` in its own canonical directory.
 - `shared/` stores shared publication assets, including glossary material, style guidance, templates, and diagrams.
-- `reviews/` stores review-round materials and editorial review records.
+- `reviews/` stores repository-level review-round materials and editorial review records.
 - `release/` stores draft, release-candidate, and published release artifacts.
 - `codex/` stores explicit Codex prompts, tasks, and reports for repository maintenance work.
 
@@ -21,18 +21,25 @@ The Canon establishes `Orbital` as the primary architecture language, records �
 
 ## Publication Responsibility
 
-This repository coordinates publication-level structure, specifications and governance across the MarkOrbit book series. Individual books retain responsibility for their own manuscripts and book-specific specifications.
-
-## Book Content
-
-Existing book content is preserved. Book migration, manuscript cleanup, architecture changes and product implementation are handled only through explicit future tasks.
+This repository coordinates publication-level structure, specifications, and governance across the MarkOrbit book series. Individual books retain responsibility for their own manuscripts and book-specific specifications.
 
 ## Current Book Status
 
-- Book 01 — MarkOrbit — The Operating System for Global Brand Services (`books/book-01-operating-system/`) is an existing draft; publication maturity was not reassessed by the Architecture Canon vNext task.
+- Book 01 — MarkOrbit — The Operating System for Global Brand Services (`books/book-01-operating-system/`) is an existing draft; publication maturity has not been reassessed.
 - Book 02 — MarkOrbit Core Specification (`books/book-02-core-specification/`) is the Frozen Core Specification Baseline v0.1.
-- Book 03 — MarkOrbit Execution System (`books/book-03-execution-system/`) is Complete Draft 1 / Owner Accepted, pending final publication preparation, and not execution-ready pending dependency review.
-- Book 04 — MarkOrbit Workplace and Product Architecture ([`books/book-04-workplace-product-architecture/`](books/book-04-workplace-product-architecture/README.md)) is Chapter Map Owner Accepted; architecture direction locked; manuscript not started.
+- Book 03 — MarkOrbit Execution System (`books/book-03-execution-system/`) is Complete Draft 1 / Owner Accepted, pending final publication preparation and separate implementation-readiness work.
+- Book 04 — MarkOrbit Workplace and Product Architecture ([`books/book-04-workplace-product-architecture/`](books/book-04-workplace-product-architecture/README.md)) has CH00–CH27 drafted and architecture/editorially reviewed. Front Matter and Parts I–IV are paused for consolidated owner review before any Part V drafting.
 - Book 05 — MarkReg (`books/book-05-markreg/`) is planned.
 - Book 06 — MarkOrbit Lite (`books/book-06-markorbit-lite/`) is planned.
 - Book 07 — Mark Global Service Network (`books/book-07-mark-global-service-network/`) is planned.
+
+## Current Book 04 Gate
+
+```text
+CH00–CH27 reviewed
+→ consolidated owner review
+→ targeted revision or acceptance
+→ owner decision on CH28–CH39 drafting
+```
+
+Book 04 is not ready for final publication, unrestricted implementation, production deployment, or external protected action.
