@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-07-13
+
+- Recorded owner confirmation of Architecture Canon vNext as an Owner Confirmed Canonical Working Baseline.
+- Adopted the MarkOrbit Orbital Professional Operating Architecture as the primary architecture language.
+- Recorded the canonical principle “各行其道，彼此牵引，共同演进”.
+- Repositioned Book 04 as MarkOrbit Workplace and Product Architecture.
+- Realigned the publication registry, roadmap and repository map around Book 01–07.
+- Preserved Book 02 as the Frozen Core Specification Baseline v0.1 with future semantic changes still requiring Change Proposal governance.
+- Confirmed that no implementation, production deployment or external protected action was authorized.
+
+
 ## 2026-07-12
 
 - Recorded the Book 02 status/transition classification lock: four Status concepts are no longer independent Core Objects, Workflow State and Workflow Transition are Workflow Contract Components, and follow-up specification packs remain required.
