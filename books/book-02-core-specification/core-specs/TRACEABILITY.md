@@ -409,4 +409,11 @@ This Traceability Matrix is accepted only if:
 
 Canonical chain: classification decision -> controlled state/component spec -> parent object -> owning service -> API/contract -> future fixture -> future typed implementation. Status values flow from Controlled State Value Specification to parent object status field to owning Service consumed canonical values.
 
+## Status and Workflow Contract Fixture Traceability
+
+| Source | Contract | Consumer | Mutation authority | Fixture | Validator | Future implementation |
+| --- | --- | --- | --- | --- | --- | --- |
+| Controlled State Value Specification | Domain Status Contract | Domain API Contract | Owning Service mutation | Status fixture | `tools/validate_status_workflow_contract_fixtures.py` | Future typed implementation |
+| Workflow Component Specification | Workflow Component Contract | Workflow Contract and Workflow Contract API Contract | Owning Service for target object mutation | Workflow fixture | `tools/validate_status_workflow_contract_fixtures.py` | Future typed implementation |
+
 **End of Core Traceability Matrix**

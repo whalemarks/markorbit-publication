@@ -1230,4 +1230,8 @@ This Workflow Contract Tests file is accepted only if:
 
 ---
 
+## Status Workflow Fixture Coverage
+
+Contract tests consume the [Status Workflow Fixture Pack](../fixtures/status-workflow/index.md). Status matrix tests consume the four canonical matrix fixtures. API tests distinguish transition decision from performed result. Workflow tests require `mutation_performed=false`. Invalid transitions, missing permission/policy/review/approval, unsupported versions, protected external action, and idempotent replay duplication all fail closed.
+
 **End of Workflow Contract Tests**

@@ -174,6 +174,8 @@ No independent status object, runtime implementation, endpoint, production data,
 
 All 27 sections exist; metadata links resolve; values/matrix match CSV spec and matrix fixture; fixture and validator semantic checks pass.
 
+TaskReopened may be emitted as a separate companion Event by Task Service, correlated through the same audit/correlation context. TaskReopened is not part of status_transition_result v0.1.0 and is not a Task status.
+
 # 27. Revision Notes
 
 0.1.0 Draft; completed by PUB-TASK-B02-003-FIX-01.

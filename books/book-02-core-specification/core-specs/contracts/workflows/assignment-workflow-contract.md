@@ -1317,4 +1317,8 @@ This Assignment Workflow Contract is accepted only if:
 
 ---
 
+## Workflow Component Contract Consumption
+
+State Definitions conform to [Workflow State Definition Contract](components/workflow-state-definition-contract.md). Transition Definitions conform to [Workflow Transition Definition Contract](components/workflow-transition-definition-contract.md). Workflow validation does not perform domain mutation; owning Services remain mutation authorities. This reference does not change MVP Depth, does not promote preview-only workflows, does not send Communication Review output, does not submit Trademark Applications, and does not add protected external action.
+
 **End of Assignment Workflow Contract**

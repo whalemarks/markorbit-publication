@@ -242,6 +242,22 @@
       "path": "workflow/unsupported-contract-version.json",
       "target_contract_id": "B02-CONTRACT-WORKFLOW-TRANSITION-DEFINITION",
       "target_spec_id": "B02-WFC-TRANSITION-DEFINITION"
+    },
+    {
+      "case_type": "positive",
+      "fixture_id": "b02-workflow-valid-transition-definition-shape",
+      "fixture_type": "WorkflowTransitionDefinition",
+      "path": "workflow/valid-transition-definition-shape.json",
+      "target_contract_id": "B02-CONTRACT-WORKFLOW-TRANSITION-DEFINITION",
+      "target_spec_id": "B02-WFC-TRANSITION-DEFINITION"
+    },
+    {
+      "case_type": "negative",
+      "fixture_id": "b02-workflow-invalid-transition-definition-missing-owner",
+      "fixture_type": "WorkflowTransitionDefinition",
+      "path": "workflow/invalid-transition-definition-missing-owner.json",
+      "target_contract_id": "B02-CONTRACT-WORKFLOW-TRANSITION-DEFINITION",
+      "target_spec_id": "B02-WFC-TRANSITION-DEFINITION"
     }
   ],
   "synthetic": true

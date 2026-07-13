@@ -1286,4 +1286,14 @@ Order API Contract consumes `core-specs/controlled-state-values/order-status-val
 
 `POST /orders/{id}/accept` calls Order Service compatibility action semantics. Success returns canonical `Confirmed`; denial returns reason/requirement context and does not create `Rejected` status. Endpoint path remains unchanged and no endpoint is added.
 
+## Status Transition Contract Consumption
+
+Related Contracts: [Order Status Contract](../status/order-status-contract.md) and [Status Transition Contract](../status/status-transition-contract.md).
+
+Status Transition request validation consumes the shared `status_transition_request` shape. API validation responses consume `status_transition_decision`. Owner Service execution is required before a performed `status_transition_result` can exist. Generic PATCH or update semantics must not bypass the status contract, endpoint paths do not change, no endpoint is added, API does not directly mutate status, and responses must not return legacy statuses that conflict with the canonical status list.
+
+## Order Accept Compatibility
+
+The Order `/accept` compatibility action maps only `PendingConfirmation -> Confirmed` through [Order Status Contract](../status/order-status-contract.md); `Accepted` and `Rejected` are not Order statuses.
+
 **End of API Contract**

@@ -15,7 +15,6 @@
       "transition_request_reference_id": "transition_fixture_001"
     },
     "status_transition_result": {
-      "additional_event_type": "TaskReopened",
       "audit_reference_id": "audit_fixture_001",
       "correlation_id": "correlation_fixture_001",
       "decision_reference_id": "decision_fixture_001",

@@ -768,4 +768,10 @@ Deferred
 
 ---
 
+## Publication Fixture Source
+
+Publication canonical fixture source: `core-specs/contracts/fixtures/status-workflow/`.
+
+Future implementation fixtures inherit from or are generated from publication fixtures. Publication fixtures are not production runtime fixtures.
+
 **End of TASK-002 — Contract Fixture System**

@@ -23,9 +23,11 @@ pub_task_b02_002:
   ready_for_unrestricted_implementation: false
   external_protected_action_authorized: false
 
-Book 02 status/workflow contract and fixture coverage: resolved upon merge of PUB-TASK-B02-003.
-Next gate: Book 02 typed implementation mapping.
-Complete Draft 1 / Owner Accepted: YES.
-Ready for final publication: NO.
-Ready for unrestricted implementation: NO.
-External protected action authorized: NO.
+# PUB-TASK-B02-003 dependency status
+pub_task_b02_003:
+  status_workflow_contract_fixture_coverage: resolved_upon_merge
+  next_implementation_gate: "Book 02 typed implementation mapping"
+  owner_accepted_complete_draft_1: true
+  ready_for_final_publication: false
+  ready_for_unrestricted_implementation: false
+  external_protected_action_authorized: false

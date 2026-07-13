@@ -33,6 +33,13 @@ UNRESTRICTED IMPLEMENTATION READY: NO
 - Negative tests assert expected violation types.
 - No production data or secrets are present.
 - Protected external action remains unauthorized.
+- No undeclared result fields are accepted.
+- WorkflowTransitionDefinition fixtures are covered.
+- Canonical negative fixtures prove the stated defect.
+- Target Contract-to-Spec relationships are validated.
+- Exact request/decision/result fields and types are validated.
+- Contract registries and traceability are updated.
+- API/Workflow/Test consumers reference canonical contracts and fixtures.
 
 Next gate: Book 02 typed implementation mapping.
 

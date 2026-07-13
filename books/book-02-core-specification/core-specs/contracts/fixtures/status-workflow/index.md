@@ -10,6 +10,6 @@ Validation spec: [status-workflow-contract-fixture-validation.md](../../../valid
 | Order status | 5 | 3 | 2 | B02-CONTRACT-STATUS-ORDER | B02-CSV-ORDER-STATUS |
 | Matter status | 5 | 3 | 2 | B02-CONTRACT-STATUS-MATTER | B02-CSV-MATTER-STATUS |
 | Task status | 5 | 4 | 1 | B02-CONTRACT-STATUS-TASK | B02-CSV-TASK-STATUS |
-| Workflow components | 10 | 2 | 8 | B02-CONTRACT-WORKFLOW-* | B02-WFC-* |
+| Workflow components | 12 | 3 | 9 | B02-CONTRACT-WORKFLOW-* | B02-WFC-* |
 
-Total case fixtures: 30. Matrix fixtures: 4. StatusTransition fixtures: 16. Workflow fixtures: 10.
+Total case fixtures: 32. Matrix fixtures: 4. StatusTransition fixtures: 16. Workflow fixtures: 12, including 2 WorkflowTransitionDefinition fixtures.
