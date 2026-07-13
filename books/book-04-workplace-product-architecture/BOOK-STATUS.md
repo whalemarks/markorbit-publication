@@ -1,19 +1,22 @@
 # Book 04 Status
 
 Status:
-Chapter Map Owner Accepted
+Pack 01 Drafting in Progress
 
 Architecture direction:
 Owner Confirmed
 
 Manuscript:
-Not Started
+Draft 1 in Progress
 
 Chapter map:
 B04-TOC-V0.1 — Owner Accepted
 
 First writing pack:
-B04-PACK-01 — briefs approved upon merge; drafting not started
+B04-PACK-01 — drafting in progress
+
+Current drafted chapter:
+B04-CH-02 — Why Workplace Exists — Draft 1; editorial review pending
 
 Book 02 semantic change:
 Not authorized
@@ -30,18 +33,19 @@ Not authorized
 - Scope and non-goals recorded.
 - Governance created.
 - Dependency map created.
-- Provisional TOC created.
 - Chapter writing gates created.
 - Chapter map B04-TOC-V0.1 owner accepted.
-- Pack 01 chapter briefs created and approved upon merge.
+- Pack 01 chapter briefs approved.
 - Writing-pack plan created; Pack 02–06 remain planned only.
+- B04-CH-02 — Why Workplace Exists completed as Draft 1.
 
 ## Remaining Gates
 
-1. Controlled drafting of Pack 01 in a separate task and PR.
-2. Pack 01 part review.
-3. Pack 02–06 chapter-brief approval.
-4. Controlled drafting of Pack 02–06.
-5. Cross-book consistency review.
-6. Full-book editorial review.
-7. Final publication gate.
+1. Editorial review and owner acceptance of B04-CH-02.
+2. Controlled drafting of B04-CH-03 through B04-CH-06.
+3. Drafting of B04-CH-00 after Part I content stabilizes.
+4. Pack 01 part review.
+5. Pack 02–06 chapter-brief approval and controlled drafting.
+6. Cross-book consistency review.
+7. Full-book editorial review.
+8. Final publication gate.
