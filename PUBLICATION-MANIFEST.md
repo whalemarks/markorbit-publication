@@ -22,12 +22,12 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](arc
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | `books/book-01-operating-system/` | Existing Draft; publication maturity not reassessed |
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Complete Draft 1 / Owner Accepted |
-| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Planned |
+| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Scaffolded Planning Baseline |
 | Book 05 | MarkReg | `books/book-05-markreg/` | Planned |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
-Planned missing Book 04–07 directories are expected to produce warnings only, not validation errors. They must not be created by PUB-TASK-ARCH-001.
+Planned missing Book 05–07 directories are expected to produce warnings only, not validation errors.
 
 ## Planned Book Positioning
 
@@ -63,7 +63,7 @@ Canonical path: `books/book-04-workplace-product-architecture/`
 
 Positioning: Defines how an independent professional organization establishes its own operating orbit and consumes MarkOrbit Core, Execution, knowledge, intelligence, capabilities, products and network services through its Workplace.
 
-Publication state: Planned. The Book 04 directory and manuscript scaffold are deferred to a separate task.
+Publication state: Scaffolded Planning Baseline. See [Book 04 README](books/book-04-workplace-product-architecture/README.md) and [Book 04 Manifest](books/book-04-workplace-product-architecture/BOOK-MANIFEST.md). Manuscript writing has not begun.
 
 ### Book 05 — MarkReg
 
