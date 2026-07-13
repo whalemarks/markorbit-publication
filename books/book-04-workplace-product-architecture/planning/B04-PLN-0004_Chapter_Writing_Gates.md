@@ -17,7 +17,7 @@ Writing gates
 
 ## Gate 1 — Owner TOC Review
 
-COMPLETE upon merge.
+COMPLETE.
 
 The accepted chapter map is B04-TOC-V0.1, CH00–CH39, six parts.
 
@@ -55,13 +55,22 @@ One branch per controlled pack, not one branch per chapter.
 
 ## Gate 4 — Controlled Drafting
 
-NEXT for Pack 01.
+IN PROGRESS for Pack 01.
 
-Only a later controlled drafting task may create CH00 and CH02–CH06 prose. CH01 is already present and is not rewritten as prose.
+```text
+B04-CH-02 — Draft 1 completed; editorial review pending
+B04-CH-03 through B04-CH-06 — pending
+B04-CH-00 — pending until Part I stabilizes
+B04-CH-01 — accepted TOC; not rewritten as prose
+```
+
+No Part II chapter is authorized for drafting under this gate.
 
 ## Gate 5 — Part Reviews
 
-Architecture, terminology and cross-book checks.
+NEXT after all Pack 01 chapter drafts are complete.
+
+Architecture, terminology, repetition, progression and cross-book boundaries must be reviewed across the full Part I pack.
 
 ## Gate 6 — Full-Book Review
 
