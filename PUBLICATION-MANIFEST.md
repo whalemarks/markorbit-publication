@@ -2,20 +2,50 @@
 
 ## Repository Purpose
 
-The MarkOrbit publication repository is the unified publication home for MarkOrbit books, shared editorial assets, review materials, release artifacts, and Codex task records.
+The MarkOrbit publication repository is the unified publication home for MarkOrbit books, shared editorial assets, review materials, release artifacts, architecture decisions, governance records and Codex task records.
 
-This repository manages publication structure and governance. It does not independently define or rewrite MarkOrbit architecture.
+The repository records owner-approved canonical architecture and publications, but editorial or implementation convenience must not silently redefine architecture.
+
+## Architecture Authority
+
+Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](architecture/MARKORBIT-ORBITAL-ARCHITECTURE-CANON-vNEXT.md).
+
+- Version: vNext
+- Status: Owner Confirmed Canonical Working Baseline
+- Effective date: 2026-07-13
+- Authority: Repository-level MarkOrbit architecture governance
 
 ## Book Registry
 
 | Book | Title | Canonical Path | Status |
 |---|---|---|---|
-| Book 01 | MarkOrbit Architecture Canon | `books/book-01-operating-system/` | Planned |
-| Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Migrated |
+| Book 01 | MarkOrbit — The Operating System for Global Brand Services | `books/book-01-operating-system/` | Existing Draft; publication maturity not reassessed |
+| Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Complete Draft 1 / Owner Accepted |
-| Book 04 | MarkOrbit Product System | `books/book-04-product-system/` | Planned |
+| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Planned |
+| Book 05 | MarkReg | `books/book-05-markreg/` | Planned |
+| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
+| Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
+
+Planned missing Book 04–07 directories are expected to produce warnings only, not validation errors. They must not be created by PUB-TASK-ARCH-001.
 
 ## Planned Book Positioning
+
+### Book 01 — MarkOrbit — The Operating System for Global Brand Services
+
+Canonical path: `books/book-01-operating-system/`
+
+Positioning: Defines industry vision and Operating System principles.
+
+Publication state: Existing Draft; publication maturity not reassessed by PUB-TASK-ARCH-001.
+
+### Book 02 — MarkOrbit Core Specification
+
+Canonical path: `books/book-02-core-specification/`
+
+Positioning: Defines shared Core semantics, objects, services and contracts.
+
+Baseline ID: B02-BASELINE-V0.1. Version: 0.1.0. Status: Frozen Core Specification Baseline. Future semantic change requires the existing Book 02 Change Proposal process.
 
 ### Book 03 — MarkOrbit Execution System
 
@@ -23,24 +53,32 @@ Chinese title: Book 03 — MarkOrbit 执行系统
 
 Canonical path: `books/book-03-execution-system/`
 
-Positioning: Defines how Core contracts become governed operational execution.
+Positioning: Defines how approved Core contracts become governed operational execution.
 
-Book 03 defines how MarkOrbit turns Core contracts into governed operational execution across workflows, tasks, reviews, communications, events and human-AI collaboration.
+Publication state: Complete Draft 1 / Owner Accepted; pending final publication preparation. Final publication readiness, implementation readiness and external protected-action authority remain separate states and are not approved.
 
-Book 03 定义 MarkOrbit 如何把 Core 契约转化为可治理的业务执行，覆盖工作流、任务、审查、通信、事件追踪以及人机协同执行边界。
+### Book 04 — MarkOrbit Workplace and Product Architecture
 
-Publication state: Complete Draft 1 / Owner Accepted; pending final publication preparation.
-Manuscript completion: Complete Draft 1.
-Owner acceptance: approved upon merge of PUB-TASK-B03-002.
-Final publication readiness: not yet approved.
-Implementation readiness: not execution-ready pending dependency review.
-External protected action authority: not authorized.
-Book 02 dependency review remains required before Execution readiness.
+Canonical path: `books/book-04-workplace-product-architecture/`
 
-## Current Canonical Book Path for Book 02
+Positioning: Defines how an independent professional organization establishes its own operating orbit and consumes MarkOrbit Core, Execution, knowledge, intelligence, capabilities, products and network services through its Workplace.
 
-The current canonical publication path for Book 02 is:
+Publication state: Planned. The Book 04 directory and manuscript scaffold are deferred to a separate task.
 
-`books/book-02-core-specification/`
+### Book 05 — MarkReg
 
-Book 02 content has been migrated into the canonical publication path.
+Canonical path: `books/book-05-markreg/`
+
+Positioning: Future publication subject for the flagship international trademark domain application and managed professional-service ecosystem showcase.
+
+### Book 06 — MarkOrbit Lite
+
+Canonical path: `books/book-06-markorbit-lite/`
+
+Positioning: Future publication subject for the lightweight Workplace for trademark professionals.
+
+### Book 07 — Mark Global Service Network
+
+Canonical path: `books/book-07-mark-global-service-network/`
+
+Positioning: Future publication subject for the service-routing, capability and trust network connecting independent Workplaces.
