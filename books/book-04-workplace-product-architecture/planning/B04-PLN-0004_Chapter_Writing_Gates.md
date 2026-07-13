@@ -2,7 +2,7 @@
 
 ## Gate 0 — Scaffold
 
-This task.
+COMPLETE.
 
 Required result:
 
@@ -17,11 +17,15 @@ Writing gates
 
 ## Gate 1 — Owner TOC Review
 
-Required before chapter drafting.
+COMPLETE upon merge.
+
+The accepted chapter map is B04-TOC-V0.1, CH00–CH39, six parts.
 
 ## Gate 2 — Chapter Briefs
 
-Each chapter must receive:
+COMPLETE for Pack 01 only.
+
+Each chapter brief must receive:
 
 - purpose;
 - questions answered;
@@ -32,13 +36,11 @@ Each chapter must receive:
 - expected cross-references;
 - review conditions.
 
+Pack 02–06 briefs are not yet approved.
+
 ## Gate 3 — Writing-Pack Plan
 
-Group chapters into controlled packs.
-
-Do not default to one branch per chapter.
-
-Recommended future pack direction:
+COMPLETE for Pack 01; Pack 02–06 remain planned.
 
 ```text
 Pack 1: Front Matter and Part I
@@ -49,11 +51,13 @@ Pack 5: Part V
 Pack 6: Part VI
 ```
 
-This grouping is provisional.
+One branch per controlled pack, not one branch per chapter.
 
 ## Gate 4 — Controlled Drafting
 
-Only after owner acceptance of the chapter map and briefs.
+NEXT for Pack 01.
+
+Only a later controlled drafting task may create CH00 and CH02–CH06 prose. CH01 is already present and is not rewritten as prose.
 
 ## Gate 5 — Part Reviews
 

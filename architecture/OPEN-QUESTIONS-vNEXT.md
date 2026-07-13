@@ -9,7 +9,6 @@ These questions do not reopen settled architecture in the [MarkOrbit Orbital Arc
 
 | ID | Question | Gate |
 | --- | --- | --- |
-| OQ-001 | Exact Book 04 chapter-level TOC. | PUB-TASK-B04-001 and later Book 04 planning. |
 | OQ-002 | Exact contracts for Structured Information and Derived Value Candidates. | Future horizontal Architecture Specification. |
 | OQ-003 | Local Vault architecture and permitted synchronization modes. | Future Local Vault Architecture gate. |
 | OQ-004 | Capability and Skill approval ownership. | Future Capability and Skill Governance gate. |
@@ -22,3 +21,19 @@ These questions do not reopen settled architecture in the [MarkOrbit Orbital Arc
 | OQ-011 | First MarkReg implementation slice. | Future MarkReg product planning. |
 | OQ-012 | Findings from the future repository Canonical Alignment Audit. | Audit gate before broad implementation work. |
 | OQ-013 | Future Book 01–03 cross-book reconciliation. | Publication reconciliation gate. |
+
+
+## Resolved Questions
+
+### OQ-001
+
+Exact Book 04 chapter-level TOC.
+
+Resolution:
+Resolved by B04-REV-0001 and PUB-TASK-B04-002.
+
+Accepted map:
+B04-TOC-V0.1, CH00–CH39, six parts.
+
+Future changes:
+Explicit Book 04 change-control task required.
