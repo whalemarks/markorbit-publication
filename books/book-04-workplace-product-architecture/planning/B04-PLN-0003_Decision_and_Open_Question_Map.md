@@ -2,6 +2,8 @@
 
 ## Relevant Existing ARC Decisions
 
+The [Architecture Decision Register vNext](../../../architecture/DECISION-REGISTER-vNEXT.md) is authoritative if this summary map and the register ever differ.
+
 - ARC-001 — MarkOrbit Operating System is the total architecture.
 - ARC-002 — Orbital is the primary architecture metaphor.
 - ARC-003 — Each Organization Workplace is an independent Orbit.
@@ -15,20 +17,20 @@
 - ARC-012 — MGSN is private-first and is not an open bidding marketplace.
 - ARC-013 — Information, Knowledge and Value are distinct cycles.
 - ARC-014 — Capability and Skill are distinct.
-- ARC-015 — Distillery output remains candidate knowledge until validated.
-- ARC-016 — Recommendations are not Tasks or Opportunities until accepted.
-- ARC-017 — AI may assist but not own professional authority.
-- ARC-018 — Human Review remains mandatory for protected professional decisions.
-- ARC-019 — Communication send is separate from draft preparation.
-- ARC-020 — Filing, submission, payment, provider instruction and recordal are protected actions.
+- ARC-015 — AI Agents do not own formal business state.
+- ARC-016 — Workflow is governed execution, not UI flow or prompt chaining.
+- ARC-017 — Artifact is cross-product and is not identical to Document.
+- ARC-018 — Delivery and Publish are distinct.
+- ARC-019 — Lead remains product-level until separately validated.
+- ARC-020 — Formal Opportunity remains owned by its Core/Owning Service boundary.
 - ARC-021 — Product Loop First, Shared Platform Extraction Second.
-- ARC-022 — Local and private data boundaries must be explicit.
-- ARC-023 — Artifact is not identical to Document.
-- ARC-024 — Products consume shared foundations without becoming the foundation.
-- ARC-025 — Horizontal planes do not become replacement architecture layers.
-- ARC-026 — Book 02 remains the frozen Core Specification Baseline v0.1.
-- ARC-027 — Book 03 remains the governed Execution baseline.
-- ARC-028 — Repository Canonical Alignment Audit precedes broad implementation work.
+- ARC-022 — Candidate states must precede canonical or approved states.
+- ARC-023 — Book 04 becomes Workplace and Product Architecture.
+- ARC-024 — Book 05–07 cover MarkReg, Lite and MGSN.
+- ARC-025 — The publication and repository maps are not one-to-one.
+- ARC-026 — Book 02 remains frozen.
+- ARC-027 — External protected action remains unauthorized.
+- ARC-028 — “各行其道，彼此牵引，共同演进” is a canonical MarkOrbit principle.
 
 ## Book 04 Scaffold Decisions
 

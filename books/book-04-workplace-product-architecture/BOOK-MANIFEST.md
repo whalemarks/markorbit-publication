@@ -29,6 +29,10 @@
 - `planning/B04-PLN-0004_Chapter_Writing_Gates.md`
 - `reviews/README.md`
 
+## Repository Task Record
+
+- `codex/tasks/PUB-TASK-B04-001-create-minimal-book-04-scaffold.md`
+
 ## Upstream Dependencies
 
 - Architecture Canon vNext.

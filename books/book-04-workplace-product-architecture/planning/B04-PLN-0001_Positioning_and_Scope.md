@@ -47,6 +47,16 @@ Code repositories may provide implementation and validation inputs. Code may dem
 
 ## Five Value Tests
 
+1. Reduce Missed Work
+2. Improve Professional Judgment
+3. Accelerate Service Conversion
+4. Improve Delivery Quality
+5. Accumulate Organizational Capability
+
+Every Book 04 architectural principle, product boundary or Workplace capability should support at least one of these values.
+
+## Book 04 Scope Review Questions
+
 1. Does the chapter preserve organizational autonomy?
 2. Does it consume Core and Execution without redefinition?
 3. Does it clarify a real Workplace or Product Architecture boundary?
