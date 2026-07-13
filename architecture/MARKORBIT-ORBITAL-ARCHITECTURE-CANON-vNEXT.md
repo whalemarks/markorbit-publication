@@ -416,7 +416,7 @@ A proposed feature or capability that cannot support at least one of these shoul
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | `books/book-01-operating-system/` | Existing Draft; publication maturity not reassessed |
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Complete Draft 1 / Owner Accepted |
-| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Scaffolded Planning Baseline |
+| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Chapter Map Owner Accepted |
 | Book 05 | MarkReg | `books/book-05-markreg/` | Planned |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
@@ -424,6 +424,10 @@ A proposed feature or capability that cannot support at least one of these shoul
 Planned missing Book 05–07 directories may produce manifest warnings, but they must not produce validation errors. Publication order does not determine software implementation order.
 
 ## Book 04 Direction
+
+Book 04 status:
+Chapter Map Owner Accepted
+
 
 # Book 04 — MarkOrbit Workplace and Product Architecture
 

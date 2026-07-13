@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-07-13 — Book 04 Chapter Map Owner Acceptance
+
+- Established `B04-TOC-V0.1` as the Owner Accepted Book 04 chapter map.
+- Locked the six-part structure and CH00–CH39 numbering.
+- Clarified CH10, CH25 and CH38 titles.
+- Recorded chapter-overlap and authority boundaries.
+- Resolved OQ-001 and approved Pack 01 briefs upon merge.
+- Kept manuscript status Not Started and authorized no implementation or protected action.
+
 ## 2026-07-13 — Book 04 Minimal Scaffold
 
 - Created the Book 04 minimal scaffold for MarkOrbit Workplace and Product Architecture.

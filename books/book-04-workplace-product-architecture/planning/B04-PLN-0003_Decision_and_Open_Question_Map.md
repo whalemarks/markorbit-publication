@@ -48,7 +48,7 @@ The six-part structure is the accepted book-level structure.
 
 ### B04-SCF-004
 
-The chapter-level TOC is provisional pending owner review.
+The chapter map B04-TOC-V0.1 is Owner Accepted.
 
 ### B04-SCF-005
 
@@ -75,17 +75,26 @@ No implementation or protected action is authorized.
 
 Chapter drafting requires a later approved task.
 
+### B04-SCF-011
+
+The chapter map B04-TOC-V0.1 is Owner Accepted.
+
+### B04-SCF-012
+
+Pack 01 is the first approved writing pack.
+
+### B04-SCF-013
+
+Pack 01 briefs do not themselves constitute manuscript prose.
+
 ## Unresolved Book 04 Questions
 
-- Exact chapter order and count.
-- Chapter brief format.
 - Local Vault depth.
 - Workplace editions depth.
 - Artifact implementation-model depth.
 - Lite/MarkReg/MGSN profile depth.
-- Required diagrams.
+- Required diagrams beyond Pack 01.
 - Appendix strategy.
-- Writing-pack grouping.
 - Architecture-specification cross-references.
 
 These remain future gates.

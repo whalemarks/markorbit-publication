@@ -32,7 +32,7 @@ Existing book content is preserved. Book migration, manuscript cleanup, architec
 - Book 01 — MarkOrbit — The Operating System for Global Brand Services (`books/book-01-operating-system/`) is an existing draft; publication maturity was not reassessed by the Architecture Canon vNext task.
 - Book 02 — MarkOrbit Core Specification (`books/book-02-core-specification/`) is the Frozen Core Specification Baseline v0.1.
 - Book 03 — MarkOrbit Execution System (`books/book-03-execution-system/`) is Complete Draft 1 / Owner Accepted, pending final publication preparation, and not execution-ready pending dependency review.
-- Book 04 — MarkOrbit Workplace and Product Architecture ([`books/book-04-workplace-product-architecture/`](books/book-04-workplace-product-architecture/README.md)) is Scaffolded Planning Baseline; architecture direction locked; manuscript not started.
+- Book 04 — MarkOrbit Workplace and Product Architecture ([`books/book-04-workplace-product-architecture/`](books/book-04-workplace-product-architecture/README.md)) is Chapter Map Owner Accepted; architecture direction locked; manuscript not started.
 - Book 05 — MarkReg (`books/book-05-markreg/`) is planned.
 - Book 06 — MarkOrbit Lite (`books/book-06-markorbit-lite/`) is planned.
 - Book 07 — Mark Global Service Network (`books/book-07-mark-global-service-network/`) is planned.

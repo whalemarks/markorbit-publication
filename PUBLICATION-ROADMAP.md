@@ -82,6 +82,21 @@ Phase 9 records that:
 - Repository Canonical Alignment Audit remains the next implementation gate;
 - no product implementation or protected action is authorized.
 
+## Phase 10 — Book 04 Chapter Map Owner Acceptance
+
+Book 04 chapter-map governance advances to Chapter Map Owner Accepted.
+
+Phase 10 records that:
+
+- the six-part structure is accepted;
+- `B04-TOC-V0.1` is established;
+- CH00–CH39 is locked;
+- OQ-001 is resolved;
+- Pack 01 briefs are approved upon merge;
+- manuscript writing is still not started;
+- Repository Canonical Alignment Audit remains a separate implementation gate;
+- no protected action is authorized.
+
 ## Active Future Workstreams
 
 - Architecture Canon maintenance
@@ -109,7 +124,7 @@ The following are reclassified as horizontal architecture/specification or imple
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | `books/book-01-operating-system/` | Existing Draft; publication maturity not reassessed |
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Complete Draft 1 / Owner Accepted |
-| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Scaffolded Planning Baseline |
+| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Chapter Map Owner Accepted |
 | Book 05 | MarkReg | `books/book-05-markreg/` | Planned |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |

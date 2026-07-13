@@ -1,8 +1,8 @@
 # Book 04 Reviews
 
-No Book 04 review has yet been completed.
+Completed Book 04 review records belong here.
 
-Future Book 04 review records belong here.
+- [B04-REV-0001 — Chapter Map Owner Review](B04-REV-0001_Chapter_Map_Owner_Review.md)
 
 Scaffold creation is not manuscript acceptance.
 

@@ -1,13 +1,24 @@
 book: "Book 04"
 title: "MarkOrbit Workplace and Product Architecture"
 canonical_path: "books/book-04-workplace-product-architecture/"
-status: "scaffolded_planning_baseline"
-phase: "book identity, scope, dependency and provisional chapter-map planning"
+status: "chapter_map_owner_accepted"
+phase: "chapter map owner acceptance and Pack 01 brief planning"
 positioning: "Defines how an independent professional organization establishes its own operating orbit and consumes MarkOrbit Core, Execution, knowledge, intelligence, capabilities, products and network services through its Workplace."
 manuscript_status: "not_started"
-provisional_toc: true
 architecture_direction_owner_confirmed: true
-next_publication_gate: "owner review of provisional chapter map and chapter briefs"
+chapter_map:
+  id: "B04-TOC-V0.1"
+  status: "owner_accepted"
+  owner_acceptance: true
+  chapter_range: "00-39"
+  substantive_chapters: 38
+  parts: 6
+first_writing_pack:
+  id: "B04-PACK-01"
+  scope: "Front Matter and Part I"
+  brief_status: "approved_upon_merge"
+  drafting_status: "not_started"
+next_publication_gate: "controlled drafting of Pack 01"
 next_implementation_gate: "repository canonical alignment audit"
 ready_for_final_publication: false
 ready_for_unrestricted_implementation: false

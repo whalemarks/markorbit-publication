@@ -2,7 +2,7 @@
 
 ## 1. Purpose
 
-Book 04 governs the Workplace and Product Architecture scaffold. It explains how independent professional organizations consume MarkOrbit Core, Execution, knowledge, intelligence, capabilities, products and network services through their Workplaces.
+Book 04 governs the Workplace and Product Architecture chapter map and planning baseline. It explains how independent professional organizations consume MarkOrbit Core, Execution, knowledge, intelligence, capabilities, products and network services through their Workplaces.
 
 ## 2. Source Precedence
 
@@ -60,7 +60,7 @@ MGSN connects independent organizational Orbits through capability, routing, evi
 - Use the canonical title: Book 04 — MarkOrbit Workplace and Product Architecture.
 - Preserve Book 02 frozen semantics and Book 03 Execution authority.
 - Do not write manuscript prose until a later approved drafting task.
-- Keep the TOC provisional until owner review.
+- Use B04-TOC-V0.1 as the Owner Accepted chapter map; future chapter additions, removals, renumbering or structural movement require explicit Book 04 change control.
 - Avoid product marketing, PRD language, implementation schemas and deployment architecture.
 
 ## 11. Change Control

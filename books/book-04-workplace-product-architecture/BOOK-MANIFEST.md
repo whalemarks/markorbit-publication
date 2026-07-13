@@ -4,16 +4,16 @@
 
 - **Title:** MarkOrbit Workplace and Product Architecture
 - **Canonical path:** `books/book-04-workplace-product-architecture/`
-- **Status:** Scaffolded Planning Baseline
+- **Status:** Chapter Map Owner Accepted
 - **Positioning:** Defines how an independent professional organization establishes its own operating orbit and consumes MarkOrbit Core, Execution, knowledge, intelligence, capabilities, products and network services through its Workplace.
-- **Current phase:** Book identity, scope, dependency and provisional chapter-map planning.
-- **Current gate:** Owner review of the provisional chapter map, followed by approved chapter briefs and writing-pack order.
+- **Current phase:** Book identity, scope, dependency and chapter-map owner acceptance and Pack 01 brief planning.
+- **Current gate:** Controlled drafting of Pack 01 in a separate task and PR.
 
 ## Directory Purpose
 
-- `manuscript/` — contains only the provisional Table of Contents created by this scaffold task.
+- `manuscript/` — contains only the accepted Table of Contents governed by B04-TOC-V0.1.
 - `planning/` — records Book 04 positioning, dependency, decision/open-question and writing-gate planning.
-- `reviews/` — reserved for future Book 04 review records.
+- `reviews/` — records Book 04 review decisions, including B04-REV-0001.
 
 ## File Inventory
 
@@ -27,11 +27,15 @@
 - `planning/B04-PLN-0002_Dependency_Map.md`
 - `planning/B04-PLN-0003_Decision_and_Open_Question_Map.md`
 - `planning/B04-PLN-0004_Chapter_Writing_Gates.md`
+- `planning/B04-PLN-0005_Pack_01_Chapter_Briefs.md`
+- `planning/B04-PLN-0006_Writing_Pack_Plan.md`
+- `reviews/B04-REV-0001_Chapter_Map_Owner_Review.md`
 - `reviews/README.md`
 
 ## Repository Task Record
 
 - `codex/tasks/PUB-TASK-B04-001-create-minimal-book-04-scaffold.md`
+- `codex/tasks/PUB-TASK-B04-002-lock-chapter-map-and-prepare-pack-01.md`
 
 ## Upstream Dependencies
 
