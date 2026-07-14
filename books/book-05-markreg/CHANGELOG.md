@@ -1,5 +1,21 @@
 # Book 05 Changelog
 
+## 2026-07-15 — PF-06C2 Part V Editorial Finishing
+
+- Edited CH30–CH36 against B05-PUB-0001 Controlled Editorial Standard v0.2.
+- Normalized CH30–CH36 metadata to Complete Draft 1 and B05-TOC-V0.1 — Owner Accepted.
+- Wrote `EL-23–EL-29` explicitly into the active Part V manuscript.
+- Reconciled Official Event Snapshot, Examination Context, Issue Set, Response Strategy and Response Package terminology.
+- Reconciled Publication Window, Adversarial Context, Remedy Context, Deadline Record, Outcome Snapshot and Communication Packet.
+- Replaced chapter-local scenario identifiers with the controlled `MR-SCN-01–41` registry.
+- Preserved US examination, EU opposition, UK publication closure and RIVERKITE cancellation-defense states independently.
+- Reduced Part V from approximately 3,438 lines to approximately 760 lines, about 78%.
+- Added B05-REV-0023 and accepted PF-06C2 manuscript work.
+- Recorded PF06C2-F01 for B05-SPEC-0002 Part V controlled-ID reconciliation under PF-06D.
+- Recorded PF-01B as complete through CH36 and open for CH37–CH47.
+- Authorized PF-06C3 — Part VI, CH37–CH42.
+- Kept PF-06 overall, figures, validation, RC1 and final publication open.
+
 ## 2026-07-15 — PF-06C1 Part IV Editorial Finishing
 
 - Edited CH23–CH29 against B05-PUB-0001 Controlled Editorial Standard v0.2.
