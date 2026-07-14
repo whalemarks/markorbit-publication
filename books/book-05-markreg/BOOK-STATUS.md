@@ -2,40 +2,38 @@
 
 ## Current State
 
-- **Status:** Part II Productization Complete — Part III Productization Pending
+- **Status:** CH00–CH22 Productization Closed — Part IV Authorized
 - **Title:** MarkReg: The Full-Lifecycle International Trademark Product
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
-- **Manuscript:** CH00–CH22 drafted; CH08–CH15 productized under B05-REVISION-PACK-001
+- **Manuscript:** CH00–CH22 drafted; CH08–CH22 productized
 - **Controlled specifications:** B05-SPEC-0001 through B05-SPEC-0004
 - **Architecture dependency:** MO-PUB-BASELINE-0001
-- **Current gate:** apply the Product contracts to CH16–CH22, then re-run the CH00–CH22 whole-draft review
+- **Current gate:** Part IV — Filing Preparation and Governed Execution, CH23–CH29
 
 ## Owner-Accepted Baseline
 
-The owner-accepted Book 05 baseline includes:
+The Book 05 baseline includes:
 
-- the working title;
-- MarkReg Product scope;
-- the seven-part structure;
-- B05-TOC-V0.1;
+- the working title and Product scope;
+- the seven-part structure and B05-TOC-V0.1;
 - the Part I Product constitution;
-- the controlled writing-pack sequence;
-- the requirement to preserve Books 01–04 authority boundaries.
+- the Books 01–04 authority boundaries;
+- the controlled Product artifact, reference-journey, scenario, jurisdiction-pack and commercial contracts;
+- the productized CH08–CH22 manuscript sequence.
 
 The chapter map remains subject to explicit Book 05 change control.
 
 ## Completed Work
 
-- Established the canonical Book 05 directory and governance records.
+- Established the canonical Book 05 governance and planning records.
 - Drafted CH00–CH22.
 - Completed writing-pack reviews B05-REV-0001 through B05-REV-0003.
-- Completed B05-REV-0004, the first CH00–CH22 whole-draft review.
-- Established B05-SPEC-0001 — Product Artifact and Decision Map.
-- Established B05-SPEC-0002 — Reference Journeys.
-- Established B05-SPEC-0003 — Conformance Scenarios and User-Surface Contract.
-- Established B05-SPEC-0004 — Minimum Jurisdiction-Pack and Commercial-Control Contract.
-- Productized CH08–CH15.
-- Completed B05-REV-0005 — Part II Productization Review.
+- Completed B05-REV-0004, the first whole-draft review.
+- Established B05-SPEC-0001 through B05-SPEC-0004.
+- Productized Part II, CH08–CH15, and completed B05-REV-0005.
+- Productized Part III, CH16–CH22, and completed B05-REV-0006.
+- Completed B05-REV-0007, the CH00–CH22 productization closure review.
+- Closed B05-REVISION-PACK-001.
 
 ## Current Decisions
 
@@ -47,11 +45,11 @@ MarkReg is an open provider marketplace: NO
 
 B05-TOC-V0.1 owner accepted: YES
 Seven-part structure retained: YES
-CH00–CH22 whole-draft review complete: YES
 Shared Product contracts established: YES
 Part II productization complete: YES
-Part III productization complete: NO
-Part IV authorized: NO
+Part III productization complete: YES
+CH00–CH22 closure review complete: YES
+Part IV authorized: YES
 
 Recommendation equals Decision: NO
 Product readiness equals approval: NO
@@ -61,53 +59,45 @@ Product projection equals official truth without source: NO
 AI may replace accountable Human Review: NO
 ```
 
-## Part II Productization Result
+## Productization Closure Result
 
 ```text
-Product questions: PASS
-Need Brief and Recommendation Set lineage: PASS
-Option Set and country-bundle behavior: PASS
-Filing-unit versioning: PASS
-Applicant and authority conflict handling: PASS
-Classification explanation: PASS
-Goods/services lineage and local variation: PASS
-Search and risk behavior: PASS
+Architecture conformance: PASS
+Product positioning: PASS
+Lifecycle progression: PASS
+Canonical artifact and decision model: PASS
+Reference-journey continuity: PASS
+Observable Product behavior: PASS
 User-surface definition: PASS
-Reference Journey A continuity: PASS
-Conformance scenarios: PASS
 Jurisdiction-pack dependency: PASS
-Metadata normalization: PASS
-Boundary-language consolidation: PASS
+Commercial-control model: PASS
+Editorial consolidation for Parts II–III: PASS
+CH00–CH22 continuation readiness: PASS
+Whole-Book publication readiness: NOT YET — later parts remain unwritten
 ```
 
-## Active Revision Pack
+## Closed Revision Pack
 
-B05-REVISION-PACK-001 — Whole-Draft Productization and Editorial Consolidation.
+B05-REVISION-PACK-001 — Whole-Draft Productization and Editorial Consolidation is closed.
 
-### Completed
+Completed outcomes:
 
-1. Canonical Product Artifact and Decision Map.
-2. Reference filing and contrasting lifecycle journeys.
-3. Scenario and user-surface contract.
+1. Product Artifact and Decision Map.
+2. Filing and contrasting lifecycle reference journeys.
+3. Conformance scenarios and user-surface contract.
 4. Reusable constitutional rules.
 5. Minimum jurisdiction-pack contract.
-6. Commercial-control contract.
-7. Part II CH08–CH15 manuscript application.
-8. Part II metadata normalization and review.
+6. Commercial-control model.
+7. Part II CH08–CH15 productization.
+8. Part III CH16–CH22 productization.
+9. Active metadata and review-state normalization.
+10. CH00–CH22 closure review and continuation decision.
 
-### Remaining
+Historical draft labels in unchanged CH00–CH07 headers are non-authoritative publication-cleanup items. This file and B05-TOC-V0.1 control current status.
 
-1. Productize Part III, CH16–CH22.
-2. Apply Quote, fee, payment, expiry, refund, and handoff controls to the manuscript.
-3. Extend Journey A through Proposal, Quote, Intake, documents, readiness, and handoff.
-4. Consolidate Part III repeated constitutional language.
-5. Normalize Part III metadata.
-6. Re-run the CH00–CH22 whole-draft review.
-7. Decide whether Part IV, CH23–CH29, may begin.
+## Authorized Next Writing Pack
 
-## Deferred Writing Pack
-
-Part IV — Filing Preparation and Governed Execution remains defined but not authorized:
+Part IV — Filing Preparation and Governed Execution:
 
 - CH23 — Filing Package as a Governed Artifact
 - CH24 — Professional Review and Filing Approval
@@ -116,6 +106,8 @@ Part IV — Filing Preparation and Governed Execution remains defined but not au
 - CH27 — Direct Connector, Provider Filing and Owning Service Boundaries
 - CH28 — Submission States, Acknowledgement and Official Evidence
 - CH29 — Failure, Retry, Duplicate Safety, Communication and Audit
+
+Part IV must continue the `EMBERLOOP` reference journey and apply B05-SPEC-0001 through B05-SPEC-0004.
 
 Ready for unrestricted implementation: **NO**
 
