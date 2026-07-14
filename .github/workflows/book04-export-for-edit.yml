@@ -1,4 +1,4 @@
-name: Export Book 04 for publication editing
+name: Export Book 01-04 for Book 04 publication editing
 
 on:
   pull_request:
@@ -17,19 +17,17 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
-      - name: Build Book 04 editing bundle
+      - name: Build Book 01-04 editing bundle
         run: |
-          tar -czf book04-editing-bundle.tar.gz \
-            books/book-04-workplace-product-architecture \
-            books/book-01-markorbit-operating-system \
-            books/book-02-markorbit-core \
-            books/book-03-markorbit-execution-system \
-            2>/dev/null || \
-          tar -czf book04-editing-bundle.tar.gz books/book-04-workplace-product-architecture
+          tar -czf book01-04-editing-bundle.tar.gz \
+            books/book-01-operating-system \
+            books/book-02-core-specification \
+            books/book-03-execution-system \
+            books/book-04-workplace-product-architecture
       - name: Upload editing bundle
         uses: actions/upload-artifact@v4
         with:
-          name: book04-editing-bundle
-          path: book04-editing-bundle.tar.gz
+          name: book01-04-editing-bundle
+          path: book01-04-editing-bundle.tar.gz
           if-no-files-found: error
           retention-days: 1
