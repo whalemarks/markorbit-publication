@@ -11,11 +11,11 @@ This directory contains owner, architecture, chapter-map, manuscript, productiza
 - `B05-REV-0005_Part_II_Productization_Review.md` — closes Part II productization
 - `B05-REV-0006_Part_III_Productization_Review.md` — closes Part III productization
 - `B05-REV-0007_CH00-CH22_Productization_Closure_Review.md` — closes the first revision pack
-- `B05-REV-0008_Part_IV_Filing_Preparation_and_Governed_Execution_Review.md` — accepts Part IV
-- `B05-REV-0009_Part_V_Examination_Publication_and_Disputes_Review.md` — accepts Part V
+- `B05-REV-0008_Part_IV_Filing_Preparation_and_Governed_Execution_Review.md` — accepts Part IV draft
+- `B05-REV-0009_Part_V_Examination_Publication_and_Disputes_Review.md` — accepts Part V draft
 - `B05-ERRATA-0001_Part_VI_Chapter_Boundary.md` — confirms Part VI CH37–CH42 and Part VII CH43–CH47
-- `B05-REV-0010_Part_VI_Registration_and_Portfolio_Continuity_Review.md` — accepts Part VI
-- `B05-REV-0011_Part_VII_Product_Experience_and_Evolution_Review.md` — accepts Part VII
+- `B05-REV-0010_Part_VI_Registration_and_Portfolio_Continuity_Review.md` — accepts Part VI draft
+- `B05-REV-0011_Part_VII_Product_Experience_and_Evolution_Review.md` — accepts Part VII draft
 - `B05-REV-0012_CH00-CH47_Complete_Draft_1_Review.md` — records Complete Draft 1
 - `B05-REV-0013_Publication_Architecture_and_Back_Matter_Review.md` — accepts PF-01A and PF-07A architecture
 - `B05-REV-0014_PF-02_Full-Lifecycle_Artifact_and_Decision_Reconciliation.md` — closes PF-02
@@ -24,7 +24,8 @@ This directory contains owner, architecture, chapter-map, manuscript, productiza
 - `B05-REV-0017_PF-05_Jurisdiction_and_Commercial_Reconciliation.md` — closes PF-05 and authorizes PF-06
 - `B05-REV-0018_PF-06A_Editorial_Baseline_and_Term_Audit.md` — accepts the editorial standard, term audit, glossary and index
 - `B05-REV-0019_PF-06B1_Front_Matter_and_Part_I_Editorial_Review.md` — accepts CH00–CH07 and metadata CH02–CH07
-- `B05-REV-0020_PF-06B2A_Part_II_Editorial_Review.md` — accepts CH08–CH15, metadata CH08–CH15 and `EL-01–EL-08`; authorizes PF-06B2B
+- `B05-REV-0020_PF-06B2A_Part_II_Editorial_Review.md` — accepts CH08–CH15, metadata CH08–CH15 and `EL-01–EL-08`
+- `B05-REV-0021_PF-06B2B_Part_III_Editorial_Review.md` — accepts CH16–CH22, metadata CH16–CH22 and `EL-09–EL-15`; closes PF-06B and authorizes PF-06C1
 
 ## Current Gate
 
@@ -32,14 +33,15 @@ CH00–CH47 remain Complete Draft 1.
 
 ```text
 PF-01A: COMPLETE
-PF-01B: PARTIAL — CH02–CH15 complete; CH16–CH47 open
+PF-01B: PARTIAL — CH02–CH22 complete; CH23–CH47 open
 PF-02–PF-05: COMPLETE
 PF-06A: COMPLETE
-PF-06B1 CH00–CH07: COMPLETE
-PF-06B2A CH08–CH15: COMPLETE
-PF-06B2B CH16–CH22: AUTHORIZED AND NEXT
-PF-06B overall: OPEN
-PF-06C/PF-06D: PLANNED
+PF-06B: COMPLETE
+PF-06C1 CH23–CH29: AUTHORIZED AND NEXT
+PF-06C2 CH30–CH36: PLANNED
+PF-06C3 CH37–CH42: PLANNED
+PF-06C4 CH43–CH47: PLANNED
+PF-06D: PLANNED
 PF-06 overall: OPEN
 PF-07–PF-09: OPEN
 ```
