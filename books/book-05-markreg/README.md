@@ -5,9 +5,9 @@
 - **Book:** Book 05
 - **Title:** MarkReg: The Full-Lifecycle International Trademark Product
 - **Canonical path:** `books/book-05-markreg/`
-- **Status:** Part IV Draft and Review Complete — Part V Authorized
+- **Status:** Part V Draft and Review Complete — Part VI Authorized
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
-- **Current phase:** Part V — Examination, Publication and Disputes
+- **Current phase:** Part VI — Registration and Portfolio Continuity
 
 ## Position in the Series
 
@@ -45,21 +45,25 @@ CH16–CH22 define Proposal, pricing, Quote, acceptance, Commercial Instruction,
 
 ### Part IV — Filing Preparation and Governed Execution
 
-CH23–CH29 are drafted and reviewed:
-
-- [CH23 — Filing Package as a Governed Artifact](manuscript/B05-CH-23_Filing_Package_as_a_Governed_Artifact.md)
-- [CH24 — Professional Review and Filing Approval](manuscript/B05-CH-24_Professional_Review_and_Filing_Approval.md)
-- [CH25 — Provider Discovery, Private Partners and Routing](manuscript/B05-CH-25_Provider_Discovery_Private_Partners_and_Routing.md)
-- [CH26 — Provider Appointment, Instruction and Acceptance](manuscript/B05-CH-26_Provider_Appointment_Instruction_and_Acceptance.md)
-- [CH27 — Direct Connector, Provider Filing and Owning Service Boundaries](manuscript/B05-CH-27_Direct_Connector_Provider_Filing_and_Owning_Service_Boundaries.md)
-- [CH28 — Submission States, Acknowledgement and Official Evidence](manuscript/B05-CH-28_Submission_States_Acknowledgement_and_Official_Evidence.md)
-- [CH29 — Failure, Retry, Duplicate Safety, Communication and Audit](manuscript/B05-CH-29_Failure_Retry_Duplicate_Safety_Communication_and_Audit.md)
-
-Part IV preserves the full chain from Filing Package Candidate to verified official acknowledgement, including private-first provider routing, version-specific Filing Approval, execution-route authority, unknown states, duplicate safety and reconciliation.
+CH23–CH29 define Filing Package Candidate, Review, Filing Approval, private-first provider routing, appointment, governed execution, official acknowledgement, failure recovery and audit.
 
 ### Part V — Examination, Publication and Disputes
 
-CH30–CH36 are authorized as the next controlled writing pack.
+CH30–CH36 are drafted and reviewed:
+
+- [CH30 — Examination Context and Status Authority](manuscript/B05-CH-30_Examination_Context_and_Status_Authority.md)
+- [CH31 — Office Action Triage and Response Strategy](manuscript/B05-CH-31_Office_Action_Triage_and_Response_Strategy.md)
+- [CH32 — Response Preparation, Evidence and Filing](manuscript/B05-CH-32_Response_Preparation_Evidence_and_Filing.md)
+- [CH33 — Publication, Observation and Opposition Windows](manuscript/B05-CH-33_Publication_Observation_and_Opposition_Windows.md)
+- [CH34 — Opposition, Defense and Adversarial Matters](manuscript/B05-CH-34_Opposition_Defense_and_Adversarial_Matters.md)
+- [CH35 — Appeals, Reviews, Cancellation and Invalidation](manuscript/B05-CH-35_Appeals_Reviews_Cancellation_and_Invalidation.md)
+- [CH36 — Deadline Governance, Client Decisions and Outcome Communication](manuscript/B05-CH-36_Deadline_Governance_Client_Decisions_and_Outcome_Communication.md)
+
+Part V preserves official-source authority from examination notice through response, publication, opposition, appeal or cancellation context, deadline governance and outcome Communication.
+
+### Part VI — Registration and Portfolio Continuity
+
+CH37–CH43 are authorized as the next controlled writing pack.
 
 ## Controlled Product Specifications
 
@@ -75,14 +79,15 @@ CH30–CH36 are authorized as the next controlled writing pack.
 - [Book Governance](BOOK-GOVERNANCE.md)
 - [B05-REV-0007 — CH00–CH22 Productization Closure Review](reviews/B05-REV-0007_CH00-CH22_Productization_Closure_Review.md)
 - [B05-REV-0008 — Part IV Filing Preparation and Governed Execution Review](reviews/B05-REV-0008_Part_IV_Filing_Preparation_and_Governed_Execution_Review.md)
+- [B05-REV-0009 — Part V Examination, Publication and Disputes Review](reviews/B05-REV-0009_Part_V_Examination_Publication_and_Disputes_Review.md)
 
 ## Current Gate
 
 ```text
-CH00–CH22 foundation accepted
-→ Part IV CH23–CH29 drafted and reviewed
-→ Part V CH30–CH36 authorized
-→ examination, publication and dispute journeys
+CH00–CH29 foundation accepted
+→ Part V CH30–CH36 drafted and reviewed
+→ Part VI CH37–CH43 authorized
+→ registration, maintenance, ownership, use and portfolio continuity
 ```
 
 ## Authority Boundary
