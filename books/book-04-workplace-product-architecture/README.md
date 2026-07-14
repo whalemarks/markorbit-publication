@@ -5,9 +5,9 @@
 - **Book:** Book 04
 - **Title:** MarkOrbit Workplace and Product Architecture
 - **Canonical path:** `books/book-04-workplace-product-architecture/`
-- **Status:** CH00–CH27 Drafted and Reviewed; Paused Before Part V
+- **Status:** Complete Draft 1 — CH00–CH39; Full-Book Architecture Review Completed
 - **Architecture direction:** Owner Confirmed
-- **Manuscript status:** Front Matter and Parts I–IV Draft Baseline; Owner Review Pending
+- **Manuscript status:** Complete Draft 1; Full-Book Owner Review Pending
 - **Chapter Map:** B04-TOC-V0.1 — Owner Accepted
 
 ## Position in the Series
@@ -34,23 +34,25 @@ Chinese working expression for explanatory context only:
 
 ## Current Manuscript Scope
 
-CH00–CH27 are present and have completed a cross-part architecture and editorial review.
+CH00–CH39 are present as a complete Draft 1 and have completed a full-book architecture and editorial review.
 
 | Scope | Chapters | Status |
 | --- | --- | --- |
-| Front Matter | CH00–CH01 | Present; reviewed |
-| Part I — The Workplace as an Independent Orbit | CH02–CH06 | Drafted; reviewed |
-| Part II — Organization Context and Operating Environment | CH07–CH12 | Drafted; reviewed |
-| Part III — Knowledge, Intelligence and Capability Consumption | CH13–CH19 | Drafted; reviewed |
-| Part IV — Product Architecture and Product Embedding | CH20–CH27 | Drafted; reviewed |
-| Part V — Outcomes, Artifacts and Delivery | CH28–CH32 | Paused; not drafted |
-| Part VI — Network Participation and Orbital Ecosystem Evolution | CH33–CH39 | Paused; not drafted |
+| Front Matter | CH00–CH01 | Present; architecture-reviewed |
+| Part I — The Workplace as an Independent Orbit | CH02–CH06 | Drafted; architecture-reviewed |
+| Part II — Organization Context and Operating Environment | CH07–CH12 | Drafted; architecture-reviewed |
+| Part III — Knowledge, Intelligence and Capability Consumption | CH13–CH19 | Drafted; architecture-reviewed |
+| Part IV — Product Architecture and Product Embedding | CH20–CH27 | Drafted; architecture-reviewed |
+| Part V — Outcomes, Artifacts and Delivery | CH28–CH32 | Drafted; architecture-reviewed |
+| Part VI — Network Participation and Orbital Ecosystem Evolution | CH33–CH39 | Drafted; architecture-reviewed |
 
-The current review record is [B04-REV-0002 — CH00–CH27 Architecture and Editorial Review](reviews/B04-REV-0002_CH00-CH27_Architecture_and_Editorial_Review.md).
+The current review record is [B04-REV-0003 — CH00–CH39 Full-Book Architecture and Editorial Review](reviews/B04-REV-0003_CH00-CH39_Full_Book_Architecture_and_Editorial_Review.md).
+
+B04-REV-0002 remains the historical CH00–CH27 review record.
 
 ## Scope Summary
 
-Book 04 defines Workplace as an independent organizational Orbit; organization identity and context; people and accountability; private Knowledge and authorized AI Context; operating surfaces; data boundaries; consumption of Information, Knowledge, Intelligence, Capability and Skill; AI placement; recommendations; handoff to governed Execution; Product Architecture principles; Product embedding and cross-Product handoffs; architectural profiles for Lite, MarkReg and MGSN Gateway; Artifact and Delivery boundaries; network participation; Routing; Capability Evidence; Trust; and ecosystem learning without centralization.
+Book 04 defines Workplace as an independent organizational Orbit; organization identity and context; people and accountability; private Knowledge and authorized AI Context; operating surfaces; data boundaries; consumption of Information, Knowledge, Intelligence, Capability and Skill; AI placement; recommendations; handoff to governed Execution; Product Architecture principles; Product embedding and cross-Product handoffs; architectural profiles for Lite, MarkReg and MGSN Gateway; Asset, Content, Artifact, Document, Render, Edit, Delivery, Publish, formalization, outcome and feedback boundaries; network participation; Routing; Capability Evidence; Trust; and ecosystem learning without centralization.
 
 ## Non-Goal Summary
 
@@ -66,6 +68,8 @@ Book 04 must not redefine Core Objects or Services; redefine Workflow, Task, Hum
 - Part II: `manuscript/B04-CH-07_*` through `manuscript/B04-CH-12_*`
 - Part III: `manuscript/B04-CH-13_*` through `manuscript/B04-CH-19_*`
 - Part IV: `manuscript/B04-CH-20_*` through `manuscript/B04-CH-27_*`
+- Part V: `manuscript/B04-CH-28_*` through `manuscript/B04-CH-32_*`
+- Part VI: `manuscript/B04-CH-33_*` through `manuscript/B04-CH-39_*`
 
 The Table of Contents remains the canonical navigation record for exact chapter titles and sequence.
 
@@ -85,13 +89,14 @@ The Table of Contents remains the canonical navigation record for exact chapter 
 ## Current Gate
 
 ```text
-CH00–CH27 reviewed
-→ owner review of the consolidated revision PR
-→ accept or request targeted revisions
-→ decide whether and how to authorize Part V drafting
+CH00–CH39 full-book architecture review completed
+→ consolidated owner review
+→ targeted revision or owner acceptance
+→ native-English and publication finishing
+→ final publication gate
 ```
 
-CH28–CH39 are intentionally paused.
+Pending publication work includes native-English line editing, final compression and repetition editing, diagrams, citation conventions and source reconciliation, glossary reconciliation, index work, cross-book reconciliation, and release-candidate packaging.
 
 ## Authority and Protected-Action Boundary
 
