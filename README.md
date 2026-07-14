@@ -37,13 +37,15 @@ It does not replace independent organizations with a centralized marketplace.
 | Book 02 | MarkOrbit Core Specification | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | Release Candidate 1 — Owner Accepted / Portfolio Locked |
-| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | Part III Draft Complete — Owner Review Pending |
+| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | CH00–CH22 Productization Closed — Part IV Authorized |
 | Book 06 | MarkOrbit Lite | Planned |
 | Book 07 | Mark Global Service Network | Planned |
 
-The controlled review is [MO-PUB-REV-0001](reviews/portfolio/MO-PUB-REV-0001_Books_01-04_Portfolio_Baseline_Review.md).
+The controlled portfolio review is [MO-PUB-REV-0001](reviews/portfolio/MO-PUB-REV-0001_Books_01-04_Portfolio_Baseline_Review.md).
 
 The effective lock is [MO-PUB-BASELINE-0001](release/baselines/MO-PUB-BASELINE-0001_Books_01-04.md).
+
+Book 05 continuation is governed by `B05-REV-0007`, which closes the CH00–CH22 productization revision and authorizes Part IV.
 
 ## Responsibility Chain
 
@@ -60,9 +62,9 @@ Book 05 — MarkReg
 ```text
 Books 01–04 Portfolio Baseline effective
 → Book 05 B05-TOC-V0.1 owner accepted
-→ Parts I–III drafted and reviewed
-→ owner reviews Part III, CH16–CH22
-→ Part IV controlled writing pack
+→ CH00–CH22 drafted, productized and reviewed
+→ B05-REVISION-PACK-001 closed
+→ Part IV CH23–CH29 authorized
 ```
 
 ## Authority Boundary
