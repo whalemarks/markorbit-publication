@@ -1,66 +1,67 @@
 # B05-CH-22 — Order, Matter, Payment and Responsibility Handoff
 
-**Status:** Productized Draft  
+**Status:** Complete Draft 1  
 **Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part III — Commercial Journey and Formal Intake
 
 ## Chapter Purpose
 
-CH21 produced purpose-specific readiness decisions. This chapter prepares the `Handoff Envelope` used to request formal Order, Matter, payment, responsibility and Execution contexts without renaming Product state as formal truth.
+CH21 produced purpose-specific readiness results. This chapter prepares `MR-A12 Handoff Envelope`, which requests formal Order, Matter, payment, responsibility and Execution contexts without renaming Product state as formal truth.
 
-The controlling rules are:
+The `EMBERLOOP` reference step is `EL-15`.
 
-- `MR-CR-03` — Approval is not execution;
-- `MR-CR-07` — Product-local artifacts do not silently become formal shared objects;
-- `MR-CR-08` — every material artifact preserves lineage, responsibility and supersession.
+```text
+Handoff request
+≠ formal object created
+≠ provider instructed
+≠ filing submitted
+```
 
-## 1. User Question
+## 1. Product Question
 
-> What happens after commercial confirmation, which formal records will be created, who becomes responsible, and what evidence should return?
+> What happens after commercial confirmation, which formal records are requested, who becomes responsible, and what evidence must return?
 
-The Product must explain formalization as a controlled handoff, not as an invisible transition to “filed.”
+Formalization must be visible as a controlled Handoff rather than an invisible transition to `filed`.
 
 ## 2. Handoff Envelope Contract
 
-A `Handoff Envelope` must contain stable references to:
+A conforming Handoff Envelope contains stable references to:
 
 - accepted Quote and Commercial Instruction;
 - Formal Intake and Requirement Set;
 - Readiness Assessment;
 - service, jurisdiction, route and filing unit;
 - applicant or right holder;
-- approved and unresolved scope;
+- approved, unresolved and excluded scope;
 - commercial and payment conditions;
 - required formal objects;
 - intended responsibility assignments;
 - deadline context;
 - provider or connector need;
-- expected return identifiers and evidence;
+- expected return identifiers and Evidence;
 - idempotency key and reconciliation owner.
 
-It carries references and decisions. It does not itself create the formal objects.
+The Envelope carries references and Decisions. It does not create the formal objects itself.
 
 ## 3. Formal Object Boundaries
 
-| Object or context | Primary meaning |
+| Formal object or context | Primary meaning |
 | --- | --- |
 | Order | commercial commitment, price and terms |
 | Matter | professional work context and confidentiality |
-| Financial record | invoice, receipt, payment, refund and reconciliation |
-| Responsibility assignment | accountable role, scope and trigger |
-| Document | formal controlled document record |
+| financial record | invoice, receipt, payment, refund and reconciliation |
+| responsibility assignment | accountable role, scope and trigger |
+| Document | formal controlled Document record |
 | Execution Context | governed work and protected-action entry context |
 
-The applicable Owning Service creates and records each formal fact. MarkReg retains the returned reference and Product projection.
+The applicable Owning Service creates each formal fact. MarkReg retains the returned reference and a Product Projection.
 
 ## 4. Commercial and Professional Decomposition
 
-A commercial package may create several professional Matters.
-
-Examples:
+One commercial Order may support several Matters:
 
 ```text
-One Order
+one Order
 → US word Matter
 → US device Matter
 → EU word Matter
@@ -69,9 +70,11 @@ One Order
 → UK device Matter
 ```
 
-A search may be a separate Matter. A later office action may create new commercial events while remaining related to the filing Matter.
+Search, examination response or dispute work may require separate Matters and later commercial events.
 
-The Product must not force one Order to equal one Matter.
+```text
+Order ≠ Matter
+```
 
 ## 5. Payment Context
 
@@ -93,41 +96,41 @@ Financial Owning Services remain authoritative for invoices, receipts, reconcili
 
 ## 6. Responsibility Assignment
 
-Material responsibilities may include:
+Responsibilities may include:
 
 - commercial owner;
-- professional owner;
+- Professional Owner;
 - coordinator;
 - reviewer and approver;
 - deadline owner;
-- document owner;
+- Document owner;
 - provider manager;
-- client decision owner;
+- client Decision owner;
 - finance owner.
 
-Assignment must identify actor or organization, role, authority, scope, start trigger, expected action, escalation and completion evidence.
+An assignment records actor or organization, role, authority, scope, start trigger, expected action, escalation and completion Evidence.
 
-Copying someone on a message does not assign responsibility. AI cannot be the accountable professional.
+Copying someone on a Communication does not assign responsibility. AI cannot be the accountable professional.
 
 ## 7. Execution Entry
 
-The Execution Context may reference formal Order and Matter IDs, accepted Product artifacts, documents, deadlines, permissions and responsibilities.
+An Execution Context may reference formal Order and Matter IDs, accepted Product artifacts, Documents, deadlines, Permissions and responsibilities.
 
-Book 03 governs coordinated Execution. Creation of an Execution Context may permit task formation; it does not automatically:
+Book 03 governs coordinated Execution. Creating an Execution Context may permit Task formation; it does not automatically:
 
 - instruct a provider;
 - pay an official fee;
-- send a communication;
+- send a Communication;
 - submit a filing;
-- record an official outcome.
+- create an official outcome.
 
-Protected actions retain their own approval and execution gates.
+Every protected action retains its own exact-version approval and Execution gate.
 
-## 8. Idempotency and Partial Failure
+## 8. Idempotency, Partial Failure and Return
 
-Every formalization request must carry a stable idempotency key.
+Every formalization request carries a stable idempotency key.
 
-Possible outcomes include:
+Possible results include:
 
 ```text
 Order created; Matters pending
@@ -139,37 +142,39 @@ Formalization rejected; no object created
 Result unknown; reconciliation required
 ```
 
-Partial success must remain visible. A retry must reuse or reconcile existing references rather than create duplicate Orders, Matters, invoices, Tasks or later submissions.
+Partial success remains visible. A retry reconciles existing references rather than creating duplicate Orders, Matters, invoices, Tasks or later submissions.
+
+`MR-SCN-25` applies when the same Handoff or Return Envelope is consumed twice. The receiving service returns the existing formal reference and creates no duplicate effect.
 
 ## 9. Return Evidence
 
-The handoff should expect typed return evidence such as:
+The Handoff expects typed Return Evidence, including:
 
 - formal object ID and creation time;
 - accepted or rejected request;
 - validation error;
 - payment or reconciliation state;
-- assigned responsible actor;
+- assigned accountable actor;
 - Execution Context reference;
-- event source and correlation ID.
+- source event and correlation ID.
 
-The Product updates its projection from these events without becoming the authority for the formal record.
+MarkReg updates its projection from these events without becoming authority for the formal record.
 
 ## 10. Cross-Organization Boundary
 
-When client, agency and provider organizations participate:
+Where client, agency and provider organizations participate:
 
-- each retains identity and records;
-- permissions remain purpose-limited;
-- responsibility is explicitly accepted;
+- each retains its identity and records;
+- access remains purpose-limited;
+- responsibility requires explicit acceptance;
 - private data is not broadly shared;
 - one organization’s authority is not automatically transitive.
 
-Provider discovery, selection, appointment, instruction and acceptance remain separate stages for Part IV.
+Provider discovery, selection, appointment, instruction and Provider Acceptance remain separate Part IV stages.
 
-## 11. EMBERLOOP Reference Journey
+## 11. Reference Journey — `EL-15`
 
-After the deposit is reconciled, the US declaration is completed, the revised goods wording is reviewed, and the final readiness gate passes, MarkReg creates Handoff Envelope v1.
+After deposit reconciliation, completion of the US declaration, Review of revised goods wording and passage of the permitted readiness gate, MarkReg prepares Handoff Envelope v1.
 
 It references:
 
@@ -180,43 +185,42 @@ It references:
 - Readiness Assessment v5;
 - responsible professional;
 - one non-blocking warning;
-- expected Order, six filing Matters and Execution Context references.
+- expected Order, six Matters and Execution Context references.
 
-The returned Order and Matter identifiers become visible. The journey is now ready for filing-package preparation—not filed and not submitted.
+The Owning Services return Order and Matter identifiers. The journey is now ready for Filing Package preparation.
 
-## 12. Conformance Scenario — Duplicate Handoff
+```text
+formal references returned
+≠ filed
+≠ submitted
+≠ officially acknowledged
+```
 
-**Given** an Order-creation request succeeded but the response timed out.  
-**When** the Product retries the Handoff Envelope.  
-**Then** the Owning Service uses the idempotency key to return the existing Order reference or a reconciliation result instead of creating a duplicate.  
-**Authority boundary:** MarkReg requests and reconciles; the Owning Service owns the Order.  
-**Evidence retained:** both attempts, correlation key, formal reference, response state and reconciliation decision.
+## 12. User Surface
 
-## 13. User Surface
-
-The Handoff surface should show:
+Show:
 
 1. accepted scope and exact versions;
 2. gates satisfied and unresolved warnings;
 3. formal records requested;
 4. responsibility assignments;
 5. payment condition;
-6. current handoff result per object;
-7. failures and retry state;
-8. expected next evidence;
-9. clear statement that filing has not yet occurred.
+6. current result for each requested object;
+7. failure, unknown and retry state;
+8. expected Return Evidence;
+9. a clear statement that filing has not occurred.
 
 The primary action is `Authorize Permitted Handoff` or resolve the remaining gate.
 
-## 14. AI Boundary
+## 13. AI Boundary
 
-AI may decompose commercial scope, prepare mappings, suggest responsibility roles, detect missing references, explain partial results and identify likely duplicates.
+AI may decompose scope, prepare mappings, suggest responsibility roles, detect missing references, explain partial results and identify likely duplicates.
 
 AI may not create authority, assign final accountability, reconcile funds as final, approve filing, instruct providers or submit externally.
 
-## 15. Failure Modes
+## 14. Failure Modes
 
-The Product must reject:
+Reject:
 
 ```text
 Product status renamed as Order
@@ -224,30 +228,30 @@ Order used as Matter
 One Order forced into one Matter
 Payment treated as Filing Approval
 Payer treated as applicant
-Email copy treated as responsibility assignment
+Communication recipient treated as responsibility owner
 Retry creates duplicate formal objects
 Partial formalization shown as complete
 Matter creation sends provider instruction
 Execution Context creation submits filing
 ```
 
-## 16. Part III Output
+## 15. Part III Output and Handoff to Part IV
 
-Part III now produces the governed sequence:
+Part III now produces:
 
 ```text
-Proposal
-→ Price Basis
-→ Quote
-→ Client Acceptance
-→ Commercial Instruction
-→ Formal Intake
-→ Requirement Set
-→ Readiness Assessment
-→ Handoff Envelope
-→ Formal References Returned
+MR-A05 Proposal
+→ source-backed price basis
+→ MR-A06 Quote
+→ MR-D01 Client Acceptance
+→ MR-A07 Commercial Instruction
+→ MR-A08 Formal Intake
+→ MR-A09 Requirement Set
+→ MR-A10 Readiness Assessment
+→ MR-A12 Handoff Envelope
+→ formal references returned
 ```
 
-This sequence is ready to support Part IV, subject to the follow-up CH00–CH22 whole-draft review and explicit gate decision.
+CH23 begins Part IV by preparing `MR-A11 Filing Package Candidate` from those exact versions and returned formal references.
 
-Part IV begins with the Filing Package Candidate as a governed artifact, version-specific professional review and Filing Approval.
+Filing Package preparation still requires Professional Review, version-specific Filing Approval and governed Execution before any external submission.
