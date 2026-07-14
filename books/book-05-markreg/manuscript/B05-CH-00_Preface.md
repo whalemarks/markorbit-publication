@@ -1,7 +1,7 @@
 # B05-CH-00 — Preface
 
-**Status:** Foundation Draft  
-**Chapter Map:** B05-TOC-V0.1 — Candidate  
+**Status:** Complete Draft 1  
+**Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Front Matter
 
 ## Why This Book Follows Workplace and Product Architecture
