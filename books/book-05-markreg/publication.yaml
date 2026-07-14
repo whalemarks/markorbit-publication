@@ -1,8 +1,8 @@
 book: "Book 05"
 title: "MarkReg: The Full-Lifecycle International Trademark Product"
 canonical_path: "books/book-05-markreg/"
-status: "complete_draft_1_publication_finishing_active"
-phase: "pf_06_editorial_with_pf_01b_open"
+status: "complete_draft_1_editorial_finishing_active"
+phase: "pf_06b_ch00_ch22_with_pf_01b_open"
 portfolio_baseline: "MO-PUB-BASELINE-0001"
 chapter_map:
   id: "B05-TOC-V0.1"
@@ -18,7 +18,10 @@ manuscript:
   complete_draft: 1
   front_matter_metadata_normalized: true
   remaining_metadata_normalization: "02-47"
-  publication_metadata_normalized: false
+  metadata_batch_assignments:
+    pf_06b: "02-22"
+    pf_06c: "23-47"
+  line_edit_complete: false
   release_candidate_ready: false
 specifications:
   B05-SPEC-0001:
@@ -36,7 +39,6 @@ specifications:
     workstream_status: "complete"
   B05-SPEC-0004:
     status: "controlled_specification_v0_2"
-    applies_to: "CH09-CH46_and_later_lifecycle_services"
     workstream: "PF-05"
     workstream_status: "complete"
   all_specifications_reconciled: true
@@ -91,15 +93,6 @@ jurisdiction_pack_contract:
     - "lifecycle_capable"
     - "suspended"
     - "retired"
-  service_modules:
-    - "new_filing"
-    - "examination_and_response"
-    - "publication_opposition_and_adversarial"
-    - "registration_and_maintenance"
-    - "renewal"
-    - "changes_and_recordals"
-    - "assignment_merger_succession_and_licensing"
-    - "portfolio_and_monitoring"
   profile_claim_cannot_exceed_pack_state: true
 commercial_contract:
   separates_official_fee_client_price_provider_cost_and_margin: true
@@ -117,14 +110,57 @@ appendices:
   B05-APP-F: "pf_05_reconciled"
   B05-APP-G: "pf_04_pf_05_reconciled_pf_08_validation_pending"
   all_assigned_reconciliation_complete: true
+editorial:
+  standard:
+    id: "B05-PUB-0001"
+    version: "v0.2"
+    status: "controlled_editorial_standard"
+  term_audit:
+    id: "B05-PUB-0009"
+    version: "v0.1"
+    status: "controlled_audit"
+  glossary:
+    id: "B05-PUB-0003"
+    version: "v0.2"
+    status: "controlled_working_glossary"
+  subject_index:
+    id: "B05-PUB-0004"
+    version: "v0.2"
+    status: "controlled_working_index"
+  semantic_findings_open: 0
+  batches:
+    pf_06a:
+      status: "complete"
+      scope: "editorial_standard_term_audit_glossary_and_index"
+      accepted_by: "B05-REV-0018"
+    pf_06b:
+      status: "authorized_next"
+      scope: "CH00-CH22_and_metadata_CH02-CH22"
+    pf_06c:
+      status: "planned"
+      scope: "CH23-CH47_and_metadata_CH23-CH47"
+    pf_06d:
+      status: "planned"
+      scope: "specifications_appendices_publication_and_whole_book_closure"
+  overall_status: "open"
 publication_apparatus:
-  status: "architecture_locked_content_incomplete"
+  status: "editorial_baseline_complete_remaining_content_and_figures_open"
+  records:
+    - "B05-PUB-0001"
+    - "B05-PUB-0002"
+    - "B05-PUB-0003"
+    - "B05-PUB-0004"
+    - "B05-PUB-0005"
+    - "B05-PUB-0006"
+    - "B05-PUB-0007"
+    - "B05-PUB-0008"
+    - "B05-PUB-0009"
   figures_planned: 12
   figures_created: 0
 reviews:
-  latest: "B05-REV-0017"
+  latest: "B05-REV-0018"
   records:
-    - "B05-REV-0001-B05-REV-0017"
+    - "B05-REV-0001-B05-REV-0018"
     - "B05-ERRATA-0001"
 publication_finishing_pack:
   id: "B05-PUBLICATION-FINISHING-PACK-001"
@@ -136,15 +172,18 @@ publication_finishing_pack:
     pf_03_journeys: "complete"
     pf_04_scenarios_and_surfaces: "complete"
     pf_05_jurisdiction_and_commercial: "complete"
-    pf_06_editorial: "authorized_next"
+    pf_06a_editorial_baseline: "complete"
+    pf_06b_ch00_ch22: "authorized_next"
+    pf_06c_ch23_ch47: "planned"
+    pf_06d_whole_book_closure: "planned"
+    pf_06_overall: "open"
     pf_07a_publication_architecture: "complete"
-    pf_07_appendix_reconciliation: "complete_for_pf_02_to_pf_05"
     pf_07_figures_and_remaining_assets: "open"
     pf_08_validation: "open"
     pf_09_rc1_gate: "open"
 next_gate:
-  title: "PF-06 Editorial Finishing"
-  authorized_by_review: "B05-REV-0017"
+  title: "PF-06B CH00-CH22 Editorial Pass"
+  authorized_by_review: "B05-REV-0018"
   parallel_rc1_blocker: "PF-01B CH02-CH47 metadata normalization"
   final_publication_separate: true
 book_02_semantic_change_required: false

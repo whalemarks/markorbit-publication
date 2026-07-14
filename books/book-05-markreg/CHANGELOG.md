@@ -1,5 +1,21 @@
 # Book 05 Changelog
 
+## 2026-07-14 — PF-06A Editorial Baseline and Term Audit
+
+- Upgraded B05-PUB-0001 to Controlled Editorial Standard v0.2.
+- Defined normative language, controlled capitalization, stable artifact names, authority verbs and sourced state wording.
+- Defined compression rules that reduce repetition without removing constitutional, safety, source or authority boundaries.
+- Defined chapter-transition, client-facing, commercial, Jurisdiction Pack and AI language rules.
+- Added a semantic-finding process so editorial changes cannot silently alter architecture or Product meaning.
+- Added B05-PUB-0009 — Term Variation and Editorial Audit v0.1.
+- Upgraded B05-PUB-0003 to Controlled Working Glossary v0.2 with PF-04 and PF-05 terms.
+- Upgraded B05-PUB-0004 to Controlled Working Index v0.2.
+- Split the remaining editorial work into PF-06B CH00–CH22, PF-06C CH23–CH47 and PF-06D whole-book closure.
+- Assigned CH02–CH22 metadata normalization to PF-06B and CH23–CH47 to PF-06C.
+- Added B05-REV-0018, closed PF-06A and authorized PF-06B.
+- Kept PF-06 overall, PF-01B, figures, validation, RC1 and final publication open.
+- Confirmed that no Architecture Canon, Book 02, Book 03, Book 04, chapter-map, controlled-ID or reference-journey semantic amendment is required.
+
 ## 2026-07-14 — PF-05 Jurisdiction and Commercial Reconciliation
 
 - Upgraded B05-SPEC-0004 to Controlled Specification v0.2 covering later lifecycle services and Part VII governance.

@@ -1,6 +1,6 @@
 # Book 05 Reviews
 
-This directory contains owner, architecture, chapter-map, manuscript, productization, errata and publication review records.
+This directory contains owner, architecture, chapter-map, manuscript, productization, errata, specification, editorial and publication Review records.
 
 ## Current Records
 
@@ -21,7 +21,8 @@ This directory contains owner, architecture, chapter-map, manuscript, productiza
 - `B05-REV-0014_PF-02_Full-Lifecycle_Artifact_and_Decision_Reconciliation.md` — closes PF-02
 - `B05-REV-0015_PF-03_Reference_Journey_Consolidation.md` — closes PF-03
 - `B05-REV-0016_PF-04_Scenario_and_User_Surface_Reconciliation.md` — closes PF-04
-- `B05-REV-0017_PF-05_Jurisdiction_and_Commercial_Reconciliation.md` — accepts B05-SPEC-0004 v0.2, Appendix F and PF-05 evidence in Appendix G; closes PF-05 and authorizes PF-06
+- `B05-REV-0017_PF-05_Jurisdiction_and_Commercial_Reconciliation.md` — closes PF-05 and authorizes PF-06
+- `B05-REV-0018_PF-06A_Editorial_Baseline_and_Term_Audit.md` — accepts Editorial Standard v0.2, Term Audit v0.1, Glossary v0.2 and Subject Index v0.2; closes PF-06A and authorizes PF-06B
 
 ## Current Gate
 
@@ -34,8 +35,11 @@ PF-02: COMPLETE
 PF-03: COMPLETE
 PF-04: COMPLETE
 PF-05: COMPLETE
-PF-06: AUTHORIZED AND NEXT
+PF-06A: COMPLETE
+PF-06B: AUTHORIZED AND NEXT
+PF-06C/PF-06D: PLANNED
+PF-06 overall: OPEN
 PF-07–PF-09: OPEN
 ```
 
-Release Candidate 1, final publication, implementation, production deployment and external protected action remain separate gates.
+PF-06B covers CH00–CH22 and metadata CH02–CH22. Release Candidate 1, final publication, implementation, production deployment and external protected action remain separate gates.
