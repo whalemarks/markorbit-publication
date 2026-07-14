@@ -127,7 +127,7 @@ Phase 16 records that:
 - class candidates remain separate from goods/services wording;
 - goods/services candidates remain separate from approved filing scope;
 - search and risk assessments remain bounded by purpose, query, source, coverage, and checked date;
-- CH08–CH15 now define explicit user surfaces, artifacts, EMBERLOOP continuity and conformance scenarios;
+- CH08–CH15 define explicit user surfaces, artifacts, `EMBERLOOP` continuity and conformance scenarios;
 - B05-REV-0005 closes the Part II productization findings;
 - no upstream architecture amendment is required.
 
@@ -156,19 +156,38 @@ Phase 18 records that:
 
 - B05-SPEC-0001 through B05-SPEC-0004 provide the canonical Product contracts;
 - CH08–CH22 are productized around observable user questions, artifacts, scenarios and handoffs;
-- the EMBERLOOP reference journey runs from Need Brief through returned Order and Matter references;
-- the RIVERKITE case remains the contrasting renewal and ownership journey;
+- the `EMBERLOOP` reference journey runs from Need Brief through returned Order and Matter references;
+- the `RIVERKITE` case remains the contrasting renewal and ownership journey;
 - all blocking B05-REV-0004 Product-definition findings are closed;
 - historical draft labels in unchanged CH00–CH07 headers are non-blocking publication-cleanup items;
 - CH00–CH22 are accepted as the foundation for continuation;
 - Part IV, CH23–CH29, is authorized;
 - unrestricted implementation, production deployment and external protected action remain unauthorized.
 
+## Phase 19 — Book 05 Part IV: Filing Preparation and Governed Execution
+
+Drafted and reviewed CH23–CH29 as one controlled writing pack.
+
+Phase 19 records that:
+
+- the Filing Package Candidate is versioned, source-linked, purpose-bound and diffable;
+- factual confirmation, Professional Review, internal approval and Filing Approval remain separate;
+- Capability Need precedes provider discovery and private organization relationships remain private-first;
+- provider recommendation, Human Selection, appointment, instruction, receipt and acceptance remain separate;
+- MarkReg, Book 03 Execution, connectors, providers, Owning Services and official offices retain distinct authority;
+- manual official-portal filing remains governed and auditable;
+- prepared, queued, sent, delivered, provider-reported, officially acknowledged, rejected, correction-required and unknown states remain distinct;
+- idempotency, duplicate safety, partial failure, reconciliation, safe retry, Communication and audit continuity are defined;
+- `EMBERLOOP` continues through US, EU and UK filing routes and EU acknowledgement reconciliation;
+- B05-REV-0008 accepts Part IV and authorizes Part V, CH30–CH36;
+- no Architecture Canon, Book 02, Book 03 or Book 04 amendment is required;
+- unrestricted implementation, production deployment and external protected action remain unauthorized.
+
 ## Active Future Workstreams
 
 - Architecture Canon maintenance
 - Books 01–04 Portfolio Baseline maintenance
-- Book 05 Part IV — Filing Preparation and Governed Execution
+- Book 05 Part V — Examination, Publication and Disputes
 - Repository Canonical Alignment Audits
 - Lite Product-loop validation
 - MarkReg Product planning
@@ -194,7 +213,7 @@ The following remain horizontal architecture/specification or implementation wor
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
-| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | CH00–CH22 Productization Closed — Part IV Authorized |
+| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Part IV Draft and Review Complete — Part V Authorized |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
