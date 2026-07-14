@@ -1,58 +1,48 @@
 # B05-CH-33 — Publication, Observation and Opposition Windows
 
-**Status:** Part V Draft  
+**Status:** Complete Draft 1  
 **Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part V — Examination, Publication and Disputes
 
 ## Chapter Purpose
 
-A filing may pass examination yet remain exposed to third-party observation, opposition or other publication-stage challenge.
+Publication may open a third-party challenge period even after examination has progressed.
 
 CH33 answers:
 
-> When a right enters publication, how does MarkReg verify the window, explain the exposure, monitor new events and prevent silence from being mistaken for final registration?
+> Has publication been verified, which challenge window is open, who monitors it, and what evidence is required before the Product may show either opposition or no-challenge closure?
 
 ```text
-Official publication event
-→ Publication Window
-→ monitoring and third-party event detection
-→ no challenge, observation or opposition
-→ verified closure or adversarial handoff
+MR-E05 publication event
+→ MR-C04 Publication Window Context
+→ MR-E06 Deadline Record
+→ monitoring
+→ verified challenge or verified no-challenge closure
 ```
 
-Publication is a procedural event, not a registration outcome.
-
----
+Publication is not registration.
 
 ## 1. User Question and Primary Action
 
-**User question:** Has the application been published, how long is the challenge window, and is any action required now?
+**User question:** Is the application published, when does the window close and is any action required?
 
-**Primary action:** Confirm the monitoring and decision plan, then respond if a sourced third-party event occurs.
+**Primary action:** Confirm monitoring responsibility and respond only to a sourced third-party event.
 
-The Product should make waiting states understandable rather than display a generic `pending` label.
+Waiting must be explained with dates, sources and next verification, not hidden behind `pending`.
 
----
+## 2. Publication Window Context
 
-## 2. Publication Window Artifact
+`MR-C04 Publication Window Context` records:
 
-A Publication Window is a versioned Product artifact referencing the official publication event.
-
-It should contain:
-
-- affected application, filing unit and jurisdiction;
+- application, filing unit and jurisdiction;
 - official publication identifier and date;
 - source and retrieval time;
-- window type;
-- opening and closing date;
-- calculation rule and jurisdiction-pack version;
-- time zone and cutoff assumptions;
-- monitoring source and frequency;
-- responsible owner;
-- expected next official event;
-- extension or suspension information where applicable;
-- detected observations, oppositions or corrections;
-- closure evidence and verification status.
+- window type and applicable Rule version;
+- opening, closing, time zone and cutoff;
+- extensions, suspensions, republication or restart conditions;
+- monitoring source, cadence and owner;
+- detected challenge signals and verification state;
+- closure evidence and next official stage.
 
 ```text
 Publication Window
@@ -61,216 +51,109 @@ Publication Window
 ≠ final enforceable scope
 ```
 
----
+## 3. Source and Deadline Authority
 
-## 3. Window Types
+The window derives from the official publication record, notice, gazette, authenticated portal or tribunal direction.
 
-Depending on the jurisdiction and proceeding, the Product may need to represent:
+Provider advice may support planning but does not silently become the official closing date.
 
-- public observation or comment period;
-- opposition period;
-- extension period;
-- publication for registration;
-- publication of an amendment;
-- international or regional designation opposition period;
-- post-registration challenge window;
-- re-publication after correction;
-- suspended or restarted window.
+For `MR-SCN-26`, republication or correction creates a new Context version and re-evaluates the prior closing date.
 
-The Product should use jurisdiction-specific labels while preserving one controlled window model.
+For `MR-SCN-27`, conflicting deadline advice remains visible until professionally resolved.
 
----
+## 4. Monitoring Responsibility
 
-## 4. Source and Date Authority
-
-The authoritative window should be based on:
-
-- official publication record;
-- official notice;
-- authenticated office portal;
-- official gazette or bulletin;
-- tribunal or procedural direction;
-- verified provider evidence when the official source is not yet accessible.
-
-A provider estimate may support planning but should not silently become the official closing date.
-
-If publication is corrected or repeated, the Product must determine whether the window changed and preserve the professional decision.
-
----
-
-## 5. Monitoring Plan
-
-A monitoring plan should identify:
+A monitoring plan identifies:
 
 - official source or connector;
-- retrieval cadence;
-- expected event types;
-- responsible person or service;
-- escalation rule;
+- cadence and expected event types;
+- responsible owner and backup;
 - evidence retained for each check;
 - outage and stale-source handling;
-- final closure-verification method.
+- escalation rule;
+- final closure verification.
 
-Monitoring is not only a scheduled search. It is a governed responsibility with evidence that checks occurred.
+A scheduled search without an accountable owner and retained evidence is not governed monitoring.
 
----
+## 5. Challenge States
 
-## 6. Observation and Opposition Detection
-
-A detected third-party event should preserve:
-
-- event type and source;
-- party identity as reported;
-- represented organization and counsel where known;
-- affected application and scope;
-- grounds or issue summary;
-- filing date;
-- procedural status;
-- deadline and response requirement;
-- source Documents;
-- verification status;
-- conflict-check and provider needs;
-- immediate client Communication requirement.
-
-The Product must distinguish:
+The Product distinguishes:
 
 ```text
-Possible challenge signal
-Filed observation
-Filed opposition
-Accepted or validated opposition
-Unverified party report
-Official proceeding opened
+possible challenge signal
+informal concern or threat
+filed observation
+filed opposition
+verified or accepted proceeding
+official proceeding event
 ```
 
----
+Informal contact may require Review, preservation and deadline analysis. It does not create a formal opposition state.
 
-## 7. No-Challenge State
+A verified challenge must map the affected goods, services, classes and jurisdictions without changing unrelated scope.
 
-The absence of a detected challenge is not enough to close a window.
+## 6. No-Challenge Closure
 
-Closure should require:
+No-challenge closure requires:
 
-- the sourced closing date has passed;
-- applicable extensions or suspensions have been checked;
-- monitoring is current;
-- no challenge is recorded in the authoritative source;
-- any provider or office confirmation required by policy is obtained;
-- the next official stage is known or explicitly pending.
+1. the sourced closing date has passed;
+2. extensions, suspensions and corrections have been checked;
+3. monitoring is current;
+4. no challenge appears in the authoritative source;
+5. the final check and checked time are retained;
+6. the next official stage is known or explicitly pending.
 
-The Product may then display `Window closed — no challenge found as of [verified time]`.
+The correct Product projection is:
 
-It should not display `registered` until an authoritative registration event exists.
+```text
+Window closed — no challenge found as of [verified time]
+Registration event pending
+```
 
----
+Silence or a failed search is not closure.
 
-## 8. Pre-Opposition Contact
+## 7. Extension, Cooling-Off and Negotiation
 
-A third party may contact the applicant before or during a formal window.
+Where sourced procedures allow extension, cooling-off or suspension, preserve:
 
-MarkReg should distinguish:
-
-- informal concern;
-- demand letter;
-- proposed coexistence discussion;
-- request for extension;
-- notice of intended opposition;
-- formal opposition filing.
-
-Informal contact may justify professional review and preservation of Communications. It does not automatically create a formal opposition state.
-
----
-
-## 9. Extension and Cooling-Off Decisions
-
-Where sourced procedures allow extensions, cooling-off or suspension, the Product should record:
-
-- who may request or consent;
+- requesting and consenting authority;
 - filing and response deadlines;
-- effect on the underlying proceeding;
+- procedural effect and official evidence;
 - fees and provider scope;
 - negotiation purpose;
-- expiry and restart conditions;
-- client and professional authority;
-- official acknowledgement.
+- expiry and restart conditions.
 
-A negotiation plan does not extend a deadline unless the required procedural effect is verified.
+Negotiation does not extend or suspend a deadline unless the procedural effect is verified.
 
----
+## 8. Commercial and Participant Effects
 
-## 10. Commercial and Responsibility Effects
+Publication-stage work may create monitoring, opposition triage, conflict, local counsel, Evidence and settlement scope beyond the initial Quote.
 
-Publication-stage work may require:
+The Product must show included, newly quoted, contingent and unauthorized work separately.
 
-- monitoring service;
-- notice review;
-- conflict check;
-- opposition defense quote;
-- local counsel appointment;
-- evidence preservation;
-- urgent response preparation;
-- settlement or coexistence work;
-- executive or brand-owner decision.
+The client sees the verified window, challenge state, decision need and next event. Professionals and providers see only the scope required for their assigned work.
 
-The Product should show which work is included, newly quoted, contingent or pending authorization.
+## 9. `EMBERLOOP` — `EL-26`
 
-The deadline owner and professional owner must be explicit even when the client has not yet accepted full defense scope.
+### European Union
 
----
+The official source verifies publication and later a filed opposition affecting selected cooking-equipment goods.
 
-## 11. Client Experience
+MarkReg creates or updates:
 
-The client view should answer:
-
-- what publication means;
-- the verified opening and closing dates;
-- whether a challenge has been detected;
-- what monitoring is active;
-- whether any decision or fee is required;
-- what happens if no challenge occurs;
-- what happens if an opposition is filed;
-- the current source and verification time.
-
-The Product should avoid celebratory registration language before the official registration event.
-
----
-
-## 12. `EMBERLOOP` European Union Publication
-
-The EU application enters an official publication window.
-
-MarkReg creates Publication Window EU v1 with:
-
-- official publication date and identifier;
-- sourced opposition closing date;
-- weekly official-source monitoring;
-- responsible EU provider and internal professional;
-- client explanation that publication is not registration;
-- a contingency task for opposition triage.
-
-Before the window closes, the provider reports a third-party contact. MarkReg records it as `informal concern — formal source pending`.
-
-Two days later, the official source shows a filed opposition affecting selected cooking-equipment goods.
-
-The Product creates:
-
-- Official Event Snapshot EU-OPP v1;
-- verified opposition source Documents;
-- affected-scope mapping;
+- Publication Window EU;
+- Official Event Snapshot EU-OPP;
+- affected-scope map;
 - response and representation deadlines;
-- conflict-check request;
-- adversarial Matter-creation request;
+- conflict and provider checks;
+- request for an adversarial Matter;
 - urgent client Communication.
 
-The opposition does not alter the US or UK application states.
+The opposition does not change the US or UK states.
 
----
+### United Kingdom
 
-## 13. `EMBERLOOP` United Kingdom Publication
-
-The UK publication window remains monitored.
-
-No opposition is detected. At the sourced closing date, MarkReg performs a final official-source refresh and records:
+At the sourced closing date, a final official-source refresh finds no challenge.
 
 ```text
 Window closed
@@ -278,102 +161,41 @@ No challenge found as of verified time
 Registration-stage event pending
 ```
 
-The Product does not yet create a Registration outcome. Part VI begins only when the official registration event is verified.
+Part VI may open only after a separate official registration event is verified.
 
----
+## 10. Controlled Scenarios
 
-## 14. Conformance Scenarios
+- `MR-SCN-10` — stale official status;
+- `MR-SCN-26` — corrected or republished event;
+- `MR-SCN-27` — conflicting deadline advice;
+- `MR-SCN-28` — silence does not authorize action;
+- `MR-SCN-33` — one challenged right does not change unrelated rights.
 
-### MR-SCN-33A — Informal threat before formal filing
+## 11. AI Assistance
 
-**Given** a third party emails a threat to oppose but no official proceeding exists.  
-**When** the client opens the application.  
-**Then** MarkReg displays an informal concern, preserves the Communication, requests professional review and keeps the formal opposition state closed.  
-**Evidence retained:** original message, sender identity, review decision and later official search.
+AI may summarize publication records, calculate candidate windows from sourced Rules, compare versions, classify informal and formal Communications and map challenged scope.
 
-### MR-SCN-33B — Window correction
+AI may not establish the deadline alone, declare no opposition from a stale or failed search, treat an informal threat as a proceeding, promise registration, or authorize extension, settlement or adversarial strategy.
 
-**Given** an official correction republishes the application and may restart the window.  
-**When** the corrected event is received.  
-**Then** MarkReg creates a new Publication Window version, invalidates the prior closing-date assumption and requires deadline verification before any closure status is shown.
-
-### MR-SCN-33C — Monitoring outage near closing date
-
-**Given** the official source is unavailable on the expected closing date.  
-**When** the Product attempts final verification.  
-**Then** it displays `closure unverified`, preserves the outage evidence, escalates according to policy and does not assume no challenge.
-
-### MR-SCN-33D — Opposition affects selected goods
-
-**Given** a verified opposition is limited to selected goods.  
-**When** the adversarial context opens.  
-**Then** MarkReg maps the affected scope, preserves unaffected goods and jurisdictions, and prevents the entire portfolio from being labelled opposed.
-
----
-
-## 15. AI Assistance
-
-AI may:
-
-- summarize publication notices;
-- calculate candidate windows from sourced rules;
-- compare publication versions;
-- detect likely third-party events;
-- classify informal and formal Communications;
-- prepare client explanations;
-- map challenged goods and classes;
-- generate monitoring summaries.
-
-AI must not:
-
-- establish a deadline without governed verification;
-- declare that no opposition exists from a failed or stale search;
-- treat an informal threat as a formal proceeding;
-- promise registration after publication;
-- authorize an extension or settlement;
-- decide adversarial strategy.
-
----
-
-## 16. Failure Modes to Reject
-
-```text
-Publication shown as registration
-Provider estimate shown as official closing date
-Monitoring task without responsible owner or evidence
-No search result treated as verified no opposition
-Informal email shown as formal opposition
-Corrected publication does not invalidate old deadline
-Opposition in one jurisdiction applied to the whole portfolio
-Negotiation assumed to suspend the proceeding
-```
-
----
-
-## 17. Minimum Publication Window Lock
+## 12. Chapter Lock
 
 ```text
 Publication is a sourced event,
 not a registration outcome.
 
 Every window preserves
-opening event, closing rule,
-source, retrieval, owner,
-monitoring and closure evidence.
+source, opening, closing Rule,
+owner, monitoring and closure evidence.
 
-Informal concern,
-formal observation,
-filed opposition and
-accepted proceeding remain distinct.
+Informal concern and
+formal proceeding remain distinct.
 
 No-challenge status requires
 verified closure, not silence.
 ```
 
----
+## 13. Handoff to CH34
 
-## 18. Handoff to Opposition and Adversarial Matters
+A verified EU opposition produces an Official Event Snapshot, affected-scope map, deadlines, provider and conflict needs, client Communication and an adversarial Matter request.
 
-A verified opposition, observation or comparable challenge produces a sourced event, affected-scope map, deadlines, conflict and provider needs, client Communication and a request for the appropriate formal Matter.
-
-CH34 defines the adversarial Product journey, including positions, pleadings, evidence, settlement, Human Decision, professional responsibility and governed filing.
+CH34 governs the resulting Adversarial Context, Evidence, pleadings, settlement authority and procedural outcomes.
