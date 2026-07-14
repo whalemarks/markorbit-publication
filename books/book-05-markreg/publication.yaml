@@ -2,7 +2,7 @@ book: "Book 05"
 title: "MarkReg: The Full-Lifecycle International Trademark Product"
 canonical_path: "books/book-05-markreg/"
 status: "complete_draft_1_publication_finishing_active"
-phase: "pf_01b_metadata_then_specification_reconciliation"
+phase: "pf_03_reference_journey_reconciliation_with_pf_01b_open"
 portfolio_baseline: "MO-PUB-BASELINE-0001"
 positioning: "Defines MarkReg as the flagship full-lifecycle international trademark Product that turns complex service needs into understandable, reviewable, governed professional journeys."
 chapter_map:
@@ -22,77 +22,64 @@ manuscript:
   productized_range: "08-47"
   front_matter_metadata_normalized: true
   remaining_metadata_normalization: "02-47"
-  drafted_chapters:
-    - "B05-CH-00"
-    - "B05-CH-01"
-    - "B05-CH-02"
-    - "B05-CH-03"
-    - "B05-CH-04"
-    - "B05-CH-05"
-    - "B05-CH-06"
-    - "B05-CH-07"
-    - "B05-CH-08"
-    - "B05-CH-09"
-    - "B05-CH-10"
-    - "B05-CH-11"
-    - "B05-CH-12"
-    - "B05-CH-13"
-    - "B05-CH-14"
-    - "B05-CH-15"
-    - "B05-CH-16"
-    - "B05-CH-17"
-    - "B05-CH-18"
-    - "B05-CH-19"
-    - "B05-CH-20"
-    - "B05-CH-21"
-    - "B05-CH-22"
-    - "B05-CH-23"
-    - "B05-CH-24"
-    - "B05-CH-25"
-    - "B05-CH-26"
-    - "B05-CH-27"
-    - "B05-CH-28"
-    - "B05-CH-29"
-    - "B05-CH-30"
-    - "B05-CH-31"
-    - "B05-CH-32"
-    - "B05-CH-33"
-    - "B05-CH-34"
-    - "B05-CH-35"
-    - "B05-CH-36"
-    - "B05-CH-37"
-    - "B05-CH-38"
-    - "B05-CH-39"
-    - "B05-CH-40"
-    - "B05-CH-41"
-    - "B05-CH-42"
-    - "B05-CH-43"
-    - "B05-CH-44"
-    - "B05-CH-45"
-    - "B05-CH-46"
-    - "B05-CH-47"
-  architecture_reviewed_through: "B05-CH-47"
-  continuation_accepted_through: "B05-CH-47"
   publication_metadata_normalized: false
   release_candidate_ready: false
 specifications:
-  - "B05-SPEC-0001"
-  - "B05-SPEC-0002"
-  - "B05-SPEC-0003"
-  - "B05-SPEC-0004"
-  reconciliation_through_ch47_required: true
+  records:
+    B05-SPEC-0001:
+      status: "controlled_specification_v0_2_full_lifecycle_reconciled"
+      applies_through: "CH47"
+      workstream: "PF-02"
+      workstream_status: "complete"
+    B05-SPEC-0002:
+      status: "controlled_draft_extension_required"
+      workstream: "PF-03"
+      workstream_status: "open"
+    B05-SPEC-0003:
+      status: "controlled_draft_extension_required"
+      workstream: "PF-04"
+      workstream_status: "open"
+    B05-SPEC-0004:
+      status: "controlled_draft_reconciliation_required"
+      workstream: "PF-05"
+      workstream_status: "open"
+  all_specifications_reconciled_through_ch47: false
+controlled_record_model:
+  constitutional_rules: "MR-CR-01 through MR-CR-08 unchanged"
+  classes:
+    MR-A: "Product artifact"
+    MR-C: "scoped context"
+    MR-D: "accountable decision"
+    MR-E: "evidence or source-backed record"
+    MR-B: "baseline or obligation record"
+    MR-V: "view or projection"
+    MR-G: "governance and configuration record"
+  ranges:
+    artifacts: "MR-A01-MR-A30"
+    contexts: "MR-C01-MR-C11"
+    decisions: "MR-D01-MR-D13"
+    evidence: "MR-E01-MR-E09"
+    baselines: "MR-B01-MR-B04"
+    views: "MR-V01-MR-V05"
+    governance: "MR-G01-MR-G10"
 appendices:
-  status: "controlled_scaffolds"
   structural_baseline: "B05-PUB-0006"
   records:
-    - "B05-APP-A"
-    - "B05-APP-B"
-    - "B05-APP-C"
-    - "B05-APP-D"
-    - "B05-APP-E"
-    - "B05-APP-F"
-    - "B05-APP-G"
-  content_reconciled: false
+    B05-APP-A:
+      status: "controlled_reader_draft_pf_02_reconciled"
+    B05-APP-B:
+      status: "pf_02_state_mapping_complete_pf_04_scenarios_pending"
+    B05-APP-C:
+      status: "controlled_scaffold_pf_04_pending"
+    B05-APP-D:
+      status: "controlled_scaffold_pf_03_pending"
+    B05-APP-E:
+      status: "controlled_scaffold_pf_04_pending"
+    B05-APP-F:
+      status: "controlled_scaffold_pf_05_pending"
+    B05-APP-G:
+      status: "controlled_scaffold_pf_04_pf_07_pending"
+  all_content_reconciled: false
 publication_apparatus:
   status: "architecture_locked_content_incomplete"
   records:
@@ -107,20 +94,23 @@ publication_apparatus:
   figures_planned: 12
   figures_created: 0
 reviews:
-  - "B05-REV-0001"
-  - "B05-REV-0002"
-  - "B05-REV-0003"
-  - "B05-REV-0004"
-  - "B05-REV-0005"
-  - "B05-REV-0006"
-  - "B05-REV-0007"
-  - "B05-REV-0008"
-  - "B05-REV-0009"
-  - "B05-ERRATA-0001"
-  - "B05-REV-0010"
-  - "B05-REV-0011"
-  - "B05-REV-0012"
-  - "B05-REV-0013"
+  latest: "B05-REV-0014"
+  records:
+    - "B05-REV-0001"
+    - "B05-REV-0002"
+    - "B05-REV-0003"
+    - "B05-REV-0004"
+    - "B05-REV-0005"
+    - "B05-REV-0006"
+    - "B05-REV-0007"
+    - "B05-REV-0008"
+    - "B05-REV-0009"
+    - "B05-ERRATA-0001"
+    - "B05-REV-0010"
+    - "B05-REV-0011"
+    - "B05-REV-0012"
+    - "B05-REV-0013"
+    - "B05-REV-0014"
 revision_pack:
   id: "B05-REVISION-PACK-001"
   status: "closed"
@@ -131,19 +121,22 @@ publication_finishing_pack:
   target: "release_candidate_1_candidate"
   progress:
     pf_01a_front_matter: "complete"
-    pf_01b_remaining_metadata: "open"
-    pf_02_artifacts: "open"
-    pf_03_journeys: "open"
+    pf_01b_remaining_metadata: "open_required_before_rc1"
+    pf_02_artifacts: "complete"
+    pf_03_journeys: "open_next_substantive_work"
     pf_04_scenarios_and_surfaces: "open"
     pf_05_jurisdiction_and_commercial: "open"
     pf_06_editorial: "open"
     pf_07a_publication_architecture: "complete"
+    pf_07_appendix_a_pf_02: "complete"
+    pf_07_appendix_b_pf_02: "complete"
     pf_07_remaining_assets: "open"
     pf_08_validation: "open"
     pf_09_rc1_gate: "open"
 next_gate:
-  title: "PF-01B Metadata Normalization and Controlled Specification Reconciliation"
-  authorized_by_review: "B05-REV-0013"
+  title: "PF-03 Reference Journey Consolidation"
+  authorized_by_review: "B05-REV-0014"
+  parallel_rc1_blocker: "PF-01B CH02-CH47 metadata normalization"
   final_publication_separate: true
 book_02_semantic_change_required: false
 book_03_execution_change_required: false
