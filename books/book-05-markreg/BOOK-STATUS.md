@@ -2,13 +2,13 @@
 
 ## Current State
 
-- **Status:** Part VI Draft and Review Complete — Part VII Authorized
+- **Status:** Complete Draft 1 — CH00–CH47 Full Manuscript and Review Complete
 - **Title:** MarkReg: The Full-Lifecycle International Trademark Product
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
-- **Manuscript:** CH00–CH42 drafted; CH08–CH42 use the controlled Product contracts
-- **Controlled specifications:** B05-SPEC-0001 through B05-SPEC-0004
+- **Manuscript:** CH00–CH47 drafted across all seven parts
+- **Controlled specifications:** B05-SPEC-0001 through B05-SPEC-0004; full-lifecycle reconciliation pending
 - **Architecture dependency:** MO-PUB-BASELINE-0001
-- **Current gate:** Part VII — Product Experience and Evolution, CH43–CH47
+- **Current gate:** B05-PUBLICATION-FINISHING-PACK-001
 
 ## Chapter Boundary Control
 
@@ -24,13 +24,14 @@ B05-ERRATA-0001 corrects the former CH37–CH43 authorization typo in B05-REV-00
 ## Completed Work
 
 - Established Book 05 governance, planning and Product specifications.
-- Drafted CH00–CH42.
-- Productized and reviewed Parts II–III.
+- Drafted and reviewed CH00–CH22, including Parts II–III productization.
 - Drafted and reviewed Part IV under B05-REV-0008.
 - Drafted and reviewed Part V under B05-REV-0009.
-- Drafted Part VI, CH37–CH42.
-- Added B05-ERRATA-0001 for the Part VI boundary correction.
-- Completed B05-REV-0010 — Part VI Registration and Portfolio Continuity Review.
+- Drafted and reviewed Part VI under B05-REV-0010.
+- Drafted Part VII, CH43–CH47.
+- Completed B05-REV-0011 — Part VII Product Experience and Evolution Review.
+- Completed B05-REV-0012 — CH00–CH47 Complete Draft 1 Review.
+- Defined B05-PUBLICATION-FINISHING-PACK-001 in B05-PLN-0004.
 
 ## Current Decisions
 
@@ -41,64 +42,81 @@ MarkReg is Workplace, Core, Execution, MGSN, an official office, or an Owning Se
 MarkReg is an open provider marketplace: NO
 
 B05-TOC-V0.1 owner accepted: YES
-Seven-part structure retained: YES
-Part IV drafted and reviewed: YES
-Part V drafted and reviewed: YES
-Part VI CH37–CH42 drafted and reviewed: YES
-Part VII CH43–CH47 authorized: YES
+Seven-part structure complete: YES
+CH00–CH47 drafted: YES
+Part VII reviewed: YES
+Complete Draft 1 achieved: YES
+Full-book architecture review complete: YES
+Publication finishing required: YES
+Release Candidate 1 ready: NO
+Final publication approved: NO
 
-Official registration equals certificate file: NO
+Product readiness equals approval: NO
+Approval equals Execution: NO
+Submission equals official acknowledgement: NO
 Certificate equals current official record: NO
-Reminder equals official deadline: NO
-Renewal approval equals renewed right: NO
-Contractual transfer equals recorded ownership: NO
-Licence equals assignment: NO
 Portfolio signal equals legal conclusion or protected action: NO
 Product projection equals official truth without source: NO
 AI may replace accountable Human Review: NO
 ```
 
-## Part VI Review Result
+## Part VII Review Result
 
 ```text
-Chapter-map conformance and correction: PASS
-Registration and certificate boundaries: PASS
-Right Baseline and registered-scope diff: PASS
-Maintenance and use-obligation governance: PASS
-Renewal package, approval and acknowledgement: PASS
-Changes and recordal boundaries: PASS
-Assignment, licensing and chain of title: PASS
-Portfolio continuity and monitoring signals: PASS
+Standalone and embedded experience: PASS
+Typed Handoff, Session and Return behavior: PASS
+Participant surfaces and action rights: PASS
+Jurisdiction Pack and rule-version governance: PASS
+AI assistance boundaries: PASS
+Metrics and quality model: PASS
+MVP delivery sequence: PASS
+Conformance and roadmap: PASS
 EMBERLOOP and RIVERKITE continuity: PASS
 Architecture boundaries: PASS
-Part VII continuation readiness: PASS
-Whole-Book publication readiness: NOT YET — Part VII remains unwritten
 ```
 
-## Part VI Product Sequence
+## Complete Draft 1 Review Result
 
 ```text
-CH37 Registration Outcome Snapshot and Right Baseline
-→ CH38 Maintenance Obligation Set and verified deadlines
-→ CH39 Renewal Package, Approval and official acknowledgement
-→ CH40 Recordal Context and official updates
-→ CH41 Transaction Context and Chain-of-Title View
-→ CH42 Portfolio Continuity View and Portfolio Action Plan
+Manuscript inventory and numbering: PASS
+Product constitution: PASS
+Full-lifecycle coverage: PASS
+Artifact and decision integrity: PASS WITH RECONCILIATION REQUIRED
+Books 01–04 architecture conformance: PASS
+Reference journeys in manuscript: PASS
+User-surface coverage: PASS
+Jurisdiction and AI governance: PASS
+Metrics and delivery model: PASS
+Early chapter metadata: PUBLICATION BLOCKER
+Controlled specifications through CH47: PUBLICATION BLOCKER
+Terminology and editorial finishing: REQUIRED
+Cross-reference and rendered validation: REQUIRED
+Publication apparatus: PUBLICATION BLOCKER
+Complete Draft 1: ACHIEVED
+Release Candidate 1: NOT YET
 ```
 
-Historical draft labels in unchanged early chapter headers remain non-authoritative publication-cleanup items. This file, B05-TOC-V0.1, B05-ERRATA-0001 and current review records control status.
+## Publication Finishing Pack
 
-## Authorized Next Writing Pack
+`B05-PUBLICATION-FINISHING-PACK-001` contains:
 
-Part VII — Product Experience and Evolution:
+1. PF-01 — metadata normalization;
+2. PF-02 — Product Artifact and Decision Map extension;
+3. PF-03 — reference journey consolidation;
+4. PF-04 — scenario and user-surface consolidation;
+5. PF-05 — jurisdiction and commercial reconciliation;
+6. PF-06 — terminology, compression and native-English editing;
+7. PF-07 — figures and publication apparatus;
+8. PF-08 — structural and rendered validation;
+9. PF-09 — Release Candidate and owner publication gate.
 
-- CH43 — Standalone, Embedded and Cross-Product Experience
-- CH44 — Client, Professional and Provider Participation Surfaces
-- CH45 — Jurisdiction Packs, AI Assistance and Rule Versioning
-- CH46 — Product Metrics, Quality and MVP Delivery Sequence
-- CH47 — Conformance, Roadmap and Conclusion
+Historical `Foundation Draft` and `Candidate` labels in CH00–CH07 remain non-authoritative until PF-01 closes. This file, B05-TOC-V0.1, B05-ERRATA-0001 and current review records control status.
 
-Part VII must complete the first full Book 05 draft while preserving all authority, source, Human Review and protected-action boundaries.
+## Next Controlled Work
+
+Execute B05-PUBLICATION-FINISHING-PACK-001.
+
+No new Book 05 chapter drafting is required unless publication review identifies a controlled semantic gap.
 
 Ready for unrestricted implementation: **NO**
 
