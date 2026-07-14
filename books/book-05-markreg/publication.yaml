@@ -2,7 +2,7 @@ book: "Book 05"
 title: "MarkReg: The Full-Lifecycle International Trademark Product"
 canonical_path: "books/book-05-markreg/"
 status: "complete_draft_1_editorial_finishing_active"
-phase: "pf_06b_ch00_ch22_with_pf_01b_open"
+phase: "pf_06b2_ch08_ch22_with_pf_01b_partial"
 portfolio_baseline: "MO-PUB-BASELINE-0001"
 chapter_map:
   id: "B05-TOC-V0.1"
@@ -16,11 +16,28 @@ chapter_map:
 manuscript:
   drafted_range: "00-47"
   complete_draft: 1
-  front_matter_metadata_normalized: true
-  remaining_metadata_normalization: "02-47"
-  metadata_batch_assignments:
-    pf_06b: "02-22"
-    pf_06c: "23-47"
+  editorial_batches:
+    front_matter_and_part_i:
+      range: "00-07"
+      status: "complete"
+      workstream: "PF-06B1"
+      accepted_by: "B05-REV-0019"
+      approximate_prior_lines: 3891
+      approximate_edited_lines: 1635
+      approximate_reduction_percent: 58
+    part_ii_and_part_iii:
+      range: "08-22"
+      status: "authorized_next"
+      workstream: "PF-06B2"
+    part_iv_through_part_vii:
+      range: "23-47"
+      status: "planned"
+      workstream: "PF-06C"
+  metadata_normalization:
+    "00-01": "complete_pf_01a"
+    "02-07": "complete_pf_06b1"
+    "08-47": "open"
+    overall: "partial_required_before_rc1"
   line_edit_complete: false
   release_candidate_ready: false
 specifications:
@@ -131,11 +148,14 @@ editorial:
   batches:
     pf_06a:
       status: "complete"
-      scope: "editorial_standard_term_audit_glossary_and_index"
       accepted_by: "B05-REV-0018"
-    pf_06b:
+    pf_06b1:
+      status: "complete"
+      scope: "CH00-CH07_and_metadata_CH02-CH07"
+      accepted_by: "B05-REV-0019"
+    pf_06b2:
       status: "authorized_next"
-      scope: "CH00-CH22_and_metadata_CH02-CH22"
+      scope: "CH08-CH22_and_metadata_CH08-CH22"
     pf_06c:
       status: "planned"
       scope: "CH23-CH47_and_metadata_CH23-CH47"
@@ -144,47 +164,37 @@ editorial:
       scope: "specifications_appendices_publication_and_whole_book_closure"
   overall_status: "open"
 publication_apparatus:
-  status: "editorial_baseline_complete_remaining_content_and_figures_open"
-  records:
-    - "B05-PUB-0001"
-    - "B05-PUB-0002"
-    - "B05-PUB-0003"
-    - "B05-PUB-0004"
-    - "B05-PUB-0005"
-    - "B05-PUB-0006"
-    - "B05-PUB-0007"
-    - "B05-PUB-0008"
-    - "B05-PUB-0009"
+  status: "editorial_baseline_and_part_i_complete_remaining_content_and_figures_open"
   figures_planned: 12
   figures_created: 0
 reviews:
-  latest: "B05-REV-0018"
+  latest: "B05-REV-0019"
   records:
-    - "B05-REV-0001-B05-REV-0018"
+    - "B05-REV-0001-B05-REV-0019"
     - "B05-ERRATA-0001"
 publication_finishing_pack:
   id: "B05-PUBLICATION-FINISHING-PACK-001"
   status: "active"
   progress:
     pf_01a_front_matter: "complete"
-    pf_01b_remaining_metadata: "open_required_before_rc1"
+    pf_01b_metadata: "partial_ch02_ch07_complete_ch08_ch47_open"
     pf_02_artifacts: "complete"
     pf_03_journeys: "complete"
     pf_04_scenarios_and_surfaces: "complete"
     pf_05_jurisdiction_and_commercial: "complete"
     pf_06a_editorial_baseline: "complete"
-    pf_06b_ch00_ch22: "authorized_next"
+    pf_06b1_ch00_ch07: "complete"
+    pf_06b2_ch08_ch22: "authorized_next"
     pf_06c_ch23_ch47: "planned"
     pf_06d_whole_book_closure: "planned"
     pf_06_overall: "open"
-    pf_07a_publication_architecture: "complete"
     pf_07_figures_and_remaining_assets: "open"
     pf_08_validation: "open"
     pf_09_rc1_gate: "open"
 next_gate:
-  title: "PF-06B CH00-CH22 Editorial Pass"
-  authorized_by_review: "B05-REV-0018"
-  parallel_rc1_blocker: "PF-01B CH02-CH47 metadata normalization"
+  title: "PF-06B2 CH08-CH22 Editorial Pass"
+  authorized_by_review: "B05-REV-0019"
+  parallel_rc1_blocker: "PF-01B CH08-CH47 metadata normalization"
   final_publication_separate: true
 book_02_semantic_change_required: false
 book_03_execution_change_required: false
