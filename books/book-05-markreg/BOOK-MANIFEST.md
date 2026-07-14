@@ -7,7 +7,7 @@
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
 - **Portfolio dependency:** MO-PUB-BASELINE-0001
 - **Primary Product:** MarkReg
-- **Current substantive gate:** PF-04 Scenario and User-Surface Consolidation
+- **Current substantive gate:** PF-05 Jurisdiction and Commercial Reconciliation
 - **Independent RC1 blocker:** PF-01B CH02–CH47 metadata normalization
 
 ## Directory Purpose
@@ -42,8 +42,8 @@ Appendix A–G sit outside the chapter numbering and do not amend B05-TOC-V0.1.
 | --- | --- |
 | `B05-SPEC-0001_Product_Artifact_and_Decision_Map.md` | Controlled Specification v0.2 — PF-02 complete |
 | `B05-SPEC-0002_Reference_Journeys.md` | Controlled Specification v0.2 — PF-03 complete |
-| `B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md` | PF-04 authorized and next |
-| `B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md` | PF-05 open |
+| `B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md` | Controlled Specification v0.2 — PF-04 complete |
+| `B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md` | PF-05 authorized and next |
 
 Specifications remain authoritative over appendix projections.
 
@@ -52,12 +52,22 @@ Specifications remain authoritative over appendix projections.
 | Appendix | Status |
 | --- | --- |
 | A — Full-Lifecycle Artifact and Decision Map | controlled reader draft — PF-02 reconciled |
-| B — Lifecycle State and Authority Matrix | PF-02 state mapping complete; PF-04 scenarios pending |
-| C — Participant Visibility and Action Rights Matrix | controlled scaffold — PF-04 pending |
+| B — Lifecycle State and Authority Matrix | controlled reader draft — PF-02 and PF-04 reconciled |
+| C — Participant Visibility and Action Rights Matrix | controlled reader draft — PF-04 reconciled |
 | D — Reference Journeys | controlled reader draft — PF-03 reconciled |
-| E — Priority Conformance Scenarios | controlled scaffold — PF-04 pending |
+| E — Priority Conformance Scenarios | controlled reader draft — PF-04 reconciled |
 | F — Minimum Jurisdiction Pack Checklist | controlled scaffold — PF-05 pending |
-| G — MarkReg Conformance Profiles | controlled scaffold — PF-04/PF-07 pending |
+| G — MarkReg Conformance Profiles | controlled reader draft — PF-04 reconciled; PF-05/PF-08 evidence pending |
+
+## Scenario and Surface Inventory
+
+```text
+Controlled scenarios: MR-SCN-01–MR-SCN-41
+Severity classes: standard, high-risk, zero-tolerance
+Participant classes: client, owner representative, professional, reviewer, approver, coordinator, account, finance, provider, administrator, AI
+Conformance profiles: 8
+Lifecycle surface coverage: CH07–CH47
+```
 
 ## Reference Journey Baseline
 
@@ -94,6 +104,7 @@ B05-PUB-0006 is the structural baseline. Other publication records remain under 
 - B05-REV-0001 through B05-REV-0013 — manuscript, architecture and publication-baseline reviews
 - B05-REV-0014 — PF-02 Full-Lifecycle Artifact and Decision Reconciliation
 - B05-REV-0015 — PF-03 Reference Journey Consolidation
+- B05-REV-0016 — PF-04 Scenario and User-Surface Reconciliation
 
 ## Current Gate
 
@@ -102,7 +113,7 @@ CH00–CH47 Complete Draft 1
 → PF-01A and PF-07A complete
 → PF-02 complete
 → PF-03 complete
-→ PF-04 scenario and user-surface consolidation
+→ PF-04 complete
 → PF-05 jurisdiction and commercial reconciliation
 → PF-06 and remaining PF-07 publication finishing
 → PF-01B metadata normalization before validation
