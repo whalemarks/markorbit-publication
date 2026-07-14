@@ -1,337 +1,166 @@
 # B05-CH-40 — Changes, Recordals and Ownership Updates
 
-**Status:** Part VI Draft  
+**Status:** Complete Draft 1  
 **Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part VI — Registration and Portfolio Continuity
 
 ## Chapter Purpose
 
-Official records may need correction or updating after filing or registration. A business fact, signed document, internal master-data change and official recordal are not the same event.
-
-The central progression is:
+A business change, signed document, internal master-data update and official recordal are different events.
 
 ```text
-Detected Change
-→ Recordal Context
-→ Requirement Set
-→ Recordal Package Candidate
-→ Review and Approval
-→ Governed Filing
-→ Official Acknowledgement
-→ Updated Right Baseline
+EL-33 / CH40
+MR-B01 Right Baseline
+→ MR-C07 Recordal Context
+→ MR-A27 Recordal Package Candidate
+→ MR-D09 Recordal Approval
+→ MR-A17 Execution Request
+→ MR-E09 Official Update Evidence
+→ updated MR-B01 Right Baseline
 ```
+
+The Product question is:
+
+> What official data must change, what caused the change, which rights and jurisdictions are affected, and what official Evidence will prove the result?
 
 ```text
-Internal Data Update
-≠ Signed Change Document
-≠ Recordal Filed
-≠ Official Record Updated
+Internal data update
+≠ signed change document
+≠ recordal filed
+≠ official record updated
 ```
 
----
+## 1. Recordal Context
 
-## 1. User Question and Primary Action
+`MR-C07 Recordal Context` should preserve:
 
-**User question:** Which official records are wrong or outdated, what legal event caused the change, and what filing is required in each jurisdiction?
-
-**Primary action:** Confirm the change event and affected rights, resolve evidence and authority requirements, and approve the jurisdiction-specific Recordal Package Candidate.
-
----
-
-## 2. Change Types Must Remain Distinct
-
-Possible contexts include:
-
-- owner name change without change of legal identity;
-- owner address change;
-- representative or address-for-service change;
-- correction of clerical error;
-- limitation of goods or services;
-- change of legal form;
-- merger;
-- assignment or transfer;
-- licence recordal;
-- security interest;
-- cancellation of a prior recordal;
-- change following court or administrative decision.
-
-The Product should not treat all of these as a generic `owner update`.
-
----
-
-## 3. Recordal Context
-
-Each Recordal Context should preserve:
-
-- change type;
-- affected party or right;
-- previous value;
-- proposed value;
-- effective date;
-- factual source;
-- legal basis;
-- supporting Documents;
-- affected jurisdictions and rights;
-- urgency and deadline;
-- pending proceedings;
-- authority and signatory;
-- provider need;
-- source jurisdiction-pack version;
+- change type and legal or factual cause;
+- current official value, claimed value and proposed value;
+- effective date and source;
+- affected rights, jurisdictions and proceedings;
+- required Documents and chain-of-title Evidence;
+- signatory and instruction authority;
+- Provider, fee and deadline requirements;
+- dependencies on renewal, dispute or transaction work;
 - unresolved conflicts.
 
----
+Name, address, representative, clerical correction, limitation, merger and assignment are not one generic `owner update`.
 
-## 4. One Business Event May Require Many Official Actions
+## 2. One Event, Many Official Actions
 
-A corporate name change may affect:
+A corporate event may affect several applications, registrations, proceedings and local representatives. MarkReg may group the business initiative, but every official filing retains independent:
 
-- several jurisdictions;
-- applications and registrations;
-- different owner identifiers;
-- pending oppositions;
-- local representatives;
-- renewal filings;
-- licences and security interests.
+- right and jurisdiction;
+- current official value;
+- Requirement Set;
+- package and approval;
+- Execution identity;
+- acknowledgement and official result.
 
-The Product may present one portfolio initiative while preserving each official filing as an independent governed action.
+A portfolio initiative may therefore be partially complete.
 
----
+## 3. Current, Claimed and Proposed Values
 
-## 5. Requirement Set
-
-Recordal requirements may include:
-
-- change certificate;
-- registry extract;
-- merger document;
-- assignment instrument;
-- POA;
-- declaration;
-- notarization;
-- legalization or apostille;
-- certified translation;
-- original document;
-- consent from another party;
-- official fee;
-- local representative;
-- chain-of-title evidence.
-
-Each requirement should preserve source, format, language, validity, signature, certification and accepted-use status.
-
----
-
-## 6. Previous and Proposed Values
-
-The Product should show a precise diff:
+The Product should display a precise diff:
 
 ```text
-Official Current Value
-→ Requested New Value
+current official value
+→ client or business claim
+→ proposed filed value
+→ value recorded by the office
 ```
 
-It should preserve:
+Display normalization must not silently become the filed value. Original-language values, legal form, entity identifier, address components and affected rights remain traceable.
 
-- spelling and punctuation;
-- original-language and translated value;
-- address components;
-- legal form;
-- entity identifiers;
-- affected owner or representative role;
-- rights included and excluded.
+## 4. Recordal Package and Approval
 
-A normalization for display should not silently become the filed value.
+`MR-A27 Recordal Package Candidate` should include:
 
----
+- `MR-C07` reference;
+- current and proposed official data;
+- affected-right list;
+- supporting Documents and authority;
+- form or statement content;
+- Pack and source versions;
+- fees, Provider and route;
+- deadline, sequence and dependencies;
+- unresolved issues and package version.
 
-## 7. Recordal Package Candidate
+`MR-D09 Recordal Approval` binds exact changes, rights, Documents, jurisdictions, fees and route. An administrator editing Workplace or CRM data cannot grant this approval.
 
-The package should contain:
+## 5. Sequencing with Other Work
 
-- Recordal Context reference;
-- official right identifiers;
-- current official data;
-- proposed official data;
-- change type and effective date;
-- supporting Documents;
-- statement or form content;
-- signatory and authority;
-- jurisdiction rules and source versions;
-- fees and provider route;
-- deadline and dependency;
-- unresolved issue;
-- package version;
-- review and approval records.
-
----
-
-## 8. Sequencing with Other Actions
-
-Recordal may interact with:
-
-- renewal;
-- office-action response;
-- opposition or cancellation;
-- assignment completion;
-- licence execution;
-- enforcement;
-- provider appointment;
-- certificate correction.
-
-The Product should allow:
+The professional Decision may require:
 
 ```text
-Recordal before other action
-Recordal together with other action
-Other action under current record
-Parallel actions
-Professional escalation required
+recordal before renewal or dispute action
+recordal filed together with another action
+other action under current official data
+parallel independent actions
+protected action blocked pending resolution
 ```
 
-The sequence is jurisdiction-specific and should be explicitly decided.
+The sequence is jurisdiction- and purpose-specific. A transaction’s contractual effective date does not determine every office’s filing sequence.
 
----
+## 6. Official Result and Partial Completion
 
-## 9. Approval and Authority
+`MR-E09 Official Update Evidence` may show:
 
-Recordal Approval should identify:
-
-- package version;
-- affected rights;
-- current and proposed data;
-- authority basis;
-- Document set;
-- fees;
-- execution route;
-- professional decision on sequencing;
-- decision-maker;
-- approval time;
-- invalidation conditions.
-
-An internal administrator changing a CRM record does not authorize an official recordal.
-
----
-
-## 10. Official Acknowledgement and Partial Results
-
-Possible results include:
-
-- recordal accepted for all rights;
-- accepted for some rights only;
-- deficiency issued;
-- additional evidence requested;
-- owner data normalized by office;
-- effective date changed;
-- application updated but registration not updated;
+- full acceptance;
+- acceptance for selected rights only;
+- office normalization of the requested value;
+- deficiency or additional-evidence request;
+- application updated while registration remains unchanged;
 - certificate reissue pending;
-- recordal rejected;
-- status unknown.
+- rejection or unknown status.
 
-The Product should update each right independently and retain the requested-versus-recorded diff.
+Each `MR-B01 Right Baseline` updates only after its own sourced result. Requested and recorded values remain visible.
 
----
+## 7. `RIVERKITE` — `RK-11`
 
-## 11. Reference Journey — RIVERKITE
-
-One registration shows the predecessor company as owner, while the business asserts ownership transferred through an acquisition.
-
-MarkReg creates:
+One registration still names a predecessor company while the group claims ownership through a merger and later assignment. MarkReg creates:
 
 ```text
-Recordal Context — Assignment
-→ Requirement Set
-→ Chain-of-Title Review
-→ Recordal Package Candidate v3
+MR-C07 Recordal Context
+→ chain-of-title Review
+→ MR-A27 Recordal Package Candidate
+→ MR-D09 Recordal Approval when ready
 ```
 
-The renewal and assignment recordal proceed in parallel under the jurisdiction-specific professional decision recorded in CH39.
+The ownership-linked renewal and recordal proceed in parallel under the sourced professional Decision. Current official owner, contractual or business-owner claim and proposed recorded owner remain separate until `MR-E09` verifies each official update.
 
-The Product keeps three facts separate:
+## 8. `EMBERLOOP` — `EL-33`
 
-- current official owner;
-- claimed beneficial or contractual owner;
-- proposed owner after recordal.
+The reviewed baseline contains no activated EMBERLOOP recordal. A possible future reorganization remains a change signal only; no `MR-C07`, package, approval or official update is invented.
 
-It does not mark the assignee as official owner until the office acknowledges the recordal.
+## 9. Controlled Scenarios
 
----
+- **MR-SCN-16 — Package changed after approval:** a material right, owner, Document or value change invalidates affected approval.
+- **MR-SCN-26 — Corrected official event:** preserve old and corrected official results.
+- **MR-SCN-31 — Owner mismatch:** expose dependency before renewal or recordal action.
+- **MR-SCN-32 — Assignment signed but not recorded:** show contractual and official states separately.
+- **MR-SCN-33 — One challenged right:** do not propagate one recordal or dispute state across unrelated rights.
 
-## 12. Reference Journey — EMBERLOOP
+## 10. AI Assistance
 
-The UK Right Baseline contains a corrected address already reflected in the official record. No recordal is opened.
+AI may classify signals, compare values, identify affected rights, extract Documents and prepare candidate diffs. It must not decide identity continuity, establish ownership, approve sequencing or mark official data changed without sourced Evidence.
 
-A later group-company reorganization is recorded only as a potential change signal until transaction documents and affected-right scope are confirmed.
-
----
-
-## 13. Conformance Scenarios
-
-### Scenario A — CRM name changed
-
-**Given** the client updates its display name in Workplace  
-**When** no legal change evidence exists  
-**Then** the Product does not create or mark an official recordal as completed.
-
-### Scenario B — One event affects many rights
-
-**Given** a corporate name change across twelve jurisdictions  
-**When** the initiative is created  
-**Then** the Product may group the project but creates independent jurisdiction-specific packages, approvals and results.
-
-### Scenario C — Office records unexpected normalization
-
-**Given** the office accepts the change but formats the legal name differently  
-**When** acknowledgement is received  
-**Then** the Product preserves the requested value, official recorded value and professional assessment.
-
-### Scenario D — Partial acceptance
-
-**Given** one portfolio package covers five rights  
-**When** three are accepted and two receive deficiencies  
-**Then** each Right Baseline is updated independently and the overall initiative remains partially complete.
-
----
-
-## 14. AI Assistance Boundary
-
-AI may:
-
-- classify change signals;
-- compare official and proposed values;
-- identify affected rights;
-- extract supporting Documents;
-- prepare candidate forms and diffs;
-- summarize sequencing options.
-
-AI may not:
-
-- decide legal identity continuity;
-- establish ownership;
-- sign change documents;
-- approve sequencing;
-- mark official data changed without acknowledgement;
-- apply one jurisdiction rule universally.
-
----
-
-## 15. Minimum Recordal Lock
+## 11. Minimum Recordal Lock
 
 ```text
 Business fact, internal data,
-signed document, recordal package,
+signed Document, recordal package,
 filed action and official update
 remain distinct.
 
-One portfolio event may require
+One business event may require
 many independent official actions.
 
-Current, claimed and proposed ownership
-must never be silently collapsed.
+Current, claimed, proposed
+and recorded ownership
+must not be collapsed.
 ```
 
----
+## 12. Handoff to Transactions
 
-## 16. Handoff to Assignment and Chain of Title
-
-The output is a versioned Recordal Context and, where approved, an acknowledged official update.
-
-CH41 focuses on assignments, licences, mergers and the chain-of-title evidence needed to connect successive owners and authorized users.
+CH41 governs `MR-C08 Transaction Context`, `MR-C09 Licence Context`, `MR-A28 Affected-Right Set` and `MR-V03 Chain-of-Title View` before or alongside recordal work.

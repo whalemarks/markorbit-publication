@@ -1,5 +1,23 @@
 # Book 05 Changelog
 
+## 2026-07-15 — PF-06C3 Part VI Editorial Finishing
+
+- Edited CH37–CH42 against B05-PUB-0001 Controlled Editorial Standard v0.2.
+- Normalized CH37–CH42 metadata to Complete Draft 1 and B05-TOC-V0.1 — Owner Accepted.
+- Wrote `EL-30–EL-35` and `RK-09–RK-13` explicitly into the active Part VI manuscript.
+- Reconciled Registration Outcome Record, Filing and Scope Diff View and Right Baseline terminology.
+- Reconciled Maintenance Obligation Set, Use-Evidence Coverage Record and Deadline Record boundaries.
+- Reconciled Renewal Package Candidate, Renewal Approval, Recordal Context, Recordal Approval and Official Update Evidence.
+- Reconciled Transaction Context, Licence Context, Affected-Right Set, Chain-of-Title View, Portfolio Continuity View and Portfolio Action Plan.
+- Replaced chapter-local scenarios with the controlled `MR-SCN-01–41` registry.
+- Preserved EMBERLOOP and RIVERKITE independent lifecycle states without inventing official outcomes.
+- Reduced Part VI from approximately 2,188 lines to approximately 1,069 lines, about 51%.
+- Added B05-REV-0024 and accepted PF-06C3 manuscript work.
+- Recorded PF06C3-F01 for B05-SPEC-0002 Part VI and `RK-09–RK-13` controlled-ID reconciliation under PF-06D.
+- Recorded PF-01B as complete through CH42 and open for CH43–CH47.
+- Authorized PF-06C4 — Part VII, CH43–CH47.
+- Kept PF-06 overall, figures, validation, RC1 and final publication open.
+
 ## 2026-07-15 — PF-06C2 Part V Editorial Finishing
 
 - Edited CH30–CH36 against B05-PUB-0001 Controlled Editorial Standard v0.2.

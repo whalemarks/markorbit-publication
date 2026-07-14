@@ -1,376 +1,166 @@
 # B05-CH-41 — Assignment, Licensing and Chain of Title
 
-**Status:** Part VI Draft  
+**Status:** Complete Draft 1  
 **Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part VI — Registration and Portfolio Continuity
 
 ## Chapter Purpose
 
-Assignments, licences and mergers can change who owns, controls, uses or enforces a trademark. MarkReg must preserve the difference between contractual effect, corporate effect, beneficial ownership, recorded ownership, authorized use and official recordal.
-
-The central progression is:
+Assignments, mergers and licences may affect ownership, use, control and enforcement, but their contractual and official effects must remain distinct.
 
 ```text
-Transaction Signal
-→ Transaction Context
-→ Party and Authority Verification
-→ Affected-Right Set
-→ Document and Chain-of-Title Review
-→ Recordal Strategy
-→ Approved Recordal Packages
-→ Official Results
-→ Updated Chain of Title
+EL-34 / CH41
+MR-C08 Transaction Context
++ MR-C09 Licence Context where applicable
+→ MR-A28 Affected-Right Set
+→ MR-V03 Chain-of-Title View
+→ recordal strategy and jurisdiction-specific packages
+→ sourced official results
 ```
+
+The Product question is:
+
+> Which parties changed which rights, under what authority and effective date, and what contractual, use and official-record consequences follow?
 
 ```text
-Signed Assignment
-≠ Effective Transfer in Every Jurisdiction
-≠ Official Recordal
-≠ Updated Right Baseline
+Signed assignment
+≠ effective transfer in every jurisdiction
+≠ official recordal
+≠ updated Right Baseline
+
+Licence
+≠ assignment
+≠ official ownership
 ```
 
----
+## 1. Transaction Context
 
-## 1. User Question and Primary Action
-
-**User question:** Who transferred or licensed which rights to whom, under what authority and effective date, and what must be recorded in each jurisdiction?
-
-**Primary action:** Confirm the transaction facts and affected rights, resolve chain-of-title gaps, and approve the jurisdiction-specific recordal strategy.
-
----
-
-## 2. Transaction Types
-
-Contexts may include:
-
-- assignment of all rights;
-- partial assignment by jurisdiction, class or goods/services;
-- transfer with business or goodwill;
-- merger or universal succession;
-- corporate reorganization;
-- licence;
-- exclusive or non-exclusive licence;
-- security interest;
-- intra-group transfer;
-- court-ordered transfer;
-- transfer following insolvency or estate administration.
-
-These contexts should not share one undifferentiated workflow.
-
----
-
-## 3. Transaction Context
-
-The Product should preserve:
+`MR-C08 Transaction Context` should preserve:
 
 - transaction type;
-- transferor or licensor;
-- transferee or licensee;
-- legal identities and identifiers;
-- authority and signatories;
-- execution date;
-- contractual effective date;
-- conditions precedent;
-- closing status;
-- rights schedule;
-- included and excluded territories;
-- included and excluded classes or goods/services;
-- goodwill or business provisions where relevant;
-- consideration confidentiality;
-- governing law;
+- transferor, transferee and legal identities;
+- signatories and authority;
+- execution and contractual effective dates;
+- conditions precedent and closing state;
+- included and excluded rights, jurisdictions and scope;
+- governing-law and business assumptions where relevant;
 - supporting Documents;
-- recordal requirements;
-- unresolved conflicts.
+- recordal requirements and unresolved conflicts.
 
----
+Assignment, merger, succession, partial transfer, security interest and intra-group reorganization do not share one undifferentiated workflow.
 
-## 4. Affected-Right Set
+## 2. Affected-Right Set
 
-A transaction schedule should be reconciled against:
-
-- official application and registration records;
-- internal portfolio records;
-- pending applications;
-- disputed rights;
-- expired or cancelled rights;
-- prior assignments;
-- licences and security interests;
-- renewal and maintenance status;
-- local representative data.
-
-The Product should identify:
+`MR-A28 Affected-Right Set` reconciles the transaction schedule against official and internal portfolio data. It should identify:
 
 ```text
-Matched Right
-Unmatched Schedule Entry
-Portfolio Right Missing from Schedule
-Duplicate Entry
-Wrong Owner
-Wrong Jurisdiction
-Right No Longer Active
-Professional Review Required
+matched right
+unmatched schedule entry
+portfolio right missing from schedule
+duplicate entry
+wrong owner or jurisdiction
+inactive or disputed right
+professional Review required
 ```
 
----
+Every included and excluded right remains explicit. Transaction scope cannot be inferred from a brand name alone.
 
-## 5. Chain of Title
+## 3. Chain-of-Title View
 
-A Chain-of-Title View should preserve successive states:
+`MR-V03 Chain-of-Title View` presents successive states:
 
 ```text
-Original Applicant
-→ Registered Owner
-→ Name Change or Merger
-→ Assignment
-→ Current Official Owner
-→ Proposed Owner
+original applicant
+→ registered owner
+→ name change or merger
+→ assignment
+→ current official owner
+→ proposed owner
 ```
 
-Each link should include:
+Each link records parties, scope, date, source, Document, official-record state and unresolved gap. The Product does not fill a missing link with inference.
 
-- event type;
-- parties;
-- effective date;
-- source;
-- supporting Document;
-- official recordal state;
-- affected rights;
-- unresolved gap;
-- professional conclusion.
-
-The Product should not fill a missing link with an unsupported inference.
-
----
-
-## 6. Contractual and Official Effect
+## 4. Contractual and Official Effect
 
 The Product should distinguish:
 
 - signed but not effective;
 - effective between parties;
-- effective subject to condition;
-- effective under governing law;
+- effective subject to closing or other condition;
 - not yet recorded;
-- recorded for some rights;
-- recorded in some jurisdictions;
-- rejected or deficient;
+- recorded for selected rights or jurisdictions;
+- deficient or rejected;
 - official owner updated.
 
-One jurisdiction's recordal does not prove another jurisdiction's record has changed.
+One jurisdiction’s recordal does not update another. Historical `MR-B01 Right Baselines` remain auditable.
 
----
+## 5. Licence Context and Authorized Use
 
-## 7. Partial Assignments
+`MR-C09 Licence Context` should identify:
 
-Partial transfers require explicit scope by:
+- licensed rights, territory and goods/services;
+- exclusivity, term and sublicensing;
+- quality-control requirements;
+- authorized-use and Evidence permissions;
+- recordal requirements;
+- termination and expiry;
+- confidentiality and sharing limits.
 
-- jurisdiction;
-- application or registration;
-- class;
-- goods/services;
-- mark variant;
-- business field;
-- effective date.
+Licence Evidence may support use, but only Professional Review determines its relevance. A licence does not change official ownership.
 
-The Product should identify possible split-right consequences, coexistence risk, enforcement ambiguity and future maintenance responsibility.
+## 6. Transaction Review and Recordal Strategy
 
-A partial assignment should require professional review.
+Before official action, confirm:
 
----
-
-## 8. Licensing and Authorized Use
-
-Licence context may affect:
-
-- authorized-use evidence;
-- quality control;
-- enforcement rights;
-- maintenance declarations;
-- use attribution;
-- local recordal requirements;
-- tax and commercial obligations;
-- sublicensing;
-- termination.
-
-The Product should preserve:
-
-- licensed rights and territory;
-- exclusivity;
-- term;
-- authorized goods/services;
-- quality-control provisions;
-- recordal state;
-- evidence-sharing permissions;
-- termination or expiry.
-
-A licence is not an assignment and should not change the official owner unless a separate legal event occurs.
-
----
-
-## 9. Document and Authority Review
-
-Documents may include:
-
-- assignment agreement;
-- short-form assignment;
-- merger certificate;
-- board resolution;
-- corporate registry extract;
-- POA;
-- licence agreement;
-- consent;
-- court order;
-- notarized or legalized instrument;
-- certified translation.
-
-The review should confirm:
-
-- correct parties;
-- authority;
-- affected rights;
+- correct parties and authority;
+- rights and scope;
 - execution and effective dates;
-- signature and certification;
-- jurisdiction-specific wording;
-- consistency with the transaction schedule.
+- merger or predecessor links;
+- signatures, certification and translations;
+- renewal, dispute and evidence dependencies;
+- Pack and Provider requirements;
+- staged cost and sequence.
 
----
+Recordal strategy remains a recommendation until the required `MR-D09 Recordal Approval` is granted for each package.
 
-## 10. Recordal Strategy
+## 7. `RIVERKITE` — `RK-12`
 
-The strategy may define:
-
-- jurisdictions requiring recordal;
-- recommended but non-mandatory recordals;
-- filing order;
-- grouped or separate packages;
-- local representative route;
-- dependency on renewal or dispute;
-- evidence reuse;
-- expected fees;
-- deadline or urgency;
-- risk of non-recordal.
-
-It remains a professional recommendation until authorized.
-
----
-
-## 11. Official Results and Chain Update
-
-After each sourced official result, the Product should update:
-
-- current official owner;
-- recordal date;
-- effective date where stated;
-- recorded scope;
-- representative;
-- certificate or extract;
-- unresolved deficiencies;
-- next maintenance obligation;
-- chain-of-title link.
-
-Partial completion should remain visible across jurisdictions and rights.
-
----
-
-## 12. Reference Journey — RIVERKITE
-
-The acquisition documents show two successive events:
+The transaction history contains two successive events:
 
 ```text
 Founder Company
-→ Merger into Holding Company
-→ Assignment to Operating Company
+→ merger into Holding Company
+→ assignment to Operating Company
 ```
 
-The official register shows only the Founder Company.
+The official register still shows the Founder Company. MarkReg therefore records a two-link chain gap and requires merger Evidence, the assignment instrument, authority verification and jurisdiction-specific recordal analysis.
 
-MarkReg identifies a two-link chain-of-title gap and requires:
+The Operating Company’s distributor licence is represented in `MR-C09` as authorized-use context. Its approaching expiry remains visible. The licence does not cure the ownership gap or make the distributor the owner.
 
-- merger evidence;
-- assignment instrument;
-- authority verification;
-- jurisdiction-specific short forms;
-- professional decision on whether both events must be recorded.
+## 8. `EMBERLOOP` — `EL-34`
 
-The Product does not jump directly to the Operating Company as official owner. Each official result updates the chain incrementally.
+A possible future transfer of the UK registration remains a Transaction Signal only. No active `MR-C08`, official package or ownership change is created until the transaction, affected-right schedule, authority and effective date are confirmed.
 
-A licence from the Operating Company to a regional distributor is recorded as authorized-use context, not ownership.
+## 9. Controlled Scenarios
 
----
+- **MR-SCN-16 — Material package change:** changed parties, rights or Documents require a new version and Review.
+- **MR-SCN-31 — Owner mismatch:** expose the dependency for renewal and recordal.
+- **MR-SCN-32 — Assignment signed but not recorded:** separate contractual effect from official ownership.
+- **MR-SCN-33 — One challenged right:** keep transaction and dispute effects scoped to the affected right.
 
-## 13. Reference Journey — EMBERLOOP
+## 10. AI Assistance
 
-The group considers transferring the UK registration to a new IP holding company.
+AI may reconcile schedules, extract parties and dates, detect chain gaps and compare Documents. It must not decide whether title passed, infer missing links as fact, convert a licence into ownership or declare official recordal complete.
 
-MarkReg creates a Transaction Signal but does not open official recordal work until:
-
-- the transaction is approved;
-- the affected-right schedule is confirmed;
-- authority and effective date are available;
-- tax and professional review are complete.
-
-The current Right Baseline remains unchanged.
-
----
-
-## 14. Conformance Scenarios
-
-### Scenario A — Missing intermediate owner
-
-**Given** the transferor on the assignment differs from the official owner  
-**When** no merger or prior assignment evidence is available  
-**Then** the Product records a chain-of-title gap and blocks a clean ownership conclusion.
-
-### Scenario B — Partial jurisdiction recordal
-
-**Given** ten jurisdictions are included  
-**When** four recordals are acknowledged  
-**Then** only those four Right Baselines show the new official owner; the portfolio transaction remains partially complete.
-
-### Scenario C — Licence mistaken for ownership
-
-**Given** a licensee supplies use evidence  
-**When** the licence is valid  
-**Then** the Product may link authorized use but does not change the official owner.
-
-### Scenario D — Transaction signed but not closed
-
-**Given** an assignment agreement is executed subject to closing  
-**When** closing evidence is absent  
-**Then** the Product shows signed and conditional, not effective transfer or recordal-ready.
-
----
-
-## 15. AI Assistance Boundary
-
-AI may:
-
-- reconcile schedules and portfolio records;
-- extract parties, dates and rights;
-- detect chain gaps;
-- compare document versions;
-- propose recordal checklists;
-- summarize partial completion.
-
-AI may not:
-
-- decide whether title legally passed;
-- infer missing ownership links as fact;
-- determine authority without evidence;
-- convert a licence into ownership;
-- approve transaction scope;
-- declare official recordal complete without sourced results.
-
----
-
-## 16. Minimum Chain-of-Title Lock
+## 11. Minimum Chain-of-Title Lock
 
 ```text
-Contractual event, effective transfer,
-recorded ownership and Product projection
-remain distinct.
+Contractual event,
+effective transfer,
+recorded ownership and
+Product projection remain distinct.
 
-Every chain-of-title link requires
+Every chain link requires
 parties, scope, date, source,
 Document and official state.
 
@@ -378,10 +168,6 @@ Licensing may support authorized use.
 It does not silently change ownership.
 ```
 
----
+## 12. Handoff to Portfolio Continuity
 
-## 17. Handoff to Portfolio Strategy
-
-The output is a versioned Transaction Context, Affected-Right Set and Chain-of-Title View.
-
-CH42 combines registration, maintenance, renewal, recordal, use, dispute and market signals into portfolio strategy and lifecycle learning.
+CH42 combines independent `MR-B01` baselines, obligations, use Evidence, ownership, dispute and monitoring signals into `MR-V04 Portfolio Continuity View` and `MR-A29 Portfolio Action Plan`.

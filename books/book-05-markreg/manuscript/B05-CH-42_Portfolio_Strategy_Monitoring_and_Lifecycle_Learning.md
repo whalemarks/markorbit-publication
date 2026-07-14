@@ -1,382 +1,187 @@
 # B05-CH-42 — Portfolio Strategy, Monitoring and Lifecycle Learning
 
-**Status:** Part VI Draft  
+**Status:** Complete Draft 1  
 **Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part VI — Registration and Portfolio Continuity
 
 ## Chapter Purpose
 
-MarkReg should help an organization understand the portfolio as a set of independent rights connected to business strategy, use, ownership, cost, risk and lifecycle decisions. It must not flatten those rights into one score or treat monitoring signals as official outcomes.
-
-The central progression is:
+A trademark portfolio is a governed view across independent rights. It is not one global legal state, one health score or an automatic filing plan.
 
 ```text
-Right Baselines
-+ Business Context
-+ Maintenance and Use Signals
-+ Ownership and Dispute Context
-+ Market and Watch Signals
-→ Portfolio Continuity View
-→ Portfolio Action Options
-→ Human Decisions
-→ Governed Lifecycle Work
-→ Organization-Specific Learning
+EL-35 / CH42
+independent MR-B01 Right Baselines
++ MR-B02 Maintenance Obligation Sets
++ MR-B03 Use-Evidence Coverage Records
++ sourced dispute, ownership and monitoring signals
+→ MR-V04 Portfolio Continuity View
+→ MR-A29 Portfolio Action Plan
+→ accountable service-specific Decisions
 ```
+
+The Product question is:
+
+> Where does the portfolio protect the business, which rights are weak or unnecessary, and which independent actions should be reviewed next?
 
 ```text
-Portfolio View
-≠ Official Register
-≠ Legal Opinion
-≠ Automatic Filing Plan
-≠ One Global Right
+Portfolio view
+≠ official register
+≠ legal opinion
+≠ one global right
+≠ automatic protected action
 ```
 
----
+## 1. Portfolio Continuity View
 
-## 1. User Question and Primary Action
+`MR-V04 Portfolio Continuity View` preserves each right independently while allowing analysis across:
 
-**User question:** Does the portfolio still protect the business where and how it matters, and what should we maintain, strengthen, correct, monitor, abandon or investigate next?
+- brand, mark variant and owner;
+- jurisdiction, route and official source;
+- classes and registered scope;
+- application, registration and dispute state;
+- maintenance and renewal obligations;
+- use Evidence and vulnerability;
+- ownership and chain-of-title gaps;
+- Provider and representative continuity;
+- cost, market relevance and next action.
 
-**Primary action:** Review the Portfolio Continuity View, select issues for professional or commercial decision, and authorize specific lifecycle work rather than an undifferentiated portfolio action.
+Every aggregate must resolve back to the underlying right, source and version.
 
----
+## 2. Coverage and Continuity Signals
 
-## 2. Portfolio Continuity View
-
-The view should preserve each right independently while allowing analysis across:
-
-- brand and mark variant;
-- owner and group company;
-- jurisdiction and route;
-- class and goods/services;
-- status and official source;
-- registration and renewal term;
-- maintenance obligations;
-- use evidence and vulnerability;
-- active disputes;
-- provider and representative;
-- cost and value;
-- market importance;
-- known business use;
-- next action.
-
-Every aggregate should be explainable down to the underlying rights and sources.
-
----
-
-## 3. Coverage Analysis
-
-Coverage analysis may identify:
+The view may identify:
 
 - launch markets without applications;
 - registered markets no longer used;
-- missing local-language marks;
-- missing device or word variants;
-- class gaps;
-- narrow registered wording;
-- duplicated rights;
-- dependent international registrations;
-- inconsistent owners;
-- rights held by inactive entities;
-- expired or vulnerable rights;
-- pending applications where business plans changed.
+- missing local-language or device variants;
+- class and specification gaps;
+- duplicated or obsolete rights;
+- inconsistent owners or representatives;
+- weak Evidence or licence expiry;
+- active disputes or approaching deadlines;
+- fee, Rule or Provider changes.
 
-A coverage gap is a candidate for review, not an automatic filing instruction.
+A gap or signal creates a review candidate. It does not create a Filing Instruction, opposition or abandonment.
 
----
+## 3. Monitoring Boundary
 
-## 4. Independent Jurisdiction Histories
-
-The Product should preserve that:
+The Product distinguishes:
 
 ```text
-One Brand
-→ many applications and registrations
-→ different owners, scopes, dates,
-   disputes, obligations and outcomes
+raw signal
+→ reviewed signal
+→ potential conflict or lifecycle issue
+→ Professional Assessment
+→ client or organization Decision
+→ service-specific governed action
+→ sourced official outcome
 ```
 
-A favorable outcome in one jurisdiction does not update another right.
+Automated similarity, watch or market monitoring does not establish infringement or a formal proceeding.
 
-A settlement, limitation, assignment or renewal may affect one right only.
+## 4. Separate Risk Dimensions
 
-Portfolio-level language should never imply one global official status.
-
----
-
-## 5. Monitoring Signals
-
-Signals may arise from:
-
-- official status change;
-- publication or opposition notice;
-- approaching maintenance date;
-- non-use vulnerability;
-- conflicting application or market use;
-- ownership mismatch;
-- provider or representative change;
-- product launch or market exit;
-- corporate transaction;
-- new class or product line;
-- cost anomaly;
-- evidence deficiency;
-- duplicate filing;
-- licence expiry;
-- policy or fee-rule change.
-
-Each signal should preserve source, time, confidence, affected rights, urgency and required review.
-
----
-
-## 6. Watch and Monitoring Boundaries
-
-A watch result is not an infringement conclusion, opposition, cancellation or official finding.
-
-The Product should distinguish:
-
-```text
-Raw Signal
-Reviewed Signal
-Potential Conflict
-Professional Assessment
-Client Decision
-Formal Proceeding
-Official Outcome
-```
-
-AI and automated monitoring may prioritize and summarize. Eligible professionals decide legal significance and response options.
-
----
-
-## 7. Portfolio Risk Dimensions
-
-Risk may be assessed across separate dimensions:
+Risk should remain explainable across:
 
 - coverage;
-- use;
-- maintenance;
-- ownership;
+- use and Evidence;
+- maintenance and deadline;
+- ownership and transaction;
 - dispute;
-- evidence;
-- deadline;
-- provider continuity;
-- cost;
-- market relevance;
-- data confidence.
+- Provider continuity;
+- cost and market relevance;
+- source confidence.
 
-A composite score may support prioritization but must not hide a critical missed deadline, wrong owner or active cancellation.
+A composite score may assist prioritization, but it must not hide an owner mismatch, missed deadline or active cancellation defense.
 
----
+## 5. Portfolio Action Plan
 
-## 8. Portfolio Value and Cost
-
-The Product may show:
-
-- historical filing and maintenance cost;
-- expected next-period cost;
-- provider and official-fee components;
-- cost by brand, jurisdiction or owner;
-- cost of duplicate or unused rights;
-- budget for remediation;
-- renewal and recordal forecasts.
-
-It should not claim a legal or financial valuation without an authorized valuation method and responsible professional.
-
----
-
-## 9. Portfolio Action Options
-
-Possible options include:
+`MR-A29 Portfolio Action Plan` may propose:
 
 ```text
-Maintain
-Renew
-Strengthen Coverage
-File New Variant
-Collect Use Evidence
-Correct Ownership
-Record Assignment
-Change Representative
-Monitor
-Open Professional Review
-Negotiate
-Challenge or Defend
-Allow to Lapse
-Restore
-Archive as Historical
+maintain or renew
+strengthen coverage
+collect use Evidence
+correct ownership
+record transaction
+review licence
+change representative
+monitor
+open professional review
+challenge or defend
+allow one right to lapse
+restore
+archive as historical
 ```
 
-Each option should identify:
+Each action identifies the exact rights, source, rationale, cost, timing, required professional and client Decisions, and downstream Product or Matter.
 
-- affected rights;
-- reason;
-- evidence;
-- expected benefit;
-- cost and timing;
-- risk of action or inaction;
-- professional and commercial approvals;
-- downstream Matter or Product journey.
+A deliberate non-renewal uses `MR-D10 Non-Renewal Decision`. Silence and non-payment are not a portfolio strategy.
 
----
+## 6. Cost and Value
 
-## 10. Abandonment and Lapse Decisions
+MarkReg may show sourced historical and forecast costs by right, owner or jurisdiction. It may identify duplicate cost or remediation budget. It must not claim legal or financial valuation without an approved method and accountable professional.
 
-A decision not to renew or maintain should preserve:
+## 7. Organization-Specific Learning
 
-- exact right and scope;
-- current official state;
-- business rationale;
-- affected markets and products;
-- enforcement and replacement consequences;
-- related licences or transactions;
-- decision-maker and authority;
-- date;
-- possible grace or restoration route;
-- communication record.
-
-Silence or non-payment should not be treated as a deliberate portfolio decision without policy authority.
-
----
-
-## 11. Learning from Lifecycle Outcomes
-
-MarkReg may learn organization-specific patterns from:
+Governed outcomes may improve future candidate generation through:
 
 - accepted and rejected recommendations;
-- filing outcomes;
-- examination issues;
-- successful and unsuccessful evidence;
-- provider performance;
-- quote variance;
-- deadline incidents;
-- renewal decisions;
-- ownership corrections;
-- disputes and settlements;
-- client communication effectiveness.
+- filing, examination and dispute outcomes;
+- Evidence gaps and successful collection patterns;
+- Provider responsiveness and acknowledgement quality;
+- Quote variance and deadline incidents;
+- renewal, recordal and non-renewal Decisions;
+- Communication effectiveness.
 
-Learning should preserve provenance and organization boundaries.
+Learning retains provenance and organization boundaries. Historical correlation is not current law or a binding recommendation.
 
-It should improve future candidate generation without converting historical correlation into binding legal truth.
-
----
-
-## 12. Provider and Process Quality
-
-Quality signals may include:
-
-- response time;
-- quote accuracy;
-- acknowledgement evidence;
-- deadline reliability;
-- amendment discipline;
-- communication clarity;
-- error and recovery history;
-- jurisdiction capability;
-- client satisfaction;
-- cost variance.
-
-These signals support private organization decisions. They do not create a public marketplace ranking or automatically select providers.
-
----
-
-## 13. Reference Journey — EMBERLOOP
-
-The portfolio contains:
-
-- a UK registration with an active Right Baseline;
-- a US application under continued examination;
-- an EU application in opposition;
-- business plans for two additional markets not yet approved.
+## 8. `EMBERLOOP` — `EL-35`
 
 The Portfolio Continuity View shows:
 
 ```text
-UK — registered; maintenance and evidence plan active
-US — pending; response acknowledged; outcome not final
-EU — opposition active; settlement not concluded
-New markets — strategy candidates only
+United Kingdom — registered; maintenance and Evidence plan active
+United States — under examination after acknowledged Response Package v2
+European Union — opposition active; no closure assumed
+Japan / Australia — strategy candidates only
 ```
 
-MarkReg identifies a local-language mark gap for one planned market and creates a recommendation candidate. It does not automatically open a filing Matter.
+A local-language gap in a candidate market may create a recommendation, but no filing Matter is opened automatically.
 
----
+## 9. `RIVERKITE` — `RK-13`
 
-## 14. Reference Journey — RIVERKITE
+The six-right view preserves:
 
-The six-right portfolio view shows:
+- four ordinary renewal workflows;
+- one ownership-linked renewal and two-step title correction;
+- one cancellation-defense right;
+- weak use Evidence for two classes;
+- a licence approaching expiry;
+- inconsistent representatives.
 
-- four renewals approved;
-- one renewal linked to a two-step chain-of-title correction;
-- one cancellation defense active;
-- two classes with weak use evidence;
-- one distributor licence approaching expiry;
-- inconsistent representatives across three jurisdictions.
+`MR-A29 Portfolio Action Plan` separates renew, correct title, defend, strengthen Evidence, review licence and possible non-renewal. Each action has its own owner, deadline, cost and authority.
 
-The Product proposes a Portfolio Action Plan containing independent actions, owners, deadlines and costs.
+## 10. Controlled Scenarios
 
-The client chooses to renew five rights, correct ownership in one jurisdiction, collect evidence for two classes and review the licence. The cancellation defense remains a separate adversarial Matter.
+- **MR-SCN-10 — Stale official status:** do not aggregate stale data as current truth.
+- **MR-SCN-27 — Conflicting deadline advice:** preserve source hierarchy within portfolio views.
+- **MR-SCN-28 — Client silence:** do not infer renewal, abandonment or settlement authority.
+- **MR-SCN-32 — Signed assignment not recorded:** show contractual and official ownership separately.
+- **MR-SCN-33 — One challenged right:** preserve unaffected rights and independent states.
 
----
+## 11. AI Assistance
 
-## 15. Conformance Scenarios
+AI may identify gaps, group related rights, summarize costs and deadlines and prioritize signals. It must not create a global-right status, determine infringement, abandon rights, choose Providers autonomously or convert a signal into a protected action.
 
-### Scenario A — One country registration
-
-**Given** a brand is registered in one jurisdiction  
-**When** the portfolio summary is displayed  
-**Then** the Product does not label the brand globally registered.
-
-### Scenario B — Monitoring signal
-
-**Given** a similar new application is detected  
-**When** automated similarity exceeds a threshold  
-**Then** the Product creates a signal for review and does not declare infringement or file an opposition.
-
-### Scenario C — Composite risk score
-
-**Given** a portfolio has a high average health score but one ownership mismatch  
-**When** the user opens the summary  
-**Then** the ownership blocker remains visible and is not hidden by the aggregate score.
-
-### Scenario D — Non-renewal decision
-
-**Given** a client decides to let one right lapse  
-**When** the decision is recorded  
-**Then** the Product preserves authority, consequences and restoration window and does not apply the decision to related rights.
-
----
-
-## 16. AI Assistance Boundary
-
-AI may:
-
-- identify portfolio gaps and anomalies;
-- group related rights;
-- summarize costs and deadlines;
-- rank signals for review;
-- propose action options;
-- learn organization-specific preferences from governed outcomes.
-
-AI may not:
-
-- create global-right status;
-- determine infringement;
-- abandon rights;
-- assign legal value;
-- choose providers autonomously;
-- convert a signal into a formal proceeding;
-- replace Human Judgment.
-
----
-
-## 17. Minimum Portfolio Lock
+## 12. Minimum Portfolio Lock
 
 ```text
 A portfolio is a governed view
 across independent rights.
 
 Every aggregate remains explainable
-to jurisdiction, right, source,
+to right, jurisdiction, source,
 owner, scope, date and state.
 
 Signals create review candidates.
@@ -387,21 +192,6 @@ Learning remains organization-specific,
 source-aware and non-binding.
 ```
 
----
+## 13. Handoff to Product Experience
 
-## 18. Part VI Completion
-
-Part VI produces:
-
-```text
-Registration Outcome Snapshot
-→ Right Baseline
-→ Maintenance Obligation Set
-→ Renewal Package and Result
-→ Recordal Context and Official Update
-→ Chain-of-Title View
-→ Portfolio Continuity View
-→ Portfolio Action Plan
-```
-
-Part VII now defines how this full-lifecycle Product appears across standalone, embedded, client, professional and provider surfaces; how jurisdiction packs and AI are governed; and how quality, MVP sequencing and conformance are measured.
+Part VII defines how these records appear across standalone, embedded, client, professional and Provider surfaces; how Pack and AI behavior is governed; and how quality and Conformance are evaluated without duplicating lifecycle authority.

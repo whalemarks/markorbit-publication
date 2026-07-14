@@ -7,10 +7,10 @@
 - **Canonical path:** `books/book-05-markreg/`
 - **Status:** Complete Draft 1 — Editorial Finishing Active
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
-- **Completed editorial range:** CH00–CH36
-- **Current substantive phase:** PF-06C3 — Part VI, CH37–CH42
-- **Remaining RC1 metadata blocker:** CH37–CH47
-- **Open controlled finding:** PF06C2-F01
+- **Completed editorial range:** CH00–CH42
+- **Current substantive phase:** PF-06C4 — Part VII, CH43–CH47
+- **Remaining RC1 metadata blocker:** CH43–CH47
+- **Open controlled findings:** PF06C2-F01 and PF06C3-F01
 
 ## Position in the Series
 
@@ -36,31 +36,30 @@ Book 05 is not a jurisdictional legal manual, implementation PRD, official sourc
 - Part III — CH16–CH22: complete
 - Part IV — CH23–CH29: complete
 - Part V — CH30–CH36: complete
-- Part VI — CH37–CH42: PF-06C3 next
-- Part VII — CH43–CH47: PF-06C4 planned
+- Part VI — CH37–CH42: complete
+- Part VII — CH43–CH47: PF-06C4 next
 
-## Part V Controlled Sequence
+## Part VI Controlled Sequence
 
 ```text
-EL-23 / CH30 — Official Event Snapshot and scoped Context
-EL-24 / CH31 — Issue Set, Response Option Set and Response Strategy
-EL-25 / CH32 — Response Package, Evidence, Approval, filing and acknowledgement
-EL-26 / CH33 — Publication Window, opposition detection and no-challenge closure
-EL-27 / CH34 — Adversarial Context, defense and bounded negotiation
-EL-28 / CH35 — Remedy Context; no fictional EMBERLOOP remedy
-EL-29 / CH36 — Deadline Record, Outcome Snapshot and Communication Packet
+EL-30 / CH37 — Registration Outcome Record, scope diff and Right Baseline
+EL-31 / CH38 — Maintenance Obligation Set, Use-Evidence Coverage and deadlines
+EL-32 / CH39 — Renewal Package, Renewal Approval and official update
+EL-33 / CH40 — Recordal Context, Package, Approval and official update
+EL-34 / CH41 — Transaction / Licence Context, Affected-Right Set and Chain-of-Title View
+EL-35 / CH42 — Portfolio Continuity View and Portfolio Action Plan
 ```
 
-[B05-REV-0023](reviews/B05-REV-0023_PF-06C2_Part_V_Editorial_Review.md) accepts Part V and records PF06C2-F01 for PF-06D.
+[B05-REV-0024](reviews/B05-REV-0024_PF-06C3_Part_VI_Editorial_Review.md) accepts Part VI and records PF06C3-F01 for PF-06D.
 
 ## Controlled Product Specifications
 
 - [B05-SPEC-0001 — Product Artifact and Decision Map](specifications/B05-SPEC-0001_Product_Artifact_and_Decision_Map.md) — v0.2
-- [B05-SPEC-0002 — Reference Journeys](specifications/B05-SPEC-0002_Reference_Journeys.md) — v0.2; Part V record-ID mapping review open
+- [B05-SPEC-0002 — Reference Journeys](specifications/B05-SPEC-0002_Reference_Journeys.md) — v0.2; Part V/VI record-ID mapping findings open
 - [B05-SPEC-0003 — Conformance Scenarios and User-Surface Contract](specifications/B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md) — v0.2
 - [B05-SPEC-0004 — Jurisdiction Pack and Commercial Control Contract](specifications/B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md) — v0.2
 
-B05-SPEC-0001 v0.2 controls the active record IDs. PF-06D must resolve the B05-SPEC-0002 Part V cross-reference alignment before PF-08.
+B05-SPEC-0001 v0.2 controls active record IDs. PF-06D must reconcile B05-SPEC-0002, Appendix D and related indexes before PF-08.
 
 ## Editorial Baseline
 
@@ -76,30 +75,24 @@ PF-06A — COMPLETE
 PF-06B CH00–CH22 — COMPLETE
 PF-06C1 CH23–CH29 — COMPLETE
 PF-06C2 CH30–CH36 — COMPLETE
-PF-06C3 CH37–CH42 — AUTHORIZED AND NEXT
-PF-06C4 CH43–CH47 — PLANNED
-PF-06D — PLANNED / PF06C2-F01 MUST CLOSE
+PF-06C3 CH37–CH42 — COMPLETE
+PF-06C4 CH43–CH47 — AUTHORIZED AND NEXT
+PF-06D — PLANNED / PF06C2-F01 AND PF06C3-F01 MUST CLOSE
 ```
 
 ## Controlled Locks
 
 ```text
-Product projection ≠ Official Truth
-Official Event Snapshot ≠ professional interpretation
-Issue extraction ≠ Response Strategy Decision
-Response Strategy ≠ Response Package
-Response Package ≠ filed response
-Filed response ≠ official acknowledgement
-Acknowledged response ≠ examination outcome
-Publication ≠ registration
-Informal concern ≠ formal opposition
-Negotiation ≠ procedural suspension
-Settlement signed ≠ official closure
-Remedy Strategy ≠ remedy filing
-Challenge ≠ cancellation
-Calendar date ≠ verified deadline
-Silence ≠ authority
-One brand ≠ one global outcome
+Official registration ≠ certificate file
+Right Baseline ≠ official record
+Reminder ≠ official deadline or responsibility
+Evidence existence ≠ legal sufficiency
+Renewal Approval ≠ filed or renewed right
+Internal data update ≠ official recordal
+Signed assignment ≠ recorded ownership
+Licence ≠ assignment
+Portfolio view ≠ one global legal state
+Signal ≠ protected action
 ```
 
 ## Reference Journeys
@@ -107,7 +100,7 @@ One brand ≠ one global outcome
 ### `EMBERLOOP`
 
 ```text
-United Kingdom — registered with Right Baseline and maintenance obligations
+United Kingdom — registered; maintenance active; renewal not yet open
 United States — under examination after acknowledged Response Package v2
 European Union — verified opposition without assumed closure
 Japan / Australia — candidates only
@@ -120,7 +113,7 @@ six registrations
 → four ordinary renewals
 → one ownership-linked renewal
 → one cancellation defense
-→ Evidence and licence actions
+→ title, Evidence and licence actions remain open
 ```
 
 ## Reader-Facing Appendices
@@ -135,27 +128,18 @@ six registrations
 
 Appendix A–G remain controlled reader drafts until PF-06D, PF-07 and PF-08 pass.
 
-## Governance
-
-- [Book Manifest](BOOK-MANIFEST.md)
-- [Book Status](BOOK-STATUS.md)
-- [Publication Finishing Pack](planning/B05-PLN-0004_Publication_Finishing_Pack.md)
-- [Publication Apparatus](publication/README.md)
-- [Reviews](reviews/README.md)
-
 ## Current Gate
 
 ```text
-PF-01B: PARTIAL — CH02–CH36 complete; CH37–CH47 open
+PF-01B: PARTIAL — CH02–CH42 complete; CH43–CH47 open
 PF-02–PF-05: COMPLETE
-PF-06A/PF-06B/PF-06C1/PF-06C2: COMPLETE
-PF-06C3: AUTHORIZED AND NEXT
-PF-06C4/PF-06D: PLANNED
-PF06C2-F01: OPEN FOR PF-06D
+PF-06A/PF-06B/PF-06C1/PF-06C2/PF-06C3: COMPLETE
+PF-06C4: AUTHORIZED AND NEXT
+PF-06D: PLANNED / FINDINGS MUST CLOSE
 PF-06 overall: OPEN
 PF-07–PF-09: OPEN
 ```
 
 ## Authority Boundary
 
-Book 05 does not modify the Frozen Book 02 Core Specification, redefine Book 03 Execution, absorb Book 04 Workplace authority, automatically appoint providers, create Official Truth, authorize production deployment or authorize any External Protected Action.
+Book 05 does not modify the Frozen Book 02 Core Specification, redefine Book 03 Execution, absorb Book 04 Workplace authority, automatically appoint Providers, create Official Truth, authorize production deployment or authorize any External Protected Action.
