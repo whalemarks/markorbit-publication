@@ -28,7 +28,7 @@ This repository coordinates publication-level structure, specifications, and gov
 - Book 01 — MarkOrbit — The Operating System for Global Brand Services (`books/book-01-operating-system/`) is an existing draft; publication maturity has not been reassessed.
 - Book 02 — MarkOrbit Core Specification (`books/book-02-core-specification/`) is the Frozen Core Specification Baseline v0.1.
 - Book 03 — MarkOrbit Execution System (`books/book-03-execution-system/`) is Complete Draft 1 / Owner Accepted, pending final publication preparation and separate implementation-readiness work.
-- Book 04 — MarkOrbit Workplace and Product Architecture ([`books/book-04-workplace-product-architecture/`](books/book-04-workplace-product-architecture/README.md)) is Complete Draft 1 through CH39. Full-book architecture review B04-REV-0003 is completed; consolidated owner review is pending.
+- Book 04 — MarkOrbit Workplace and Product Architecture ([`books/book-04-workplace-product-architecture/`](books/book-04-workplace-product-architecture/README.md)) is Release Candidate 1. CH00–CH39 publication finishing and B04-REV-0004 RC1 validation are complete; owner final publication review is pending.
 - Book 05 — MarkReg (`books/book-05-markreg/`) is planned.
 - Book 06 — MarkOrbit Lite (`books/book-06-markorbit-lite/`) is planned.
 - Book 07 — Mark Global Service Network (`books/book-07-mark-global-service-network/`) is planned.
@@ -36,11 +36,11 @@ This repository coordinates publication-level structure, specifications, and gov
 ## Current Book 04 Gate
 
 ```text
-CH00–CH39 full-book architecture review completed
-→ consolidated owner review
-→ targeted revision or owner acceptance
-→ native-English and publication finishing
-→ final publication gate
+architecture and targeted review revisions owner accepted
+→ native-English and publication finishing completed
+→ Release Candidate 1 validation passed
+→ owner final publication review
+→ final publication approval and merge
 ```
 
-Book 04 is not ready for final publication, unrestricted implementation, production deployment, or external protected action.
+Book 04 is ready for owner final publication review. It is not approved for final publication without owner approval, unrestricted implementation, production deployment, or external protected action.
