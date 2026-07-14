@@ -22,7 +22,7 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](arc
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | `books/book-01-operating-system/` | Existing Draft; publication maturity not reassessed |
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Complete Draft 1 / Owner Accepted |
-| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Complete Draft 1 — CH00–CH39; Full-Book Architecture Review Completed; Owner Review Pending |
+| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1; owner final publication review pending |
 | Book 05 | MarkReg | `books/book-05-markreg/` | Planned |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
@@ -63,7 +63,7 @@ Canonical path: `books/book-04-workplace-product-architecture/`
 
 Positioning: Defines how an independent professional organization establishes its own operating orbit and consumes MarkOrbit Core, Execution, Knowledge, Intelligence, Capabilities, Products, and network services through its Workplace.
 
-Publication state: CH00–CH39 form a complete Draft 1. B04-REV-0003 records the completed full-book architecture and editorial review. Consolidated owner review is pending. Native-English line editing, final compression, diagrams, citation and glossary reconciliation, index work, cross-book reconciliation, and release-candidate packaging remain pending.
+Publication state: Release Candidate 1. CH00–CH39 remain structurally complete under B04-TOC-V0.1. B04-REV-0003 is owner accepted through merge. Native-English and compression review, ten architecture figures, source and authority notes, glossary, subject index, cross-book reconciliation, RC1 checklist, and B04-REV-0004 validation are complete. Owner final publication review is pending.
 
 ### Book 05 — MarkReg
 
@@ -86,14 +86,16 @@ Positioning: Future publication subject for the service-routing, Capability, and
 ## Current Book 04 Gate
 
 ```text
-CH00–CH39 full-book architecture review completed
-→ consolidated owner review
-→ targeted revision or owner acceptance
-→ native-English and publication finishing
-→ final publication gate
+architecture and targeted review revisions owner accepted
+→ native-English and publication finishing completed
+→ Release Candidate 1 validation passed
+→ owner final publication review
+→ final publication approval and merge
 ```
 
-Ready for final publication: **NO**
+Ready for owner final publication review: **YES**
+
+Ready for final publication without owner approval: **NO**
 
 Ready for unrestricted implementation: **NO**
 
