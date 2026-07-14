@@ -1,5 +1,19 @@
 # Book 05 Changelog
 
+## 2026-07-14 — PF-04 Scenario and User-Surface Reconciliation
+
+- Upgraded B05-SPEC-0003 to Controlled Specification v0.2 applying through CH47.
+- Preserved `MR-SCN-01–10` and extended the controlled registry through `MR-SCN-41`.
+- Defined standard, high-risk and zero-tolerance scenario severity.
+- Mapped scenarios to MR-CR-01 through MR-CR-08 and to the full lifecycle.
+- Defined participant, visibility, action-right, role-switch and delegation contracts.
+- Defined Communication, embedded, cross-Product and AI surface behavior.
+- Assigned minimum scenario sets to eight conformance profiles.
+- Reconciled Appendix B scenario references, Appendix C participant rights, Appendix E scenario catalog and Appendix G PF-04 profile requirements.
+- Added B05-REV-0016, closed PF-04 and authorized PF-05 Jurisdiction and Commercial Reconciliation.
+- Kept PF-01B metadata normalization open as an independent RC1 blocker.
+- Confirmed that no Architecture Canon, Book 02, Book 03 or Book 04 semantic amendment is required.
+
 ## 2026-07-14 — PF-03 Reference Journey Consolidation
 
 - Upgraded B05-SPEC-0002 to Controlled Specification v0.2 applying through CH47.
