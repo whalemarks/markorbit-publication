@@ -1,320 +1,217 @@
 # B05-CH-21 — Validation, Readiness and Missing Information
 
-**Status:** Part III Draft  
-**Chapter Map:** B05-TOC-V0.1  
+**Status:** Productized Draft  
+**Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part III — Commercial Journey and Formal Intake
 
 ## Chapter Purpose
 
-Part III has now produced a proposal, price model, Quote, acceptance, Commercial Instruction, Formal Intake, and document and signature states.
+Part III now contains Proposal, Quote, Acceptance, Commercial Instruction, Formal Intake and Requirement Set versions. This chapter determines readiness for a named next action without hiding critical blockers behind one completion percentage.
 
-The next question is not simply whether the form is complete.
+The controlling rule is `MR-CR-02`: Product readiness is not approval.
 
-It is:
+## 1. User Question
 
-> Ready for which next action, under which scope, authority, version, deadline, and unresolved conditions?
+> Why are we not ready, what exactly is blocked, who must act, and what will become possible after the issue is resolved?
 
-```text
-Readiness
-=
-Purpose-Specific Validation
-across
-Commercial
-Information
-Identity
-Authority
-Professional
-Document
-Payment
-Provider
-Deadline
-Execution
-Filing
-dimensions
-```
+Readiness must always be expressed as:
 
 ```text
-Complete
-≠ Correct
-≠ Reviewed
-≠ Approved
-≠ Paid
-≠ Filing Ready
-≠ Submitted
+Ready for [specific action]
+under [specific scope and versions]
+subject to [named blockers, warnings and conditions]
 ```
 
----
+## 2. Readiness Assessment Contract
 
-## 1. Readiness Is Purpose-Specific
+A `Readiness Assessment` must identify:
 
-A journey may be ready for commercial review, client decision, professional review, document signature, payment request, Order creation, Matter creation, filing approval, provider appointment, Execution scheduling, or submission.
+- target action;
+- service, jurisdiction and filing-unit scope;
+- exact upstream artifact versions;
+- rule and jurisdiction-pack versions;
+- checks and results by dimension;
+- blockers, warnings, conditions and recommendations;
+- owner and resolution action for every unresolved item;
+- professional decisions or overrides;
+- checked time and expiry triggers;
+- next permitted action.
 
-It may be ready for one and not another.
+## 3. Readiness Dimensions
 
----
+| Dimension | Typical evidence |
+| --- | --- |
+| Commercial | valid Quote, accepted scope, instruction and approvals |
+| Intake | sufficient service-specific facts |
+| Identity and authority | applicant, instructor, payer and signatory context |
+| Professional | reviewed strategy, route, mark, classes, wording and risk |
+| Document | accepted files, signatures, certification and originals |
+| Payment | required deposit, advance, credit or reconciliation state |
+| Provider | capability, conflict, availability, selection and acceptance state |
+| Deadline | sourced event, calculation, timezone, extension and verification |
+| Approval | version-specific Human approval where required |
+| Execution | valid formal references, permissions and entry conditions |
 
-## 2. Structural Validation Is the Lowest Layer
+A journey may be ready for professional review and payment request while not ready for filing approval or submission.
 
-Structural checks may confirm required field present, date format, identifier format, file readability, class number, numeric amount, or signature block.
+## 4. Result Types
 
-Structural validity does not establish professional correctness.
-
----
-
-## 3. Semantic Validation Checks Meaning
-
-Examples include:
-
-- applicant name matches entity record;
-- mark description matches representation;
-- class relates to specification;
-- priority applicant matches;
-- route eligibility aligns with applicant and base right;
-- POA scope covers action.
-
-Semantic checks may require rules and human interpretation.
-
----
-
-## 4. Commercial Readiness
-
-Commercial readiness may require valid Quote, accepted scope, Commercial Instruction, pricing approval, discount approval, payment terms, credit or procurement approval, and cancellation terms.
-
-Commercial readiness does not establish filing readiness.
-
----
-
-## 5. Information Readiness
-
-Information readiness may require filing unit, applicant, address, entity data, signatory, route, priority, classes, goods/services, use data, and contact information.
-
-The required set is jurisdiction- and service-specific.
-
----
-
-## 6. Identity and Authority Readiness
-
-This dimension checks applicant identity, current owner, signatory identity, signatory capacity, instructor authority, payer identity, representative authority, and provider appointment.
-
-An account login is not sufficient.
-
----
-
-## 7. Professional Readiness
-
-Professional readiness may require review of jurisdiction strategy, filing route, filing unit, applicant, classes, specification, search and risk, priority, mark description, disclaimers, and local requirements.
-
-The Product may prepare. An eligible human decides professional sufficiency.
-
----
-
-## 8. Document Readiness
-
-Document readiness should identify required, received, correct type, correct version, signed, certified, translated, original available, reviewed, and accepted for defined use.
-
-An uploaded document is not automatically ready.
-
----
-
-## 9. Payment Readiness
-
-Payment readiness may mean no payment required yet, payment request issued, deposit received, official-fee advance received, credit approved, payment reconciled, provider funds available, or variance within tolerance.
-
-Paid does not mean approved for filing.
-
----
-
-## 10. Provider Readiness
-
-Provider readiness may require provider need defined, private partner checked, capability evidence, conflict cleared, price confirmed, availability confirmed, Human Selection, appointment prepared, instruction approved, and provider accepted.
-
-A recommended provider is not ready merely because it appears first.
-
----
-
-## 11. Deadline Readiness
-
-Deadline readiness should preserve source, event, calculated date, official date, time zone, extension, uncertainty, verification, responsible person, and safety margin.
-
-A calculated deadline may require official confirmation.
-
----
-
-## 12. Filing Readiness Is a Composite Gate
-
-```text
-Filing Readiness
-=
-Approved Scope
-+ Approved Filing Unit
-+ Approved Applicant
-+ Approved Specification
-+ Required Documents
-+ Required Authority
-+ Commercial Condition
-+ Payment Condition
-+ Provider or Connector Condition
-+ Verified Deadline Context
-+ Execution Entry Condition
-```
-
-The exact formula is jurisdiction- and service-specific.
-
----
-
-## 13. Blocker, Warning and Condition Must Differ
+The Product must distinguish:
 
 ```text
 Blocker
-→ progression prohibited
+→ the target action is prohibited
 
 Warning
-→ progression allowed with visible risk or acknowledgement
+→ action may proceed with visible risk or acknowledgement
 
 Condition
-→ progression depends on a later or external event
+→ action depends on a later or external event
 
 Recommendation
-→ improvement suggested but not mandatory
+→ improvement is advised but not mandatory
 
 Information
-→ context only
+→ context without gate effect
 ```
 
-Color alone should not carry the meaning.
+Color alone must not convey the effect.
 
----
+## 5. Purpose-Specific Gates
 
-## 14. Overrides Need Authority
+Useful gates include:
 
-An override should identify rule, reason, decision-maker, authority, affected scope, risk, expiry, evidence, and version.
+- ready for client option selection;
+- ready for Quote issuance;
+- ready for Formal Intake;
+- ready for professional review;
+- ready for document signature;
+- ready for payment request;
+- ready for Order or Matter creation;
+- ready for filing-package preparation;
+- ready for filing approval;
+- ready for provider appointment;
+- ready for governed execution.
 
-Some blockers should not be overridable inside MarkReg.
+“Complete” without a named purpose is not a valid gate.
 
----
+## 6. Missing-Item Contract
 
-## 15. Readiness Should Be Versioned and May Expire
+Every unresolved item must state:
 
-A readiness result depends on exact versions of scope, filing unit, applicant, specification, documents, Quote, acceptance, payment, provider, and rule pack.
-
-It may expire because fees, documents, search, provider availability, deadline, applicant, official rules, signature package, or payment conditions changed.
-
-The Product should show checked time and invalidation reason.
-
----
-
-## 16. Missing Information Needs an Owner and Resolution Path
-
-Each missing item should identify:
-
-- description;
-- why needed;
+- what is missing or conflicting;
+- why it matters;
 - owner;
-- due date;
-- source;
+- deadline or required stage;
 - acceptable evidence;
-- blocker level;
-- fallback;
+- current effect;
+- fallback or override route;
 - escalation;
-- affected action.
+- affected artifact and action.
 
-A generic missing-information list is not enough.
+The Product should offer a direct resolution action rather than a generic error message.
 
----
+## 7. Overrides
 
-## 17. Contradictions Need Resolution, Not Suppression
+An override must retain:
 
-Examples include:
+- rule and original result;
+- reviewer identity and authority;
+- reason and supporting source;
+- exact affected scope and version;
+- residual risk;
+- expiry or revalidation condition.
 
-- accepted Quote says three classes while Intake says four;
-- POA applicant differs from Intake;
-- official record differs from client statement;
-- payer references the wrong Matter;
-- provider quote excludes a required stage.
+Some blockers are not overridable within MarkReg. AI cannot waive a blocker or create professional approval.
 
-The Product should create a resolution task or Review request.
+## 8. Version, Expiry and Revalidation
 
----
+Readiness expires or becomes stale when material inputs change, including:
 
-## 18. Readiness Summary Should Be Explainable
+- accepted scope or Quote;
+- applicant or signatory;
+- mark version;
+- goods/services;
+- documents;
+- payment condition;
+- provider availability;
+- deadline evidence;
+- jurisdiction-pack or official-fee version.
 
-A useful summary may show:
+The Product identifies exactly which checks must rerun. It does not silently preserve a green status.
+
+## 9. EMBERLOOP Reference Journey
+
+The current Readiness Assessment shows:
+
+| Dimension | Result | Required action |
+| --- | --- | --- |
+| Commercial | conditional | deposit receipt required |
+| Intake | ready | none |
+| Documents | conditional | complete US declaration |
+| Professional | conditional | approve revised goods wording |
+| Payment | blocked | reconcile deposit |
+| Filing approval | not granted | approve the future Filing Package version |
+| Execution | not ready | formal references and later gates required |
+
+The client sees that EU and UK document preparation can progress while the US declaration remains open. The system does not label the whole journey simply “70% complete.”
+
+## 10. Conformance Scenario — Missing Payment
+
+**Given** Intake, documents and professional review are complete but the required deposit has not been received.  
+**When** filing-package preparation readiness is evaluated.  
+**Then** MarkReg shows professional and document readiness as ready while commercial/payment readiness remains blocked, and explains the exact payment condition.  
+**Authority boundary:** payment state does not replace filing approval.  
+**Evidence retained:** payment terms, financial-source state, readiness version and later reconciliation event.
+
+## 11. Conformance Scenario — Professional Override
+
+**Given** a jurisdiction rule warns that one goods item is unacceptable.  
+**When** an authorized professional identifies a sourced local exception.  
+**Then** MarkReg permits a reasoned override limited to that item, jurisdiction and version, and preserves the original warning.  
+**Authority boundary:** only an authorized human may make the professional decision.  
+**Evidence retained:** warning, source, reviewer, reason, scope, residual risk and expiry trigger.
+
+## 12. User Surface
+
+The readiness surface should show:
+
+1. named target actions;
+2. result by dimension;
+3. blockers before warnings;
+4. exact owner and next action;
+5. due date or urgency;
+6. version and checked time;
+7. change or expiry reason;
+8. accessible evidence and override history.
+
+One primary action should be highlighted: resolve blocker, provide evidence, make payment, request review, accept risk or proceed to the permitted next gate.
+
+## 13. AI Boundary
+
+AI may compare versions, detect missing data, explain blockers, suggest resolution steps, generate summaries and route requests.
+
+AI may not approve professional sufficiency, establish authority, reconcile payment as final, waive rules, appoint a provider, grant Filing Approval or declare official acceptance.
+
+## 14. Failure Modes
+
+The Product must reject:
 
 ```text
-Ready for commercial confirmation: YES
-Ready for professional review: YES
-Ready for filing approval: NO
-Ready for provider appointment: CONDITIONAL
-Ready for payment request: YES
-Ready for submission: NO
-```
-
-Each result should open to underlying checks.
-
----
-
-## 19. A Score May Supplement but Not Replace Gates
-
-A percentage may support prioritization.
-
-It should not hide one critical blocker, unresolved authority, expired document, unpaid official fee, or unreviewed specification.
-
-Gate meaning remains primary.
-
----
-
-## 20. AI May Assist Validation
-
-AI may detect missing items, compare versions, identify contradictions, explain blockers, recommend resolution, generate readiness summaries, and route questions.
-
-AI should not waive blockers, establish authority, approve filing, decide professional sufficiency, mark payment reconciled, or declare official acceptance.
-
----
-
-## 21. Failure Modes to Reject
-
-```text
-One completion percentage used for every action
+One percentage used for every action
 Uploaded file treated as document-ready
 Paid treated as filing-ready
 Recommended provider treated as appointed
 Calculated deadline treated as verified
 Warning and blocker mixed
 Override without authority
-Material change does not invalidate readiness
-AI approves filing
-Unknown status shown as ready
+Material change leaves readiness valid
+Unknown result shown as ready
+AI grants filing approval
 ```
 
----
+## 15. Chapter Output
 
-## 22. Minimum Readiness Lock
+The output is a versioned Readiness Assessment with purpose-specific gates, owners, resolution actions and expiry conditions.
 
-```text
-Readiness is defined for a purpose.
-
-It is evaluated across several dimensions.
-
-Complete, correct, reviewed,
-approved, paid, appointed,
-filing-ready, submitted,
-and officially acknowledged remain distinct.
-
-Blockers, warnings, conditions,
-recommendations, and information
-retain different effects.
-
-AI may validate and explain.
-
-Authorized humans and formal services
-review, approve, override, reconcile,
-and execute.
-```
-
----
-
-## 23. Handoff to Formal Object Formation
-
-The output is a versioned Readiness Assessment with explicit blockers, warnings, conditions, owners, and next actions.
-
-The final chapter of Part III defines how the accepted commercial journey and sufficient Intake hand into formal Order, Matter, payment, responsibility, and Execution contexts without duplicating authority.
+The next chapter uses the permitted gate results to prepare idempotent, traceable requests for formal Order, Matter, payment, responsibility and Execution contexts.

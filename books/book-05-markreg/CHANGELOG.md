@@ -1,5 +1,17 @@
 # Book 05 Changelog
 
+## 2026-07-14 — Part III Productization and CH00–CH22 Closure
+
+- Rewrote CH16–CH22 around explicit user questions, Product artifacts, interfaces, reference-journey steps, conformance scenarios, version propagation and formal handoffs.
+- Applied B05-SPEC-0001 through B05-SPEC-0004 to Proposal, pricing, Quote, Intake, documents, readiness and Order/Matter/Execution entry.
+- Strengthened official-fee, provider-cost, tax, exchange-rate, discount, margin, payment, refund and variance controls.
+- Extended the `EMBERLOOP` reference journey through Handoff Envelope and returned formal references.
+- Added B05-REV-0006 — Part III Productization Review.
+- Added B05-REV-0007 — CH00–CH22 Productization Closure Review.
+- Closed B05-REVISION-PACK-001.
+- Authorized Part IV, CH23–CH29 — Filing Preparation and Governed Execution.
+- Kept unrestricted implementation, production deployment and external protected action unauthorized.
+
 ## 2026-07-14 — Part II Productization
 
 - Rewrote CH08–CH15 around explicit user questions, Product artifacts, interfaces, reference-journey steps, conformance scenarios, change propagation, and handoffs.

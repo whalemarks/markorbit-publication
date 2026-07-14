@@ -1,396 +1,210 @@
 # B05-CH-17 — Pricing, Official Fees and Cost Transparency
 
-**Status:** Part III Draft  
-**Chapter Map:** B05-TOC-V0.1  
+**Status:** Productized Draft  
+**Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part III — Commercial Journey and Formal Intake
 
 ## Chapter Purpose
 
-A proposal is not decision-ready unless its costs are understandable.
+CH16 produced a decision-ready Proposal. This chapter defines the price basis for each option and makes every cost driver, authority, currency, tax treatment, validity condition and later-stage exposure understandable.
 
-International trademark pricing is difficult because several cost authorities coexist:
+The normative commercial model is `B05-SPEC-0004`.
 
-- official offices;
-- professional organizations;
-- external providers;
-- translators, notaries, couriers, banks, and tax authorities;
-- exchange rates;
-- later procedural stages;
-- uncertain office actions and disputes.
+## 1. User Question
 
-The central proposition is:
+> What will this option cost now, what may cost more later, and why does the amount change?
 
-```text
-Transparent Cost Model
-=
-Scope Reference
-+ Fee Components
-+ Fee Authority
-+ Quantity and Unit Logic
-+ Currency
-+ Exchange-Rate Basis
-+ Tax and Bank Treatment
-+ Included and Excluded Stages
-+ Validity
-+ Assumptions
-+ Uncertainty
-+ Recalculation Rules
-```
+The Product must not present one unexplained total or describe a filing-stage amount as a lifecycle total.
 
-```text
-Price
-≠ Official Fee
-≠ Professional Fee
-≠ Provider Cost
-≠ Invoice
-≠ Payment
-≠ Lifecycle Total
-```
+## 2. Commercial Component Model
 
----
+Every price component must carry a type, authority, source, scope, unit, currency, visibility and validity state.
 
-## 1. Cost Has Several Authorities
+| Component | Authority | Client visibility |
+| --- | --- | --- |
+| Official fee | official office or mandatory authority | visible |
+| Professional fee | responsible organization | visible |
+| Provider pass-through | external provider | visible or policy-approved summary |
+| Internal provider cost | organization procurement | internal only |
+| Tax | applicable tax authority and policy | visible |
+| Currency adjustment | approved organization policy | visible when charged |
+| Contingency | defined possible trigger | visible |
+| Later-stage fee | future official or professional stage | visible as included, excluded or estimated |
+| Discount | authorized commercial approval | visible; approval evidence internal |
+| Margin | internal commercial measure | internal only |
 
-An official fee is determined by an official body.
+`Provider Cost ≠ Client Price`. Internal procurement and margin data remain access-controlled.
 
-A professional fee is determined by the responsible organization under its commercial rules.
+## 3. Fee-Driving Units
 
-A provider cost may be quoted by an external professional or vendor.
+The price model must expose quantities such as:
 
-Tax, bank, card, and remittance costs may come from different authorities.
+- application or filing unit;
+- jurisdiction or designation;
+- class and item count;
+- applicant or priority claim;
+- search level;
+- document, translation, certification or courier step;
+- professional review cycle;
+- procedural stage;
+- provider or connector route.
 
-MarkReg may assemble and calculate. It should not obscure who controls each component.
+A scope change identifies which components require recalculation instead of replacing one opaque total.
 
----
+## 4. Official-Fee Evidence
 
-## 2. Official Fees Need Source and Version
+An official-fee component must identify:
 
-An official-fee record should preserve:
-
-- office;
-- jurisdiction;
-- fee type;
-- filing route;
-- applicant category where relevant;
-- class or item basis;
+- jurisdiction and office;
+- route and fee type;
+- applicable applicant, class, item or stage rule;
+- original currency and amount;
 - effective date;
-- source;
-- checked date;
-- currency;
-- amount;
-- assumptions;
-- version.
+- source and retrieval date;
+- jurisdiction-pack version;
+- assumptions and confidence.
 
-A number without source and date is not a reliable official-fee representation.
+A number without source and effective date is not a reliable official-fee representation.
 
----
+## 5. Currency and Exchange Rate
 
-## 3. Official Fee Schedules May Be Conditional
-
-Official fees may vary by:
-
-- paper or electronic filing;
-- applicant type;
-- class count;
-- item count;
-- route;
-- priority claim;
-- color claim;
-- expedited processing;
-- publication;
-- registration;
-- certificate;
-- amendment;
-- extension.
-
-The Product should express the rule, not only the current total.
-
----
-
-## 4. Professional Fees Need Defined Scope
-
-A professional fee should identify what work it covers.
-
-Examples include strategy consultation, search, classification, drafting, filing preparation, provider coordination, review, filing, reporting, registration-stage handling, renewal preparation, and office-action response.
-
-A line labelled “service fee” is too ambiguous when several organizations participate.
-
----
-
-## 5. Provider Cost Is Not Automatically the Client Price
-
-An external provider may quote official fees, professional fees, disbursements, tax, translation, courier, and later-stage work.
-
-The organization may add its own coordination, professional, finance, and support value.
+Every converted amount must retain:
 
 ```text
-Provider Cost
-≠ Client Price
+Source Currency
+Presentation Currency
+Rate Source or Approved Policy
+Rate Timestamp
+Spread or Buffer
+Rounding Rule
+Validity
+Repricing Threshold
+Variance Allocation
 ```
 
-Private provider pricing and organization margin rules must remain protected.
+The Product may calculate an approved policy. It may not hide margin inside an “official fee” or invent an exchange-rate policy.
 
----
+## 6. Tax, Bank and Remittance Treatment
 
-## 6. Unit Logic Must Be Visible
+The price surface must state whether amounts are:
 
-A fee may be calculated per:
+- tax inclusive or exclusive;
+- subject to VAT, GST, withholding or gross-up;
+- subject to card, bank or intermediary charges;
+- payable in a different currency;
+- subject to provider or official remittance deductions.
 
-- application;
-- filing unit;
-- class;
-- item;
-- jurisdiction;
-- designation;
-- applicant;
-- priority claim;
-- document;
-- signature;
-- hour;
-- response;
-- stage.
+Tax treatment must come from applicable policy or review, not a generic AI assumption.
 
-The user should understand why the total changes.
+## 7. Later-Stage Cost Treatment
 
----
-
-## 7. Scope Changes Require Recalculation
-
-A change in class count, goods/services count, filing unit, jurisdiction, route, applicant, search mode, or document scope may change several fee components.
-
-The Product should identify which calculations became stale.
-
----
-
-## 8. Currency Must Remain Explicit
-
-Each amount should preserve:
-
-- source currency;
-- presentation currency;
-- exchange-rate source;
-- rate;
-- checked time;
-- spread or conversion rule;
-- rounding rule.
-
-A converted amount is not the original official fee.
-
----
-
-## 9. Exchange-Rate Risk Must Be Allocated
-
-Possible policies include:
+Every foreseeable later stage must be classified:
 
 ```text
-Fixed until quote expiry
-Recalculated at acceptance
-Recalculated at invoice
-Recalculated at payment
-Recalculated at remittance
-Customer bears variance
-Organization bears variance within tolerance
-```
-
-The policy should be visible before acceptance.
-
----
-
-## 10. Tax and Bank Treatment Must Be Clear
-
-The Product should identify whether amounts are tax inclusive, tax exclusive, subject to withholding, VAT or GST, card charges, bank fees, intermediary deductions, or gross-up.
-
-Tax treatment may depend on payer, recipient, jurisdiction, and service type. It should not be guessed by a generic Product rule.
-
----
-
-## 11. Filing-Stage and Later-Stage Costs Must Be Separated
-
-A filing may later require examination response, publication, registration, certificate, maintenance declaration, proof of use, opposition response, or renewal.
-
-Each later-stage cost should be classified as:
-
-```text
-Included
-Expected but not yet due
-Possible
-Contingent
-Unknown
+Included Now
+Expected Later
+Possible or Contingent
+Unknown Until Event
 Excluded
 ```
 
----
+Examples include registration fees, publication fees, office-action responses, opposition, evidence, certificates, declarations, renewals, recordals and legalization.
 
-## 12. Estimate, Cap and Fixed Price Are Different
+## 8. Estimate, Cap and Fixed Price
 
-```text
-Estimate
-→ current expected amount, subject to change
+These labels have different effects:
 
-Cap
-→ amount will not exceed stated ceiling under stated scope
+| Price form | Meaning |
+| --- | --- |
+| Estimate | current expected amount subject to stated change conditions |
+| Cap | amount will not exceed the stated ceiling under the stated scope |
+| Fixed price | stated scope is priced at the stated amount under defined conditions |
 
-Fixed Price
-→ stated scope is priced at a fixed amount under stated conditions
-```
+The Product must not label an estimate as fixed or imply that an initial package covers unknown disputes.
 
-The Product should not label an estimate as fixed.
+## 9. Discounts and Margin Authority
 
----
+A discount requires:
 
-## 13. Contingency Needs a Defined Trigger
-
-A contingency may relate to office action, objection, extra class, excess item, document legalization, urgency, provider change, route change, currency variance, tax, or extension.
-
-A generic “additional charges may apply” is not sufficient where the likely trigger can be identified.
-
----
-
-## 14. Discounts Need Authority and Scope
-
-A discount record should identify:
-
-- authorized organization;
-- approver;
-- basis;
+- affected component;
 - amount or percentage;
-- affected fee components;
-- validity;
-- conditions;
 - reason;
-- exclusions.
+- approving role;
+- minimum-margin or exception result;
+- validity and one-time conditions.
 
-AI may calculate an authorized discount. It may not grant one.
+Discounts must not alter official-fee labels. AI may calculate an approved discount but cannot grant one.
 
----
+## 10. Payment Schedule
 
-## 15. Packages Must Not Hide Legal Units
+The price model may support:
 
-A multi-country or multi-class package may improve usability.
+- full prepayment;
+- deposit plus balance;
+- filing-stage and registration-stage payments;
+- official-fee advance;
+- recurring portfolio billing;
+- approved credit terms.
 
-The underlying components should remain inspectable.
+The schedule explains when funds are required. It does not represent payment receipt or filing approval.
 
-The package should not imply that all jurisdictions have one fee, all classes have the same consequence, all provider work is identical, or all later stages are included.
+## 11. EMBERLOOP Reference Journey
 
----
+For selected Proposal Option B, the Product creates a price basis for word and device filings in US, EU and UK.
 
-## 16. Cost Comparison Requires Like-for-Like Scope
+The client sees:
 
-Two options should not be compared only by total.
+- official fees by jurisdiction and filing unit;
+- organization professional fees;
+- US provider pass-through costs;
+- applicable tax treatment;
+- quote currency and source currencies;
+- deposit requirement;
+- registration-stage and office-action fees as excluded or estimated;
+- expiry tied to fee, provider-rate and exchange-rate validity.
 
-The Product should normalize jurisdictions, filing units, classes, items, search level, included stages, provider service, document work, later fees, tax, and exchange-rate basis.
+Internal users may also see provider cost, discount authority and margin. The client does not see protected procurement details.
 
-A cheaper option may simply contain less.
+## 12. Conformance Scenario — Fee Change Before Filing
 
----
+**Given** the client later accepts a valid Quote based on an official-fee version.  
+**When** the relevant official fee changes before filing.  
+**Then** MarkReg compares old and new sources, applies the accepted variance policy, identifies affected amounts and determines whether revised acceptance is required.  
+**Authority boundary:** no silent repricing and no invented waiver.  
+**Evidence retained:** both fee versions, Quote terms, variance calculation, approver and client decision.
 
-## 17. Price Validity Needs Independent Reasons
+## 13. User Surface
 
-A price may expire because official fees, provider rates, currency, discounts, scope, deadline urgency, tax treatment, or source verification changed.
+The pricing screen should provide:
 
-Price validity may differ from strategic validity.
+1. total payable now;
+2. component breakdown;
+3. original and presentation currencies;
+4. tax and payment treatment;
+5. included and excluded stages;
+6. possible later costs;
+7. validity and repricing conditions;
+8. scope changes that alter price;
+9. one action: proceed to Quote, revise scope, or request commercial review.
 
----
+## 14. Failure Modes
 
-## 18. Price Revision Must Preserve History
-
-A revised price should retain old component, new component, reason, effective time, source, affected scope, acceptance effect, invoice effect, and payment effect.
-
-Past accepted terms should not be overwritten.
-
----
-
-## 19. Quote Currency and Payment Currency May Differ
-
-The Product should distinguish:
-
-```text
-Quote Currency
-Invoice Currency
-Payment Currency
-Provider Currency
-Official Fee Currency
-Accounting Currency
-```
-
-This supports reconciliation and variance analysis.
-
----
-
-## 20. Payment Timing Is Separate from Price
-
-Payment may be prepaid, deposit plus balance, postpaid, credit account, milestone based, official-fee advance, provider advance, or reimbursable disbursement.
-
-The pricing model should describe timing but should not present unpaid price as paid.
-
----
-
-## 21. Cost Uncertainty Should Be Dimensional
-
-Uncertainty may be:
-
-- fee-schedule uncertainty;
-- exchange-rate uncertainty;
-- scope uncertainty;
-- provider uncertainty;
-- tax uncertainty;
-- procedural uncertainty;
-- timing uncertainty.
-
-A single vague risk label is not enough.
-
----
-
-## 22. AI May Explain Cost Drivers
-
-AI may break down totals, compare options, detect omitted stages, recalculate quantities, explain currency impact, flag stale sources, prepare scenarios, and identify inconsistent tax treatment.
-
-AI should not invent official fees, assume tax status, waive charges, promise fixed totals, hide later-stage cost, or change accepted price.
-
----
-
-## 23. Failure Modes to Reject
+The Product must reject:
 
 ```text
 Official and professional fees merged without labels
-Provider cost exposed as organization margin data
-Initial filing fee shown as lifecycle total
-Exchange rate omitted
-Tax treatment guessed
-Per-class rule hidden
-Later registration fee omitted
-Discount granted without authority
-Estimate labelled fixed
+Provider cost exposed as margin data
+Exchange rate or tax treatment omitted
+Per-class or per-item rule hidden
+Later registration fee silently omitted
+Discount applied without authority
+Estimate presented as fixed
 Accepted price overwritten
-Unpaid price displayed as paid
+Unpaid amount displayed as received
 ```
 
----
+## 15. Chapter Output
 
-## 24. Minimum Pricing Lock
+The output is a versioned commercial price basis linked to the selected Proposal option and exact fee, currency, tax and provider sources.
 
-```text
-Cost is decomposed by authority,
-scope, unit, stage, currency,
-tax, validity, assumption, and uncertainty.
-
-Official fee, professional fee,
-provider cost, invoice, payment,
-and lifecycle total remain distinct.
-
-A lower total is not automatically
-a better or equivalent option.
-
-AI may calculate and explain.
-
-Only authorized organizations
-set or approve commercial terms.
-```
-
----
-
-## 25. Handoff to Quote Formation
-
-The output is a versioned Price Model attached to each proposal option.
-
-The next chapter defines how one option becomes a Quote, how acceptance is recorded, and why commercial instruction still does not equal filing approval or submission.
+The next chapter turns that basis into a binding-capable Quote, records exact acceptance, and separates Commercial Instruction from payment and filing authority.

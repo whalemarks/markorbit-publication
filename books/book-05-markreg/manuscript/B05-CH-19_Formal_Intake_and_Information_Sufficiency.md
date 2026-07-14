@@ -1,61 +1,51 @@
 # B05-CH-19 — Formal Intake and Information Sufficiency
 
-**Status:** Part III Draft  
-**Chapter Map:** B05-TOC-V0.1  
+**Status:** Productized Draft  
+**Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part III — Commercial Journey and Formal Intake
 
 ## Chapter Purpose
 
-Need Understanding collects enough context to recommend.
+Need Understanding collected enough context to recommend. Formal Intake now collects and verifies enough information to prepare the accepted service scope.
 
-Formal Intake collects and verifies enough information to perform a defined service.
-
-The two should connect without becoming the same object.
+The controlling lineage is:
 
 ```text
-Commercial Instruction
-+ Selected Service Scope
-+ Referenced Candidate Inputs
+Accepted Quote
++ Commercial Instruction
++ Confirmed Recommendation Artifacts
 → Formal Intake
-→ Information Sufficiency Assessment
+→ Requirement Set
+→ Readiness Assessment
 ```
 
-```text
-Formal Intake
-≠ Need Brief
-≠ Filing Package
-≠ Filing Approval
-≠ Submission
-≠ Official Record
-```
+`Need Brief ≠ Formal Intake`, and complete Intake does not equal filing approval.
 
----
+## 1. User Question
 
-## 1. Formal Intake Is Service-Specific
+> Which formal facts are still needed, why are they needed, and which existing facts can be reused safely?
 
-A new filing Intake differs from an Intake for renewal, assignment, change, office action, opposition, search, recordal, or maintenance declaration.
+The Product should not restart with a universal form. It should ask only the questions required by the selected service, jurisdiction, route, filing unit and unresolved conditions.
 
-The Product should use a shared Intake framework with service-specific requirements.
+## 2. Intake Contract
 
----
+A `Formal Intake` must identify:
 
-## 2. Intake Begins from Existing Authorized Context
+- service family and accepted scope;
+- linked Quote and Commercial Instruction versions;
+- questions and conditional triggers;
+- answers and source state;
+- contributor identity and authority;
+- reused facts and their source versions;
+- unresolved conflicts and unknowns;
+- linked documents;
+- validation and professional-review results;
+- sufficiency purpose;
+- stable version and supersession history.
 
-MarkReg should reuse authorized information from Workplace, existing Customer and Brand references, prior Matters, existing rights, Need Brief, accepted proposal, Commercial Instruction, verified applicant data, and stored documents.
+## 3. Information States
 
-Reuse should preserve source and version.
-
----
-
-## 3. Reuse Does Not Mean Blind Copying
-
-Existing information may be stale, incomplete, scoped to another organization, linked to another applicant, changed after a transaction, inconsistent with official records, or unverified.
-
-Material reused information should be confirmed or reviewed.
-
----
-
-## 4. Intake Must Distinguish Information States
+Every material value must be distinguished as:
 
 ```text
 Verified Fact
@@ -67,86 +57,81 @@ Unknown
 Disputed
 ```
 
-The Product should not present an inference as user-confirmed information.
+The interface must not present inference as confirmation or overwrite a conflict with the latest entry.
 
----
+## 4. Authorized Reuse
 
-## 5. Required Information Depends on Selected Scope
+MarkReg may reuse authorized information from:
 
-For a filing, required information may include:
+- organization and client context;
+- brand and portfolio records;
+- prior Matters and rights;
+- Need Brief and Recommendation Set;
+- accepted Proposal and Quote;
+- verified applicant and signatory records;
+- stored Documents.
 
-- filing unit;
-- applicant;
-- address;
-- entity type;
-- nationality or incorporation;
-- signatory;
-- representative;
-- priority;
-- classes;
-- goods/services;
-- mark representation;
-- translation or transliteration;
-- use information;
-- document requirements.
+Reuse is allowed only when the fact is sufficiently current, correctly scoped and traceable. A stale or conflicting fact triggers confirmation rather than silent copying.
 
-The exact set depends on jurisdiction, route, mark type, applicant, and service.
+## 5. Progressive Disclosure
 
----
+A question should appear when its answer:
 
-## 6. Progressive Disclosure Reduces Burden
+- changes scope, route or fees;
+- determines a jurisdiction requirement;
+- resolves identity or authority;
+- creates or removes a document requirement;
+- affects professional review;
+- affects a deadline or protected action.
 
-The Product should ask a question when the answer changes scope, changes legal or procedural requirements, resolves a blocker, supports a required document, or is needed by a reviewer or provider.
-
-Questions that do not affect the journey should be deferred or removed.
-
----
-
-## 7. Conditional Questions Need Explainable Triggers
+Conditional questions should explain their trigger where useful.
 
 Examples:
 
 ```text
-If priority claimed
-→ ask filing number, office, date, applicant, and document status
+Priority claimed
+→ collect office, date, number, applicant and document state
 
-If mark contains non-Latin characters
-→ ask language, translation, transliteration, and meaning
+Non-Latin mark content
+→ collect language, translation, transliteration and meaning
 
-If applicant is a legal entity
-→ ask entity type and place of organization
-
-If local representative required
-→ collect appointment information
+Legal-entity applicant
+→ confirm entity type, place of organization and signatory capacity
 ```
 
-The Product should explain why a question appears where useful.
+## 6. Service-Specific Intake
 
----
+The shared framework must support different requirement sets for:
 
-## 8. Information Sufficiency Is Not One Percentage
+- new filing;
+- search;
+- office action;
+- opposition or appeal;
+- renewal or maintenance;
+- assignment, change or recordal;
+- evidence or declaration.
 
-Sufficiency should be evaluated across dimensions:
+A page or form alone does not establish service-family support. The service must satisfy the conformance criteria in `B05-SPEC-0001`.
 
-```text
-Identity Sufficiency
-Scope Sufficiency
-Authority Sufficiency
-Document Sufficiency
-Commercial Sufficiency
-Professional Sufficiency
-Filing Sufficiency
-Deadline Sufficiency
-Provider Sufficiency
-```
+## 7. Sufficiency Dimensions
 
-A single percentage may hide a critical gap.
+Intake sufficiency must be evaluated by purpose and dimension:
 
----
+| Dimension | Example questions |
+| --- | --- |
+| Identity | Is the applicant or right holder correctly identified? |
+| Scope | Are filing units, jurisdictions, classes and items fixed enough? |
+| Authority | Is the instructor and signatory authority known? |
+| Deadline | Are priority or filing dates sourced and usable? |
+| Professional | Have material judgments been reviewed? |
+| Commercial | Does Intake match accepted scope? |
+| Document | Can the Requirement Set be finalized? |
 
-## 9. Missing Information Needs Classification
+One completion percentage must not hide a blocking gap.
 
-A missing item may be:
+## 8. Missing, Unknown and Conflicting Information
+
+Each unresolved item must be classified as:
 
 ```text
 Blocking
@@ -154,198 +139,97 @@ Required Before Review
 Required Before Approval
 Required Before Filing
 Required Later
-Optional
 Recommended
+Optional
 Unable to Obtain
-Not Applicable
 Disputed
 ```
 
-This supports honest progression.
+It must also identify owner, reason, due point, acceptable evidence, fallback and affected action.
 
----
+“Unknown” is a valid state. The Product must not force an invented answer.
 
-## 10. Unknown Is a Valid State
+## 9. Material Change and Versioning
 
-A user may not know entity type, priority details, first-use date, signatory authority, current owner, translation, document availability, or official status.
+Changes to applicant, mark, route, priority, class, goods/services, jurisdiction, signatory, document or deadline create a new Intake version and identify:
 
-The Product should allow “unknown” with a resolution path.
+- affected questions;
+- affected Requirement Set rules;
+- affected Quote assumptions;
+- prior reviews that became stale;
+- downstream artifacts requiring revalidation.
 
-It should not force an invented answer.
+Already formalized objects are not silently mutated.
 
----
+## 10. Participants and Access
 
-## 11. Conflicting Information Must Remain Visible
+Different participants may contribute different facts:
 
-Conflict may arise between client statement and official record, current data and prior Matter, applicant name and signed document, translated and original address, or group ownership and legal ownership.
+- client business contact;
+- applicant representative;
+- signatory;
+- finance or procurement contact;
+- professional reviewer;
+- external provider after proper engagement.
 
-The Product should not choose silently.
+Every material answer preserves who supplied it. Access remains purpose-limited, particularly for unpublished marks, identity documents, transactions, signatures and payment information.
 
----
+## 11. EMBERLOOP Reference Journey
 
-## 12. Material Changes Require Revalidation
+MarkReg reuses the accepted US/EU/UK scope, selected applicant, filing units, class candidates and goods/services package.
 
-Changes to applicant, filing unit, route, priority, class, goods/services, jurisdiction, signatory, document, or deadline may invalidate prior Intake conclusions.
+It asks only for unresolved service-specific facts:
 
-The Product should identify affected sections.
+- final applicant registration details;
+- priority status;
+- authorized signatory;
+- final mark files;
+- US declaration inputs;
+- confirmation of the revised goods wording.
 
----
+The operating subsidiary initially conflicts with the parent-company portfolio record. The conflict remains visible until the professional records the selected applicant and reason. Formal Intake v4 references the corrected applicant and invalidates the earlier document preview.
 
-## 13. Intake Versioning Must Be Preserved
+## 12. Conformance Scenario — Stale Reused Fact
 
-A Formal Intake version should retain:
+**Given** a prior Matter contains an applicant address last verified three years ago.  
+**When** the address is reused for the current filing Intake.  
+**Then** MarkReg labels the source and age, requests confirmation, and prevents unconfirmed reuse where the jurisdiction requires current details.  
+**Authority boundary:** reuse is assistance, not verification.  
+**Evidence retained:** old source, confirmation request, response, reviewer decision and new version.
 
-- scope;
-- questions;
-- answers;
-- source;
-- actor;
-- timestamps;
-- documents;
-- validation results;
-- unresolved items;
-- reviewer notes;
-- superseded values.
+## 13. User Surface
 
-A filing should reference the Intake version used.
+The Intake surface should show:
 
----
+1. progress by section and purpose;
+2. prefilled facts with source labels;
+3. inferred values clearly distinguished;
+4. conflicts and unknowns;
+5. why each new question appears;
+6. contributors and delegated sections;
+7. blockers and next action;
+8. changes that will affect price, documents or review.
 
-## 14. Several Participants May Contribute
+The primary action is to complete, delegate, confirm or request review—not to declare the filing ready.
 
-The client may provide business context.
+## 14. Failure Modes
 
-The applicant may verify legal identity.
-
-A professional may define scope.
-
-A finance contact may provide payer data.
-
-A signatory may execute a POA.
-
-A provider may request local information.
-
-The Product should preserve who supplied each material item.
-
----
-
-## 15. Purpose-Limited Access Applies
-
-A provider or external participant should see only information needed for conflict check, quote, appointment, filing, response, document execution, or reporting.
-
-Access to one Matter should not expose unrelated portfolio data.
-
----
-
-## 16. Sensitive Information Needs Protection
-
-Intake may contain identity documents, signatures, corporate documents, acquisition plans, launch information, unpublished marks, payment details, and confidential disputes.
-
-The Product should apply purpose, retention, visibility, and export controls.
-
----
-
-## 17. Provisional Intake May Be Appropriate
-
-Urgency may require preliminary Intake before final price, deadline triage, document collection while procurement continues, or conflict check before disclosure.
-
-The Product should label the state clearly.
-
-Provisional Intake does not imply free work, commercial acceptance, or filing authority.
-
----
-
-## 18. Intake Completion Should Produce an Assessment
-
-The output should identify:
-
-- sufficient for what;
-- insufficient for what;
-- blockers;
-- warnings;
-- assumptions;
-- stale items;
-- required confirmations;
-- required documents;
-- next review;
-- expiry.
-
-“Complete” without a purpose is too broad.
-
----
-
-## 19. Professional Review May Be Required
-
-Some answers require interpretation, including applicant ownership, mark description, acceptable specification, priority validity, entity classification, use claim, signatory authority, and procedural route.
-
-The Product may structurally validate. An eligible human may need to determine professional sufficiency.
-
----
-
-## 20. Intake Does Not Create Formal Truth by Itself
-
-A user entry may later support Customer updates, Applicant references, Orders, Matters, Documents, or filing packages.
-
-The applicable Owning Service records formal business facts.
-
-The Product should preserve provenance and transition.
-
----
-
-## 21. AI May Assist Intake
-
-AI may prefill from authorized context, extract documents, normalize addresses, identify missing information, ask adaptive questions, compare versions, detect contradictions, and summarize for Review.
-
-AI should not invent facts, confirm identity, establish authority, decide ownership, accept a signature, or declare filing readiness alone.
-
----
-
-## 22. Failure Modes to Reject
+The Product must reject:
 
 ```text
 One universal form for every service
-Completion percentage hides a blocker
+Imported fact treated as current truth
+Inference shown as user confirmation
 Unknown answer forced into a value
-Imported data treated as current
-Inference shown as user declaration
 Conflict overwritten
-Provider sees unrelated portfolio data
-Intake change does not invalidate review
+Completion percentage hides a blocker
+Provider sees unrelated information
+Material Intake change leaves review valid
 Complete Intake treated as filing approval
-AI declares legal ownership
 ```
 
----
+## 15. Chapter Output
 
-## 23. Minimum Intake Lock
+The output is a versioned Formal Intake with a purpose-specific sufficiency result.
 
-```text
-Need Understanding supports recommendation.
-
-Formal Intake supports a defined service.
-
-Intake reuses authorized context
-but preserves source, version,
-actor, uncertainty, and conflict.
-
-Sufficiency is evaluated by purpose
-and across several dimensions.
-
-Complete Intake is not
-professional approval,
-filing approval, submission,
-or official outcome.
-
-AI may assist collection and validation.
-
-Humans remain accountable for
-material professional conclusions.
-```
-
----
-
-## 24. Handoff to Documents and Signatures
-
-The output is a versioned Formal Intake and Information Sufficiency Assessment.
-
-The next chapter defines how document requirements, powers of attorney, signatures, translations, notarization, legalization, originals, copies, and authority evidence are requested and governed.
+The next chapter converts jurisdiction and service rules into a Requirement Set for documents, signatures, translations, certification and physical originals.

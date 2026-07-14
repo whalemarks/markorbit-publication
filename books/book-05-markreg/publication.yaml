@@ -1,8 +1,8 @@
 book: "Book 05"
 title: "MarkReg: The Full-Lifecycle International Trademark Product"
 canonical_path: "books/book-05-markreg/"
-status: "part_iii_draft_complete_owner_review_pending"
-phase: "commercial_journey_and_formal_intake_review"
+status: "ch00_ch22_productization_closed_part_iv_authorized"
+phase: "part_iv_filing_preparation_and_governed_execution"
 portfolio_baseline: "MO-PUB-BASELINE-0001"
 positioning: "Defines MarkReg as the flagship full-lifecycle international trademark Product that turns complex service needs into understandable, reviewable, governed professional journeys."
 chapter_map:
@@ -14,6 +14,7 @@ chapter_map:
   parts: 7
 manuscript:
   drafted_range: "00-22"
+  productized_range: "08-22"
   drafted_chapters:
     - "B05-CH-00"
     - "B05-CH-01"
@@ -39,15 +40,28 @@ manuscript:
     - "B05-CH-21"
     - "B05-CH-22"
   architecture_reviewed_through: "B05-CH-22"
-  owner_accepted_through: "B05-CH-15"
+  continuation_accepted_through: "B05-CH-22"
+specifications:
+  - "B05-SPEC-0001"
+  - "B05-SPEC-0002"
+  - "B05-SPEC-0003"
+  - "B05-SPEC-0004"
 reviews:
   - "B05-REV-0001"
   - "B05-REV-0002"
   - "B05-REV-0003"
+  - "B05-REV-0004"
+  - "B05-REV-0005"
+  - "B05-REV-0006"
+  - "B05-REV-0007"
+revision_pack:
+  id: "B05-REVISION-PACK-001"
+  status: "closed"
 next_pack:
   part: "Part IV"
   chapter_range: "23-29"
   title: "Filing Preparation and Governed Execution"
+  authorized: true
 book_02_semantic_change_required: false
 book_03_execution_change_required: false
 book_04_product_boundary_change_required: false
