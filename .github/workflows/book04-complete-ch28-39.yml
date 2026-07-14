@@ -5,7 +5,8 @@ on:
     branches:
       - agent/book-04-ch00-27-review
     paths:
-      - .github/book04-ch28-39-payload.b64
+      - .github/book04-ch28-39-payload-v2.part*
+      - .github/book04-payload-v2.part*
       - .github/workflows/book04-complete-ch28-39.yml
 
 permissions:
@@ -21,80 +22,36 @@ jobs:
           ref: agent/book-04-ch00-27-review
           fetch-depth: 0
 
-      - name: Decode and apply manuscript payload
+      - name: Assemble and verify manuscript payload
         shell: bash
         run: |
           set -euo pipefail
-          python - <<'PY'
-          from __future__ import annotations
+          cat \
+            .github/book04-ch28-39-payload-v2.part00 \
+            .github/book04-ch28-39-payload-v2.part01 \
+            .github/book04-ch28-39-payload-v2.part02 \
+            .github/book04-ch28-39-payload-v2.part03 \
+            .github/book04-ch28-39-payload-v2.part04 \
+            .github/book04-ch28-39-payload-v2.part05 \
+            .github/book04-payload-v2.part06-00 \
+            .github/book04-payload-v2.part06-01 \
+            .github/book04-payload-v2.part06-02 \
+            .github/book04-payload-v2.part06-03 \
+            .github/book04-payload-v2.part06-04 \
+            .github/book04-payload-v2.part06-05 \
+            .github/book04-payload-v2.part07-00 \
+            .github/book04-payload-v2.part07-01 \
+            .github/book04-payload-v2.part07-02 \
+            .github/book04-payload-v2.part07-03 \
+            .github/book04-payload-v2.part07-04 \
+            .github/book04-payload-v2.part07-05 \
+            > /tmp/book04-payload.b64
 
-          import base64
-          import gzip
-          import io
-          import json
-          import os
-          from pathlib import Path
-          import subprocess
-          import tarfile
-          import tempfile
-
-          root = Path.cwd().resolve()
-          payload_path = root / ".github/book04-ch28-39-payload.b64"
-          encoded = "".join(payload_path.read_text(encoding="utf-8").split())
-          compressed = base64.b64decode(encoded)
-          decoded = gzip.decompress(compressed)
-
-          def safe_path(relative: str) -> Path:
-              candidate = (root / relative).resolve()
-              if root not in candidate.parents and candidate != root:
-                  raise RuntimeError(f"Payload path escapes repository: {relative}")
-              return candidate
-
-          # Preferred form: gzip-compressed tar archive.
-          try:
-              with tarfile.open(fileobj=io.BytesIO(compressed), mode="r:gz") as archive:
-                  members = archive.getmembers()
-                  for member in members:
-                      name = member.name
-                      if member.islnk() or member.issym():
-                          raise RuntimeError(f"Links are not allowed in payload: {name}")
-                      safe_path(name)
-                  archive.extractall(root)
-              print(f"Applied tar payload with {len(members)} members")
-          except tarfile.ReadError:
-              text = decoded.decode("utf-8")
-              stripped = text.lstrip()
-              applied = False
-
-              # Supported JSON forms:
-              # {"files": {"path": "content"}} or {"path": "content"}.
-              if stripped.startswith("{"):
-                  data = json.loads(text)
-                  files = data.get("files", data)
-                  if not isinstance(files, dict):
-                      raise RuntimeError("JSON payload must contain a files mapping")
-                  for relative, content in files.items():
-                      if not isinstance(relative, str) or not isinstance(content, str):
-                          raise RuntimeError("Invalid path/content entry in JSON payload")
-                      target = safe_path(relative)
-                      target.parent.mkdir(parents=True, exist_ok=True)
-                      target.write_text(content, encoding="utf-8")
-                  print(f"Applied JSON payload with {len(files)} files")
-                  applied = True
-
-              if not applied:
-                  with tempfile.TemporaryDirectory() as tmp:
-                      script = Path(tmp) / "apply_payload"
-                      script.write_text(text, encoding="utf-8")
-                      if stripped.startswith("#!") and "python" in stripped.splitlines()[0]:
-                          command = ["python", str(script)]
-                      elif "from pathlib import Path" in text or "import json" in text:
-                          command = ["python", str(script)]
-                      else:
-                          command = ["bash", str(script)]
-                      subprocess.run(command, cwd=root, check=True)
-                      print("Applied executable text payload")
-          PY
+          echo "07670c20db1f6ad8e5a2e97cf37cf16d0ee76b98204196d5422e7c33b7863d6d  /tmp/book04-payload.b64" | sha256sum --check
+          base64 --decode /tmp/book04-payload.b64 > /tmp/book04-payload.tar.gz
+          echo "3be3a4556eee922a43fdd246fd51c2dc923a2e213aa29a7f734c11d8135ca600  /tmp/book04-payload.tar.gz" | sha256sum --check
+          tar -tzf /tmp/book04-payload.tar.gz
+          tar -xzf /tmp/book04-payload.tar.gz
 
       - name: Validate complete Book 04 manuscript
         shell: bash
@@ -131,9 +88,9 @@ jobs:
 
               numbered = []
               for line in text.splitlines():
-                  m = re.match(r"## (\d+)\. ", line)
-                  if m:
-                      numbered.append(int(m.group(1)))
+                  match = re.match(r"## (\d+)\. ", line)
+                  if match:
+                      numbered.append(int(match.group(1)))
               if numbered and numbered != list(range(1, len(numbered) + 1)):
                   errors.append(f"{path.name}: non-sequential numbered sections")
 
@@ -161,6 +118,8 @@ jobs:
         shell: bash
         run: |
           rm -f .github/book04-ch28-39-payload.b64
+          rm -f .github/book04-ch28-39-payload-v2.part*
+          rm -f .github/book04-payload-v2.part*
           rm -f .github/workflows/book04-complete-ch28-39.yml
 
       - name: Commit completed manuscript
