@@ -115,7 +115,7 @@ Phase 15 records that:
 
 ## Phase 16 — Book 05 Part II: Need, Strategy and Recommendation
 
-Drafted CH08–CH15 as one coherent writing pack.
+Drafted CH08–CH15 and later productized them under B05-REVISION-PACK-001.
 
 Phase 16 records that:
 
@@ -127,32 +127,48 @@ Phase 16 records that:
 - class candidates remain separate from goods/services wording;
 - goods/services candidates remain separate from approved filing scope;
 - search and risk assessments remain bounded by purpose, query, source, coverage, and checked date;
-- AI assists but does not hold professional responsibility;
-- B05-REV-0002 passes the Part II architecture review;
+- CH08–CH15 now define explicit user surfaces, artifacts, EMBERLOOP continuity and conformance scenarios;
+- B05-REV-0005 closes the Part II productization findings;
 - no upstream architecture amendment is required.
 
 ## Phase 17 — Book 05 Part III: Commercial Journey and Formal Intake
 
-Drafted CH16–CH22 as one coherent writing pack.
+Drafted CH16–CH22 and later productized them under B05-REVISION-PACK-001.
 
 Phase 17 records that:
 
-- Proposal, Price Model, Quote, Acceptance, and Commercial Instruction remain distinct;
-- official fees, professional fees, provider costs, tax, currency, later-stage fees, and uncertainty remain visible;
+- Proposal, price basis, Quote, Acceptance, and Commercial Instruction remain distinct;
+- official fees, professional fees, provider costs, tax, currency, later-stage fees, discounts, margins and uncertainty remain visible and controlled;
 - Formal Intake is service-specific, versioned, source-aware, and purpose-bound;
 - document requirement, source file, formal Document, POA, signature, certification, original, and delivery remain distinct;
 - Readiness is purpose-specific and dimensional rather than one completion score;
-- Order, Matter, payment, responsibility, Workflow, filing approval, and submission remain distinct;
+- Order, Matter, payment, responsibility, Workflow, Filing Approval, and submission remain distinct;
+- Handoff Envelopes are versioned, idempotent and traceable;
 - Owning Services create and record formal business facts;
-- B05-REV-0003 passes the Part III architecture review;
-- no upstream architecture amendment is required;
-- the current gate is owner review of CH16–CH22 and authorization for Part IV.
+- B05-REV-0006 closes the Part III productization findings;
+- no upstream architecture amendment is required.
+
+## Phase 18 — Book 05 CH00–CH22 Productization Closure
+
+B05-REV-0007 completed the follow-up whole-draft review and closed B05-REVISION-PACK-001.
+
+Phase 18 records that:
+
+- B05-SPEC-0001 through B05-SPEC-0004 provide the canonical Product contracts;
+- CH08–CH22 are productized around observable user questions, artifacts, scenarios and handoffs;
+- the EMBERLOOP reference journey runs from Need Brief through returned Order and Matter references;
+- the RIVERKITE case remains the contrasting renewal and ownership journey;
+- all blocking B05-REV-0004 Product-definition findings are closed;
+- historical draft labels in unchanged CH00–CH07 headers are non-blocking publication-cleanup items;
+- CH00–CH22 are accepted as the foundation for continuation;
+- Part IV, CH23–CH29, is authorized;
+- unrestricted implementation, production deployment and external protected action remain unauthorized.
 
 ## Active Future Workstreams
 
 - Architecture Canon maintenance
 - Books 01–04 Portfolio Baseline maintenance
-- Book 05 Part III owner review and Part IV drafting
+- Book 05 Part IV — Filing Preparation and Governed Execution
 - Repository Canonical Alignment Audits
 - Lite Product-loop validation
 - MarkReg Product planning
@@ -178,7 +194,7 @@ The following remain horizontal architecture/specification or implementation wor
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
-| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Part III Draft Complete — Owner Review Pending |
+| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | CH00–CH22 Productization Closed — Part IV Authorized |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
