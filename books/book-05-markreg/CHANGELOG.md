@@ -1,5 +1,19 @@
 # Book 05 Changelog
 
+## 2026-07-14 — PF-06B1 Front Matter and Part I Editorial Finishing
+
+- Edited CH00–CH07 against B05-PUB-0001 Controlled Editorial Standard v0.2.
+- Reorganized Front Matter around the book premise, chapter map and role-specific reader routes.
+- Rebuilt CH02–CH07 so each chapter has one distinct constitutional responsibility.
+- Concentrated architecture responsibility in CH04, participant authority in CH05, Product principles in CH06 and lifecycle/state planes in CH07.
+- Reduced the eight edited files from approximately 3,891 prior lines to approximately 1,635 edited lines, a reduction of about 58%.
+- Preserved B05-TOC-V0.1, MR-CR-01 through MR-CR-08, controlled IDs and all accepted authority distinctions.
+- Normalized CH02–CH07 metadata to Complete Draft 1 and B05-TOC-V0.1 — Owner Accepted.
+- Added B05-REV-0019 and accepted PF-06B1 without a semantic escalation.
+- Recorded PF-01B as complete for CH02–CH07 and open for CH08–CH47.
+- Authorized PF-06B2 — Part II and Part III, CH08–CH22.
+- Kept PF-06 overall, figures, structural validation, RC1 and final publication open.
+
 ## 2026-07-14 — PF-06A Editorial Baseline and Term Audit
 
 - Upgraded B05-PUB-0001 to Controlled Editorial Standard v0.2.

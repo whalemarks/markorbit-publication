@@ -1,40 +1,25 @@
 # B05-CH-03 — Product Mission and Value Proposition
 
-**Status:** Foundation Draft  
-**Chapter Map:** B05-TOC-V0.1 — Candidate  
+**Status:** Complete Draft 1  
+**Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part I — Product Constitution and Lifecycle Position
 
 ## Chapter Purpose
 
-This chapter defines what MarkReg is trying to achieve and how its value should be evaluated.
-
-A Product mission must be more precise than a feature list.
-
-It should explain:
-
-- whose problem is being solved;
-- which change the Product creates;
-- which responsibilities it owns;
-- which responsibilities it does not own;
-- how value appears across the lifecycle;
-- how success is measured without rewarding unsafe automation.
-
----
+CH02 explains why MarkReg must exist. This chapter defines what the Product is trying to achieve, for whom it creates value and how that value should be measured without rewarding unsafe automation.
 
 ## 1. Mission Statement
 
-> MarkReg enables organizations and trademark professionals to turn international trademark needs into understandable options, sufficient intake, reviewed filing and lifecycle actions, and sourced outcomes through a focused Product journey that preserves human professional responsibility and governed execution.
+> MarkReg enables organizations and trademark professionals to turn international trademark needs into understandable options, sufficient context, reviewed actions and sourced lifecycle outcomes through a focused Product journey that preserves Human professional responsibility and governed Execution.
 
 The mission contains six commitments:
 
 1. start from the need rather than the form;
-2. make options understandable;
-3. improve the sufficiency and quality of professional input;
-4. prepare reviewable actions and Artifacts;
+2. make options and consequences understandable;
+3. improve the sufficiency and quality of professional context;
+4. prepare versioned and reviewable Artifacts;
 5. preserve formal authority and official-source truth;
-6. maintain continuity beyond initial filing.
-
----
+6. maintain continuity beyond the initial filing.
 
 ## 2. Product Promise
 
@@ -42,323 +27,265 @@ The Product promise is not:
 
 > Register any trademark automatically.
 
-That promise would be inaccurate and unsafe.
+That statement would ignore legal uncertainty, applicant and scope Decisions, professional responsibility, official examination and post-filing events.
 
 The Product promise is:
 
-> Help the user and professional understand what should happen next, why it should happen, what is still missing, who must decide, and how the approved work can progress safely.
+> Help the user and professional understand what should happen next, why it should happen, what remains unresolved, who must decide and how approved work can progress safely.
 
-This promise remains useful even when:
+This promise remains useful when:
 
 - the recommendation is not to file;
-- more information is required;
+- a jurisdiction or service is deferred;
+- more information or Documents are required;
 - no suitable provider is available;
-- the search shows material risk;
-- the office rejects the application;
-- the client chooses not to respond;
-- the right expires or is transferred.
+- search Evidence reveals material risk;
+- Professional Review rejects a candidate;
+- the office objects or refuses;
+- the client declines to respond;
+- a right expires, is limited or changes owner.
 
-A professional Product should not treat only successful registration as valuable output.
-
----
+A professional Product creates value by making the real state and next Decision clearer, not by forcing every journey toward registration.
 
 ## 3. Primary Value Proposition
 
-MarkReg creates value by converting fragmented complexity into a governed decision journey.
+MarkReg converts fragmented complexity into a governed decision journey.
 
 ```text
 Fragmented facts
 → authorized context
-
-Authorized context
-→ explainable options
-
-Explainable options
-→ informed selection
-
-Informed selection
-→ sufficient intake
-
-Sufficient intake
-→ reviewable package
-
-Reviewed package
-→ governed action
-
-Governed action
-→ sourced outcome
-
-Sourced outcome
+→ explainable recommendations
+→ comparable options
+→ accountable Decision
+→ sufficient Formal Intake
+→ reviewable Package
+→ approved and governed action
+→ sourced external outcome
 → lifecycle continuity and learning
 ```
 
----
+Each transition has its own source, responsibility and validity conditions.
+
+The Product loses value when it compresses the chain into a single status such as “in progress” or “completed.”
 
 ## 4. Value for the Client or Applicant
 
 The client should gain:
 
 - fewer unnecessary questions;
-- clearer country and route choices;
-- clearer class and goods/services choices;
-- transparent costs and later-stage fees;
+- clearer jurisdiction, route and scope options;
 - visible assumptions and exclusions;
-- understandable readiness;
-- clear responsibilities;
-- predictable next steps;
+- understandable cost and later-stage fees;
+- clear responsibility and next actions;
+- progressive rather than repetitive intake;
+- transparent blockers and uncertainty;
 - sourced lifecycle visibility;
-- fewer surprises after filing.
+- fewer avoidable surprises after filing.
 
-The Product should not require the client to understand internal legal and operational terminology merely to express a business need.
+The client should not need to understand internal legal and operational vocabulary merely to express a business objective.
 
-It should translate between business language and professional structure.
-
-That translation remains reviewable.
-
----
+MarkReg translates business language into professional structure, but that translation remains visible, correctable and reviewable.
 
 ## 5. Value for the Trademark Professional
 
 The professional should receive:
 
 - structured source facts;
-- identified ambiguity;
-- candidate recommendations;
+- identified ambiguity and missing information;
+- candidate recommendations with rationale;
 - comparable alternatives;
-- versioned goods/services drafts;
-- document and evidence checklists;
-- missing-information analysis;
-- filing-package preparation;
+- versioned class and goods or services drafts;
+- Document and Evidence requirements;
 - deadline and source context;
+- prepared filing or response packages;
+- clearer client Decisions;
 - reusable review patterns;
-- clearer client decisions;
-- governed AI assistance.
+- governed AI Assistance.
 
-The Product should reduce repetitive preparation while increasing the visibility of risk and responsibility.
+The Product should reduce repetitive preparation while increasing the visibility of risk, source and responsibility.
 
-It must not hide material assumptions merely to make the journey appear complete.
-
----
+It must not hide material assumptions merely to make a journey appear complete.
 
 ## 6. Value for the Organization
 
-The organization should gain value across commercial, professional, operational, and strategic dimensions.
+The organization receives value in four dimensions.
 
 ### Commercial
 
-- higher-quality leads and opportunities;
-- faster proposal preparation;
-- clearer option comparison;
-- improved conversion;
-- fewer scope disputes;
-- better visibility of later-stage revenue and cost.
+- faster Proposal and Quote preparation;
+- clearer service options and inclusions;
+- improved conversion from real need to accepted scope;
+- fewer scope and fee disputes;
+- better visibility of later-stage revenue and cost;
+- preserved Quote and Package history.
 
 ### Professional
 
-- more consistent intake;
-- clearer review gates;
-- better source and version integrity;
-- fewer avoidable filing errors;
-- stronger deadline governance;
-- reusable jurisdiction and service patterns.
+- more consistent intake and preparation;
+- clearer Review and approval gates;
+- stronger source and version integrity;
+- fewer avoidable filing and deadline errors;
+- reusable Jurisdiction Pack and service patterns;
+- visible reasons for stops, overrides and escalation.
 
 ### Operational
 
-- clearer responsibility;
-- fewer duplicate records;
-- better provider handoffs;
-- better communication preparation;
-- stronger trace and recovery;
-- continuity across Products and people.
+- clearer responsibility and Handoffs;
+- fewer duplicate records and submissions;
+- better provider instructions and Returns;
+- stronger Communication preparation;
+- traceable failure and recovery;
+- continuity across people, Products and providers.
 
 ### Strategic
 
-- portfolio visibility;
-- capability accumulation;
-- private relationship use;
-- organization-specific learning;
-- evidence for Product and service improvement.
-
----
+- Portfolio visibility;
+- reusable Capability and Knowledge accumulation;
+- private relationship intelligence;
+- evidence for service and Product improvement;
+- a clearer boundary between organization experience and global Rule claims.
 
 ## 7. Value for External Providers
 
 A provider should receive:
 
-- a clearer Capability Need;
-- a defined jurisdiction and service scope;
+- a typed Capability Need;
+- a defined jurisdiction, service and stage;
 - better prepared instructions;
 - visible deadlines and source context;
-- required documents and missing items;
-- defined communication and delivery expectations;
-- fewer incomplete or contradictory instructions.
+- required Documents and unresolved items;
+- explicit communication and delivery expectations;
+- fewer contradictory or incomplete requests.
 
 The provider remains an independent organization or professional.
 
-MarkReg does not convert the provider into platform-owned inventory.
+MarkReg does not convert providers into platform-owned inventory. A provider must still be eligible, appointed, instructed and recorded as having accepted the work.
 
-The provider must still accept the instruction and retain its own professional responsibility.
+## 8. Ecosystem Value and Its Boundary
 
----
+Organizations may contribute governed learning such as:
 
-## 8. Value for the Ecosystem
-
-The ecosystem may improve when organizations can contribute governed, non-private learning such as:
-
-- jurisdiction rule changes;
 - recurring intake gaps;
-- provider Capability evidence;
+- verified jurisdiction changes;
+- Capability Evidence;
 - process failure patterns;
 - classification ambiguity;
-- document requirements;
-- outcome patterns;
+- Document requirements;
 - validated Knowledge candidates.
 
-This learning must preserve:
+That learning must preserve:
 
 - client confidentiality;
 - organization ownership;
-- purpose limitation;
 - source and provenance;
+- purpose limitation;
 - contextual trust;
 - Candidate Before Canonical.
 
-MarkReg should not become a hidden pool for indiscriminate model training.
+Private work does not become shared Knowledge merely because it passed through MarkReg, and Product data does not become an unrestricted model-training pool.
 
----
+## 9. Experience Value: Ask Less, Explain More
 
-## 9. The Experience Value Proposition
-
-MarkReg should replace the traditional sequence:
+The conventional sequence is often:
 
 ```text
-Choose a country
+choose a country
 → choose classes
-→ type goods/services
+→ type goods or services
 → upload files
 → pay
 ```
 
-with a more intelligent progression:
+The MarkReg sequence should be:
 
 ```text
-Describe the business and intended protection
+describe the business and intended protection
 → receive a reasoned strategy
 → compare options and consequences
 → resolve only material questions
 → confirm scope and cost
-→ complete the remaining formal information
-→ review the prepared filing package
+→ complete remaining formal information
+→ review the prepared Package
 → authorize the governed next action
 ```
 
-The Product may still use forms.
+Forms remain useful. They become a later representation of understood and selected context rather than the entire Product.
 
-The form becomes a later representation of understood and selected context rather than the entire Product.
+`Ask Less` does not mean collect insufficient facts. It means avoid asking the user for information that can be:
 
----
-
-## 10. Ask Less, Explain More
-
-The principle `Ask Less` does not mean collect insufficient facts.
-
-It means avoid asking the user for information that can be:
-
-- retrieved from authorized context;
+- reused from authorized context;
 - inferred as a candidate;
-- reused from verified records;
+- retrieved from a verified record;
 - deferred until relevant;
-- presented as a choice rather than an open field.
+- presented as a bounded choice rather than an open field.
 
-The Product should explain:
+Every material question should explain why it matters, which Decision it changes and what assumption will apply if it remains unanswered.
 
-- why a question matters;
-- which decision it changes;
-- whether the answer is required now;
-- which assumption will be used if unanswered;
-- which professional review remains necessary.
+## 10. Recommendation Value
 
----
+A recommendation is useful when it is:
 
-## 11. Recommendation Value
-
-A recommendation is valuable when it is:
-
-- relevant;
+- relevant to the stated need;
 - explainable;
 - sourced where applicable;
-- contextual;
-- current enough for its purpose;
-- explicit about assumptions;
-- explicit about uncertainty;
+- explicit about assumptions and uncertainty;
 - comparable with alternatives;
 - easy to correct;
-- connected to the next action.
+- connected to the next action;
+- free from hidden commercial manipulation.
 
-A high-confidence score without explanation is not enough.
+A confidence score without rationale is not enough.
 
-A recommendation that hides commercial incentives is not acceptable.
+A country bundle, class set, goods or services list, search option or provider ranking must disclose the factors that materially shape the result.
 
-A country bundle, class package, or provider ranking must disclose the factors that materially shape the result.
-
----
-
-## 12. Professional Quality Value
+## 11. Professional Quality Value
 
 Quality is not simply fewer clicks or faster filing.
 
 Professional quality includes:
 
-- correct identity;
+- correct identity and acting authority;
 - appropriate scope;
 - source integrity;
 - version integrity;
-- sufficient evidence;
+- sufficient Documents and Evidence;
 - visible ambiguity;
-- accountable review;
-- approved authority;
+- accountable Professional Review;
+- valid approval;
 - duplicate safety;
-- sourced official outcome;
-- maintainable lifecycle record.
+- sourced external outcome;
+- maintainable lifecycle records.
 
-A faster incorrect filing is a Product failure.
+A faster incorrect filing is a Product failure. A slower, well-explained Decision not to file may be a Product success.
 
-A slower but well-explained decision not to file may be a Product success.
+## 12. Lifecycle Value
 
----
+Information collected during one stage may support later work.
 
-## 13. Lifecycle Value
+For example:
 
-The Product should preserve value across time.
+- applicant and mark history may support examination or opposition;
+- goods or services Decisions may support scope comparison;
+- source and approval history may support response preparation;
+- owner and representative data may support renewal or recordal;
+- use and market context may support Evidence planning;
+- provider and Communication history may support continuity.
 
-Information collected for filing may later support:
+Later work should not require the organization to reconstruct every earlier Decision from email and attachments.
 
-- office action response;
-- opposition defense;
-- evidence preparation;
-- renewal;
-- owner change;
-- assignment;
-- monitoring;
-- portfolio review.
+Historical context remains versioned and purpose-bound. Reuse does not mean indefinite validity.
 
-The later journey should not require the organization to reconstruct every earlier decision from email and attachments.
+## 13. Five Product Value Tests
 
-Historical context must remain versioned and purpose-bound.
-
----
-
-## 14. Five Product Value Tests
-
-Every major MarkReg feature should satisfy at least one of the five Portfolio Baseline tests.
+Every major feature should satisfy at least one Portfolio Baseline test.
 
 ### Reduce Missed Work
 
-Does it prevent a missed fact, document, deadline, fee, dependency, or next action?
+Does it prevent a missed fact, Document, deadline, fee, dependency or next action?
 
 ### Improve Professional Judgment
 
-Does it improve the quality, traceability, or explainability of a decision?
+Does it improve the quality, traceability or explainability of a Decision?
 
 ### Accelerate Service Conversion
 
@@ -366,102 +293,71 @@ Does it help a real need become an understood and accepted service scope more qu
 
 ### Improve Delivery Quality
 
-Does it improve preparation, review, communication, filing, response, or outcome handling?
+Does it improve preparation, Review, Communication, Execution, response or outcome handling?
 
 ### Accumulate Organizational Capability
 
-Does it create reusable Knowledge, patterns, templates, evidence, or relationship intelligence under governance?
+Does it create reusable Knowledge, patterns, templates, Evidence or relationship intelligence under governance?
 
 A feature that satisfies none of these tests should not be prioritized merely because it is technically impressive.
 
----
+## 14. Metrics Must Follow the Mission
 
-## 15. Product Metrics Must Follow the Mission
+Useful metrics may include:
 
-Potential metrics include:
+| Dimension | Examples |
+| --- | --- |
+| understanding | time to first useful recommendation; rationale coverage; unresolved-assumption rate |
+| commercial | Proposal preparation time; option-to-instruction conversion; unexpected-cost rate |
+| professional quality | intake deficiency; Package rework; Review revision; Document validation failure |
+| Execution | approved-to-submission time; duplicate prevention; unknown-outcome duration |
+| lifecycle | maintenance coverage; renewal lead time; ownership inconsistency detection; context reuse |
 
-### Understanding
+Metrics must not reward:
 
-- time to first useful recommendation;
-- percentage of recommendations with visible rationale;
-- number of material questions required before option presentation;
-- unresolved-assumption rate.
+- bypassing Review;
+- hiding uncertainty;
+- asking fewer questions by omitting necessary facts;
+- treating Product state as Official Truth;
+- filing faster by weakening source or version controls;
+- maximizing conversion through biased recommendations.
 
-### Commercial
+CH46 defines the full metrics and MVP framework.
 
-- proposal preparation time;
-- option-to-instruction conversion;
-- quote revision caused by missing scope;
-- later unexpected-cost rate.
+## 15. Honest Stops Are Product Outcomes
 
-### Professional Quality
+A MarkReg journey may stop because:
 
-- intake deficiency rate;
-- filing-package rework rate;
-- review rejection or revision rate;
-- duplicate or inconsistent filing-unit rate;
-- document validation failure rate.
-
-### Execution and Outcome
-
-- approved-to-submission time;
-- submission acknowledgement success;
-- unknown-outcome duration;
-- retry and duplicate prevention;
-- deadline-source completeness.
-
-### Lifecycle
-
-- maintenance task coverage;
-- renewal preparation lead time;
-- owner and portfolio inconsistency detection;
-- outcome-to-next-action conversion;
-- historical context reuse.
-
-Metrics must not reward bypassing Review, hiding uncertainty, or treating Product state as official truth.
-
----
-
-## 16. The Product Should Support Honest Stops
-
-A useful MarkReg journey may stop because:
-
-- the need is not yet clear;
-- the applicant is unresolved;
+- the need is unclear;
+- the applicant or owner is unresolved;
 - the mark version is unstable;
 - search risk is too high;
-- required documents are unavailable;
+- required Documents are unavailable;
 - no provider is eligible;
 - the client declines the cost;
-- professional Review rejects the package;
-- the deadline cannot be verified;
-- the external result is unknown.
+- Professional Review rejects the Package;
+- a deadline cannot be verified;
+- an external result remains unknown.
 
-The Product must represent the stop honestly.
+The Product must represent the stop honestly and preserve what would allow the journey to resume.
 
-It should not fabricate completion to maintain funnel progression.
+It must not fabricate completion to maintain funnel progression.
 
----
-
-## 17. Mission Boundaries
+## 16. Mission Boundaries
 
 The mission does not include:
 
 - guaranteeing registration;
-- replacing legal judgment;
+- replacing professional judgment;
 - filing without authority;
-- selecting providers automatically;
+- appointing providers automatically;
 - storing every organization function inside MarkReg;
 - expanding into every intellectual-property service;
-- converting private work into shared learning automatically;
-- treating a jurisdiction pack as official law;
-- treating an AI explanation as a reviewed professional opinion.
+- converting private work into shared Knowledge automatically;
+- treating a Jurisdiction Pack as official law;
+- treating AI output as reviewed professional opinion.
 
----
-
-## 18. Product Value Equation
-
-The Product value can be summarized as:
+## Product Value Equation
 
 ```text
 Useful Understanding
@@ -469,6 +365,7 @@ Useful Understanding
 + Sufficient Professional Context
 + Governed Preparation
 + Accountable Review
++ Valid Approval
 + Safe Execution Handoff
 + Sourced Outcome
 + Lifecycle Continuity
@@ -476,43 +373,16 @@ Useful Understanding
 MarkReg Product Value
 ```
 
-Removing any one element weakens the whole Product.
+Understanding without action becomes advice Content. Action without Review becomes unsafe automation. Execution without sourced outcome becomes unreliable tracking. Outcome without continuity becomes a filing portal.
 
-Understanding without action becomes advice content.
-
-Action without review becomes unsafe automation.
-
-Execution without sourced outcome becomes unreliable tracking.
-
-Outcome without continuity becomes a filing portal.
-
----
-
-## 19. Minimum Mission Lock
+## Chapter Lock
 
 ```text
-MarkReg reduces complexity.
-It does not hide uncertainty.
-
-MarkReg accelerates preparation.
-It does not bypass professional review.
-
-MarkReg improves conversion.
-It does not manipulate recommendation.
-
-MarkReg coordinates lifecycle work.
-It does not own every formal object or external outcome.
-
-MarkReg uses AI.
-It does not transfer professional responsibility to AI.
+MarkReg reduces complexity without hiding uncertainty.
+It accelerates preparation without bypassing Human Review.
+It improves conversion without manipulating recommendations.
+It coordinates lifecycle work without owning every formal object or external outcome.
+It uses AI Assistance without transferring professional responsibility to AI.
 ```
 
----
-
-## 20. Chapter Conclusion
-
-MarkReg’s mission is to make international trademark services easier to understand, easier to prepare, safer to execute, and more continuous over time.
-
-Its value does not come from replacing the professional system around it.
-
-Its value comes from composing that system into a coherent Product journey while preserving the identity, authority, review, source, and responsibility that make professional outcomes trustworthy.
+CH04 allocates the responsibilities required to deliver this mission across Workplace, Core, MarkReg, Execution, MGSN, Owning Services, providers and official offices.

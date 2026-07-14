@@ -1,35 +1,16 @@
 # B05-CH-07 — Full-Lifecycle Model and State Distinctions
 
-**Status:** Foundation Draft  
-**Chapter Map:** B05-TOC-V0.1 — Candidate  
+**Status:** Complete Draft 1  
+**Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part I — Product Constitution and Lifecycle Position
 
 ## Chapter Purpose
 
-The phrase “full lifecycle” can become misleading if every stage is reduced to one progress bar or one Product-owned status.
+`Full lifecycle` becomes misleading when every stage is reduced to one Product-owned progress bar.
 
-International trademark work contains several overlapping lifecycles:
+International trademark work contains overlapping lifecycles for need, recommendation, commercial commitment, formal business objects, preparation, Review, approval, Execution, provider work, official proceedings, continuing rights, Documents and Evidence.
 
-- business need;
-- recommendation;
-- commercial commitment;
-- formal Order and Matter;
-- intake;
-- professional preparation;
-- Review and approval;
-- Execution;
-- external submission;
-- official examination;
-- adversarial proceedings;
-- registration;
-- maintenance;
-- ownership change;
-- provider collaboration;
-- Artifact and Document versions.
-
-MarkReg must present these lifecycles coherently without claiming to own all of them.
-
-The central proposition is:
+MarkReg must make these lifecycles coherent without claiming to own all of them.
 
 ```text
 Full-Lifecycle Continuity
@@ -38,891 +19,463 @@ Stable References
 + Distinct State Planes
 + Versioned Decisions
 + Governed Handoffs
-+ Sourced External Outcomes
-+ Branching and Return Routes
-+ Long-Term Responsibility
++ Sourced External Events
++ Continuing Obligations
 ```
 
-The central warning is:
+## 1. Lifecycle Is a Network, Not a Single Workflow
+
+A common path is:
 
 ```text
-One user journey
-≠ one universal status
-≠ one universal Workflow
-≠ one Product-owned lifecycle
+Need
+→ Recommendation
+→ Commercial Decision
+→ Formal Intake
+→ Preparation
+→ Review
+→ Approval
+→ Execution
+→ Official Acknowledgement
+→ Examination or Other Proceeding
+→ Outcome
+→ Maintenance and Portfolio Action
 ```
 
----
+Real journeys branch.
 
-## 1. Full Lifecycle Begins Before Formal Intake
+- a user may arrive with a precise instruction and skip early discovery;
+- search may occur before or after jurisdiction selection;
+- several filing units may emerge from one brand;
+- several jurisdictions may use different routes and providers;
+- a Package may be approved in one jurisdiction and blocked in another;
+- an application may enter examination, opposition or restoration;
+- a registration may require maintenance before renewal;
+- ownership recordal may become a dependency for renewal;
+- one Portfolio may contain independent rights at every stage.
 
-The earliest stage may be:
+The Product therefore needs stable relationships between states rather than a universal sequence imposed on every case.
 
-- inquiry;
-- business expansion plan;
-- brand launch;
-- manufacturing move;
-- marketplace entry;
-- risk signal;
-- portfolio gap;
-- renewal need;
-- office notice;
-- ownership transaction.
+## 2. Canonical Lifecycle Stages
 
-At this stage, there may be no formal Order or Matter.
+The following stages provide a reader map. They are not one shared status field.
 
-MarkReg may own exploration and recommendation state.
+| Stage | Primary Product question | Principal controlled output |
+| --- | --- | --- |
+| need | what business problem exists? | Business Context Snapshot; Need Brief |
+| recommendation | what options should be considered? | Recommendation Set; Option Set |
+| Decision | what does an accountable participant choose? | Decision Record |
+| commercial | what service scope and price are accepted? | Proposal; Quote; Client Acceptance; Commercial Instruction |
+| intake | are the required facts and Documents sufficient? | Formal Intake; Requirement Set |
+| readiness | what is ready, blocked or conditional for a purpose? | Readiness Assessment |
+| preparation | what exact Package is proposed? | Filing, Response, Renewal or Recordal Package Candidate |
+| Review and approval | has the exact version been assessed and authorized? | Review; Filing Approval or other bounded approval |
+| Execution | has governed work been requested and progressed? | Execution request, Task and Event references |
+| external action | what was sent, delivered or accepted by a provider? | Submission Evidence; Provider Acceptance; Provider Report |
+| official proceeding | what has the office recorded or issued? | Official Event Snapshot; Official Acknowledgement Evidence |
+| outcome | what current result is sourced? | Outcome Snapshot; Registration Outcome Snapshot |
+| continuing right | what obligations and vulnerabilities remain? | Right Baseline; Maintenance Obligation Set |
+| Portfolio | what actions are proposed across independent rights? | Portfolio Continuity View; Portfolio Action Plan |
 
-It must not fabricate formal objects merely to begin the Product journey.
+Each output has its own source, version, owner and supersession behavior.
 
----
+## 3. State Planes
 
-## 2. Full Lifecycle Continues Beyond Registration
+MarkReg should separate at least nine state planes.
 
-Registration is a formal outcome.
+### Product Journey State
 
-It may create later work such as:
+Describes where the user is in the MarkReg experience, for example:
 
-- certificate delivery;
-- owner verification;
-- use obligation;
-- declaration;
-- maintenance;
-- renewal;
-- watch;
-- enforcement signal;
-- change;
-- assignment;
-- licensing;
-- portfolio rationalization.
+- exploring need;
+- comparing options;
+- resolving assumptions;
+- completing intake;
+- preparing a Package;
+- reviewing outcome and next action.
 
-The Product lifecycle should preserve continuity rather than archive the journey at registration.
+This state is Product-local.
 
----
+### Recommendation and Decision State
 
-## 3. The Lifecycle Is a Network, Not a Straight Line
+Describes whether a recommendation is draft, presented, superseded, accepted, modified or rejected, and whether an accountable Decision exists.
 
-A trademark journey may:
+A recommendation may remain useful after rejection as historical rationale.
 
-- branch into several jurisdictions;
-- split a word mark and logo;
-- use different filing routes;
-- proceed with some classes and defer others;
-- receive different office actions;
-- appoint different providers;
-- register in one country and fail in another;
-- enter opposition in only one jurisdiction;
-- renew only selected rights.
+### Commercial State
 
-The Product should support related journeys without forcing them into one linear status.
+Describes Proposal, Quote, acceptance, expiry, Commercial Instruction, invoice, payment, credit, refund and variance.
 
----
+Commercial commitment does not create professional readiness or filing authority.
 
-## 4. Product Journey State
+### Formal Business State
 
-MarkReg may own Product-local state such as:
+Describes shared objects such as Order, Matter, Customer, payment record or formal Document as returned by their Owning Services.
 
-- exploring;
-- context gathering;
-- recommendation prepared;
-- options presented;
-- option selected;
-- intake in progress;
-- missing information;
-- package in preparation;
-- outcome received;
-- maintenance attention required.
+MarkReg references this state; it does not redefine it.
 
-These states help the user navigate.
+### Preparation, Review and Approval State
 
-They do not replace formal Core, Execution, or official states.
+Describes candidate versions, validation, Professional Review, requested changes and bounded approval.
 
----
+Approval always applies to an exact version and consequence.
 
-## 5. Candidate and Recommendation State
+### Execution State
 
-Candidates may include:
+Describes governed Task, Workflow, permission, queue, retry, idempotency, failure and Event progression under Book 03.
 
-- country;
-- route;
-- filing unit;
-- applicant;
-- class;
-- goods/services;
-- search;
-- provider;
-- deadline interpretation;
-- response option.
+### Provider State
 
-A candidate may be:
+Describes provider candidate, selection, appointment, instruction, receipt, Provider Acceptance, work in progress, proposed change, report and delivery.
 
-- generated;
-- explained;
-- revised;
-- rejected;
-- selected;
-- superseded;
-- expired.
+### Official State
 
-Selection does not automatically formalize the candidate.
+Describes office-issued or office-recorded events and statuses supported by official Evidence.
+
+### Continuing-Right and Portfolio State
+
+Describes registered scope, maintenance obligations, vulnerabilities, renewal, recordal, transactions, monitoring and Portfolio action candidates.
+
+These planes may change at different times and may conflict temporarily. The Product must not force them into one synthetic truth.
+
+## 4. Critical State Distinctions
+
+The following distinctions apply throughout the book.
 
 ```text
-Candidate selected
-≠ decision recorded
-≠ formal object changed
+Need understood
+≠ recommendation complete
+
+Recommendation complete
+≠ Decision made
+
+Decision made
+≠ Quote accepted
+
+Quote accepted
+≠ Commercial Instruction
+
+Commercial Instruction
+≠ formal Order or Matter
+
+Formal Intake complete
+≠ professionally sufficient
+
+Professionally sufficient
+≠ reviewed
+
+Reviewed
+≠ approved
+
+Approved
+≠ executed
+
+Execution requested
+≠ sent
+
+Sent
+≠ delivered
+
+Delivered
+≠ Provider Acceptance
+
+Provider reports submitted
+≠ officially acknowledged
+
+Officially acknowledged
+≠ registered
+
+Registered
+≠ maintenance compliant
+
+Renewal prepared
+≠ renewal filed
+
+Renewal filed
+≠ renewed status verified
+
+Assignment signed
+≠ ownership recordal completed
 ```
 
----
+These are not edge cases. They are the core state discipline of the Product.
 
-## 6. Commercial State
+## 5. State Records Need Domain and Source
 
-The commercial journey may include:
+A state statement should identify:
 
-- proposal draft;
-- proposal presented;
-- option selected;
-- quote prepared;
-- quote issued;
-- quote expired;
-- quote revised;
-- quote accepted;
-- instruction received;
-- payment requested;
-- payment pending;
-- payment confirmed;
-- refund or adjustment.
+- state domain;
+- subject and exact version;
+- jurisdiction and service;
+- source and Evidence;
+- actor or system that changed the state;
+- time;
+- confidence or dispute status;
+- expiry or revalidation condition;
+- downstream consequence.
 
-These states must remain separate from professional and filing readiness.
+`Filed` is insufficient on its own.
 
----
+Prefer:
 
-## 7. Formal Order and Matter State
+- `provider reports the Package submitted; official receipt pending`;
+- `connector delivery succeeded; office acceptance not yet established`;
+- `official acknowledgement retrieved at [time]`;
+- `renewal request sent; renewed register entry not yet verified`.
 
-An accepted service may require formal Order and Matter objects.
+## 6. Versioned State and Supersession
 
-MarkReg may prepare the handoff.
+Many state changes depend on an exact Artifact version.
 
-The applicable Owning Services create and update those objects.
+A material change may affect:
 
-```text
-Commercial instruction
-≠ Order created
-
-Order created
-≠ Matter opened
-
-Matter opened
-≠ filing ready
-```
-
-The Product should reference the resulting identifiers.
-
----
-
-## 8. Intake State
-
-Intake may include:
-
-- not started;
-- partially complete;
-- waiting for client;
-- waiting for provider;
-- structurally complete;
-- commercially complete;
-- professionally incomplete;
-- ready for validation;
-- sufficient for a defined next step;
-- expired or stale.
-
-“Complete” must always identify complete for what purpose.
-
----
-
-## 9. Readiness Is Multi-Dimensional
-
-MarkReg should distinguish:
-
-- recommendation readiness;
-- proposal readiness;
-- commercial readiness;
-- intake sufficiency;
-- document readiness;
-- professional readiness;
-- filing-package readiness;
-- review readiness;
-- approval readiness;
-- execution readiness.
-
-One overall readiness percentage can hide a blocking defect.
-
-A dimension may be green while another remains red.
-
----
-
-## 10. Artifact and Document Version State
-
-A filing or response package may move through:
-
-- draft;
-- assembled;
-- preview rendered;
-- under review;
-- changes requested;
-- reviewed;
-- approved for a defined use;
-- materially edited;
-- re-review required;
-- finalized;
-- superseded;
-- archived.
-
-A formal Document may have a separate lifecycle through its Owning Service.
-
-```text
-Artifact version
-≠ formal Document state
-```
-
----
-
-## 11. Human Review State
-
-Review may include:
-
-- requested;
-- assigned;
-- accepted by reviewer;
-- in progress;
-- changes requested;
-- approved within scope;
-- rejected;
-- conditionally approved;
-- withdrawn;
-- superseded by material change.
-
-Review applies to a specific subject and version.
-
-A later version cannot inherit approval automatically.
-
----
-
-## 12. Approval State
-
-Approval may exist for different consequences:
-
-- client presentation;
-- commercial commitment;
-- payment;
-- provider appointment;
-- filing;
-- external send;
-- publication;
-- formal recordal.
-
-MarkReg should not represent them as one generic “approved” state.
-
----
-
-## 13. Execution State
-
-Book 03 governs Execution state, including:
-
-- intake received;
-- validation;
-- waiting for Permission;
-- waiting for Policy;
-- waiting for Review;
-- waiting for approval;
-- queued;
-- running;
-- retrying;
-- blocked;
-- failed;
-- completed;
-- completed with partial outcome;
-- unknown external result.
-
-MarkReg may project this state.
-
-It does not own or bypass it.
-
----
-
-## 14. External Submission State
-
-Submission may involve:
-
-- prepared;
-- queued;
-- transmitted;
-- transport failed;
-- provider received;
-- office endpoint received;
-- technical acceptance;
-- formal acknowledgement pending;
-- formally acknowledged;
-- rejected;
-- correction required;
-- result unknown.
-
-These states require precise source and correlation.
-
-```text
-HTTP success
-≠ filing accepted
-
-Provider says “sent”
-≠ official acknowledgement
-
-Official acknowledgement
-≠ substantive acceptance
-```
-
----
-
-## 15. Official Examination State
-
-Official status may include:
-
-- filed;
-- formalities review;
-- examination;
-- objection;
-- provisional refusal;
-- response period;
-- suspended;
-- accepted;
-- published;
-- opposition;
-- registered;
-- refused;
-- abandoned;
-- cancelled;
-- expired.
-
-The exact states vary by jurisdiction.
-
-MarkReg should map them into understandable Product views while preserving the official source term and source evidence.
-
----
-
-## 16. Status Mapping Is a Projection
-
-A common Product label may group several local official statuses.
-
-The mapping should preserve:
-
-- local term;
-- official source;
-- source date;
-- mapped Product category;
-- mapping version;
-- uncertainty;
-- superseded value.
-
-A Product category supports understanding.
-
-It does not replace the official record.
-
----
-
-## 17. Deadline State Has Its Own Authority
-
-A deadline may be:
-
-- stated by official notice;
-- calculated from publication;
-- calculated from service;
-- provided by provider;
-- estimated;
-- extended;
-- disputed;
-- superseded;
-- unverified.
-
-The Product should preserve:
-
-- source;
-- calculation;
-- calendar;
-- time zone;
-- extension rule;
-- confidence;
-- reviewer;
-- current status.
-
-A calendar entry alone is not deadline authority.
-
----
-
-## 18. Provider Collaboration State
-
-Provider collaboration may include:
-
-- Capability Need prepared;
-- candidates discovered;
-- evidence reviewed;
-- human selected;
-- appointment prepared;
-- approval pending;
-- instructed;
-- provider acceptance pending;
-- accepted;
-- declined;
-- conflict identified;
-- scope revised;
-- delivery in progress;
-- delivery received;
-- outcome disputed;
-- engagement closed.
-
-This lifecycle remains separate from official filing status.
-
----
-
-## 19. Communication State
-
-A communication may be:
-
-- drafted;
-- internally reviewed;
-- client-reviewed;
-- approved to send;
-- queued;
-- sent;
-- delivered;
-- bounced;
-- acknowledged;
-- superseded.
-
-A sent communication does not prove that the recipient accepted the instruction or that an official action occurred.
-
----
-
-## 20. Payment State
-
-Payment may be:
-
-- estimated;
-- requested;
-- invoiced;
-- authorized;
-- pending;
-- completed;
-- failed;
-- refunded;
-- disputed;
-- reconciled.
-
-Payment completion does not prove:
-
-- provider acceptance;
-- filing approval;
-- submission;
-- official receipt.
-
-MarkReg should show relevant relationships without collapsing them.
-
----
-
-## 21. Outcome State
-
-A lifecycle stage may end with:
-
-- successful formal outcome;
-- partial outcome;
-- refusal;
-- withdrawal;
-- abandonment;
-- no action;
-- client decision not to proceed;
-- deadline missed;
-- provider decline;
-- unknown external result.
-
-A Product should preserve honest outcomes, not only successful ones.
-
----
-
-## 22. Unknown Is a Valid State
-
-External systems and providers may fail to return a definitive result.
-
-MarkReg should distinguish:
-
-```text
-Failed
-→ evidence shows the action did not complete
-
-Unknown
-→ available evidence cannot confirm completion or failure
-```
-
-Unknown should trigger:
-
-- investigation;
-- reconciliation;
-- duplicate-safety check;
-- escalation;
-- communication.
-
-It should not be converted to success for user convenience.
-
----
-
-## 23. Superseded State Preserves History
-
-A recommendation, document, deadline, status, or provider instruction may be replaced.
-
-The old state should become superseded rather than erased where history matters.
-
-The Product should preserve:
-
-- what changed;
-- when;
-- by whom;
-- why;
-- which later state replaced it;
-- which decision relied on the old state.
-
----
-
-## 24. Expiry and Staleness Are Different
-
-A quote may expire by defined rule.
-
-A provider availability statement may become stale.
-
-An official fee may become uncertain after an effective date.
-
-A recommendation may require refresh when context changes.
-
-MarkReg should distinguish:
-
-- explicitly expired;
-- stale due to age;
-- invalidated by changed facts;
-- superseded by a new version;
-- still valid but requiring confirmation.
-
----
-
-## 25. Branching Jurisdictions Need Stable Parent Context
-
-One strategy may produce filings in several jurisdictions.
-
-Shared parent context may include:
-
-- business objective;
-- brand;
-- applicant;
-- mark version;
-- portfolio decision;
-- client instruction.
-
-Each jurisdiction branch may have its own:
-
-- route;
-- class;
-- goods/services wording;
-- provider;
-- documents;
-- fees;
-- filing number;
-- status;
-- deadline;
-- outcome.
-
-The Product should reuse shared context without hiding branch-specific independence.
-
----
-
-## 26. Mark Variants Need Separate Filing Units
-
-A word mark and device mark may share a brand and strategy.
-
-They may require separate:
-
-- application;
-- classes;
-- image;
-- description;
-- fees;
-- provider instruction;
-- official outcome.
-
-The Product should model the relationship without collapsing the filings.
-
----
-
-## 27. Class and Goods/Services Versions Must Be Preserved
-
-The goods/services list may change during:
-
-- recommendation;
-- client choice;
-- professional review;
-- provider localization;
-- office action;
-- limitation;
-- registration.
-
-The Product should preserve which version was:
-
-- quoted;
-- approved;
-- filed;
-- amended;
-- registered;
-- renewed.
-
-A later portfolio view should not replace the filed history with the current wording.
-
----
-
-## 28. Rework Is Not a New Lifecycle Automatically
-
-A review rejection or correction request may return the journey to preparation.
-
-That does not necessarily create a new Order, Matter, or application.
-
-The Product should preserve:
-
-- same formal context;
-- new package version;
-- reason for rework;
-- previous review;
-- next review requirement.
-
----
-
-## 29. Material Change May Create a New Filing Unit
-
-Some changes are too significant for simple revision.
-
-Examples may include:
-
-- materially different mark;
-- different applicant;
-- additional jurisdiction;
-- different filing route;
-- new class;
-- new priority basis;
-- materially expanded scope.
-
-MarkReg should flag when a new filing unit, commercial scope, Order line, or Matter may be required.
-
-The Product should not silently stretch an existing object beyond its accepted scope.
-
----
-
-## 30. Cancellation and Abandonment Must Be Explicit
-
-A journey may stop because of:
-
-- client instruction;
-- non-payment;
-- missed deadline;
-- professional recommendation;
-- provider failure;
-- official abandonment;
-- business change.
-
-The Product should preserve:
-
-- who decided;
-- which formal object was affected;
-- whether the official status changed;
-- whether future action remains possible;
-- which maintenance or portfolio consequences remain.
-
----
-
-## 31. Product Completion Is Purpose-Specific
-
-A Product journey may be complete for one purpose:
-
-- strategy delivered;
-- proposal accepted;
-- filing submitted;
-- office action response filed;
-- registration received;
-- renewal completed.
-
-The broader trademark lifecycle may continue.
-
-```text
-Product stage complete
-≠ Matter complete
-≠ right lifecycle complete
-```
-
----
-
-## 32. Lifecycle Handoffs Need Correlation
-
-Every consequential handoff should preserve correlation across:
-
-- Product session;
-- Prepared Action;
+- Recommendation Set;
+- Option Set;
+- Quote;
+- Formal Intake;
+- Requirement Set;
+- Readiness Assessment;
+- Package Candidate;
 - Review;
 - approval;
-- Workflow;
-- Task;
-- Owning Service request;
 - provider instruction;
-- connector transaction;
-- official acknowledgement;
-- Event.
+- Communication;
+- Jurisdiction Pack or Rule version.
 
-Correlation supports:
+The Product should preserve:
 
-- audit;
-- duplicate safety;
-- failure recovery;
-- outcome return;
-- lifecycle explanation.
+```text
+old version
+→ why it was valid
+→ Decision or action taken from it
+→ new source or change
+→ impact assessment
+→ superseding version
+→ invalidated Review or approval, if any
+```
 
----
+Historical versions remain part of the audit and Decision lineage. Supersession does not mean deletion.
 
-## 33. Return Routes Must Be Defined
+## 7. Material Change
 
-An outcome may need to return to:
+A change is material when it may alter scope, risk, cost, authority, required Documents, provider route, deadline, Review outcome, approval or official consequence.
 
-- MarkReg;
-- Workplace;
-- Lite Today;
-- client surface;
-- provider collaboration;
-- portfolio view;
-- maintenance calendar.
+Examples include:
 
-The return route should identify:
+- applicant or owner change;
+- mark representation change;
+- jurisdiction, route, class or goods or services change;
+- priority change;
+- new conflict or search Evidence;
+- fee, form or Rule change;
+- provider substitution;
+- deadline correction;
+- Document expiry;
+- settlement or response-position change.
 
-- destination;
-- result type;
-- source;
+Material change triggers an impact assessment and may require repricing, new intake, revalidation, Professional Review, reapproval or suspension.
+
+## 8. Handoffs Connect State Planes
+
+A Handoff should carry stable references rather than flatten all state into a copied payload.
+
+A Handoff Envelope may include:
+
+- origin Product Session;
+- acting organization and participant;
+- purpose and requested consequence;
+- accepted commercial scope;
 - formal references;
-- next action;
-- unresolved issue;
-- responsible actor.
+- exact Artifact versions;
+- Review and approval references;
+- deadlines and warnings;
+- required Permissions;
+- idempotency key;
+- expected Return and Evidence;
+- expiry and failure behavior.
 
----
-
-## 34. Lifecycle Learning Is Not Automatic Canonicalization
-
-Outcomes may suggest:
-
-- better questions;
-- new risk flags;
-- fee updates;
-- provider evidence;
-- document patterns;
-- classification ambiguity;
-- Workflow improvement.
-
-These are candidates for local or shared learning.
-
-They do not automatically become:
-
-- universal Knowledge;
-- public provider reputation;
-- new rule;
-- new Product behavior;
-- model-training data.
-
----
-
-## 35. Minimum State Planes
-
-MarkReg should preserve at least the following logical planes:
+The receiving system or service evaluates the Handoff under its own authority.
 
 ```text
-1. Product journey state
-2. Candidate and recommendation state
-3. Commercial state
-4. Formal Core object state
-5. Artifact and Document version state
-6. Review and approval state
-7. Execution state
-8. Provider collaboration state
-9. External submission state
-10. Official status and deadline state
-11. Outcome and lifecycle-continuity state
+Handoff accepted for processing
+≠ requested external effect completed
 ```
 
-Implementation may combine or distribute storage.
+## 9. Return and Reconciliation
 
-The meanings should remain distinct.
+A Return should identify:
 
----
+- originating request and idempotency key;
+- work or action performed;
+- result state and source;
+- created or changed formal references;
+- Evidence;
+- warnings, failure or unknown state;
+- required correction or next action;
+- whether earlier Product assumptions remain valid.
 
-## 36. Minimum State Lock
+MarkReg reconciles the Return with the Product journey.
+
+Reconciliation may:
+
+- confirm the expected result;
+- identify a partial result;
+- detect a changed Package or provider instruction;
+- reveal duplicate risk;
+- create a correction journey;
+- establish an unknown state requiring investigation;
+- produce an Official Event Snapshot or Outcome Snapshot.
+
+## 10. Unknown State Is a First-Class State
+
+An external action may be neither safely repeatable nor clearly complete.
+
+Examples include:
+
+- network timeout after submission;
+- provider says filed but no Evidence is available;
+- payment debited without confirmed order state;
+- office record unavailable or inconsistent;
+- Return not received from an embedded Product;
+- conflicting deadline sources.
+
+The Product should record:
 
 ```text
-Product state ≠ formal state.
-
-Candidate selected ≠ formal decision.
-
-Quote accepted ≠ filing approved.
-
-Intake sufficient ≠ filing ready.
-
-Filing ready ≠ filing approved.
-
-Filing approved ≠ submitted.
-
-Submitted ≠ officially acknowledged.
-
-Acknowledged ≠ registered.
-
-Provider instructed ≠ provider accepted.
-
-Connector success ≠ official outcome.
-
-Review completed ≠ action completed.
-
-Registration ≠ lifecycle completion.
-
-Unknown ≠ success.
-
-Superseded ≠ deleted.
+what was attempted
+what Evidence exists
+what remains unknown
+what duplicate or deadline risk exists
+who is responsible for reconciliation
+when escalation occurs
 ```
 
----
+Blind retry is prohibited where duplicate or adverse external effect is possible.
 
-## 37. Failure Modes to Reject
+## 11. Independent Jurisdiction State
 
-MarkReg must reject:
+One brand initiative may produce several independent applications and rights.
 
-- one universal progress bar as the only lifecycle model;
-- Product state replacing official status;
-- formal objects created merely for navigation;
-- approval inherited across material versions;
-- unknown external result shown as success;
-- provider lifecycle merged with official lifecycle;
-- payment state used as filing state;
-- branch-specific outcomes hidden by parent summary;
-- amended wording overwriting filed history;
-- registration ending maintenance responsibility;
-- Product handoff without correlation or return route.
+A Portfolio view may summarize them, but it must preserve separate:
 
----
+- filing units and Packages;
+- applicants and owners;
+- providers;
+- official identifiers;
+- procedures and deadlines;
+- Review and approvals;
+- costs and payments;
+- outcomes and obligations.
 
-## 38. Chapter Conclusion
+For example, the controlled `EMBERLOOP` journey ends with:
 
-Full lifecycle does not mean that MarkReg owns every state.
+- United Kingdom — registered with continuing obligations;
+- United States — under examination after an acknowledged response;
+- European Union — in opposition without assumed closure;
+- Japan and Australia — candidates only.
 
-It means that the Product preserves a coherent journey across states owned by different responsibilities.
+No global `registered` status can truthfully represent that Portfolio.
 
-The Product should help the user understand:
+## 12. Continuing-Right State
 
-- where the journey is;
-- which fact is authoritative;
-- which version was reviewed;
-- which decision is pending;
-- who must act next;
-- which outcome occurred;
-- what remains after the current stage ends.
+Registration creates a Right Baseline rather than an endpoint.
 
-That continuity is the foundation for every later chapter in Book 05.
+The baseline may include:
+
+- official identifier and registration date;
+- owner and representative;
+- registered mark and scope;
+- official status and source;
+- certificate or record availability;
+- limitations and disclaimers;
+- use and Evidence context;
+- maintenance and renewal obligations;
+- vulnerability and monitoring signals.
+
+Continuing obligations become versioned records with source, responsibility, deadline and consequence.
+
+A reminder generated from an unverified Rule is not a verified obligation.
+
+## 13. Portfolio State Is a View, Not a Right
+
+A Portfolio Continuity View may show:
+
+- independent applications and registrations;
+- coverage and ownership inconsistencies;
+- upcoming obligations;
+- use-Evidence weakness;
+- disputes and vulnerabilities;
+- duplicate or obsolete rights;
+- licensing and transaction context;
+- recommended action candidates.
+
+The view does not create one global right or one combined official status.
+
+A Portfolio Action Plan remains a set of proposed actions until each action receives the required Decisions, commercial scope, preparation, Review and approval.
+
+## 14. Client-Facing State Language
+
+Client-facing state should be accurate without exposing unnecessary internal complexity.
+
+Prefer:
+
+- `We are preparing the application details for professional review.`
+- `The filing Package is approved and waiting for submission.`
+- `The provider reports submission; the official receipt is still pending.`
+- `The office has acknowledged the response. Examination remains open.`
+- `Registration is verified. Maintenance obligations are being confirmed.`
+- `The renewal was filed; the renewed register entry is not yet verified.`
+
+Avoid labels such as `done`, `completed` or `successful` when the relevant consequence is still pending.
+
+## 15. AI and State
+
+AI Assistance may:
+
+- classify a state candidate;
+- compare source records;
+- identify inconsistencies;
+- draft an explanation;
+- propose an impact assessment;
+- flag stale or missing Evidence.
+
+AI may not:
+
+- create an official state;
+- convert Provider Report into Official Truth;
+- declare Review or approval complete;
+- resolve an authority conflict;
+- infer consent from silence;
+- retry an External Protected Action autonomously.
+
+Every AI-produced state remains a candidate or Product Projection until accepted under the appropriate rule.
+
+## 16. State Conformance Questions
+
+A conforming implementation should answer:
+
+1. Which state plane does this label belong to?
+2. What subject and version does it describe?
+3. Who or what changed the state?
+4. Which source or Evidence supports it?
+5. What remains pending or unknown?
+6. Does the state expire or require revalidation?
+7. Which Decision or action may occur next?
+8. Could the display be mistaken for official or formal truth?
+9. Are independent jurisdictions or rights being flattened?
+10. Is a retry safe?
+
+## Chapter Lock
+
+```text
+Full lifecycle is continuity across distinct state planes.
+It is not one Product-owned progress bar.
+
+Every consequential state has a domain, subject, version, source, actor and consequence.
+
+Handoffs connect authority boundaries.
+Returns and reconciliation preserve external truth.
+Unknown remains explicit until Evidence resolves it.
+```
+
+Part II begins with CH08, where this state model is applied to understanding the user’s need before any filing form is presented.

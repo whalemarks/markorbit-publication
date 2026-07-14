@@ -4,80 +4,65 @@
 **Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Front Matter
 
-## Why This Book Follows Workplace and Product Architecture
+## Why Book 05 Exists
 
-The first four MarkOrbit publications establish a progression.
+The first four MarkOrbit books establish a progression.
 
-Book 01 explains why global brand professional services need an Operating System rather than another isolated tool.
+- Book 01 explains why global brand professional services need an Operating System rather than another isolated tool.
+- Book 02 defines the shared Core semantics through which organizations, identities, brands, trademarks, Orders, Matters, Documents, Evidence, Communications, responsibilities and Events can be understood consistently.
+- Book 03 defines governed Execution: how professional work moves through context, Tasks, Review, approval, Communication, trace, retry and safe failure.
+- Book 04 defines Workplace and Product Architecture: the Organization Orbit, authorized context, private Knowledge and AI boundaries, and the rules under which focused Products operate without absorbing Core, Execution, network or formal-state authority.
 
-Book 02 defines the shared Core semantics through which organizations, identities, brands, trademarks, orders, matters, documents, evidence, communications, responsibilities, and events can be understood consistently.
+Book 05 applies that baseline to the first deep professional Product: **MarkReg**.
 
-Book 03 defines governed Execution: how professional work progresses through context, tasks, review, approval, communication, trace, retry, and safe failure.
+International trademark work is a useful test because a seemingly simple request can expose almost every difficulty the architecture is intended to solve.
 
-Book 04 defines Workplace and Product Architecture. It establishes the independent Organization Orbit, the authorized organization context that Products may consume, the boundaries of private Knowledge and AI, and the rules by which focused Products operate without absorbing Core, Execution, network, or formal-state authority.
-
-Book 05 applies that baseline to the first flagship Product.
-
-That Product is MarkReg.
-
-MarkReg concerns international trademark work because the domain exposes nearly every difficulty the broader architecture is intended to solve.
-
-A user may begin with a simple sentence:
+A client may say:
 
 > We need to protect this brand overseas.
 
-Behind that sentence may sit dozens of interdependent questions:
+That sentence does not yet identify:
 
-- Which countries matter now?
-- Which filing route should be used?
-- Should the word mark and logo be filed separately?
-- Who is the correct applicant?
-- Which classes are required?
-- Which goods and services are essential, recommended, or unnecessary?
-- Is a preliminary search appropriate?
-- Which earlier rights or commercial risks matter?
-- What documents and signatures are required?
-- Which provider should act?
-- What will the filing, examination, registration, and maintenance cost?
-- Which deadlines are official, calculated, estimated, or still unverified?
-- What happens if the office issues an objection?
-- What happens after registration?
+- the jurisdictions or filing routes;
+- the mark versions and filing units;
+- the correct applicant and authority chain;
+- the classes and goods or services;
+- the need for search or other risk work;
+- the required Documents and signatures;
+- the provider or connector route;
+- the official, professional and commercial costs;
+- the source and confidence of deadlines;
+- the Review and approval requirements;
+- the post-filing, registration and maintenance consequences.
 
-Traditional software often responds by presenting a form.
+Traditional software often responds with a form. The form asks the user to know the answer before the Product has helped the user understand the problem.
 
-The form asks the user to know the answers before the Product has helped the user understand the problem.
+A case-management system usually begins later, after an Order or Matter exists. It can coordinate delivery but may not support the earlier strategic and commercial Decisions.
 
-A case-management system may begin later, after the application, order, or matter has already been formed. It improves coordination but often does not help with the earlier strategic and commercial decisions.
+An AI conversation can explain, compare and draft. It does not by itself preserve source, version, authority, Review, approval, Execution, official acknowledgement or lifecycle continuity.
 
-An AI chat interface may explain concepts or draft text, but explanation alone does not create a governed Product journey. It may not preserve versions, responsibility, review, formal objects, official sources, deadlines, provider appointment, or long-term continuity.
-
-MarkReg must address the whole professional journey without pretending that the whole journey belongs to one Product.
+MarkReg therefore addresses the professional journey as a Product without pretending that every part of the journey belongs to the Product.
 
 ## The Central Question
 
 This book asks:
 
-> How does MarkReg turn a complex, multi-jurisdictional trademark service need into an understandable, reviewable, governed, full-lifecycle professional journey without becoming a second Workplace, Core, Execution System, MGSN, official office, or Owning Service?
+> How can MarkReg turn a complex, multi-jurisdictional trademark need into an understandable, reviewable and governed full-lifecycle journey while preserving the authority of the organization, professional, Execution system, provider and official office?
 
-The answer requires several disciplines at the same time.
+The answer requires several disciplines at once.
 
-MarkReg must be helpful before formal intake.
+MarkReg must:
 
-It must reduce the number of questions the user must answer directly while making its assumptions, inferences, and alternatives visible.
-
-It must provide country, route, class, goods/services, search, and provider recommendations without presenting recommendation as legal certainty or automatic decision.
-
-It must connect commercial understanding with professional readiness.
-
-It must allow a proposal or quote to become an accepted instruction without collapsing quote, payment, Order, Matter, review, approval, and filing into one status.
-
-It must prepare filing packages and response materials without claiming Product authority to submit them.
-
-It must preserve official-source authority for acknowledgements, statuses, deadlines, and outcomes.
-
-It must continue after filing through examination, response, publication, opposition, registration, renewal, changes, assignment, and portfolio learning.
-
-And it must remain usable by different organization types, from an independent professional to a large agency or enterprise brand team.
+- begin before Formal Intake;
+- ask fewer but more consequential questions;
+- make assumptions, sources and uncertainty visible;
+- produce explainable recommendations and alternatives;
+- connect commercial acceptance to professional preparation without collapsing them;
+- preserve exact versions for Review, approval and Execution;
+- keep provider reports distinct from Official Truth;
+- continue through examination, disputes, registration, maintenance, renewal, recordal, transactions and Portfolio work;
+- support standalone and embedded experiences without becoming a second Workplace;
+- use AI Assistance without transferring professional responsibility to AI.
 
 ## The Product Loop
 
@@ -95,76 +80,54 @@ Need
 → Formalize
 → Prepare
 → Review
+→ Approve
 → Execute
 → Acknowledge
-→ Examine
-→ Respond
-→ Register or Other Outcome
+→ Examine or Proceed
+→ Respond or Resolve
+→ Register or Reach Another Outcome
 → Maintain
 → Learn
 ```
 
-This loop is not one universal Workflow.
+This is not one universal Workflow.
 
-Some users enter with a clear instruction and skip early discovery.
+A user with a precise instruction may skip early discovery. A matter may require search before filing. A jurisdiction may require a local provider. An application may receive no office action, may fail before registration or may enter an adversarial proceeding. A registration may require evidence or maintenance long before renewal.
 
-Some matters require search before filing.
-
-Some jurisdictions require local providers.
-
-Some applications receive no office action.
-
-Some never reach registration.
-
-Some registrations require maintenance actions long before renewal.
-
-The Product must therefore preserve lifecycle continuity while allowing different jurisdiction packs, service types, Workflows, providers, and formal outcomes.
+Full lifecycle therefore means **continuity across different journeys**, not one Product-owned progress bar.
 
 ## The Constitutional Boundary
 
-MarkReg is a Product.
-
-That sentence is a constraint.
+MarkReg is a focused Product.
 
 ```text
 MarkReg ≠ Workplace
-
 MarkReg ≠ Core
-
 MarkReg ≠ Execution
-
 MarkReg ≠ MGSN
-
-MarkReg ≠ official trademark office
-
-MarkReg ≠ Owning Service
-
-MarkReg ≠ open provider marketplace
-
-MarkReg ≠ autonomous professional
+MarkReg ≠ an official trademark office
+MarkReg ≠ an Owning Service
+MarkReg ≠ an open provider marketplace
+MarkReg ≠ an autonomous professional
 ```
 
-MarkReg composes a focused journey.
+The surrounding responsibilities remain distinct:
 
-Workplace supplies authorized organization context.
+- Workplace supplies authorized organization context.
+- Core supplies shared meaning and references.
+- MarkReg composes the trademark Product journey and Product-local state.
+- Execution governs coordinated work and protected actions.
+- MGSN supports Capability discovery and collaboration across independent Orbits.
+- Owning Services create or change formal shared business facts.
+- providers, connectors and official offices perform or return external actions and outcomes.
+- Humans remain accountable for professional and organizational Decisions.
+- AI Assistance supports bounded tasks under explicit governance.
 
-Core supplies shared meaning.
-
-Execution governs coordinated work.
-
-MGSN supports capability discovery and collaboration across independent Orbits.
-
-Owning Services change and record formal business facts.
-
-External offices and providers produce external outcomes.
-
-Humans remain professionally accountable.
-
-AI assists under explicit governance.
+These boundaries are not defensive disclaimers. They make the Product composable, testable and trustworthy.
 
 ## The Experience Ambition
 
-MarkReg should not merely digitize an application form.
+MarkReg should not merely digitize a filing form.
 
 Its experience ambition is:
 
@@ -173,13 +136,13 @@ Ask less
 → understand more
 → recommend clearly
 → expose alternatives
-→ preserve professional judgment
+→ preserve Human Judgment
 → prepare the next governed action
 ```
 
-For example, a user should not be required to choose a country merely from an alphabetical list.
+A user should not be required to choose a country from an alphabetical list before the Product understands where the business operates, sells, manufactures, raises investment, faces copying risk or plans to expand.
 
-The Product may ask where the business operates, manufactures, sells, raises investment, faces copying risk, or plans to expand. It may then distinguish:
+The Product may distinguish:
 
 - required jurisdictions;
 - strongly recommended jurisdictions;
@@ -187,123 +150,103 @@ The Product may ask where the business operates, manufactures, sells, raises inv
 - jurisdictions that may be deferred;
 - jurisdictions not currently recommended.
 
-The Product should not hide the consequences inside a bundle. Each jurisdiction retains its own cost, scope, evidence, timing, representative, and enforcement consequences.
+The same pattern applies to filing routes, mark variants, applicants, classes, goods or services, search scope, provider routes and service packages.
 
-The same principle applies to classes and goods/services.
+The goal is not to eliminate choice. It is to make informed choice possible with fewer unnecessary questions and more visible consequences.
 
-The Product should identify the main class, related classes, required items, recommended items, exclusions, local limitations, and unresolved ambiguity. It should explain why the recommendation exists and which facts would change it.
+## The Authority and State Discipline
 
-The goal is not to eliminate choice.
-
-The goal is to make informed choice possible with fewer unnecessary questions.
-
-## The Full-Lifecycle Ambition
-
-MarkReg begins before a formal trademark application exists.
-
-It may begin with a business objective, a brand asset, a market plan, a risk signal, or a client request.
-
-It continues beyond submission.
+MarkReg must preserve distinctions that ordinary interfaces often hide.
 
 ```text
-Official acknowledgement ≠ registration
-
+Recommendation ≠ Decision
+Readiness ≠ Approval
+Approval ≠ Execution
+Submission sent ≠ official acknowledgement
+Provider report ≠ Official Truth
 Registration ≠ lifecycle completion
-
 Certificate possession ≠ maintenance compliance
-
 Renewal reminder ≠ verified deadline
-
-Provider delivery ≠ official outcome
+Payment ≠ filing authority
 ```
 
-The Product must preserve these distinctions while making the lifecycle understandable.
+A Product may make these relationships understandable. It may not remove them for the sake of a simpler progress indicator.
 
-## The Role of AI
+## The Role of AI Assistance
 
-AI is important to MarkReg because the domain contains large amounts of language, classification, jurisdiction Knowledge, document content, evidence, comparison, and explanation.
+International trademark work contains large amounts of language, classification, jurisdiction Knowledge, Documents, Evidence, comparison and explanation. AI Assistance can add substantial value.
 
-AI may help:
+It may help to:
 
-- understand the user’s business and intended use;
-- infer likely jurisdictions and classes;
-- compare goods and services;
-- summarize search results and official notices;
-- prepare questions and missing-information lists;
-- draft filing descriptions and response structures;
+- understand business and intended-use context;
+- identify candidate jurisdictions, classes and goods or services;
+- compare specifications and search results;
+- extract issues from official notices;
+- identify missing information and Documents;
+- draft explanations, response structures and Communications;
 - compare provider candidates;
-- explain cost and consequence;
-- prepare client communications;
-- identify maintenance signals.
+- assess the impact of a Rule, fee or form change;
+- identify maintenance and Portfolio signals.
 
-AI does not become:
+AI does not become the applicant, representative, reviewer, approver, signatory, payer, provider selector, filing authority or official source.
 
-- the applicant;
-- the representative;
-- the reviewer;
-- the approver;
-- the signatory;
-- the payer;
-- the provider selector;
-- the filing authority;
-- the official source.
+Every consequential output must remain classified as a fact, inference, recommendation, draft, reviewed Artifact, approved action or sourced external outcome.
 
-The Product must show which outputs are facts, inferences, recommendations, drafts, reviewed materials, approved actions, and official outcomes.
+## What This Book Defines
 
-## The Scope of This Book
+Book 05 defines the Product constitution and professional journeys for MarkReg. It goes deeper than the MarkReg profile in Book 04, but it does not become a final PRD, API specification, jurisdictional legal manual, legal treatise or implementation repository.
 
-Book 05 defines Product architecture and professional journeys.
-
-It goes deeper than the MarkReg profile in Book 04.
-
-It does not become a final PRD, API specification, jurisdiction manual, legal treatise, or implementation repository.
-
-The book covers:
+It covers:
 
 - Product constitution and lifecycle position;
-- need understanding and recommendation;
-- commercial journey and formal intake;
-- filing preparation and governed execution;
-- examination, publication, office actions, and adversarial matters;
-- registration, maintenance, renewal, changes, assignment, and portfolio continuity;
-- client, professional, and provider surfaces;
-- jurisdiction packs;
-- AI assistance;
-- metrics, MVP boundary, conformance, and roadmap.
+- need understanding, strategy and recommendation;
+- commercial journey and Formal Intake;
+- filing preparation and governed Execution;
+- examination, publication and adversarial work;
+- registration and Portfolio continuity;
+- standalone, embedded and cross-Product experience;
+- participant surfaces and authority;
+- Jurisdiction Packs and AI governance;
+- Product metrics, MVP boundaries, Conformance Profiles and roadmap.
 
-It does not expand MarkReg to every intellectual-property domain.
+Patents, copyright, designs, domain names, customs, litigation and general legal practice may connect through future Products or Capabilities. They do not silently enter MarkReg merely because a client’s brand problem crosses domains.
 
-Patents, copyright, designs, domain names, customs, litigation, and general legal practice may connect through future Products or Capabilities. They do not silently enter MarkReg merely because a client’s brand problem crosses domains.
-
-## The Reader
+## Who Should Read It
 
 This book is written for:
 
 - Product architects;
 - trademark professionals;
 - agency and law-firm leaders;
-- legal-operations teams;
-- service coordinators;
+- enterprise legal and brand teams;
+- legal-operations and service-coordination teams;
 - AI and Knowledge-system designers;
 - engineers implementing governed professional Products;
-- reviewers responsible for architecture conformance.
+- reviewers responsible for architecture and Product conformance.
 
-The reader should finish the book able to answer not only what MarkReg should do, but also who remains responsible, which state is authoritative, where review occurs, what may be automated, what must be sourced, and how the lifecycle continues when Products, providers, or jurisdiction rules change.
+The reader should finish the book able to answer not only what MarkReg should do, but also:
 
-## The Starting Lock
+- who remains responsible;
+- which state is authoritative;
+- where Human Review and approval occur;
+- what may be automated;
+- what must be sourced;
+- what changes invalidate earlier work;
+- how the lifecycle continues across Products, providers and Rule versions.
+
+## Starting Lock
 
 Book 05 begins with the following lock:
 
 ```text
 MarkReg makes international trademark services understandable and operable.
-
 It does not make professional responsibility disappear.
 
-It prepares recommendations and actions.
-
-It does not convert them into decisions or official outcomes by itself.
+It prepares recommendations, Artifacts and actions.
+It does not convert them into Decisions, Execution or official outcomes by itself.
 
 It composes the Product journey.
-
 It does not absorb the Operating System around it.
 ```
+
+CH01 presents the owner-accepted chapter map and the reader routes through the book.

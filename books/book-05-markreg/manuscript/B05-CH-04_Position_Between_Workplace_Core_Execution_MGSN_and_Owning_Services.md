@@ -1,429 +1,259 @@
 # B05-CH-04 — Position Between Workplace, Core, Execution, MGSN and Owning Services
 
-**Status:** Foundation Draft  
-**Chapter Map:** B05-TOC-V0.1 — Candidate  
+**Status:** Complete Draft 1  
+**Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part I — Product Constitution and Lifecycle Position
 
 ## Chapter Purpose
 
-MarkReg is the first flagship Product to apply the Books 01–04 Portfolio Baseline to one deep professional domain.
+MarkReg touches organizations, clients, trademarks, Orders, Matters, Tasks, Documents, Evidence, Communications, providers, payments, deadlines and external outcomes. That breadth can create the illusion that every related responsibility belongs inside the Product.
 
-That position creates a predictable risk.
-
-Because MarkReg touches clients, applicants, brands, trademarks, Orders, Matters, Tasks, Documents, Evidence, Communications, providers, payments, official offices, deadlines, and lifecycle outcomes, it may appear reasonable to place all of those responsibilities inside the Product.
-
-That would be an architectural error.
-
-The question is not whether MarkReg displays or uses these concepts.
-
-The question is:
-
-> Which responsibilities belong to the MarkReg Product journey, and which remain owned by Workplace, Core, Execution, MGSN, Owning Services, providers, connectors, and official offices?
+This chapter allocates authority across MarkReg and the surrounding MarkOrbit architecture.
 
 The central proposition is:
 
 ```text
-MarkReg Product Journey
-=
-Authorized Workplace Context
-+ Shared Core References
-+ Product-Owned Decision and Experience State
-+ Prepared Artifacts and Actions
-+ Governed Execution Handoffs
-+ MGSN Capability Requests
-+ Owning Service Formalization
-+ Sourced External Outcomes
+MarkReg owns the focused trademark Product journey.
+It does not own the whole professional system around that journey.
 ```
 
-The constitutional responsibility chain is:
+## 1. Constitutional Responsibility Chain
 
 ```text
 Workplace
-→ provides authorized organization context
+→ supplies authorized organization context
 
 Core
-→ defines shared meaning
+→ defines shared meaning and contracts
 
 MarkReg
-→ composes the focused trademark journey
+→ composes the trademark Product journey and Product-local state
 
 Execution
 → governs coordinated work and protected actions
 
 MGSN
-→ connects independent organizational Orbits by Capability and trust
+→ supports Capability discovery and collaboration across independent Orbits
 
 Owning Services
-→ change and record formal business facts
+→ create or change formal shared business facts
 
-Providers, connectors, and official offices
+Providers, connectors and official offices
 → perform or return external actions and outcomes
 
 Humans
-→ remain professionally accountable
+→ remain accountable for professional and organizational Decisions
 
-AI
-→ assists under explicit governance
+AI Assistance
+→ supports bounded tasks under explicit governance
 ```
 
----
+This chain is compositional, not hierarchical. MarkReg may coordinate the experience across these boundaries, but it does not gain the authority of the systems or actors it coordinates.
 
-## 1. MarkReg Is the Product, Not the Surrounding System
+## 2. Responsibility Matrix
 
-MarkReg owns the direct user-value journey for international trademark work.
+| Responsibility | Primary owner | MarkReg role |
+| --- | --- | --- |
+| acting organization and authorized context | Workplace | consume for a defined Product purpose |
+| shared object meaning | Core | reference; do not redefine |
+| trademark journey and Product-local state | MarkReg | own and present |
+| Tasks, Review coordination, retries and protected actions | Execution | request, observe and receive results |
+| external Capability discovery | MGSN or governed Routing | express Capability Need and present candidates |
+| formal Order, Matter, payment or other shared facts | applicable Owning Service | prepare Handoff; preserve returned reference |
+| external professional work | appointed provider | prepare instruction; preserve acceptance and result |
+| office action or official record | official office | retrieve, source and project; do not manufacture |
+| professional judgment and approval | eligible Human | support with context; do not replace |
+| extraction, comparison and drafting | governed AI Assistance | invoke under source, purpose and Review controls |
 
-It may help the user:
+A user interface may display all these elements together. Display does not transfer ownership.
 
-- understand a need;
-- compare jurisdictions and routes;
-- identify mark and applicant context;
-- prepare class and goods/services candidates;
-- assess whether search is appropriate;
-- compare service options;
-- complete intake progressively;
-- assemble filing and response packages;
-- obtain Human Review;
-- prepare provider collaboration;
-- request governed actions;
-- understand official outcomes;
-- preserve lifecycle continuity.
+## 3. Workplace Supplies the Acting Context
 
-These activities define the Product.
+The real actor is an organization or authorized person, not an isolated Product account.
 
-They do not make MarkReg the owner of every object, permission, Workflow, relationship, or formal fact that appears in the journey.
+Workplace provides context such as:
 
-The basic rule is:
-
-```text
-MarkReg owns the focused journey.
-It does not own the whole professional system around the journey.
-```
-
----
-
-## 2. Workplace Provides the Acting Organization Context
-
-The real actor is the organization.
-
-Workplace provides the context in which that organization acts, including:
-
-- organization identity;
-- active user identity;
-- people and role context;
-- client relationship;
-- organization-specific permissions;
-- Policies;
-- private Knowledge;
-- preferences;
-- templates;
-- pricing rules;
-- local data boundaries;
+- organization and active-user identity;
+- roles, Permissions and Policies;
+- client and applicant relationships;
+- private Knowledge and templates;
+- language and presentation preferences;
+- pricing and approval rules;
 - provider relationships;
-- current Product access;
-- organizational memory.
+- Matter team and responsibility context;
+- Product access and organization memory.
 
-MarkReg consumes that context for a defined purpose.
-
-It must not recreate the organization as a Product-local account merely because the Product needs organization information.
+MarkReg consumes this context for a defined purpose.
 
 ```text
-Workplace context
-≠ Product-owned organization identity
-```
-
-A standalone MarkReg deployment may provide its own entry experience.
-
-That does not make it a second Workplace.
-
-It still needs a coherent Organization Orbit, acting context, Permission model, and data boundary.
-
----
-
-## 3. Authorized Context Is More Than Convenient Prefill
-
-Authorized Workplace context may reduce repeated data entry.
-
-For example, MarkReg may receive:
-
-- client identity;
-- applicant candidates;
-- existing trademarks;
-- prior filings;
-- preferred providers;
-- organization fee rules;
-- language preferences;
-- approved signatories;
-- matter team;
-- private templates.
-
-The value is not merely autofill.
-
-The value is that the context has:
-
-- an organization boundary;
-- a purpose;
-- a source;
-- a current actor;
-- current access rights;
-- traceable references.
-
-A field copied from another screen without current authorization is not trustworthy context.
-
-```text
-Data availability
+Data available somewhere
 ≠ authorized Product context
 ```
 
----
+Authorized context has an organization boundary, source, purpose, current actor, access condition and traceable reference.
 
-## 4. MarkReg Must Revalidate Context at Consequential Boundaries
+A standalone MarkReg experience may provide an entry surface, but it still requires a coherent Organization Orbit and Permission model. It does not become a second Workplace.
 
-Context may be valid during exploration but stale by the time of filing.
+## 4. Context Must Be Revalidated at Consequential Boundaries
+
+Context that was valid during exploration may be stale by the time of filing or recordal.
 
 Examples include:
 
-- applicant address changed;
-- ownership changed;
+- applicant address or ownership changed;
 - signatory authority expired;
 - provider conflict emerged;
-- official fee changed;
-- class wording changed;
+- official fee or form changed;
+- goods or services wording changed;
 - Permission was revoked;
 - client instruction was superseded;
-- filing deadline moved or was corrected.
-
-MarkReg may reuse context.
-
-It must not assume indefinite validity.
+- deadline Evidence was corrected.
 
 Revalidation should occur where consequence increases, especially before:
 
-- commercial acceptance;
-- formal intake;
-- filing readiness;
-- Human Review;
+- Client Acceptance;
+- Commercial Instruction;
+- Formal Intake completion;
+- Professional Review;
 - approval;
 - provider instruction;
-- filing;
 - payment;
+- submission;
 - official recordal.
 
----
+Reuse reduces repetition. It does not create indefinite validity.
 
-## 5. Core Defines the Shared Meaning MarkReg Consumes
+## 5. Core Defines Shared Meaning
 
-MarkReg depends on shared concepts such as:
+MarkReg depends on shared concepts including Organization, User, Customer, Brand, Trademark, Order, Matter, Task, Review, Communication, Document, Evidence, Routing, Capability, Permission, Policy and Event.
 
-- Organization;
-- User;
-- Customer;
-- Brand;
-- Trademark;
-- Order;
-- Matter;
-- Task;
-- Review;
-- Communication;
-- Document;
-- Evidence;
-- Routing;
-- Capability;
-- Permission;
-- Policy;
-- Event.
-
-The Product may present these concepts differently for different users.
-
-It may not create competing canonical meanings.
-
-For example:
+The Product may present these concepts in a trademark-specific experience. It may not create competing canonical meanings.
 
 ```text
-MarkReg “application workspace”
-may reference a Matter.
+MarkReg application workspace
+→ may reference a Matter
+→ does not redefine Matter
 
-It does not redefine Matter.
+MarkReg filing checklist
+→ may expose Tasks
+→ does not redefine Task lifecycle
 
-MarkReg “filing checklist”
-may expose Tasks.
-
-It does not redefine Task lifecycle.
-
-MarkReg “provider choice”
-may present a Routing recommendation.
-
-It does not redefine Routing or appointment.
+MarkReg provider choice
+→ may present a Routing Recommendation
+→ does not redefine Routing or appointment
 ```
 
----
+When a formal shared object exists, MarkReg should prefer a stable reference over an uncontrolled copy.
 
-## 6. Shared Reference Is Preferred to Product Copy
+## 6. Live References, Snapshots, Projections and Candidates
 
-When MarkReg needs a formal shared object, the default pattern is a stable reference.
+The Product may need several representations of the same underlying concept.
 
-A Product-local copy may be useful for:
+| Representation | Purpose | Authority |
+| --- | --- | --- |
+| live reference | current formal object through an authorized contract | governed by the Owning Service |
+| snapshot | historical representation preserved for a Decision or Review | fixed to its recorded time and source |
+| Product Projection | Product-facing interpretation of formal or external state | informative; source and uncertainty remain visible |
+| candidate | proposed data not yet formalized | Product-local and reviewable |
+| cache | temporary technical copy | no independent business authority |
 
-- display;
-- offline preparation;
-- historical snapshot;
-- comparison;
-- performance;
-- temporary candidate state.
+A local representation does not become authoritative merely because it is convenient or current enough for display.
 
-The copy does not become authoritative merely because it exists locally.
+## 7. MarkReg Owns Product-Specific State
 
-The Product should distinguish:
-
-```text
-Live reference
-→ current formal object through an authorized contract
-
-Snapshot
-→ historical representation preserved for a decision or review
-
-Projection
-→ Product-facing interpretation of a formal or external state
-
-Candidate
-→ proposed data not yet formalized
-
-Cache
-→ temporary technical copy
-```
-
-These representations have different update and authority rules.
-
----
-
-## 7. MarkReg May Own Product-Specific State
-
-Product independence requires MarkReg to own state that exists only to operate its user journey.
-
-Examples include:
+Product independence requires MarkReg to own state that exists to operate its user journey, for example:
 
 - recommendation session;
 - question progression;
-- comparison set;
+- comparison and Option Sets;
 - selected option before formal instruction;
-- explanation state;
-- unresolved assumptions;
-- Product-local checklist;
-- intake progress;
-- missing-information view;
-- package preparation progress;
-- draft option bundle;
-- user presentation preferences;
-- jurisdiction-pack selection;
-- Product experiment assignment.
+- explanation and unresolved-assumption state;
+- intake progress and missing-information view;
+- Package preparation progress;
+- Jurisdiction Pack selection;
+- Product Session and embedded resume state;
+- experiment assignment and Product metrics context.
 
-This state should remain clearly Product-local.
-
-It should not be promoted into Core merely because it is useful.
+This state should remain Product-local unless a reviewed architecture Decision promotes a concept into a shared contract.
 
 ```text
 Useful Product state
-≠ new Core Object automatically
+≠ new Core object automatically
 ```
-
----
 
 ## 8. Product State Must Not Impersonate Formal State
 
-A Product may display:
+MarkReg may display labels such as:
 
 - ready to quote;
-- ready for client decision;
-- intake complete;
-- ready for professional review;
-- package prepared;
+- ready for client Decision;
+- intake sufficient;
+- ready for Professional Review;
+- Package prepared;
 - awaiting approval;
-- submission requested;
+- execution requested;
 - acknowledgement received.
 
-Each label must have a precise Product meaning.
-
-It must not imply a formal fact that has not occurred.
+Each label needs a precise state domain.
 
 ```text
-Selected option
+selected option
 ≠ accepted Quote
-
-Accepted Quote
 ≠ formal Order
 
-Intake complete
+intake sufficient
 ≠ Matter created
 
 Package prepared
-≠ filing approved
+≠ Filing Approval
 
-Submission requested
+Execution requested
 ≠ submission sent
 
-Submission sent
-≠ officially acknowledged
+submission sent
+≠ official acknowledgement
 
-Acknowledged
-≠ registered
+official acknowledgement
+≠ registration
 ```
 
-The user experience should make the boundary visible rather than hiding it behind one progress percentage.
-
----
+The Product should expose these transitions rather than compress them into one progress percentage.
 
 ## 9. Execution Governs Coordinated Work
 
-Book 03 remains authoritative for:
+Book 03 remains authoritative for Workflow, Task, Review coordination, approval gates, protected-action progression, failure, retry, idempotency, Event trace and audit.
 
-- Workflow;
-- Task;
-- Review coordination;
-- approval gates;
-- protected-action progression;
-- failure;
-- retry;
-- idempotency;
-- audit;
-- Event trace;
-- Owning Service handoff.
+MarkReg may:
 
-MarkReg may request or visualize this work.
+- prepare an Execution request;
+- show the related Task or Review state;
+- present a blocker or returned result;
+- resume the Product journey from a typed Return.
 
-It does not create a second Execution System.
-
-The Product may say:
+MarkReg does not create a second Execution system.
 
 ```text
-Prepare a filing review request.
+MarkReg prepares the governed request.
+Execution determines whether and how the work proceeds.
 ```
 
-Execution determines whether and how the review Task or Workflow is created, assigned, progressed, retried, or failed under accepted contracts.
-
----
-
-## 10. Prepared Action Is the Bridge, Not the Action
+## 10. Prepared Action Is the Bridge
 
 MarkReg often reaches a point where the next useful step has been made concrete.
 
-The Product may have assembled:
+A prepared action may identify:
 
-- target jurisdiction;
-- applicant reference;
-- mark version;
-- classes;
-- goods/services version;
-- filing route;
-- documents;
+- jurisdiction and service;
+- applicant and mark version;
+- classes and goods or services;
+- Documents and Evidence;
 - provider or connector route;
-- fees;
+- fees and payment conditions;
 - intended consequence;
-- review requirements;
-- expiry;
-- missing conditions.
+- required Review and approval;
+- expiry and unresolved conditions.
 
-That package is a Prepared Action or service-specific handoff representation.
-
-It is not authorization.
+That preparation is not authority.
 
 ```text
 Recommendation
@@ -436,505 +266,156 @@ Recommendation
 → Result
 ```
 
-MarkReg prepares the request.
+The exact bridge may be a Handoff Envelope, Filing Package Candidate, Response Package, Renewal Package Candidate or another service-specific Artifact.
 
-Execution evaluates and coordinates the governed action.
+## 11. Consequences Must Be Explicit
 
----
+A button labelled `Approve` is unsafe if its consequence is unclear.
 
-## 11. MarkReg Must Not Hide the Intended Consequence
+Approval may refer to:
 
-The same Product button may imply different consequences.
+- client-facing strategy;
+- commercial scope;
+- expenditure;
+- Professional Review outcome;
+- Filing Package version;
+- provider appointment;
+- payment;
+- external submission;
+- Communication.
 
-“Approve” might mean:
-
-- approve strategy for client presentation;
-- approve a quotation;
-- approve intake facts;
-- approve a filing package;
-- approve payment;
-- approve provider appointment;
-- approve external submission.
-
-MarkReg should not use one ambiguous action to represent them all.
-
-The intended consequence, target, version, and downstream authority must be explicit.
-
----
-
-## 12. Human Review Remains an Execution-Governed Authority
-
-MarkReg may make review easier by presenting:
-
-- issue summary;
-- source documents;
-- differences between versions;
-- risk flags;
-- missing information;
-- filing package;
-- provider comparison;
-- suggested decision;
-- review checklist.
-
-The Product does not own Human Review authority.
-
-A valid Human Review requires:
-
-- eligible human reviewer;
-- explicit subject;
-- explicit scope;
-- reviewed version;
-- applicable standard;
-- decision;
-- limitations;
-- trace.
-
-Opening a page or clicking “seen” is not review.
-
----
-
-## 13. Approval Is Separate from Review
-
-The person qualified to judge a trademark specification may not be authorized to:
-
-- accept commercial scope;
-- approve expenditure;
-- appoint a provider;
-- authorize filing;
-- send a client communication.
-
-MarkReg must preserve:
+MarkReg must identify the actor, authority, target, version, purpose, validity and downstream consequence.
 
 ```text
 Professional Review
 ≠ client confirmation
 ≠ commercial approval
-≠ filing approval
+≠ Filing Approval
 ≠ payment approval
-≠ provider appointment approval
+≠ provider appointment
 ```
 
-The Product may compose these decisions in one journey.
+The Product may compose these Decisions in one journey. It may not collapse their authority.
 
-It must not collapse their authority.
+## 12. MGSN Supplies Network Capability
 
----
-
-## 14. MGSN Supplies Network Capability, Not Product Inventory
-
-MarkReg may determine that an external Capability is required.
-
-Examples include:
+When external assistance is required, MarkReg expresses a typed Capability Need, such as:
 
 - local representation;
-- filing;
+- filing or prosecution;
 - search;
 - translation;
 - notarization support;
-- evidence collection;
-- opposition;
-- recordal;
-- renewal.
+- Evidence collection;
+- opposition or cancellation work;
+- renewal or recordal.
 
-MarkReg should express the need in a typed and purpose-bound form.
+MGSN or governed Routing may support private-partner checks, candidate discovery, eligibility, Evidence, trust context, conflict, availability and comparison.
 
-MGSN or governed Routing may then support:
+MGSN does not make providers Product inventory, and MarkReg does not automatically appoint the highest-ranked candidate.
 
-- private partner check;
-- candidate discovery;
-- eligibility;
-- evidence;
-- trust context;
-- conflict;
-- availability;
-- comparison.
-
-MarkReg should not maintain a second public provider marketplace.
-
----
-
-## 15. Private Relationships Are Considered First
-
-The organization may already have trusted providers.
-
-MarkReg should not force those relationships into public competition.
-
-The preferred progression is:
-
-```text
-Private Partner
-→ Trusted Extended Network
-→ Limited Public Discovery where justified
-```
-
-The Product may explain why a broader search is recommended.
-
-It must not expose confidential Matter context before trust and purpose justify disclosure.
-
----
-
-## 16. Provider Recommendation Is Not Appointment
-
-A provider candidate may be highly ranked.
-
-That does not mean the provider is appointed.
-
-The chain remains:
+The sequence remains:
 
 ```text
 Capability Need
-→ Candidate Discovery
-→ Evidence and Eligibility
-→ Comparison
+→ eligible candidates
+→ Routing Recommendation
 → Human Selection
-→ Appointment Preparation
-→ Approval where required
-→ Governed Instruction
+→ appointment authority
+→ provider instruction
 → Provider Acceptance
 ```
 
-MarkReg may prepare and display each stage.
+## 13. Owning Services Preserve Formal Facts
 
-No earlier stage should be labeled as a later one.
+Formal business facts remain owned by the service authorized to create or change them.
 
----
+Examples may include:
 
-## 17. Provider Acceptance Is an Independent Outcome
+- Customer or organization record;
+- accepted Order;
+- Matter;
+- payment record;
+- formal Document;
+- provider appointment;
+- official filing reference;
+- registered-right record.
 
-An organization may select and instruct a provider.
-
-The provider may still:
-
-- decline;
-- identify a conflict;
-- request more information;
-- change availability;
-- revise fees;
-- limit scope;
-- require engagement terms.
-
-Provider acceptance is not a UI assumption.
-
-It is a separate outcome that should return with:
-
-- provider identity;
-- accepted scope;
-- effective time;
-- conditions;
-- fees;
-- responsible person;
-- limitations.
-
----
-
-## 18. Owning Services Change Formal Business Facts
-
-MarkReg may prepare a request to:
-
-- create an Order;
-- open a Matter;
-- create or update a Trademark record;
-- formalize a Document;
-- create a Communication;
-- create a Routing decision;
-- apply a Workflow;
-- record an external result.
-
-The relevant Owning Service decides whether the request is accepted and records the formal fact.
+MarkReg may prepare context and request formalization. It must preserve the identifier, version, owner and result returned by the Owning Service.
 
 ```text
-Product preparation
-≠ formal mutation
-
-Execution coordination
-≠ domain ownership
-
-Service request
-≠ service success
+Displayed in MarkReg
+≠ owned by MarkReg
 ```
 
-The Product receives the result and updates its projection.
+## 14. Providers, Connectors and Offices Retain External Authority
 
----
+Providers may advise, prepare, file, communicate and report under their own professional and contractual responsibility.
 
-## 19. Formalization Is Not a Generic Product Save
+Connectors may transmit, receive and return technical Evidence.
 
-Saving Product-local work may preserve:
+Official offices create official procedural events and records.
 
-- draft text;
-- recommendation;
-- checklist;
-- candidate applicant;
-- comparison;
-- intake progress.
-
-Formalization may create or change a shared business object.
-
-These operations require different contracts.
-
-The Product should not use one generic “Save” action when the consequence changes from local draft to formal record.
-
----
-
-## 20. Official Offices Remain External Authorities
-
-Trademark offices determine or evidence official events such as:
-
-- filing receipt;
-- application number;
-- formal acceptance;
-- examination action;
-- publication;
-- opposition period;
-- registration;
-- renewal acceptance;
-- recordal;
-- refusal;
-- cancellation.
-
-MarkReg may retrieve, normalize, interpret, and display those outcomes.
-
-It must preserve:
-
-- source;
-- retrieval time;
-- jurisdiction;
-- official identifier;
-- source document;
-- status mapping;
-- uncertainty;
-- superseded information.
+MarkReg must distinguish:
 
 ```text
-MarkReg status projection
-≠ official fact without source
+connector delivery
+provider report
+provider Evidence
+official acknowledgement
+official record
+professional interpretation
+Product Projection
 ```
 
----
+These may refer to the same journey but support different claims.
 
-## 21. Connectors Transmit; They Do Not Own the Journey
+## 15. AI Assistance Does Not Acquire Architecture Authority
 
-A connector may:
+AI may extract, compare, classify, draft, summarize and identify uncertainty within the context it is permitted to use.
 
-- authenticate;
-- transform an authorized payload;
-- transmit;
-- receive a technical response;
-- retrieve a receipt;
-- poll status.
+AI Assistance may not:
 
-A connector does not decide:
+- redefine a Core object;
+- create an official event;
+- grant Permission;
+- appoint a provider;
+- approve a Package;
+- authorize payment or submission;
+- publish a Jurisdiction Pack;
+- turn private Knowledge into shared Knowledge automatically.
 
-- what should be filed;
-- whether the applicant is correct;
-- whether the specification is appropriate;
-- whether a provider should be appointed;
-- whether a response is professionally sufficient.
+A Human or governed service remains responsible for every consequential acceptance, Review, Decision and action.
 
-The connector is a Capability or service boundary.
+## 16. Handoff Contract
 
-It is not MarkReg and not the official office.
+A boundary-crossing Handoff should identify:
 
----
-
-## 22. Standalone Does Not Mean Constitutionally Isolated
-
-MarkReg may operate as a standalone Product.
-
-Standalone means the Product can provide a coherent entry, navigation, and value loop.
-
-It does not mean:
-
-- independent Core semantics;
-- unlinked identity;
-- Product-owned Permission truth;
-- Product-owned official status;
-- bypassed Execution;
-- universal local authority.
-
-A standalone edition must still conform to shared contracts.
-
----
-
-## 23. Embedded Does Not Mean Absorbed
-
-MarkReg may be embedded inside Lite or Workplace.
-
-Embedding may provide:
-
-- entry from Today;
-- client context;
-- Matter context;
-- portfolio context;
-- return route;
-- shared navigation.
-
-The Product still retains:
-
-- Product loop;
-- Product-owned state;
-- release ownership;
-- jurisdiction-pack behavior;
-- Product metrics.
-
-```text
-Embedding
-≠ Product absorption
-```
-
----
-
-## 24. Cross-Product Handoffs Must Be Typed
-
-A handoff into MarkReg should identify:
-
-- origin Product;
-- organization and actor;
-- purpose;
-- client and subject references;
-- known facts;
-- candidates;
-- assumptions;
-- sources;
-- sensitivity;
-- requested result;
-- expiry;
-- return route.
-
-MarkReg must reauthorize and validate the context.
-
-A deep link or copied screen state is not a governed handoff.
-
----
-
-## 25. Outcome Return Preserves Lifecycle Continuity
-
-After MarkReg completes a stage, the result may need to return to:
-
-- Workplace;
-- Lite Today;
-- client surface;
-- portfolio view;
-- MGSN collaboration;
-- formal Matter;
-- organization Knowledge candidate.
-
-The return route should preserve:
-
+- origin and destination;
+- acting organization and participant;
+- purpose and intended consequence;
 - stable references;
-- Product outcome;
-- formal outcome reference;
-- source;
-- next action;
-- unresolved issues;
-- responsibility.
+- exact Artifact versions;
+- required authority;
+- deadlines and warnings;
+- idempotency key where relevant;
+- expected Return or Evidence;
+- failure and expiry behavior.
 
-Returning an outcome does not transfer ownership of the organization relationship.
+A Handoff transfers context and a request. It does not transfer unlimited ownership or authority.
 
----
-
-## 26. Offline and Degraded Modes Must Be Honest
-
-MarkReg may support local or degraded preparation.
-
-In that mode, it may:
-
-- draft;
-- compare cached options;
-- collect information;
-- prepare a package;
-- display last-known data.
-
-It must not claim:
-
-- current Permission;
-- current Policy;
-- current official fee;
-- current office status;
-- current provider availability;
-- completed submission;
-- verified deadline;
-
-unless those facts were actually checked through an authoritative source.
-
----
-
-## 27. Product Replacement Must Not Destroy the Organization Record
-
-MarkReg may eventually be rewritten, replaced, split, or retired.
-
-The organization should retain:
-
-- clients;
-- Brands;
-- Trademarks;
-- Orders;
-- Matters;
-- Tasks;
-- Reviews;
-- Documents;
-- Evidence;
-- provider relationships;
-- official outcomes;
-- lifecycle history.
-
-This is possible only if MarkReg references shared formal objects instead of absorbing them.
-
----
-
-## 28. Minimum Responsibility Lock
+## Chapter Lock
 
 ```text
-MarkReg owns the focused international trademark journey.
-
-Workplace owns the authorized organization context.
-
-Core owns shared semantic definitions.
-
-Execution governs durable work and protected actions.
-
-MGSN supports capability discovery and cross-Orbit connection.
-
-Owning Services change and record formal business facts.
-
-Providers and connectors perform defined external capabilities.
-
-Official offices remain authoritative for official outcomes.
-
-Humans remain professionally accountable.
-
-AI assists without acquiring professional or formal authority.
+Workplace supplies authorized context.
+Core supplies shared meaning.
+MarkReg owns the focused Product journey.
+Execution governs coordinated and protected work.
+MGSN supports Capability discovery.
+Owning Services preserve formal facts.
+Providers, connectors and offices create external work and outcomes.
+Humans remain accountable.
+AI Assistance remains bounded.
 ```
 
----
-
-## 29. Failure Modes to Reject
-
-MarkReg must reject:
-
-- Product-local organization identity replacing Workplace;
-- copied Core Objects becoming Product truth;
-- Product state being shown as formal state;
-- recommendation being shown as decision;
-- review being inferred from page visibility;
-- approval being treated as execution;
-- provider ranking being treated as appointment;
-- connector success being treated as official receipt;
-- service request being treated as formal mutation;
-- cached status being shown as current official status;
-- embedding being treated as Product absorption;
-- standalone deployment being treated as constitutional independence.
-
----
-
-## 30. Chapter Conclusion
-
-MarkReg creates value because it composes many responsibilities into one coherent user journey.
-
-Its architecture remains safe only when composition does not become ownership drift.
-
-The Product should feel complete to the user while remaining constitutionally incomplete as an authority.
-
-That is not a weakness.
-
-It is the condition that allows MarkReg to remain focused, replaceable, governable, and trustworthy.
+CH05 now identifies the participants who act within this responsibility chain and the records needed to preserve professional accountability.

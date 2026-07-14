@@ -1,36 +1,16 @@
 # B05-CH-05 — Users, Actors and Professional Responsibility
 
-**Status:** Foundation Draft  
-**Chapter Map:** B05-TOC-V0.1 — Candidate  
+**Status:** Complete Draft 1  
+**Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part I — Product Constitution and Lifecycle Position
 
 ## Chapter Purpose
 
-International trademark work involves more participants than most Product interfaces reveal.
+A single trademark journey may involve an organization, client contact, applicant, owner, professional, reviewer, approver, coordinator, finance participant, signatory, provider, official office and AI Assistance.
 
-A single application may involve:
+The same person may hold several roles. Different people may hold one role at different stages.
 
-- an organization that owns the client relationship;
-- a business contact who requests protection;
-- a legal applicant;
-- a trademark professional;
-- a service coordinator;
-- a reviewer;
-- an approver;
-- a signatory;
-- a payer;
-- a local representative;
-- a search or translation provider;
-- an official office;
-- one or more AI Agents.
-
-The same person may hold several roles.
-
-Different people may hold one role at different stages.
-
-The Product must preserve who acts, for which organization, under which authority, and with which responsibility.
-
-The central proposition is:
+MarkReg must preserve who acts, for which organization, under which authority, on which version and with which responsibility.
 
 ```text
 Professional Responsibility
@@ -38,886 +18,375 @@ Professional Responsibility
 Identified Actor
 + Acting Organization
 + Defined Role
-+ Purpose and Scope
-+ Current Eligibility
-+ Permission and Policy
-+ Review or Approval Authority
-+ Version and Consequence
-+ Traceable Decision
++ Valid Authority
++ Exact Scope and Version
++ Recorded Decision or Action
++ Traceable Consequence
 ```
 
-The constitutional rule is:
+## 1. User, Actor and Participant Are Different Concepts
 
-> MarkReg may coordinate participants and make responsibility visible. It does not manufacture professional authority through interface access.
+A **user** is a person interacting with a Product surface.
 
----
+An **actor** is the person, organization or service responsible for a defined action or Decision.
 
-## 1. The Organization Is the Primary Real-World Actor
+A **participant** is any party whose information, rights, responsibilities or actions are represented in the journey.
 
-MarkReg is used by and through organizations.
+One user may act in several roles. One participant may never log in. A provider or official office may return Evidence without using a MarkReg interface.
 
-The organization may be:
-
-- trademark agency;
-- law firm;
-- independent professional practice;
-- enterprise legal team;
-- brand-management team;
-- service coordination company;
-- external provider organization.
-
-The organization holds real-world responsibilities such as:
-
-- client relationship;
-- engagement;
-- confidentiality;
-- professional supervision;
-- commercial commitment;
-- fee responsibility;
-- provider appointment;
-- record retention;
-- regulatory compliance.
-
-The Product supports the organization.
-
-It does not replace it.
-
----
-
-## 2. A User Account Is Not the Same as an Actor
-
-A user account identifies access to a system.
-
-An actor identifies who performs or requests an action in context.
-
-The acting record should distinguish:
-
-- human identity;
-- organization;
-- role;
-- delegated authority;
-- Product session;
-- Agent involvement;
-- target;
-- consequence.
+The Product must not infer authority merely from interface access.
 
 ```text
-Authenticated user
-≠ authorized actor for every operation
+Can see a button
+≠ authorized to perform its consequence
 ```
 
-A user may be logged in but unable to act for a particular client, Matter, applicant, provider, or jurisdiction.
+## 2. Acting Context Must Be Explicit
 
----
+Every consequential action should identify:
 
-## 3. Person, Role, Responsibility and Authority Are Different
+- the Human or service actor;
+- the acting organization;
+- the role being used;
+- the represented client, applicant or owner;
+- the authority basis;
+- the jurisdiction, service and scope;
+- the exact Artifact version;
+- the intended consequence;
+- the time and validity period.
 
-A person may hold several roles.
+This is particularly important when one professional works across several organizations or when one person acts as client contact, applicant representative and payer.
 
-A role describes a recognized function.
+A role switch should be visible and recorded. The Product should not carry authority silently from one context into another.
 
-Responsibility describes what that role is expected to do in context.
+## 3. Core Participant Classes
 
-Authority describes what the actor may validly decide or authorize.
+### Organization
 
-```text
-Person
-≠ Role
-≠ Responsibility
-≠ Permission
-≠ Professional qualification
-≠ Approval authority
-```
+The organization owns its Orbit, client relationships, Policies, private Knowledge, Product access, internal responsibilities and commercial rules.
 
-MarkReg must not infer all of these from one profile label.
+MarkReg operates for an organization; it does not become the organization.
 
----
+### Client
 
-## 4. The Primary Product Perspective Is Governed Service Progression
+The client is the party receiving or requesting professional services. The client may be the applicant or owner, but it may also be a parent company, agency customer, distributor, founder or other instructor.
 
-MarkReg serves multiple participants.
+### Applicant or Owner
 
-Its primary Product perspective is not one job title.
+The applicant is the legal or natural person named in an application. The owner is the party holding or recorded as holding a right at a given stage.
 
-It is:
+Applicant and owner are distinct from:
 
-> the governed progression of an international trademark service need through understandable decisions, sufficient preparation, Human Review, formal action, official outcome, and lifecycle continuity.
+- client;
+- business operator;
+- brand user;
+- payer;
+- signatory;
+- instructor;
+- acting organization.
 
-This perspective allows MarkReg to serve:
+The Product must not substitute one identity for another because their names appear related.
 
-- client-facing professionals;
-- processing teams;
-- reviewers;
-- enterprise brand teams;
-- external providers;
-- authorized clients;
+### Owner Representative
 
-without designing the Product solely as an internal administrator screen.
+An owner representative acts for the applicant or owner within a verified authority scope. That authority may derive from office records, corporate position, power of attorney, engagement, contract or another accepted basis.
 
----
+### Trademark Professional
 
-## 5. Client and Applicant May Be Different
+The professional exercises accountable Human Judgment within qualification, jurisdiction, engagement and organization boundaries.
 
-The client may instruct and pay for the service.
+The professional may:
 
-The applicant is the person or legal entity in whose name the trademark right is sought or held.
+- interpret source facts and Rules;
+- assess risk;
+- review recommendations and specifications;
+- identify alternatives and limits;
+- prepare or approve professional work where authorized;
+- escalate uncertainty or conflict.
 
-They may be different because:
+Professional access does not automatically grant commercial, payment, provider-appointment or filing authority.
 
-- parent company instructs for subsidiary;
-- agency instructs for brand owner;
-- founder pays while company applies;
-- distributor coordinates for manufacturer;
-- corporate group centralizes procurement;
-- assignee prepares a later recordal.
+### Reviewer
 
-MarkReg must preserve:
+The reviewer performs a defined Review of an exact subject and version against an applicable standard.
 
-```text
-Client
-≠ Applicant
-≠ Payer
-≠ Signatory
-≠ Trademark owner automatically
-```
+A valid Review records:
 
-Confusing these roles can produce invalid filings and ownership defects.
+- reviewer identity and eligibility;
+- subject and scope;
+- source basis;
+- reviewed version;
+- findings and limitations;
+- Decision or requested revision;
+- time and validity.
 
----
+Opening a screen, reading a message or clicking `seen` is not Review.
 
-## 6. The Client Participant Supplies Facts and Decisions
+### Approver
 
-An authorized client participant may:
+The approver authorizes a defined consequence, such as:
 
-- describe business need;
-- identify markets;
-- provide applicant facts;
-- provide mark assets;
-- confirm products and services;
-- choose among explained options;
-- accept commercial scope;
-- provide documents;
-- approve client-facing content;
-- provide signatures;
-- authorize payment where permitted.
+- presenting a Proposal;
+- accepting commercial scope;
+- spending funds;
+- appointing a provider;
+- filing an exact Package;
+- sending a Communication;
+- releasing a Jurisdiction Pack or Product version.
 
-The client participant should not be treated as the professional reviewer merely because they click “confirm”.
+Approval is purpose- and version-specific. A material change invalidates the approval unless the applicable rule states otherwise.
 
-Client confirmation may establish:
+### Coordinator
 
-- fact confirmation;
-- commercial choice;
-- instruction;
-- acknowledgement;
-- signature intent.
+The coordinator supports progress across participants, Documents, deadlines, providers and Handoffs.
 
-It does not automatically establish legal or procedural sufficiency.
+Coordination does not create professional authority. A coordinator may identify missing information or prepare a Communication without becoming the reviewer or approver.
 
----
+### Finance Participant
 
-## 7. The Applicant Supplies Legal Identity and Authority Context
+Finance participants manage prices, invoices, payments, credits, refunds, taxes and financial controls within their permitted scope.
 
-Applicant context may require:
+Payment authority does not create Filing Approval, and professional access does not automatically disclose internal provider cost or margin.
 
-- legal name;
-- entity type;
-- formation jurisdiction;
-- address;
-- nationality;
-- ownership relationship;
-- predecessor;
-- priority rights;
-- authorized representative;
-- signatory authority.
+### Provider
 
-The Product should make clear who supplied and verified each fact.
+A provider is an independent organization or professional delivering an external Capability.
 
-A reused applicant record remains subject to current verification.
+The provider may advise, prepare, file, communicate or return Evidence under a defined engagement. It remains responsible for its own professional and contractual obligations.
 
----
+A provider candidate is not appointed. An instructed provider has not necessarily accepted. A Provider Report is not automatically Official Truth.
 
-## 8. The Trademark Professional Exercises Professional Judgment
+### Administrator
 
-The trademark professional may be responsible for:
+An administrator manages Product configuration, access or technical settings within defined governance.
 
-- strategy;
-- jurisdiction analysis;
-- filing route;
-- classification;
-- goods/services wording;
-- search interpretation;
-- risk explanation;
-- filing readiness;
-- office action strategy;
-- evidence sufficiency;
-- opposition or cancellation strategy;
-- maintenance advice.
+Administrative access does not confer professional judgment, client authority or permission to perform External Protected Actions.
 
-MarkReg may prepare material for these decisions.
+### Official Office
 
-The professional remains accountable for the judgment actually made within their scope.
+The official office is the source of official procedural events and records for the relevant jurisdiction.
 
-AI confidence, template precedent, or prior acceptance does not replace current professional evaluation.
+The office is not a MarkReg user role. MarkReg receives or retrieves official Evidence and projects it with source and freshness information.
 
----
+### AI Assistant
 
-## 9. The Service Coordinator Manages Progression, Not Professional Truth
+AI Assistance may extract, compare, classify, draft, summarize and flag uncertainty within the context and purpose it is permitted to use.
 
-A coordinator may:
-
-- collect information;
-- track missing items;
-- schedule review;
-- prepare communication;
-- coordinate providers;
-- monitor acknowledgement;
-- follow up deadlines;
-- maintain lifecycle visibility.
-
-The coordinator may not be qualified or authorized to decide:
-
-- legal sufficiency;
-- conflict interpretation;
-- filing strategy;
-- evidence adequacy;
-- response merits.
-
-The Product should support coordination without allowing operational convenience to impersonate professional judgment.
-
----
-
-## 10. Reviewer Is a Contextual Role
-
-A reviewer is an eligible human who evaluates a defined subject, version, scope, and standard.
-
-Possible review subjects include:
-
-- applicant facts;
-- mark representation;
-- goods/services specification;
-- filing package;
-- quotation;
-- provider comparison;
-- office action response;
-- evidence package;
-- renewal package;
-- assignment recordal package.
-
-Reviewer eligibility may depend on:
-
-- organization;
-- qualification;
-- jurisdiction;
-- subject matter;
-- independence;
-- conflict;
-- current Permission;
-- assigned responsibility;
-- risk or value threshold.
-
-A general “lawyer” role does not make a person eligible for every review.
-
----
-
-## 11. Review Authority Does Not Equal Approval Authority
-
-A person may review legal content but lack authority to:
-
-- approve price;
-- approve payment;
-- appoint a provider;
-- authorize filing;
-- sign a power of attorney;
-- send an external communication.
-
-A different actor may hold those authorities.
-
-MarkReg should present the decision chain explicitly.
-
----
-
-## 12. Approver Authorizes a Defined Consequence
-
-Approval should identify:
-
-- approver;
-- acting organization;
-- subject;
-- version;
-- intended consequence;
-- scope;
-- conditions;
-- expiry;
-- applicable Policy;
-- time.
-
-Approving a filing package for client review is not the same as approving it for submission.
-
-Approving a provider comparison is not the same as appointing a provider.
-
-Approval must remain consequence-specific.
-
----
-
-## 13. Signatory Is Not a Generic Approval Role
-
-A signatory may sign:
-
-- power of attorney;
-- declaration;
-- application document;
-- assignment;
-- consent;
-- response;
-- evidence statement.
-
-Signature authority may depend on:
+AI does not become:
 
 - applicant or owner;
-- corporate authority;
-- jurisdiction;
-- document type;
-- representative relationship;
-- date;
-- witnessing or notarization.
-
-The Product should not assume that a person who approved strategy may sign every document.
-
----
-
-## 14. Payer Is a Separate Commercial Actor
-
-The payer may be:
-
-- applicant;
-- client;
-- agency;
-- parent company;
-- local affiliate;
-- internal cost center;
-- provider under reimbursement terms.
-
-Payment authority may be separate from professional and filing approval.
-
-```text
-Price accepted
-≠ payment authorized
-≠ payment completed
-≠ filing authorized
-```
-
-MarkReg should not use payment success as proof that professional review occurred.
-
----
-
-## 15. Provider Organization Remains Independent
-
-An external provider may supply:
-
-- local representation;
-- filing;
-- search;
-- translation;
-- notarization coordination;
-- opposition;
-- recordal;
-- renewal;
-- evidence collection.
-
-The provider remains an independent organization or professional.
-
-It retains responsibility for:
-
-- conflict;
-- eligibility;
-- accepted scope;
-- local professional work;
-- confidentiality;
-- delivery;
-- communication;
-- local compliance.
-
-MarkReg does not convert the provider into platform-owned inventory.
-
----
-
-## 16. Provider Contact Is Not the Provider Organization
-
-One provider organization may have:
-
-- relationship partner;
-- filing specialist;
-- billing contact;
-- reviewer;
-- docketing contact;
-- emergency contact.
-
-MarkReg should preserve both organization and person references.
-
-A person leaving the organization should not destroy provider history.
-
-A provider organization relationship should not be represented only as one email address.
-
----
-
-## 17. Provider Selection Requires Human Choice
-
-MarkReg may help compare provider candidates by:
-
-- Capability;
-- jurisdiction;
-- evidence;
-- relationship history;
-- availability;
-- conflict;
-- language;
-- cost;
-- service level;
-- risk.
-
-The final selection remains a human organizational decision.
-
-An AI model or ranking rule may assist.
-
-It may not silently appoint.
-
----
-
-## 18. Provider Acceptance Is Not Implied by Instruction
-
-A provider must be able to:
-
-- accept;
-- decline;
-- identify conflict;
-- request more information;
-- limit scope;
-- revise fees;
-- identify deadline risk;
-- propose another responsible professional.
-
-The Product should not show an engagement as active until the provider’s accepted scope is recorded through the proper process.
-
----
-
-## 19. Official Office Is a Source and Decision Authority
-
-An official trademark office may:
-
-- receive a filing;
-- assign a number;
-- issue an acknowledgement;
-- examine;
-- request correction;
-- refuse;
-- publish;
-- register;
-- record a change;
-- accept renewal;
-- issue a certificate.
-
-The office is not a Product user in the ordinary sense.
-
-It is an external authority whose outputs enter MarkReg through:
-
-- official document;
-- connector;
-- provider report;
-- verified retrieval;
-- structured data source.
-
-The Product must preserve source hierarchy and uncertainty.
-
----
-
-## 20. Connector Is a Technical Actor
-
-A connector may perform:
-
-- authentication;
-- payload transformation;
-- transmission;
-- receipt retrieval;
-- polling;
-- technical error reporting.
-
-A connector should have:
-
-- service identity;
-- operation scope;
-- credential boundary;
-- correlation identifier;
-- technical result.
-
-It is not the professional reviewer, approver, filer, provider selector, or official source by itself.
-
----
-
-## 21. AI Roles Must Be Explicit
-
-MarkReg may use AI as:
-
-- Assistant;
-- Guide;
-- extraction Agent;
-- classification assistant;
-- recommendation assistant;
-- drafting assistant;
-- comparison assistant;
-- review-support assistant;
-- monitoring assistant.
-
-Each AI role should define:
-
-- purpose;
-- authorized context;
-- model or Skill;
-- input sources;
-- allowed outputs;
-- prohibited actions;
-- confidence;
-- review requirement;
-- retention boundary;
-- trace.
-
-One unrestricted “MarkReg Agent” should not receive all authority.
-
----
-
-## 22. AI Cannot Hold Human Professional Roles
-
-AI may not be:
-
-- applicant;
-- client;
 - professional representative;
-- Human Reviewer;
-- approver;
-- signatory;
-- payer;
+- reviewer or approver;
+- signatory or payer;
 - provider selector;
-- official office;
+- filing authority;
 - official source.
 
-AI may prepare a recommended decision.
+## 4. Identity Distinctions in a Trademark Journey
 
-It may not record that the professional decision occurred.
+The following identities may all differ:
 
----
+| Identity | Question answered |
+| --- | --- |
+| client | who receives or requests the service? |
+| instructor | who gives the current instruction? |
+| applicant | who will apply for the right? |
+| official owner | who is recorded by the office? |
+| beneficial or business owner | who economically controls or uses the brand? |
+| signatory | who signs a required Document? |
+| payer | who funds the service? |
+| acting organization | which Orbit is performing the work? |
+| provider | which external party delivers a Capability? |
 
-## 23. AI Must Not Approve Its Own Output
+The Product should show these distinctions whenever they affect authority, Documents, pricing, conflicts, priority, ownership or later recordal.
 
-An AI system may:
+## 5. Role Is Not Permission
 
-- draft;
-- critique;
-- compare;
-- check;
-- flag.
+A role describes why a participant is involved. Permission determines what the participant may do in the current context.
 
-It must not convert its own quality score into Human Review.
+Permission should consider:
 
-A second AI model does not create human accountability.
-
-```text
-AI generation
-+ AI evaluation
-≠ Human Review
-```
-
----
-
-## 24. Product Is an Actor Only in a Limited Technical Sense
-
-MarkReg may initiate:
-
-- context retrieval;
-- validation;
-- recommendation;
-- draft preparation;
-- notification preparation;
-- Execution intake request.
-
-The Product itself is not a legal or professional person.
-
-Its technical action should be attributed through:
-
-- Product identity;
-- version;
-- acting user or Agent;
 - organization;
-- operation;
-- source;
-- result.
+- relationship;
+- jurisdiction and service;
+- data classification;
+- purpose;
+- Artifact version;
+- time and expiry;
+- delegation;
+- conflict and independence rules;
+- applicable Policy.
 
-The Product must not be shown as the real-world filer or representative when another actor holds that role.
+A professional may be permitted to review a specification but not approve expenditure. A client may confirm facts but not change internal provider cost. A provider may access an instruction package but not the wider Portfolio.
 
----
+## 6. Responsibility and Authority Are Separate
 
-## 25. Cross-Organization Authority Is Not Transitive
+A participant may be responsible for progressing an item without being authorized to decide it.
 
-An agency may invite a client participant.
+Examples:
 
-A provider may receive a Matter package.
+- a coordinator is responsible for obtaining a power of attorney, while the client representative signs it;
+- a professional is responsible for reviewing goods or services, while the client decides commercial scope;
+- finance is responsible for payment, while an approver authorizes expenditure;
+- a provider is responsible for filing after acceptance, while the organization retains Filing Approval authority;
+- MarkReg is responsible for presenting the next step, while Execution governs the protected action.
 
-An enterprise may authorize outside counsel.
+The Product should record both responsibility and authority rather than using one generic `owner` field.
 
-None of these relationships transfers all authority.
+## 7. Review, Decision and Approval Must Remain Distinct
 
 ```text
-Access granted by Organization A
-≠ authority to act inside Organization B
+Recommendation
+→ candidate for consideration
 
-Provider acceptance
-≠ client approval
+Professional Review
+→ accountable assessment of an exact subject
 
-Client instruction
-≠ provider professional conclusion
+Decision
+→ accountable choice with basis and consequence
+
+Approval
+→ authorization for a defined consequence
+
+Execution
+→ governed progression of approved work
 ```
 
-Each Orbit retains its own Permission, Policy, review, and responsibility.
+One person may perform several of these actions when Policy permits, but the records remain distinct.
 
----
+Combining actions in one interface does not justify combining their meaning.
 
-## 26. Purpose-Limited Participation Protects Confidentiality
-
-A participant should receive only the context required for the purpose.
-
-A client participant may need:
-
-- recommendations;
-- options;
-- cost;
-- missing documents;
-- decisions;
-- status.
-
-They may not need:
-
-- internal margin;
-- provider private notes;
-- unrelated client records;
-- internal performance data.
-
-A provider may need:
-
-- filing package;
-- scope;
-- deadline;
-- documents;
-- instruction.
-
-They may not need the full client portfolio or private provider comparison.
-
----
-
-## 27. Separation of Duties Is Risk-Based
-
-A solo professional may prepare, review, and approve some work.
-
-A larger organization may separate:
-
-- preparation;
-- legal review;
-- commercial approval;
-- filing approval;
-- payment approval;
-- provider appointment.
-
-Small team does not mean no governance.
-
-Large team does not mean every action requires multiple people.
-
-The required separation should reflect:
-
-- consequence;
-- value;
-- client requirement;
-- jurisdiction;
-- professional rule;
-- organization Policy;
-- conflict;
-- risk.
-
----
-
-## 28. Delegation Must Be Explicit and Time-Bound
-
-Professional work continues during:
-
-- absence;
-- leave;
-- workload transfer;
-- role change;
-- emergency;
-- provider change.
+## 8. Delegation Requires a Bounded Record
 
 Delegation should identify:
 
-- delegator;
-- delegate;
-- scope;
-- effective time;
-- expiry;
-- retained responsibility;
-- review requirement;
-- prohibited actions.
-
-Delegation does not erase the original decision history.
-
----
-
-## 29. Escalation Changes Responsibility, Not History
-
-A Matter may be escalated because of:
-
-- legal complexity;
-- conflict;
-- deadline risk;
-- high value;
-- adverse outcome;
-- uncertain authority;
-- client disagreement;
-- provider failure.
-
-The receiving actor should see:
-
-- previous decisions;
-- sources;
-- versions;
-- unresolved issues;
-- current deadline;
-- reason for escalation.
-
-Escalation should not silently replace or delete earlier responsibility records.
-
----
-
-## 30. Responsibility Survives Product Handoffs
-
-A journey may move from:
-
-- Lite to MarkReg;
-- MarkReg to Execution;
-- MarkReg to MGSN;
-- MarkReg to a provider;
-- MarkReg to an official connector;
-- MarkReg back to Workplace.
-
-The handoff should preserve:
-
+- delegator and delegate;
 - acting organization;
-- responsible person;
-- next responsible role;
-- review and approval state;
-- formal references;
-- expiry;
-- return route.
+- delegated role or action;
+- permitted scope;
+- excluded actions;
+- start and expiry;
+- whether further delegation is permitted;
+- evidence and acceptance;
+- revocation behavior.
 
-Navigation alone is not responsibility transfer.
+Delegation does not survive indefinitely, and it does not expand because the delegate can access related information.
 
----
+A revoked or expired delegation must block new consequential actions while preserving the historical trace.
 
-## 31. Accountability Requires Version and Consequence
+## 9. Client Confirmation Is Not One Universal Action
 
-A statement such as “approved by Alex” is incomplete.
+A client may confirm:
 
-The record should answer:
+- factual identity or address;
+- commercial preference;
+- mark version;
+- jurisdiction and class scope;
+- goods or services wording;
+- Document content;
+- risk acceptance;
+- Quote and payment terms;
+- filing or response instruction;
+- settlement position;
+- non-renewal or abandonment.
+
+Each confirmation should state exactly what was confirmed and what remains subject to Professional Review or another approval.
+
+Client silence is not consent unless a valid rule and engagement explicitly establish a permitted consequence. The Product must not convert inactivity into Filing Approval, settlement authority or non-renewal Decision.
+
+## 10. Provider Relationship Stages
+
+Provider participation progresses through distinct states:
 
 ```text
-Alex acting for which organization?
+Capability Need
+→ candidate
+→ eligible candidate
+→ Routing Recommendation
+→ Human Selection
+→ appointment authorized
+→ instruction sent
+→ Provider Acceptance
+→ work in progress
+→ Provider Report or Evidence
+→ reconciliation and closure
+```
+
+A provider may propose changes. Those changes do not silently replace the approved Package or instruction. Material changes return to the applicable Review and approval gates.
+
+## 11. Communication Responsibility
+
+A governed Communication should identify:
+
+- sender and acting organization;
+- recipient and relationship;
+- purpose;
+- source and content version;
+- required Review or approval;
+- delivery state;
+- correction or supersession history;
+- expected response and deadline.
+
+Drafting, approving, sending and receiving a Communication are different actions.
+
+AI may draft. A coordinator may prepare. A professional may review. An approver may authorize. An Execution-capable service may send. The resulting delivery Evidence must preserve the chain.
+
+## 12. Confidentiality and Visibility
+
+Visibility should be field- and purpose-specific.
+
+Examples:
+
+- clients may see the Client Price but not internal provider cost or margin;
+- providers may see the instruction and relevant Evidence but not unrelated Portfolio data;
+- finance may see payment details without unrestricted access to adversarial Evidence;
+- AI Assistance may use only the sources permitted for its task;
+- Lite personal context does not automatically become organization Knowledge;
+- an administrator does not gain professional access by technical privilege alone.
+
+Appendix C provides the reader-facing visibility and action-right matrix.
+
+## 13. Responsibility Record
+
+Every consequential Product event should be able to answer:
+
+```text
+Who acted?
+For which organization?
 In which role?
-Eligible under which context?
-Approved what?
-Which version?
-For which consequence?
-Under which conditions?
-At what time?
-What happened next?
+Under what authority?
+On which subject and version?
+Using which sources?
+What Decision or action occurred?
+What consequence followed?
+What remains unresolved?
 ```
 
-This information is essential when the filing, response, or ownership record is later questioned.
+The record may be distributed across Product, Core, Execution and Owning Services, but the journey must preserve stable references between them.
 
----
+## 14. Failure Modes
 
-## 32. Responsibility Must Remain Visible After Outcome
+Professional responsibility is weakened when:
 
-After registration, the Product should preserve who:
+- interface access is treated as authority;
+- client, applicant, owner, signatory and payer are merged;
+- Review is inferred from page access;
+- one approval is reused for a changed version or different consequence;
+- coordinator actions are presented as professional Decisions;
+- provider ranking becomes automatic appointment;
+- Provider Report is shown as Official Truth;
+- client silence is treated as consent;
+- administrative privilege becomes professional permission;
+- AI output is attributed no Human owner.
 
-- instructed;
-- prepared;
-- reviewed;
-- approved;
-- filed;
-- reported;
-- accepted the certificate;
-- owns maintenance responsibility.
-
-Later renewal or assignment work may depend on that history.
-
-Lifecycle continuity includes responsibility continuity.
-
----
-
-## 33. Failure Modes to Reject
-
-MarkReg must reject:
-
-- user account treated as universal authority;
-- client confirmation treated as professional review;
-- professional review treated as payment authority;
-- approver treated as signatory automatically;
-- provider candidate treated as appointed provider;
-- provider instruction treated as provider acceptance;
-- AI treated as reviewer or approver;
-- connector treated as official authority;
-- page visibility treated as review;
-- cross-organization access treated as transitive authority;
-- delegation without scope or expiry;
-- Product handoff without responsibility transfer.
-
----
-
-## 34. Minimum Responsibility Lock
+## Chapter Lock
 
 ```text
-The organization is the real actor.
-
-A user acts only within a defined organization, role, purpose, and authority.
-
-Client, applicant, payer, signatory, reviewer, approver, provider, and office remain distinct.
-
-Human Review requires an eligible human and a defined subject, scope, version, and decision.
-
-Approval authorizes a defined consequence.
-
-AI assists but cannot hold professional responsibility.
-
-Provider acceptance remains independent.
-
-Cross-Orbit authority is not transitive.
-
-Every consequential action remains attributable.
+Every consequential action has an actor.
+Every actor acts for an organization or represented party.
+Every role has a bounded authority.
+Every Decision and approval applies to an exact subject and version.
+Every consequence remains traceable.
 ```
 
----
-
-## 35. Chapter Conclusion
-
-MarkReg can simplify participation without simplifying responsibility.
-
-A good Product makes the right action easier.
-
-A trustworthy Product also makes clear:
-
-- who may act;
-- who must decide;
-- who must review;
-- who may approve;
-- who accepts the work;
-- who produces the official outcome;
-- who remains accountable when something goes wrong.
-
-Professional responsibility is not friction to remove.
-
-It is part of the Product’s value.
+CH06 converts these responsibility requirements into durable Product principles, boundaries and non-goals.
