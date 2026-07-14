@@ -1,8 +1,8 @@
 book: "Book 05"
 title: "MarkReg: The Full-Lifecycle International Trademark Product"
 canonical_path: "books/book-05-markreg/"
-status: "part_vi_draft_and_review_complete_part_vii_authorized"
-phase: "part_vii_product_experience_and_evolution"
+status: "complete_draft_1_full_manuscript_and_review_complete"
+phase: "publication_finishing"
 portfolio_baseline: "MO-PUB-BASELINE-0001"
 positioning: "Defines MarkReg as the flagship full-lifecycle international trademark Product that turns complex service needs into understandable, reviewable, governed professional journeys."
 chapter_map:
@@ -15,8 +15,10 @@ chapter_map:
   part_vi_range: "37-42"
   part_vii_range: "43-47"
 manuscript:
-  drafted_range: "00-42"
-  productized_range: "08-42"
+  drafted_range: "00-47"
+  complete_draft: 1
+  manuscript_files: 48
+  productized_range: "08-47"
   drafted_chapters:
     - "B05-CH-00"
     - "B05-CH-01"
@@ -61,13 +63,21 @@ manuscript:
     - "B05-CH-40"
     - "B05-CH-41"
     - "B05-CH-42"
-  architecture_reviewed_through: "B05-CH-42"
-  continuation_accepted_through: "B05-CH-42"
+    - "B05-CH-43"
+    - "B05-CH-44"
+    - "B05-CH-45"
+    - "B05-CH-46"
+    - "B05-CH-47"
+  architecture_reviewed_through: "B05-CH-47"
+  continuation_accepted_through: "B05-CH-47"
+  publication_metadata_normalized: false
+  release_candidate_ready: false
 specifications:
   - "B05-SPEC-0001"
   - "B05-SPEC-0002"
   - "B05-SPEC-0003"
   - "B05-SPEC-0004"
+  reconciliation_through_ch47_required: true
 reviews:
   - "B05-REV-0001"
   - "B05-REV-0002"
@@ -80,14 +90,20 @@ reviews:
   - "B05-REV-0009"
   - "B05-ERRATA-0001"
   - "B05-REV-0010"
+  - "B05-REV-0011"
+  - "B05-REV-0012"
 revision_pack:
   id: "B05-REVISION-PACK-001"
   status: "closed"
-next_pack:
-  part: "Part VII"
-  chapter_range: "43-47"
-  title: "Product Experience and Evolution"
-  authorized: true
+publication_finishing_pack:
+  id: "B05-PUBLICATION-FINISHING-PACK-001"
+  plan: "B05-PLN-0004"
+  status: "defined_execution_pending_owner_acceptance"
+  target: "release_candidate_1_candidate"
+next_gate:
+  title: "Publication Finishing"
+  authorized_by_review: "B05-REV-0012"
+  final_publication_separate: true
 book_02_semantic_change_required: false
 book_03_execution_change_required: false
 book_04_product_boundary_change_required: false

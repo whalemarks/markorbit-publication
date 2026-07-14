@@ -1,5 +1,20 @@
 # Book 05 Changelog
 
+## 2026-07-14 — Part VII and Complete Draft 1
+
+- Drafted CH43–CH47 — Product Experience and Evolution.
+- Defined standalone, Lite-embedded, Workplace-embedded and cross-Product experience with typed Handoff, Product Session and Return contracts.
+- Defined client, professional, reviewer, approver, coordinator, finance and provider participation surfaces and action rights.
+- Defined source-backed Jurisdiction Packs, Rule Records, change detection, Pack-bound AI assistance and rule-version impact.
+- Defined layered Product metrics, task-specific AI evaluation, Product-loop validation, pilot gates and a narrow vertical MVP sequence.
+- Defined conformance profiles, upstream finding control, roadmap horizons and the separation of publication, implementation and external-action authority.
+- Completed B05-REV-0011 — Part VII Product Experience and Evolution Review.
+- Completed B05-REV-0012 — CH00–CH47 Complete Draft 1 Review.
+- Recorded Complete Draft 1 across all forty-eight manuscript files.
+- Identified publication blockers in early chapter metadata, controlled-specification coverage, editorial finishing, publication apparatus and rendered validation.
+- Defined B05-PUBLICATION-FINISHING-PACK-001 in B05-PLN-0004.
+- Kept Release Candidate 1, final publication, unrestricted implementation, production deployment and external protected action as separate unfinished gates.
+
 ## 2026-07-14 — Part VI Registration and Portfolio Continuity
 
 - Drafted CH37–CH42 under the owner-accepted B05-TOC-V0.1.

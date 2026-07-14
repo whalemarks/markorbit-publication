@@ -33,7 +33,7 @@ Every professional organization retains its own clients, data, Knowledge, rules,
 | Book 02 | MarkOrbit Core Specification | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | Release Candidate 1 — Owner Accepted / Portfolio Locked |
-| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | Part VI Draft and Review Complete — Part VII Authorized |
+| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | Complete Draft 1 — CH00–CH47 Full Manuscript and Review Complete |
 | Book 06 | MarkOrbit Lite | Planned |
 | Book 07 | Mark Global Service Network | Planned |
 
@@ -41,7 +41,7 @@ The controlled portfolio review is [MO-PUB-REV-0001](reviews/portfolio/MO-PUB-RE
 
 The effective lock is [MO-PUB-BASELINE-0001](release/baselines/MO-PUB-BASELINE-0001_Books_01-04.md).
 
-Book 05 continuation is governed by `B05-REV-0010`. `B05-ERRATA-0001` confirms that Part VI is CH37–CH42 and Part VII is CH43–CH47 under B05-TOC-V0.1.
+Book 05 Complete Draft 1 is governed by `B05-REV-0012`. `B05-ERRATA-0001` confirms that Part VI is CH37–CH42 and Part VII is CH43–CH47 under B05-TOC-V0.1. `B05-PLN-0004` defines the publication-finishing pack.
 
 ## Responsibility Chain
 
@@ -58,14 +58,15 @@ Book 05 — MarkReg
 ```text
 Books 01–04 Portfolio Baseline effective
 → Book 05 B05-TOC-V0.1 owner accepted
-→ CH00–CH36 drafted and reviewed
-→ Part VI CH37–CH42 drafted and reviewed
-→ Part VII CH43–CH47 authorized
-→ complete first full Book 05 draft and full-book review
+→ CH00–CH47 complete manuscript
+→ Part VII and first full-book reviews complete
+→ Complete Draft 1
+→ B05-PUBLICATION-FINISHING-PACK-001
+→ Release Candidate 1 and owner publication gate
 ```
 
 ## Authority Boundary
 
-The Portfolio Baseline supports publication continuity and Book 05 Product drafting.
+The Portfolio Baseline supports publication continuity and Book 05 Product drafting and finishing.
 
 It does not authorize unrestricted implementation, production deployment, autonomous professional action or external protected action.

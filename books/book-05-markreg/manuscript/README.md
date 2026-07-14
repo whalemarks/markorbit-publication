@@ -4,7 +4,7 @@ The manuscript is controlled by B05-TOC-V0.1, which is owner accepted.
 
 ## Drafted Range
 
-CH00–CH42.
+CH00–CH47 — all forty-eight planned manuscript files.
 
 ## Part Status
 
@@ -15,14 +15,14 @@ CH00–CH42.
 - Part IV — CH23–CH29: drafted and reviewed
 - Part V — CH30–CH36: drafted and reviewed
 - Part VI — CH37–CH42: drafted and reviewed
-- Part VII — CH43–CH47: authorized next writing pack
+- Part VII — CH43–CH47: drafted and reviewed
 
-## Canonical Lifecycle Sequence Through Part VI
+## Canonical Lifecycle Sequence
 
 ```text
 Need Brief
 → Recommendation and Option Sets
-→ Filing-unit, applicant, class, specification and risk candidates
+→ filing-unit, applicant, class, specification and risk candidates
 → Proposal, Quote and Commercial Instruction
 → Formal Intake, Requirements and Readiness
 → Filing Package, Review and Filing Approval
@@ -33,16 +33,19 @@ Need Brief
 → Maintenance and Renewal
 → Recordals and Chain of Title
 → Portfolio Continuity and Action Plan
+→ standalone, embedded and cross-Product experience
+→ participant surfaces and authority
+→ Jurisdiction Packs and AI governance
+→ metrics, quality, MVP and conformance
 ```
 
-## Part VI Manuscript
+## Part VII Manuscript
 
-- [CH37 — Registration and Certificate Boundaries](B05-CH-37_Registration_and_Certificate_Boundaries.md)
-- [CH38 — Maintenance Calendar and Post-Registration Duties](B05-CH-38_Maintenance_Calendar_and_Post-Registration_Duties.md)
-- [CH39 — Renewal Preparation and Governed Renewal](B05-CH-39_Renewal_Preparation_and_Governed_Renewal.md)
-- [CH40 — Changes, Recordals and Ownership Updates](B05-CH-40_Changes_Recordals_and_Ownership_Updates.md)
-- [CH41 — Assignment, Licensing and Chain of Title](B05-CH-41_Assignment_Licensing_and_Chain_of_Title.md)
-- [CH42 — Portfolio Strategy, Monitoring and Lifecycle Learning](B05-CH-42_Portfolio_Strategy_Monitoring_and_Lifecycle_Learning.md)
+- [CH43 — Standalone, Embedded and Cross-Product Experience](B05-CH-43_Standalone_Embedded_and_Cross-Product_Experience.md)
+- [CH44 — Client, Professional and Provider Participation Surfaces](B05-CH-44_Client_Professional_and_Provider_Participation_Surfaces.md)
+- [CH45 — Jurisdiction Packs, AI Assistance and Rule Versioning](B05-CH-45_Jurisdiction_Packs_AI_Assistance_and_Rule_Versioning.md)
+- [CH46 — Product Metrics, Quality and MVP Delivery Sequence](B05-CH-46_Product_Metrics_Quality_and_MVP_Delivery_Sequence.md)
+- [CH47 — Conformance, Roadmap and Conclusion](B05-CH-47_Conformance_Roadmap_and_Conclusion.md)
 
 ## Chapter Boundary Control
 
@@ -62,6 +65,8 @@ B05-ERRATA-0001 corrects the former derived-status typo that placed CH43 in Part
 - [B05-SPEC-0003 — Conformance Scenarios and User-Surface Contract](../specifications/B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md)
 - [B05-SPEC-0004 — Minimum Jurisdiction-Pack and Commercial-Control Contract](../specifications/B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md)
 
+B05-REV-0012 requires these controlled specifications to be extended and reconciled through CH47 during publication finishing.
+
 ## Current Reviews
 
 - B05-REV-0001 through B05-REV-0007 — foundation, productization and closure reviews
@@ -69,9 +74,11 @@ B05-ERRATA-0001 corrects the former derived-status typo that placed CH43 in Part
 - B05-REV-0009 — Part V Examination, Publication and Disputes Review
 - B05-ERRATA-0001 — Part VI chapter-boundary correction
 - B05-REV-0010 — Part VI Registration and Portfolio Continuity Review
+- B05-REV-0011 — Part VII Product Experience and Evolution Review
+- B05-REV-0012 — CH00–CH47 Complete Draft 1 Review
 
 ## Next Controlled Task
 
-Draft Part VII, CH43–CH47 — Product Experience and Evolution.
+Execute B05-PUBLICATION-FINISHING-PACK-001 as defined in `planning/B05-PLN-0004_Publication_Finishing_Pack.md`.
 
-Part VII must complete the first full manuscript, define participation surfaces, jurisdiction-pack and AI governance, metrics, MVP sequencing and final conformance without granting implementation or protected-action authority.
+The first priority is metadata and controlled-specification reconciliation, not new chapter drafting.
