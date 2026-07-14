@@ -3,12 +3,12 @@
 ## Status
 
 - **Pack ID:** B05-PUBLICATION-FINISHING-PACK-001
-- **Status:** Active — PF-02 through PF-05, PF-06A and PF-06B complete
-- **Source reviews:** B05-REV-0012 through B05-REV-0021
+- **Status:** Active — PF-02 through PF-05, PF-06A, PF-06B and PF-06C1 complete
+- **Source reviews:** B05-REV-0012 through B05-REV-0022
 - **Scope:** Book 05 CH00–CH47 and controlled publication assets
 - **Target:** Release Candidate 1 candidate
-- **Current substantive gate:** PF-06C1 — CH23–CH29
-- **Remaining metadata blocker:** PF-01B CH23–CH47
+- **Current substantive gate:** PF-06C2 — CH30–CH36
+- **Remaining metadata blocker:** PF-01B CH30–CH47
 
 ## 1. Purpose
 
@@ -34,40 +34,12 @@ PF-01B closes progressively through manuscript editorial batches and must be com
 
 ## 3. Completed Controlled Reconciliation
 
-### PF-02
-
-- B05-SPEC-0001 v0.2;
-- record classes, IDs, lifecycle lineage, version and supersession;
-- Appendix A and state mapping in Appendix B;
-- B05-REV-0014.
-
-### PF-03
-
-- B05-SPEC-0002 v0.2;
-- `EMBERLOOP` and `RIVERKITE` identities, steps and final states;
-- CH08–CH47 journey matrix;
-- Appendix D;
-- B05-REV-0015.
-
-### PF-04
-
-- B05-SPEC-0003 v0.2;
-- `MR-SCN-01–41`;
-- participant, visibility, action-right and delegation contracts;
-- lifecycle surfaces and eight Conformance Profiles;
-- Appendices B, C, E and PF-04 portion of G;
-- B05-REV-0016.
-
-### PF-05
-
-- B05-SPEC-0004 v0.2;
-- Jurisdiction Pack identity, service modules and support states;
-- source, Rule, fee, form and change governance;
-- commercial-component and visibility separation;
-- immutable Quote and later-stage pricing behavior;
-- Pack-bound AI Assistance;
-- Appendix F and PF-05 portion of Appendix G;
-- B05-REV-0017.
+```text
+PF-02 — B05-SPEC-0001 v0.2; artifacts, Decisions, lifecycle lineage; Appendix A/B; B05-REV-0014
+PF-03 — B05-SPEC-0002 v0.2; EMBERLOOP/RIVERKITE; Appendix D; B05-REV-0015
+PF-04 — B05-SPEC-0003 v0.2; MR-SCN-01–41; participant surfaces; Appendix B/C/E/G; B05-REV-0016
+PF-05 — B05-SPEC-0004 v0.2; Pack, Rule and commercial controls; Appendix F/G; B05-REV-0017
+```
 
 ## 4. Editorial Workstreams
 
@@ -77,94 +49,69 @@ PF-01B closes progressively through manuscript editorial batches and must be com
 
 Delivered B05-PUB-0001 v0.2, B05-PUB-0009 v0.1, Glossary v0.2, Subject Index v0.2, semantic-finding process and B05-REV-0018.
 
-### PF-06B1 — Front Matter and Part I
+### PF-06B — CH00–CH22
 
 **Status:** COMPLETE
-
-- CH00–CH07;
-- metadata CH02–CH07;
-- constitutional compression and chapter-purpose separation;
-- B05-REV-0019.
-
-### PF-06B2A — Part II
-
-**Status:** COMPLETE
-
-- CH08–CH15;
-- metadata CH08–CH15;
-- `EL-01–EL-08`;
-- Need Brief, recommendation, Option Set, applicant, classification, goods/services, search and risk language;
-- controlled scenarios and Pack support states;
-- B05-REV-0020.
-
-### PF-06B2B — Part III
-
-**Status:** COMPLETE
-
-- CH16–CH22;
-- metadata CH16–CH22;
-- `EL-09–EL-15`;
-- Proposal and commercial component model;
-- Quote, Client Acceptance and Commercial Instruction;
-- Formal Intake and Requirement Set;
-- Readiness Assessment;
-- Handoff Envelope and formal-object boundary;
-- CH22 → CH23 transition;
-- B05-REV-0021.
-
-Controlled sequence:
 
 ```text
-MR-A05 Proposal
-→ source-backed price basis
-→ MR-A06 Quote
-→ MR-D01 Client Acceptance
-→ MR-A07 Commercial Instruction
-→ MR-A08 Formal Intake
-→ MR-A09 Requirement Set
-→ MR-A10 Readiness Assessment
-→ MR-A12 Handoff Envelope
-→ returned formal references
+PF-06B1 — CH00–CH07 / B05-REV-0019
+PF-06B2A — CH08–CH15 / EL-01–EL-08 / B05-REV-0020
+PF-06B2B — CH16–CH22 / EL-09–EL-15 / B05-REV-0021
 ```
-
-PF-06B is complete. No semantic escalation was required.
 
 ### PF-06C1 — Part IV
 
-**Status:** AUTHORIZED AND NEXT
+**Status:** COMPLETE
 
-Scope:
+Completed:
 
 - CH23–CH29;
 - metadata CH23–CH29;
 - `EL-16–EL-22`;
 - Filing Package Candidate, source lineage and material diff;
-- Professional Review and version-specific Filing Approval;
+- Professional Review and exact-version Filing Approval;
 - Capability Need, Routing Recommendation and Human Selection;
-- provider appointment, instruction and Provider Acceptance;
-- connector, provider, Owning Service and Execution boundaries;
-- prepared, sent, provider-reported, officially acknowledged and unknown states;
-- duplicate safety, reconciliation and safe retry;
-- Part IV editorial Review.
+- Provider Appointment Candidate, Instruction and Acceptance;
+- connector, provider, Owning Service and Book 03 Execution boundaries;
+- submission, provider-report, official-acknowledgement and unknown states;
+- duplicate safety, Reconciliation Context and Recovery Plan;
+- CH29 → CH30 official-event boundary;
+- B05-REV-0022.
 
-Acceptance:
+Approximate editorial result:
 
-- all seven chapters reviewed;
-- metadata normalized;
-- exact-version Review and approval preserved;
-- provider stages remain distinct;
-- unknown external state does not permit blind retry;
-- `EL-16–EL-22` consistent with B05-SPEC-0002;
-- CH29 hands clearly into CH30 official-event interpretation.
+```text
+prior lines: 2,409
+edited lines: 1,433
+reduction: 976 lines / about 40%
+```
+
+No semantic escalation was required.
 
 ### PF-06C2 — Part V
 
-**Status:** PLANNED AFTER PF-06C1
+**Status:** AUTHORIZED AND NEXT
+
+Scope:
 
 - CH30–CH36;
 - metadata CH30–CH36;
 - `EL-23–EL-29` and relevant `RK-*` steps;
-- official events, examination, response, publication, disputes, remedies, deadlines and Communication.
+- Official Event Snapshot and Examination Context;
+- Issue Set, Response Option Set and Response Strategy;
+- Response Package, Professional Review, Filing Approval and governed filing;
+- Publication Window and opposition detection;
+- Adversarial and Remedy Contexts;
+- Deadline Record, Outcome Snapshot and Communication Packet.
+
+Acceptance:
+
+- all seven chapters reviewed;
+- official source, provider report and Product projection remain distinct;
+- response and dispute Decisions remain accountable and versioned;
+- no official closure or registration outcome is invented;
+- CH36 hands clearly into CH37 registration verification;
+- separate Review accepted.
 
 ### PF-06C3 — Part VI
 
@@ -172,8 +119,8 @@ Acceptance:
 
 - CH37–CH42;
 - metadata CH37–CH42;
-- registration, maintenance, renewal, recordal, transactions and portfolio continuity;
-- `EL-30–EL-35` and relevant `RK-*` steps.
+- `EL-30–EL-35` and relevant `RK-*` steps;
+- registration, maintenance, renewal, recordal, transactions and portfolio continuity.
 
 ### PF-06C4 — Part VII
 
@@ -181,8 +128,8 @@ Acceptance:
 
 - CH43–CH47;
 - metadata CH43–CH47;
-- Product surfaces, participant rights, Jurisdiction Packs, AI, metrics and Conformance;
 - `EL-36–EL-40` and remaining `RK-*` steps;
+- Product surfaces, participant rights, Jurisdiction Packs, AI, metrics and Conformance;
 - PF-01B closure.
 
 ### PF-06D — Whole-Book Closure
@@ -205,7 +152,8 @@ PF-01A CH00–CH01: COMPLETE
 PF-01B CH02–CH07: COMPLETE
 PF-01B CH08–CH15: COMPLETE
 PF-01B CH16–CH22: COMPLETE
-PF-01B CH23–CH47: OPEN
+PF-01B CH23–CH29: COMPLETE
+PF-01B CH30–CH47: OPEN
 PF-01 overall: OPEN
 ```
 
@@ -219,20 +167,20 @@ Chapter Map: B05-TOC-V0.1 — Owner Accepted
 ## 6. Preserved Locks
 
 ```text
-Recommendation ≠ Decision
-Proposal selection ≠ Quote acceptance
-Commercial Instruction ≠ Filing Approval
-Payment ≠ Filing Approval
-Formal Intake complete ≠ filing ready
-Uploaded File ≠ Valid Document
-Readiness ≠ Approval
-Approval ≠ Execution
-Handoff requested ≠ formal object created
-Formal references returned ≠ filing submitted
-Submission sent ≠ official acknowledgement
+Package Candidate ≠ Filing Approval
+Professional Review ≠ client confirmation
+Filing Approval ≠ Execution
+Routing Recommendation ≠ Human Selection
+Selection ≠ appointment
+Appointment ≠ instruction
+Instruction receipt ≠ Provider Acceptance
+Provider Acceptance ≠ submission
+Execution Request ≠ action completed
+Submission Evidence ≠ Official Acknowledgement Evidence
 Provider Report ≠ Official Truth
-Pack support ≠ production authority
-AI Assistance ≠ Human Review or Decision
+Technical success ≠ official receipt
+Unknown ≠ failed or safe to retry
+Official acknowledgement ≠ registration
 ```
 
 Reference-journey locks:
@@ -269,13 +217,11 @@ This pack does not implement or deploy MarkReg, connect production official syst
 ## 11. Current Decision
 
 ```text
-PF-01B: PARTIAL — CH02–CH22 complete; CH23–CH47 open
+PF-01B: PARTIAL — CH02–CH29 complete; CH30–CH47 open
 PF-02–PF-05: COMPLETE
-PF-06A: COMPLETE
-PF-06B: COMPLETE
-PF-06C1: AUTHORIZED AND NEXT
-PF-06C2/PF-06C3/PF-06C4: PLANNED
-PF-06D: PLANNED
+PF-06A/PF-06B/PF-06C1: COMPLETE
+PF-06C2: AUTHORIZED AND NEXT
+PF-06C3/PF-06C4/PF-06D: PLANNED
 PF-06 overall: OPEN
 PF-07–PF-09: OPEN
 ```
