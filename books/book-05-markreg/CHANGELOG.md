@@ -1,5 +1,20 @@
 # Book 05 Changelog
 
+## 2026-07-14 — Part V Examination, Publication and Disputes
+
+- Drafted CH30–CH36 as the controlled Examination, Publication and Disputes writing pack.
+- Defined Official Event Snapshot, Examination Context, Issue Set, Response Strategy, Response Package Candidate and Outcome Snapshot.
+- Preserved official-source authority, retrieval time, corrected events, stale status, deadline source and professional interpretation boundaries.
+- Reused Part IV Professional Review, Filing Approval, governed Execution, acknowledgement, reconciliation and audit controls for response filings.
+- Defined Publication Windows, monitoring, opposition detection and verified no-challenge closure.
+- Defined Adversarial Context, parties, grounds, evidence, pleadings, settlement authority and official procedural closure.
+- Distinguished appeal, review, correction, cancellation, invalidation, restoration and recordal contexts.
+- Established canonical Deadline Record, Client Decision Record, Communication Packet and correction-Communication behavior.
+- Extended `EMBERLOOP` through US examination response, EU opposition and UK publication-window closure.
+- Extended `RIVERKITE` through cancellation defense, ownership conflict, evidence and linked renewal/recordal contexts.
+- Added B05-REV-0009 and authorized Part VI, CH37–CH43 — Registration and Portfolio Continuity.
+- Kept unrestricted implementation, production deployment and external protected action unauthorized.
+
 ## 2026-07-14 — Part IV Filing Preparation and Governed Execution
 
 - Drafted CH23–CH29 as the controlled Filing Preparation and Governed Execution writing pack.
