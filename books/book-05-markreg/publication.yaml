@@ -1,8 +1,8 @@
 book: "Book 05"
 title: "MarkReg: The Full-Lifecycle International Trademark Product"
 canonical_path: "books/book-05-markreg/"
-status: "ch00_ch22_productization_closed_part_iv_authorized"
-phase: "part_iv_filing_preparation_and_governed_execution"
+status: "part_iv_draft_and_review_complete_part_v_authorized"
+phase: "part_v_examination_publication_and_disputes"
 portfolio_baseline: "MO-PUB-BASELINE-0001"
 positioning: "Defines MarkReg as the flagship full-lifecycle international trademark Product that turns complex service needs into understandable, reviewable, governed professional journeys."
 chapter_map:
@@ -13,8 +13,8 @@ chapter_map:
   planned_manuscript_files: 48
   parts: 7
 manuscript:
-  drafted_range: "00-22"
-  productized_range: "08-22"
+  drafted_range: "00-29"
+  productized_range: "08-29"
   drafted_chapters:
     - "B05-CH-00"
     - "B05-CH-01"
@@ -39,8 +39,15 @@ manuscript:
     - "B05-CH-20"
     - "B05-CH-21"
     - "B05-CH-22"
-  architecture_reviewed_through: "B05-CH-22"
-  continuation_accepted_through: "B05-CH-22"
+    - "B05-CH-23"
+    - "B05-CH-24"
+    - "B05-CH-25"
+    - "B05-CH-26"
+    - "B05-CH-27"
+    - "B05-CH-28"
+    - "B05-CH-29"
+  architecture_reviewed_through: "B05-CH-29"
+  continuation_accepted_through: "B05-CH-29"
 specifications:
   - "B05-SPEC-0001"
   - "B05-SPEC-0002"
@@ -54,13 +61,14 @@ reviews:
   - "B05-REV-0005"
   - "B05-REV-0006"
   - "B05-REV-0007"
+  - "B05-REV-0008"
 revision_pack:
   id: "B05-REVISION-PACK-001"
   status: "closed"
 next_pack:
-  part: "Part IV"
-  chapter_range: "23-29"
-  title: "Filing Preparation and Governed Execution"
+  part: "Part V"
+  chapter_range: "30-36"
+  title: "Examination, Publication and Disputes"
   authorized: true
 book_02_semantic_change_required: false
 book_03_execution_change_required: false
