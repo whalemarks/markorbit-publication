@@ -1,8 +1,8 @@
-name: Apply Book 04 manuscript review revisions
+name: Finalize Book 04 review validation
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: [synchronize, reopened]
     paths:
       - .github/workflows/book04-manuscript-revise.yml
 
@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 jobs:
-  revise:
+  validate:
     if: github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     steps:
@@ -20,247 +20,13 @@ jobs:
           ref: ${{ github.head_ref }}
           fetch-depth: 0
 
-      - name: Apply targeted Book 04 revisions
+      - name: Validate and write report
         shell: bash
         run: |
           python - <<'PY'
           from pathlib import Path
           import re
-
-          root = Path('.')
-
-          def replace_exact(path: str, old: str, new: str) -> None:
-              p = root / path
-              text = p.read_text(encoding='utf-8')
-              count = text.count(old)
-              if count != 1:
-                  raise SystemExit(f'{path}: expected exactly one match, found {count}')
-              p.write_text(text.replace(old, new), encoding='utf-8')
-
-          replace_exact(
-              'books/book-04-workplace-product-architecture/manuscript/B04-CH-04_Position_Between_Core_Execution_Products_and_Network.md',
-              '''```text
-          Core defines.
-
-          Execution coordinates.
-
-          Workplace contextualizes.
-
-          Products compose.
-
-          MGSN connects.
-
-          Owning Services formalize.
-
-          Humans remain accountable.
-
-          AI assists under governance.
-          ```''',
-              '''```text
-          Core defines shared meaning.
-
-          Execution governs coordinated work.
-
-          Workplace provides authorized organization context.
-
-          Products compose focused user journeys.
-
-          MGSN connects independent organizational Orbits.
-
-          Owning Services change and record formal business facts.
-
-          Humans remain professionally accountable.
-
-          AI assists under explicit governance.
-          ```'''
-          )
-
-          replace_exact(
-              'books/book-04-workplace-product-architecture/manuscript/B04-CH-30_Artifact_Lifecycle_Versioning_and_Provenance.md',
-              '''```text
-          Need
-          → Artifact Candidate
-          → Preparation
-          → Review
-          → Revision
-          → Approval for Defined Use
-          → Render
-          → Optional Edit
-          → Delivery / Publish / Formalization
-          → Outcome
-          → Feedback
-          → Reuse, Supersession, Archive, or Retirement
-          ```''',
-              '''```text
-          Need
-          → Artifact Candidate
-          → Preparation
-          → Preview Render Where Useful
-          → Review
-          → Revision
-          → Approval for Defined Use
-          → Final Render
-          → Optional Edit
-          → Re-Review Where Material
-          → Delivery / Publish / Formalization
-          → Outcome
-          → Feedback
-          → Reuse, Supersession, Archive, or Retirement
-          ```'''
-          )
-
-          replace_exact(
-              'books/book-04-workplace-product-architecture/manuscript/B04-CH-31_Render_Edit_Delivery_and_Publish.md',
-              '''```text
-          Content and Artifact Preparation
-          → Human Review
-          → Render
-          → Optional Edit
-          → Delivery or Publish
-          → Outcome Feedback
-          ```''',
-              '''```text
-          Content and Artifact Preparation
-          → Preview Render Where Useful
-          → Human Review
-          → Approval for Defined Use
-          → Final Render
-          → Optional Edit
-          → Re-Review Where Material
-          → Delivery or Publish
-          → Outcome Feedback
-          ```'''
-          )
-
-          replace_exact(
-              'books/book-04-workplace-product-architecture/manuscript/B04-CH-32_Formalization_Outcome_and_Feedback.md',
-              '> How does an approved Artifact become a formal Core record or a verified delivered outcome, and how should usage, professional results, commercial results, failures, and feedback return to the organization and wider ecosystem?',
-              '> How does an approved Artifact become input to a formal governed record or domain fact, or produce a verified delivered outcome, and how should usage, professional results, commercial results, failures, and feedback return to the organization and wider ecosystem?'
-          )
-
-          replace_exact(
-              'books/book-04-workplace-product-architecture/manuscript/B04-CH-32_Formalization_Outcome_and_Feedback.md',
-              '''## 4. Formalization Must Be Typed
-
-          A request should identify whether it seeks to:
-
-          - create;
-          - update;
-          - submit;
-          - send;
-          - approve;
-          - record;
-          - attach;
-          - supersede;
-          - cancel;
-          - publish;
-          - deliver.
-
-          A generic `save as official` action is insufficient.''',
-              '''## 4. Downstream Consequence Must Be Typed
-
-          A downstream request should identify both its operation family and intended consequence.
-
-          Formalization operations may include:
-
-          - create a formal record;
-          - update a formal record;
-          - record a decision;
-          - attach an approved output;
-          - supersede a formal record;
-          - cancel or close under the owning domain contract.
-
-          Execution and outcome operations may include:
-
-          - submit;
-          - send;
-          - deliver;
-          - publish.
-
-          These operations may participate in one Product journey, but they remain distinct. An approval must be represented as a typed approval decision under CH19, not hidden inside a generic formalization verb.
-
-          A generic `save as official` action is insufficient.'''
-          )
-
-          replace_exact(
-              'books/book-04-workplace-product-architecture/manuscript/B04-CH-32_Formalization_Outcome_and_Feedback.md',
-              '## 5. Formalization Request Is a Prepared Action',
-              '## 5. Formalization or Outcome Request Is a Prepared Action'
-          )
-
-          replace_exact(
-              'books/book-04-workplace-product-architecture/manuscript/B04-CH-34_Capability_Evidence_Routing_and_Human_Selection.md',
-              '''```text
-          Capability claim
-          → evidence
-          → validation
-          → governed profile
-          → contextual eligibility
-          → candidate comparison
-          → Routing recommendation
-          → human selection
-          → Routing decision
-          → provider appointment and instruction
-          ```''',
-              '''```text
-          Capability claim
-          → evidence
-          → validation
-          → governed profile
-          → contextual eligibility
-          → candidate comparison
-          → Routing recommendation
-          → human selection
-          → Routing decision
-          → appointment preparation
-          → approval where required
-          → governed provider instruction
-          → provider acceptance
-          ```'''
-          )
-
-          replace_exact(
-              'books/book-04-workplace-product-architecture/manuscript/B04-CH-39_Conclusion_Each_in_Its_Own_Orbit.md',
-              'Artifact preserves the business outcome.',
-              'Artifact preserves a usable, versioned business outcome and its lineage.'
-          )
-
-          replace_exact(
-              'books/book-04-workplace-product-architecture/manuscript/B04-CH-39_Conclusion_Each_in_Its_Own_Orbit.md',
-              '''Artifacts
-          → preserve usable business outcomes''',
-              '''Artifacts
-          → preserve usable, versioned business outcomes and their lineage'''
-          )
-
-          changelog = root / 'CHANGELOG.md'
-          text = changelog.read_text(encoding='utf-8')
-          heading = '## 2026-07-14 — Book 04 Complete Draft 1 Full-Book Review'
-          if heading not in text:
-              entry = '''## 2026-07-14 — Book 04 Complete Draft 1 Full-Book Review
-
-          - Completed the controlled full-book architecture and editorial review of CH00–CH39.
-          - Confirmed the forty manuscript files, canonical headings, balanced fenced code blocks, and sequential numbered sections.
-          - Applied targeted revisions to canonical responsibility language, Artifact preview and re-review, formalization boundaries, Routing progression, and Artifact lineage.
-          - Added B04-REV-0003 as the current CH00–CH39 review record.
-          - Synchronized Book 04 and repository-level status metadata with the complete Draft 1 state.
-          - Confirmed no chapter-map change, Book 02 semantic amendment, or Book 03 Execution amendment is required.
-          - Kept owner acceptance, native-English editing, publication finishing, implementation readiness, production deployment, and external protected action as separate unfinished gates.
-
-          '''
-              marker = '# Changelog\n\n'
-              if not text.startswith(marker):
-                  raise SystemExit('CHANGELOG.md: unexpected heading')
-              text = marker + entry + text[len(marker):]
-              changelog.write_text(text, encoding='utf-8')
-          PY
-
-      - name: Validate Book 04 structure and status
-        shell: bash
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          import re
+          import subprocess
 
           root = Path('books/book-04-workplace-product-architecture')
           manuscript = root / 'manuscript'
@@ -277,8 +43,7 @@ jobs:
               n = int(m.group(1))
               nums.append(n)
               text = p.read_text(encoding='utf-8')
-              first = text.splitlines()[0]
-              headings[n] = first
+              headings[n] = text.splitlines()[0]
               if text.count('```') % 2:
                   raise SystemExit(f'unbalanced code fences: {p}')
               section_nums = [int(x) for x in re.findall(r'^## (\d+)\. ', text, re.M)]
@@ -289,10 +54,7 @@ jobs:
               raise SystemExit(f'chapter sequence mismatch: {nums}')
 
           toc = (manuscript / 'B04-CH-01_Table_of_Contents.md').read_text(encoding='utf-8')
-          toc_titles = {
-              int(n): title
-              for n, title in re.findall(r'^### B04-CH-(\d{2}) — (.+)$', toc, re.M)
-          }
+          toc_titles = {int(n): title for n, title in re.findall(r'^### B04-CH-(\d{2}) — (.+)$', toc, re.M)}
           if set(toc_titles) != set(range(40)):
               raise SystemExit(f'TOC chapter set mismatch: {sorted(toc_titles)}')
           for n in range(40):
@@ -328,25 +90,59 @@ jobs:
                       raise SystemExit(f'stale status in {p}: {s}')
 
           word_count = sum(len(re.findall(r"\b[\w'-]+\b", p.read_text(encoding='utf-8'))) for p in files)
-          print(f'manuscript_files={len(files)}')
-          print(f'chapter_range={nums[0]:02d}-{nums[-1]:02d}')
-          print(f'approximate_word_count={word_count}')
-          print('headings=pass')
-          print('code_fences=pass')
-          print('numbered_sections=pass')
-          print('stale_status_strings=pass')
-          PY
-          git diff --stat
+          diff_stat = subprocess.run(
+              ['git', 'diff', '--stat', 'origin/main...HEAD'],
+              check=True,
+              text=True,
+              capture_output=True,
+          ).stdout.strip()
 
-      - name: Commit manuscript revisions
+          report = f'''# B04-REV-0003 — Validation Report
+
+- **Validation date:** 2026-07-14
+- **Branch:** `review/book-04-full-draft-1`
+- **Scope:** B04-CH-00 through B04-CH-39
+- **Result:** PASS
+
+## Structural Checks
+
+- Manuscript files: **{len(files)}**
+- Chapter range: **CH{nums[0]:02d}–CH{nums[-1]:02d}**
+- TOC and first-heading match: **PASS**
+- Balanced Markdown triple-backtick fences: **PASS**
+- Sequential numbered sections where used: **PASS**
+- Active status records free of locked stale strings: **PASS**
+- Approximate manuscript word count: **{word_count:,}**
+
+## Diff Stat Against Main
+
+```text
+{diff_stat}
+```
+
+## Boundary Result
+
+- Chapter-map change required: **NO**
+- Book 02 semantic amendment required: **NO**
+- Book 03 Execution amendment required: **NO**
+- Ready for final publication: **NO**
+- Ready for unrestricted implementation: **NO**
+- External protected action authorized: **NO**
+'''
+          path = root / 'reviews/B04-REV-0003_VALIDATION.md'
+          path.write_text(report, encoding='utf-8')
+          print(report)
+          PY
+
+      - name: Commit validation report
         shell: bash
         run: |
-          if git diff --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add CHANGELOG.md books/book-04-workplace-product-architecture/manuscript
-          git commit -m "Apply targeted Book 04 manuscript review revisions"
+          git add books/book-04-workplace-product-architecture/reviews/B04-REV-0003_VALIDATION.md
+          if git diff --cached --quiet; then
+            echo "No validation report changes"
+            exit 0
+          fi
+          git commit -m "Record Book 04 full-book validation"
           git push origin HEAD:${{ github.head_ref }}
