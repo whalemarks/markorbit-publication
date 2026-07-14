@@ -1,5 +1,15 @@
 # Book 05 Changelog
 
+## 2026-07-14 — Part II Productization
+
+- Rewrote CH08–CH15 around explicit user questions, Product artifacts, interfaces, reference-journey steps, conformance scenarios, change propagation, and handoffs.
+- Applied B05-SPEC-0001 through B05-SPEC-0004 to the Part II manuscript.
+- Consolidated repeated constitutional and architecture-boundary language into named MarkReg rules.
+- Embedded the `EMBERLOOP` reference journey across need, jurisdiction, bundle, filing-unit, applicant, classification, goods/services, search, and risk decisions.
+- Added B05-REV-0005 and closed the Part II scope of the whole-draft findings.
+- Normalized Part II chapter metadata to B05-TOC-V0.1 — Owner Accepted.
+- Kept Part IV deferred until Part III is productized and the CH00–CH22 whole-draft review is rerun.
+
 ## 2026-07-14 — Part III Draft
 
 - Completed CH16–CH22 — Commercial Journey and Formal Intake.
