@@ -54,19 +54,23 @@ Each innovation improves one organisation.
 
 Collectively, however, they leave the structure of the industry largely unchanged.
 
-The next generation of innovation requires a different unit of thinking.
+The next generation of innovation requires a broader unit of thinking.
 
-Not the application.
+Not only the application.
 
-Not the organisation.
+Not only the organisation.
 
-The ecosystem.
+The relationships among independent organisations across the ecosystem.
 
-When the ecosystem becomes the unit of innovation, the purpose of technology changes.
+The organisation remains the real commercial and professional actor.
 
-Technology no longer exists only to improve work.
+Ecosystem architecture improves how those organisations connect without erasing their autonomy.
 
-It exists to improve how work is organised across independent participants.
+When the ecosystem relationship becomes a unit of innovation, the purpose of technology changes.
+
+Technology no longer exists only to improve work inside one organisation.
+
+It also improves how governed work, Capability and trust move between independent participants.
 
 ---
 

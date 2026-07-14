@@ -1,5 +1,7 @@
 # B03-CH-31 — Execution MVP Boundary
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 An Execution System MVP must be small enough to build, test and govern.
@@ -159,8 +161,8 @@ Book 03 Execution MVP
 Integration boundaries
     connect approved Services and external systems
         ↓
-Book 04 Product System
-    presents user journeys, controls and operational views
+Book 04 Workplace and Product Architecture
+    provides organization context and presents governed user journeys, controls and operational views
 ```
 
 The Execution MVP does not become:

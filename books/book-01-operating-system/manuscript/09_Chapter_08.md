@@ -138,33 +138,41 @@ Within the MarkOrbit ecosystem, this collaborative layer is known as the **Mark 
 
 MGSN should not be understood as another marketplace.
 
-Nor as a directory of service providers.
+Nor as a directory that turns every provider into a public listing.
 
-Nor as a platform that controls business relationships.
+Nor as a platform that owns business relationships.
 
-It is a service routing network built upon shared operating principles.
+It is the service-routing, Capability and trust network connecting independent Workplaces.
 
-Its purpose is to connect independent Workplaces whenever collaboration creates greater value than isolated operation.
+Its network model is private first:
 
-Sometimes collaboration occurs.
+```text
+Private Partners
+→ Trusted Extended Network
+→ Limited Public Discovery
+```
 
-Sometimes it does not.
+An organisation begins with its own relationships.
 
-The network supports both outcomes.
+It may extend discovery only when a defined service need justifies it.
 
-Participation is optional.
+Evidence supports comparison.
 
-Capability is shared.
+A responsible human selects.
+
+Governed instruction and independent provider acceptance follow later.
+
+Participation remains optional.
+
+Relationships remain organisation-owned.
 
 Business remains independent.
-
----
 
 ## 8.6 Service Routing Instead of Service Distribution
 
 Traditional marketplaces focus on distributing opportunities.
 
-Every request enters a common marketplace.
+Every request may be pushed into a common pool.
 
 Participants compete for work.
 
@@ -172,7 +180,7 @@ The MarkOrbit ecosystem follows a different philosophy.
 
 Not every service should enter a public network.
 
-Many customer relationships remain entirely private.
+Many client relationships remain entirely private.
 
 Many organisations deliver services directly.
 
@@ -180,17 +188,26 @@ Many businesses choose trusted long-term partners.
 
 The role of MGSN is therefore not universal distribution.
 
-It is intelligent service routing.
+It is governed service and Capability routing.
 
-When collaboration creates greater customer value, the network enables it.
+Routing begins with a service need and the minimum context necessary to evaluate possible paths.
 
-When direct operation is more appropriate, the network remains invisible.
+It may identify:
+
+- internal Capability;
+- an existing private partner;
+- a trusted extended-network option;
+- a limited public-discovery candidate.
+
+A recommendation is not an appointment.
+
+A ranking is not authority.
+
+Human selection, conflict and confidentiality checks, approval where required, governed instruction and provider acceptance remain separate.
 
 The objective is not to maximise transactions.
 
-It is to optimise service delivery.
-
----
+It is to improve professional outcomes while preserving organisational autonomy and relationship ownership.
 
 ## 8.7 Trust as Infrastructure
 

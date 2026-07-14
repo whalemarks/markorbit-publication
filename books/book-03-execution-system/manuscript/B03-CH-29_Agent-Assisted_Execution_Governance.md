@@ -1,5 +1,7 @@
 # B03-CH-29 — Agent-Assisted Execution Governance
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 Agent-assisted execution introduces a new operational capability: software may not only generate content, but also observe state, call tools, prepare actions, sequence work and return structured results.

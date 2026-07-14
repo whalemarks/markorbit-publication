@@ -19,10 +19,10 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](arc
 
 | Book | Title | Canonical Path | Status |
 |---|---|---|---|
-| Book 01 | MarkOrbit — The Operating System for Global Brand Services | `books/book-01-operating-system/` | Existing Draft; publication maturity not reassessed |
+| Book 01 | MarkOrbit — The Operating System for Global Brand Services | `books/book-01-operating-system/` | Release Candidate 1 |
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
-| Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Complete Draft 1 / Owner Accepted |
-| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1; owner final publication review pending |
+| Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
+| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
 | Book 05 | MarkReg | `books/book-05-markreg/` | Planned |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
@@ -37,7 +37,7 @@ Canonical path: `books/book-01-operating-system/`
 
 Positioning: Defines industry vision and Operating System principles.
 
-Publication state: Existing Draft; publication maturity not reassessed by the Architecture Canon vNext work.
+Publication state: Release Candidate 1 after MO-PUB-REV-0001 restored Chapter 1, reconciled the current publication map, aligned Orbital Architecture terminology, and completed publication apparatus.
 
 ### Book 02 — MarkOrbit Core Specification
 
@@ -55,7 +55,7 @@ Canonical path: `books/book-03-execution-system/`
 
 Positioning: Defines how approved Core contracts become governed operational execution.
 
-Publication state: Complete Draft 1 / Owner Accepted; pending final publication preparation. Final publication readiness, implementation readiness, and external protected-action authority remain separate states and are not approved.
+Publication state: Release Candidate 1. Owner-accepted Execution architecture is preserved; publication finishing and cross-book reconciliation are complete.
 
 ### Book 04 — MarkOrbit Workplace and Product Architecture
 
@@ -63,7 +63,7 @@ Canonical path: `books/book-04-workplace-product-architecture/`
 
 Positioning: Defines how an independent professional organization establishes its own operating orbit and consumes MarkOrbit Core, Execution, Knowledge, Intelligence, Capabilities, Products, and network services through its Workplace.
 
-Publication state: Release Candidate 1. CH00–CH39 remain structurally complete under B04-TOC-V0.1. B04-REV-0003 is owner accepted through merge. Native-English and compression review, ten architecture figures, source and authority notes, glossary, subject index, cross-book reconciliation, RC1 checklist, and B04-REV-0004 validation are complete. Owner final publication review is pending.
+Publication state: Release Candidate 1 — Owner Accepted / Portfolio Locked. CH00–CH39 remain structurally complete under B04-TOC-V0.1. Publication finishing and owner approval through merge of PR #31 are complete. B04-REV-0005 records the portfolio lock.
 
 ### Book 05 — MarkReg
 
@@ -83,19 +83,28 @@ Canonical path: `books/book-07-mark-global-service-network/`
 
 Positioning: Future publication subject for the service-routing, Capability, and Trust network connecting independent Workplaces.
 
-## Current Book 04 Gate
+## Books 01–04 Portfolio Baseline
+
+The current cross-book review is `MO-PUB-REV-0001`.
 
 ```text
-architecture and targeted review revisions owner accepted
-→ native-English and publication finishing completed
-→ Release Candidate 1 validation passed
-→ owner final publication review
-→ final publication approval and merge
+Book 01 — Release Candidate 1
+Book 02 — Frozen Core Specification Baseline v0.1
+Book 03 — Release Candidate 1
+Book 04 — Release Candidate 1, Owner Accepted and Portfolio Locked
 ```
 
-Ready for owner final publication review: **YES**
+The candidate baseline is `MO-PUB-BASELINE-0001`.
 
-Ready for final publication without owner approval: **NO**
+Current gate:
+
+```text
+owner reviews and merges the Portfolio Baseline
+→ baseline becomes effective
+→ Book 05 planning begins
+```
+
+Ready for Book 05 publication planning after merge: **YES**
 
 Ready for unrestricted implementation: **NO**
 

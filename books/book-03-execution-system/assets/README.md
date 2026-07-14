@@ -1,3 +1,5 @@
 # Book 03 Assets
 
-This directory is reserved for future Book 03 publication assets.
+Publication architecture figures are maintained in `../figures/`.
+
+Rendered images, cover assets and final-format production files may be added here under a separate release task.

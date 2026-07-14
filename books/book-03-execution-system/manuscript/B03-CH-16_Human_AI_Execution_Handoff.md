@@ -1,5 +1,7 @@
 # B03-CH-16 — Human–AI Execution Handoff
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 This chapter defines how AI and agents hand prepared work to authorized humans and governed services without becoming execution authority.

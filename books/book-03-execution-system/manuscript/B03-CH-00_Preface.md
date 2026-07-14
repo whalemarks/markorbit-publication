@@ -1,5 +1,7 @@
 # B03-CH-00 — Preface
 
+**Status:** Release Candidate 1
+
 MarkOrbit requires more than a correct Core and more than a usable Product.
 
 A professional operating system must also explain how valid contracts become accountable work: how context is assembled, how Workflows coordinate, how Tasks are created, how Human Review is requested, how Communications are prepared, how protected actions are gated, how failures stop safely, how Events preserve trace, and how AI assists without becoming the professional authority.
@@ -10,7 +12,7 @@ That is the purpose of **Book 03 — MarkOrbit Execution System**.
 
 Book 02 defines the MarkOrbit Core: canonical domains, objects, Services, contracts, controlled values and governance rules. Those definitions are necessary, but they do not by themselves coordinate an operational journey.
 
-Book 04 will define Product systems: user journeys, screens, controls, notifications and presentation. Products are necessary, but they must not invent execution meaning or bypass governance.
+Book 04 defines Workplace and Product Architecture: organization context, Product composition, user journeys, operating surfaces, controls, notifications and presentation. These responsibilities are necessary, but they must not invent execution meaning or bypass governance.
 
 Book 03 occupies the layer between them:
 
@@ -18,7 +20,7 @@ Book 03 occupies the layer between them:
 Book 02 — Core defines.
 Book 03 — Execution coordinates.
 Integration connects.
-Book 04 — Products consume.
+Book 04 — Workplace provides context and Products consume.
 Humans review.
 AI assists.
 Owning Services mutate.
@@ -48,7 +50,7 @@ The book uses trademark operations as the primary professional context, but its 
 
 Book 03 does not redefine Book 02 Core contracts.
 
-It does not define Product UI, Product navigation or user-experience behavior. Those belong to Book 04.
+It does not define organization-specific Workplace context, Product UI, Product navigation or user-experience behavior. Those belong to Book 04 and the dedicated Product publications.
 
 It does not define production connectors, payment processing, official filing, external Communication send, provider engagement or autonomous professional execution.
 

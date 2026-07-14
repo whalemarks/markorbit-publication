@@ -1,5 +1,7 @@
 # B03-CH-24 — Evidence Review Preparation Pattern
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 The Evidence Review Preparation Pattern organizes source Documents, Evidence references, target propositions, time, jurisdiction, goods/services scope and review questions without certifying sufficiency, admissibility, authenticity or official acceptability.

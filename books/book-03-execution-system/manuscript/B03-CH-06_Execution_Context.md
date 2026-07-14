@@ -1,5 +1,7 @@
 # B03-CH-06 — Execution Context
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 This chapter defines **Execution Context**.
@@ -862,7 +864,7 @@ This chapter does not define:
 - a full Distillery data model;
 - autonomous AI context execution.
 
-Those topics belong to Core review, Product System, research or implementation.
+Those topics belong to Core review, Workplace and Product Architecture, research or implementation.
 
 This chapter only defines Execution Context as an operational concept for Book 03.
 

@@ -1,5 +1,7 @@
 # B03-CH-17 — Intake Execution Pattern
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 This chapter begins Part III — Execution Patterns.

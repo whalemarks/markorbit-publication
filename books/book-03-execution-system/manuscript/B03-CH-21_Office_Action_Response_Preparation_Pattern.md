@@ -1,5 +1,7 @@
 # B03-CH-21 — Office Action Response Preparation Pattern
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 The Office Action Response Preparation Pattern converts an official notice and related Matter context into a governed professional preparation package without certifying the deadline, deciding final legal strategy or submitting an official response.

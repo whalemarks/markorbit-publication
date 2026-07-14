@@ -1,5 +1,7 @@
 # B03-CH-27 — Versioning and Change Control
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 Execution depends on meaning remaining stable long enough for people and Services to act responsibly.

@@ -1,5 +1,7 @@
 # B03-CH-19 — Communication Review Pattern
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 The Communication Review Pattern governs the path from a proposed message to a version-bound review outcome without allowing draft preparation, approval and transmission to collapse into one action.

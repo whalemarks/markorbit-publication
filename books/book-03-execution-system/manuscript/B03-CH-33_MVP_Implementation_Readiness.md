@@ -1,5 +1,7 @@
 # B03-CH-33 — MVP Implementation Readiness
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 A manuscript boundary is not implementation readiness.
@@ -927,7 +929,7 @@ It must not remove the workflow.
 
 ## 17. Product Consumption Readiness
 
-The Execution MVP may be implemented before Book 04 Product surfaces are complete.
+The Execution MVP may be implemented before Book 04 Workplace and Product surfaces are complete.
 
 However, the execution output must be safe for Product consumption.
 

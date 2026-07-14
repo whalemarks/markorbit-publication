@@ -1,5 +1,7 @@
 # B03-CH-20 — Provider Routing Preparation Pattern
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 The Provider Routing Preparation Pattern organizes the facts, constraints, candidates and review questions needed for a future provider decision without selecting, engaging or instructing a provider.

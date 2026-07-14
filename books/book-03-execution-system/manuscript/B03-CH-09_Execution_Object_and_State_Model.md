@@ -1,5 +1,7 @@
 # B03-CH-09 — Execution Object and State Model
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 This chapter defines how Book 03 describes execution subjects, operational progress, state observations, transition requests, and outcomes without creating a second object model beside Book 02 Core.
@@ -171,7 +173,7 @@ The model distinguishes four layers.
 | Core Object State | Professional lifecycle state of Trademark, Matter, Order, Task, Communication, Workflow Contract, and other Core Objects | Owning Object Specification and owning Service | No |
 | Contract Outcome | Controlled result of validation, preview, apply, review, Permission, Policy, error, idempotency, or another governed interaction | Applicable Book 02 Contract and owning evaluator/service | No; Book 03 consumes it |
 | Execution Progress View | A time-bounded coordination view assembled from references, observed states, contract outcomes, trace, and pending work | Derived by Execution under Book 03 rules; not Core truth | It may derive and expose the view, but not replace source state |
-| Product Presentation State | User-facing interpretation, label, grouping, or control state | Book 04 Product System, constrained by the Execution outcome | Product may present; it must not redefine Core or Execution truth |
+| Product Presentation State | User-facing interpretation, label, grouping, or control state | Book 04 Workplace and Product Architecture, constrained by the Execution outcome | Product may present; it must not redefine Core or Execution truth |
 
 The layers must remain distinguishable.
 

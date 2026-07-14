@@ -1,5 +1,7 @@
 # B03-CH-07 — From Core Contracts to Execution Runtime
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 This chapter explains how MarkOrbit moves from **Core contracts** to **Execution Runtime**.

@@ -1,5 +1,7 @@
 # B03-CH-15 — Permission and Policy Gates
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 This chapter defines how Book 03 coordinates Permission and Policy as independent gates before protected execution.

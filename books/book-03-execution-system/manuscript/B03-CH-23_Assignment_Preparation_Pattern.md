@@ -1,5 +1,7 @@
 # B03-CH-23 — Assignment Preparation Pattern
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 The Assignment Preparation Pattern organizes current ownership, proposed parties, affected Trademarks, transaction scope, Documents, Evidence, jurisdiction requirements and professional review without certifying legal effect, mutating owner state or filing an official recordal.

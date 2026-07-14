@@ -1,5 +1,7 @@
 # B03-CH-25 — Idempotency and Retry Governance
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 Execution is rarely a single uninterrupted path.
@@ -169,7 +171,7 @@ channel
 external provider
 version
 time boundary
-tenant or organization
+organization
 ```
 
 The scope must be narrow enough to avoid unrelated conflicts and strong enough to prevent harmful duplication.

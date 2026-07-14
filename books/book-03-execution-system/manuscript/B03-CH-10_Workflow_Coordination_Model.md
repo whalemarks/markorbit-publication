@@ -1,5 +1,7 @@
 # B03-CH-10 — Workflow Coordination Model
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 This chapter defines how Book 03 coordinates Workflow Contracts without turning Workflow into a new owner of Core behavior or state.

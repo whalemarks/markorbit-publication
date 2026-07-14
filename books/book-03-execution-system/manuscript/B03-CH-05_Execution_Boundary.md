@@ -1,5 +1,7 @@
 # B03-CH-05 — Execution Boundary
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 This chapter defines the boundary of the MarkOrbit Execution System.
@@ -39,7 +41,7 @@ Book 02 — Core Specification
   ↓
 Book 03 — Execution System
   ↓
-Book 04 — Product System
+Book 04 — Workplace and Product Architecture
 ```
 
 Its boundary can be defined as:

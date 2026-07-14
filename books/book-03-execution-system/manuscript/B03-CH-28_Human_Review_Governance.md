@@ -1,5 +1,7 @@
 # B03-CH-28 — Human Review Governance
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 Human Review is the accountable control that prevents preparation, automation, AI assistance and workflow coordination from becoming professional authority by themselves.

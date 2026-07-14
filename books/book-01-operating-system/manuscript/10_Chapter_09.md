@@ -72,33 +72,35 @@ The ecosystem grows because its participants grow together.
 
 ---
 
-## 9.3 Knowledge Becomes Shared Capability
+## 9.3 Knowledge Can Become Shared Capability
 
 Professional knowledge has traditionally been accumulated within organisations.
 
-Successful methods remain internal.
+Successful methods often remain private.
 
-Lessons learned are rarely shared beyond trusted relationships.
+Lessons may be shared only through trusted relationships.
 
-As a result, the industry repeatedly solves similar problems.
+This privacy is not a defect.
 
-An operating system changes this dynamic.
+Private Knowledge, client context and organisational experience are valuable assets.
 
-Validated knowledge gradually becomes reusable capability.
+An operating system creates a governed path through which selected learning may become reusable without treating private material as common property.
 
-Patterns become architecture.
+```text
+Private experience
+→ candidate
+→ provenance and privacy review
+→ professional validation
+→ governance decision
+→ approved, experimental or rejected Knowledge
+→ reusable Capability where appropriate
+```
 
-Experience becomes guidance.
+Only authorized and validated contributions should strengthen shared infrastructure.
 
-Best practices become shared infrastructure.
+The organisation chooses what may leave its Orbit.
 
-Knowledge no longer benefits only one organisation.
-
-It strengthens the ecosystem itself.
-
-This transformation—from private knowledge to shared capability—is one of the defining characteristics of a mature professional ecosystem.
-
----
+The ecosystem gains from contribution without claiming ownership of everything an organisation knows.
 
 ## 9.4 Continuous Validation
 
@@ -106,53 +108,54 @@ Innovation alone does not improve an ecosystem.
 
 Ideas must be tested.
 
-Capabilities must be validated.
+Candidates must preserve sources and scope.
 
-Experience must be accumulated.
+Capabilities must be supported by evidence.
 
-Only then should architectural change occur.
+Professional and governance review must determine what may be reused.
+
+Only then should shared architecture or Knowledge change.
 
 This principle protects long-term stability.
 
 New ideas are encouraged.
 
-Successful practice is recognised.
+Successful practice may be recognised.
 
-Proven capability becomes shared infrastructure.
+Proven Capability may become shared infrastructure through explicit approval.
 
 The ecosystem evolves through evidence rather than assumption.
 
 Validation is therefore not a final step.
 
-It is a continuous process.
+It is a continuous, accountable process.
 
----
+## 9.5 Artificial Intelligence Assists Ecosystem Learning
 
-## 9.5 Artificial Intelligence Learns With the Ecosystem
+Artificial Intelligence can help organisations retrieve, compare, summarize, recommend and prepare.
 
-Artificial Intelligence improves through experience.
+It can also help identify patterns across material that an organisation is authorized to use.
 
-Professional organisations improve through experience.
+That does not make AI an independent professional participant or give it ownership of ecosystem experience.
 
-The ecosystem connects these two forms of learning.
+AI improvement must remain governed by:
 
-Every validated workflow enriches operational knowledge.
+- source authority;
+- provenance;
+- purpose limitation;
+- privacy and data boundary;
+- professional validation;
+- versioning;
+- Human Review;
+- explicit permission for any shared contribution.
 
-Every successful collaboration strengthens decision-making.
+Every completed service does not automatically train a common system.
 
-Every completed service improves future recommendations.
+Every private communication does not automatically become shared Knowledge.
 
-Artificial Intelligence is therefore not merely another tool within the ecosystem.
+Approved, appropriately transformed and governed learning may improve future recommendations.
 
-It becomes one of its participants.
-
-Not a replacement for professional judgement.
-
-A multiplier of professional capability.
-
-As the ecosystem matures, human expertise and machine intelligence evolve together.
-
----
+Human expertise and machine assistance can therefore evolve together without transferring professional responsibility to AI or private organisational memory to the ecosystem.
 
 ## 9.6 A Positive Feedback Loop
 

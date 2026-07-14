@@ -1,5 +1,18 @@
 # Book 03 Changelog
 
+## 2026-07-14 — Portfolio Baseline and RC1
+
+- Reconciled active Book 04 references with Workplace and Product Architecture.
+- Corrected active descriptions that reduced Workplace to a Product surface.
+- Removed remaining active tenant terminology.
+- Normalized CH00–CH34 status to Release Candidate 1.
+- Added publication style, source, glossary, subject-index, figure-register, cross-book and RC1 records.
+- Added ten reusable Mermaid architecture figures.
+- Added B03-REV-0007 and established Book 03 Release Candidate 1 for the Portfolio Baseline.
+- Recorded final public-release copyediting and rendered-format review as separate publication tasks.
+- Confirmed no Book 02 Change Proposal is required.
+- Preserved the Depth A / B / C execution boundary and all protected-action prohibitions.
+
 ## 2026-07-12
 
 - Recorded that PUB-TASK-B02-001 resolves the Book 02 status/transition classification decision upon merge, while the status-value and workflow-component specification pack remains the next implementation gate.

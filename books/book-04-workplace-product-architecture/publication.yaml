@@ -2,7 +2,7 @@ book: "Book 04"
 title: "MarkOrbit Workplace and Product Architecture"
 canonical_path: "books/book-04-workplace-product-architecture/"
 status: "release_candidate_1"
-phase: "owner_final_publication_review"
+phase: "portfolio_baseline_locked"
 positioning: "Defines how an independent professional organization establishes its own operating Orbit and consumes MarkOrbit Core, Execution, Knowledge, Intelligence, Capabilities, Products, and network services through its Workplace."
 architecture_direction_owner_accepted: true
 chapter_map:
@@ -30,10 +30,12 @@ publication_apparatus:
   cross_book_reconciliation: true
   rc1_checklist: true
 current_review:
-  id: "B04-REV-0004"
-  title: "Publication Finishing and RC1 Review"
-  status: "completed_owner_final_publication_review_pending"
+  id: "B04-REV-0005"
+  title: "Portfolio Baseline Lock"
+  status: "completed_owner_portfolio_review_pending"
 historical_reviews:
+  - id: "B04-REV-0004"
+    status: "owner_accepted_through_merge"
   - id: "B04-REV-0003"
     status: "owner_accepted_through_merge"
   - id: "B04-REV-0002"
@@ -47,12 +49,11 @@ cross_book_reconciliation:
   book_03_amendment_required: false
   historical_upstream_editorial_errata: "recorded_non_blocking"
 remaining_publication_work:
-  owner_final_publication_review: true
-  owner_final_publication_approval: true
-  rc1_pull_request_merge: true
   published_format_rendering_if_requested: true
-ready_for_owner_final_publication_review: true
-ready_for_final_publication_without_owner_approval: false
+owner_final_publication_review_completed: true
+owner_final_publication_approval_recorded_through_merge: true
+portfolio_baseline_locked: true
+published_format_rendering_completed: false
 ready_for_unrestricted_implementation: false
 production_ready: false
 external_protected_action_authorized: false

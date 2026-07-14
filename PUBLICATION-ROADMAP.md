@@ -26,7 +26,7 @@ Book 03 — MarkOrbit Execution System contains CH00–CH34 and Appendices A–H
 
 ## Phase 6: Book 03 Publication Finishing
 
-Prepare Book 03 for final publication through native-English line editing, diagrams, citation and styling conventions, appendix and glossary freeze, cross-book reconciliation, and release-candidate packaging.
+Established the publication-finishing workstream for Book 03. Phase 14 completes the Portfolio Baseline portion through structural and terminology reconciliation, publication apparatus, figures, cross-book review and RC1 packaging. Final public-release copyediting and rendered-format review remain separate tasks.
 
 ## Phase 7: Book 02 Core Specification Baseline Freeze
 
@@ -79,14 +79,14 @@ Phase 13 records that:
 - no Book 02 semantic amendment is required;
 - no Book 03 Execution amendment is required;
 - B04-REV-0004 records publication finishing and RC1 validation;
-- owner final publication review is the current gate;
+- owner final publication review was completed through merge of PR #31;
 - no unrestricted implementation, production deployment, or external protected action is authorized.
 
 ## Active Future Workstreams
 
 - Architecture Canon maintenance
-- Book 04 owner final publication review and approval
-- Book 03 publication finishing
+- Books 01–04 Portfolio Baseline owner review
+- Book 05 MarkReg positioning and chapter-map preparation
 - Repository Canonical Alignment Audits
 - Lite Product-loop validation
 - MarkReg Product planning
@@ -108,32 +108,48 @@ The following remain horizontal architecture/specification or implementation wor
 
 | Book | Title | Planned canonical path | Status |
 | --- | --- | --- | --- |
-| Book 01 | MarkOrbit — The Operating System for Global Brand Services | `books/book-01-operating-system/` | Existing Draft; publication maturity not reassessed |
+| Book 01 | MarkOrbit — The Operating System for Global Brand Services | `books/book-01-operating-system/` | Release Candidate 1 |
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
-| Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Complete Draft 1 / Owner Accepted |
-| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1; owner final publication review pending |
+| Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
+| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
 | Book 05 | MarkReg | `books/book-05-markreg/` | Planned |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
 Publication order does not determine software implementation order. Planned missing Book 05–07 directories may produce manifest warnings but must not produce validation errors.
 
-## Current Book 04 Gate
+## Phase 14 — Books 01–04 Portfolio Baseline Review
+
+MO-PUB-REV-0001 completed the one-time baseline review.
+
+Phase 14 records that:
+
+- Book 01 Chapter 1 was restored and Book 01 advanced to RC1;
+- Book 01 publication mapping and Orbital Architecture language were reconciled;
+- Book 02 remains frozen and requires no semantic Change Proposal;
+- Book 03 active Book 04 and Workplace terminology was corrected;
+- Book 03 publication finishing completed and advanced to RC1;
+- Book 04 RC1 owner approval through merge was recorded;
+- MO-PUB-BASELINE-0001 is ready for owner acceptance;
+- Book 05 planning may begin after merge;
+- unrestricted implementation, production deployment and external protected action remain unauthorized.
+
+## Post-Baseline Publication Sequence
 
 ```text
-architecture and targeted review revisions owner accepted
-→ native-English and publication finishing completed
-→ Release Candidate 1 validation passed
-→ owner final publication review
-→ final publication approval and merge
+Books 01–04 Portfolio Baseline
+→ Book 05 MarkReg
+→ Book 06 MarkOrbit Lite
+→ Book 07 Mark Global Service Network
 ```
+
+Publication order does not determine software implementation order.
 
 ## Publication and Authority Boundary
 
 No current roadmap phase authorizes:
 
-- final publication of Book 04 without owner approval;
 - unrestricted Product implementation;
 - production deployment;
 - autonomous AI professional action;
-- external Communication, filing, payment, provider instruction, or official recordal.
+- external Communication, filing, payment, provider instruction or official recordal.

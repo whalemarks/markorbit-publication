@@ -1,5 +1,7 @@
 # B03-CH-32 — MVP Execution Workflow Set
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 Chapter 31 defined the boundary of the MarkOrbit Execution MVP.

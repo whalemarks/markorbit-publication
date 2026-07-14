@@ -1,5 +1,13 @@
-This directory contains the canonical manuscript of Book 1.
+# Book 01 Manuscript
 
-All chapters are ordered numerically.
+This directory contains the canonical Book 01 manuscript.
 
-The publication manifest (publication.yaml) is the source of truth for chapter order.
+Order is controlled by `publication.yaml`.
+
+The manuscript includes:
+
+- Preface and Contents;
+- Chapters 1–9;
+- Appendices A–C.
+
+Book 01 uses a conceptual essay style rather than the numbered specification style used in later books. Publication status is controlled at book level.
