@@ -1,358 +1,166 @@
 # B05-CH-39 — Renewal Preparation and Governed Renewal
 
-**Status:** Part VI Draft  
+**Status:** Complete Draft 1  
 **Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part VI — Registration and Portfolio Continuity
 
 ## Chapter Purpose
 
-Renewal is a protected lifecycle action. It requires right identification, owner verification, scope confirmation, deadline control, fee transparency, authority, provider or connector readiness, approval, filing evidence and official acknowledgement.
-
-The central progression is:
+Renewal is a protected lifecycle action. A reminder, payment or prepared form does not renew a right.
 
 ```text
-Renewal Obligation
-→ Renewal Intake
-→ Renewal Package Candidate
-→ Professional Review
-→ Client Confirmation
-→ Renewal Approval
-→ Governed Filing
-→ Official Acknowledgement
-→ Updated Right Baseline
+EL-32 / CH39
+MR-B01 Right Baseline
++ MR-B02 Maintenance Obligation Set
+→ MR-A26 Renewal Package Candidate
+→ MR-D08 Renewal Approval
+→ MR-A17 Execution Request
+→ MR-E04 Official Acknowledgement Evidence
+→ MR-E09 Official Update Evidence
+→ updated MR-B01 Right Baseline
 ```
 
+The Product question is:
+
+> Which right, owner and scope should be renewed, under which sourced Rule, at what cost and by which verified deadline?
+
 ```text
-Calendar Reminder
+Reminder
 ≠ Renewal Instruction
 ≠ Renewal Approval
-≠ Renewal Filing
-≠ Renewed Right
+≠ filed renewal
+≠ renewed right
 ```
 
----
+## 1. Verified Renewal Basis
 
-## 1. User Question and Primary Action
+Preparation begins from a current `MR-B01 Right Baseline` and should verify:
 
-**User question:** Which rights should be renewed, under whose name, for which scope, at what cost, and before which verified deadline?
-
-**Primary action:** Confirm the renewal scope and owner, resolve blockers, approve the exact Renewal Package Candidate and authorize governed filing.
-
----
-
-## 2. Renewal Starts from a Verified Right
-
-The Product should verify:
-
-- office and jurisdiction;
-- registration number;
-- registered owner;
-- current status;
+- office, jurisdiction and registration number;
+- current official owner and representative;
 - registered classes and scope;
-- ordinary renewal date;
-- opening date;
-- grace period and surcharge;
-- active proceedings;
-- pending recordals;
-- representative requirement;
-- official fee source;
-- provider requirement.
+- ordinary opening and due dates;
+- grace period, surcharge and restoration route;
+- active proceedings and pending recordals;
+- required declarations, Evidence and Documents;
+- current Pack, official fee and Provider route.
 
-A copied spreadsheet row is not sufficient authority for renewal.
+A spreadsheet row or old calendar entry is not sufficient authority.
 
----
+## 2. Renewal Package Candidate
 
-## 3. Renewal Intake Is Narrow but Material
+`MR-A26 Renewal Package Candidate` should contain:
 
-Renewal Intake should ask only what is necessary to determine:
+- exact right and source version;
+- owner basis and unresolved ownership issues;
+- full or partial renewal scope;
+- classes or items that will continue or lapse;
+- ordinary, late or restoration route;
+- documents, declarations and Evidence;
+- official, professional, Provider and recordal costs;
+- tax, currency, surcharge and payment condition;
+- Provider or connector route;
+- dependencies, deadline and package version.
 
-- whether the right should be renewed;
-- whether all or selected classes remain commercially relevant;
-- whether the owner or address changed;
-- whether any assignment, merger or name change is pending;
-- whether local representation continues;
-- whether use or declaration requirements apply;
-- who may instruct and approve;
-- who will pay;
-- whether late filing or restoration is involved.
+Material owner, scope, fee or Rule changes create a new package version.
 
-Prior data may be reused, but material facts must be reconfirmed.
+## 3. Full, Partial and Non-Renewal Choices
 
----
+Where permitted, the client may renew all or only part of the registered scope. The decision surface must show:
 
-## 4. Renewal Package Candidate
-
-The package should preserve:
-
-- right identity and official source;
-- registered owner and address;
-- renewal scope by class;
-- proposed limitation or deletion;
-- required declarations;
-- required evidence and Documents;
-- representative and provider;
-- ordinary and late deadlines;
-- official, professional and provider fees;
-- currency, tax and validity;
-- payment condition;
-- unresolved recordal or dispute;
-- source versions;
-- package version;
-- approval requirements.
-
----
-
-## 5. Full and Partial Renewal
-
-Where permitted, a client may renew:
-
-- all classes;
-- selected classes;
-- a limited scope;
-- selected related rights.
-
-The Product should show:
-
-- what will continue;
-- what will lapse or be removed;
+- continuing and lapsing scope;
 - irreversible consequences;
-- cost differences;
+- cost difference;
 - portfolio gaps;
-- related rights that remain unaffected.
+- related rights that remain unaffected;
+- restoration or later recovery limits.
 
-A package selection must not hide independent right and class consequences.
+A deliberate decision not to renew is recorded separately as `MR-D10 Non-Renewal Decision`. Silence or non-payment is not that decision.
 
----
+## 4. Ownership and Recordal Dependency
 
-## 6. Owner Verification and Pending Recordal
-
-Possible states include:
+Possible owner states include:
 
 ```text
-Official owner confirmed
-Name change pending
-Address change pending
-Assignment signed but not recorded
-Merger evidence available
-Ownership disputed
-Instructor differs from owner
+official owner confirmed
+name or address change pending
+assignment signed but not recorded
+merger evidence available
+ownership disputed
+instructor differs from owner
 ```
 
-The Product should rely on jurisdiction rules and professional review to determine whether renewal may proceed:
+The sequence may be recordal first, renewal first, combined, parallel or blocked. The applicable Pack and eligible professional decide; MarkReg does not apply one universal shortcut.
 
-- under the current official owner;
-- together with a recordal;
-- after recordal;
-- with explanatory evidence;
-- through restoration or special procedure.
+## 5. Renewal Approval
 
-It should not assume one universal sequence.
-
----
-
-## 7. Renewal Fees and Commercial Control
-
-The price model should separate:
-
-- official renewal fee;
-- per-class or per-right fee;
-- late surcharge;
-- professional fee;
-- provider fee;
-- recordal fee;
-- evidence or declaration work;
-- translation, notarization or legalization;
-- tax and bank charge;
-- contingency.
-
-A provider quote excluding late fees or recordal work must not be presented as a complete renewal total.
-
----
-
-## 8. Renewal Approval
-
-Renewal Approval should identify:
+`MR-D08 Renewal Approval` must reference:
 
 - exact package version;
-- right and jurisdiction;
-- owner basis;
-- classes and scope;
-- ordinary or late route;
-- fees and currency;
-- payment condition;
-- provider or connector route;
-- decision-maker and authority;
-- approval time;
-- expiry or invalidation conditions.
+- right, owner basis and jurisdiction;
+- continuing and lapsing scope;
+- ordinary, late or restoration route;
+- fees, currency and payment condition;
+- execution route;
+- approving actor and authority;
+- time, expiry and invalidation conditions.
 
-A scope or owner change after approval may require a new package and approval.
+Approval is not Execution and does not prove renewal.
 
----
+## 6. Filing, Acknowledgement and Official Update
 
-## 9. Filing and Acknowledgement
-
-Renewal filing reuses Part IV controls:
+Renewal reuses Part IV controls:
 
 ```text
-Approved Renewal Package
-→ Governed Execution Request
-→ Sent or Provider Accepted
-→ Official Acknowledgement
-→ Updated Official Record
+approved MR-A26
+→ MR-A17 Execution Request
+→ MR-E01 Submission Evidence
+→ MR-E04 Official Acknowledgement Evidence
+→ MR-E09 Official Update Evidence
 ```
 
-The Product should distinguish:
+Provider filing reports, technical delivery, office receipt, accepted renewal and updated official term remain distinct. Unknown external effect requires reconciliation before retry.
 
-- provider says filed;
-- office delivery confirmed;
-- renewal accepted;
-- deficiency issued;
-- renewal recorded;
-- certificate or extract updated;
-- unknown status.
+## 7. `RIVERKITE` — `RK-10`
 
----
+The six registrations remain independent:
 
-## 10. Renewal Failure and Recovery
+- four ordinary renewals proceed through separate `MR-A26` packages;
+- one renewal remains linked to a two-step chain-of-title correction;
+- one registration remains in cancellation defense and is not automatically grouped into the renewal action.
 
-Failure may arise from:
+For the ownership-linked right, the sourced professional decision permits renewal under the current official owner while recordal proceeds in parallel. The package states that owner basis explicitly. Filing and renewed-right outcomes still require their own official Evidence.
 
-- wrong right or owner;
-- missed ordinary deadline;
-- payment failure;
-- class mismatch;
-- recordal dependency;
-- provider non-response;
-- office rejection;
-- duplicate filing;
-- acknowledgement absence.
+## 8. `EMBERLOOP` — `EL-32`
 
-Retry and restoration decisions should preserve idempotency, prior effects, fee movement, deadline state and renewed approval.
+The UK registration is not yet within its renewal window. MarkReg retains the future obligation and shows `Not Yet Open`. It does not create `MR-A26`, request payment or imply present instruction.
 
----
+## 9. Controlled Scenarios
 
-## 11. Updated Right Baseline
+- **MR-SCN-07 — Official-fee change:** assess open package and Quote impact; no silent repricing.
+- **MR-SCN-16 — Package changed after approval:** show the diff and invalidate affected Review or approval.
+- **MR-SCN-23 — Technical success without official receipt:** retain uncertain state and reconcile.
+- **MR-SCN-31 — Partial renewal or owner mismatch:** expose scope reduction and ownership dependency and require exact-version approval.
+- **MR-SCN-32 — Assignment signed but not recorded:** keep contractual and official owner states separate.
 
-After sourced renewal acknowledgement, the Product creates a new Right Baseline version containing:
+## 10. AI Assistance
 
-- renewed term or next date;
-- renewed scope;
-- owner and representative state;
-- official evidence;
-- fees and filing references;
-- unresolved obligations;
-- next maintenance actions.
+AI may assemble candidates, compare owner and scope, calculate candidate dates and fees and identify recordal dependencies. It must not decide ownership, choose rights to abandon, authorize partial renewal, waive fees or declare the renewal effective without sourced Evidence.
 
-The old baseline remains auditable.
-
----
-
-## 12. Reference Journey — RIVERKITE
-
-Six registrations approach renewal.
-
-The Product produces six independent Renewal Package Candidates:
-
-- four ordinary renewals under confirmed owners;
-- one renewal with a pending assignment;
-- one right under cancellation challenge.
-
-For the pending assignment jurisdiction, the jurisdiction pack and local professional conclude that renewal may be filed under the current official owner while the assignment recordal proceeds in parallel. The Product therefore creates:
-
-```text
-Renewal Package Candidate v2
-+ Linked Assignment Recordal Context
-+ Explicit Owner Basis
-```
-
-The cancellation challenge remains visible but does not automatically block renewal. Client approval covers five renewals; the sixth is held pending budget decision.
-
----
-
-## 13. Reference Journey — EMBERLOOP
-
-The UK registration is not yet within the renewal window. MarkReg does not create a filing package prematurely.
-
-It retains:
-
-- verified future renewal date;
-- evidence-collection recommendation;
-- owner and representative state;
-- calendar responsibility.
-
-The Product shows `Not Yet Open`, not `Ready to Renew`.
-
----
-
-## 14. Conformance Scenarios
-
-### Scenario A — Client selects only some classes
-
-**Given** a multi-class registration  
-**When** the client elects partial renewal  
-**Then** the package shows continuing and lapsing scope and requires version-specific approval.
-
-### Scenario B — Assignment signed but unrecorded
-
-**Given** a signed assignment and a different official owner  
-**When** renewal preparation begins  
-**Then** the Product creates a recordal dependency and follows the jurisdiction-specific professional decision rather than assuming the assignee may file.
-
-### Scenario C — Provider quote excludes late surcharge
-
-**Given** the ordinary deadline has passed  
-**When** the provider quote contains only ordinary fees  
-**Then** the Product blocks final quote and approval until late-fee treatment is resolved.
-
-### Scenario D — Provider reports filing without official evidence
-
-**Given** a provider states renewal was filed  
-**When** no official acknowledgement is available  
-**Then** the Product shows provider-reported filing and continues reconciliation.
-
----
-
-## 15. AI Assistance Boundary
-
-AI may:
-
-- assemble renewal candidates;
-- compare owner and scope;
-- calculate candidate fees and dates;
-- identify recordal dependencies;
-- prepare package diffs;
-- summarize choices.
-
-AI may not:
-
-- decide ownership;
-- select rights to abandon;
-- authorize partial renewal;
-- waive late fees;
-- approve filing;
-- declare renewal effective without sourced acknowledgement.
-
----
-
-## 16. Minimum Renewal Lock
+## 11. Minimum Renewal Lock
 
 ```text
 Renewal is a protected action.
 
-Right identity, owner, scope,
-deadline, fees, authority,
-approval, filing and acknowledgement
+Right, owner, scope, deadline,
+fees, authority, approval,
+Execution and official update
 remain explicit and versioned.
 
 A pending recordal or dispute
-is evaluated by jurisdiction and right,
-not by a universal shortcut.
+is evaluated per right and jurisdiction.
 ```
 
----
+## 12. Handoff to Recordals
 
-## 17. Handoff to Changes and Recordals
-
-The output is an approved or completed Renewal Package with an updated Right Baseline.
-
-CH40 defines how name, address, representative, limitation, correction and other official-record changes are prepared and governed.
+CH40 governs the `MR-C07 Recordal Context`, `MR-A27 Recordal Package Candidate` and `MR-D09 Recordal Approval` needed when official data must change.
