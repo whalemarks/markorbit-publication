@@ -2,12 +2,12 @@
 
 ## Current State
 
-- **Status:** CH00–CH22 Whole-Draft Review Complete — Revision Required
+- **Status:** B05-REVISION-PACK-001 Product Contracts Complete — Manuscript Application Pending
 - **Title:** MarkReg: The Full-Lifecycle International Trademark Product
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
-- **Manuscript:** CH00–CH22 drafted
+- **Manuscript:** CH00–CH22 drafted; controlled Product specifications added
 - **Architecture dependency:** MO-PUB-BASELINE-0001
-- **Current gate:** B05-REVISION-PACK-001 — Whole-Draft Productization and Editorial Consolidation
+- **Current gate:** apply controlled specifications to CH00–CH22, normalize metadata, consolidate repetition, and re-run the whole-draft review
 
 ## Owner-Accepted Baseline
 
@@ -25,83 +25,60 @@ The map remains subject to explicit Book 05 change control.
 ## Completed Work
 
 - Established the canonical Book 05 directory and dependency lock.
-- Drafted CH00–CH07 and completed the Part I pack review.
-- Drafted CH08–CH15 and completed the Part II pack review.
-- Drafted CH16–CH22 and completed the Part III pack review.
-- Completed B05-REV-0004, the first whole-draft review across CH00–CH22.
+- Drafted CH00–CH22 and completed the three writing-pack reviews.
+- Completed B05-REV-0004, the first whole-draft review.
 - Confirmed architecture conformance, Product positioning, lifecycle direction, responsibility boundaries, and part-to-part sequence.
-- Identified Product-definition, editorial, example, conformance, user-surface, jurisdiction-pack, and commercial-control revisions required before Part IV.
+- Created B05-SPEC-0001, the canonical Product Artifact and Decision Map.
+- Created B05-SPEC-0002 with one end-to-end filing journey and one contrasting renewal/ownership journey.
+- Created B05-SPEC-0003 with testable conformance scenarios and the CH08–CH22 user-surface matrix.
+- Created B05-SPEC-0004 with the minimum jurisdiction-pack and commercial-control contract.
+- Added the reusable Constitutional Rules and minimum controlled diagram set.
 
 ## Current Decisions
 
 ```text
 MarkReg is a Product: YES
 MarkReg is the whole Operating System: NO
-MarkReg is Workplace: NO
-MarkReg is Core: NO
-MarkReg is Execution: NO
-MarkReg is MGSN: NO
-MarkReg is an official office: NO
-MarkReg is an Owning Service: NO
+MarkReg is Workplace, Core, Execution, MGSN, an official office, or an Owning Service: NO
 MarkReg is an open provider marketplace: NO
 
 B05-TOC-V0.1 owner accepted: YES
 Seven-part structure retained: YES
 CH00–CH22 whole-draft review complete: YES
+Canonical Product artifact model defined: YES
+Reference journeys defined: YES
+Scenario conformance model defined: YES
+CH08–CH22 user-surface contract defined: YES
+Minimum jurisdiction-pack contract defined: YES
+Commercial-control contract strengthened: YES
 Part IV authorized: NO
-Whole-draft revision required: YES
+Manuscript application and editorial consolidation required: YES
 
-Proposal equals Quote: NO
-Quote acceptance equals payment: NO
-Payment equals filing approval: NO
-Commercial Instruction equals provider instruction: NO
-Need Brief equals Formal Intake: NO
-Complete Intake equals filing-ready: NO
-Uploaded file equals valid Document: NO
-Scan equals physical original: NO
-Signature automatically establishes authority: NO
-Order equals Matter: NO
-Matter equals Workflow: NO
-Execution Context equals submission: NO
+Recommendation equals Decision: NO
+Readiness equals approval: NO
+Approval equals execution: NO
+Submission equals official acknowledgement: NO
+Product projection equals official truth without source: NO
 AI may assist under explicit governance: YES
 AI may bind commercial or professional authority: NO
 ```
 
-## Whole-Draft Review Result
+## Revision Pack Progress
 
-```text
-Architecture conformance: PASS
-Product positioning: PASS
-Lifecycle direction: PASS
-Responsibility boundaries: PASS
-Part-to-part logical sequence: PASS
-Whole-book editorial coherence: CONDITIONAL PASS
-Practical Product definition: REVISION REQUIRED
-Examples and validation evidence: REVISION REQUIRED
-Publication readiness: NOT READY
-Part IV drafting authorization: HOLD
-
-Architecture Canon change required: NO
-Book 02 semantic change required: NO
-Book 03 Execution change required: NO
-Book 04 Product-boundary change required: NO
-Book 05 controlled revision required: YES
-```
-
-## Active Revision Pack
-
-B05-REVISION-PACK-001 — Whole-Draft Productization and Editorial Consolidation:
-
-1. Create the canonical Product Artifact and Decision Map.
-2. Add one end-to-end filing reference journey and one contrasting lifecycle journey.
-3. Add scenario-based conformance cases for Parts II and III.
-4. Consolidate repeated constitutional language and introduce reusable rule references.
-5. Define the minimum jurisdiction-pack contract required by Parts II–IV.
-6. Strengthen commercial controls.
-7. Add user-surface and next-action summaries to CH08–CH22.
-8. Normalize chapter and review metadata.
-9. Add the minimum diagram and summary-table set.
-10. Re-run whole-draft review before authorizing Part IV.
+| Required work | Status |
+| --- | --- |
+| Canonical Product Artifact and Decision Map | Complete |
+| End-to-end and contrasting reference journeys | Complete |
+| Scenario-based conformance cases | Complete |
+| Reusable constitutional rules | Complete |
+| Minimum jurisdiction-pack contract | Complete |
+| Commercial-control model | Complete |
+| CH08–CH22 user-surface and next-action matrix | Complete |
+| Minimum diagram and summary-table set | Complete |
+| Apply specifications and references to manuscript | Pending |
+| Normalize chapter and review metadata | Pending |
+| Consolidate repeated constitutional language | Pending |
+| Re-run whole-draft review | Pending |
 
 ## Deferred Writing Pack
 
