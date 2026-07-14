@@ -4,8 +4,8 @@
 
 - **Publication stage:** Controlled appendix development
 - **Book status:** Complete Draft 1 — Publication Finishing Active
-- **Authority:** B05-TOC-V0.1, B05-REV-0012, B05-REV-0013, B05-REV-0014 and B05-PLN-0004
-- **Current objective:** Reconcile reader-facing Appendix A–G with the controlled specifications before publication editing
+- **Authority:** B05-TOC-V0.1, B05-REV-0012 through B05-REV-0015, and B05-PLN-0004
+- **Current objective:** Reconcile Appendices B, C, E and G through PF-04 while preserving PF-01B as an RC1 blocker
 
 ## Purpose
 
@@ -28,17 +28,15 @@ If an appendix conflicts with an active specification or reviewed chapter, the c
 | A | Full-Lifecycle Artifact and Decision Map | B05-SPEC-0001 v0.2; CH08–CH47 | controlled reader draft — PF-02 reconciled |
 | B | Lifecycle State and Authority Matrix | B05-SPEC-0001 v0.2; B05-SPEC-0003; CH07 and CH21–CH42 | PF-02 state mapping complete; PF-04 scenario indexing pending |
 | C | Participant Visibility and Action Rights Matrix | B05-SPEC-0003; CH05, CH24–CH26 and CH43–CH44 | controlled scaffold — PF-04 pending |
-| D | Reference Journeys | B05-SPEC-0002; EMBERLOOP and RIVERKITE chapter examples | controlled scaffold — PF-03 pending |
+| D | Reference Journeys | B05-SPEC-0002 v0.2; `EMBERLOOP` and `RIVERKITE` | controlled reader draft — PF-03 reconciled |
 | E | Priority Conformance Scenarios | B05-SPEC-0003; chapter Given/When/Then scenarios | controlled scaffold — PF-04 pending |
 | F | Minimum Jurisdiction Pack Checklist | B05-SPEC-0004; CH38–CH45 | controlled scaffold — PF-05 pending |
 | G | MarkReg Conformance Profiles | CH46–CH47 and completed conformance controls | controlled scaffold — PF-04/PF-07 pending |
 
 ## Reader Order
 
-The appendices follow CH47 in this order:
-
 ```text
-Appendix A — artifacts and decisions
+Appendix A — artifacts and Decisions
 → Appendix B — states and authority
 → Appendix C — participant rights
 → Appendix D — reference journeys
@@ -75,13 +73,22 @@ Appendices may summarize. They may not:
 ```text
 PF-02 — Appendix A: COMPLETE
 PF-02 — Appendix B state and authority mapping: COMPLETE
-PF-03 — Appendix D reference journeys: OPEN
-PF-04 — Appendices B, C, E and G scenarios/surfaces: OPEN
+PF-03 — Appendix D reference journeys: COMPLETE
+PF-04 — Appendices B, C, E and G scenarios/surfaces: AUTHORIZED AND NEXT
 PF-05 — Appendix F Jurisdiction Pack checklist: OPEN
 PF-06 — native-English and compression editing: OPEN
 PF-07 — final figures and reader-asset integration: OPEN
 PF-08 — structural and rendered validation: OPEN
 ```
+
+## Reference-Journey Lock
+
+Appendix D preserves these final reviewed states:
+
+- `EMBERLOOP`: UK registered, US under examination, EU in opposition, Japan/Australia candidates only;
+- `RIVERKITE`: six independent rights, four ordinary renewal workflows, one ownership-linked renewal, one cancellation defense, plus evidence and licence actions.
+
+No later official outcome may be added without a new reviewed source.
 
 ## Completion Gate
 
@@ -94,4 +101,4 @@ The appendix set is complete only when:
 5. the RC1 review confirms no conflict with the controlled manuscript;
 6. rendered-format review passes.
 
-Until then, Appendix A and the PF-02 portion of Appendix B are controlled drafts; the remaining files remain controlled scaffolds rather than final publication appendices.
+Until then, Appendices A and D and the PF-02 portion of Appendix B are controlled drafts; the remaining content stays incomplete rather than being presented as RC1.

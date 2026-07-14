@@ -1,132 +1,255 @@
 # Appendix D — Reference Journeys
 
-**Status:** Controlled Scaffold — content completion pending PF-03  
-**Primary sources:** B05-SPEC-0002 and the `EMBERLOOP` / `RIVERKITE` examples in CH08–CH47  
-**Reader purpose:** provide two compact, continuous examples that show how MarkReg preserves context, authority and independent right histories across the lifecycle.
+**Status:** Controlled Reader Draft — PF-03 reconciled  
+**Primary source:** B05-SPEC-0002 v0.2  
+**Source review baseline:** B05-REV-0008 through B05-REV-0011  
+**Reader purpose:** provide two compact, continuous examples showing how MarkReg preserves context, authority and independent right histories across the lifecycle.
 
-## D.1 Use Rule
+## D.1 Reading Rule
 
-The reference journeys are conformance examples, not model legal advice or guaranteed outcomes.
+The journeys are controlled examples, not legal advice or guaranteed outcomes.
 
-Each step should retain:
+Each step preserves:
 
-- jurisdiction and right identity;
-- source and checked date;
-- artifact version;
-- accountable actor;
-- decision and approval state;
-- formal references;
+- jurisdiction or right identity;
+- source and checked state;
+- versioned Product records;
+- accountable Human action;
+- formal-object and Execution boundaries;
 - official evidence;
 - unresolved risk;
 - next obligation.
 
-## D.2 Journey A — EMBERLOOP Multi-Jurisdiction New Filing
-
-### Case identity
-
-- applicant: Northstar Kitchenware (Shenzhen) Co., Ltd.;
-- brand: `EMBERLOOP` word mark and flame-loop device;
-- business: smart outdoor cooking equipment and companion application;
-- planned markets: United States, European Union, United Kingdom, Japan and Australia;
-- initial constraint: limited launch budget and crowdfunding timeline;
-- risk posture: search core markets before filing.
-
-### Controlled progression
-
-| Stage | Key result | Boundary preserved |
-| --- | --- | --- |
-| need | Need Brief prioritizes core launch protection | business objective is not a filing instruction |
-| recommendation | US, EU and UK options; later markets deferred | recommendation is not client decision |
-| filing units | word and device candidates separated | brand identity is not one automatic application |
-| applicant | legal entity and authority context verified | operating business name is not assumed owner |
-| classification | class and goods/services candidates prepared | candidate scope is not approved filing scope |
-| search and risk | purpose-limited search assessments | search is not clearance or registration guarantee |
-| proposal and quote | comparable options and Quote versions | Proposal, Quote and acceptance remain distinct |
-| intake and documents | Formal Intake and Requirement Sets by jurisdiction | uploaded file is not automatically valid Document |
-| readiness and handoff | versioned Readiness and Handoff Envelope | readiness is not approval or Execution |
-| filing package | exact package versions prepared | package candidate is not filing |
-| Review and approval | client confirmation, Professional Review and Filing Approval | each gate remains separate |
-| routing | US provider, EU governed service, UK manual portal route | provider recommendation is not appointment |
-| submission | independent submission and acknowledgement states | sent is not officially acknowledged |
-| examination | US office action and Response Package | office notice is sourced; response requires new approval |
-| dispute | EU opposition and Adversarial Context | challenge is not refusal or loss of right |
-| registration | UK Registration Outcome and Right Baseline | registration is not certificate file or lifecycle end |
-| maintenance | UK obligations and future evidence reminders | reminder is not verified official deadline |
-| experience | Workplace, client and provider views | one journey does not create one unrestricted view |
-| final portfolio | UK registered, US examined, EU opposed, later markets candidates | one portfolio view does not create one global status |
-
-### Final controlled position
-
 ```text
-United Kingdom — registered right with continuing obligations
-United States — application under examination or later sourced outcome
-European Union — application in opposition or later sourced outcome
-Japan and Australia — recommendation or later action candidates
+Journey example
+≠ current jurisdiction law
+≠ official record
+≠ implementation authority
 ```
 
-The final Appendix D version must use the exact last reviewed state from the manuscript baseline rather than inventing a later outcome.
+The detailed controlled timelines and step IDs are maintained in B05-SPEC-0002.
 
-## D.3 Journey B — RIVERKITE Portfolio Continuity
+---
+
+## D.2 Journey A — `EMBERLOOP`
 
 ### Case identity
 
-- portfolio: six `RIVERKITE` registrations;
-- official owner shown in existing records: Riverkite Trading Limited;
-- current business owner after restructuring: Riverkite Brands Pte. Ltd.;
-- initial deadlines: several renewals within 120 days;
-- additional issues: recordal prerequisites, cancellation defense, use evidence and licence review.
+| Field | Controlled value |
+| --- | --- |
+| applicant | Northstar Kitchenware (Shenzhen) Co., Ltd. |
+| mark | `EMBERLOOP` word mark plus flame-loop device |
+| business | smart outdoor cooking equipment and companion application |
+| launch | crowdfunding planned in four months |
+| planned markets | US, EU, UK, Japan and Australia |
+| budget approach | prioritize core markets |
+| risk approach | search core markets before filing |
 
-### Controlled progression
+### Full-lifecycle map
 
-| Stage | Key result | Boundary preserved |
+```text
+Need Brief
+→ US / EU / UK options and deferred markets
+→ word and device filing units
+→ applicant ambiguity resolved
+→ classes, goods/services and search risk
+→ Proposal and Quote v3
+→ client accepts US / EU / UK word + device scope
+→ Formal Intake, Requirements and Readiness
+→ Handoff
+→ jurisdiction-specific Filing Packages
+→ Professional Review and separate Filing Approvals
+→ provider, connector and manual routes
+→ US and UK acknowledgements verified
+→ EU acknowledgement recovered after unknown state
+→ US examination response
+→ EU opposition defense
+→ UK registration and maintenance
+→ independent portfolio view
+```
+
+### Stage summary
+
+| Stage | Controlled result | Boundary preserved |
 | --- | --- | --- |
-| portfolio intake | six official registrations identified | portfolio record is checked against official source |
-| ownership review | chain-of-title gap detected | business ownership is not official recorded ownership |
-| renewal analysis | separate packages by jurisdiction and right | one `renew all` action is prohibited where prerequisites differ |
-| recordal sequencing | before, with or after renewal options | transaction and recordal effects remain separate |
-| cancellation defense | independent Adversarial or Remedy Context | one challenged right does not alter five others |
-| use evidence | evidence mapped by goods, date, territory and entity | evidence existence is not sufficient use proof automatically |
-| licence review | scope, quality control and expiry assessed | licence is not assignment |
-| official results | renewals and recordals reconciled separately | partial official success remains visible |
-| portfolio action | renew, correct, defend, strengthen evidence, review licence or do not renew | portfolio recommendation is not automatic protected action |
-| Lite-to-Workplace | approved facts transferred; personal notes remain local | local case history is not formal organization truth |
+| need | core launch protection defined before forms | business objective is not filing instruction |
+| jurisdiction | US, EU and UK prioritized; Japan/Australia deferred | recommendation is not Decision |
+| filing units | word and device treated separately | one brand is not one automatic application |
+| applicant | operating and ownership context checked | operating company is not assumed owner |
+| scope | narrower launch classes and goods selected | candidate scope is not approved filing scope |
+| search | moderate related-mark risk identified | search is not clearance or guarantee |
+| commercial | Proposal, Quote v3, Acceptance and Instruction remain separate | price and authority are version-specific |
+| intake | missing facts and jurisdiction requirements collected | uploaded file is not automatically valid Document |
+| readiness | document-conditional and not yet filing-approved | readiness is not approval |
+| package | filing-unit and jurisdiction packages prepared | package candidate is not filing |
+| approval | factual confirmation, Professional Review and three Filing Approvals | each gate remains distinct |
+| routing | US private provider, EU governed route, UK manual portal | recommendation is not appointment |
+| submission | US/UK acknowledged; EU unknown state reconciled | sent or technical success is not official acknowledgement |
+| examination | US Response Package v2 acknowledged | response filing is not registration |
+| dispute | EU opposition and bounded defense/negotiation | opposition is not refusal or closure |
+| registration | UK registration verified and Right Baseline created | registration is not certificate availability |
+| maintenance | UK future duties and evidence plan recorded | reminder is not official deadline |
+| experience | Workplace, client and provider views remain purpose-limited | one journey is not one unrestricted view |
+| portfolio | UK, US, EU and future-market states shown independently | one portfolio is not one global status |
 
 ### Final controlled position
 
-Each of the six rights retains:
+| Jurisdiction | Final reviewed state |
+| --- | --- |
+| United Kingdom | sourced registered right; Right Baseline and maintenance obligations active |
+| United States | application remains under examination after acknowledged Response Package v2 |
+| European Union | application remains in verified opposition; no settlement or closure is assumed |
+| Japan | future-action candidate only |
+| Australia | future-action candidate only |
 
-- independent official identifier;
-- jurisdiction and scope;
+No later filing, registration, settlement or closure may be added without a new reviewed source.
+
+---
+
+## D.3 Journey B — `RIVERKITE`
+
+### Case identity
+
+| Field | Controlled value |
+| --- | --- |
+| portfolio | six `RIVERKITE` registrations |
+| official owner at entry | Riverkite Trading Limited |
+| business-owner claim | Riverkite Brands Pte. Ltd. after restructuring |
+| urgent discovery | three renewal deadlines within 120 days |
+| broader action plan | four ordinary renewals plus one ownership-linked renewal |
+| challenged right | one registration in cancellation defense |
+| additional issues | chain-of-title gap, weak use evidence and licence review |
+
+The urgent three-deadline subset and wider five-renewal workflow are different views of the same portfolio, not conflicting facts.
+
+### Full-lifecycle map
+
+```text
+Six official registrations
+→ source and owner verification
+→ official-owner / business-owner conflict
+→ maintenance and deadline mapping
+→ separate renewal, recordal and defense costs
+→ action-specific documents and readiness
+→ governed packages, approvals and execution
+→ one cancellation defense
+→ four ordinary renewals
+→ one ownership-linked renewal
+→ recordal and chain-of-title correction
+→ use-evidence and licence review
+→ Portfolio Continuity View and Action Plan
+→ Lite-to-Workplace transfer
+→ independent participant views
+```
+
+### Stage summary
+
+| Stage | Controlled result | Boundary preserved |
+| --- | --- | --- |
+| portfolio entry | six registrations identified and source-checked | portfolio record is not official truth automatically |
+| ownership | official owner differs from current business-owner claim | business ownership is not recorded ownership |
+| deadline | urgent deadlines and later obligations remain source-bound | reminder is not responsibility |
+| commercial | renewal, recordal and defense fees remain separate | one portfolio total is not one universal action price |
+| documents | signatures, assignment evidence and local formalities differ | one document set is not valid everywhere |
+| readiness | each right and action receives independent readiness | aggregate progress cannot hide a blocker |
+| execution | renewal, recordal and defense reuse package, approval and acknowledgement controls | later-stage service does not bypass governance |
+| dispute | one right remains in cancellation defense | challenge to one right does not alter five others |
+| renewal | four ordinary workflows proceed independently | one `renew all` action is prohibited |
+| ownership-linked renewal | one renewal depends on two-step chain correction | contractual effect and recordal effect differ |
+| recordal | current, claimed and proposed values remain distinct | internal update is not official recordal |
+| use evidence | evidence mapped by goods, territory, period and entity | evidence existence is not sufficient use automatically |
+| licence | scope, quality control and expiry reviewed | licence is not assignment |
+| portfolio decision | renew, correct, defend, strengthen evidence, review licence or do not renew | recommendation is not protected action |
+| embedded experience | approved facts transfer from Lite; personal notes remain local | personal case history is not formal organization truth |
+
+### Final controlled position
+
+| Right group | Final reviewed state |
+| --- | --- |
+| four rights | ordinary renewal workflows proceed separately; official outcomes require evidence |
+| one right | renewal remains linked to a two-step chain-of-title correction |
+| one right | cancellation defense remains a separate adversarial Matter |
+| portfolio-wide | weak evidence and licence-expiry risks remain explicit action candidates |
+
+Every right retains its own:
+
+- official identifier and jurisdiction;
+- scope;
 - official owner;
 - chain-of-title status;
-- renewal and maintenance history;
+- renewal history;
 - dispute status;
 - evidence coverage;
 - provider and responsibility context;
 - next obligation.
 
-## D.4 Chapter-to-Journey Map
+---
 
-PF-03 will maintain a matrix showing which chapters advance each journey.
+## D.4 Chapter Navigation
 
-Minimum mapping:
+| Chapter range | `EMBERLOOP` use | `RIVERKITE` use |
+| --- | --- | --- |
+| CH08–CH15 | primary need, strategy and recommendation journey | controlled portfolio contrast where relevant |
+| CH16–CH22 | primary commercial, intake and Handoff journey | separate later-stage pricing, requirements and readiness contrast |
+| CH23–CH29 | primary filing preparation, routing, submission and recovery | governance pattern reused for renewal, recordal and defense |
+| CH30–CH36 | US examination, EU opposition and UK publication continuity | cancellation defense, ownership conflict and deadlines |
+| CH37–CH42 | UK registration, maintenance and independent portfolio view | renewal, recordal, chain of title, evidence, licence and action plan |
+| CH43–CH47 | cross-surface experience, Pack changes, metrics and final state | Lite-to-Workplace, participant views, fee changes, metrics and final state |
+
+The exact CH08–CH47 matrix and step identifiers are maintained in B05-SPEC-0002 v0.2.
+
+---
+
+## D.5 Comparison
+
+| Dimension | EMBERLOOP | RIVERKITE |
+| --- | --- | --- |
+| entry point | new business need | existing official and portfolio records |
+| primary journey | multi-jurisdiction new filing | multi-right continuity and remediation |
+| key ambiguity | applicant and filing scope | official owner and chain of title |
+| execution test | three different filing routes | separate renewal, recordal and defense actions |
+| official-state test | acknowledgement, examination, opposition and registration differ | renewal, recordal and dispute states differ by right |
+| portfolio lesson | one brand does not create one global status | one portfolio does not create one shared right state |
+| final unresolved work | US examination, EU opposition, future markets | ownership correction, defense, evidence and licence review |
+
+---
+
+## D.6 Reader Use
+
+Use `EMBERLOOP` to understand:
+
+- reduced-question intake;
+- recommendations and options;
+- exact-version commercial confirmation;
+- filing preparation and approval;
+- route diversity;
+- unknown-state recovery;
+- independent post-filing outcomes.
+
+Use `RIVERKITE` to understand:
+
+- entry from existing rights;
+- renewal and recordal dependencies;
+- chain-of-title correction;
+- cancellation defense;
+- use evidence and licence risk;
+- independent right histories;
+- portfolio-level choices without autonomous action.
+
+Neither journey should be copied as a jurisdiction-specific filing instruction. Current rules, fees, forms, deadlines and provider conditions require current verified sources.
+
+---
+
+## D.7 Reconciliation Status
 
 ```text
-CH08–CH29 — EMBERLOOP primary new-filing progression
-CH30–CH38 — EMBERLOOP post-filing and UK continuity
-CH33–CH42 — RIVERKITE dispute, renewal, ownership and portfolio progression
-CH43–CH47 — both journeys as experience, metrics and conformance examples
+Case identities locked: YES
+Controlled timelines through CH47: YES
+Final reviewed states locked: YES
+CH08–CH47 matrix available in B05-SPEC-0002: YES
+Appendix D reconciled under PF-03: YES
+Reference-journey figures created: NO — remains PF-07
+Rendered publication validation: NO — remains PF-08
 ```
 
-## D.5 Completion Work
-
-PF-03 must:
-
-1. reconcile all case facts and versions across chapters;
-2. create one controlled timeline per case;
-3. identify exact chapter references;
-4. resolve any inconsistency in applicant, right, scope, provider or outcome;
-5. create final diagrams without suggesting one global right or status;
-6. verify that no example contains a legal outcome unsupported by the manuscript.
-
-This appendix becomes publication-ready only after B05-SPEC-0002 is extended through CH47 and the case matrix passes review.
+Appendix D may advance to RC1 only after its figures, links, terminology and rendered format pass the later publication gates.

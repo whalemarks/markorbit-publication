@@ -1,5 +1,19 @@
 # Book 05 Changelog
 
+## 2026-07-14 — PF-03 Reference Journey Consolidation
+
+- Upgraded B05-SPEC-0002 to Controlled Specification v0.2 applying through CH47.
+- Locked `B05-JRN-A-EMBERLOOP` and `B05-JRN-B-RIVERKITE` identities, facts and final reviewed states.
+- Added stable `EL-*` and `RK-*` step identifiers and a complete CH08–CH47 chapter-to-journey matrix.
+- Preserved independent jurisdiction and right states and prohibited invented future outcomes.
+- Reconciled the initial three urgent RIVERKITE deadlines with the wider set of five renewal-related workflows.
+- Recorded the final EMBERLOOP state as UK registered, US under examination, EU in opposition, and Japan/Australia candidates only.
+- Recorded the final RIVERKITE state as four ordinary renewals, one ownership-linked renewal, one cancellation defense, and open evidence/licence actions.
+- Reconciled Appendix D as a controlled reader draft.
+- Added B05-REV-0015, closed PF-03 and authorized PF-04 Scenario and User-Surface Consolidation.
+- Kept PF-01B metadata normalization open as an independent RC1 blocker.
+- Confirmed that no Architecture Canon, Book 02, Book 03 or Book 04 semantic amendment is required.
+
 ## 2026-07-14 — PF-02 Full-Lifecycle Artifact and Decision Reconciliation
 
 - Expanded B05-SPEC-0001 from a Parts I–IV draft into Controlled Specification v0.2 applying through CH47.

@@ -5,51 +5,83 @@
 - **Status:** Complete Draft 1 — Publication Finishing Active
 - **Title:** MarkReg: The Full-Lifecycle International Trademark Product
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
-- **Manuscript:** CH00–CH47 drafted across all seven parts
-- **Back Matter:** Appendix A PF-02 reconciled; Appendix B state mapping reconciled; Appendix C–G and PF-04 scenario mapping pending
-- **Publication apparatus:** B05-PUB-0001 through B05-PUB-0008 created as baseline or controlled drafts
-- **Controlled specifications:** B05-SPEC-0001 v0.2 full-lifecycle reconciled; B05-SPEC-0002 through B05-SPEC-0004 pending PF-03 through PF-05
-- **Architecture dependency:** MO-PUB-BASELINE-0001
-- **Current substantive gate:** PF-03 Reference Journey Consolidation
+- **Manuscript:** CH00–CH47 drafted and reviewed
+- **Controlled specifications:** B05-SPEC-0001 v0.2 and B05-SPEC-0002 v0.2 reconciled through CH47
+- **Reader appendices:** Appendix A and Appendix D reconciled; Appendix B state mapping complete; remaining scenario/surface and jurisdiction work open
+- **Current substantive gate:** PF-04 Scenario and User-Surface Consolidation
 - **Independent RC1 blocker:** PF-01B CH02–CH47 metadata normalization
+- **Architecture dependency:** MO-PUB-BASELINE-0001
 
-## Chapter Boundary Control
-
-B05-TOC-V0.1 defines:
+## Chapter and Back Matter Boundary
 
 ```text
 Part VI — CH37–CH42
 Part VII — CH43–CH47
+Appendix A–G — outside chapter numbering
 ```
 
-B05-ERRATA-0001 corrects the former CH37–CH43 authorization typo in B05-REV-0009 and derived records. No chapter-map change occurred.
+B05-ERRATA-0001 corrects the former CH37–CH43 derived range without changing B05-TOC-V0.1.
 
-Appendix A–G are reader-facing Back Matter outside the CH00–CH47 chapter numbering. Their addition does not amend B05-TOC-V0.1.
+## Completed Publication-Finishing Work
 
-## Completed Work
+### PF-01A
 
-- Established Book 05 governance, planning and Product specifications.
-- Drafted and reviewed CH00–CH47.
-- Completed B05-REV-0011 — Part VII Product Experience and Evolution Review.
-- Completed B05-REV-0012 — CH00–CH47 Complete Draft 1 Review.
-- Activated B05-PUBLICATION-FINISHING-PACK-001 in B05-PLN-0004.
-- Completed PF-01A:
-  - normalized CH00–CH01 to Complete Draft 1;
-  - replaced active candidate chapter-map wording;
-  - added reader-facing Back Matter to CH01.
-- Completed PF-07A:
-  - created Appendix A–G controlled scaffolds;
-  - created B05-PUB-0001 through B05-PUB-0008;
-  - locked the Back Matter order in B05-PUB-0006;
-  - created initial Glossary, Subject Index and twelve-figure plan.
-- Completed B05-REV-0013 — Publication Architecture and Back Matter Review.
-- Completed PF-02:
-  - expanded B05-SPEC-0001 to Controlled Specification v0.2 through CH47;
-  - preserved MR-CR-01 through MR-CR-08 unchanged;
-  - separated Product artifacts, contexts, decisions, evidence, baselines, views and governance records;
-  - assigned controlled IDs across filing, examination, dispute, registration, renewal, recordal, portfolio and Product-evolution journeys;
-  - reconciled Appendix A and the PF-02 state/authority portion of Appendix B.
-- Completed B05-REV-0014 — PF-02 Full-Lifecycle Artifact and Decision Reconciliation.
+- CH00–CH01 normalized to Complete Draft 1;
+- active candidate wording removed;
+- Back Matter added to CH01.
+
+### PF-07A
+
+- Appendix A–G architecture created;
+- B05-PUB-0001 through B05-PUB-0008 created;
+- Back Matter order locked;
+- initial glossary, subject index and twelve-figure plan created.
+
+### PF-02
+
+- B05-SPEC-0001 upgraded to Controlled Specification v0.2 through CH47;
+- MR-CR-01 through MR-CR-08 preserved;
+- Product artifacts, contexts, Decisions, evidence, baselines, views and governance records separated;
+- full-lifecycle IDs and lineages assigned;
+- Appendix A reconciled;
+- Appendix B state and authority mapping completed;
+- B05-REV-0014 accepted.
+
+### PF-03
+
+- B05-SPEC-0002 upgraded to Controlled Specification v0.2 through CH47;
+- `B05-JRN-A-EMBERLOOP` and `B05-JRN-B-RIVERKITE` identities locked;
+- `EL-*` and `RK-*` step timelines established;
+- CH08–CH47 chapter-to-journey matrix completed;
+- final reviewed states locked;
+- urgent RIVERKITE deadline subset reconciled with the wider renewal action set;
+- Appendix D reconciled;
+- B05-REV-0015 accepted.
+
+## Reference Journey Locks
+
+### EMBERLOOP
+
+```text
+UK — sourced registered right with Right Baseline and maintenance obligations
+US — application under examination after acknowledged Response Package v2
+EU — verified opposition with defense and bounded negotiation active
+Japan / Australia — future-action candidates only
+```
+
+No later registration, settlement or closure is assumed.
+
+### RIVERKITE
+
+```text
+six independent registrations
+four ordinary renewal workflows
+one ownership-linked renewal with two-step chain correction
+one cancellation-defense right
+weak use-evidence and licence-review action candidates
+```
+
+The initial three urgent deadlines are a subset of the wider five renewal-related workflows.
 
 ## Current Decisions
 
@@ -59,87 +91,56 @@ MarkReg is the whole Operating System: NO
 MarkReg is Workplace, Core, Execution, MGSN, an official office, or an Owning Service: NO
 MarkReg is an open provider marketplace: NO
 
-B05-TOC-V0.1 owner accepted: YES
-Seven-part structure complete: YES
-CH00–CH47 drafted: YES
 Complete Draft 1 achieved: YES
-Publication finishing active: YES
-Back Matter structure locked: YES
-B05-SPEC-0001 reconciled through CH47: YES
-Appendix A reconciled for PF-02: YES
-Appendix B state mapping reconciled for PF-02: YES
-All Appendix A–G content reconciled: NO
+B05-SPEC-0001 reconciled: YES
+B05-SPEC-0002 reconciled: YES
+Reference journey final states locked: YES
+Appendix A reconciled: YES
+Appendix D reconciled: YES
+All appendices reconciled: NO
 PF-01 metadata normalization complete: NO
 Release Candidate 1 ready: NO
 Final publication approved: NO
 
-Product readiness equals approval: NO
+Recommendation equals Decision: NO
+Readiness equals approval: NO
 Approval equals Execution: NO
 Submission equals official acknowledgement: NO
-Certificate equals current official record: NO
-Portfolio signal equals legal conclusion or protected action: NO
-Product projection equals official truth without source: NO
+Provider report equals official truth: NO
+Portfolio view equals one global status: NO
 AI may replace accountable Human Review: NO
 ```
-
-## PF-02 Controlled Record Model
-
-```text
-MR-A — Product artifact
-MR-C — scoped context
-MR-D — accountable decision
-MR-E — evidence or source-backed record
-MR-B — baseline or obligation record
-MR-V — view or projection
-MR-G — governance and configuration record
-```
-
-The controlled sets currently include:
-
-- MR-A01–MR-A30;
-- MR-C01–MR-C11;
-- MR-D01–MR-D13;
-- MR-E01–MR-E09;
-- MR-B01–MR-B04;
-- MR-V01–MR-V05;
-- MR-G01–MR-G10.
-
-These records do not absorb Core Objects, formal Order or Matter records, Book 03 Execution state, provider systems or official office records.
 
 ## Current Publication-Finishing Assessment
 
 ```text
-Complete Draft 1: YES
 PF-01A Front Matter normalization: COMPLETE
 PF-01B CH02–CH47 metadata normalization: OPEN — REQUIRED BEFORE RC1
-PF-02 artifact and decision map extension: COMPLETE
-PF-03 reference journey consolidation: OPEN — NEXT SUBSTANTIVE WORK
-PF-04 scenario and user-surface consolidation: OPEN
+PF-02 artifact and Decision map: COMPLETE
+PF-03 reference journeys: COMPLETE
+PF-04 scenarios and user surfaces: AUTHORIZED AND NEXT
 PF-05 jurisdiction and commercial reconciliation: OPEN
 PF-06 terminology and native-English editing: OPEN
 PF-07A publication architecture: COMPLETE
-PF-07 Appendix A PF-02 reconciliation: COMPLETE
-PF-07 Appendix B PF-02 state mapping: COMPLETE
+PF-07 Appendix A and D reconciliation: COMPLETE
+PF-07 Appendix B state mapping: COMPLETE
 PF-07 remaining appendices, apparatus and figures: OPEN
 PF-08 structural and rendered validation: OPEN
 PF-09 RC1 and owner publication gate: OPEN
-Release Candidate 1: NOT YET
 ```
 
 ## Next Controlled Work
 
 ```text
-PF-03 — extend B05-SPEC-0002 through CH47
-→ consolidate EMBERLOOP and RIVERKITE timelines
-→ create chapter-to-case matrix
-→ reconcile Appendix D
-→ PF-04 scenario and user-surface consolidation
+PF-04 — extend B05-SPEC-0003 through CH47
+→ assign stable scenario IDs
+→ map scenarios to constitutional rules and controlled records
+→ consolidate participant surfaces
+→ reconcile Appendices B, C, E and G
 → PF-05 jurisdiction and commercial reconciliation
 ```
 
-PF-01B remains an independent mechanical publication-cleanup task and must be completed before PF-08 and PF-09.
-
-No new Book 05 chapter drafting is required unless publication review identifies a controlled semantic gap.
+PF-01B remains an independent mechanical cleanup required before PF-08 and PF-09.
 
 Ready for unrestricted implementation: **NO**
 
