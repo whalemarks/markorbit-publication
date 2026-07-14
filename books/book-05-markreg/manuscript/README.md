@@ -4,7 +4,7 @@ The manuscript is controlled by B05-TOC-V0.1, which is owner accepted.
 
 ## Drafted Range
 
-CH00–CH36.
+CH00–CH42.
 
 ## Part Status
 
@@ -14,52 +14,46 @@ CH00–CH36.
 - Part III — CH16–CH22: productized and reviewed
 - Part IV — CH23–CH29: drafted and reviewed
 - Part V — CH30–CH36: drafted and reviewed
-- Part VI — CH37–CH43: authorized next writing pack
-- Part VII — CH44–CH47: planned
+- Part VI — CH37–CH42: drafted and reviewed
+- Part VII — CH43–CH47: authorized next writing pack
 
-## Product Sequence Through Part V
+## Canonical Lifecycle Sequence Through Part VI
 
 ```text
-CH08 Need Brief
-→ CH09 jurisdiction and route Recommendation Set
-→ CH10 country-bundle Option Set
-→ CH11 filing-unit candidates
-→ CH12 applicant and authority context
-→ CH13 class candidates
-→ CH14 goods/services versions
-→ CH15 search and risk decisions
-→ CH16 Proposal
-→ CH17 price basis
-→ CH18 Quote, Acceptance and Commercial Instruction
-→ CH19 Formal Intake
-→ CH20 Requirement Set
-→ CH21 Readiness Assessment
-→ CH22 Handoff Envelope and formal references
-→ CH23 Filing Package Candidate
-→ CH24 Professional Review, client confirmation and Filing Approval
-→ CH25 Capability Need, routing and Human Selection
-→ CH26 appointment, instruction and provider acceptance
-→ CH27 governed provider, connector or manual execution route
-→ CH28 submission, acknowledgement and official evidence
-→ CH29 reconciliation, safe retry, Communication and audit
-→ CH30 Official Event Snapshot and Examination Context
-→ CH31 Issue Set, Response Strategy and Client Decision
-→ CH32 Response Package, evidence, Review and filing
-→ CH33 Publication Window and challenge monitoring
-→ CH34 Adversarial Context, defense and settlement
-→ CH35 Remedy Context, appeal and cancellation
-→ CH36 Deadline, Outcome Snapshot and lifecycle continuation
+Need Brief
+→ Recommendation and Option Sets
+→ Filing-unit, applicant, class, specification and risk candidates
+→ Proposal, Quote and Commercial Instruction
+→ Formal Intake, Requirements and Readiness
+→ Filing Package, Review and Filing Approval
+→ provider or connector Execution
+→ official acknowledgement and recovery
+→ Examination, Publication and Disputes
+→ Registration Outcome Snapshot and Right Baseline
+→ Maintenance and Renewal
+→ Recordals and Chain of Title
+→ Portfolio Continuity and Action Plan
 ```
 
-## Part V Manuscript
+## Part VI Manuscript
 
-- [CH30 — Examination Context and Status Authority](B05-CH-30_Examination_Context_and_Status_Authority.md)
-- [CH31 — Office Action Triage and Response Strategy](B05-CH-31_Office_Action_Triage_and_Response_Strategy.md)
-- [CH32 — Response Preparation, Evidence and Filing](B05-CH-32_Response_Preparation_Evidence_and_Filing.md)
-- [CH33 — Publication, Observation and Opposition Windows](B05-CH-33_Publication_Observation_and_Opposition_Windows.md)
-- [CH34 — Opposition, Defense and Adversarial Matters](B05-CH-34_Opposition_Defense_and_Adversarial_Matters.md)
-- [CH35 — Appeals, Reviews, Cancellation and Invalidation](B05-CH-35_Appeals_Reviews_Cancellation_and_Invalidation.md)
-- [CH36 — Deadline Governance, Client Decisions and Outcome Communication](B05-CH-36_Deadline_Governance_Client_Decisions_and_Outcome_Communication.md)
+- [CH37 — Registration and Certificate Boundaries](B05-CH-37_Registration_and_Certificate_Boundaries.md)
+- [CH38 — Maintenance Calendar and Post-Registration Duties](B05-CH-38_Maintenance_Calendar_and_Post-Registration_Duties.md)
+- [CH39 — Renewal Preparation and Governed Renewal](B05-CH-39_Renewal_Preparation_and_Governed_Renewal.md)
+- [CH40 — Changes, Recordals and Ownership Updates](B05-CH-40_Changes_Recordals_and_Ownership_Updates.md)
+- [CH41 — Assignment, Licensing and Chain of Title](B05-CH-41_Assignment_Licensing_and_Chain_of_Title.md)
+- [CH42 — Portfolio Strategy, Monitoring and Lifecycle Learning](B05-CH-42_Portfolio_Strategy_Monitoring_and_Lifecycle_Learning.md)
+
+## Chapter Boundary Control
+
+B05-TOC-V0.1 defines:
+
+```text
+Part VI — CH37–CH42
+Part VII — CH43–CH47
+```
+
+B05-ERRATA-0001 corrects the former derived-status typo that placed CH43 in Part VI.
 
 ## Controlled Product Specifications
 
@@ -70,18 +64,14 @@ CH08 Need Brief
 
 ## Current Reviews
 
-- B05-REV-0001 — Part I Product Constitution Review
-- B05-REV-0002 — original Part II writing-pack review; superseded
-- B05-REV-0003 — original Part III writing-pack review; superseded
-- B05-REV-0004 — initial CH00–CH22 Whole-Draft Review
-- B05-REV-0005 — Part II Productization Review
-- B05-REV-0006 — Part III Productization Review
-- B05-REV-0007 — CH00–CH22 Productization Closure Review
+- B05-REV-0001 through B05-REV-0007 — foundation, productization and closure reviews
 - B05-REV-0008 — Part IV Filing Preparation and Governed Execution Review
 - B05-REV-0009 — Part V Examination, Publication and Disputes Review
+- B05-ERRATA-0001 — Part VI chapter-boundary correction
+- B05-REV-0010 — Part VI Registration and Portfolio Continuity Review
 
 ## Next Controlled Task
 
-Draft Part VI, CH37–CH43 — Registration and Portfolio Continuity.
+Draft Part VII, CH43–CH47 — Product Experience and Evolution.
 
-Part VI must begin from sourced registration or continuing-right events and preserve official-record, certificate, maintenance, ownership, use, renewal, monitoring and dispute boundaries.
+Part VII must complete the first full manuscript, define participation surfaces, jurisdiction-pack and AI governance, metrics, MVP sequencing and final conformance without granting implementation or protected-action authority.
