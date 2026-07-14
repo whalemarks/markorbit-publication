@@ -12,9 +12,10 @@ This directory contains owner, architecture, chapter-map, manuscript, productiza
 - `B05-REV-0006_Part_III_Productization_Review.md` — closes Part III revision findings
 - `B05-REV-0007_CH00-CH22_Productization_Closure_Review.md` — closes B05-REVISION-PACK-001 and authorizes Part IV
 - `B05-REV-0008_Part_IV_Filing_Preparation_and_Governed_Execution_Review.md` — accepts CH23–CH29 and authorizes Part V
+- `B05-REV-0009_Part_V_Examination_Publication_and_Disputes_Review.md` — accepts CH30–CH36 and authorizes Part VI
 
 ## Current Gate
 
-Part IV, CH23–CH29, is drafted and reviewed.
+Part V, CH30–CH36, is drafted and reviewed.
 
-The next controlled review scope follows completion of Part V, CH30–CH36 — Examination, Publication and Disputes.
+The next controlled review scope follows completion of Part VI, CH37–CH43 — Registration and Portfolio Continuity.
