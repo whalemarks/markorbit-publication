@@ -98,25 +98,45 @@ Phase 14 records that:
 - Book 05 planning and controlled drafting may proceed;
 - unrestricted implementation, production deployment and external protected action remain unauthorized.
 
-## Phase 15 — Book 05 MarkReg Foundation Draft
+## Phase 15 — Book 05 Foundation and Part I
 
 Created the canonical Book 05 directory and established the first dedicated Product publication on the Books 01–04 Portfolio Baseline.
 
 Phase 15 records that:
 
-- the working title is `MarkReg: The Full-Lifecycle International Trademark Product`;
-- B05-TOC-V0.1 proposes CH00–CH47 across seven parts;
+- the title is `MarkReg: The Full-Lifecycle International Trademark Product`;
+- B05-TOC-V0.1 defines CH00–CH47 across seven parts;
 - Product positioning, dependency, governance, and writing gates are defined;
-- CH00–CH03 form the initial manuscript pack;
+- CH00–CH07 complete the Foundation and Part I Product constitution;
+- B05-REV-0001 records the Part I architecture review;
+- merge of PR #33 and the instruction to continue establish owner acceptance of the title, scope, map, Part I, and writing-pack sequence;
 - Book 02, Book 03, and Book 04 authority boundaries remain unchanged;
-- the current gate is owner review of the title, scope, and chapter map;
 - unrestricted implementation, production deployment, and external protected action remain unauthorized.
+
+## Phase 16 — Book 05 Part II: Need, Strategy and Recommendation
+
+Drafted CH08–CH15 as one coherent writing pack.
+
+Phase 16 records that:
+
+- Need Understanding precedes forms;
+- jurisdiction and filing-route recommendations remain explainable candidates;
+- country bundles remain Product decision interfaces rather than merged legal rights;
+- mark identity and filing units remain explicit and versioned;
+- client, applicant, owner, payer, signatory, representative, and instructor remain distinct;
+- class candidates remain separate from goods/services wording;
+- goods/services candidates remain separate from approved filing scope;
+- search and risk assessments remain bounded by purpose, query, source, coverage, and checked date;
+- AI assists but does not hold professional responsibility;
+- B05-REV-0002 passes the Part II architecture review;
+- no upstream architecture amendment is required;
+- the current gate is owner review of CH08–CH15 and authorization for Part III.
 
 ## Active Future Workstreams
 
 - Architecture Canon maintenance
 - Books 01–04 Portfolio Baseline maintenance
-- Book 05 MarkReg Foundation Draft and chapter-map owner review
+- Book 05 Part II owner review and Part III drafting
 - Repository Canonical Alignment Audits
 - Lite Product-loop validation
 - MarkReg Product planning
@@ -142,7 +162,7 @@ The following remain horizontal architecture/specification or implementation wor
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
-| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Foundation Draft; B05-TOC-V0.1 candidate |
+| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Part II Draft Complete; B05-TOC-V0.1 owner accepted |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 

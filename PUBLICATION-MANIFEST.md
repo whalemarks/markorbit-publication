@@ -23,11 +23,11 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](arc
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
-| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Foundation Draft; B05-TOC-V0.1 candidate |
+| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Part II Draft Complete; B05-TOC-V0.1 owner accepted |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
-Book 05 now has a controlled writing scaffold. Planned missing Book 06–07 directories are expected to produce warnings only, not validation errors.
+Book 05 is drafted through CH15 with Part I owner accepted and Part II pending owner review. Planned missing Book 06–07 directories are expected to produce warnings only, not validation errors.
 
 ## Planned Book Positioning
 
@@ -71,7 +71,7 @@ Canonical path: `books/book-05-markreg/`
 
 Positioning: Defines the flagship full-lifecycle international trademark Product, including need understanding, recommendation, intake, filing preparation, governed execution handoff, examination, registration, maintenance, provider collaboration, and portfolio continuity.
 
-Publication state: Foundation Draft. B05-TOC-V0.1 is a candidate CH00–CH47 map. CH00–CH03 and the initial Product constitution, dependency, and writing-gate records are drafted.
+Publication state: B05-TOC-V0.1 is owner accepted. CH00–CH15 are drafted. Part I is owner accepted through merge of PR #33. B05-REV-0002 records the completed Part II architecture review pending owner acceptance.
 
 ### Book 06 — MarkOrbit Lite
 
@@ -102,9 +102,11 @@ Current gate:
 
 ```text
 Portfolio Baseline merged and effective
-→ Book 05 Foundation Draft established
-→ owner reviews B05-TOC-V0.1
-→ controlled writing packs begin
+→ Book 05 chapter map owner accepted
+→ Part I completed and owner accepted
+→ Part II completed
+→ owner reviews CH08–CH15
+→ Part III controlled drafting
 ```
 
 Ready for Book 05 controlled publication drafting: **YES**

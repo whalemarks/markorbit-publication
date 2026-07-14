@@ -5,9 +5,9 @@
 - **Book:** Book 05
 - **Title:** MarkReg: The Full-Lifecycle International Trademark Product
 - **Canonical path:** `books/book-05-markreg/`
-- **Status:** Foundation Draft
-- **Chapter Map:** B05-TOC-V0.1 — Candidate for Owner Acceptance
-- **Current phase:** Product constitution, dependency lock, chapter-map review, and initial manuscript drafting
+- **Status:** Part II Draft Complete — Owner Review Pending
+- **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
+- **Current phase:** Need, Strategy and Recommendation review
 
 ## Position in the Series
 
@@ -46,7 +46,31 @@ Full-Lifecycle International Trademark Product
 + Portfolio and Organizational Learning
 ```
 
-## Foundation Pack
+## Completed Manuscript
+
+### Foundation and Part I
+
+- [Preface](manuscript/B05-CH-00_Preface.md)
+- [Table of Contents](manuscript/B05-CH-01_Table_of_Contents.md)
+- [Why MarkReg Exists](manuscript/B05-CH-02_Why_MarkReg_Exists.md)
+- [Product Mission and Value Proposition](manuscript/B05-CH-03_Product_Mission_and_Value_Proposition.md)
+- [Position Between Workplace, Core, Execution, MGSN and Owning Services](manuscript/B05-CH-04_Position_Between_Workplace_Core_Execution_MGSN_and_Owning_Services.md)
+- [Users, Actors and Professional Responsibility](manuscript/B05-CH-05_Users_Actors_and_Professional_Responsibility.md)
+- [Product Principles, Boundaries and Non-Goals](manuscript/B05-CH-06_Product_Principles_Boundaries_and_Non-Goals.md)
+- [Full-Lifecycle Model and State Distinctions](manuscript/B05-CH-07_Full-Lifecycle_Model_and_State_Distinctions.md)
+
+### Part II — Need, Strategy and Recommendation
+
+- [Need Understanding Before Forms](manuscript/B05-CH-08_Need_Understanding_Before_Forms.md)
+- [Jurisdiction Recommendation and Filing Routes](manuscript/B05-CH-09_Jurisdiction_Recommendation_and_Filing_Routes.md)
+- [Country Bundles and Portfolio Strategy](manuscript/B05-CH-10_Country_Bundles_and_Portfolio_Strategy.md)
+- [Mark Identity, Filing Units and Variants](manuscript/B05-CH-11_Mark_Identity_Filing_Units_and_Variants.md)
+- [Applicant, Ownership and Authority Context](manuscript/B05-CH-12_Applicant_Ownership_and_Authority_Context.md)
+- [Classification Recommendation](manuscript/B05-CH-13_Classification_Recommendation.md)
+- [Goods and Services Guidance](manuscript/B05-CH-14_Goods_and_Services_Guidance.md)
+- [Search, Availability and Risk Assessment](manuscript/B05-CH-15_Search_Availability_and_Risk_Assessment.md)
+
+## Foundation and Governance
 
 - [Book Manifest](BOOK-MANIFEST.md)
 - [Book Status](BOOK-STATUS.md)
@@ -54,18 +78,17 @@ Full-Lifecycle International Trademark Product
 - [Positioning and Scope](planning/B05-PLN-0001_Positioning_and_Scope.md)
 - [Dependency Map](planning/B05-PLN-0002_Dependency_Map.md)
 - [Chapter Map and Writing Gates](planning/B05-PLN-0003_Chapter_Map_and_Writing_Gates.md)
-- [Preface](manuscript/B05-CH-00_Preface.md)
-- [Table of Contents](manuscript/B05-CH-01_Table_of_Contents.md)
-- [Why MarkReg Exists](manuscript/B05-CH-02_Why_MarkReg_Exists.md)
-- [Product Mission and Value Proposition](manuscript/B05-CH-03_Product_Mission_and_Value_Proposition.md)
+- [Part I Review](reviews/B05-REV-0001_Part_I_Product_Constitution_Review.md)
+- [Part II Review](reviews/B05-REV-0002_Part_II_Need_Strategy_and_Recommendation_Review.md)
 
 ## Current Gate
 
 ```text
-Foundation Draft
-→ owner review of positioning and B05-TOC-V0.1
-→ chapter-map acceptance
-→ controlled drafting packs
+B05-TOC-V0.1 owner accepted
+→ Part I completed and reviewed
+→ Part II completed and reviewed
+→ owner reviews CH08–CH15
+→ Part III controlled writing pack
 → full-book review
 → publication finishing
 ```
