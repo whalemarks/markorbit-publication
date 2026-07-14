@@ -2,7 +2,7 @@
 
 ## Phase 0: Repository Initialization
 
-Create the unified publication repository structure, root governance files, shared directories, review directories, release directories, and Codex task directories.
+Create the unified MarkOrbit publication repository structure, root governance files, shared directories, review directories, release directories, and controlled task directories.
 
 ## Phase 1: Book 02 Migration
 
@@ -55,26 +55,30 @@ Established B04-TOC-V0.1, locked the six-part CH00–CH39 structure, resolved th
 
 ## Phase 11 — Book 04 CH00–CH27 Draft and Review
 
-Front Matter and Parts I–IV have been drafted through CH27 and reviewed as one consolidated architecture and editorial baseline.
+Front Matter and Parts I–IV were drafted through CH27 and reviewed as one consolidated architecture and editorial baseline. B04-REV-0002 remains the historical record of that stage.
 
-Phase 11 records that:
+## Phase 12 — Book 04 Complete Draft 1 and Full-Book Architecture Review
 
-- CH00–CH27 are present.
+CH28–CH39 completed Parts V and VI. CH00–CH39 now form a complete Draft 1 baseline.
+
+Phase 12 records that:
+
+- CH00–CH39 are present as forty manuscript files;
 - chapter titles and sequence conform to B04-TOC-V0.1;
-- structural validation passed;
+- all six parts have completed architecture review;
+- targeted corrections align canonical responsibility language, Artifact preview and re-review, formalization boundaries, Routing progression, and Artifact lineage;
+- B04-REV-0003 records the full-book review;
 - no Book 02 semantic amendment is required;
 - no Book 03 Execution amendment is required;
-- targeted corrections align responsibility language, Approval, Lite, MarkReg, Artifact lineage, and repository status;
-- B04-REV-0002 records the review;
-- CH28–CH39 are intentionally paused and undrafted;
 - consolidated owner review is the current gate;
+- native-English line editing and publication finishing remain pending;
 - no unrestricted implementation, production deployment, or external protected action is authorized.
 
 ## Active Future Workstreams
 
 - Architecture Canon maintenance
-- Book 04 CH00–CH27 owner review and targeted revision
-- Owner decision on Book 04 Part V and Part VI drafting
+- Book 04 consolidated owner review and targeted revision
+- Book 04 native-English and publication finishing
 - Repository Canonical Alignment Audits
 - Lite Product-loop validation
 - MarkReg Product planning
@@ -99,7 +103,7 @@ The following remain horizontal architecture/specification or implementation wor
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | `books/book-01-operating-system/` | Existing Draft; publication maturity not reassessed |
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Complete Draft 1 / Owner Accepted |
-| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | CH00–CH27 drafted and reviewed; owner review pending; CH28–CH39 paused |
+| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Complete Draft 1 — CH00–CH39; full-book architecture review completed; owner review pending |
 | Book 05 | MarkReg | `books/book-05-markreg/` | Planned |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
@@ -109,10 +113,11 @@ Publication order does not determine software implementation order. Planned miss
 ## Current Book 04 Gate
 
 ```text
-Consolidated CH00–CH27 owner review
-→ targeted revision or acceptance
-→ explicit owner decision on Part V drafting
-→ Part VI remains paused unless separately authorized
+CH00–CH39 full-book architecture review completed
+→ consolidated owner review
+→ targeted revision or owner acceptance
+→ native-English and publication finishing
+→ final publication gate
 ```
 
 ## Publication and Authority Boundary
