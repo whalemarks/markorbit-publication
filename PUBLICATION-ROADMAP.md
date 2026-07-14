@@ -227,12 +227,31 @@ Phase 21 records that:
 - no Architecture Canon, Book 02, Book 03 or Book 04 amendment is required;
 - unrestricted implementation, production deployment and external protected action remain unauthorized.
 
+## Phase 22 — Book 05 Part VII and Complete Draft 1
+
+Drafted CH43–CH47, reviewed Part VII and completed the first CH00–CH47 full-manuscript review.
+
+Phase 22 records that:
+
+- one MarkReg Product journey may appear standalone, in Lite, in Workplace or through typed cross-Product Handoffs without duplicating authority;
+- client, professional, reviewer, approver, coordinator, finance and provider surfaces remain purpose-limited;
+- Jurisdiction Packs, Source Records, Rule Records, change detection and Pack-bound AI assistance are defined;
+- Product metrics distinguish user understanding, professional quality, governance safety, operational reliability and lifecycle continuity;
+- the MVP begins with a narrow vertical Product loop and expands through controlled delivery gates;
+- conformance profiles preserve partial-scope honesty and Books 01–04 authority boundaries;
+- B05-REV-0011 accepts Part VII;
+- B05-REV-0012 records Complete Draft 1 across all forty-eight manuscript files;
+- no chapter-map or upstream semantic amendment is required;
+- early chapter metadata, controlled-specification coverage, editorial finishing, publication apparatus and rendered validation remain publication blockers;
+- B05-PLN-0004 defines B05-PUBLICATION-FINISHING-PACK-001;
+- Release Candidate 1, final publication, implementation, production deployment and external protected action remain separate gates.
+
 ## Active Future Workstreams
 
 - Architecture Canon maintenance
 - Books 01–04 Portfolio Baseline maintenance
-- Book 05 Part VII — Product Experience and Evolution
-- Book 05 first CH00–CH47 full-book review
+- Book 05 B05-PUBLICATION-FINISHING-PACK-001
+- Book 05 Release Candidate 1 review
 - Repository Canonical Alignment Audits
 - Lite Product-loop validation
 - MarkReg Product planning
@@ -258,7 +277,7 @@ The following remain horizontal architecture/specification or implementation wor
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
-| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Part VI Draft and Review Complete — Part VII Authorized |
+| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Complete Draft 1 — CH00–CH47 Full Manuscript and Review Complete |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
