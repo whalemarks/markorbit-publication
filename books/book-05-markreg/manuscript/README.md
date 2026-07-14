@@ -4,7 +4,7 @@ The manuscript is controlled by B05-TOC-V0.1, which is owner accepted.
 
 ## Drafted Range
 
-CH00–CH29.
+CH00–CH36.
 
 ## Part Status
 
@@ -13,10 +13,11 @@ CH00–CH29.
 - Part II — CH08–CH15: productized and reviewed
 - Part III — CH16–CH22: productized and reviewed
 - Part IV — CH23–CH29: drafted and reviewed
-- Part V — CH30–CH36: authorized next writing pack
-- Parts VI–VII — planned
+- Part V — CH30–CH36: drafted and reviewed
+- Part VI — CH37–CH43: authorized next writing pack
+- Part VII — CH44–CH47: planned
 
-## Product Sequence Through Part IV
+## Product Sequence Through Part V
 
 ```text
 CH08 Need Brief
@@ -41,17 +42,24 @@ CH08 Need Brief
 → CH27 governed provider, connector or manual execution route
 → CH28 submission, acknowledgement and official evidence
 → CH29 reconciliation, safe retry, Communication and audit
+→ CH30 Official Event Snapshot and Examination Context
+→ CH31 Issue Set, Response Strategy and Client Decision
+→ CH32 Response Package, evidence, Review and filing
+→ CH33 Publication Window and challenge monitoring
+→ CH34 Adversarial Context, defense and settlement
+→ CH35 Remedy Context, appeal and cancellation
+→ CH36 Deadline, Outcome Snapshot and lifecycle continuation
 ```
 
-## Part IV Manuscript
+## Part V Manuscript
 
-- [CH23 — Filing Package as a Governed Artifact](B05-CH-23_Filing_Package_as_a_Governed_Artifact.md)
-- [CH24 — Professional Review and Filing Approval](B05-CH-24_Professional_Review_and_Filing_Approval.md)
-- [CH25 — Provider Discovery, Private Partners and Routing](B05-CH-25_Provider_Discovery_Private_Partners_and_Routing.md)
-- [CH26 — Provider Appointment, Instruction and Acceptance](B05-CH-26_Provider_Appointment_Instruction_and_Acceptance.md)
-- [CH27 — Direct Connector, Provider Filing and Owning Service Boundaries](B05-CH-27_Direct_Connector_Provider_Filing_and_Owning_Service_Boundaries.md)
-- [CH28 — Submission States, Acknowledgement and Official Evidence](B05-CH-28_Submission_States_Acknowledgement_and_Official_Evidence.md)
-- [CH29 — Failure, Retry, Duplicate Safety, Communication and Audit](B05-CH-29_Failure_Retry_Duplicate_Safety_Communication_and_Audit.md)
+- [CH30 — Examination Context and Status Authority](B05-CH-30_Examination_Context_and_Status_Authority.md)
+- [CH31 — Office Action Triage and Response Strategy](B05-CH-31_Office_Action_Triage_and_Response_Strategy.md)
+- [CH32 — Response Preparation, Evidence and Filing](B05-CH-32_Response_Preparation_Evidence_and_Filing.md)
+- [CH33 — Publication, Observation and Opposition Windows](B05-CH-33_Publication_Observation_and_Opposition_Windows.md)
+- [CH34 — Opposition, Defense and Adversarial Matters](B05-CH-34_Opposition_Defense_and_Adversarial_Matters.md)
+- [CH35 — Appeals, Reviews, Cancellation and Invalidation](B05-CH-35_Appeals_Reviews_Cancellation_and_Invalidation.md)
+- [CH36 — Deadline Governance, Client Decisions and Outcome Communication](B05-CH-36_Deadline_Governance_Client_Decisions_and_Outcome_Communication.md)
 
 ## Controlled Product Specifications
 
@@ -70,9 +78,10 @@ CH08 Need Brief
 - B05-REV-0006 — Part III Productization Review
 - B05-REV-0007 — CH00–CH22 Productization Closure Review
 - B05-REV-0008 — Part IV Filing Preparation and Governed Execution Review
+- B05-REV-0009 — Part V Examination, Publication and Disputes Review
 
 ## Next Controlled Task
 
-Draft Part V, CH30–CH36 — Examination, Publication and Disputes.
+Draft Part VI, CH37–CH43 — Registration and Portfolio Continuity.
 
-Part V must begin from sourced official notices, statuses and deadlines and must reuse the Filing Approval, governed execution, acknowledgement, Communication and audit controls established in Part IV.
+Part VI must begin from sourced registration or continuing-right events and preserve official-record, certificate, maintenance, ownership, use, renewal, monitoring and dispute boundaries.

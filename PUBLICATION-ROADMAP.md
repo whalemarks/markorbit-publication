@@ -183,11 +183,32 @@ Phase 19 records that:
 - no Architecture Canon, Book 02, Book 03 or Book 04 amendment is required;
 - unrestricted implementation, production deployment and external protected action remain unauthorized.
 
+## Phase 20 — Book 05 Part V: Examination, Publication and Disputes
+
+Drafted and reviewed CH30–CH36 as one controlled writing pack.
+
+Phase 20 records that:
+
+- post-filing work begins from sourced Official Event Snapshots rather than unsourced status labels;
+- Examination Context, Issue Set, Response Strategy, Response Package and Outcome Snapshot remain versioned and distinct;
+- corrected notices, stale status, source conflicts and deadline calculations remain visible and reviewable;
+- response preparation reuses Part IV Professional Review, Filing Approval, Execution, acknowledgement and audit controls;
+- publication remains distinct from registration and verified window closure requires source evidence;
+- informal concern, observation, opposition and accepted proceeding remain distinct;
+- adversarial Matters preserve parties, grounds, scope, evidence, settlement authority, costs and procedural closure;
+- appeal, review, correction, cancellation, invalidation, restoration and recordal remain separate remedy contexts;
+- Deadline Record, Client Decision Record and Communication Packet preserve source, authority, escalation and correction history;
+- `EMBERLOOP` continues through US examination response, EU opposition and UK publication-window closure;
+- `RIVERKITE` continues through cancellation defense, ownership conflict and linked recordal and renewal work;
+- B05-REV-0009 accepts Part V and authorizes Part VI, CH37–CH43;
+- no Architecture Canon, Book 02, Book 03 or Book 04 amendment is required;
+- unrestricted implementation, production deployment and external protected action remain unauthorized.
+
 ## Active Future Workstreams
 
 - Architecture Canon maintenance
 - Books 01–04 Portfolio Baseline maintenance
-- Book 05 Part V — Examination, Publication and Disputes
+- Book 05 Part VI — Registration and Portfolio Continuity
 - Repository Canonical Alignment Audits
 - Lite Product-loop validation
 - MarkReg Product planning
@@ -213,7 +234,7 @@ The following remain horizontal architecture/specification or implementation wor
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
-| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Part IV Draft and Review Complete — Part V Authorized |
+| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Part V Draft and Review Complete — Part VI Authorized |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
