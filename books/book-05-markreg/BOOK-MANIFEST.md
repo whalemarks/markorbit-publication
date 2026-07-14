@@ -3,7 +3,7 @@
 ## Identity
 
 - **Canonical path:** `books/book-05-markreg/`
-- **Status:** Part IV Draft and Review Complete — Part V Authorized
+- **Status:** Part V Draft and Review Complete — Part VI Authorized
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
 - **Portfolio dependency:** MO-PUB-BASELINE-0001
 - **Primary Product:** MarkReg
@@ -59,6 +59,16 @@
 - `manuscript/B05-CH-28_Submission_States_Acknowledgement_and_Official_Evidence.md`
 - `manuscript/B05-CH-29_Failure_Retry_Duplicate_Safety_Communication_and_Audit.md`
 
+### Part V — Examination, Publication and Disputes
+
+- `manuscript/B05-CH-30_Examination_Context_and_Status_Authority.md`
+- `manuscript/B05-CH-31_Office_Action_Triage_and_Response_Strategy.md`
+- `manuscript/B05-CH-32_Response_Preparation_Evidence_and_Filing.md`
+- `manuscript/B05-CH-33_Publication_Observation_and_Opposition_Windows.md`
+- `manuscript/B05-CH-34_Opposition_Defense_and_Adversarial_Matters.md`
+- `manuscript/B05-CH-35_Appeals_Reviews_Cancellation_and_Invalidation.md`
+- `manuscript/B05-CH-36_Deadline_Governance_Client_Decisions_and_Outcome_Communication.md`
+
 ## Controlled Specifications
 
 - `specifications/B05-SPEC-0001_Product_Artifact_and_Decision_Map.md`
@@ -70,7 +80,7 @@
 
 B05-TOC-V0.1 defines CH00–CH47 across seven parts.
 
-CH30–CH36 are authorized as the next writing pack.
+CH37–CH43 are authorized as the next writing pack.
 
 ## Current Planning Inventory
 
@@ -88,16 +98,17 @@ CH30–CH36 are authorized as the next writing pack.
 - `reviews/B05-REV-0006_Part_III_Productization_Review.md`
 - `reviews/B05-REV-0007_CH00-CH22_Productization_Closure_Review.md`
 - `reviews/B05-REV-0008_Part_IV_Filing_Preparation_and_Governed_Execution_Review.md`
+- `reviews/B05-REV-0009_Part_V_Examination_Publication_and_Disputes_Review.md`
 
 ## Current Gate
 
 ```text
-Part IV CH23–CH29 drafted and reviewed
-→ Filing Package Candidate and Filing Approval
-→ private-first provider routing and accepted instruction
-→ governed provider, connector or manual execution
-→ sourced acknowledgement, failure recovery and audit
-→ Part V CH30–CH36 authorized
+Part V CH30–CH36 drafted and reviewed
+→ sourced examination and response contexts
+→ publication and opposition windows
+→ adversarial and remedy contexts
+→ deadline, decision and outcome Communication governance
+→ Part VI CH37–CH43 authorized
 ```
 
 Unrestricted implementation, production deployment and external protected action remain unauthorized.
