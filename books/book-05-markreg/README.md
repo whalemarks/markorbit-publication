@@ -5,9 +5,9 @@
 - **Book:** Book 05
 - **Title:** MarkReg: The Full-Lifecycle International Trademark Product
 - **Canonical path:** `books/book-05-markreg/`
-- **Status:** Part III Draft Complete — Owner Review Pending
+- **Status:** CH00–CH22 Whole-Draft Review Complete — Revision Required
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
-- **Current phase:** Commercial Journey and Formal Intake review
+- **Current phase:** B05-REVISION-PACK-001 — Whole-Draft Productization and Editorial Consolidation
 
 ## Position in the Series
 
@@ -24,6 +24,8 @@ Book 05 — MarkReg
 ```
 
 Book 05 is the first dedicated Product publication built on the Books 01–04 Portfolio Baseline.
+
+It is a Product constitution and lifecycle specification. It is not a jurisdictional legal manual, filing handbook, implementation PRD, or substitute for professional advice.
 
 ## Core Question
 
@@ -88,19 +90,26 @@ Full-Lifecycle International Trademark Product
 - [Positioning and Scope](planning/B05-PLN-0001_Positioning_and_Scope.md)
 - [Dependency Map](planning/B05-PLN-0002_Dependency_Map.md)
 - [Chapter Map and Writing Gates](planning/B05-PLN-0003_Chapter_Map_and_Writing_Gates.md)
-- [Part I Review](reviews/B05-REV-0001_Part_I_Product_Constitution_Review.md)
-- [Part II Review](reviews/B05-REV-0002_Part_II_Need_Strategy_and_Recommendation_Review.md)
-- [Part III Review](reviews/B05-REV-0003_Part_III_Commercial_Journey_and_Formal_Intake_Review.md)
+- [Part I Pack Review](reviews/B05-REV-0001_Part_I_Product_Constitution_Review.md)
+- [Part II Pack Review](reviews/B05-REV-0002_Part_II_Need_Strategy_and_Recommendation_Review.md)
+- [Part III Pack Review](reviews/B05-REV-0003_Part_III_Commercial_Journey_and_Formal_Intake_Review.md)
+- [Whole-Draft CH00–CH22 Review](reviews/B05-REV-0004_Whole_Draft_CH00-CH22_Review.md)
+
+## Whole-Draft Review Decision
+
+The architecture, Product position, lifecycle direction, responsibility boundaries, and seven-part sequence pass review.
+
+The current manuscript requires a controlled productization and editorial consolidation pass before Part IV. Blocking work includes the canonical Product Artifact and Decision Map, end-to-end reference journeys, testable conformance scenarios, jurisdiction-pack minimum contract, user-surface summaries, commercial controls, metadata normalization, and reduction of repeated constitutional language.
 
 ## Current Gate
 
 ```text
 B05-TOC-V0.1 owner accepted
-→ Parts I–III completed and reviewed
-→ owner reviews CH16–CH22
-→ Part IV controlled writing pack
-→ full-book review
-→ publication finishing
+→ Parts I–III drafted
+→ B05-REV-0004 whole-draft review complete
+→ B05-REVISION-PACK-001 closes blocking findings
+→ follow-up whole-draft review
+→ authorize or continue holding Part IV
 ```
 
 ## Authority Boundary
