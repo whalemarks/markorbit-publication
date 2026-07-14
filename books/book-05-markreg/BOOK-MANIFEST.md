@@ -3,7 +3,7 @@
 ## Identity
 
 - **Canonical path:** `books/book-05-markreg/`
-- **Status:** CH00–CH22 Productization Closed — Part IV Authorized
+- **Status:** Part IV Draft and Review Complete — Part V Authorized
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
 - **Portfolio dependency:** MO-PUB-BASELINE-0001
 - **Primary Product:** MarkReg
@@ -49,6 +49,16 @@
 - `manuscript/B05-CH-21_Validation_Readiness_and_Missing_Information.md`
 - `manuscript/B05-CH-22_Order_Matter_Payment_and_Responsibility_Handoff.md`
 
+### Part IV — Filing Preparation and Governed Execution
+
+- `manuscript/B05-CH-23_Filing_Package_as_a_Governed_Artifact.md`
+- `manuscript/B05-CH-24_Professional_Review_and_Filing_Approval.md`
+- `manuscript/B05-CH-25_Provider_Discovery_Private_Partners_and_Routing.md`
+- `manuscript/B05-CH-26_Provider_Appointment_Instruction_and_Acceptance.md`
+- `manuscript/B05-CH-27_Direct_Connector_Provider_Filing_and_Owning_Service_Boundaries.md`
+- `manuscript/B05-CH-28_Submission_States_Acknowledgement_and_Official_Evidence.md`
+- `manuscript/B05-CH-29_Failure_Retry_Duplicate_Safety_Communication_and_Audit.md`
+
 ## Controlled Specifications
 
 - `specifications/B05-SPEC-0001_Product_Artifact_and_Decision_Map.md`
@@ -60,7 +70,7 @@
 
 B05-TOC-V0.1 defines CH00–CH47 across seven parts.
 
-CH23–CH29 are authorized as the next writing pack.
+CH30–CH36 are authorized as the next writing pack.
 
 ## Current Planning Inventory
 
@@ -77,15 +87,17 @@ CH23–CH29 are authorized as the next writing pack.
 - `reviews/B05-REV-0005_Part_II_Productization_Review.md`
 - `reviews/B05-REV-0006_Part_III_Productization_Review.md`
 - `reviews/B05-REV-0007_CH00-CH22_Productization_Closure_Review.md`
+- `reviews/B05-REV-0008_Part_IV_Filing_Preparation_and_Governed_Execution_Review.md`
 
 ## Current Gate
 
 ```text
-B05-REVISION-PACK-001 closed
-→ Part IV CH23–CH29 authorized
-→ Filing Package Candidate
-→ Human Review and Filing Approval
-→ governed provider or connector execution
+Part IV CH23–CH29 drafted and reviewed
+→ Filing Package Candidate and Filing Approval
+→ private-first provider routing and accepted instruction
+→ governed provider, connector or manual execution
+→ sourced acknowledgement, failure recovery and audit
+→ Part V CH30–CH36 authorized
 ```
 
 Unrestricted implementation, production deployment and external protected action remain unauthorized.
