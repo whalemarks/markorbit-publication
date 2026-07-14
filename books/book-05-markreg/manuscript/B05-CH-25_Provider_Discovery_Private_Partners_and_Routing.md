@@ -1,141 +1,96 @@
 # B05-CH-25 — Provider Discovery, Private Partners and Routing
 
-**Status:** Part IV Draft  
+**Status:** Complete Draft 1  
 **Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part IV — Filing Preparation and Governed Execution
 
 ## Chapter Purpose
 
-An approved Filing Package may require an external professional or filing-capable provider.
+An approved package may require an external professional, filing provider, connector-supported service or eligible internal actor.
 
-CH25 answers:
-
-> Which Capability is needed, which private relationships or eligible providers may satisfy it, what evidence supports the recommendation, and which Human must select?
+CH25 defines:
 
 ```text
-Approved Filing Package
-+ Capability Need
-+ organization relationship context
-+ eligibility and conflict evidence
-+ availability and commercial evidence
-→ Routing Recommendation
-→ Human Selection
+EL-18 / CH25
+MR-C01 Capability Need
++ provider and route evidence
+→ MR-A14 Routing Recommendation
+→ MR-D04 Human Selection
 ```
 
-Discovery and recommendation do not appoint or instruct a provider.
+Recommendation and Human Selection do not appoint or instruct a provider.
 
----
+## 1. Product Question and Primary Action
 
-## 1. User Question and Primary Action
+**Product question:** Which route or provider is eligible for this exact filing context, and why?
 
-**User question:** Who is suitable to handle this filing route, and why?
+**Primary action:** Compare eligible routes and record the authorized Human Selection.
 
-**Primary action:** Compare the eligible routes and select a provider or approved direct route.
+The Product should present evidence and constraints, not an unexplained ranking or public bidding spectacle.
 
-The Product should present evidence and constraints, not a public bidding spectacle or unexplained ranking.
+## 2. Capability Need Comes First
 
----
-
-## 2. Capability Need Before Provider Name
-
-The Product first defines the Capability Need:
+`MR-C01 Capability Need` identifies:
 
 - jurisdiction and office;
-- filing route;
 - service family and stage;
-- mark type and filing unit;
+- filing route and filing unit;
+- local representation or qualification requirement;
 - language;
-- local representation requirement;
 - deadline and urgency;
 - conflict sensitivity;
-- credential or admission requirement;
-- document and original-handling requirement;
+- document and original-handling needs;
+- credential or office-account requirement;
 - communication expectation;
-- budget or fee ceiling;
-- preferred relationship or organization policy.
+- fee ceiling or commercial constraint;
+- organization relationship policy.
 
 A provider list without a typed Capability Need solves the wrong problem.
 
----
-
 ## 3. Routing Alternatives
 
-MarkReg may identify:
+Possible routes include:
 
-```text
-Direct official connector
-Internal eligible professional
-Existing private partner
-MGSN private-network candidate
-Approved external provider
-Owning Service route
-No currently eligible route
-```
+- direct official connector;
+- internal eligible professional;
+- existing private partner;
+- MGSN private-network candidate;
+- approved external provider;
+- filing-capable Owning Service;
+- assisted manual official-portal route;
+- no currently eligible route.
 
-The alternatives must preserve their different authority, cost, evidence and execution conditions.
+Each route retains different authority, evidence, commercial and Execution conditions.
 
----
+## 4. Private-First Evidence
 
-## 4. Private-First Discovery
+Provider discovery first considers authorized organization relationships and `MR-B04 Provider Capability Evidence Record`, including:
 
-Provider discovery should first consider:
-
-1. current approved organization relationships;
-2. provider history for the relevant jurisdiction and service;
-3. existing engagement terms;
-4. known conflict and availability status;
-5. current price or rate evidence;
-6. required credential evidence;
-7. recent outcome and communication context.
-
-A private partner relationship is an organization asset. MarkReg must not expose it as a public marketplace listing without authority.
-
----
-
-## 5. Provider Evidence
-
-Evidence may include:
-
-- identity and organization;
-- jurisdiction and credential;
-- professional admissions;
-- language;
-- service Capability;
-- filing route support;
-- current rates and fee structure;
-- response and acceptance history;
-- deadline performance;
-- filing or acknowledgement evidence;
-- communication quality;
-- document-handling capability;
-- insurance or compliance evidence where required;
-- relationship owner and last verification date.
-
-No single score should replace the underlying evidence.
-
----
-
-## 6. Eligibility
-
-Eligibility checks may cover:
-
-- current professional status;
-- local-representation qualification;
-- organization policy;
-- sanctioned or prohibited relationship rules;
+- identity, organization and jurisdiction;
+- qualification and credential freshness;
+- service and route capability;
 - language and communication capability;
-- service-specific experience;
-- provider credential freshness;
-- required office account or connector access;
-- authority to receive documents or funds.
+- conflict state;
+- Matter-specific availability;
+- current rate and fee evidence;
+- deadline, acknowledgement and reporting history;
+- document-handling capability;
+- relationship owner and last verification time;
+- known limitations.
 
-A provider that was eligible for one Matter may not be eligible for another.
+A private relationship is an organization asset and must not become a public marketplace listing without authority.
 
----
+## 5. Eligibility, Conflict and Availability
 
-## 7. Conflict
+These dimensions remain separate.
 
-Conflict states should include:
+### Eligibility
+
+Eligibility may depend on professional status, local representation rules, service experience, office access, organization policy and authority to receive Documents or funds.
+
+### Conflict
+
+Use explicit states such as:
 
 ```text
 Not checked
@@ -147,194 +102,122 @@ Unable to check
 Expired check
 ```
 
-`No conflict reported` is not the same as an independent guarantee of no conflict.
+`No conflict reported` is not a universal guarantee.
 
-Sensitive client or mark information should be disclosed only to the extent needed for the conflict check.
+### Availability
 
----
+Availability should be Matter- and deadline-specific:
 
-## 8. Availability and Deadline Fit
+```text
+Available for this Matter
+Available with conditions
+Response pending
+Unavailable before deadline
+Unavailable
+Unknown
+```
 
-The Product should distinguish:
+Historical quality does not overcome current unavailability.
 
-- generally available;
-- available for this Matter;
-- response pending;
-- available subject to documents or payment;
-- unavailable before deadline;
-- unavailable;
-- unknown.
+## 6. Commercial Evidence and Visibility
 
-A high historical rating is irrelevant if the provider cannot accept the current deadline.
+Comparison may include:
 
----
-
-## 9. Commercial Evidence
-
-Provider comparison should preserve:
-
-- quote or rate version;
+- provider quote or rate version;
 - official and professional fee split;
 - currency and tax;
 - included and excluded stages;
-- later-stage charges;
-- urgency fees;
-- document, translation and courier costs;
+- later-stage and urgency fees;
+- translation, certification and courier costs;
 - payment timing;
 - cancellation terms;
 - quote validity.
 
-Internal provider cost remains access-controlled and is not automatically the client-facing price.
+Internal provider cost and relationship notes remain access-controlled and are not automatically client-facing price.
 
----
+## 7. Routing Recommendation
 
-## 10. Contextual Trust, Not Universal Ranking
+`MR-A14 Routing Recommendation` should show:
 
-Trust may be contextual to:
-
-- organization relationship;
-- jurisdiction;
-- service family;
-- mark type;
-- language;
-- urgency;
-- document complexity;
-- client sensitivity;
-- historical evidence.
-
-The Product may recommend a candidate for one context without declaring that provider universally superior.
-
----
-
-## 11. Recommendation Explanation
-
-A Routing Recommendation should show:
-
-- why the route is eligible;
-- which requirements it satisfies;
-- current evidence and freshness;
-- known limitations;
-- fee and timing differences;
+- eligible candidates and routes;
+- evidence and freshness;
 - conflict and availability state;
+- Capability Need coverage;
+- fee and timing differences;
+- known limitations;
 - relationship context;
-- required next checks;
-- Human Selection authority.
+- checks still required;
+- authorized selector.
 
-The explanation should remain available after selection.
+No single score replaces the underlying evidence.
 
----
+## 8. Human Selection
 
-## 12. Human Selection
-
-Human Selection records:
+`MR-D04 Human Selection` records:
 
 - selected provider or direct route;
-- selecting actor and organization;
-- authority basis;
+- actor, organization and authority basis;
 - package and Matter scope;
-- selection time;
 - evidence considered;
-- reason;
-- rejected alternatives where material;
+- reason and material rejected alternatives;
 - conditions and expiry.
 
-Selection is not appointment, instruction, acceptance or submission.
+```text
+Recommendation ≠ Human Selection
+Human Selection ≠ appointment
+Appointment ≠ instruction
+Instruction ≠ Provider Acceptance
+```
 
----
+## 9. No Eligible Route and Route Change
 
-## 13. No Eligible Route
+When no route is eligible, the Product identifies the unmet Capability, evidence gap, deadline impact, escalation owner and alternatives. It must not fabricate a route.
 
-When no route is eligible, the Product must not fabricate one.
+A provider or route change triggers impact analysis for:
 
-It should identify:
-
-- unmet Capability;
-- unavailable evidence;
-- deadline impact;
-- escalation owner;
-- alternative route or jurisdiction strategy;
-- need for manual professional sourcing;
-- whether filing approval must be paused or revised.
-
----
-
-## 14. Provider Change
-
-A provider change may invalidate:
-
-- provider-specific documents;
-- POA or appointment forms;
+- provider-specific Documents and POA;
 - price and payment assumptions;
-- filing instructions;
-- connector payload;
-- deadline and availability assumptions;
-- Filing Approval where provider-limited.
+- package transformation;
+- deadline and availability;
+- Filing Approval scope;
+- appointment and instruction.
 
-The Product should create a new Routing Recommendation and identify all affected artifacts.
+## 10. `EMBERLOOP` — `EL-18`
 
----
+For `EMBERLOOP`:
 
-## 15. `EMBERLOOP` Reference Journey
+- the US filing compares an existing private partner, an eligible MGSN candidate and an Owning Service route;
+- the EU filing uses a governed service route;
+- the UK filing uses an eligible professional through the official portal.
 
-For the `EMBERLOOP` US filing, MarkReg determines that local US counsel is required under the chosen operating model.
+The existing US partner has current credential, conflict, availability and rate evidence. An authorized Human selects it, but no package is disclosed and no instruction is sent yet.
 
-It compares:
+## 11. Controlled Scenario
 
-- the organization’s existing US private partner;
-- one verified MGSN private-network candidate;
-- a supported Owning Service route.
+### `MR-SCN-19` — Provider conflict or unavailability
 
-The existing partner has current credential, conflict-clearance and rate evidence, can meet the launch deadline, and already accepts the organization’s document package format.
+When the preferred provider has a conflict or cannot meet the deadline, the Product preserves the failed candidate, presents eligible alternatives and requires a new Human Selection.
 
-The responsible Human selects that partner. The selection does not yet authorize disclosure of the full package or send instructions.
+**Boundary:** recommendation does not appoint the replacement.
 
----
+## 12. AI Assistance
 
-## 16. Conformance Scenario — Preferred Partner Unavailable
+AI may structure Capability Needs, compare evidence, identify stale credentials or rates and draft Routing Recommendations.
 
-**Given** the preferred private partner has strong historical evidence.  
-**When** the provider reports that it cannot meet the filing deadline.  
-**Then** MarkReg marks the current Matter availability as failed, preserves the relationship evidence, reruns routing among eligible alternatives, and requires a new Human Selection.  
-**Authority boundary:** the Product recommends; it does not appoint the replacement.  
-**Evidence retained:** availability response, deadline context, prior and revised recommendations, selection decision.
+AI may not expose private relationship data, declare eligibility without evidence, waive conflict, select or appoint a provider, accept commercial terms or send instructions.
 
----
-
-## 17. AI Assistance
-
-AI may:
-
-- structure Capability Needs;
-- compare evidence;
-- identify stale credentials or rates;
-- summarize provider strengths and constraints;
-- detect missing conflict or availability checks;
-- prepare Routing Recommendations.
-
-AI may not expose private relationship data without authority, declare legal eligibility without evidence, select or appoint a provider, waive conflict, accept commercial terms, or send instructions.
-
----
-
-## 18. Minimum Chapter Lock
+## 13. Chapter Lock
 
 ```text
 Capability Need comes before provider name.
-
 Discovery is private-first and evidence-based.
-Eligibility, conflict, availability,
-commercial terms and relationship context
-remain separate and visible.
-
-Recommendation is not Human Selection.
-Selection is not appointment.
-Appointment is not instruction.
-Instruction is not provider acceptance.
+Eligibility, conflict, availability and price remain separate.
+Recommendation is not Selection.
+Selection is not appointment or instruction.
 ```
 
----
+## 14. Handoff to CH26
 
-## 19. Handoff to CH26
+CH25 produces `MR-D04 Human Selection` with retained evidence.
 
-CH25 produces a Human-selected provider or direct route with retained evidence.
-
-CH26 defines appointment preparation, authority, governed instruction, information disclosure, provider acceptance, engagement scope, rejection and substitution.
+CH26 prepares `MR-A15 Provider Appointment Candidate`, sends bounded `MR-A16 Provider Instruction` and records `MR-D05 Provider Acceptance`.
