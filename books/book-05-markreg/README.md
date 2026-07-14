@@ -5,9 +5,9 @@
 - **Book:** Book 05
 - **Title:** MarkReg: The Full-Lifecycle International Trademark Product
 - **Canonical path:** `books/book-05-markreg/`
-- **Status:** CH00–CH22 Productization Closed — Part IV Authorized
+- **Status:** Part IV Draft and Review Complete — Part V Authorized
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
-- **Current phase:** Part IV — Filing Preparation and Governed Execution
+- **Current phase:** Part V — Examination, Publication and Disputes
 
 ## Position in the Series
 
@@ -37,23 +37,29 @@ CH00–CH07 establish the Product thesis, responsibility boundaries, participant
 
 ### Part II — Need, Strategy and Recommendation
 
-CH08–CH15 are productized around explicit user questions, minimum information, Product artifacts, the `EMBERLOOP` journey, observable scenarios, jurisdiction-pack rules and change propagation.
+CH08–CH15 define Need Brief, jurisdiction and route recommendations, country options, filing units, applicant context, classes, goods/services, search and risk.
 
 ### Part III — Commercial Journey and Formal Intake
 
-CH16–CH22 are productized around:
-
-- Proposal and Option Set design;
-- transparent pricing and commercial controls;
-- Quote, exact-version acceptance and Commercial Instruction;
-- service-specific Formal Intake;
-- document, POA, signature and certification requirements;
-- purpose-specific Readiness Assessment;
-- idempotent Handoff Envelope to formal Order, Matter, payment, responsibility and Execution contexts.
+CH16–CH22 define Proposal, pricing, Quote, acceptance, Commercial Instruction, Formal Intake, Requirement Set, Readiness Assessment and formal Handoff Envelope.
 
 ### Part IV — Filing Preparation and Governed Execution
 
-CH23–CH29 are authorized as the next controlled writing pack.
+CH23–CH29 are drafted and reviewed:
+
+- [CH23 — Filing Package as a Governed Artifact](manuscript/B05-CH-23_Filing_Package_as_a_Governed_Artifact.md)
+- [CH24 — Professional Review and Filing Approval](manuscript/B05-CH-24_Professional_Review_and_Filing_Approval.md)
+- [CH25 — Provider Discovery, Private Partners and Routing](manuscript/B05-CH-25_Provider_Discovery_Private_Partners_and_Routing.md)
+- [CH26 — Provider Appointment, Instruction and Acceptance](manuscript/B05-CH-26_Provider_Appointment_Instruction_and_Acceptance.md)
+- [CH27 — Direct Connector, Provider Filing and Owning Service Boundaries](manuscript/B05-CH-27_Direct_Connector_Provider_Filing_and_Owning_Service_Boundaries.md)
+- [CH28 — Submission States, Acknowledgement and Official Evidence](manuscript/B05-CH-28_Submission_States_Acknowledgement_and_Official_Evidence.md)
+- [CH29 — Failure, Retry, Duplicate Safety, Communication and Audit](manuscript/B05-CH-29_Failure_Retry_Duplicate_Safety_Communication_and_Audit.md)
+
+Part IV preserves the full chain from Filing Package Candidate to verified official acknowledgement, including private-first provider routing, version-specific Filing Approval, execution-route authority, unknown states, duplicate safety and reconciliation.
+
+### Part V — Examination, Publication and Disputes
+
+CH30–CH36 are authorized as the next controlled writing pack.
 
 ## Controlled Product Specifications
 
@@ -67,18 +73,16 @@ CH23–CH29 are authorized as the next controlled writing pack.
 - [Book Manifest](BOOK-MANIFEST.md)
 - [Book Status](BOOK-STATUS.md)
 - [Book Governance](BOOK-GOVERNANCE.md)
-- [B05-REV-0004 — Initial CH00–CH22 Whole-Draft Review](reviews/B05-REV-0004_Whole_Draft_CH00-CH22_Review.md)
-- [B05-REV-0005 — Part II Productization Review](reviews/B05-REV-0005_Part_II_Productization_Review.md)
-- [B05-REV-0006 — Part III Productization Review](reviews/B05-REV-0006_Part_III_Productization_Review.md)
 - [B05-REV-0007 — CH00–CH22 Productization Closure Review](reviews/B05-REV-0007_CH00-CH22_Productization_Closure_Review.md)
+- [B05-REV-0008 — Part IV Filing Preparation and Governed Execution Review](reviews/B05-REV-0008_Part_IV_Filing_Preparation_and_Governed_Execution_Review.md)
 
 ## Current Gate
 
 ```text
-B05-REVISION-PACK-001 closed
-→ CH00–CH22 foundation accepted for continuation
-→ draft Part IV, CH23–CH29
-→ review filing-package, approval, routing and execution boundaries
+CH00–CH22 foundation accepted
+→ Part IV CH23–CH29 drafted and reviewed
+→ Part V CH30–CH36 authorized
+→ examination, publication and dispute journeys
 ```
 
 ## Authority Boundary
