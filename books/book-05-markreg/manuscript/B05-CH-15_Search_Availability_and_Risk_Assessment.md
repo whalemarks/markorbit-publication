@@ -1,781 +1,170 @@
 # B05-CH-15 — Search, Availability and Risk Assessment
 
-**Status:** Part II Draft  
-**Chapter Map:** B05-TOC-V0.1  
-**Part:** Part II — Need, Strategy and Recommendation
+**Status:** Revised Draft — Productized  
+**Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
+**Part:** Part II — Need, Strategy and Recommendation  
+**Revision basis:** B05-REVISION-PACK-001
 
 ## Chapter Purpose
 
-CH08–CH14 transformed an ordinary-language need into structured candidates for jurisdictions, routes, portfolio scenarios, filing units, applicant context, classes, and goods/services wording.
-
-The final Part II question is:
+Search is a decision-support activity, not a guarantee of registration, use, or freedom from dispute.
+
+This chapter defines when MarkReg recommends search, how it scopes search modes, how findings are interpreted, and how risk changes the Recommendation Set, Option Set, and later commercial journey.
 
-> Which searches or risk assessments are appropriate, what can they support, what can they not prove, and how should MarkReg present the result without converting incomplete evidence into a guarantee?
+## 1. Product Question
 
-Search is important.
+> What search is proportionate to the filing decision, and how should the user understand the remaining risk?
 
-Search is also easy to overstate.
+The Product must distinguish:
 
-The central proposition is:
+- whether search is recommended;
+- what data and jurisdictions are covered;
+- which marks, classes, and goods/services are searched;
+- which search method is used;
+- what the findings mean;
+- what they do not mean;
+- what action follows.
 
-```text
-Risk Assessment Candidate
-=
-Defined Search Purpose
-+ Exact Filing Unit
-+ Jurisdiction and Scope
-+ Search Mode
-+ Query Strategy
-+ Source Coverage
-+ Result Set and Status
-+ Similarity and Registrability Analysis
-+ Commercial and Procedural Risk
-+ Uncertainty and Limitations
-+ Human Professional Judgment
-```
+## 2. Search Modes
 
-The constitutional warning is:
+MarkReg may support:
 
-```text
-Search result
-≠ legal conclusion
-≠ clearance
-≠ registration guarantee
-≠ freedom to use
-≠ enforcement guarantee
-```
+| Mode | Purpose |
+| --- | --- |
+| Exact or knockout search | Identify obvious identical or near-identical conflicts quickly. |
+| Similarity search | Explore broader visual, phonetic, conceptual, or transliteration risk. |
+| Class-limited search | Focus on selected classes or related goods/services. |
+| Owner or portfolio search | Understand an identified party’s relevant rights. |
+| Common-law or market search | Explore use signals outside a registration database where supported. |
+| Device or image search | Review relevant figurative elements where data and tools permit. |
+| Professional opinion | Convert search evidence into accountable strategy. |
 
----
+The applicable jurisdiction pack must describe data coverage, freshness, known limitations, and source authority.
 
-## 1. Search Must Begin with a Defined Purpose
+## 3. Search Scope Contract
 
-Possible purposes include:
+A search request or result records:
 
-- identify identical earlier marks;
-- identify similar earlier marks;
-- assess preliminary filing risk;
-- support naming or branding decision;
-- assess one jurisdiction;
-- assess several jurisdictions;
-- evaluate one filing unit;
-- compare variants;
-- investigate a known citation;
-- support opposition or invalidation analysis;
-- identify common-law or marketplace use;
-- support provider consultation.
+- mark representation and version;
+- jurisdiction and database scope;
+- classes and goods/services version;
+- search mode and method;
+- search date and data freshness;
+- source identifiers;
+- query assumptions;
+- result set or evidence references;
+- automated confidence where used;
+- professional interpretation status;
+- material findings;
+- recommended action;
+- residual risk;
+- supersession and re-search triggers.
 
-The Product should not run an undefined “search” and present the result as complete.
+Search outputs contribute to `MR-A03 Recommendation Set`. They do not become official status or final professional advice automatically.
 
----
-
-## 2. Search Mode Must Be Explicit
-
-Possible modes include:
-
-```text
-Identity search
-Preliminary similarity search
-Comprehensive trademark search
-Device or figurative search
-Transliteration search
-Translation or semantic search
-Owner or applicant search
-Portfolio search
-Common-law or marketplace search
-Domain and company-name review
-Known-citation analysis
-```
+## 4. Product Behavior
 
-Each mode has different coverage, cost, time, and limitations.
+MarkReg should:
 
----
+1. recommend search according to market importance, timing, mark distinctiveness, known conflicts, and risk posture;
+2. show the difference between search modes;
+3. calculate affected scope from filing units, classes, goods/services, and jurisdictions;
+4. expose data limitations and freshness;
+5. group findings by relevance without hiding the underlying evidence;
+6. request professional interpretation for material risk;
+7. connect findings to concrete options: proceed, narrow, change, defer, search further, or seek advice;
+8. preserve original findings and later decisions;
+9. identify when changed inputs require re-search.
 
-## 3. Filing Unit Determines the Query
-
-A word mark, logo, composite mark, local-language mark, slogan, and product shape require different analysis.
+## 5. Risk Expression
 
-The Product should preserve:
+Risk should not be reduced to a single unexplained score.
 
-- exact representation;
-- wording;
-- dominant elements;
-- language;
-- transliteration;
-- translation;
-- device elements;
-- version.
+A useful risk assessment identifies:
 
-One search should not be reused across materially different filing units without explanation.
+- issue type;
+- affected mark, jurisdiction, class, and item;
+- source evidence;
+- similarity or conflict basis;
+- confidence and uncertainty;
+- likely consequence;
+- available response options;
+- professional interpretation;
+- user decision;
+- revalidation trigger.
 
----
+Labels such as low, moderate, or high may summarize the assessment but cannot replace the explanation.
 
-## 4. Jurisdiction and Route Define the Search Context
+## 6. User Surface
 
-Relevant context may include:
+The user sees:
 
-- national register;
-- regional register;
-- international designations;
-- local earlier rights;
-- pending applications;
-- registered rights;
-- cancelled or expired rights;
-- local use;
-- office examination practice;
-- opposition risk.
+- whether search is recommended and why;
+- available search modes and costs;
+- scope covered;
+- data limitations;
+- material findings in plain language;
+- affected filing options;
+- recommended next steps;
+- one primary action: **Order search, revise scope, or proceed with recorded risk**.
 
-A global database may support discovery.
+The Product must state that no search eliminates all risk.
 
-It may not represent complete local coverage.
+## 7. Reference Journey A — EMBERLOOP
 
----
+MarkReg recommends knockout searches in all core markets and expanded review in the United States and European Union.
 
-## 5. Class and Goods/Services Scope Define Relevance
+A similar mark appears for grill-related goods. The professional records moderate risk and recommends narrowing one goods description while retaining the broader word-mark strategy.
 
-Similarity analysis should consider:
+The Recommendation Set is revised. The prior wording and original search findings remain traceable.
 
-- candidate classes;
-- actual goods/services;
-- related goods/services;
-- local grouping;
-- trade channels;
-- consumers;
-- purpose;
-- complementarity;
-- competition.
+## 8. Conformance Scenarios
 
-Same class does not automatically mean conflicting scope.
+### MR-CH15-SCN-01 — Material input change
 
-Different class does not automatically mean no conflict.
+**Given** the user replaces the selected device or materially changes goods/services after search.  
+**When** the Recommendation Set is recalculated.  
+**Then** MarkReg identifies the affected search assumptions, marks the result partially or fully stale, and recommends the appropriate re-search or professional validation.  
+**Authority boundary:** the Product does not treat the old search as covering a new filing unit or scope.  
+**Evidence retained:** old and new inputs, prior search, stale reason, and resulting decision.
 
----
+### MR-CH15-SCN-02 — Proceeding with known risk
 
-## 6. Query Design Must Be Inspectable
+**Given** a professional interpretation identifies moderate conflict risk.  
+**When** the user chooses to proceed.  
+**Then** MarkReg records the selected option, the explained risk, the actor and authority, and the exact downstream versions affected.  
+**Authority boundary:** user acceptance of risk does not replace filing approval.  
+**Evidence retained:** finding, advice, options, user decision, and professional review.
 
-Query design may include:
+## 9. Freshness and Official-Source Boundary
 
-- exact wording;
-- variants;
-- spacing;
-- punctuation;
-- plural;
-- transliteration;
-- phonetic variants;
-- translation;
-- prefix or suffix;
-- dominant component;
-- device code;
-- owner;
-- status;
-- date;
-- class;
-- local group.
+Search and status data must show retrieval time and source coverage.
 
-The Product should preserve the query version.
+A stale database result or Product projection must not be presented as current official truth. `MR-SCN-10`, `MR-CR-04`, and `MR-CR-05` apply.
 
-A result set cannot be evaluated without knowing what was searched.
+## 10. Product Measures
 
----
+Useful measures include:
 
-## 7. Search Sources Must Be Identified
+- search recommendation acceptance rate;
+- re-search frequency caused by changed scope;
+- percentage of material findings receiving professional review;
+- recommendation changes caused by search;
+- rate of users proceeding with documented risk;
+- later conflicts traceable to known versus unknown search limitations.
 
-Possible sources include:
+Metrics must not reward unnecessary searches or overstate predictive certainty.
 
-- official trademark office database;
-- regional or international database;
-- validated commercial database;
-- company registry;
-- domain database;
-- marketplace;
-- search engine;
-- social platform;
-- provider report;
-- internal portfolio;
-- litigation or opposition database.
+## 11. Handoff to Part III
 
-The Product should show:
+Part II now provides a versioned Recommendation Set covering:
 
-- source;
-- coverage;
-- checked date;
-- known limitation;
-- retrieval method.
+- jurisdictions and routes;
+- country bundles;
+- filing units;
+- applicant and authority context;
+- classes;
+- goods/services scope;
+- search and risk.
 
----
-
-## 8. Source Availability Does Not Equal Source Completeness
-
-A database may be:
-
-- delayed;
-- incomplete;
-- difficult to search;
-- inconsistent in transliteration;
-- missing images;
-- missing local use;
-- missing recent filings;
-- limited by query syntax;
-- affected by status mapping.
-
-The Product should state the limitation.
-
-“No result found” is not the same as “no earlier right exists”.
-
----
-
-## 9. Result Status Must Remain Sourced
-
-A result may be:
-
-- pending;
-- registered;
-- expired;
-- cancelled;
-- refused;
-- withdrawn;
-- unknown;
-- partially limited;
-- under opposition;
-- under appeal.
-
-The Product should preserve the official or source status and checked date.
-
-A normalized status is useful.
-
-It should not erase the original source description.
-
----
-
-## 10. Visual, Phonetic, and Conceptual Similarity Are Distinct
-
-For word or composite marks, analysis may consider:
-
-```text
-Visual similarity
-Phonetic similarity
-Conceptual similarity
-Overall impression
-Distinctive and dominant elements
-```
-
-The factors may have different weight depending on:
-
-- language;
-- script;
-- consumer;
-- mark type;
-- goods/services;
-- jurisdiction practice.
-
-AI may assist.
-
-Professional Review remains required for consequential conclusions.
-
----
-
-## 11. Goods and Services Similarity Is Separate from Mark Similarity
-
-A highly similar mark may create different risk depending on:
-
-- goods/services identity;
-- similarity;
-- complementarity;
-- channel;
-- consumer;
-- price;
-- purchasing care;
-- purpose;
-- local grouping.
-
-The Product should not produce one risk score from mark similarity alone.
-
----
-
-## 12. Inherent Registrability Is a Separate Risk Dimension
-
-Search may reveal earlier rights.
-
-The mark may also face issues such as:
-
-- descriptiveness;
-- generic meaning;
-- lack of distinctiveness;
-- geographic meaning;
-- surname;
-- prohibited element;
-- misleading meaning;
-- public-interest objection;
-- formal representation issue.
-
-MarkReg should separate:
-
-```text
-Earlier-right risk
-from
-inherent registrability risk
-```
-
----
-
-## 13. Use and Market Risk Are Separate from Registration Risk
-
-A mark may appear registrable but still create commercial risk because of:
-
-- unregistered use;
-- company name;
-- domain name;
-- marketplace seller;
-- distributor;
-- famous brand;
-- unfair-competition claim;
-- local consumer association;
-- reputation.
-
-A trademark-register search is not a complete freedom-to-use analysis.
-
----
-
-## 14. Search Depth Should Match the Decision
-
-A preliminary search may be suitable for:
-
-- early naming;
-- initial option comparison;
-- low-cost screening;
-- identifying obvious conflict.
-
-A comprehensive search may be suitable for:
-
-- high-value launch;
-- major jurisdiction;
-- substantial investment;
-- known crowded field;
-- enforcement strategy;
-- uncertain preliminary result.
-
-The Product should explain why the chosen depth is appropriate.
-
----
-
-## 15. “Availability” Must Be Used Carefully
-
-The Product should avoid unqualified statements such as:
-
-```text
-The mark is available.
-```
-
-Safer output may be:
-
-```text
-No material conflict was identified
-within the defined search scope,
-sources, query, and checked date.
-
-Professional Review remains required.
-```
-
-Availability is always bounded by the search performed.
-
----
-
-## 16. Risk Should Be Multidimensional
-
-A risk profile may include:
-
-- identity conflict;
-- similarity conflict;
-- inherent registrability;
-- use conflict;
-- applicant or ownership issue;
-- priority issue;
-- scope issue;
-- route dependency;
-- evidence gap;
-- source limitation;
-- deadline;
-- commercial consequence.
-
-The Product should allow a reader to understand which dimension drives the concern.
-
----
-
-## 17. Risk Categories Need Explanations
-
-MarkReg may use categories such as:
-
-```text
-Low apparent risk
-Moderate risk
-Material risk
-High risk
-Insufficient information
-Professional assessment required
-```
-
-Every category should include:
-
-- supporting results;
-- contrary evidence;
-- source limitation;
-- scope;
-- uncertainty;
-- recommended next action.
-
-A color alone is insufficient.
-
----
-
-## 18. One Global Score Should Be Avoided
-
-A single number may conceal:
-
-- high mark similarity but unrelated goods;
-- low register risk but high unregistered-use risk;
-- strong inherent objection;
-- incomplete source coverage;
-- ownership issue;
-- route issue.
-
-The Product may calculate internal signals.
-
-The user-facing result should remain explainable by dimension.
-
----
-
-## 19. Known Citations Require Focused Analysis
-
-If an office or provider identifies a specific earlier mark, MarkReg should preserve:
-
-- citation identifier;
-- exact mark;
-- owner;
-- status;
-- goods/services;
-- jurisdiction;
-- office reasoning;
-- response deadline;
-- source document.
-
-A known-citation analysis is not the same as a pre-filing search.
-
----
-
-## 20. Device Search Requires Specialized Treatment
-
-A logo search may consider:
-
-- device elements;
-- composition;
-- word element;
-- color;
-- shape;
-- figurative code;
-- dominant feature;
-- conceptual impression.
-
-Image similarity may assist result discovery.
-
-It should not become a final legal similarity conclusion automatically.
-
----
-
-## 21. Transliteration and Translation Searches May Both Be Needed
-
-A mark may create conflict through:
-
-- same sound;
-- same meaning;
-- local script;
-- translated term;
-- common nickname;
-- transliteration variant.
-
-The Product should preserve which language and transformation were searched.
-
-Machine-generated variants require Review.
-
----
-
-## 22. Search Provider Selection Is Separate from Search Need
-
-MarkReg may identify:
-
-- search mode;
-- jurisdiction;
-- scope;
-- turnaround need;
-- language;
-- specialist capability.
-
-MGSN or private provider relationships may later identify candidates.
-
-The Product should not appoint a provider merely because a search is recommended.
-
----
-
-## 23. Search Requests May Contain Sensitive Information
-
-A pre-launch mark, acquisition, product, or market plan may be confidential.
-
-The Product should minimize disclosure.
-
-An initial provider capability request may omit:
-
-- client identity;
-- complete portfolio;
-- launch details;
-- internal rationale;
-
-until conflict and authority checks are satisfied.
-
----
-
-## 24. AI May Assist Result Triage
-
-AI may:
-
-- deduplicate results;
-- normalize names;
-- compare wording;
-- cluster owners;
-- summarize goods/services;
-- identify likely relevance;
-- extract status;
-- compare mark variants;
-- prepare review notes.
-
-AI should preserve:
-
-- source result;
-- extracted data;
-- confidence;
-- transformation;
-- unresolved ambiguity.
-
-It should not suppress contrary results silently.
-
----
-
-## 25. Human Review Applies to the Defined Search Record
-
-A professional Review should identify:
-
-- filing unit version;
-- jurisdiction;
-- search mode;
-- query;
-- classes and items;
-- sources;
-- checked date;
-- result set;
-- excluded results;
-- similarity factors;
-- inherent-risk analysis;
-- limitation;
-- conclusion;
-- recommended action.
-
-A later query or mark version may require new Review.
-
----
-
-## 26. The Product Should Present Decision Options
-
-Possible next actions include:
-
-```text
-Proceed to commercial option design
-Proceed with stated residual risk
-Modify the mark
-Narrow or change scope
-Search more deeply
-Search additional jurisdictions
-Seek specialist opinion
-Negotiate coexistence
-Acquire or challenge an earlier right
-Defer filing
-Do not proceed
-```
-
-The Product should explain the consequence of each option.
-
----
-
-## 27. Proceeding with Risk Requires an Explicit Record
-
-A user or professional may choose to proceed despite risk.
-
-The record should preserve:
-
-- identified risk;
-- sources;
-- limitation;
-- professional recommendation;
-- decision-maker;
-- authority;
-- reason;
-- affected filing unit;
-- version;
-- next step.
-
-Proceeding with risk is not the same as the risk disappearing.
-
----
-
-## 28. Search Results May Change Over Time
-
-New applications may appear.
-
-Statuses may change.
-
-Databases may update.
-
-Use may begin.
-
-The Product should preserve:
-
-- checked date;
-- refresh policy;
-- material change signal;
-- expiry of reliance where appropriate.
-
-A search is a time-bounded observation.
-
----
-
-## 29. Risk Assessment Candidate Structure
-
-A useful candidate may contain:
-
-```text
-Need Brief reference
-Filing unit and version
-Applicant assumption
-Jurisdiction and route
-Classes and goods/services
-Search purpose
-Search mode
-Query version
-Sources and coverage
-Checked date
-Result references
-Status normalization
-Similarity analysis
-Inherent registrability analysis
-Use and market risk
-Other procedural risk
-Risk dimensions
-Uncertainty
-Limitations
-Decision options
-Professional Review
-Version
-```
-
-This remains a Product-prepared assessment.
-
----
-
-## 30. Search Is Not Mandatory in Every Journey
-
-Search may be deferred or omitted when:
-
-- the user provides an informed instruction;
-- the organization has an approved policy;
-- urgency requires a different sequence;
-- cost is constrained;
-- the mark has already been searched;
-- the service is not a new filing;
-- a professional decides another action is more useful.
-
-The Product should record the reason.
-
-No-search does not mean no risk.
-
----
-
-## 31. Failure Modes to Reject
-
-```text
-Undefined search presented as comprehensive
-One query reused for all mark variants
-No-result shown as no-conflict
-Database status shown without checked date
-Same class treated as automatic conflict
-Different class treated as no conflict
-AI image similarity treated as legal conclusion
-Register search shown as freedom to use
-Risk reduced to one unexplained score
-Search result shown as registration guarantee
-Provider appointed automatically
-Sensitive mark exposed before conflict check
-Proceed decision erases residual risk
-Old search shown as current
-```
-
----
-
-## 32. Minimum Search and Risk Lock
-
-```text
-Search begins with a defined purpose.
-
-The filing unit, jurisdiction,
-scope, mode, query, source,
-coverage, and checked date remain visible.
-
-Search results are evidence.
-
-They are not guarantees.
-
-Mark similarity, goods/services similarity,
-inherent registrability, use risk,
-and procedural risk remain distinct.
-
-AI may triage and explain.
-
-An eligible human makes
-the consequential professional assessment.
-
-The output is a Risk Assessment Candidate.
-
-The next action remains a decision,
-not an automatic filing instruction.
-```
-
----
-
-## 33. Part II Completion
-
-Part II began with an unstructured user objective.
-
-It now produces a connected set of versioned candidates:
-
-```text
-Need Brief
-→ Jurisdiction Strategy Candidate
-→ Portfolio Strategy Scenario
-→ Mark Filing Unit Candidate
-→ Applicant and Authority Context Candidate
-→ Classification Candidate Set
-→ Specification Candidate Package
-→ Risk Assessment Candidate
-```
-
-These candidates make the service understandable.
-
-They do not yet create commercial commitment or formal Intake.
-
-Part III begins the next controlled transition:
-
-```text
-Recommendation
-→ Proposal
-→ Price
-→ Quote
-→ Acceptance
-→ Formal Intake
-→ Validation
-→ Order, Matter, Payment, and Responsibility Handoff
-```
+Part III converts those recommendations into comparable options, Proposal, Quote, acceptance, Formal Intake, requirements, readiness, and governed handoff.

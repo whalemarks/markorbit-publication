@@ -1,823 +1,153 @@
 # B05-CH-08 — Need Understanding Before Forms
 
-**Status:** Part II Draft  
-**Chapter Map:** B05-TOC-V0.1  
-**Part:** Part II — Need, Strategy and Recommendation
+**Status:** Revised Draft — Productized  
+**Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
+**Part:** Part II — Need, Strategy and Recommendation  
+**Revision basis:** B05-REVISION-PACK-001
 
 ## Chapter Purpose
 
-Part I established MarkReg as a focused Product that composes an international trademark journey without absorbing Workplace, Core, Execution, MGSN, Owning Services, official offices, or professional responsibility.
+MarkReg begins with the business problem, not with a filing form.
 
-Part II begins before formal Intake.
+This chapter defines how the Product converts an ordinary-language request into a versioned **Need Brief** that can support jurisdiction, route, filing-unit, classification, goods/services, search, pricing, and intake decisions.
 
-The first Product problem is not how to complete a filing form.
+The canonical artifact and version rules are defined in [B05-SPEC-0001](../specifications/B05-SPEC-0001_Product_Artifact_and_Decision_Map.md). The reference case used here is Journey A in [B05-SPEC-0002](../specifications/B05-SPEC-0002_Reference_Journeys.md).
 
-It is:
+## 1. Product Question
 
-> How should MarkReg understand the business need, existing context, uncertainty, timing, and decision constraints before asking the user to choose countries, classes, wording, applicants, routes, or providers?
+> What problem is the user actually trying to solve, and which missing facts would materially change the next recommendation?
 
-A user usually describes a desired result in ordinary language:
+The Product must not assume that “register this logo” already determines:
 
-- protect this brand overseas;
-- file our logo in the United States;
-- cover Europe before launch;
-- stop others from copying us;
-- register in the countries where we manufacture;
-- extend an existing portfolio;
-- renew or recover rights that may be at risk.
+- the applicant;
+- the filing unit;
+- the jurisdictions;
+- the route;
+- the classes;
+- the goods and services;
+- the search scope;
+- the budget allocation;
+- the timing strategy.
 
-These statements are valid starting points.
+It must also avoid replacing a paper form with a longer questionnaire.
 
-They are not yet filing instructions.
+## 2. Inputs and Source Hierarchy
 
-The central proposition is:
+The Need Brief may consume:
 
-```text
-Need Understanding
-=
-User-Stated Objective
-+ Authorized Organization Context
-+ Brand and Business Context
-+ Geographic and Commercial Context
-+ Existing Rights and Evidence
-+ Timing, Risk, and Budget Constraints
-+ Explicit Facts
-+ Visible Assumptions and Inferences
-+ Missing Information
-+ Human-Review Requirements
-```
+1. authorized organization and client context;
+2. existing brand and portfolio records;
+3. user-provided business facts;
+4. uploaded brand assets;
+5. timing, budget, and risk preferences;
+6. professional corrections or clarifications.
 
-The primary output is a versioned **Need Brief**.
+Known facts should be reused rather than re-asked. A fact is re-requested only when it is stale, ambiguous, conflicting, or insufficient for the present purpose.
 
-```text
-Need Brief
-≠ Formal Intake
-≠ Country Decision
-≠ Filing Instruction
-≠ Legal Advice
-≠ Approved Strategy
-```
+Every consumed fact must be distinguishable as:
 
----
+- source-backed;
+- user-confirmed;
+- inferred;
+- professionally corrected;
+- unresolved.
 
-## 1. The User’s Sentence Is a Signal, Not a Complete Specification
+## 3. Minimum Question Set
 
-A user may express a need in one sentence because the business objective is clear to them.
+The first interaction should normally resolve only:
 
-The professional structure beneath that sentence may still be unknown.
+| Area | Minimum question |
+| --- | --- |
+| Objective | What business outcome should the trademark protection support? |
+| Markets | Where is the business active or planning to launch? |
+| Offering | What products, software, services, or commercial activities are involved? |
+| Timing | Is there a launch, exhibition, crowdfunding, filing, or priority deadline? |
+| Use | Which marks are already used, and in what form? |
+| Ownership | Is there a known applicant or group ownership policy? |
+| Risk | Is pre-filing search or speed more important? |
+| Budget | Which markets or filing units must be prioritized if scope must be reduced? |
 
-For example:
+The Product should ask a follow-up question only when the answer changes a material recommendation or exposes a professional-risk issue.
 
-```text
-“Register our brand in Europe.”
-```
+## 4. Need Brief Contract
 
-may require clarification of:
+The Need Brief is `MR-A02` under B05-SPEC-0001.
 
-- whether “Europe” means the European Union, the United Kingdom, selected national markets, or a staged combination;
-- whether the business needs one word mark, one logo, or several filing units;
-- which entity should own the rights;
-- which products and services matter;
-- whether an earlier filing supports priority;
-- whether launch or disclosure creates urgency;
-- whether an existing registration or application already covers part of the need.
+A conforming Need Brief includes:
 
-MarkReg should preserve the user’s original wording as a source statement.
-
-It should not mistake that wording for a complete professional instruction.
-
----
-
-## 2. Need Understanding Precedes Data Collection
-
-Traditional systems often begin by displaying all available fields.
-
-That approach assumes the user already understands the structure of the filing.
-
-MarkReg should instead determine which questions are relevant.
-
-The sequence is:
-
-```text
-Understand the objective
-→ assemble known context
-→ identify material uncertainty
-→ ask the smallest useful question
-→ update the Need Brief
-→ prepare options
-```
-
-This reduces unnecessary questions without hiding consequential decisions.
-
----
-
-## 3. Need Understanding Is a Product Responsibility
-
-MarkReg owns the user journey that turns an unstructured service need into an inspectable and reviewable problem statement.
-
-It may:
-
-- interpret the user’s objective;
-- assemble authorized Workplace context;
-- identify likely service categories;
-- organize facts and uncertainty;
-- propose the next question;
-- prepare jurisdiction, mark, applicant, class, and search candidates;
-- identify when professional escalation is needed.
-
-It does not create formal Order, Matter, Task, applicant, Trademark, or filing facts merely by understanding the need.
-
-Formal objects remain governed by their Owning Services.
-
----
-
-## 4. Entry Signals May Come from Several Sources
-
-A MarkReg journey may begin from:
-
-- direct user entry;
-- client inquiry;
-- professional recommendation;
-- Lite Today item;
-- portfolio gap;
-- renewal or maintenance signal;
-- office notice;
-- marketplace expansion;
-- manufacturing change;
-- investment or acquisition;
-- copying or enforcement concern;
-- provider communication;
-- imported legacy record.
-
-The origin should remain visible.
-
-The same words may have different meaning depending on the source.
-
-A portfolio gap generated by an internal analysis is not the same as a direct client instruction.
-
----
-
-## 5. The Need Brief Preserves the Original Objective
-
-The Need Brief should retain the user’s original objective before normalization.
-
-Example:
-
-```text
-Original statement:
-“We want to stop copycats in Southeast Asia before the new product launch.”
-
-Normalized need themes:
-- launch protection;
-- selected Southeast Asian markets;
-- possible manufacturing and sales exposure;
-- urgent timing;
-- word and device mark review;
-- search and filing strategy;
-- enforcement-oriented risk concern.
-```
-
-Normalization supports analysis.
-
-It must not erase the user’s own language or imply that every inferred theme has been confirmed.
-
----
-
-## 6. Business Context Changes the Recommendation
-
-Relevant business context may include:
-
-- products or services offered;
+- stable artifact and version identifiers;
+- business objective;
+- brand and offering summary;
 - current and planned markets;
-- manufacturing locations;
-- sales channels;
-- distributors and licensees;
-- e-commerce platforms;
-- investment or fundraising plans;
-- acquisition or restructuring;
-- franchising;
-- expected launch date;
-- known copying;
-- enforcement priorities;
-- budget and sequencing constraints.
+- relevant timing;
+- initial applicant and authority context;
+- known mark forms;
+- budget and risk posture;
+- assumptions;
+- unresolved questions;
+- source references;
+- user confirmation or correction status.
 
-A country recommendation based only on the user’s address may be professionally weak.
+The Need Brief is not Formal Intake. It is intentionally smaller and may contain unresolved assumptions.
 
-The Product should connect trademark strategy to the business activity that creates the need.
+## 5. Product Interaction
 
----
+The user surface should show:
 
-## 7. Brand Context Is Broader Than One Mark File
+- the interpreted need in plain language;
+- facts reused from authorized context;
+- assumptions the Product made;
+- conflicts or uncertainty;
+- one primary action: **Confirm or edit the Need Brief**;
+- an explanation that confirmation allows recommendations to begin but does not authorize filing.
 
-Brand context may include:
+A material edit must show the likely consequence before application. For example, changing the launch market may affect route, fees, provider requirements, documents, and timing.
 
-- house brand;
-- product brand;
-- sub-brand;
-- logo system;
-- slogan;
-- local-language name;
-- transliteration;
-- product shape;
-- color system;
-- packaging;
-- related domain names;
-- social accounts;
-- prior filings;
-- planned rebrand.
+## 6. Reference Journey A — EMBERLOOP
 
-MarkReg should not assume that one uploaded image represents the entire brand strategy.
+For Northstar Kitchenware, MarkReg asks only for product categories, planned launch markets, launch date, current use, applicant structure, mark forms, and budget priority.
 
-It should identify which assets may become separate filing units and which are merely supporting context.
+It reuses known company registration data and produces:
 
----
+> **Need Brief v1:** Protect the `EMBERLOOP` word mark and core flame-loop device before launch; prioritize the United States and European Union; avoid unnecessary filings; preserve a later expansion route for the United Kingdom, Japan, and Australia.
 
-## 8. Geographic Context Is Multidimensional
+The user can correct the market priority or mark forms before any jurisdiction recommendation is produced.
 
-Geographic need may arise from:
+## 7. Conformance Scenario
 
-- present sales;
-- planned sales;
-- manufacturing;
-- procurement;
-- licensing;
-- distribution;
-- online availability;
-- app-store or marketplace access;
-- investment;
-- enforcement risk;
-- competitor activity;
-- customs strategy;
-- contractual requirements.
+### MR-CH08-SCN-01 — Progressive clarification
 
-The Product should not reduce geographic context to one country list.
+**Given** the user requests “register our brand overseas” and the organization profile already contains company and brand records.  
+**When** MarkReg prepares the Need Brief.  
+**Then** it reuses known facts, asks only for markets, offering, timing, mark forms, risk, and budget, exposes its assumptions, and requests confirmation.  
+**Authority boundary:** the Product interprets the need but does not make the final legal or commercial decision.  
+**Evidence retained:** source records, questions asked, answers, assumptions, revisions, and confirmed Need Brief version.
 
-It should record why each place matters.
+Applicant conflict is governed by `MR-SCN-01` in [B05-SPEC-0003](../specifications/B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md).
 
----
+## 8. Change and Supersession
 
-## 9. Timing Must Be Understood Early
+A material change creates a new Need Brief version. Prior versions remain available.
 
-Timing may affect:
+Changes to markets, offering, applicant, mark form, timing, or budget must identify affected downstream artifacts. They must not silently rewrite an accepted Proposal, Quote, Formal Intake, or formal business object.
 
-- priority;
-- launch sequencing;
-- disclosure;
-- filing-route choice;
-- search depth;
-- document preparation;
-- translation;
-- provider availability;
-- budget staging;
-- response urgency;
-- maintenance action.
+This applies `MR-CR-07` and `MR-CR-08`.
 
-A stated launch date is not automatically an official deadline.
+## 9. Product Measures
 
-The Need Brief should distinguish:
+Useful measures include:
 
-```text
-Business target date
-Professional target date
-Calculated procedural deadline
-Official deadline
-Unverified urgency
-```
+- questions asked before first Need Brief;
+- percentage of authorized facts reused;
+- user correction rate;
+- time to confirmation;
+- downstream recommendation revisions caused by missed need facts;
+- rate of premature form abandonment.
 
-The distinction prevents business urgency from being misrepresented as legal authority.
+The objective is not the fewest possible questions. It is the fewest questions that preserve a safe and explainable next decision.
 
----
+## 10. Handoff to CH09
 
-## 10. Risk Context Is Not One Score
+A confirmed Need Brief authorizes preparation of a **Recommendation Set**. It does not authorize filing, payment, provider appointment, or creation of official truth.
 
-The user may be concerned about:
-
-- refusal;
-- earlier rights;
-- copying;
-- loss of priority;
-- applicant ownership;
-- invalid specification;
-- non-use;
-- bad-faith filing;
-- customs or marketplace enforcement;
-- cost overrun;
-- delay;
-- provider failure;
-- missing evidence;
-- missed maintenance.
-
-MarkReg should identify the type of risk before ranking it.
-
-A single global risk score may hide whether the concern is legal, commercial, procedural, evidentiary, or operational.
-
----
-
-## 11. Budget Is a Planning Constraint, Not the Sole Recommendation Rule
-
-Budget may influence:
-
-- staged filing;
-- route comparison;
-- number of filing units;
-- search depth;
-- class scope;
-- provider model;
-- timing;
-- optional jurisdictions.
-
-Budget should not silently determine that a legally important jurisdiction is unnecessary.
-
-The Product may present:
-
-```text
-Minimum viable protection
-Recommended protection
-Expanded protection
-Deferred protection
-```
-
-Each option should show what is omitted and the consequence of omission.
-
----
-
-## 12. Existing Rights Must Be Reused Carefully
-
-Relevant existing context may include:
-
-- applications;
-- registrations;
-- priority filings;
-- Madrid basic marks;
-- regional rights;
-- earlier searches;
-- prior refusals;
-- coexistence arrangements;
-- assignments;
-- licences;
-- use evidence;
-- disputes.
-
-MarkReg should reference shared records where possible.
-
-A saved record is useful context.
-
-It is not automatically current, complete, or valid for the new purpose.
-
----
-
-## 13. Known Facts Must Be Distinguished from Assumptions
-
-The Product should label information as:
-
-```text
-Confirmed fact
-User-stated fact
-Imported fact
-Inferred context
-Working assumption
-Professional hypothesis
-Unknown
-Disputed
-Superseded
-```
-
-Example:
-
-```text
-Confirmed:
-The company currently sells in Canada.
-
-Inferred:
-The company may need Canadian trademark protection.
-
-Unknown:
-Whether an existing Canadian application already covers the relevant mark.
-
-Recommendation candidate:
-Review existing rights before proposing a new filing.
-```
-
-This is essential for explainability and later Review.
-
----
-
-## 14. Inference Should Reduce Questions, Not Hide Them
-
-AI and rules may infer likely context from:
-
-- company profile;
-- website;
-- product catalogue;
-- prior matters;
-- marketplace listings;
-- uploaded documents;
-- existing portfolio;
-- user history;
-- jurisdiction Knowledge.
-
-An inference should be:
-
-- visible;
-- source-linked where material;
-- confidence-aware;
-- easy to correct;
-- prevented from becoming formal truth automatically.
-
-The Product should ask for confirmation only when the answer materially changes the next recommendation or protected action.
-
----
-
-## 15. Missing Information Should Be Prioritized
-
-Not every missing field deserves immediate interruption.
-
-Missing information may be classified as:
-
-```text
-Needed now
-Needed before recommendation
-Needed before quote
-Needed before formal Intake
-Needed before Review
-Needed before filing
-Useful but optional
-Not currently relevant
-```
-
-This progressive model prevents the Product from forcing a complete application form at the beginning.
-
----
-
-## 16. The Next Question Should Have a Decision Purpose
-
-Every question should answer:
-
-```text
-Which decision will this answer change?
-```
-
-Weak question:
-
-```text
-Select all countries.
-```
-
-Stronger question:
-
-```text
-Where do you currently sell, manufacture, or expect material copying risk during the next two years?
-```
-
-The stronger question produces context that can support several later decisions.
-
----
-
-## 17. Questions Should Be Adaptive
-
-MarkReg may choose the next question based on:
-
-- previous answer;
-- confidence;
-- business context;
-- available portfolio records;
-- user role;
-- service type;
-- urgency;
-- jurisdiction dependency;
-- unresolved contradiction.
-
-Adaptive questioning should not become opaque.
-
-The user should understand why a consequential question is being asked.
-
----
-
-## 18. Different Users Require Different Depth
-
-An experienced trademark professional may enter:
-
-- exact jurisdictions;
-- filing route;
-- applicant;
-- classes;
-- specification;
-- priority;
-- provider instruction.
-
-A first-time business user may provide only:
-
-- business activity;
-- launch markets;
-- brand assets;
-- timing;
-- budget.
-
-MarkReg should support both.
-
-Expert entry should not force unnecessary guidance.
-
-Guided entry should not require expert vocabulary.
-
----
-
-## 19. Organization Context Must Remain Authorized
-
-Workplace may provide:
-
-- client relationship;
-- organization identity;
-- existing portfolio;
-- private Knowledge;
-- preferred providers;
-- pricing rules;
-- internal Review policy;
-- communication preferences;
-- prior decisions.
-
-MarkReg may consume only authorized context for the current purpose.
-
-Availability in Workplace does not mean universal Product access.
-
----
-
-## 20. Private Context Must Not Become Shared Knowledge Automatically
-
-A Need Brief may contain sensitive information such as:
-
-- unreleased product;
-- acquisition;
-- new market;
-- dispute;
-- ownership issue;
-- budget;
-- provider dissatisfaction;
-- enforcement plan.
-
-This context remains private by default.
-
-It may support organization-specific recommendations.
-
-It does not automatically become shared Knowledge, network data, or model-training material.
-
----
-
-## 21. Contradictions Must Remain Visible
-
-Examples:
-
-- the user states one applicant, but existing rights show another owner;
-- the launch date precedes the expected filing preparation time;
-- the requested country conflicts with the stated market;
-- the user requests one class, but the product catalogue suggests several;
-- the uploaded logo differs from the existing portfolio version.
-
-MarkReg should not silently choose one answer.
-
-It should:
-
-```text
-identify the contradiction
-→ show the sources
-→ explain the consequence
-→ request correction or professional review
-```
-
----
-
-## 22. Need Understanding May Produce Several Service Paths
-
-One user objective may lead to:
-
-- new filing;
-- search;
-- portfolio review;
-- assignment;
-- renewal;
-- office action response;
-- opposition;
-- watch service;
-- provider consultation;
-- evidence collection;
-- no immediate filing.
-
-MarkReg should not force every need into a new-application path.
-
-The service path remains a candidate until sufficient context exists.
-
----
-
-## 23. The Need Brief Is Versioned
-
-A Need Brief may change when:
-
-- the client clarifies the objective;
-- a new market is added;
-- ownership changes;
-- search results arrive;
-- budget changes;
-- launch timing moves;
-- a new prior right is found;
-- a professional reviewer reframes the strategy.
-
-Each material version should preserve:
-
-- source changes;
-- changed assumptions;
-- author or actor;
-- timestamp;
-- affected recommendations;
-- unresolved questions.
-
----
-
-## 24. The Need Brief Is Not Formal Intake
-
-A Need Brief may be sufficient to:
-
-- continue guided discovery;
-- prepare jurisdiction candidates;
-- prepare a preliminary option comparison;
-- identify a search need;
-- request professional consultation.
-
-It may still be insufficient for:
-
-- quote acceptance;
-- Order creation;
-- Matter creation;
-- filing preparation;
-- provider instruction;
-- submission.
-
-The Product must not label exploration as formal Intake.
-
----
-
-## 25. The Need Brief Is Not Legal Advice by Itself
-
-The Product may explain:
-
-- why a jurisdiction may matter;
-- why a class may be relevant;
-- why a search may be advisable;
-- which information is missing;
-- which alternatives exist.
-
-The output remains a Product-prepared analysis until the applicable professional review occurs.
-
-```text
-AI explanation
-≠ legal advice
-
-Product recommendation
-≠ professional decision
-
-User selection
-≠ filing approval
-```
-
----
-
-## 26. Human Review Should Be Risk-Based
-
-Human involvement may be required when:
-
-- ownership is unclear;
-- priority may be lost;
-- launch is imminent;
-- a prior refusal exists;
-- a high-risk jurisdiction is involved;
-- the mark may be non-distinctive;
-- the business requests broad or defensive coverage;
-- the inferred facts conflict;
-- the Product lacks current source authority;
-- the user seeks a consequential legal conclusion.
-
-Not every early exploration requires a full legal Review.
-
-The Product should escalate when the consequence justifies it.
-
----
-
-## 27. The Need Brief Should Be Inspectable
-
-A useful Need Brief may contain:
-
-```text
-Need identifier
-Original user statement
-Organization and actor context
-Client and brand references
-Business objective
-Markets and geographic reasons
-Brand assets and possible filing units
-Existing rights
-Timing and urgency
-Risk themes
-Budget or sequencing constraints
-Confirmed facts
-Assumptions and inferences
-Unknowns and contradictions
-Likely service paths
-Recommended next questions
-Required professional escalation
-Version and provenance
-```
-
-This is an architectural shape, not a mandated Core schema.
-
----
-
-## 28. The Product Must Support Honest Stops
-
-MarkReg should stop or defer recommendation when:
-
-- the acting organization is unclear;
-- the user lacks access to required context;
-- ownership conflict is unresolved;
-- the Product lacks current jurisdiction Knowledge;
-- a deadline cannot be verified;
-- uploaded material is unreadable;
-- the requested service is outside MarkReg scope;
-- professional escalation is required.
-
-An honest stop is safer than a confident but unsupported recommendation.
-
----
-
-## 29. Failure Modes to Reject
-
-```text
-Long static form as the first experience
-User sentence treated as filing instruction
-Inferred fact displayed as confirmed
-All missing information requested immediately
-Budget used as the only country-selection rule
-Existing portfolio copied without current verification
-Private need context exposed to the network
-AI confidence displayed as professional authority
-One need forced into one universal service path
-Need Brief shown as formal Intake
-Business target date shown as official deadline
-Contradiction silently resolved
-```
-
----
-
-## 30. Minimum Need-Understanding Lock
-
-```text
-The user begins with an objective.
-
-MarkReg preserves the original statement.
-
-Authorized context is assembled.
-
-Facts, assumptions, inferences, unknowns,
-and contradictions remain distinct.
-
-Questions are adaptive and purpose-driven.
-
-The Product asks only what materially changes
-the next decision.
-
-The output is a versioned Need Brief.
-
-The Need Brief supports recommendation.
-
-It does not create formal Intake,
-professional approval,
-or filing authority.
-```
-
----
-
-## 31. Transition to Jurisdiction Recommendation
-
-Once the Product understands:
-
-- what the business is trying to achieve;
-- where commercial activity and risk exist;
-- which brand assets may matter;
-- what timing and budget constraints apply;
-- which rights already exist;
-- which facts remain uncertain;
-
-it may prepare jurisdiction and filing-route candidates.
-
-CH09 defines that next step.
-
-The next question is no longer:
-
-```text
-Which country did the user click?
-```
-
-It is:
-
-```text
-Which jurisdictions and filing routes
-best respond to the understood need,
-and why?
-```
+CH09 uses the Need Brief to determine which jurisdictions and filing routes should be required, recommended, optional, deferred, or rejected.

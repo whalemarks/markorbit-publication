@@ -2,42 +2,45 @@
 
 ## Current State
 
-- **Status:** B05-REVISION-PACK-001 Product Contracts Complete — Manuscript Application Pending
+- **Status:** Part II Productization Complete — Part III Productization Pending
 - **Title:** MarkReg: The Full-Lifecycle International Trademark Product
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
-- **Manuscript:** CH00–CH22 drafted; controlled Product specifications added
+- **Manuscript:** CH00–CH22 drafted; CH08–CH15 productized under B05-REVISION-PACK-001
+- **Controlled specifications:** B05-SPEC-0001 through B05-SPEC-0004
 - **Architecture dependency:** MO-PUB-BASELINE-0001
-- **Current gate:** apply controlled specifications to CH00–CH22, normalize metadata, consolidate repetition, and re-run the whole-draft review
+- **Current gate:** apply the Product contracts to CH16–CH22, then re-run the CH00–CH22 whole-draft review
 
 ## Owner-Accepted Baseline
 
-Merge of PR #33 and subsequent continuation established owner acceptance of:
+The owner-accepted Book 05 baseline includes:
 
 - the working title;
 - MarkReg Product scope;
 - the seven-part structure;
 - B05-TOC-V0.1;
 - the Part I Product constitution;
-- the coherent writing-pack sequence.
+- the controlled writing-pack sequence;
+- the requirement to preserve Books 01–04 authority boundaries.
 
-The map remains subject to explicit Book 05 change control.
+The chapter map remains subject to explicit Book 05 change control.
 
 ## Completed Work
 
-- Established the canonical Book 05 directory and dependency lock.
-- Drafted CH00–CH22 and completed the three writing-pack reviews.
-- Completed B05-REV-0004, the first whole-draft review.
-- Confirmed architecture conformance, Product positioning, lifecycle direction, responsibility boundaries, and part-to-part sequence.
-- Created B05-SPEC-0001, the canonical Product Artifact and Decision Map.
-- Created B05-SPEC-0002 with one end-to-end filing journey and one contrasting renewal/ownership journey.
-- Created B05-SPEC-0003 with testable conformance scenarios and the CH08–CH22 user-surface matrix.
-- Created B05-SPEC-0004 with the minimum jurisdiction-pack and commercial-control contract.
-- Added the reusable Constitutional Rules and minimum controlled diagram set.
+- Established the canonical Book 05 directory and governance records.
+- Drafted CH00–CH22.
+- Completed writing-pack reviews B05-REV-0001 through B05-REV-0003.
+- Completed B05-REV-0004, the first CH00–CH22 whole-draft review.
+- Established B05-SPEC-0001 — Product Artifact and Decision Map.
+- Established B05-SPEC-0002 — Reference Journeys.
+- Established B05-SPEC-0003 — Conformance Scenarios and User-Surface Contract.
+- Established B05-SPEC-0004 — Minimum Jurisdiction-Pack and Commercial-Control Contract.
+- Productized CH08–CH15.
+- Completed B05-REV-0005 — Part II Productization Review.
 
 ## Current Decisions
 
 ```text
-MarkReg is a Product: YES
+MarkReg is a focused Product: YES
 MarkReg is the whole Operating System: NO
 MarkReg is Workplace, Core, Execution, MGSN, an official office, or an Owning Service: NO
 MarkReg is an open provider marketplace: NO
@@ -45,44 +48,66 @@ MarkReg is an open provider marketplace: NO
 B05-TOC-V0.1 owner accepted: YES
 Seven-part structure retained: YES
 CH00–CH22 whole-draft review complete: YES
-Canonical Product artifact model defined: YES
-Reference journeys defined: YES
-Scenario conformance model defined: YES
-CH08–CH22 user-surface contract defined: YES
-Minimum jurisdiction-pack contract defined: YES
-Commercial-control contract strengthened: YES
+Shared Product contracts established: YES
+Part II productization complete: YES
+Part III productization complete: NO
 Part IV authorized: NO
-Manuscript application and editorial consolidation required: YES
 
 Recommendation equals Decision: NO
-Readiness equals approval: NO
+Product readiness equals approval: NO
 Approval equals execution: NO
 Submission equals official acknowledgement: NO
 Product projection equals official truth without source: NO
-AI may assist under explicit governance: YES
-AI may bind commercial or professional authority: NO
+AI may replace accountable Human Review: NO
 ```
 
-## Revision Pack Progress
+## Part II Productization Result
 
-| Required work | Status |
-| --- | --- |
-| Canonical Product Artifact and Decision Map | Complete |
-| End-to-end and contrasting reference journeys | Complete |
-| Scenario-based conformance cases | Complete |
-| Reusable constitutional rules | Complete |
-| Minimum jurisdiction-pack contract | Complete |
-| Commercial-control model | Complete |
-| CH08–CH22 user-surface and next-action matrix | Complete |
-| Minimum diagram and summary-table set | Complete |
-| Apply specifications and references to manuscript | Pending |
-| Normalize chapter and review metadata | Pending |
-| Consolidate repeated constitutional language | Pending |
-| Re-run whole-draft review | Pending |
+```text
+Product questions: PASS
+Need Brief and Recommendation Set lineage: PASS
+Option Set and country-bundle behavior: PASS
+Filing-unit versioning: PASS
+Applicant and authority conflict handling: PASS
+Classification explanation: PASS
+Goods/services lineage and local variation: PASS
+Search and risk behavior: PASS
+User-surface definition: PASS
+Reference Journey A continuity: PASS
+Conformance scenarios: PASS
+Jurisdiction-pack dependency: PASS
+Metadata normalization: PASS
+Boundary-language consolidation: PASS
+```
+
+## Active Revision Pack
+
+B05-REVISION-PACK-001 — Whole-Draft Productization and Editorial Consolidation.
+
+### Completed
+
+1. Canonical Product Artifact and Decision Map.
+2. Reference filing and contrasting lifecycle journeys.
+3. Scenario and user-surface contract.
+4. Reusable constitutional rules.
+5. Minimum jurisdiction-pack contract.
+6. Commercial-control contract.
+7. Part II CH08–CH15 manuscript application.
+8. Part II metadata normalization and review.
+
+### Remaining
+
+1. Productize Part III, CH16–CH22.
+2. Apply Quote, fee, payment, expiry, refund, and handoff controls to the manuscript.
+3. Extend Journey A through Proposal, Quote, Intake, documents, readiness, and handoff.
+4. Consolidate Part III repeated constitutional language.
+5. Normalize Part III metadata.
+6. Re-run the CH00–CH22 whole-draft review.
+7. Decide whether Part IV, CH23–CH29, may begin.
 
 ## Deferred Writing Pack
 
-Part IV — Filing Preparation and Governed Execution remains defined but is not yet authorized:
+Part IV — Filing Preparation and Governed Execution remains defined but not authorized:
 
 - CH23 — Filing Package as a Governed Artifact
 - CH24 — Professional Review and Filing Approval

@@ -1,610 +1,157 @@
 # B05-CH-13 — Classification Recommendation
 
-**Status:** Part II Draft  
-**Chapter Map:** B05-TOC-V0.1  
-**Part:** Part II — Need, Strategy and Recommendation
+**Status:** Revised Draft — Productized  
+**Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
+**Part:** Part II — Need, Strategy and Recommendation  
+**Revision basis:** B05-REVISION-PACK-001
 
 ## Chapter Purpose
 
-CH12 established the applicant, ownership, and authority context.
+Classification is not a keyword-to-number lookup. It connects the user’s actual offering, intended use, filing unit, jurisdictions, goods/services wording, search scope, fee structure, and future protection strategy.
 
-The next Product question concerns classification:
+This chapter defines how MarkReg creates explainable class candidates while preserving uncertainty and professional review.
 
-> Which classes are relevant to the organization’s actual and planned business, which classes are primary, adjacent, defensive, unsupported, or uncertain, and why?
+## 1. Product Question
 
-A class number is not a complete scope.
+> Which classes are necessary, related, optional, uncertain, or unsupported for the confirmed business need?
 
-A product catalogue is not an accepted specification.
+The Product should reduce the user’s need to understand classification systems without hiding why a class is proposed.
 
-A class recommendation is not a professional conclusion.
+## 2. Required Inputs
 
-The central proposition is:
+Classification may consume:
 
-```text
-Classification Recommendation
-=
-Business Activity
-+ Product and Service Decomposition
-+ Intended Use
-+ Filing Unit
-+ Jurisdiction Context
-+ Existing Portfolio
-+ Official Classification Framework
-+ Local Practice and Grouping
-+ Future Expansion
-+ Explainable Relevance
-+ Uncertainty
-+ Human Review
-```
+- confirmed Need Brief;
+- filing-unit candidates;
+- current and planned products and services;
+- software, platform, retail, manufacturing, and support activities;
+- jurisdictions and routes;
+- existing rights;
+- evidence of use or launch plans;
+- budget preference;
+- jurisdiction-pack classification version and local deviations.
 
-The output is a versioned **Classification Candidate Set**.
+The Product must retain the source business descriptions used for each recommendation.
 
-```text
-Class Candidate
-≠ Approved Class
-≠ Goods/Services Specification
-≠ Filing Scope
-≠ Official Acceptance
-```
+## 3. Class Recommendation Categories
 
----
+| Category | Meaning |
+| --- | --- |
+| Primary | Directly supports the main current or planned offering. |
+| Related | Protects a connected commercial activity or material extension. |
+| Optional | May add value but is not currently essential. |
+| Future | Relevant only after a stated expansion trigger. |
+| Uncertain | Material ambiguity requires clarification or professional review. |
+| Unsupported | Current facts do not justify the class. |
 
-## 1. Classification Is a Scope-Design Problem
+A class candidate should never be presented only as a number.
 
-Classification is often presented as a lookup task:
+## 4. Class Candidate Contract
 
-```text
-Product name
-→ class number
-```
+Each candidate records:
 
-That model is incomplete.
-
-The Product must understand:
-
-- what is sold;
-- what is provided;
-- what is manufactured;
-- what is software and what is a service;
-- which channels are independent services;
-- which accessories matter;
-- which future activities are realistic;
-- which items create revenue or strategic value.
-
-Classification is part of scope design, not merely coding.
-
----
-
-## 2. Business Language Must Be Decomposed
-
-A business may say:
-
-- we make smart devices;
-- we run a marketplace;
-- we sell clothing;
-- we provide software;
-- we operate restaurants;
-- we offer training;
-- we license a brand.
-
-Each statement may contain several activities.
-
-MarkReg may decompose the business into:
-
-```text
-Core product
-Accessory
-Component
-Retail service
-Wholesale service
-Software
-Platform service
-Installation
-Repair
-Training
-Consulting
-Advertising
-Licensing-related activity
-Hospitality
-Manufacturing
-```
-
-The decomposition should remain visible and correctable.
-
----
-
-## 3. Product, Service, and Channel Must Remain Distinct
-
-Examples:
-
-- selling clothing is not the same as retail-store service;
-- downloadable software is not the same as software-as-a-service;
-- manufacturing a product is not always the same as selling it;
-- an online marketplace is not the same as the goods sold through it;
-- advertising one’s own business is not always an independent advertising service;
-- licensing a mark is not automatically a separate commercial service.
-
-The Product should avoid adding classes merely because a business performs internal activities.
-
----
-
-## 4. Primary Classes Reflect the Core Offering
-
-A primary class candidate should have a clear relationship to:
-
-- current revenue;
-- current use;
-- launch plan;
-- core product;
-- core service;
-- intended brand use.
-
-The Product should explain why the class is primary.
-
-A primary class is not necessarily the class with the largest number of items.
-
----
-
-## 5. Related Classes Reflect Material Adjacent Activity
-
-Related classes may support:
-
-- accessories;
-- complementary services;
-- distribution;
-- software;
-- repair;
-- training;
-- future product line;
-- integrated offering.
-
-A related class should not be recommended solely because it is common in the industry.
-
-The relationship to the user’s actual plan should remain visible.
-
----
-
-## 6. Defensive or Expansion Classes Require Stronger Explanation
-
-A defensive or expansion class may be considered when:
-
-- the brand is highly valuable;
-- licensing is planned;
-- adjacent use is credible;
-- copying risk is material;
-- a portfolio policy supports broader coverage;
-- a near-term launch is documented.
-
-The Product should show:
-
-- business basis;
-- likely use;
-- cost;
-- risk;
-- jurisdiction-specific non-use or maintenance considerations;
-- Review requirement.
-
-“More classes” is not automatically stronger protection.
-
----
-
-## 7. Unsupported Classes Should Be Identified
-
-A requested class may be unsupported because:
-
-- no relevant product or service exists;
-- the user confused the channel with the offering;
-- the item belongs elsewhere;
-- the class reflects a remote future idea;
-- the wording is defensive without policy support;
-- the jurisdiction imposes practical use or scope concerns.
-
-The Product should explain the issue.
-
-It should not silently remove the class.
-
----
-
-## 8. Existing Portfolio Provides Context, Not Automatic Scope
-
-Existing applications and registrations may reveal:
-
-- historical classes;
-- legacy business;
-- broad or narrow coverage;
-- inconsistent classifications;
-- duplicate filings;
-- missing current activity;
-- old marks;
-- different owners.
-
-MarkReg may reuse prior decisions as context.
-
-It should not copy all historical classes into a new filing automatically.
-
----
-
-## 9. Filing Unit May Affect Classification
-
-Different filing units may support different scope.
-
-Example:
-
-- house mark covers broad corporate portfolio;
-- product mark covers one product line;
-- local-language mark covers local consumer offering;
-- slogan covers a campaign service;
-- certification or collective mark follows a specialized path.
-
-The Product should not assume one class set for every mark.
-
----
-
-## 10. Jurisdiction Context May Change the Recommendation
-
-Classification frameworks may be shared internationally, but local practice may differ in:
-
-- acceptable wording;
-- subclass or similar-group treatment;
-- fee calculation;
-- item count;
-- class heading interpretation;
-- required specificity;
-- examination;
-- local database structure.
-
-MarkReg should consume jurisdiction-specific Knowledge.
-
-A global class candidate may require local adaptation.
-
----
-
-## 11. Class Number Alone Is Not Enough
-
-Two filings in the same class may protect materially different scope.
-
-The Product should not communicate:
-
-```text
-Same class
-therefore
-same protection
-```
-
-Class recommendation should lead to item-level analysis in CH14.
-
----
-
-## 12. Class Candidates Should Preserve the Business Evidence
-
-Relevant evidence may include:
-
-- product catalogue;
-- website;
-- app listing;
-- service agreement;
-- invoice;
-- packaging;
-- business plan;
-- marketplace listing;
-- existing portfolio;
-- user explanation;
-- professional note.
-
-The Product should preserve the source used to infer relevance.
-
-A website snapshot may be outdated.
-
----
-
-## 13. AI May Map Activities to Candidates
-
-AI may assist by:
-
-- extracting product and service concepts;
-- clustering related activities;
-- identifying likely classes;
-- explaining ambiguous terms;
-- comparing existing portfolio;
-- suggesting missing questions;
-- flagging overbroad or irrelevant classes.
-
-AI output should remain a candidate.
-
-The Product should show:
-
-- source text;
-- inferred activity;
-- candidate class;
-- reason;
-- confidence;
-- unresolved ambiguity.
-
----
-
-## 14. Rules and AI Should Be Combined Carefully
-
-Rules may encode:
-
-- known product-to-class mappings;
-- jurisdiction-specific limits;
-- common exclusions;
-- organization templates;
-- fee thresholds;
-- review triggers.
-
-AI may interpret unstructured business language.
-
-A combined result may be stronger than either alone.
-
-The Product should still preserve which component produced which suggestion.
-
----
-
-## 15. Similar-Group or Subclass Logic Must Be Visible Where Material
-
-Some jurisdictions may use local groupings that affect:
-
-- similarity review;
-- item selection;
-- examination;
-- opposition risk;
-- filing strategy.
-
-MarkReg should not present local groups as universal international law.
-
-The Product should:
-
-- identify the jurisdiction;
-- cite the applicable source;
-- explain the practical consequence;
-- preserve professional Review.
-
----
-
-## 16. Future Expansion Must Be Time-Bound
-
-The user may plan:
-
-- a new product next quarter;
-- software next year;
-- franchising later;
-- a possible future category with no plan.
-
-MarkReg should distinguish:
-
-```text
-Current use
-Launch-ready use
-Approved near-term plan
-Credible medium-term expansion
-Speculative future idea
-```
-
-The classification recommendation should not treat all future ideas equally.
-
----
-
-## 17. Class Recommendation Should Support Scenario Comparison
-
-Possible scenarios:
-
-```text
-Core filing
-→ primary classes only
-
-Recommended filing
-→ primary + material related classes
-
-Expanded filing
-→ primary + related + reviewed expansion classes
-```
-
-Each scenario should show:
-
-- included classes;
+- class number and classification edition/version;
+- jurisdiction or route applicability;
+- category;
 - business rationale;
-- likely item scope;
-- cost effect;
-- omitted activity;
-- residual risk.
+- source products, services, or activities;
+- linked filing units;
+- goods/services concepts to be drafted;
+- local deviations and item limits;
+- fee effect;
+- search effect;
+- confidence or uncertainty;
+- professional review status;
+- user selection;
+- supersession history.
 
----
+Class candidates form part of `MR-A03 Recommendation Set` and feed the Option Set.
 
-## 18. Cost Must Not Determine Classification Alone
+## 5. Product Behavior
 
-Official fees may increase by:
+MarkReg should:
 
-- class;
-- item;
-- subclass;
-- filing route;
-- jurisdiction.
+1. translate business language into class candidates;
+2. separate goods, software, retail, platform, and other activities where needed;
+3. show primary and related classes before optional expansion;
+4. identify unsupported assumptions;
+5. explain local class or item-count consequences;
+6. connect each class to proposed goods/services concepts;
+7. show added fees and search scope;
+8. request professional review for material ambiguity;
+9. preserve removed candidates and reasons.
 
-The Product may optimize cost.
+## 6. User Surface
 
-It should not omit a core class merely because another class is cheaper.
+The user sees:
 
-The trade-off should be explicit.
+- class number and plain-language label;
+- why it is suggested;
+- which business activities support it;
+- primary, related, optional, or uncertain status;
+- estimated fee and search impact;
+- linked goods/services concepts;
+- local warnings;
+- one primary action: **Accept, remove, or request review**.
 
----
+The Product should not force the user to browse the entire classification system before receiving a recommendation.
 
-## 19. Class Candidate Status Must Be Explicit
+## 7. Reference Journey A — EMBERLOOP
 
-A class may be:
+EMBERLOOP combines smart outdoor cooking equipment with a companion application and possible online retail activity.
 
-```text
-Suggested
-User selected
-Professional review required
-Professionally reviewed
-Client confirmed
-Approved for specification drafting
-Rejected
-Deferred
-Superseded
-```
+MarkReg identifies:
 
-These are Product or Review states.
+- a primary equipment class;
+- a primary or related downloadable-software class;
+- an optional retail-services class;
+- possible connected-device or platform concepts requiring clarification.
 
-They do not create an official filing state.
+The user chooses a narrower launch scope. The Product preserves the deferred retail and service candidates as future expansion notes.
 
----
+## 8. Conformance Scenario
 
-## 20. User Selection Is Not Professional Approval
+### MR-SCN-04 — Class uncertainty
 
-A user may select a class because:
+**Given** a product spans hardware, software, and online retail activity.  
+**When** class candidates are generated.  
+**Then** MarkReg separates primary, related, optional, and unsupported classes; explains why each is suggested; and requests professional review where ambiguity is material.  
+**Authority boundary:** automated classification is not final professional advice.  
+**Evidence retained:** source business description, classification version, confidence, user selection, and reviewer changes.
 
-- they recognize the product;
-- they want broader coverage;
-- they want lower cost;
-- they followed an AI suggestion.
+## 9. Local Variation and Versioning
 
-Selection should remain visible.
+The same business concept may produce different acceptable wording, item counts, fees, or procedural consequences across jurisdictions.
 
-An eligible professional may still need to review:
+Each evaluation must retain:
 
-- relevance;
-- scope;
-- local practice;
-- use;
-- route;
-- conflict;
-- cost consequence.
+- jurisdiction-pack version;
+- classification edition;
+- local deviation;
+- effective date;
+- input facts;
+- result;
+- review status.
 
----
+A pack update must identify affected class candidates and downstream goods/services versions.
 
-## 21. Material Business Ambiguity Requires Clarification
+## 10. Change Propagation
 
-Examples:
+Adding or removing a class may change:
 
-- “platform” may mean software, marketplace, or business model;
-- “consulting” may be internal or customer-facing;
-- “training” may be a product feature or independent service;
-- “device” may include hardware, software, or medical function;
-- “food service” may mean packaged goods or restaurant service.
+- goods/services wording;
+- search scope;
+- official and professional fees;
+- provider cost;
+- filing-unit strategy;
+- Proposal and Quote;
+- documents and declarations;
+- readiness.
 
-The Product should ask a targeted question when the ambiguity changes class scope.
+The Product creates a new Recommendation Set or Option Set version rather than mutating accepted commercial scope.
 
----
+## 11. Handoff to CH14
 
-## 22. Classification Should Preserve Exclusions
+Class selection defines broad categories only.
 
-A recommendation may exclude:
-
-- unrelated activity;
-- internal support function;
-- speculative future use;
-- duplicated class;
-- unsupported defensive class;
-- class already adequately covered;
-- activity assigned to a different filing unit.
-
-Exclusion rationale is part of the decision record.
-
----
-
-## 23. Classification Candidate Set Structure
-
-A useful candidate set may contain:
-
-```text
-Need Brief reference
-Filing unit reference
-Jurisdiction
-Business activity
-Source
-Candidate class
-Relevance category
-Primary/related/defensive status
-Current or future use
-Local grouping
-Existing-right comparison
-Cost effect
-Uncertainty
-Questions
-User selection
-Review status
-Version
-```
-
-This remains Product preparation.
-
----
-
-## 24. Class Recommendation Should Be Recomputed After Material Change
-
-Material changes include:
-
-- product launch;
-- business pivot;
-- new filing unit;
-- new jurisdiction;
-- applicant change;
-- search result;
-- existing right discovery;
-- route change;
-- budget change;
-- class-fee change.
-
-A previously reviewed class set may require new Review.
-
----
-
-## 25. Failure Modes to Reject
-
-```text
-Keyword lookup treated as complete classification
-One industry template copied to every business
-Channel confused with product or service
-Internal activity treated as independent service automatically
-All historical classes copied from prior portfolio
-Same classes applied to every filing unit
-Defensive classes added without rationale
-Local grouping shown as universal
-User selection shown as approved specification
-AI confidence shown as professional authority
-Class number shown as complete legal scope
-Cost optimization removes a core class silently
-```
-
----
-
-## 26. Minimum Classification Lock
-
-```text
-Classification begins with the actual business.
-
-Products, services, channels,
-internal functions, and future plans
-remain distinct.
-
-Classes are candidates with reasons.
-
-Primary, related, defensive,
-unsupported, and uncertain classes
-remain distinguishable.
-
-Existing portfolio informs the analysis.
-
-Jurisdiction practice and local grouping
-remain sourced and versioned.
-
-Class selection does not define
-the goods/services wording.
-
-User selection does not replace
-professional Review.
-
-The output is a Classification Candidate Set.
-```
-
----
-
-## 27. Transition to Goods and Services Guidance
-
-Classification identifies the broad legal categories.
-
-The filing scope is shaped by the actual goods and services wording.
-
-CH14 defines how MarkReg translates business activity into item-level candidates, alternatives, exclusions, local adaptations, and a reviewable specification package.
+CH14 translates the chosen business scope into jurisdiction-specific goods and services that are explainable, reviewable, versioned, and connected to fee and search consequences.
