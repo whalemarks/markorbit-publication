@@ -3,7 +3,7 @@
 ## Status
 
 - **Pack ID:** B05-PUBLICATION-FINISHING-PACK-001
-- **Status:** Defined — execution pending owner acceptance of Complete Draft 1
+- **Status:** Active — Complete Draft 1 accepted; first controlled tranche in progress
 - **Source review:** B05-REV-0012
 - **Scope:** Book 05 CH00–CH47 and controlled publication assets
 - **Target:** Release Candidate 1 candidate
@@ -32,6 +32,33 @@ PF-01 metadata normalization
 
 Workstreams may use one or more pull requests, but each PR must retain a clear review boundary.
 
+### 2.1 Controlled Execution Tranches
+
+The first publication-finishing PR is intentionally split across two partial workstreams:
+
+```text
+PF-01A — Front Matter metadata and active chapter-map correction
+PF-07A — Back Matter, Appendix A–G and publication-apparatus architecture
+```
+
+PF-01A includes:
+
+- CH00–CH01 metadata normalization;
+- removal of active candidate wording from CH01;
+- addition of the Back Matter sequence to CH01.
+
+PF-01A does not close PF-01. CH02–CH47 metadata still requires full normalization and validation.
+
+PF-07A includes:
+
+- Appendix A–G paths and controlled scaffolds;
+- publication record inventory B05-PUB-0001 through B05-PUB-0008;
+- Back Matter ordering and source-of-truth rules;
+- initial glossary, subject index and figure plan;
+- RC1 checklist architecture.
+
+PF-07A does not close PF-07. Appendix content, figures, final glossary/index and rendered publication remain incomplete.
+
 ## 3. PF-01 — Metadata Normalization
 
 ### Tasks
@@ -47,6 +74,12 @@ Workstreams may use one or more pull requests, but each PR must retain a clear r
 - all forty-eight chapter headers use the controlled chapter map;
 - no active chapter presents B05-TOC-V0.1 as a candidate;
 - active status records agree.
+
+### Current progress
+
+- CH00–CH01: normalized under PF-01A;
+- CH02–CH47: pending PF-01B review and normalization;
+- PF-01 overall: open.
 
 ## 4. PF-02 — Product Artifact and Decision Map Extension
 
@@ -141,6 +174,8 @@ Extend B05-SPEC-0001 through CH47, including:
 
 Create:
 
+- Appendix A–G reader-reference set;
+- Back Matter and Appendix Map;
 - figure register;
 - lifecycle and architecture diagrams;
 - artifact and decision lineage diagram;
@@ -152,15 +187,25 @@ Create:
 - source and authority notes;
 - glossary;
 - subject index;
-- conformance checklist;
-- publication checklist.
+- cross-book reconciliation;
+- conformance and publication checklist.
 
 ### Acceptance
 
+- Appendix A–G are reconciled with controlled specifications and chapters;
 - figures are reusable and referenced from relevant chapters;
 - glossary and index cover defined Product terms;
 - source notes explain authority boundaries;
 - publication checklist is complete enough for RC review.
+
+### Current progress
+
+- Back Matter structure: locked under B05-PUB-0006;
+- Appendix A–G paths and scaffolds: created;
+- publication record inventory B05-PUB-0001–0008: created;
+- initial glossary, subject index and figure plan: created;
+- controlled figures and final reader assets: pending;
+- PF-07 overall: open.
 
 ## 10. PF-08 — Structural and Rendered Validation
 
