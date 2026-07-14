@@ -1,24 +1,25 @@
 # Book 05 Controlled Specifications
 
-These records provide shared Product contracts used across multiple chapters. They prevent later chapters from repeating constitutional explanations and allow the manuscript to reference one controlled definition.
+These records provide shared Product contracts used across multiple chapters. They prevent later chapters from repeating constitutional explanations and allow the manuscript to reference controlled definitions.
 
 ## Current Specifications
 
-- `B05-SPEC-0001_Product_Artifact_and_Decision_Map.md` — **Controlled Specification v0.2, full-lifecycle reconciled through CH47**. Defines Product artifacts, contexts, decisions, evidence, baselines, views, governance records, lineage, versioning, supersession, change propagation and service-family conformance.
-- `B05-SPEC-0002_Reference_Journeys.md` — controlled reference journeys; detailed continuity currently requires PF-03 extension through CH47.
+- `B05-SPEC-0001_Product_Artifact_and_Decision_Map.md` — **Controlled Specification v0.2, full-lifecycle reconciled through CH47**. Defines Product artifacts, contexts, Decisions, evidence, baselines, views, governance records, lineage, versioning, supersession and service-family conformance.
+- `B05-SPEC-0002_Reference_Journeys.md` — **Controlled Specification v0.2, reference journeys reconciled through CH47**. Locks `EMBERLOOP` and `RIVERKITE` identities, step timelines, final states, chapter mapping and editorial-use controls.
 - `B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md` — observable Given/When/Then cases and user-surface controls; PF-04 extension through CH47 remains open.
-- `B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md` — minimum jurisdiction intelligence and commercial controls; PF-05 maintenance, renewal, recordal, rule-version and AI reconciliation remains open.
+- `B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md` — minimum jurisdiction intelligence and commercial controls; PF-05 reconciliation remains open.
 
 ## Current Reconciliation State
 
 ```text
 B05-SPEC-0001 — PF-02 COMPLETE
-B05-SPEC-0002 — PF-03 OPEN
-B05-SPEC-0003 — PF-04 OPEN
+B05-SPEC-0002 — PF-03 COMPLETE
+B05-SPEC-0003 — PF-04 AUTHORIZED AND NEXT
 B05-SPEC-0004 — PF-05 OPEN
 ```
 
-B05-REV-0014 accepts the B05-SPEC-0001 v0.2 full-lifecycle reconciliation and authorizes PF-03.
+- B05-REV-0014 accepts B05-SPEC-0001 v0.2.
+- B05-REV-0015 accepts B05-SPEC-0002 v0.2 and authorizes PF-04.
 
 ## Reference Rule
 
@@ -33,7 +34,7 @@ B05-SPEC-0001 v0.2 uses:
 ```text
 MR-A — Product artifact
 MR-C — scoped context
-MR-D — accountable decision
+MR-D — accountable Decision
 MR-E — evidence or source-backed record
 MR-B — baseline or obligation record
 MR-V — view or projection
@@ -41,6 +42,28 @@ MR-G — governance and configuration record
 ```
 
 The class indicates Product meaning. It does not grant authority.
+
+## Controlled Reference Journeys
+
+B05-SPEC-0002 v0.2 uses:
+
+```text
+B05-JRN-A-EMBERLOOP
+→ multi-jurisdiction new filing
+→ US examination
+→ EU opposition
+→ UK registration and maintenance
+
+B05-JRN-B-RIVERKITE
+→ six-right portfolio entry
+→ ordinary and ownership-linked renewals
+→ cancellation defense
+→ recordal, chain of title, evidence and licence review
+```
+
+Journey steps use stable `EL-*` and `RK-*` identifiers.
+
+The final states are locked to the reviewed manuscript baseline. No later registration, settlement, renewal, recordal or dispute outcome may be invented without a new reviewed source.
 
 ## Controlled Diagram Set
 
@@ -79,18 +102,15 @@ Provider report, official acknowledgement or official outcome
 ```
 
 ```text
-Structural readiness
-+ Commercial readiness
-+ Documentary readiness
-+ Professional readiness
-+ Approval readiness
-+ Payment readiness
-+ Execution readiness
-≠ one generic progress state
+EMBERLOOP jurisdictions remain independent
+RIVERKITE rights remain independent
+Portfolio view ≠ one global status
 ```
 
 ## Publication Projection Rule
 
 - Appendix A is the controlled reader projection of B05-SPEC-0001 v0.2.
 - Appendix B uses B05-SPEC-0001 for state and authority mapping and still requires PF-04 scenario reconciliation.
-- Appendices C–G remain dependent on PF-03 through PF-05 and later publication work.
+- Appendix D is the controlled reader projection of B05-SPEC-0002 v0.2.
+- Appendices C, E and G remain dependent on PF-04.
+- Appendix F remains dependent on PF-05.
