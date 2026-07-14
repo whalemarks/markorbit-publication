@@ -1,17 +1,19 @@
 # Book 05 Reviews
 
-This directory contains owner, architecture, chapter-map, manuscript, productization, and publication review records.
+This directory contains owner, architecture, chapter-map, manuscript, productization and publication review records.
 
 ## Current Records
 
-- `B05-REV-0001_Part_I_Product_Constitution_Review.md` — completed writing-pack review; superseded as the active gate
-- `B05-REV-0002_Part_II_Need_Strategy_and_Recommendation_Review.md` — original Part II writing-pack review; superseded by B05-REV-0005
-- `B05-REV-0003_Part_III_Commercial_Journey_and_Formal_Intake_Review.md` — original Part III writing-pack review; superseded as the active gate
-- `B05-REV-0004_Whole_Draft_CH00-CH22_Review.md` — first whole-draft review and authority for B05-REVISION-PACK-001
-- `B05-REV-0005_Part_II_Productization_Review.md` — confirms CH08–CH15 product-contract application and closes the Part II revision findings
+- `B05-REV-0001_Part_I_Product_Constitution_Review.md` — completed Part I writing-pack review
+- `B05-REV-0002_Part_II_Need_Strategy_and_Recommendation_Review.md` — original Part II review; superseded by B05-REV-0005
+- `B05-REV-0003_Part_III_Commercial_Journey_and_Formal_Intake_Review.md` — original Part III review; superseded by B05-REV-0006
+- `B05-REV-0004_Whole_Draft_CH00-CH22_Review.md` — initial whole-draft review and source of B05-REVISION-PACK-001
+- `B05-REV-0005_Part_II_Productization_Review.md` — closes Part II revision findings
+- `B05-REV-0006_Part_III_Productization_Review.md` — closes Part III revision findings
+- `B05-REV-0007_CH00-CH22_Productization_Closure_Review.md` — closes B05-REVISION-PACK-001 and authorizes Part IV
 
 ## Current Gate
 
-B05-REVISION-PACK-001 remains active.
+B05-REVISION-PACK-001 is closed.
 
-The next controlled review covers Part III productization, CH16–CH22. Part IV remains deferred until Part III is revised and a follow-up CH00–CH22 whole-draft review authorizes continuation.
+The next controlled review scope is Part IV, CH23–CH29 — Filing Preparation and Governed Execution.
