@@ -1,5 +1,21 @@
 # Book 05 Changelog
 
+## 2026-07-15 — PF-06C1 Part IV Editorial Finishing
+
+- Edited CH23–CH29 against B05-PUB-0001 Controlled Editorial Standard v0.2.
+- Normalized CH23–CH29 metadata to Complete Draft 1 and B05-TOC-V0.1 — Owner Accepted.
+- Wrote `EL-16–EL-22` explicitly into the active Part IV manuscript.
+- Reconciled Filing Package Candidate, Professional Decision and exact-version Filing Approval.
+- Reconciled Capability Need, Routing Recommendation, Human Selection, provider appointment, Instruction and Provider Acceptance.
+- Preserved Book 03 Execution, connector, provider, Owning Service and official-office authority boundaries.
+- Reconciled submission, delivery, Provider Report and Official Acknowledgement Evidence states.
+- Strengthened unknown-state, duplicate-payment, idempotency, reconciliation and safe-retry controls.
+- Reduced Part IV from approximately 2,409 lines to approximately 1,433 lines, about 40%.
+- Added B05-REV-0022 and accepted PF-06C1 without semantic escalation.
+- Recorded PF-01B as complete through CH29 and open for CH30–CH47.
+- Authorized PF-06C2 — Part V, CH30–CH36.
+- Kept PF-06 overall, figures, validation, RC1 and final publication open.
+
 ## 2026-07-15 — PF-06B2B Part III Editorial Finishing
 
 - Edited CH16–CH22 against B05-PUB-0001 Controlled Editorial Standard v0.2.
@@ -165,7 +181,7 @@
 - Preserved official-source authority, retrieval time, corrected events, stale status, deadline source and professional interpretation boundaries.
 - Reused Part IV Professional Review, Filing Approval, governed Execution, acknowledgement, reconciliation and audit controls for response filings.
 - Defined Publication Windows, monitoring, opposition detection and verified no-challenge closure.
-- Defined Adversarial Context, parties, grounds, evidence, pleadings, settlement authority and official procedural closure.
+- Defined Adversarial Context, parties, grounds, Evidence, pleadings, settlement authority and official procedural closure.
 - Distinguished appeal, review, correction, cancellation, invalidation, restoration and recordal contexts.
 - Established canonical Deadline Record, Client Decision Record and Communication Packet.
 - Extended `EMBERLOOP` through US examination response, EU opposition and UK publication-window closure.

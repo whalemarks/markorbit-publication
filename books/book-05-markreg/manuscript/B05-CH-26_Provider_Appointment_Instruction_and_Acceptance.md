@@ -1,318 +1,201 @@
 # B05-CH-26 — Provider Appointment, Instruction and Acceptance
 
-**Status:** Part IV Draft  
+**Status:** Complete Draft 1  
 **Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part IV — Filing Preparation and Governed Execution
 
 ## Chapter Purpose
 
-CH25 ends with a Human-selected provider or direct route.
+CH25 ended with `MR-D04 Human Selection`.
 
-CH26 answers:
-
-> How does selection become an authorized appointment, a governed instruction, and an accepted engagement without exposing unnecessary information or confusing any of those events with filing?
+CH26 defines how that selection becomes a bounded relationship and accepted engagement:
 
 ```text
-Human Selection
-→ Appointment preparation
-→ Required approvals
-→ Governed instruction
-→ Provider receipt
-→ Provider acceptance or rejection
+EL-19 / CH26
+MR-D04 Human Selection
+→ MR-A15 Provider Appointment Candidate
+→ authorized appointment
+→ MR-A16 Provider Instruction
+→ receipt
+→ MR-D05 Provider Acceptance or rejection
 ```
 
-Provider acceptance does not equal submission or official acknowledgement.
+Selection, appointment, instruction, receipt and acceptance remain distinct. Provider Acceptance is not submission or official acknowledgement.
 
----
+## 1. Product Question and Primary Action
 
-## 1. User Question and Primary Action
+**Product question:** Has the selected provider been properly appointed and accepted the exact work?
 
-**User question:** Has the selected provider been properly appointed and accepted the exact work?
+**Primary action:** Authorize the appointment or instruction assigned to the current actor, or resolve the provider response.
 
-**Primary action:** Authorize the appointment or instruction assigned to the current actor, or resolve the provider’s response.
+Any `Send to provider` action must show scope, authority, disclosed information and expected return evidence.
 
-A `Send to provider` action must show the exact scope, information disclosed, authority used and expected acknowledgement.
+## 2. Appointment Candidate
 
----
-
-## 2. Appointment Package
-
-An appointment package may contain:
+`MR-A15 Provider Appointment Candidate` may contain:
 
 - provider identity and organization;
-- client or instructing organization;
-- applicant or right holder;
+- instructing organization and applicant or right holder;
 - Matter and package references;
-- jurisdiction and service scope;
-- role and authority requested;
-- POA or representative appointment Document;
-- commercial terms or engagement reference;
+- jurisdiction, role and service scope;
+- authority requested;
+- POA or appointment Document;
+- commercial or engagement reference;
 - confidentiality and data-use terms;
 - conflict and eligibility evidence;
-- effective date and duration;
-- revocation or substitution rules.
+- effective period;
+- revocation and substitution rules.
 
-The appointment package is distinct from the filing package.
+The appointment candidate is separate from the Filing Package Candidate.
 
----
+## 3. Appointment and Disclosure Authority
 
-## 3. Appointment Authority
+The Product must identify who may appoint counsel, filing agents, translators, document vendors, couriers or filing-capable services.
 
-The Product must identify who may appoint:
+Before sensitive information is disclosed, verify:
 
-- external counsel;
-- local filing agent;
-- translator or document vendor;
-- courier or original custodian;
-- filing-capable Owning Service.
-
-Appointment authority may come from the applicant, client, service organization, existing engagement, POA or delegated policy.
-
-A commercial user who selected a provider may not have authority to appoint that provider for the applicant.
-
----
-
-## 4. Required Approval Before Disclosure
-
-Before sending sensitive materials, MarkReg should verify:
-
-- selected provider identity;
-- conflict state;
-- eligibility and credential freshness;
-- approved disclosure purpose;
-- package scope;
+- provider identity;
+- active conflict and eligibility state;
+- purpose and minimum necessary scope;
 - appointment or confidentiality basis;
-- secure transmission route;
-- document and original-handling authority;
+- approved package version;
+- secure route;
+- Document and original-handling authority;
 - responsible sender.
 
-Preliminary quote or conflict checks should use minimum necessary information.
+A commercial user who selected a provider may not have authority to appoint it for the applicant.
 
----
+## 4. Provider Instruction Contract
 
-## 5. Governed Provider Instruction
-
-A provider instruction should identify:
+`MR-A16 Provider Instruction` identifies:
 
 | Area | Required content |
 | --- | --- |
-| identity | instruction ID, Matter, sender, provider and version |
+| identity | instruction ID, version, Matter, sender and provider |
 | scope | jurisdiction, route, filing unit, classes and service stage |
-| package | exact Filing Package version and attachments |
+| package | exact approved Filing Package version and attachments |
 | authority | Filing Approval and appointment references |
-| deadline | target, source, time zone, urgency and latest acceptance time |
-| fees | agreed provider terms, official funds and payment condition |
-| communication | response channel, responsible people and escalation |
-| expected evidence | acceptance, filing receipt, rejection, correction or official acknowledgement |
-| restrictions | no material change, no substitution, no extra cost or filing without stated authority |
+| deadline | source, time zone, target and latest acceptance time |
+| fees | agreed terms, official funds and payment condition |
+| communication | response channel, responsible actors and escalation |
+| expected evidence | acceptance, rejection, correction, filing receipt or official acknowledgement |
+| restrictions | no material change, substitution, extra cost or filing outside stated authority |
 
 The instruction must be reproducible after the event.
 
----
+## 5. Separate Instruction Approval
 
-## 6. Instruction Approval
+A separate gate may be required when:
 
-Provider instruction may require a separate approval when:
-
-- the provider differs from the Filing Approval scope;
+- the provider differs from the approved route;
 - official funds will be committed;
+- sensitive Documents will be disclosed;
 - the provider may alter filing content;
-- sensitive documents will be disclosed;
-- urgency fees or exceptions apply;
-- the instruction includes later-stage engagement;
-- the provider acts under a new commercial arrangement.
+- urgency fees or commercial exceptions apply;
+- the engagement extends beyond the approved stage.
 
-Filing Approval does not automatically grant every commercial or disclosure authority.
+Filing Approval does not automatically grant every commercial, disclosure or provider-instruction authority.
 
----
+## 6. Receipt and Provider Acceptance
 
-## 7. Provider Receipt and Acceptance
-
-Provider response states should include:
+Use explicit provider states:
 
 ```text
 Not sent
 Sent
 Delivery confirmed
 Receipt acknowledged
-Under conflict or eligibility review
+Acceptance pending
 Accepted
 Accepted with conditions
-Rejected
 Clarification requested
+Rejected
 No response
 Unknown
 ```
 
-Email delivery alone is not provider acceptance.
+`MR-D05 Provider Acceptance` records:
 
----
-
-## 8. Acceptance Content
-
-Provider acceptance should preserve:
-
-- accepted instruction version;
-- accepted scope;
-- responsible provider person;
+- accepted instruction version and scope;
+- responsible provider actor;
 - acceptance time;
-- confirmed fee terms;
-- deadline commitment or limitation;
-- required missing information;
-- conditions;
+- fee and deadline commitment;
+- conditions and missing information;
 - provider reference;
 - expected filing route and evidence.
 
-A response such as `noted` may require interpretation or clarification before it is treated as acceptance.
+Delivery, receipt and an ambiguous `noted` response do not prove acceptance.
 
----
+## 7. Provider-Proposed Change
 
-## 9. Conditional Acceptance
+A provider may propose changes to applicant format, goods/services, mark description, route, declaration, fees, Documents or timing.
 
-Conditions may include:
+A material proposal creates a new candidate version and returns to the relevant professional, client, commercial and approval gates. The provider may advise; it may not silently mutate the approved package.
 
-- receipt of original POA;
-- payment or funds;
-- conflict completion;
-- revised goods wording;
-- local translation;
-- client declaration;
-- deadline extension;
-- final Filing Approval after provider amendment.
+## 8. Rejection, Substitution and Termination
 
-Each condition identifies effect, owner, due point and evidence.
+A rejection or inability to accept records:
 
----
-
-## 10. Provider-Proposed Change
-
-A provider may propose a change to:
-
-- applicant format;
-- goods/services wording;
-- mark description;
-- filing route;
-- declaration;
-- fee;
-- document form;
-- timing.
-
-MarkReg must classify the change and route it back to the relevant user, professional, commercial or approval gate.
-
-The provider may advise. It may not silently change an approved package.
-
----
-
-## 11. Rejection and Substitution
-
-If a provider rejects or cannot accept, the Product records:
-
-- reason;
-- affected scope;
+- reason and affected scope;
 - deadline consequence;
-- disclosed information;
-- fee or cancellation effect;
-- original or Document custody;
-- whether a new conflict check is needed;
-- whether Filing Approval remains valid;
-- new routing requirement.
+- data already disclosed;
+- fee and cancellation effect;
+- Document or original custody;
+- conflict recheck needs;
+- Filing Approval impact;
+- renewed routing requirement.
 
-Substitution restarts the appropriate CH25 and CH26 controls.
+Substitution restarts the necessary CH25 and CH26 controls.
 
----
+Internal termination does not itself remove an official representative; official recordal remains a separate protected action.
 
-## 12. Revocation and Termination
+## 9. Purpose-Limited Provider Access
 
-Appointment or instruction termination must identify:
+The provider receives only information required for conflict checking, appointment, accepted service, deadline handling and evidence return.
 
-- actor and authority;
-- effective time;
-- affected Matters and packages;
-- official-office actions required;
-- document and original return;
-- fees and refunds;
-- pending deadlines;
-- successor provider;
-- communication evidence.
+Access to one Matter must not expose unrelated clients, portfolio strategy, other providers, procurement costs or margin.
 
-Internal termination does not itself remove a representative from an official record.
+## 10. `EMBERLOOP` — `EL-19`
 
----
+The selected US private partner receives an appointment and Instruction referencing the approved US word-mark package.
 
-## 13. Purpose-Limited Provider Access
+The provider acknowledges receipt, confirms eligibility and fee terms, and requests one declaration revision. It does not file until the revised package receives targeted Professional Review and renewed Filing Approval.
 
-The provider receives only the data required for:
+The revised Instruction is then accepted as `MR-D05 Provider Acceptance`.
 
-- conflict and eligibility check;
-- appointment;
-- filing or stated service;
-- deadline handling;
-- reporting and evidence return.
+## 11. Controlled Scenarios
 
-Access to one filing package must not expose unrelated clients, providers, costs or portfolio strategy.
+### `MR-SCN-20` — Provider proposes a material change
 
----
+The Product creates a new candidate version and routes it back to the required Decision gates. Provider advice does not replace client or professional authority.
 
-## 14. `EMBERLOOP` Reference Journey
+### `MR-SCN-21` — Receipt without acceptance
 
-The selected US private partner receives an appointment and instruction package referencing the approved US word-mark Filing Package.
+When delivery is confirmed but acceptance is pending, the surface shows `received — acceptance pending` and blocks provider Execution.
 
-The provider:
+### `MR-SCN-22` — Provider over-access
 
-1. acknowledges receipt;
-2. confirms no conflict and continued eligibility;
-3. accepts the agreed fee and filing deadline;
-4. requests one revised declaration phrase;
-5. does not file until the revised package receives targeted Professional Review and Filing Approval.
+A request for unrelated portfolio, client or margin data is denied and the accepted purpose remains preserved.
 
-After the revision is approved, a new instruction version is sent and accepted.
+## 12. AI Assistance
 
----
+AI may draft appointment and instruction records, compare acceptance with instruction, extract conditions and detect scope or fee mismatches.
 
-## 15. Conformance Scenario — Provider Changes Goods Wording
+AI may not appoint, disclose sensitive materials, accept provider terms, approve extra fees, authorize material changes or treat an ambiguous response as acceptance.
 
-**Given** the provider has accepted Instruction v2.  
-**When** it proposes deleting one goods item before filing.  
-**Then** MarkReg records the proposal, prevents silent package alteration, creates a targeted professional and client decision, and requires a new package and Filing Approval when the change is material.  
-**Authority boundary:** provider expertise does not replace the client’s and approving professional’s defined authority.  
-**Evidence retained:** instruction, provider proposal, reasons, decisions, revised package and approval.
-
----
-
-## 16. AI Assistance
-
-AI may:
-
-- prepare appointment and instruction drafts;
-- compare provider acceptance with instruction;
-- extract conditions and references;
-- identify scope or fee mismatches;
-- route proposed changes;
-- summarize non-response and escalation.
-
-AI may not appoint, disclose sensitive materials, accept provider terms, approve extra fees, authorize package changes, or treat an ambiguous response as acceptance without policy.
-
----
-
-## 17. Minimum Chapter Lock
+## 13. Chapter Lock
 
 ```text
-Human Selection identifies the intended provider.
+Selection identifies the intended provider.
 Appointment creates the permitted relationship.
-Instruction defines the exact requested work.
-Provider acceptance confirms the engagement scope.
-
-Each event has its own authority,
-version, evidence and conditions.
-
-Provider acceptance is not submission.
-Provider receipt is not official receipt.
+Instruction defines the requested work.
+Provider Acceptance confirms the engagement scope.
+Provider Acceptance ≠ submission.
+Provider receipt ≠ official receipt.
 ```
 
----
+## 14. Handoff to CH27
 
-## 18. Handoff to CH27
+CH26 produces an accepted provider Instruction or approved direct route.
 
-CH26 produces an accepted provider instruction or an approved direct route.
-
-CH27 defines the authority boundaries among MarkReg, Book 03 Execution, direct connectors, filing providers, Owning Services and official offices.
+CH27 creates `MR-A17 Execution Request` and preserves the authority boundaries among MarkReg, Book 03 Execution, providers, connectors, Owning Services and official offices.

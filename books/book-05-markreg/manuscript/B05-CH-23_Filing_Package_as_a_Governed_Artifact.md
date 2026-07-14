@@ -1,208 +1,122 @@
 # B05-CH-23 — Filing Package as a Governed Artifact
 
-**Status:** Part IV Draft  
+**Status:** Complete Draft 1  
 **Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part IV — Filing Preparation and Governed Execution
 
 ## Chapter Purpose
 
-Part III ends with a validated Handoff Envelope and formal Order, Matter, payment, responsibility, and Execution references.
+Part III ended with accepted commercial scope, sufficient Formal Intake, a Requirement Set, a purpose-specific Readiness Assessment and returned formal references.
 
-CH23 defines the next Product artifact:
+CH23 defines `MR-A11 Filing Package Candidate`:
 
-> What exact, versioned content is proposed for filing, from which sources, under which unresolved conditions, and for which jurisdiction, filing unit, applicant, and route?
-
-The answer is the **Filing Package Candidate** defined as `MR-A11` in [B05-SPEC-0001](../specifications/B05-SPEC-0001_Product_Artifact_and_Decision_Map.md).
+> What exact, versioned content is proposed for filing, from which sources, for which jurisdiction, route, filing unit and applicant?
 
 ```text
-Approved journey inputs
-+ jurisdiction-pack version
-+ formal Documents and accepted source materials
+EL-16 / CH23
+approved journey inputs
++ accepted Documents and source materials
++ active Jurisdiction Pack version
 + filing-specific content
-+ unresolved warnings
-→ Filing Package Candidate
++ visible unresolved items
+→ MR-A11 Filing Package Candidate
 ```
 
-A Filing Package Candidate is not Filing Approval, provider instruction, submission, official acknowledgement, or official truth. This preserves `MR-CR-02` through `MR-CR-05`.
+A Filing Package Candidate is not Filing Approval, provider instruction, Execution, submission or official acknowledgement.
 
----
+## 1. Product Question and Primary Action
 
-## 1. User Question and Primary Action
+**Product question:** What exactly is proposed for filing?
 
-**User question:** What exactly will be filed?
+**Primary action:** Review the package, resolve differences and confirm only the facts the current actor is authorized to confirm.
 
-**Primary action:** Review the package summary, resolve identified differences, and confirm the factual content that the user is authorized to confirm.
-
-The user should see one package version, not a collection of unrelated form fields.
-
----
+The user should see one coherent package version rather than unrelated form fields.
 
 ## 2. Required Inputs
 
-A Filing Package Candidate must reference exact versions of:
+A package must reference exact versions of:
 
 - Commercial Instruction;
 - Formal Intake;
 - Requirement Set;
 - Readiness Assessment;
-- filing unit;
-- applicant and authority context;
+- filing unit and mark representation;
+- Applicant and Authority Context;
 - classes and goods/services;
-- jurisdiction and filing route;
-- priority claim where applicable;
+- jurisdiction and route;
+- priority, use or other filing basis where relevant;
 - accepted Documents and source materials;
 - responsible professional;
-- applicable jurisdiction pack;
-- relevant Order, Matter, and Execution references.
+- active Jurisdiction Pack;
+- relevant Order, Matter and Execution references.
 
-It must not silently consume the latest value merely because a source record changed.
+The Product must not silently consume the latest value merely because an upstream record changed.
 
----
-
-## 3. Minimum Package Contents
-
-Where applicable, the package contains:
+## 3. Package Contract
 
 | Area | Minimum controlled content |
 | --- | --- |
-| Identity | package ID, version, jurisdiction, route, Matter, filing unit |
-| Applicant | legal name, address, entity details, nationality/incorporation, applicant source |
-| Mark | exact representation, type, color position, transliteration, translation, description |
-| Scope | classes, goods/services, local wording, limitations, disclaimers |
-| Claims | priority, use, convention, seniority, intent or other route-specific basis |
-| Representation | local representative or connector route and eligibility conditions |
-| Documents | formal Document references, accepted-use decisions, original/copy status |
-| Fees | fee-driving units and official-fee version used for execution readiness |
-| Evidence | source references for material factual and professional conclusions |
-| Conditions | blockers, warnings, assumptions, expiry and revalidation triggers |
-| Responsibility | preparer, reviewer, approver and confirmation owner |
+| identity | package ID, version, jurisdiction, route, Matter and filing unit |
+| applicant | legal identity, address, entity details and source |
+| mark | exact representation, type, colour, transliteration, translation and description |
+| scope | classes, goods/services, local wording, limitations and disclaimers |
+| claims | priority, use, convention, seniority, intent or other basis |
+| representation | provider, professional or connector route and eligibility conditions |
+| Documents | formal references, accepted-use decisions and original/copy state |
+| fees | fee-driving units and source version used for execution readiness |
+| evidence | source references for material facts and Professional Decisions |
+| conditions | blockers, warnings, assumptions, expiry and revalidation triggers |
+| responsibility | preparer, factual confirmer, reviewer and approver |
 
-A rendered filing form may be one representation of the package. It is not the entire governed artifact.
-
----
+A rendered official form or connector payload is one view of the package, not the entire governed artifact.
 
 ## 4. Source Lineage
 
-Every material package value must identify whether it came from:
+Every material value must identify whether it came from:
 
-- verified formal record;
-- user-confirmed fact;
-- accepted Formal Intake value;
-- formal Document;
-- professional decision;
-- jurisdiction-pack rule;
-- provider-specific requirement;
-- calculated value;
-- unresolved assumption.
+- a verified formal record;
+- a user-confirmed fact;
+- accepted Formal Intake;
+- a formal Document;
+- a Professional Decision;
+- a Jurisdiction Pack Rule;
+- a provider-specific requirement;
+- a calculation;
+- an unresolved assumption.
 
-The Product must make conflicting sources visible instead of choosing silently.
+Conflicting sources remain visible until an accountable Decision resolves or bounds them.
 
----
-
-## 5. Package Components and Formal Documents
-
-A Filing Package Candidate may include or reference:
-
-- application data sheet;
-- mark image or representation file;
-- goods/services schedule;
-- priority data;
-- POA;
-- declaration;
-- translation or transliteration statement;
-- applicant evidence;
-- supporting evidence;
-- payment or fee instruction data;
-- provider instruction attachment.
-
-A component file remains distinct from a formal Document and from the package as a whole.
+## 5. Components, Documents and Views
 
 ```text
 Source file ≠ formal Document ≠ Filing Package Candidate
 ```
 
----
+A package may reference application data, mark files, goods/services schedules, priority records, POA, declarations, translations, applicant evidence and payment instructions.
 
-## 6. Package Views
+Purpose-limited views may include:
 
-The same package may have purpose-limited views:
-
-- client confirmation view;
-- professional review view;
-- provider instruction view;
-- connector payload preview;
+- client factual-confirmation view;
+- Professional Review view;
+- provider-instruction view;
+- connector-payload preview;
 - official-form rendering;
 - audit and comparison view.
 
-Views may hide internal cost, private provider evidence, unrelated portfolio data, or privileged notes. They must not alter package meaning.
+A view may hide internal cost, privileged notes or unrelated portfolio data. It may not alter package meaning.
 
----
+## 6. Version, Diff and Material Change
 
-## 7. User Confirmation Surface
+Each issued package version retains:
 
-The client-facing view should emphasize:
-
-1. applicant;
-2. exact mark;
-3. jurisdictions and routes;
-4. classes and goods/services;
-5. priority or use claims;
-6. material declarations;
-7. documents requiring signature or factual confirmation;
-8. unresolved warnings;
-9. what confirmation does and does not authorize.
-
-The primary action should be labelled precisely, for example:
-
-```text
-Confirm factual filing content
-```
-
-It must not be labelled `Submit application` unless the user is actually performing an authorized governed submission action.
-
----
-
-## 8. Version and Immutability
-
-Every issued package version preserves:
-
-- package identifier and version;
-- created time and actor;
+- stable identity and creation time;
 - exact upstream versions;
 - rendered outputs and payload hashes where appropriate;
-- review and confirmation state;
-- approval state;
-- superseded-by reference;
-- execution attempts already linked to it.
+- factual confirmation, Review and approval state;
+- supersession link;
+- linked Execution attempts.
 
-A material change creates a new package version.
-
----
-
-## 9. Material Change Rules
-
-Material changes include:
-
-- applicant identity or address;
-- mark representation;
-- jurisdiction or route;
-- filing basis or priority;
-- class or goods/services scope;
-- declaration content;
-- signatory or authority;
-- required Document;
-- fee-driving unit;
-- provider-specific filing requirement.
-
-A material change invalidates affected confirmation, Review, Filing Approval, and execution readiness.
-
-Non-material presentation changes may preserve approval only under explicit policy and recorded comparison.
-
----
-
-## 10. Package Diff
-
-The Product should provide a structured comparison between versions:
+A structured diff should classify:
 
 ```text
 Added
@@ -211,96 +125,70 @@ Changed
 Reformatted only
 Source changed
 Rule version changed
+Review impact
 Approval impact
 Execution impact
 ```
 
-A reviewer must be able to distinguish a punctuation correction from a changed applicant, item, claim, or representation.
+Material changes include applicant, mark, route, filing basis, priority, class, goods/services, declaration, signatory, required Document, fee-driving unit or provider-specific filing requirement.
 
----
+A material change creates a new package version and invalidates only the confirmations, Reviews, approvals and Execution readiness that depended on the changed content.
 
-## 11. Unresolved Items
+## 7. Unresolved Items and User Surface
 
-A package may contain visible non-blocking warnings, but it must not hide:
+A package may retain visible non-blocking warnings. It must not hide:
 
 - unresolved applicant conflict;
-- unapproved goods/services wording;
+- unreviewed goods/services wording;
 - invalid POA;
-- stale jurisdiction rule;
+- stale Rule or Pack version;
 - missing required declaration;
 - unknown fee-driving unit;
 - unverified deadline-sensitive claim.
 
-Each unresolved item identifies effect, owner, due point, override authority, and retained evidence.
+The client-facing surface should show applicant, exact mark, jurisdiction, route, classes, goods/services, claims, Documents, warnings and the effect of confirmation.
 
----
-
-## 12. `EMBERLOOP` Reference Journey
-
-For `EMBERLOOP`, MarkReg creates separate package candidates for the United States, European Union, and United Kingdom because route, forms, representatives, declarations, fees, and acknowledgement evidence differ.
-
-The US word-mark package references:
-
-- accepted Quote v3;
-- Commercial Instruction v1;
-- Formal Intake v4;
-- Requirement Set v2;
-- Readiness Assessment v5;
-- the approved word-mark filing unit;
-- revised goods wording following the search review;
-- the current US jurisdiction-pack version;
-- the provider-specific declaration still requiring final professional review.
-
-The EU and UK packages reuse authorized facts but remain independent governed artifacts.
-
----
-
-## 13. Conformance Scenario — Mark File Changes
-
-**Given** the client uploads a revised device logo after factual confirmation.  
-**When** MarkReg compares it with the confirmed package.  
-**Then** it creates a new filing-unit candidate and package version, identifies affected search, pricing, documents and approval, and prevents execution of the superseded package.  
-**Authority boundary:** automated comparison does not decide legal equivalence or approve filing.  
-**Evidence retained:** both files, comparison result, affected versions, user explanation and reviewer decision.
-
----
-
-## 14. AI Assistance
-
-AI may:
-
-- assemble candidate values from authorized sources;
-- compare package versions;
-- detect conflicts and omissions;
-- generate rendered previews;
-- explain fields in plain language;
-- map values to provider or connector schemas.
-
-AI may not invent facts, select unresolved legal positions, confirm authority, approve a package, sign a declaration, or submit externally.
-
----
-
-## 15. Minimum Chapter Lock
+Use a precise action label such as:
 
 ```text
-A Filing Package Candidate is a versioned,
-source-linked and purpose-bound Product artifact.
-
-It states exactly what is proposed for filing,
-not merely which form fields are populated.
-
-Material changes invalidate affected
-confirmation, Review, approval and execution.
-
-Package preparation is not Filing Approval.
-Filing Approval is not execution.
-Submission is not official acknowledgement.
+Confirm factual filing content
 ```
 
----
+Do not label factual confirmation as `Submit application`.
 
-## 16. Handoff to CH24
+## 8. `EMBERLOOP` — `EL-16`
 
-CH23 produces a reviewable Filing Package Candidate.
+MarkReg creates separate US, EU and UK Filing Package Candidates because routes, forms, providers, declarations, fees and acknowledgement evidence differ.
 
-CH24 defines professional Review, client confirmation, internal approval, Filing Approval, separation of duties, and the exact authority required before the package may enter governed execution.
+The US word-mark package references Quote v3, Commercial Instruction v1, Formal Intake v4, Requirement Set v2, Readiness Assessment v5, the selected applicant, revised goods wording and the active US Pack version.
+
+EU and UK packages may reuse authorized facts, but each remains an independent governed artifact.
+
+## 9. Controlled Scenario
+
+### `MR-SCN-16` — Package changed after confirmation or approval
+
+A revised device logo, applicant detail, goods item, route or fee-driving fact creates a new filing-unit or package version. The Product shows the material diff, invalidates affected Review or Filing Approval and blocks Execution of the superseded version.
+
+**Boundary:** automated comparison does not determine legal equivalence or grant renewed approval.
+
+## 10. AI Assistance
+
+AI may assemble authorized candidate values, compare versions, detect omissions, prepare rendered previews and map fields to provider or connector schemas.
+
+AI may not invent facts, resolve legal positions, establish authority, approve a package, sign a declaration or submit externally.
+
+## 11. Chapter Lock
+
+```text
+Filing Package Candidate = exact proposed filing content.
+Package preparation ≠ Filing Approval.
+Filing Approval ≠ Execution.
+Submission ≠ official acknowledgement.
+```
+
+## 12. Handoff to CH24
+
+CH23 produces `MR-A11 Filing Package Candidate`.
+
+CH24 records factual confirmation, `MR-D02 Professional Decision` and `MR-D03 Filing Approval` for one exact package version and permitted route.
