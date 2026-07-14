@@ -2,7 +2,7 @@
 
 ## Repository Purpose
 
-The MarkOrbit publication repository is the unified publication home for MarkOrbit books, shared editorial assets, review materials, release artifacts, architecture decisions, governance records, and Codex task records.
+The MarkOrbit publication repository is the unified publication home for MarkOrbit books, shared editorial assets, review materials, release artifacts, architecture decisions, governance records, and controlled task records.
 
 The repository records owner-approved canonical architecture and controlled publication drafts, but editorial or implementation convenience must not silently redefine architecture.
 
@@ -22,7 +22,7 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](arc
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | `books/book-01-operating-system/` | Existing Draft; publication maturity not reassessed |
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Complete Draft 1 / Owner Accepted |
-| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | CH00–CH27 Drafted and Reviewed; Paused Before Part V; Owner Review Pending |
+| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Complete Draft 1 — CH00–CH39; Full-Book Architecture Review Completed; Owner Review Pending |
 | Book 05 | MarkReg | `books/book-05-markreg/` | Planned |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
@@ -63,7 +63,7 @@ Canonical path: `books/book-04-workplace-product-architecture/`
 
 Positioning: Defines how an independent professional organization establishes its own operating orbit and consumes MarkOrbit Core, Execution, Knowledge, Intelligence, Capabilities, Products, and network services through its Workplace.
 
-Publication state: CH00–CH27 are drafted and have completed a consolidated architecture and editorial review recorded by B04-REV-0002. Front Matter and Parts I–IV are pending owner review. CH28–CH39 remain intentionally paused and undrafted.
+Publication state: CH00–CH39 form a complete Draft 1. B04-REV-0003 records the completed full-book architecture and editorial review. Consolidated owner review is pending. Native-English line editing, final compression, diagrams, citation and glossary reconciliation, index work, cross-book reconciliation, and release-candidate packaging remain pending.
 
 ### Book 05 — MarkReg
 
@@ -82,3 +82,19 @@ Positioning: Future publication subject for the lightweight Workplace for tradem
 Canonical path: `books/book-07-mark-global-service-network/`
 
 Positioning: Future publication subject for the service-routing, Capability, and Trust network connecting independent Workplaces.
+
+## Current Book 04 Gate
+
+```text
+CH00–CH39 full-book architecture review completed
+→ consolidated owner review
+→ targeted revision or owner acceptance
+→ native-English and publication finishing
+→ final publication gate
+```
+
+Ready for final publication: **NO**
+
+Ready for unrestricted implementation: **NO**
+
+External protected action authorized: **NO**
