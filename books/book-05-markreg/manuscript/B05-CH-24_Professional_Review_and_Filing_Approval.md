@@ -1,57 +1,47 @@
 # B05-CH-24 — Professional Review and Filing Approval
 
-**Status:** Part IV Draft  
+**Status:** Complete Draft 1  
 **Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part IV — Filing Preparation and Governed Execution
 
 ## Chapter Purpose
 
-CH23 creates a versioned Filing Package Candidate.
+CH23 produced `MR-A11 Filing Package Candidate`.
 
-CH24 answers:
-
-> Who must review which parts, what may the client confirm, who may approve filing, and what exact package version does that authority cover?
+CH24 defines who confirms facts, who performs accountable Professional Review and who grants `MR-D03 Filing Approval` for one exact package version.
 
 ```text
+EL-17 / CH24
 Filing Package Candidate
-→ Professional Review
-→ Client Confirmation where required
-→ Internal or policy approval
-→ Filing Approval for one exact package version
+→ factual confirmation
+→ MR-D02 Professional Decision
+→ internal or policy approval where required
+→ MR-D03 Filing Approval
 ```
 
-Review, confirmation, approval, execution, submission, and official acknowledgement remain distinct under `MR-CR-02` through `MR-CR-04`.
+Review, confirmation, approval, Execution, submission and official acknowledgement remain distinct.
 
----
+## 1. Product Question and Primary Action
 
-## 1. User Question and Primary Action
+**Product question:** What still requires confirmation, Professional Review or approval before the package may enter governed Execution?
 
-**User question:** What still needs to be checked or approved before filing can proceed?
+**Primary action:** Complete the task assigned to the current actor, with the exact effect displayed.
 
-**Primary action:** Complete the review or confirmation assigned to the current actor, with the exact effect of that action displayed.
+The Product must not give every participant one generic `Approve` button.
 
-The Product must not present every participant with one generic `Approve` button.
+## 2. Review and Confirmation Types
 
----
+| Activity | Main subject | Accountable actor |
+| --- | --- | --- |
+| factual confirmation | applicant, address, mark, priority, use and declared facts | authorized client or fact owner |
+| Professional Review | route, scope, wording, claims, risk and procedural position | eligible professional |
+| Document review | POA, declaration, translation, certification and accepted use | qualified reviewer |
+| commercial review | changed scope, fees, exceptions and terms | authorized commercial actor |
+| technical review | formats, schema, files and payload integrity | qualified technical actor |
+| provider review | local feasibility and provider-specific requirements | eligible provider or professional |
+| deadline review | source, calculation, urgency and extension assumptions | accountable professional or deadline owner |
 
-## 2. Review Types
-
-A package may require separate review of:
-
-| Review type | Main subject |
-| --- | --- |
-| factual review | applicant, address, mark, priority and declared facts |
-| professional review | route, scope, wording, claims, legal or procedural position |
-| document review | POA, declaration, translation, certification and accepted use |
-| commercial review | scope, fee-driving changes and approved terms |
-| technical review | file formats, connector schema and payload integrity |
-| provider review | local requirements and filing feasibility |
-| deadline review | source, date, urgency and extension assumptions |
-| conflict review | provider or professional eligibility |
-
-One successful review does not imply that all dimensions have passed.
-
----
+One successful Review does not imply that all dimensions passed.
 
 ## 3. Client Confirmation
 
@@ -60,149 +50,84 @@ Client confirmation may cover:
 - factual identity and address;
 - ownership instruction;
 - exact mark selected;
-- commercial or business scope;
-- priority facts;
-- use facts;
+- business scope;
+- priority and use facts;
 - selected goods/services;
 - authorized declarations;
 - acceptance of disclosed residual risk.
 
-The client does not become the professional reviewer merely by confirming facts.
+Client confirmation does not turn the client into the professional reviewer.
 
----
+## 4. Professional Decision
 
-## 4. Professional Review
+`MR-D02 Professional Decision` records:
 
-Professional Review should record:
-
-- reviewer identity and eligibility;
-- package version reviewed;
-- review scope;
-- sources and jurisdiction-pack version;
-- accepted items;
-- changes required;
+- reviewer identity, qualification and represented organization;
+- exact package version and Review scope;
+- sources and Pack version;
+- accepted items and required changes;
 - blockers, warnings and assumptions;
-- professional decision and reasons;
-- expiry or re-review triggers.
+- reasoned professional conclusion;
+- expiry and revalidation triggers.
 
-AI may prepare the review record. It may not become the accountable reviewer.
+AI may prepare the record but cannot become the accountable reviewer.
 
----
+## 5. Filing Approval Contract
 
-## 5. Filing Approval
+`MR-D03 Filing Approval` authorizes one exact package version to enter a permitted Execution route.
 
-Filing Approval is the explicit decision `MR-D03` authorizing one Filing Package version to enter the permitted execution route.
-
-It must identify:
+It identifies:
 
 - package ID and version;
 - jurisdiction, route and filing unit;
-- approving person and represented organization;
-- authority basis;
-- approved execution route or permitted alternatives;
-- approval time;
-- expiry or conditions;
-- unresolved non-blocking warnings;
-- whether official-fee payment is included in the authority;
-- whether provider instruction or connector execution requires another gate.
+- approving actor, organization and authority basis;
+- permitted Execution route or bounded alternatives;
+- approval time and expiry;
+- conditions and non-blocking warnings;
+- fee-payment authority, if included;
+- whether provider instruction or connector invocation requires another gate.
 
-A broad statement such as `file the trademark` is insufficient when several package versions or routes exist.
+A broad instruction such as `file the trademark` is insufficient when several packages, filing units or routes exist.
 
----
-
-## 6. Approval Does Not Equal Submission
-
-Filing Approval allows the next controlled execution step.
-
-It does not prove that:
-
-- a provider was appointed;
-- a provider accepted instruction;
-- a connector transmitted data;
-- official fees were paid;
-- the office received the application;
-- an official filing number exists.
+## 6. Approval Does Not Equal External Effect
 
 ```text
-Filing Approval ≠ submission ≠ acknowledgement
+Filing Approval ≠ provider appointment
+Filing Approval ≠ provider acceptance
+Filing Approval ≠ connector transmission
+Filing Approval ≠ official-fee acceptance
+Filing Approval ≠ submission
+Filing Approval ≠ official acknowledgement
 ```
 
----
+Approval permits the next controlled step; it does not prove that step occurred.
 
-## 7. Separation of Duties
+## 7. Separation of Duties and Delegation
 
-Organization policy may require different actors for:
+Organization policy may separate preparation, Professional Review, factual confirmation, Filing Approval, payment release, provider instruction and credential use.
 
-- preparation;
-- professional Review;
-- client confirmation;
-- commercial exception approval;
-- Filing Approval;
-- payment release;
-- provider instruction;
-- connector credential use.
+A small practice may allow one eligible professional to perform several roles, but the separate Decisions and timestamps must remain visible.
 
-The Product must enforce the configured separation instead of treating all users with workspace access as interchangeable.
+Delegated authority must identify scope, duration, purpose and expiry. Delegation cannot create professional qualification or unlimited authority.
 
----
+## 8. Conditional and Scoped Approval
 
-## 8. Self-Review and Small Organizations
+Approval may be conditioned on:
 
-A small practice may allow one eligible professional to prepare, review, and approve.
+- payment reconciliation;
+- provider acceptance;
+- original Document arrival;
+- filing before a sourced deadline;
+- no material change;
+- final confirmation of a specified fact.
 
-Where this is permitted, the record should still show the separate decisions and timestamps.
+Approval may also be limited by jurisdiction, filing unit, class, wording version, route, provider, connector, fee ceiling, declaration version or time window.
 
-The absence of multiple staff does not justify collapsing preparation, Review, and approval into one invisible state.
+An unmet condition blocks only the protected action it controls.
 
----
+## 9. Change, Expiry and Reapproval
 
-## 9. Conditional Approval
-
-Conditional approval may state:
-
-```text
-Approved subject to deposit receipt
-Approved subject to provider acceptance
-Approved subject to original POA arrival
-Approved subject to filing before stated deadline
-Approved subject to no material change
-```
-
-A condition must identify:
-
-- owner;
-- evidence required;
-- due point;
-- blocking effect;
-- verification method;
-- expiry.
-
-An unmet condition prevents the protected action it controls.
-
----
-
-## 10. Approval Scope
-
-Approval may be limited by:
-
-- jurisdiction;
-- filing unit;
-- class or goods/services version;
-- route;
-- provider;
-- connector;
-- filing date or window;
-- fee ceiling;
-- declaration version;
-- correction tolerance.
-
-Authority must not spread automatically to related packages.
-
----
-
-## 11. Change After Review or Approval
-
-When a package changes, MarkReg classifies the change:
+A package change is classified as:
 
 | Change class | Minimum response |
 | --- | --- |
@@ -211,13 +136,13 @@ When a package changes, MarkReg classifies the change:
 | professional-scope change | new Professional Review |
 | commercial-scope change | Quote or acceptance revalidation |
 | filing-material change | new Filing Approval |
-| route or provider change | new execution and appointment checks |
+| route or provider change | renewed routing and appointment checks |
 
-The Product must identify exactly which decisions were invalidated.
+Approval may also expire because a Pack, fee, deadline, provider, Document, applicant or authority changed.
 
----
+The Product must identify exactly which Decision became stale.
 
-## 12. Rejection, Return and Deferral
+## 10. Outcomes of Review
 
 A reviewer or approver may:
 
@@ -227,104 +152,48 @@ A reviewer or approver may:
 - reject;
 - defer pending evidence;
 - escalate;
-- request specialist review.
+- request specialist Review.
 
-The result should explain the next action and preserve the reviewed package version.
+The reviewed version and reason remain retained.
 
----
+## 11. `EMBERLOOP` — `EL-17`
 
-## 13. Professional Override
+The client confirms the US word mark, applicant and goods wording. The responsible professional reviews the declaration, filing basis, wording and current US Pack. Deposit receipt satisfies the commercial condition.
 
-An authorized professional may override a Product warning only when:
+A separate Filing Approval is recorded for each US, EU and UK package. Approval of the US word-mark package does not authorize the device mark or another jurisdiction.
 
-- the warning is designated overridable;
-- the reviewer is eligible;
-- the reason is recorded;
-- supporting source or professional basis is linked;
-- affected scope is narrow;
-- expiry and downstream effect are defined.
+## 12. Controlled Scenarios
 
-A Product blocker marked non-overridable cannot be bypassed through free text.
+### `MR-SCN-16` — Package changed after approval
 
----
+A material change creates a new package version, shows the diff and invalidates affected confirmation, Professional Review and Filing Approval.
 
-## 14. Approval Expiry
+### `MR-SCN-17` — Incomplete Professional Review
 
-Approval may expire because:
+Filing Approval is blocked while required issues, evidence or source checks remain unresolved, unless a defined conditional path is valid.
 
-- package version changed;
-- jurisdiction pack changed materially;
-- official fees changed beyond tolerance;
-- deadline passed;
-- provider availability or eligibility changed;
-- Document expired;
-- applicant or authority changed;
-- confirmation condition remained unmet.
+### `MR-SCN-18` — Delegated approval expires
 
-The Product should show why reapproval is required.
+An actor attempting approval outside delegated scope or time is blocked and routed to an eligible approver.
 
----
+## 13. AI Assistance
 
-## 15. `EMBERLOOP` Reference Journey
+AI may prepare checklists, compare versions, identify unresolved items, summarize changes and draft Decision records.
 
-For `EMBERLOOP`:
+AI may not perform accountable Professional Review, confirm client facts, grant commercial exceptions, issue Filing Approval or authorize external action.
 
-1. the client confirms the US word mark, applicant and goods wording;
-2. the responsible professional reviews the declaration, filing basis, wording and current jurisdiction-pack rules;
-3. the deposit receipt satisfies the commercial condition;
-4. Filing Approval authorizes the exact US word-mark package version for the selected provider route;
-5. the EU and UK packages receive separate approval decisions.
-
-Approval of the US package does not authorize the device mark or the EU and UK filings.
-
----
-
-## 16. Conformance Scenario — Package Changed After Approval
-
-**Given** Filing Package v4 was approved.  
-**When** the applicant address and one goods item are changed.  
-**Then** MarkReg creates v5, shows the structured diff, invalidates affected confirmation and Filing Approval, and blocks execution until the required reviews are repeated.  
-**Authority boundary:** the Product determines policy impact but does not itself grant renewed approval.  
-**Evidence retained:** v4, v5, diff, invalidated decisions, new confirmations and approvals.
-
----
-
-## 17. AI Assistance
-
-AI may:
-
-- prepare review checklists;
-- compare package and source versions;
-- identify unresolved items;
-- summarize client-facing changes;
-- detect missing authority evidence;
-- draft approval records.
-
-AI may not perform accountable Professional Review, confirm client facts, grant commercial exceptions, issue Filing Approval, or authorize external action.
-
----
-
-## 18. Minimum Chapter Lock
+## 14. Chapter Lock
 
 ```text
-Review is scoped and attributable.
-Client confirmation covers authorized facts.
+Factual confirmation covers authorized facts.
 Professional Review covers accountable judgment.
-
-Filing Approval identifies one exact
-package version, authority and route.
-
-A material change invalidates the
-specific decisions that depended on it.
-
-Approval permits governed execution.
-It does not prove submission or acknowledgement.
+Filing Approval covers one exact package and route.
+Material change invalidates dependent Decisions.
+Approval permits Execution; it does not prove submission.
 ```
 
----
+## 15. Handoff to CH25
 
-## 19. Handoff to CH25
+CH24 produces reviewed packages and exact-version Filing Approvals.
 
-An approved package may require a qualified external provider.
-
-CH25 defines the Capability Need, private-first discovery, evidence, eligibility, conflict, availability, comparison and Human Selection recommendation used before any provider is appointed or instructed.
+CH25 defines `MR-C01 Capability Need`, `MR-A14 Routing Recommendation` and `MR-D04 Human Selection` before any provider is appointed or instructed.
