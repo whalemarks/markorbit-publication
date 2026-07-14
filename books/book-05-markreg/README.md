@@ -5,9 +5,9 @@
 - **Book:** Book 05
 - **Title:** MarkReg: The Full-Lifecycle International Trademark Product
 - **Canonical path:** `books/book-05-markreg/`
-- **Status:** Part V Draft and Review Complete — Part VI Authorized
+- **Status:** Part VI Draft and Review Complete — Part VII Authorized
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
-- **Current phase:** Part VI — Registration and Portfolio Continuity
+- **Current phase:** Part VII — Product Experience and Evolution
 
 ## Position in the Series
 
@@ -31,39 +31,28 @@ Book 05 defines a Product constitution and lifecycle specification. It is not a 
 
 ## Manuscript Status
 
-### Front Matter and Part I
+- Front Matter and Part I — CH00–CH07: Product constitution and lifecycle boundaries.
+- Part II — CH08–CH15: Need, Strategy and Recommendation.
+- Part III — CH16–CH22: Commercial Journey and Formal Intake.
+- Part IV — CH23–CH29: Filing Preparation and Governed Execution.
+- Part V — CH30–CH36: Examination, Publication and Disputes.
+- Part VI — CH37–CH42: Registration and Portfolio Continuity.
+- Part VII — CH43–CH47: authorized next writing pack.
 
-CH00–CH07 establish the Product thesis, responsibility boundaries, participants, principles and lifecycle distinctions.
+### Part VI Manuscript
 
-### Part II — Need, Strategy and Recommendation
+- [CH37 — Registration and Certificate Boundaries](manuscript/B05-CH-37_Registration_and_Certificate_Boundaries.md)
+- [CH38 — Maintenance Calendar and Post-Registration Duties](manuscript/B05-CH-38_Maintenance_Calendar_and_Post-Registration_Duties.md)
+- [CH39 — Renewal Preparation and Governed Renewal](manuscript/B05-CH-39_Renewal_Preparation_and_Governed_Renewal.md)
+- [CH40 — Changes, Recordals and Ownership Updates](manuscript/B05-CH-40_Changes_Recordals_and_Ownership_Updates.md)
+- [CH41 — Assignment, Licensing and Chain of Title](manuscript/B05-CH-41_Assignment_Licensing_and_Chain_of_Title.md)
+- [CH42 — Portfolio Strategy, Monitoring and Lifecycle Learning](manuscript/B05-CH-42_Portfolio_Strategy_Monitoring_and_Lifecycle_Learning.md)
 
-CH08–CH15 define Need Brief, jurisdiction and route recommendations, country options, filing units, applicant context, classes, goods/services, search and risk.
+Part VI preserves official registration, certificate, maintenance, renewal, recordal, ownership, licensing, dispute and portfolio states as distinct, sourced and versioned contexts.
 
-### Part III — Commercial Journey and Formal Intake
+## Chapter Boundary Correction
 
-CH16–CH22 define Proposal, pricing, Quote, acceptance, Commercial Instruction, Formal Intake, Requirement Set, Readiness Assessment and formal Handoff Envelope.
-
-### Part IV — Filing Preparation and Governed Execution
-
-CH23–CH29 define Filing Package Candidate, Review, Filing Approval, private-first provider routing, appointment, governed execution, official acknowledgement, failure recovery and audit.
-
-### Part V — Examination, Publication and Disputes
-
-CH30–CH36 are drafted and reviewed:
-
-- [CH30 — Examination Context and Status Authority](manuscript/B05-CH-30_Examination_Context_and_Status_Authority.md)
-- [CH31 — Office Action Triage and Response Strategy](manuscript/B05-CH-31_Office_Action_Triage_and_Response_Strategy.md)
-- [CH32 — Response Preparation, Evidence and Filing](manuscript/B05-CH-32_Response_Preparation_Evidence_and_Filing.md)
-- [CH33 — Publication, Observation and Opposition Windows](manuscript/B05-CH-33_Publication_Observation_and_Opposition_Windows.md)
-- [CH34 — Opposition, Defense and Adversarial Matters](manuscript/B05-CH-34_Opposition_Defense_and_Adversarial_Matters.md)
-- [CH35 — Appeals, Reviews, Cancellation and Invalidation](manuscript/B05-CH-35_Appeals_Reviews_Cancellation_and_Invalidation.md)
-- [CH36 — Deadline Governance, Client Decisions and Outcome Communication](manuscript/B05-CH-36_Deadline_Governance_Client_Decisions_and_Outcome_Communication.md)
-
-Part V preserves official-source authority from examination notice through response, publication, opposition, appeal or cancellation context, deadline governance and outcome Communication.
-
-### Part VI — Registration and Portfolio Continuity
-
-CH37–CH43 are authorized as the next controlled writing pack.
+B05-TOC-V0.1 defines Part VI as CH37–CH42 and Part VII as CH43–CH47. [B05-ERRATA-0001](reviews/B05-ERRATA-0001_Part_VI_Chapter_Boundary.md) corrects the former CH37–CH43 status typo.
 
 ## Controlled Product Specifications
 
@@ -77,17 +66,18 @@ CH37–CH43 are authorized as the next controlled writing pack.
 - [Book Manifest](BOOK-MANIFEST.md)
 - [Book Status](BOOK-STATUS.md)
 - [Book Governance](BOOK-GOVERNANCE.md)
-- [B05-REV-0007 — CH00–CH22 Productization Closure Review](reviews/B05-REV-0007_CH00-CH22_Productization_Closure_Review.md)
-- [B05-REV-0008 — Part IV Filing Preparation and Governed Execution Review](reviews/B05-REV-0008_Part_IV_Filing_Preparation_and_Governed_Execution_Review.md)
-- [B05-REV-0009 — Part V Examination, Publication and Disputes Review](reviews/B05-REV-0009_Part_V_Examination_Publication_and_Disputes_Review.md)
+- [B05-REV-0008 — Part IV Review](reviews/B05-REV-0008_Part_IV_Filing_Preparation_and_Governed_Execution_Review.md)
+- [B05-REV-0009 — Part V Review](reviews/B05-REV-0009_Part_V_Examination_Publication_and_Disputes_Review.md)
+- [B05-REV-0010 — Part VI Review](reviews/B05-REV-0010_Part_VI_Registration_and_Portfolio_Continuity_Review.md)
 
 ## Current Gate
 
 ```text
-CH00–CH29 foundation accepted
-→ Part V CH30–CH36 drafted and reviewed
-→ Part VI CH37–CH43 authorized
-→ registration, maintenance, ownership, use and portfolio continuity
+CH00–CH36 accepted for continuation
+→ Part VI CH37–CH42 drafted and reviewed
+→ chapter-boundary erratum recorded
+→ Part VII CH43–CH47 authorized
+→ complete first full Book 05 draft and full-book review
 ```
 
 ## Authority Boundary
