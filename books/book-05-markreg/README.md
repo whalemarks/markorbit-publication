@@ -5,9 +5,9 @@
 - **Book:** Book 05
 - **Title:** MarkReg: The Full-Lifecycle International Trademark Product
 - **Canonical path:** `books/book-05-markreg/`
-- **Status:** Complete Draft 1 — CH00–CH47 Full Manuscript and Review Complete
+- **Status:** Complete Draft 1 — Publication Finishing Active
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
-- **Current phase:** Publication Finishing
+- **Current phase:** PF-01B metadata normalization and controlled specification reconciliation
 
 ## Position in the Series
 
@@ -40,19 +40,32 @@ Book 05 defines a Product constitution and lifecycle specification. It is not a 
 - Part VI — CH37–CH42: Registration and Portfolio Continuity
 - Part VII — CH43–CH47: Product Experience and Evolution
 
-### Part VII Manuscript
+CH00–CH01 have been normalized under PF-01A. CH02–CH47 remain subject to the full PF-01B metadata pass before RC1.
 
-- [CH43 — Standalone, Embedded and Cross-Product Experience](manuscript/B05-CH-43_Standalone_Embedded_and_Cross-Product_Experience.md)
-- [CH44 — Client, Professional and Provider Participation Surfaces](manuscript/B05-CH-44_Client_Professional_and_Provider_Participation_Surfaces.md)
-- [CH45 — Jurisdiction Packs, AI Assistance and Rule Versioning](manuscript/B05-CH-45_Jurisdiction_Packs_AI_Assistance_and_Rule_Versioning.md)
-- [CH46 — Product Metrics, Quality and MVP Delivery Sequence](manuscript/B05-CH-46_Product_Metrics_Quality_and_MVP_Delivery_Sequence.md)
-- [CH47 — Conformance, Roadmap and Conclusion](manuscript/B05-CH-47_Conformance_Roadmap_and_Conclusion.md)
+## Reader-Facing Appendices
 
-Part VII defines one MarkReg journey across standalone, Lite, Workplace and cross-Product surfaces; participant-specific authority; source-backed jurisdiction and AI governance; quality metrics; MVP sequencing; conformance profiles; and the long-term Product roadmap.
+- [Appendix A — Full-Lifecycle Artifact and Decision Map](appendices/B05-APP-A_Full-Lifecycle_Artifact_and_Decision_Map.md)
+- [Appendix B — Lifecycle State and Authority Matrix](appendices/B05-APP-B_Lifecycle_State_and_Authority_Matrix.md)
+- [Appendix C — Participant Visibility and Action Rights Matrix](appendices/B05-APP-C_Participant_Visibility_and_Action_Rights_Matrix.md)
+- [Appendix D — Reference Journeys](appendices/B05-APP-D_Reference_Journeys.md)
+- [Appendix E — Priority Conformance Scenarios](appendices/B05-APP-E_Priority_Conformance_Scenarios.md)
+- [Appendix F — Minimum Jurisdiction Pack Checklist](appendices/B05-APP-F_Minimum_Jurisdiction_Pack_Checklist.md)
+- [Appendix G — MarkReg Conformance Profiles](appendices/B05-APP-G_MarkReg_Conformance_Profiles.md)
 
-## Chapter Boundary Correction
+The appendix files are controlled scaffolds. They summarize controlled sources and are not yet publication-complete.
 
-B05-TOC-V0.1 defines Part VI as CH37–CH42 and Part VII as CH43–CH47. [B05-ERRATA-0001](reviews/B05-ERRATA-0001_Part_VI_Chapter_Boundary.md) corrects the former CH37–CH43 status typo.
+## Publication Apparatus
+
+- [B05-PUB-0001 — Editorial Style and Terminology](publication/B05-PUB-0001_Editorial_Style_and_Terminology.md)
+- [B05-PUB-0002 — Source and Authority Notes](publication/B05-PUB-0002_Source_and_Authority_Notes.md)
+- [B05-PUB-0003 — Glossary](publication/B05-PUB-0003_Glossary.md)
+- [B05-PUB-0004 — Subject Index](publication/B05-PUB-0004_Subject_Index.md)
+- [B05-PUB-0005 — Figure Register](publication/B05-PUB-0005_Figure_Register.md)
+- [B05-PUB-0006 — Back Matter and Appendix Map](publication/B05-PUB-0006_Back_Matter_and_Appendix_Map.md)
+- [B05-PUB-0007 — Cross-Book Reconciliation](publication/B05-PUB-0007_Cross-Book_Reconciliation.md)
+- [B05-PUB-0008 — RC1 Checklist](publication/B05-PUB-0008_RC1_Checklist.md)
+
+B05-PUB-0006 is the accepted structural baseline. The remaining records require further reconciliation, editing, figures or validation.
 
 ## Controlled Product Specifications
 
@@ -61,32 +74,31 @@ B05-TOC-V0.1 defines Part VI as CH37–CH42 and Part VII as CH43–CH47. [B05-ER
 - [B05-SPEC-0003 — Conformance Scenarios and User-Surface Contract](specifications/B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md)
 - [B05-SPEC-0004 — Minimum Jurisdiction-Pack and Commercial-Control Contract](specifications/B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md)
 
-The complete-draft review found that these specifications must be extended and reconciled through CH47 before Release Candidate preparation.
+The specifications remain the controlled source for Appendix A–F and must be extended through CH47 before the appendices can become publication-ready.
 
 ## Governance and Reviews
 
 - [Book Manifest](BOOK-MANIFEST.md)
 - [Book Status](BOOK-STATUS.md)
 - [Book Governance](BOOK-GOVERNANCE.md)
-- [Part VI Boundary Erratum](reviews/B05-ERRATA-0001_Part_VI_Chapter_Boundary.md)
-- [B05-REV-0010 — Part VI Review](reviews/B05-REV-0010_Part_VI_Registration_and_Portfolio_Continuity_Review.md)
-- [B05-REV-0011 — Part VII Review](reviews/B05-REV-0011_Part_VII_Product_Experience_and_Evolution_Review.md)
 - [B05-REV-0012 — CH00–CH47 Complete Draft 1 Review](reviews/B05-REV-0012_CH00-CH47_Complete_Draft_1_Review.md)
+- [B05-REV-0013 — Publication Architecture and Back Matter Review](reviews/B05-REV-0013_Publication_Architecture_and_Back_Matter_Review.md)
 - [B05-PLN-0004 — Publication Finishing Pack](planning/B05-PLN-0004_Publication_Finishing_Pack.md)
 
 ## Current Gate
 
 ```text
-CH00–CH47 complete manuscript
-→ Part VII review complete
-→ first full-book review complete
-→ Complete Draft 1 achieved
-→ B05-PUBLICATION-FINISHING-PACK-001
-→ Release Candidate 1 review
-→ owner publication decision
+CH00–CH47 Complete Draft 1
+→ PF-01A Front Matter correction complete
+→ PF-07A Back Matter architecture complete
+→ PF-01B CH02–CH47 metadata normalization
+→ PF-02–PF-05 specification reconciliation
+→ PF-06 and remaining PF-07 publication finishing
+→ PF-08 validation
+→ PF-09 Release Candidate 1 and owner publication decision
 ```
 
-Complete Draft 1 is not Release Candidate 1 and does not authorize implementation, production deployment or protected external action.
+Complete Draft 1 and publication architecture acceptance do not authorize implementation, production deployment or protected external action.
 
 ## Authority Boundary
 
