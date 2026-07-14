@@ -1,6 +1,6 @@
 # Book 05 Reviews
 
-This directory contains owner, architecture, chapter-map, manuscript, productization and publication review records.
+This directory contains owner, architecture, chapter-map, manuscript, productization, errata and publication review records.
 
 ## Current Records
 
@@ -12,10 +12,12 @@ This directory contains owner, architecture, chapter-map, manuscript, productiza
 - `B05-REV-0006_Part_III_Productization_Review.md` — closes Part III revision findings
 - `B05-REV-0007_CH00-CH22_Productization_Closure_Review.md` — closes B05-REVISION-PACK-001 and authorizes Part IV
 - `B05-REV-0008_Part_IV_Filing_Preparation_and_Governed_Execution_Review.md` — accepts CH23–CH29 and authorizes Part V
-- `B05-REV-0009_Part_V_Examination_Publication_and_Disputes_Review.md` — accepts CH30–CH36 and authorizes Part VI
+- `B05-REV-0009_Part_V_Examination_Publication_and_Disputes_Review.md` — accepts CH30–CH36; its Part VI range and title list are corrected by B05-ERRATA-0001
+- `B05-ERRATA-0001_Part_VI_Chapter_Boundary.md` — confirms Part VI CH37–CH42 and Part VII CH43–CH47 under B05-TOC-V0.1
+- `B05-REV-0010_Part_VI_Registration_and_Portfolio_Continuity_Review.md` — accepts CH37–CH42 and authorizes Part VII
 
 ## Current Gate
 
-Part V, CH30–CH36, is drafted and reviewed.
+Part VI, CH37–CH42, is drafted and reviewed.
 
-The next controlled review scope follows completion of Part VI, CH37–CH43 — Registration and Portfolio Continuity.
+The next controlled review scope follows completion of Part VII, CH43–CH47 — Product Experience and Evolution, and will be the first full-book CH00–CH47 review.

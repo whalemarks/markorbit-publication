@@ -200,7 +200,30 @@ Phase 20 records that:
 - Deadline Record, Client Decision Record and Communication Packet preserve source, authority, escalation and correction history;
 - `EMBERLOOP` continues through US examination response, EU opposition and UK publication-window closure;
 - `RIVERKITE` continues through cancellation defense, ownership conflict and linked recordal and renewal work;
-- B05-REV-0009 accepts Part V and authorizes Part VI, CH37–CH43;
+- B05-REV-0009 accepts Part V substantively;
+- B05-ERRATA-0001 corrects its next-pack range and title list to Part VI CH37–CH42 and Part VII CH43–CH47;
+- no Architecture Canon, Book 02, Book 03 or Book 04 amendment is required;
+- unrestricted implementation, production deployment and external protected action remain unauthorized.
+
+## Phase 21 — Book 05 Part VI: Registration and Portfolio Continuity
+
+Drafted and reviewed CH37–CH42 as one controlled writing pack.
+
+Phase 21 records that:
+
+- B05-TOC-V0.1 controls Part VI as CH37–CH42 and Part VII as CH43–CH47;
+- registration, official record, certificate, Evidence, Product projection and Right Baseline remain distinct;
+- registered scope is compared with approved and acknowledged filing scope;
+- Maintenance Obligation Sets preserve official, calculated, internal and reminder dates;
+- use evidence and non-use vulnerability remain visible independently of renewal status;
+- renewal remains a governed package, approval, filing and acknowledgement sequence;
+- business facts, internal data, recordal packages and official updates remain distinct;
+- assignments, licences, mergers and chain-of-title links preserve contractual and official effects;
+- portfolios remain explainable views across independent rights and jurisdictions;
+- monitoring signals create review candidates rather than automatic protected actions;
+- `EMBERLOOP` continues through UK registration and maintenance while US and EU states remain independent;
+- `RIVERKITE` continues through renewal, ownership correction, cancellation defense, evidence and licence review;
+- B05-REV-0010 accepts Part VI and authorizes Part VII, CH43–CH47;
 - no Architecture Canon, Book 02, Book 03 or Book 04 amendment is required;
 - unrestricted implementation, production deployment and external protected action remain unauthorized.
 
@@ -208,7 +231,8 @@ Phase 20 records that:
 
 - Architecture Canon maintenance
 - Books 01–04 Portfolio Baseline maintenance
-- Book 05 Part VI — Registration and Portfolio Continuity
+- Book 05 Part VII — Product Experience and Evolution
+- Book 05 first CH00–CH47 full-book review
 - Repository Canonical Alignment Audits
 - Lite Product-loop validation
 - MarkReg Product planning
@@ -234,7 +258,7 @@ The following remain horizontal architecture/specification or implementation wor
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
-| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Part V Draft and Review Complete — Part VI Authorized |
+| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Part VI Draft and Review Complete — Part VII Authorized |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 

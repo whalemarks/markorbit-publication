@@ -1,5 +1,20 @@
 # Book 05 Changelog
 
+## 2026-07-14 — Part VI Registration and Portfolio Continuity
+
+- Drafted CH37–CH42 under the owner-accepted B05-TOC-V0.1.
+- Defined Registration Outcome Snapshot, official-record and certificate boundaries, registered-scope diff and Right Baseline.
+- Defined Maintenance Obligation Set, source-backed deadlines, use evidence, vulnerability, responsibility and escalation.
+- Defined Renewal Package Candidate, partial renewal, owner verification, fees, approval, governed filing and acknowledgement.
+- Defined Recordal Context, current-versus-proposed official data, multi-jurisdiction change initiatives and partial official results.
+- Defined Transaction Context, Affected-Right Set, assignment, licensing and Chain-of-Title View.
+- Defined Portfolio Continuity View, monitoring signals, coverage gaps, action options and organization-specific learning.
+- Continued `EMBERLOOP` through UK registration and maintenance while preserving independent US and EU states.
+- Continued `RIVERKITE` through renewals, chain-of-title correction, cancellation defense, use evidence and licence review.
+- Added B05-ERRATA-0001 to correct the former Part VI CH37–CH43 range and non-canonical title list in B05-REV-0009-derived records.
+- Added B05-REV-0010 and authorized Part VII, CH43–CH47 — Product Experience and Evolution.
+- Kept unrestricted implementation, production deployment and external protected action unauthorized.
+
 ## 2026-07-14 — Part V Examination, Publication and Disputes
 
 - Drafted CH30–CH36 as the controlled Examination, Publication and Disputes writing pack.
@@ -12,7 +27,7 @@
 - Established canonical Deadline Record, Client Decision Record, Communication Packet and correction-Communication behavior.
 - Extended `EMBERLOOP` through US examination response, EU opposition and UK publication-window closure.
 - Extended `RIVERKITE` through cancellation defense, ownership conflict, evidence and linked renewal/recordal contexts.
-- Added B05-REV-0009 and authorized Part VI, CH37–CH43 — Registration and Portfolio Continuity.
+- Added B05-REV-0009 and authorized Part VI; its chapter-range details are corrected by B05-ERRATA-0001.
 - Kept unrestricted implementation, production deployment and external protected action unauthorized.
 
 ## 2026-07-14 — Part IV Filing Preparation and Governed Execution
