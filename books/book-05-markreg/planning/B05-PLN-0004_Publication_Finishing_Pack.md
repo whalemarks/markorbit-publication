@@ -3,10 +3,11 @@
 ## Status
 
 - **Pack ID:** B05-PUBLICATION-FINISHING-PACK-001
-- **Status:** Active — Complete Draft 1 accepted; first controlled tranche in progress
-- **Source review:** B05-REV-0012
+- **Status:** Active — PF-02 complete; PF-03 authorized
+- **Source reviews:** B05-REV-0012, B05-REV-0013 and B05-REV-0014
 - **Scope:** Book 05 CH00–CH47 and controlled publication assets
 - **Target:** Release Candidate 1 candidate
+- **Independent RC1 blocker:** PF-01B CH02–CH47 metadata normalization
 
 ## 1. Purpose
 
@@ -20,7 +21,7 @@ It is not software implementation, production deployment or authorization for pr
 
 ```text
 PF-01 metadata normalization
-→ PF-02 artifact and decision map extension
++ PF-02 artifact and decision map extension
 → PF-03 reference journey consolidation
 → PF-04 scenario and user-surface consolidation
 → PF-05 jurisdiction and commercial reconciliation
@@ -30,15 +31,18 @@ PF-01 metadata normalization
 → PF-09 Release Candidate and owner publication gate
 ```
 
+PF-01B may be completed independently, but it must close before PF-08 and PF-09.
+
 Workstreams may use one or more pull requests, but each PR must retain a clear review boundary.
 
 ### 2.1 Controlled Execution Tranches
 
-The first publication-finishing PR is intentionally split across two partial workstreams:
+Completed tranches:
 
 ```text
 PF-01A — Front Matter metadata and active chapter-map correction
 PF-07A — Back Matter, Appendix A–G and publication-apparatus architecture
+PF-02 — full-lifecycle Product artifact and Decision reconciliation
 ```
 
 PF-01A includes:
@@ -47,7 +51,7 @@ PF-01A includes:
 - removal of active candidate wording from CH01;
 - addition of the Back Matter sequence to CH01.
 
-PF-01A does not close PF-01. CH02–CH47 metadata still requires full normalization and validation.
+PF-01A does not close PF-01. CH02–CH47 metadata still requires PF-01B normalization and validation.
 
 PF-07A includes:
 
@@ -57,7 +61,17 @@ PF-07A includes:
 - initial glossary, subject index and figure plan;
 - RC1 checklist architecture.
 
-PF-07A does not close PF-07. Appendix content, figures, final glossary/index and rendered publication remain incomplete.
+PF-07A does not close PF-07. Final appendix content, figures, glossary/index and rendered publication remain incomplete.
+
+PF-02 includes:
+
+- B05-SPEC-0001 v0.2 applying through CH47;
+- controlled record classes for artifacts, contexts, Decisions, Evidence, Baselines, Views and Governance;
+- six lifecycle lineages;
+- full-lifecycle version, supersession and change propagation;
+- Appendix A reconciliation;
+- Appendix B PF-02 state and authority mapping;
+- B05-REV-0014 acceptance.
 
 ## 3. PF-01 — Metadata Normalization
 
@@ -79,7 +93,8 @@ PF-07A does not close PF-07. Appendix content, figures, final glossary/index and
 
 - CH00–CH01: normalized under PF-01A;
 - CH02–CH47: pending PF-01B review and normalization;
-- PF-01 overall: open.
+- PF-01 overall: open;
+- PF-01B is required before PF-08 and PF-09 but does not block PF-03–PF-05 substantive specification work.
 
 ## 4. PF-02 — Product Artifact and Decision Map Extension
 
@@ -87,7 +102,7 @@ PF-07A does not close PF-07. Appendix content, figures, final glossary/index and
 
 Extend B05-SPEC-0001 through CH47, including:
 
-- Review and provider-routing decisions;
+- Review and provider-routing Decisions;
 - instruction, acceptance, submission and acknowledgement records;
 - failure and reconciliation contexts;
 - Official Event, Examination, Issue and Response records;
@@ -99,9 +114,28 @@ Extend B05-SPEC-0001 through CH47, including:
 
 ### Acceptance
 
-- every material artifact named in CH08–CH47 is registered or explicitly classified as local/non-canonical;
+- every material record named in CH08–CH47 is registered or explicitly classified as local/non-canonical;
 - lineage, owner, source, Review, approval, supersession and formalization targets are defined;
 - constitutional rules remain unchanged unless a controlled decision says otherwise.
+
+### Completion result
+
+```text
+B05-SPEC-0001 v0.2 applies through CH47: YES
+Controlled record classes defined: YES
+Existing identifiers preserved: YES
+Later lifecycle identifiers assigned: YES
+New filing lineage: COMPLETE
+Examination and response lineage: COMPLETE
+Publication and adversarial lineage: COMPLETE
+Renewal lineage: COMPLETE
+Recordal and transaction lineage: COMPLETE
+Portfolio and cross-Product lineage: COMPLETE
+Appendix A reconciliation: COMPLETE
+Appendix B PF-02 state mapping: COMPLETE
+B05-REV-0014 acceptance: COMPLETE
+PF-02: CLOSED
+```
 
 ## 5. PF-03 — Reference Journey Consolidation
 
@@ -111,13 +145,21 @@ Extend B05-SPEC-0001 through CH47, including:
 - extend `RIVERKITE` through CH47;
 - create a chapter-to-case matrix;
 - reconcile case facts, versions, jurisdictions and outcomes;
-- remove any accidental contradiction or unsupported final status.
+- remove any accidental contradiction or unsupported final status;
+- reconcile Appendix D with B05-SPEC-0002.
 
 ### Acceptance
 
 - both cases have one controlled timeline;
 - all independent jurisdiction and right states remain consistent;
-- chapter examples cite the controlled case state.
+- chapter examples cite the controlled case state;
+- Appendix D is a faithful reader projection.
+
+### Current progress
+
+- authorized by B05-REV-0014;
+- current substantive workstream;
+- open.
 
 ## 6. PF-04 — Scenario and User-Surface Consolidation
 
@@ -125,9 +167,10 @@ Extend B05-SPEC-0001 through CH47, including:
 
 - extend B05-SPEC-0003 applicability through CH47;
 - index priority Given/When/Then scenarios;
-- map scenarios to chapters, artifacts and constitutional rules;
+- map scenarios to chapters, controlled records and constitutional rules;
 - consolidate client, professional, reviewer, approver, coordinator, finance and provider surfaces;
-- identify minimum conformance tests per implementation profile.
+- identify minimum conformance tests per implementation profile;
+- reconcile Appendices B, C, E and G.
 
 ### Acceptance
 
@@ -142,7 +185,8 @@ Extend B05-SPEC-0001 through CH47, including:
 - reconcile B05-SPEC-0004 with maintenance, renewal, recordal and transaction controls;
 - add rule-version, fee-change, form-change and AI-assistance relationships from CH45;
 - reconcile official, provider, organization and client-visible price concepts;
-- preserve historical Quote and Package versions.
+- preserve historical Quote and Package versions;
+- reconcile Appendix F.
 
 ### Acceptance
 
@@ -172,7 +216,7 @@ Extend B05-SPEC-0001 through CH47, including:
 
 ### Tasks
 
-Create:
+Create and complete:
 
 - Appendix A–G reader-reference set;
 - Back Matter and Appendix Map;
@@ -204,6 +248,10 @@ Create:
 - Appendix A–G paths and scaffolds: created;
 - publication record inventory B05-PUB-0001–0008: created;
 - initial glossary, subject index and figure plan: created;
+- Appendix A PF-02 reconciliation: complete;
+- Appendix B PF-02 state and authority mapping: complete;
+- Appendix B PF-04 scenario mapping: pending;
+- Appendices C–G substantive reconciliation: pending assigned workstreams;
 - controlled figures and final reader assets: pending;
 - PF-07 overall: open.
 
@@ -228,7 +276,8 @@ Validate:
 
 - automated and manual checks pass or have documented exceptions;
 - rendered output has no broken structure, tables, figures or links;
-- validation evidence is retained.
+- validation evidence is retained;
+- PF-01B metadata normalization is complete.
 
 ## 11. PF-09 — Release Candidate and Owner Publication Gate
 
@@ -244,6 +293,7 @@ Validate:
 
 - RC checklist passes;
 - no unresolved blocking architecture, editorial or validation finding;
+- PF-01B is complete;
 - owner decision is recorded;
 - implementation and external-action boundaries remain explicit.
 
@@ -265,4 +315,14 @@ This pack does not:
 
 `B05-PUBLICATION-FINISHING-PACK-001` is complete only when PF-01 through PF-09 have controlled evidence and the owner publication gate is resolved.
 
-Until then, Book 05 remains Complete Draft 1 rather than Release Candidate 1.
+Current decision:
+
+```text
+PF-01A: COMPLETE
+PF-01B: OPEN
+PF-02: COMPLETE
+PF-03: AUTHORIZED AND ACTIVE NEXT
+PF-04–PF-09: OPEN
+```
+
+Until all gates close, Book 05 remains Complete Draft 1 rather than Release Candidate 1.
