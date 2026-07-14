@@ -1,5 +1,20 @@
 # Book 05 Changelog
 
+## 2026-07-15 — PF-06B2B Part III Editorial Finishing
+
+- Edited CH16–CH22 against B05-PUB-0001 Controlled Editorial Standard v0.2.
+- Normalized CH16–CH22 metadata to Complete Draft 1 and B05-TOC-V0.1 — Owner Accepted.
+- Wrote `EL-09–EL-15` explicitly into the active Part III manuscript.
+- Reconciled Proposal, price basis, Quote, Client Acceptance and Commercial Instruction terminology.
+- Reconciled Formal Intake, Requirement Set, Readiness Assessment and Handoff Envelope boundaries.
+- Preserved Order, Matter, finance, responsibility, Execution and official-state ownership outside MarkReg.
+- Strengthened Quote immutability, payment separation, purpose-specific readiness, idempotency and Return Evidence.
+- Made CH22 hand directly into CH23 Filing Package Candidate without claiming filing or submission.
+- Added B05-REV-0021 and accepted PF-06B2B without semantic escalation.
+- Closed PF-06B and recorded PF-01B as complete through CH22 and open for CH23–CH47.
+- Split PF-06C into four reviewable manuscript tranches and authorized PF-06C1 — Part IV, CH23–CH29.
+- Kept PF-06 overall, figures, validation, RC1 and final publication open.
+
 ## 2026-07-14 — PF-06B2A Part II Editorial Finishing
 
 - Edited CH08–CH15 against B05-PUB-0001 Controlled Editorial Standard v0.2.

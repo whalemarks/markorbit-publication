@@ -10,33 +10,18 @@ CH00–CH47 — all forty-eight planned manuscript files.
 
 | Range | Part | Status |
 | --- | --- | --- |
-| CH00–CH01 | Front Matter | PF-06B1 complete |
+| CH00–CH01 | Front Matter | complete |
 | CH02–CH07 | Product Constitution and Lifecycle Position | PF-06B1 complete; metadata normalized |
 | CH08–CH15 | Need, Strategy and Recommendation | PF-06B2A complete; metadata normalized |
-| CH16–CH22 | Commercial Journey and Formal Intake | PF-06B2B next |
-| CH23–CH29 | Filing Preparation and Governed Execution | PF-06C planned |
-| CH30–CH36 | Examination, Publication and Disputes | PF-06C planned |
-| CH37–CH42 | Registration and Portfolio Continuity | PF-06C planned |
-| CH43–CH47 | Product Experience and Evolution | PF-06C planned |
+| CH16–CH22 | Commercial Journey and Formal Intake | PF-06B2B complete; metadata normalized |
+| CH23–CH29 | Filing Preparation and Governed Execution | PF-06C1 next |
+| CH30–CH36 | Examination, Publication and Disputes | PF-06C2 planned |
+| CH37–CH42 | Registration and Portfolio Continuity | PF-06C3 planned |
+| CH43–CH47 | Product Experience and Evolution | PF-06C4 planned |
 
-## Completed Editorial Tranches
+## Completed Controlled Sequences
 
-### PF-06B1 — Front Matter and Part I
-
-```text
-CH00 — book and Product premise
-CH01 — chapter map and reader routes
-CH02 — reason for a dedicated Product
-CH03 — mission and value
-CH04 — architecture responsibilities
-CH05 — participants and authority
-CH06 — Product principles and non-goals
-CH07 — lifecycle and state planes
-```
-
-[B05-REV-0019](../reviews/B05-REV-0019_PF-06B1_Front_Matter_and_Part_I_Editorial_Review.md) accepts this tranche.
-
-### PF-06B2A — Part II
+### Part II
 
 ```text
 EL-01 / CH08 — Business Context Snapshot and Need Brief
@@ -49,9 +34,21 @@ EL-07 / CH14 — goods/services scope
 EL-08 / CH15 — search and risk
 ```
 
-Part II now uses the controlled `MR-SCN-*` registry, Pack support states and source/AI boundaries established by PF-04 and PF-05.
+[B05-REV-0020](../reviews/B05-REV-0020_PF-06B2A_Part_II_Editorial_Review.md) accepts Part II.
 
-[B05-REV-0020](../reviews/B05-REV-0020_PF-06B2A_Part_II_Editorial_Review.md) accepts this tranche.
+### Part III
+
+```text
+EL-09 / CH16 — MR-A05 Proposal
+EL-10 / CH17 — source-backed price basis
+EL-11 / CH18 — MR-A06 Quote + MR-D01 Client Acceptance + MR-A07 Commercial Instruction
+EL-12 / CH19 — MR-A08 Formal Intake
+EL-13 / CH20 — MR-A09 Requirement Set
+EL-14 / CH21 — MR-A10 Readiness Assessment
+EL-15 / CH22 — MR-A12 Handoff Envelope and returned formal references
+```
+
+[B05-REV-0021](../reviews/B05-REV-0021_PF-06B2B_Part_III_Editorial_Review.md) accepts Part III and closes PF-06B.
 
 ## Metadata Progress
 
@@ -59,7 +56,8 @@ Part II now uses the controlled `MR-SCN-*` registry, Pack support states and sou
 CH00–CH01: COMPLETE
 CH02–CH07: COMPLETE
 CH08–CH15: COMPLETE
-CH16–CH47: OPEN
+CH16–CH22: COMPLETE
+CH23–CH47: OPEN
 ```
 
 Normalized active metadata is:
@@ -77,6 +75,7 @@ Need Brief
 → filing-unit, applicant, class, specification and risk candidates
 → Proposal, Quote and Commercial Instruction
 → Formal Intake, Requirement Set and Readiness Assessment
+→ Handoff Envelope and formal references
 → Filing Package Candidate, Professional Review and Filing Approval
 → provider or connector Execution
 → official acknowledgement and reconciliation
@@ -114,9 +113,10 @@ Specifications remain authoritative over editorial wording.
 - B05-REV-0018 — PF-06A Editorial Baseline and Term Audit
 - B05-REV-0019 — PF-06B1 Front Matter and Part I
 - B05-REV-0020 — PF-06B2A Part II
+- B05-REV-0021 — PF-06B2B Part III and PF-06B closure
 
 ## Next Controlled Task
 
-PF-06B2B edits CH16–CH22 and normalizes metadata for those chapters.
+PF-06C1 edits CH23–CH29 and normalizes metadata for those chapters.
 
-The next Review must confirm that Proposal, pricing, Quote, acceptance, Formal Intake, Requirement Set, Readiness Assessment and Handoff Envelope remain aligned with the controlled specifications and `EL-09–EL-15`.
+The next Review must confirm Filing Package, Professional Review, Filing Approval, provider stages, Execution routes, acknowledgement, unknown state, reconciliation and `EL-16–EL-22` against the controlled specifications.
