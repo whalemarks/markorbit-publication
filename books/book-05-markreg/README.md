@@ -7,9 +7,9 @@
 - **Canonical path:** `books/book-05-markreg/`
 - **Status:** Complete Draft 1 — Editorial Finishing Active
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
-- **Completed editorial range:** CH00–CH22
-- **Current substantive phase:** PF-06C1 — Part IV, CH23–CH29
-- **Remaining RC1 metadata blocker:** CH23–CH47
+- **Completed editorial range:** CH00–CH29
+- **Current substantive phase:** PF-06C2 — Part V, CH30–CH36
+- **Remaining RC1 metadata blocker:** CH30–CH47
 
 ## Position in the Series
 
@@ -29,50 +29,35 @@ Book 05 is not a jurisdictional legal manual, implementation PRD, official sourc
 
 ## Manuscript Progress
 
-- Front Matter — CH00–CH01: editorial pass complete
-- Part I — CH02–CH07: editorial pass and metadata normalization complete
-- Part II — CH08–CH15: editorial pass and metadata normalization complete
-- Part III — CH16–CH22: editorial pass and metadata normalization complete
-- Part IV — CH23–CH29: PF-06C1 next
-- Part V — CH30–CH36: PF-06C2 planned
+- Front Matter — CH00–CH01: complete
+- Part I — CH02–CH07: complete
+- Part II — CH08–CH15: complete
+- Part III — CH16–CH22: complete
+- Part IV — CH23–CH29: complete
+- Part V — CH30–CH36: PF-06C2 next
 - Part VI — CH37–CH42: PF-06C3 planned
 - Part VII — CH43–CH47: PF-06C4 planned
 
-### Part II controlled sequence
+## Part IV Controlled Sequence
 
 ```text
-EL-01 / CH08 — Business Context Snapshot and Need Brief
-EL-02 / CH09 — jurisdiction and route candidates
-EL-03 / CH10 — country-bundle Option Sets
-EL-04 / CH11 — filing-unit candidates
-EL-05 / CH12 — Applicant and Authority Context
-EL-06 / CH13 — class candidates
-EL-07 / CH14 — goods/services scope
-EL-08 / CH15 — search and risk
+EL-16 / CH23 — Filing Package Candidate
+EL-17 / CH24 — Professional Decision and Filing Approval
+EL-18 / CH25 — Capability Need, Routing Recommendation and Human Selection
+EL-19 / CH26 — Appointment Candidate, Provider Instruction and Provider Acceptance
+EL-20 / CH27 — Execution Request and governed Execution routes
+EL-21 / CH28 — submission, delivery, provider and official evidence
+EL-22 / CH29 — Reconciliation Context and Recovery Plan
 ```
 
-[B05-REV-0020](reviews/B05-REV-0020_PF-06B2A_Part_II_Editorial_Review.md) accepts Part II.
-
-### Part III controlled sequence
-
-```text
-EL-09 / CH16 — MR-A05 Proposal
-EL-10 / CH17 — source-backed price basis
-EL-11 / CH18 — Quote, Client Acceptance and Commercial Instruction
-EL-12 / CH19 — Formal Intake
-EL-13 / CH20 — Requirement Set
-EL-14 / CH21 — Readiness Assessment
-EL-15 / CH22 — Handoff Envelope and returned formal references
-```
-
-[B05-REV-0021](reviews/B05-REV-0021_PF-06B2B_Part_III_Editorial_Review.md) accepts Part III and closes PF-06B.
+[B05-REV-0022](reviews/B05-REV-0022_PF-06C1_Part_IV_Editorial_Review.md) accepts Part IV.
 
 ## Controlled Product Specifications
 
-- [B05-SPEC-0001 — Product Artifact and Decision Map](specifications/B05-SPEC-0001_Product_Artifact_and_Decision_Map.md) — v0.2, PF-02 complete
-- [B05-SPEC-0002 — Reference Journeys](specifications/B05-SPEC-0002_Reference_Journeys.md) — v0.2, PF-03 complete
-- [B05-SPEC-0003 — Conformance Scenarios and User-Surface Contract](specifications/B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md) — v0.2, PF-04 complete
-- [B05-SPEC-0004 — Jurisdiction Pack and Commercial Control Contract](specifications/B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md) — v0.2, PF-05 complete
+- [B05-SPEC-0001 — Product Artifact and Decision Map](specifications/B05-SPEC-0001_Product_Artifact_and_Decision_Map.md) — v0.2
+- [B05-SPEC-0002 — Reference Journeys](specifications/B05-SPEC-0002_Reference_Journeys.md) — v0.2
+- [B05-SPEC-0003 — Conformance Scenarios and User-Surface Contract](specifications/B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md) — v0.2
+- [B05-SPEC-0004 — Jurisdiction Pack and Commercial Control Contract](specifications/B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md) — v0.2
 
 Specifications remain authoritative over editorial simplification.
 
@@ -87,39 +72,31 @@ Specifications remain authoritative over editorial simplification.
 
 ```text
 PF-06A — COMPLETE
-PF-06B1 CH00–CH07 — COMPLETE
-PF-06B2A CH08–CH15 — COMPLETE
-PF-06B2B CH16–CH22 — COMPLETE
-PF-06B overall — COMPLETE
-
-PF-06C1 CH23–CH29 — NEXT
-PF-06C2 CH30–CH36 — PLANNED
+PF-06B CH00–CH22 — COMPLETE
+PF-06C1 CH23–CH29 — COMPLETE
+PF-06C2 CH30–CH36 — AUTHORIZED AND NEXT
 PF-06C3 CH37–CH42 — PLANNED
 PF-06C4 CH43–CH47 — PLANNED
-
 PF-06D — PLANNED
-- specifications, appendices and publication apparatus
-- whole-book editorial closure
 ```
 
 ## Controlled Locks
 
 ```text
-Recommendation ≠ Decision
-Proposal selection ≠ Quote acceptance
-Client Acceptance ≠ Commercial Instruction
-Commercial Instruction ≠ Filing Approval
-Payment ≠ Filing Approval
-Formal Intake complete ≠ filing ready
-Uploaded File ≠ Valid Document
-Readiness ≠ Approval
-Approval ≠ Execution
-Handoff requested ≠ formal object created
-Formal references returned ≠ filing submitted
-Submission sent ≠ official acknowledgement
+Package Candidate ≠ Filing Approval
+Professional Review ≠ client confirmation
+Filing Approval ≠ Execution
+Routing Recommendation ≠ Human Selection
+Selection ≠ appointment
+Appointment ≠ instruction
+Instruction receipt ≠ Provider Acceptance
+Provider Acceptance ≠ submission
+Execution Request ≠ action completed
+Submission Evidence ≠ Official Acknowledgement Evidence
 Provider Report ≠ Official Truth
-Pack support ≠ production authority
-AI Assistance ≠ Human Review or Decision
+Technical success ≠ official receipt
+Unknown ≠ failed or safe to retry
+Official acknowledgement ≠ registration
 ```
 
 ## Reference Journeys
@@ -166,13 +143,11 @@ Appendix A–G remain controlled reader drafts until PF-06D, PF-07 and PF-08 pas
 ## Current Gate
 
 ```text
-PF-01B: PARTIAL — CH02–CH22 complete; CH23–CH47 open
+PF-01B: PARTIAL — CH02–CH29 complete; CH30–CH47 open
 PF-02–PF-05: COMPLETE
-PF-06A: COMPLETE
-PF-06B: COMPLETE
-PF-06C1: AUTHORIZED AND NEXT
-PF-06C2/PF-06C3/PF-06C4: PLANNED
-PF-06D: PLANNED
+PF-06A/PF-06B/PF-06C1: COMPLETE
+PF-06C2: AUTHORIZED AND NEXT
+PF-06C3/PF-06C4/PF-06D: PLANNED
 PF-06 overall: OPEN
 PF-07–PF-09: OPEN
 ```
