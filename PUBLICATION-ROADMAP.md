@@ -129,14 +129,30 @@ Phase 16 records that:
 - search and risk assessments remain bounded by purpose, query, source, coverage, and checked date;
 - AI assists but does not hold professional responsibility;
 - B05-REV-0002 passes the Part II architecture review;
+- no upstream architecture amendment is required.
+
+## Phase 17 — Book 05 Part III: Commercial Journey and Formal Intake
+
+Drafted CH16–CH22 as one coherent writing pack.
+
+Phase 17 records that:
+
+- Proposal, Price Model, Quote, Acceptance, and Commercial Instruction remain distinct;
+- official fees, professional fees, provider costs, tax, currency, later-stage fees, and uncertainty remain visible;
+- Formal Intake is service-specific, versioned, source-aware, and purpose-bound;
+- document requirement, source file, formal Document, POA, signature, certification, original, and delivery remain distinct;
+- Readiness is purpose-specific and dimensional rather than one completion score;
+- Order, Matter, payment, responsibility, Workflow, filing approval, and submission remain distinct;
+- Owning Services create and record formal business facts;
+- B05-REV-0003 passes the Part III architecture review;
 - no upstream architecture amendment is required;
-- the current gate is owner review of CH08–CH15 and authorization for Part III.
+- the current gate is owner review of CH16–CH22 and authorization for Part IV.
 
 ## Active Future Workstreams
 
 - Architecture Canon maintenance
 - Books 01–04 Portfolio Baseline maintenance
-- Book 05 Part II owner review and Part III drafting
+- Book 05 Part III owner review and Part IV drafting
 - Repository Canonical Alignment Audits
 - Lite Product-loop validation
 - MarkReg Product planning
@@ -162,7 +178,7 @@ The following remain horizontal architecture/specification or implementation wor
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
-| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Part II Draft Complete; B05-TOC-V0.1 owner accepted |
+| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Part III Draft Complete — Owner Review Pending |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 

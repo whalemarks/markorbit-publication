@@ -5,9 +5,9 @@
 - **Book:** Book 05
 - **Title:** MarkReg: The Full-Lifecycle International Trademark Product
 - **Canonical path:** `books/book-05-markreg/`
-- **Status:** Part II Draft Complete — Owner Review Pending
+- **Status:** Part III Draft Complete — Owner Review Pending
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
-- **Current phase:** Need, Strategy and Recommendation review
+- **Current phase:** Commercial Journey and Formal Intake review
 
 ## Position in the Series
 
@@ -70,6 +70,16 @@ Full-Lifecycle International Trademark Product
 - [Goods and Services Guidance](manuscript/B05-CH-14_Goods_and_Services_Guidance.md)
 - [Search, Availability and Risk Assessment](manuscript/B05-CH-15_Search_Availability_and_Risk_Assessment.md)
 
+### Part III — Commercial Journey and Formal Intake
+
+- [Proposal and Option Design](manuscript/B05-CH-16_Proposal_and_Option_Design.md)
+- [Pricing, Official Fees and Cost Transparency](manuscript/B05-CH-17_Pricing_Official_Fees_and_Cost_Transparency.md)
+- [Quote, Acceptance and Commercial Instruction](manuscript/B05-CH-18_Quote_Acceptance_and_Commercial_Instruction.md)
+- [Formal Intake and Information Sufficiency](manuscript/B05-CH-19_Formal_Intake_and_Information_Sufficiency.md)
+- [Document Requirements, POA and Signatures](manuscript/B05-CH-20_Document_Requirements_POA_and_Signatures.md)
+- [Validation, Readiness and Missing Information](manuscript/B05-CH-21_Validation_Readiness_and_Missing_Information.md)
+- [Order, Matter, Payment and Responsibility Handoff](manuscript/B05-CH-22_Order_Matter_Payment_and_Responsibility_Handoff.md)
+
 ## Foundation and Governance
 
 - [Book Manifest](BOOK-MANIFEST.md)
@@ -80,15 +90,15 @@ Full-Lifecycle International Trademark Product
 - [Chapter Map and Writing Gates](planning/B05-PLN-0003_Chapter_Map_and_Writing_Gates.md)
 - [Part I Review](reviews/B05-REV-0001_Part_I_Product_Constitution_Review.md)
 - [Part II Review](reviews/B05-REV-0002_Part_II_Need_Strategy_and_Recommendation_Review.md)
+- [Part III Review](reviews/B05-REV-0003_Part_III_Commercial_Journey_and_Formal_Intake_Review.md)
 
 ## Current Gate
 
 ```text
 B05-TOC-V0.1 owner accepted
-→ Part I completed and reviewed
-→ Part II completed and reviewed
-→ owner reviews CH08–CH15
-→ Part III controlled writing pack
+→ Parts I–III completed and reviewed
+→ owner reviews CH16–CH22
+→ Part IV controlled writing pack
 → full-book review
 → publication finishing
 ```
