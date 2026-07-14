@@ -21,7 +21,7 @@ jobs:
           ref: book-05-foundation
           fetch-depth: 0
 
-      - name: Verify and extract foundation pack
+      - name: Extract verified foundation pack
         shell: bash
         run: |
           set -euo pipefail
@@ -31,14 +31,14 @@ jobs:
           mkdir -p books/book-05-markreg
           tar -xzf /tmp/book05foundation.tar.gz -C books/book-05-markreg
 
-      - name: Synchronize publication registry
+      - name: Synchronize registry and roadmap
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
           from pathlib import Path
 
-          def replace(path, old, new, required=True):
+          def replace(path: str, old: str, new: str, required: bool = True) -> None:
               p = Path(path)
               text = p.read_text(encoding='utf-8')
               if old not in text:
@@ -47,77 +47,79 @@ jobs:
                   return
               p.write_text(text.replace(old, new), encoding='utf-8')
 
-          replace(
-              'books/README.md',
-              '| Book 05 | MarkReg | `book-05-markreg/` | Planned; next publication |',
-              '| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `book-05-markreg/` | Foundation Draft; B05-TOC-V0.1 candidate |',
-          )
-          replace(
-              'books/README.md',
-              'Planned Book 05–07 directories may remain absent until their approved scaffold tasks begin.',
-              'Book 05 now has an approved writing scaffold. Planned Book 06–07 directories may remain absent until their approved scaffold tasks begin.',
-          )
+          replace('books/README.md',
+                  '| Book 05 | MarkReg | `book-05-markreg/` | Planned; next publication |',
+                  '| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `book-05-markreg/` | Foundation Draft; B05-TOC-V0.1 candidate |')
+          replace('books/README.md',
+                  'Planned Book 05–07 directories may remain absent until their approved scaffold tasks begin.',
+                  'Book 05 now has a controlled writing scaffold. Planned Book 06–07 directories may remain absent until their approved scaffold tasks begin.')
 
-          replace(
-              'PUBLICATION-MANIFEST.md',
-              '| Book 05 | MarkReg | `books/book-05-markreg/` | Planned |',
-              '| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Foundation Draft; B05-TOC-V0.1 candidate |',
-          )
-          replace(
-              'PUBLICATION-MANIFEST.md',
-              'Planned missing Book 05–07 directories are expected to produce warnings only, not validation errors.',
-              'Book 05 now has a controlled writing scaffold. Planned missing Book 06–07 directories are expected to produce warnings only, not validation errors.',
-          )
-          replace(
-              'PUBLICATION-MANIFEST.md',
-              'Positioning: Future publication subject for the flagship international trademark domain application and managed professional-service ecosystem showcase.',
-              'Positioning: Defines the flagship full-lifecycle international trademark Product, including need understanding, recommendation, intake, filing preparation, governed execution handoff, examination, registration, maintenance, provider collaboration, and portfolio continuity.',
-          )
-          replace(
-              'PUBLICATION-MANIFEST.md',
-              'The candidate baseline is `MO-PUB-BASELINE-0001`.',
-              'The effective baseline is `MO-PUB-BASELINE-0001`.',
-          )
-          replace(
-              'PUBLICATION-MANIFEST.md',
-              'owner reviews and merges the Portfolio Baseline\n→ baseline becomes effective\n→ Book 05 planning begins',
-              'Portfolio Baseline merged and effective\n→ Book 05 Foundation Draft established\n→ owner reviews B05-TOC-V0.1\n→ controlled writing packs begin',
-          )
+          replace('PUBLICATION-MANIFEST.md',
+                  '| Book 05 | MarkReg | `books/book-05-markreg/` | Planned |',
+                  '| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Foundation Draft; B05-TOC-V0.1 candidate |')
+          replace('PUBLICATION-MANIFEST.md',
+                  'Planned missing Book 05–07 directories are expected to produce warnings only, not validation errors.',
+                  'Book 05 now has a controlled writing scaffold. Planned missing Book 06–07 directories are expected to produce warnings only, not validation errors.')
+          replace('PUBLICATION-MANIFEST.md',
+                  'Positioning: Future publication subject for the flagship international trademark domain application and managed professional-service ecosystem showcase.',
+                  'Positioning: Defines the flagship full-lifecycle international trademark Product, including need understanding, recommendation, intake, filing preparation, governed execution handoff, examination, registration, maintenance, provider collaboration, and portfolio continuity.')
+          replace('PUBLICATION-MANIFEST.md',
+                  'The candidate baseline is `MO-PUB-BASELINE-0001`.',
+                  'The effective baseline is `MO-PUB-BASELINE-0001`.')
+          replace('PUBLICATION-MANIFEST.md',
+                  'owner reviews and merges the Portfolio Baseline\n→ baseline becomes effective\n→ Book 05 planning begins',
+                  'Portfolio Baseline merged and effective\n→ Book 05 Foundation Draft established\n→ owner reviews B05-TOC-V0.1\n→ controlled writing packs begin')
 
-          replace(
-              'PUBLICATION-ROADMAP.md',
-              '- Books 01–04 Portfolio Baseline owner review\n- Book 05 MarkReg positioning and chapter-map preparation',
-              '- Books 01–04 Portfolio Baseline maintenance\n- Book 05 MarkReg Foundation Draft and chapter-map owner review',
-          )
-          replace(
-              'PUBLICATION-ROADMAP.md',
-              '| Book 05 | MarkReg | `books/book-05-markreg/` | Planned |',
-              '| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Foundation Draft; B05-TOC-V0.1 candidate |',
-          )
-          replace(
-              'PUBLICATION-ROADMAP.md',
-              '- MO-PUB-BASELINE-0001 is ready for owner acceptance;\n- Book 05 planning may begin after merge;',
-              '- MO-PUB-BASELINE-0001 was owner accepted through merge of PR #32;\n- Book 05 planning and controlled drafting may proceed;',
-          )
+          replace('PUBLICATION-ROADMAP.md',
+                  '- Books 01–04 Portfolio Baseline owner review\n- Book 05 MarkReg positioning and chapter-map preparation',
+                  '- Books 01–04 Portfolio Baseline maintenance\n- Book 05 MarkReg Foundation Draft and chapter-map owner review')
+          replace('PUBLICATION-ROADMAP.md',
+                  '| Book 05 | MarkReg | `books/book-05-markreg/` | Planned |',
+                  '| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Foundation Draft; B05-TOC-V0.1 candidate |')
+          replace('PUBLICATION-ROADMAP.md',
+                  '- MO-PUB-BASELINE-0001 is ready for owner acceptance;\n- Book 05 planning may begin after merge;',
+                  '- MO-PUB-BASELINE-0001 was owner accepted through merge of PR #32;\n- Book 05 planning and controlled drafting may proceed;')
 
           roadmap = Path('PUBLICATION-ROADMAP.md')
           text = roadmap.read_text(encoding='utf-8')
           marker = '## Post-Baseline Publication Sequence\n'
-          phase = '''## Phase 15 — Book 05 MarkReg Foundation Draft\n\nCreated the canonical Book 05 directory and established the first dedicated Product publication on the Books 01–04 Portfolio Baseline.\n\nPhase 15 records that:\n\n- the working title is `MarkReg: The Full-Lifecycle International Trademark Product`;\n- B05-TOC-V0.1 proposes CH00–CH47 across seven parts;\n- Product positioning, dependency, governance, and writing gates are defined;\n- CH00–CH03 form the initial manuscript pack;\n- Book 02, Book 03, and Book 04 authority boundaries remain unchanged;\n- the current gate is owner review of the title, scope, and chapter map;\n- unrestricted implementation, production deployment, and external protected action remain unauthorized.\n\n'''
+          phase = '''## Phase 15 — Book 05 MarkReg Foundation Draft
+
+Created the canonical Book 05 directory and established the first dedicated Product publication on the Books 01–04 Portfolio Baseline.
+
+Phase 15 records that:
+
+- the working title is `MarkReg: The Full-Lifecycle International Trademark Product`;
+- B05-TOC-V0.1 proposes CH00–CH47 across seven parts;
+- Product positioning, dependency, governance, and writing gates are defined;
+- CH00–CH03 form the initial manuscript pack;
+- Book 02, Book 03, and Book 04 authority boundaries remain unchanged;
+- the current gate is owner review of the title, scope, and chapter map;
+- unrestricted implementation, production deployment, and external protected action remain unauthorized.
+
+'''
           if phase not in text:
               if marker not in text:
                   raise SystemExit('Missing roadmap insertion marker')
               roadmap.write_text(text.replace(marker, phase + marker), encoding='utf-8')
 
           root = Path('README.md')
-          text = root.read_text(encoding='utf-8')
-          old = '| Book 05 | MarkReg | `books/book-05-markreg/` | Planned |'
-          new = '| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Foundation Draft; B05-TOC-V0.1 candidate |'
-          if old in text:
-              root.write_text(text.replace(old, new), encoding='utf-8')
+          root_text = root.read_text(encoding='utf-8')
+          root_old = '| Book 05 | MarkReg | `books/book-05-markreg/` | Planned |'
+          root_new = '| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Foundation Draft; B05-TOC-V0.1 candidate |'
+          if root_old in root_text:
+              root.write_text(root_text.replace(root_old, root_new), encoding='utf-8')
 
           changelog = Path('CHANGELOG.md')
-          entry = '''\n## 2026-07-14 — Book 05 MarkReg Foundation Draft\n\n- Created `books/book-05-markreg/`.\n- Established the MarkReg Product constitution and Books 01–04 dependency lock.\n- Added B05-TOC-V0.1 as a candidate CH00–CH47 chapter map.\n- Drafted CH00–CH03 and the initial planning records.\n- Kept implementation, production, and external protected-action gates closed.\n'''
+          entry = '''
+## 2026-07-14 — Book 05 MarkReg Foundation Draft
+
+- Created `books/book-05-markreg/`.
+- Established the MarkReg Product constitution and Books 01–04 dependency lock.
+- Added B05-TOC-V0.1 as a candidate CH00–CH47 chapter map.
+- Drafted CH00–CH03 and the initial planning records.
+- Kept implementation, production, and external protected-action gates closed.
+'''
           current = changelog.read_text(encoding='utf-8')
           if '## 2026-07-14 — Book 05 MarkReg Foundation Draft' not in current:
               changelog.write_text(current.rstrip() + '\n' + entry, encoding='utf-8')
@@ -133,23 +135,17 @@ jobs:
 
           root = Path('books/book-05-markreg')
           required = [
-              root / 'README.md',
-              root / 'BOOK-MANIFEST.md',
-              root / 'BOOK-STATUS.md',
-              root / 'BOOK-GOVERNANCE.md',
-              root / 'publication.yaml',
-              root / 'CHANGELOG.md',
-              root / 'planning/B05-PLN-0001_Positioning_and_Scope.md',
-              root / 'planning/B05-PLN-0002_Dependency_Map.md',
-              root / 'planning/B05-PLN-0003_Chapter_Map_and_Writing_Gates.md',
-              root / 'manuscript/B05-CH-00_Preface.md',
-              root / 'manuscript/B05-CH-01_Table_of_Contents.md',
-              root / 'manuscript/B05-CH-02_Why_MarkReg_Exists.md',
-              root / 'manuscript/B05-CH-03_Product_Mission_and_Value_Proposition.md',
-              root / 'manuscript/README.md',
-              root / 'reviews/README.md',
+              'README.md', 'BOOK-MANIFEST.md', 'BOOK-STATUS.md', 'BOOK-GOVERNANCE.md',
+              'publication.yaml', 'CHANGELOG.md', 'manuscript/README.md', 'reviews/README.md',
+              'planning/B05-PLN-0001_Positioning_and_Scope.md',
+              'planning/B05-PLN-0002_Dependency_Map.md',
+              'planning/B05-PLN-0003_Chapter_Map_and_Writing_Gates.md',
+              'manuscript/B05-CH-00_Preface.md',
+              'manuscript/B05-CH-01_Table_of_Contents.md',
+              'manuscript/B05-CH-02_Why_MarkReg_Exists.md',
+              'manuscript/B05-CH-03_Product_Mission_and_Value_Proposition.md',
           ]
-          missing = [str(p) for p in required if not p.exists() or not p.read_text(encoding='utf-8').strip()]
+          missing = [item for item in required if not (root / item).exists() or not (root / item).read_text(encoding='utf-8').strip()]
           if missing:
               raise SystemExit(f'Missing or empty files: {missing}')
 
@@ -160,9 +156,8 @@ jobs:
           for path in manuscripts:
               text = path.read_text(encoding='utf-8')
               number = int(re.search(r'B05-CH-(\d{2})', path.name).group(1))
-              first = text.splitlines()[0]
-              if not first.startswith(f'# B05-CH-{number:02d} — '):
-                  raise SystemExit(f'Invalid first heading: {path}: {first}')
+              if not text.splitlines()[0].startswith(f'# B05-CH-{number:02d} — '):
+                  raise SystemExit(f'Invalid first heading: {path}')
               if text.count('```') % 2:
                   raise SystemExit(f'Unbalanced fences: {path}')
               numbered = [int(m.group(1)) for m in re.finditer(r'^## (\d+)\. ', text, re.M)]
@@ -175,7 +170,7 @@ jobs:
               raise SystemExit(f'TOC must define CH00-CH47, found {planned}')
 
           governance = (root / 'BOOK-GOVERNANCE.md').read_text(encoding='utf-8')
-          locks = [
+          for lock in [
               'Core defines shared meaning.',
               'Execution governs coordinated work.',
               'Workplace provides authorized organization context.',
@@ -184,30 +179,21 @@ jobs:
               'Owning Services change and record formal business facts.',
               'Humans remain professionally accountable.',
               'AI assists under explicit governance.',
-          ]
-          for lock in locks:
+          ]:
               if lock not in governance:
                   raise SystemExit(f'Missing responsibility lock: {lock}')
 
           print('Validated Book 05 Foundation Draft: 15 files, CH00-CH03, B05-TOC-V0.1 CH00-CH47')
           PY
 
-      - name: Remove temporary application files
-        shell: bash
-        run: |
-          rm -f .github/book05-foundation-payload.b64
-          rm -f .github/workflows/apply-book05-foundation.yml
-
-      - name: Commit Book 05 foundation
+      - name: Remove temporary files and commit
         shell: bash
         run: |
           set -euo pipefail
+          rm -f .github/book05-foundation-payload.b64
+          rm -f .github/workflows/apply-book05-foundation.yml
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
           git commit -m "Establish Book 05 MarkReg Foundation Draft"
           git push origin HEAD:book-05-foundation
