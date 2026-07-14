@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - agent/book-05-pf01b-pf02
+  pull_request:
+    branches:
+      - main
 
 permissions:
   contents: write
