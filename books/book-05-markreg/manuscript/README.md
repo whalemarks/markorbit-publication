@@ -10,20 +10,18 @@ CH00–CH47 — all forty-eight planned manuscript files.
 
 | Range | Part | Status |
 | --- | --- | --- |
-| CH00–CH01 | Front Matter | PF-06B1 editorial pass complete |
-| CH02–CH07 | Product Constitution and Lifecycle Position | PF-06B1 editorial pass and metadata normalization complete |
-| CH08–CH15 | Need, Strategy and Recommendation | PF-06B2 authorized next |
-| CH16–CH22 | Commercial Journey and Formal Intake | PF-06B2 authorized next |
+| CH00–CH01 | Front Matter | PF-06B1 complete |
+| CH02–CH07 | Product Constitution and Lifecycle Position | PF-06B1 complete; metadata normalized |
+| CH08–CH15 | Need, Strategy and Recommendation | PF-06B2A complete; metadata normalized |
+| CH16–CH22 | Commercial Journey and Formal Intake | PF-06B2B next |
 | CH23–CH29 | Filing Preparation and Governed Execution | PF-06C planned |
 | CH30–CH36 | Examination, Publication and Disputes | PF-06C planned |
 | CH37–CH42 | Registration and Portfolio Continuity | PF-06C planned |
 | CH43–CH47 | Product Experience and Evolution | PF-06C planned |
 
-## PF-06B1 Result
+## Completed Editorial Tranches
 
-Front Matter and Part I were edited against B05-PUB-0001 v0.2.
-
-The edited chapters now have distinct responsibilities:
+### PF-06B1 — Front Matter and Part I
 
 ```text
 CH00 — book and Product premise
@@ -36,14 +34,40 @@ CH06 — Product principles and non-goals
 CH07 — lifecycle and state planes
 ```
 
-CH02–CH07 now use:
+[B05-REV-0019](../reviews/B05-REV-0019_PF-06B1_Front_Matter_and_Part_I_Editorial_Review.md) accepts this tranche.
+
+### PF-06B2A — Part II
+
+```text
+EL-01 / CH08 — Business Context Snapshot and Need Brief
+EL-02 / CH09 — jurisdiction and route candidates
+EL-03 / CH10 — country-bundle Option Sets
+EL-04 / CH11 — filing-unit candidates
+EL-05 / CH12 — Applicant and Authority Context
+EL-06 / CH13 — class candidates
+EL-07 / CH14 — goods/services scope
+EL-08 / CH15 — search and risk
+```
+
+Part II now uses the controlled `MR-SCN-*` registry, Pack support states and source/AI boundaries established by PF-04 and PF-05.
+
+[B05-REV-0020](../reviews/B05-REV-0020_PF-06B2A_Part_II_Editorial_Review.md) accepts this tranche.
+
+## Metadata Progress
+
+```text
+CH00–CH01: COMPLETE
+CH02–CH07: COMPLETE
+CH08–CH15: COMPLETE
+CH16–CH47: OPEN
+```
+
+Normalized active metadata is:
 
 ```text
 Status: Complete Draft 1
 Chapter Map: B05-TOC-V0.1 — Owner Accepted
 ```
-
-[B05-REV-0019](../reviews/B05-REV-0019_PF-06B1_Front_Matter_and_Part_I_Editorial_Review.md) accepts the tranche.
 
 ## Canonical Lifecycle Sequence
 
@@ -88,10 +112,11 @@ Specifications remain authoritative over editorial wording.
 ## Current Editorial Reviews
 
 - B05-REV-0018 — PF-06A Editorial Baseline and Term Audit
-- B05-REV-0019 — PF-06B1 Front Matter and Part I Editorial Review
+- B05-REV-0019 — PF-06B1 Front Matter and Part I
+- B05-REV-0020 — PF-06B2A Part II
 
 ## Next Controlled Task
 
-PF-06B2 edits CH08–CH22 and normalizes metadata for CH08–CH22.
+PF-06B2B edits CH16–CH22 and normalizes metadata for those chapters.
 
-The next Review must confirm that Part II recommendations, Part III commercial controls, Formal Intake, Readiness and the CH22 Handoff remain aligned with the controlled specifications and `EMBERLOOP` journey.
+The next Review must confirm that Proposal, pricing, Quote, acceptance, Formal Intake, Requirement Set, Readiness Assessment and Handoff Envelope remain aligned with the controlled specifications and `EL-09–EL-15`.
