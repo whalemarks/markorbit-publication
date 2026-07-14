@@ -3,12 +3,12 @@
 ## Status
 
 - **Pack ID:** B05-PUBLICATION-FINISHING-PACK-001
-- **Status:** Active — PF-02 through PF-05, PF-06A and PF-06B1 complete
-- **Source reviews:** B05-REV-0012 through B05-REV-0019
+- **Status:** Active — PF-02 through PF-05, PF-06A, PF-06B1 and PF-06B2A complete
+- **Source reviews:** B05-REV-0012 through B05-REV-0020
 - **Scope:** Book 05 CH00–CH47 and controlled publication assets
 - **Target:** Release Candidate 1 candidate
-- **Current substantive gate:** PF-06B2 — CH08–CH22
-- **Remaining metadata blocker:** PF-01B CH08–CH47
+- **Current substantive gate:** PF-06B2B — CH16–CH22
+- **Remaining metadata blocker:** PF-01B CH16–CH47
 
 ## 1. Purpose
 
@@ -89,60 +89,84 @@ Delivered:
 
 **Status:** COMPLETE
 
-Scope completed:
+Completed:
 
 - CH00–CH07;
 - metadata CH02–CH07;
-- repeated constitutional explanations;
+- repeated constitutional explanation compression;
 - chapter-purpose separation;
 - architecture, participant, principle and state-model consolidation;
-- chapter Handoffs;
 - B05-REV-0019.
-
-Compression result:
-
-```text
-prior lines: approximately 3,891
-edited lines: approximately 1,635
-reduction: approximately 2,256 lines / 58%
-```
 
 No semantic escalation was required.
 
-### PF-06B2 — Part II and Part III
+### PF-06B2A — Part II
+
+**Status:** COMPLETE
+
+Completed:
+
+- CH08–CH15;
+- metadata CH08–CH15;
+- Need Brief, jurisdiction, route, bundle, filing-unit, applicant, class, goods/services, search and risk terminology;
+- `EL-01–EL-08` active-manuscript continuity;
+- controlled `MR-SCN-*` references;
+- Pack Version and support-state language;
+- client-facing user actions and chapter Handoffs;
+- B05-REV-0020.
+
+The controlled Part II progression is:
+
+```text
+MR-A01 Business Context Snapshot
+→ MR-A02 Need Brief
+→ MR-A03 Recommendation Set
+→ MR-A04 Option Set
+```
+
+Supporting context includes `MR-C01 Applicant and Authority Context`.
+
+No semantic escalation was required.
+
+### PF-06B2B — Part III
 
 **Status:** AUTHORIZED AND NEXT
 
 Scope:
 
-- CH08–CH22;
-- metadata CH08–CH22;
-- Need Brief and Business Context Snapshot;
-- jurisdiction, route, bundle, filing-unit, applicant, class, specification, search and risk recommendations;
-- Proposal, Client Price, Quote, Client Acceptance and Commercial Instruction;
-- Formal Intake, Requirement Set, Readiness Assessment and Handoff Envelope;
-- `EMBERLOOP` EL-* step continuity;
-- client-facing examples and chapter transitions.
+- CH16–CH22;
+- metadata CH16–CH22;
+- Proposal and service-option design;
+- official fee, client price, provider cost, tax, currency, discount and margin language;
+- Quote Version, validity and change behavior;
+- Client Acceptance and Commercial Instruction;
+- Formal Intake and source reuse;
+- Requirement Set, Document, POA and signature language;
+- Readiness Assessment;
+- Order, Matter, Payment and Handoff Envelope boundaries;
+- `EL-09–EL-15` continuity;
+- CH22 → CH23 Handoff.
 
 Acceptance:
 
-- all fifteen chapters reviewed;
-- CH08–CH22 metadata normalized;
-- Recommendation, Decision, commercial and readiness terms reconciled;
-- controlled artifacts and EL-* steps preserved;
-- no case state, controlled ID or authority boundary changed;
-- CH22 hands clearly into CH23;
-- separate Review record accepted.
+- all seven chapters reviewed;
+- metadata normalized;
+- commercial visibility and authority terms reconciled;
+- controlled records and journey steps preserved;
+- CH22 hands clearly into Filing Package Candidate preparation;
+- separate Review accepted.
+
+PF-06B closes only after PF-06B2B passes.
 
 ### PF-06C — Parts IV–VII
 
-**Status:** PLANNED AFTER PF-06B2
+**Status:** PLANNED AFTER PF-06B
 
 Scope:
 
 - CH23–CH47;
 - metadata CH23–CH47;
-- Package, Review, approval, Execution and external Evidence language;
+- Package, Review, Approval, Execution and external Evidence language;
 - official events, outcomes and continuing-right state;
 - Portfolio, Jurisdiction Pack, AI, metrics and Conformance language;
 - `EMBERLOOP` and `RIVERKITE` final-state preservation;
@@ -175,7 +199,8 @@ PF-06 closes only after PF-06D passes.
 ```text
 PF-01A CH00–CH01: COMPLETE
 PF-01B CH02–CH07: COMPLETE
-PF-01B CH08–CH47: OPEN
+PF-01B CH08–CH15: COMPLETE
+PF-01B CH16–CH47: OPEN
 PF-01 overall: OPEN
 ```
 
@@ -189,7 +214,11 @@ Chapter Map: B05-TOC-V0.1 — Owner Accepted
 ## 6. Preserved Locks
 
 ```text
+Need Brief confirmation ≠ filing instruction
 Recommendation ≠ Decision
+Option Set ≠ one legal right
+Class candidate ≠ filing scope
+Search result ≠ clearance
 Readiness ≠ Approval
 Approval ≠ Execution
 Submission sent ≠ official acknowledgement
@@ -226,8 +255,8 @@ Validate:
 - metadata normalization;
 - internal links and fenced blocks;
 - controlled IDs, scenario IDs and Profile sets;
-- specification, Review, Glossary, Index and figure references;
-- manifest and YAML agreement;
+- Specification, Review, Glossary, Index and figure references;
+- Manifest and YAML agreement;
 - Markdown and target rendered formats;
 - no unresolved blocking term or semantic finding.
 
@@ -256,14 +285,13 @@ This pack does not:
 
 ```text
 PF-01A: COMPLETE
-PF-01B: PARTIAL — CH02–CH07 complete; CH08–CH47 open
-PF-02: COMPLETE
-PF-03: COMPLETE
-PF-04: COMPLETE
-PF-05: COMPLETE
+PF-01B: PARTIAL — CH02–CH15 complete; CH16–CH47 open
+PF-02–PF-05: COMPLETE
 PF-06A: COMPLETE
 PF-06B1: COMPLETE
-PF-06B2: AUTHORIZED AND NEXT
+PF-06B2A: COMPLETE
+PF-06B2B: AUTHORIZED AND NEXT
+PF-06B overall: OPEN
 PF-06C/PF-06D: PLANNED
 PF-06 overall: OPEN
 PF-07–PF-09: OPEN
