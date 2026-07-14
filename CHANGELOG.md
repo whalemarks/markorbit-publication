@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-07-14 — Book 05 MarkReg Foundation Draft
+
+- Created `books/book-05-markreg/`.
+- Established the MarkReg Product constitution and Books 01–04 dependency lock.
+- Added B05-TOC-V0.1 as a candidate CH00–CH47 chapter map across seven parts.
+- Drafted CH00–CH03 and the initial positioning, dependency, and writing-gate records.
+- Kept implementation, production, and external protected-action gates closed.
+
 ## 2026-07-14 — Books 01–04 Portfolio Baseline Review
 
 - Completed MO-PUB-REV-0001 across Books 01–04.
