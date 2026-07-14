@@ -9,12 +9,13 @@ CH00–CH22.
 ## Part Status
 
 - Front Matter — CH00–CH01: drafted
-- Part I — CH02–CH07: drafted; constitutional foundation retained
-- Part II — CH08–CH15: revised and productized under B05-REVISION-PACK-001
-- Part III — CH16–CH22: drafted; productization pending
-- Part IV — CH23–CH29: planned; not yet authorized
+- Part I — CH02–CH07: constitutional foundation retained
+- Part II — CH08–CH15: productized and reviewed
+- Part III — CH16–CH22: productized and reviewed
+- Part IV — CH23–CH29: authorized next writing pack
+- Parts V–VII — planned
 
-## Part II Productized Sequence
+## Productized Sequence
 
 ```text
 CH08 Need Brief
@@ -25,9 +26,16 @@ CH08 Need Brief
 → CH13 class candidates
 → CH14 goods/services versions
 → CH15 search and risk decisions
+→ CH16 Proposal
+→ CH17 price basis
+→ CH18 Quote, Acceptance and Commercial Instruction
+→ CH19 Formal Intake
+→ CH20 Requirement Set
+→ CH21 Readiness Assessment
+→ CH22 Handoff Envelope and formal references
 ```
 
-Each revised chapter now identifies the user question, minimum information, reused context, Product artifact, reference journey, conformance behavior, primary action, change propagation, and next handoff.
+Each revised chapter identifies the user question, minimum information, reused context, Product artifact, reference journey, conformance behavior, primary action, change propagation and next handoff.
 
 ## Controlled Product Specifications
 
@@ -39,13 +47,15 @@ Each revised chapter now identifies the user question, minimum information, reus
 ## Current Reviews
 
 - B05-REV-0001 — Part I Product Constitution Review
-- B05-REV-0002 — Original Part II writing-pack review; superseded
-- B05-REV-0003 — Original Part III writing-pack review
-- B05-REV-0004 — CH00–CH22 Whole-Draft Review
+- B05-REV-0002 — original Part II writing-pack review; superseded
+- B05-REV-0003 — original Part III writing-pack review; superseded
+- B05-REV-0004 — initial CH00–CH22 Whole-Draft Review
 - B05-REV-0005 — Part II Productization Review
+- B05-REV-0006 — Part III Productization Review
+- B05-REV-0007 — CH00–CH22 Productization Closure Review
 
 ## Next Controlled Task
 
-Productize Part III, CH16–CH22, then re-run the CH00–CH22 whole-draft review.
+Draft Part IV, CH23–CH29 — Filing Preparation and Governed Execution.
 
-Part IV remains deferred until that review explicitly authorizes continuation.
+The next canonical artifact is the `Filing Package Candidate`. Part IV must continue the `EMBERLOOP` reference journey and preserve version-specific Human Review, Filing Approval and governed Execution boundaries.
