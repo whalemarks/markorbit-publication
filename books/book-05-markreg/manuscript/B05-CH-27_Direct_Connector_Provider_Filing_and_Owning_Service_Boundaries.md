@@ -1,327 +1,184 @@
 # B05-CH-27 — Direct Connector, Provider Filing and Owning Service Boundaries
 
-**Status:** Part IV Draft  
+**Status:** Complete Draft 1  
 **Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part IV — Filing Preparation and Governed Execution
 
 ## Chapter Purpose
 
-CH26 produces an accepted provider instruction or an approved direct route.
+CH26 produced an accepted provider Instruction or approved direct route.
 
-CH27 answers:
-
-> Which system or professional may perform the protected filing action, what does MarkReg coordinate, and where do credentials, formal records, funds and official authority remain?
+CH27 defines how approved work enters governed Execution without moving authority into MarkReg:
 
 ```text
-Approved package
-+ permitted execution route
-+ credentials and authority
-+ Book 03 governed Execution
-→ protected action attempt
-→ returned evidence
+EL-20 / CH27
+approved package
++ active Filing Approval
++ accepted route or provider
++ credentials, payment and idempotency conditions
+→ MR-A17 Execution Request
+→ Book 03 governed Execution
 ```
 
-MarkReg prepares and projects the Product journey. It does not become every filing-capable service.
+MarkReg owns the focused Product journey. It does not become the Workflow engine, connector, provider, credential owner, filing transaction owner or official office.
 
----
+## 1. Product Question and Primary Action
 
-## 1. User Question and Primary Action
+**Product question:** Through which approved route may the protected filing action occur, and who controls that action?
 
-**User question:** Through which approved route will this package be filed, and who controls the actual external action?
+**Primary action:** Request or authorize the permitted Execution step only after route-specific gates pass.
 
-**Primary action:** Start or authorize the permitted execution step only when all route-specific conditions are satisfied.
+The interface must identify the actor and external effect before exposing an action.
 
-The Product should identify the actor and effect before exposing a filing action.
-
----
-
-## 2. Execution Route Types
-
-Possible routes include:
+## 2. Execution Routes
 
 | Route | Protected-action actor |
 | --- | --- |
-| direct office connector | authorized connector or filing service using controlled credentials |
-| external provider filing | appointed provider or eligible professional |
-| internal professional filing | eligible professional under organization credentials |
-| Owning Service filing | formal filing-capable service that owns the transaction record |
+| direct connector | authorized connector or filing-capable service using controlled credentials |
+| provider filing | appointed and accepting provider |
+| internal professional | eligible professional using organization credentials |
+| Owning Service | filing-capable service owning the formal transaction |
 | assisted manual filing | eligible Human using an official portal under governed Task and evidence return |
-| unavailable | no approved route currently satisfies the requirements |
+| unavailable | no route currently satisfies the requirements |
 
-A route label must not conceal who actually performs the action.
+A route label must not conceal who performs the action.
 
----
+## 3. Responsibility Boundaries
 
-## 3. MarkReg Responsibility
+### MarkReg
 
-MarkReg may:
+MarkReg prepares and displays the package, carries stable references and approvals, requests Execution, shows returned evidence and maintains a sourced Product projection.
 
-- prepare and display the approved package;
-- identify route requirements;
-- request governed Execution;
-- carry stable references and approvals;
-- show route state and returned evidence;
-- reconcile Product projections;
-- explain next actions.
+It does not automatically own credentials, official accounts, formal Documents, funds, provider engagement or official records.
 
-MarkReg does not automatically own credentials, official accounts, filing transactions, formal Documents, funds, provider engagement or office records.
+### Book 03 Execution
 
----
+Book 03 governs Tasks, Workflows, protected-action gates, credentials, connector invocation, retries, compensation, Communications, Events and return evidence.
 
-## 4. Book 03 Execution Responsibility
+Book 05 supplies the MarkReg Product contract; it does not create a second Execution engine.
 
-Book 03 governs:
+### Provider
 
-- Task and Workflow execution;
-- approvals and protected-action gates;
-- credential use;
-- connector invocation;
-- retries and compensation;
-- Communications;
-- Events and audit;
-- return evidence.
+An appointed provider may prepare office-specific forms, file under accepted professional authority, pay official fees under agreed terms, receive correspondence and return evidence.
 
-Book 05 defines the MarkReg Product contract consumed by that governed execution. It does not create a second Workflow engine.
+### Owning Service
 
----
+A filing-capable Owning Service may own the formal transaction, connector attempt, payment record, identifier, acknowledgement evidence, retry and reconciliation state.
 
-## 5. Direct Connector Boundary
+### Official Office
 
-A direct connector may:
+The office controls official receipt, filing date, application number, fee acceptance, formal requirements and later official status.
 
-- authenticate to an office or authorized intermediary;
-- validate a payload against connector rules;
-- transmit data and files;
-- initiate official-fee payment where authorized;
-- receive technical and official responses.
+## 4. Execution Request Contract
 
-A connector does not:
+`MR-A17 Execution Request` identifies:
 
-- decide applicant ownership;
-- provide professional advice;
-- grant Filing Approval;
-- create official acceptance before the office does;
-- convert a technical success into legal success.
+- exact package and Filing Approval versions;
+- jurisdiction, route and protected action;
+- actor or service authorized to execute;
+- provider acceptance where applicable;
+- credential owner and permitted scope;
+- fee and payment authority;
+- required Documents and originals;
+- active Pack and connector version;
+- deadline and office-availability context;
+- stable idempotency key;
+- prior attempt and duplicate-risk check;
+- expected return evidence and reconciliation owner.
 
----
+The request does not itself prove that Execution began or succeeded.
 
-## 6. Connector Credentials
+## 5. Connector and Credential Boundary
 
-Credentials must remain controlled by their owner and purpose.
+A connector may authenticate, validate a payload, transmit data and files, initiate authorized payment and receive technical or official responses.
 
-The execution record should identify:
+A connector may not decide applicant ownership, grant Professional Review or Filing Approval, or convert transport success into official success.
 
-- credential owner;
-- permitted user or service;
-- office and environment;
-- scope;
-- authentication time;
-- secret-management boundary;
-- expiry;
-- action performed;
-- result.
+Credentials retain owner, purpose, environment, scope, permitted user or service, authentication time, expiry and action evidence. Credentials must not be copied into the Filing Package or exposed to clients or providers.
 
-Credentials must not be copied into the Filing Package or exposed to clients and providers.
+## 6. Payload Transformation
 
----
+The approved package may be transformed into connector JSON/XML, portal fields, local-language forms, provider worksheets, file bundles or payment instructions.
 
-## 7. Provider Filing Boundary
+Transformation preserves source lineage and provides a reviewable diff where meaning may change.
 
-An appointed provider may:
+```text
+Technical mapping ≠ authority to alter legal scope
+```
 
-- review local filing feasibility;
-- prepare office-specific forms;
-- submit under its credentials and professional authority;
-- pay official fees under agreed terms;
-- receive office correspondence;
-- return filing and acknowledgement evidence.
+## 7. Pre-Execution Validation
 
-The provider remains accountable for the actions it accepts. MarkReg and the instructing organization retain their own responsibilities.
+Immediately before protected action, verify:
 
----
-
-## 8. Owning Service Boundary
-
-A filing-capable Owning Service may own:
-
-- formal filing transaction;
-- connector request and result;
-- fee payment record;
-- official identifier and acknowledgement evidence;
-- formal Document or Communication records;
-- retry and reconciliation state.
-
-MarkReg consumes references and Events. It should not create competing formal truth by copying those records without provenance.
-
----
-
-## 9. Official Office Boundary
-
-The official office controls:
-
-- official receipt;
-- filing date where granted;
-- application number;
-- fee acceptance;
-- formal requirements;
-- examination and status;
-- rejection, correction and later outcomes.
-
-Neither connector success nor provider statement overrides official evidence.
-
----
-
-## 10. Route Selection Inputs
-
-The permitted route depends on:
-
-- jurisdiction-pack execution entry;
-- applicant and representation rules;
-- selected provider or internal professional;
-- Filing Approval scope;
-- document and original status;
-- payment condition;
-- credential availability;
-- office availability;
-- deadline;
-- package schema and file limits;
-- organization policy.
-
-A route may become unavailable after approval and require renewed routing.
-
----
-
-## 11. Payload Transformation
-
-The approved package may need transformation into:
-
-- connector JSON or XML;
-- official portal fields;
-- local-language form;
-- provider worksheet;
-- file bundle;
-- payment instruction.
-
-Transformation must preserve source lineage and create a reviewable diff where meaning may change.
-
-Technical mapping must not silently alter legal scope.
-
----
-
-## 12. Pre-Execution Validation
-
-Immediately before protected action, Execution should verify:
-
-1. approved package version;
-2. approval validity;
-3. route and actor authority;
+1. exact approved package;
+2. active Filing Approval and conditions;
+3. permitted route and actor;
 4. credential availability;
-5. provider acceptance where applicable;
-6. official-fee and payment condition;
+5. Provider Acceptance where applicable;
+6. payment and official-fee authority;
 7. required Documents and originals;
-8. jurisdiction-pack and connector version;
+8. Pack, connector and form versions;
 9. deadline and office availability;
-10. idempotency key and prior attempts.
+10. idempotency identity and prior attempts.
 
-A stale earlier readiness result is insufficient by itself.
+An earlier green Readiness result is insufficient if material inputs changed.
 
----
+## 8. Manual Filing Remains Governed
 
-## 13. Manual Filing Is Still Governed
-
-A Human using an official web portal is not outside the architecture.
-
-The Task should preserve:
-
-- approved package;
-- responsible professional;
-- portal and credential boundary;
-- entered values or screenshots where permitted;
-- fees paid;
-- submission action time;
-- returned receipt or error;
-- unresolved reconciliation.
+A Human using an official portal remains inside governed Execution. The Task retains the package, actor, credential boundary, entered values or permitted screenshots, fees, action time, returned receipt or error and unresolved reconciliation.
 
 Manual does not mean unaudited.
 
----
+## 9. Route Change
 
-## 14. Route Change During Execution
+A failed connector or unavailable provider does not authorize another route automatically.
 
-If a connector fails and a provider route is proposed, MarkReg must determine:
+Before substitution, determine:
 
 - whether Filing Approval covered the alternative;
-- whether provider selection and appointment are complete;
-- whether fees changed;
-- whether package transformation changed meaning;
+- whether routing, Selection, appointment and acceptance are complete;
+- whether fees or Documents changed;
+- whether transformation altered meaning;
 - whether deadline and duplicate risk permit the switch;
-- which new approvals are required.
+- which new Decisions are required.
 
-A failed route does not authorize any available route automatically.
+## 10. `EMBERLOOP` — `EL-20`
 
----
+The US word-mark package enters the accepted private-provider route. The EU package enters a supported governed-service connector route. The UK package enters an eligible professional’s manual official-portal route.
 
-## 15. `EMBERLOOP` Reference Journey
+The three routes retain separate Filing Approvals, credentials, fee records, attempts, evidence and official identifiers.
 
-The `EMBERLOOP` US word-mark package uses the accepted private provider route.
+## 11. Controlled Scenarios
 
-The EU filing uses an approved Owning Service with a supported connector. The UK filing uses an internal eligible professional through the official portal.
+### `MR-SCN-20` — Provider proposes a material change
 
-MarkReg displays the three routes in one Product journey while retaining separate:
+A meaning-changing provider or route transformation returns to professional and approval gates before Execution.
 
-- Filing Approvals;
-- credentials and actors;
-- fee-payment records;
-- execution attempts;
-- returned evidence;
-- official identifiers.
+### `MR-SCN-23` — Technical success without official receipt
 
----
+A connector transport success with no official acknowledgement is displayed as sent or acknowledgement unknown. It opens reconciliation and blocks an unsafe retry.
 
-## 16. Conformance Scenario — Connector Technical Success Without Receipt
+## 12. AI Assistance
 
-**Given** a connector reports HTTP success after transmitting an approved EU package.  
-**When** no official receipt or application number is returned.  
-**Then** the execution state is `sent — acknowledgement unknown`, duplicate submission is blocked, and reconciliation begins before retry.  
-**Authority boundary:** technical transport success is not official acceptance.  
-**Evidence retained:** payload hash, connector response, timestamps, idempotency key, payment state and reconciliation actions.
+AI may map package fields, compare payloads, identify missing route prerequisites, explain technical errors and summarize returned evidence.
 
----
+AI may not access uncontrolled credentials, choose an unauthorized route, approve a meaning-changing transformation, commit funds or perform a protected action without governed authority.
 
-## 17. AI Assistance
-
-AI may:
-
-- map package fields to route schemas;
-- compare transformed payloads;
-- identify missing route prerequisites;
-- explain technical errors;
-- propose safe escalation;
-- summarize returned evidence.
-
-AI may not access uncontrolled credentials, choose an unauthorized route, approve a meaning-changing transformation, commit funds, instruct a provider, or perform protected external action without governed authority.
-
----
-
-## 18. Minimum Chapter Lock
+## 13. Chapter Lock
 
 ```text
-MarkReg owns the focused Product journey.
+MarkReg owns the Product journey.
 Book 03 governs Execution.
 Connectors transmit under controlled credentials.
-Providers file under accepted engagement.
-Owning Services record formal transaction facts.
+Providers act under accepted engagement.
+Owning Services own formal transaction facts.
 Official offices control official outcomes.
-
-A technical success is not official receipt.
-A route failure does not authorize another route.
-Manual filing remains governed and auditable.
+Technical success ≠ official receipt.
+Route failure ≠ authority to switch routes.
 ```
 
----
+## 14. Handoff to CH28
 
-## 19. Handoff to CH28
+CH27 produces `MR-A17 Execution Request` and route-specific Execution attempts.
 
-CH27 establishes who may perform the filing action and through which route.
-
-CH28 defines the submission-state model, technical and provider responses, official acknowledgement, application identifiers, corrections, rejection and official evidence.
+CH28 classifies `MR-E01 Submission Evidence`, `MR-E02 Delivery Evidence`, `MR-E03 Provider Report` and `MR-E04 Official Acknowledgement Evidence` without collapsing their authority.
