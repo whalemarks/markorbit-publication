@@ -7,7 +7,8 @@
 - **Canonical path:** `books/book-05-markreg/`
 - **Status:** Complete Draft 1 — Publication Finishing Active
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
-- **Current phase:** PF-01B metadata normalization and controlled specification reconciliation
+- **Current substantive phase:** PF-03 Reference Journey Consolidation
+- **Independent RC1 blocker:** PF-01B CH02–CH47 metadata normalization
 
 ## Position in the Series
 
@@ -40,19 +41,19 @@ Book 05 defines a Product constitution and lifecycle specification. It is not a 
 - Part VI — CH37–CH42: Registration and Portfolio Continuity
 - Part VII — CH43–CH47: Product Experience and Evolution
 
-CH00–CH01 have been normalized under PF-01A. CH02–CH47 remain subject to the full PF-01B metadata pass before RC1.
+CH00–CH01 have been normalized under PF-01A. CH02–CH47 remain subject to the PF-01B metadata pass before RC1.
 
 ## Reader-Facing Appendices
 
-- [Appendix A — Full-Lifecycle Artifact and Decision Map](appendices/B05-APP-A_Full-Lifecycle_Artifact_and_Decision_Map.md)
-- [Appendix B — Lifecycle State and Authority Matrix](appendices/B05-APP-B_Lifecycle_State_and_Authority_Matrix.md)
-- [Appendix C — Participant Visibility and Action Rights Matrix](appendices/B05-APP-C_Participant_Visibility_and_Action_Rights_Matrix.md)
-- [Appendix D — Reference Journeys](appendices/B05-APP-D_Reference_Journeys.md)
-- [Appendix E — Priority Conformance Scenarios](appendices/B05-APP-E_Priority_Conformance_Scenarios.md)
-- [Appendix F — Minimum Jurisdiction Pack Checklist](appendices/B05-APP-F_Minimum_Jurisdiction_Pack_Checklist.md)
-- [Appendix G — MarkReg Conformance Profiles](appendices/B05-APP-G_MarkReg_Conformance_Profiles.md)
+- [Appendix A — Full-Lifecycle Artifact and Decision Map](appendices/B05-APP-A_Full-Lifecycle_Artifact_and_Decision_Map.md) — PF-02 reconciled controlled reader draft
+- [Appendix B — Lifecycle State and Authority Matrix](appendices/B05-APP-B_Lifecycle_State_and_Authority_Matrix.md) — PF-02 state mapping complete; PF-04 scenarios pending
+- [Appendix C — Participant Visibility and Action Rights Matrix](appendices/B05-APP-C_Participant_Visibility_and_Action_Rights_Matrix.md) — PF-04 pending
+- [Appendix D — Reference Journeys](appendices/B05-APP-D_Reference_Journeys.md) — PF-03 pending
+- [Appendix E — Priority Conformance Scenarios](appendices/B05-APP-E_Priority_Conformance_Scenarios.md) — PF-04 pending
+- [Appendix F — Minimum Jurisdiction Pack Checklist](appendices/B05-APP-F_Minimum_Jurisdiction_Pack_Checklist.md) — PF-05 pending
+- [Appendix G — MarkReg Conformance Profiles](appendices/B05-APP-G_MarkReg_Conformance_Profiles.md) — PF-04/PF-07 pending
 
-The appendix files are controlled scaffolds. They summarize controlled sources and are not yet publication-complete.
+Appendices summarize controlled sources and do not create independent Product authority.
 
 ## Publication Apparatus
 
@@ -69,12 +70,12 @@ B05-PUB-0006 is the accepted structural baseline. The remaining records require 
 
 ## Controlled Product Specifications
 
-- [B05-SPEC-0001 — Product Artifact and Decision Map](specifications/B05-SPEC-0001_Product_Artifact_and_Decision_Map.md)
-- [B05-SPEC-0002 — Reference Journeys](specifications/B05-SPEC-0002_Reference_Journeys.md)
-- [B05-SPEC-0003 — Conformance Scenarios and User-Surface Contract](specifications/B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md)
-- [B05-SPEC-0004 — Minimum Jurisdiction-Pack and Commercial-Control Contract](specifications/B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md)
+- [B05-SPEC-0001 — Product Artifact and Decision Map](specifications/B05-SPEC-0001_Product_Artifact_and_Decision_Map.md) — Controlled Specification v0.2, full-lifecycle reconciled through CH47
+- [B05-SPEC-0002 — Reference Journeys](specifications/B05-SPEC-0002_Reference_Journeys.md) — PF-03 pending
+- [B05-SPEC-0003 — Conformance Scenarios and User-Surface Contract](specifications/B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md) — PF-04 pending
+- [B05-SPEC-0004 — Minimum Jurisdiction-Pack and Commercial-Control Contract](specifications/B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md) — PF-05 pending
 
-The specifications remain the controlled source for Appendix A–F and must be extended through CH47 before the appendices can become publication-ready.
+B05-SPEC-0001 now separates Product artifacts, contexts, accountable Decisions, evidence, baselines, views and governance records. It preserves the formal ownership of Core Objects, Orders, Matters, Documents, Reviews, approvals, Book 03 Execution state, provider systems and official records.
 
 ## Governance and Reviews
 
@@ -83,6 +84,7 @@ The specifications remain the controlled source for Appendix A–F and must be e
 - [Book Governance](BOOK-GOVERNANCE.md)
 - [B05-REV-0012 — CH00–CH47 Complete Draft 1 Review](reviews/B05-REV-0012_CH00-CH47_Complete_Draft_1_Review.md)
 - [B05-REV-0013 — Publication Architecture and Back Matter Review](reviews/B05-REV-0013_Publication_Architecture_and_Back_Matter_Review.md)
+- [B05-REV-0014 — PF-02 Full-Lifecycle Artifact and Decision Reconciliation](reviews/B05-REV-0014_PF-02_Full-Lifecycle_Artifact_and_Decision_Reconciliation.md)
 - [B05-PLN-0004 — Publication Finishing Pack](planning/B05-PLN-0004_Publication_Finishing_Pack.md)
 
 ## Current Gate
@@ -91,14 +93,17 @@ The specifications remain the controlled source for Appendix A–F and must be e
 CH00–CH47 Complete Draft 1
 → PF-01A Front Matter correction complete
 → PF-07A Back Matter architecture complete
-→ PF-01B CH02–CH47 metadata normalization
-→ PF-02–PF-05 specification reconciliation
+→ PF-02 artifact and decision reconciliation complete
+→ PF-03 reference journey consolidation
+→ PF-04 scenario and user-surface consolidation
+→ PF-05 jurisdiction and commercial reconciliation
 → PF-06 and remaining PF-07 publication finishing
+→ PF-01B metadata normalization before validation
 → PF-08 validation
 → PF-09 Release Candidate 1 and owner publication decision
 ```
 
-Complete Draft 1 and publication architecture acceptance do not authorize implementation, production deployment or protected external action.
+Complete Draft 1 and PF-02 acceptance do not authorize implementation, production deployment or protected external action.
 
 ## Authority Boundary
 
