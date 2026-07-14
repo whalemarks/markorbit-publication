@@ -1,14 +1,14 @@
 # B04-CH-15 — Capability Discovery and Skill Selection
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part III — Knowledge, Intelligence and Capability Consumption
 
 ## Chapter Purpose
 
-Chapter 13 defined how Workplace discovers information, preserves provenance, and assembles authorized professional context.
+CH13 defined how Workplace discovers information, preserves provenance, and assembles authorized professional context.
 
-Chapter 14 defined how Workplace consumes governed Knowledge through the logical Brain without centralizing private organizational memory or transferring professional judgment to the Knowledge layer.
+CH14 defined how Workplace consumes governed Knowledge through the logical Brain without centralizing private organizational memory or transferring professional judgment to the Knowledge layer.
 
 This chapter defines the next architectural movement:
 
@@ -2024,7 +2024,7 @@ Human Review protects professional judgment.
 
 Execution governs protected action.
 
-Owning Services change formal facts.
+Owning Services change and record formal business facts.
 ```
 
 CH16 now addresses the runtime and user-facing roles that consume these Capabilities and Skills:

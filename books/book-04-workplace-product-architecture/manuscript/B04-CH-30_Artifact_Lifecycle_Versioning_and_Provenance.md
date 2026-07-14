@@ -1,6 +1,6 @@
 # B04-CH-30 — Artifact Lifecycle, Versioning and Provenance
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part V — Outcomes, Artifacts and Delivery
 
@@ -66,6 +66,8 @@ This sequence is conceptual.
 Not every Artifact follows every stage.
 
 This chapter does not create final canonical Artifact statuses.
+
+**Architecture figure:** [B04-FIG-06 — Artifact Lifecycle](../figures/B04-FIG-06_Artifact_Lifecycle.md)
 
 ---
 

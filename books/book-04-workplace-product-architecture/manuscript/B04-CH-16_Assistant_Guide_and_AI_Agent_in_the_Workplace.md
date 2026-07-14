@@ -1,16 +1,16 @@
 # B04-CH-16 — Assistant, Guide and AI Agent in the Workplace
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part III — Knowledge, Intelligence and Capability Consumption
 
 ## Chapter Purpose
 
-Chapter 13 defined information access, provenance, and authorized context assembly.
+CH13 defined information access, provenance, and authorized context assembly.
 
-Chapter 14 defined governed Knowledge consumption and the Brain boundary.
+CH14 defined governed Knowledge consumption and the Brain boundary.
 
-Chapter 15 defined Capability discovery and Skill selection.
+CH15 defined Capability discovery and Skill selection.
 
 This chapter defines the user-facing and runtime roles through which those foundations become usable inside Workplace:
 

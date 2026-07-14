@@ -1,8 +1,9 @@
 # B04-CH-01 — Table of Contents
 
-**Status:** Owner Accepted Chapter Map v0.1 — Editorial Presentation Revised  
+**Status:** Release Candidate 1  
 **Chapter Map ID:** B04-TOC-V0.1  
-**Book:** Book 04 — MarkOrbit Workplace and Product Architecture
+**Book:** Book 04 — MarkOrbit Workplace and Product Architecture  
+**Part:** Front Matter
 
 ## Chapter Map Authority
 
@@ -264,3 +265,17 @@ Part VI explains how independent Workplaces participate in the wider ecosystem.
 ```
 
 Later chapters may deepen earlier concepts, but they must not redefine the authority model established in Part I.
+---
+
+## Publication Apparatus
+
+The following reader and editorial references accompany the Release Candidate 1 manuscript:
+
+- [Editorial Style and Terminology](../publication/B04-PUB-0001_Editorial_Style_and_Terminology.md)
+- [Source and Authority Notes](../publication/B04-PUB-0002_Source_and_Authority_Notes.md)
+- [Glossary](../publication/B04-PUB-0003_Glossary.md)
+- [Subject Index](../publication/B04-PUB-0004_Subject_Index.md)
+- [Figure Register](../publication/B04-PUB-0005_Figure_Register.md)
+- [Cross-Book Reconciliation](../publication/B04-PUB-0006_Cross-Book_Reconciliation.md)
+- [RC1 Checklist](../publication/B04-PUB-0007_RC1_Checklist.md)
+

@@ -1,18 +1,18 @@
 # B04-CH-17 — Value Candidates, Recommendations and Next Best Action
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part III — Knowledge, Intelligence and Capability Consumption
 
 ## Chapter Purpose
 
-Chapter 13 defined how Workplace assembles authorized professional context.
+CH13 defined how Workplace assembles authorized professional context.
 
-Chapter 14 defined how governed Knowledge is consumed through the logical Brain.
+CH14 defined how governed Knowledge is consumed through the logical Brain.
 
-Chapter 15 defined how Capability is discovered and a concrete Skill is selected.
+CH15 defined how Capability is discovered and a concrete Skill is selected.
 
-Chapter 16 defined Assistant, Guide, and AI Agent as distinct user-facing and runtime roles.
+CH16 defined Assistant, Guide, and AI Agent as distinct user-facing and runtime roles.
 
 This chapter defines what those layers may produce before governed action begins:
 
@@ -109,7 +109,7 @@ Humans remain accountable for consequential choices.
 
 Execution coordinates protected action.
 
-Owning Services create and mutate formal business facts.
+Owning Services change and record formal business facts.
 
 Book 02 remains authoritative for Opportunity, Task, Routing, Permission, Policy, Priority, and other Core concepts.
 
@@ -1760,7 +1760,7 @@ Recommendations remain explainable and time-bound.
 
 Prepared actions route to governed Execution.
 
-Owning Services create and mutate formal business facts.
+Owning Services change and record formal business facts.
 
 Humans remain accountable for consequential decisions.
 ```
@@ -1858,7 +1858,7 @@ Value Factory creates candidates.
 
 Mo Intelligence evaluates and recommends.
 
-Workplace contextualizes.
+Workplace provides authorized organization context.
 
 Assistant and Guide present.
 
@@ -1868,7 +1868,7 @@ Human selects and reviews.
 
 Execution governs action.
 
-Owning Services formalize.
+Owning Services change and record formal business facts.
 ```
 
 Next Best Action is therefore not the next action already taken.

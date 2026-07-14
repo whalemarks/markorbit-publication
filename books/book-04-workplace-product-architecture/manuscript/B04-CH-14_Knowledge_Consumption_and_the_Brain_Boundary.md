@@ -1,12 +1,12 @@
 # B04-CH-14 — Knowledge Consumption and the Brain Boundary
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part III — Knowledge, Intelligence and Capability Consumption
 
 ## Chapter Purpose
 
-Chapter 13 defined how Workplace discovers information, preserves provenance, assembles minimum sufficient context, and supplies that context to authorized consumers.
+CH13 defined how Workplace discovers information, preserves provenance, assembles minimum sufficient context, and supplies that context to authorized consumers.
 
 This chapter defines the next layer:
 
@@ -941,7 +941,7 @@ Knowledge supports.
 
 Humans judge.
 
-Owning Services formalize.
+Owning Services change and record formal business facts.
 ```
 
 ---

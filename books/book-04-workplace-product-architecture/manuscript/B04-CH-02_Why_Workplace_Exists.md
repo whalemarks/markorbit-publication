@@ -1,8 +1,8 @@
 # B04-CH-02 — Why Workplace Exists
 
-**Status:** Draft 2 — Pack 01 Editorial Repair  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
-**Writing Pack:** B04-PACK-01 — Front Matter and Part I
+**Part:** Part I — The Workplace as an Independent Orbit
 
 ## Chapter Purpose
 

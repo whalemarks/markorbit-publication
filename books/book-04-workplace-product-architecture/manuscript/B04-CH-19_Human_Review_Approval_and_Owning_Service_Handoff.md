@@ -1,12 +1,12 @@
 # B04-CH-19 — Human Review, Approval and Owning Service Handoff
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part III — Knowledge, Intelligence and Capability Consumption
 
 ## Chapter Purpose
 
-Chapter 18 defined Prepared Action as the versioned and purpose-bound handoff representation between preparation and governed Execution.
+CH18 defined Prepared Action as the versioned and purpose-bound handoff representation between preparation and governed Execution.
 
 This chapter defines the final authority boundary of Part III:
 
@@ -1781,7 +1781,7 @@ Human Reviewer judges.
 
 Approver authorizes.
 
-Execution coordinates.
+Execution governs coordinated work.
 
 Owning Service mutates.
 

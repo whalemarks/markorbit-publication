@@ -1,6 +1,6 @@
 # B04-CH-12 — Data Boundaries, Local Vault and Authorized Synchronization
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part II — Organization Context and Operating Environment
 
@@ -8,15 +8,15 @@
 
 This chapter defines how an Organization Workplace establishes data boundaries, uses a Local Vault, and authorizes synchronization without turning storage location into ownership, a local copy into formal authority, or synchronization into unrestricted replication.
 
-Chapter 07 established organization identity and active Workplace Context.
+CH07 established organization identity and active Workplace Context.
 
-Chapter 08 established people, roles, permissions, responsibility, and accountability.
+CH08 established people, roles, permissions, responsibility, and accountability.
 
-Chapter 09 established clients, relationships, service context, pricing, preferences, and organization-specific business rules.
+CH09 established clients, relationships, service context, pricing, preferences, and organization-specific business rules.
 
-Chapter 10 established private knowledge, AI Context, preferences, and organizational memory.
+CH10 established private knowledge, AI Context, preferences, and organizational memory.
 
-Chapter 11 established how work, review, Communication, and attention become visible through governed operating surfaces.
+CH11 established how work, review, Communication, and attention become visible through governed operating surfaces.
 
 The remaining question in Part II is:
 

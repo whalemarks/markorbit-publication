@@ -4,7 +4,7 @@
 **Book:** Book 04 — MarkOrbit Workplace and Product Architecture  
 **Chapter Map:** B04-TOC-V0.1  
 **Working branch:** `review/book-04-publication-finishing`  
-**Status:** In Progress
+**Status:** Completed — Owner Final Publication Review Pending
 
 ## 1. Purpose
 
@@ -159,3 +159,7 @@ Book 04 Release Candidate 1
 ```
 
 No pull request may be merged without explicit owner instruction.
+
+## 8. Completion Record
+
+All seven workstreams and RC1 validation gates are complete. See `reviews/B04-REV-0004_Publication_Finishing_and_RC1_Review.md`. The remaining gate is owner final publication approval and merge.

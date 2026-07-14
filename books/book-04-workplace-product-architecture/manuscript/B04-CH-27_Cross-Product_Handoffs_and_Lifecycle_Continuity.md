@@ -1,6 +1,6 @@
 # B04-CH-27 — Cross-Product Handoffs and Lifecycle Continuity
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part IV — Product Architecture and Product Embedding
 
@@ -139,6 +139,8 @@ Part V defines the Artifact and Delivery lifecycle in greater depth.
 This chapter defines continuity across Products.
 
 It does not create a universal Product orchestration engine.
+
+**Architecture figure:** [B04-FIG-05 — Product Independence and Typed Handoff](../figures/B04-FIG-05_Product_Handoff_and_Continuity.md)
 
 ---
 
@@ -1975,7 +1977,7 @@ Artifacts preserve reusable output lineage.
 
 Workplace preserves organizational continuity.
 
-Humans remain accountable.
+Humans remain professionally accountable.
 ```
 
 This completes Part IV.

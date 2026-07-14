@@ -1,6 +1,6 @@
 # B04-CH-08 — People, Roles, Permissions and Accountability
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part II — Organization Context and Operating Environment
 
@@ -8,7 +8,7 @@
 
 This chapter defines how people participate in an Organization Workplace and how that participation becomes governed through organizational relationships, roles, permissions, responsibility, review authority, delegation, and accountability.
 
-Chapter 07 established that the organization is the real professional and commercial actor, Workplace is its governed operating representation, and Workplace Context is the authorized frame within which current work is interpreted.
+CH07 established that the organization is the real professional and commercial actor, Workplace is its governed operating representation, and Workplace Context is the authorized frame within which current work is interpreted.
 
 That context remains incomplete until the system can answer:
 
@@ -1101,9 +1101,9 @@ purpose-limited, time-aware, and auditable.
 AI and system actors operate under separate
 identity, permission, Policy, and review boundaries.
 
-Execution coordinates consequential work.
+Execution governs coordinated and consequential work.
 
-Owning Services mutate formal business state.
+Owning Services change and record formal business facts.
 
 Human professionals and organizations remain accountable.
 ```
@@ -1192,9 +1192,9 @@ Delegation and transfer preserve continuity.
 
 Review authority remains human, qualified, scoped, and distinct from a review decision.
 
-Execution coordinates consequential work.
+Execution governs coordinated and consequential work.
 
-Owning Services change formal business facts.
+Owning Services change and record formal business facts.
 
 AI and system actors assist under separate governance.
 

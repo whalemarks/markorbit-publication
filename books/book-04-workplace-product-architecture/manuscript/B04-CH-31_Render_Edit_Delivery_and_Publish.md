@@ -1,6 +1,6 @@
 # B04-CH-31 — Render, Edit, Delivery and Publish
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part V — Outcomes, Artifacts and Delivery
 

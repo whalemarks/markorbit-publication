@@ -1,6 +1,6 @@
 # B04-CH-35 — Collaboration Outcomes and Trust Feedback
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part VI — Network Participation and Orbital Ecosystem Evolution
 

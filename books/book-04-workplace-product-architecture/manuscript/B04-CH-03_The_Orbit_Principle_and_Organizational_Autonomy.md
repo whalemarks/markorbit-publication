@@ -1,8 +1,8 @@
 # B04-CH-03 — The Orbit Principle and Organizational Autonomy
 
-**Status:** Draft 2 — Pack 01 Editorial Repair  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
-**Writing Pack:** B04-PACK-01 — Front Matter and Part I
+**Part:** Part I — The Workplace as an Independent Orbit
 
 ## Chapter Purpose
 
@@ -59,6 +59,8 @@ Shared learning supports evolution.
 
 No central platform owns the orbit.
 ```
+
+**Architecture figure:** [B04-FIG-01 — Independent Organization Orbit Model](../figures/B04-FIG-01_Independent_Orbit_Model.md)
 
 ---
 

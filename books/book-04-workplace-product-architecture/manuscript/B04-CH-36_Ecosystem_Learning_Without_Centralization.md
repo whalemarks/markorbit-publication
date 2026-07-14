@@ -1,6 +1,6 @@
 # B04-CH-36 — Ecosystem Learning Without Centralization
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part VI — Network Participation and Orbital Ecosystem Evolution
 
@@ -62,6 +62,8 @@ Ecosystem improvement ≠ organizational convergence
 
 Standardization ≠ uniform operation
 ```
+
+**Architecture figure:** [B04-FIG-10 — Decentralized Ecosystem Learning](../figures/B04-FIG-10_Decentralized_Ecosystem_Learning.md)
 
 ---
 

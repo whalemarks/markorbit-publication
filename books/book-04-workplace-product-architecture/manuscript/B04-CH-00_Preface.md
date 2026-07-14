@@ -1,8 +1,8 @@
 # B04-CH-00 — Preface
 
-**Status:** Draft 2 — Pack 01 Editorial Repair  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
-**Writing Pack:** B04-PACK-01 — Front Matter and Part I
+**Part:** Front Matter
 
 ## Preface
 
@@ -325,9 +325,9 @@ AI prepares.
 
 Human professionals review and decide.
 
-Execution governs the process.
+Execution governs coordinated work.
 
-Owning Services change formal business facts.
+Owning Services change and record formal business facts.
 ```
 
 Book 04 preserves that boundary throughout Workplace, Product, knowledge, Artifact, and network architecture.
@@ -370,6 +370,6 @@ Execution remains governed.
 
 The network remains connective rather than controlling.
 
-Humans remain accountable.
+Humans remain professionally accountable.
 
 That is the foundation of MarkOrbit Workplace and Product Architecture.
