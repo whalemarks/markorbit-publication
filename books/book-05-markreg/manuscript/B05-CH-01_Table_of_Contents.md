@@ -7,9 +7,9 @@
 
 ## Chapter Map Purpose
 
-This owner-accepted map defines how Book 05 moves from Product constitution to full-lifecycle operation and then into reader-facing reference material.
+B05-TOC-V0.1 defines the owner-accepted structure of Book 05.
 
-The structure follows seven movements:
+The book moves through seven connected movements:
 
 ```text
 Product Constitution
@@ -21,181 +21,230 @@ Product Constitution
 → Product Experience and Evolution
 ```
 
-The seven-part chapter map is active. Appendix A–G and the publication apparatus are controlled Back Matter and do not change the CH00–CH47 chapter sequence.
+CH00–CH47 form the controlled manuscript. Appendix A–G and the publication apparatus are Back Matter; they do not change the chapter sequence or create independent Product authority.
+
+## How to Read the Book
+
+The complete argument is sequential, but different readers may use different routes.
+
+### Product and Architecture Route
+
+```text
+CH00–CH07
+→ CH22–CH29
+→ CH43–CH47
+→ Appendix A–C and G
+```
+
+Use this route to understand Product ownership, state boundaries, Handoffs, Execution, embedded experience and conformance.
+
+### Trademark Professional Route
+
+```text
+CH08–CH15
+→ CH19–CH24
+→ CH30–CH42
+→ Appendix D–F
+```
+
+Use this route to follow recommendation, intake, filing preparation, examination, disputes, registration and continuing-right work.
+
+### Commercial and Operations Route
+
+```text
+CH16–CH22
+→ CH25–CH29
+→ CH36–CH46
+→ Appendix B, C, E and F
+```
+
+Use this route to understand pricing, instruction, provider collaboration, deadlines, Communications, metrics and operational controls.
+
+### Implementation and Review Route
+
+```text
+CH04–CH07
+→ CH23–CH29
+→ CH43–CH47
+→ B05-SPEC-0001 through B05-SPEC-0004
+→ Appendix E and G
+```
+
+Use this route to identify controlled records, states, scenarios, support claims and release boundaries.
 
 ---
 
-## Front Matter
+# Front Matter
 
 ### B05-CH-00 — Preface
 
-Introduces why MarkReg is the first dedicated Product publication, defines the central question, and establishes the experience and authority boundaries of the book.
+Explains why MarkReg is the first deep Product publication, states the central question and establishes the experience, authority and AI boundaries of the book.
 
 ### B05-CH-01 — Table of Contents
 
-Defines B05-TOC-V0.1, the seven-part structure, chapter sequence, writing logic, and reader-facing Back Matter.
+Defines B05-TOC-V0.1, the seven-part structure, reader routes and Back Matter.
 
 ---
 
 # Part I — Product Constitution and Lifecycle Position
 
-Part I defines what MarkReg is, why it exists, who it serves, where it sits in the architecture, and which principles must survive every Product edition and implementation.
+Part I defines what MarkReg is, why it exists, who acts through it, where it sits in the architecture and which distinctions must survive every implementation.
 
 ### B05-CH-02 — Why MarkReg Exists
 
-Explains why international trademark complexity cannot be solved by a form portal, case system, AI chat, or provider directory alone.
+Explains why a form, case screen, AI chat, provider directory or connector cannot alone provide a governed full-lifecycle trademark Product.
 
 ### B05-CH-03 — Product Mission and Value Proposition
 
-Defines the mission, user value, organization value, ecosystem value, and measurable outcomes of the Product.
+Defines the mission, Product promise, user and organization value, quality tests and safe success measures.
 
 ### B05-CH-04 — Position Between Workplace, Core, Execution, MGSN and Owning Services
 
-Allocates responsibilities and authority across the surrounding MarkOrbit architecture.
+Allocates responsibility and authority across MarkReg and the surrounding MarkOrbit architecture.
 
 ### B05-CH-05 — Users, Actors and Professional Responsibility
 
-Defines the roles of organization, client, applicant, professional, reviewer, approver, coordinator, provider, office, AI, and Product.
+Defines participant roles, acting organizations, authority, delegation, Review, approval and professional accountability.
 
 ### B05-CH-06 — Product Principles, Boundaries and Non-Goals
 
-Establishes the durable Product principles and rejects mega-Product, all-IP, autonomous-practice, marketplace, and official-source drift.
+Establishes durable Product principles and rejects mega-Product, all-IP, marketplace, autonomous-practice and official-source drift.
 
 ### B05-CH-07 — Full-Lifecycle Model and State Distinctions
 
-Defines the lifecycle, Product-local state, shared formal objects, Execution state, external status, and outcome distinctions.
+Defines the lifecycle, state planes, version boundaries, formal transitions and sourced outcomes used throughout the book.
 
 ---
 
 # Part II — Need, Strategy and Recommendation
 
-Part II defines the journey before formal intake. It focuses on understanding the business need, reducing unnecessary questions, creating explainable options, and preserving Human Judgment.
+Part II defines the journey before Formal Intake: understanding the business need, reducing unnecessary questions, creating explainable options and preserving Human Judgment.
 
 ### B05-CH-08 — Need Understanding Before Forms
 
-Defines how business objective, market plan, product, use, timing, risk, and budget context are understood before asking the user to complete a filing form.
+Defines the Business Context Snapshot and Need Brief used before filing-form data is requested.
 
 ### B05-CH-09 — Jurisdiction Recommendation and Filing Routes
 
-Explains required, strongly recommended, optional, deferred, and not-recommended jurisdictions, including direct, regional, and international routes.
+Defines required, recommended, optional, deferred and not-recommended jurisdictions and the available direct, regional and international routes.
 
 ### B05-CH-10 — Country Bundles and Portfolio Strategy
 
-Defines how bundles may simplify comparison without hiding independent jurisdiction consequences, rights, costs, or risks.
+Explains how bundles simplify comparison without hiding independent jurisdiction costs, rights, risks and consequences.
 
 ### B05-CH-11 — Mark Identity, Filing Units and Variants
 
-Defines word, device, composite, color, transliteration, local-language, series, and variant decisions without treating a brand as one automatic application.
+Defines word, device, composite, colour, transliteration, local-language, series and variant Decisions.
 
 ### B05-CH-12 — Applicant, Ownership and Authority Context
 
-Defines applicant identity, ownership, group structure, authority, priority, predecessor, and signatory context.
+Defines applicant identity, beneficial and official ownership, group relationships, priority, predecessors, signatories and authority.
 
 ### B05-CH-13 — Classification Recommendation
 
-Defines explainable class candidates, main and related classes, uncertainty, local variation, and professional review.
+Defines explainable class candidates, main and related classes, uncertainty, local variation and Professional Review.
 
 ### B05-CH-14 — Goods and Services Guidance
 
-Defines required and recommended items, business-language translation, local limitations, item counts, scope trade-offs, and version-specific approval.
+Defines required and recommended items, business-language translation, local limitations, scope trade-offs and version-specific Decision.
 
 ### B05-CH-15 — Search, Availability and Risk Assessment
 
-Defines when search is appropriate, which search modes exist, how results are interpreted, and why search is not a guarantee of clearance or registration.
+Defines search modes, result interpretation, risk communication and the boundary between search evidence and registration certainty.
 
 ---
 
 # Part III — Commercial Journey and Formal Intake
 
-Part III turns strategy into understandable options, commercial confirmation, sufficient intake, and a governed handoff to formal business objects.
+Part III turns strategy into understandable service options, commercial confirmation, sufficient intake and a governed Handoff to formal business objects.
 
 ### B05-CH-16 — Proposal and Option Design
 
-Defines how recommendations become comparable service options, assumptions, exclusions, alternatives, and next steps.
+Defines how recommendations become comparable service options with assumptions, exclusions, alternatives and next steps.
 
 ### B05-CH-17 — Pricing, Official Fees and Cost Transparency
 
-Separates official fees, professional fees, provider costs, taxes, currency, contingencies, later-stage fees, and estimate uncertainty.
+Separates official fees, professional fees, provider costs, taxes, currency effects, contingencies, later-stage fees and uncertainty.
 
 ### B05-CH-18 — Quote, Acceptance and Commercial Instruction
 
-Distinguishes quote preparation, client acceptance, instruction, scope, expiration, change, and commercial commitment.
+Distinguishes Quote preparation, Client Acceptance, Commercial Instruction, expiry, change and scope commitment.
 
 ### B05-CH-19 — Formal Intake and Information Sufficiency
 
-Defines service-specific intake, progressive disclosure, required facts, inferred context, missing information, and completion criteria.
+Defines service-specific intake, progressive disclosure, required facts, inferred context, missing information and sufficiency.
 
 ### B05-CH-20 — Document Requirements, POA and Signatures
 
-Defines document requests, source versions, validation, translation, notarization, legalization, signature, and authority boundaries.
+Defines Document requests, source versions, validation, translation, notarization, legalization, signature and authority boundaries.
 
 ### B05-CH-21 — Validation, Readiness and Missing Information
 
-Separates structural completeness, commercial readiness, professional readiness, filing readiness, unresolved risk, and expiring validation.
+Separates structural, commercial, professional, documentary, payment, approval and execution readiness.
 
 ### B05-CH-22 — Order, Matter, Payment and Responsibility Handoff
 
-Defines how an accepted Product journey hands into formal Order, Matter, payment, responsibility, and Execution contexts without duplicating their authority.
+Defines how an accepted Product journey enters formal Order, Matter, payment, responsibility and Execution contexts without duplicating their authority.
 
 ---
 
 # Part IV — Filing Preparation and Governed Execution
 
-Part IV defines how a commercially confirmed and sufficiently complete journey becomes a reviewed filing package and enters governed execution.
+Part IV defines how a commercially confirmed and sufficiently complete journey becomes a reviewed Filing Package Candidate and enters governed Execution.
 
 ### B05-CH-23 — Filing Package as a Governed Artifact
 
-Defines filing-package contents, versions, sources, lineage, unresolved items, and relationship to formal Documents.
+Defines Package contents, versions, source lineage, unresolved items and relation to formal Documents.
 
 ### B05-CH-24 — Professional Review and Filing Approval
 
-Separates professional review, client confirmation, internal approval, filing approval, and version-specific authority.
+Separates factual confirmation, Professional Review, client confirmation, internal approval and version-specific Filing Approval.
 
 ### B05-CH-25 — Provider Discovery, Private Partners and Routing
 
-Defines capability need, private-first discovery, evidence, eligibility, comparison, conflict, availability, and recommendation.
+Defines Capability Need, private-first discovery, evidence, eligibility, conflict, availability and Routing Recommendation.
 
 ### B05-CH-26 — Provider Appointment, Instruction and Acceptance
 
-Separates Human Selection, appointment preparation, required approval, governed instruction, provider acceptance, and engagement scope.
+Separates Human Selection, appointment, governed instruction, Provider Acceptance and engagement scope.
 
 ### B05-CH-27 — Direct Connector, Provider Filing and Owning Service Boundaries
 
-Defines alternative execution routes and preserves the distinction between Product preparation, Execution coordination, filing-capable services, connectors, providers, and official offices.
+Defines execution routes and preserves the boundaries between Product preparation, Execution, connectors, providers, Owning Services and official offices.
 
 ### B05-CH-28 — Submission States, Acknowledgement and Official Evidence
 
-Defines prepared, queued, sent, accepted, rejected, acknowledged, corrected, and unknown states while preserving official-source authority.
+Defines prepared, queued, sent, delivered, provider-reported, officially acknowledged, corrected, rejected and unknown states.
 
 ### B05-CH-29 — Failure, Retry, Duplicate Safety, Communication and Audit
 
-Defines idempotency, duplicate prevention, partial failure, recovery, client/provider communication, Event trace, and audit continuity.
+Defines idempotency, duplicate prevention, partial failure, reconciliation, safe retry, Communication and Event trace.
 
 ---
 
 # Part V — Examination, Publication and Disputes
 
-Part V defines the professional journeys that begin after filing and may materially change the strategy, evidence, deadline, cost, and outcome.
+Part V defines the professional journeys that begin after filing and may change strategy, Evidence, deadlines, cost and outcome.
 
 ### B05-CH-30 — Examination Context and Status Authority
 
-Defines official notices, examiner actions, Product projections, source hierarchy, superseded information, and new professional context.
+Defines official notices, Product projections, source hierarchy, superseded information and new professional context.
 
 ### B05-CH-31 — Office Action Triage and Response Strategy
 
-Defines issue extraction, categorization, affected scope, response options, escalation, and Human Judgment.
+Defines issue extraction, categorization, affected scope, response options, escalation and Human Judgment.
 
 ### B05-CH-32 — Response Preparation, Evidence and Filing
 
-Defines response drafts, arguments, amendments, evidence, citation, review, approval, provider coordination, and governed filing.
+Defines response drafts, arguments, amendments, Evidence, Review, approval, provider coordination and governed filing.
 
 ### B05-CH-33 — Publication, Observation and Opposition Windows
 
-Defines publication status, observation periods, opposition windows, watch signals, and deadline-source boundaries.
+Defines publication status, observation periods, opposition windows, monitoring and source-backed deadlines.
 
 ### B05-CH-34 — Opposition, Defense and Adversarial Matters
 
-Defines claimant and respondent journeys, grounds, evidence, settlement, provider collaboration, Review, and formal outcomes.
+Defines parties, grounds, Evidence, pleadings, settlement authority, provider collaboration and formal outcomes.
 
 ### B05-CH-35 — Appeals, Reviews, Cancellation and Invalidation
 
@@ -203,73 +252,73 @@ Defines further proceedings without turning MarkReg into a general litigation Pr
 
 ### B05-CH-36 — Deadline Governance, Client Decisions and Outcome Communication
 
-Defines deadline authority, calculation, extension, urgency, decision records, communication, and lifecycle consequences.
+Defines deadline authority, calculation, correction, extension, urgency, Decision records, Communication and lifecycle consequences.
 
 ---
 
 # Part VI — Registration and Portfolio Continuity
 
-Part VI defines the work that begins when rights are registered or otherwise continue through maintenance, ownership, and portfolio strategy.
+Part VI defines the work that begins when a right is registered or otherwise continues through maintenance, ownership and Portfolio strategy.
 
 ### B05-CH-37 — Registration and Certificate Boundaries
 
-Defines registration as a formal outcome and distinguishes official record, certificate, Artifact, Document, Evidence, and Product projection.
+Distinguishes the official record, certificate, Evidence, Product projection and Right Baseline.
 
 ### B05-CH-38 — Maintenance Calendar and Post-Registration Duties
 
-Defines maintenance obligations, declarations, evidence, use, local representation, calendar signals, and verified deadlines.
+Defines maintenance obligations, declarations, use Evidence, representation, calendar signals and verified deadlines.
 
 ### B05-CH-39 — Renewal Preparation and Governed Renewal
 
-Defines renewal scope, readiness, owner verification, fees, provider coordination, approval, filing, and acknowledgement.
+Defines renewal scope, readiness, owner verification, fees, approval, provider coordination, filing and acknowledgement.
 
 ### B05-CH-40 — Changes, Recordals and Ownership Updates
 
-Defines name, address, representative, limitation, correction, and other official-record changes.
+Defines name, address, representative, limitation, correction and other official-record changes.
 
 ### B05-CH-41 — Assignment, Licensing and Chain of Title
 
-Defines transaction context, party identity, authority, documents, effective date, official recordal, and chain-of-title continuity.
+Defines Transaction Context, parties, authority, Documents, effective date, official recordal and chain-of-title continuity.
 
 ### B05-CH-42 — Portfolio Strategy, Monitoring and Lifecycle Learning
 
-Defines portfolio views, coverage gaps, duplicate rights, market changes, monitoring signals, next actions, and organization-specific learning.
+Defines Portfolio views, coverage gaps, monitoring signals, action candidates and organization-specific learning.
 
 ---
 
 # Part VII — Product Experience and Evolution
 
-Part VII defines how MarkReg appears across Product surfaces, consumes jurisdiction intelligence, uses AI, measures value, and evolves without architecture drift.
+Part VII defines how MarkReg appears across Product surfaces, consumes jurisdiction intelligence, uses AI Assistance, measures value and evolves without architecture drift.
 
 ### B05-CH-43 — Standalone, Embedded and Cross-Product Experience
 
-Defines MarkReg as a standalone Product and as an embedded journey within Lite or Workplace, including typed Handoffs and return routes.
+Defines standalone, Lite-embedded, Workplace-embedded and cross-Product journeys with typed Handoffs and Returns.
 
 ### B05-CH-44 — Client, Professional and Provider Participation Surfaces
 
-Defines purpose-limited experiences, visibility, action rights, review rights, and communication boundaries for each participant.
+Defines purpose-limited visibility, action rights, Review rights and Communication boundaries for each participant.
 
 ### B05-CH-45 — Jurisdiction Packs, AI Assistance and Rule Versioning
 
-Defines versioned jurisdiction configuration, source-backed Knowledge, AI-assisted guidance, confidence, change detection, and professional validation.
+Defines source-backed Rules, Pack Versions, support states, change detection, AI Assistance and professional validation.
 
 ### B05-CH-46 — Product Metrics, Quality and MVP Delivery Sequence
 
-Defines lifecycle metrics, quality indicators, Product-loop validation, MVP scope, progressive depth, and safe sequencing.
+Defines lifecycle metrics, quality indicators, Product-loop validation, MVP scope and safe sequencing.
 
 ### B05-CH-47 — Conformance, Roadmap and Conclusion
 
-Defines conformance to the Books 01–04 Portfolio Baseline, downstream specifications, upstream finding control, and the long-term MarkReg direction.
+Defines Conformance Profiles, upstream finding control, roadmap horizons and the separation of publication, implementation and external-action authority.
 
 ---
 
 # Back Matter — Appendices and Reader References
 
-The Back Matter provides compact reader references derived from the controlled manuscript and specifications. It does not alter the CH00–CH47 chapter map or create independent Product rules.
+Back Matter provides compact reader references derived from the controlled manuscript and specifications.
 
 ### Appendix A — Full-Lifecycle Artifact and Decision Map
 
-Summarizes the major artifacts, decisions, lineage, owners, Review and formalization boundaries.
+Summarizes controlled records, lineage, responsibility, Review and formalization boundaries.
 
 ### Appendix B — Lifecycle State and Authority Matrix
 
@@ -277,27 +326,27 @@ Separates Product, formal, Execution, provider, official, professional and clien
 
 ### Appendix C — Participant Visibility and Action Rights Matrix
 
-Maps client, professional, reviewer, approver, coordinator, finance, provider, administrator and AI visibility and action rights.
+Maps participant roles, information visibility and permitted actions.
 
 ### Appendix D — Reference Journeys
 
-Presents the complete `EMBERLOOP` and `RIVERKITE` journeys as controlled reader examples.
+Presents the controlled `EMBERLOOP` and `RIVERKITE` journeys.
 
 ### Appendix E — Priority Conformance Scenarios
 
-Indexes observable tests for identity, recommendation, commercial, document, Review, provider, submission, official-event, maintenance, portfolio, rule and conformance boundaries.
+Indexes observable tests for the Product’s highest-risk boundaries.
 
 ### Appendix F — Minimum Jurisdiction Pack Checklist
 
-Provides a reader checklist for source, rule, fee, document, filing, post-filing, maintenance, commercial and AI readiness.
+Provides a checklist for source, Rule, fee, Document, service, commercial and AI readiness.
 
 ### Appendix G — MarkReg Conformance Profiles
 
-Defines Foundation, Guided Decision, Commercial Intake, Filing Preparation, Governed Filing, Post-Filing, Portfolio Continuity and Full-Lifecycle profiles.
+Defines Foundation through Full-Lifecycle support claims and their evidence requirements.
 
 ### Source and Authority Notes
 
-Explains the authority of architecture records, controlled specifications, official sources, provider evidence, organization Knowledge, scenarios and AI outputs.
+Explains the authority of architecture records, specifications, official sources, provider evidence, organization Knowledge, scenarios and AI outputs.
 
 ### Glossary
 
@@ -309,22 +358,17 @@ Provides chapter, appendix and later rendered-page navigation.
 
 ### Figure Register
 
-Lists the controlled lifecycle, authority, journey, jurisdiction and delivery figures used by the publication.
-
----
+Lists the controlled figures used by the publication.
 
 ## Reading Rule
 
-The book should be read in order.
+The book may be entered through a role-specific route, but later chapters assume the constitutional distinctions established in Part I.
 
-Part II recommendations depend on the Product constitution in Part I.
+```text
+Recommendation ≠ Decision
+Readiness ≠ Approval
+Approval ≠ Execution
+Provider report ≠ Official Truth
+```
 
-Commercial intake in Part III depends on explainable strategy rather than raw form completion.
-
-Execution in Part IV depends on formal readiness and Human Review.
-
-Post-filing work in Parts V and VI depends on official-source authority and lifecycle continuity.
-
-Product evolution in Part VII must preserve every prior boundary.
-
-Appendix A–G may be used as quick references, but the controlled chapters and specifications remain authoritative.
+CH02 begins the Product constitution by explaining why MarkReg must exist as more than a form, case screen, AI chat or filing connector.
