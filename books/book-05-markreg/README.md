@@ -5,7 +5,7 @@
 - **Book:** Book 05
 - **Title:** MarkReg: The Full-Lifecycle International Trademark Product
 - **Canonical path:** `books/book-05-markreg/`
-- **Status:** CH00–CH22 Whole-Draft Review Complete — Revision Required
+- **Status:** Part II Productization Complete — Part III Productization Pending
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
 - **Current phase:** B05-REVISION-PACK-001 — Whole-Draft Productization and Editorial Consolidation
 
@@ -20,98 +20,65 @@ Book 03 — Governed Execution
         ↓
 Book 04 — Workplace and Product Architecture
         ↓
-Book 05 — MarkReg
+Book 05 — MarkReg Product constitution and lifecycle specification
 ```
 
-Book 05 is the first dedicated Product publication built on the Books 01–04 Portfolio Baseline.
-
-It is a Product constitution and lifecycle specification. It is not a jurisdictional legal manual, filing handbook, implementation PRD, or substitute for professional advice.
+Book 05 defines a Product constitution and lifecycle specification. It is not a jurisdictional legal manual, filing handbook, implementation PRD, official source, or authorization for autonomous legal action.
 
 ## Core Question
 
-> How does MarkReg turn a complex, multi-jurisdictional trademark service need into an understandable, reviewable, governed, full-lifecycle professional journey without becoming a second Workplace, Core, Execution System, MGSN, official office, or Owning Service?
+> How does MarkReg turn a complex, multi-jurisdictional trademark-service need into an understandable, reviewable, governed, full-lifecycle professional journey without becoming a second Workplace, Core, Execution System, MGSN, official office, or Owning Service?
 
-## Product Proposition
+## Manuscript Status
 
-```text
-MarkReg
-=
-Full-Lifecycle International Trademark Product
-+ Need and Strategy Understanding
-+ Jurisdiction, Classification, and Goods/Services Guidance
-+ Search and Risk Support Where Applicable
-+ Proposal, Quote, Intake, and Commercial Confirmation
-+ Filing Preparation and Human Review
-+ Governed Execution and Official Outcome Continuity
-+ Examination, Response, Registration, and Maintenance
-+ Private-First Provider Collaboration
-+ Portfolio and Organizational Learning
-```
+### Front Matter and Part I
 
-## Completed Manuscript
-
-### Foundation and Part I
-
-- [Preface](manuscript/B05-CH-00_Preface.md)
-- [Table of Contents](manuscript/B05-CH-01_Table_of_Contents.md)
-- [Why MarkReg Exists](manuscript/B05-CH-02_Why_MarkReg_Exists.md)
-- [Product Mission and Value Proposition](manuscript/B05-CH-03_Product_Mission_and_Value_Proposition.md)
-- [Position Between Workplace, Core, Execution, MGSN and Owning Services](manuscript/B05-CH-04_Position_Between_Workplace_Core_Execution_MGSN_and_Owning_Services.md)
-- [Users, Actors and Professional Responsibility](manuscript/B05-CH-05_Users_Actors_and_Professional_Responsibility.md)
-- [Product Principles, Boundaries and Non-Goals](manuscript/B05-CH-06_Product_Principles_Boundaries_and_Non-Goals.md)
-- [Full-Lifecycle Model and State Distinctions](manuscript/B05-CH-07_Full-Lifecycle_Model_and_State_Distinctions.md)
+CH00–CH07 are drafted and establish the Product thesis, responsibility boundaries, participants, principles, and lifecycle distinctions.
 
 ### Part II — Need, Strategy and Recommendation
 
-- [Need Understanding Before Forms](manuscript/B05-CH-08_Need_Understanding_Before_Forms.md)
-- [Jurisdiction Recommendation and Filing Routes](manuscript/B05-CH-09_Jurisdiction_Recommendation_and_Filing_Routes.md)
-- [Country Bundles and Portfolio Strategy](manuscript/B05-CH-10_Country_Bundles_and_Portfolio_Strategy.md)
-- [Mark Identity, Filing Units and Variants](manuscript/B05-CH-11_Mark_Identity_Filing_Units_and_Variants.md)
-- [Applicant, Ownership and Authority Context](manuscript/B05-CH-12_Applicant_Ownership_and_Authority_Context.md)
-- [Classification Recommendation](manuscript/B05-CH-13_Classification_Recommendation.md)
-- [Goods and Services Guidance](manuscript/B05-CH-14_Goods_and_Services_Guidance.md)
-- [Search, Availability and Risk Assessment](manuscript/B05-CH-15_Search_Availability_and_Risk_Assessment.md)
+CH08–CH15 have been productized under B05-REVISION-PACK-001:
+
+- [CH08 — Need Understanding Before Forms](manuscript/B05-CH-08_Need_Understanding_Before_Forms.md)
+- [CH09 — Jurisdiction Recommendation and Filing Routes](manuscript/B05-CH-09_Jurisdiction_Recommendation_and_Filing_Routes.md)
+- [CH10 — Country Bundles and Portfolio Strategy](manuscript/B05-CH-10_Country_Bundles_and_Portfolio_Strategy.md)
+- [CH11 — Mark Identity, Filing Units and Variants](manuscript/B05-CH-11_Mark_Identity_Filing_Units_and_Variants.md)
+- [CH12 — Applicant, Ownership and Authority Context](manuscript/B05-CH-12_Applicant_Ownership_and_Authority_Context.md)
+- [CH13 — Classification Recommendation](manuscript/B05-CH-13_Classification_Recommendation.md)
+- [CH14 — Goods and Services Guidance](manuscript/B05-CH-14_Goods_and_Services_Guidance.md)
+- [CH15 — Search, Availability and Risk Assessment](manuscript/B05-CH-15_Search_Availability_and_Risk_Assessment.md)
+
+These chapters now use one Product artifact lineage, the `EMBERLOOP` reference journey, explicit user surfaces, jurisdiction-pack dependencies, observable scenarios, and controlled change propagation.
 
 ### Part III — Commercial Journey and Formal Intake
 
-- [Proposal and Option Design](manuscript/B05-CH-16_Proposal_and_Option_Design.md)
-- [Pricing, Official Fees and Cost Transparency](manuscript/B05-CH-17_Pricing_Official_Fees_and_Cost_Transparency.md)
-- [Quote, Acceptance and Commercial Instruction](manuscript/B05-CH-18_Quote_Acceptance_and_Commercial_Instruction.md)
-- [Formal Intake and Information Sufficiency](manuscript/B05-CH-19_Formal_Intake_and_Information_Sufficiency.md)
-- [Document Requirements, POA and Signatures](manuscript/B05-CH-20_Document_Requirements_POA_and_Signatures.md)
-- [Validation, Readiness and Missing Information](manuscript/B05-CH-21_Validation_Readiness_and_Missing_Information.md)
-- [Order, Matter, Payment and Responsibility Handoff](manuscript/B05-CH-22_Order_Matter_Payment_and_Responsibility_Handoff.md)
+CH16–CH22 remain drafted but require the same productization pass before the whole-draft revision can close.
 
-## Foundation and Governance
+## Controlled Product Specifications
+
+- [B05-SPEC-0001 — Product Artifact and Decision Map](specifications/B05-SPEC-0001_Product_Artifact_and_Decision_Map.md)
+- [B05-SPEC-0002 — Reference Journeys](specifications/B05-SPEC-0002_Reference_Journeys.md)
+- [B05-SPEC-0003 — Conformance Scenarios and User-Surface Contract](specifications/B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md)
+- [B05-SPEC-0004 — Minimum Jurisdiction-Pack and Commercial-Control Contract](specifications/B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md)
+
+## Governance and Reviews
 
 - [Book Manifest](BOOK-MANIFEST.md)
 - [Book Status](BOOK-STATUS.md)
 - [Book Governance](BOOK-GOVERNANCE.md)
-- [Positioning and Scope](planning/B05-PLN-0001_Positioning_and_Scope.md)
-- [Dependency Map](planning/B05-PLN-0002_Dependency_Map.md)
-- [Chapter Map and Writing Gates](planning/B05-PLN-0003_Chapter_Map_and_Writing_Gates.md)
-- [Part I Pack Review](reviews/B05-REV-0001_Part_I_Product_Constitution_Review.md)
-- [Part II Pack Review](reviews/B05-REV-0002_Part_II_Need_Strategy_and_Recommendation_Review.md)
-- [Part III Pack Review](reviews/B05-REV-0003_Part_III_Commercial_Journey_and_Formal_Intake_Review.md)
-- [Whole-Draft CH00–CH22 Review](reviews/B05-REV-0004_Whole_Draft_CH00-CH22_Review.md)
-
-## Whole-Draft Review Decision
-
-The architecture, Product position, lifecycle direction, responsibility boundaries, and seven-part sequence pass review.
-
-The current manuscript requires a controlled productization and editorial consolidation pass before Part IV. Blocking work includes the canonical Product Artifact and Decision Map, end-to-end reference journeys, testable conformance scenarios, jurisdiction-pack minimum contract, user-surface summaries, commercial controls, metadata normalization, and reduction of repeated constitutional language.
+- [B05-REV-0004 — CH00–CH22 Whole-Draft Review](reviews/B05-REV-0004_Whole_Draft_CH00-CH22_Review.md)
+- [B05-REV-0005 — Part II Productization Review](reviews/B05-REV-0005_Part_II_Productization_Review.md)
 
 ## Current Gate
 
 ```text
-B05-TOC-V0.1 owner accepted
-→ Parts I–III drafted
-→ B05-REV-0004 whole-draft review complete
-→ B05-REVISION-PACK-001 closes blocking findings
-→ follow-up whole-draft review
-→ authorize or continue holding Part IV
+Shared Product contracts established
+→ Part II CH08–CH15 productized and reviewed
+→ productize Part III CH16–CH22
+→ re-run CH00–CH22 whole-draft review
+→ decide whether Part IV may begin
 ```
 
 ## Authority Boundary
 
-Book 05 defines Product architecture and professional journeys. It does not modify the Frozen Book 02 Core Specification, redefine Book 03 Execution, absorb Book 04 Workplace authority, automatically appoint MGSN providers, authorize production deployment, or authorize external protected action.
+Book 05 does not modify the Frozen Book 02 Core Specification, redefine Book 03 Execution, absorb Book 04 Workplace authority, automatically appoint MGSN providers, create official truth, authorize production deployment, or authorize external protected action.
