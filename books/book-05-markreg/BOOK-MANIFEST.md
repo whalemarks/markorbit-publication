@@ -7,14 +7,14 @@
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
 - **Portfolio dependency:** MO-PUB-BASELINE-0001
 - **Primary Product:** MarkReg
-- **Completed editorial tranche:** PF-06B1 — CH00–CH07
-- **Current substantive gate:** PF-06B2 — CH08–CH22
-- **Remaining RC1 metadata blocker:** PF-01B CH08–CH47
+- **Completed editorial tranches:** PF-06B1 CH00–CH07 and PF-06B2A CH08–CH15
+- **Current substantive gate:** PF-06B2B — CH16–CH22
+- **Remaining RC1 metadata blocker:** PF-01B CH16–CH47
 
 ## Directory Purpose
 
 - `manuscript/` — controlled CH00–CH47 chapter files.
-- `specifications/` — controlled Product artifact, journey, scenario, jurisdiction and commercial contracts.
+- `specifications/` — controlled Product record, journey, scenario, jurisdiction and commercial contracts.
 - `appendices/` — reader-facing Appendix A–G projections.
 - `publication/` — editorial standard, source notes, glossary, subject index, term audit, figure register, Back Matter map, reconciliation and RC1 checklist.
 - `planning/` — Product and publication-finishing plans.
@@ -26,8 +26,8 @@
 | --- | --- | --- |
 | CH00–CH01 | Front Matter | PF-06B1 complete |
 | CH02–CH07 | Part I — Product Constitution and Lifecycle Position | PF-06B1 complete; metadata normalized |
-| CH08–CH15 | Part II — Need, Strategy and Recommendation | PF-06B2 next |
-| CH16–CH22 | Part III — Commercial Journey and Formal Intake | PF-06B2 next |
+| CH08–CH15 | Part II — Need, Strategy and Recommendation | PF-06B2A complete; metadata normalized |
+| CH16–CH22 | Part III — Commercial Journey and Formal Intake | PF-06B2B next |
 | CH23–CH29 | Part IV — Filing Preparation and Governed Execution | PF-06C planned |
 | CH30–CH36 | Part V — Examination, Publication and Disputes | PF-06C planned |
 | CH37–CH42 | Part VI — Registration and Portfolio Continuity | PF-06C planned |
@@ -83,9 +83,15 @@ PF-06B1 — COMPLETE
 - metadata CH02–CH07
 - accepted by B05-REV-0019
 
-PF-06B2 — AUTHORIZED AND NEXT
-- CH08–CH22
-- metadata CH08–CH22
+PF-06B2A — COMPLETE
+- CH08–CH15
+- metadata CH08–CH15
+- EL-01–EL-08 and controlled scenario reconciliation
+- accepted by B05-REV-0020
+
+PF-06B2B — AUTHORIZED AND NEXT
+- CH16–CH22
+- metadata CH16–CH22
 
 PF-06C — PLANNED
 - CH23–CH47
@@ -96,14 +102,30 @@ PF-06D — PLANNED
 - whole-book editorial closure
 ```
 
+PF-06B closes only after both PF-06B2A and PF-06B2B pass.
+
 ## Metadata Inventory
 
 ```text
 CH00–CH01: COMPLETE under PF-01A
 CH02–CH07: COMPLETE under PF-06B1
-CH08–CH47: OPEN
+CH08–CH15: COMPLETE under PF-06B2A
+CH16–CH47: OPEN
 PF-01 overall: OPEN
 ```
+
+## Part II Controlled Records
+
+```text
+MR-A01 — Business Context Snapshot
+MR-A02 — Need Brief
+MR-A03 — Recommendation Set
+MR-A04 — Option Set
+MR-C01 — Applicant and Authority Context
+EL-01–EL-08 — EMBERLOOP Part II steps
+```
+
+Part II recommendations do not create Quote acceptance, Order, Matter, Filing Approval, filing or Official Truth.
 
 ## Controlled Scenarios, Profiles and Pack States
 
@@ -128,7 +150,8 @@ Profile or support claim cannot exceed Pack, scenario, operational and authority
 - B05-REV-0016 — PF-04;
 - B05-REV-0017 — PF-05;
 - B05-REV-0018 — PF-06A editorial baseline;
-- B05-REV-0019 — PF-06B1 Front Matter and Part I editorial Review.
+- B05-REV-0019 — PF-06B1 Front Matter and Part I;
+- B05-REV-0020 — PF-06B2A Part II.
 
 ## Current Gate
 
@@ -137,7 +160,8 @@ CH00–CH47 Complete Draft 1
 → PF-02 through PF-05 complete
 → PF-06A complete
 → PF-06B1 CH00–CH07 complete
-→ PF-06B2 CH08–CH22
+→ PF-06B2A CH08–CH15 complete
+→ PF-06B2B CH16–CH22
 → PF-06C CH23–CH47
 → PF-06D whole-book closure
 → PF-07 figures and remaining publication apparatus
