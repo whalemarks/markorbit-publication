@@ -17,11 +17,12 @@ This directory contains owner, architecture, chapter-map, manuscript, productiza
 - `B05-REV-0010_Part_VI_Registration_and_Portfolio_Continuity_Review.md` — accepts CH37–CH42 and authorizes Part VII
 - `B05-REV-0011_Part_VII_Product_Experience_and_Evolution_Review.md` — accepts CH43–CH47 and authorizes complete-manuscript review
 - `B05-REV-0012_CH00-CH47_Complete_Draft_1_Review.md` — records Complete Draft 1 and defines publication-finishing blockers
+- `B05-REV-0013_Publication_Architecture_and_Back_Matter_Review.md` — accepts PF-01A Front Matter correction and PF-07A Back Matter architecture while leaving PF-01 and PF-07 open
 
 ## Current Gate
 
-CH00–CH47 are drafted and reviewed as Complete Draft 1.
+CH00–CH47 remain Complete Draft 1.
 
-The next controlled review scope is B05-PUBLICATION-FINISHING-PACK-001 and the later Release Candidate 1 review.
+PF-01A and PF-07A are complete. The next controlled work is PF-01B metadata normalization followed by PF-02 through PF-05 controlled-specification reconciliation.
 
-Final publication, implementation, production deployment and external protected action remain separate gates.
+Release Candidate 1, final publication, implementation, production deployment and external protected action remain separate gates.
