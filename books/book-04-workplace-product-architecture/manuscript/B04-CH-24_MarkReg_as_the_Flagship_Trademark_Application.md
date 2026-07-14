@@ -1,6 +1,6 @@
 # B04-CH-24 — MarkReg as the Flagship Trademark Application
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part IV — Product Architecture and Product Embedding
 
@@ -1675,7 +1675,7 @@ MarkReg owns the trademark journey; Workplace preserves the organization.
 MarkReg ≠ Execution
 ```
 
-The Product prepares and presents; Execution coordinates.
+The Product prepares and presents; Execution governs coordinated work.
 
 ```text
 MarkReg ≠ official office

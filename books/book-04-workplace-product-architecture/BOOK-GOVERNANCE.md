@@ -73,9 +73,10 @@ MGSN connects independent organizational Orbits through Capability, Routing, Evi
 
 - Use the canonical title: Book 04 — MarkOrbit Workplace and Product Architecture.
 - Use B04-TOC-V0.1 as the Owner Accepted chapter map.
-- CH00–CH39 form the complete Draft 1 baseline.
+- CH00–CH39 form the Release Candidate 1 manuscript baseline.
 - B04-REV-0002 remains the historical CH00–CH27 review record.
-- B04-REV-0003 records the completed CH00–CH39 full-book architecture and editorial review.
+- B04-REV-0003 records the owner-accepted CH00–CH39 architecture and editorial review.
+- B04-REV-0004 records publication finishing and Release Candidate 1 validation.
 - Future chapter additions, removals, renumbering, or structural movement require explicit Book 04 change control.
 
 ## 11. Editorial Rules
@@ -93,31 +94,29 @@ MGSN connects independent organizational Orbits through Capability, Routing, Evi
 
 ## 12. Review and Acceptance
 
-B04-REV-0003 records the completed full-book architecture and editorial review. Its application does not constitute owner acceptance or final publication approval.
+B04-REV-0003 is owner accepted through merge. B04-REV-0004 records publication finishing and RC1 validation. Neither record alone replaces the final owner publication decision.
 
 The current gate is:
 
 ```text
-CH00–CH39 full-book architecture review completed
-→ consolidated owner review
-→ targeted revision or owner acceptance
-→ native-English and publication finishing
-→ final publication gate
+architecture and targeted review revisions owner accepted
+→ native-English and publication finishing completed
+→ Release Candidate 1 validation passed
+→ owner final publication review
+→ final publication approval and merge
 ```
 
-## 13. Remaining Publication Work
+## 13. Release Candidate 1 Publication Gate
 
-The following remain pending:
+The native-English audit, compression review, figures, source notes, glossary, subject index, cross-book reconciliation, and RC1 packaging are complete.
 
-- owner review and acceptance;
-- native-English line edit;
-- final compression and repetition edit;
-- diagrams and visual architecture assets;
-- citation conventions and source reconciliation;
-- glossary reconciliation;
-- index work;
-- cross-book final reconciliation;
-- release-candidate packaging.
+The remaining publication actions are:
+
+- owner final publication review and approval;
+- merge of the RC1 pull request;
+- published-format rendering or external distribution if separately requested.
+
+RC1 status does not authorize Product implementation, production deployment, legal reliance, or external protected action.
 
 ## 14. Change Control
 
@@ -127,7 +126,9 @@ Changes to Book 04 scope, chapter order, chapter count, governance locks, or dow
 
 Controlled assistants or Codex may maintain Book 04 manuscript and governance records only under explicit task authority. They must not treat the manuscript as authorization for Product implementation, unrestricted deployment, external protected action, autonomous professional work, or silent changes to Book 02 or Book 03.
 
-Ready for final publication: **NO**
+Ready for owner final publication review: **YES**
+
+Ready for final publication without owner approval: **NO**
 
 Ready for unrestricted implementation: **NO**
 

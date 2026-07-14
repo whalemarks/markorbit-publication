@@ -1,6 +1,6 @@
 # B04-CH-26 — Workplace Editions and Organization-Specific Applications
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part IV — Product Architecture and Product Embedding
 

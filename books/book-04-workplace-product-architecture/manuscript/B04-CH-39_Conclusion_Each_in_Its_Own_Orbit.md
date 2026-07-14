@@ -1,6 +1,6 @@
 # B04-CH-39 — Conclusion: Each in Its Own Orbit
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part VI — Network Participation and Orbital Ecosystem Evolution
 
@@ -135,9 +135,9 @@ Execution governs:
 
 Products prepare and request.
 
-Execution coordinates.
+Execution governs coordinated work.
 
-Owning Services change formal business facts.
+Owning Services change and record formal business facts.
 
 ---
 
@@ -809,7 +809,7 @@ Each Workplace is an independent Orbit.
 
 Core defines shared semantics.
 
-Execution governs professional progression.
+Execution governs coordinated professional progression.
 
 Products remain focused and independent.
 
@@ -825,7 +825,7 @@ Humans review and decide.
 
 Protected actions enter governed Execution.
 
-Owning Services change formal business facts.
+Owning Services change and record formal business facts.
 
 Content, Artifact, Document,
 Render, Edit, Delivery,

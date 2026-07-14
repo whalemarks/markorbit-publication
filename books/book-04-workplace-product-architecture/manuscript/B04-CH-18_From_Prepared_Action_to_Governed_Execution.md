@@ -1,12 +1,12 @@
 # B04-CH-18 — From Prepared Action to Governed Execution
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part III — Knowledge, Intelligence and Capability Consumption
 
 ## Chapter Purpose
 
-Chapter 17 ended with a selected recommendation or Next Best Action candidate.
+CH17 ended with a selected recommendation or Next Best Action candidate.
 
 Selection is not execution.
 
@@ -115,6 +115,8 @@ Book 03 remains authoritative for governed Execution, Workflow coordination, Tas
 This chapter defines the Workplace-to-Execution handoff.
 
 It does not create a second execution system.
+
+**Architecture figure:** [B04-FIG-04 — Prepared Action to Governed Execution](../figures/B04-FIG-04_Prepared_Action_to_Execution.md)
 
 ---
 
@@ -1300,7 +1302,7 @@ Examples:
 - Document Service formalizes Document;
 - relevant trademark or Matter service records domain state.
 
-Execution coordinates.
+Execution governs coordinated work.
 
 It does not absorb domain ownership.
 
@@ -1618,7 +1620,7 @@ does not mean completion.
 Retries do not create duplicates
 or weaken governance.
 
-Execution coordinates.
+Execution governs coordinated work.
 
 Owning Services perform and record
 formal business-state mutation.

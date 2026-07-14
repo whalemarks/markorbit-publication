@@ -1,6 +1,6 @@
 # B04-CH-13 — Information Access, Provenance and Context Assembly
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part III — Knowledge, Intelligence and Capability Consumption
 
@@ -121,6 +121,8 @@ Book 03 remains authoritative for governed Execution and protected-action handof
 This chapter defines how Workplace consumes information under those authorities.
 
 It does not redefine them.
+
+**Architecture figure:** [B04-FIG-03 — Authorized Context Assembly](../figures/B04-FIG-03_Authorized_Context_Assembly.md)
 
 ---
 
@@ -2542,7 +2544,7 @@ Humans judge.
 
 Execution governs action.
 
-Owning Services change formal facts.
+Owning Services change and record formal business facts.
 ```
 
 CH13 establishes the entry boundary.

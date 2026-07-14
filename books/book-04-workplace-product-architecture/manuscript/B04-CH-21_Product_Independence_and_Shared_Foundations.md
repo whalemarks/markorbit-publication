@@ -1,12 +1,12 @@
 # B04-CH-21 — Product Independence and Shared Foundations
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part IV — Product Architecture and Product Embedding
 
 ## Chapter Purpose
 
-Chapter 20 established the constitutional principles of Product architecture.
+CH20 established the constitutional principles of Product architecture.
 
 It defined Product as the direct user-value unit and required every Product to preserve:
 
@@ -1543,9 +1543,9 @@ Core defines shared meaning.
 
 Execution governs coordinated work.
 
-Owning Services change formal business facts.
+Owning Services change and record formal business facts.
 
-Humans remain accountable for professional judgment.
+Humans remain professionally accountable for professional judgment.
 
 Shared foundations connect the system
 without turning it into a monolith.

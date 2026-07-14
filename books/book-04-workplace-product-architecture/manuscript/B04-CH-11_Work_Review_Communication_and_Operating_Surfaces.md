@@ -1,6 +1,6 @@
 # B04-CH-11 — Work, Review, Communication and Operating Surfaces
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part II — Organization Context and Operating Environment
 
@@ -8,13 +8,13 @@
 
 This chapter defines how an Organization Workplace makes work, review, Communication, attention, exceptions, and organizational coordination visible through governed operating surfaces.
 
-Chapter 07 established organization identity and active Workplace Context.
+CH07 established organization identity and active Workplace Context.
 
-Chapter 08 established people, roles, permissions, responsibility, review eligibility, and accountability.
+CH08 established people, roles, permissions, responsibility, review eligibility, and accountability.
 
-Chapter 09 established clients, relationships, service context, pricing, preferences, and organization-specific business rules.
+CH09 established clients, relationships, service context, pricing, preferences, and organization-specific business rules.
 
-Chapter 10 established private knowledge, AI Context, preferences, and organizational memory.
+CH10 established private knowledge, AI Context, preferences, and organizational memory.
 
 The next question is:
 
@@ -2054,11 +2054,11 @@ solely by user preference or personalization.
 
 External and management surfaces remain purpose-limited.
 
-Humans remain accountable.
+Humans remain professionally accountable.
 
-Execution coordinates consequential work.
+Execution governs coordinated and consequential work.
 
-Owning Services change formal business facts.
+Owning Services change and record formal business facts.
 
 Events and audit preserve trace.
 ```

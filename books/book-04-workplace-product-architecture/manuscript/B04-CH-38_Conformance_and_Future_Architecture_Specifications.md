@@ -1,6 +1,6 @@
 # B04-CH-38 — Conformance and Future Architecture Specifications
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part VI — Network Participation and Orbital Ecosystem Evolution
 
@@ -298,9 +298,9 @@ retain their canonical distinctions.
 Responsibility conformance checks:
 
 ```text
-Core defines.
+Core defines shared meaning.
 
-Execution governs.
+Execution governs coordinated work.
 
 Workplace provides organization context.
 
@@ -308,11 +308,11 @@ Products provide focused journeys.
 
 MGSN connects Orbits.
 
-Owning Services change formal business facts.
+Owning Services change and record formal business facts.
 
-Humans remain accountable.
+Humans remain professionally accountable.
 
-AI assists under governance.
+AI assists under explicit governance.
 ```
 
 ---

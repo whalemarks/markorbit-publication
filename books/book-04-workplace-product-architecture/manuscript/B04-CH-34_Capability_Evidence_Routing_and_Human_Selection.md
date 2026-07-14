@@ -1,6 +1,6 @@
 # B04-CH-34 — Capability Evidence, Routing and Human Selection
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part VI — Network Participation and Orbital Ecosystem Evolution
 
@@ -75,6 +75,8 @@ Appointment ≠ instruction
 
 Outcome evidence ≠ universal score
 ```
+
+**Architecture figure:** [B04-FIG-09 — Capability Evidence, Routing, and Acceptance](../figures/B04-FIG-09_Capability_Evidence_and_Routing.md)
 
 ---
 

@@ -1,6 +1,6 @@
 # B04-CH-33 — Private Networks and Trusted Extended Networks
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part VI — Network Participation and Orbital Ecosystem Evolution
 
@@ -75,6 +75,8 @@ Public discovery ≠ open bidding
 
 Network node ≠ seller inventory
 ```
+
+**Architecture figure:** [B04-FIG-08 — Private-First Network Expansion](../figures/B04-FIG-08_Private_First_Network.md)
 
 ---
 

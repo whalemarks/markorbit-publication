@@ -1,6 +1,6 @@
 # B04-CH-07 — Organization Identity and Workplace Context
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part II — Organization Context and Operating Environment
 

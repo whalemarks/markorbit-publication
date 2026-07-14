@@ -1,6 +1,6 @@
 # B04-CH-32 — Formalization, Outcome and Feedback
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part V — Outcomes, Artifacts and Delivery
 
@@ -75,6 +75,8 @@ Successful collaboration ≠ universal trust
 
 One result ≠ universal capability evidence
 ```
+
+**Architecture figure:** [B04-FIG-07 — Formalization and Outcome Feedback](../figures/B04-FIG-07_Formalization_and_Outcome_Feedback.md)
 
 ---
 
@@ -1074,7 +1076,7 @@ Artifacts carry prepared business outcomes.
 
 Execution governs protected transitions.
 
-Owning Services create formal records.
+Owning Services change and record formal business facts.
 
 External systems confirm external results.
 

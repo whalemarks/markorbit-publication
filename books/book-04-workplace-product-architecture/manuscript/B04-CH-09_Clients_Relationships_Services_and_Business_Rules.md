@@ -1,6 +1,6 @@
 # B04-CH-09 — Clients, Relationships, Services and Business Rules
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part II — Organization Context and Operating Environment
 
@@ -8,9 +8,9 @@
 
 This chapter defines how an Organization Workplace represents clients, relationship context, professional service offerings, engagement conditions, pricing context, preferences, and organization-specific business rules.
 
-Chapter 07 established the organization and active Workplace Context.
+CH07 established the organization and active Workplace Context.
 
-Chapter 08 established how people participate through relationships, roles, permissions, responsibility, and accountability.
+CH08 established how people participate through relationships, roles, permissions, responsibility, and accountability.
 
 The next question is:
 
@@ -1406,9 +1406,9 @@ AI prepares and recommends under governance.
 
 Humans decide.
 
-Execution coordinates.
+Execution governs coordinated work.
 
-Owning Services create and mutate formal business facts.
+Owning Services change and record formal business facts.
 ```
 
 Different organizations may use different client models, service packages, pricing structures, and business rules.

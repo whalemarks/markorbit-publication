@@ -1,14 +1,14 @@
 # B04-CH-22 — Product Embedding and Cross-Product Context
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part IV — Product Architecture and Product Embedding
 
 ## Chapter Purpose
 
-Chapter 20 established the constitutional principles of Product architecture.
+CH20 established the constitutional principles of Product architecture.
 
-Chapter 21 explained how Products remain independently owned, designed, released, deployed, and replaceable while consuming stable shared foundations.
+CH21 explained how Products remain independently owned, designed, released, deployed, and replaceable while consuming stable shared foundations.
 
 This chapter defines how an independent Product appears within or alongside Workplace:
 
@@ -1634,7 +1634,7 @@ Independent Product
 The constitutional outcome is:
 
 ```text
-Workplace provides context.
+Workplace provides authorized organization context.
 
 Host surface provides placement.
 
@@ -1648,7 +1648,7 @@ Execution governs protected action.
 
 Owning Services preserve formal authority.
 
-Humans remain accountable.
+Humans remain professionally accountable.
 ```
 
 CH23 now applies these principles to the first Product profile:

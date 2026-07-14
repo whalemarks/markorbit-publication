@@ -1,6 +1,6 @@
 # B04-CH-10 — Private Knowledge, AI Context, Preferences and Organizational Memory
 
-**Status:** Draft 1  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
 **Part:** Part II — Organization Context and Operating Environment
 
@@ -8,11 +8,11 @@
 
 This chapter defines how an Organization Workplace preserves private professional knowledge, assembles authorized AI context, governs preferences, and accumulates organizational memory.
 
-Chapter 07 established organization identity and active Workplace Context.
+CH07 established organization identity and active Workplace Context.
 
-Chapter 08 established people, roles, permissions, responsibility, and accountability.
+CH08 established people, roles, permissions, responsibility, and accountability.
 
-Chapter 09 established clients, relationships, service context, pricing, preferences, and organization-specific business rules.
+CH09 established clients, relationships, service context, pricing, preferences, and organization-specific business rules.
 
 The next questions are:
 
@@ -1682,11 +1682,11 @@ Cross-Workplace exchange remains purpose-limited.
 
 Local or private technical storage remains governed.
 
-Humans remain accountable.
+Humans remain professionally accountable.
 
-Execution governs consequential work.
+Execution governs coordinated and consequential work.
 
-Owning Services change formal business facts.
+Owning Services change and record formal business facts.
 ```
 
 Organizations may adopt different memory practices, personalization models, knowledge taxonomies, and technical storage choices.

@@ -1,8 +1,8 @@
 # B04-CH-04 — Position Between Core, Execution, Products and Network
 
-**Status:** Draft 2 — Pack 01 Editorial Repair  
+**Status:** Release Candidate 1  
 **Chapter Map:** B04-TOC-V0.1  
-**Writing Pack:** B04-PACK-01 — Front Matter and Part I
+**Part:** Part I — The Workplace as an Independent Orbit
 
 ## Chapter Purpose
 
@@ -96,6 +96,8 @@ Humans remain professionally accountable.
 
 AI assists under explicit governance.
 ```
+
+**Architecture figure:** [B04-FIG-02 — Constitutional Responsibility Boundary](../figures/B04-FIG-02_Responsibility_Boundary.md)
 
 ---
 
@@ -323,7 +325,7 @@ Both outcomes would break the architecture.
 
 Workplace is the unified professional operating environment of an organization.
 
-It carries the context that shared semantics and governed Execution require in order to become legitimate organizational work.
+It carries the context that shared semantics and governed Execution require to become legitimate organizational work.
 
 That context includes:
 
@@ -599,7 +601,7 @@ AI prepares.
 
 Humans review and decide.
 
-Execution coordinates.
+Execution governs coordinated work.
 
 Owning Services record formal facts.
 ```
@@ -860,7 +862,7 @@ Product captures intent.
 
 AI may prepare.
 
-Execution coordinates.
+Execution governs coordinated work.
 
 Humans review.
 

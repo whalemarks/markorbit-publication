@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-07-14 — Book 04 Release Candidate 1
+
+- Recorded owner acceptance of the CH00–CH39 architecture baseline through merge of B04-REV-0003.
+- Completed the native-English and compression audit across all forty manuscript files.
+- Normalized chapter metadata, internal chapter references, and constitutional responsibility language.
+- Added ten reusable Mermaid architecture figures and a controlled figure register.
+- Added editorial terminology guidance, source and authority notes, a reconciled glossary, and a chapter-level subject index.
+- Completed cross-book reconciliation with Books 01–03 and downstream boundaries for Books 05–07.
+- Confirmed that no Book 02 semantic amendment or Book 03 Execution amendment is required.
+- Added B04-REV-0004 and the RC1 checklist.
+- Passed structural, terminology, fence, numbering, internal-link, glossary-reference, figure, and publication-asset validation.
+- Advanced Book 04 to Release Candidate 1 with owner final publication review as the current gate.
+- Authorized no final publication without owner approval, unrestricted implementation, production deployment, or external protected action.
+
 ## 2026-07-14 — Book 04 Complete Draft 1 Full-Book Review
 
 - Completed the controlled full-book architecture and editorial review of CH00–CH39.
