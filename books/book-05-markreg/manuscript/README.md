@@ -1,8 +1,10 @@
 # Book 05 Manuscript
 
-The manuscript is controlled by B05-TOC-V0.1.
+The manuscript is controlled by the owner-accepted B05-TOC-V0.1.
 
 ## Current Drafted Files
+
+### Front Matter and Part I
 
 - B05-CH-00 — Preface
 - B05-CH-01 — Table of Contents
@@ -13,12 +15,17 @@ The manuscript is controlled by B05-TOC-V0.1.
 - B05-CH-06 — Product Principles, Boundaries and Non-Goals
 - B05-CH-07 — Full-Lifecycle Model and State Distinctions
 
-## Current Pack Status
+### Part II — Need, Strategy and Recommendation
 
-```text
-Foundation Pack: CH00–CH03 — drafted
-Pack 01 / Part I: CH04–CH07 — drafted
-Part I Review: B05-REV-0001 — completed, owner review pending
-```
+- B05-CH-08 — Need Understanding Before Forms
+- B05-CH-09 — Jurisdiction Recommendation and Filing Routes
+- B05-CH-10 — Country Bundles and Portfolio Strategy
+- B05-CH-11 — Mark Identity, Filing Units and Variants
+- B05-CH-12 — Applicant, Ownership and Authority Context
+- B05-CH-13 — Classification Recommendation
+- B05-CH-14 — Goods and Services Guidance
+- B05-CH-15 — Search, Availability and Risk Assessment
 
-The chapter map remains a candidate until owner acceptance.
+## Next Pack
+
+Part III, CH16–CH22 — Commercial Journey and Formal Intake.
