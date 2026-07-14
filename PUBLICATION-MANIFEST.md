@@ -23,11 +23,11 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](arc
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
-| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | CH00–CH22 Productization Closed — Part IV Authorized |
+| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Part IV Draft and Review Complete — Part V Authorized |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
-Book 05 has an owner-accepted chapter map, controlled Product specifications, productized CH08–CH22 and a closure review authorizing Part IV. Planned missing Book 06–07 directories are expected to produce warnings only, not validation errors.
+Book 05 has an owner-accepted chapter map, controlled Product specifications, reviewed CH00–CH29 and authorization for Part V. Planned missing Book 06–07 directories are expected to produce warnings only, not validation errors.
 
 ## Planned Book Positioning
 
@@ -69,9 +69,9 @@ Publication state: Release Candidate 1 — Owner Accepted / Portfolio Locked. CH
 
 Canonical path: `books/book-05-markreg/`
 
-Positioning: Defines the flagship full-lifecycle international trademark Product, including need understanding, recommendation, intake, filing preparation, governed execution handoff, examination, registration, maintenance, provider collaboration, and portfolio continuity.
+Positioning: Defines the flagship full-lifecycle international trademark Product, including need understanding, recommendation, intake, filing preparation, governed execution, examination, registration, maintenance, provider collaboration, and portfolio continuity.
 
-Publication state: CH00–CH22 Productization Closed — Part IV Authorized. B05-TOC-V0.1 is owner accepted. B05-SPEC-0001 through B05-SPEC-0004 define the controlled Product contracts. B05-REV-0007 closes B05-REVISION-PACK-001 and authorizes CH23–CH29.
+Publication state: Part IV Draft and Review Complete — Part V Authorized. B05-TOC-V0.1 is owner accepted. B05-SPEC-0001 through B05-SPEC-0004 define the controlled Product contracts. B05-REV-0008 accepts CH23–CH29 and authorizes CH30–CH36.
 
 ### Book 06 — MarkOrbit Lite
 
@@ -104,8 +104,8 @@ Current gate:
 Portfolio Baseline merged and effective
 → Book 05 B05-TOC-V0.1 owner accepted
 → CH00–CH22 productized and reviewed
-→ B05-REVISION-PACK-001 closed
-→ Part IV CH23–CH29 authorized
+→ Part IV CH23–CH29 drafted and reviewed
+→ Part V CH30–CH36 authorized
 ```
 
 Ready for Book 05 controlled publication drafting: **YES**

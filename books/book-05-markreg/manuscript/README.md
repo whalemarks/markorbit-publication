@@ -4,7 +4,7 @@ The manuscript is controlled by B05-TOC-V0.1, which is owner accepted.
 
 ## Drafted Range
 
-CH00–CH22.
+CH00–CH29.
 
 ## Part Status
 
@@ -12,10 +12,11 @@ CH00–CH22.
 - Part I — CH02–CH07: constitutional foundation retained
 - Part II — CH08–CH15: productized and reviewed
 - Part III — CH16–CH22: productized and reviewed
-- Part IV — CH23–CH29: authorized next writing pack
-- Parts V–VII — planned
+- Part IV — CH23–CH29: drafted and reviewed
+- Part V — CH30–CH36: authorized next writing pack
+- Parts VI–VII — planned
 
-## Productized Sequence
+## Product Sequence Through Part IV
 
 ```text
 CH08 Need Brief
@@ -33,9 +34,24 @@ CH08 Need Brief
 → CH20 Requirement Set
 → CH21 Readiness Assessment
 → CH22 Handoff Envelope and formal references
+→ CH23 Filing Package Candidate
+→ CH24 Professional Review, client confirmation and Filing Approval
+→ CH25 Capability Need, routing and Human Selection
+→ CH26 appointment, instruction and provider acceptance
+→ CH27 governed provider, connector or manual execution route
+→ CH28 submission, acknowledgement and official evidence
+→ CH29 reconciliation, safe retry, Communication and audit
 ```
 
-Each revised chapter identifies the user question, minimum information, reused context, Product artifact, reference journey, conformance behavior, primary action, change propagation and next handoff.
+## Part IV Manuscript
+
+- [CH23 — Filing Package as a Governed Artifact](B05-CH-23_Filing_Package_as_a_Governed_Artifact.md)
+- [CH24 — Professional Review and Filing Approval](B05-CH-24_Professional_Review_and_Filing_Approval.md)
+- [CH25 — Provider Discovery, Private Partners and Routing](B05-CH-25_Provider_Discovery_Private_Partners_and_Routing.md)
+- [CH26 — Provider Appointment, Instruction and Acceptance](B05-CH-26_Provider_Appointment_Instruction_and_Acceptance.md)
+- [CH27 — Direct Connector, Provider Filing and Owning Service Boundaries](B05-CH-27_Direct_Connector_Provider_Filing_and_Owning_Service_Boundaries.md)
+- [CH28 — Submission States, Acknowledgement and Official Evidence](B05-CH-28_Submission_States_Acknowledgement_and_Official_Evidence.md)
+- [CH29 — Failure, Retry, Duplicate Safety, Communication and Audit](B05-CH-29_Failure_Retry_Duplicate_Safety_Communication_and_Audit.md)
 
 ## Controlled Product Specifications
 
@@ -53,9 +69,10 @@ Each revised chapter identifies the user question, minimum information, reused c
 - B05-REV-0005 — Part II Productization Review
 - B05-REV-0006 — Part III Productization Review
 - B05-REV-0007 — CH00–CH22 Productization Closure Review
+- B05-REV-0008 — Part IV Filing Preparation and Governed Execution Review
 
 ## Next Controlled Task
 
-Draft Part IV, CH23–CH29 — Filing Preparation and Governed Execution.
+Draft Part V, CH30–CH36 — Examination, Publication and Disputes.
 
-The next canonical artifact is the `Filing Package Candidate`. Part IV must continue the `EMBERLOOP` reference journey and preserve version-specific Human Review, Filing Approval and governed Execution boundaries.
+Part V must begin from sourced official notices, statuses and deadlines and must reuse the Filing Approval, governed execution, acknowledgement, Communication and audit controls established in Part IV.

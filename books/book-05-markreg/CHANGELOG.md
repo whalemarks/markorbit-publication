@@ -1,5 +1,19 @@
 # Book 05 Changelog
 
+## 2026-07-14 — Part IV Filing Preparation and Governed Execution
+
+- Drafted CH23–CH29 as the controlled Filing Preparation and Governed Execution writing pack.
+- Defined the versioned Filing Package Candidate, source lineage, rendered views, material-change rules and package diff.
+- Separated factual confirmation, Professional Review, internal approval and version-specific Filing Approval.
+- Defined Capability Need, private-first provider discovery, evidence, eligibility, conflict, availability, Routing Recommendation and Human Selection.
+- Separated provider selection, appointment, instruction, receipt, acceptance, provider-proposed change and substitution.
+- Preserved MarkReg, Book 03 Execution, connector, provider, Owning Service and official-office boundaries.
+- Defined prepared, queued, sent, delivery, provider, official acknowledgement, correction, rejection and unknown states.
+- Added idempotency, duplicate safety, partial failure, reconciliation, safe retry, Communication and audit continuity.
+- Extended `EMBERLOOP` through US, EU and UK filing routes, acknowledgement evidence and EU unknown-state reconciliation.
+- Added B05-REV-0008 and authorized Part V, CH30–CH36 — Examination, Publication and Disputes.
+- Kept unrestricted implementation, production deployment and external protected action unauthorized.
+
 ## 2026-07-14 — Part III Productization and CH00–CH22 Closure
 
 - Rewrote CH16–CH22 around explicit user questions, Product artifacts, interfaces, reference-journey steps, conformance scenarios, version propagation and formal handoffs.
