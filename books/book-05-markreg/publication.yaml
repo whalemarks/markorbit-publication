@@ -2,7 +2,7 @@ book: "Book 05"
 title: "MarkReg: The Full-Lifecycle International Trademark Product"
 canonical_path: "books/book-05-markreg/"
 status: "complete_draft_1_editorial_finishing_active"
-phase: "pf_06b2_ch08_ch22_with_pf_01b_partial"
+phase: "pf_06b2b_ch16_ch22_with_pf_01b_partial"
 portfolio_baseline: "MO-PUB-BASELINE-0001"
 chapter_map:
   id: "B05-TOC-V0.1"
@@ -25,10 +25,18 @@ manuscript:
       approximate_prior_lines: 3891
       approximate_edited_lines: 1635
       approximate_reduction_percent: 58
-    part_ii_and_part_iii:
-      range: "08-22"
+    part_ii:
+      range: "08-15"
+      status: "complete"
+      workstream: "PF-06B2A"
+      accepted_by: "B05-REV-0020"
+      journey_steps: "EL-01-EL-08"
+      semantic_escalations: 0
+    part_iii:
+      range: "16-22"
       status: "authorized_next"
-      workstream: "PF-06B2"
+      workstream: "PF-06B2B"
+      journey_steps: "EL-09-EL-15"
     part_iv_through_part_vii:
       range: "23-47"
       status: "planned"
@@ -36,7 +44,8 @@ manuscript:
   metadata_normalization:
     "00-01": "complete_pf_01a"
     "02-07": "complete_pf_06b1"
-    "08-47": "open"
+    "08-15": "complete_pf_06b2a"
+    "16-47": "open"
     overall: "partial_required_before_rc1"
   line_edit_complete: false
   release_candidate_ready: false
@@ -69,10 +78,39 @@ controlled_record_model:
     baselines: "MR-B01-MR-B04"
     views: "MR-V01-MR-V05"
     governance: "MR-G01-MR-G10"
+part_ii_control:
+  range: "CH08-CH15"
+  status: "editorially_complete"
+  records:
+    - "MR-A01 Business Context Snapshot"
+    - "MR-A02 Need Brief"
+    - "MR-A03 Recommendation Set"
+    - "MR-A04 Option Set"
+    - "MR-C01 Applicant and Authority Context"
+  journey_steps:
+    CH08: "EL-01"
+    CH09: "EL-02"
+    CH10: "EL-03"
+    CH11: "EL-04"
+    CH12: "EL-05"
+    CH13: "EL-06"
+    CH14: "EL-07"
+    CH15: "EL-08"
+  controlled_scenarios:
+    - "MR-SCN-01"
+    - "MR-SCN-02"
+    - "MR-SCN-03"
+    - "MR-SCN-04"
+    - "MR-SCN-09"
+    - "MR-SCN-11"
+    - "MR-SCN-13"
+    - "MR-SCN-14"
+  accepted_by: "B05-REV-0020"
 reference_journeys:
   B05-JRN-A-EMBERLOOP:
     status: "controlled_through_ch47"
     step_range: "EL-01-EL-40"
+    part_ii_steps_editorially_reconciled: true
     final_state:
       united_kingdom: "registered_right_with_maintenance_obligations"
       united_states: "under_examination_after_acknowledged_response_v2"
@@ -153,9 +191,15 @@ editorial:
       status: "complete"
       scope: "CH00-CH07_and_metadata_CH02-CH07"
       accepted_by: "B05-REV-0019"
-    pf_06b2:
+    pf_06b2a:
+      status: "complete"
+      scope: "CH08-CH15_and_metadata_CH08-CH15"
+      accepted_by: "B05-REV-0020"
+    pf_06b2b:
       status: "authorized_next"
-      scope: "CH08-CH22_and_metadata_CH08-CH22"
+      scope: "CH16-CH22_and_metadata_CH16-CH22"
+    pf_06b:
+      status: "open"
     pf_06c:
       status: "planned"
       scope: "CH23-CH47_and_metadata_CH23-CH47"
@@ -164,27 +208,29 @@ editorial:
       scope: "specifications_appendices_publication_and_whole_book_closure"
   overall_status: "open"
 publication_apparatus:
-  status: "editorial_baseline_and_part_i_complete_remaining_content_and_figures_open"
+  status: "editorial_baseline_and_ch00_ch15_complete_remaining_content_and_figures_open"
   figures_planned: 12
   figures_created: 0
 reviews:
-  latest: "B05-REV-0019"
+  latest: "B05-REV-0020"
   records:
-    - "B05-REV-0001-B05-REV-0019"
+    - "B05-REV-0001-B05-REV-0020"
     - "B05-ERRATA-0001"
 publication_finishing_pack:
   id: "B05-PUBLICATION-FINISHING-PACK-001"
   status: "active"
   progress:
     pf_01a_front_matter: "complete"
-    pf_01b_metadata: "partial_ch02_ch07_complete_ch08_ch47_open"
+    pf_01b_metadata: "partial_ch02_ch15_complete_ch16_ch47_open"
     pf_02_artifacts: "complete"
     pf_03_journeys: "complete"
     pf_04_scenarios_and_surfaces: "complete"
     pf_05_jurisdiction_and_commercial: "complete"
     pf_06a_editorial_baseline: "complete"
     pf_06b1_ch00_ch07: "complete"
-    pf_06b2_ch08_ch22: "authorized_next"
+    pf_06b2a_ch08_ch15: "complete"
+    pf_06b2b_ch16_ch22: "authorized_next"
+    pf_06b_overall: "open"
     pf_06c_ch23_ch47: "planned"
     pf_06d_whole_book_closure: "planned"
     pf_06_overall: "open"
@@ -192,9 +238,9 @@ publication_finishing_pack:
     pf_08_validation: "open"
     pf_09_rc1_gate: "open"
 next_gate:
-  title: "PF-06B2 CH08-CH22 Editorial Pass"
-  authorized_by_review: "B05-REV-0019"
-  parallel_rc1_blocker: "PF-01B CH08-CH47 metadata normalization"
+  title: "PF-06B2B CH16-CH22 Editorial Pass"
+  authorized_by_review: "B05-REV-0020"
+  parallel_rc1_blocker: "PF-01B CH16-CH47 metadata normalization"
   final_publication_separate: true
 book_02_semantic_change_required: false
 book_03_execution_change_required: false
