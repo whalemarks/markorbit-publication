@@ -48,11 +48,13 @@ A typical lifecycle may be expressed as:
 Need
 → Artifact Candidate
 → Preparation
+→ Preview Render Where Useful
 → Review
 → Revision
 → Approval for Defined Use
-→ Render
+→ Final Render
 → Optional Edit
+→ Re-Review Where Material
 → Delivery / Publish / Formalization
 → Outcome
 → Feedback

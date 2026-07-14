@@ -28,9 +28,12 @@ The accepted outcome chain is:
 
 ```text
 Content and Artifact Preparation
+→ Preview Render Where Useful
 → Human Review
-→ Render
+→ Approval for Defined Use
+→ Final Render
 → Optional Edit
+→ Re-Review Where Material
 → Delivery or Publish
 → Outcome Feedback
 ```
