@@ -1,0 +1,1122 @@
+# B04-CH-31 — Render, Edit, Delivery and Publish
+
+**Status:** Draft 1  
+**Chapter Map:** B04-TOC-V0.1  
+**Part:** Part V — Outcomes, Artifacts and Delivery
+
+## Chapter Purpose
+
+CH30 defined the Artifact lifecycle.
+
+This chapter separates four operations that are often collapsed into one “generate and send” action:
+
+```text
+Render
+
+Edit
+
+Delivery
+
+Publish
+```
+
+The central question is:
+
+> What exactly changes when an Artifact is rendered, edited, delivered, or published, and which approvals, credentials, recipient contexts, confirmations, and failure states belong to each operation?
+
+The accepted outcome chain is:
+
+```text
+Content and Artifact Preparation
+→ Human Review
+→ Render
+→ Optional Edit
+→ Delivery or Publish
+→ Outcome Feedback
+```
+
+The central definitions are:
+
+```text
+Render
+=
+transformation of structured Artifact content,
+templates, Assets, and data
+into a usable representation
+
+Edit
+=
+post-processing or substantive modification
+of an existing representation or media input
+
+Delivery
+=
+controlled transfer of an approved output
+to one or more defined recipients
+
+Publish
+=
+controlled distribution of an approved output
+to a public or semi-public channel or audience
+```
+
+The constitutional distinctions are:
+
+```text
+Render ≠ Content generation
+
+Render ≠ Edit
+
+Render ≠ approval
+
+Edit ≠ Review
+
+Delivery ≠ Publish
+
+Delivery ≠ recipient acceptance
+
+Publish ≠ official fact
+
+Prepared Publish Package ≠ published
+
+User-reported publication ≠ platform-confirmed publication
+
+Platform submission ≠ public availability
+
+Open or download ≠ agreement
+
+Credential use ≠ credential disclosure
+```
+
+---
+
+## 1. Render Is a Transformation Operation
+
+Render converts a governed Artifact representation into a consumable output.
+
+Examples include:
+
+```text
+Structured proposal
+→ PDF
+
+HTML / SVG
+→ PNG
+
+React composition
+→ MP4
+
+Text
+→ audio
+
+Structured data
+→ share page
+```
+
+Render is not the source of business meaning.
+
+It transforms meaning already assembled in the Artifact.
+
+---
+
+## 2. Renderer Is a Skill or Provider
+
+A renderer may be:
+
+- local library;
+- cloud service;
+- Product component;
+- external provider;
+- deterministic engine;
+- AI-assisted engine.
+
+The technical tool does not define the architecture.
+
+The renderer implements a Capability under a Skill identity, version, data boundary, and quality profile.
+
+---
+
+## 3. Render Inputs Must Be Explicit
+
+Render may consume:
+
+- Artifact version;
+- Template version;
+- Assets;
+- fonts;
+- layout rules;
+- localization;
+- output format;
+- channel requirements;
+- accessibility settings.
+
+The render result should identify which inputs were used.
+
+---
+
+## 4. Render Should Be Deterministic Where Precision Matters
+
+Professional outputs may contain:
+
+- trademark name;
+- applicant;
+- fees;
+- dates;
+- deadlines;
+- classes;
+- jurisdiction;
+- contact details.
+
+Where precision matters, deterministic layout and variable insertion should be preferred over unconstrained image generation.
+
+AI may help prepare content and design concepts.
+
+It should not render exact professional facts unreliably.
+
+---
+
+## 5. Render May Still Fail Semantically
+
+A technically successful PDF may contain:
+
+- clipped text;
+- wrong font;
+- hidden disclaimer;
+- broken link;
+- unreadable image;
+- outdated data;
+- incorrect language.
+
+Render success is not proof of output quality.
+
+Validation may be required.
+
+---
+
+## 6. Render Result Must Preserve Artifact Version
+
+A rendered output should reference the exact Artifact version.
+
+If the Artifact changes, the old representation should not be silently relabeled as current.
+
+---
+
+## 7. Render Does Not Create Approval
+
+A user may render a draft for preview.
+
+The output remains a draft.
+
+Rendering does not prove:
+
+- professional review;
+- client approval;
+- rights clearance;
+- recipient authorization;
+- publication authority.
+
+---
+
+## 8. Preview and Final Representation Must Be Distinct
+
+A preview may include:
+
+- watermark;
+- reduced resolution;
+- placeholder;
+- hidden confidential data;
+- sample values.
+
+A final representation may require additional validation and approval.
+
+The system should not treat preview download as final Delivery.
+
+---
+
+## 9. Render Version and Artifact Version May Differ
+
+A renderer update may change layout without changing business Content.
+
+The trace may therefore include:
+
+- Artifact version;
+- renderer Skill version;
+- Template version;
+- render attempt;
+- output checksum or integrity reference.
+
+This supports reproducibility.
+
+---
+
+## 10. Edit Is Post-Processing
+
+Edit operates on an existing file, media input, or rendered representation.
+
+Examples include:
+
+- video trimming;
+- pause removal;
+- subtitle correction;
+- color adjustment;
+- audio cleanup;
+- image crop;
+- layout correction;
+- adding logo;
+- adding call to action.
+
+Edit is not the same as rendering from structured Artifact data.
+
+---
+
+## 11. Edit May Be Technical or Substantive
+
+Technical Edit may change:
+
+- encoding;
+- compression;
+- dimensions;
+- timing;
+- color balance.
+
+Substantive Edit may change:
+
+- wording;
+- fee;
+- legal statement;
+- recipient;
+- conclusion;
+- brand;
+- call to action.
+
+Substantive Edit may require a new Artifact version and Review.
+
+---
+
+## 12. Edit Does Not Equal Human Review
+
+A skilled editor may improve production quality.
+
+The editor may not be qualified to approve professional substance.
+
+Editing and reviewing are different responsibilities.
+
+---
+
+## 13. AI Edit Must Remain Traceable
+
+AI may:
+
+- remove silence;
+- generate subtitles;
+- crop media;
+- translate captions;
+- enhance audio;
+- suggest cuts.
+
+The trace should preserve:
+
+- original input;
+- AI operation;
+- output;
+- human correction;
+- rights or likeness context;
+- final review where required.
+
+---
+
+## 14. Voice and Likeness Require Authorization
+
+Edit or generation may involve:
+
+- cloned voice;
+- digital human;
+- employee image;
+- client spokesperson;
+- external creator.
+
+The organization should preserve authorization, scope, duration, and withdrawal conditions.
+
+Technical ability does not create consent.
+
+---
+
+## 15. Edit Can Create a Derivative Artifact
+
+A long training video edited into public clips may become several derivative Artifacts.
+
+Each may require:
+
+- new purpose;
+- new title;
+- new audience;
+- new rights check;
+- new review;
+- new Publish approval.
+
+---
+
+## 16. Delivery Is Targeted
+
+Delivery sends or makes an output available to defined recipients.
+
+Recipients may include:
+
+- client;
+- provider;
+- reviewer;
+- employee;
+- business unit;
+- authority;
+- external counsel.
+
+The target is known or bounded.
+
+---
+
+## 17. Publish Is Broader Distribution
+
+Publish makes an output available to:
+
+- public audience;
+- social followers;
+- marketplace viewers;
+- website visitors;
+- network participants;
+- semi-public channel.
+
+The audience may not be individually known.
+
+This changes the privacy, rights, and professional-risk profile.
+
+---
+
+## 18. Delivery and Publish May Use the Same Channel
+
+A private link may deliver to one client.
+
+A public link may publish the same type of page.
+
+The technical channel does not determine the architectural operation.
+
+Audience and purpose do.
+
+---
+
+## 19. Delivery Requires Recipient Context
+
+A Delivery request should identify:
+
+- sender organization;
+- responsible human;
+- recipients;
+- purpose;
+- Artifact version;
+- representations;
+- channel;
+- confidentiality;
+- expiry;
+- tracking policy;
+- required approval.
+
+Recipient history alone is not current authorization.
+
+---
+
+## 20. Delivery May Intersect Communication
+
+Delivering an Artifact by email or message may require a Communication.
+
+The Communication Service governs:
+
+- sender;
+- recipient;
+- thread;
+- send state;
+- attachments;
+- audit.
+
+Artifact Delivery and Communication send may be linked.
+
+They remain distinct concepts.
+
+---
+
+## 21. Delivery May Occur Without Communication
+
+A user may:
+
+- download a file;
+- access a portal;
+- receive a secure link;
+- collect a physical package;
+- retrieve from a Product surface.
+
+Delivery still requires outcome and access context.
+
+---
+
+## 22. Delivery Success Is Typed
+
+Possible results include:
+
+- prepared;
+- send requested;
+- transmitted;
+- available;
+- recipient notified;
+- downloaded;
+- acknowledged;
+- failed;
+- revoked;
+- expired.
+
+The system should not compress these into one `delivered` state without context.
+
+---
+
+## 23. Recipient Access Does Not Equal Acceptance
+
+A client may open a proposal without accepting it.
+
+A provider may download instructions without agreeing to act.
+
+A reviewer may access a report without approving it.
+
+Usage events do not replace typed decisions.
+
+---
+
+## 24. Delivery Revocation May Be Limited
+
+A secure link may be revoked.
+
+A downloaded file may remain outside organizational control.
+
+The system should not promise external deletion it cannot enforce.
+
+---
+
+## 25. Publish Requires Channel Context
+
+A Publish request should identify:
+
+- channel;
+- audience;
+- account or organization identity;
+- Artifact version;
+- title;
+- body;
+- media;
+- tags;
+- scheduling;
+- rights;
+- approval;
+- expected confirmation.
+
+---
+
+## 26. Publish Package Is a Prepared Artifact
+
+A Publish Package may contain:
+
+- approved Content;
+- media;
+- title;
+- description;
+- tags;
+- target channel;
+- account identity;
+- links;
+- rights notes;
+- review and approval;
+- fallback instructions.
+
+The package is not proof that publication occurred.
+
+---
+
+## 27. Manual Publish Assistant Is a Valid First Mode
+
+A lightweight Product may:
+
+- copy text;
+- download media;
+- open the platform;
+- show instructions;
+- ask the user to publish;
+- record user-reported outcome.
+
+This preserves user control while Product and platform integrations mature.
+
+---
+
+## 28. Local Publish Plugin Preserves Credentials
+
+A local plugin may:
+
+```text
+receive approved Publish Package
+→ open the destination platform
+→ fill permitted fields
+→ upload approved media
+→ show final state
+→ require user confirmation
+→ return result
+```
+
+Login cookies and raw credentials should remain local where possible.
+
+---
+
+## 29. User Final Confirmation Is a Strong Default
+
+Public platforms may have:
+
+- changing rules;
+- account risk;
+- irreversible visibility;
+- legal consequence;
+- recipient ambiguity;
+- platform-specific previews.
+
+User confirmation before final publication is the safe default unless later explicit governance permits another mode.
+
+---
+
+## 30. Automated Publish Requires Stronger Governance
+
+Future automation may require:
+
+- explicit organization policy;
+- channel-specific authorization;
+- approved account;
+- scheduled scope;
+- Human Review;
+- rollback or correction plan;
+- platform confirmation;
+- incident response.
+
+Automation convenience does not remove accountability.
+
+---
+
+## 31. Platform Submission Is Not Public Availability
+
+A platform may:
+
+- process media;
+- reject content;
+- hold for review;
+- publish privately;
+- fail after upload;
+- restrict reach.
+
+The system should distinguish submission from confirmed availability.
+
+---
+
+## 32. User-Reported Publish Is a Distinct Authority Level
+
+A user may state:
+
+```text
+I published this.
+```
+
+That is useful.
+
+It remains different from:
+
+- local plugin confirmation;
+- platform API confirmation;
+- verified public URL;
+- external observation.
+
+The authority level should be visible.
+
+---
+
+## 33. Publish Confirmation May Expire
+
+A public URL may later be:
+
+- deleted;
+- hidden;
+- restricted;
+- edited;
+- removed by platform;
+- made private.
+
+Publish status may require freshness or re-verification.
+
+---
+
+## 34. Public Edit After Publish Must Be Tracked
+
+A user may change the platform content after MarkOrbit records publication.
+
+The system should distinguish:
+
+- original published Artifact;
+- later platform edit;
+- current observed public version.
+
+MarkOrbit may not control external edits.
+
+---
+
+## 35. Delivery and Publish Require Rights Validation
+
+Before external use, the organization may need to verify:
+
+- Asset licenses;
+- client consent;
+- likeness rights;
+- voice rights;
+- confidentiality;
+- trademark accuracy;
+- disclaimers;
+- channel restrictions.
+
+Approval should reflect the intended audience.
+
+---
+
+## 36. Delivery and Publish Require Data-Minimization Review
+
+An Artifact may contain hidden:
+
+- client names;
+- metadata;
+- internal comments;
+- tracked changes;
+- source links;
+- personal data;
+- pricing;
+- private provider notes.
+
+External release should inspect both visible and embedded information.
+
+---
+
+## 37. Redaction Creates a New Representation or Version
+
+Redaction may remove:
+
+- client identity;
+- confidential facts;
+- fees;
+- Evidence;
+- internal analysis.
+
+The redacted output should preserve lineage and identify omitted content.
+
+A public redaction may require new Review.
+
+---
+
+## 38. Accessibility and Localization Are Outcome Requirements
+
+A representation may require:
+
+- correct language;
+- subtitles;
+- alt text;
+- readable contrast;
+- mobile layout;
+- local date format;
+- jurisdiction-specific disclaimer.
+
+These requirements belong to the intended Delivery or Publish context.
+
+---
+
+## 39. Failure Must Be Layer-Specific
+
+Failure may occur in:
+
+- Artifact validation;
+- Render;
+- Edit;
+- rights review;
+- Delivery preparation;
+- Communication send;
+- upload;
+- platform processing;
+- public verification.
+
+A generic `publish failed` message is insufficient.
+
+---
+
+## 40. Retry Must Not Duplicate External Outcomes
+
+Repeated attempts may create:
+
+- duplicate emails;
+- duplicate public posts;
+- duplicate uploads;
+- duplicate links.
+
+Idempotency and external-state checks are required where possible.
+
+---
+
+## 41. Partial Success Must Be Visible
+
+A multi-recipient Delivery may succeed for some recipients and fail for others.
+
+A multi-channel Publish may succeed on one platform and fail on another.
+
+The system should preserve per-target results.
+
+---
+
+## 42. Compensation and Correction Must Be Planned
+
+An incorrect external outcome may require:
+
+- revoke link;
+- send correction;
+- publish update;
+- delete post;
+- notify client;
+- preserve incident record.
+
+The original action should not be erased.
+
+---
+
+## 43. Approval May Be Invalidated Before Execution
+
+Between approval and Delivery or Publish:
+
+- Artifact may change;
+- recipient may change;
+- account may change;
+- rights may expire;
+- Policy may change;
+- confidential data may be added.
+
+Execution must revalidate current conditions.
+
+---
+
+## 44. Scheduling Does Not Remove Revalidation
+
+A scheduled publication may have been approved days earlier.
+
+Before execution, the system may need to verify:
+
+- Artifact version;
+- date-sensitive facts;
+- account;
+- channel;
+- rights;
+- cancellation;
+- current Policy.
+
+---
+
+## 45. Metrics Must Distinguish Technical and Business Outcomes
+
+Technical metrics may include:
+
+- render success;
+- upload success;
+- send success;
+- processing time;
+- failure rate.
+
+Business metrics may include:
+
+- client acceptance;
+- lead candidate;
+- Opportunity conversion;
+- service instruction;
+- knowledge reuse;
+- trust impact.
+
+A successful upload is not a successful business outcome.
+
+---
+
+## 46. Delivery and Publish Feedback Must Be Scoped
+
+Feedback may concern:
+
+- Content;
+- design;
+- renderer;
+- channel;
+- timing;
+- audience;
+- recommendation;
+- business result.
+
+The feedback should return to the right Product, Asset, Skill, or organization memory.
+
+---
+
+## 47. Minimum Operation Model
+
+```text
+Approved Artifact Version
+        │
+        ├── Render Request
+        │     └── Representation + Validation
+        │
+        ├── Optional Edit
+        │     └── Edited Representation or New Version
+        │
+        ├── Delivery Request
+        │     └── Defined Recipients + Typed Result
+        │
+        └── Publish Request
+              └── Defined Channel/Audience
+                  + User or Governed Confirmation
+                  + Typed Result
+```
+
+All branches preserve source, version, rights, review, approval, and outcome trace.
+
+---
+
+## 48. Required Distinctions
+
+```text
+Render ≠ generation of professional meaning
+```
+
+Render transforms governed inputs.
+
+```text
+Render ≠ Edit
+```
+
+Generation from structure differs from post-processing.
+
+```text
+Edit ≠ Review
+```
+
+Production skill does not create professional approval.
+
+```text
+Delivery ≠ Publish
+```
+
+Defined recipients differ from broader audiences.
+
+```text
+Prepared Publish Package ≠ published
+```
+
+Execution and confirmation remain.
+
+```text
+Platform submission ≠ public availability
+```
+
+External processing may intervene.
+
+```text
+User report ≠ platform confirmation
+```
+
+Authority level remains visible.
+
+```text
+Open ≠ accept
+```
+
+Interaction does not create instruction.
+
+```text
+Credential use ≠ credential disclosure
+```
+
+Execution should isolate secrets.
+
+---
+
+## 49. Failure Modes This Chapter Prevents
+
+### Render-is-content
+
+Renderer tools begin making professional decisions.
+
+### Edit-is-approval
+
+A polished video is assumed professionally approved.
+
+### Delivery-publish collapse
+
+Private client outputs become public accidentally.
+
+### Publish-package overclaim
+
+Prepared material is shown as already published.
+
+### Credential centralization
+
+Platform cookies and passwords move into shared infrastructure.
+
+### Final-click automation
+
+The system publishes without user or policy-authorized confirmation.
+
+### User-report overclaim
+
+A manual mark is shown as platform-verified.
+
+### Retry duplication
+
+Repeated attempts create multiple external outputs.
+
+### Technical-success metrics
+
+Upload count replaces professional or business value.
+
+These designs may automate distribution.
+
+They do not create controlled outcomes.
+
+---
+
+## 50. Minimum Conformance Rule
+
+A conforming outcome operation architecture must preserve:
+
+```text
+Render transforms an exact
+Artifact version using identified
+Templates, Assets, and Skills.
+
+Edit post-processes an existing
+representation and remains distinct
+from professional Review.
+
+Substantive edits create
+new versions where required.
+
+Delivery targets defined recipients.
+
+Publish targets public
+or semi-public channels or audiences.
+
+Delivery and Publish retain
+separate purpose, approval,
+rights, data, credential,
+and confirmation boundaries.
+
+Publish Package remains prepared work.
+
+User report, local plugin result,
+platform submission, public availability,
+and verified URL remain distinct.
+
+External credentials remain protected.
+
+Execution revalidates Artifact version,
+approval, recipients, account,
+rights, Policy, and idempotency.
+
+Failures and partial outcomes
+remain layer- and target-specific.
+
+Technical success remains distinct
+from business and professional outcome.
+```
+
+---
+
+## 51. Chapter Boundary
+
+This chapter defines:
+
+- Render;
+- renderer boundary;
+- deterministic precision;
+- representations;
+- Edit;
+- technical and substantive edits;
+- AI Edit;
+- voice and likeness;
+- Delivery;
+- Publish;
+- recipient and audience;
+- Communication intersection;
+- Publish Package;
+- manual assistant;
+- local plugin;
+- automation boundary;
+- platform confirmation;
+- public edits;
+- rights;
+- data minimization;
+- redaction;
+- localization;
+- failure;
+- retry;
+- partial success;
+- correction;
+- scheduling;
+- metrics;
+- feedback.
+
+It does not define:
+
+- renderer implementation;
+- video-processing technology;
+- platform-specific APIs;
+- credential vault implementation;
+- social-platform rules;
+- final Delivery or Publish status values;
+- user interface;
+- production readiness.
+
+---
+
+## 52. Chapter Conclusion
+
+The four operations solve different problems:
+
+```text
+Render makes an Artifact usable.
+
+Edit improves or changes a representation.
+
+Delivery transfers an approved outcome
+to defined recipients.
+
+Publish distributes an approved outcome
+to a broader audience.
+```
+
+The architecture must know which operation is occurring.
+
+The constitutional outcome is:
+
+```text
+Products prepare.
+
+Humans review and approve.
+
+Renderers transform.
+
+Editors post-process.
+
+Execution governs external action.
+
+Delivery reaches recipients.
+
+Publish reaches audiences.
+
+Outcomes return for learning.
+```
+
+CH32 now completes Part V:
+
+> How does an approved Artifact become a formal Core record or a verified delivered outcome, and how should usage, professional results, commercial results, failures, and feedback return to the organization and wider ecosystem?
