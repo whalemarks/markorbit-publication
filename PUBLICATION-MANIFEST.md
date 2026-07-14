@@ -23,11 +23,11 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](arc
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
-| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Part VI Draft and Review Complete — Part VII Authorized |
+| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Complete Draft 1 — CH00–CH47 Full Manuscript and Review Complete |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
-Book 05 has an owner-accepted chapter map, controlled Product specifications and reviewed CH00–CH42. B05-ERRATA-0001 confirms Part VI CH37–CH42 and Part VII CH43–CH47. Planned missing Book 06–07 directories may produce warnings only.
+Book 05 has an owner-accepted chapter map, all forty-eight manuscript files, Part VII review and a first complete-manuscript review. B05-REV-0012 records Complete Draft 1 and authorizes publication finishing. Planned missing Book 06–07 directories may produce warnings only.
 
 ## Planned Book Positioning
 
@@ -49,9 +49,9 @@ Defines independent organizational Workplaces and their consumption of MarkOrbit
 
 ### Book 05 — MarkReg: The Full-Lifecycle International Trademark Product
 
-Defines the flagship full-lifecycle international trademark Product from need understanding through portfolio continuity.
+Defines the flagship full-lifecycle international trademark Product from need understanding through governed execution, examination, registration, portfolio continuity and Product evolution.
 
-Publication state: Part VI Draft and Review Complete — Part VII Authorized. B05-REV-0010 accepts CH37–CH42. Part VII CH43–CH47 is the final writing pack before the first CH00–CH47 full-book review.
+Publication state: Complete Draft 1. CH00–CH47 are present and reviewed. B05-REV-0011 accepts Part VII. B05-REV-0012 identifies publication blockers and establishes B05-PUBLICATION-FINISHING-PACK-001. Release Candidate 1 and final publication remain unfinished gates.
 
 ### Book 06 — MarkOrbit Lite
 
@@ -77,12 +77,13 @@ Current gate:
 ```text
 Portfolio Baseline merged and effective
 → Book 05 B05-TOC-V0.1 owner accepted
-→ CH00–CH42 drafted and reviewed for continuation
-→ Part VII CH43–CH47 authorized
-→ first full-book review
+→ CH00–CH47 Complete Draft 1
+→ B05-PUBLICATION-FINISHING-PACK-001
+→ Release Candidate 1 review
+→ owner publication decision
 ```
 
-Ready for Book 05 controlled publication drafting: **YES**
+Ready for Book 05 controlled publication finishing: **YES**
 
 Ready for unrestricted implementation: **NO**
 
