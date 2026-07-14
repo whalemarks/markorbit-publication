@@ -1,5 +1,18 @@
 # Book 05 Changelog
 
+## 2026-07-14 — PF-02 Full-Lifecycle Artifact and Decision Reconciliation
+
+- Expanded B05-SPEC-0001 from a Parts I–IV draft into Controlled Specification v0.2 applying through CH47.
+- Preserved MR-CR-01 through MR-CR-08 without changing the MarkReg constitutional rules.
+- Separated Product artifacts, scoped contexts, accountable Decisions, evidence, baselines, views and governance records.
+- Assigned controlled IDs across new filing, examination, adversarial, registration, renewal, recordal, transaction, portfolio and cross-Product journeys.
+- Defined six canonical service lineages and extended version, supersession and change-propagation rules.
+- Reconciled Appendix A as a controlled full-lifecycle reader draft.
+- Completed the PF-02 state and authority mapping portion of Appendix B while leaving PF-04 scenario indexing open.
+- Added B05-REV-0014, closed PF-02 and authorized PF-03 Reference Journey Consolidation.
+- Kept PF-01B CH02–CH47 metadata normalization open as an independent RC1 blocker.
+- Confirmed that no Architecture Canon, Book 02, Book 03 or Book 04 semantic amendment is required.
+
 ## 2026-07-14 — Publication Architecture and Back Matter
 
 - Activated B05-PUBLICATION-FINISHING-PACK-001 after owner acceptance of Complete Draft 1 through merge of PR #43.

@@ -7,6 +7,8 @@
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
 - **Portfolio dependency:** MO-PUB-BASELINE-0001
 - **Primary Product:** MarkReg
+- **Current substantive gate:** PF-03 Reference Journey Consolidation
+- **Independent RC1 blocker:** PF-01B CH02–CH47 metadata normalization
 
 ## Directory Purpose
 
@@ -64,16 +66,15 @@ Appendix A–G are controlled reader-facing Back Matter outside the chapter numb
 
 ## Appendix Inventory
 
-- `appendices/B05-APP-A_Full-Lifecycle_Artifact_and_Decision_Map.md`
-- `appendices/B05-APP-B_Lifecycle_State_and_Authority_Matrix.md`
-- `appendices/B05-APP-C_Participant_Visibility_and_Action_Rights_Matrix.md`
-- `appendices/B05-APP-D_Reference_Journeys.md`
-- `appendices/B05-APP-E_Priority_Conformance_Scenarios.md`
-- `appendices/B05-APP-F_Minimum_Jurisdiction_Pack_Checklist.md`
-- `appendices/B05-APP-G_MarkReg_Conformance_Profiles.md`
-- `appendices/README.md`
-
-All seven appendices are controlled scaffolds pending specification reconciliation and publication editing.
+| Appendix | Path | Status |
+| --- | --- | --- |
+| A | `appendices/B05-APP-A_Full-Lifecycle_Artifact_and_Decision_Map.md` | controlled reader draft — PF-02 reconciled |
+| B | `appendices/B05-APP-B_Lifecycle_State_and_Authority_Matrix.md` | PF-02 state mapping complete; PF-04 scenarios pending |
+| C | `appendices/B05-APP-C_Participant_Visibility_and_Action_Rights_Matrix.md` | controlled scaffold — PF-04 pending |
+| D | `appendices/B05-APP-D_Reference_Journeys.md` | controlled scaffold — PF-03 pending |
+| E | `appendices/B05-APP-E_Priority_Conformance_Scenarios.md` | controlled scaffold — PF-04 pending |
+| F | `appendices/B05-APP-F_Minimum_Jurisdiction_Pack_Checklist.md` | controlled scaffold — PF-05 pending |
+| G | `appendices/B05-APP-G_MarkReg_Conformance_Profiles.md` | controlled scaffold — PF-04/PF-07 pending |
 
 ## Publication Apparatus Inventory
 
@@ -87,16 +88,18 @@ All seven appendices are controlled scaffolds pending specification reconciliati
 - `publication/B05-PUB-0008_RC1_Checklist.md`
 - `publication/README.md`
 
-B05-PUB-0006 is the controlled Back Matter structural baseline. Other records remain controlled scaffolds pending their assigned workstreams.
+B05-PUB-0006 is the controlled Back Matter structural baseline. Other records remain controlled drafts or scaffolds pending their assigned workstreams.
 
 ## Controlled Specifications
 
-- `specifications/B05-SPEC-0001_Product_Artifact_and_Decision_Map.md`
-- `specifications/B05-SPEC-0002_Reference_Journeys.md`
-- `specifications/B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md`
-- `specifications/B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md`
+| Specification | Status |
+| --- | --- |
+| `specifications/B05-SPEC-0001_Product_Artifact_and_Decision_Map.md` | Controlled Specification v0.2 — full-lifecycle reconciled through CH47; PF-02 complete |
+| `specifications/B05-SPEC-0002_Reference_Journeys.md` | PF-03 extension through CH47 pending |
+| `specifications/B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md` | PF-04 extension through CH47 pending |
+| `specifications/B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md` | PF-05 reconciliation pending |
 
-B05-REV-0012 requires these files to be extended and reconciled through CH47. Appendix content may not become authoritative before that reconciliation.
+Specifications remain authoritative over appendix projections when a conflict exists.
 
 ## Planning Inventory
 
@@ -115,6 +118,7 @@ B05-REV-0012 requires these files to be extended and reconciled through CH47. Ap
 - `reviews/B05-REV-0011_Part_VII_Product_Experience_and_Evolution_Review.md`
 - `reviews/B05-REV-0012_CH00-CH47_Complete_Draft_1_Review.md`
 - `reviews/B05-REV-0013_Publication_Architecture_and_Back_Matter_Review.md`
+- `reviews/B05-REV-0014_PF-02_Full-Lifecycle_Artifact_and_Decision_Reconciliation.md`
 
 ## Current Gate
 
@@ -122,9 +126,12 @@ B05-REV-0012 requires these files to be extended and reconciled through CH47. Ap
 CH00–CH47 Complete Draft 1
 → PF-01A Front Matter correction complete
 → PF-07A Back Matter architecture complete
-→ PF-01B metadata normalization
-→ PF-02 through PF-05 controlled-specification reconciliation
+→ PF-02 artifact and decision reconciliation complete
+→ PF-03 reference journey consolidation
+→ PF-04 scenario and user-surface consolidation
+→ PF-05 jurisdiction and commercial reconciliation
 → PF-06 and remaining PF-07 publication finishing
+→ PF-01B metadata normalization before validation
 → PF-08 validation
 → PF-09 Release Candidate 1 and owner publication decision
 ```
