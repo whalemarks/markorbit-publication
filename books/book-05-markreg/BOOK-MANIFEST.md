@@ -7,31 +7,31 @@
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
 - **Portfolio dependency:** MO-PUB-BASELINE-0001
 - **Primary Product:** MarkReg
-- **Completed editorial tranches:** PF-06B1 CH00–CH07 and PF-06B2A CH08–CH15
-- **Current substantive gate:** PF-06B2B — CH16–CH22
-- **Remaining RC1 metadata blocker:** PF-01B CH16–CH47
+- **Completed editorial range:** CH00–CH22
+- **Current substantive gate:** PF-06C1 — CH23–CH29
+- **Remaining RC1 metadata blocker:** PF-01B CH23–CH47
 
 ## Directory Purpose
 
 - `manuscript/` — controlled CH00–CH47 chapter files.
-- `specifications/` — controlled Product record, journey, scenario, jurisdiction and commercial contracts.
+- `specifications/` — Product record, journey, scenario, jurisdiction and commercial contracts.
 - `appendices/` — reader-facing Appendix A–G projections.
-- `publication/` — editorial standard, source notes, glossary, subject index, term audit, figure register, Back Matter map, reconciliation and RC1 checklist.
+- `publication/` — editorial, source, glossary, index, figure and RC1 records.
 - `planning/` — Product and publication-finishing plans.
-- `reviews/` — writing, architecture, reconciliation, editorial and publication Review records.
+- `reviews/` — manuscript, architecture, reconciliation and editorial Review records.
 
 ## Manuscript Inventory
 
 | Range | Part | Editorial status |
 | --- | --- | --- |
-| CH00–CH01 | Front Matter | PF-06B1 complete |
+| CH00–CH01 | Front Matter | complete |
 | CH02–CH07 | Part I — Product Constitution and Lifecycle Position | PF-06B1 complete; metadata normalized |
 | CH08–CH15 | Part II — Need, Strategy and Recommendation | PF-06B2A complete; metadata normalized |
-| CH16–CH22 | Part III — Commercial Journey and Formal Intake | PF-06B2B next |
-| CH23–CH29 | Part IV — Filing Preparation and Governed Execution | PF-06C planned |
-| CH30–CH36 | Part V — Examination, Publication and Disputes | PF-06C planned |
-| CH37–CH42 | Part VI — Registration and Portfolio Continuity | PF-06C planned |
-| CH43–CH47 | Part VII — Product Experience and Evolution | PF-06C planned |
+| CH16–CH22 | Part III — Commercial Journey and Formal Intake | PF-06B2B complete; metadata normalized |
+| CH23–CH29 | Part IV — Filing Preparation and Governed Execution | PF-06C1 next |
+| CH30–CH36 | Part V — Examination, Publication and Disputes | PF-06C2 planned |
+| CH37–CH42 | Part VI — Registration and Portfolio Continuity | PF-06C3 planned |
+| CH43–CH47 | Part VII — Product Experience and Evolution | PF-06C4 planned |
 
 Appendix A–G sit outside chapter numbering and remain subject to PF-06D and PF-08.
 
@@ -44,7 +44,7 @@ Appendix A–G sit outside chapter numbering and remain subject to PF-06D and PF
 | B05-SPEC-0003 | Controlled Specification v0.2 — PF-04 complete |
 | B05-SPEC-0004 | Controlled Specification v0.2 — PF-05 complete |
 
-Specifications remain authoritative over editorial simplification and appendix projection.
+Specifications remain authoritative over editorial simplification and Appendix projection.
 
 ## Appendix Inventory
 
@@ -81,28 +81,39 @@ PF-06A — COMPLETE
 PF-06B1 — COMPLETE
 - CH00–CH07
 - metadata CH02–CH07
-- accepted by B05-REV-0019
+- B05-REV-0019
 
 PF-06B2A — COMPLETE
 - CH08–CH15
 - metadata CH08–CH15
-- EL-01–EL-08 and controlled scenario reconciliation
-- accepted by B05-REV-0020
+- EL-01–EL-08
+- B05-REV-0020
 
-PF-06B2B — AUTHORIZED AND NEXT
+PF-06B2B — COMPLETE
 - CH16–CH22
 - metadata CH16–CH22
+- EL-09–EL-15
+- B05-REV-0021
 
-PF-06C — PLANNED
-- CH23–CH47
-- metadata CH23–CH47
+PF-06B overall — COMPLETE
+
+PF-06C1 — AUTHORIZED AND NEXT
+- Part IV, CH23–CH29
+- metadata CH23–CH29
+
+PF-06C2 — PLANNED
+- Part V, CH30–CH36
+
+PF-06C3 — PLANNED
+- Part VI, CH37–CH42
+
+PF-06C4 — PLANNED
+- Part VII, CH43–CH47
 
 PF-06D — PLANNED
 - specifications, appendices and publication apparatus
 - whole-book editorial closure
 ```
-
-PF-06B closes only after both PF-06B2A and PF-06B2B pass.
 
 ## Metadata Inventory
 
@@ -110,22 +121,26 @@ PF-06B closes only after both PF-06B2A and PF-06B2B pass.
 CH00–CH01: COMPLETE under PF-01A
 CH02–CH07: COMPLETE under PF-06B1
 CH08–CH15: COMPLETE under PF-06B2A
-CH16–CH47: OPEN
+CH16–CH22: COMPLETE under PF-06B2B
+CH23–CH47: OPEN
 PF-01 overall: OPEN
 ```
 
-## Part II Controlled Records
+## Controlled Part III Records
 
 ```text
-MR-A01 — Business Context Snapshot
-MR-A02 — Need Brief
-MR-A03 — Recommendation Set
-MR-A04 — Option Set
-MR-C01 — Applicant and Authority Context
-EL-01–EL-08 — EMBERLOOP Part II steps
+MR-A05 — Proposal
+MR-A06 — Quote
+MR-D01 — Client Acceptance
+MR-A07 — Commercial Instruction
+MR-A08 — Formal Intake
+MR-A09 — Requirement Set
+MR-A10 — Readiness Assessment
+MR-A12 — Handoff Envelope
+EL-09–EL-15 — EMBERLOOP Part III steps
 ```
 
-Part II recommendations do not create Quote acceptance, Order, Matter, Filing Approval, filing or Official Truth.
+Formal references returned through the Handoff do not mean filing submitted or officially acknowledged.
 
 ## Controlled Scenarios, Profiles and Pack States
 
@@ -145,13 +160,11 @@ Profile or support claim cannot exceed Pack, scenario, operational and authority
 ## Current Reviews
 
 - B05-REV-0001 through B05-REV-0013 — manuscript, architecture and publication-baseline reviews;
-- B05-REV-0014 — PF-02;
-- B05-REV-0015 — PF-03;
-- B05-REV-0016 — PF-04;
-- B05-REV-0017 — PF-05;
-- B05-REV-0018 — PF-06A editorial baseline;
-- B05-REV-0019 — PF-06B1 Front Matter and Part I;
-- B05-REV-0020 — PF-06B2A Part II.
+- B05-REV-0014 through B05-REV-0017 — PF-02 through PF-05;
+- B05-REV-0018 — PF-06A;
+- B05-REV-0019 — PF-06B1;
+- B05-REV-0020 — PF-06B2A;
+- B05-REV-0021 — PF-06B2B and PF-06B closure.
 
 ## Current Gate
 
@@ -159,12 +172,13 @@ Profile or support claim cannot exceed Pack, scenario, operational and authority
 CH00–CH47 Complete Draft 1
 → PF-02 through PF-05 complete
 → PF-06A complete
-→ PF-06B1 CH00–CH07 complete
-→ PF-06B2A CH08–CH15 complete
-→ PF-06B2B CH16–CH22
-→ PF-06C CH23–CH47
+→ PF-06B CH00–CH22 complete
+→ PF-06C1 CH23–CH29
+→ PF-06C2 CH30–CH36
+→ PF-06C3 CH37–CH42
+→ PF-06C4 CH43–CH47
 → PF-06D whole-book closure
-→ PF-07 figures and remaining publication apparatus
+→ PF-07 figures and publication apparatus
 → PF-08 validation
 → PF-09 Release Candidate 1 and owner publication Decision
 ```
