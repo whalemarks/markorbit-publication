@@ -12,13 +12,14 @@ This directory contains owner, architecture, chapter-map, manuscript, productiza
 - `B05-REV-0006_Part_III_Productization_Review.md` — closes Part III revision findings
 - `B05-REV-0007_CH00-CH22_Productization_Closure_Review.md` — closes B05-REVISION-PACK-001 and authorizes Part IV
 - `B05-REV-0008_Part_IV_Filing_Preparation_and_Governed_Execution_Review.md` — accepts CH23–CH29 and authorizes Part V
-- `B05-REV-0009_Part_V_Examination_Publication_and_Disputes_Review.md` — accepts CH30–CH36; its Part VI range and title list are corrected by B05-ERRATA-0001
-- `B05-ERRATA-0001_Part_VI_Chapter_Boundary.md` — confirms Part VI CH37–CH42 and Part VII CH43–CH47 under B05-TOC-V0.1
+- `B05-REV-0009_Part_V_Examination_Publication_and_Disputes_Review.md` — accepts CH30–CH36; Part VI range corrected by B05-ERRATA-0001
+- `B05-ERRATA-0001_Part_VI_Chapter_Boundary.md` — confirms Part VI CH37–CH42 and Part VII CH43–CH47
 - `B05-REV-0010_Part_VI_Registration_and_Portfolio_Continuity_Review.md` — accepts CH37–CH42 and authorizes Part VII
 - `B05-REV-0011_Part_VII_Product_Experience_and_Evolution_Review.md` — accepts CH43–CH47 and authorizes complete-manuscript review
 - `B05-REV-0012_CH00-CH47_Complete_Draft_1_Review.md` — records Complete Draft 1 and defines publication-finishing blockers
-- `B05-REV-0013_Publication_Architecture_and_Back_Matter_Review.md` — accepts PF-01A Front Matter correction and PF-07A Back Matter architecture while leaving PF-01 and PF-07 open
-- `B05-REV-0014_PF-02_Full-Lifecycle_Artifact_and_Decision_Reconciliation.md` — accepts B05-SPEC-0001 v0.2, Appendix A and the PF-02 portion of Appendix B; closes PF-02 and authorizes PF-03
+- `B05-REV-0013_Publication_Architecture_and_Back_Matter_Review.md` — accepts PF-01A and PF-07A architecture
+- `B05-REV-0014_PF-02_Full-Lifecycle_Artifact_and_Decision_Reconciliation.md` — closes PF-02 and authorizes PF-03
+- `B05-REV-0015_PF-03_Reference_Journey_Consolidation.md` — accepts B05-SPEC-0002 v0.2 and Appendix D, closes PF-03 and authorizes PF-04
 
 ## Current Gate
 
@@ -28,8 +29,9 @@ CH00–CH47 remain Complete Draft 1.
 PF-01A: COMPLETE
 PF-01B: OPEN — required before RC1
 PF-02: COMPLETE
-PF-03: AUTHORIZED AND NEXT
-PF-04–PF-09: OPEN
+PF-03: COMPLETE
+PF-04: AUTHORIZED AND NEXT
+PF-05–PF-09: OPEN
 ```
 
 Release Candidate 1, final publication, implementation, production deployment and external protected action remain separate gates.
