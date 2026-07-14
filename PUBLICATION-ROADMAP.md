@@ -1,206 +1,112 @@
 # Publication Roadmap
 
-## Phase 0: Repository Initialization
+## Phase 0 — Repository Initialization
 
-Create the unified MarkOrbit publication repository structure, root governance files, shared directories, review directories, release directories, and controlled task directories.
+Create the unified publication structure, governance files, shared assets, review records, release artifacts and controlled task records.
 
-## Phase 1: Book 02 Migration
+## Phase 1 — Book 02 Migration
 
-Move Book 02 into its canonical publication path through a separate approved migration task.
+Move Book 02 into its canonical publication path.
 
-## Phase 2: Validation Tools
+## Phase 2 — Validation Tools
 
-Define and add repository validation tools after the publication structure is stable.
+Define repository validation after the publication structure stabilizes.
 
-## Phase 3: Book 02 Round 3 Cleanup
+## Phase 3 — Book 02 Round 3 Cleanup
 
-Perform Book 02 Round 3 cleanup after migration and validation planning are complete.
+Complete controlled cleanup without bypassing the frozen semantic-change process.
 
-## Phase 4: Release Candidate Packaging
+## Phase 4 — Release Candidate Packaging
 
-Package Book 02 release-candidate artifacts after review and cleanup are approved.
+Package approved Book 02 release-candidate artifacts.
 
-## Phase 5: Complete Draft 1 — Owner Accepted
+## Phase 5 — Book 03 Complete Draft 1
 
-Book 03 — MarkOrbit Execution System contains CH00–CH34 and Appendices A–H as Complete Draft 1 / Owner Accepted. Final publication readiness, unrestricted implementation readiness, and external protected-action authority remain separate gates and are not approved.
+Record CH00–CH34 and Appendices A–H as Complete Draft 1 / Owner Accepted while keeping implementation and protected-action gates separate.
 
-## Phase 6: Book 03 Publication Finishing
+## Phase 6 — Book 03 Publication Finishing
 
-Established the publication-finishing workstream for Book 03. Phase 14 completes the Portfolio Baseline portion through structural and terminology reconciliation, publication apparatus, figures, cross-book review and RC1 packaging. Final public-release copyediting and rendered-format review remain separate tasks.
+Complete structural, terminology, apparatus, figure and cross-book preparation.
 
-## Phase 7: Book 02 Core Specification Baseline Freeze
+## Phase 7 — Book 02 Core Baseline Freeze
 
-Book 02 v0.1 is frozen after acceptance and merge of its baseline tasks. Future Book 02 semantic changes require the existing Change Proposal process.
+Freeze Book 02 v0.1; future semantic changes require the existing Change Proposal process.
 
 ## Phase 8 — Orbital Architecture Canon vNext
 
-Owner confirmed the MarkOrbit Orbital Professional Operating Architecture working baseline effective 2026-07-13.
+Confirm Workplace as the independent organizational Orbit and preserve Book 02, Book 03, Product and network boundaries.
 
-Phase 8 records that:
+## Phases 9–13 — Book 04
 
-- Workplace is the independent organizational Orbit and primary operating unit of the ecosystem.
-- Book 04 is MarkOrbit Workplace and Product Architecture.
-- Information, Knowledge, Capability, Value, and Artifact are horizontal operating planes, not replacements for the Operating System architecture.
-- MarkReg, Lite, and MGSN remain separate future publication subjects.
-- Book 02 remains the Frozen Core Specification Baseline v0.1.
-- No unrestricted implementation, production deployment, or external protected action is authorized.
+Create the Book 04 scaffold, accept B04-TOC-V0.1, draft CH00–CH39, complete the full-book review and advance to Release Candidate 1 with owner acceptance and portfolio lock.
 
-## Phase 9 — Book 04 Minimal Scaffold
+## Phase 14 — Books 01–04 Portfolio Baseline
 
-Created the canonical Book 04 directory, identity, scope, governance, dependency map, provisional chapter map, and initial planning records.
-
-## Phase 10 — Book 04 Chapter Map Owner Acceptance
-
-Established B04-TOC-V0.1, locked the six-part CH00–CH39 structure, resolved the initial chapter-map open question, and approved the initial Pack 01 direction.
-
-## Phase 11 — Book 04 CH00–CH27 Draft and Review
-
-Front Matter and Parts I–IV were drafted through CH27 and reviewed as one consolidated architecture and editorial baseline. B04-REV-0002 remains the historical record of that stage.
-
-## Phase 12 — Book 04 Complete Draft 1 and Full-Book Architecture Review
-
-CH28–CH39 completed Parts V and VI. CH00–CH39 formed the complete Draft 1 baseline. B04-REV-0003 recorded the full-book review and targeted architecture revisions. Merge of that review established owner acceptance of the architecture baseline without authorizing final publication or implementation.
-
-## Phase 13 — Book 04 Publication Finishing and Release Candidate 1
-
-Book 04 publication finishing is complete and Release Candidate 1 has passed validation.
-
-Phase 13 records that:
-
-- CH00–CH39 remain forty manuscript files under B04-TOC-V0.1;
-- all chapter metadata is normalized to Release Candidate 1;
-- native-English and compression review is complete;
-- constitutional responsibility wording and internal chapter references are normalized;
-- ten reusable architecture figures are available;
-- editorial style and terminology guidance is complete;
-- source and authority notes are complete;
-- the Book 04 glossary and subject index are complete;
-- cross-book reconciliation with Books 01–03 and downstream Books 05–07 passes;
-- no Book 02 semantic amendment is required;
-- no Book 03 Execution amendment is required;
-- B04-REV-0004 records publication finishing and RC1 validation;
-- owner final publication review was completed through merge of PR #31;
-- no unrestricted implementation, production deployment, or external protected action is authorized.
-
-## Phase 14 — Books 01–04 Portfolio Baseline Review
-
-MO-PUB-REV-0001 completed the one-time baseline review.
-
-Phase 14 records that:
-
-- Book 01 Chapter 1 was restored and Book 01 advanced to RC1;
-- Book 01 publication mapping and Orbital Architecture language were reconciled;
-- Book 02 remains frozen and requires no semantic Change Proposal;
-- Book 03 active Book 04 and Workplace terminology was corrected;
-- Book 03 publication finishing completed and advanced to RC1;
-- Book 04 RC1 owner approval through merge was recorded;
-- MO-PUB-BASELINE-0001 was owner accepted through merge of PR #32;
-- Book 05 planning and controlled drafting may proceed;
-- unrestricted implementation, production deployment and external protected action remain unauthorized.
+Complete MO-PUB-REV-0001 and make MO-PUB-BASELINE-0001 effective for downstream Product publications.
 
 ## Phase 15 — Book 05 Foundation and Part I
 
-Created the canonical Book 05 directory and established the first dedicated Product publication on the Books 01–04 Portfolio Baseline.
+Create Book 05, establish `MarkReg: The Full-Lifecycle International Trademark Product`, accept B05-TOC-V0.1 and draft CH00–CH07.
 
-Phase 15 records that:
+## Phase 16 — Book 05 Part II
 
-- the title is `MarkReg: The Full-Lifecycle International Trademark Product`;
-- B05-TOC-V0.1 defines CH00–CH47 across seven parts;
-- Product positioning, dependency, governance, and writing gates are defined;
-- CH00–CH07 complete the Foundation and Part I Product constitution;
-- B05-REV-0001 records the Part I architecture review;
-- merge of PR #33 and the instruction to continue establish owner acceptance of the title, scope, map, Part I, and writing-pack sequence;
-- Book 02, Book 03, and Book 04 authority boundaries remain unchanged;
-- unrestricted implementation, production deployment, and external protected action remain unauthorized.
+Draft and productize CH08–CH15 — Need, Strategy and Recommendation — around explicit user surfaces, artifacts, jurisdiction-pack dependencies and conformance scenarios.
 
-## Phase 16 — Book 05 Part II: Need, Strategy and Recommendation
+## Phase 17 — Book 05 Part III
 
-Drafted CH08–CH15 and later productized them under B05-REVISION-PACK-001.
-
-Phase 16 records that:
-
-- Need Understanding precedes forms;
-- jurisdiction and filing-route recommendations remain explainable candidates;
-- country bundles remain Product decision interfaces rather than merged legal rights;
-- mark identity and filing units remain explicit and versioned;
-- client, applicant, owner, payer, signatory, representative, and instructor remain distinct;
-- class candidates remain separate from goods/services wording;
-- goods/services candidates remain separate from approved filing scope;
-- search and risk assessments remain bounded by purpose, query, source, coverage, and checked date;
-- CH08–CH15 define explicit user surfaces, artifacts, `EMBERLOOP` continuity and conformance scenarios;
-- B05-REV-0005 closes the Part II productization findings;
-- no upstream architecture amendment is required.
-
-## Phase 17 — Book 05 Part III: Commercial Journey and Formal Intake
-
-Drafted CH16–CH22 and later productized them under B05-REVISION-PACK-001.
-
-Phase 17 records that:
-
-- Proposal, price basis, Quote, Acceptance, and Commercial Instruction remain distinct;
-- official fees, professional fees, provider costs, tax, currency, later-stage fees, discounts, margins and uncertainty remain visible and controlled;
-- Formal Intake is service-specific, versioned, source-aware, and purpose-bound;
-- document requirement, source file, formal Document, POA, signature, certification, original, and delivery remain distinct;
-- Readiness is purpose-specific and dimensional rather than one completion score;
-- Order, Matter, payment, responsibility, Workflow, Filing Approval, and submission remain distinct;
-- Handoff Envelopes are versioned, idempotent and traceable;
-- Owning Services create and record formal business facts;
-- B05-REV-0006 closes the Part III productization findings;
-- no upstream architecture amendment is required.
+Draft and productize CH16–CH22 — Commercial Journey and Formal Intake — including pricing, Quote, Intake, documents, Readiness and formal handoffs.
 
 ## Phase 18 — Book 05 CH00–CH22 Productization Closure
 
-B05-REV-0007 completed the follow-up whole-draft review and closed B05-REVISION-PACK-001.
+Close B05-REVISION-PACK-001 through B05-REV-0007 and authorize Part IV.
 
-Phase 18 records that:
+## Phase 19 — Book 05 Part IV
 
-- B05-SPEC-0001 through B05-SPEC-0004 provide the canonical Product contracts;
-- CH08–CH22 are productized around observable user questions, artifacts, scenarios and handoffs;
-- the `EMBERLOOP` reference journey runs from Need Brief through returned Order and Matter references;
-- the `RIVERKITE` case remains the contrasting renewal and ownership journey;
-- all blocking B05-REV-0004 Product-definition findings are closed;
-- historical draft labels in unchanged CH00–CH07 headers are non-blocking publication-cleanup items;
-- CH00–CH22 are accepted as the foundation for continuation;
-- Part IV, CH23–CH29, is authorized;
-- unrestricted implementation, production deployment and external protected action remain unauthorized.
+Draft and review CH23–CH29 — Filing Preparation and Governed Execution.
 
-## Phase 19 — Book 05 Part IV: Filing Preparation and Governed Execution
+Phase 19 establishes:
 
-Drafted and reviewed CH23–CH29 as one controlled writing pack.
+- Filing Package Candidate and version-specific Filing Approval;
+- private-first provider routing and Human Selection;
+- provider appointment, instruction and acceptance;
+- connector, provider, manual and Owning Service execution boundaries;
+- acknowledgement, unknown states, idempotency, safe retry, Communication and audit.
 
-Phase 19 records that:
+B05-REV-0008 authorizes Part V.
 
-- the Filing Package Candidate is versioned, source-linked, purpose-bound and diffable;
-- factual confirmation, Professional Review, internal approval and Filing Approval remain separate;
-- Capability Need precedes provider discovery and private organization relationships remain private-first;
-- provider recommendation, Human Selection, appointment, instruction, receipt and acceptance remain separate;
-- MarkReg, Book 03 Execution, connectors, providers, Owning Services and official offices retain distinct authority;
-- manual official-portal filing remains governed and auditable;
-- prepared, queued, sent, delivered, provider-reported, officially acknowledged, rejected, correction-required and unknown states remain distinct;
-- idempotency, duplicate safety, partial failure, reconciliation, safe retry, Communication and audit continuity are defined;
-- `EMBERLOOP` continues through US, EU and UK filing routes and EU acknowledgement reconciliation;
-- B05-REV-0008 accepts Part IV and authorizes Part V, CH30–CH36;
-- no Architecture Canon, Book 02, Book 03 or Book 04 amendment is required;
-- unrestricted implementation, production deployment and external protected action remain unauthorized.
+## Phase 20 — Book 05 Part V
 
-## Phase 20 — Book 05 Part V: Examination, Publication and Disputes
+Draft and review CH30–CH36 — Examination, Publication and Disputes.
 
-Drafted and reviewed CH30–CH36 as one controlled writing pack.
+Phase 20 establishes:
 
-Phase 20 records that:
+- sourced Official Event Snapshots;
+- Examination Context, Issue Set and Response Strategy;
+- governed Response Packages and evidence;
+- Publication Windows and opposition detection;
+- adversarial and remedy contexts;
+- Deadline Records, Client Decision Records and outcome Communication.
 
-- post-filing work begins from sourced Official Event Snapshots rather than unsourced status labels;
-- Examination Context, Issue Set, Response Strategy, Response Package and Outcome Snapshot remain versioned and distinct;
-- corrected notices, stale status, source conflicts and deadline calculations remain visible and reviewable;
-- response preparation reuses Part IV Professional Review, Filing Approval, Execution, acknowledgement and audit controls;
-- publication remains distinct from registration and verified window closure requires source evidence;
-- informal concern, observation, opposition and accepted proceeding remain distinct;
-- adversarial Matters preserve parties, grounds, scope, evidence, settlement authority, costs and procedural closure;
-- appeal, review, correction, cancellation, invalidation, restoration and recordal remain separate remedy contexts;
-- Deadline Record, Client Decision Record and Communication Packet preserve source, authority, escalation and correction history;
-- `EMBERLOOP` continues through US examination response, EU opposition and UK publication-window closure;
-- `RIVERKITE` continues through cancellation defense, ownership conflict and linked recordal and renewal work;
-- B05-REV-0009 accepts Part V and authorizes Part VI, CH37–CH43;
+B05-REV-0009 substantively accepts Part V. Its incorrect Part VI range and title list are corrected by B05-ERRATA-0001.
+
+## Phase 21 — Book 05 Part VI
+
+Draft and review CH37–CH42 — Registration and Portfolio Continuity.
+
+Phase 21 records that:
+
+- B05-TOC-V0.1 controls Part VI as CH37–CH42 and Part VII as CH43–CH47;
+- registration, official record, certificate, Evidence, Product projection and Right Baseline remain distinct;
+- registered scope is compared with filed and approved scope;
+- Maintenance Obligation Sets preserve official, calculated, internal and reminder dates;
+- renewal remains a governed package, approval, filing and acknowledgement sequence;
+- business facts, internal data, recordal packages and official updates remain distinct;
+- assignments, licences, mergers and chain-of-title links preserve contractual and official effects;
+- portfolios remain explainable views across independent rights and jurisdictions;
+- monitoring signals create review candidates rather than automatic protected actions;
+- `EMBERLOOP` continues through UK registration and maintenance while US and EU states remain independent;
+- `RIVERKITE` continues through renewal, ownership correction, cancellation defense, evidence and licence review;
+- B05-REV-0010 accepts Part VI and authorizes Part VII, CH43–CH47;
 - no Architecture Canon, Book 02, Book 03 or Book 04 amendment is required;
 - unrestricted implementation, production deployment and external protected action remain unauthorized.
 
@@ -208,7 +114,8 @@ Phase 20 records that:
 
 - Architecture Canon maintenance
 - Books 01–04 Portfolio Baseline maintenance
-- Book 05 Part VI — Registration and Portfolio Continuity
+- Book 05 Part VII — Product Experience and Evolution
+- Book 05 first CH00–CH47 full-book review
 - Repository Canonical Alignment Audits
 - Lite Product-loop validation
 - MarkReg Product planning
@@ -217,7 +124,7 @@ Phase 20 records that:
 
 ## Horizontal Architecture and Implementation Workstreams
 
-The following remain horizontal architecture/specification or implementation workstreams, not replacements for the Operating System architecture:
+These remain horizontal specifications or implementation workstreams, not replacements for the Operating System architecture:
 
 - Mo Information & Value Stack
 - Mo Crawl
@@ -234,13 +141,9 @@ The following remain horizontal architecture/specification or implementation wor
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
-| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Part V Draft and Review Complete — Part VI Authorized |
+| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Part VI Draft and Review Complete — Part VII Authorized |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
-
-Publication order does not determine software implementation order. Planned missing Book 06–07 directories may produce manifest warnings but must not produce validation errors.
-
-## Post-Baseline Publication Sequence
 
 ```text
 Books 01–04 Portfolio Baseline
