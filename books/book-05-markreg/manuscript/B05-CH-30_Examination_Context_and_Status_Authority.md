@@ -1,435 +1,192 @@
 # B05-CH-30 — Examination Context and Status Authority
 
-**Status:** Part V Draft  
+**Status:** Complete Draft 1  
 **Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part V — Examination, Publication and Disputes
 
 ## Chapter Purpose
 
-Part IV ends when a filing or other protected action has been reconciled to reliable evidence.
+Part V begins only when a sourced event changes the procedural context of an application, registration or proceeding.
 
-Part V begins when an office, tribunal, provider, opposing party or verified external source creates a new event that may change scope, deadline, cost, risk or outcome.
+CH30 answers:
 
-The first Product question is:
-
-> What happened, according to which authority, when was it verified, and what professional context must now be opened?
+> What happened, according to which source, when was it verified, which right and scope are affected, and which professional context must now open?
 
 ```text
-Official or external event
-→ source verification
-→ Official Event Snapshot
-→ Examination Context
-→ issue and deadline extraction
-→ professional triage
+sourced event
+→ MR-E05 Official Event Snapshot
+→ scoped professional Context
+→ MR-E06 deadline candidates
+→ issue or monitoring work
 ```
 
-A displayed status is not authoritative merely because it looks current.
-
----
+A Product status is a projection. It is not Official Truth.
 
 ## 1. User Question and Primary Action
 
-**User question:** What is the current procedural event, what does it mean for this right, and what must happen next?
+**User question:** What is the latest verified event, what does it affect and what must happen next?
 
-**Primary action:** Review the sourced event summary and open the required professional triage.
+**Primary action:** Review the sourced event and route it to the required professional owner.
 
-The Product must show:
+The surface must show source, retrieval time, affected right, event type, deadline status, uncertainty and next action.
 
-- source and retrieval time;
-- affected application, registration, proceeding or filing unit;
-- event type;
-- stated deadline and its authority;
-- whether the event is verified, stale, conflicting or incomplete;
-- the responsible professional and immediate next action.
+## 2. Official Event Snapshot
 
----
+`MR-E05 Official Event Snapshot` preserves what the source reports before professional interpretation changes its meaning.
 
-## 2. The Examination Context
+Minimum fields include:
 
-An Examination Context is a Product-local, versioned working context for a verified post-filing event.
+- jurisdiction, office and official identifier;
+- affected application, registration, filing unit or proceeding;
+- event type and event date;
+- source type, source reference and immutable Document or record;
+- retrieval time and retrieval method;
+- stated deadline or calculation trigger;
+- verified, stale, conflicting, incomplete or interpretation-required state;
+- prior snapshot and supersession link;
+- responsible professional and next verification trigger.
 
-It references rather than replaces:
+A later correction creates a new snapshot. It does not overwrite the earlier source.
 
-- the formal Matter;
-- official application or proceeding identifiers;
-- Filing Package and response-package versions;
-- official notices and registry records;
-- provider Communications;
-- deadlines and responsible actors;
-- prior decisions and approvals.
+## 3. Source Hierarchy
 
-```text
-Examination Context
-≠ official file
-≠ formal Matter
-≠ legal conclusion
-≠ response strategy
-≠ outcome
-```
-
-The applicable Owning Service remains authoritative for formal Matter and Document records.
-
----
-
-## 3. Official Event Snapshot
-
-The Product should create an Official Event Snapshot containing:
-
-| Field | Minimum requirement |
-| --- | --- |
-| event identity | stable Product event identifier |
-| affected right | official identifier, jurisdiction, route and filing unit |
-| event type | examination notice, formality request, publication, opposition, decision, status change or other sourced event |
-| source | office notice, official portal, official register, tribunal record, verified provider evidence or other identified source |
-| source authority | official, provider-reported, party-reported or inferred |
-| source version | notice date, document version, portal record or retrieval version |
-| retrieval | timestamp, method and actor or connector |
-| effective date | stated event date where available |
-| deadline | stated or calculated date with source and rule version |
-| attachments | source Documents and hashes or stable references |
-| confidence | verified, interpretation-required, stale, conflicting, incomplete or unavailable |
-| supersession | prior snapshot or event replaced by this event |
-
-The snapshot preserves what the source said. Interpretation belongs to later professional work.
-
----
-
-## 4. Source Hierarchy
-
-The Product should distinguish source strength rather than combine every statement into one status.
-
-A typical hierarchy is:
+The Product preserves the difference between:
 
 ```text
-Official notice or tribunal document
-→ authenticated official portal record
-→ official public register
-→ verified provider filing or receipt evidence
-→ provider or party report
-→ client report
-→ Product inference
+official notice or tribunal Document
+authenticated official portal record
+official public register
+verified provider-returned official evidence
+provider or party report
+client report
+Product or AI inference
 ```
 
-The hierarchy is contextual. A formal notice may control a response obligation even when a public register has not yet updated.
+The strongest source depends on the event. A formal notice may control a response obligation before a public register updates.
 
-The Product must preserve both records and explain the difference.
+Provider or party reports may justify urgent review, but they remain qualified until stronger evidence is obtained.
 
----
+## 4. Contexts Opened by the Event
 
-## 5. Product Projection and Official Truth
+One Official Event Snapshot may open or update:
 
-MarkReg may display a user-friendly projection such as:
+- `MR-C03 Examination Context`;
+- `MR-C04 Publication Window Context`;
+- `MR-C05 Adversarial Context`;
+- `MR-C06 Remedy Context`;
+- a new formal Matter request where the proceeding has a separate identity.
+
+The Product Context references the formal Matter and source records. It does not replace them.
+
+## 5. Status and State Boundaries
 
 ```text
-Response required
-Publication open
-Opposition pending
-Decision issued
-Status needs verification
+Event detected ≠ event verified
+Event verified ≠ professional interpretation
+Professional interpretation ≠ strategy
+Strategy ≠ Filing Approval
+Action filed ≠ official outcome
+Product projection ≠ Official Truth
 ```
 
-Every projection must retain:
+Client labels such as `Response required`, `Publication open` or `Opposition pending` must remain traceable to their source and checked time.
 
-- underlying source;
-- retrieval time;
-- interpretation status;
-- responsible reviewer where interpretation is material;
-- known conflicts;
-- next verification trigger.
+## 6. Deadline Candidate
 
-MR-CR-05 applies: Product projection is not official truth without source evidence.
+A deadline candidate records:
 
----
-
-## 6. Event Types
-
-Part V may receive:
-
-- formality deficiency;
-- examination report;
-- office action or provisional refusal;
-- request for clarification, amendment or evidence;
-- acceptance or approval for publication;
-- publication or opposition-window opening;
-- opposition, observation or third-party submission;
-- suspension, stay or procedural hold;
-- hearing, conference or case-management direction;
-- refusal, partial refusal, acceptance or other decision;
-- appeal or review availability;
-- cancellation, invalidation or revocation event;
-- corrected or superseding notice;
-- official status change with no attached notice;
-- provider-reported event awaiting official verification.
-
-The event type controls which Product journey may open next.
-
----
-
-## 7. Event State
-
-An event may be:
-
-```text
-Detected
-Source pending
-Source received
-Verification required
-Verified
-Interpretation required
-Triaged
-Decision pending
-Action in preparation
-Action filed
-Outcome pending
-Superseded
-Closed
-Unknown
-```
-
-These are Product states. They do not rename official procedural states.
-
----
-
-## 8. Deadline Extraction
-
-A deadline record should contain:
-
-- triggering event;
-- stated date or calculation basis;
-- jurisdiction-pack and rule version;
-- calendar, time zone and cutoff assumptions;
-- extension or restoration information where sourced;
-- official and internal safety dates;
+- triggering event and source;
+- stated date or sourced calculation basis;
+- Jurisdiction Pack and Rule version;
+- time zone, calendar and cutoff;
+- extension, suspension or restoration conditions;
+- official date and internal safety target;
 - verification status;
-- responsible deadline owner;
-- escalation path;
-- affected action and consequence.
+- owner, escalation and consequence.
 
-A date extracted by AI is a candidate until verified under the applicable policy.
+An AI-extracted date remains a candidate until governed verification is complete.
 
----
+## 7. Corrected, Conflicting and Stale Events
 
-## 9. Conflicting Dates and Statuses
+For `MR-SCN-10`, stale status must be labelled and refreshed before deadline-sensitive action relies on it.
 
-Conflicts may include:
+For `MR-SCN-26`, a corrected notice must:
 
-- notice date differs from portal date;
-- provider states a deadline that differs from the notice;
-- register shows pending while a decision has issued;
-- two notices appear to govern the same issue;
-- corrected notice changes the response period;
-- local counsel and internal calculation use different time zones.
+1. preserve both source versions;
+2. supersede the affected Snapshot and Deadline Record;
+3. identify affected Issue Sets, Decisions, Packages and Communications;
+4. require renewed Review or approval where needed.
 
-The Product must:
+For `MR-SCN-27`, conflicting deadline advice remains visible until an eligible professional applies the source hierarchy and records the adopted basis.
 
-1. preserve each source;
-2. identify the conflict;
-3. block unsupported certainty;
-4. assign professional verification;
-5. record the adopted date and reason;
-6. retain the superseded calculation.
+## 8. Participant Surfaces
 
----
+The client sees the verified event, affected scope, immediate deadline, decision need and next action.
 
-## 10. Corrected and Superseding Events
+The professional sees the original source, prior Package and Decision lineage, source conflicts, Pack version and review controls.
 
-A later notice may correct:
+A provider sees only the appointed Matter scope, source notice, deadline and requested task.
 
-- applicant or mark details;
-- issue description;
-- affected classes or items;
-- deadline;
-- cited rights;
-- procedural route;
-- hearing information;
-- decision outcome.
+Visibility does not change authority.
 
-A corrected notice creates a new Official Event Snapshot.
+## 9. `EMBERLOOP` — `EL-23`
 
-It may invalidate:
-
-- prior issue extraction;
-- response strategy;
-- client decision;
-- price or provider scope;
-- response package;
-- approval;
-- scheduled Execution action.
-
-No prior event should be deleted merely because it was superseded.
-
----
-
-## 11. Opening the Professional Context
-
-A verified event should produce or update:
-
-- affected Matter reference;
-- Examination Context version;
-- Issue Set candidate;
-- deadline records;
-- required professional role;
-- provider need or existing provider context;
-- commercial change indicator;
-- client Communication requirement;
-- immediate blockers and unknowns.
-
-The Product may request creation of a new Matter when the event becomes a distinct adversarial or appellate proceeding. The Owning Service decides and records the formal object.
-
----
-
-## 12. Participant Views
-
-### Client view
-
-Show:
-
-- plain-language event summary;
-- verified source date;
-- affected right and scope;
-- immediate deadline;
-- whether a decision is required;
-- expected next step and possible cost change;
-- responsible professional.
-
-### Professional view
-
-Show:
-
-- original source Documents;
-- official identifiers;
-- extracted issues and dates;
-- source conflicts;
-- filing-package and prior decision lineage;
-- provider Communications;
-- rule and jurisdiction-pack versions;
-- review and escalation controls.
-
-### Provider view
-
-Show only the appointed scope, source notice, relevant history, deadline and requested professional action.
-
----
-
-## 13. `EMBERLOOP` Continuation
-
-Three post-filing paths now diverge.
-
-### United States
-
-The official source provides a non-final examination notice affecting the word-mark application. The notice contains a goods/services clarification issue and a cited-right concern requiring professional analysis.
-
-MarkReg creates:
-
-- US Official Event Snapshot v1;
-- Examination Context US v1;
-- two Issue Set candidates;
-- an official response deadline and an earlier internal target;
-- a professional triage request to the appointed US provider.
-
-The Product does not describe the application as refused or abandoned.
-
-### European Union
-
-The official register and publication record show that the application has entered publication. MarkReg opens a publication-window context and records the opposition end date from the sourced official event.
-
-### United Kingdom
-
-The official record shows publication with no adverse event yet. MarkReg displays an active observation window and schedules verification at the end of the period.
-
-These are three independent procedural contexts. One status does not overwrite the others.
-
----
-
-## 14. Conformance Scenarios
-
-### MR-SCN-30A — Provider report before official source
-
-**Given** a provider emails that an examination notice has issued but no official notice or portal copy is available.  
-**When** MarkReg displays the event.  
-**Then** it labels the event provider-reported, requests official evidence, permits urgent professional preparation if authorized, and prevents the report from being displayed as verified official truth.  
-**Evidence retained:** provider Communication, retrieval attempts, source status and later official record.
-
-### MR-SCN-30B — Corrected notice changes deadline
-
-**Given** a verified notice is later replaced by an official correction with a different deadline.  
-**When** the corrected source is received.  
-**Then** MarkReg creates a new snapshot, invalidates the prior deadline and affected readiness, alerts the deadline owner and preserves the old calculation.  
-**Authority boundary:** the Product does not silently choose between conflicting official records.
-
-### MR-SCN-30C — Stale public status
-
-**Given** a public register status has not changed for ninety days while a deadline-sensitive Matter is active.  
-**When** the user opens the Matter.  
-**Then** MarkReg labels the status stale, surfaces the last verified event, and requests official or professional refresh before protected action relies on it.
-
----
-
-## 15. AI Assistance
-
-AI may:
-
-- classify likely event type;
-- extract identifiers, dates, issues and cited records;
-- compare notices and detect corrections;
-- summarize plain-language impact;
-- identify source conflicts;
-- prepare an Issue Set candidate;
-- recommend a verification or routing task.
-
-AI must not:
-
-- establish the controlling deadline alone;
-- declare a legal refusal, acceptance or abandonment without source;
-- decide professional meaning;
-- waive verification;
-- create a binding response strategy;
-- communicate a final legal conclusion without authorized review.
-
----
-
-## 16. Failure Modes to Reject
+The three jurisdictions open independent post-filing contexts:
 
 ```text
-Provider email shown as official notice
-Public register treated as fresher than a formal notice without analysis
-Old notice overwritten by corrected notice
-Extracted date treated as verified deadline
-One country status applied to a multi-country portfolio
-Status label used without source and retrieval time
-Examination event treated as final refusal
-Product creates a new formal Matter by renaming a local state
-AI interpretation shown as legal conclusion
+United States
+- sourced non-final examination notice
+- goods/services clarification issue
+- cited-right concern
+- response deadline and professional triage
+
+European Union
+- sourced publication event
+- later verified opposition event
+- publication and adversarial contexts remain distinct
+
+United Kingdom
+- sourced publication event
+- active monitoring window
+- no adverse event assumed before final verification
 ```
 
----
+The US application is not described as refused or abandoned. EU opposition does not change the US or UK states.
 
-## 17. Minimum Examination Context Lock
+`RIVERKITE` uses the same controls when the official identifiers, owner fields and challenge source are verified under `RK-02`.
+
+## 10. Controlled Scenarios
+
+- `MR-SCN-10` — stale official status;
+- `MR-SCN-23` — technical or provider success without official evidence;
+- `MR-SCN-26` — corrected official notice;
+- `MR-SCN-27` — conflicting deadline advice.
+
+These replace chapter-local scenario numbering.
+
+## 11. AI Assistance
+
+AI may extract identifiers, dates and issue candidates; compare source versions; prepare plain-language summaries; and flag missing evidence.
+
+AI may not establish the controlling deadline alone, convert a provider report into Official Truth, decide professional meaning, declare refusal or abandonment without source, or send a final legal conclusion without authorized Review.
+
+## 12. Chapter Lock
 
 ```text
 Every post-filing event preserves
 source, authority, retrieval time,
-affected right, deadline, version,
+affected scope, deadline, version,
 conflict and supersession.
 
 Official Event Snapshot
 is not professional interpretation.
 
-Examination Context
+A Product Context
 is not the official file or formal Matter.
-
-Product projections remain sourced,
-time-bounded and reviewable.
-
-AI may extract and explain.
-Authorized professionals verify,
-interpret and decide.
 ```
 
----
+## 13. Handoff to CH31
 
-## 18. Handoff to Office-Action Triage
+CH30 produces sourced Official Event Snapshots, scoped professional Contexts and deadline candidates.
 
-The output is a verified or explicitly qualified Official Event Snapshot, an Examination Context, deadline candidates and an initial Issue Set.
-
-CH31 determines how the issues are classified, how scope and consequence are assessed, and which response strategies are presented for accountable Human Decision.
+CH31 converts the US Examination Context into a verified Issue Set, Response Option Set and accountable Response Strategy Decision.
