@@ -3,17 +3,18 @@
 ## Status
 
 - **Pack ID:** B05-PUBLICATION-FINISHING-PACK-001
-- **Status:** Active — PF-02 through PF-05 and PF-06A complete; PF-06B authorized
-- **Source reviews:** B05-REV-0012 through B05-REV-0018
+- **Status:** Active — PF-02 through PF-05, PF-06A and PF-06B1 complete
+- **Source reviews:** B05-REV-0012 through B05-REV-0019
 - **Scope:** Book 05 CH00–CH47 and controlled publication assets
 - **Target:** Release Candidate 1 candidate
-- **Independent RC1 blocker:** PF-01B CH02–CH47 metadata normalization
+- **Current substantive gate:** PF-06B2 — CH08–CH22
+- **Remaining metadata blocker:** PF-01B CH08–CH47
 
 ## 1. Purpose
 
 This pack converts the complete CH00–CH47 manuscript into a coherent, validated and reviewable publication candidate without silently changing the MarkReg Product constitution.
 
-It is editorial and controlled-specification work. It is not software implementation, production deployment or authorization for protected external action.
+It is editorial and controlled-specification work. It is not software implementation, production deployment or authorization for an External Protected Action.
 
 ## 2. Workstream Sequence
 
@@ -29,32 +30,19 @@ PF-01 metadata normalization
 → PF-09 Release Candidate and owner publication gate
 ```
 
-PF-01B may close progressively through the PF-06 chapter-edit batches, but it must close before PF-08 and PF-09.
+PF-01B closes progressively through the manuscript editorial batches and must be complete before PF-08.
 
-## 3. Completed Tranches
+## 3. Completed Controlled Reconciliation
 
-### PF-01A — Front Matter
-
-- CH00–CH01 metadata normalized;
-- active candidate wording removed;
-- reader-facing Back Matter sequence added to CH01.
-
-### PF-07A — Publication Architecture
-
-- Appendix A–G architecture created;
-- B05-PUB-0001 through B05-PUB-0008 created;
-- Back Matter order locked;
-- initial glossary, subject index and twelve-figure plan created.
-
-### PF-02 — Product Artifact and Decision Map
+### PF-02
 
 - B05-SPEC-0001 v0.2;
 - controlled record classes and full-lifecycle IDs;
-- lifecycle lineages, versioning and supersession;
-- Appendix A and Appendix B state mapping;
+- lifecycle lineage, version and supersession;
+- Appendix A and state mapping in Appendix B;
 - B05-REV-0014.
 
-### PF-03 — Reference Journeys
+### PF-03
 
 - B05-SPEC-0002 v0.2;
 - `EMBERLOOP` and `RIVERKITE` identities, steps and final states;
@@ -62,159 +50,161 @@ PF-01B may close progressively through the PF-06 chapter-edit batches, but it mu
 - Appendix D;
 - B05-REV-0015.
 
-### PF-04 — Scenarios and User Surfaces
+### PF-04
 
 - B05-SPEC-0003 v0.2;
 - `MR-SCN-01–41`;
-- zero-tolerance controls;
 - participant, visibility, action-right and delegation contracts;
 - lifecycle surfaces and eight Conformance Profiles;
 - Appendices B, C, E and PF-04 portion of G;
 - B05-REV-0016.
 
-### PF-05 — Jurisdiction and Commercial Reconciliation
+### PF-05
 
 - B05-SPEC-0004 v0.2;
-- exact Pack identity and support states;
-- service modules through portfolio continuity;
-- source, Rule, deadline, form and Pack-change governance;
-- official, client, provider, tax, currency, discount, credit, internal-cost and margin separation;
-- later-stage price models;
-- immutable Quote and variance behavior;
-- Pack-bound AI assistance;
+- Jurisdiction Pack identity, service modules and support states;
+- source, Rule, fee, form and change governance;
+- commercial-component and visibility separation;
+- later-stage pricing and immutable Quote behavior;
+- Pack-bound AI Assistance;
 - Appendix F and PF-05 portion of Appendix G;
 - B05-REV-0017.
 
-### PF-06A — Editorial Baseline and Term Audit
+## 4. Editorial Workstreams
 
-Completed:
+### PF-06A — Editorial Baseline
 
-- B05-PUB-0001 upgraded to Controlled Editorial Standard v0.2;
-- normative language and controlled capitalization established;
-- stable artifact and state names established;
-- official/provider/Product state wording controlled;
-- commercial, Pack-support and AI language controlled;
-- compression and chapter-transition rules established;
-- semantic-finding process established;
-- B05-PUB-0009 Term Variation and Editorial Audit v0.1 created;
-- B05-PUB-0003 Glossary upgraded to v0.2;
-- B05-PUB-0004 Subject Index upgraded to v0.2;
-- editorial batch boundaries established;
-- B05-REV-0018 accepted.
+**Status:** COMPLETE
 
-PF-06A does not represent the manuscript as line-edited.
+Delivered:
 
-## 4. PF-01 — Metadata Normalization
+- B05-PUB-0001 Controlled Editorial Standard v0.2;
+- B05-PUB-0009 Term Variation and Editorial Audit v0.1;
+- B05-PUB-0003 Controlled Working Glossary v0.2;
+- B05-PUB-0004 Controlled Working Index v0.2;
+- semantic-finding and batch-review process;
+- B05-REV-0018.
 
-```text
-PF-01A CH00–CH01: COMPLETE
-PF-01B CH02–CH47: OPEN
-PF-01 overall: OPEN
-```
+### PF-06B1 — Front Matter and Part I
 
-Target active metadata:
+**Status:** COMPLETE
 
-```text
-Status: Complete Draft 1
-Chapter Map: B05-TOC-V0.1 — Owner Accepted
-```
+Scope completed:
 
-Assignment:
+- CH00–CH07;
+- metadata CH02–CH07;
+- repeated constitutional explanations;
+- chapter-purpose separation;
+- architecture, participant, principle and state-model consolidation;
+- chapter Handoffs;
+- B05-REV-0019.
 
-- PF-06B normalizes CH02–CH22;
-- PF-06C normalizes CH23–CH47.
-
-## 5. PF-02 through PF-05 Acceptance
+Compression result:
 
 ```text
-B05-SPEC-0001 v0.2: PASS
-B05-SPEC-0002 v0.2: PASS
-B05-SPEC-0003 v0.2: PASS
-B05-SPEC-0004 v0.2: PASS
-Appendix A–G assigned reconciliation: PASS
-PF-02 through PF-05: CLOSED
+prior lines: approximately 3,891
+edited lines: approximately 1,635
+reduction: approximately 2,256 lines / 58%
 ```
 
-The controlled locks remain:
+No semantic escalation was required.
 
-```text
-EMBERLOOP — UK registered; US under examination; EU in opposition; Japan/Australia candidates only
-RIVERKITE — four ordinary renewals; one ownership-linked renewal; one cancellation defense; evidence/licence actions open
-MR-SCN range — MR-SCN-01–MR-SCN-41
-Pack support states — Research Only, Guidance, Preparation, Execution, Lifecycle, Suspended, Retired
-```
+### PF-06B2 — Part II and Part III
 
-## 6. PF-06 — Editorial Finishing
-
-### PF-06A — Editorial control
-
-```text
-Editorial standard: COMPLETE
-Term-variation audit: COMPLETE
-Glossary working v0.2: COMPLETE
-Subject Index working v0.2: COMPLETE
-PF-06A: CLOSED
-```
-
-### PF-06B — Front Matter and Parts I–III
-
-**Status:** Authorized by B05-REV-0018 and next.
+**Status:** AUTHORIZED AND NEXT
 
 Scope:
 
-- CH00–CH22;
-- metadata normalization for CH02–CH22;
-- chapter openings and purpose statements;
-- repeated constitutional explanations;
-- recommendation, commercial, Intake, readiness and Handoff terminology;
-- client-facing examples;
-- native-English flow;
-- chapter-to-chapter handoffs.
+- CH08–CH22;
+- metadata CH08–CH22;
+- Need Brief and Business Context Snapshot;
+- jurisdiction, route, bundle, filing-unit, applicant, class, specification, search and risk recommendations;
+- Proposal, Client Price, Quote, Client Acceptance and Commercial Instruction;
+- Formal Intake, Requirement Set, Readiness Assessment and Handoff Envelope;
+- `EMBERLOOP` EL-* step continuity;
+- client-facing examples and chapter transitions.
 
 Acceptance:
 
-- all twenty-three files reviewed;
-- CH02–CH22 metadata normalized;
-- no controlled ID, case state or authority boundary changed;
-- material term variations resolved or recorded;
-- CH22 hands clearly into CH23.
+- all fifteen chapters reviewed;
+- CH08–CH22 metadata normalized;
+- Recommendation, Decision, commercial and readiness terms reconciled;
+- controlled artifacts and EL-* steps preserved;
+- no case state, controlled ID or authority boundary changed;
+- CH22 hands clearly into CH23;
+- separate Review record accepted.
 
 ### PF-06C — Parts IV–VII
 
-**Status:** Planned after PF-06B.
+**Status:** PLANNED AFTER PF-06B2
 
 Scope:
 
 - CH23–CH47;
-- metadata normalization for CH23–CH47;
-- Package, Review, Approval, Execution and evidence language;
-- official-event and outcome wording;
-- portfolio, Pack, AI, metrics and conformance language;
-- reference-journey final-state preservation;
+- metadata CH23–CH47;
+- Package, Review, approval, Execution and external Evidence language;
+- official events, outcomes and continuing-right state;
+- Portfolio, Jurisdiction Pack, AI, metrics and Conformance language;
+- `EMBERLOOP` and `RIVERKITE` final-state preservation;
 - chapter transitions.
 
 Acceptance:
 
-- all twenty-five files reviewed;
-- CH23–CH47 metadata normalized;
-- PF-01B can close;
+- all twenty-five chapters reviewed;
+- PF-01B closed;
 - no silent semantic change.
 
-### PF-06D — Whole-book closure
+### PF-06D — Whole-Book Closure
 
-**Status:** Planned after PF-06C.
+**Status:** PLANNED AFTER PF-06C
 
 Scope:
 
 - B05-SPEC-0001 through B05-SPEC-0004;
 - Appendix A–G;
 - publication apparatus;
-- final terminology and cross-reference reconciliation;
+- final term, source and cross-reference reconciliation;
 - Glossary and Subject Index reconciliation;
 - unresolved semantic findings;
 - whole-book editorial Review.
 
 PF-06 closes only after PF-06D passes.
+
+## 5. Metadata Progress
+
+```text
+PF-01A CH00–CH01: COMPLETE
+PF-01B CH02–CH07: COMPLETE
+PF-01B CH08–CH47: OPEN
+PF-01 overall: OPEN
+```
+
+Required active metadata:
+
+```text
+Status: Complete Draft 1
+Chapter Map: B05-TOC-V0.1 — Owner Accepted
+```
+
+## 6. Preserved Locks
+
+```text
+Recommendation ≠ Decision
+Readiness ≠ Approval
+Approval ≠ Execution
+Submission sent ≠ official acknowledgement
+Provider Report ≠ Official Truth
+Payment ≠ filing authority
+Pack support ≠ production authority
+AI Assistance ≠ Human Review or Decision
+```
+
+Reference-journey locks:
+
+```text
+EMBERLOOP — UK registered; US under examination; EU in opposition; Japan/Australia candidates only
+RIVERKITE — four ordinary renewals; one ownership-linked renewal; one cancellation defense; evidence/licence actions open
+```
 
 ## 7. PF-07 — Figures and Publication Apparatus
 
@@ -248,13 +238,13 @@ RC1 requires:
 - PF-01 through PF-08 completion;
 - no unresolved blocking architecture, editorial or validation finding;
 - owner publication Decision;
-- explicit implementation and external-action boundaries.
+- explicit implementation and External Protected Action boundaries.
 
 ## 10. Explicit Non-Goals
 
 This pack does not:
 
-- write software requirements or code;
+- write implementation code;
 - deploy MarkReg;
 - connect production official systems;
 - appoint providers;
@@ -266,13 +256,14 @@ This pack does not:
 
 ```text
 PF-01A: COMPLETE
-PF-01B: OPEN — RC1 BLOCKER
+PF-01B: PARTIAL — CH02–CH07 complete; CH08–CH47 open
 PF-02: COMPLETE
 PF-03: COMPLETE
 PF-04: COMPLETE
 PF-05: COMPLETE
 PF-06A: COMPLETE
-PF-06B: AUTHORIZED AND NEXT
+PF-06B1: COMPLETE
+PF-06B2: AUTHORIZED AND NEXT
 PF-06C/PF-06D: PLANNED
 PF-06 overall: OPEN
 PF-07–PF-09: OPEN
