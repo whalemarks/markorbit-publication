@@ -1,8 +1,8 @@
 book: "Book 05"
 title: "MarkReg: The Full-Lifecycle International Trademark Product"
 canonical_path: "books/book-05-markreg/"
-status: "complete_draft_1_full_manuscript_and_review_complete"
-phase: "publication_finishing"
+status: "complete_draft_1_publication_finishing_active"
+phase: "pf_01b_metadata_then_specification_reconciliation"
 portfolio_baseline: "MO-PUB-BASELINE-0001"
 positioning: "Defines MarkReg as the flagship full-lifecycle international trademark Product that turns complex service needs into understandable, reviewable, governed professional journeys."
 chapter_map:
@@ -14,11 +14,14 @@ chapter_map:
   parts: 7
   part_vi_range: "37-42"
   part_vii_range: "43-47"
+  back_matter_outside_chapter_range: true
 manuscript:
   drafted_range: "00-47"
   complete_draft: 1
   manuscript_files: 48
   productized_range: "08-47"
+  front_matter_metadata_normalized: true
+  remaining_metadata_normalization: "02-47"
   drafted_chapters:
     - "B05-CH-00"
     - "B05-CH-01"
@@ -78,6 +81,31 @@ specifications:
   - "B05-SPEC-0003"
   - "B05-SPEC-0004"
   reconciliation_through_ch47_required: true
+appendices:
+  status: "controlled_scaffolds"
+  structural_baseline: "B05-PUB-0006"
+  records:
+    - "B05-APP-A"
+    - "B05-APP-B"
+    - "B05-APP-C"
+    - "B05-APP-D"
+    - "B05-APP-E"
+    - "B05-APP-F"
+    - "B05-APP-G"
+  content_reconciled: false
+publication_apparatus:
+  status: "architecture_locked_content_incomplete"
+  records:
+    - "B05-PUB-0001"
+    - "B05-PUB-0002"
+    - "B05-PUB-0003"
+    - "B05-PUB-0004"
+    - "B05-PUB-0005"
+    - "B05-PUB-0006"
+    - "B05-PUB-0007"
+    - "B05-PUB-0008"
+  figures_planned: 12
+  figures_created: 0
 reviews:
   - "B05-REV-0001"
   - "B05-REV-0002"
@@ -92,17 +120,30 @@ reviews:
   - "B05-REV-0010"
   - "B05-REV-0011"
   - "B05-REV-0012"
+  - "B05-REV-0013"
 revision_pack:
   id: "B05-REVISION-PACK-001"
   status: "closed"
 publication_finishing_pack:
   id: "B05-PUBLICATION-FINISHING-PACK-001"
   plan: "B05-PLN-0004"
-  status: "defined_execution_pending_owner_acceptance"
+  status: "active"
   target: "release_candidate_1_candidate"
+  progress:
+    pf_01a_front_matter: "complete"
+    pf_01b_remaining_metadata: "open"
+    pf_02_artifacts: "open"
+    pf_03_journeys: "open"
+    pf_04_scenarios_and_surfaces: "open"
+    pf_05_jurisdiction_and_commercial: "open"
+    pf_06_editorial: "open"
+    pf_07a_publication_architecture: "complete"
+    pf_07_remaining_assets: "open"
+    pf_08_validation: "open"
+    pf_09_rc1_gate: "open"
 next_gate:
-  title: "Publication Finishing"
-  authorized_by_review: "B05-REV-0012"
+  title: "PF-01B Metadata Normalization and Controlled Specification Reconciliation"
+  authorized_by_review: "B05-REV-0013"
   final_publication_separate: true
 book_02_semantic_change_required: false
 book_03_execution_change_required: false

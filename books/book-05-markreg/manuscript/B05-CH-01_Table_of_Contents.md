@@ -1,13 +1,13 @@
 # B05-CH-01 — Table of Contents
 
-**Status:** Foundation Draft  
-**Chapter Map ID:** B05-TOC-V0.1 — Candidate  
+**Status:** Complete Draft 1  
+**Chapter Map ID:** B05-TOC-V0.1 — Owner Accepted  
 **Book:** Book 05 — MarkReg: The Full-Lifecycle International Trademark Product  
 **Part:** Front Matter
 
 ## Chapter Map Purpose
 
-This candidate map defines how Book 05 moves from Product constitution to full-lifecycle operation.
+This owner-accepted map defines how Book 05 moves from Product constitution to full-lifecycle operation and then into reader-facing reference material.
 
 The structure follows seven movements:
 
@@ -21,7 +21,7 @@ Product Constitution
 → Product Experience and Evolution
 ```
 
-The map remains subject to owner acceptance.
+The seven-part chapter map is active. Appendix A–G and the publication apparatus are controlled Back Matter and do not change the CH00–CH47 chapter sequence.
 
 ---
 
@@ -33,7 +33,7 @@ Introduces why MarkReg is the first dedicated Product publication, defines the c
 
 ### B05-CH-01 — Table of Contents
 
-Defines B05-TOC-V0.1, the seven-part structure, chapter sequence, and writing logic.
+Defines B05-TOC-V0.1, the seven-part structure, chapter sequence, writing logic, and reader-facing Back Matter.
 
 ---
 
@@ -263,6 +263,56 @@ Defines conformance to the Books 01–04 Portfolio Baseline, downstream specific
 
 ---
 
+# Back Matter — Appendices and Reader References
+
+The Back Matter provides compact reader references derived from the controlled manuscript and specifications. It does not alter the CH00–CH47 chapter map or create independent Product rules.
+
+### Appendix A — Full-Lifecycle Artifact and Decision Map
+
+Summarizes the major artifacts, decisions, lineage, owners, Review and formalization boundaries.
+
+### Appendix B — Lifecycle State and Authority Matrix
+
+Separates Product, formal, Execution, provider, official, professional and client-facing states.
+
+### Appendix C — Participant Visibility and Action Rights Matrix
+
+Maps client, professional, reviewer, approver, coordinator, finance, provider, administrator and AI visibility and action rights.
+
+### Appendix D — Reference Journeys
+
+Presents the complete `EMBERLOOP` and `RIVERKITE` journeys as controlled reader examples.
+
+### Appendix E — Priority Conformance Scenarios
+
+Indexes observable tests for identity, recommendation, commercial, document, Review, provider, submission, official-event, maintenance, portfolio, rule and conformance boundaries.
+
+### Appendix F — Minimum Jurisdiction Pack Checklist
+
+Provides a reader checklist for source, rule, fee, document, filing, post-filing, maintenance, commercial and AI readiness.
+
+### Appendix G — MarkReg Conformance Profiles
+
+Defines Foundation, Guided Decision, Commercial Intake, Filing Preparation, Governed Filing, Post-Filing, Portfolio Continuity and Full-Lifecycle profiles.
+
+### Source and Authority Notes
+
+Explains the authority of architecture records, controlled specifications, official sources, provider evidence, organization Knowledge, scenarios and AI outputs.
+
+### Glossary
+
+Defines recurring Book 05 terms while preserving Book 02 Core authority.
+
+### Subject Index
+
+Provides chapter, appendix and later rendered-page navigation.
+
+### Figure Register
+
+Lists the controlled lifecycle, authority, journey, jurisdiction and delivery figures used by the publication.
+
+---
+
 ## Reading Rule
 
 The book should be read in order.
@@ -276,3 +326,5 @@ Execution in Part IV depends on formal readiness and Human Review.
 Post-filing work in Parts V and VI depends on official-source authority and lifecycle continuity.
 
 Product evolution in Part VII must preserve every prior boundary.
+
+Appendix A–G may be used as quick references, but the controlled chapters and specifications remain authoritative.

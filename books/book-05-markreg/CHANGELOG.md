@@ -1,5 +1,17 @@
 # Book 05 Changelog
 
+## 2026-07-14 — Publication Architecture and Back Matter
+
+- Activated B05-PUBLICATION-FINISHING-PACK-001 after owner acceptance of Complete Draft 1 through merge of PR #43.
+- Completed PF-01A by normalizing CH00–CH01 metadata and removing active candidate wording from CH01.
+- Added Appendix A–G controlled scaffolds for artifacts, states, participants, reference journeys, conformance scenarios, Jurisdiction Packs and conformance profiles.
+- Added B05-PUB-0001 through B05-PUB-0008 for editorial style, source notes, glossary, subject index, figure register, Back Matter map, cross-book reconciliation and RC1 checklist.
+- Locked the reader-facing Back Matter order in B05-PUB-0006 and added it to CH01.
+- Registered twelve planned Book 05 figures without claiming that the figure assets are complete.
+- Added B05-REV-0013 and accepted the publication architecture while keeping PF-01 and PF-07 open.
+- Set the next controlled sequence to PF-01B metadata normalization followed by PF-02 through PF-05 specification reconciliation.
+- Kept Book 05 at Complete Draft 1; Release Candidate 1, final publication, implementation, production deployment and external protected action remain unfinished gates.
+
 ## 2026-07-14 — Part VII and Complete Draft 1
 
 - Drafted CH43–CH47 — Product Experience and Evolution.
