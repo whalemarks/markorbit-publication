@@ -1,307 +1,166 @@
 # B05-CH-37 — Registration and Certificate Boundaries
 
-**Status:** Part VI Draft  
+**Status:** Complete Draft 1  
 **Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part VI — Registration and Portfolio Continuity
 
 ## Chapter Purpose
 
-Registration begins a new operating phase. It does not collapse the official record, certificate, Product projection, maintenance obligations, ownership state, evidence, and portfolio strategy into one object.
-
-The central progression is:
+Part V may end with a registration-stage candidate. Part VI begins only when a sourced official event supports a registered right.
 
 ```text
-Sourced Registration Event
-→ Registration Outcome Snapshot
-→ Official Record Verification
-→ Certificate Acquisition or Reference
-→ Right Baseline
-→ Maintenance and Portfolio Continuity
+EL-30 / CH37
+MR-E08 Registration Outcome Record
+→ MR-V01 Filing and Scope Diff View
+→ MR-B01 Right Baseline
+→ maintenance and portfolio continuity
 ```
+
+The Product question is:
+
+> What was officially registered, according to which source, what differs from the approved and acknowledged scope, and what continuing obligations now exist?
 
 ```text
-Official Registration
-≠ Certificate File
-≠ Product Status Label
-≠ Unqualified Ownership Conclusion
-≠ Permanent Validity
+Official registration record
+≠ certificate
+≠ certificate file
+≠ Product projection
+≠ permanent validity
 ```
 
----
+## 1. Registration Outcome Record
 
-## 1. User Question and Primary Action
+`MR-E08 Registration Outcome Record` should preserve:
 
-**User question:** What exactly has been registered, according to which official source, and what must happen next?
+- office, jurisdiction and official identifiers;
+- registration and effective dates;
+- registered owner and mark representation;
+- registered classes and goods/services;
+- limitations, disclaimers, exclusions or conditions;
+- official source, retrieval time and source version;
+- certificate relationship and availability;
+- unresolved source, owner or scope conflicts.
 
-**Primary action:** Verify the registration outcome, inspect the registered scope, confirm certificate and owner details, and accept the resulting Right Baseline for future work.
+A Provider Report may trigger verification. It does not create registration.
 
-The Product must explain any mismatch between the expected filing scope and the official registration record.
+## 2. Registered-Scope Diff
 
----
-
-## 2. Registration Must Begin from an Official Event
-
-A Registration Outcome Snapshot should preserve:
-
-- office and jurisdiction;
-- application and registration identifiers;
-- official event type;
-- registration date;
-- status effective date;
-- registered owner;
-- mark representation;
-- classes and registered goods/services;
-- limitations, disclaimers, conditions or exclusions;
-- official source;
-- retrieval time;
-- evidence file or official URL reference;
-- source confidence;
-- unresolved conflict.
-
-A provider report may trigger verification, but it does not replace the official registration event.
-
----
-
-## 3. Registered Scope May Differ from Filed Scope
-
-The Product should compare:
+`MR-V01 Filing and Scope Diff View` compares:
 
 ```text
-Approved Filing Package
-vs
-Acknowledged Filing Record
-vs
-Registered Scope
+approved Filing Package Candidate
+→ acknowledged filing record
+→ officially registered scope
 ```
 
-Differences may include:
+The diff should expose deleted or narrowed items, fewer classes, limitations, normalized owner data and prosecution-stage changes. The Product must not label the original requested scope as registered when the official result is narrower.
 
-- deleted goods or services;
-- narrowed wording;
-- fewer classes;
-- disclaimers;
-- color or representation conditions;
-- owner-name normalization;
-- amended applicant details;
-- priority changes;
-- limitation resulting from examination or settlement.
+## 3. Official Record and Certificate
 
-The Product should produce a scope diff rather than silently marking the full original package as registered.
-
----
-
-## 4. Registration Record, Certificate and Evidence Are Distinct
-
-| Object | Meaning |
+| Record | Controlled meaning |
 | --- | --- |
-| official registration record | office-controlled record of the registered right |
-| certificate | official or office-issued representation of registration |
+| official registration record | office-controlled current record |
+| certificate | office-issued representation of registration |
 | certificate file | received digital or scanned material |
-| Evidence reference | governed evidence of the official event or document |
-| Product projection | user-facing representation of the current known state |
-| Right Baseline | controlled snapshot used for later lifecycle work |
+| `MR-E08` | sourced historical registration outcome |
+| `MR-B01` | reviewed operational baseline for later work |
+| Product projection | user-facing explanation derived from sources |
 
-A certificate may be delayed, replaced, corrected, reissued or electronic only.
+A certificate may be delayed, electronic, corrected or reissued. Its absence does not necessarily disprove registration; its presence does not prove the register is still unchanged.
 
-The absence of a certificate file does not necessarily mean registration has not occurred. A certificate file alone does not prove that the current official record is unchanged.
+`MR-SCN-30` applies when the certificate differs from the current official record: retain both, use current verified official data for the baseline and expose the difference.
 
----
-
-## 5. Certificate Validation
-
-Certificate handling should preserve:
-
-- issuing office;
-- certificate identifier where available;
-- issue date;
-- registered owner;
-- registration number;
-- mark and classes;
-- language;
-- electronic or paper form;
-- source channel;
-- file hash where appropriate;
-- receipt date;
-- corrected or replacement status;
-- relationship to the official record.
-
-The Product may identify likely inconsistencies. It should not certify authenticity by itself.
-
----
-
-## 6. Owner Verification at Registration
+## 4. Owner and Current-State Verification
 
 The registered owner should be compared with:
 
-- approved applicant;
-- acknowledged filing owner;
-- current client statement;
-- corporate changes known during prosecution;
-- pending assignment or recordal;
-- group-company expectations.
+- the approved applicant;
+- the acknowledged filing owner;
+- current official data;
+- the client’s business-owner claim;
+- pending name changes, assignments or mergers;
+- instructor and signatory authority.
 
-If the official owner differs, the Product should not overwrite either value. It should create an ownership conflict and route it to professional review.
+Conflicting values remain separate until professionally resolved. MarkReg does not replace the official owner with the expected group company.
 
----
+## 5. Right Baseline
 
-## 7. Registration Does Not Mean the Right Is Risk-Free
+`MR-B01 Right Baseline` is the reviewed starting point for future lifecycle work. It should contain:
 
-A registered right may still face:
+- official identity, jurisdiction and identifiers;
+- registered mark, owner and scope;
+- registration, priority and term information;
+- certificate state;
+- current representative;
+- active proceedings and limitations;
+- known maintenance and use obligations;
+- next verified deadline;
+- linked official sources and Evidence;
+- unresolved ownership, scope or source conflicts.
+
+A later official change creates a new baseline version. It does not rewrite the historical registration outcome.
+
+## 6. Registration Does Not Remove Risk
+
+A registered right may remain exposed to:
 
 - cancellation or invalidation;
 - non-use vulnerability;
-- opposition appeal or pending proceeding;
-- ownership dispute;
-- recordal deficiency;
-- use declaration requirement;
-- maintenance deadline;
-- renewal deadline;
-- limitation or disclaimer;
-- local representative requirement;
-- unpaid later-stage charge.
+- pending appeal or dispute;
+- owner or recordal conflict;
+- maintenance and renewal duties;
+- representative requirements;
+- unpaid later-stage charges;
+- certificate or official-record correction.
 
-The Product should show active vulnerabilities separately from registration status.
+Registration status and vulnerability must be shown separately.
 
----
+## 7. `EMBERLOOP` — `EL-30`
 
-## 8. Right Baseline
+A sourced UK registration event is verified. MarkReg:
 
-The canonical Product output is a versioned Right Baseline containing:
+1. creates `MR-E08 Registration Outcome Record UK v1`;
+2. compares the approved, acknowledged and registered scopes in `MR-V01`;
+3. preserves a narrowed item introduced during examination;
+4. creates `MR-B01 Right Baseline UK v1`;
+5. records certificate availability as a separate sourced fact;
+6. opens maintenance and evidence-planning work.
 
-- official identity and jurisdiction;
-- application and registration numbers;
-- registered mark version;
-- registered owner;
-- registered scope;
-- registration and priority dates;
-- certificate state;
-- current representative;
-- active proceedings;
-- known maintenance obligations;
-- known use obligations;
-- next verified deadline;
-- source versions;
-- unresolved conflicts;
-- linked Matters, Documents and Evidence.
+The US application remains under examination. The EU application remains in opposition. Neither is counted as registered.
 
-The Right Baseline is not a new official record. It is the controlled starting point for lifecycle continuity.
+## 8. `RIVERKITE` Verification Contrast
 
----
+`RK-02` requires each of the six registrations to be verified independently by identifier, owner, scope and source date. An unresolved owner conflict blocks unsupported authority but does not erase the official registration history.
 
-## 9. User Surface
+## 9. Controlled Scenarios
 
-The registration surface should show:
+- **MR-SCN-10 — Stale official status:** refresh a stale source before deadline-sensitive or protected action relies on it.
+- **MR-SCN-26 — Corrected official event:** preserve prior and corrected sources and re-evaluate affected records.
+- **MR-SCN-30 — Certificate differs from current official record:** retain the certificate as Evidence and expose the current-source diff.
+- **MR-SCN-33 — One challenged right in a portfolio:** preserve the challenged right independently from unaffected rights.
 
-- **Registered according to:** source and retrieval time;
-- **What was registered:** mark, owner, classes and scope;
-- **What changed:** diff from the approved filing package;
-- **Certificate:** available, pending, corrected, unavailable or not required;
-- **Current vulnerabilities:** disputes, use, ownership or maintenance issues;
-- **Next action:** confirm, request correction, obtain certificate, open recordal, create maintenance plan or escalate.
+## 10. AI Assistance
 
-Primary actions may include:
+AI may extract registration data, compare scopes, classify certificate files and identify possible mismatches. It must not create registration, authenticate a certificate, decide ownership or remove official limitations.
 
-```text
-Accept Right Baseline
-Request Professional Review
-Report Owner Mismatch
-Request Certificate Follow-Up
-Open Correction or Recordal
-Create Maintenance Plan
-```
-
----
-
-## 10. Reference Journey — EMBERLOOP
-
-The UK application reaches a sourced registration event.
-
-MarkReg compares the official record with the approved filing package and identifies that one item was narrowed during examination. It creates:
-
-```text
-Registration Outcome Snapshot v1
-→ Scope Diff v1
-→ Right Baseline UK v1
-```
-
-The electronic certificate is available and linked as an official Document reference. The Product shows the right as registered, but separately displays the future renewal date and use-related vulnerability timeline.
-
-The EU application remains in opposition and is not included in the registered-right count. The US application remains under examination until a sourced registration event is received.
-
----
-
-## 11. Conformance Scenarios
-
-### Scenario A — Provider says registered, office record not checked
-
-**Given** a provider reports registration  
-**When** no official event or official record has been verified  
-**Then** the Product records a provider-reported event and requires official verification before creating the final Right Baseline.
-
-### Scenario B — Certificate scope differs from Product expectation
-
-**Given** the certificate omits one filed item  
-**When** the official record confirms the omission  
-**Then** the Product creates a registered-scope diff and does not display the omitted item as registered.
-
-### Scenario C — Owner mismatch
-
-**Given** the official registration owner differs from the expected group company  
-**When** the record is retrieved  
-**Then** the Product creates an ownership conflict and does not silently replace the official or declared owner.
-
-### Scenario D — Certificate unavailable
-
-**Given** registration is confirmed by the official record  
-**When** the certificate has not yet been issued  
-**Then** the Product may create the Right Baseline while showing certificate state as pending.
-
----
-
-## 12. AI Assistance Boundary
-
-AI may:
-
-- extract registration details;
-- compare filing and registration scope;
-- identify likely owner mismatches;
-- classify certificate files;
-- summarize limitations;
-- propose follow-up tasks.
-
-AI may not:
-
-- create official registration;
-- certify authenticity;
-- decide ownership disputes;
-- declare a challenged right secure;
-- remove official limitations;
-- invent missing certificate data.
-
----
-
-## 13. Minimum Registration Lock
+## 11. Minimum Registration Lock
 
 ```text
 Registration begins with sourced official evidence.
 
-Official record, certificate,
-certificate file, Evidence,
+Registration Outcome Record,
+official record, certificate,
 Product projection and Right Baseline
 remain distinct.
 
-Registered scope is compared
-with the approved and filed scope.
+Registered scope is compared with
+approved and acknowledged scope.
 
-Registration status does not erase
+Registration does not erase
 maintenance, use, ownership,
 dispute or vulnerability conditions.
 ```
 
----
+## 12. Handoff to Maintenance
 
-## 14. Handoff to Maintenance
-
-The output is a versioned Right Baseline and Registration Outcome Snapshot.
-
-CH38 turns that baseline into a source-backed Maintenance Obligation Set and calendar without treating a calculated reminder as an official deadline.
+CH38 turns the verified `MR-B01 Right Baseline` into `MR-B02 Maintenance Obligation Set` and `MR-B03 Use-Evidence Coverage Record` without treating a reminder or calculated date as an official deadline.
