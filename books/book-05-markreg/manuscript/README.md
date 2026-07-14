@@ -16,8 +16,8 @@ CH00–CH47 — all forty-eight planned manuscript files.
 | CH16–CH22 | Commercial Journey and Formal Intake | PF-06B2B complete |
 | CH23–CH29 | Filing Preparation and Governed Execution | PF-06C1 complete |
 | CH30–CH36 | Examination, Publication and Disputes | PF-06C2 complete |
-| CH37–CH42 | Registration and Portfolio Continuity | PF-06C3 next |
-| CH43–CH47 | Product Experience and Evolution | PF-06C4 planned |
+| CH37–CH42 | Registration and Portfolio Continuity | PF-06C3 complete |
+| CH43–CH47 | Product Experience and Evolution | PF-06C4 next |
 
 ## Completed Controlled Sequences
 
@@ -58,7 +58,7 @@ Filing Package Candidate
 → Capability Need, Routing Recommendation and Human Selection
 → Appointment Candidate, Provider Instruction and Provider Acceptance
 → Execution Request
-→ submission, delivery, provider and official evidence
+→ submission, delivery, Provider and official Evidence
 → Reconciliation Context and Recovery Plan
 ```
 
@@ -78,7 +78,20 @@ Official Event Snapshot and scoped Context
 
 Accepted by [B05-REV-0023](../reviews/B05-REV-0023_PF-06C2_Part_V_Editorial_Review.md).
 
-B05-REV-0023 also records PF06C2-F01: B05-SPEC-0002 Part V record-ID references require final reconciliation under PF-06D.
+### Part VI — `EL-30–EL-35`
+
+```text
+Registration Outcome Record, scope diff and Right Baseline
+→ Maintenance Obligation Set and Use-Evidence Coverage
+→ Renewal Package, Renewal Approval and official update
+→ Recordal Context, Package, Approval and official update
+→ Transaction / Licence Context and Chain-of-Title View
+→ Portfolio Continuity View and Portfolio Action Plan
+```
+
+Accepted by [B05-REV-0024](../reviews/B05-REV-0024_PF-06C3_Part_VI_Editorial_Review.md).
+
+B05-REV-0023 and B05-REV-0024 record PF06C2-F01 and PF06C3-F01. B05-SPEC-0002 Part V/VI record-ID references require final reconciliation under PF-06D.
 
 ## Metadata Progress
 
@@ -89,7 +102,8 @@ CH08–CH15: COMPLETE
 CH16–CH22: COMPLETE
 CH23–CH29: COMPLETE
 CH30–CH36: COMPLETE
-CH37–CH47: OPEN
+CH37–CH42: COMPLETE
+CH43–CH47: OPEN
 ```
 
 Normalized active metadata:
@@ -109,7 +123,7 @@ Need Brief
 → Formal Intake, Requirement Set and Readiness Assessment
 → Handoff Envelope and formal references
 → Filing Package Candidate, Professional Review and Filing Approval
-→ provider selection, appointment and acceptance
+→ Provider selection, appointment and acceptance
 → governed Execution
 → submission, acknowledgement and reconciliation
 → examination, publication, disputes and remedies
@@ -139,7 +153,7 @@ B05-ERRATA-0001 corrects the former derived-status typo that placed CH43 in Part
 - [B05-SPEC-0003 — Conformance Scenarios and User-Surface Contract](../specifications/B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md)
 - [B05-SPEC-0004 — Jurisdiction Pack and Commercial Control Contract](../specifications/B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md)
 
-B05-SPEC-0001 v0.2 controls active record IDs. The B05-SPEC-0002 Part V cross-reference finding remains open for PF-06D.
+B05-SPEC-0001 v0.2 controls active record IDs. Part V/VI B05-SPEC-0002 cross-reference findings remain open for PF-06D.
 
 ## Current Editorial Reviews
 
@@ -149,9 +163,10 @@ B05-SPEC-0001 v0.2 controls active record IDs. The B05-SPEC-0002 Part V cross-re
 - B05-REV-0021 — PF-06B2B Part III and PF-06B closure
 - B05-REV-0022 — PF-06C1 Part IV
 - B05-REV-0023 — PF-06C2 Part V
+- B05-REV-0024 — PF-06C3 Part VI
 
 ## Next Controlled Task
 
-PF-06C3 edits CH37–CH42 and normalizes metadata for those chapters.
+PF-06C4 edits CH43–CH47, normalizes their metadata and closes PF-01B.
 
-The next Review must confirm registration, maintenance, renewal, recordal, transaction and portfolio continuity; `EL-30–EL-35`; relevant `RK-*` steps; and preservation of the independent EMBERLOOP and RIVERKITE states.
+The next Review must confirm Product entry and embedded surfaces, participant rights, Jurisdiction Pack and AI governance, metrics, pilot and Conformance controls, `EL-36–EL-40`, `RK-14–RK-18`, and publication-versus-implementation authority.
