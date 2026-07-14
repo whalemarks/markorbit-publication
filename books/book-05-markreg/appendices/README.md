@@ -2,10 +2,10 @@
 
 ## Status
 
-- **Publication stage:** Controlled appendix architecture
-- **Book status:** Complete Draft 1
-- **Authority:** B05-TOC-V0.1, B05-REV-0012 and B05-PLN-0004
-- **Current objective:** Lock reader-facing Appendix A–G before specification reconciliation and publication editing
+- **Publication stage:** Controlled appendix development
+- **Book status:** Complete Draft 1 — Publication Finishing Active
+- **Authority:** B05-TOC-V0.1, B05-REV-0012, B05-REV-0013, B05-REV-0014 and B05-PLN-0004
+- **Current objective:** Reconcile reader-facing Appendix A–G with the controlled specifications before publication editing
 
 ## Purpose
 
@@ -25,13 +25,13 @@ If an appendix conflicts with an active specification or reviewed chapter, the c
 
 | Appendix | Title | Primary controlled sources | Current status |
 | --- | --- | --- | --- |
-| A | Full-Lifecycle Artifact and Decision Map | B05-SPEC-0001; CH08–CH47 | controlled scaffold |
-| B | Lifecycle State and Authority Matrix | CH07; CH21–CH29; CH30–CH42 | controlled scaffold |
-| C | Participant Visibility and Action Rights Matrix | CH05; CH24–CH26; CH43–CH44 | controlled scaffold |
-| D | Reference Journeys | B05-SPEC-0002; EMBERLOOP and RIVERKITE chapter examples | controlled scaffold |
-| E | Priority Conformance Scenarios | B05-SPEC-0003; chapter Given/When/Then scenarios | controlled scaffold |
-| F | Minimum Jurisdiction Pack Checklist | B05-SPEC-0004; CH38–CH45 | controlled scaffold |
-| G | MarkReg Conformance Profiles | CH46–CH47 | controlled scaffold |
+| A | Full-Lifecycle Artifact and Decision Map | B05-SPEC-0001 v0.2; CH08–CH47 | controlled reader draft — PF-02 reconciled |
+| B | Lifecycle State and Authority Matrix | B05-SPEC-0001 v0.2; B05-SPEC-0003; CH07 and CH21–CH42 | PF-02 state mapping complete; PF-04 scenario indexing pending |
+| C | Participant Visibility and Action Rights Matrix | B05-SPEC-0003; CH05, CH24–CH26 and CH43–CH44 | controlled scaffold — PF-04 pending |
+| D | Reference Journeys | B05-SPEC-0002; EMBERLOOP and RIVERKITE chapter examples | controlled scaffold — PF-03 pending |
+| E | Priority Conformance Scenarios | B05-SPEC-0003; chapter Given/When/Then scenarios | controlled scaffold — PF-04 pending |
+| F | Minimum Jurisdiction Pack Checklist | B05-SPEC-0004; CH38–CH45 | controlled scaffold — PF-05 pending |
+| G | MarkReg Conformance Profiles | CH46–CH47 and completed conformance controls | controlled scaffold — PF-04/PF-07 pending |
 
 ## Reader Order
 
@@ -70,6 +70,19 @@ Appendices may summarize. They may not:
 - generalize one provider’s advice into a jurisdiction rule;
 - hide independent jurisdiction or right states.
 
+## Reconciliation Progress
+
+```text
+PF-02 — Appendix A: COMPLETE
+PF-02 — Appendix B state and authority mapping: COMPLETE
+PF-03 — Appendix D reference journeys: OPEN
+PF-04 — Appendices B, C, E and G scenarios/surfaces: OPEN
+PF-05 — Appendix F Jurisdiction Pack checklist: OPEN
+PF-06 — native-English and compression editing: OPEN
+PF-07 — final figures and reader-asset integration: OPEN
+PF-08 — structural and rendered validation: OPEN
+```
+
 ## Completion Gate
 
 The appendix set is complete only when:
@@ -81,4 +94,4 @@ The appendix set is complete only when:
 5. the RC1 review confirms no conflict with the controlled manuscript;
 6. rendered-format review passes.
 
-Until then, the files remain controlled scaffolds rather than final publication appendices.
+Until then, Appendix A and the PF-02 portion of Appendix B are controlled drafts; the remaining files remain controlled scaffolds rather than final publication appendices.
