@@ -16,10 +16,11 @@ This directory contains owner, architecture, chapter-map, manuscript, productiza
 - `B05-ERRATA-0001_Part_VI_Chapter_Boundary.md` — confirms Part VI CH37–CH42 and Part VII CH43–CH47
 - `B05-REV-0010_Part_VI_Registration_and_Portfolio_Continuity_Review.md` — accepts CH37–CH42 and authorizes Part VII
 - `B05-REV-0011_Part_VII_Product_Experience_and_Evolution_Review.md` — accepts CH43–CH47 and authorizes complete-manuscript review
-- `B05-REV-0012_CH00-CH47_Complete_Draft_1_Review.md` — records Complete Draft 1 and defines publication-finishing blockers
+- `B05-REV-0012_CH00-CH47_Complete_Draft_1_Review.md` — records Complete Draft 1 and publication-finishing blockers
 - `B05-REV-0013_Publication_Architecture_and_Back_Matter_Review.md` — accepts PF-01A and PF-07A architecture
-- `B05-REV-0014_PF-02_Full-Lifecycle_Artifact_and_Decision_Reconciliation.md` — closes PF-02 and authorizes PF-03
-- `B05-REV-0015_PF-03_Reference_Journey_Consolidation.md` — accepts B05-SPEC-0002 v0.2 and Appendix D, closes PF-03 and authorizes PF-04
+- `B05-REV-0014_PF-02_Full-Lifecycle_Artifact_and_Decision_Reconciliation.md` — closes PF-02
+- `B05-REV-0015_PF-03_Reference_Journey_Consolidation.md` — closes PF-03
+- `B05-REV-0016_PF-04_Scenario_and_User_Surface_Reconciliation.md` — accepts B05-SPEC-0003 v0.2 and Appendices B, C, E and G; closes PF-04 and authorizes PF-05
 
 ## Current Gate
 
@@ -30,8 +31,9 @@ PF-01A: COMPLETE
 PF-01B: OPEN — required before RC1
 PF-02: COMPLETE
 PF-03: COMPLETE
-PF-04: AUTHORIZED AND NEXT
-PF-05–PF-09: OPEN
+PF-04: COMPLETE
+PF-05: AUTHORIZED AND NEXT
+PF-06–PF-09: OPEN
 ```
 
 Release Candidate 1, final publication, implementation, production deployment and external protected action remain separate gates.

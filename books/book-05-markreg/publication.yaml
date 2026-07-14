@@ -2,7 +2,7 @@ book: "Book 05"
 title: "MarkReg: The Full-Lifecycle International Trademark Product"
 canonical_path: "books/book-05-markreg/"
 status: "complete_draft_1_publication_finishing_active"
-phase: "pf_04_scenarios_and_surfaces_with_pf_01b_open"
+phase: "pf_05_jurisdiction_and_commercial_with_pf_01b_open"
 portfolio_baseline: "MO-PUB-BASELINE-0001"
 chapter_map:
   id: "B05-TOC-V0.1"
@@ -32,13 +32,14 @@ specifications:
     workstream: "PF-03"
     workstream_status: "complete"
   B05-SPEC-0003:
-    status: "controlled_draft_extension_required"
+    status: "controlled_specification_v0_2"
+    applies_through: "CH47"
     workstream: "PF-04"
-    workstream_status: "authorized_next"
+    workstream_status: "complete"
   B05-SPEC-0004:
     status: "controlled_draft_reconciliation_required"
     workstream: "PF-05"
-    workstream_status: "open"
+    workstream_status: "authorized_next"
   all_specifications_reconciled_through_ch47: false
 controlled_record_model:
   constitutional_rules: "MR-CR-01 through MR-CR-08 unchanged"
@@ -70,15 +71,46 @@ reference_journeys:
       cancellation_defense_rights: 1
       evidence_and_licence_actions_open: true
     count_reconciliation: "three urgent deadlines are a subset of five renewal-related workflows"
+conformance:
+  scenario_specification: "B05-SPEC-0003_v0_2"
+  scenario_range: "MR-SCN-01-MR-SCN-41"
+  severity_classes:
+    - "standard"
+    - "high-risk"
+    - "zero-tolerance"
+  constitutional_rules_covered: "MR-CR-01-MR-CR-08"
+  participant_classes:
+    - "client"
+    - "applicant_or_owner_representative"
+    - "professional"
+    - "reviewer"
+    - "approver"
+    - "coordinator"
+    - "account_owner"
+    - "finance"
+    - "provider"
+    - "administrator"
+    - "AI_assistant"
+  lifecycle_surface_range: "CH07-CH47"
+  profiles:
+    - "Foundation"
+    - "Guided Decision"
+    - "Commercial Intake"
+    - "Filing Preparation"
+    - "Governed Filing"
+    - "Post-Filing"
+    - "Portfolio Continuity"
+    - "Full-Lifecycle"
+  zero_tolerance_failure_blocks_profile: true
 appendices:
   structural_baseline: "B05-PUB-0006"
   B05-APP-A: "controlled_reader_draft_pf_02_reconciled"
-  B05-APP-B: "pf_02_mapping_complete_pf_04_scenarios_pending"
-  B05-APP-C: "controlled_scaffold_pf_04_pending"
+  B05-APP-B: "controlled_reader_draft_pf_02_pf_04_reconciled"
+  B05-APP-C: "controlled_reader_draft_pf_04_reconciled"
   B05-APP-D: "controlled_reader_draft_pf_03_reconciled"
-  B05-APP-E: "controlled_scaffold_pf_04_pending"
+  B05-APP-E: "controlled_reader_draft_pf_04_reconciled"
   B05-APP-F: "controlled_scaffold_pf_05_pending"
-  B05-APP-G: "controlled_scaffold_pf_04_pf_07_pending"
+  B05-APP-G: "controlled_reader_draft_pf_04_reconciled_pf_05_pf_08_evidence_pending"
   all_content_reconciled: false
 publication_apparatus:
   status: "architecture_locked_content_incomplete"
@@ -94,11 +126,10 @@ publication_apparatus:
   figures_planned: 12
   figures_created: 0
 reviews:
-  latest: "B05-REV-0015"
+  latest: "B05-REV-0016"
   records:
-    - "B05-REV-0001-B05-REV-0014"
+    - "B05-REV-0001-B05-REV-0016"
     - "B05-ERRATA-0001"
-    - "B05-REV-0015"
 publication_finishing_pack:
   id: "B05-PUBLICATION-FINISHING-PACK-001"
   plan: "B05-PLN-0004"
@@ -108,18 +139,18 @@ publication_finishing_pack:
     pf_01b_remaining_metadata: "open_required_before_rc1"
     pf_02_artifacts: "complete"
     pf_03_journeys: "complete"
-    pf_04_scenarios_and_surfaces: "authorized_next"
-    pf_05_jurisdiction_and_commercial: "open"
+    pf_04_scenarios_and_surfaces: "complete"
+    pf_05_jurisdiction_and_commercial: "authorized_next"
     pf_06_editorial: "open"
     pf_07a_publication_architecture: "complete"
-    pf_07_appendix_a: "complete_for_pf_02"
-    pf_07_appendix_d: "complete_for_pf_03"
-    pf_07_remaining_assets: "open"
+    pf_07_appendices_a_to_e_assigned_work: "complete"
+    pf_07_appendix_g_pf_04: "complete"
+    pf_07_appendix_f_and_remaining_assets: "open"
     pf_08_validation: "open"
     pf_09_rc1_gate: "open"
 next_gate:
-  title: "PF-04 Scenario and User-Surface Consolidation"
-  authorized_by_review: "B05-REV-0015"
+  title: "PF-05 Jurisdiction and Commercial Reconciliation"
+  authorized_by_review: "B05-REV-0016"
   parallel_rc1_blocker: "PF-01B CH02-CH47 metadata normalization"
   final_publication_separate: true
 book_02_semantic_change_required: false
