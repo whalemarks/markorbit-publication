@@ -15,8 +15,8 @@ CH00–CH47 — all forty-eight planned manuscript files.
 | CH08–CH15 | Need, Strategy and Recommendation | PF-06B2A complete |
 | CH16–CH22 | Commercial Journey and Formal Intake | PF-06B2B complete |
 | CH23–CH29 | Filing Preparation and Governed Execution | PF-06C1 complete |
-| CH30–CH36 | Examination, Publication and Disputes | PF-06C2 next |
-| CH37–CH42 | Registration and Portfolio Continuity | PF-06C3 planned |
+| CH30–CH36 | Examination, Publication and Disputes | PF-06C2 complete |
+| CH37–CH42 | Registration and Portfolio Continuity | PF-06C3 next |
 | CH43–CH47 | Product Experience and Evolution | PF-06C4 planned |
 
 ## Completed Controlled Sequences
@@ -64,6 +64,22 @@ Filing Package Candidate
 
 Accepted by [B05-REV-0022](../reviews/B05-REV-0022_PF-06C1_Part_IV_Editorial_Review.md).
 
+### Part V — `EL-23–EL-29`
+
+```text
+Official Event Snapshot and scoped Context
+→ Issue Set and Response Option Set
+→ Response Strategy and Response Package
+→ official acknowledgement with examination continuing
+→ Publication Window and challenge monitoring
+→ Adversarial and Remedy Contexts
+→ Deadline Record, Outcome Snapshot and Communication Packet
+```
+
+Accepted by [B05-REV-0023](../reviews/B05-REV-0023_PF-06C2_Part_V_Editorial_Review.md).
+
+B05-REV-0023 also records PF06C2-F01: B05-SPEC-0002 Part V record-ID references require final reconciliation under PF-06D.
+
 ## Metadata Progress
 
 ```text
@@ -72,7 +88,8 @@ CH02–CH07: COMPLETE
 CH08–CH15: COMPLETE
 CH16–CH22: COMPLETE
 CH23–CH29: COMPLETE
-CH30–CH47: OPEN
+CH30–CH36: COMPLETE
+CH37–CH47: OPEN
 ```
 
 Normalized active metadata:
@@ -95,8 +112,8 @@ Need Brief
 → provider selection, appointment and acceptance
 → governed Execution
 → submission, acknowledgement and reconciliation
-→ examination, publication and disputes
-→ Registration Outcome Snapshot and Right Baseline
+→ examination, publication, disputes and remedies
+→ Registration Outcome Record and Right Baseline
 → maintenance and renewal
 → recordals and Chain-of-Title View
 → Portfolio Continuity View and Portfolio Action Plan
@@ -122,7 +139,7 @@ B05-ERRATA-0001 corrects the former derived-status typo that placed CH43 in Part
 - [B05-SPEC-0003 — Conformance Scenarios and User-Surface Contract](../specifications/B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md)
 - [B05-SPEC-0004 — Jurisdiction Pack and Commercial Control Contract](../specifications/B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md)
 
-Specifications remain authoritative over editorial wording.
+B05-SPEC-0001 v0.2 controls active record IDs. The B05-SPEC-0002 Part V cross-reference finding remains open for PF-06D.
 
 ## Current Editorial Reviews
 
@@ -131,9 +148,10 @@ Specifications remain authoritative over editorial wording.
 - B05-REV-0020 — PF-06B2A Part II
 - B05-REV-0021 — PF-06B2B Part III and PF-06B closure
 - B05-REV-0022 — PF-06C1 Part IV
+- B05-REV-0023 — PF-06C2 Part V
 
 ## Next Controlled Task
 
-PF-06C2 edits CH30–CH36 and normalizes metadata for those chapters.
+PF-06C3 edits CH37–CH42 and normalizes metadata for those chapters.
 
-The next Review must confirm official-event authority, examination, response, publication, adversarial and remedy contexts, deadlines, Communications and `EL-23–EL-29` against the controlled specifications.
+The next Review must confirm registration, maintenance, renewal, recordal, transaction and portfolio continuity; `EL-30–EL-35`; relevant `RK-*` steps; and preservation of the independent EMBERLOOP and RIVERKITE states.
