@@ -3,7 +3,7 @@
 ## Identity
 
 - **Canonical path:** `books/book-05-markreg/`
-- **Status:** Foundation Draft
+- **Status:** Part I Draft Complete — Owner Review Pending
 - **Chapter Map:** B05-TOC-V0.1 — Candidate
 - **Portfolio dependency:** MO-PUB-BASELINE-0001
 - **Primary Product:** MarkReg
@@ -12,7 +12,7 @@
 
 - `manuscript/` — controlled chapter files.
 - `planning/` — Product positioning, dependencies, chapter-map, writing, and publication plans.
-- `reviews/` — owner and architecture review records.
+- `reviews/` — owner, architecture, chapter-pack, and publication review records.
 
 ## Current Manuscript Inventory
 
@@ -20,12 +20,16 @@
 - `manuscript/B05-CH-01_Table_of_Contents.md`
 - `manuscript/B05-CH-02_Why_MarkReg_Exists.md`
 - `manuscript/B05-CH-03_Product_Mission_and_Value_Proposition.md`
+- `manuscript/B05-CH-04_Position_Between_Workplace_Core_Execution_MGSN_and_Owning_Services.md`
+- `manuscript/B05-CH-05_Users_Actors_and_Professional_Responsibility.md`
+- `manuscript/B05-CH-06_Product_Principles_Boundaries_and_Non-Goals.md`
+- `manuscript/B05-CH-07_Full-Lifecycle_Model_and_State_Distinctions.md`
 
 ## Planned Chapter Range
 
 B05-TOC-V0.1 proposes CH00–CH47 across seven parts.
 
-The map remains a candidate until owner acceptance. No later chapter title is final before that gate.
+The map remains a candidate until owner acceptance. Continued drafting under owner instruction does not convert the map into an accepted baseline.
 
 ## Current Planning Inventory
 
@@ -36,7 +40,14 @@ The map remains a candidate until owner acceptance. No later chapter title is fi
 ## Review Inventory
 
 - `reviews/README.md`
+- `reviews/B05-REV-0001_Part_I_Product_Constitution_Review.md`
 
 ## Current Gate
 
-Owner review of the Book 05 Product constitution, title, scope, and B05-TOC-V0.1.
+Owner review of:
+
+- the working title;
+- MarkReg Product scope;
+- the seven-part CH00–CH47 map;
+- Part I Product constitution;
+- authorization to continue with Part II, CH08–CH15.

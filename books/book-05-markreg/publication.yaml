@@ -1,8 +1,8 @@
 book: "Book 05"
 title: "MarkReg: The Full-Lifecycle International Trademark Product"
 canonical_path: "books/book-05-markreg/"
-status: "foundation_draft"
-phase: "positioning_and_chapter_map_review"
+status: "part_01_draft_complete_owner_review_pending"
+phase: "product_constitution_review"
 portfolio_baseline: "MO-PUB-BASELINE-0001"
 positioning: "Defines MarkReg as the flagship full-lifecycle international trademark Product that turns complex service needs into understandable, reviewable, governed professional journeys."
 chapter_map:
@@ -17,7 +17,16 @@ manuscript:
     - "B05-CH-01"
     - "B05-CH-02"
     - "B05-CH-03"
-  architecture_reviewed: false
+    - "B05-CH-04"
+    - "B05-CH-05"
+    - "B05-CH-06"
+    - "B05-CH-07"
+  completed_parts:
+    - "Part I — Product Constitution and Lifecycle Position"
+  architecture_reviewed:
+    scope: "CH00-CH07"
+    review_id: "B05-REV-0001"
+    result: "pass_owner_review_pending"
   owner_accepted: false
 book_02_semantic_change_required: false
 book_03_execution_change_required: false
