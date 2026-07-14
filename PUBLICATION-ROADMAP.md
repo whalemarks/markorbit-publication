@@ -82,11 +82,41 @@ Phase 13 records that:
 - owner final publication review was completed through merge of PR #31;
 - no unrestricted implementation, production deployment, or external protected action is authorized.
 
+## Phase 14 — Books 01–04 Portfolio Baseline Review
+
+MO-PUB-REV-0001 completed the one-time baseline review.
+
+Phase 14 records that:
+
+- Book 01 Chapter 1 was restored and Book 01 advanced to RC1;
+- Book 01 publication mapping and Orbital Architecture language were reconciled;
+- Book 02 remains frozen and requires no semantic Change Proposal;
+- Book 03 active Book 04 and Workplace terminology was corrected;
+- Book 03 publication finishing completed and advanced to RC1;
+- Book 04 RC1 owner approval through merge was recorded;
+- MO-PUB-BASELINE-0001 was owner accepted through merge of PR #32;
+- Book 05 planning and controlled drafting may proceed;
+- unrestricted implementation, production deployment and external protected action remain unauthorized.
+
+## Phase 15 — Book 05 MarkReg Foundation Draft
+
+Created the canonical Book 05 directory and established the first dedicated Product publication on the Books 01–04 Portfolio Baseline.
+
+Phase 15 records that:
+
+- the working title is `MarkReg: The Full-Lifecycle International Trademark Product`;
+- B05-TOC-V0.1 proposes CH00–CH47 across seven parts;
+- Product positioning, dependency, governance, and writing gates are defined;
+- CH00–CH03 form the initial manuscript pack;
+- Book 02, Book 03, and Book 04 authority boundaries remain unchanged;
+- the current gate is owner review of the title, scope, and chapter map;
+- unrestricted implementation, production deployment, and external protected action remain unauthorized.
+
 ## Active Future Workstreams
 
 - Architecture Canon maintenance
-- Books 01–04 Portfolio Baseline owner review
-- Book 05 MarkReg positioning and chapter-map preparation
+- Books 01–04 Portfolio Baseline maintenance
+- Book 05 MarkReg Foundation Draft and chapter-map owner review
 - Repository Canonical Alignment Audits
 - Lite Product-loop validation
 - MarkReg Product planning
@@ -112,27 +142,11 @@ The following remain horizontal architecture/specification or implementation wor
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
-| Book 05 | MarkReg | `books/book-05-markreg/` | Planned |
+| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Foundation Draft; B05-TOC-V0.1 candidate |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
-Publication order does not determine software implementation order. Planned missing Book 05–07 directories may produce manifest warnings but must not produce validation errors.
-
-## Phase 14 — Books 01–04 Portfolio Baseline Review
-
-MO-PUB-REV-0001 completed the one-time baseline review.
-
-Phase 14 records that:
-
-- Book 01 Chapter 1 was restored and Book 01 advanced to RC1;
-- Book 01 publication mapping and Orbital Architecture language were reconciled;
-- Book 02 remains frozen and requires no semantic Change Proposal;
-- Book 03 active Book 04 and Workplace terminology was corrected;
-- Book 03 publication finishing completed and advanced to RC1;
-- Book 04 RC1 owner approval through merge was recorded;
-- MO-PUB-BASELINE-0001 is ready for owner acceptance;
-- Book 05 planning may begin after merge;
-- unrestricted implementation, production deployment and external protected action remain unauthorized.
+Publication order does not determine software implementation order. Planned missing Book 06–07 directories may produce manifest warnings but must not produce validation errors.
 
 ## Post-Baseline Publication Sequence
 

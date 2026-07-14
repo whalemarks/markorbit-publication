@@ -23,11 +23,11 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](arc
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
-| Book 05 | MarkReg | `books/book-05-markreg/` | Planned |
+| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Foundation Draft; B05-TOC-V0.1 candidate |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
-Planned missing Book 05–07 directories are expected to produce warnings only, not validation errors.
+Book 05 now has a controlled writing scaffold. Planned missing Book 06–07 directories are expected to produce warnings only, not validation errors.
 
 ## Planned Book Positioning
 
@@ -65,11 +65,13 @@ Positioning: Defines how an independent professional organization establishes it
 
 Publication state: Release Candidate 1 — Owner Accepted / Portfolio Locked. CH00–CH39 remain structurally complete under B04-TOC-V0.1. Publication finishing and owner approval through merge of PR #31 are complete. B04-REV-0005 records the portfolio lock.
 
-### Book 05 — MarkReg
+### Book 05 — MarkReg: The Full-Lifecycle International Trademark Product
 
 Canonical path: `books/book-05-markreg/`
 
-Positioning: Future publication subject for the flagship international trademark domain application and managed professional-service ecosystem showcase.
+Positioning: Defines the flagship full-lifecycle international trademark Product, including need understanding, recommendation, intake, filing preparation, governed execution handoff, examination, registration, maintenance, provider collaboration, and portfolio continuity.
+
+Publication state: Foundation Draft. B05-TOC-V0.1 is a candidate CH00–CH47 map. CH00–CH03 and the initial Product constitution, dependency, and writing-gate records are drafted.
 
 ### Book 06 — MarkOrbit Lite
 
@@ -94,17 +96,18 @@ Book 03 — Release Candidate 1
 Book 04 — Release Candidate 1, Owner Accepted and Portfolio Locked
 ```
 
-The candidate baseline is `MO-PUB-BASELINE-0001`.
+The effective baseline is `MO-PUB-BASELINE-0001`.
 
 Current gate:
 
 ```text
-owner reviews and merges the Portfolio Baseline
-→ baseline becomes effective
-→ Book 05 planning begins
+Portfolio Baseline merged and effective
+→ Book 05 Foundation Draft established
+→ owner reviews B05-TOC-V0.1
+→ controlled writing packs begin
 ```
 
-Ready for Book 05 publication planning after merge: **YES**
+Ready for Book 05 controlled publication drafting: **YES**
 
 Ready for unrestricted implementation: **NO**
 

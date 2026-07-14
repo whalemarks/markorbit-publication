@@ -10,7 +10,7 @@ This directory contains the canonical MarkOrbit publications.
 | Book 02 | MarkOrbit Core Specification | `book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
-| Book 05 | MarkReg | `book-05-markreg/` | Planned; next publication |
+| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `book-05-markreg/` | Foundation Draft; B05-TOC-V0.1 candidate |
 | Book 06 | MarkOrbit Lite | `book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `book-07-mark-global-service-network/` | Planned |
 
@@ -22,4 +22,4 @@ Book 02 remains frozen. Semantic changes require the existing Change Proposal pr
 
 Book 05–07 must consume the baseline and may not silently redefine it.
 
-Planned Book 05–07 directories may remain absent until their approved scaffold tasks begin.
+Book 05 now has a controlled writing scaffold. Planned Book 06–07 directories may remain absent until their approved scaffold tasks begin.
