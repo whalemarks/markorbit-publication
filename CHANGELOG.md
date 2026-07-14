@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-07-14 — Book 04 Complete Draft 1 Full-Book Review
+
+- Completed the controlled full-book architecture and editorial review of CH00–CH39.
+- Confirmed the forty manuscript files, canonical headings, balanced fenced code blocks, and sequential numbered sections.
+- Applied targeted revisions to canonical responsibility language, Artifact preview and re-review, formalization boundaries, Routing progression, and Artifact lineage.
+- Added B04-REV-0003 as the current CH00–CH39 review record.
+- Synchronized Book 04 and repository-level status metadata with the complete Draft 1 state.
+- Confirmed no chapter-map change, Book 02 semantic amendment, or Book 03 Execution amendment is required.
+- Kept owner acceptance, native-English editing, publication finishing, implementation readiness, production deployment, and external protected action as separate unfinished gates.
+
 ## 2026-07-14 — Book 04 CH00–CH27 Consolidated Review
 
 - Paused Book 04 drafting after CH27 and before Part V.

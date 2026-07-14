@@ -4,14 +4,14 @@
 
 - **Title:** MarkOrbit Workplace and Product Architecture
 - **Canonical path:** `books/book-04-workplace-product-architecture/`
-- **Status:** CH00–CH27 Drafted and Reviewed; Paused Before Part V
+- **Status:** Complete Draft 1 — CH00–CH39; Full-Book Architecture Review Completed
 - **Positioning:** Defines how an independent professional organization establishes its own operating orbit and consumes MarkOrbit Core, Execution, Knowledge, Intelligence, Capabilities, Products, and network services through its Workplace.
-- **Current phase:** Consolidated owner review of Front Matter and Parts I–IV.
-- **Current gate:** Review and accept or revise the CH00–CH27 Draft baseline before any Part V drafting.
+- **Current phase:** Consolidated owner review of the complete Draft 1.
+- **Current gate:** Review and accept or request targeted revision before native-English and publication finishing.
 
 ## Directory Purpose
 
-- `manuscript/` — contains the Owner Accepted Table of Contents and active Book 04 manuscript drafts.
+- `manuscript/` — contains the Owner Accepted Table of Contents and complete Book 04 Draft 1 manuscript.
 - `planning/` — records Book 04 positioning, dependencies, decisions, writing gates, and writing-pack planning.
 - `reviews/` — records Book 04 chapter-map and manuscript review decisions.
 
@@ -60,10 +60,23 @@
 - `manuscript/B04-CH-26_Workplace_Editions_and_Organization-Specific_Applications.md`
 - `manuscript/B04-CH-27_Cross-Product_Handoffs_and_Lifecycle_Continuity.md`
 
-### Paused Manuscript Scope
+### Part V — Outcomes, Artifacts and Delivery
 
-- CH28–CH32 — Part V — not drafted.
-- CH33–CH39 — Part VI — not drafted.
+- `manuscript/B04-CH-28_Asset_Library_and_Reusable_Resources.md`
+- `manuscript/B04-CH-29_Content_Artifact_and_Document_Boundaries.md`
+- `manuscript/B04-CH-30_Artifact_Lifecycle_Versioning_and_Provenance.md`
+- `manuscript/B04-CH-31_Render_Edit_Delivery_and_Publish.md`
+- `manuscript/B04-CH-32_Formalization_Outcome_and_Feedback.md`
+
+### Part VI — Network Participation and Orbital Ecosystem Evolution
+
+- `manuscript/B04-CH-33_Private_Networks_and_Trusted_Extended_Networks.md`
+- `manuscript/B04-CH-34_Capability_Evidence_Routing_and_Human_Selection.md`
+- `manuscript/B04-CH-35_Collaboration_Outcomes_and_Trust_Feedback.md`
+- `manuscript/B04-CH-36_Ecosystem_Learning_Without_Centralization.md`
+- `manuscript/B04-CH-37_Governance_Privacy_and_Professional_Responsibility_Across_Orbits.md`
+- `manuscript/B04-CH-38_Conformance_and_Future_Architecture_Specifications.md`
+- `manuscript/B04-CH-39_Conclusion_Each_in_Its_Own_Orbit.md`
 
 ## Planning and Review Inventory
 
@@ -80,14 +93,16 @@
 - `planning/B04-PLN-0006_Writing_Pack_Plan.md`
 - `reviews/B04-REV-0001_Chapter_Map_Owner_Review.md`
 - `reviews/B04-REV-0002_CH00-CH27_Architecture_and_Editorial_Review.md`
+- `reviews/B04-REV-0003_CH00-CH39_Full_Book_Architecture_and_Editorial_Review.md`
 - `reviews/README.md`
 
 ## Repository Task Record
 
 - `codex/tasks/PUB-TASK-B04-001-create-minimal-book-04-scaffold.md`
 - `codex/tasks/PUB-TASK-B04-002-lock-chapter-map-and-prepare-pack-01.md`
+- `codex/tasks/PUB-TASK-B04-003-review-and-revise-complete-book-04-draft-1.md`
 
-The CH00–CH27 review is recorded by B04-REV-0002 and this consolidated revision PR.
+B04-REV-0002 remains the historical CH00–CH27 review. B04-REV-0003 is the current full-book review record.
 
 ## Upstream Dependencies
 
@@ -101,6 +116,16 @@ The CH00–CH27 review is recorded by B04-REV-0002 and this consolidated revisio
 - Book 05 — MarkReg.
 - Book 06 — MarkOrbit Lite.
 - Book 07 — Mark Global Service Network.
+
+## Current Gate
+
+```text
+CH00–CH39 full-book architecture review completed
+→ consolidated owner review
+→ targeted revision or owner acceptance
+→ native-English and publication finishing
+→ final publication gate
+```
 
 ## Authority Boundary
 

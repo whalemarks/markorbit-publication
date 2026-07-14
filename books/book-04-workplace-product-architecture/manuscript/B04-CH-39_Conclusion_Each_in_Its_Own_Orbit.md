@@ -291,7 +291,7 @@ It may become:
 - provider comparison;
 - Publish Package.
 
-Artifact preserves the business outcome.
+Artifact preserves a usable, versioned business outcome and its lineage.
 
 ---
 
@@ -758,7 +758,7 @@ Owning Services
 → change formal business facts
 
 Artifacts
-→ preserve usable business outcomes
+→ preserve usable, versioned business outcomes and their lineage
 
 Outcomes and feedback
 → support organizational and ecosystem learning

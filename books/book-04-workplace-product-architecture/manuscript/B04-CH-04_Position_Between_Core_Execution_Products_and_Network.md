@@ -80,21 +80,21 @@ under which identity, permission, and context?
 The central proposition of this chapter is:
 
 ```text
-Core defines.
+Core defines shared meaning.
 
-Execution coordinates.
+Execution governs coordinated work.
 
-Workplace contextualizes.
+Workplace provides authorized organization context.
 
-Products compose.
+Products compose focused user journeys.
 
-MGSN connects.
+MGSN connects independent organizational Orbits.
 
-Owning Services formalize.
+Owning Services change and record formal business facts.
 
-Humans remain accountable.
+Humans remain professionally accountable.
 
-AI assists under governance.
+AI assists under explicit governance.
 ```
 
 ---

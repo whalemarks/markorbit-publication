@@ -44,7 +44,10 @@ Capability claim
 → Routing recommendation
 → human selection
 → Routing decision
-→ provider appointment and instruction
+→ appointment preparation
+→ approval where required
+→ governed provider instruction
+→ provider acceptance
 ```
 
 The constitutional distinctions are:

@@ -21,19 +21,21 @@ Lower levels must not silently redefine higher-level semantics.
 
 ## 3. Constitutional Boundary
 
-Core defines shared semantics.
+Core defines shared meaning.
 
 Execution governs coordinated work.
 
 Workplace provides authorized organization context.
 
-Products provide focused user experience and domain composition.
+Products compose focused user journeys.
 
 MGSN connects independent organizational Orbits.
 
 Owning Services change and record formal business facts.
 
 Humans remain professionally accountable.
+
+AI assists under explicit governance.
 
 These statements allocate responsibility. They do not silently modify Book 02 or Book 03 terminology.
 
@@ -55,49 +57,75 @@ Assistants, Guides, and AI Agents may prepare, assemble, recommend, summarize, c
 
 ## 8. Artifact and Delivery Boundary
 
-Book 04 may distinguish Asset, Content, Artifact, Document, Human Review, Render, Edit, Delivery, Publish, and Outcome Feedback. It must not treat Artifact as identical to Document or define implementation schemas in the manuscript.
+Book 04 distinguishes Asset, Content, Artifact, Document, Human Review, Render, Edit, Delivery, Publish, formalization, outcome, and feedback. It must not treat Artifact as identical to Document or define implementation schemas in the manuscript.
+
+Preview and final representation are distinct. Render may support preview before Review and final production after approval for a defined use.
+
+Technical Edit and material Edit are distinct. A material post-review Edit requires Review reconsideration and may require a new Artifact version.
+
+Approval, formalization, Delivery, Publish, provider instruction, provider acceptance, and external outcome remain distinct consequences. One Product journey may connect them, but it must not collapse their authority or result states.
 
 ## 9. MGSN and Network Boundary
 
-MGSN connects independent organizational Orbits through Capability, Routing, Evidence, Trust, and governed collaboration. It is not an open bidding marketplace. Network participation must preserve privacy, staged disclosure, human selection, relationship ownership, and professional responsibility.
+MGSN connects independent organizational Orbits through Capability, Routing, Evidence, Trust, and governed collaboration. It is not an open bidding marketplace. Network participation must preserve privacy, staged disclosure, human selection, relationship ownership, provider acceptance, and professional responsibility.
 
-## 10. Chapter Map and Current Drafting Lock
+## 10. Chapter Map and Current Manuscript Lock
 
 - Use the canonical title: Book 04 — MarkOrbit Workplace and Product Architecture.
 - Use B04-TOC-V0.1 as the Owner Accepted chapter map.
-- CH00–CH27 form the current reviewed Draft baseline recorded by B04-REV-0002.
-- CH28–CH39 are intentionally paused and are not authorized for drafting until a later owner decision.
+- CH00–CH39 form the complete Draft 1 baseline.
+- B04-REV-0002 remains the historical CH00–CH27 review record.
+- B04-REV-0003 records the completed CH00–CH39 full-book architecture and editorial review.
 - Future chapter additions, removals, renumbering, or structural movement require explicit Book 04 change control.
 
 ## 11. Editorial Rules
 
 - Preserve Book 02 frozen semantics and Book 03 Execution authority.
-- Use responsibility verbs consistently: Core defines, Execution governs, Workplace provides context, Products compose journeys, MGSN connects, Owning Services change formal business facts, and humans remain accountable.
+- Use responsibility verbs consistently: Core defines shared meaning, Execution governs coordinated work, Workplace provides authorized organization context, Products compose focused user journeys, MGSN connects independent organizational Orbits, Owning Services change and record formal business facts, humans remain professionally accountable, and AI assists under explicit governance.
 - Do not convert architectural profiles into final Lite, MarkReg, or MGSN requirements.
 - Avoid Product marketing, implementation schemas, API payloads, repository topology, and deployment prescriptions.
 - Preserve Candidate Before Canonical, version-specific Review, purpose-bound context, and formal Owning Service authority.
+- Preserve the difference between preview and final representation.
+- Preserve the difference between technical Edit and material Edit.
+- Require Review reconsideration after material post-review Edit.
+- Preserve the distinction among approval, formalization, Delivery, Publish, provider instruction, provider acceptance, and external outcome.
 - Record substantive review outcomes under `reviews/`.
 
 ## 12. Review and Acceptance
 
-B04-REV-0002 records the CH00–CH27 architecture and editorial review. Its application does not constitute owner acceptance or final publication approval.
+B04-REV-0003 records the completed full-book architecture and editorial review. Its application does not constitute owner acceptance or final publication approval.
 
 The current gate is:
 
 ```text
-CH00–CH27 reviewed
+CH00–CH39 full-book architecture review completed
 → consolidated owner review
-→ targeted revision or acceptance
-→ owner decision on Part V and Part VI drafting
+→ targeted revision or owner acceptance
+→ native-English and publication finishing
+→ final publication gate
 ```
 
-## 13. Change Control
+## 13. Remaining Publication Work
+
+The following remain pending:
+
+- owner review and acceptance;
+- native-English line edit;
+- final compression and repetition edit;
+- diagrams and visual architecture assets;
+- citation conventions and source reconciliation;
+- glossary reconciliation;
+- index work;
+- cross-book final reconciliation;
+- release-candidate packaging.
+
+## 14. Change Control
 
 Changes to Book 04 scope, chapter order, chapter count, governance locks, or downstream publication boundaries require an explicit future task or owner decision. Any proposed Book 02 semantic change must use the Book 02 Change Proposal process. Any proposed Book 03 Execution change must use the applicable Book 03 governance path.
 
-## 14. Codex Boundary
+## 15. Execution Boundary
 
-Codex may create and maintain Book 04 manuscript and governance records only under explicit task authority. Codex must not treat the manuscript as authorization for Product implementation, unrestricted deployment, external protected action, autonomous professional work, or silent changes to Book 02 or Book 03.
+Controlled assistants or Codex may maintain Book 04 manuscript and governance records only under explicit task authority. They must not treat the manuscript as authorization for Product implementation, unrestricted deployment, external protected action, autonomous professional work, or silent changes to Book 02 or Book 03.
 
 Ready for final publication: **NO**
 

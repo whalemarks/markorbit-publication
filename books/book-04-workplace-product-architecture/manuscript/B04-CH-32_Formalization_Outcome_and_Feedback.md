@@ -17,7 +17,7 @@ This chapter closes Part V by explaining how prepared and approved outputs becom
 
 The central question is:
 
-> How does an approved Artifact become a formal Core record or a verified delivered outcome, and how should usage, professional results, commercial results, failures, and feedback return to the organization and wider ecosystem?
+> How does an approved Artifact become input to a formal governed record or domain fact, or produce a verified delivered outcome, and how should usage, professional results, commercial results, failures, and feedback return to the organization and wider ecosystem?
 
 The central proposition is:
 
@@ -124,27 +124,33 @@ The Artifact can remain a source and explanation package while the formal domain
 
 ---
 
-## 4. Formalization Must Be Typed
+## 4. Downstream Consequence Must Be Typed
 
-A request should identify whether it seeks to:
+A downstream request should identify both its operation family and intended consequence.
 
-- create;
-- update;
+Formalization operations may include:
+
+- create a formal record;
+- update a formal record;
+- record a decision;
+- attach an approved output;
+- supersede a formal record;
+- cancel or close under the owning domain contract.
+
+Execution and outcome operations may include:
+
 - submit;
 - send;
-- approve;
-- record;
-- attach;
-- supersede;
-- cancel;
-- publish;
-- deliver.
+- deliver;
+- publish.
+
+These operations may participate in one Product journey, but they remain distinct. An approval must be represented as a typed approval decision under CH19, not hidden inside a generic formalization verb.
 
 A generic `save as official` action is insufficient.
 
 ---
 
-## 5. Formalization Request Is a Prepared Action
+## 5. Formalization or Outcome Request Is a Prepared Action
 
 The request should preserve:
 
