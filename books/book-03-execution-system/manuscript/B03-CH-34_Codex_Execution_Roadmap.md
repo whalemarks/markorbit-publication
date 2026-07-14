@@ -1,5 +1,7 @@
 # B03-CH-34 — Codex Execution Roadmap
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 The Execution MVP is ready for implementation planning only when implementation can proceed without allowing Codex, engineers, Products or agents to invent missing authority.
@@ -88,8 +90,8 @@ markorbit-core
 Execution implementation repository
     consumer and coordinator of Core contracts
 
-Book 04 — MarkOrbit Product System
-    Product consumer of Execution results
+Book 04 — MarkOrbit Workplace and Product Architecture
+    organization-context and Product consumer of Execution results
 ```
 
 If the typed implementation conflicts with the approved publication contract, implementation must stop and route the conflict to governance review.
@@ -1218,7 +1220,7 @@ It must include:
 Define a pilot configuration constrained by:
 
 - environment;
-- organization or tenant;
+- organization;
 - workflow set;
 - user group;
 - fixture or approved test data;

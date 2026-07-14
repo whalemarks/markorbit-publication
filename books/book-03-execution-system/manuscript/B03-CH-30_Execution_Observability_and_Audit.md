@@ -1,5 +1,7 @@
 # B03-CH-30 — Execution Observability and Audit
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 Execution cannot be governed when important behavior is invisible.

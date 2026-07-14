@@ -6,8 +6,8 @@
 - **Architecture direction:** Owner Accepted
 - **Manuscript:** CH00–CH39 publication finishing completed
 - **Chapter map:** B04-TOC-V0.1 — Owner Accepted
-- **Current review:** B04-REV-0004 — Publication Finishing and RC1 Review
-- **Current gate:** Owner final publication review
+- **Current review:** B04-REV-0005 — Portfolio Baseline Lock
+- **Current gate:** Book 05 planning under the locked Books 01–04 baseline
 
 ## Completed Work
 
@@ -22,6 +22,8 @@
 - Editorial style, source notes, glossary, subject index, figure register, cross-book reconciliation, and RC1 checklist completed.
 - B04-REV-0004 publication-finishing review completed.
 - RC1 validation passed.
+- Owner final publication approval recorded through merge of PR #31.
+- B04-REV-0005 records the Portfolio Baseline lock.
 
 ## Cross-Book Result
 
@@ -43,18 +45,20 @@ B04-TOC-V0.1 remains unchanged.
 Architecture is owner accepted.
 Publication finishing is complete.
 Release Candidate 1 validation passed.
-Owner final publication review is the current gate.
+Owner final publication approval is recorded through merge.
+The Books 01–04 Portfolio Baseline is locked.
 ```
 
 ## Remaining Gates
 
-1. Owner final publication review and approval.
-2. Merge of the Release Candidate 1 pull request.
-3. Published-format rendering or external distribution if separately requested.
+1. Published-format rendering or external distribution if separately requested.
+2. Any later semantic change through the applicable change-control path.
 
-Ready for owner final publication review: **YES**
+RC1 owner accepted through merge: **YES**
 
-Ready for final publication without owner approval: **NO**
+Portfolio baseline locked: **YES**
+
+Published-format rendering completed: **NO**
 
 Ready for unrestricted implementation: **NO**
 

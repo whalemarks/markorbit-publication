@@ -2,422 +2,322 @@
 
 # Publication Map
 
-> *Ideas become architecture.*
->
-> *Architecture becomes publications.*
->
-> *Publications become implementation.*
+> *One architecture requires several publications because no single book should own every responsibility.*
 
 ---
 
 # Purpose
 
-The MarkOrbit ecosystem is not documented by a single book.
+The MarkOrbit publication system separates vision, shared semantics, governed execution, organization-level architecture, focused Products and network design.
 
-No single publication can adequately explain its philosophy, architecture, implementation and evolution.
+The sequence is constitutional rather than merely chronological.
 
-Instead, MarkOrbit is documented through a structured publication system.
+```text
+Book 01 — Industry Vision and Operating System Principles
+        ↓
+Book 02 — Shared Core Semantics and Contracts
+        ↓
+Book 03 — Governed Execution
+        ↓
+Book 04 — Workplace and Product Architecture
+        ↓
+Book 05 — MarkReg
+Book 06 — MarkOrbit Lite
+Book 07 — Mark Global Service Network
+```
 
-Each publication has a single responsibility.
+Later books consume earlier responsibilities.
 
-Together they form one coherent body of knowledge.
+They do not silently redefine them.
 
-This appendix explains how those publications relate to one another.
+Publication order does not determine software implementation order.
 
 ---
 
-# One Knowledge System
+# Book 01
 
-The MarkOrbit Publications are designed as a layered knowledge system rather than a collection of independent books.
+## MarkOrbit — The Operating System for Global Brand Services
 
-Each publication answers a different question.
+Primary responsibility:
 
-Each builds upon the publications before it.
-
-Each avoids repeating concepts that have already been established.
-
-The result is a knowledge architecture that evolves consistently over time.
-
-```
-                     MarkOrbit Publications
-
-                              │
-        ┌─────────────────────┼─────────────────────┐
-        │                     │                     │
-   Philosophy           Architecture         Implementations
-        │                     │                     │
-        ▼                     ▼                     ▼
-      Book 1              Book 2–3             Book 4+
-```
-
-Book 1 establishes the language.
-
-Subsequent publications expand that language.
-
----
-
-# Publication Layers
-
-The publication system is organised into four architectural layers.
-
-```
-Layer 1
-Vision
-
-↓
-
-Layer 2
-Architecture
-
-↓
-
-Layer 3
-Frameworks
-
-↓
-
-Layer 4
-Implementations
-```
-
-Each layer has different responsibilities.
-
-Confusing these responsibilities leads to inconsistent architecture.
-
-Separating them enables long-term evolution.
-
----
-
-# Layer One
-
-# Vision
-
-The first layer explains *why* the ecosystem exists.
-
-It introduces:
-
-- industry evolution;
-- operating system thinking;
-- ecosystem architecture;
-- first principles;
-- long-term vision.
-
-This layer deliberately avoids implementation details.
-
-Its purpose is to establish a shared understanding.
-
----
-
-## Book 1
-
-### MarkOrbit
-
-**The Operating System for Global Brand Services**
-
-Responsibilities:
-
-- explain the industry problem;
-- establish architectural thinking;
-- define the operating philosophy;
-- introduce canonical terminology;
-- provide the conceptual foundation for all future publications.
+- define the industry problem;
+- explain the need for shared operating infrastructure;
+- establish the Orbit philosophy;
+- preserve organisational autonomy;
+- introduce Workplace, Products, MGSN and ecosystem evolution conceptually;
+- state enduring Operating System principles.
 
 Question answered:
 
-> **Why does the industry need an operating system?**
+> **Why does the industry need MarkOrbit, and what principles should guide it?**
+
+Book 01 is conceptual.
+
+It does not define Core contracts, execution state, Product specifications or implementation.
 
 ---
 
-# Layer Two
+# Book 02
 
-# Architecture
+## MarkOrbit Core Specification
 
-Once the vision has been established, architecture can be defined.
+Primary responsibility:
 
-Architecture explains responsibilities.
-
-Relationships.
-
-Boundaries.
-
-Capabilities.
-
-It intentionally remains independent of products.
-
----
-
-## Book 2
-
-### MarkOrbit Core Specification
-
-Responsibilities:
-
-- define the Core architecture;
-- specify architectural responsibilities;
-- establish governance;
-- define canonical models;
-- provide the single architectural source of truth.
+- define shared Core semantics;
+- define canonical domains, Objects, Services and Events;
+- define identity, Permission, Policy and contract boundaries;
+- define Capability, Knowledge and AI-governance foundations;
+- establish the Frozen Core Specification Baseline.
 
 Question answered:
 
-> **What is the architecture?**
+> **What shared meaning and authority must remain stable across the Operating System?**
+
+Book 02 is the frozen semantic baseline.
+
+A later publication may consume it.
+
+A later publication may not silently amend it.
+
+Any semantic change requires the Book 02 Change Proposal process.
 
 ---
 
-# Layer Three
+# Book 03
 
-# Frameworks
+## MarkOrbit Execution System
 
-Frameworks explain reusable operating environments built upon the Core.
+Primary responsibility:
 
-Unlike architecture, frameworks describe patterns that many implementations may adopt.
-
----
-
-## Book 3
-
-### Workplace Framework
-
-Responsibilities:
-
-- define the Workplace model;
-- explain organisational operating environments;
-- establish reusable business capabilities;
-- define Workplace lifecycle and governance.
+- define how approved Core contracts become governed operational progress;
+- coordinate Workflows and Tasks;
+- define Human Review and approval progression;
+- preserve Communication preparation, approval, send and delivery boundaries;
+- define Event trace, safe failure, retry and reconciliation;
+- govern Human–AI execution handoffs;
+- define controlled MVP execution depth.
 
 Question answered:
 
-> **How does an organisation operate?**
+> **How does approved meaning become governed work without transferring mutation authority away from Owning Services?**
+
+Book 03 coordinates.
+
+It does not redefine Core.
+
+It does not own Product journeys or organization-specific Workplace context.
 
 ---
 
-# Layer Four
+# Book 04
 
-# Implementations
+## MarkOrbit Workplace and Product Architecture
 
-Implementations apply the architecture and frameworks to specific products.
+Primary responsibility:
 
-Each implementation has its own audience.
-
-Its own objectives.
-
-Its own release cycle.
-
-Implementations may evolve rapidly while preserving architectural consistency.
-
----
-
-## Book 4
-
-### MarkReg
-
-Responsibilities:
-
-The official Workplace operated by the MarkOrbit ecosystem.
-
-Demonstrates best practices.
-
-Validates architecture.
-
-Provides reference implementations.
+- define Workplace as the organization-level operating architecture of an independent Orbit;
+- define authorized organization context;
+- define private Knowledge, data-boundary and organizational-memory treatment;
+- define how Products consume Core, Execution, Knowledge, Intelligence and Capability;
+- define cross-Product Handoffs and continuity;
+- define Artifact, Document, Render, Edit, Delivery, Publish and Formalization boundaries;
+- define private-first network participation and ecosystem learning.
 
 Question answered:
 
-> **How does the official Workplace operate?**
+> **How does an independent organisation operate through its own Workplace and consume focused Products without losing authority, context or autonomy?**
+
+Book 04 is the bridge between the shared Operating System and focused Products.
 
 ---
 
-## Book 5
+# Book 05
 
-### MarkOrbit Lite
+## MarkReg
 
-Responsibilities:
+Primary responsibility:
 
-Professional Workplace for trademark agencies, law firms and independent service providers.
-
-Supports independent operation while remaining compatible with the operating system.
+- define the flagship international trademark Product;
+- compose the full trademark professional-service lifecycle;
+- define AI-assisted country, class and goods/services recommendation;
+- define progressive intake and filing-package preparation;
+- define professional Review, provider handoff and formal outcome boundaries;
+- preserve lifecycle continuity from need recognition through maintenance and change.
 
 Question answered:
 
-> **How can organisations build their own Workplace?**
+> **How does MarkReg deliver the international trademark lifecycle while consuming Workplace, Core, Execution and MGSN correctly?**
+
+MarkReg is a focused Product.
+
+It is not the Workplace, Core, Execution System, MGSN or an Owning Service.
 
 ---
 
-## Book 6
+# Book 06
 
-### Mark Global Service Network (MGSN)
+## MarkOrbit Lite
 
-Responsibilities:
+Primary responsibility:
 
-Defines ecosystem collaboration.
-
-Explains service routing.
-
-Describes capability exchange.
-
-Establishes governance for cross-organisational cooperation.
+- define the lightweight Workplace Product for independent professionals and small teams;
+- define the Today-centred attention loop;
+- define Assistant, Guide and personal AI context;
+- define recommendations, Value Candidates and Prepared Actions;
+- define business Artifact preparation;
+- define local and private support;
+- define governed Handoffs to MarkReg, MGSN and other Products.
 
 Question answered:
 
-> **How do Workplaces collaborate globally?**
+> **How can a lightweight experience help a professional understand, choose, prepare and hand off work without reducing governance?**
+
+Lite is not a smaller MarkReg.
+
+It does not replace the organization Workplace.
 
 ---
 
-# Knowledge Dependencies
+# Book 07
 
-The publication system follows a deliberate dependency model.
+## Mark Global Service Network
 
-```
-Book 1
+Primary responsibility:
 
-↓
+- define the service-routing, Capability and trust network connecting independent Workplaces;
+- define Private Partners, Trusted Extended Network and Limited Public Discovery;
+- define Capability Evidence and verification;
+- define staged disclosure and data minimization;
+- preserve Human Selection;
+- define collaboration outcomes and contextual Trust feedback;
+- preserve relationship ownership and cross-Orbit responsibility.
 
-Book 2
+Question answered:
 
-↓
+> **How do independent organisational Orbits discover Capability and collaborate without becoming a centralized marketplace?**
 
-Book 3
+MGSN recommends and connects.
 
-↓
-
-Book 4
-Book 5
-Book 6
-```
-
-Knowledge flows downward.
-
-Dependencies do not.
-
-For example:
-
-Book 4 assumes knowledge introduced in Book 3.
-
-Book 3 assumes knowledge introduced in Book 2.
-
-Book 2 assumes concepts established by Book 1.
-
-Higher layers never depend upon implementation.
+It does not automatically appoint providers or own participant relationships.
 
 ---
 
-# Publication Responsibilities
+# Responsibility Matrix
 
-Each publication owns one primary responsibility.
-
-| Publication | Primary Responsibility |
-|-------------|------------------------|
-| Book 1 | Vision |
-| Book 2 | Core Architecture |
-| Book 3 | Workplace Framework |
-| Book 4 | Official Workplace |
-| Book 5 | Professional Workplace |
-| Book 6 | Global Collaboration |
-
-No publication should duplicate another.
-
-If a concept belongs to Book 2, later books should reference it rather than redefine it.
-
-This principle keeps the publication system coherent.
+| Book | Primary responsibility | Must not absorb |
+| --- | --- | --- |
+| Book 01 | Vision and Operating System principles | Specification or implementation |
+| Book 02 | Shared Core meaning and contracts | Product or Workflow experience |
+| Book 03 | Governed Execution | Core mutation or Product ownership |
+| Book 04 | Workplace and Product Architecture | Dedicated Product detail |
+| Book 05 | MarkReg Product | Workplace, MGSN or Owning Service authority |
+| Book 06 | Lite Product | MarkReg lifecycle or unrestricted AI authority |
+| Book 07 | Network architecture | Client, provider or relationship ownership |
 
 ---
 
-# Relationship to Specifications
+# Knowledge and Authority Flow
 
-Books are only one part of the MarkOrbit knowledge system.
-
-They coexist with specifications, governance documents and implementation repositories.
-
-```
-Constitution
-
-↓
-
-Books
-
-↓
-
-Specifications
-
-↓
-
-Reference Implementations
-
-↓
-
-Products
+```text
+Book 01 establishes purpose and principles.
+        ↓
+Book 02 defines shared meaning.
+        ↓
+Book 03 governs coordinated progression.
+        ↓
+Book 04 provides organization context and Product composition.
+        ↓
+Books 05–07 define focused Product and network behaviour.
 ```
 
-Each artefact serves a different purpose.
+Authority does not flow downward without limit.
 
-Books explain.
+Every layer remains constrained by its responsibility.
 
-Specifications define.
-
-Implementations validate.
-
-Products deliver.
-
----
-
-# The Evolution of the Publication System
-
-The publication system is designed to evolve continuously.
-
-New books may be introduced.
-
-Existing books may receive new editions.
-
-Architectural ideas may mature.
-
-Implementation guidance may expand.
-
-However, one principle remains constant.
-
-Earlier publications establish foundations.
-
-Later publications build upon them.
-
-Knowledge evolves through extension rather than replacement.
+```text
+Core defines shared meaning.
+Execution governs coordinated work.
+Workplace provides authorized organization context.
+Products compose focused user journeys.
+MGSN connects independent organizational Orbits.
+Owning Services change and record formal business facts.
+Humans remain professionally accountable.
+AI assists under explicit governance.
+```
 
 ---
 
-# A Living Library
+# Relationship to the Architecture Canon
 
-The MarkOrbit Publications are intended to become more than documentation.
+The repository-level MarkOrbit Orbital Professional Operating Architecture is the current working architecture authority.
 
-They form the permanent knowledge library of the ecosystem.
+Book 01 explains its philosophical continuity.
 
-Every edition captures the current understanding of architecture.
+Books 02–04 define the current shared baseline in progressively greater operational detail.
 
-Every subsequent edition refines that understanding.
+Books 05–07 must demonstrate conformance before their chapter maps are accepted.
 
-Over time, the publication system becomes the collective memory of the ecosystem itself.
+Where historical wording conflicts with the current publication map, the current map governs editorial interpretation.
 
-The books therefore serve not only today's readers, but future architects, organisations and contributors.
+Where a proposed change may alter Book 02 semantics, the Book 02 Change Proposal process governs.
+
+---
+
+# Relationship to Specifications and Implementations
+
+Publications and implementations have different responsibilities.
+
+```text
+Architecture Canon
+        ↓
+Books and Specifications
+        ↓
+Product Charters and Contracts
+        ↓
+Implementation Tasks
+        ↓
+Repositories and Deployments
+```
+
+A publication does not authorize implementation by itself.
+
+A merged manuscript does not authorize production deployment.
+
+A Product description does not authorize protected action.
+
+Implementation must remain traceable to approved contracts, governance and review gates.
+
+---
+
+# Portfolio Baseline
+
+The first four books form the pre-Product portfolio baseline:
+
+```text
+Book 01 — Why and principles
+Book 02 — Shared meaning
+Book 03 — Governed work
+Book 04 — Organization context and Product composition
+```
+
+Book 05 begins the focused Product layer.
+
+It should validate this baseline through MarkReg rather than reopening it through informal terminology changes.
 
 ---
 
 # Closing
 
-Book 1 is intentionally the beginning rather than the destination.
+The publication system succeeds when every book answers one primary question and respects the responsibilities of the others.
 
-It introduces the questions.
+Book 01 provides direction.
 
-The publications that follow explore the answers in increasing depth.
+Book 02 provides shared meaning.
 
-Together they describe an ecosystem that is expected to evolve for decades while remaining guided by one architectural philosophy.
+Book 03 provides governed progression.
 
-That philosophy is expressed through many books.
+Book 04 provides the independent organizational Orbit and Product architecture.
 
-But it speaks with one language.
+Books 05–07 turn that foundation into focused Product and network models.
 
----
-
-> **One Vision.**
-
-> **One Architecture.**
-
-> **One Knowledge System.**
-
-> **Many Publications.**
+Together they form one knowledge system without becoming one undifferentiated book.

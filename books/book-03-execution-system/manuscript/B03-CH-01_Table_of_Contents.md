@@ -1,5 +1,7 @@
 # B03-CH-01 — Table of Contents
 
+**Status:** Release Candidate 1
+
 ## 00 Preface
 
 - [00 — Preface](B03-CH-00_Preface.md)

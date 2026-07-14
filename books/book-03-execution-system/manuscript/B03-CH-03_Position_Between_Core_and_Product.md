@@ -1,10 +1,12 @@
 # B03-CH-03 — Position Between Core and Product
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 This chapter defines the architectural position of Book 03.
 
-Book 03 sits between **Book 02 — MarkOrbit Core Specification** and **Book 04 — MarkOrbit Product System**.
+Book 03 sits between **Book 02 — MarkOrbit Core Specification** and **Book 04 — MarkOrbit Workplace and Product Architecture**.
 
 It does not replace either of them. It does not dilute Core. It does not become a product manual. Its role is to define how Core contracts become governed execution patterns that future product surfaces can safely consume.
 
@@ -17,8 +19,8 @@ Book 02 — Core Specification
 Book 03 — Execution System
   coordinates governed operational execution.
 
-Book 04 — Product System
-  delivers execution through products, interfaces and applications.
+Book 04 — Workplace and Product Architecture
+  provides organization context and composes execution through Products, interfaces and applications.
 ```
 
 This position matters because MarkOrbit is not a single app. It is an architecture for professional trademark work. If Core, Execution and Product are not separated, the system will drift into either an overgrown Core, an uncontrolled workflow layer, or a product-driven architecture where each interface invents its own rules.
@@ -164,23 +166,21 @@ Book 03 is therefore the place where professional operation becomes repeatable w
 
 ## 4. What Product Owns
 
-Book 04 will own the Product System.
+Book 04 owns Workplace and Product Architecture.
 
-Product surfaces are how users experience and operate MarkOrbit. They may include:
+Workplace provides the authorized organization context through which users experience and operate MarkOrbit. Focused Products and operating surfaces may include:
 
-- Workplace;
-- Client Portal;
-- Partner Center;
-- Provider Network;
-- API Console;
 - Lite;
+- MarkReg;
+- MGSN interfaces;
+- organization-specific applications;
 - local plugins;
 - publishing assistants;
 - dashboards;
-- workflow screens;
-- review screens;
+- Workflow screens;
+- Review screens;
 - reporting surfaces;
-- integrations.
+- approved integrations.
 
 Product owns:
 
@@ -209,7 +209,7 @@ What is packaged for release?
 
 Book 03 does not answer those questions in detail.
 
-Book 03 may state that a review gate exists. Book 04 may later decide how a reviewer sees that gate in Workplace. Book 03 may define that communication sending is protected execution. Book 04 may later design the confirmation interface, warning copy, preview screen, or send button behavior.
+Book 03 may state that a review gate exists. Book 04 defines how a reviewer sees that gate through authorized Workplace and Product surfaces. Book 03 may define that communication sending is protected execution. Book 04 and the relevant Product specification may design the confirmation interface, warning copy, preview screen or send-button behavior.
 
 The boundary is:
 
@@ -220,7 +220,7 @@ Product designs the experience.
 
 This is why Workplace is not the subject of Book 03.
 
-Workplace is a product surface. It may consume the Execution System, but it does not define it.
+Workplace is the organization-level operating environment of an independent Orbit. It exposes Product and operating surfaces that may consume the Execution System, but Workplace does not define Execution semantics.
 
 ---
 
@@ -348,7 +348,7 @@ For example, before designing a review screen, the product system needs to know:
 
 Book 03 defines these operational patterns.
 
-Book 04 can then build product surfaces that expose them.
+Book 04 can then define how authorized Workplace and Product surfaces expose them.
 
 This avoids the common mistake of designing screens before defining execution responsibility.
 
@@ -551,7 +551,7 @@ This chapter does not define:
 - full Artifact model;
 - full Distillery pipeline;
 - Lite release scope;
-- Book 04 product packaging.
+- Book 04 Workplace and Product composition.
 
 Those topics belong to their proper layers.
 

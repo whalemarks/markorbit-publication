@@ -1,5 +1,7 @@
 # B03-CH-18 — Application Preparation Pattern
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 The Application Preparation Pattern turns governed intake context into a reviewable trademark application workspace without turning preparation into official filing authority.

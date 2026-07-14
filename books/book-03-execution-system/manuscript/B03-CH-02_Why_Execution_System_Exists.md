@@ -1,5 +1,7 @@
 # B03-CH-02 — Why Execution System Exists
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 This chapter explains why Book 03 exists as the **MarkOrbit Execution System**.
@@ -15,8 +17,8 @@ Book 02 — Core Specification
 Book 03 — Execution System
   defines how valid Core contracts are coordinated into safe operational execution.
 
-Book 04 — Product System
-  defines how users experience and operate those execution patterns through products.
+Book 04 — Workplace and Product Architecture
+  defines organization context and how users experience governed execution through Products.
 ```
 
 Without Book 03, MarkOrbit would have a strong Core but no controlled operational spine. Product teams would be forced to interpret Core contracts directly. AI agents would be tempted to act without a clear execution boundary. Workflows would scatter across products. Communications, reviews, tasks, events, and approvals would be implemented inconsistently.
@@ -199,7 +201,7 @@ A Workplace screen might define one task lifecycle. A Client Portal might define
 
 That would fragment MarkOrbit.
 
-Book 03 prevents this by defining execution patterns before Book 04 turns them into product experiences.
+Book 03 prevents this by defining execution patterns before Book 04 composes them into authorized Workplace and Product experiences.
 
 Product surfaces may consume execution patterns, but they must not redefine execution governance.
 
@@ -215,22 +217,20 @@ Book 03 owns:
   execution governance
 
 Book 04 owns:
-  Workplace
-  Client Portal
-  Partner Center
-  Provider Network
-  API Console
-  plugins
-  applications
-  user experience
-  product packaging
+  Workplace and organization context
+  Product Architecture
+  Product embedding and handoff
+  operating and Product surfaces
+  user experience boundaries
+  cross-Product continuity
+  Artifact and network-interface boundaries
 ```
 
 This is why **Workplace is not the subject of Book 03**.
 
-Workplace is a future product surface. It may expose execution, visualize tasks, help users review drafts, and show status, warnings, and next actions. But it does not define execution itself.
+Workplace is the organization-level operating environment of an independent Orbit. It may expose Product and operating surfaces that visualize Tasks, support Review, and show status, warnings and next actions. Workplace consumes Execution but does not define Execution semantics or expand Execution depth.
 
-Execution must exist before Workplace can safely operate.
+Execution must exist before Workplace and Products can safely operate.
 
 ---
 
@@ -464,7 +464,7 @@ This chapter does not define:
 
 Those topics belong elsewhere.
 
-Book 02 owns Core. Book 04 will own product surfaces. Research documents may evaluate tools. Implementation tasks may build validated components later.
+Book 02 owns Core. Book 04 owns Workplace and Product Architecture, including the surfaces through which Execution is consumed. Research documents may evaluate tools. Implementation tasks may build validated components later.
 
 This chapter only establishes why the Execution System must exist as a separate book and architectural layer.
 

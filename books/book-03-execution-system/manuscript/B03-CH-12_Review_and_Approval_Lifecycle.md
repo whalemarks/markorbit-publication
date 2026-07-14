@@ -1,5 +1,7 @@
 # B03-CH-12 — Review and Approval Lifecycle
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 This chapter defines how Book 03 coordinates Human Review and approval without allowing review to become hidden execution authority.

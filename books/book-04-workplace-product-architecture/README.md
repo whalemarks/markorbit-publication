@@ -7,9 +7,9 @@
 - **Canonical path:** `books/book-04-workplace-product-architecture/`
 - **Status:** Release Candidate 1
 - **Architecture direction:** Owner Accepted
-- **Manuscript status:** CH00–CH39 publication finishing completed; owner final publication review pending
+- **Manuscript status:** CH00–CH39 Release Candidate 1 owner accepted through merge; portfolio baseline locked
 - **Chapter Map:** B04-TOC-V0.1 — Owner Accepted
-- **Current review:** B04-REV-0004 — Publication Finishing and RC1 Review
+- **Current review:** B04-REV-0005 — Portfolio Baseline Lock
 
 ## Position in the Series
 
@@ -81,22 +81,23 @@ AI assists under explicit governance.
 - [Publication Finishing and RC1 Plan](planning/B04-PLN-0007_Publication_Finishing_and_RC1_Plan.md)
 - [Review Directory](reviews/README.md)
 - [B04-REV-0004](reviews/B04-REV-0004_Publication_Finishing_and_RC1_Review.md)
+- [B04-REV-0005](reviews/B04-REV-0005_Portfolio_Baseline_Lock.md)
 
 ## Current Gate
 
 ```text
-Complete Draft 1 and architecture review accepted
-→ publication finishing completed
-→ Release Candidate 1 validation passed
-→ owner final publication review
-→ final publication approval and merge
+Book 04 RC1 owner accepted
+→ Books 01–04 Portfolio Baseline review
+→ Book 05 planning under the locked baseline
 ```
 
 ## Authority Boundary
 
-Ready for owner final publication review: **YES**
+RC1 owner accepted through merge: **YES**
 
-Ready for final publication without owner approval: **NO**
+Portfolio baseline locked: **YES**
+
+Published-format rendering completed: **NO**
 
 Ready for unrestricted implementation: **NO**
 

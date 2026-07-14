@@ -34,15 +34,17 @@ Architecture describes *why* a system exists before describing *how* it is imple
 
 ## Artificial Intelligence (AI)
 
-Within the MarkOrbit ecosystem, Artificial Intelligence is regarded as an enabling capability rather than an independent product.
+Within the MarkOrbit ecosystem, Artificial Intelligence is an assisting Capability operating under explicit identity, context, Permission, Policy, data-boundary and Human Review constraints.
 
-Its purpose is to enhance professional judgement, accelerate operational execution and continuously improve through validated ecosystem knowledge.
+AI may retrieve, summarize, compare, recommend, draft and prepare.
+
+It does not become the professional actor.
+
+It does not approve, appoint, send, file, pay or change formal business facts merely because it can generate a confident output.
 
 AI strengthens professionals.
 
-It does not replace them.
-
----
+It does not replace professional responsibility.
 
 # B
 
@@ -78,11 +80,13 @@ Capabilities are supported by shared infrastructure but expressed through indivi
 
 The practical ability to perform professional work.
 
-Capabilities may originate from knowledge, experience, technology or organisational expertise.
+Capability defines what can be done.
 
-Within MarkOrbit, validated capabilities gradually become reusable ecosystem infrastructure.
+A Skill is a concrete, replaceable and testable implementation of that Capability.
 
----
+Capability may originate from professional expertise, structured Knowledge, technology, organisational experience or a combination of them.
+
+Claims of Capability require appropriate evidence before they may influence ranking, Routing or shared trust.
 
 ## Collaboration
 
@@ -161,11 +165,13 @@ Its purpose is enablement rather than competition.
 
 ## Knowledge
 
-Professional understanding accumulated through legal practice, operational experience and validated expertise.
+Professionally meaningful understanding derived from sources, practice and validated expertise.
 
-Knowledge becomes ecosystem capability when it is structured, reusable and continuously improved.
+Private organisational experience does not become shared Knowledge automatically.
 
----
+A contribution should preserve provenance, scope, privacy, confidence and review state.
+
+Candidates may become approved, experimental or rejected Knowledge only through professional validation and governance.
 
 # O
 
@@ -217,15 +223,17 @@ Professional services differ from transactional services because trust and exper
 
 ## Service Routing
 
-The architectural process of directing professional work toward the most appropriate service capability.
+The governed process of identifying possible paths from a defined service need to relevant Capability.
 
-Unlike traditional marketplaces, Service Routing does not require every opportunity to enter a public marketplace.
+Routing may consider internal Capability, private partners, trusted extended-network options and limited public discovery.
 
-Work may remain within one organisation, be delegated to trusted partners or flow through the Global Service Network when collaboration creates greater customer value.
+Unlike a public marketplace, Routing does not require every opportunity to be exposed.
 
-Service Routing optimises customer outcomes rather than transaction volume.
+A recommendation or ranking is not an appointment.
 
----
+Human Selection, conflict and confidentiality checks, approval where required, governed instruction and provider acceptance remain distinct.
+
+Routing seeks appropriate professional outcomes rather than maximum transaction volume.
 
 ## Shared Infrastructure
 
@@ -259,77 +267,58 @@ It does not replace it.
 
 ## Workplace
 
-The business operating environment of an organisation.
+The unified professional operating environment of an organisation and the primary organisational operating unit of the MarkOrbit ecosystem.
 
-A Workplace combines:
+A Workplace carries organization identity, people and roles, Permissions, clients and relationships, private Knowledge, business rules, pricing and preferences, AI context, work and Review, Product access, partner relationships and organisational experience.
 
-- People
-- Knowledge
-- Artificial Intelligence
-- Business Rules
-- Processes
-- Capabilities
-- Services
-- Customer Relationships
+The organisation remains the real legal, commercial and professional actor.
 
-into one coherent operational environment.
+The Workplace is the operational architecture through which that independent Organisation Orbit acts.
 
-A Workplace is neither software nor an office.
-
-It is the primary operating unit of the MarkOrbit ecosystem.
-
----
+It is not merely an office, account, tenant or single software Product.
 
 # Canonical Relationships
 
 The concepts introduced throughout this book form one coherent architectural model.
 
-```
-Operating System
-        │
-provides
-        ▼
-Shared Infrastructure
-        │
-supports
-        ▼
-Workplace
-        │
-implements
-        ▼
-Operating Model
-        │
-creates
-        ▼
-Business Value
-        │
-extends through
-        ▼
-Global Service Network
-        │
-enables
-        ▼
-Ecosystem
+```text
+Industry and Professional Philosophy
+        ↓
+MarkOrbit Operating System
+        ↓
+MarkOrbit Core
+        ↓
+MarkOrbit Execution System
+        ↓
+Organization Workplace / Independent Orbit
+        ↓
+Products and Operating Models
+        ↓
+Mark Global Service Network
+        ↓
+Orbital Ecosystem Learning and Evolution
 ```
 
-Each layer has a distinct responsibility.
+The sequence is constitutional.
 
-Together they define the architectural language of the MarkOrbit ecosystem.
+It does not mean that every responsibility must be implemented as one centralized platform or one technical stack.
 
 ---
 
 # Canonical Statements
 
-The following statements summarise the terminology used throughout the publication.
-
-- An **Operating System** enables an **Ecosystem**.
-- A **Workplace** operates a **Business**.
-- An **Operating Model** determines how value is created.
-- **Shared Infrastructure** enables **Independent Operation**.
-- **Service Routing** optimises collaboration.
-- **Trust** enables long-term professional cooperation.
-- **Knowledge** becomes **Capability** through validation.
-- **Participation** enables ecosystem evolution.
+- The **organisation** is the real legal, commercial and professional actor.
+- A **Workplace** is the organisation-level operating environment of an independent Orbit.
+- **Core** defines shared meaning.
+- **Execution** governs coordinated work.
+- **Products** compose focused user journeys.
+- **MGSN** connects independent organisational Orbits.
+- **Owning Services** change and record formal business facts.
+- **Human professionals** remain accountable.
+- **Artificial Intelligence** assists under explicit governance.
+- **Knowledge Candidates** do not become approved Knowledge automatically.
+- **Service Routing** supports Human Selection; it does not appoint providers automatically.
+- **Shared Infrastructure** strengthens independence rather than absorbing it.
 
 ---
 

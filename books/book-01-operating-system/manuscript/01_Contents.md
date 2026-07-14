@@ -152,7 +152,7 @@ How does an ecosystem continue to grow?
 
 The canonical terminology of the MarkOrbit ecosystem.
 
-This appendix serves as the single source of truth for concepts introduced throughout the publication series.
+This appendix defines the preferred conceptual terminology for Book 01. Later specifications may refine these concepts within their own authority.
 
 ---
 
@@ -234,11 +234,12 @@ The remaining publications expand upon that foundation from different perspectiv
 
 | Publication | Responsibility |
 |-------------|----------------|
-| **Book 1** | Vision and operating philosophy |
-| **Book 2** | MarkOrbit Core Specification |
-| **Book 3** | Workplace Framework |
-| **Book 4** | MarkReg |
-| **Book 5** | MarkOrbit Lite |
-| **Book 6** | Mark Global Service Network (MGSN) |
+| **Book 01** | Industry vision and Operating System principles |
+| **Book 02** | Shared Core semantics, objects, Services and contracts |
+| **Book 03** | Governed Execution |
+| **Book 04** | Workplace and Product Architecture |
+| **Book 05** | MarkReg |
+| **Book 06** | MarkOrbit Lite |
+| **Book 07** | Mark Global Service Network (MGSN) |
 
 Together, these publications form the complete knowledge system of **MarkOrbit — The Operating System for Global Brand Services**.

@@ -6,8 +6,8 @@
 - **Canonical path:** `books/book-04-workplace-product-architecture/`
 - **Status:** Release Candidate 1
 - **Positioning:** Defines how an independent professional organization establishes its own operating Orbit and consumes MarkOrbit Core, Execution, Knowledge, Intelligence, Capabilities, Products, and network services through its Workplace.
-- **Current phase:** Owner final publication review.
-- **Current gate:** Approve and merge RC1 or request targeted publication revision.
+- **Current phase:** Release Candidate 1 owner accepted; Portfolio Baseline locked.
+- **Current gate:** Begin Book 05 planning under the Books 01–04 baseline.
 
 ## Directory Purpose
 
@@ -102,6 +102,7 @@
 - `reviews/B04-REV-0002_Pack_01_Editorial_and_Architecture_Review.md`
 - `reviews/B04-REV-0003_CH00-CH39_Full_Book_Architecture_and_Editorial_Review.md`
 - `reviews/B04-REV-0004_Publication_Finishing_and_RC1_Review.md`
+- `reviews/B04-REV-0005_Portfolio_Baseline_Lock.md`
 - `reviews/README.md`
 
 ## Upstream Dependencies
@@ -122,18 +123,18 @@ Book 04 profiles Lite, MarkReg, and MGSN architecturally. Dedicated downstream p
 ## Current Gate
 
 ```text
-Architecture accepted
-→ publication finishing completed
-→ Release Candidate 1 validation passed
-→ owner final publication review
-→ final publication approval and merge
+Book 04 RC1 owner accepted and portfolio role locked
+→ Books 01–04 Portfolio Baseline review
+→ Book 05 planning under the accepted baseline
 ```
 
 ## Authority Boundary
 
-Ready for owner final publication review: **YES**
+RC1 owner accepted through merge: **YES**
 
-Ready for final publication without owner approval: **NO**
+Portfolio baseline locked: **YES**
+
+Published-format rendering completed: **NO**
 
 Ready for unrestricted implementation: **NO**
 

@@ -1,5 +1,7 @@
 # B03-CH-14 — Event Trace, Audit and Replay
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 This chapter defines how Book 03 uses Events and Audit Context to make execution observable, reviewable and reconstructable without turning Events into commands or logs into professional truth.

@@ -1,5 +1,7 @@
 # B03-CH-26 — Error Handling and Safe Failure
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 Execution does not become reliable by avoiding every error.

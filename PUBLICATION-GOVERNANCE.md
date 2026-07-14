@@ -17,3 +17,24 @@ Codex may only implement explicit repository tasks that are provided by a human 
 ## Architecture Change Control
 
 Architecture changes require human approval. Repository maintenance, publication scaffolding, and placeholder files must not introduce architectural decisions.
+
+## Portfolio Baseline Governance
+
+A Portfolio Baseline review may reconcile titles, wording, publication status and cross-book boundaries.
+
+It must classify each finding as:
+
+- PASS;
+- EDITORIAL CORRECTION;
+- CHANGE PROPOSAL REQUIRED.
+
+A Portfolio Baseline review may not silently modify frozen Book 02 semantics.
+
+After a Portfolio Baseline is locked, downstream books must record upstream findings rather than directly rewriting accepted upstream architecture.
+
+## Owner Acceptance Effect
+
+Merge of the Portfolio Baseline pull request establishes the candidate baseline as the active Books 01–04 publication baseline.
+
+It does not authorize implementation, deployment or external protected action.
+

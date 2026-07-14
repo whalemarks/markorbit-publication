@@ -1,5 +1,7 @@
 # B03-CH-13 — Communication Execution Boundary
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 This chapter defines the execution boundary for Communication.

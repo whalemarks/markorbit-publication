@@ -1,5 +1,7 @@
 # B03-CH-22 — Renewal Preparation Pattern
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 The Renewal Preparation Pattern organizes Trademark lifecycle facts, jurisdiction context, owner information, Documents, Evidence, commercial scope and review questions without certifying renewal eligibility, executing payment or filing an official renewal.

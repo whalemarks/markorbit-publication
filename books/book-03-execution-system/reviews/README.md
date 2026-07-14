@@ -9,3 +9,4 @@ This directory preserves historical review decisions and the current full-book r
 - `B03-REV-0005_Full_Book_Consistency_and_Editorial_Review.md` — Chapters 00–34 consistency, terminology and editorial review.
 
 Historical records are not rewritten when later book status changes.
+- [B03-REV-0007 — Publication Finishing and RC1 Review](B03-REV-0007_Publication_Finishing_and_RC1_Review.md)

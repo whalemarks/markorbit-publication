@@ -1,5 +1,7 @@
 # B03-CH-04 — Execution Principles
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 This chapter defines the principles that govern the MarkOrbit Execution System.
@@ -386,7 +388,7 @@ This is the difference between an execution system and a generic automation engi
 
 Product surfaces should not invent execution governance.
 
-Book 04 may later define Workplace, Client Portal, Partner Center, Provider Network, API Console, local plugins and other applications. These products may expose execution patterns, but they must not redefine them.
+Book 04 defines Workplace and Product Architecture. Focused Products and organization-specific applications may expose execution patterns through authorized Workplace context, but they must not redefine them.
 
 The principle is:
 

@@ -22,3 +22,4 @@ A manuscript review record does not by itself establish:
 - external protected-action authority.
 
 Historical Orbital architecture round-record PDFs belong under the root `reviews/` directory, not this Book 04 review directory.
+- [B04-REV-0005 — Portfolio Baseline Lock](B04-REV-0005_Portfolio_Baseline_Lock.md)

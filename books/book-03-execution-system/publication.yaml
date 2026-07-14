@@ -2,41 +2,53 @@ book: "Book 03"
 title: "MarkOrbit Execution System"
 chinese_title: "MarkOrbit 执行系统"
 canonical_path: "books/book-03-execution-system/"
-status: "complete_draft_1_owner_accepted"
-phase: "publication finishing and dependency reconciliation"
+status: "release_candidate_1"
+phase: "portfolio_baseline_owner_review"
 positioning: "Defines how approved Core contracts become governed operational execution."
-manuscript_chapters: "00-34"
-appendices: "A-H"
-approximate_manuscript_words: 119762
-full_book_review: "pass"
-owner_acceptance: "accepted"
-next_publication_gate: "final line edit and publication readiness"
-next_implementation_gate: "book_02_dependency_decision"
-external_protected_action_authorized: false
 
-# PUB-TASK-B02-002 dependency status
-pub_task_b02_002:
-  status_value_workflow_component_pack: resolved_upon_merge
-  next_implementation_gate: Book 02 status/workflow contract and fixture coverage
-  owner_accepted_complete_draft_1: true
-  ready_for_final_publication: false
-  ready_for_unrestricted_implementation: false
-  external_protected_action_authorized: false
+manuscript:
+  chapter_range: "00-34"
+  manuscript_files: 35
+  status: "release_candidate_1"
+  owner_accepted_architecture: true
+  terminology_reconciled: true
+  active_book_04_references_reconciled: true
+  structural_terminology_targeted_editorial_review: true
+  final_public_release_copyedit_completed: false
 
-# PUB-TASK-B02-003 dependency status
-pub_task_b02_003:
-  status_workflow_contract_fixture_coverage: resolved_upon_merge
-  next_implementation_gate: "Book 04 implementation architecture and project repositories"
-  owner_accepted_complete_draft_1: true
-  ready_for_final_publication: false
-  ready_for_unrestricted_implementation: false
-  external_protected_action_authorized: false
+appendices:
+  range: "A-H"
+  glossary_frozen_for_rc1: true
+  indexes_validated: true
 
-# Book 02 frozen baseline dependency
+publication_apparatus:
+  editorial_style: true
+  source_and_authority_notes: true
+  glossary_reconciliation: true
+  subject_index: true
+  figure_register: true
+  figures: 10
+  cross_book_reconciliation: true
+  rc1_checklist: true
+
+current_review:
+  id: "B03-REV-0007"
+  title: "Publication Finishing and RC1 Review"
+  status: "completed_owner_portfolio_review_pending"
+
+mvp:
+  depth_a_internal_apply_workflows: 3
+  depth_b_preview_only_workflows: 5
+  depth_c_external_protected_action: "deferred"
+
 book_02_baseline:
-  id: B02-BASELINE-V0.1
-  status: frozen_upon_merge_of_pub_task_b02_freeze
-  content_baseline_commit: a0a31c9a784854c8943eee448337cb91ad316bb4
-  semantic_change_mode: explicit_change_proposal_only
+  id: "B02-BASELINE-V0.1"
+  status: "frozen"
+  semantic_change_required: false
+  semantic_change_mode: "explicit_change_proposal_only"
+
+authority_boundary:
+  ready_for_owner_portfolio_review: true
   ready_for_unrestricted_implementation: false
+  production_ready: false
   external_protected_action_authorized: false

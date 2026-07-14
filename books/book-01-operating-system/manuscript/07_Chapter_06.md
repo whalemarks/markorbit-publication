@@ -172,55 +172,49 @@ This balance is essential to the long-term health of the ecosystem.
 
 ---
 
-## 6.6 The Primary Operating Unit
+## 6.6 The Primary Organisational Operating Unit
 
-Within the MarkOrbit ecosystem, organisations collaborate through Workplaces rather than isolated applications.
+Within the MarkOrbit ecosystem, the organisation remains the real legal, commercial and professional actor.
 
-Customers interact with a Workplace.
+Its Workplace is the primary organisational operating unit through which that actor operates.
 
-Professionals perform their work within a Workplace.
+Customers interact with the organisation through Workplace and Product surfaces.
 
-Artificial Intelligence learns from Workplace activity.
+Professionals perform work within the organisation's governed Workplace context.
 
-Knowledge accumulates through Workplace experience.
+Artificial Intelligence may assist by using authorized context and may support learning only from purpose-bound, provenance-preserving and professionally validated material.
 
-Business capabilities mature inside the Workplace.
+Private activity is not pooled into shared learning by default.
 
-The Workplace therefore becomes the primary operating unit of the ecosystem.
+Knowledge accumulates first as organisational experience.
 
-It is the point where architecture becomes operation.
+Approved contributions may later become candidates for wider validation and governance.
+
+The Workplace is therefore the point where architecture becomes organization-specific operation.
 
 Where infrastructure becomes professional service.
 
-Where organisations create value.
-
----
+Where an independent organisation creates value while retaining its own Orbit.
 
 ## 6.7 A Living Environment
 
-Unlike traditional enterprise software, a Workplace is never complete.
+Unlike static enterprise software, a Workplace evolves with the organisation it represents.
 
-Every customer interaction adds experience.
+Every customer interaction may add experience.
 
-Every completed service improves operational knowledge.
+Every completed service may improve private operational knowledge.
 
-Every collaboration strengthens professional capability.
+Every governed collaboration may strengthen professional Capability.
 
-Artificial Intelligence continuously learns from validated practice.
+Artificial Intelligence may assist that evolution when its sources, purpose, data boundary, limitations and Human Review remain visible.
 
 New services appear.
 
-Old workflows evolve.
+Old Workflows evolve.
 
 Business strategies adapt.
 
-The Workplace grows together with the organisation.
-
-Its evolution is continuous rather than project-based.
-
-The organisation and its Workplace become increasingly capable together.
-
----
+The living quality of a Workplace comes from accountable organisational learning, not unrestricted data accumulation.
 
 ## 6.8 Many Forms, One Foundation
 

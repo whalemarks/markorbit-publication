@@ -1,5 +1,7 @@
 # B03-CH-11 — Task Lifecycle Model
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 This chapter defines how Book 03 coordinates the lifecycle of active Tasks without moving Task ownership out of Book 02 Core.

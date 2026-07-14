@@ -40,7 +40,7 @@ The industry remains the primary concern.
 
 Technology serves the industry.
 
-Products serve technology.
+Products serve professional needs.
 
 The ecosystem serves the profession.
 
@@ -113,29 +113,29 @@ They do not require it.
 
 # Principle 5
 
-## Workplaces Are the Operating Units
+## Organisations Act Through Independent Workplaces
 
-The fundamental operating unit of the MarkOrbit ecosystem is not the application.
+The real legal, commercial and professional actor is the organisation.
 
-It is not the user.
-
-It is not the organisation.
-
-It is the **Workplace**.
+The primary organisational operating unit of the MarkOrbit ecosystem is the **Workplace** through which that organisation acts.
 
 A Workplace is where:
 
 - people work;
-- knowledge accumulates;
+- clients and relationships remain coherent;
+- private Knowledge accumulates;
 - Artificial Intelligence assists;
-- customers are served;
+- Products are consumed;
+- Review and accountability operate;
 - business value is created.
 
-Applications exist inside a Workplace.
+Applications may exist within or alongside a Workplace.
 
-The Workplace exists within the operating system.
+The Workplace represents one independent Organisation Orbit.
 
----
+Shared infrastructure may connect Orbits.
+
+It does not merge their authority.
 
 # Principle 6
 
@@ -163,47 +163,55 @@ The best route is the one that creates the greatest customer value.
 
 # Principle 7
 
-## Knowledge Becomes Infrastructure
+## Knowledge Is Private First and Shared Through Governance
 
-Professional knowledge is one of the ecosystem's most valuable assets.
+Professional Knowledge is one of an organisation's most valuable assets.
 
-Knowledge should not remain permanently isolated inside organisations.
+Client context, internal practice and organisational memory remain private by default.
 
-Validated knowledge should gradually become reusable capability.
+Selected learning may be contributed as a candidate when the organisation has authority to do so.
 
-Reusable capability should become shared infrastructure.
+A candidate should preserve:
 
-In this way, every generation of professional experience strengthens the next.
+- source and provenance;
+- scope and confidence;
+- privacy and data boundary;
+- professional validation;
+- version and review state.
 
----
+Only governed, approved Knowledge should become reusable shared Capability.
+
+The ecosystem strengthens through voluntary, accountable contribution rather than automatic extraction.
 
 # Principle 8
 
-## Artificial Intelligence Strengthens Professionals
+## Artificial Intelligence Strengthens Accountable Professionals
 
-Artificial Intelligence should not replace professional judgement.
+Artificial Intelligence should not replace professional judgement or responsibility.
 
-It should expand it.
+It should extend the professional's ability to retrieve, compare, explain, recommend, draft and prepare.
 
 Professionals provide:
 
 - ethics;
 - responsibility;
-- creativity;
-- trust;
-- strategic thinking.
+- contextual judgement;
+- client understanding;
+- strategic choice;
+- final accountability.
 
-Artificial Intelligence provides:
+Artificial Intelligence may provide:
 
 - scale;
 - speed;
-- memory;
+- retrieval;
+- comparison;
 - pattern recognition;
-- continuous learning.
+- structured preparation.
 
-The ecosystem becomes stronger when both evolve together.
+AI operates under explicit identity, purpose, data, Permission, Policy, Review and stop conditions.
 
----
+Its output remains a candidate or draft until the appropriate human and Owning Service complete the governed path.
 
 # Principle 9
 
@@ -266,25 +274,25 @@ Stability is what makes continuous innovation possible.
 
 # Principle 12
 
-## One Architecture, One Network, Many Workplaces
+## One Shared Architecture, Many Independent Orbits
 
 The MarkOrbit ecosystem is built upon three enduring ideas.
 
-**One Architecture**
+**One Shared Architecture**
 
-A shared operating foundation that defines common responsibilities.
+A common operating foundation defines compatible meaning, governed progression and connection rules.
 
-**One Network**
+**Independent Organisational Orbits**
 
-A collaborative network connecting independent organisations across the world.
+Every organisation retains its clients, data, private Knowledge, pricing, relationships, brand, commercial autonomy and professional responsibility.
 
-**Many Workplaces**
+**Governed Connection**
 
-Independent business operating environments built upon shared infrastructure.
+MGSN and other shared capabilities connect independent Workplaces through service need, Capability, evidence, Human Selection and trust.
 
-Together they describe the long-term architecture of the ecosystem.
+Together they express the orbital principle:
 
----
+> Each in its own orbit. Connected by capability. Evolving together.
 
 # The Long-Term Vision
 
@@ -327,6 +335,23 @@ It is to contribute lasting infrastructure to the future of global brand service
 Whether that future unfolds exactly as imagined in this book is less important than one principle:
 
 Professional industries become stronger when they build together what no organisation should have to build alone.
+
+---
+
+# Constitutional Responsibility Lock
+
+```text
+Core defines shared meaning.
+Execution governs coordinated work.
+Workplace provides authorized organization context.
+Products compose focused user journeys.
+MGSN connects independent organizational Orbits.
+Owning Services change and record formal business facts.
+Humans remain professionally accountable.
+AI assists under explicit governance.
+```
+
+This lock prevents future Products or implementations from absorbing responsibilities that belong elsewhere.
 
 ---
 

@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-07-14 — Books 01–04 Portfolio Baseline Review
+
+- Completed MO-PUB-REV-0001 across Books 01–04.
+- Restored the missing Book 01 Chapter 1 manuscript.
+- Reconciled Book 01 to the current Books 01–07 publication map and Orbital Architecture Canon.
+- Advanced Book 01 to Release Candidate 1 with publication apparatus and twelve figures.
+- Preserved Book 02 as the Frozen Core Specification Baseline v0.1 and recorded historical title drift without editing the frozen manuscript.
+- Corrected active Book 03 Book 04 and Workplace terminology.
+- Completed Book 03 structural, terminology and targeted editorial reconciliation, added publication apparatus and ten figures, and advanced it to Release Candidate 1 for the Portfolio Baseline.
+- Recorded Book 04 RC1 owner acceptance through merge and locked its portfolio role.
+- Added MO-PUB-BASELINE-0001 as the candidate pre-Product baseline for Book 05.
+- Confirmed no Book 02 Change Proposal and no Book 03 Execution authority change are required.
+- Authorized no unrestricted implementation, production deployment or external protected action.
+
 ## 2026-07-14 — Book 04 Release Candidate 1
 
 - Recorded owner acceptance of the CH00–CH39 architecture baseline through merge of B04-REV-0003.

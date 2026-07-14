@@ -1,5 +1,7 @@
 # B03-CH-08 — Execution Layer Overview
 
+**Status:** Release Candidate 1
+
 ## Chapter Purpose
 
 This chapter begins Part II — Execution Architecture.
@@ -119,7 +121,7 @@ Book 03 must preserve that flow during operation.
 | State-changing action | Owning Service | Delegate only after applicable gates pass |
 | Event record | Owning Service or Event Service | Preserve and expose Event references; do not emit directly |
 | AI or agent output | AI Context, capability limits, and agent governance | Use as bounded preparation input; never treat it as authority |
-| Product presentation | Book 04 Product System | Expose safe execution outcomes without defining UI |
+| Workplace and Product presentation | Book 04 Workplace and Product Architecture | Expose safe execution outcomes without redefining Execution |
 
 The central architectural test is simple:
 

@@ -1,257 +1,96 @@
-# MarkOrbit
+# Book 01 — MarkOrbit: The Operating System for Global Brand Services
 
-## book 01 Operating System
+## Identity
 
-# The Operating System for Global Brand Services
+- **Book:** Book 01
+- **Title:** MarkOrbit — The Operating System for Global Brand Services
+- **Canonical path:** `books/book-01-operating-system/`
+- **Status:** Release Candidate 1
+- **Role:** Defines industry vision and Operating System principles.
+- **Current review:** B01-REV-0001 — Portfolio Baseline and RC1 Review
+- **Current gate:** Owner review of the Books 01–04 Portfolio Baseline.
 
-> *Every mature professional industry eventually develops a shared operating system.*
+## Central Thesis
 
----
+> Every mature professional industry eventually develops shared operating infrastructure.
 
-## Overview
+MarkOrbit is not presented as a centralized platform, universal database, marketplace, professional organization or single mega-Product.
 
-**MarkOrbit Book 01** is the opening volume of the **MarkOrbit Publications** series.
+It is the operating system for global brand professional services in which each organization retains its own independent Orbit while connecting through shared Core meaning, governed Execution, professional Capability, service need and trust.
 
-Rather than introducing a software product, this book explores a more fundamental question:
+## Position in the Series
 
-> **What kind of operating foundation will the next generation of global brand services require?**
-
-The book argues that professional brand services are entering a new stage of evolution.
-
-After decades of professional development and digital transformation, the industry's next challenge is no longer improving individual organisations.
-
-It is enabling collaboration across an ecosystem of independent organisations.
-
-This book introduces the ideas, principles and architectural thinking behind that transformation.
-
----
-
-# Central Thesis
-
-The central thesis of this book is simple.
-
-> **Every mature professional industry eventually develops shared operating infrastructure.**
-
-Roads transformed transportation.
-
-Operating systems transformed computing.
-
-The Internet transformed communication.
-
-Cloud infrastructure transformed software.
-
-Professional brand services are approaching the same transition.
-
-The future will not be defined by isolated applications.
-
-It will be defined by a shared operating foundation that enables an ecosystem of independent organisations.
-
----
-
-# What This Book Is
-
-This book is:
-
-- an industry perspective;
-- an architectural essay;
-- a conceptual foundation;
-- the introduction to the MarkOrbit ecosystem.
-
-It explains **why** an operating system for global brand services is necessary before discussing **how** it can be implemented.
-
----
-
-# What This Book Is Not
-
-This book is **not**:
-
-- a software manual;
-- a product specification;
-- a PRD;
-- an API reference;
-- a user guide;
-- a marketing brochure.
-
-Implementation details are intentionally excluded.
-
-Those responsibilities belong to the companion specifications.
-
----
-
-# Target Readers
-
-This book is written for readers interested in the long-term evolution of professional brand services, including:
-
-- Architects
-- Product Managers
-- Business Leaders
-- Trademark Professionals
-- Law Firms
-- Ecosystem Partners
-- Enterprise Decision Makers
-- Researchers
-
-No prior knowledge of MarkOrbit is required.
-
----
-
-# Publication Structure
-
-```
-Preface
-
-Part I
-The Opportunity
-
-Part II
-The Operating System
-
-Part III
-The Operating Model
-
-Part IV
-The Ecosystem
-
-Appendices
+```text
+Book 01 — Industry Vision and Operating System Principles
+        ↓
+Book 02 — MarkOrbit Core Specification
+        ↓
+Book 03 — MarkOrbit Execution System
+        ↓
+Book 04 — Workplace and Product Architecture
+        ↓
+Book 05 — MarkReg
+Book 06 — MarkOrbit Lite
+Book 07 — Mark Global Service Network
 ```
 
-Each part answers a different question.
+## Manuscript Structure
 
-| Part | Question |
-|-------|----------|
-| The Opportunity | Why does the industry need a new foundation? |
-| The Operating System | What kind of foundation is required? |
-| The Operating Model | How does infrastructure become business capability? |
-| The Ecosystem | How do independent organisations evolve together? |
+| Part | Chapters | Question |
+| --- | --- | --- |
+| Preface and Contents | front matter | Why does this publication exist? |
+| Part I — The Opportunity | CH01–CH02 | Why does the industry need a shared foundation? |
+| Part II — The Operating System | CH03–CH04 | What kind of foundation is required? |
+| Part III — The Operating Model | CH05–CH07 | How does shared infrastructure become independent business capability? |
+| Part IV — The Ecosystem | CH08–CH09 | How do independent organizations connect and evolve? |
+| Appendices | A–C | What terminology, publication map and principles govern the series? |
 
----
+## Portfolio Baseline Corrections
 
-# Publication Principles
+The Portfolio Baseline review:
 
-Book 1 follows the editorial principles defined by the **MarkOrbit Publishing Constitution**.
+- restored the missing Chapter 1 manuscript;
+- aligned the publication map with Books 01–07;
+- clarified that the organization is the real actor and Workplace is its primary organizational operating environment;
+- made Knowledge and AI learning private-first, permissioned and governed;
+- aligned MGSN with private-first discovery, Capability Evidence and Human Selection;
+- reconciled Book 01 terminology with the current Orbital Architecture Canon;
+- added publication apparatus and twelve reusable architecture figures.
 
-In particular:
+## Constitutional Responsibility Lock
 
-- Industry before product.
-- Principles before implementation.
-- Architecture before features.
-- Ecosystem before organisation.
-- Rewrite rather than continuous editing.
-
-The objective is to produce a publication with long-term value rather than a description of current software.
-
----
-
-# Relationship to Other Publications
-
-Book 1 establishes the conceptual foundation of the MarkOrbit ecosystem.
-
-The companion publications expand upon that foundation.
-
-| Publication | Responsibility |
-|-------------|----------------|
-| **Book 01** | Vision and operating philosophy |
-| **Book 02** | Core architecture |
-| **Book 03** | Workplace framework |
-| **Book 04** | MarkReg |
-| **Book 05** | MarkOrbit Lite |
-| **Book 06** | Mark Global Service Network |
-
-Books explain ideas.
-
-Specifications define architecture.
-
-Implementations validate architecture.
-
----
-
-# Repository Structure
-
-```
-book-01-operating-system/
-
-├── README.md
-├── publication.yaml
-├── editorial.yaml
-├── style.yaml
-├── release.yaml
-│
-├── manuscript/
-│   ├── 00_Preface.md
-│   ├── 01_Contents.md
-│   ├── ...
-│
-├── assets/
-│
-├── releases/
-│
-└── CHANGELOG.md
+```text
+Core defines shared meaning.
+Execution governs coordinated work.
+Workplace provides authorized organization context.
+Products compose focused user journeys.
+MGSN connects independent organizational Orbits.
+Owning Services change and record formal business facts.
+Humans remain professionally accountable.
+AI assists under explicit governance.
 ```
 
-The publication manifest (`publication.yaml`) is the single source of truth for this book.
+## Publication Apparatus
 
----
+- [Editorial Style and Terminology](publication/B01-PUB-0001_Editorial_Style_and_Terminology.md)
+- [Source and Authority Notes](publication/B01-PUB-0002_Source_and_Authority_Notes.md)
+- [Glossary Reconciliation](publication/B01-PUB-0003_Glossary_Reconciliation.md)
+- [Subject Index](publication/B01-PUB-0004_Subject_Index.md)
+- [Figure Register](publication/B01-PUB-0005_Figure_Register.md)
+- [Cross-Book Reconciliation](publication/B01-PUB-0006_Cross-Book_Reconciliation.md)
+- [RC1 Checklist](publication/B01-PUB-0007_RC1_Checklist.md)
+- [Figures](figures/README.md)
 
-# Publication Workflow
+## Authority Boundary
 
-```
-Planning
-        │
-        ▼
-Freeze Structure
-        │
-        ▼
-Draft
-        │
-        ▼
-Review
-        │
-        ▼
-Rewrite
-        │
-        ▼
-Release Candidate
-        │
-        ▼
-Published Edition
-```
+Book 01 defines vision and principles.
 
-Once writing begins, the structure remains frozen until the manuscript is complete.
+It does not define Book 02 Core semantics, Book 03 execution contracts, Book 04 Product architecture detail or Books 05–07 Product specifications.
 
-Major improvements are introduced through rewrite cycles rather than continuous structural editing.
+Ready for owner portfolio-baseline review: **YES**
 
----
+Ready for unrestricted implementation: **NO**
 
-# Current Status
+Production ready: **NO**
 
-| Item | Status |
-|------|--------|
-| Publication | Book 1 |
-| Edition | First Edition |
-| Version | Rewrite v2.0 Draft |
-| Language | English |
-| Status | In Progress |
-
----
-
-# Closing Statement
-
-This book does not attempt to predict the future of global brand services.
-
-Instead, it proposes a different way of thinking about that future.
-
-A future in which independent organisations remain independent.
-
-A future in which collaboration is enabled by shared infrastructure.
-
-A future in which professional knowledge becomes an ecosystem rather than isolated expertise.
-
-That vision is called **MarkOrbit**.
-
----
-
-**MarkOrbit Publications**
-
-**Book 01**
-
-*The Operating System for Global Brand Services*
+External protected action authorized: **NO**
