@@ -7,9 +7,9 @@
 - **Canonical path:** `books/book-05-markreg/`
 - **Status:** Complete Draft 1 — Editorial Finishing Active
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
-- **Completed editorial tranche:** PF-06A — editorial baseline and term audit
-- **Current substantive phase:** PF-06B — CH00–CH22 editorial pass
-- **Independent RC1 blocker:** PF-01B CH02–CH47 metadata normalization
+- **Completed editorial work:** PF-06A and PF-06B1
+- **Current substantive phase:** PF-06B2 — CH08–CH22
+- **Remaining RC1 metadata blocker:** CH08–CH47
 
 ## Position in the Series
 
@@ -27,18 +27,31 @@ Book 05 — MarkReg Product constitution and lifecycle specification
 
 Book 05 is not a jurisdictional legal manual, implementation PRD, official source, autonomous professional actor or production authority.
 
-## Complete Manuscript
+## Manuscript
 
-- Front Matter — CH00–CH01
-- Part I — CH02–CH07
-- Part II — CH08–CH15
-- Part III — CH16–CH22
-- Part IV — CH23–CH29
-- Part V — CH30–CH36
-- Part VI — CH37–CH42
-- Part VII — CH43–CH47
+- Front Matter — CH00–CH01: editorial pass complete
+- Part I — CH02–CH07: editorial pass and metadata normalization complete
+- Part II — CH08–CH15: PF-06B2 next
+- Part III — CH16–CH22: PF-06B2 next
+- Part IV — CH23–CH29: PF-06C planned
+- Part V — CH30–CH36: PF-06C planned
+- Part VI — CH37–CH42: PF-06C planned
+- Part VII — CH43–CH47: PF-06C planned
 
-CH00–CH01 are normalized under PF-01A. CH02–CH47 will be normalized with the PF-06B and PF-06C editorial batches before RC1.
+PF-06B1 reduced repeated constitutional language and assigned distinct jobs to the opening chapters:
+
+```text
+CH00 — book and Product premise
+CH01 — chapter map and reader routes
+CH02 — reason for a dedicated Product
+CH03 — mission and value
+CH04 — architecture responsibilities
+CH05 — participants and authority
+CH06 — Product principles and non-goals
+CH07 — lifecycle and state planes
+```
+
+[B05-REV-0019](reviews/B05-REV-0019_PF-06B1_Front_Matter_and_Part_I_Editorial_Review.md) accepts this tranche.
 
 ## Controlled Product Specifications
 
@@ -47,9 +60,9 @@ CH00–CH01 are normalized under PF-01A. CH02–CH47 will be normalized with the
 - [B05-SPEC-0003 — Conformance Scenarios and User-Surface Contract](specifications/B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md) — v0.2, PF-04 complete
 - [B05-SPEC-0004 — Jurisdiction Pack and Commercial Control Contract](specifications/B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md) — v0.2, PF-05 complete
 
-## Editorial Baseline
+Specifications remain authoritative over editorial simplification.
 
-PF-06A establishes the rules used for the line-by-line edit:
+## Editorial Baseline
 
 - [B05-PUB-0001 — Editorial Style and Terminology](publication/B05-PUB-0001_Editorial_Style_and_Terminology.md) — Controlled Editorial Standard v0.2
 - [B05-PUB-0003 — Glossary](publication/B05-PUB-0003_Glossary.md) — Controlled Working Glossary v0.2
@@ -57,21 +70,7 @@ PF-06A establishes the rules used for the line-by-line edit:
 - [B05-PUB-0009 — Term Variation and Editorial Audit](publication/B05-PUB-0009_Term_Variation_and_Editorial_Audit.md) — Controlled Audit v0.1
 - [B05-REV-0018 — PF-06A Editorial Review](reviews/B05-REV-0018_PF-06A_Editorial_Baseline_and_Term_Audit.md)
 
-The baseline controls:
-
-- normative language;
-- capitalization;
-- stable artifact names;
-- authority verbs;
-- official, provider and Product state language;
-- commercial components;
-- Jurisdiction Pack support claims;
-- AI assistance language;
-- compression of repeated constitutional explanations;
-- chapter openings and handoffs;
-- semantic-finding escalation.
-
-PF-06A does not represent the manuscript as line-edited.
+The editorial baseline controls normative language, capitalization, Artifact names, authority verbs, official/provider/Product states, commercial components, Jurisdiction Pack support claims, AI Assistance, compression and chapter Handoffs.
 
 ## Editorial Batch Sequence
 
@@ -79,52 +78,45 @@ PF-06A does not represent the manuscript as line-edited.
 PF-06A — COMPLETE
 - editorial standard, audit, glossary and index
 
-PF-06B — NEXT
-- CH00–CH22
-- metadata CH02–CH22
+PF-06B1 — COMPLETE
+- CH00–CH07
+- metadata CH02–CH07
 
-PF-06C
+PF-06B2 — NEXT
+- CH08–CH22
+- metadata CH08–CH22
+
+PF-06C — PLANNED
 - CH23–CH47
 - metadata CH23–CH47
 
-PF-06D
+PF-06D — PLANNED
 - specifications, appendices and publication apparatus
 - whole-book editorial closure
 ```
 
-## Jurisdiction Support Model
-
-Support is declared by jurisdiction, service, stage and Pack module state:
+## Controlled Locks
 
 ```text
-Research Only
-Guidance Capable
-Preparation Capable
-Execution Capable
-Lifecycle Capable
-Suspended
-Retired
+Recommendation ≠ Decision
+Readiness ≠ Approval
+Approval ≠ Execution
+Execution requested ≠ submission sent
+Submission sent ≠ official acknowledgement
+Provider Report ≠ Official Truth
+Payment ≠ filing authority
+Pack support ≠ production authority
+AI Assistance ≠ Human Review or Decision
 ```
 
-A new-filing Pack does not automatically support examination, opposition, renewal, recordal or assignment.
-
-## Scenario and Profile Contract
-
-- controlled scenarios: `MR-SCN-01–41`;
-- severity: standard, high-risk and zero-tolerance;
-- participant and visibility controls;
-- lifecycle surfaces through CH47;
-- eight Profiles from Foundation to Full-Lifecycle;
-- a Profile claim cannot exceed Pack evidence.
-
-## Controlled Reference Journeys
+## Reference Journeys
 
 ### `EMBERLOOP`
 
 ```text
-UK — registered with Right Baseline and maintenance obligations
-US — under examination after acknowledged Response Package v2
-EU — in opposition without assumed closure
+United Kingdom — registered with Right Baseline and maintenance obligations
+United States — under examination after acknowledged Response Package v2
+European Union — in opposition without assumed closure
 Japan / Australia — candidates only
 ```
 
@@ -148,7 +140,7 @@ six registrations
 - [Appendix F — Minimum Jurisdiction Pack Checklist](appendices/B05-APP-F_Minimum_Jurisdiction_Pack_Checklist.md)
 - [Appendix G — MarkReg Conformance Profiles](appendices/B05-APP-G_MarkReg_Conformance_Profiles.md)
 
-Appendix A–G remain controlled reader drafts until editorial, figure and validation work passes.
+Appendix A–G remain controlled reader drafts until PF-06D, PF-07 and PF-08 pass.
 
 ## Governance
 
@@ -162,13 +154,14 @@ Appendix A–G remain controlled reader drafts until editorial, figure and valid
 
 ```text
 PF-01A: COMPLETE
-PF-01B: OPEN — required before RC1
+PF-01B: PARTIAL — CH02–CH07 complete; CH08–CH47 open
 PF-02: COMPLETE
 PF-03: COMPLETE
 PF-04: COMPLETE
 PF-05: COMPLETE
 PF-06A: COMPLETE
-PF-06B: AUTHORIZED AND NEXT
+PF-06B1: COMPLETE
+PF-06B2: AUTHORIZED AND NEXT
 PF-06C/PF-06D: PLANNED
 PF-06 overall: OPEN
 PF-07–PF-09: OPEN
@@ -176,4 +169,4 @@ PF-07–PF-09: OPEN
 
 ## Authority Boundary
 
-Book 05 does not modify the Frozen Book 02 Core Specification, redefine Book 03 Execution, absorb Book 04 Workplace authority, automatically appoint providers, create official truth, authorize production deployment, or authorize external protected action.
+Book 05 does not modify the Frozen Book 02 Core Specification, redefine Book 03 Execution, absorb Book 04 Workplace authority, automatically appoint providers, create Official Truth, authorize production deployment or authorize any External Protected Action.
