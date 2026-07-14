@@ -106,7 +106,7 @@
 - Preserved official-source authority, retrieval time, corrected events, stale status, deadline source and professional interpretation boundaries.
 - Reused Part IV Professional Review, Filing Approval, governed Execution, acknowledgement, reconciliation and audit controls for response filings.
 - Defined Publication Windows, monitoring, opposition detection and verified no-challenge closure.
-- Defined Adversarial Context, parties, grounds, evidence, pleadings, settlement authority and official procedural closure.
+- Defined Adversarial Context, parties, grounds, scope, evidence, settlement authority, costs and procedural closure.
 - Distinguished appeal, review, correction, cancellation, invalidation, restoration and recordal contexts.
 - Established canonical Deadline Record, Client Decision Record and Communication Packet.
 - Extended `EMBERLOOP` through US examination response, EU opposition and UK publication-window closure.
