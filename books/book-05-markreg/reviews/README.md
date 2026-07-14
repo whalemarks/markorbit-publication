@@ -22,8 +22,9 @@ This directory contains owner, architecture, chapter-map, manuscript, productiza
 - `B05-REV-0015_PF-03_Reference_Journey_Consolidation.md` — closes PF-03
 - `B05-REV-0016_PF-04_Scenario_and_User_Surface_Reconciliation.md` — closes PF-04
 - `B05-REV-0017_PF-05_Jurisdiction_and_Commercial_Reconciliation.md` — closes PF-05 and authorizes PF-06
-- `B05-REV-0018_PF-06A_Editorial_Baseline_and_Term_Audit.md` — accepts the editorial standard, term audit, glossary and index; closes PF-06A
-- `B05-REV-0019_PF-06B1_Front_Matter_and_Part_I_Editorial_Review.md` — accepts CH00–CH07 editorial finishing and CH02–CH07 metadata normalization; authorizes PF-06B2
+- `B05-REV-0018_PF-06A_Editorial_Baseline_and_Term_Audit.md` — accepts the editorial standard, term audit, glossary and index
+- `B05-REV-0019_PF-06B1_Front_Matter_and_Part_I_Editorial_Review.md` — accepts CH00–CH07 and metadata CH02–CH07
+- `B05-REV-0020_PF-06B2A_Part_II_Editorial_Review.md` — accepts CH08–CH15, metadata CH08–CH15 and `EL-01–EL-08`; authorizes PF-06B2B
 
 ## Current Gate
 
@@ -31,14 +32,13 @@ CH00–CH47 remain Complete Draft 1.
 
 ```text
 PF-01A: COMPLETE
-PF-01B: PARTIAL — CH02–CH07 complete; CH08–CH47 open
-PF-02: COMPLETE
-PF-03: COMPLETE
-PF-04: COMPLETE
-PF-05: COMPLETE
+PF-01B: PARTIAL — CH02–CH15 complete; CH16–CH47 open
+PF-02–PF-05: COMPLETE
 PF-06A: COMPLETE
 PF-06B1 CH00–CH07: COMPLETE
-PF-06B2 CH08–CH22: AUTHORIZED AND NEXT
+PF-06B2A CH08–CH15: COMPLETE
+PF-06B2B CH16–CH22: AUTHORIZED AND NEXT
+PF-06B overall: OPEN
 PF-06C/PF-06D: PLANNED
 PF-06 overall: OPEN
 PF-07–PF-09: OPEN

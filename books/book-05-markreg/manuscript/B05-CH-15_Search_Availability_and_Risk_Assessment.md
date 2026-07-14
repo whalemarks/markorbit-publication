@@ -1,170 +1,178 @@
 # B05-CH-15 — Search, Availability and Risk Assessment
 
-**Status:** Revised Draft — Productized  
+**Status:** Complete Draft 1  
 **Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
-**Part:** Part II — Need, Strategy and Recommendation  
-**Revision basis:** B05-REVISION-PACK-001
+**Part:** Part II — Need, Strategy and Recommendation
 
 ## Chapter Purpose
 
-Search is a decision-support activity, not a guarantee of registration, use, or freedom from dispute.
+Search is a decision-support activity. It is not a guarantee of registration, use, enforceability or freedom from dispute.
 
-This chapter defines when MarkReg recommends search, how it scopes search modes, how findings are interpreted, and how risk changes the Recommendation Set, Option Set, and later commercial journey.
+This chapter defines when MarkReg recommends search, how it scopes search modes, how evidence is interpreted and how findings change the Recommendation Set, Option Set and later commercial journey.
+
+The controlled example is `EL-08` in B05-SPEC-0002.
 
 ## 1. Product Question
 
-> What search is proportionate to the filing decision, and how should the user understand the remaining risk?
+> What search is proportionate to the proposed filing Decision, and how should the remaining risk be explained?
 
 The Product must distinguish:
 
 - whether search is recommended;
-- what data and jurisdictions are covered;
-- which marks, classes, and goods/services are searched;
-- which search method is used;
-- what the findings mean;
-- what they do not mean;
-- what action follows.
+- what jurisdictions, databases and dates are covered;
+- which filing units, classes and goods/services are searched;
+- which method is used;
+- what the evidence shows;
+- what the evidence cannot establish;
+- which accountable Decision follows.
 
 ## 2. Search Modes
 
-MarkReg may support:
+Depending on the applicable Pack and source coverage, MarkReg may support:
 
 | Mode | Purpose |
 | --- | --- |
-| Exact or knockout search | Identify obvious identical or near-identical conflicts quickly. |
-| Similarity search | Explore broader visual, phonetic, conceptual, or transliteration risk. |
-| Class-limited search | Focus on selected classes or related goods/services. |
-| Owner or portfolio search | Understand an identified party’s relevant rights. |
-| Common-law or market search | Explore use signals outside a registration database where supported. |
-| Device or image search | Review relevant figurative elements where data and tools permit. |
-| Professional opinion | Convert search evidence into accountable strategy. |
+| Exact or knockout | Identify obvious identical or near-identical conflicts quickly. |
+| Similarity | Explore broader visual, phonetic, conceptual or transliteration risk. |
+| Class-limited | Focus on selected classes or related goods/services. |
+| Owner or portfolio | Review the relevant rights of an identified party. |
+| Common-law or market | Explore supported use signals outside a registration database. |
+| Device or image | Review figurative elements where data and tools permit. |
+| Professional opinion | Convert search Evidence into accountable strategy. |
 
-The applicable jurisdiction pack must describe data coverage, freshness, known limitations, and source authority.
+The Jurisdiction Pack must state source coverage, freshness, known limitations and support state. A search tool’s technical availability does not establish professional or execution support.
 
-## 3. Search Scope Contract
+## 3. Search Record Contract
 
-A search request or result records:
+A search request, result or interpretation records:
 
-- mark representation and version;
+- filing-unit representation and version;
 - jurisdiction and database scope;
-- classes and goods/services version;
+- class and goods/services version;
 - search mode and method;
 - search date and data freshness;
 - source identifiers;
 - query assumptions;
-- result set or evidence references;
+- result and Evidence references;
 - automated confidence where used;
-- professional interpretation status;
+- Professional Review state;
 - material findings;
 - recommended action;
 - residual risk;
 - supersession and re-search triggers.
 
-Search outputs contribute to `MR-A03 Recommendation Set`. They do not become official status or final professional advice automatically.
+Search outputs contribute to `MR-A03 Recommendation Set`. They are not Official Truth, clearance, registration prediction or final professional advice by themselves.
 
 ## 4. Product Behavior
 
 MarkReg should:
 
-1. recommend search according to market importance, timing, mark distinctiveness, known conflicts, and risk posture;
-2. show the difference between search modes;
-3. calculate affected scope from filing units, classes, goods/services, and jurisdictions;
+1. recommend search according to market importance, timing, distinctiveness, known conflicts and risk posture;
+2. explain the difference between search modes;
+3. derive scope from filing units, classes, goods/services and jurisdictions;
 4. expose data limitations and freshness;
-5. group findings by relevance without hiding the underlying evidence;
-6. request professional interpretation for material risk;
-7. connect findings to concrete options: proceed, narrow, change, defer, search further, or seek advice;
-8. preserve original findings and later decisions;
+5. group findings by relevance without hiding underlying Evidence;
+6. request Professional Review for material risk;
+7. connect findings to concrete options: proceed, narrow, change, defer, search further or seek advice;
+8. preserve original findings and later Decisions;
 9. identify when changed inputs require re-search.
+
+AI may retrieve, compare, cluster, summarize and flag. It must not create Official Truth or present a confidence score as professional clearance.
 
 ## 5. Risk Expression
 
-Risk should not be reduced to a single unexplained score.
+Risk should not be reduced to one unexplained score.
 
-A useful risk assessment identifies:
+A useful assessment identifies:
 
 - issue type;
-- affected mark, jurisdiction, class, and item;
-- source evidence;
+- affected mark, jurisdiction, class and item;
+- source Evidence;
 - similarity or conflict basis;
 - confidence and uncertainty;
 - likely consequence;
-- available response options;
+- available options;
 - professional interpretation;
-- user decision;
+- client Decision;
 - revalidation trigger.
 
-Labels such as low, moderate, or high may summarize the assessment but cannot replace the explanation.
+Labels such as low, moderate or high may summarize the assessment. They cannot replace the explanation.
 
 ## 6. User Surface
 
-The user sees:
+The user should see:
 
 - whether search is recommended and why;
-- available search modes and costs;
-- scope covered;
-- data limitations;
+- available modes, scope and client price;
+- data coverage and limitations;
 - material findings in plain language;
 - affected filing options;
+- residual risk;
 - recommended next steps;
-- one primary action: **Order search, revise scope, or proceed with recorded risk**.
+- one primary action: **Order search, revise scope or proceed with recorded risk**.
 
-The Product must state that no search eliminates all risk.
+The surface must state that no search eliminates all risk and that proceeding with risk does not create Filing Approval.
 
-## 7. Reference Journey A — EMBERLOOP
+## 7. Reference Journey — `EL-08 EMBERLOOP`
 
 MarkReg recommends knockout searches in all core markets and expanded review in the United States and European Union.
 
 A similar mark appears for grill-related goods. The professional records moderate risk and recommends narrowing one goods description while retaining the broader word-mark strategy.
 
-The Recommendation Set is revised. The prior wording and original search findings remain traceable.
+The Recommendation Set is revised. The original wording, search Evidence and professional rationale remain traceable. No registration or clearance outcome is assumed.
 
-## 8. Conformance Scenarios
+## 8. Controlled Scenarios
 
-### MR-CH15-SCN-01 — Material input change
+### `MR-SCN-02` — Changed filing unit
 
-**Given** the user replaces the selected device or materially changes goods/services after search.  
-**When** the Recommendation Set is recalculated.  
-**Then** MarkReg identifies the affected search assumptions, marks the result partially or fully stale, and recommends the appropriate re-search or professional validation.  
-**Authority boundary:** the Product does not treat the old search as covering a new filing unit or scope.  
-**Evidence retained:** old and new inputs, prior search, stale reason, and resulting decision.
+If the selected device or material mark form changes after search, MarkReg identifies the affected assumptions and marks the old result partially or fully stale.
 
-### MR-CH15-SCN-02 — Proceeding with known risk
+### `MR-SCN-09` — Professional override
 
-**Given** a professional interpretation identifies moderate conflict risk.  
-**When** the user chooses to proceed.  
-**Then** MarkReg records the selected option, the explained risk, the actor and authority, and the exact downstream versions affected.  
-**Authority boundary:** user acceptance of risk does not replace filing approval.  
-**Evidence retained:** finding, advice, options, user decision, and professional review.
+A professional may adopt a sourced, scoped exception or interpretation. The system retains the original warning, reviewer, rationale and revalidation condition.
 
-## 9. Freshness and Official-Source Boundary
+### `MR-SCN-14` — Proceeding with a non-recommended option
 
-Search and status data must show retrieval time and source coverage.
+When the client proceeds despite recorded risk, MarkReg preserves the recommendation and records the informed client Decision and exact affected versions. Client risk acceptance is not Filing Approval.
 
-A stale database result or Product projection must not be presented as current official truth. `MR-SCN-10`, `MR-CR-04`, and `MR-CR-05` apply.
+## 9. Freshness, Re-search and Change Propagation
+
+Search and status Evidence must show retrieval time and source coverage.
+
+A changed filing unit, class, goods/services scope or jurisdiction may affect:
+
+- search validity;
+- risk assessment;
+- Recommendation Set and Option Set;
+- Proposal and Quote;
+- Professional Review;
+- later Package readiness.
+
+The Product records whether the prior result remains usable, needs targeted validation or must be replaced. Stale search Evidence must not be presented as current Official Truth.
 
 ## 10. Product Measures
 
 Useful measures include:
 
-- search recommendation acceptance rate;
-- re-search frequency caused by changed scope;
-- percentage of material findings receiving professional review;
+- search recommendation acceptance;
+- re-search caused by changed scope;
+- material findings receiving Professional Review;
 - recommendation changes caused by search;
-- rate of users proceeding with documented risk;
-- later conflicts traceable to known versus unknown search limitations.
+- users proceeding with documented risk;
+- later conflicts traceable to known and unknown search limitations.
 
-Metrics must not reward unnecessary searches or overstate predictive certainty.
+Metrics must not reward unnecessary search or overstated certainty.
 
 ## 11. Handoff to Part III
 
-Part II now provides a versioned Recommendation Set covering:
+Part II now provides a versioned Recommendation Set and Option Set covering:
 
 - jurisdictions and routes;
-- country bundles;
+- portfolio scenarios;
 - filing units;
 - applicant and authority context;
 - classes;
 - goods/services scope;
 - search and risk.
 
-Part III converts those recommendations into comparable options, Proposal, Quote, acceptance, Formal Intake, requirements, readiness, and governed handoff.
+Part III converts those recommendations into comparable service options, Proposal, Quote, acceptance, Formal Intake, requirements, readiness and governed Handoff.

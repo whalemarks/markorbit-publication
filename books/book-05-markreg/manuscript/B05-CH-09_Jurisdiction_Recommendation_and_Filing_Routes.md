@@ -1,59 +1,58 @@
 # B05-CH-09 — Jurisdiction Recommendation and Filing Routes
 
-**Status:** Revised Draft — Productized  
+**Status:** Complete Draft 1  
 **Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
-**Part:** Part II — Need, Strategy and Recommendation  
-**Revision basis:** B05-REVISION-PACK-001
+**Part:** Part II — Need, Strategy and Recommendation
 
 ## Chapter Purpose
 
-This chapter defines how MarkReg converts a confirmed Need Brief into explainable jurisdiction and filing-route recommendations.
+This chapter converts a confirmed Need Brief into explainable jurisdiction and filing-route candidates.
 
-The Product must help the user answer two separate questions:
+It separates two questions:
 
-1. where protection is needed;
-2. which direct, regional, or international route is appropriate.
+1. where protection matters;
+2. which direct, regional or international route is appropriate.
 
-A country recommendation is not automatically a route recommendation, and neither is a filing instruction.
+A jurisdiction recommendation is not automatically a route recommendation. Neither is a client Decision, filing instruction or statement that the jurisdiction/service is Execution Capable.
+
+The controlled example is `EL-02` in B05-SPEC-0002.
 
 ## 1. Product Question
 
-> Which jurisdictions matter now, which can wait, and which route best fits each priority under the current facts?
+> Which jurisdictions matter now, which may be deferred, and which route fits each priority under the current facts?
 
-The answer must reflect business need rather than a generic list of available countries.
+The answer must reflect business activity, risk, timing, eligibility and cost rather than a generic country list.
 
-## 2. Required Inputs
+## 2. Required Context
 
-The Product consumes:
+The Recommendation Set may consume:
 
 - confirmed Need Brief version;
 - current and planned markets;
-- manufacturing, sales, distribution, licensing, and crowdfunding context;
+- manufacturing, sourcing, sales, distribution, licensing and crowdfunding context;
 - existing applications and registrations;
-- applicant eligibility and possible basic filings;
-- timing and priority constraints;
-- budget and risk posture;
-- jurisdiction-pack versions;
-- local-representation and provider requirements.
+- applicant and basic-filing eligibility;
+- timing, priority and budget constraints;
+- risk posture;
+- applicable Jurisdiction Pack versions;
+- local-representation, provider and document requirements.
 
-Jurisdiction rules must satisfy the minimum contract in [B05-SPEC-0004](../specifications/B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md).
+A Pack reference must identify jurisdiction, service, lifecycle stage, version and support state. Research Only or Guidance Capable evidence must not be presented as Execution Capable support.
 
 ## 3. Recommendation Categories
 
-Each jurisdiction should be classified as one of:
-
 | Category | Meaning |
 | --- | --- |
-| Required now | A material commercial, legal, timing, or defensive reason supports immediate action. |
-| Strongly recommended | Significant value or risk justifies action, but deferral remains possible. |
-| Optional | Useful protection with lower immediate priority. |
-| Deferred | Relevant later, with a recorded trigger for reconsideration. |
-| Not recommended | Current cost, eligibility, route, evidence, or business facts do not justify action. |
-| Professional review required | The Product cannot safely rank the jurisdiction without accountable judgment. |
+| Required now | A material commercial, legal, timing or defensive reason supports immediate action. |
+| Strongly recommended | Significant value or risk supports action, although deferral remains possible. |
+| Optional | Useful protection with lower current priority. |
+| Deferred | Relevant later, with a recorded reconsideration trigger. |
+| Not recommended | Current facts do not justify action. |
+| Professional Review required | Material uncertainty prevents a reliable recommendation without accountable judgment. |
 
-The Product must explain the reason and evidence for the category.
+Each category must show its rationale, assumptions, source status and consequence.
 
-## 4. Filing-Route Comparison
+## 4. Route Comparison
 
 For each jurisdiction, MarkReg may compare:
 
@@ -61,88 +60,91 @@ For each jurisdiction, MarkReg may compare:
 - regional filing;
 - international registration route;
 - later designation or expansion;
-- local filing through a provider;
-- a controlled decision not to file yet.
+- local-provider filing;
+- a controlled Decision not to file yet.
 
-The comparison must show:
+The comparison should show:
 
 - eligibility dependencies;
 - territorial scope;
 - dependency on a basic application or registration where applicable;
 - language and representation requirements;
-- approximate timing and uncertainty;
+- timing and uncertainty;
 - fee-driving units;
 - document requirements;
 - provider or connector dependency;
 - later-stage obligations;
-- major failure or dependency risks.
+- major failure and dependency risks.
 
-## 5. Recommendation Set Contract
+The Product must not label a route “best” without stating the facts and trade-offs that make it preferable.
 
-Jurisdiction and route outputs form part of `MR-A03 Recommendation Set`.
+## 5. Controlled Output
 
-Each entry includes:
+Jurisdiction and route candidates belong to:
+
+```text
+MR-A03 — Recommendation Set
+→ MR-A04 — Option Set
+```
+
+Each entry records:
 
 - jurisdiction and office identity;
 - route candidate;
 - recommendation category;
 - business rationale;
-- jurisdiction-pack version and source status;
-- assumptions;
-- confidence or interpretation status;
+- Pack Version, source status and support state;
+- assumptions and confidence;
 - cost and timing effects;
-- provider need;
-- unresolved issues;
-- professional review status;
-- alternative routes.
+- provider or connector need;
+- unresolved dependencies;
+- Professional Review status;
+- alternative routes;
+- user selection state and supersession history.
 
-A route selected by the user remains a Product decision candidate until required review and formalization occur.
+Selection remains a Product Decision candidate until the required professional, client, commercial and formal boundaries are satisfied.
 
 ## 6. User Surface
 
-The user should see a comparison rather than a map of unexplained countries.
+The user should see a comparison rather than an unexplained map:
 
-The primary surface shows:
-
-- required, recommended, optional, and deferred jurisdictions;
-- route alternatives for each jurisdiction;
-- why each option is suggested;
-- what changes if a market is added or removed;
-- source freshness or uncertainty warnings;
+- required, recommended, optional and deferred jurisdictions;
+- route alternatives;
+- rationale and assumptions;
+- main cost, timing and representation effects;
+- source freshness and uncertainty warnings;
+- the effect of adding or removing a market;
 - one primary action: **Compare and set priorities**.
 
-The Product should not present all jurisdictions as equally urgent.
+The interface should make clear that a recommendation is not a guarantee of eligibility, acceptance or registration.
 
-## 7. Reference Journey A — EMBERLOOP
+## 7. Reference Journey — `EL-02 EMBERLOOP`
 
-MarkReg presents:
+MarkReg compares:
 
-- **Option A:** United States and European Union first; United Kingdom later;
-- **Option B:** United States, European Union, and United Kingdom first;
-- **Option C:** evaluate an international route after confirming a suitable basic filing;
-- **Deferred:** Japan and Australia until launch traction or distribution plans become clearer.
+- direct United States filing;
+- European Union regional filing;
+- direct United Kingdom filing;
+- a conditional Madrid-route scenario that depends on a suitable basic filing;
+- deferred Japan and Australia candidates.
 
-The Product exposes route dependencies, local-representation requirements, expected later costs, and timing uncertainty. It does not label one route “best” without assumptions.
+The Recommendation Set preserves direct alternatives where route eligibility is unresolved. Japan and Australia remain future-action candidates; no filing is assumed.
 
-## 8. Conformance Scenarios
+## 8. Controlled Scenarios
 
-### MR-CH09-SCN-01 — Route dependency changes
+### `MR-SCN-03` — Territory and route comparison
 
-**Given** an international route depends on a basic filing that has not been confirmed.  
-**When** route options are shown.  
-**Then** MarkReg presents the route as conditional, identifies the missing dependency, and preserves a direct-filing alternative.  
-**Authority boundary:** the Product does not invent eligibility.  
-**Evidence retained:** pack version, eligibility rule, source facts, alternatives, and professional decision.
+A request for “Europe” must be decomposed into EU, UK and relevant national consequences. A regional bundle is not one global right.
 
-### MR-CH09-SCN-02 — Stale jurisdiction rule
+### `MR-SCN-13` — Material business change
 
-**Given** a required representation or fee rule is stale or conflicting.  
-**When** a deadline-sensitive recommendation is prepared.  
-**Then** MarkReg labels the rule status, blocks protected-action readiness where necessary, and requests source refresh or professional verification.  
-**Authority boundary:** sourced Product configuration is not official truth by itself.  
-**Evidence retained:** old rule, source date, refresh attempt, and resulting decision.
+A new launch market or changed timing creates a new recommendation version and identifies affected route, scope, search, Quote and Package records.
 
-This applies `MR-SCN-10` and `MR-CR-05`.
+### `MR-SCN-14` — Client chooses a non-recommended option
+
+The Product preserves the professional recommendation, records the informed client Decision and carries the consequences forward. Client selection does not rewrite the recommendation history.
+
+Minimum evidence includes Pack Version, rule sources, alternatives, assumptions, professional disposition and client Decision.
 
 ## 9. Change Propagation
 
@@ -151,17 +153,16 @@ Adding or removing a jurisdiction may change:
 - route eligibility;
 - provider need;
 - filing units;
-- classes and goods/services versions;
+- classes and goods/services;
 - search scope;
 - documents;
-- fees and currency exposure;
-- timelines;
-- readiness.
+- official fee and client-price assumptions;
+- timing and readiness.
 
-The Product must identify affected artifacts rather than silently updating them.
+The Product creates new Recommendation Set and Option Set versions. It must not silently alter an accepted Quote or approved Package.
 
 ## 10. Handoff to CH10
 
-CH09 produces versioned jurisdiction and route candidates within the Recommendation Set.
+CH09 produces jurisdiction and route candidates.
 
-CH10 may compose these candidates into understandable country bundles and portfolio scenarios, but a bundle must never hide the independent legal, cost, evidence, and lifecycle consequences of each jurisdiction.
+CH10 composes them into understandable portfolio scenarios. A bundle may simplify comparison, but it must preserve the independent right, fee, evidence, deadline and lifecycle consequences of every jurisdiction.

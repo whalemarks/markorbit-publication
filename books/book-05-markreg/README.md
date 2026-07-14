@@ -7,9 +7,9 @@
 - **Canonical path:** `books/book-05-markreg/`
 - **Status:** Complete Draft 1 — Editorial Finishing Active
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
-- **Completed editorial work:** PF-06A and PF-06B1
-- **Current substantive phase:** PF-06B2 — CH08–CH22
-- **Remaining RC1 metadata blocker:** CH08–CH47
+- **Completed editorial work:** PF-06A, PF-06B1 and PF-06B2A
+- **Current substantive phase:** PF-06B2B — CH16–CH22
+- **Remaining RC1 metadata blocker:** CH16–CH47
 
 ## Position in the Series
 
@@ -27,18 +27,18 @@ Book 05 — MarkReg Product constitution and lifecycle specification
 
 Book 05 is not a jurisdictional legal manual, implementation PRD, official source, autonomous professional actor or production authority.
 
-## Manuscript
+## Manuscript Progress
 
 - Front Matter — CH00–CH01: editorial pass complete
 - Part I — CH02–CH07: editorial pass and metadata normalization complete
-- Part II — CH08–CH15: PF-06B2 next
-- Part III — CH16–CH22: PF-06B2 next
+- Part II — CH08–CH15: editorial pass and metadata normalization complete
+- Part III — CH16–CH22: PF-06B2B next
 - Part IV — CH23–CH29: PF-06C planned
 - Part V — CH30–CH36: PF-06C planned
 - Part VI — CH37–CH42: PF-06C planned
 - Part VII — CH43–CH47: PF-06C planned
 
-PF-06B1 reduced repeated constitutional language and assigned distinct jobs to the opening chapters:
+### Part I chapter responsibilities
 
 ```text
 CH00 — book and Product premise
@@ -52,6 +52,21 @@ CH07 — lifecycle and state planes
 ```
 
 [B05-REV-0019](reviews/B05-REV-0019_PF-06B1_Front_Matter_and_Part_I_Editorial_Review.md) accepts this tranche.
+
+### Part II controlled sequence
+
+```text
+EL-01 / CH08 — Need Brief
+EL-02 / CH09 — jurisdiction and route candidates
+EL-03 / CH10 — country-bundle Option Sets
+EL-04 / CH11 — filing-unit candidates
+EL-05 / CH12 — Applicant and Authority Context
+EL-06 / CH13 — class candidates
+EL-07 / CH14 — goods/services scope
+EL-08 / CH15 — search and risk
+```
+
+[B05-REV-0020](reviews/B05-REV-0020_PF-06B2A_Part_II_Editorial_Review.md) accepts Part II.
 
 ## Controlled Product Specifications
 
@@ -68,9 +83,8 @@ Specifications remain authoritative over editorial simplification.
 - [B05-PUB-0003 — Glossary](publication/B05-PUB-0003_Glossary.md) — Controlled Working Glossary v0.2
 - [B05-PUB-0004 — Subject Index](publication/B05-PUB-0004_Subject_Index.md) — Controlled Working Index v0.2
 - [B05-PUB-0009 — Term Variation and Editorial Audit](publication/B05-PUB-0009_Term_Variation_and_Editorial_Audit.md) — Controlled Audit v0.1
-- [B05-REV-0018 — PF-06A Editorial Review](reviews/B05-REV-0018_PF-06A_Editorial_Baseline_and_Term_Audit.md)
 
-The editorial baseline controls normative language, capitalization, Artifact names, authority verbs, official/provider/Product states, commercial components, Jurisdiction Pack support claims, AI Assistance, compression and chapter Handoffs.
+The baseline controls normative language, capitalization, Artifact names, authority verbs, sourced states, commercial components, Pack support claims, AI Assistance, compression and chapter Handoffs.
 
 ## Editorial Batch Sequence
 
@@ -82,9 +96,13 @@ PF-06B1 — COMPLETE
 - CH00–CH07
 - metadata CH02–CH07
 
-PF-06B2 — NEXT
-- CH08–CH22
-- metadata CH08–CH22
+PF-06B2A — COMPLETE
+- CH08–CH15
+- metadata CH08–CH15
+
+PF-06B2B — NEXT
+- CH16–CH22
+- metadata CH16–CH22
 
 PF-06C — PLANNED
 - CH23–CH47
@@ -95,13 +113,18 @@ PF-06D — PLANNED
 - whole-book editorial closure
 ```
 
+PF-06B remains open until Part III passes.
+
 ## Controlled Locks
 
 ```text
+Need Brief confirmation ≠ filing instruction
 Recommendation ≠ Decision
+Option Set ≠ one legal right
+Class candidate ≠ filing scope
+Search result ≠ clearance
 Readiness ≠ Approval
 Approval ≠ Execution
-Execution requested ≠ submission sent
 Submission sent ≠ official acknowledgement
 Provider Report ≠ Official Truth
 Payment ≠ filing authority
@@ -154,14 +177,13 @@ Appendix A–G remain controlled reader drafts until PF-06D, PF-07 and PF-08 pas
 
 ```text
 PF-01A: COMPLETE
-PF-01B: PARTIAL — CH02–CH07 complete; CH08–CH47 open
-PF-02: COMPLETE
-PF-03: COMPLETE
-PF-04: COMPLETE
-PF-05: COMPLETE
+PF-01B: PARTIAL — CH02–CH15 complete; CH16–CH47 open
+PF-02–PF-05: COMPLETE
 PF-06A: COMPLETE
 PF-06B1: COMPLETE
-PF-06B2: AUTHORIZED AND NEXT
+PF-06B2A: COMPLETE
+PF-06B2B: AUTHORIZED AND NEXT
+PF-06B overall: OPEN
 PF-06C/PF-06D: PLANNED
 PF-06 overall: OPEN
 PF-07–PF-09: OPEN

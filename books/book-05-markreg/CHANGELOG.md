@@ -1,5 +1,19 @@
 # Book 05 Changelog
 
+## 2026-07-14 — PF-06B2A Part II Editorial Finishing
+
+- Edited CH08–CH15 against B05-PUB-0001 Controlled Editorial Standard v0.2.
+- Normalized CH08–CH15 metadata to Complete Draft 1 and B05-TOC-V0.1 — Owner Accepted.
+- Wrote `EL-01–EL-08` explicitly into the active Part II manuscript.
+- Reconciled chapter scenarios to the controlled `MR-SCN-*` registry.
+- Reconciled Need Brief, Recommendation Set, Option Set and Applicant and Authority Context terminology.
+- Added Pack Version, support-state, source, commercial-component and AI boundaries from PF-04 and PF-05.
+- Strengthened user actions, change propagation and chapter Handoffs.
+- Added B05-REV-0020 and accepted PF-06B2A without semantic escalation.
+- Recorded PF-01B as complete through CH15 and open for CH16–CH47.
+- Authorized PF-06B2B — Part III, CH16–CH22.
+- Kept PF-06B overall, PF-06 overall, figures, validation, RC1 and final publication open.
+
 ## 2026-07-14 — PF-06B1 Front Matter and Part I Editorial Finishing
 
 - Edited CH00–CH07 against B05-PUB-0001 Controlled Editorial Standard v0.2.

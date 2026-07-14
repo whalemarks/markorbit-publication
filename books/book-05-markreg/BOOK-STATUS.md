@@ -9,9 +9,9 @@
 - **Controlled specifications:** B05-SPEC-0001 through B05-SPEC-0004 v0.2 reconciled
 - **Reader appendices:** Appendix A–G reconciled for PF-02 through PF-05
 - **Editorial baseline:** PF-06A complete
-- **Completed manuscript editorial tranche:** PF-06B1 — Front Matter and Part I, CH00–CH07
-- **Current substantive gate:** PF-06B2 — Part II and Part III, CH08–CH22
-- **Remaining RC1 metadata blocker:** PF-01B CH08–CH47
+- **Completed manuscript editorial tranches:** PF-06B1 CH00–CH07 and PF-06B2A CH08–CH15
+- **Current substantive gate:** PF-06B2B — Part III, CH16–CH22
+- **Remaining RC1 metadata blocker:** PF-01B CH16–CH47
 - **Architecture dependency:** MO-PUB-BASELINE-0001
 
 ## Chapter and Editorial Boundary
@@ -19,27 +19,22 @@
 ```text
 Front Matter — CH00–CH01: EDITED
 Part I — CH02–CH07: EDITED
-Part II — CH08–CH15: NEXT
+Part II — CH08–CH15: EDITED
 Part III — CH16–CH22: NEXT
 Part IV — CH23–CH29: PLANNED UNDER PF-06C
 Part V — CH30–CH36: PLANNED UNDER PF-06C
 Part VI — CH37–CH42: PLANNED UNDER PF-06C
 Part VII — CH43–CH47: PLANNED UNDER PF-06C
-Appendix A–G — outside chapter numbering; final edit under PF-06D
+Appendix A–G — final edit under PF-06D
 ```
 
 B05-ERRATA-0001 continues to define Part VI as CH37–CH42 and Part VII as CH43–CH47.
 
 ## Completed Publication-Finishing Work
 
-### PF-01A
+### PF-01A and PF-02 through PF-05
 
 - CH00–CH01 metadata normalized;
-- active candidate wording removed;
-- Back Matter added to CH01.
-
-### PF-02 through PF-05
-
 - all four controlled specifications upgraded to v0.2;
 - Product records, Decisions, journeys, scenarios, participant surfaces, Jurisdiction Packs and commercial controls reconciled;
 - Appendix A–G completed for their assigned workstreams;
@@ -56,25 +51,55 @@ B05-ERRATA-0001 continues to define Part VI as CH37–CH42 and Part VII as CH43�
 
 ### PF-06B1 — Front Matter and Part I
 
-- CH00–CH07 edited against B05-PUB-0001 v0.2;
+- CH00–CH07 edited;
 - repeated constitutional language compressed;
-- chapter purposes and transitions separated;
-- architecture responsibility concentrated in CH04;
-- participant authority concentrated in CH05;
-- Product principles concentrated in CH06;
-- lifecycle and state-plane model concentrated in CH07;
-- CH02–CH07 metadata normalized to Complete Draft 1 and Owner Accepted;
+- architecture, participant authority, Product principles and lifecycle-state responsibilities separated;
+- CH02–CH07 metadata normalized;
 - B05-REV-0019 accepted;
 - no semantic escalation required.
 
-The eight edited files were reduced from approximately 3,891 prior lines to approximately 1,635 edited lines while preserving accepted Product meaning.
+### PF-06B2A — Part II
+
+- CH08–CH15 edited against B05-PUB-0001 v0.2;
+- Product questions, controlled outputs and Handoffs normalized;
+- `EL-01–EL-08` written into the active manuscript;
+- local scenario references reconciled to the controlled `MR-SCN-*` registry;
+- Pack Version, support-state, source, price and AI language aligned with B05-SPEC-0003 and B05-SPEC-0004;
+- CH08–CH15 metadata normalized;
+- B05-REV-0020 accepted;
+- no semantic escalation required.
+
+## Part II Controlled Sequence
+
+```text
+EL-01 / CH08 — Business Context Snapshot and Need Brief
+EL-02 / CH09 — jurisdiction and route candidates
+EL-03 / CH10 — country-bundle Option Sets
+EL-04 / CH11 — filing-unit candidates
+EL-05 / CH12 — Applicant and Authority Context
+EL-06 / CH13 — class candidates
+EL-07 / CH14 — goods/services scope
+EL-08 / CH15 — search and risk
+```
+
+The sequence produces and refines:
+
+```text
+MR-A01 Business Context Snapshot
+→ MR-A02 Need Brief
+→ MR-A03 Recommendation Set
+→ MR-A04 Option Set
+```
+
+It does not create a Quote, Order, Matter, Filing Approval, filing or official outcome.
 
 ## Metadata Progress
 
 ```text
 PF-01A CH00–CH01: COMPLETE
 PF-01B CH02–CH07: COMPLETE
-PF-01B CH08–CH47: OPEN
+PF-01B CH08–CH15: COMPLETE
+PF-01B CH16–CH47: OPEN
 PF-01 overall: OPEN
 ```
 
@@ -88,10 +113,13 @@ Chapter Map: B05-TOC-V0.1 — Owner Accepted
 ## Editorial Locks
 
 ```text
+Need Brief confirmation ≠ filing instruction
 Recommendation ≠ Decision
+Option Set ≠ one legal right
+Class candidate ≠ filing scope
+Search result ≠ clearance
 Readiness ≠ Approval
 Approval ≠ Execution
-Execution requested ≠ submission sent
 Submission sent ≠ official acknowledgement
 Provider Report ≠ Official Truth
 Payment ≠ filing authority
@@ -135,18 +163,19 @@ evidence and licence actions remain open
 
 ```text
 PF-01A: COMPLETE
-PF-01B: PARTIAL — CH02–CH07 complete; CH08–CH47 open
+PF-01B: PARTIAL — CH02–CH15 complete; CH16–CH47 open
 PF-02: COMPLETE
 PF-03: COMPLETE
 PF-04: COMPLETE
 PF-05: COMPLETE
 PF-06A: COMPLETE
 PF-06B1 CH00–CH07: COMPLETE
-PF-06B2 CH08–CH22: AUTHORIZED AND NEXT
+PF-06B2A CH08–CH15: COMPLETE
+PF-06B2B CH16–CH22: AUTHORIZED AND NEXT
+PF-06B overall: OPEN
 PF-06C CH23–CH47: PLANNED
 PF-06D whole-book closure: PLANNED
 PF-06 overall: OPEN
-PF-07A publication architecture: COMPLETE
 PF-07 figures and remaining apparatus: OPEN
 PF-08 structural and rendered validation: OPEN
 PF-09 RC1 and owner publication gate: OPEN
@@ -155,13 +184,13 @@ PF-09 RC1 and owner publication gate: OPEN
 ## Next Controlled Work
 
 ```text
-PF-06B2 — CH08–CH22
-→ edit Part II Need, Strategy and Recommendation
-→ edit Part III Commercial Journey and Formal Intake
-→ normalize CH08–CH22 metadata
-→ preserve EL-* journey steps and controlled artifacts
-→ reconcile recommendation, commercial, Intake, readiness and Handoff language
-→ hand CH22 clearly into CH23
+PF-06B2B — CH16–CH22
+→ edit Proposal, pricing, Quote and acceptance
+→ edit Formal Intake, documents, readiness and formal Handoff
+→ normalize CH16–CH22 metadata
+→ preserve EL-09–EL-15
+→ reconcile official fee, client price, provider cost and payment language
+→ hand CH22 clearly into CH23 Filing Package Candidate
 ```
 
 Ready for unrestricted implementation: **NO**

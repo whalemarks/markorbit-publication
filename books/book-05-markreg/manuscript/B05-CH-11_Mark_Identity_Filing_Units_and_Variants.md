@@ -1,25 +1,26 @@
 # B05-CH-11 — Mark Identity, Filing Units and Variants
 
-**Status:** Revised Draft — Productized  
+**Status:** Complete Draft 1  
 **Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
-**Part:** Part II — Need, Strategy and Recommendation  
-**Revision basis:** B05-REVISION-PACK-001
+**Part:** Part II — Need, Strategy and Recommendation
 
 ## Chapter Purpose
 
-A brand may have a word name, logo, composite mark, icon, local-language form, transliteration, color treatment, product-line variation, or legacy version. One brand does not automatically equal one filing unit.
+A brand may include a word name, device, composite, icon, local-language form, transliteration, color treatment, product-line variation or legacy version. One brand does not automatically equal one filing unit.
 
-This chapter defines how MarkReg identifies, compares, and versions the mark representations that may require separate search, pricing, review, approval, and filing.
+This chapter defines how MarkReg identifies and versions the representations that may require separate search, pricing, Review, Approval and filing.
+
+The controlled example is `EL-04` in B05-SPEC-0002.
 
 ## 1. Product Question
 
-> What exactly should be protected, in which form, and why?
+> What exactly may need protection, in which form and for which reason?
 
-The Product must prevent a user from assuming that filing one logo automatically protects every word, device, language, color, or later redesign.
+The Product must prevent the assumption that one logo filing automatically protects every word, device, language, color or later redesign.
 
 ## 2. Candidate Filing Units
 
-MarkReg may identify:
+Depending on the applicable Jurisdiction Pack, candidates may include:
 
 - word mark;
 - device or icon;
@@ -27,65 +28,65 @@ MarkReg may identify:
 - stylized lettering;
 - color or color-combination form;
 - transliteration;
-- translated or local-language version;
+- translated or market-created local name;
 - slogan;
 - product-line or series variant;
 - simplified or monochrome device;
-- three-dimensional, pattern, sound, or other supported mark type.
+- three-dimensional, pattern, sound or another supported mark type.
 
-Availability and filing requirements must come from the applicable jurisdiction pack.
+Availability in one jurisdiction does not establish support in another. The Pack must identify the service, stage, version and support state.
 
 ## 3. Filing-Unit Candidate Contract
 
-A filing-unit candidate includes:
+Each candidate records:
 
 - stable candidate identifier;
 - source asset and version;
-- mark type;
-- visual or textual representation;
-- claimed elements where applicable;
-- language and transliteration details;
-- intended use context;
-- jurisdictions in which it is considered;
+- mark type and representation;
+- claimed elements where relevant;
+- language, translation and transliteration context;
+- intended business use;
+- jurisdictions under consideration;
 - search dependencies;
 - classification and goods/services dependencies;
-- cost impact;
-- professional recommendation category;
-- user selection status;
+- fee and provider effects;
+- recommendation category;
+- user selection and Professional Review state;
 - supersession relationship.
 
-Filing-unit candidates become part of the Recommendation Set and Option Set. They are not official mark representations until formalized through the proper boundary.
+Filing-unit candidates form part of `MR-A03 Recommendation Set` and `MR-A04 Option Set`. They are not official mark representations until formalized through the required Package, Approval and Execution boundaries.
 
 ## 4. Product Behavior
 
 MarkReg should:
 
-1. inventory known brand assets;
+1. inventory authorized brand assets;
 2. identify materially different representations;
-3. detect inconsistent versions without declaring legal equivalence;
-4. explain what each filing unit protects and does not protect;
-5. show required, strongly recommended, optional, and deferred units;
-6. estimate search, class, fee, document, and provider consequences;
-7. request professional review where the strategy is material or ambiguous;
+3. flag inconsistent versions without declaring legal equivalence;
+4. explain the protection objective and limitation of each candidate;
+5. rank required, recommended, optional and deferred units;
+6. show search, class, fee, document and provider consequences;
+7. request Professional Review where identity or strategy is material;
 8. preserve rejected and superseded candidates.
+
+AI may compare files, extract text or flag visual differences. A Human must determine whether the difference is legally or strategically material.
 
 ## 5. User Surface
 
-The user sees each mark representation as a separate card with:
+Each candidate should appear separately with:
 
-- preview;
+- preview and source reference;
 - mark type;
-- source filename or text;
 - recommended priority;
 - intended jurisdictions;
-- major benefits and limitations;
+- principal benefits and limitations;
 - added fee and search effect;
-- conflicts with previously approved versions;
-- one primary action: **Select candidate filing units**.
+- conflicts with reviewed or accepted versions;
+- one primary action: **Select filing-unit candidates**.
 
-Changing the selected mark must show affected downstream work before the change is confirmed.
+Before confirming a changed mark, the Product should show which search, Quote, Intake, Package or Approval records may become stale.
 
-## 6. Reference Journey A — EMBERLOOP
+## 6. Reference Journey — `EL-04 EMBERLOOP`
 
 MarkReg identifies:
 
@@ -94,37 +95,39 @@ MarkReg identifies:
 - word-and-device composite;
 - possible simplified monochrome device.
 
-The professional recommends:
+The professional recommendation is:
 
-- word mark: required in core markets;
-- flame-loop device: strongly recommended;
-- composite: optional where budget permits;
-- simplified variant: deferred pending final brand standards.
+- word mark — required in core markets;
+- flame-loop device — strongly recommended;
+- composite — optional where budget permits;
+- simplified device — deferred pending final brand standards.
 
-The user selects word and device filings for the United States, European Union, and United Kingdom. Search and fee assumptions update accordingly.
+Northstar selects the word and flame-loop device for the United States, European Union and United Kingdom. No claim is made that one application protects both forms or all markets.
 
-## 7. Conformance Scenario
+## 7. Controlled Scenarios
 
-### MR-SCN-02 — Conflicting mark variants
+### `MR-SCN-02` — Conflicting mark variants
 
-**Given** the user uploads a logo different from the version used in the approved Proposal.  
-**When** MarkReg compares the new asset with the selected filing-unit version.  
-**Then** it identifies the difference, creates a new candidate, and invalidates affected search, Quote, document, and readiness assumptions.  
-**Authority boundary:** visual comparison is assistance, not a legal conclusion or filing approval.  
-**Evidence retained:** both files, hashes or stable references, comparison result, user selection, reviewer decision, and affected artifact versions.
+When a new asset differs from the version used for search, Proposal, Quote or Package preparation, MarkReg creates a new filing-unit candidate and identifies affected assumptions. Visual comparison is not Filing Approval.
 
-## 8. Local-Language and Transliteration Decisions
+### `MR-SCN-13` — Material business or brand change
 
-Where local-language protection may matter, the Product should distinguish:
+A changed brand strategy or mark form creates a new Recommendation Set version. Prior acceptance does not automatically apply.
+
+Minimum evidence includes both assets, stable references or hashes, comparison output, user selection, Professional Review and affected versions.
+
+## 8. Local-Language Decisions
+
+Where local-language protection may matter, distinguish:
 
 - direct translation;
 - phonetic transliteration;
 - market-created local name;
-- characters selected for meaning;
-- characters selected for sound;
+- characters selected mainly for meaning;
+- characters selected mainly for sound;
 - no local-language filing.
 
-It must expose who created the version, which business evidence supports it, and whether professional or linguistic review is required.
+The record should identify who created the candidate, which business evidence supports it and whether linguistic or professional Review is required.
 
 ## 9. Change Propagation
 
@@ -132,16 +135,16 @@ A filing-unit change may affect:
 
 - search results;
 - classes and goods/services;
-- image or file requirements;
+- image and file requirements;
 - color claims;
 - priority claims;
 - documents and signatures;
 - provider requirements;
-- official and professional fees;
-- Proposal, Quote, Intake, and readiness.
+- official fees and client price;
+- Proposal, Quote, Formal Intake and readiness.
 
-This applies `MR-CR-08`: the Product must preserve lineage and identify downstream versions rather than silently replacing them.
+The Product must preserve lineage and identify downstream versions rather than replacing them silently.
 
 ## 10. Handoff to CH12
 
-Once the candidate filing units are visible, CH12 determines which legal person should own each proposed right and who has authority to confirm, sign, instruct, and approve the relevant steps.
+Once the filing units are visible, CH12 determines which legal person may own each proposed right and who may confirm facts, sign documents, issue instructions and approve later actions.
