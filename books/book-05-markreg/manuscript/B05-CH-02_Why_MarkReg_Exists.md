@@ -1,20 +1,18 @@
 # B05-CH-02 — Why MarkReg Exists
 
-**Status:** Foundation Draft  
-**Chapter Map:** B05-TOC-V0.1 — Candidate  
+**Status:** Complete Draft 1  
+**Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part I — Product Constitution and Lifecycle Position
 
 ## Chapter Purpose
 
-This chapter explains why MarkReg should exist as a dedicated Product rather than as a form, a case-management module, an AI assistant, a provider directory, or a thin filing connector.
+This chapter explains why international trademark work needs a dedicated Product rather than a form, case screen, AI chat, provider directory or filing connector.
 
 The central proposition is:
 
-> International trademark work requires a Product that reduces professional complexity across the full lifecycle while preserving formal authority, human responsibility, organization ownership, and jurisdiction-specific truth.
+> MarkReg exists to reduce professional complexity across the trademark lifecycle while preserving formal authority, Human responsibility, organization ownership and jurisdiction-specific truth.
 
----
-
-## 1. The User’s Need Is Smaller Than the Professional Problem
+## 1. The User States an Outcome, Not the Professional Structure
 
 A user may say:
 
@@ -23,90 +21,78 @@ A user may say:
 - file in Europe and Southeast Asia;
 - renew these registrations;
 - respond to this objection;
-- transfer this portfolio;
+- transfer this Portfolio;
 - find a local lawyer.
 
-The request appears simple because the user states an outcome, not the professional structure required to reach it.
+The request appears simple because it names an outcome. It does not describe the work required to reach that outcome.
 
-The real problem may involve:
+The underlying problem may involve:
 
-- business geography;
-- filing route;
-- applicant identity;
-- ownership and authority;
-- mark variants;
-- classification;
-- goods and services;
-- search scope;
-- priority;
-- documents;
-- provider eligibility;
-- official fees;
-- professional fees;
-- foreign exchange;
-- deadlines;
-- evidence;
-- review;
-- official status;
-- long-term maintenance.
+- business geography and timing;
+- filing route and jurisdiction sequence;
+- mark identity and filing units;
+- applicant identity, ownership and authority;
+- classes and goods or services;
+- search scope and risk;
+- Documents, signatures and certifications;
+- providers, conflicts and local representation;
+- official fees, professional fees, taxes and currency;
+- Review, approval and payment authority;
+- official deadlines and Evidence;
+- examination, disputes and further proceedings;
+- registration, maintenance, renewal and recordal.
 
-A Product that merely records the user’s first sentence has not yet solved the problem.
+A Product that only records the user’s first sentence has not yet made the service understandable or operable.
 
----
+## 2. Partial Solutions Begin at Different Points
 
-## 2. The Traditional Form Starts Too Late
+Several useful tools address only part of the journey.
 
-A filing form usually asks:
+| Partial solution | What it does well | What remains unresolved |
+| --- | --- | --- |
+| filing form | collects formal application fields | strategy, alternatives, sufficiency and consequences |
+| questionnaire | gathers more information | cognitive burden, hidden assumptions and prioritization |
+| case-management screen | coordinates work after a formal context exists | earlier need, recommendation and commercial Decision |
+| AI chat | explains, extracts, compares and drafts | identity, version, authority, Review and lifecycle integrity |
+| provider directory | displays possible service providers | Capability Need, eligibility, conflict, relationship and appointment |
+| filing connector | transmits approved content | preparation, approval, acknowledgement, recovery and later lifecycle |
+| status dashboard | summarizes external events | source authority, stale information, interpretation and continuing action |
 
-- applicant name;
-- applicant address;
-- mark representation;
-- classes;
-- goods and services;
-- priority details;
-- representative details;
-- signatures.
+MarkReg does not replace these capabilities. It composes them into a Product journey with explicit boundaries.
 
-Those fields are necessary.
+## 3. A Form Starts Too Late
 
-They are not the beginning of the professional journey.
+A filing form usually asks for applicant details, mark representation, classes, goods or services, priority, representative details and signatures.
 
-Before the user can complete them correctly, the user may need to understand:
+Those fields are necessary, but they assume that important Decisions already exist.
 
-- which applicant should own the right;
-- whether the word and logo should be separate filing units;
-- which countries matter;
-- whether a regional or international route is appropriate;
-- which classes are necessary;
-- which descriptions are too narrow, too broad, unacceptable, or commercially irrelevant;
+Before completing the form, the user may need to determine:
+
+- which entity should apply;
+- whether the word mark and logo require separate filing units;
+- which jurisdictions matter now;
+- whether direct, regional or international filing is appropriate;
+- which classes and descriptions support the business;
 - whether search should occur first;
-- which documents can be obtained in time;
+- which Documents can be obtained;
 - which provider route is available;
-- how cost changes under different options.
+- how cost and timing change under each option.
 
-The form assumes the decision already exists.
+MarkReg begins before the form. It helps create an understandable, reviewable recommendation and then carries the selected context into Formal Intake.
 
-MarkReg must help create an understandable decision before collecting the final filing data.
+## 4. More Questions Do Not Create Intelligence
 
----
+A digital questionnaire may reproduce a paper form with more conditional fields. The interface looks modern, but the user still carries most of the professional burden.
 
-## 3. Asking More Questions Is Not the Same as Being Intelligent
-
-Many digital intake products replace a paper form with a long questionnaire.
-
-The interaction may look modern, but the cognitive burden remains with the user.
-
-A better Product should not ask every possible question at the beginning.
-
-It should:
+A better Product should:
 
 1. collect the smallest useful set of facts;
-2. use authorized organization, client, brand, and portfolio context;
-3. infer candidate needs;
-4. identify assumptions and ambiguity;
-5. present clear options;
-6. ask only the questions that materially change the recommendation;
-7. preserve the user’s and professional’s ability to choose and correct.
+2. reuse authorized organization, client, brand and Portfolio context;
+3. infer candidates rather than pretending they are facts;
+4. expose assumptions and uncertainty;
+5. present comparable options;
+6. ask only questions that materially change the recommendation;
+7. preserve the user’s and professional’s ability to correct and decide.
 
 ```text
 More questions ≠ more intelligence
@@ -117,157 +103,98 @@ Progressive questions + visible reasoning + alternatives
 → useful professional guidance
 ```
 
----
+## 5. A Case System Begins After Many Product Decisions
 
-## 4. A Case-Management System Starts After the Product Decision
+Case-management systems are valuable once a formal Order or Matter exists. They coordinate people, Tasks, deadlines, Documents, Communications, billing and reporting.
 
-Case-management systems are valuable after a formal Matter exists.
-
-They coordinate:
-
-- responsible people;
-- tasks;
-- deadlines;
-- documents;
-- communications;
-- statuses;
-- billing;
-- reporting.
-
-But many of the highest-value decisions occur before or around Matter creation:
+However, many high-value Decisions occur before or around formalization:
 
 - whether to file;
-- where to file;
-- what to file;
-- in whose name;
-- under which route;
-- with which scope;
-- at what cost;
-- with which provider;
-- under which assumptions.
+- where and under which route;
+- what mark versions and scope to use;
+- who should own the right;
+- whether search is justified;
+- what the service includes;
+- which provider route is appropriate;
+- which assumptions remain unresolved.
 
-If MarkReg begins only after a Matter exists, it becomes a trademark-specific case screen rather than a full Product.
+If MarkReg begins only after Matter creation, it becomes a trademark-specific case screen. The Product must support the journey into formal Order and Matter context without redefining those shared objects.
 
-MarkReg must support the path into formal Order and Matter context without owning or redefining those formal objects.
+## 6. AI Assistance Needs Product Integrity
 
----
+AI can classify, compare, translate, summarize, extract, rank, draft and explain.
 
-## 5. An AI Chat Does Not Provide Lifecycle Integrity
+A conversation alone may not preserve:
 
-AI can improve many trademark activities.
-
-It can classify products, compare descriptions, summarize notices, translate, draft, search, extract, rank, and explain.
-
-But a conversation alone may not preserve:
-
-- stable identity;
-- versions;
-- sources;
-- responsibility;
-- Review;
-- approval;
-- Product state;
-- formal Order and Matter references;
-- official acknowledgements;
-- provider engagement;
+- stable identity and acting organization;
+- source and freshness;
+- exact versions;
+- professional responsibility;
+- Review and approval;
+- formal references;
+- provider appointment;
+- official acknowledgement;
 - deadline authority;
 - post-registration continuity;
-- audit.
+- audit and supersession.
 
-A chat response may be useful Content.
+A fluent answer may be useful Content. It is not automatically a governed recommendation, approved specification, Filing Package Candidate, provider instruction, official response or official status.
 
-It is not automatically:
+MarkReg places AI Assistance inside a Product journey in which a Human can review, accept, modify or reject the output and in which the resulting Artifact retains source, version and purpose.
 
-- a governed recommendation;
-- an approved specification;
-- a Filing Package;
-- a formal Document;
-- a provider instruction;
-- an official response;
-- a completed filing;
-- an official status.
+## 7. Provider Discovery Starts with Capability Need
 
-MarkReg exists to place AI assistance inside a governed Product journey.
-
----
-
-## 6. A Provider Directory Solves the Wrong Starting Problem
-
-International trademark work often requires external providers.
-
-The first question is not:
+International trademark work often requires an external provider. The starting question is not merely:
 
 > Which lawyer is listed for this country?
 
-The first question is:
+The Product must first express the required Capability, including:
 
-> What Capability is required, under which jurisdiction, scope, deadline, conflict, language, cost, and relationship constraints?
+- jurisdiction and procedure;
+- service scope;
+- deadline and urgency;
+- language;
+- conflict and independence requirements;
+- Evidence and experience needs;
+- commercial constraints;
+- organization relationship preferences.
 
-A directory may display names.
+A directory may display names. It does not establish current eligibility, availability, conflict status, relationship context, appointment authority or Provider Acceptance.
 
-It may not establish:
+MarkReg therefore prepares a typed Capability Need and uses MGSN or governed Routing without turning provider discovery into open bidding or automatic appointment.
 
-- current eligibility;
-- relevant experience;
-- availability;
-- conflict status;
-- commercial terms;
-- evidence quality;
-- relationship context;
-- appointment authority;
-- provider acceptance.
+## 8. A Connector Covers One Protected Step
 
-MarkReg must express a typed Capability Need and hand it to MGSN or governed Routing.
-
-It must not turn provider discovery into open bidding or automatic appointment.
-
----
-
-## 7. A Filing Connector Solves Only One Protected Step
-
-A connector may transmit data to an office or filing provider.
-
-That step can be valuable.
-
-It is also late in the journey.
+A connector may transmit data to an office or provider. That step can be valuable, but it sits late in the journey.
 
 Before submission, the Product must establish:
 
-- the correct filing unit;
-- applicant and authority context;
-- jurisdiction and route;
-- classes and goods/services;
-- documents;
-- cost and instruction;
+- filing unit and applicant context;
+- jurisdiction, route and scope;
+- Documents and declarations;
+- price, instruction and payment conditions;
 - professional readiness;
-- reviewed package;
-- approval;
-- execution route;
-- credentials and permission.
+- reviewed Package version;
+- Filing Approval;
+- execution route and permission.
 
-After submission, the Product must preserve:
+After transmission, the journey must distinguish:
 
-- sent state;
-- transmission result;
-- official acknowledgement;
-- filing number;
-- official status;
-- correction or rejection;
-- examination;
-- later deadlines;
-- maintenance.
+```text
+prepared
+→ queued
+→ sent
+→ delivered
+→ provider reported
+→ officially acknowledged
+→ corrected, rejected or otherwise progressed
+```
 
-A connector is one Capability or service boundary.
+A connector is a Capability boundary. It is not the whole Product and it cannot create Official Truth by technical success alone.
 
-It is not the Product.
+## 9. Trademark Work Is a Decision Network
 
----
-
-## 8. International Trademark Work Is a Decision Network
-
-The decisions are connected.
-
-A change in one area may change several others.
+Trademark Decisions are connected.
 
 ```text
 Market plan
@@ -275,14 +202,14 @@ Market plan
 → filing route
 → provider requirement
 → cost
-→ timeline
+→ timing
 ```
 
 ```text
 Product description
 → class candidates
-→ goods/services wording
-→ official fee count
+→ goods or services wording
+→ official fee units
 → search scope
 → examination risk
 ```
@@ -290,286 +217,127 @@ Product description
 ```text
 Applicant identity
 → ownership strategy
-→ document requirements
-→ priority claim
+→ Document requirements
+→ priority context
 → signatory authority
-→ later assignment risk
+→ later recordal risk
 ```
 
-A linear form cannot represent these relationships well.
+A change in one source fact may invalidate several later recommendations, Artifacts, Reviews or approvals.
 
-MarkReg needs a Product model that can revise options when source facts change while preserving previous versions and decisions.
+MarkReg therefore needs versioned context, explicit dependencies and change propagation rather than a linear form that silently overwrites earlier work.
 
----
+## 10. Jurisdiction Diversity Needs Stable Product Meaning
 
-## 9. Jurisdiction Diversity Requires Stable Product Meaning
+Jurisdictions differ in filing basis, representation, classification practice, item limits, priority formalities, Documents, official fees, examination, opposition, maintenance and renewal.
 
-Every jurisdiction differs.
-
-Differences may include:
-
-- filing basis;
-- representation;
-- classification practice;
-- item limits;
-- local acceptability;
-- priority formalities;
-- power of attorney;
-- notarization or legalization;
-- local representative requirements;
-- official fees;
-- examination sequence;
-- opposition period;
-- maintenance obligations;
-- renewal windows;
-- evidence requirements.
-
-The Product should not fork into a separate architecture for every country.
-
-It needs stable Product meaning with versioned jurisdiction packs.
+The Product should not fork into a different architecture for every country.
 
 ```text
 Stable Product journey
-+ versioned jurisdiction configuration
++ versioned Jurisdiction Pack
 + sourced Knowledge
-+ professional validation
++ Professional Owner
++ change control
 ```
 
-A jurisdiction pack may change the questions, rules, documents, fees, and Workflow entry points.
+A Jurisdiction Pack may change the questions, Rules, fees, Documents, forms and Workflow entry points for a specific service. It must not redefine the Product constitution.
 
-It must not redefine the constitutional Product boundaries.
+Support must be declared by jurisdiction, service, lifecycle stage and Pack support state. New-filing support does not imply support for examination, opposition, renewal, recordal or assignment.
 
----
+## 11. Different Readiness Dimensions Must Remain Visible
 
-## 10. Commercial and Professional Readiness Are Different
-
-A client may accept a price while the filing remains professionally incomplete.
-
-A filing may be professionally ready while payment or instruction is still missing.
-
-A document may be uploaded but invalid.
-
-A goods/services list may be structurally complete but professionally unsuitable.
-
-A provider may be selected but not appointed or accepted.
-
-MarkReg exists partly to make these different readiness dimensions visible.
+Commercial, documentary, professional and execution readiness are not one status.
 
 ```text
 Proposal ready
 ≠ Quote accepted
-
-Quote accepted
 ≠ Order formalized
-
-Order formalized
 ≠ Intake sufficient
-
-Intake sufficient
 ≠ Filing ready
-
-Filing ready
 ≠ Filing approved
-
-Filing approved
 ≠ Filing executed
+≠ officially acknowledged
 ```
 
----
+A client may accept a price while critical facts remain unresolved. A Package may be professionally ready while payment or authority is missing. A provider may be selected but not appointed or accepted.
 
-## 11. Official Status Must Remain Sourced
+MarkReg exists partly to make these differences understandable and actionable.
 
-Trademark status is often copied across systems.
+## 12. Official Status Must Remain Sourced
 
-A copied status may become stale, mistranslated, simplified, or detached from its source.
+Trademark status is frequently copied across systems. A copied status may be stale, simplified, mistranslated or detached from its source.
 
-MarkReg should provide useful lifecycle visibility while preserving:
+Every consequential status display should preserve:
 
-- source authority;
-- retrieval time;
-- jurisdiction;
-- official identifier;
+- jurisdiction and official identifier;
+- source and retrieval time;
+- event or record represented;
 - interpretation status;
-- uncertainty;
-- superseded information;
-- external outcome evidence.
+- uncertainty and conflict;
+- correction and supersession history;
+- related Evidence;
+- next-action consequence.
 
 ```text
-Product projection ≠ official fact without source
+Product Projection ≠ Official Truth
+Provider Report ≠ official acknowledgement
 ```
 
-This distinction is essential after filing and throughout the lifecycle.
+The Product can provide useful lifecycle visibility only if it keeps these boundaries visible.
 
----
-
-## 12. Registration Is Not the End
-
-A Product centered only on filing or registration loses long-term value.
+## 13. Registration Is a Transition, Not the End
 
 After registration, work may include:
 
-- certificate delivery;
-- owner verification;
-- use requirements;
-- declarations;
-- maintenance filings;
-- renewals;
-- changes;
-- assignments;
-- licensing context;
-- monitoring;
-- enforcement signals;
-- portfolio strategy.
+- official-record and certificate verification;
+- owner and scope confirmation;
+- use requirements and Evidence;
+- declarations and maintenance filings;
+- renewals and grace periods;
+- name, address, representative or ownership recordals;
+- assignment and licensing context;
+- monitoring and vulnerability;
+- Portfolio strategy.
 
-MarkReg should preserve continuity from the original need and application decisions into later obligations and opportunities.
+A Product centered only on filing or registration loses continuity and forces the organization to reconstruct earlier Decisions from email and attachments.
 
----
+## 14. Why a Dedicated Product Is Justified
 
-## 13. The Product Must Support Different Operating Models
-
-MarkReg may be used by:
-
-- an independent professional;
-- a small trademark agency;
-- a large law firm;
-- an international filing coordinator;
-- an enterprise legal team;
-- a brand-management team;
-- an authorized client;
-- an external provider.
-
-The Product may be standalone or embedded in Lite or Workplace.
-
-The experience may differ.
-
-The authority model must not.
-
-A client portal does not gain professional approval authority merely because the interface offers a button.
-
-A provider portal does not become the organization’s Workplace.
-
-An internal team view does not own formal Task or Review lifecycle merely because it displays them.
-
----
-
-## 14. MarkReg Creates Value at Five Levels
-
-### User Value
-
-The user understands the decision and next step.
-
-### Professional Value
-
-The professional receives better structured facts, visible ambiguity, reusable work, and reviewable materials.
-
-### Organization Value
-
-The organization improves conversion, quality, consistency, delegation, relationship use, and lifecycle continuity.
-
-### Network Value
-
-Capability needs become clearer, provider collaboration becomes safer, and outcomes can improve contextual trust.
-
-### Ecosystem Value
-
-Validated patterns, Knowledge candidates, jurisdiction changes, and Product outcomes can support governed learning without exposing private client or organization assets.
-
----
-
-## 15. MarkReg Must Reject the Mega-Product Temptation
-
-Because trademark work touches many concepts, MarkReg could gradually absorb:
-
-- CRM;
-- Workplace;
-- billing;
-- Knowledge management;
-- Workflow engine;
-- provider marketplace;
-- document system;
-- official status system;
-- all intellectual property.
-
-That would make the Product harder to govern and harder to reuse.
-
-MarkReg should compose shared responsibilities through stable contracts.
-
-It should own the focused Product journey and Product-specific state.
-
-It should not own every object it displays.
-
----
-
-## 16. Minimum Reason for Existence
-
-MarkReg is justified if it can do what the surrounding partial solutions cannot do alone:
+MarkReg is justified when it can do what the partial solutions cannot do alone:
 
 ```text
 Understand the need before the form
-
-Guide strategy without hiding uncertainty
-
-Connect commercial choice to professional readiness
-
-Prepare governed action without claiming formal authority
-
-Preserve official-source and lifecycle continuity
-
-Coordinate humans, AI, providers, and systems without erasing responsibility
+→ guide strategy without hiding uncertainty
+→ connect commercial choice to professional readiness
+→ prepare governed action without claiming formal authority
+→ preserve official-source and lifecycle continuity
+→ coordinate Humans, AI, providers and systems without erasing responsibility
 ```
 
----
+The Product owns the focused journey and Product-specific state. It does not own every object, participant or outcome displayed within that journey.
 
-## 17. Failure Modes MarkReg Exists to Prevent
+## 15. Failure Modes
 
-### Form Completion Without Understanding
+The Product fails when it allows:
 
-The user completes fields but makes poor strategic choices.
+- form completion without understanding;
+- AI confidence without authority;
+- recommendation to become Decision without review;
+- Quote acceptance to become filing authority;
+- upload to become Document validation;
+- Product state to impersonate official status;
+- provider discovery to become automatic appointment;
+- registration to become an artificial endpoint;
+- each jurisdiction to become an incompatible Product;
+- adjacent IP work to expand MarkReg into a generic legal platform.
 
-### AI Confidence Without Authority
+## Chapter Lock
 
-A fluent answer is treated as a professional or official decision.
+```text
+MarkReg is not one form, one case, one conversation, one provider choice or one submission.
 
-### Quote-to-Filing Collapse
+It is a governed Product journey across professional Decisions, commercial commitments, versioned Artifacts, protected actions, sourced outcomes and continuing obligations.
+```
 
-Commercial acceptance is mistaken for filing authority.
-
-### Upload-to-Validation Collapse
-
-A file is treated as sufficient merely because it exists.
-
-### Candidate-to-Decision Collapse
-
-A recommendation becomes a final country, class, item, or provider choice without review.
-
-### Product-to-Official Collapse
-
-A Product state is presented as official status.
-
-### Marketplace Drift
-
-Provider discovery becomes public bidding or automatic appointment.
-
-### Registration Endpoint Thinking
-
-The Product loses maintenance, renewal, ownership, and portfolio continuity.
-
-### Jurisdiction Forking
-
-Each country becomes an incompatible Product.
-
-### All-IP Expansion
-
-MarkReg loses focus and becomes a generic legal-services platform.
-
----
-
-## 18. Chapter Conclusion
-
-MarkReg exists because international trademark work is not one form, one case, one conversation, one provider choice, or one submission.
-
-It is a long-lived network of professional decisions, commercial commitments, reviewed materials, governed actions, official outcomes, and later obligations.
-
-The Product’s role is to make that network understandable and operable.
-
-Its role is not to erase the organizations, professionals, services, providers, offices, and authorities that make the outcome real.
+CH03 turns this reason for existence into a mission, Product promise and measurable value proposition.
