@@ -37,7 +37,7 @@ It does not replace independent organizations with a centralized marketplace.
 | Book 02 | MarkOrbit Core Specification | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | Release Candidate 1 — Owner Accepted / Portfolio Locked |
-| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | Part II Draft Complete; B05-TOC-V0.1 owner accepted |
+| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | Part III Draft Complete — Owner Review Pending |
 | Book 06 | MarkOrbit Lite | Planned |
 | Book 07 | Mark Global Service Network | Planned |
 
@@ -59,11 +59,10 @@ Book 05 — MarkReg
 
 ```text
 Books 01–04 Portfolio Baseline effective
-→ B05-TOC-V0.1 owner accepted
-→ Book 05 Part I completed and owner accepted
-→ Book 05 Part II completed
-→ owner reviews CH08–CH15
-→ Part III controlled writing pack
+→ Book 05 B05-TOC-V0.1 owner accepted
+→ Parts I–III drafted and reviewed
+→ owner reviews Part III, CH16–CH22
+→ Part IV controlled writing pack
 ```
 
 ## Authority Boundary

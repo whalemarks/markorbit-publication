@@ -1,19 +1,19 @@
 book: "Book 05"
 title: "MarkReg: The Full-Lifecycle International Trademark Product"
 canonical_path: "books/book-05-markreg/"
-status: "part_ii_draft_complete_owner_review_pending"
-phase: "need_strategy_and_recommendation_review"
+status: "part_iii_draft_complete_owner_review_pending"
+phase: "commercial_journey_and_formal_intake_review"
 portfolio_baseline: "MO-PUB-BASELINE-0001"
 positioning: "Defines MarkReg as the flagship full-lifecycle international trademark Product that turns complex service needs into understandable, reviewable, governed professional journeys."
 chapter_map:
   id: "B05-TOC-V0.1"
   status: "owner_accepted"
-  owner_acceptance_basis: "Merge of PR #33 and instruction to continue with Part II"
+  owner_acceptance_basis: "Merge of PR #33 and continued owner authorization"
   chapter_range: "00-47"
   planned_manuscript_files: 48
   parts: 7
 manuscript:
-  drafted_range: "00-15"
+  drafted_range: "00-22"
   drafted_chapters:
     - "B05-CH-00"
     - "B05-CH-01"
@@ -31,15 +31,23 @@ manuscript:
     - "B05-CH-13"
     - "B05-CH-14"
     - "B05-CH-15"
-  architecture_reviewed_through: "B05-CH-15"
-  owner_accepted_through: "B05-CH-07"
+    - "B05-CH-16"
+    - "B05-CH-17"
+    - "B05-CH-18"
+    - "B05-CH-19"
+    - "B05-CH-20"
+    - "B05-CH-21"
+    - "B05-CH-22"
+  architecture_reviewed_through: "B05-CH-22"
+  owner_accepted_through: "B05-CH-15"
 reviews:
   - "B05-REV-0001"
   - "B05-REV-0002"
+  - "B05-REV-0003"
 next_pack:
-  part: "Part III"
-  chapter_range: "16-22"
-  title: "Commercial Journey and Formal Intake"
+  part: "Part IV"
+  chapter_range: "23-29"
+  title: "Filing Preparation and Governed Execution"
 book_02_semantic_change_required: false
 book_03_execution_change_required: false
 book_04_product_boundary_change_required: false

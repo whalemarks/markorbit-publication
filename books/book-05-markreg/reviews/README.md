@@ -2,16 +2,12 @@
 
 This directory contains owner, architecture, chapter-map, manuscript, and publication review records.
 
-## Review Register
+## Current Records
 
 - `B05-REV-0001_Part_I_Product_Constitution_Review.md`
-  - Scope: CH00–CH07
-  - Result: Completed — owner accepted through merge of PR #33
-
 - `B05-REV-0002_Part_II_Need_Strategy_and_Recommendation_Review.md`
-  - Scope: CH08–CH15
-  - Result: Completed — Owner Review Pending
+- `B05-REV-0003_Part_III_Commercial_Journey_and_Formal_Intake_Review.md`
 
-## Next Required Review
+## Current Gate
 
-Part III review after CH16–CH22 are drafted.
+Owner review of Part III, CH16–CH22, and authorization to proceed with Part IV, CH23–CH29.
