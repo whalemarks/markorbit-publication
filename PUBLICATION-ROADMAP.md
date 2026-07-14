@@ -59,26 +59,34 @@ Front Matter and Parts I–IV were drafted through CH27 and reviewed as one cons
 
 ## Phase 12 — Book 04 Complete Draft 1 and Full-Book Architecture Review
 
-CH28–CH39 completed Parts V and VI. CH00–CH39 now form a complete Draft 1 baseline.
+CH28–CH39 completed Parts V and VI. CH00–CH39 formed the complete Draft 1 baseline. B04-REV-0003 recorded the full-book review and targeted architecture revisions. Merge of that review established owner acceptance of the architecture baseline without authorizing final publication or implementation.
 
-Phase 12 records that:
+## Phase 13 — Book 04 Publication Finishing and Release Candidate 1
 
-- CH00–CH39 are present as forty manuscript files;
-- chapter titles and sequence conform to B04-TOC-V0.1;
-- all six parts have completed architecture review;
-- targeted corrections align canonical responsibility language, Artifact preview and re-review, formalization boundaries, Routing progression, and Artifact lineage;
-- B04-REV-0003 records the full-book review;
+Book 04 publication finishing is complete and Release Candidate 1 has passed validation.
+
+Phase 13 records that:
+
+- CH00–CH39 remain forty manuscript files under B04-TOC-V0.1;
+- all chapter metadata is normalized to Release Candidate 1;
+- native-English and compression review is complete;
+- constitutional responsibility wording and internal chapter references are normalized;
+- ten reusable architecture figures are available;
+- editorial style and terminology guidance is complete;
+- source and authority notes are complete;
+- the Book 04 glossary and subject index are complete;
+- cross-book reconciliation with Books 01–03 and downstream Books 05–07 passes;
 - no Book 02 semantic amendment is required;
 - no Book 03 Execution amendment is required;
-- consolidated owner review is the current gate;
-- native-English line editing and publication finishing remain pending;
+- B04-REV-0004 records publication finishing and RC1 validation;
+- owner final publication review is the current gate;
 - no unrestricted implementation, production deployment, or external protected action is authorized.
 
 ## Active Future Workstreams
 
 - Architecture Canon maintenance
-- Book 04 consolidated owner review and targeted revision
-- Book 04 native-English and publication finishing
+- Book 04 owner final publication review and approval
+- Book 03 publication finishing
 - Repository Canonical Alignment Audits
 - Lite Product-loop validation
 - MarkReg Product planning
@@ -103,7 +111,7 @@ The following remain horizontal architecture/specification or implementation wor
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | `books/book-01-operating-system/` | Existing Draft; publication maturity not reassessed |
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Complete Draft 1 / Owner Accepted |
-| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Complete Draft 1 — CH00–CH39; full-book architecture review completed; owner review pending |
+| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1; owner final publication review pending |
 | Book 05 | MarkReg | `books/book-05-markreg/` | Planned |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
@@ -113,18 +121,18 @@ Publication order does not determine software implementation order. Planned miss
 ## Current Book 04 Gate
 
 ```text
-CH00–CH39 full-book architecture review completed
-→ consolidated owner review
-→ targeted revision or owner acceptance
-→ native-English and publication finishing
-→ final publication gate
+architecture and targeted review revisions owner accepted
+→ native-English and publication finishing completed
+→ Release Candidate 1 validation passed
+→ owner final publication review
+→ final publication approval and merge
 ```
 
 ## Publication and Authority Boundary
 
 No current roadmap phase authorizes:
 
-- final publication of Book 04;
+- final publication of Book 04 without owner approval;
 - unrestricted Product implementation;
 - production deployment;
 - autonomous AI professional action;
