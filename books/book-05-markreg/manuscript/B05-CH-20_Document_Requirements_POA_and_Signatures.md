@@ -1,14 +1,14 @@
 # B05-CH-20 — Document Requirements, POA and Signatures
 
-**Status:** Productized Draft  
+**Status:** Complete Draft 1  
 **Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part III — Commercial Journey and Formal Intake
 
 ## Chapter Purpose
 
-CH19 established a versioned Formal Intake. This chapter converts service and jurisdiction rules into a `Requirement Set` and governs document requests, source files, signatures, translations, certification, physical originals and accepted use.
+CH19 produced `MR-A08 Formal Intake`. This chapter converts the accepted scope, Intake facts and active Jurisdiction Pack rules into `MR-A09 Requirement Set`.
 
-The controlling rule is:
+The `EMBERLOOP` reference step is `EL-13`.
 
 ```text
 Uploaded File
@@ -18,49 +18,49 @@ Uploaded File
 ≠ Official Record
 ```
 
-## 1. User Question
+## 1. Product Question
 
-> Which documents are required, what form is acceptable, who must sign them, and what is wrong with the documents already supplied?
+> Which Documents are required, what form is acceptable, who must sign, and what is wrong with the materials already supplied?
 
-A generic upload box does not conform. The Product must explain the requirement, acceptable evidence, deadline and consequence of a defect.
+A generic upload box does not conform. Each request must explain the requirement, acceptable evidence, due point and consequence of a defect.
 
 ## 2. Requirement Set Contract
 
-Every document requirement must identify:
+Every requirement records:
 
 - service, jurisdiction and intended action;
-- rule source and jurisdiction-pack version;
-- required document type;
+- Source Record, Rule Record and Pack Version;
+- required Document type;
 - principal, applicant or right holder;
 - provider or office recipient where known;
 - language and translation condition;
 - signature, capacity, witness or seal condition;
-- scan, certified copy, notarization, apostille, legalization or original condition;
+- scan, certification, notarization, apostille, legalization or original condition;
 - validity period;
 - deadline and delivery route;
 - blocker level and override authority;
 - accepted-use purpose.
 
-A requirement is different from the request sent to a participant. One requirement may generate several requests or preparation steps.
+A requirement is different from a request. One requirement may produce several requests, preparation steps or external certification actions.
 
-## 3. Source File and Provenance
+## 3. File Provenance
 
-Every received file must preserve:
+Every received file preserves:
 
 - uploader and represented organization;
 - receipt time and source channel;
-- file identity and version;
-- stated and detected document type;
+- file identity, hash or stable reference;
+- stated and detected type;
 - language;
-- related requirement;
+- linked requirement;
 - confidentiality and purpose;
-- hash or integrity reference where appropriate.
+- version and supersession state.
 
-AI may classify a likely document type. A user or reviewer must be able to correct it.
+AI may classify a likely type or extract fields. A user or reviewer must be able to correct the result.
 
 ## 4. Document Forms
 
-The Product must distinguish:
+The Product distinguishes:
 
 ```text
 Digital Scan
@@ -72,148 +72,118 @@ Physical Original
 Official Electronic Record
 ```
 
-It records both the required form and the received form. “Uploaded” is never a sufficient readiness status.
+It records both the required and received form. `Uploaded` is not a readiness state.
 
-## 5. POA Contract
+## 5. POA and Signature Authority
 
-A power of attorney may identify:
+A POA may define:
 
 - principal and representative;
-- jurisdiction and scope;
+- jurisdiction and service scope;
 - actions covered;
 - duration and revocation;
 - signatory and capacity;
 - seal, witness or signature method;
-- notarization, apostille or legalization;
+- certification or legalization;
 - original or copy requirement.
 
-The Product must not assume that one POA authorizes every filing, prosecution, renewal, assignment, opposition or appeal.
+One POA must not be assumed to cover every filing, examination, renewal, recordal, assignment, opposition or appeal.
 
-## 6. Signature Contract
-
-A signature record must answer:
+A signature record answers:
 
 ```text
 Who signed?
 For which organization?
 In which capacity?
 Under what authority?
-Which exact document version?
+Which exact Document version?
 When and by which method?
 ```
 
-Identity does not automatically establish authority. If content changes after signature, the Product determines whether re-signing or professional review is required.
+Identity, job title or account access does not establish purpose-specific authority.
 
-Detached signature images, blank signed pages, unclear capacity, copied seals and undated broad POAs require warning or blocking treatment under policy.
+`MR-SCN-11` applies when signatory or representative authority has expired or lacks scope.
 
-## 7. Translation and Certification
+## 6. Translation and Certification
 
-A translation must link to the exact source version and retain:
+A translation links to the exact source version and records language pair, translator or method, date, terminology Review, certification state and relationship to the source.
 
-- source and target language;
-- translator or method;
-- date;
-- terminology review;
-- certification state;
-- relationship to the source document.
+Machine translation may assist understanding. It does not automatically satisfy a certified-translation requirement.
 
-Machine translation may assist understanding but does not automatically satisfy certified-translation requirements.
+Notarization, apostille, consular legalization, witness, chamber certification and corporate seal remain distinct.
 
-Notarization, apostille, consular legalization, witness, chamber certification and corporate seal remain distinct steps.
+## 7. Validation Dimensions
 
-## 8. Validation Dimensions
-
-A document may be evaluated for:
+A Document may be evaluated for:
 
 | Dimension | Example result |
 | --- | --- |
-| Identity | correct or wrong applicant |
-| Type | expected or wrong document type |
-| Version | current, superseded or altered |
-| Completeness | fields and pages present |
-| Readability | readable or unusable |
-| Signature | signed, missing or invalid method |
-| Authority | verified, uncertain or rejected |
-| Certification | complete or additional step required |
-| Language | accepted or translation required |
-| Physical form | scan accepted or original required |
-| Purpose | accepted for the stated use only |
+| identity | correct or wrong applicant |
+| type | expected or wrong Document type |
+| version | current, superseded or altered |
+| completeness | fields and pages present |
+| readability | readable or unusable |
+| signature | valid, missing or wrong method |
+| authority | verified, uncertain or rejected |
+| certification | complete or further step required |
+| language | accepted or translation required |
+| physical form | scan accepted or original required |
+| purpose | accepted for the stated use only |
 
-## 9. Requirement Status
+Use specific states such as Requested, Received, Wrong Type, Wrong Version, Incomplete, Signature Missing, Authority Unverified, Certification Required, Translation Required, Original Required, Under Review, Accepted for Defined Use, Rejected, Expired and Superseded.
 
-Use specific states:
+## 8. Physical Custody and Sharing
 
-```text
-Not Requested
-Requested
-Received
-Unreadable
-Wrong Type
-Wrong Version
-Incomplete
-Signature Missing
-Authority Unverified
-Certification Required
-Translation Required
-Original Required
-Under Review
-Accepted for Defined Use
-Rejected
-Expired
-Superseded
-```
+Where a physical original matters, track holder, storage, dispatch, courier, receipt, return and destruction policy.
 
-## 10. Physical Custody and Sharing
+Before sharing with a provider, confirm appointment, purpose, confidentiality and need to know. Provider discovery alone does not justify access to sensitive client Documents.
 
-Where a physical original matters, the Product should track holder, storage location, dispatch, courier, receipt, return and destruction policy.
+## 9. Controlled Scenarios
 
-Before sharing with a provider, confirm appointment, purpose, conflict status, confidentiality and need to know. Preliminary provider discovery does not justify access to sensitive client documents.
+`MR-SCN-05` requires an invalid POA to be rejected for the stated purpose, with defects explained and only the affected readiness dimension blocked.
 
-## 11. EMBERLOOP Reference Journey
+`MR-SCN-11` blocks action where signatory or representative authority is expired or insufficient.
 
-The Requirement Set for EMBERLOOP shows different jurisdiction results:
+**Boundary:** file upload, AI extraction and a familiar signature do not establish legal validity or authority.  
+**Evidence:** original file, Pack Version, defect, reviewer Decision, replacement request and accepted version.
 
-- EU and UK filing materials are structurally complete;
-- the final mark files and applicant details are accepted;
-- one US declaration remains pending;
-- the selected US provider requires a defined signature package;
-- no physical original is currently required for the accepted route;
-- any applicant change will invalidate the POA and declaration requirements.
+## 10. Reference Journey — `EL-13`
 
-The client sees exactly which document blocks which jurisdiction rather than one generic “documents incomplete” label.
+`EMBERLOOP` Requirement Set v2 records:
 
-## 12. Conformance Scenario — Invalid POA
+- EU and UK filing materials structurally complete;
+- final mark files and applicant details accepted;
+- one US declaration pending;
+- a defined US provider signature package;
+- no physical original required for the accepted route;
+- applicant change as an invalidation trigger for POA and declaration requirements.
 
-**Given** a POA is uploaded with a signatory whose authority is not supported and a signature form not accepted by the relevant rule.  
-**When** validation occurs.  
-**Then** MarkReg marks the POA invalid for the stated jurisdiction and purpose, explains both defects, requests the correct replacement and blocks only the affected readiness dimension.  
-**Authority boundary:** file upload and AI extraction do not establish legal validity.  
-**Evidence retained:** original file, rule version, detected defects, reviewer decision, replacement request and accepted version.
+The client sees which requirement blocks which jurisdiction. The Product does not show one generic `documents incomplete` status.
 
-## 13. User Surface
+## 11. User Surface
 
-The document surface should show:
+Show:
 
 1. requirement and reason;
-2. who must provide or sign;
-3. accepted format and language;
+2. responsible provider, signatory or contributor;
+3. accepted form and language;
 4. deadline and consequence;
 5. current file and validation state;
 6. defect-specific correction action;
-7. whether an original or external certification step is required;
-8. affected readiness and jurisdiction.
+7. physical-original or certification step;
+8. affected readiness dimension and jurisdiction.
 
-Primary actions include upload, replace, sign, arrange certification, send original or request review.
+Primary actions include upload, replace, sign, arrange certification, dispatch an original or request Review.
 
-## 14. AI and Human Boundary
+## 12. AI Boundary
 
-AI may classify, extract, compare, detect missing fields, prepare translations, identify signature blocks, redact and map files to requirements.
+AI may classify, extract, compare, detect missing fields, draft translations, identify signature blocks, redact and map files to requirements.
 
 AI may not authenticate, notarize, legalize, sign, establish authority, claim physical custody or declare official acceptance.
 
-## 15. Failure Modes
+## 13. Failure Modes
 
-The Product must reject:
+Reject:
 
 ```text
 Upload treated as acceptance
@@ -222,13 +192,13 @@ Signature reused on changed content
 POA assumed universal
 Machine translation shown as certified
 Notarization and apostille merged
-Wrong applicant document reused
-Provider receives files before proper engagement
-Superseded document remains active
+Wrong-applicant Document reused
+Provider receives files before engagement
+Superseded Document remains active
 ```
 
-## 16. Chapter Output
+## 14. Chapter Output and Handoff
 
-The output is a versioned Requirement Set with document requests, source files, validation results, signature and certification states, custody state and accepted-use decisions.
+CH20 produces `MR-A09 Requirement Set v2`, linked source files, validation results, signature and certification states, custody information and accepted-use Decisions.
 
-The next chapter combines these results with commercial, professional, payment, provider and deadline conditions into purpose-specific readiness gates.
+CH21 combines these results with commercial, professional, payment, deadline and approval conditions in `MR-A10 Readiness Assessment`.
