@@ -1,453 +1,208 @@
 # B05-CH-31 — Office Action Triage and Response Strategy
 
-**Status:** Part V Draft  
+**Status:** Complete Draft 1  
 **Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part V — Examination, Publication and Disputes
 
 ## Chapter Purpose
 
-CH30 establishes a sourced Examination Context.
+CH30 establishes a sourced `MR-C03 Examination Context`.
 
 CH31 answers:
 
-> Which issues exist, what scope and deadlines do they affect, what response paths are available, and which accountable human must decide?
+> Which issues exist, what scope and deadlines do they affect, which response paths are available, and which accountable Humans must decide?
 
 ```text
-Verified Official Event
-→ Issue Set
-→ consequence and dependency analysis
-→ Response Option Set
-→ professional recommendation
-→ client or authorized decision
-→ Response Strategy
+MR-E05 Official Event Snapshot
+→ MR-A19 Issue Set
+→ MR-A20 Response Option Set
+→ MR-D06 Response Strategy Decision
+→ MR-A21 Response Strategy
 ```
 
-Triage is not merely extracting paragraphs from a notice. It is the governed conversion of a source event into reviewable decisions.
-
----
+Issue extraction is not a response Decision. Strategy is not a filed response.
 
 ## 1. User Question and Primary Action
 
-**User question:** What must be answered, what are the realistic options, and what decision is required from me?
+**User question:** What must be answered, what are the realistic options and what decision is required?
 
-**Primary action:** Review and authorize the selected Response Strategy or request further professional analysis.
+**Primary action:** Review the issue-by-issue options and authorize the selected strategy within the actor’s authority.
 
-The Product should display one decision surface rather than a raw notice plus an undifferentiated task list.
-
----
+A raw notice and an undifferentiated task list are not an adequate decision surface.
 
 ## 2. Issue Set
 
-An Issue Set is a versioned Product artifact referencing the exact Official Event Snapshot and source Documents.
+`MR-A19 Issue Set` references the exact Official Event Snapshot and records for each issue:
 
-Each issue should contain:
-
-- issue identifier;
-- source section and page or structured location;
-- issue category;
-- affected jurisdiction, filing unit, class, item or claim;
-- stated office position or request;
-- professional interpretation status;
-- severity and procedural consequence;
-- deadline and sub-deadline dependency;
-- evidence or information needed;
+- source section and location;
+- jurisdiction, filing unit, class, goods/services item, claim or Document affected;
+- office position or request;
+- issue category and professional verification state;
+- consequence and severity;
+- deadline dependency;
+- information or Evidence needed;
 - available response paths;
-- responsible reviewer;
+- responsible professional;
 - supersession relationship.
 
-An Issue Set may contain extracted candidates that remain pending professional confirmation.
+An issue candidate remains unverified until an eligible professional confirms its meaning and scope.
 
----
+## 3. Scope and Consequence
 
-## 3. Issue Categories
-
-Useful categories include:
-
-| Category | Examples |
-| --- | --- |
-| identity and authority | applicant name, entity type, ownership, signatory or representative issue |
-| filing representation | mark image, description, color, translation, transliteration or disclaimer issue |
-| classification | class allocation or classification-version issue |
-| goods/services | indefiniteness, breadth, local wording, item-count or amendment requirement |
-| priority and basis | priority data, basis, entitlement or supporting-document issue |
-| use and evidence | specimen, declaration, acquired distinctiveness or other evidence requirement |
-| absolute grounds | descriptiveness, distinctiveness, public-policy or formal registrability concern |
-| relative grounds | cited earlier rights, similarity or conflict concern |
-| procedural | fee, signature, response format, appointment or extension issue |
-| publication or opposition | observation, opposition or third-party challenge |
-| decision and remedy | refusal, partial acceptance, appeal, review or correction path |
-| source uncertainty | missing, conflicting, illegible or unofficial source |
-
-The categories support routing and reporting. They do not replace jurisdiction-specific legal analysis.
-
----
-
-## 4. Scope Mapping
-
-Each issue should show exactly what it affects:
+The Product must distinguish whether an issue affects:
 
 ```text
-entire application
+the entire application
 one filing unit
 one class
 selected goods/services
 one claim or declaration
-priority only
-one country designation
+priority or basis only
 one procedural stage
 one Document
 ```
 
-A defect affecting one item must not automatically be displayed as failure of the whole portfolio.
+One limited defect must not be displayed as failure of the entire application or portfolio.
 
-The Product should also show whether issues are independent, cumulative or dependent.
+Severity must be paired with the sourced consequence, not represented only by a colour or score.
 
----
+## 4. Response Option Set
 
-## 5. Severity and Consequence
+`MR-A20 Response Option Set` may include, where sourced and professionally supported:
 
-Suggested Product severity states are:
+- clarify or correct;
+- amend or narrow;
+- submit argument or explanation;
+- provide Evidence;
+- request consent or coexistence exploration;
+- seek an extension or procedural relief;
+- preserve unaffected scope;
+- accept partial adverse scope;
+- withdraw selected scope;
+- reserve review or appeal;
+- take no action with a recorded consequence.
 
-```text
-Informational
-Clarification required
-Correctable formality
-Material scope issue
-Material registrability issue
-Evidence-intensive issue
-Adversarial issue
-Potential partial loss
-Potential total loss
-Professional verification required
-```
+An option is not globally available merely because it exists in another jurisdiction.
 
-Severity must be accompanied by consequence and source, not color alone.
+## 5. Strategy Comparison
 
-Examples of consequences include:
+Each material option should explain:
 
-- response required to preserve the application;
-- amendment may narrow scope;
-- evidence may increase cost and preparation time;
-- cited-right issue may require argument, limitation, consent, coexistence analysis or other professional strategy;
-- no action may lead to partial or total adverse outcome;
-- the issue may be deferred to another procedural stage.
+- scope preserved and scope surrendered;
+- exact proposed amendment or redline;
+- legal and factual uncertainty;
+- Evidence burden and confidentiality;
+- professional and provider work;
+- official and professional fees;
+- deadlines and extension assumptions;
+- portfolio consequences;
+- fallback or remedy path.
 
----
+The Product should avoid unsupported numerical success probabilities.
 
-## 6. Response Option Set
+## 6. Response Strategy Decision
 
-For each material issue, the Product may present options such as:
+`MR-D06 Response Strategy Decision` records the selected issue-by-issue path, accountable actor, authority basis, conditions and exact versions considered.
 
-```text
-Clarify or correct
-Amend or narrow
-Submit explanation or legal argument
-Submit evidence
-Request consent or coexistence exploration
-Seek procedural extension where available
-Separate or preserve unaffected scope
-Accept partial adverse outcome
-Withdraw affected scope
-Escalate to hearing, review or appeal
-Take no action with recorded consequence
-```
+`MR-A21 Response Strategy` then assembles:
 
-The availability and effect of each option must come from current jurisdiction intelligence and professional review.
-
-The Product must not present a generic option as legally available everywhere.
-
----
-
-## 7. Response Strategy
-
-A Response Strategy combines:
-
-- confirmed Issue Set version;
-- selected response options;
+- confirmed Issue Set;
+- selected Response Options;
 - target outcome;
 - amendments and concessions;
-- argument and evidence plan;
-- client facts and declarations required;
+- argument and Evidence plan;
+- client facts or declarations required;
 - provider and professional responsibilities;
-- budget and fee implications;
-- decision and filing deadlines;
+- budget and deadline schedule;
 - residual risk;
-- fallback and escalation path;
-- approval requirements;
-- supersession triggers.
+- approval and supersession triggers.
 
 ```text
 Response Strategy
-≠ drafted response
-≠ client acceptance of new fees
+≠ response draft
+≠ new commercial acceptance
 ≠ Filing Approval
 ≠ filed response
 ≠ guaranteed outcome
 ```
 
----
+## 7. Authority and Commercial Reopening
 
-## 8. Strategy Comparison
+The Product must identify who may confirm facts, authorize amendments, disclose Evidence, accept new commercial scope, surrender rights or approve the strategy.
 
-The user should be able to compare meaningful strategies by:
+Account access does not establish authority to narrow or abandon trademark scope.
 
-- scope preserved;
-- scope surrendered;
-- legal and factual uncertainty;
-- evidence burden;
-- expected professional work;
-- provider dependency;
-- timing;
-- official and professional fees;
-- likelihood ranges or qualitative risk where professionally approved;
-- downstream portfolio consequences;
-- appeal or dispute exposure.
+Where substantive response work falls outside the accepted Quote, CH16–CH18 controls reopen. Urgent preservation work may proceed only under a documented bounded policy; additional paid work is not silently assumed.
 
-The Product should avoid false precision. A numerical success probability requires an approved methodology, sufficient evidence and clear limitations.
+## 8. Deadline Plan
 
----
+The strategy should show:
 
-## 9. Amendments and Portfolio Consequences
-
-An amendment may affect:
-
-- current filing scope;
-- search and clearance assumptions;
-- related filings in other jurisdictions;
-- future enforcement;
-- product launch descriptions;
-- priority alignment;
-- Madrid or regional dependencies;
-- quote and provider scope;
-- existing approvals and response packages.
-
-The Product must show the proposed text and a redline against the current authoritative version.
-
-A client should not approve “narrow goods” without seeing what will be removed or changed.
-
----
-
-## 10. Evidence Planning
-
-Evidence planning should identify:
-
-- fact to prove;
-- legal or procedural purpose;
-- acceptable evidence categories under sourced rules;
-- source owner;
-- confidentiality;
-- date range;
-- jurisdiction and issue applicability;
-- translation or certification need;
-- collection deadline;
-- reviewer;
-- admissibility or weight uncertainty;
-- cost and burden.
-
-Evidence collection should be proportional. The Product should not request broad commercial archives without a defined issue and purpose.
-
----
-
-## 11. Commercial Reopening
-
-A post-filing event may create new commercial scope.
-
-The Product should determine whether the existing Order covers:
-
-- initial review;
-- routine formality response;
-- substantive argument;
-- evidence preparation;
-- hearing;
-- negotiation;
-- appeal or opposition work;
-- provider disbursements;
-- official response or extension fees.
-
-If not, the Product should create a Proposal or Quote amendment path under CH16–CH18 controls.
-
-Professional triage may proceed for urgent deadline protection under authorized policy, but additional paid work must not be silently assumed.
-
----
-
-## 12. Decision Rights
-
-The Product should identify who may:
-
-- confirm factual instructions;
-- approve amendments;
-- authorize evidence disclosure;
-- accept commercial scope;
-- choose settlement or consent exploration;
-- abandon affected goods, classes or rights;
-- approve the Response Strategy;
-- grant Filing Approval for the final Response Package.
-
-Account access does not prove authority to surrender trademark scope.
-
-High-impact concessions should require explicit, version-specific authority.
-
----
-
-## 13. Deadline Strategy
-
-The Response Strategy should show:
-
-- official deadline;
-- internal decision deadline;
-- evidence-collection deadline;
+- verified official deadline;
+- client Decision deadline;
+- Evidence collection deadline;
 - provider handoff deadline;
-- draft-review deadline;
-- approval deadline;
-- filing safety margin;
-- extension availability and decision deadline where sourced;
-- consequence of each missed internal milestone.
+- draft and Professional Review milestones;
+- Filing Approval and execution safety deadlines;
+- extension availability and evidence.
 
-An extension candidate does not remove the original deadline until the extension is validly obtained and evidenced.
+An extension candidate does not change the operative deadline until the procedural effect is verified.
 
----
+## 9. `EMBERLOOP` — `EL-24`
 
-## 14. `EMBERLOOP` United States Triage
-
-The verified examination notice produces two confirmed issues.
-
-### Issue US-01 — goods/services clarification
-
-The office requests narrower or clearer wording for selected goods and connected-software items.
-
-MarkReg presents:
-
-- Option A — adopt the provider’s proposed narrower wording;
-- Option B — revise the wording while preserving more of the original commercial scope;
-- Option C — request further professional analysis of whether selected wording may remain.
-
-The Product displays the redline, class and fee effects, and any consequences for the EU and UK portfolio descriptions.
-
-### Issue US-02 — cited-right concern
-
-The notice identifies an earlier right as a potential conflict for part of the filing scope.
-
-The professional Response Option Set includes:
-
-- argument based on the confirmed differences and affected goods;
-- targeted narrowing of selected goods;
-- evidence or market-context development where relevant and available;
-- consent or coexistence exploration if professionally appropriate;
-- acceptance of partial loss;
-- later review or appeal path if an adverse decision issues.
-
-The client is not shown a guaranteed registration prediction.
-
-### Selected strategy
-
-The accountable US professional recommends:
-
-1. revise the goods wording using a versioned redline;
-2. prepare a sourced argument on the cited-right issue;
-3. avoid broad evidence collection unless the examiner’s issue or later strategy requires it;
-4. preserve unaffected scope;
-5. reserve appeal and consent paths rather than initiating them immediately.
-
-The client confirms the factual business description and authorizes the proposed narrowing. The professional approves Response Strategy US v2.
-
----
-
-## 15. Conformance Scenarios
-
-### MR-SCN-31A — One issue affects one class
-
-**Given** an examination notice contains a defect limited to one class.  
-**When** MarkReg creates the Issue Set.  
-**Then** it maps the issue to that class, preserves unaffected classes, and does not describe the entire application as refused.  
-**Evidence retained:** source section, scope mapping, professional confirmation and affected artifact versions.
-
-### MR-SCN-31B — Provider proposes broad amendment
-
-**Given** a provider proposes deleting substantially more goods than the notice appears to require.  
-**When** the client reviews the strategy.  
-**Then** MarkReg shows the current wording, proposed wording, removed scope, provider rationale, alternative professional option and authority required for approval.  
-**Authority boundary:** provider recommendation is not automatic client instruction.
-
-### MR-SCN-31C — Conflicting deadline advice
-
-**Given** the official notice and provider Communication appear to state different response dates.  
-**When** strategy work begins.  
-**Then** the Product flags the conflict, preserves both sources, assigns deadline verification and prevents a final response schedule from relying on an unverified date.
-
-### MR-SCN-31D — New fee scope
-
-**Given** substantive response work is excluded from the accepted filing Quote.  
-**When** a Response Strategy is recommended.  
-**Then** MarkReg separates urgent preservation work from additional commercial scope and requires the applicable Quote amendment or authorized exception.
-
----
-
-## 16. AI Assistance
-
-AI may:
-
-- extract and cluster issues;
-- compare office wording to filed wording;
-- prepare amendment redlines;
-- identify affected classes and artifacts;
-- summarize response options;
-- organize evidence requests;
-- identify inconsistent strategy assumptions;
-- prepare a client decision brief.
-
-AI must not:
-
-- decide legal sufficiency;
-- choose a response strategy for the client;
-- surrender scope;
-- represent a success probability as fact;
-- invent authority or evidence;
-- authorize additional fees;
-- approve the final response.
-
----
-
-## 17. Failure Modes to Reject
+The US notice produces two confirmed issues:
 
 ```text
-Notice copied into tasks without issue mapping
-One issue shown as failure of the whole application
-Amendment approved without a redline
-Provider recommendation treated as client authority
-Evidence requested without a defined purpose
-Success probability invented by AI
-Commercially excluded response work started silently
-Extension assumed before official evidence
-Response Strategy treated as filed response
+US-01 — goods/services clarification
+US-02 — cited-right concern
 ```
 
----
+The accountable professional recommends:
 
-## 18. Minimum Triage and Strategy Lock
+1. a versioned goods/services amendment with exact redline;
+2. a sourced argument addressing the cited-right concern;
+3. limited factual materials rather than broad Evidence collection at this stage;
+4. preservation of unaffected scope;
+5. reservation, rather than immediate activation, of consent and appeal paths.
+
+The client confirms the business facts and authorizes the proposed narrowing. The professional records Response Strategy US v2.
+
+No registration prediction is made.
+
+## 10. Controlled Scenarios
+
+- `MR-SCN-16` — material change invalidates affected Package and Decisions;
+- `MR-SCN-20` — provider proposes a material amendment;
+- `MR-SCN-26` — corrected notice changes issue or strategy inputs;
+- `MR-SCN-27` — conflicting deadline advice;
+- `MR-SCN-28` — client silence does not create authority.
+
+## 11. AI Assistance
+
+AI may extract and cluster issues, map affected scope, create amendment redlines, organize Evidence requests and prepare a client decision brief.
+
+AI may not decide legal sufficiency, select strategy, surrender scope, invent a success probability, authorize fees, establish client authority or approve the final response.
+
+## 12. Chapter Lock
 
 ```text
 A sourced event becomes
-an Issue Set before it becomes strategy.
+an Issue Set before strategy.
 
 Every issue preserves source,
 affected scope, deadline,
 consequence, options and reviewer.
 
 Every material amendment shows
-the exact text and lost scope.
+exact text and lost scope.
 
-Response Strategy is versioned,
-commercially bounded and
-approved by accountable humans.
-
-It is not the final response,
+Strategy is versioned and accountable.
+It is not the Response Package,
 Filing Approval or outcome.
 ```
 
----
+## 13. Handoff to CH32
 
-## 19. Handoff to Response Preparation
+CH31 produces a verified Issue Set, Response Option Set, Response Strategy Decision, approved strategy, Evidence needs, commercial scope and response schedule.
 
-The output is a confirmed Issue Set, an approved Response Strategy, client and professional decisions, evidence requests, commercial scope and a controlled response schedule.
-
-CH32 converts those decisions into a versioned Response Package Candidate, governs evidence and legal-source lineage, and reuses Part IV Review, Filing Approval, Execution and official-acknowledgement controls.
+CH32 turns those Decisions into an exact-version Response Package Candidate and reuses Part IV Review, Approval, Execution and acknowledgement controls.
