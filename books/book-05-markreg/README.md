@@ -5,9 +5,9 @@
 - **Book:** Book 05
 - **Title:** MarkReg: The Full-Lifecycle International Trademark Product
 - **Canonical path:** `books/book-05-markreg/`
-- **Status:** Part VI Draft and Review Complete — Part VII Authorized
+- **Status:** Complete Draft 1 — CH00–CH47 Full Manuscript and Review Complete
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
-- **Current phase:** Part VII — Product Experience and Evolution
+- **Current phase:** Publication Finishing
 
 ## Position in the Series
 
@@ -29,26 +29,26 @@ Book 05 defines a Product constitution and lifecycle specification. It is not a 
 
 > How does MarkReg turn a complex, multi-jurisdictional trademark-service need into an understandable, reviewable, governed, full-lifecycle professional journey without becoming a second Workplace, Core, Execution System, MGSN, official office, or Owning Service?
 
-## Manuscript Status
+## Complete Manuscript
 
-- Front Matter and Part I — CH00–CH07: Product constitution and lifecycle boundaries.
-- Part II — CH08–CH15: Need, Strategy and Recommendation.
-- Part III — CH16–CH22: Commercial Journey and Formal Intake.
-- Part IV — CH23–CH29: Filing Preparation and Governed Execution.
-- Part V — CH30–CH36: Examination, Publication and Disputes.
-- Part VI — CH37–CH42: Registration and Portfolio Continuity.
-- Part VII — CH43–CH47: authorized next writing pack.
+- Front Matter — CH00–CH01
+- Part I — CH02–CH07: Product Constitution and Lifecycle Position
+- Part II — CH08–CH15: Need, Strategy and Recommendation
+- Part III — CH16–CH22: Commercial Journey and Formal Intake
+- Part IV — CH23–CH29: Filing Preparation and Governed Execution
+- Part V — CH30–CH36: Examination, Publication and Disputes
+- Part VI — CH37–CH42: Registration and Portfolio Continuity
+- Part VII — CH43–CH47: Product Experience and Evolution
 
-### Part VI Manuscript
+### Part VII Manuscript
 
-- [CH37 — Registration and Certificate Boundaries](manuscript/B05-CH-37_Registration_and_Certificate_Boundaries.md)
-- [CH38 — Maintenance Calendar and Post-Registration Duties](manuscript/B05-CH-38_Maintenance_Calendar_and_Post-Registration_Duties.md)
-- [CH39 — Renewal Preparation and Governed Renewal](manuscript/B05-CH-39_Renewal_Preparation_and_Governed_Renewal.md)
-- [CH40 — Changes, Recordals and Ownership Updates](manuscript/B05-CH-40_Changes_Recordals_and_Ownership_Updates.md)
-- [CH41 — Assignment, Licensing and Chain of Title](manuscript/B05-CH-41_Assignment_Licensing_and_Chain_of_Title.md)
-- [CH42 — Portfolio Strategy, Monitoring and Lifecycle Learning](manuscript/B05-CH-42_Portfolio_Strategy_Monitoring_and_Lifecycle_Learning.md)
+- [CH43 — Standalone, Embedded and Cross-Product Experience](manuscript/B05-CH-43_Standalone_Embedded_and_Cross-Product_Experience.md)
+- [CH44 — Client, Professional and Provider Participation Surfaces](manuscript/B05-CH-44_Client_Professional_and_Provider_Participation_Surfaces.md)
+- [CH45 — Jurisdiction Packs, AI Assistance and Rule Versioning](manuscript/B05-CH-45_Jurisdiction_Packs_AI_Assistance_and_Rule_Versioning.md)
+- [CH46 — Product Metrics, Quality and MVP Delivery Sequence](manuscript/B05-CH-46_Product_Metrics_Quality_and_MVP_Delivery_Sequence.md)
+- [CH47 — Conformance, Roadmap and Conclusion](manuscript/B05-CH-47_Conformance_Roadmap_and_Conclusion.md)
 
-Part VI preserves official registration, certificate, maintenance, renewal, recordal, ownership, licensing, dispute and portfolio states as distinct, sourced and versioned contexts.
+Part VII defines one MarkReg journey across standalone, Lite, Workplace and cross-Product surfaces; participant-specific authority; source-backed jurisdiction and AI governance; quality metrics; MVP sequencing; conformance profiles; and the long-term Product roadmap.
 
 ## Chapter Boundary Correction
 
@@ -61,24 +61,32 @@ B05-TOC-V0.1 defines Part VI as CH37–CH42 and Part VII as CH43–CH47. [B05-ER
 - [B05-SPEC-0003 — Conformance Scenarios and User-Surface Contract](specifications/B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md)
 - [B05-SPEC-0004 — Minimum Jurisdiction-Pack and Commercial-Control Contract](specifications/B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md)
 
+The complete-draft review found that these specifications must be extended and reconciled through CH47 before Release Candidate preparation.
+
 ## Governance and Reviews
 
 - [Book Manifest](BOOK-MANIFEST.md)
 - [Book Status](BOOK-STATUS.md)
 - [Book Governance](BOOK-GOVERNANCE.md)
-- [B05-REV-0008 — Part IV Review](reviews/B05-REV-0008_Part_IV_Filing_Preparation_and_Governed_Execution_Review.md)
-- [B05-REV-0009 — Part V Review](reviews/B05-REV-0009_Part_V_Examination_Publication_and_Disputes_Review.md)
+- [Part VI Boundary Erratum](reviews/B05-ERRATA-0001_Part_VI_Chapter_Boundary.md)
 - [B05-REV-0010 — Part VI Review](reviews/B05-REV-0010_Part_VI_Registration_and_Portfolio_Continuity_Review.md)
+- [B05-REV-0011 — Part VII Review](reviews/B05-REV-0011_Part_VII_Product_Experience_and_Evolution_Review.md)
+- [B05-REV-0012 — CH00–CH47 Complete Draft 1 Review](reviews/B05-REV-0012_CH00-CH47_Complete_Draft_1_Review.md)
+- [B05-PLN-0004 — Publication Finishing Pack](planning/B05-PLN-0004_Publication_Finishing_Pack.md)
 
 ## Current Gate
 
 ```text
-CH00–CH36 accepted for continuation
-→ Part VI CH37–CH42 drafted and reviewed
-→ chapter-boundary erratum recorded
-→ Part VII CH43–CH47 authorized
-→ complete first full Book 05 draft and full-book review
+CH00–CH47 complete manuscript
+→ Part VII review complete
+→ first full-book review complete
+→ Complete Draft 1 achieved
+→ B05-PUBLICATION-FINISHING-PACK-001
+→ Release Candidate 1 review
+→ owner publication decision
 ```
+
+Complete Draft 1 is not Release Candidate 1 and does not authorize implementation, production deployment or protected external action.
 
 ## Authority Boundary
 
