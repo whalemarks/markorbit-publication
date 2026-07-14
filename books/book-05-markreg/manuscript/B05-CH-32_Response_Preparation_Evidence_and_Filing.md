@@ -1,6 +1,6 @@
 # B05-CH-32 — Response Preparation, Evidence and Filing
 
-**Status:** Part V Draft  
+**Status:** Complete Draft 1  
 **Chapter Map:** B05-TOC-V0.1 — Owner Accepted  
 **Part:** Part V — Examination, Publication and Disputes
 
@@ -10,489 +10,199 @@ CH31 produces an approved Response Strategy.
 
 CH32 answers:
 
-> How does MarkReg turn that strategy into a versioned, reviewable and safely filed Response Package without losing source, evidence, amendment, authority or execution lineage?
+> What exact response will be filed, which issues and Evidence does it address, what changed, and which Reviews, confirmations and approvals are required?
 
 ```text
-Approved Response Strategy
-→ Response Package Candidate
-→ evidence and source assembly
+MR-A21 Response Strategy
+→ MR-A22 Response Package Candidate
++ MR-A23 Evidence Plan
 → Professional Review
 → client confirmation where required
-→ Filing Approval
-→ governed Execution
-→ official acknowledgement
+→ MR-D03 Filing Approval
+→ MR-A17 Execution Request
+→ MR-E04 Official Acknowledgement Evidence
 ```
 
-The response workflow reuses Part IV. It does not create a lower standard merely because the action is post-filing.
-
----
+Post-filing work uses the same governance standard as an initial filing.
 
 ## 1. User Question and Primary Action
 
-**User question:** What exactly will be filed, what evidence and amendments does it contain, and what must I confirm before filing?
+**User question:** What exactly will be filed and what must I confirm?
 
-**Primary action:** Review the response summary, factual declarations and amendment redlines, then provide the required confirmation or approval.
+**Primary action:** Review the issue matrix, amendment redlines, factual declarations, Evidence disclosures and exact Package version.
 
-The Product should never ask the client to approve an opaque “response draft.”
-
----
+An opaque `approve response draft` action is not sufficient.
 
 ## 2. Response Package Candidate
 
-A Response Package Candidate is a Product-local, versioned artifact containing the proposed response to a defined Official Event Snapshot and Issue Set.
+`MR-A22 Response Package Candidate` references:
 
-It should reference:
-
-- Examination Context;
-- Official Event Snapshot;
-- Issue Set version;
-- approved Response Strategy;
-- affected application, proceeding or right;
-- filing route and provider or connector;
-- final response text or form data;
-- amendment redlines;
-- evidence and declarations;
-- cited authority and source references;
-- translations and certifications;
-- client confirmations;
-- professional review decisions;
-- Filing Approval;
-- deadline and safety margin;
-- Execution and acknowledgement references.
+- Examination Context and Official Event Snapshot;
+- Issue Set and Response Strategy versions;
+- affected right, scope and proceeding;
+- response text, forms and amendments;
+- `MR-A23 Evidence Plan` and selected exhibits;
+- legal and procedural source references;
+- translations, certifications and declarations;
+- client confirmations and Professional Decisions;
+- filing route, provider and deadline;
+- Filing Approval, Execution and acknowledgement references.
 
 ```text
 Response Package Candidate
 ≠ filed response
 ≠ official acceptance
-≠ final outcome
+≠ examination outcome
 ```
 
----
+## 3. Issue-to-Response Matrix
 
-## 3. Package Components
+Every confirmed issue should map to:
 
-Depending on the event, the package may include:
-
-- cover form or response form;
-- issue-by-issue response;
-- legal or procedural argument;
-- amended goods/services;
-- mark description, disclaimer, translation or transliteration;
-- applicant or representative correction;
-- declarations or affidavits;
-- documentary evidence;
-- exhibits and indexes;
-- consent, coexistence or settlement documents;
-- priority or use evidence;
-- hearing or conference request;
-- extension request;
-- fee calculation and payment instruction;
-- provider instruction;
-- filing payload and human-readable preview.
-
-Each component must identify the issue and purpose it serves.
-
----
-
-## 4. Issue-to-Response Matrix
-
-The Product should present a matrix such as:
-
-| Issue | Proposed response | Amendment | Evidence | Decision owner | Review status |
+| Issue | Proposed response | Amendment | Evidence | Decision owner | Review state |
 | --- | --- | --- | --- | --- | --- |
-| US-01 | revised goods wording | yes | no | client + professional | reviewed |
-| US-02 | argument on cited right | no | source-backed factual context | professional | reviewed |
+| US-01 | revised goods/services wording | yes | none required | client + professional | reviewed |
+| US-02 | sourced cited-right argument | no | limited factual context | professional | reviewed |
 
-This prevents an issue from being omitted merely because the overall package appears complete.
+No issue may disappear because the overall Package appears complete.
 
----
+## 4. Source and Fact Lineage
 
-## 5. Draft and Final Content States
+Material legal propositions preserve authority, jurisdiction, issuing body, effective date, retrieved date, relevant passage, interpretation status and reviewer.
 
-A response component may be:
+Material factual assertions preserve source person or Document, date range, geography, verification status, confidentiality, client confirmation and professional use Decision.
 
-```text
-Outline
-Draft
-Fact-check pending
-Evidence pending
-Professional revision required
-Client confirmation required
-Ready for Professional Review
-Professionally reviewed
-Approved for package version
-Superseded
-Filed
-Rejected or correction required
-```
+Generated text is not authority. Marketing material is not automatically admissible Evidence.
 
-“Final” should always be relative to a package version and purpose.
+## 5. Evidence Plan
 
----
+`MR-A23 Evidence Plan` identifies:
 
-## 6. Legal and Procedural Sources
+- proposition and issue to be proved;
+- source owner and custodian;
+- date and territorial relevance;
+- authenticity and chain-of-custody state;
+- confidentiality, redaction and disclosure limits;
+- translation or certification need;
+- exhibit version;
+- professional include, exclude, replace or reserve Decision;
+- gaps and limitations.
 
-Material legal or procedural propositions should preserve:
+Only Evidence required by the approved strategy should be requested or disclosed.
 
-- source identifier;
-- authority type;
-- jurisdiction and issuing body;
-- effective or publication date;
-- retrieved date;
-- relevant section or proposition;
-- interpretation status;
-- reviewer;
-- later supersession or conflict.
+## 6. Amendment Governance
 
-The Product may help organize research. It must not fabricate citations or present unsourced generated text as professional authority.
-
----
-
-## 7. Factual Assertions
-
-Every material factual assertion should identify:
-
-- asserted fact;
-- source person, record or Document;
-- date range;
-- jurisdiction and issue relevance;
-- verification status;
-- confidentiality;
-- client confirmation where required;
-- professional use decision;
-- contradiction or limitation.
-
-Examples include launch dates, product characteristics, sales channels, ownership history, use dates, market recognition and coexistence facts.
-
-A marketing claim is not automatically evidence suitable for a legal response.
-
----
-
-## 8. Evidence Register
-
-The Evidence Register should contain:
-
-| Field | Requirement |
-| --- | --- |
-| evidence ID | stable package reference |
-| issue and proposition | what the item is intended to support |
-| source and custodian | who supplied or controls it |
-| date and geography | temporal and jurisdiction relevance |
-| authenticity status | original, copy, extract, screenshot, declaration or other form |
-| confidentiality | sharing and redaction rules |
-| translation | source and target language, version and certification |
-| exhibit reference | final package position |
-| reviewer decision | include, exclude, replace or reserve |
-| limitations | gaps, hearsay, incompleteness or other concerns |
-
-Evidence should remain traceable to its original source even after redaction or exhibit formatting.
-
----
-
-## 9. Evidence Minimization and Protection
-
-The Product should request only evidence needed for the approved strategy.
-
-Before sharing, it should consider:
-
-- whether the item contains personal, financial or confidential information;
-- whether a redacted version is sufficient;
-- whether provider or opposing-party disclosure is authorized;
-- whether the evidence reveals unrelated brands, customers or transactions;
-- whether retention and return rules apply;
-- whether the item should remain internal and be summarized instead.
-
-Purpose-limited access from Books 02–04 remains controlling.
-
----
-
-## 10. Amendment Governance
-
-Every proposed amendment should show:
+Every amendment shows:
 
 ```text
-Current official or filed version
+current filed or official version
 → proposed version
-→ added text
-→ removed text
-→ reason
-→ issue addressed
+→ additions and removals
+→ reason and issue addressed
 → scope consequence
-→ affected portfolio artifacts
+→ affected portfolio, commercial and approval records
 ```
 
-Material amendments may invalidate:
+A provider’s last-minute edit cannot bypass client confirmation, Professional Review or Filing Approval.
 
-- prior client confirmation;
-- professional review;
-- commercial scope;
-- provider instruction;
-- Filing Approval;
-- response package readiness.
+For `MR-SCN-16` and `MR-SCN-20`, a material change creates a new Package version and invalidates the affected Decisions.
 
-A last-minute provider edit must not bypass these gates.
+## 7. Review and Approval
 
----
+Professional Review confirms that:
 
-## 11. Translation and Local-Language Versions
+- every Issue is answered or deliberately reserved;
+- amendments match the Response Strategy;
+- facts, sources and Evidence are supportable;
+- procedure, format, provider and Pack requirements are satisfied;
+- confidentiality and translation controls are respected;
+- deadline and route remain valid;
+- residual risk is explained.
 
-Where a response requires another language, preserve:
+Client confirmation is limited to facts, declarations, surrendered scope, Evidence disclosure, material cost or other matters within the client actor’s authority.
 
-- source-language content;
-- translated content;
-- translator or provider;
-- machine-assisted steps;
-- reviewed terminology;
-- certification status;
-- package version;
-- relationship between language versions;
-- which language controls for filing.
+Filing Approval references one exact Response Package version, proceeding, deadline, route, amendments and Evidence set.
 
-A client-facing translation may aid understanding without becoming the filed or controlling version.
+`MR-SCN-17` blocks approval where required Professional Review remains incomplete.
 
----
+## 8. Governed Execution and Acknowledgement
 
-## 12. Professional Review
+Response filing reuses CH25–CH29:
 
-Professional Review should confirm:
+- provider capability, appointment and accepted scope;
+- controlled credentials and route;
+- stable attempt identity;
+- exact-version instruction;
+- sent, provider-reported and official states;
+- duplicate safety and reconciliation.
 
-- every issue is addressed or deliberately reserved;
-- amendment scope is accurate;
-- arguments and evidence align with the strategy;
-- factual assertions are supported;
-- source authority is appropriate;
-- procedural format is correct;
-- provider and jurisdiction requirements are satisfied;
-- confidentiality and privilege controls are respected;
-- filing route and deadline remain valid;
-- residual risk is explained;
-- client confirmations are sufficient.
+Technical success, provider statement or payment debit does not prove filing.
 
-Review decisions should be issue-specific where possible.
+For `MR-SCN-23`, the state remains `official acknowledgement pending` until sufficient evidence is verified.
 
----
-
-## 13. Client Confirmation
-
-Client confirmation may be required for:
-
-- facts only the client can verify;
-- declarations or signatures;
-- amendments or surrendered scope;
-- evidence disclosure;
-- settlement or consent positions;
-- material cost changes;
-- abandonment or partial acceptance;
-- business-risk decisions.
-
-The confirmation surface should show exactly what the client is confirming.
-
-A generic “looks good” message should not be expanded beyond its clear scope.
-
----
-
-## 14. Filing Approval
-
-Filing Approval must reference:
-
-- exact Response Package Candidate version;
-- jurisdiction and proceeding;
-- official event and deadline;
-- included amendments and evidence;
-- execution route;
-- payment condition;
-- approving role and actor;
-- approval time;
-- expiry or invalidation triggers;
-- unresolved non-blocking warnings.
-
-Any material package change after approval requires revalidation and may require a new approval.
-
-MR-CR-03 applies: approval is not execution.
-
----
-
-## 15. Governed Execution
-
-Response filing reuses CH25–CH29 controls:
-
-- capability need and provider context;
-- provider appointment and accepted scope;
-- connector or manual route;
-- stable idempotency identity;
-- version-specific instruction;
-- sent, received and official acknowledgement states;
-- failure, timeout and duplicate safety;
-- Communication and audit trace.
-
-A previously appointed filing provider is not automatically authorized for a new appeal, opposition or evidence-heavy response.
-
----
-
-## 16. Official Acknowledgement
-
-A response should not be displayed as filed solely because:
-
-- an email was sent to a provider;
-- a portal button was clicked;
-- a connector returned technical success;
-- funds were debited;
-- an internal task completed.
-
-The Product should seek the strongest available evidence, such as:
-
-- official receipt;
-- official filing timestamp;
-- official event or document identifier;
-- authenticated portal record;
-- verified provider evidence tied to the package;
-- later office action confirming receipt.
-
-If effect remains uncertain, the state is `Unknown — Reconciliation Required`.
-
----
-
-## 17. Post-Filing Validation
+## 9. Post-Filing Comparison
 
 After acknowledgement, compare:
 
-- filed response against approved package;
-- official timestamp against deadline;
-- filed amendments against intended amendments;
-- accepted exhibits against the Evidence Register;
+- filed response against the approved Package;
+- official timestamp against the verified deadline;
+- filed amendments against the intended redline;
+- included exhibits against the Evidence Plan;
 - official fee against approved payment;
-- official identifier and proceeding;
 - provider report against official evidence.
 
-A mismatch should open correction or reconciliation rather than being silently normalized.
+A mismatch opens correction or reconciliation. It does not rewrite the approved or filed history.
 
----
+## 10. `EMBERLOOP` — `EL-25`
 
-## 18. `EMBERLOOP` United States Response
+US Response Package v1 contains the revised wording, issue-by-issue response, sourced cited-right argument, client-confirmed product facts, limited public materials and filing instruction.
 
-Response Package Candidate US v1 contains:
+The provider proposes a further narrowing. MarkReg creates v2, displays the removed scope and invalidates the prior confirmation.
 
-- revised goods/services wording with redline;
-- issue-by-issue response matrix;
-- professional argument addressing the cited-right concern;
-- factual product description confirmed by the client;
-- limited supporting public product materials;
-- no broad sales-evidence package at this stage;
-- provider instruction draft;
-- response deadline and internal filing target.
+The client confirms v2. The responsible professional records the renewed Review and Filing Approval. The provider files under governed Execution.
 
-During review, the provider proposes an additional narrowing edit. MarkReg creates v2, displays the removed scope and invalidates the prior client confirmation.
-
-The client confirms the v2 amendment. The responsible professional records Review Decision US-R2 and grants Filing Approval for Response Package US v2.
-
-The appointed provider files the response. MarkReg first displays `Provider says filed — official acknowledgement pending`.
-
-After the official receipt is retrieved, the state becomes `Officially Acknowledged`, with the filed package and timestamp reconciled to v2.
-
-The Product does not predict the examination outcome.
-
----
-
-## 19. Conformance Scenarios
-
-### MR-SCN-32A — Evidence without proposition
-
-**Given** a user uploads a large sales spreadsheet without identifying what it should prove.  
-**When** the Response Package is assembled.  
-**Then** MarkReg keeps the file outside the approved Evidence Register, asks for purpose and scope, and prevents automatic disclosure to the provider or office.  
-**Evidence retained:** upload provenance, access decision and later inclusion or exclusion.
-
-### MR-SCN-32B — Provider edits approved amendment
-
-**Given** a provider changes the goods wording after client confirmation and Filing Approval.  
-**When** the edited draft returns.  
-**Then** MarkReg creates a new package version, shows the redline, invalidates affected confirmation and approval, and blocks filing until the required gates are restored.
-
-### MR-SCN-32C — Technical success without official receipt
-
-**Given** a connector reports success but no official response receipt is available.  
-**When** execution completes.  
-**Then** MarkReg records technical success, keeps official filing state unknown, blocks duplicate retry and opens reconciliation under CH29.
-
-### MR-SCN-32D — Filed package differs from approved package
-
-**Given** the official record shows a response attachment different from the approved package hash.  
-**When** post-filing validation runs.  
-**Then** MarkReg flags the mismatch, preserves both versions, alerts the professional owner and opens a correction analysis without rewriting history.
-
----
-
-## 20. AI Assistance
-
-AI may:
-
-- draft issue-by-issue response structure;
-- compare notice, strategy and response;
-- prepare amendment redlines;
-- extract and index evidence;
-- suggest exhibit organization;
-- identify unsupported factual statements;
-- detect citation and version mismatches;
-- prepare client-facing summaries;
-- compare filed and approved packages.
-
-AI must not:
-
-- invent facts, evidence or citations;
-- decide admissibility or legal sufficiency;
-- sign declarations;
-- authorize disclosure;
-- approve amendments;
-- grant Filing Approval;
-- file externally without governed Execution;
-- claim official receipt without evidence.
-
----
-
-## 21. Failure Modes to Reject
+The Product first shows:
 
 ```text
-Response draft not linked to Issue Set
-Evidence included without purpose or provenance
-Generated citation presented as authority
-Client confirmation expanded beyond exact facts or amendments
-Provider edit bypasses reapproval
-Old Filing Approval reused for changed package
-Email to provider shown as official filing
-Technical success shown as acknowledgement
-Filed mismatch silently corrected in Product history
+Provider reports filed
+Official acknowledgement pending
 ```
 
----
+After the official receipt is verified, Response Package v2 becomes officially acknowledged. The US application remains under examination; no registration outcome is assumed.
 
-## 22. Minimum Response Package Lock
+## 11. Controlled Scenarios
+
+- `MR-SCN-16` — changed Package after confirmation or approval;
+- `MR-SCN-17` — incomplete Professional Review;
+- `MR-SCN-20` — provider proposes a material change;
+- `MR-SCN-23` — technical success without official receipt;
+- `MR-SCN-26` — corrected notice changes Package inputs.
+
+## 12. AI Assistance
+
+AI may draft issue structure, compare notice, strategy and Package, prepare redlines, index Evidence, flag unsupported facts or citations and compare filed against approved content.
+
+AI may not invent facts, Evidence or authority; decide legal sufficiency; sign declarations; authorize disclosure; approve amendments; grant Filing Approval; or claim official receipt without evidence.
+
+## 13. Chapter Lock
 
 ```text
-Response Package Candidate
-references the exact event,
-Issue Set, strategy, amendments,
-evidence, source authority,
-review and approval.
+Response Package is issue-linked,
+source-linked and version-specific.
 
-Every material fact and exhibit
-preserves provenance and purpose.
+Evidence has a defined proposition,
+owner, permission and Review state.
 
-Every amendment is diffable.
+Material changes invalidate
+affected confirmation and approval.
 
-Professional Review,
-client confirmation,
-Filing Approval, Execution,
-and official acknowledgement
-remain separate.
-
-AI may prepare and compare.
-Humans verify, approve and act.
+Filed response is not
+acknowledged response.
+Acknowledged response is not outcome.
 ```
 
----
+## 14. Handoff to CH33
 
-## 23. Handoff to Publication and Opposition Windows
+CH32 ends with the US Response Package v2 officially acknowledged and examination continuing.
 
-The output is an officially acknowledged or explicitly unresolved response event, updated Examination Context, retained package lineage and a new expected-outcome or monitoring state.
-
-CH33 defines how publication, observation and opposition windows become sourced lifecycle events with deadline, monitoring, decision and escalation controls.
+CH33 governs EU and UK publication windows, challenge monitoring, verified opposition entry and no-challenge closure.

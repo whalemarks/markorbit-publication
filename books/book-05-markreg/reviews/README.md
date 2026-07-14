@@ -26,7 +26,19 @@ This directory contains owner, architecture, chapter-map, manuscript, productiza
 - `B05-REV-0019_PF-06B1_Front_Matter_and_Part_I_Editorial_Review.md` — accepts CH00–CH07
 - `B05-REV-0020_PF-06B2A_Part_II_Editorial_Review.md` — accepts CH08–CH15 and `EL-01–EL-08`
 - `B05-REV-0021_PF-06B2B_Part_III_Editorial_Review.md` — accepts CH16–CH22 and `EL-09–EL-15`; closes PF-06B
-- `B05-REV-0022_PF-06C1_Part_IV_Editorial_Review.md` — accepts CH23–CH29, `EL-16–EL-22` and metadata; authorizes PF-06C2
+- `B05-REV-0022_PF-06C1_Part_IV_Editorial_Review.md` — accepts CH23–CH29 and `EL-16–EL-22`
+- `B05-REV-0023_PF-06C2_Part_V_Editorial_Review.md` — accepts CH30–CH36 and `EL-23–EL-29`; records PF06C2-F01 and authorizes PF-06C3
+
+## Open Controlled Finding
+
+```text
+PF06C2-F01
+- B05-SPEC-0002 Part V record references require current-ID reconciliation
+- active manuscript uses B05-SPEC-0001 v0.2 IDs
+- PF-06D must update Specification, Appendix D and related indexes
+- finding blocks PF-06D closure and PF-08 validation
+- finding does not block PF-06C3 or PF-06C4 manuscript editing
+```
 
 ## Current Gate
 
@@ -34,15 +46,15 @@ CH00–CH47 remain Complete Draft 1.
 
 ```text
 PF-01A: COMPLETE
-PF-01B: PARTIAL — CH02–CH29 complete; CH30–CH47 open
+PF-01B: PARTIAL — CH02–CH36 complete; CH37–CH47 open
 PF-02–PF-05: COMPLETE
 PF-06A: COMPLETE
 PF-06B: COMPLETE
 PF-06C1 CH23–CH29: COMPLETE
-PF-06C2 CH30–CH36: AUTHORIZED AND NEXT
-PF-06C3 CH37–CH42: PLANNED
+PF-06C2 CH30–CH36: COMPLETE
+PF-06C3 CH37–CH42: AUTHORIZED AND NEXT
 PF-06C4 CH43–CH47: PLANNED
-PF-06D: PLANNED
+PF-06D: PLANNED / PF06C2-F01 MUST CLOSE
 PF-06 overall: OPEN
 PF-07–PF-09: OPEN
 ```
