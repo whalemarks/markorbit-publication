@@ -1,31 +1,31 @@
 # Book 04 Status
 
 Status:
-CH00–CH27 Drafted and Reviewed; Paused Before Part V
+Complete Draft 1 — CH00–CH39; Full-Book Architecture Review Completed
 
 Architecture direction:
 Owner Confirmed
 
 Manuscript:
-Front Matter and Parts I–IV Draft Baseline; Owner Review Pending
+Complete Draft 1; Full-Book Owner Review Pending
 
 Chapter map:
 B04-TOC-V0.1 — Owner Accepted
 
 Current drafted range:
-B04-CH-00 through B04-CH-27
+B04-CH-00 through B04-CH-39
 
 Current review:
+B04-REV-0003 — CH00–CH39 Full-Book Architecture and Editorial Review
+
+Historical review:
 B04-REV-0002 — CH00–CH27 Architecture and Editorial Review
 
-Current pause:
-B04-CH-28 through B04-CH-39 are not drafted
-
 Book 02 semantic change:
-Not authorized
+Not required and not authorized
 
 Book 03 execution change:
-Not authorized
+Not required and not authorized
 
 Product implementation:
 Not authorized
@@ -39,30 +39,37 @@ Not authorized
 - Part II drafted: CH07–CH12.
 - Part III drafted: CH13–CH19.
 - Part IV drafted: CH20–CH27.
-- CH00–CH27 architecture, terminology, boundary, and progression review completed.
-- Targeted responsibility-language, Approval, Lite, MarkReg, Artifact, and repository-status corrections applied.
+- Part V drafted: CH28–CH32.
+- Part VI drafted: CH33–CH39.
+- CH00–CH39 architecture, terminology, boundary, and progression review completed.
+- Targeted responsibility-language, Artifact preview/re-review, formalization, Routing, and Artifact-lineage corrections applied.
 - Repository metadata synchronized with the actual manuscript state.
 
 ## Current Review Outcome
 
 ```text
-No chapter-map change required.
-No Book 02 semantic amendment required.
-No Book 03 Execution amendment required.
-Targeted revisions applied.
-Owner review pending.
+CH00–CH39 Draft 1 is structurally complete.
+Architecture and cross-part progression pass.
+Targeted necessary revisions are applied.
+No chapter-map change is required.
+No Book 02 semantic amendment is required.
+No Book 03 Execution amendment is required.
+Full-book owner review is the current gate.
 ```
 
 ## Remaining Gates
 
-1. Owner review of B04-REV-0002 and the consolidated CH00–CH27 revision PR.
-2. Targeted revision or acceptance of the reviewed Draft baseline.
-3. Owner decision on Part V and Part VI drafting authorization.
-4. Drafting and part review of CH28–CH39 if authorized.
-5. Full-book compression and repetition review.
-6. Native-English editorial review.
-7. Diagram, citation, glossary, index, and cross-book reconciliation.
-8. Final publication gate.
+1. Consolidated owner review of B04-REV-0003 and the complete Draft 1 revision PR.
+2. Targeted revision or owner acceptance.
+3. Native-English line edit.
+4. Final compression and repetition edit.
+5. Diagrams and visual architecture assets.
+6. Citation conventions and source reconciliation.
+7. Glossary reconciliation.
+8. Index work.
+9. Cross-book final reconciliation.
+10. Release-candidate packaging.
+11. Final publication gate.
 
 Ready for final publication: **NO**
 
