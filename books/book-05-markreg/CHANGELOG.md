@@ -1,5 +1,21 @@
 # Book 05 Changelog
 
+## 2026-07-14 — PF-05 Jurisdiction and Commercial Reconciliation
+
+- Upgraded B05-SPEC-0004 to Controlled Specification v0.2 covering later lifecycle services and Part VII governance.
+- Defined Pack identity and Research, Guidance, Preparation, Execution, Lifecycle, Suspended and Retired support states.
+- Added service modules for filing, examination, disputes, registration, maintenance, renewal, recordals, transactions and portfolio work.
+- Defined source, Rule, deadline, form and Pack-change governance.
+- Separated official fees, mandatory third-party costs, professional fees, provider pass-through, internal provider cost, tax, currency, later-stage fees, discounts, credit and margin.
+- Added stage-specific pricing for responses, disputes, registration, renewal, recordal and transactions.
+- Preserved immutable Quote and Package versions and defined fee, form and Rule variance impact.
+- Added Pack-bound AI assistance and prohibited unsupported current-rule, fee or support claims.
+- Reconciled Appendix F and the PF-05 evidence portion of Appendix G.
+- Validated the contract against direct-new-filing and renewal-with-recordal-dependency archetypes.
+- Added B05-REV-0017, closed PF-05 and authorized PF-06 Editorial Finishing.
+- Kept PF-01B metadata normalization open as an independent RC1 blocker.
+- Confirmed that no Architecture Canon, Book 02, Book 03 or Book 04 semantic amendment is required.
+
 ## 2026-07-14 — PF-04 Scenario and User-Surface Reconciliation
 
 - Upgraded B05-SPEC-0003 to Controlled Specification v0.2 applying through CH47.
@@ -92,9 +108,9 @@
 - Defined Publication Windows, monitoring, opposition detection and verified no-challenge closure.
 - Defined Adversarial Context, parties, grounds, evidence, pleadings, settlement authority and official procedural closure.
 - Distinguished appeal, review, correction, cancellation, invalidation, restoration and recordal contexts.
-- Established canonical Deadline Record, Client Decision Record, Communication Packet and correction-Communication behavior.
+- Established canonical Deadline Record, Client Decision Record and Communication Packet.
 - Extended `EMBERLOOP` through US examination response, EU opposition and UK publication-window closure.
-- Extended `RIVERKITE` through cancellation defense, ownership conflict, evidence and linked renewal/recordal contexts.
+- Extended `RIVERKITE` through cancellation defense, ownership conflict, evidence and linked recordal/renewal contexts.
 - Added B05-REV-0009 and authorized Part VI; its chapter-range details are corrected by B05-ERRATA-0001.
 - Kept unrestricted implementation, production deployment and external protected action unauthorized.
 

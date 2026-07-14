@@ -7,13 +7,13 @@
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
 - **Portfolio dependency:** MO-PUB-BASELINE-0001
 - **Primary Product:** MarkReg
-- **Current substantive gate:** PF-05 Jurisdiction and Commercial Reconciliation
+- **Current substantive gate:** PF-06 Editorial Finishing
 - **Independent RC1 blocker:** PF-01B CH02–CH47 metadata normalization
 
 ## Directory Purpose
 
 - `manuscript/` — controlled CH00–CH47 chapter files.
-- `specifications/` — controlled Product artifact, journey, scenario, jurisdiction-pack and commercial contracts.
+- `specifications/` — controlled Product artifact, journey, scenario, jurisdiction and commercial contracts.
 - `appendices/` — reader-facing Appendix A–G projections.
 - `publication/` — editorial style, source notes, glossary, subject index, figure register, Back Matter map, reconciliation and RC1 checklist.
 - `planning/` — Product and publication-finishing plans.
@@ -32,59 +32,58 @@ Part VI — CH37–CH42
 Part VII — CH43–CH47
 ```
 
-CH00–CH01 are normalized under PF-01A. CH02–CH47 remain pending PF-01B.
-
-Appendix A–G sit outside the chapter numbering and do not amend B05-TOC-V0.1.
+CH00–CH01 are normalized under PF-01A. CH02–CH47 remain pending PF-01B. Appendix A–G sit outside chapter numbering.
 
 ## Controlled Specifications
 
 | Specification | Status |
 | --- | --- |
-| `B05-SPEC-0001_Product_Artifact_and_Decision_Map.md` | Controlled Specification v0.2 — PF-02 complete |
-| `B05-SPEC-0002_Reference_Journeys.md` | Controlled Specification v0.2 — PF-03 complete |
-| `B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md` | Controlled Specification v0.2 — PF-04 complete |
-| `B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md` | PF-05 authorized and next |
+| B05-SPEC-0001 | Controlled Specification v0.2 — PF-02 complete |
+| B05-SPEC-0002 | Controlled Specification v0.2 — PF-03 complete |
+| B05-SPEC-0003 | Controlled Specification v0.2 — PF-04 complete |
+| B05-SPEC-0004 | Controlled Specification v0.2 — PF-05 complete |
 
 Specifications remain authoritative over appendix projections.
+
+## Jurisdiction and Commercial Contract
+
+B05-SPEC-0004 v0.2 defines:
+
+- Pack identity, version, service and lifecycle scope;
+- Research, Guidance, Preparation, Execution, Lifecycle, Suspended and Retired states;
+- source, Rule, deadline, form and Pack-change governance;
+- new filing, response, dispute, registration, maintenance, renewal, recordal, transaction and portfolio modules;
+- official fee, client price, provider cost, tax, currency, discount, credit and margin separation;
+- later-stage service pricing;
+- immutable Quote and variance behavior;
+- Pack-bound AI assistance;
+- Profile evidence limits.
 
 ## Appendix Inventory
 
 | Appendix | Status |
 | --- | --- |
-| A — Full-Lifecycle Artifact and Decision Map | controlled reader draft — PF-02 reconciled |
-| B — Lifecycle State and Authority Matrix | controlled reader draft — PF-02 and PF-04 reconciled |
-| C — Participant Visibility and Action Rights Matrix | controlled reader draft — PF-04 reconciled |
-| D — Reference Journeys | controlled reader draft — PF-03 reconciled |
-| E — Priority Conformance Scenarios | controlled reader draft — PF-04 reconciled |
-| F — Minimum Jurisdiction Pack Checklist | controlled scaffold — PF-05 pending |
-| G — MarkReg Conformance Profiles | controlled reader draft — PF-04 reconciled; PF-05/PF-08 evidence pending |
+| A — Full-Lifecycle Artifact and Decision Map | PF-02 reconciled |
+| B — Lifecycle State and Authority Matrix | PF-02/PF-04 reconciled |
+| C — Participant Visibility and Action Rights Matrix | PF-04 reconciled |
+| D — Reference Journeys | PF-03 reconciled |
+| E — Priority Conformance Scenarios | PF-04 reconciled |
+| F — Minimum Jurisdiction Pack Checklist | PF-05 reconciled |
+| G — MarkReg Conformance Profiles | PF-04/PF-05 reconciled; PF-08 validation pending |
 
-## Scenario and Surface Inventory
+## Controlled Scenarios and Profiles
 
 ```text
 Controlled scenarios: MR-SCN-01–MR-SCN-41
-Severity classes: standard, high-risk, zero-tolerance
-Participant classes: client, owner representative, professional, reviewer, approver, coordinator, account, finance, provider, administrator, AI
-Conformance profiles: 8
-Lifecycle surface coverage: CH07–CH47
+Severity: standard, high-risk, zero-tolerance
+Profiles: Foundation through Full-Lifecycle
+Pack support claim cannot exceed Pack module evidence
 ```
 
 ## Reference Journey Baseline
 
-### `B05-JRN-A-EMBERLOOP`
-
-- UK registered with maintenance obligations;
-- US under examination after acknowledged response;
-- EU in opposition;
-- Japan and Australia remain candidates.
-
-### `B05-JRN-B-RIVERKITE`
-
-- six independent rights;
-- four ordinary renewal workflows;
-- one ownership-linked renewal;
-- one cancellation defense;
-- evidence and licence actions remain open.
+- `EMBERLOOP`: UK registered; US under examination; EU in opposition; Japan/Australia candidates only.
+- `RIVERKITE`: four ordinary renewals; one ownership-linked renewal; one cancellation defense; evidence/licence actions open.
 
 ## Publication Apparatus
 
@@ -97,25 +96,21 @@ Lifecycle surface coverage: CH07–CH47
 - B05-PUB-0007 — Cross-Book Reconciliation
 - B05-PUB-0008 — RC1 Checklist
 
-B05-PUB-0006 is the structural baseline. Other publication records remain under their assigned workstreams.
-
 ## Current Reviews
 
 - B05-REV-0001 through B05-REV-0013 — manuscript, architecture and publication-baseline reviews
-- B05-REV-0014 — PF-02 Full-Lifecycle Artifact and Decision Reconciliation
-- B05-REV-0015 — PF-03 Reference Journey Consolidation
-- B05-REV-0016 — PF-04 Scenario and User-Surface Reconciliation
+- B05-REV-0014 — PF-02
+- B05-REV-0015 — PF-03
+- B05-REV-0016 — PF-04
+- B05-REV-0017 — PF-05
 
 ## Current Gate
 
 ```text
 CH00–CH47 Complete Draft 1
-→ PF-01A and PF-07A complete
-→ PF-02 complete
-→ PF-03 complete
-→ PF-04 complete
-→ PF-05 jurisdiction and commercial reconciliation
-→ PF-06 and remaining PF-07 publication finishing
+→ PF-02 through PF-05 complete
+→ PF-06 editorial finishing
+→ remaining PF-07 figures and publication apparatus
 → PF-01B metadata normalization before validation
 → PF-08 validation
 → PF-09 Release Candidate 1 and owner publication decision
