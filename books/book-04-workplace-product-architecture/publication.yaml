@@ -1,60 +1,77 @@
 book: "Book 04"
 title: "MarkOrbit Workplace and Product Architecture"
 canonical_path: "books/book-04-workplace-product-architecture/"
-status: "ch00_ch27_reviewed_owner_review_pending"
-phase: "paused after Part IV for consolidated owner review"
+status: "complete_draft_1_full_book_architecture_review_completed"
+phase: "complete Draft 1 under consolidated owner review"
 positioning: "Defines how an independent professional organization establishes its own operating orbit and consumes MarkOrbit Core, Execution, Knowledge, Intelligence, Capabilities, Products and network services through its Workplace."
-manuscript_status: "front_matter_and_parts_1_to_4_draft_baseline"
+manuscript_status: "complete_draft_1_owner_review_pending"
 architecture_direction_owner_confirmed: true
 chapter_map:
   id: "B04-TOC-V0.1"
   status: "owner_accepted"
   owner_acceptance: true
   chapter_range: "00-39"
+  manuscript_files: 40
   substantive_chapters: 38
   parts: 6
 drafting_progress:
-  drafted_and_reviewed_range: "B04-CH-00 through B04-CH-27"
-  paused_not_drafted_range: "B04-CH-28 through B04-CH-39"
-  front_matter: "reviewed"
-  part_1: "reviewed"
-  part_2: "reviewed"
-  part_3: "reviewed"
-  part_4: "reviewed"
-  part_5: "paused_not_drafted"
-  part_6: "paused_not_drafted"
+  drafted_range: "B04-CH-00 through B04-CH-39"
+  architecture_reviewed_range: "B04-CH-00 through B04-CH-39"
+  front_matter: "drafted_and_architecture_reviewed"
+  part_1: "drafted_and_architecture_reviewed"
+  part_2: "drafted_and_architecture_reviewed"
+  part_3: "drafted_and_architecture_reviewed"
+  part_4: "drafted_and_architecture_reviewed"
+  part_5: "drafted_and_architecture_reviewed"
+  part_6: "drafted_and_architecture_reviewed"
 writing_packs:
   pack_01:
     scope: "Front Matter and Part I, CH00-CH06"
-    status: "drafted_and_reviewed"
+    status: "drafted_and_architecture_reviewed"
   pack_02:
     scope: "Part II, CH07-CH12"
-    status: "drafted_and_reviewed"
+    status: "drafted_and_architecture_reviewed"
   pack_03:
     scope: "Part III, CH13-CH19"
-    status: "drafted_and_reviewed"
+    status: "drafted_and_architecture_reviewed"
   pack_04:
     scope: "Part IV, CH20-CH27"
-    status: "drafted_and_reviewed"
+    status: "drafted_and_architecture_reviewed"
   pack_05:
     scope: "Part V, CH28-CH32"
-    status: "paused_not_drafted"
+    status: "drafted_and_architecture_reviewed"
   pack_06:
     scope: "Part VI, CH33-CH39"
-    status: "paused_not_drafted"
+    status: "drafted_and_architecture_reviewed"
 current_review:
+  id: "B04-REV-0003"
+  title: "CH00-CH39 Full-Book Architecture and Editorial Review"
+  status: "completed_owner_review_pending"
+  result: "architecture_and_cross_part_progression_pass_targeted_revisions_applied"
+historical_review:
   id: "B04-REV-0002"
   title: "CH00-CH27 Architecture and Editorial Review"
-  status: "completed_owner_review_pending"
-  result: "targeted_revisions_applied_no_structural_change"
-next_publication_gate: "owner review of the consolidated CH00-CH27 revision PR"
-next_drafting_gate: "explicit owner authorization for Part V and Part VI"
+  status: "historical_completed"
+pending_publication_work:
+  owner_review_and_acceptance: true
+  native_english_line_edit: true
+  final_compression_and_repetition_edit: true
+  diagrams: true
+  citations_source_reconciliation: true
+  glossary_reconciliation: true
+  index: true
+  final_cross_book_reconciliation: true
+  release_candidate_packaging: true
+next_publication_gate: "consolidated owner review of complete Draft 1"
 next_implementation_gate: "separate repository canonical alignment and Product-specific implementation planning"
 ready_for_final_publication: false
 ready_for_unrestricted_implementation: false
+production_ready: false
 external_protected_action_authorized: false
 book_02_baseline:
   id: "B02-BASELINE-V0.1"
   version: "0.1.0"
+  semantic_change_required_by_review: false
   semantic_change_mode: "explicit_change_proposal_only"
+book_03_execution_change_required_by_review: false
 book_03_execution_change_authorized: false
