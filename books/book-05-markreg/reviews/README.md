@@ -15,9 +15,13 @@ This directory contains owner, architecture, chapter-map, manuscript, productiza
 - `B05-REV-0009_Part_V_Examination_Publication_and_Disputes_Review.md` — accepts CH30–CH36; its Part VI range and title list are corrected by B05-ERRATA-0001
 - `B05-ERRATA-0001_Part_VI_Chapter_Boundary.md` — confirms Part VI CH37–CH42 and Part VII CH43–CH47 under B05-TOC-V0.1
 - `B05-REV-0010_Part_VI_Registration_and_Portfolio_Continuity_Review.md` — accepts CH37–CH42 and authorizes Part VII
+- `B05-REV-0011_Part_VII_Product_Experience_and_Evolution_Review.md` — accepts CH43–CH47 and authorizes complete-manuscript review
+- `B05-REV-0012_CH00-CH47_Complete_Draft_1_Review.md` — records Complete Draft 1 and defines publication-finishing blockers
 
 ## Current Gate
 
-Part VI, CH37–CH42, is drafted and reviewed.
+CH00–CH47 are drafted and reviewed as Complete Draft 1.
 
-The next controlled review scope follows completion of Part VII, CH43–CH47 — Product Experience and Evolution, and will be the first full-book CH00–CH47 review.
+The next controlled review scope is B05-PUBLICATION-FINISHING-PACK-001 and the later Release Candidate 1 review.
+
+Final publication, implementation, production deployment and external protected action remain separate gates.
