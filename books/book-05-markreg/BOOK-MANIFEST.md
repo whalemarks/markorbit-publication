@@ -3,7 +3,7 @@
 ## Identity
 
 - **Canonical path:** `books/book-05-markreg/`
-- **Status:** Part VI Draft and Review Complete — Part VII Authorized
+- **Status:** Complete Draft 1 — CH00–CH47 Full Manuscript and Review Complete
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
 - **Portfolio dependency:** MO-PUB-BASELINE-0001
 - **Primary Product:** MarkReg
@@ -11,7 +11,7 @@
 ## Directory Purpose
 
 - `manuscript/` — controlled chapter files.
-- `planning/` — Product positioning, dependencies, chapter map and writing gates.
+- `planning/` — Product positioning, dependencies, chapter map, writing gates and publication finishing.
 - `specifications/` — controlled Product artifact, journey, scenario, jurisdiction-pack and commercial contracts.
 - `reviews/` — writing-pack, productization, whole-draft, errata and publication review records.
 
@@ -39,19 +39,15 @@ Examination, response, evidence, publication, opposition, adversarial matters, r
 
 ### Part VI — CH37–CH42
 
-- `manuscript/B05-CH-37_Registration_and_Certificate_Boundaries.md`
-- `manuscript/B05-CH-38_Maintenance_Calendar_and_Post-Registration_Duties.md`
-- `manuscript/B05-CH-39_Renewal_Preparation_and_Governed_Renewal.md`
-- `manuscript/B05-CH-40_Changes_Recordals_and_Ownership_Updates.md`
-- `manuscript/B05-CH-41_Assignment_Licensing_and_Chain_of_Title.md`
-- `manuscript/B05-CH-42_Portfolio_Strategy_Monitoring_and_Lifecycle_Learning.md`
+Registration, certificate, maintenance, renewal, recordals, ownership, licensing, chain of title and portfolio continuity.
 
-## Controlled Specifications
+### Part VII — CH43–CH47
 
-- `specifications/B05-SPEC-0001_Product_Artifact_and_Decision_Map.md`
-- `specifications/B05-SPEC-0002_Reference_Journeys.md`
-- `specifications/B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md`
-- `specifications/B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md`
+- `manuscript/B05-CH-43_Standalone_Embedded_and_Cross-Product_Experience.md`
+- `manuscript/B05-CH-44_Client_Professional_and_Provider_Participation_Surfaces.md`
+- `manuscript/B05-CH-45_Jurisdiction_Packs_AI_Assistance_and_Rule_Versioning.md`
+- `manuscript/B05-CH-46_Product_Metrics_Quality_and_MVP_Delivery_Sequence.md`
+- `manuscript/B05-CH-47_Conformance_Roadmap_and_Conclusion.md`
 
 ## Chapter Boundary
 
@@ -64,6 +60,22 @@ Part VII — CH43–CH47
 
 `reviews/B05-ERRATA-0001_Part_VI_Chapter_Boundary.md` corrects the former CH37–CH43 derived-status error.
 
+## Controlled Specifications
+
+- `specifications/B05-SPEC-0001_Product_Artifact_and_Decision_Map.md`
+- `specifications/B05-SPEC-0002_Reference_Journeys.md`
+- `specifications/B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md`
+- `specifications/B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md`
+
+B05-REV-0012 requires these files to be extended and reconciled through CH47 during publication finishing.
+
+## Planning Inventory
+
+- `planning/B05-PLN-0001_Positioning_and_Scope.md`
+- `planning/B05-PLN-0002_Dependency_Map.md`
+- `planning/B05-PLN-0003_Chapter_Map_and_Writing_Gates.md`
+- `planning/B05-PLN-0004_Publication_Finishing_Pack.md`
+
 ## Review Inventory
 
 - B05-REV-0001 through B05-REV-0007 — foundation, writing-pack, productization and closure reviews
@@ -71,15 +83,18 @@ Part VII — CH43–CH47
 - `reviews/B05-REV-0009_Part_V_Examination_Publication_and_Disputes_Review.md`
 - `reviews/B05-ERRATA-0001_Part_VI_Chapter_Boundary.md`
 - `reviews/B05-REV-0010_Part_VI_Registration_and_Portfolio_Continuity_Review.md`
+- `reviews/B05-REV-0011_Part_VII_Product_Experience_and_Evolution_Review.md`
+- `reviews/B05-REV-0012_CH00-CH47_Complete_Draft_1_Review.md`
 
 ## Current Gate
 
 ```text
-Part V CH30–CH36 drafted and reviewed
-→ Part VI CH37–CH42 drafted and reviewed
-→ registration, maintenance, renewal, recordal and chain-of-title continuity
-→ portfolio monitoring and action planning
-→ Part VII CH43–CH47 authorized
+CH00–CH47 full manuscript
+→ Part VII review complete
+→ Complete Draft 1 review complete
+→ B05-PUBLICATION-FINISHING-PACK-001
+→ Release Candidate 1 review
+→ owner publication decision
 ```
 
 Unrestricted implementation, production deployment and external protected action remain unauthorized.
