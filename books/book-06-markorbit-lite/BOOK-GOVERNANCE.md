@@ -9,40 +9,43 @@ MarkOrbit Orbital Architecture Canon and ADR vNext
 → Books 01–04 Portfolio Baseline
 → Book 05 frozen RC1 cross-Product contracts
 → accepted Book 06 Pre-Writing Audit
-→ accepted Book 06 Product Charter and amendments
+→ owner-accepted Book 06 Product Charter
 ```
 
-Owner-supplied Product clarifications may amend a candidate Charter before merge.
+Historical data models, implementation plans, tool research and owner-supplied Product ideas are evidence and discovery inputs.
 
-They do not override Books 01–05 or authorize silent upstream semantic change.
+They may inform Product-local decisions but may not override Books 01–05 or create silent upstream semantic change.
 
 ## 2. Charter acceptance set
 
-The Book 06 Product Charter v0.2 candidate consists of:
+The Product Charter v0.3 candidate consists of:
 
 ```text
-B06-PLN-0004 v0.2 — Product Charter
-+ B06-PLN-0005 v0.2 — Consolidated Owner Decision Matrix
-+ B06-PLN-0006 — Subscription, Daily Content and Lead Supply detail
+B06-PLN-0004 v0.3 — Product Charter
++ B06-PLN-0005 v0.3 — Owner Decision Matrix
++ B06-PLN-0006 — Commercial Plan and MVP Experiment Candidate
 + B06-REV-0002 — Base architecture Review
-+ B06-REV-0003 — Subscription and daily-supply Review
++ B06-REV-0003 — Product Charter v0.3 Review
 ```
 
-The combined Charter does not change Core, Execution, Workplace, MarkReg or MGSN authority.
+`B06-PLN-0006` is subordinate to the Charter. A price, entitlement, format, quota or experiment may change without redefining Lite.
 
 ## 3. Book responsibility
 
 Book 06 may define:
 
 - Lite Product purpose, users, problems and non-goals;
-- subscription and entitlement meaning;
-- Daily Content Unit and intention-customer candidate behavior;
-- Product-local records and views;
-- Daily Growth Desk, Recommendation and Prepared Action behavior;
-- personal Assistant and Persona experience;
-- growth, relationship, case, Artifact, Render and Publish journeys;
-- MarkReg, MGSN, Review, Execution and Owning Service Handoffs;
-- Lite-specific failures, metrics, pilots, MVP and conformance.
+- the Customer and Service Growth Loop;
+- the Professional Work Product Loop;
+- the Professional Memory and Business Asset Loop;
+- the MarkOrbit Ecosystem Handoff Loop;
+- Today as a daily business cockpit;
+- Product-local candidates, views and interaction state;
+- Artifact, Render, Edit, Delivery and Publish behavior within Book 04 boundaries;
+- customer, case, Knowledge and local/private participation;
+- MarkReg, MGSN, Review, Execution and Owning-Service Handoffs;
+- Lite-specific failure, evaluation, pilot, MVP and conformance;
+- commercial plans and entitlement experiments as separate controlled records.
 
 Book 06 may not redefine:
 
@@ -52,7 +55,41 @@ Book 06 may not redefine:
 - Book 05 MarkReg Product records and lifecycle meaning;
 - official law, official status or External Protected Action authority.
 
-## 4. Finding classes
+## 4. Product and commercial-plan separation
+
+Every Book 06 record must preserve:
+
+```text
+Product Charter
+≠ Product edition
+≠ commercial plan
+≠ subscription entitlement
+≠ implementation backlog
+≠ MVP experiment
+```
+
+A commercial-plan record may select and limit Product capabilities.
+
+It may not redefine the enduring Product identity or expand formal authority.
+
+## 5. Historical-document rule
+
+Historical Product or implementation records must be classified as:
+
+```text
+KEEP
+REFRAME
+PRODUCT-LOCAL
+MOVE TO OWNING SERVICE
+DEFER
+REJECT
+```
+
+A historical document that calls itself “final” remains historical if it predates or conflicts with the current authority chain.
+
+No early database model may be treated as an accepted current schema without Product-record reconciliation and implementation authorization.
+
+## 6. Finding classes
 
 Every cross-book issue must be classified as:
 
@@ -66,18 +103,21 @@ CHANGE PROPOSAL REQUIRED
 
 A Book 06 file must not silently edit accepted upstream meaning.
 
-## 5. Owner acceptance effect
+## 7. Owner acceptance effect
 
 Merge of PR #63 records owner acceptance of:
 
-- Product Charter v0.2;
-- OD-01–OD-08;
-- the RMB 99 monthly reference subscription;
-- at least one usable Daily Content Unit per calendar day;
-- intention-customer candidate supply as a second core output;
-- the Daily Growth Desk;
-- the Daily Content-to-Customer Development Journey;
-- the 30-Day Daily Content and Customer Development MVP.
+- Product Charter v0.3;
+- Lite as the AI business operating system for independent trademark professionals and small agencies;
+- Lite's architectural identity as a lightweight Workplace Product;
+- the four core Product loops;
+- Today as the daily business cockpit;
+- Existing Customer Portfolio Opportunity as the first primary reference journey;
+- cases, memory and reusable capability as a core Product loop;
+- typed MarkReg/MGSN/Review/Execution Handoff and Return boundaries;
+- OD-01–OD-10;
+- Customer Opportunity-to-Governed-Service as MVP 0;
+- the RMB 99 plan, content supply and Prospect Candidate supply as commercial/experiment candidates only.
 
 Merge authorizes the next controlled Product-baseline task only.
 
@@ -90,41 +130,88 @@ It does not authorize:
 - autonomous professional action;
 - External Protected Action.
 
-## 6. Commercial promise integrity
+## 8. Product meaning integrity
 
-Commercial wording is governed Product meaning when it determines what the subscriber is entitled to receive.
-
-Therefore:
+Required distinctions include:
 
 ```text
-Daily Content Unit
-≠ topic suggestion
-
-Short Video delivered
-≠ video brief prepared
-
-Intention-customer candidate
-≠ guaranteed customer
-
-Candidate accepted
-≠ formal Opportunity
+Today item ≠ active Task
+Service-Value Candidate ≠ formal Opportunity
+Prospect Candidate ≠ Qualified Lead
+Customer response ≠ Order or revenue
+Content ≠ Artifact
+Artifact ≠ Document or Evidence
+Artifact ready ≠ approved
+Publish Package ready ≠ published
+Handoff ≠ approval
+Return ≠ new Lite-owned formal truth
+personal memory ≠ organization truth
+case experience ≠ canonical Knowledge
+local access ≠ synchronization or authority
 ```
 
-A lower price does not permit false fulfillment, fake leads, hidden source defects or weakened professional boundaries.
+## 9. External action
 
-## 7. Publication and implementation boundary
+Initial consequential actions should use:
 
-Book 06 defines Product architecture and Product behavior.
+```text
+prepare
+→ preview exact version, customer/audience, recipient/account and consequence
+→ required Human Review where applicable
+→ final user confirmation
+→ governed or manual operation
+→ typed result
+```
 
-It may describe Artifact, Render, Edit, Delivery and Publish responsibilities.
+User confirmation is not Human Review.
 
-It does not select final implementation tools, providers, databases, renderers, browser extensions or deployment topology unless a later implementation specification or ADR is separately authorized.
+Human Review is not Execution authority.
 
-## 8. Current authorization
+Unknown external outcomes must not be retried or shown as completed without evidence.
+
+## 10. Publication and implementation boundary
+
+Book 06 defines Product architecture and behavior.
+
+It may describe:
+
+- work-product types;
+- Artifact and Render responsibilities;
+- editing and publishing modes;
+- candidate Product records;
+- expected Handoff and Return semantics.
+
+It does not select final:
+
+- databases;
+- APIs;
+- rendering frameworks;
+- TTS providers;
+- browser extensions;
+- local agents;
+- deployment topology;
+- production automation.
+
+Those require later implementation specifications or ADRs.
+
+## 11. Owner gates
+
+Owner acceptance is required for:
+
+- Product Charter;
+- Product record and Decision baseline;
+- reference journeys;
+- conformance scenarios;
+- chapter map;
+- Complete Draft 1;
+- Release Candidate;
+- final publication.
+
+## 12. Current authorization
 
 ```text
 Pre-Writing Audit: COMPLETE
-Product Charter v0.2: OWNER ACCEPTED ON PR #63 MERGE
+Product Charter v0.3: OWNER ACCEPTED ON PR #63 MERGE
 Product record / journey / scenario baseline: NEXT AFTER OWNER MERGE
 Chapter map: NOT YET ACCEPTED
 Manuscript drafting: NOT AUTHORIZED
