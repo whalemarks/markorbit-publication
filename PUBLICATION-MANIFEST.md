@@ -24,12 +24,12 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](gov
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
 | Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Release Candidate 1 — Approved and Frozen |
-| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Wave 1 CH00–CH06 Complete Draft 1 — Owner Accepted on Merge |
+| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Wave 2 CH07–CH11 Complete Draft 1 — Owner Accepted on Merge |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
 Book 05 is frozen through its accepted RC1 content baseline, permanent release record and `release/book-05-rc1` pointer.
 
-Book 06 Product Charter v0.3, Product Baseline v0.1 and Chapter Map B06-TOC-V0.1 are accepted. The current Wave 1 candidate drafts Front Matter and Part I as Complete Draft 1. Whole-book Complete Draft 1 has not yet been achieved.
+Book 06 Product Charter v0.3, Product Baseline v0.1, Chapter Map B06-TOC-V0.1 and Wave 1 CH00–CH06 are accepted. The current Wave 2 candidate drafts Part II as Complete Draft 1. Whole-book Complete Draft 1 has not yet been achieved.
 
 ## Planned Book Positioning
 
@@ -81,19 +81,23 @@ B06-CH-00–B06-CH-33
 7 Parts plus Front Matter
 ```
 
-Current Wave 1 manuscript:
+Accepted manuscript:
 
 ```text
-CH00 — Preface
-CH01 — Table of Contents
-CH02 — Why MarkOrbit Lite Exists
-CH03 — The AI Business Operating System for Trademark Professionals
-CH04 — Position Between Workplace, Core, Execution, MarkReg and MGSN
-CH05 — Users, Value Promise and the Four Product Loops
-CH06 — Principles, Boundaries and Non-Goals
+Wave 1 CH00–CH06 — Product Constitution
 ```
 
-Wave 1 merge accepts CH00–CH06 as Complete Draft 1 and authorizes Wave 2 CH07–CH11.
+Current Wave 2 manuscript candidate:
+
+```text
+CH07 — Today as the Daily Business Cockpit
+CH08 — Authorized Context, Sources and Data Boundaries
+CH09 — From Observation to Signal and Service-Value Candidate
+CH10 — Recommendation, Qualification and User Disposition
+CH11 — Prepared Action, Continuation and Safe Handoff
+```
+
+Wave 2 merge accepts CH07–CH11 as Complete Draft 1 and authorizes Wave 3 CH12–CH16.
 
 RMB 99, recurring/daily content, Prospect Candidate supply and quotas remain commercial experiments rather than Product constitution.
 
@@ -120,11 +124,12 @@ Books 01–04 Portfolio Baseline
 → Book 06 Product Charter v0.3 accepted
 → Book 06 Product Baseline v0.1 accepted
 → Book 06 Chapter Map v0.1 accepted
-→ Wave 1 CH00–CH06 owner merge
-→ Wave 2 CH07–CH11
+→ Wave 1 CH00–CH06 accepted
+→ Wave 2 CH07–CH11 owner merge
+→ Wave 3 CH12–CH16
 ```
 
-Ready for Book 06 Wave 2 drafting after Wave 1 owner merge: **YES**
+Ready for Book 06 Wave 3 drafting after Wave 2 owner merge: **YES**
 
 Whole-book Complete Draft 1 achieved: **NO**
 
