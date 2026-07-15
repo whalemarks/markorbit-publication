@@ -11,17 +11,13 @@ This directory contains the canonical MarkOrbit publications.
 | Book 03 | MarkOrbit Execution System | `book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
 | Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `book-05-markreg/` | Release Candidate 1 — Approved and Frozen |
-| Book 06 | MarkOrbit Lite | `book-06-markorbit-lite/` | Wave 3 CH12–CH16 Complete Draft 1 — Owner Accepted on Merge |
+| Book 06 | MarkOrbit Lite | `book-06-markorbit-lite/` | Wave 4 CH17–CH21 Complete Draft 1 — Owner Accepted on Merge |
 | Book 07 | Mark Global Service Network | `book-07-mark-global-service-network/` | Planned |
 
 ## Baseline Rule
 
-Books 01–04 form the pre-Product Portfolio Baseline.
+Books 01–04 form the pre-Product Portfolio Baseline. Book 02 semantic changes require Change Proposal. Books 05–07 consume the baseline and may not silently redefine it.
 
-Book 02 remains frozen. Semantic changes require the existing Change Proposal process.
+Book 05 RC1 is approved and frozen.
 
-Books 05–07 must consume the baseline and may not silently redefine it.
-
-Book 05 RC1 is frozen through its immutable content baseline, permanent release record and `release/book-05-rc1` pointer.
-
-Book 06 has accepted Product Charter v0.3, Product Baseline v0.1, Chapter Map B06-TOC-V0.1, Wave 1 CH00–CH06 and Wave 2 CH07–CH11. The current Wave 3 candidate drafts CH12–CH16 as Complete Draft 1 and authorizes Wave 4 CH17–CH21 after owner merge. The whole-book Complete Draft 1 has not yet been achieved.
+Book 06 has accepted Product Charter v0.3, Product Baseline v0.1, Chapter Map B06-TOC-V0.1 and Waves 1–3. The current Wave 4 candidate drafts CH17–CH21 as Complete Draft 1 and authorizes Wave 5 CH22–CH25 after owner merge. Whole-book Complete Draft 1 has not yet been achieved.
