@@ -5,8 +5,8 @@ book:
   manuscript_files: 0
   chapter_map: null
   product_charter: B06-PLN-0004
-  product_charter_version: v0.1_amended_to_v0.2
-  owner_decision_matrix: B06-PLN-0005
+  product_charter_version: v0.2
+  owner_decision_matrix: B06-PLN-0005_v0_2
   charter_amendment: B06-PLN-0006
   charter_review: B06-REV-0002
   amendment_review: B06-REV-0003
@@ -28,20 +28,16 @@ canonical_product:
   home_experience: daily_growth_desk
   canonical_identity: lightweight_workplace_product_for_trademark_professionals
   market_promise: daily_content_and_customer_development_workspace
+  chinese_expression: 每天有内容，每天有客户可开发
   primary_users:
     - independent_trademark_professionals
     - small_trademark_teams
   secondary_mode:
     - lightweight_entry_for_larger_workplaces
   organization_centered: true
-  product_loop:
-    - daily_supply
-    - inspect_and_choose
-    - prepare_and_render
-    - confirm
-    - publish_or_handoff
-    - outcome
-    - learn
+  primary_supply_loops:
+    - daily_content_supply
+    - intention_customer_supply
 
 commercial_model:
   reference_price_cny_month: 99
@@ -54,9 +50,11 @@ commercial_model:
       - moments_copy
     all_types_required_each_day: false
     topic_only_counts_as_fulfillment: false
+    script_only_counts_as_fulfillment: false
     video_brief_counts_as_video_delivery: false
+    actual_video_required_when_declared_video: true
   fixed_daily_lead_quantity: null
-  price_is_permanent_universal_price: false
+  reference_price_is_permanent_universal_price: false
 
 core_outputs:
   - daily_content_supply
@@ -72,7 +70,7 @@ capability_priorities:
 
 owner_decisions:
   od_01_identity:
-    recommendation: canonical_lite_plus_growth_action_market_positioning
+    recommendation: lite_plus_daily_content_customer_development_positioning
     status: accepted_on_owner_merge
   od_02_first_reference_journey:
     recommendation: daily_content_to_customer_development_journey
@@ -99,12 +97,12 @@ owner_decisions:
 
 mvp:
   first_reference_journey: daily_content_to_customer_development_journey
-  journey_variant:
+  journey_variants:
     - existing_client_value_journey
   mvp_0: thirty_day_daily_content_and_customer_development_loop
   daily_entitlement_days: 30
-  actual_video_required_when_unit_declared_video: true
   silent_external_action: false
+  autonomous_publish: false
   universal_case_ingestion: false
   full_crm_replacement: false
   full_mgsn_network: false
