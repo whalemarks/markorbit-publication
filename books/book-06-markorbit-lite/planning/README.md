@@ -12,7 +12,7 @@ Pre-Writing Audit — COMPLETE
 → controlled drafting
 ```
 
-The Product Charter baseline consists of the base Charter plus the subscription and daily-supply amendment.
+The Product Charter baseline consists of the base Charter, the consolidated Owner Decision Matrix and the subscription/daily-supply amendment.
 
 No manuscript drafting, Product implementation, production deployment, autonomous professional action or External Protected Action is authorized by the current planning stage.
 
@@ -22,7 +22,7 @@ No manuscript drafting, Product implementation, production deployment, autonomou
 - [B06-PLN-0002 — Authority and Source Map](B06-PLN-0002_Authority_and_Source_Map.md)
 - [B06-PLN-0003 — Supplemental Idea Assessment](B06-PLN-0003_Supplemental_Idea_Assessment.md)
 - [B06-PLN-0004 — Product Charter Candidate](B06-PLN-0004_Product_Charter_Candidate.md)
-- [B06-PLN-0005 — Product Charter Owner Decision Matrix](B06-PLN-0005_Product_Charter_Owner_Decision_Matrix.md)
+- [B06-PLN-0005 v0.2 — Consolidated Product Charter Owner Decision Matrix](B06-PLN-0005_Product_Charter_Owner_Decision_Matrix.md)
 - [B06-PLN-0006 — Subscription, Daily Content and Lead Supply Charter Amendment](B06-PLN-0006_Subscription_Daily_Content_and_Lead_Supply_Charter_Amendment.md)
 
 ## Charter gate
