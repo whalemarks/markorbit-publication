@@ -3,84 +3,70 @@
 ## Current status
 
 ```text
-PRODUCT CHARTER v0.3
+PRODUCT BASELINE v0.1
 — OWNER ACCEPTED ON MERGE
 ```
 
-Before merge, PR #63 presents the candidate Charter and OD-01–OD-10.
+PR #63 accepted Product Charter v0.3 and OD-01–OD-10. The current Product Baseline PR converts that Charter into controlled records, journeys, scenarios, Handoff contracts and evaluation criteria.
 
-Merge records owner acceptance of the enduring Lite Product baseline. It does not accept a chapter map or manuscript.
-
-## Charter acceptance set
+## Product identity
 
 ```text
-B06-PLN-0004 v0.3 — Product Charter
-+ B06-PLN-0005 v0.3 — Owner Decision Matrix
-+ B06-PLN-0006 — Commercial Plan and MVP Experiment Candidate
-+ B06-REV-0002 — Base Product Charter Architecture Review
-+ B06-REV-0003 — Product Charter v0.3 Review
-```
-
-## Product identity accepted on merge
-
-```text
-User-facing identity:
-MarkOrbit Lite
-= AI business operating system
+User-facing:
+AI business operating system
 for independent trademark professionals and small trademark agencies
 
-Architectural identity:
+Architectural:
 lightweight Workplace Product
 individual-first but organization-centered
 ```
 
-## Four core Product loops
+## Accepted Charter loops
+
+1. Customer and Service Growth;
+2. Professional Work Products;
+3. Professional Memory and Business Assets;
+4. MarkOrbit Ecosystem Handoff.
+
+`Today` remains the daily business cockpit, not formal Task or deadline authority.
+
+## Candidate Product Baseline
 
 ```text
-1. Customer and Service Growth
-2. Professional Work Products
-3. Professional Memory and Business Assets
-4. MarkOrbit Ecosystem Handoff
+B06-SPEC-0001 — Product-local Records and Ownership
+B06-SPEC-0002 — Reference Journeys and State Transitions
+B06-SPEC-0003 — Conformance Scenarios and Failure Paths
+B06-SPEC-0004 — Handoff, Work-Product, MVP and Historical Reconciliation
+B06-REV-0004 — Product Baseline Review
 ```
 
-These loops define the enduring Product.
-
-Daily content, Prospect Candidates, pricing and quotas are capabilities or commercial-plan decisions, not the Product constitution.
-
-## Today meaning
-
-`Today` is the daily business cockpit, not the Product identity.
+## Controlled ranges accepted on merge
 
 ```text
-Customer and Service Opportunities
-+ Professional Work Products
-+ Decisions and Prepared Actions
-+ MarkReg / MGSN / service outcomes
-+ Follow-up responses
-+ personal and organization continuity
+ML-S01–S05
+ML-O01–O08
+ML-W01–W10
+ML-M01–M08
+ML-H01–H08
+ML-E01–E06
+ML-J01–J04
+ML-SCN-01–24
+ML-HC-01–HC-08
+ML-AC-01–AC-12
 ```
 
-## Primary reference journey
+These are publication-level semantic records and tests, not database tables.
+
+## Reference journeys
 
 ```text
-Existing Customer Portfolio Opportunity Journey
+ML-J01 Existing Customer Portfolio Opportunity
+ML-J02 Historical Customer Reactivation
+ML-J03 Prospect Candidate Development
+ML-J04 Case-to-Work-Product
 ```
 
-```text
-customer and trademark portfolio
-→ relevant service-value observation
-→ explanation and supporting work product
-→ user-confirmed customer follow-up
-→ response and qualification
-→ MarkReg / formal Opportunity / service Handoff
-→ returned outcome and next opportunity
-```
-
-Additional planned journeys:
-
-- Historical Customer Reactivation;
-- Prospect Candidate Development;
-- Case-to-Work-Product.
+The first primary journey remains `ML-J01`.
 
 ## MVP 0
 
@@ -88,50 +74,54 @@ Additional planned journeys:
 Customer Opportunity-to-Governed-Service Loop
 ```
 
-MVP 0 must prove that Lite can:
-
-- use a small authorized customer and trademark set;
-- detect one relevant service-value candidate;
-- explain the source, context and uncertainty;
-- prepare one useful case/Knowledge-supported work product;
-- prepare a follow-up package;
-- support final user confirmation;
-- record customer response, no response, rejection or correction;
-- hand a qualified need to MarkReg or another governed service;
-- receive and present a typed result;
-- preserve useful outcome and reuse feedback.
-
-Content production and Prospect Candidate supply may be supporting experiments. They do not define MVP success alone.
-
-## Commercial-plan candidate
-
-The following remain under `B06-PLN-0006` as hypotheses:
+MVP 0 must prove a complete customer/service outcome:
 
 ```text
-RMB 99 / month entry plan
-recurring or daily content supply
-bounded Prospect Candidate supply
-basic Artifact / Render / Publish support
-MarkReg conversion path
-30-day Product-market experiment
+authorized customer and trademark context
+→ explainable Service-Value Candidate
+→ trustworthy work product and follow-up
+→ final user-confirmed customer action
+→ typed response and qualification
+→ MarkReg or governed service Handoff
+→ returned result
+→ scoped feedback, correction or reusable candidate
 ```
 
-These may change without redefining Lite.
+Content or prospect volume alone cannot pass.
 
-## Owner Decisions accepted on merge
+## Historical V1 reconciliation
+
+The early V1 model is historical discovery evidence.
+
+Accepted treatment classes:
 
 ```text
-OD-01: AI business operating system + lightweight Workplace identity
-OD-02: four core Product loops
-OD-03: Today as daily business cockpit
-OD-04: Existing Customer Portfolio Opportunity as first primary journey
-OD-05: content and prospect supply retained as capabilities, not identity
-OD-06: cases, memory and reusable capability as a core loop
-OD-07: MarkReg/MGSN integration through typed Handoff/Return only
-OD-08: hybrid minimization + final human confirmation default
-OD-09: RMB 99 and daily entitlement retained as commercial experiment
-OD-10: Customer Opportunity-to-Governed-Service MVP 0
+KEEP
+REFRAME
+PRODUCT-LOCAL
+MOVE TO OWNING SERVICE
+DEFER
+REJECT
 ```
+
+Useful requirements around unified objects, privacy, platform/private separation, audit and Local-ready design are preserved. Early table names and collapsed object models are not current schema authority.
+
+## Current locks
+
+- Product identity is not price, entitlement or MVP experiment.
+- Today item is not active Task.
+- Service-Value Candidate is not formal Opportunity.
+- Prospect Candidate is not Customer or Qualified Lead.
+- Content is not Artifact.
+- Artifact is not Document, Evidence or file.
+- Render complete is not approved.
+- Publish Package ready is not published.
+- Handoff is not approval.
+- Return is not Lite-owned formal truth.
+- Personal memory is not organization truth.
+- Case experience is not canonical Knowledge.
+- Local access is not synchronization or authority.
+- MarkReg and MGSN retain their lifecycle ownership.
 
 ## Findings
 
@@ -145,41 +135,21 @@ Blocking upstream finding: 0
 Change Proposal required: NO
 ```
 
-## Current locks
-
-- Lite is not defined by one price, entitlement, format or data source.
-- Existing customer and trademark context is the preferred first growth source.
-- Platform-supplied prospects remain one later source, not the Product foundation.
-- Content is one work-product class, not the complete Product.
-- Today is an operating cockpit, not formal Task or deadline authority.
-- Product-local candidates do not become formal Customer, Opportunity, Task or Communication state automatically.
-- Personal memory does not become organization truth automatically.
-- Case experience does not become Knowledge or public material automatically.
-- MarkReg owns the trademark Product lifecycle.
-- MGSN owns capability discovery, Trust, Routing and cross-Organization collaboration depth.
-- External send, Publish and protected action remain governed.
-- AI assists and prepares; it does not inherit professional identity or authority.
-
 ## Next gate
 
 ```text
-Product Charter owner merge
-→ Product-local record inventory and controlled IDs
-→ reference journeys and variants
-→ conformance scenarios
-→ Artifact / Render / Edit / Publish mapping
-→ MarkReg / MGSN / Review / Execution Handoff and Return mapping
-→ MVP 0 and evaluation baseline
-→ commercial-plan and entitlement experiments
-→ chapter-map candidate
+Product Baseline owner merge
+→ Chapter Map Candidate
+→ owner review and acceptance
+→ controlled manuscript drafting
 ```
 
-## Authorization state
+## Authorization
 
 ```text
-Publication planning: AUTHORIZED
-Product record / journey / scenario drafting after owner merge: AUTHORIZED
-Chapter-map acceptance: NOT YET AUTHORIZED
+Product Baseline owner acceptance on merge: AUTHORIZED
+Chapter Map Candidate preparation after merge: AUTHORIZED
+Chapter Map acceptance: NOT YET AUTHORIZED
 Manuscript drafting: NOT AUTHORIZED
 Implementation: NOT AUTHORIZED
 Production: NOT AUTHORIZED
