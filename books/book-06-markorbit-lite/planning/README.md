@@ -6,20 +6,20 @@ This directory contains controlled planning records for **Book 06 — MarkOrbit 
 
 ```text
 Pre-Writing Audit — COMPLETE
-→ Product Charter v0.2 — OWNER ACCEPTED ON MERGE
+→ Product Charter v0.3 — OWNER ACCEPTED ON MERGE
 → Product record / journey / scenario baseline — NEXT
 → chapter-map candidate
-→ controlled drafting
+→ controlled manuscript drafting
 ```
 
-The Product Charter baseline consists of:
+The Product Charter acceptance set is:
 
 ```text
-B06-PLN-0004 v0.2
-+ B06-PLN-0005 v0.2
-+ B06-PLN-0006
-+ B06-REV-0002
-+ B06-REV-0003
+B06-PLN-0004 v0.3 — Product Charter
++ B06-PLN-0005 v0.3 — Owner Decision Matrix
++ B06-PLN-0006 — Commercial Plan and MVP Experiment Candidate
++ B06-REV-0002 — Base architecture Review
++ B06-REV-0003 — Product Charter v0.3 Review
 ```
 
 No manuscript drafting, Product implementation, production deployment, autonomous professional action or External Protected Action is authorized by the current planning stage.
@@ -29,34 +29,37 @@ No manuscript drafting, Product implementation, production deployment, autonomou
 - [B06-PLN-0001 — Pre-Writing Audit](B06-PLN-0001_Pre-Writing_Audit.md)
 - [B06-PLN-0002 — Authority and Source Map](B06-PLN-0002_Authority_and_Source_Map.md)
 - [B06-PLN-0003 — Supplemental Idea Assessment](B06-PLN-0003_Supplemental_Idea_Assessment.md)
-- [B06-PLN-0004 v0.2 — Product Charter Candidate](B06-PLN-0004_Product_Charter_Candidate.md)
-- [B06-PLN-0005 v0.2 — Consolidated Product Charter Owner Decision Matrix](B06-PLN-0005_Product_Charter_Owner_Decision_Matrix.md)
-- [B06-PLN-0006 — Subscription, Daily Content and Lead Supply Charter Amendment](B06-PLN-0006_Subscription_Daily_Content_and_Lead_Supply_Charter_Amendment.md)
+- [B06-PLN-0004 v0.3 — Product Charter Candidate](B06-PLN-0004_Product_Charter_Candidate.md)
+- [B06-PLN-0005 v0.3 — Owner Decision Matrix](B06-PLN-0005_Product_Charter_Owner_Decision_Matrix.md)
+- [B06-PLN-0006 — Commercial Plan and MVP Experiment Candidate](B06-PLN-0006_Commercial_Plan_and_MVP_Experiment_Candidate.md)
 
 ## Charter gate
 
 Merge of PR #63 records owner acceptance of:
 
-- Lite as a lightweight Workplace Product for trademark professionals;
-- the daily content and customer-development market promise;
-- the RMB 99 monthly reference subscription;
-- at least one usable Daily Content Unit per calendar day;
-- illustrated post, short video or Moments copy as supported daily formats;
-- intention-customer candidate supply as a second core output;
-- the Daily Growth Desk home experience;
-- the Daily Content-to-Customer Development Journey;
-- OD-01–OD-08;
-- the 30-Day Daily Content and Customer Development MVP.
+- Lite as the AI business operating system for independent trademark professionals and small agencies;
+- Lite's architectural identity as a lightweight Workplace Product;
+- Customer and Service Growth;
+- Professional Work Products;
+- Professional Memory and Business Assets;
+- MarkOrbit Ecosystem Handoff;
+- Today as the daily business cockpit;
+- Existing Customer Portfolio Opportunity as the first primary journey;
+- Customer Opportunity-to-Governed-Service as MVP 0;
+- OD-01–OD-10;
+- RMB 99, recurring content and Prospect Candidate supply as commercial experiment candidates only.
 
-The next planning records must define:
+## Next Product-baseline task
 
-- subscription and entitlement records;
-- Daily Content Unit, Artifact, Render and Publish state;
-- intention-customer candidate and qualification records;
-- controlled IDs;
-- reference journeys;
-- conformance scenarios;
-- Handoff/Return mapping;
-- 30-day fulfillment, quality, cost and retention evaluation.
+The next controlled task must define:
+
+1. Product-local record inventory and controlled IDs;
+2. existing-customer, historical-customer, prospect and case-to-work-product journeys;
+3. conformance scenarios and failure paths;
+4. Artifact / Render / Edit / Publish mapping;
+5. MarkReg / MGSN / Review / Execution and Owning-Service Handoff/Return mapping;
+6. MVP 0 evaluation and evidence;
+7. historical V1 model reconciliation;
+8. commercial-plan and entitlement experiment records.
 
 A chapter map may be accepted only after these records reconcile.
