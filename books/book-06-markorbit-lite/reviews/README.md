@@ -5,18 +5,20 @@
 - [B06-REV-0003 — Product Charter v0.3 Review](B06-REV-0003_Product_Charter_v0_3_Review.md)
 - [B06-REV-0004 — Product Baseline Review](B06-REV-0004_Product_Baseline_Review.md)
 - [B06-REV-0005 — Chapter Map Candidate Review](B06-REV-0005_Chapter_Map_Candidate_Review.md)
+- [B06-REV-0006 — Wave 1 Product Constitution Review](B06-REV-0006_Wave_1_Product_Constitution_Review.md)
 
 ## Current gate
 
-`B06-REV-0005` confirms:
+`B06-REV-0006` confirms that CH00–CH06:
 
-- 34 chapters cover the complete accepted Product Baseline;
-- all four Product loops and all `ML-*` families are mapped;
-- ML-J01–J04 receive explicit narrative coverage;
-- Book 04 architecture is consumed rather than rewritten;
-- MarkReg and MGSN lifecycle depth remain outside Book 06;
-- content, Prospect Candidate supply and RMB 99 remain subordinate capabilities/experiments;
-- Part-sized drafting waves are coherent and reviewable;
-- no upstream Change Proposal is required.
+- establish a coherent Product constitution;
+- preserve Product Charter v0.3 and Product Baseline v0.1;
+- define Lite as an AI business operating system and lightweight Workplace Product;
+- allocate formal authority correctly;
+- explain the four Product loops;
+- keep content, prospects and commercial plans subordinate;
+- preserve Human responsibility and destination revalidation;
+- introduce no Books 01–05 conflict or Book 07 preemption;
+- contain no blocking or major finding.
 
-Owner merge accepts B06-TOC-V0.1 and authorizes controlled manuscript drafting beginning with CH00–CH06.
+Owner merge accepts Wave 1 as Complete Draft 1 and authorizes Wave 2 CH07–CH11 drafting only.

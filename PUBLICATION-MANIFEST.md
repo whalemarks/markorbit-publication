@@ -24,12 +24,12 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](gov
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
 | Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Release Candidate 1 — Approved and Frozen |
-| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Chapter Map v0.1 — Owner Accepted on Merge |
+| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Wave 1 CH00–CH06 Complete Draft 1 — Owner Accepted on Merge |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
 Book 05 is frozen through its accepted RC1 content baseline, permanent release record and `release/book-05-rc1` pointer.
 
-Book 06 Product Charter v0.3 and Product Baseline v0.1 are accepted. The current Chapter Map candidate establishes B06-TOC-V0.1 and the controlled manuscript sequence. No manuscript chapter has yet been created.
+Book 06 Product Charter v0.3, Product Baseline v0.1 and Chapter Map B06-TOC-V0.1 are accepted. The current Wave 1 candidate drafts Front Matter and Part I as Complete Draft 1. Whole-book Complete Draft 1 has not yet been achieved.
 
 ## Planned Book Positioning
 
@@ -73,7 +73,7 @@ ML-HC-01–HC-08
 ML-AC-01–AC-12
 ```
 
-Chapter Map candidate:
+Accepted Chapter Map:
 
 ```text
 B06-TOC-V0.1
@@ -81,19 +81,19 @@ B06-CH-00–B06-CH-33
 7 Parts plus Front Matter
 ```
 
-Writing movement:
+Current Wave 1 manuscript:
 
 ```text
-Product Constitution
-→ Daily Operating Model
-→ Customer and Service Growth
-→ Professional Work Products
-→ Cases, Memory and Business Assets
-→ MarkOrbit Gateways and Continuity
-→ Conformance, Economics and Evolution
+CH00 — Preface
+CH01 — Table of Contents
+CH02 — Why MarkOrbit Lite Exists
+CH03 — The AI Business Operating System for Trademark Professionals
+CH04 — Position Between Workplace, Core, Execution, MarkReg and MGSN
+CH05 — Users, Value Promise and the Four Product Loops
+CH06 — Principles, Boundaries and Non-Goals
 ```
 
-Owner merge authorizes controlled drafting beginning with CH00–CH06.
+Wave 1 merge accepts CH00–CH06 as Complete Draft 1 and authorizes Wave 2 CH07–CH11.
 
 RMB 99, recurring/daily content, Prospect Candidate supply and quotas remain commercial experiments rather than Product constitution.
 
@@ -119,11 +119,14 @@ Books 01–04 Portfolio Baseline
 → Book 05 MarkReg RC1 approved and frozen
 → Book 06 Product Charter v0.3 accepted
 → Book 06 Product Baseline v0.1 accepted
-→ Book 06 Chapter Map v0.1 owner merge
-→ Wave 1 manuscript drafting CH00–CH06
+→ Book 06 Chapter Map v0.1 accepted
+→ Wave 1 CH00–CH06 owner merge
+→ Wave 2 CH07–CH11
 ```
 
-Ready for Book 06 controlled manuscript drafting after Chapter Map owner merge: **YES**
+Ready for Book 06 Wave 2 drafting after Wave 1 owner merge: **YES**
+
+Whole-book Complete Draft 1 achieved: **NO**
 
 Ready for unrestricted implementation: **NO**
 
