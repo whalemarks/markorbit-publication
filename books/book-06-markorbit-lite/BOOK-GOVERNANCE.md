@@ -21,16 +21,16 @@ They do not override Books 01–05 or authorize silent upstream semantic change.
 The Book 06 Product Charter v0.2 candidate consists of:
 
 ```text
-B06-PLN-0004 — Base Product Charter Candidate
-+ B06-PLN-0005 — Consolidated Owner Decision Matrix
+B06-PLN-0004 — Product Charter v0.2 candidate
++ B06-PLN-0005 v0.2 — Consolidated Owner Decision Matrix
 + B06-PLN-0006 — Subscription, Daily Content and Lead Supply Amendment
 + B06-REV-0002 — Base Charter Review
 + B06-REV-0003 — Amendment Review
 ```
 
-Where `B06-PLN-0006` explicitly corrects a commercial or Product interpretation in `B06-PLN-0004`, the later amendment controls.
+`B06-PLN-0006` records the owner clarification and remains the source for the detailed subscription, daily-fulfillment and intention-customer contract.
 
-The amendment does not change Core, Execution, Workplace, MarkReg or MGSN authority.
+The combined Charter does not change Core, Execution, Workplace, MarkReg or MGSN authority.
 
 ## 3. Book responsibility
 
