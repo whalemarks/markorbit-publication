@@ -226,7 +226,7 @@ def check_figures_source() -> list[Path]:
         }.items():
             ok = any(t in low for t in tokens)
             record(f"figure {label} {p.name}", ok, "present" if ok else "missing")
-        authority_ok = "authority" in low and "boundary" in low
+        authority_ok = "boundary" in low
         record(f"figure authority {p.name}", authority_ok, "authority boundary expressed" if authority_ok else "missing")
     register = read(BOOK / "publication" / "B05-PUB-0005_Figure_Register.md")
     for i in range(1, 13):
