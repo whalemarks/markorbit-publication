@@ -287,7 +287,7 @@ local data ≠ ungoverned data
 ## Reviews
 
 - [B06-REV-0001 — Pre-Writing Audit Review](reviews/B06-REV-0001_Pre-Writing_Audit_Review.md)
-- [B06-REV-0002 — Base Product Charter Review](reviews/B06-REV-0002_Product_Charter_Candidate_Review.md)
+- [B06-REV-0002 — Base Product Charter Architecture Review](reviews/B06-REV-0002_Product_Charter_Candidate_Review.md)
 - [B06-REV-0003 — Product Charter v0.3 Review](reviews/B06-REV-0003_Product_Charter_v0_3_Review.md)
 
 ## Current gate
