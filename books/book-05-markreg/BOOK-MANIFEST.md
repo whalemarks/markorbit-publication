@@ -3,21 +3,22 @@
 ## Identity
 
 - **Canonical path:** `books/book-05-markreg/`
-- **Status:** Complete Draft 1 — PF-07 Source Apparatus Complete
+- **Status:** Complete Draft 1 — PF-08 Structural and Rendered Validation Complete
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
 - **Portfolio dependency:** MO-PUB-BASELINE-0001
 - **Primary Product:** MarkReg
-- **Current gate:** PF-08 — Structural and Rendered Validation
+- **Current gate:** PF-09 — Owner RC1 and Publication Decision
 
 ## Directory Inventory
 
-- `manuscript/` — CH00–CH47, all editorially complete;
-- `specifications/` — four controlled v0.3 Product contracts;
+- `manuscript/` — CH00–CH47, editorially complete;
+- `specifications/` — B05-SPEC-0001–0004 v0.3;
 - `appendices/` — Appendix A–G v0.3 reader projections;
-- `figures/` — eleven retained Controlled Figure Source v1.0 files plus disposition index;
-- `publication/` — style, Source, Glossary, Index, Figure Register, Back Matter, cross-book and RC1 records;
+- `figures/` — eleven retained Figure sources and the FIG-05 merge disposition;
+- `publication/` — source, glossary, index, figure, Back Matter and RC1 records;
+- `validation/` — reproducible PF-08 validator, rendering configuration and B05-VAL-0001;
 - `planning/` — Product and publication plans;
-- `reviews/` — B05-REV-0001–0027 and B05-ERRATA-0001.
+- `reviews/` — B05-REV-0001–0028 and B05-ERRATA-0001.
 
 ## Manuscript Inventory
 
@@ -32,18 +33,10 @@
 | CH37–CH42 | Registration and Portfolio Continuity | complete |
 | CH43–CH47 | Product Experience and Evolution | complete |
 
-## Controlled Specifications
-
-| Specification | Status |
-| --- | --- |
-| B05-SPEC-0001 | v0.3 — Product records, Decisions and lineages reconciled |
-| B05-SPEC-0002 | v0.3 — EL-01–40 / RK-01–18 current-ID reconciliation complete |
-| B05-SPEC-0003 | v0.3 — MR-SCN-01–41 and participant surfaces reconciled |
-| B05-SPEC-0004 | v0.3 — Pack, Rule, AI and commercial records reconciled |
-
-Current controlled ranges:
+## Controlled Baseline
 
 ```text
+B05-SPEC-0001–0004: v0.3
 MR-CR-01–08
 MR-A01–A30
 MR-C01–C12
@@ -59,45 +52,48 @@ RK-01–18
 
 `MR-C01` is Capability Need. `MR-C12` is Applicant and Authority Context.
 
-## Appendix Inventory
-
-| Appendix | Status |
-| --- | --- |
-| A — Artifact and Decision Map | v0.3 reconciled; FIG-02/03 placement available |
-| B — State and Authority Matrix | v0.3 reconciled; FIG-04 placement available |
-| C — Participant Rights Matrix | v0.3 reconciled; FIG-09 placement available |
-| D — Reference Journeys | v0.3 reconciled; FIG-12 placement available |
-| E — Conformance Scenarios | v0.3 reconciled |
-| F — Jurisdiction Pack Checklist | v0.3 reconciled; FIG-10 placement available |
-| G — Conformance Profiles | v0.3 reconciled; FIG-11 placement available |
-
-Appendix content is complete. Actual layout and rendered navigation remain PF-08.
-
-## Figure Inventory
+## Appendix and Figure Inventory
 
 ```text
-planned identities: 12
-retained controlled sources: 11
+Appendix A–G: content-reconciled and present in the validation edition
+Planned Figure identities: 12
+Retained Figure sources: 11
 B05-FIG-05: merged into B05-FIG-03
-renumbering: none
-rendered validation: PF-08
+Rendered SVG files: 11
+Figure renumbering: none
 ```
-
-Every retained source has caption, source references, intended placement, Mermaid, accessibility description, grayscale/legibility notes and authority boundary.
 
 ## Publication Apparatus
 
 | Record | Status |
 | --- | --- |
 | B05-PUB-0001 | Controlled Editorial Standard v0.2 |
-| B05-PUB-0002 | Controlled Reader Source Notice v1.0 — complete |
-| B05-PUB-0003 | Controlled Glossary v0.3 — stable layout inputs complete |
-| B05-PUB-0004 | Controlled Subject Index v0.3 — stable layout inputs complete |
-| B05-PUB-0005 | Controlled Figure Register v1.0 — 11 retained / 1 merged |
-| B05-PUB-0006 | Controlled Back Matter Map v0.2 — PF-07 reconciled |
-| B05-PUB-0007 | Cross-Book Reconciliation v0.2 — complete |
-| B05-PUB-0008 | RC1 Checklist v0.3 — PF-07 updated |
+| B05-PUB-0002 | Controlled Reader Source Notice v1.0 |
+| B05-PUB-0003 | Controlled Glossary v0.3 |
+| B05-PUB-0004 | Controlled Subject Index v0.3 |
+| B05-PUB-0005 | Controlled Figure Register v1.0 |
+| B05-PUB-0006 | Controlled Back Matter Map v0.2 |
+| B05-PUB-0007 | Cross-Book Reconciliation v0.2 |
+| B05-PUB-0008 | RC1 Checklist v0.4 — PF-08 updated |
 | B05-PUB-0009 | Controlled Term Audit v0.2 — closed |
+| B05-VAL-0001 | PF-08 Structural and Rendered Validation v1.0 — PASS |
+
+## PF-08 Evidence
+
+```text
+Review: B05-REV-0028
+GitHub Actions run: 29388230449
+Validated head SHA: 27f2b4759773ff4f591282e60f0a3eacc778f8dd
+Artifact digest: sha256:2a582f53a95bc50a2d9159ff6f8cf3a11e3811ccfc4bd96ed42adbd29e980e00
+Checks: 573 / 573 PASS
+Warnings: 0
+Errors: 0
+Validation PDF pages: 360
+Selectable-text characters: 475,563
+PDF navigation annotations: 135
+```
+
+Generated HTML, PDF and SVG outputs are reproducible CI artifacts, not canonical source files or RC1 files.
 
 ## Finding Register
 
@@ -105,9 +101,10 @@ Every retained source has caption, source references, intended placement, Mermai
 PF06C2-F01: CLOSED
 PF06C3-F01: CLOSED
 PF06C4-F01: CLOSED
-PF06D-F01: CLOSED — MR-C12 registered
+PF06D-F01: CLOSED
 Open PF-06 finding: 0
-Open PF-07 semantic finding: 0
+Open PF-07 finding: 0
+Open PF-08 finding: 0
 ```
 
 ## Reference Journey Baseline
@@ -115,19 +112,11 @@ Open PF-07 semantic finding: 0
 - `EMBERLOOP`: UK registered and maintenance active; US under examination; EU in opposition; Japan/Australia future-action candidates only.
 - `RIVERKITE`: four ordinary renewals; one ownership-linked renewal; one cancellation defense; title, use-Evidence and licence actions open.
 
-## Current Reviews
-
-- B05-REV-0001–0013 — manuscript and publication baseline;
-- B05-REV-0014–0017 — PF-02–PF-05;
-- B05-REV-0018–0026 — PF-06;
-- B05-REV-0027 — PF-07 Figures and Publication Apparatus.
-
 ## Gate Sequence
 
 ```text
-PF-01–PF-07: COMPLETE
-→ PF-08 structural and rendered validation
-→ PF-09 RC1 and owner publication Decision
+PF-01–PF-08: COMPLETE
+→ PF-09 owner RC1 and publication Decision
 ```
 
-Release Candidate 1, final publication, implementation, production deployment and External Protected Action remain unauthorized.
+Release Candidate 1, final publication, implementation, production deployment and External Protected Action remain unauthorized until separately decided.
