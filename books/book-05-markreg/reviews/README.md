@@ -13,19 +13,26 @@ This directory contains manuscript, architecture, specification, editorial, erra
 - B05-REV-0019–0021 — PF-06B CH00–CH22;
 - B05-REV-0022–0025 — PF-06C CH23–CH47;
 - B05-REV-0026 — PF-06D Whole-Book Editorial Closure;
+- B05-REV-0027 — PF-07 Figures and Publication Apparatus;
 - B05-ERRATA-0001 — Part VI/Part VII chapter boundary.
 
 ## Latest Decision
 
-`B05-REV-0026_PF-06D_Whole-Book_Editorial_Closure.md` accepts:
+`B05-REV-0027_PF-07_Figures_and_Publication_Apparatus.md` accepts:
 
-- B05-SPEC-0001–0004 v0.3;
-- Appendix A–G v0.3 content reconciliation;
-- Glossary and Subject Index v0.3;
-- Term Audit closure;
-- Cross-Book Reconciliation;
-- PF-06D and PF-06 completion;
-- PF-07 authorization.
+- disposition of all twelve planned figure identities;
+- eleven retained Controlled Figure Source v1.0 files;
+- merger of B05-FIG-05 into B05-FIG-03;
+- captions, source references and intended placements;
+- accessibility descriptions and source-level grayscale/legibility review;
+- B05-PUB-0002 Controlled Reader Source Notice v1.0;
+- final Reader Notice and citation convention;
+- B05-PUB-0005 Figure Register v1.0;
+- B05-PUB-0006 Back Matter Map v0.2;
+- stable Glossary, Subject Index and Figure page-reference inputs;
+- PF-07 completion and PF-08 authorization.
+
+Rendered Mermaid, links, pagination, actual grayscale output, target publication and non-truncation remain PF-08.
 
 ## Finding Register
 
@@ -35,15 +42,16 @@ PF06C3-F01: CLOSED
 PF06C4-F01: CLOSED
 PF06D-F01: CLOSED — MR-C12 Applicant and Authority Context registered
 Open PF-06 finding: 0
+Open PF-07 semantic finding: 0
 ```
 
 ## Current Gate
 
 ```text
-PF-01–PF-06: COMPLETE
-PF-07: AUTHORIZED AND NEXT
-PF-08: OPEN
+PF-01–PF-07: COMPLETE
+PF-08: AUTHORIZED AND NEXT
 PF-09: OPEN
+Release Candidate 1: NOT AUTHORIZED
 ```
 
-Release Candidate 1, final publication, implementation, production deployment and External Protected Action remain separate unfinished gates.
+Final publication, implementation, production deployment, autonomous professional action and External Protected Action remain separate unfinished gates.
