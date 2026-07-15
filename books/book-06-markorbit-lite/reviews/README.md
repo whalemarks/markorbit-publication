@@ -4,18 +4,27 @@
 - [B06-REV-0002 — Product Charter Candidate Review](B06-REV-0002_Product_Charter_Candidate_Review.md)
 - [B06-REV-0003 — Subscription, Daily Content and Lead Supply Review](B06-REV-0003_Subscription_Daily_Content_and_Lead_Supply_Review.md)
 
-## Review gate
+## Combined Review gate
 
-`B06-REV-0002` confirms that the base Product Charter Candidate:
+The Product Charter v0.2 acceptance set is:
+
+```text
+B06-PLN-0004 — Base Charter
++ B06-PLN-0005 v0.2 — Consolidated OD-01–OD-08
++ B06-PLN-0006 — Subscription and Daily Supply Amendment
++ B06-REV-0002 — Base Charter Review
++ B06-REV-0003 — Amendment Review
+```
+
+`B06-REV-0002` confirms that the base Product Charter:
 
 - preserves Books 01–05;
 - defines a focused Lite Product loop;
 - does not create parallel Core or Execution semantics;
 - preserves Workplace, MarkReg and MGSN boundaries;
-- defines a bounded Case Center and MVP;
-- presents OD-01–OD-06 clearly.
+- defines a bounded Case Center and cross-Product Handoff model.
 
-`B06-REV-0003` confirms that the Charter amendment:
+`B06-REV-0003` confirms that the amendment:
 
 - replaces the vague one-recommendation interpretation with a concrete daily subscription promise;
 - accepts RMB 99 per month as the initial reference price;
