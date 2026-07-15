@@ -7,20 +7,24 @@
 - [B06-REV-0005 — Chapter Map Candidate Review](B06-REV-0005_Chapter_Map_Candidate_Review.md)
 - [B06-REV-0006 — Wave 1 Product Constitution Review](B06-REV-0006_Wave_1_Product_Constitution_Review.md)
 - [B06-REV-0007 — Wave 2 Daily Operating Model Review](B06-REV-0007_Wave_2_Daily_Operating_Model_Review.md)
+- [B06-REV-0008 — Wave 3 Customer and Service Growth Review](B06-REV-0008_Wave_3_Customer_and_Service_Growth_Review.md)
 
 ## Current gate
 
-`B06-REV-0007` confirms that CH07–CH11:
+`B06-REV-0008` confirms that CH12–CH16:
 
-- define Today as a sourced, time-bound cockpit rather than Task or deadline authority;
-- define active user, Organization, purpose, source, classification and local/synchronization boundaries;
-- preserve Observation, Signal, Candidate, Recommendation, Qualification and formal-state distinctions;
-- preserve client interest and professional risk over revenue ranking;
-- distinguish inspection, acceptance-for-preparation, Review, confirmation and execution;
-- define Prepared Action, Readiness Result and Continuation State;
-- define minimized Handoff, destination revalidation and typed Return;
-- preserve stale, blocked, failed, rejected and unknown states;
+- project ML-J01 Existing Customer Portfolio Opportunity;
+- project ML-J02 Historical Customer Reactivation;
+- project ML-J03 Prospect Candidate Development;
+- preserve the accepted growth-source priority;
+- preserve source, identity, duplicate, relationship-owner, contactability, opt-out and suppression controls;
+- define ML-W06 Development Package;
+- distinguish prepared outreach, sent Communication, response and qualified need;
+- preserve typed response, failure and unknown states;
+- preserve ML-O08 as Product-local qualification;
+- define Opportunity and MarkReg Handoffs with destination revalidation;
+- introduce no parallel Customer, Opportunity, Matter or MarkReg lifecycle;
 - introduce no Books 01–05 conflict or Book 07 preemption;
 - contain no blocking or major finding.
 
-Owner merge accepts Wave 2 as Complete Draft 1 and authorizes Wave 3 CH12–CH16 drafting only.
+Owner merge accepts Wave 3 as Complete Draft 1 and authorizes Wave 4 CH17–CH21 drafting only.
