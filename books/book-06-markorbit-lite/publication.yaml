@@ -1,32 +1,87 @@
 book:
   id: B06
   title: MarkOrbit Lite
-  status: pre_writing_audit_v0_1
+  status: product_charter_v0_1_owner_accepted_on_merge
   manuscript_files: 0
   chapter_map: null
-  product_charter: null
+  product_charter: B06-PLN-0004
+  product_charter_version: v0.1
+  owner_decision_matrix: B06-PLN-0005
+  charter_review: B06-REV-0002
 
 authority:
   primary:
     - MarkOrbit Orbital Architecture Canon vNext
     - Books 01-04 Portfolio Baseline
     - Book 05 MarkReg RC1 for bounded cross-product contracts
+    - B06 Pre-Writing Audit accepted on PR 62 merge
   supplemental_inputs_override_baseline: false
 
-canonical_starting_profile:
+canonical_product:
   product_type: lightweight_workplace_product
   home_experience: today_next_best_action
+  canonical_identity: today_centered_lightweight_workplace_product_for_trademark_professionals
+  market_promise: ai_assisted_growth_and_action_workspace
   primary_users:
     - independent_trademark_professionals
     - small_trademark_teams
+  secondary_mode:
+    - lightweight_entry_for_larger_workplaces
   organization_centered: true
+  product_loop:
+    - today
+    - understand
+    - choose
+    - prepare
+    - confirm
+    - handoff
+    - outcome
+    - learn
+
+capability_pillars:
+  - today_and_attention
+  - growth_and_relationship_value
+  - case_knowledge_and_artifact_enablement
+  - prepared_action_and_cross_product_handoff
+  - personal_and_organization_continuity
+
+owner_decisions:
+  od_01_identity:
+    recommendation: canonical_lite_plus_ai_growth_action_market_promise
+    status: accepted_on_owner_merge
+  od_02_first_reference_journey:
+    recommendation: existing_client_value_journey
+    status: accepted_on_owner_merge
+  od_03_case_center_mvp_depth:
+    recommendation: curated_reference_first_case_to_artifact
+    status: accepted_on_owner_merge
+  od_04_local_private_baseline:
+    recommendation: hybrid_minimization
+    status: accepted_on_owner_merge
+  od_05_mgsn_depth:
+    recommendation: shortlist_preview_and_capability_need_handoff_only
+    status: accepted_on_owner_merge
+  od_06_external_action_mode:
+    recommendation: final_human_confirmation_default
+    status: accepted_on_owner_merge
+
+mvp:
+  first_reference_journey: existing_client_value_journey
+  mvp_0: attention_to_prepared_value_loop
+  silent_external_action: false
+  universal_case_ingestion: false
+  full_crm_replacement: false
+  full_mgsn_network: false
 
 planning:
-  pre_writing_audit: complete_on_owner_merge
+  pre_writing_audit: complete
   authority_source_map: complete
   supplemental_idea_assessment: complete
-  product_charter_candidate: next
-  chapter_map_candidate: blocked_until_product_charter_review
+  product_charter_candidate: complete
+  product_charter_review: pass
+  owner_decisions: accepted_on_owner_merge
+  product_record_journey_scenario_baseline: next_after_owner_merge
+  chapter_map_candidate: blocked_until_record_journey_scenario_reconciliation
   manuscript_drafting: not_authorized
 
 findings:
@@ -40,7 +95,8 @@ findings:
 
 authorization:
   publication_planning: true
-  product_charter_drafting_after_audit_merge: true
+  product_record_journey_scenario_drafting_after_owner_merge: true
+  chapter_map_acceptance: false
   manuscript_drafting: false
   implementation: false
   production: false
