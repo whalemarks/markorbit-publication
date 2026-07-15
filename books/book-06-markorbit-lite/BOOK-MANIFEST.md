@@ -9,7 +9,7 @@ Status: Product Charter v0.2 — Owner Accepted on Merge
 Canonical path: books/book-06-markorbit-lite/
 Manuscript files: 0
 Chapter map: not created
-Base Product Charter: B06-PLN-0004 v0.1
+Product Charter: B06-PLN-0004 v0.2 candidate
 Consolidated Owner Decision Matrix: B06-PLN-0005 v0.2
 Subscription and Daily Supply Amendment: B06-PLN-0006 v0.1
 Base Charter Review: B06-REV-0002
