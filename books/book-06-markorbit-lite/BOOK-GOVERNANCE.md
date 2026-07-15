@@ -16,19 +16,17 @@ Owner-supplied Product clarifications may amend a candidate Charter before merge
 
 They do not override Books 01–05 or authorize silent upstream semantic change.
 
-## 2. Charter composition
+## 2. Charter acceptance set
 
 The Book 06 Product Charter v0.2 candidate consists of:
 
 ```text
-B06-PLN-0004 — Product Charter v0.2 candidate
+B06-PLN-0004 v0.2 — Product Charter
 + B06-PLN-0005 v0.2 — Consolidated Owner Decision Matrix
-+ B06-PLN-0006 — Subscription, Daily Content and Lead Supply Amendment
-+ B06-REV-0002 — Base Charter Review
-+ B06-REV-0003 — Amendment Review
++ B06-PLN-0006 — Subscription, Daily Content and Lead Supply detail
++ B06-REV-0002 — Base architecture Review
++ B06-REV-0003 — Subscription and daily-supply Review
 ```
-
-`B06-PLN-0006` records the owner clarification and remains the source for the detailed subscription, daily-fulfillment and intention-customer contract.
 
 The combined Charter does not change Core, Execution, Workplace, MarkReg or MGSN authority.
 
