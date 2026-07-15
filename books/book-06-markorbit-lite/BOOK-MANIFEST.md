@@ -12,7 +12,7 @@ Chapter map: not created
 Product Charter: B06-PLN-0004 v0.3
 Owner Decision Matrix: B06-PLN-0005 v0.3
 Commercial Plan and MVP Experiment: B06-PLN-0006 v0.1
-Base Architecture Review: B06-REV-0002
+Base Product Charter Architecture Review: B06-REV-0002
 Product Charter v0.3 Review: B06-REV-0003
 ```
 
@@ -132,9 +132,9 @@ case experience ≠ canonical Knowledge
 ```text
 Existing upstream baseline sufficient: YES
 Product Charter v0.3 candidate complete: YES
-Base architecture Review: PASS
+Base Product Charter Architecture Review: PASS
 Product Charter v0.3 Review: PASS
-Commercial Plan and MVP Experiment Review: PASS WITH CONTROL
+Commercial Plan and MVP Experiment: PASS WITH CONTROL
 Book 02 Change Proposal required: NO
 Book 03 amendment required: NO
 Book 04 amendment required: NO
