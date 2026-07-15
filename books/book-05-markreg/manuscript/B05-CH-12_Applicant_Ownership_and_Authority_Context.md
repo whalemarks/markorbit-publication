@@ -6,11 +6,11 @@
 
 ## Chapter Purpose
 
-Applicant identity is not a text field. It affects ownership, use, priority, documents, signatures, provider instructions, later recordals, enforcement and portfolio continuity.
+Applicant identity is not a text field. It affects ownership, use, priority, Documents, signatures, provider instructions, later recordals, enforcement and portfolio continuity.
 
 This chapter defines how MarkReg exposes applicant, ownership and authority questions early enough to prevent avoidable rework without choosing the owner autonomously.
 
-The controlled example is `EL-05` in B05-SPEC-0002.
+The controlled example is `EL-05` in B05-SPEC-0002 v0.3. The canonical Product Context is `MR-C12 Applicant and Authority Context` under B05-SPEC-0001 v0.3.
 
 ## 1. Product Question
 
@@ -38,22 +38,22 @@ One person or entity may hold several roles, but the roles remain separate.
 MarkReg may use:
 
 - organization and client records;
-- legal-name and registration evidence;
+- legal-name and registration Evidence;
 - existing portfolio ownership;
 - group structure;
 - prior applications, assignments and recordals;
 - licensing or distribution context;
-- business-use evidence;
+- business-use Evidence;
 - priority claims;
 - signatory and delegation records;
 - user statements;
-- professional Decisions.
+- Professional Decisions.
 
 Conflicting sources must remain visible until resolved. A current business-owner claim is not automatically the official owner, applicant or authorized signatory.
 
 ## 3. Controlled Context
 
-The chapter produces or updates `MR-C01 Applicant and Authority Context`, recording:
+The chapter produces or updates `MR-C12 Applicant and Authority Context`, recording:
 
 - proposed applicant identity and stable reference;
 - legal name, entity type, address and jurisdiction;
@@ -69,17 +69,19 @@ The chapter produces or updates `MR-C01 Applicant and Authority Context`, record
 - Professional Review and client confirmation state;
 - downstream records affected by change.
 
-The Product-local context remains distinct from formal Organization, Customer, Trademark, Order, Matter and official-owner records.
+The Product-local Context remains distinct from formal Organization, Client, Trademark, Order, Matter, representative appointment and official-owner records.
+
+`MR-C01` is reserved for `Capability Need` in provider routing and must not be reused for applicant or authority meaning.
 
 ## 4. Product Behavior
 
 MarkReg should:
 
 1. propose candidates from authorized context;
-2. compare them with portfolio and priority evidence;
+2. compare them with portfolio and priority Evidence;
 3. preserve conflicting sources;
-4. ask the smallest question that changes risk or requirements;
-5. explain document, signature, tax, provider and later-ownership effects;
+4. ask the smallest question that changes risk or Requirements;
+5. explain Document, signature, tax, provider and later-ownership effects;
 6. request Professional Review for material ownership, predecessor, priority or authority issues;
 7. block only affected readiness dimensions;
 8. preserve the final accountable Decision and rejected alternatives.
@@ -90,7 +92,7 @@ AI may extract entity details or identify inconsistencies. It may not determine 
 
 Authority to perform one action does not establish authority for another.
 
-Separate evidence may be required to:
+Separate Evidence may be required to:
 
 - provide factual information;
 - accept a Proposal or Quote;
@@ -110,7 +112,7 @@ The user should see:
 - proposed applicant and source state;
 - other owner candidates found;
 - the conflict or uncertainty;
-- expected effects on eligibility, documents, priority and signatures;
+- expected effects on eligibility, Documents, priority and signatures;
 - instructing and signatory roles;
 - unresolved professional questions;
 - one primary action: **Confirm applicant and authority context**.
@@ -125,8 +127,8 @@ MarkReg preserves both sources and asks whether the group follows a centralized 
 
 The resulting Decision:
 
-- creates a new Applicant and Authority Context version;
-- invalidates the first requirement preview;
+- creates a new `MR-C12` version;
+- invalidates the first Requirement preview;
 - updates signatory questions;
 - preserves the parent-company alternative and rationale;
 - does not change any existing official owner record.
@@ -135,13 +137,13 @@ The resulting Decision:
 
 ### `MR-SCN-01` — Applicant ambiguity
 
-When the selected applicant conflicts with portfolio evidence, MarkReg shows both sources, explains affected work and blocks the affected protected action until resolved or professionally reviewed. The Product does not choose the owner.
+When the selected applicant conflicts with portfolio Evidence, MarkReg shows both sources, explains affected work and blocks the affected protected action until resolved or professionally reviewed. The Product does not choose the owner.
 
 ### `MR-SCN-11` — Expired or insufficient authority
 
 An expired or out-of-scope signatory, delegation or representative record blocks only the affected action. Role membership alone is not current authority.
 
-Minimum evidence includes competing sources, user facts, Professional Review, accountable Decision, authority record and affected versions.
+Minimum Evidence includes competing sources, user facts, Professional Review, accountable Decision, authority record and affected versions.
 
 ## 9. Change Propagation
 
@@ -158,7 +160,7 @@ Changing the applicant, signatory or instructor may affect:
 - readiness and Approval;
 - future assignment or recordal risk.
 
-The Product must identify and revalidate the affected chain. Prior decisions remain traceable.
+The Product must identify and revalidate the affected chain. Prior Decisions remain traceable.
 
 ## 10. Handoff to CH13
 

@@ -1,218 +1,180 @@
 # Appendix G — MarkReg Conformance Profiles
 
-**Status:** Controlled Reader Draft — PF-04 and PF-05 Reconciled; PF-08 Validation Pending  
-**Primary sources:** CH46–CH47, B05-SPEC-0001 v0.2, B05-SPEC-0003 v0.2 and B05-SPEC-0004 v0.2  
-**Reader purpose:** allow a Product edition or implementation to state honestly which MarkReg capabilities, jurisdictions, services and lifecycle stages it supports.
+**Status:** Controlled Reader Draft v0.3 — PF-06D Reconciled; PF-08 Validation Pending  
+**Primary sources:** CH46–CH47 and B05-SPEC-0001, 0003 and 0004 v0.3  
+**Reader purpose:** allow an edition or implementation to state honestly which MarkReg capabilities, jurisdictions, services and stages it supports.
 
 ## G.1 Conformance Rule
 
-Not every implementation must launch the full lifecycle.
-
 ```text
-partial scope + accurate profile statement
+partial scope + accurate Profile statement
 = permitted
 
 partial scope + Full-Lifecycle claim
 = non-conforming
 ```
 
-A profile states tested Product behavior. It does not grant production or protected-action authority.
-
----
+A Profile describes tested Product behavior. It does not grant production or External Protected Action authority.
 
 ## G.2 Required Conformance Statement
 
-A declaration must identify:
+`MR-G10 Conformance Statement` identifies:
 
 - Product and implementation version;
-- supported profile or profiles;
-- supported jurisdictions, services and proceeding types;
-- exact Jurisdiction Pack, module and Rule versions;
-- Pack support state for each jurisdiction/service/stage;
-- supported applicant or owner types and routes;
-- participant surfaces;
-- required Human roles and qualifications;
+- supported Profile(s);
+- jurisdictions, services and proceedings;
+- exact Pack/module/Rule versions and Support States;
+- supported applicant/owner types and routes;
+- participant surfaces and required Human roles;
 - Owning Service and Execution dependencies;
 - provider, connector and manual routes;
 - excluded stages and known limitations;
-- scenario, evaluation and validation status;
+- scenario, Evaluation and validation state;
 - suspended or retired modules;
-- production authority state;
-- external protected-action authority state.
+- implementation, production and protected-action authority state.
 
-Marketing claims must not exceed this statement.
-
----
+Marketing claims cannot exceed the Statement.
 
 ## G.3 Profile Inventory
 
-### Profile 1 — Foundation
+### 1 — Foundation
 
-Minimum capability:
+Minimum:
 
-- MarkReg Product identity and non-goals;
-- Books 01–04 authority boundaries;
-- participant and AI role distinctions;
+- Product identity and non-goals;
+- Books 01–04 boundaries;
+- participant, applicant/authority and AI role distinctions;
 - Product, formal, Execution, provider and official-state distinctions;
-- source, version, Review, approval and correction principles;
+- Source, version, Review, Approval and correction principles;
 - organization and permission context.
 
-**Minimum Pack evidence:** source and authority boundary rules only. No jurisdiction/service support claim is required.
+Minimum scenarios: 01, 09, 10, 11, 18, 22, 35, 36, 40 and 41.
 
-**Minimum scenarios:** MR-SCN-01, 09, 10, 11, 18, 22, 35, 36, 40 and 41.
+No user-facing service journey is supported by Foundation alone.
 
-This profile does not support a user-facing trademark service journey by itself.
+### 2 — Guided Decision
 
-### Profile 2 — Guided Decision
-
-Includes Foundation plus:
+Foundation plus:
 
 - Business Context and Need Brief;
-- jurisdiction and route candidates;
-- filing units and applicant context;
+- jurisdiction/route and filing-unit candidates;
+- `MR-C12 Applicant and Authority Context`;
 - classification and goods/services guidance;
 - purpose-limited search and risk;
 - Recommendation Set, Option Set and Proposal;
 - Human correction and Review.
 
-**Minimum Pack evidence:** each declared jurisdiction/service module must be at least Guidance Capable.
+Each declared module is at least Guidance Capable.
 
-**Minimum additional scenarios:** MR-SCN-02, 03, 04, 13, 14, 37 and 38.
+Additional scenarios: 02, 03, 04, 13, 14, 37 and 38.
 
-External filing is not supported.
+### 3 — Commercial Intake
 
-### Profile 3 — Commercial Intake
+Guided Decision plus:
 
-Includes Guided Decision plus:
-
-- transparent Price Basis and Quote;
+- transparent price basis and Quote;
 - exact-version Client Acceptance;
 - Commercial Instruction;
 - Formal Intake and Requirement Set;
 - dimensional Readiness Assessment;
-- governed Handoff to formal work.
+- governed Handoff.
 
-**Minimum Pack evidence:** current fee-driving units, official-fee sources, later-stage fee disclosure, Intake requirements, document rules and commercial variance behavior.
+Pack Evidence includes fee units, Official Fee Sources, later-stage disclosure, Intake/Document Rules and variance behavior.
 
-**Minimum additional scenarios:** MR-SCN-05, 06, 07, 08, 15, 28 and 38.
+Additional scenarios: 05, 06, 07, 08, 15, 28 and 38.
 
-The profile may stop at governed Handoff.
+### 4 — Filing Preparation
 
-### Profile 4 — Filing Preparation
+Commercial Intake plus:
 
-Includes Commercial Intake plus:
-
-- Filing Package Candidate;
-- source and form lineage;
-- material diff;
+- Filing Package Candidate and diff;
 - client factual confirmation;
 - Professional Review;
-- version-specific Filing Approval;
-- provider Capability Need and route candidates.
+- exact-version Filing Approval;
+- Capability Need and route candidates.
 
-**Minimum Pack evidence:** each declared filing module must be Preparation Capable, including form, document, package and Review behavior.
+Declared filing modules are Preparation Capable.
 
-**Minimum additional scenarios:** MR-SCN-16, 17, 18, 19, 20 and 37.
+Additional scenarios: 16, 17, 18, 19, 20 and 37.
 
-Execution and official submission may remain outside scope.
+### 5 — Governed Filing
 
-### Profile 5 — Governed Filing
+Filing Preparation plus:
 
-Includes Filing Preparation plus:
+- Human Selection;
+- appointment, Provider Instruction and Provider Acceptance;
+- governed provider, connector or manual Execution;
+- idempotency;
+- submission, delivery, provider and official acknowledgement states;
+- unknown-state reconciliation and duplicate safety;
+- official Evidence Return.
 
-- Human route or provider Selection;
-- appointment, instruction and Provider Acceptance;
-- governed manual, provider or connector Execution;
-- stable idempotency identity;
-- sent, delivery, provider and official acknowledgement states;
-- unknown state, reconciliation and duplicate safety;
-- official evidence return.
+Each declared route is Execution Capable and explicitly named.
 
-**Minimum Pack evidence:** each declared route must be Execution Capable with provider or connector scope, submission evidence, acknowledgement, reconciliation, suspension and rollback behavior.
+Additional scenarios: 21, 22, 23, 24, 25, 37 and 38.
 
-**Minimum additional scenarios:** MR-SCN-21, 22, 23, 24, 25, 37 and 38.
+### 6 — Post-Filing
 
-The declaration must identify supported offices, providers and connectors.
-
-### Profile 6 — Post-Filing
-
-Includes relevant earlier profiles plus selected:
+Relevant earlier Profile contracts plus selected:
 
 - Official Event Snapshots;
-- examination and Issue Sets;
-- Response Strategy and Response Package;
-- deadlines and client Decisions;
-- publication and opposition windows;
-- adversarial or remedy contexts;
+- examination, Issue Set and response;
+- Deadlines and client Decisions;
+- publication/opposition windows;
+- adversarial/remedy Contexts;
 - governed response filing;
 - Outcome Snapshot and corrected Communication.
 
-**Minimum Pack evidence:** a service-specific Lifecycle Capable module for each declared proceeding type, including deadline, response, fee, provider and official-outcome rules.
+Each proceeding type has a Lifecycle Capable module at the exact claimed scope.
 
-**Minimum additional scenarios:** MR-SCN-10, 23, 26, 27, 28, 29, 37, 38 and 39.
+Additional scenarios: 10, 23, 26, 27, 28, 29, 37, 38 and 39.
 
-The declaration must state supported proceeding types.
+### 7 — Portfolio Continuity
 
-### Profile 7 — Portfolio Continuity
+Relevant earlier Profile contracts plus:
 
-Includes relevant earlier profiles plus:
-
-- Registration Outcome and Right Baseline;
-- certificate and official-record distinctions;
-- Maintenance Obligation Sets;
-- renewal packages;
-- changes and recordals;
-- assignment, licensing and chain of title;
-- use evidence and vulnerability;
+- Registration Outcome, scope diff and Right Baseline;
+- certificate/official-record distinction;
+- Maintenance Obligations and Use-Evidence Coverage;
+- Renewal Packages and Renewal Approval;
+- `MR-C12` owner/authority verification where material;
+- recordal, transaction, licence and Chain-of-Title View;
 - Portfolio Continuity View and Action Plan.
 
-**Minimum Pack evidence:** declared registration, maintenance, renewal, recordal and transaction modules must be Guidance, Preparation, Execution or Lifecycle Capable at the level actually claimed.
+Each later-stage module declares its actual Guidance, Preparation, Execution or Lifecycle Support State.
 
-**Minimum additional scenarios:** MR-SCN-12, 30, 31, 32, 33, 37 and 38.
+Additional scenarios: 12, 30, 31, 32, 33, 37 and 38.
 
-One view must preserve independent right histories.
+### 8 — Full-Lifecycle
 
-### Profile 8 — Full-Lifecycle
+Profiles 1–7 plus:
 
-Includes Profiles 1–7 plus:
-
-- cross-stage artifact and state continuity;
+- cross-stage lineage and state continuity;
 - standalone, Lite, Workplace and cross-Product surfaces;
-- participant-specific visibility and action rights;
-- governed Jurisdiction Pack and Rule versioning;
-- Pack-bound AI assistance;
-- layered quality and lifecycle metrics;
-- pilot, stop, rollback and evolution controls;
-- complete conformance and correction behavior.
+- Participant Surface Projections and action rights;
+- governed Pack and Rule versioning;
+- Pack-bound AI Assistance;
+- layered metrics, Evaluation, pilot, stop and rollback controls;
+- complete Conformance and correction behavior.
 
-**Minimum Pack evidence:** every declared jurisdiction/service/stage must have an explicit support state, current Pack version, scenario evidence, professional owner and suspension process. Unsupported services remain exclusions.
+Every declared jurisdiction/service/stage has explicit Support State, Pack Version, scenario Evidence, professional owner and suspension process.
 
-**Minimum additional scenarios:** MR-SCN-34 through MR-SCN-41, all applicable PF-05 scenarios and every applicable zero-tolerance scenario.
+Full-Lifecycle does not mean every jurisdiction or proceeding is supported.
 
-Full-Lifecycle does not mean every jurisdiction or every proceeding is supported.
+## G.4 Evidence Matrix
 
----
-
-## G.4 Profile Evidence Matrix
-
-| Evidence | Foundation | Guided Decision | Commercial Intake | Filing Preparation | Governed Filing | Post-Filing | Portfolio Continuity | Full-Lifecycle |
+| Evidence | Foundation | Guided | Commercial | Preparation | Filing | Post-Filing | Portfolio | Full |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| constitutional rules | required | required | required | required | required | required | required | required |
-| artifact lineage | boundary | recommendation | commercial | package and approval | Execution and evidence | event and response | right and obligation | complete |
+| constitutional Rules | required | required | required | required | required | required | required | required |
+| record lineage | boundary | recommendation | commercial | Package/Approval | Execution/Evidence | event/response | right/obligation | complete |
 | participant matrix | required | required | required | required | required | required | required | required |
-| scenario evidence | constitutional | recommendation | Intake and commercial | Review and approval | unknown and duplicate safety | event, deadline and Communication | renewal and ownership | all families |
-| official evidence | none | none | none | none | required | required | required | required |
-| Pack state | boundary only | Guidance Capable | guidance plus commercial rules | Preparation Capable | Execution Capable | proceeding Lifecycle Capable | declared later-stage modules | all declared modules |
-| fee evidence | none | explanation if shown | current components and variance | package-linked | route-linked | stage-linked | renewal/recordal linked | all declared stages |
-| form evidence | none | none unless shown | requirement level | exact form/schema | executable version | proceeding-specific | renewal/recordal specific | all declared stages |
-| metrics | boundary defects | user and recommendation | commercial and readiness | package quality | reliability and safety | deadline and Communication | lifecycle continuity | layered model |
-| failure recovery | permission | version change | expired Quote and payment | invalid approval | reconciliation and retry | corrected notice | owner and recordal conflict | complete |
+| scenarios | constitutional | recommendation | Intake/commercial | Review/Approval | unknown/duplicate | event/Deadline | renewal/title | all applicable |
+| official Evidence | none | none | none | none | required | required | required | required |
+| Pack State | boundary | Guidance | guidance + commercial | Preparation | Execution | Lifecycle by proceeding | declared later-stage modules | all declared modules |
+| metrics | boundary defects | user/recommendation | commercial/readiness | Package quality | reliability/safety | Deadline/Communication | continuity | layered |
+| recovery | permission | version change | expired Quote/payment | invalid Approval | reconciliation/retry | corrected notice | owner/recordal conflict | complete |
 
----
-
-## G.5 Pack Support-State Limit
-
-A Profile claim cannot exceed its Pack evidence.
+## G.5 Pack-State Limit
 
 | Pack module state | Maximum permitted claim |
 | --- | --- |
@@ -224,240 +186,61 @@ A Profile claim cannot exceed its Pack evidence.
 | Suspended | no new dependent protected action |
 | Retired | historical lineage only |
 
-Examples:
-
-- a Preparation Capable renewal module may support renewal-package drafting but not renewal filing;
-- an Execution Capable new-filing module does not imply opposition support;
-- a Lifecycle Capable registration module does not imply assignment recordal support;
-- a suspended fee module blocks affected new Quotes or protected actions.
-
----
+A Profile claim cannot exceed Pack Evidence.
 
 ## G.6 Required Jurisdiction and Service Evidence
 
-Every declared jurisdiction/service combination must identify:
+Every declared combination identifies Pack ID/version, module, Support State, effective period, Sources/Rules, professional owner, applicant/owner types, routes, forms/Documents, fee units, Deadline Rules, provider/connector/manual route, scenario results, exclusions and suspension trigger.
 
-- Pack ID and version;
-- module and support state;
-- effective period;
-- Source and Rule Records;
-- professional owner;
-- supported applicant or owner types;
-- supported routes;
-- forms and document versions;
-- fee table and fee-driving units;
-- deadline rules where applicable;
-- provider, connector or manual route;
-- applicable scenario results;
-- known exclusions;
-- suspension and review trigger.
+A generic country form is insufficient.
 
-A generic country form cannot satisfy this requirement.
+## G.7 Commercial and Authority Evidence
 
----
+Commercial Intake and later Profiles demonstrate immutable Quote versions, separated Official/Professional/Provider/Tax/Currency components, later-stage disclosure, discount/credit authority, client/internal visibility, fee-change behavior and payment/Approval separation.
 
-## G.7 Commercial Evidence by Profile
+Governed Filing additionally demonstrates duplicate-payment handling and that payment or Provider Report does not establish official acknowledgement.
 
-### Guided Decision
+Publication, pilot, release and implementation remain separate:
 
-When costs are shown, the surface must distinguish estimates and known exclusions.
+```text
+Book publication
+≠ implementation release
+≠ production deployment
+≠ External Protected Action authority
+```
 
-### Commercial Intake
+## G.8 Zero-Tolerance Rule
 
-Must prove:
-
-- immutable Quote versions;
-- official, professional, provider, tax and currency components;
-- later-stage fee disclosure;
-- discount and credit authority;
-- client versus internal visibility;
-- fee-change and repricing behavior.
-
-### Governed Filing
-
-Must additionally prove:
-
-- payment gate and Filing Approval remain distinct;
-- provider payable and client price remain distinguishable;
-- duplicate payment and failed-action handling;
-- official acknowledgement is not inferred from payment.
-
-### Post-Filing and Portfolio Continuity
-
-Must prove stage-specific prices for:
-
-- examination or response;
-- opposition or remedy;
-- registration-stage work;
-- maintenance and declarations;
-- renewal and surcharges;
-- recordals and transactions.
-
----
-
-## G.8 Zero-Tolerance Requirements
-
-A Profile cannot pass if an applicable zero-tolerance scenario fails.
-
-Minimum zero-tolerance coverage includes:
-
-- expired or insufficient authority;
-- wrong-version approval;
-- incomplete required Review;
-- provider over-access;
-- technical success represented as official acknowledgement;
-- duplicate payment, filing or Return effect;
-- unsafe retry;
-- unverified deadline conflict;
-- client silence treated as authority;
-- private Lite data transferred without purpose;
-- wrong-organization access;
-- AI current-rule conclusion without controlled sources;
-- publication status treated as production authority;
-- Pack support claimed above its evidence state;
-- hidden margin inside official fee;
-- silent fee, form or rule mutation after acceptance or approval.
-
----
+A Profile cannot pass if an applicable zero-tolerance scenario fails, including expired authority, wrong-version Approval, incomplete Review, provider over-access, unsupported official state, duplicate effect, unsafe retry, unverified Deadline conflict, silence treated as authority, private data over-transfer, wrong-organization access, AI current-rule claim without Sources, publication treated as production, support claim above Pack Evidence, hidden Margin or silent Rule/fee/form mutation.
 
 ## G.9 Profile Dependency Rule
 
-Profiles are cumulative only where the declared journey consumes earlier capability.
+Profiles are cumulative only where the journey consumes earlier capabilities. A Post-Filing edition may ingest an existing formal Matter without offering Guided Decision, but it must conform to Foundation and every earlier record, Approval, commercial or Execution contract it consumes.
 
-A Post-Filing implementation may ingest an existing official Matter without offering Guided Decision, but it must conform to Foundation rules and every earlier artifact, approval, commercial or Execution contract it consumes.
+Prior-stage records are declared as created by this edition, imported through Handoff, referenced from an Owning Service or unsupported.
 
-The declaration must state whether prior-stage records are:
+## G.10 Conformance Review Record
 
-- created by this edition;
-- imported through a Handoff;
-- referenced from an Owning Service;
-- unsupported.
+A Profile review records:
 
----
+- `MR-G10 Conformance Statement`;
+- applicable scenario results;
+- Pack/module Evidence;
+- `MR-G08 Metric Definitions` and `MR-G09 Evaluation Records`;
+- `MR-C11 Pilot Context` where applicable;
+- `MR-D13 Pilot or Release Decision`;
+- unresolved findings and exceptions;
+- implementation, production and protected-action authority states.
 
-## G.10 Partial-Profile Example
-
-A conforming Commercial Intake edition may support:
-
-```text
-Need Brief
-→ Recommendation Set
-→ Option Set
-→ Proposal
-→ Quote
-→ Client Acceptance
-→ Formal Intake
-→ Readiness Assessment
-→ governed Handoff
-```
-
-It must state:
-
-- supported Guidance Capable jurisdiction modules;
-- filing preparation and submission are outside scope;
-- no official filing status is produced;
-- professional and Owning Service Handoffs are required;
-- applicable scenarios pass;
-- price and later-stage exclusions are visible.
-
-It may not claim filing automation or Full-Lifecycle support.
-
----
-
-## G.11 Full-Lifecycle Example
-
-A Full-Lifecycle candidate may support:
+## G.11 PF-06D Reconciliation State
 
 ```text
-Need and recommendation
-→ commercial Intake
-→ package and approval
-→ governed filing
-→ official events and response
-→ registration and maintenance
-→ renewal, recordal and portfolio continuity
-→ embedded experience, rules, metrics and evolution
+Profiles 1–8: PRESERVED
+Current Specification versions: RECONCILED
+MR-C12 applicant/authority coverage: ADDED
+Scenario minimums and Pack limits: RECONCILED
+Publication / implementation / production separation: RECONCILED
+PF-08 validation: OPEN
 ```
 
-It still must declare:
-
-- exact supported jurisdiction/service modules;
-- Pack state per module;
-- supported provider and connector routes;
-- mandatory Human roles;
-- excluded proceedings;
-- tested scenarios and Pack versions;
-- suspended modules;
-- separate production and protected-action gates.
-
----
-
-## G.12 Upgrade Rule
-
-```text
-feature exists
-≠ Profile supported
-
-feature exists
-+ source, Pack, authority, commercial, failure and scenario evidence
-→ Profile candidate
-
-Profile candidate
-+ controlled Review
-→ declared support
-```
-
-Moving upward requires evidence for every added capability and every applicable zero-tolerance scenario.
-
----
-
-## G.13 Non-Conforming Claims
-
-Examples include:
-
-- global support from one generic country form;
-- Full-Lifecycle claim where the Product stops at filing;
-- official status without office evidence;
-- autonomous professional advice without eligible Review;
-- provider-network claim without appointment and acceptance controls;
-- AI legal certainty from model confidence;
-- publication RC status presented as production authority;
-- hidden unsupported jurisdictions or excluded services;
-- Profile declaration without scenario results;
-- jurisdiction support without Pack module and support state;
-- renewal or recordal support inferred from a new-filing Pack;
-- client price presented as official fee;
-- suspended module presented as active.
-
----
-
-## G.14 Profile Control Matrix
-
-| Profile | Core scenarios | Minimum jurisdiction/commercial evidence before RC1 |
-| --- | --- | --- |
-| Foundation | 01, 09–11, 18, 22, 35, 36, 40, 41 | boundary rules only |
-| Guided Decision | Foundation + 02–04, 13, 14, 37, 38 | Guidance Capable modules |
-| Commercial Intake | Guided + 05–08, 15, 28 | current fee, Intake and variance evidence |
-| Filing Preparation | Commercial + 16–20 | Preparation Capable forms and packages |
-| Governed Filing | Filing + 21–25 | Execution Capable route and official evidence |
-| Post-Filing | relevant prior + 10, 23, 26–29, 37–39 | proceeding Lifecycle Capable modules |
-| Portfolio Continuity | relevant prior + 12, 30–33, 37, 38 | maintenance, renewal, recordal and transaction modules |
-| Full-Lifecycle | all applicable scenarios | all declared modules, PF-07 and PF-08 complete |
-
----
-
-## G.15 Reconciliation Status
-
-```text
-Profile scope and scenario requirements: COMPLETE
-Participant and surface requirements: COMPLETE
-Pack support-state limits: COMPLETE
-Jurisdiction and service evidence: COMPLETE
-Commercial evidence by Profile: COMPLETE
-PF-04 Appendix G work: COMPLETE
-PF-05 Appendix G work: COMPLETE
-PF-07 publication integration: PENDING
-PF-08 scenario and structural validation: PENDING
-```
-
-Appendix G is a controlled reader draft reconciled through PF-05. A Profile becomes operationally meaningful only when its declared Pack modules, scenario evidence and authority gates pass.
+Appendix G does not certify any implementation or authorize production or External Protected Action.

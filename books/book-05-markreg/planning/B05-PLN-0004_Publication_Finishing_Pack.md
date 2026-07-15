@@ -3,208 +3,155 @@
 ## Status
 
 - **Pack ID:** B05-PUBLICATION-FINISHING-PACK-001
-- **Status:** Active — PF-01 through PF-05, PF-06A, PF-06B and PF-06C complete
-- **Source reviews:** B05-REV-0012 through B05-REV-0025
-- **Scope:** Book 05 CH00–CH47 and controlled publication assets
+- **Status:** Active — PF-01 through PF-06 complete
+- **Source reviews:** B05-REV-0012 through B05-REV-0026
+- **Scope:** CH00–CH47 and controlled publication assets
 - **Target:** Release Candidate 1 candidate
-- **Current substantive gate:** PF-06D — Whole-Book Closure
-- **Open controlled findings:** PF06C2-F01, PF06C3-F01 and PF06C4-F01
+- **Current gate:** PF-07 — Figures and Publication Apparatus
+- **Open PF-06 findings:** none
 
 ## 1. Purpose
 
-This pack converts the complete CH00–CH47 manuscript into a coherent, validated and reviewable publication candidate without silently changing the MarkReg Product constitution.
+Convert Complete Draft 1 into a coherent, validated and reviewable publication candidate without silently changing MarkReg’s Product constitution.
 
-It is editorial and controlled-specification work. It is not implementation, deployment or authorization for an External Protected Action.
+This pack does not implement or deploy MarkReg and does not authorize External Protected Action.
 
 ## 2. Workstream Sequence
 
 ```text
-PF-01 metadata normalization
-+ PF-02 artifact and Decision reconciliation
-+ PF-03 reference journey consolidation
-+ PF-04 scenario and user-surface consolidation
-+ PF-05 jurisdiction and commercial reconciliation
-→ PF-06 editorial finishing
+PF-01 metadata
++ PF-02 records and Decisions
++ PF-03 reference journeys
++ PF-04 scenarios and surfaces
++ PF-05 Pack and commercial controls
++ PF-06 editorial finishing
 → PF-07 figures and publication apparatus
 → PF-08 structural and rendered validation
-→ PF-09 Release Candidate and owner publication gate
+→ PF-09 RC1 and owner publication Decision
 ```
 
-## 3. Completed Controlled Reconciliation
+## 3. Completed Work
+
+### PF-01 — COMPLETE
+
+All CH00–CH47 active metadata uses Complete Draft 1 and owner-accepted B05-TOC-V0.1.
+
+### PF-02–PF-05 — COMPLETE
+
+PF-06D supersedes the earlier v0.2 projections with one reconciled v0.3 baseline:
 
 ```text
-PF-01 — CH00–CH47 metadata complete
-PF-02 — B05-SPEC-0001 v0.2; artifacts, Decisions and lifecycle lineage
-PF-03 — B05-SPEC-0002 v0.2; EMBERLOOP and RIVERKITE journey facts
-PF-04 — B05-SPEC-0003 v0.2; MR-SCN-01–41 and participant surfaces
-PF-05 — B05-SPEC-0004 v0.2; Pack, Rule and commercial controls
+B05-SPEC-0001 v0.3 — Product records and Decisions
+B05-SPEC-0002 v0.3 — EL-01–40 and RK-01–18
+B05-SPEC-0003 v0.3 — MR-SCN-01–41 and surfaces
+B05-SPEC-0004 v0.3 — Pack, Rule, AI and commercial controls
 ```
 
-## 4. Editorial Workstreams
+### PF-06A–PF-06C — COMPLETE
 
-### PF-06A — Editorial Baseline
+- editorial standard and term audit established;
+- CH00–CH47 line-edited;
+- all Parts and transitions reconciled;
+- PF-01 closed;
+- B05-REV-0018–0025 accepted.
 
-**Status:** COMPLETE
+### PF-06D — COMPLETE
 
-Delivered B05-PUB-0001 v0.2, B05-PUB-0009 v0.1, Glossary v0.2, Subject Index v0.2 and B05-REV-0018.
+Delivered:
 
-### PF-06B — CH00–CH22
+- all four Specifications reconciled to v0.3;
+- `MR-C12 Applicant and Authority Context` registered;
+- PF06C2-F01, PF06C3-F01, PF06C4-F01 and PF06D-F01 closed;
+- Appendix A–G reconciled;
+- Glossary and Subject Index upgraded to v0.3;
+- Term Audit v0.2 closed;
+- Cross-Book Reconciliation v0.2 passed;
+- RC1 Checklist v0.2 updated;
+- B05-REV-0026 accepted;
+- PF-06 overall closed.
 
-**Status:** COMPLETE
+## 4. Preserved Locks
 
 ```text
-PF-06B1 — CH00–CH07 / B05-REV-0019
-PF-06B2A — CH08–CH15 / EL-01–EL-08 / B05-REV-0020
-PF-06B2B — CH16–CH22 / EL-09–EL-15 / B05-REV-0021
+Recommendation ≠ Decision
+Readiness ≠ Approval
+Approval ≠ Execution
+Provider Report ≠ Official Truth
+Submission ≠ official acknowledgement
+Registration ≠ certificate availability
+Renewal Approval ≠ renewed right
+Visibility ≠ action right
+Pilot ≠ production
+Publication ≠ implementation or protected-action authority
 ```
 
-### PF-06C — CH23–CH47
-
-**Status:** COMPLETE
+Reference states remain:
 
 ```text
-PF-06C1 — CH23–CH29 / EL-16–EL-22 / B05-REV-0022
-PF-06C2 — CH30–CH36 / EL-23–EL-29 / B05-REV-0023
-PF-06C3 — CH37–CH42 / EL-30–EL-35 / B05-REV-0024
-PF-06C4 — CH43–CH47 / EL-36–EL-40 / B05-REV-0025
+EMBERLOOP — UK registered; US under examination; EU opposition; Japan/Australia candidates
+RIVERKITE — four ordinary renewals; one ownership-linked renewal; one cancellation defense; Evidence/licence work open
 ```
 
-Approximate editorial reductions:
-
-```text
-Part IV — 2,409 → 1,433 lines / about 40%
-Part V — 3,438 → 760 lines / about 78%
-Part VI — 2,188 → 1,069 lines / about 51%
-Part VII — 3,041 → 1,061 lines / about 65%
-```
-
-PF-06C4 completed:
-
-- standalone, Lite, Workplace and cross-Product experience;
-- Handoff Envelope, Product Session and Return Envelope;
-- participant visibility, action rights, role switching and delegation;
-- Jurisdiction Pack, Rule, Pack Version and Rule Change governance;
-- Organization Overlay and Pack-bound AI Task/Output records;
-- metrics, evaluation, MVP and Pilot controls;
-- Conformance Profiles and authority gates;
-- PF-01 and PF-06C closure.
-
-## 5. Controlled Findings for PF-06D
-
-### PF06C2-F01
-
-B05-SPEC-0002 `EL-23–EL-29` Part V record references require alignment to B05-SPEC-0001 v0.2.
-
-### PF06C3-F01
-
-B05-SPEC-0002 `EL-30–EL-35` and `RK-09–RK-13` record references require alignment to B05-SPEC-0001 v0.2.
-
-### PF06C4-F01
-
-B05-SPEC-0002 `EL-36–EL-40` and `RK-14–RK-18` record references require alignment to B05-SPEC-0001 v0.2.
-
-The journey facts and final states remain accepted. These findings block PF-06D closure and PF-08 validation.
-
-## 6. PF-06D — Whole-Book Closure
+## 5. PF-07 — Figures and Publication Apparatus
 
 **Status:** AUTHORIZED AND NEXT
 
 ### Scope
 
-- B05-SPEC-0001 through B05-SPEC-0004;
-- Appendix A–G;
-- B05-PUB-0002 through B05-PUB-0009 where relevant;
-- Glossary and Subject Index;
-- all manuscript-to-Specification and Appendix references;
-- all `EL-*`, `RK-*`, `MR-*`, `MR-SCN-*` and Conformance Profile references;
-- status, Manifest, README, YAML and Changelog consistency.
-
-### Required corrections
-
-1. reconcile all three controlled findings in B05-SPEC-0002;
-2. update Appendix D and any derived journey or index records;
-3. verify that B05-SPEC-0001 remains the controlling active-ID register;
-4. preserve EMBERLOOP and RIVERKITE facts and final positions;
-5. reconcile Glossary and Subject Index with CH00–CH47;
-6. remove residual historical or non-canonical active terminology;
-7. confirm no silent Architecture Canon or Books 02–04 semantic change.
+- review the twelve planned figures in B05-PUB-0005;
+- retain, combine, revise or formally remove each figure;
+- create controlled source assets for retained figures;
+- add captions and source references;
+- preserve Product/formal/Execution/provider/official distinctions;
+- preserve independent jurisdictions and rights;
+- complete grayscale, accessibility and legibility review;
+- complete B05-PUB-0002 Source and Authority Notes;
+- complete final reader notice and page-reference inputs;
+- update publication inventories;
+- issue a separate PF-07 Review.
 
 ### Acceptance
 
-- all three findings closed with exact correction record;
-- four Specifications mutually consistent;
-- Appendix A–G consistent with Specifications and manuscript;
-- Glossary and Subject Index reconciled;
-- whole-book term, source, link and cross-reference editorial review completed;
-- separate PF-06D Review accepted;
-- PF-06 overall may then close.
+- every planned figure has a disposition;
+- every retained figure has source, caption and accessibility evidence;
+- no figure creates a new semantic or authority claim;
+- Source and reader notices are complete;
+- Glossary/Index page-reference inputs are ready for layout;
+- PF-07 Review passes.
 
-PF-06D is not PF-08. Automated structural, link and rendered-format validation remains a later gate.
+## 6. PF-08 — Structural and Rendered Validation
 
-## 7. Metadata Status
+**Status:** OPEN
 
-```text
-PF-01A CH00–CH01: COMPLETE
-PF-01B CH02–CH47: COMPLETE
-PF-01 overall: COMPLETE
-```
+Validate:
 
-## 8. Preserved Locks
+- 48 manuscript files and Appendix A–G;
+- filenames, headings, numbering and metadata;
+- Markdown links and fenced blocks;
+- controlled IDs, scenario IDs and Profiles;
+- Manifest/Status/README/YAML agreement;
+- figures, captions and references;
+- Markdown and target rendered formats;
+- page breaks, navigation, accessibility and non-truncation.
 
-```text
-Recommendation ≠ Decision
-Readiness ≠ approval
-Approval ≠ Execution
-Submission ≠ official acknowledgement
-Product projection ≠ Official Truth
-Surface ≠ authority
-Visibility ≠ action right
-Model memory ≠ current law
-Pilot ≠ production
-Publication ≠ implementation or protected-action authority
-```
+PF-08 is not complete merely because PF-06 findings are closed.
 
-Reference-journey locks:
+## 7. PF-09 — RC1 and Owner Publication Gate
+
+**Status:** OPEN
+
+Requires PF-01–PF-08 completion, no blocking finding, owner publication Decision, RC1 baseline commit and explicit implementation/authority boundaries.
+
+## 8. Current Decision
 
 ```text
-EMBERLOOP — UK registered; US under examination; EU in opposition; Japan/Australia candidates only
-RIVERKITE — four ordinary renewals; one ownership-linked renewal; one cancellation defense; Evidence/licence actions open
+PF-01–PF-06: COMPLETE
+PF-07: AUTHORIZED AND NEXT
+PF-08: OPEN
+PF-09: OPEN
+RC1: NOT AUTHORIZED
+Final publication: NOT AUTHORIZED
+Implementation / production / External Protected Action: NOT AUTHORIZED
 ```
 
-## 9. PF-07 — Figures and Publication Apparatus
-
-```text
-Back Matter architecture: COMPLETE
-Appendix A–G assigned reconciliation: COMPLETE
-Editorial standard and term audit: COMPLETE
-Glossary and Subject Index: WORKING v0.2
-Figures: PLANNED, NOT CREATED
-Source notes and cross-book reconciliation: OPEN
-PF-07 overall: OPEN
-```
-
-## 10. PF-08 — Structural and Rendered Validation
-
-Validate manuscript count, filenames, headings, numbering, metadata, links, fenced blocks, controlled IDs, scenario IDs, Profiles, references, Manifest/YAML agreement, Markdown and target rendered formats.
-
-The three findings must be closed before PF-08 can pass.
-
-## 11. PF-09 — RC1 and Owner Publication Gate
-
-RC1 requires PF-01 through PF-08 completion, no blocking architecture/editorial/validation finding, owner publication Decision and explicit implementation/external-action boundaries.
-
-## 12. Explicit Non-Goals
-
-This pack does not implement or deploy MarkReg, connect production official systems, appoint providers, perform filings or payments, authorize autonomous AI action or silently modify Books 02–04.
-
-## 13. Current Decision
-
-```text
-PF-01–PF-05: COMPLETE
-PF-06A/PF-06B/PF-06C: COMPLETE
-PF-06D: AUTHORIZED AND NEXT
-PF-06 overall: OPEN
-PF-07–PF-09: OPEN
-```
-
-Until all gates close, Book 05 remains Complete Draft 1 rather than Release Candidate 1.
+Until PF-07–PF-09 close, Book 05 remains Complete Draft 1.

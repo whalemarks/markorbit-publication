@@ -2,336 +2,414 @@
 
 ## Status
 
-- **Status:** Controlled Working Glossary v0.2 — PF-06A reconciled
-- **Primary workstreams:** PF-02 through PF-07
-- **Applies to:** CH00–CH47, B05-SPEC-0001 through B05-SPEC-0004 and Appendix A–G
+- **Status:** Controlled Glossary v0.3 — PF-06D Reconciled
+- **Applies to:** CH00–CH47, B05-SPEC-0001–0004 v0.3 and Appendix A–G
 - **Editorial standard:** B05-PUB-0001 v0.2
-- **Last audit:** B05-PUB-0009 v0.1
-
-## Purpose and Authority
-
-This glossary provides reader-facing definitions for recurring Book 05 terms.
-
-It does not replace Book 02 Core definitions or the controlled Book 05 specifications. Where a shared Core term is used, Book 02 remains authoritative. Where a Book 05 artifact, state or Product rule is used, B05-SPEC-0001 through B05-SPEC-0004 remain authoritative over this reader summary.
-
-Chapter and appendix references identify the principal discussion, not every occurrence.
+- **Authority:** Book 02 controls shared Core terms; Book 05 Specifications control Product-local records.
 
 ## Controlled Terms
 
 ### Acknowledgement
 
-Evidence that an office, provider or system has received or recognized a submission or action. The source determines the procedural claim it can support. Acknowledgement is not registration. See CH28, CH32, CH36–CH39 and Appendix B.
+Evidence that an office, provider or system received or recognized an action. The source determines the claim it supports. Acknowledgement is not registration.
 
-### Adversarial Context
+### Adversarial Context — `MR-C05`
 
-The versioned Product context for an opposition, cancellation, invalidation or other contested proceeding, including parties, grounds, affected scope, evidence, authority, deadlines and current outcome state. See CH34–CH36 and Appendix A.
+The scoped parties, grounds, rights, procedure, authority, cost, Evidence and settlement boundary for a contested proceeding.
+
+### Affected-Right Set — `MR-A28`
+
+The independent rights included, excluded or unresolved in a recordal, transaction or wider change initiative.
 
 ### AI Assistance
 
-Model-supported extraction, comparison, drafting, explanation, classification or issue detection performed inside a governed Product task. AI Assistance does not create professional responsibility, Approval, Decision or official truth. See CH05–CH06, CH31–CH32, CH43–CH47 and Appendix C, E–G.
+Model-supported extraction, comparison, drafting, explanation, classification or issue detection inside a governed task. It does not create Human authority, Decision, Approval or Official Truth.
+
+### AI Task Context — `MR-G06`
+
+The bounded purpose, role, inputs, Pack Version, Source set, confidentiality limits, expected output and prohibited conclusions supplied to an AI task.
+
+### AI Output Record — `MR-G07`
+
+The retained basis, model/version, sources, uncertainty, Human disposition and downstream use of material AI output.
 
 ### Applicant
 
-The legal or natural person identified as applying for a trademark right. Applicant is distinct from client, business owner, official owner, payer, instructor, signatory and operating organization. See CH12, CH19, CH23–CH24 and Appendix E.
+The legal or natural person proposed or recorded as applying for a trademark right. It is distinct from client, operating company, business owner, official owner, payer, instructor, signatory and representative.
+
+### Applicant and Authority Context — `MR-C12`
+
+The Product Context recording proposed applicant, ownership rationale, instructor, signatory, payer, authority source, conflicts and downstream impact. It does not create an official applicant, owner or representative appointment.
 
 ### Approval
 
-A bounded Human authorization applying to an exact artifact version, purpose, scope and validity period. Approval is not Review, Execution or official effect. See CH21, CH24, CH27–CH29 and Appendix B–C.
+A bounded Human authorization applying to an exact version, purpose, scope and validity period. Approval is not Review, Execution or official effect.
 
-### Artifact
+### Business Context Snapshot — `MR-A01`
 
-A versioned work product or representation with identity, source lineage, responsibility and supersession behavior. An Artifact may remain Product-local or support later formalization. See CH07, CH16–CH24 and Appendix A.
+The business, brand, market, timing, budget, risk and organization context used to begin or reassess a journey.
 
-### Business Context Snapshot
+### Capability Need — `MR-C01`
 
-The versioned business, brand, market, timing, budget, risk and organization context used to begin or reassess a MarkReg journey. See CH08 and Appendix A.
+The jurisdiction, service, deadline, language, qualification, conflict and relationship constraints used before provider or route discovery. It is not Applicant and Authority Context.
 
-### Capability Need
+### Chain-of-Title View — `MR-V03`
 
-A typed statement of the professional or operational Capability required for a jurisdiction, service, language, deadline, conflict and commercial context. See CH25 and Appendix A, C.
+A sourced View of applicant, owners, transactions, recordals, gaps and proposed owner. It does not fill missing links by inference.
 
-### Chain-of-Title View
+### Client Acceptance — `MR-D01`
 
-A sourced view of ownership and transaction links from the original applicant or owner through changes, mergers, assignments and the current official record. See CH35, CH40–CH42 and Appendix A, D–E.
-
-### Client Acceptance
-
-The client’s recorded acceptance of an exact Quote version and stated commercial scope. It does not automatically create an Order, payment, Filing Approval or external-action authority. See CH18 and Appendix A.
+The client’s acceptance of an exact Quote version and commercial scope. It is not payment, Commercial Instruction, Filing Approval or filing.
 
 ### Client Price
 
-The amount or price component presented to the client under an exact Quote version. Client Price may include or summarize official fees, professional fees, provider pass-through, tax, currency adjustment and stated contingencies, but it must not mislabel internal cost or margin as an official fee. See CH17–CH18 and Appendix F.
+The amount shown to the client under an exact Quote version. It must not mislabel private cost or Margin as Official Fee.
 
-### Commercial Instruction
+### Commercial Instruction — `MR-A07`
 
-The authorized request to proceed within accepted commercial scope and conditions. It remains distinct from payment, formal Order, Matter, Filing Approval and Execution. See CH18, CH22 and Appendix A.
-
-### Commercial Readiness
-
-The state in which the required Quote, acceptance, payment condition, credit condition or other commercial prerequisites are satisfied for the stated next step. Commercial Readiness is separate from professional, documentary, Approval and Execution readiness. See CH17–CH22 and Appendix B.
+The authorized request to proceed within accepted commercial scope. It remains distinct from formal Order, Matter, payment, Filing Approval and Execution.
 
 ### Communication
 
-A governed message or Communication artifact with purpose, recipients, content version, Approval where required, delivery state and correction history. See CH29, CH36, CH44 and Appendix B–C, E.
+A governed message with purpose, recipients, content version, Approval where required, delivery state and correction history.
+
+### Communication Approval — `MR-D11`
+
+Approval of exact recipients, purpose, language, attachments and version. It is not delivery, acknowledgement or official outcome.
 
 ### Conformance Profile
 
-A declared level of MarkReg capability support, such as Guided Decision, Commercial Intake, Filing Preparation or Full-Lifecycle, with explicit jurisdictions, services, exclusions, Pack Versions, Human roles and authority limits. See CH46–CH47 and Appendix G.
+A declared level of supported MarkReg behavior with explicit stages, jurisdictions, services, Packs, Human roles, exclusions and authority limits.
 
 ### Conformance Scenario
 
-A controlled Given/When/Then case that makes a Product, authority, state, source or failure requirement observable. Controlled scenarios use `MR-SCN-*` identifiers. See B05-SPEC-0003 and Appendix E.
+A controlled Given/When/Then test using `MR-SCN-*` that makes behavior, authority, source and failure requirements observable.
+
+### Conformance Statement — `MR-G10`
+
+The evidence-backed declaration of supported Profile, jurisdictions, services, participants, dependencies, exclusions, validation and authority status.
 
 ### Decision
 
-An accountable choice recorded with actor, authority, scope, basis, time and consequence. A recommendation, AI proposal or ranking is not a Decision. See CH07–CH24, CH31, CH36, CH42, CH47 and Appendix A.
+An accountable choice recorded with actor, authority, scope, basis, time and consequence. Recommendation, ranking or AI proposal is not Decision.
 
-### Deadline Record
+### Deadline Record — `MR-E06`
 
-The controlled record of an official, calculated, estimated, internal or reminder date, including source, rule, event, confidence, responsibility and change history. See CH29–CH36, CH38–CH40 and Appendix B, E–F.
+The source-backed official or calculated date, basis, uncertainty, internal target, extension and responsibility record. A reminder is not an official Deadline.
+
+### Delivery Evidence — `MR-E02`
+
+Evidence of technical delivery or transmission. It is not Provider Acceptance or official effect.
 
 ### Document
 
-A formal or controlled Document object with identity, version, source and permitted use. An uploaded file is not automatically a valid Document. See CH20, CH23, CH32, CH40–CH41 and Appendix A.
+A formal or controlled Document object with identity, version, source and permitted use. An uploaded file is not automatically a valid Document.
 
 ### Evidence
 
-Material used to support a fact, use, authority, filing, argument, payment, submission or official outcome, with provenance, scope and purpose. See CH15, CH20, CH23–CH24, CH30–CH42 and Appendix A, E.
+Material supporting a fact, use, authority, payment, submission, argument or outcome, with provenance, scope and purpose.
+
+### Evaluation Record — `MR-G09`
+
+The controlled evaluation set, expected behavior, result, reviewer and limitations used for Product, AI, pilot or release Decisions.
 
 ### Execution
 
-The governed coordination of approved work under Book 03, including Task, Permission, idempotency, Event, failure, retry and audit behavior. See CH04, CH07, CH22, CH27–CH29, CH32 and Appendix B, G.
+Governed coordination of approved work under Book 03, including Permission, idempotency, Event, failure, retry and audit. MarkReg prepares and requests; it is not the universal Execution engine.
 
 ### Execution Capable
 
-A Jurisdiction Pack support state indicating that a defined service module has approved route, package, authority, evidence, failure, retry and acknowledgement behavior for governed external action. It does not itself authorize production use. See CH45, B05-SPEC-0004 and Appendix F–G.
+A Pack Support State showing that a defined service module has an approved route, Approval contract, Evidence, failure, recovery and operational ownership. It is not general production authorization.
 
 ### External Protected Action
 
-An action with legal, financial, official, representational or similarly material external effect, including filing, payment, provider instruction, official response, settlement, recordal or protected Communication. Publication or Product conformance does not authorize such action. See CH06–CH07, CH27–CH29, CH47 and Appendix E–G.
+An action with material legal, financial, official or representational effect, such as filing, payment, provider instruction, response, settlement, recordal or protected Communication.
 
-### Filing Approval
+### Filing and Scope Diff View — `MR-V01`
 
-Human authorization to execute an exact Filing Package Candidate version for a defined jurisdiction, route and purpose. It is invalidated by material change. See CH21, CH24, CH27–CH29, CH32 and Appendix A–B.
+A comparison of recommended, approved, acknowledged and officially registered scope. It is derived; source records remain authoritative.
 
-### Filing Package Candidate
+### Filing Approval — `MR-D03`
 
-The versioned Product Artifact assembling proposed filing content, Documents, declarations, scope and source lineage before formal filing. Candidate status does not imply Approval or submission. See CH23–CH24 and Appendix A.
+Human authorization to execute an exact Package version for a defined jurisdiction, route and purpose. Material change invalidates it.
 
-### Formal Intake
+### Filing Package Candidate — `MR-A11`
 
-The service-specific collection of facts needed for professional preparation after strategy and commercial scope are sufficiently defined. See CH19 and Appendix A.
+The versioned filing content, Documents, declarations, scope and lineage proposed before Approval and submission.
+
+### Formal Intake — `MR-A08`
+
+Service-specific collection of facts needed for professional preparation after strategy and commercial scope are sufficiently defined.
 
 ### Guidance Capable
 
-A Jurisdiction Pack support state indicating that source-backed explanations and recommendations may be produced within the declared service scope, while preparation or external action remains outside support. See CH45, B05-SPEC-0004 and Appendix F–G.
+A Pack Support State permitting source-backed explanations and recommendation candidates within the declared module, but not unsupported preparation or external action.
 
-### Handoff Envelope
+### Handoff Envelope — `MR-A12`
 
-A versioned, idempotent transfer of stable references, approved versions, responsibilities, deadlines, warnings and expected return evidence between Product and formal contexts. See CH22, CH27, CH43 and Appendix A.
+A typed, versioned transfer of references, responsibilities, warnings, Deadlines and expected Return Evidence. It does not itself create a formal object or authority.
 
 ### Human Judgment
 
-Accountable professional or organizational judgment exercised by an eligible Human actor. It may be assisted but not replaced by AI. See CH05–CH07, CH15, CH21, CH24, CH31, CH45–CH47 and Appendix C.
+Accountable judgment exercised by an eligible Human actor. It may be assisted but not replaced by AI.
 
-### Human Selection
+### Human Selection — `MR-D04`
 
-The accountable choice of a provider or route from eligible candidates. A ranking or Routing Recommendation is not Human Selection. See CH25–CH26 and Appendix A, C.
+The accountable provider or route choice from eligible candidates. Routing Recommendation is not Human Selection, appointment or acceptance.
 
 ### Internal Provider Cost
 
-The organization’s private procurement cost for an external provider. It may inform pricing and margin but must not be exposed as an official fee or to unauthorized client/provider surfaces. See CH17, CH25, CH44 and Appendix C, F.
+The organization’s private procurement cost. It may inform Margin and price but must not be shown as Official Fee.
 
-### Jurisdiction Pack
+### Jurisdiction Pack — `MR-G01`
 
-A scoped and versioned configuration and Knowledge package defining sources, Rules, fees, forms, requirements, Product behavior, professional ownership and change control for a jurisdiction/service combination. A Pack is not law, legal advice or production authority. See CH09–CH21, CH38–CH46 and Appendix F.
+A scoped configuration and Knowledge package defining Sources, Rules, forms, fees, Product behavior, ownership and change control for a jurisdiction/service module. It is not law or production authority.
+
+### Licence Context — `MR-C09`
+
+The licensed rights, scope, territory, term, quality control, use Evidence and termination conditions. Licence is not assignment or owner change.
 
 ### Lifecycle Capable
 
-A Jurisdiction Pack support state indicating that the declared service module supports governed continuity beyond initial action, including relevant official events, maintenance, later-stage work and state reconciliation. It remains service- and stage-specific. See CH45, B05-SPEC-0004 and Appendix F–G.
+A Pack Support State permitting declared later-stage continuity, official events, obligations and reconciliation. It remains service- and stage-specific.
 
-### Maintenance Obligation Set
+### Maintenance Obligation Set — `MR-B02`
 
-The versioned set of renewal, use, declaration, Evidence, representation, fee, recordal and other continuing obligations associated with a right. See CH38 and Appendix A.
+The sourced renewal, use, declaration, Evidence, representation, fee, recordal and other continuing obligations associated with one right.
+
+### Margin
+
+An internal commercial measure. It is not Official Fee, Provider Pass-Through or client-visible by default.
 
 ### Matter
 
-A formal shared business or professional work context owned by its defined service. A Product journey may link to a Matter but does not silently create or redefine it. See CH04, CH07, CH22, CH34–CH35 and Appendix A.
+A formal shared work Context owned by its defined service. A Product journey may link to a Matter but does not silently create or redefine it.
 
-### Need Brief
+### Metric Definition — `MR-G08`
 
-A concise, versioned statement of the business problem, intended protection, timing, priorities and constraints before formal filing data is collected. See CH08 and Appendix A.
+The purpose, owner, source, calculation, segmentation, limits and Decision use of a Product metric.
 
-### Official Acknowledgement Evidence
+### Need Brief — `MR-A02`
 
-Source-backed Evidence that the relevant office has received, recognized or assigned an identifier to an action. It remains distinct from technical delivery, provider receipt and later official outcome. See CH28–CH29 and Appendix A–B.
+The concise business problem, intended protection, timing, priorities and constraints recorded before formal filing data.
 
-### Official Event Snapshot
+### Non-Renewal Decision — `MR-D10`
 
-A sourced Product representation of an official notice, action, status or procedural event, including retrieval time, correction and interpretation context. See CH30, CH33–CH40 and Appendix A.
+The authorized Decision not to renew one identified right with understood consequences. Silence or non-payment is not automatically this Decision.
+
+### Official Acknowledgement Evidence — `MR-E04`
+
+Evidence that the office recognized, received, accepted or rejected an action. It remains distinct from delivery, provider receipt and later outcome.
+
+### Official Event Snapshot — `MR-E05`
+
+A sourced official notice, status, publication, Decision or event at a retrieval time, including correction and interpretation context.
 
 ### Official Fee
 
-A fee payable to an official office or mandatory public authority under the applicable source and effective period. It is distinct from professional fees, provider costs, tax, currency adjustment and margin. See CH17, CH39, CH45 and Appendix F.
+A fee payable to an official authority under an applicable Source and effective period. It is distinct from professional fee, provider cost, Tax, Currency Adjustment and Margin.
 
 ### Official Truth
 
-The current authoritative fact established by the relevant office or verified official Evidence. Product projection and provider report are not Official Truth without source support. See CH07, CH28–CH30, CH37, CH45 and Appendix B.
+The authoritative current fact established by the relevant office or verified official Evidence. Product projection and Provider Report are not Official Truth by themselves.
 
-### Option Set
+### Official Update Evidence — `MR-E09`
 
-A versioned presentation of comparable alternatives, trade-offs, assumptions, exclusions, cost and next actions derived from recommendations. See CH10, CH16 and Appendix A.
+Verified Evidence of renewal, recordal, correction, cancellation, expiry or another official-record change.
+
+### Option Set — `MR-A04`
+
+A versioned presentation of alternatives, trade-offs, assumptions, exclusions, cost and next actions.
 
 ### Order
 
-A formal commercial object representing accepted service scope and related business terms. It remains distinct from Product acceptance, Matter and Execution. See CH18, CH22 and Appendix A.
+A formal commercial object representing accepted service scope and terms. It is distinct from Client Acceptance, Matter and Execution.
 
-### Organization Overlay
+### Organization Overlay — `MR-G05`
 
-A versioned organization-specific policy, preference, template, price rule or practice applied on top of a Jurisdiction Pack without being misrepresented as an official Rule. See CH17, CH44–CH45 and Appendix F.
+Versioned private review, provider, commercial, Deadline, template and Communication policy applied above a Pack without being presented as official Rule.
 
-### Outcome Snapshot
+### Outcome Snapshot — `MR-V02`
 
-A sourced representation of the current result or procedural outcome, with scope, Evidence, interpretation and continuing consequence. See CH36–CH37 and Appendix A.
+A sourced View of procedural outcome, interpretation, consequence and next action. It does not create or close an official procedure.
 
 ### Owning Service
 
-The service authorized to create or change a formal shared business fact. Displaying or proposing a fact does not make MarkReg its Owning Service. See CH04, CH22, CH27, CH47 and Appendix A–B.
+The service authorized to create or change a formal shared fact. Displaying or proposing a fact does not make MarkReg its Owning Service.
+
+### Pack Release Approval — `MR-D12`
+
+Professional Approval of an exact Pack Version and scope after Source Review, tests and impact analysis. It is not legal enactment or official publication.
 
 ### Pack Support State
 
-The declared evidence state of a Jurisdiction Pack service module: Research Only, Guidance Capable, Preparation Capable, Execution Capable, Lifecycle Capable, Suspended or Retired. See CH45, B05-SPEC-0004 and Appendix F–G.
+Research Only, Guidance Capable, Preparation Capable, Execution Capable, Lifecycle Capable, Suspended or Retired.
 
-### Pack Version
+### Pack Version Record — `MR-G03`
 
-An immutable released version of a Jurisdiction Pack, including service scope, source set, Rule Records, forms, fees, tests, professional ownership and effective period. See CH45 and Appendix F.
+The immutable reviewed set of Sources, Rules, forms, fees, tests, gaps and migration instructions for a Pack release.
 
-### Portfolio Action Plan
+### Participant Surface Projection — `MR-V05`
 
-A prioritized, reviewable set of proposed actions across independent rights, including rationale, authority, timing, cost and dependencies. See CH42 and Appendix A.
+The role- and purpose-limited View of fields and actions. Visibility does not change ownership or grant authority.
 
-### Portfolio Continuity View
+### Pilot Context — `MR-C11`
 
-An explainable Product View across independent applications, registrations, disputes, obligations and opportunities without creating one global right or status. See CH42–CH43 and Appendix A, D.
+The bounded edition, organizations, users, services, jurisdictions, providers, fallback and stop conditions of a pilot.
+
+### Pilot or Release Decision — `MR-D13`
+
+The Decision on a defined Profile, scope, Evidence, exceptions and stop conditions. It is not production or External Protected Action authority unless separately granted.
+
+### Portfolio Action Plan — `MR-A29`
+
+A prioritized set of proposed actions across independent rights, with rationale, authority, timing, cost and dependencies.
+
+### Portfolio Continuity View — `MR-V04`
+
+An explainable View across independent rights, disputes, obligations and opportunities without creating one global right or status.
 
 ### Preparation Capable
 
-A Jurisdiction Pack support state indicating that controlled recommendations, Requirements and candidate packages may be prepared for Human Review, but governed external action is not yet supported. See CH45, B05-SPEC-0004 and Appendix F–G.
+A Pack Support State permitting controlled Requirements and candidate Packages for Human Review, but not governed external action.
 
 ### Product Projection
 
-A Product-rendered interpretation or display of a source fact, official state or expected consequence. It must preserve source, retrieval time and uncertainty. See CH07, CH28–CH30, CH37, CH45 and Appendix B.
+A Product-rendered interpretation of a sourced fact or state that preserves Source, retrieval time and uncertainty.
 
-### Product Session
+### Product Session — `MR-C10`
 
-The current user interaction state with a MarkReg journey, including context, step, visible versions, warnings and resume conditions. It is not formal Matter state. See CH43 and Appendix A.
+The current user interaction state with a journey, including context, step, visible versions, warnings and resume conditions. It is not Matter state.
+
+### Professional Decision — `MR-D02`
+
+An eligible professional’s accountable Decision on recommendation, readiness, Evidence, strategy or override. It is not client authority or Execution.
 
 ### Professional Owner
 
-The eligible Human role accountable for reviewing, releasing and maintaining a defined Jurisdiction Pack or service module. Professional ownership does not convert the Pack into official law or grant external-action authority. See CH45 and Appendix F.
+The eligible Human role accountable for reviewing and maintaining a Pack or service module.
 
 ### Professional Review
 
-A defined Review by an eligible professional of an exact artifact version, source basis, risk, scope or proposed action. See CH15, CH21, CH24, CH31–CH32, CH39–CH41 and Appendix A–C.
+Review by an eligible professional of an exact version, Source basis, risk, scope or proposed action.
 
-### Proposal
+### Proposal — `MR-A05`
 
-A client- or professional-facing explanation of recommended service configuration, alternatives, assumptions, exclusions and next steps. See CH16 and Appendix A.
+An explanation of recommended service configuration, alternatives, assumptions, exclusions and next actions.
 
-### Provider Acceptance
+### Provider Acceptance — `MR-D05`
 
-The provider’s recorded acceptance of a bounded appointment or instruction, including scope, conditions, conflicts, deadlines and requested changes. Receipt of an instruction is not Provider Acceptance. See CH26 and Appendix A, C.
+The provider’s acceptance of a bounded engagement, scope, fee, Deadline and conditions. Receipt is not acceptance.
 
-### Provider Report
+### Provider Capability Evidence Record — `MR-B04`
 
-A statement or Evidence returned by a provider about receipt, work, submission or outcome. Its authority is limited by source and must not be presented as official truth without reconciliation. See CH26–CH30, CH34, CH44 and Appendix B.
+The sourced service, jurisdiction, qualification, experience, recency, relationship and limitation Evidence used in routing.
 
-### Quote
+### Provider Report — `MR-E03`
 
-An immutable versioned commercial Artifact stating price, scope, validity, currency, tax, inclusions, exclusions, assumptions, later-stage fees and payment terms. A change requires a new Quote version. See CH17–CH18 and Appendix A, E–F.
+A provider statement about receipt, work, submission or outcome. It is not Official Truth without official Evidence.
 
-### Readiness Assessment
+### Quote — `MR-A06`
 
-A purpose-specific evaluation of structural, commercial, professional, documentary, payment, Approval and Execution conditions. Readiness is not Approval. See CH21 and Appendix A–B.
+An immutable versioned commercial Artifact stating price, scope, validity, currencies, Tax, inclusions, exclusions, assumptions, later-stage fees and payment terms.
 
-### Recommendation Set
+### Readiness Assessment — `MR-A10`
 
-A versioned collection of jurisdiction, route, filing-unit, classification, goods/services, search, timing and risk recommendations with assumptions and source context. See CH09–CH15 and Appendix A.
+A purpose-specific evaluation of structural, commercial, professional, documentary, payment, Approval and Execution conditions. Readiness is not Approval.
 
-### Recordal Context
+### Recommendation Set — `MR-A03`
 
-The versioned context for an official-record change, including current and proposed values, authority, Documents, sequence, package and official result. See CH35, CH40–CH42 and Appendix A, F.
+Versioned jurisdiction, route, filing-unit, class, goods/services, search, timing and risk recommendations with assumptions and Sources.
 
-### Requirement Set
+### Recordal Approval — `MR-D09`
 
-The versioned set of Documents, signatures, translations, certifications, originals, Evidence, deadlines and jurisdiction-specific conditions required for a purpose. See CH20 and Appendix A.
+Approval of an exact official change, affected rights, Documents, jurisdictions and route. It is not signed transaction or official update.
+
+### Recordal Context — `MR-C07`
+
+The current official data, proposed change, affected jurisdictions and required official updates.
+
+### Requirement Set — `MR-A09`
+
+The Documents, signatures, translations, certification, originals, Evidence, Deadlines and jurisdiction conditions required for a purpose.
 
 ### Research Only
 
-A Jurisdiction Pack support state indicating that sources or candidate Rules have been collected but controlled user guidance, preparation and external action are not supported. See CH45 and Appendix F–G.
+A Pack Support State permitting controlled research but not client-facing current-rule guidance, preparation or action.
 
-### Response Package Candidate
+### Response Package Candidate — `MR-A22`
 
-The versioned set of response arguments, amendments, Evidence, declarations, Documents and filing content prepared for an official examination or proceeding before final Approval and filing. See CH32 and Appendix A.
+The response arguments, amendments, Evidence, forms and filing content proposed before final Approval and filing.
 
-### Return Envelope
+### Return Envelope — `MR-A30`
 
-The typed, idempotent result returned from MarkReg to a calling Product or Workplace, containing references, versions, outcomes, blockers and next-action candidates. See CH43 and Appendix A.
+The typed idempotent result returned to a calling Product or Workplace, containing references, versions, outcomes, blockers and next-action candidates.
 
-### Right Baseline
+### Renewal Approval — `MR-D08`
 
-The sourced, reviewed baseline of a registered or continuing right, including official identifier, owner, scope, state, Evidence and future obligations. See CH37–CH42 and Appendix A.
+Approval of an exact right, scope, owner, Package, fee, route and timing. It is not filed renewal or renewed right.
 
-### Routing Recommendation
+### Renewal Package Candidate — `MR-A26`
 
-A versioned recommendation comparing eligible provider or route candidates against Capability, conflict, availability, relationship, commercial and evidence requirements. It is not Human Selection or appointment. See CH25 and Appendix A.
+The verified right, scope, owner, fee, Document and route details proposed for renewal.
 
-### Rule Change Candidate
+### Right Baseline — `MR-B01`
 
-A detected possible change to a Rule, fee, form, deadline or practice that requires source capture, impact analysis, testing and Professional Review before a new Pack Version is released. See CH45 and Appendix F.
+The sourced, reviewed operational Baseline of one independent application or registration and its future obligations.
 
-### Rule Record
+### Routing Recommendation — `MR-A14`
 
-A controlled operational Rule with Human-readable meaning, machine-readable condition where applicable, source, scope, effective date, exceptions, status, owner and tests. See CH45 and Appendix A, F.
+The comparison of eligible provider or route candidates against Capability Need, conflict, availability, relationship, commercial and Evidence requirements.
 
-### Source Record
+### Rule Change Candidate — `MR-G04`
 
-A controlled record of an official, provider, organization or secondary source, including identity, type, jurisdiction, retrieval date, effective date, language, authority and supersession state. See CH30, CH45 and Appendix F.
+A detected possible Rule, fee, form, Deadline or practice change requiring Source capture, impact analysis, tests and Professional Review.
 
-### Submission Evidence
+### Rule Record — `MR-G02`
 
-Technical, provider or official Evidence showing what was sent, delivered, received or acknowledged. Its source determines the procedural claim it can support. See CH28–CH29 and Appendix A.
+A sourced operational Rule with Human-readable meaning, condition, exceptions, effective period, status, owner, tests and history.
+
+### Source Record — `MR-E07`
+
+A controlled Source identity with type, authority, jurisdiction, publication/effective/retrieval dates, language and supersession state.
+
+### Submission Evidence — `MR-E01`
+
+Evidence of what was sent, when, through which route and under which attempt identity. It does not prove official receipt.
 
 ### Support Claim
 
-A bounded statement that a Product edition supports a specified jurisdiction, service, stage, Pack Version and Conformance Profile. The claim cannot exceed Pack, scenario, operational and authority evidence. See CH45–CH47 and Appendix F–G.
+A bounded statement of supported Product/version, Profile, jurisdiction, service, stage, Pack Version and authority status. It cannot exceed Pack, scenario, operational or Evaluation Evidence.
 
 ### Suspended
 
-A Pack Support State indicating that a material source, Rule, operational route, professional ownership or safety issue prevents current use for the declared purpose. See CH45 and Appendix F.
+A Pack Support State blocking current use for a declared purpose because a material Source, Rule, route, ownership or safety condition is unresolved.
 
-### Transaction Context
+### Transaction Context — `MR-C08`
 
-The versioned context for assignment, merger, succession, licence or another transaction affecting one or more rights, including parties, authority, documents, commercial effect and official-record consequences. See CH41–CH42 and Appendix A, F.
+The assignment, merger, succession or other transaction parties, rights, dates, Documents and intended effects.
+
+### Use-Evidence Coverage Record — `MR-B03`
+
+The mapped goods/services, territory, period, owner/licensee, Sources and Evidence gaps used for maintenance, defense and portfolio work.
 
 ### Workplace
 
-The independent organization-level operating environment and Orbit context defined by Book 04. MarkReg may operate within a Workplace without absorbing its authority. See CH04, CH22, CH43–CH44, CH47 and Appendix C.
+The independent organization-level operating environment defined by Book 04. MarkReg may operate inside it without absorbing its authority.
 
 ### Zero-Tolerance Scenario
 
-A Conformance Scenario whose failure blocks the applicable Profile, pilot, release or protected action. Examples include wrong-version Approval, unsafe retry, provider over-access, unsupported official-state claims and AI current-rule conclusions without controlled sources. See B05-SPEC-0003 and Appendix E–G.
+A Conformance Scenario whose failure blocks the applicable Profile, pilot, release or protected action.
 
 ## Completion State
 
 ```text
-Primary artifact and state definitions: RECONCILED
-PF-04 scenario and participant terms: ADDED
-PF-05 Pack and commercial terms: ADDED
-Principal chapter and appendix references: ADDED
-Line-by-line manuscript usage validation: OPEN — PF-06B/PF-06C
-Specification and appendix final terminology validation: OPEN — PF-06D
+Principal records MR-A / C / D / E / B / V / G: DEFINED
+MR-C12 Applicant and Authority Context: ADDED
+CH00–CH47 terminology validation: COMPLETE
+B05-SPEC-0001–0004 terminology validation: COMPLETE
+Appendix A–G terminology audit: COMPLETE
 Rendered page references: OPEN — PF-07/PF-08
 ```
 
-This working glossary becomes publication-ready only after the full-book editorial and rendered-format reviews pass.
+This Glossary is content-reconciled for PF-06D. Final page references and rendered validation remain separate gates.
