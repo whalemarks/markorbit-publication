@@ -1,5 +1,31 @@
 # Book 06 Changelog
 
+## Wave 6 — MarkOrbit Gateways and Continuity
+
+- drafted B06-CH-26–B06-CH-29 as Complete Draft 1;
+- defined `ML-H01` common Handoff Envelope and `ML-H02` Return Envelope Presentation;
+- defined MarkReg Launch and Continuation through `ML-H03` and `ML-HC-01`;
+- preserved MarkReg Handoff versus Product Session, Formal Intake, Matter and official action;
+- preserved customer identity versus applicant identity and authority to instruct;
+- required MarkReg destination revalidation and typed information-request, rejection, block, failure and unknown results;
+- defined MGSN Capability Need through `ML-H04` and `ML-HC-02`;
+- defined staged disclosure, minimized candidate Returns and MGSN ownership of Trust, Routing and collaboration depth;
+- rejected automatic provider selection, appointment and assignment;
+- defined `ML-H05–ML-H08` Review, Communication, Opportunity, Task and Execution Handoffs;
+- preserved exact-version Review, limited approval, recipient/channel consequence and formal-state ownership;
+- rejected hidden one-click cascades and user-confirmation substitution for protected-action authority;
+- defined hybrid minimization for Local Only and Personal Private information;
+- preserved local readability versus synchronization, remote AI use and disclosure authority;
+- preserved source restrictions on derived observations, Candidates, Artifacts, memory and Handoffs;
+- defined more-information, rejected, unsupported, blocked, failed and unknown result states;
+- rejected blind retry after unknown consequential outcomes;
+- defined local/shared version conflict, expiry, suppression, retirement and reconciliation behavior;
+- projected `ML-SCN-23–ML-SCN-24` and `ML-E04` Safety / Privacy Finding;
+- added B06-REV-0011 — Wave 6 MarkOrbit Gateways and Continuity Review;
+- found zero blocking, major or upstream findings;
+- authorized Wave 7 CH30–CH33 after owner merge;
+- did not authorize whole-book Complete Draft 1, implementation, production or distribution.
+
 ## Wave 5 — Cases, Memory and Business Assets
 
 - drafted B06-CH-22–B06-CH-25 as Complete Draft 1;
