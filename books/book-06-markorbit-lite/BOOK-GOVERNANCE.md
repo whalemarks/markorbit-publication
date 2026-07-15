@@ -1,78 +1,93 @@
 # Book 06 Governance — MarkOrbit Lite
 
-## 1. Authority
+## 1. Authority chain
 
 ```text
 Architecture Canon
 → Books 01–04 Portfolio Baseline
-→ Book 05 frozen RC1 contracts
-→ Book 06 accepted Pre-Writing Audit
-→ Product Charter v0.3
-→ Product Baseline v0.1
-→ future Chapter Map
-→ manuscript
+→ Book 05 MarkReg RC1 contracts
+→ Book 06 Product Charter v0.3
+→ Book 06 Product Baseline v0.1
+→ B06-TOC-V0.1 Chapter Map
+→ controlled manuscript
 → implementation specifications / ADRs
 ```
 
-Historical data models, tool research and commercial ideas are evidence only unless reconciled by the accepted authority chain.
+Historical data models, tool research and commercial ideas remain evidence unless reconciled through this chain.
 
 ## 2. Book responsibility
 
 Book 06 may define:
 
-- the four Lite Product loops;
-- Today as a daily business cockpit;
-- Product-local records, candidates and projections;
-- professional work-product preparation;
+- Lite Product purpose and users;
+- the four Product loops;
+- Today and Product-local records;
+- customer and service growth journeys;
+- professional work products;
 - cases, memory and reusable capability;
-- Handoff/Return behavior;
-- Lite-specific journeys, scenarios, MVP and commercial experiments.
+- typed Handoff/Return behavior;
+- conformance, MVP and commercial experiments.
 
-Book 06 may not redefine:
+Book 06 may not redefine Core, Execution, Workplace, MarkReg, MGSN, Owning-Service or External Protected Action authority.
 
-- Core object or Owning-Service authority;
-- Task, Workflow, Review, Communication or Execution authority;
-- Workplace, Artifact, Delivery or Publish architecture;
-- MarkReg lifecycle meaning;
-- MGSN Trust, Routing or collaboration depth;
-- official law, status or External Protected Action.
-
-## 3. Product Baseline acceptance set
+## 3. Accepted Product Baseline
 
 ```text
 B06-SPEC-0001–0004 v0.1
-+ B06-REV-0004
+ML-S01–S05
+ML-O01–O08
+ML-W01–W10
+ML-M01–M08
+ML-H01–H08
+ML-E01–E06
+ML-J01–J04
+ML-SCN-01–24
+ML-HC-01–HC-08
+ML-AC-01–AC-12
 ```
 
-Merge accepts the controlled `ML-*` ranges and historical reconciliation dispositions.
-
-## 4. Record rule
+## 4. Chapter Map acceptance set
 
 ```text
-Product-local record
-≠ database table
-≠ formal Core object
-≠ implementation API
+B06-PLN-0007 — B06-TOC-V0.1
++ B06-REV-0005 — Chapter Map Candidate Review
 ```
 
-Lite may own candidate state, preparation and presentation. Formal business truth remains with the relevant Owning Service.
+Merge accepts:
 
-## 5. Historical-document rule
+- B06-CH-00–B06-CH-33;
+- seven Parts plus Front Matter;
+- chapter order and titles;
+- controlled drafting waves.
 
-Every historical concept must be classified as:
+## 5. Manuscript rule
+
+Every chapter must:
+
+- project the accepted Charter and Specifications;
+- cite or map its controlled sources;
+- preserve Product/formal-state distinctions;
+- avoid silent upstream change;
+- avoid implementation-specific commitments;
+- keep commercial experiments subordinate to Product identity.
+
+A manuscript chapter may explain a controlled record but may not change its meaning.
+
+## 6. Writing waves
 
 ```text
-KEEP
-REFRAME
-PRODUCT-LOCAL
-MOVE TO OWNING SERVICE
-DEFER
-REJECT
+Wave 1 CH00–CH06
+Wave 2 CH07–CH11
+Wave 3 CH12–CH16
+Wave 4 CH17–CH21
+Wave 5 CH22–CH25
+Wave 6 CH26–CH29
+Wave 7 CH30–CH33
 ```
 
-A historical document calling itself “final” is not current authority when it predates or conflicts with Books 01–05 or accepted Book 06 records.
+Each wave should use one branch and one Draft PR unless an exceptional correction requires separation.
 
-## 6. Meaning integrity
+## 7. Meaning integrity
 
 ```text
 Today item ≠ active Task
@@ -89,19 +104,6 @@ case experience ≠ canonical Knowledge
 local access ≠ synchronization or authority
 ```
 
-## 7. External action
-
-```text
-prepare
-→ preview exact version, subject, audience/recipient and consequence
-→ Human Review where required
-→ final user confirmation
-→ governed or manual operation
-→ typed result
-```
-
-Unknown external outcomes remain unknown and must not be blindly retried.
-
 ## 8. Owner gates
 
 Owner acceptance is required for:
@@ -113,16 +115,18 @@ Owner acceptance is required for:
 - Release Candidate;
 - final publication.
 
+Part-level manuscript merges advance drafting but do not themselves approve Complete Draft 1 or publication.
+
 ## 9. Current authorization
 
 ```text
-Pre-Writing Audit: COMPLETE
 Product Charter v0.3: ACCEPTED
-Product Baseline v0.1: OWNER ACCEPTED ON MERGE
-Chapter Map Candidate: NEXT AFTER MERGE
-Chapter Map acceptance: NOT YET AUTHORIZED
-Manuscript drafting: NOT AUTHORIZED
+Product Baseline v0.1: ACCEPTED
+Chapter Map v0.1: OWNER ACCEPTED ON MERGE
+Controlled manuscript drafting after merge: AUTHORIZED
+First wave: CH00–CH06
 Implementation: NOT AUTHORIZED
 Production: NOT AUTHORIZED
+Public/commercial distribution: NOT AUTHORIZED
 External Protected Action: NOT AUTHORIZED
 ```
