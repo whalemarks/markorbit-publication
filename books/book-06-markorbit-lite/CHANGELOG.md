@@ -5,6 +5,7 @@
 - rewrote `B06-PLN-0004` as Product Charter v0.3;
 - replaced `B06-PLN-0005` with OD-01–OD-10;
 - replaced the prior subscription Charter amendment with `B06-PLN-0006 — Commercial Plan and MVP Experiment Candidate`;
+- reframed `B06-REV-0002` as the supporting Base Product Charter Architecture Review;
 - replaced the prior subscription Review with `B06-REV-0003 — Product Charter v0.3 Review`;
 - defined Lite as the AI business operating system for independent trademark professionals and small agencies;
 - preserved Lite's architectural identity as a lightweight Workplace Product;
