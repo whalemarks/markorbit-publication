@@ -1,8 +1,8 @@
 book: "Book 05"
 title: "MarkReg: The Full-Lifecycle International Trademark Product"
 canonical_path: "books/book-05-markreg/"
-status: "complete_draft_1_whole_book_closure_next"
-phase: "pf_06d_whole_book_closure_with_three_findings"
+status: "complete_draft_1_pf_06_editorial_closure_complete"
+phase: "pf_07_figures_and_publication_apparatus_next"
 portfolio_baseline: "MO-PUB-BASELINE-0001"
 
 chapter_map:
@@ -11,182 +11,67 @@ chapter_map:
   chapter_range: "00-47"
   manuscript_files: 48
   parts: 7
-  part_vi_range: "37-42"
-  part_vii_range: "43-47"
-  back_matter_outside_chapter_range: true
+  metadata_complete: true
+  line_edit_complete: true
 
 manuscript:
   drafted_range: "00-47"
   complete_draft: 1
   editorial_range_complete: "00-47"
-  metadata_normalization_complete: true
-  editorial_batches:
-    front_matter_and_part_i:
-      range: "00-07"
-      status: "complete"
-      workstream: "PF-06B1"
-      accepted_by: "B05-REV-0019"
-    part_ii:
-      range: "08-15"
-      status: "complete"
-      workstream: "PF-06B2A"
-      accepted_by: "B05-REV-0020"
-      journey_steps: "EL-01-EL-08"
-    part_iii:
-      range: "16-22"
-      status: "complete"
-      workstream: "PF-06B2B"
-      accepted_by: "B05-REV-0021"
-      journey_steps: "EL-09-EL-15"
-    part_iv:
-      range: "23-29"
-      status: "complete"
-      workstream: "PF-06C1"
-      accepted_by: "B05-REV-0022"
-      journey_steps: "EL-16-EL-22"
-      approximate_prior_lines: 2409
-      approximate_edited_lines: 1433
-      approximate_reduction_percent: 40
-    part_v:
-      range: "30-36"
-      status: "complete"
-      workstream: "PF-06C2"
-      accepted_by: "B05-REV-0023"
-      journey_steps: "EL-23-EL-29"
-      approximate_prior_lines: 3438
-      approximate_edited_lines: 760
-      approximate_reduction_percent: 78
-    part_vi:
-      range: "37-42"
-      status: "complete"
-      workstream: "PF-06C3"
-      accepted_by: "B05-REV-0024"
-      journey_steps: "EL-30-EL-35"
-      riverkite_steps: "RK-09-RK-13"
-      approximate_prior_lines: 2188
-      approximate_edited_lines: 1069
-      approximate_reduction_percent: 51
-    part_vii:
-      range: "43-47"
-      status: "complete"
-      workstream: "PF-06C4"
-      accepted_by: "B05-REV-0025"
-      journey_steps: "EL-36-EL-40"
-      riverkite_steps: "RK-14-RK-18"
-      approximate_prior_lines: 3041
-      approximate_edited_lines: 1061
-      approximate_reduction_percent: 65
-  metadata_normalization:
-    "00-01": "complete_pf_01a"
-    "02-07": "complete_pf_06b1"
-    "08-15": "complete_pf_06b2a"
-    "16-22": "complete_pf_06b2b"
-    "23-29": "complete_pf_06c1"
-    "30-36": "complete_pf_06c2"
-    "37-42": "complete_pf_06c3"
-    "43-47": "complete_pf_06c4"
-    overall: "complete"
-  line_edit_complete: true
   release_candidate_ready: false
+  accepted_reviews:
+    front_matter_and_part_i: "B05-REV-0019"
+    part_ii: "B05-REV-0020"
+    part_iii: "B05-REV-0021"
+    part_iv: "B05-REV-0022"
+    part_v: "B05-REV-0023"
+    part_vi: "B05-REV-0024"
+    part_vii: "B05-REV-0025"
+    whole_book_closure: "B05-REV-0026"
 
 specifications:
   B05-SPEC-0001:
-    status: "controlled_specification_v0_2"
-    workstream: "PF-02"
-    workstream_status: "complete"
-    controls_active_record_ids: true
+    version: "v0.3"
+    status: "controlled_reconciled"
+    controls_record_ids: true
   B05-SPEC-0002:
-    status: "controlled_specification_v0_2"
-    workstream: "PF-03"
-    workstream_status: "complete_with_part_v_vii_id_mapping_findings"
-    open_findings:
-      - "PF06C2-F01"
-      - "PF06C3-F01"
-      - "PF06C4-F01"
+    version: "v0.3"
+    status: "controlled_id_reconciled"
+    journey_steps: "EL-01-EL-40"
+    riverkite_steps: "RK-01-RK-18"
   B05-SPEC-0003:
-    status: "controlled_specification_v0_2"
+    version: "v0.3"
+    status: "controlled_record_reconciled"
     scenario_range: "MR-SCN-01-MR-SCN-41"
-    workstream: "PF-04"
-    workstream_status: "complete"
   B05-SPEC-0004:
-    status: "controlled_specification_v0_2"
-    workstream: "PF-05"
-    workstream_status: "complete"
-  all_specifications_reconciled_for_pf_08: false
+    version: "v0.3"
+    status: "controlled_record_reconciled"
+    support_states:
+      - "research_only"
+      - "guidance_capable"
+      - "preparation_capable"
+      - "execution_capable"
+      - "lifecycle_capable"
+      - "suspended"
+      - "retired"
+  all_reconciled_for_pf_08: true
 
 controlled_record_model:
-  constitutional_rules: "MR-CR-01 through MR-CR-08 unchanged"
-  ranges:
-    artifacts: "MR-A01-MR-A30"
-    contexts: "MR-C01-MR-C11"
-    decisions: "MR-D01-MR-D13"
-    evidence: "MR-E01-MR-E09"
-    baselines: "MR-B01-MR-B04"
-    views: "MR-V01-MR-V05"
-    governance: "MR-G01-MR-G10"
-
-part_vii_control:
-  range: "CH43-CH47"
-  status: "editorially_complete"
-  records:
-    - "MR-A12 Handoff Envelope"
-    - "MR-C10 Product Session"
-    - "MR-A30 Return Envelope"
-    - "MR-V05 Participant Surface Projection"
-    - "MR-E07 Source Record"
-    - "MR-G01 Jurisdiction Pack"
-    - "MR-G02 Rule Record"
-    - "MR-G03 Pack Version Record"
-    - "MR-G04 Rule Change Candidate"
-    - "MR-G05 Organization Overlay"
-    - "MR-G06 AI Task Context"
-    - "MR-G07 AI Output Record"
-    - "MR-G08 Metric Definition"
-    - "MR-G09 Evaluation Record"
-    - "MR-G10 Conformance Statement"
-    - "MR-C11 Pilot Context"
-    - "MR-D12 Pack Release Approval"
-    - "MR-D13 Pilot or Release Decision"
-  journey_steps:
-    CH43: "EL-36"
-    CH44: "EL-37"
-    CH45: "EL-38"
-    CH46: "EL-39"
-    CH47: "EL-40"
-  riverkite_steps:
-    CH43: "RK-14"
-    CH44: "RK-15"
-    CH45: "RK-16"
-    CH46: "RK-17"
-    CH47: "RK-18"
-  controlled_scenarios:
-    - "MR-SCN-07"
-    - "MR-SCN-09"
-    - "MR-SCN-10"
-    - "MR-SCN-11"
-    - "MR-SCN-18"
-    - "MR-SCN-22"
-    - "MR-SCN-25"
-    - "MR-SCN-34"
-    - "MR-SCN-35"
-    - "MR-SCN-36"
-    - "MR-SCN-37"
-    - "MR-SCN-38"
-    - "MR-SCN-39"
-    - "MR-SCN-40"
-    - "MR-SCN-41"
-  accepted_by: "B05-REV-0025"
-  surface_is_not_authority: true
-  visibility_is_not_action_right: true
-  model_memory_is_not_current_law: true
-  pilot_is_not_production: true
-  conformance_is_not_protected_action_authority: true
+  constitutional_rules: "MR-CR-01-MR-CR-08"
+  artifacts: "MR-A01-MR-A30"
+  contexts: "MR-C01-MR-C12"
+  decisions: "MR-D01-MR-D13"
+  evidence: "MR-E01-MR-E09"
+  baselines: "MR-B01-MR-B04"
+  views: "MR-V01-MR-V05"
+  governance: "MR-G01-MR-G10"
+  capability_need: "MR-C01"
+  applicant_and_authority_context: "MR-C12"
 
 reference_journeys:
   B05-JRN-A-EMBERLOOP:
     status: "controlled_through_ch47"
     step_range: "EL-01-EL-40"
-    parts_ii_through_vii_editorially_reconciled: true
     final_state:
       united_kingdom: "registered_right_with_maintenance_obligations"
       united_states: "under_examination_after_acknowledged_response_v2"
@@ -201,13 +86,9 @@ reference_journeys:
       ordinary_renewal_workflows: 4
       ownership_linked_renewal_workflows: 1
       cancellation_defense_rights: 1
-      chain_of_title_correction_open: true
-      evidence_and_licence_actions_open: true
+      title_evidence_and_licence_actions_open: true
 
 conformance:
-  scenario_range: "MR-SCN-01-MR-SCN-41"
-  zero_tolerance_failure_blocks_profile: true
-  profile_claim_cannot_exceed_pack_state: true
   profiles:
     - "Foundation"
     - "Guided Decision"
@@ -217,110 +98,89 @@ conformance:
     - "Post-Filing"
     - "Portfolio Continuity"
     - "Full-Lifecycle"
-
-jurisdiction_pack_contract:
-  specification: "B05-SPEC-0004_v0_2"
-  support_states:
-    - "research_only"
-    - "guidance_capable"
-    - "preparation_capable"
-    - "execution_capable"
-    - "lifecycle_capable"
-    - "suspended"
-    - "retired"
+  scenario_range: "MR-SCN-01-MR-SCN-41"
+  zero_tolerance_failure_blocks_profile: true
+  profile_claim_cannot_exceed_pack_state: true
 
 appendices:
-  B05-APP-A: "pf_02_reconciled_pf_06d_final_check_pending"
-  B05-APP-B: "pf_02_pf_04_reconciled_pf_06d_final_check_pending"
-  B05-APP-C: "pf_04_reconciled_pf_06d_final_check_pending"
-  B05-APP-D: "pf_03_reconciled_part_v_vii_id_corrections_required_pf_06d"
-  B05-APP-E: "pf_04_reconciled_pf_06d_final_check_pending"
-  B05-APP-F: "pf_05_reconciled_pf_06d_final_check_pending"
-  B05-APP-G: "pf_04_pf_05_reconciled_pf_06d_and_pf_08_pending"
+  B05-APP-A: "v0.3_pf_06d_reconciled"
+  B05-APP-B: "v0.3_pf_06d_reconciled"
+  B05-APP-C: "v0.3_pf_06d_reconciled"
+  B05-APP-D: "v0.3_pf_06d_reconciled"
+  B05-APP-E: "v0.3_pf_06d_reconciled"
+  B05-APP-F: "v0.3_pf_06d_reconciled"
+  B05-APP-G: "v0.3_pf_06d_reconciled_pf_08_validation_pending"
 
 editorial:
   standard:
     id: "B05-PUB-0001"
     version: "v0.2"
     status: "controlled_editorial_standard"
-  term_audit:
-    id: "B05-PUB-0009"
-    version: "v0.1"
-    status: "controlled_audit"
   glossary:
     id: "B05-PUB-0003"
-    version: "v0.2"
-    status: "controlled_working_glossary_pf_06d_reconciliation_pending"
+    version: "v0.3"
+    status: "controlled_reconciled"
   subject_index:
     id: "B05-PUB-0004"
+    version: "v0.3"
+    status: "controlled_reconciled"
+  cross_book:
+    id: "B05-PUB-0007"
     version: "v0.2"
-    status: "controlled_working_index_pf_06d_reconciliation_pending"
-  semantic_findings_open: 3
-  semantic_findings:
-    PF06C2-F01:
-      status: "open_for_pf_06d"
-      type: "controlled_cross_reference_mapping"
-      scope: "B05-SPEC-0002 Part V EL-23-EL-29"
-    PF06C3-F01:
-      status: "open_for_pf_06d"
-      type: "controlled_cross_reference_mapping"
-      scope: "B05-SPEC-0002 Part VI EL-30-EL-35 and RK-09-RK-13"
-    PF06C4-F01:
-      status: "open_for_pf_06d"
-      type: "controlled_cross_reference_mapping"
-      scope: "B05-SPEC-0002 Part VII EL-36-EL-40 and RK-14-RK-18"
-  finding_blocks:
-    - "PF-06D closure"
-    - "PF-08 validation"
-  batches:
-    pf_06a: "complete"
-    pf_06b: "complete"
-    pf_06c: "complete"
-    pf_06d: "authorized_next"
-  overall_status: "open"
-
-publication_apparatus:
-  status: "manuscript_editorial_complete_whole_book_reconciliation_figures_and_validation_open"
-  figures_planned: 12
-  figures_created: 0
-
-reviews:
-  latest: "B05-REV-0025"
-  records:
-    - "B05-REV-0001-B05-REV-0025"
-    - "B05-ERRATA-0001"
-
-publication_finishing_pack:
-  id: "B05-PUBLICATION-FINISHING-PACK-001"
-  status: "active"
-  progress:
-    pf_01_metadata: "complete"
-    pf_02_artifacts: "complete"
-    pf_03_journeys: "complete_with_three_id_findings_open"
-    pf_04_scenarios_and_surfaces: "complete"
-    pf_05_jurisdiction_and_commercial: "complete"
-    pf_06a_editorial_baseline: "complete"
-    pf_06b_ch00_ch22: "complete"
-    pf_06c_ch23_ch47: "complete"
-    pf_06d_whole_book_closure: "authorized_next_with_three_findings_required"
-    pf_06_overall: "open"
-    pf_07_figures_and_remaining_assets: "open"
-    pf_08_validation: "blocked_until_findings_closed"
-    pf_09_rc1_gate: "open"
-
-next_gate:
-  title: "PF-06D Whole-Book Closure"
-  authorized_by_review: "B05-REV-0025"
-  required_findings:
+    status: "controlled_reconciliation_complete"
+  rc1_checklist:
+    id: "B05-PUB-0008"
+    version: "v0.2"
+    status: "pf_06_updated"
+  term_audit:
+    id: "B05-PUB-0009"
+    version: "v0.2"
+    status: "closed"
+  semantic_findings_open: 0
+  closed_findings:
     - "PF06C2-F01"
     - "PF06C3-F01"
     - "PF06C4-F01"
-  final_publication_separate: true
+    - "PF06D-F01"
 
-book_02_semantic_change_required: false
-book_03_execution_change_required: false
-book_04_product_boundary_change_required: false
-architecture_canon_change_required: false
-ready_for_unrestricted_implementation: false
-production_ready: false
+cross_book:
+  architecture_canon_change_required: false
+  book_02_change_proposal_required: false
+  book_03_execution_amendment_required: false
+  book_04_workplace_amendment_required: false
+  upstream_findings_open: 0
+
+publication_apparatus:
+  figures_planned: 12
+  figures_created: 0
+  source_notes_complete: false
+  page_references_complete: false
+  status: "pf_07_next"
+
+publication_finishing_pack:
+  id: "B05-PUBLICATION-FINISHING-PACK-001"
+  progress:
+    pf_01_metadata: "complete"
+    pf_02_artifacts: "complete"
+    pf_03_journeys: "complete"
+    pf_04_scenarios_and_surfaces: "complete"
+    pf_05_jurisdiction_and_commercial: "complete"
+    pf_06_editorial_finishing: "complete"
+    pf_07_figures_and_apparatus: "authorized_next"
+    pf_08_validation: "open"
+    pf_09_rc1_gate: "open"
+
+next_gate:
+  title: "PF-07 Figures and Publication Apparatus"
+  authorized_by_review: "B05-REV-0026"
+  scope:
+    - "figure disposition and controlled source assets"
+    - "captions, legends, accessibility and grayscale review"
+    - "final Source and reader notices"
+    - "page-reference inputs and publication inventory"
+
+release_candidate_ready: false
+final_publication_approved: false
+implementation_authorized: false
+production_authorized: false
 external_protected_action_authorized: false
