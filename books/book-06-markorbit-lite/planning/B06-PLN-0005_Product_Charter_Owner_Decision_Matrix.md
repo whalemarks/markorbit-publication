@@ -5,19 +5,17 @@
 ```text
 Record: B06-PLN-0005
 Book: Book 06 — MarkOrbit Lite
-Record type: Consolidated Owner Decision Matrix
-Version: v0.2
+Record type: Owner Decision Matrix
+Version: v0.3
 Status: Candidate — accepted on owner merge
-Base Charter: B06-PLN-0004
-Charter Amendment: B06-PLN-0006
+Charter: B06-PLN-0004 v0.3
+Commercial-plan candidate: B06-PLN-0006
 Reviews: B06-REV-0002 and B06-REV-0003
 ```
 
-This register consolidates OD-01–OD-08 after the owner clarified the RMB 99 subscription, daily content entitlement and intention-customer supply.
-
 ## 2. Decision rule
 
-Merge of PR #63 records acceptance of the recommended disposition for every decision in this register unless the PR is amended before merge.
+Merge of PR #63 records acceptance of the recommended disposition for each decision below unless the PR is amended before merge.
 
 The decisions define Product planning only. They do not authorize implementation, production, autonomous professional action or External Protected Action.
 
@@ -25,269 +23,350 @@ The decisions define Product planning only. They do not authorize implementation
 
 | ID | Decision | Recommended disposition |
 | --- | --- | --- |
-| OD-01 | Product identity and positioning | Accept canonical Lite identity with concrete daily content/customer-development market promise |
-| OD-02 | First main reference journey | Accept Daily Content-to-Customer Development Journey; retain Existing Client Value Journey as variant |
-| OD-03 | Case Center MVP depth | Accept curated, reference-first case-to-Artifact scope |
-| OD-04 | Local/private baseline | Accept hybrid minimization |
-| OD-05 | Lite-visible MGSN depth | Accept shortlist/preview plus Capability Need Handoff only |
-| OD-06 | External-action mode | Accept final human confirmation as MVP default |
-| OD-07 | Subscription and daily content contract | Accept RMB 99/month reference price and at least one usable content unit per calendar day |
-| OD-08 | Intention-customer supply | Accept as second core output with quality boundary; do not lock fixed quantity yet |
+| OD-01 | enduring Product identity | accept AI business operating system + lightweight Workplace Product |
+| OD-02 | primary Product value structure | accept four core loops |
+| OD-03 | Today meaning | accept daily business cockpit, not Product identity |
+| OD-04 | first primary reference journey | accept Existing Customer Portfolio Opportunity Journey |
+| OD-05 | content and prospect supply | retain as important capabilities, not constitutional identity |
+| OD-06 | cases, memory and reusable capability | accept as a core Product loop with governed promotion |
+| OD-07 | MarkReg and MGSN depth | accept formal Handoff/Return; no lifecycle absorption |
+| OD-08 | local/private and external-action baseline | accept hybrid minimization + final human confirmation default |
+| OD-09 | RMB 99 and daily entitlement | retain as commercial-plan and MVP experiment candidate |
+| OD-10 | MVP 0 | accept Customer Opportunity-to-Governed-Service Loop |
 
-## 4. OD-01 — Product identity and positioning
+## 4. OD-01 — Enduring Product identity
 
 ### Options
 
-A. Lite is only an abstract Today/Next Best Action Product.
+A. Lite is a Today/Next Best Action recommendation tool.
 
-B. Lite is a generic AI writing tool.
+B. Lite is a daily content and lead-supply subscription.
 
-C. Lite is a lightweight Workplace Product with a concrete daily content and customer-development market promise.
+C. Lite is the AI business operating system for independent trademark professionals and small agencies; architecturally it is a lightweight Workplace Product.
 
 ### Recommendation
 
 **ACCEPT OPTION C.**
 
 ```text
-Canonical identity:
-MarkOrbit Lite
-= lightweight Workplace Product for trademark professionals
+User-facing identity:
+AI business operating system
+for independent trademark professionals and small trademark agencies
 
-Market promise:
-daily content and customer-development workspace
+Architectural identity:
+lightweight Workplace Product
+individual-first but organization-centered
 ```
 
-Chinese expression:
+The identity must remain useful even if pricing, content quotas, customer-candidate sources or delivery formats change.
 
-> 每天有内容，每天有客户可开发。
-
-The Product remains broader than a content generator or lead list because it also preserves Artifact, Handoff, outcome, data and professional-governance boundaries.
-
-## 5. OD-02 — First main reference journey
+## 5. OD-02 — Primary Product value structure
 
 ### Options
 
-A. Existing Client Value Journey only.
+A. One generic recommendation loop.
 
-B. Daily Content Supply only.
+B. Two supply loops: content and leads.
 
-C. Daily Content-to-Customer Development Journey, with Existing Client Value as an important variant.
+C. Four connected loops covering growth, professional work products, memory/capability and MarkOrbit ecosystem handoff.
 
 ### Recommendation
 
 **ACCEPT OPTION C.**
 
 ```text
-subscriber profile and content calendar
-→ usable Daily Content Unit
-→ copy / download / Publish preparation
-→ public or private-domain use
-→ intention-customer candidate
-→ qualification and development angle
-→ follow-up package
+1. Customer and Service Growth
+2. Professional Work Products
+3. Professional Memory and Business Assets
+4. MarkOrbit Ecosystem Handoff
+```
+
+These loops explain why Lite can remain valuable over many years rather than only during one content or lead campaign.
+
+## 6. OD-03 — Today meaning
+
+### Options
+
+A. Today is the Product identity.
+
+B. Today displays one recommended action.
+
+C. Today is the daily business cockpit through which the four loops become actionable.
+
+### Recommendation
+
+**ACCEPT OPTION C.**
+
+Today may organize:
+
+- customer and service opportunities;
+- ready work products;
+- decisions and Prepared Actions;
+- returned MarkReg/MGSN/service outcomes;
+- prior customer responses;
+- personal and organization continuity.
+
+Today remains a Product experience. It is not a universal Task list or formal deadline authority.
+
+## 7. OD-04 — First primary reference journey
+
+### Options
+
+A. Daily Content-to-Customer Development Journey.
+
+B. Platform-Supplied Prospect Journey.
+
+C. Existing Customer Portfolio Opportunity Journey.
+
+### Recommendation
+
+**ACCEPT OPTION C.**
+
+```text
+customer and trademark portfolio
+→ relevant service-value observation
+→ source and case/Knowledge explanation
+→ customer work product and follow-up package
 → final user confirmation
-→ outreach / Communication
-→ response and qualification
-→ formal Opportunity or MarkReg Handoff
-→ returned result and feedback
+→ customer response and qualification
+→ MarkReg / formal Opportunity / service Handoff
+→ returned outcome and next opportunity
 ```
 
-This journey directly tests what the RMB 99 subscriber buys.
+Reasons:
 
-## 6. OD-03 — Case Center MVP depth
+- strongest data authority;
+- higher relevance and trust;
+- lower acquisition and compliance risk;
+- direct link to MarkReg;
+- proves both professional and commercial value;
+- does not depend on large-scale lead supply.
+
+Daily content and new-prospect supply remain secondary journeys and experiments.
+
+## 8. OD-05 — Content and prospect supply
 
 ### Options
 
-A. Universal case ingestion and new universal Case object.
+A. Remove content and prospect capabilities.
 
-B. Curated, reference-first case context and case-to-Artifact preparation.
+B. Make daily content and customer candidates the Product constitution.
 
-C. No Case Center in the Product baseline.
-
-### Recommendation
-
-**ACCEPT OPTION B.**
-
-```text
-Internal Case Context
-→ Case Memory / Lesson Candidate
-→ Approved Reusable Case Asset
-→ External Case Artifact or Publish Package
-```
-
-The MVP should use selected authorized cases and minimum facts. It must not treat client or Matter content as automatically publishable.
-
-## 7. OD-04 — Local/private baseline
-
-### Options
-
-A. Cloud-first unrestricted synchronization.
-
-B. Local-only with no governed cross-Product continuity.
-
-C. Hybrid minimization.
+C. Retain them as important growth and work-product capabilities that may be packaged by commercial plans.
 
 ### Recommendation
 
 **ACCEPT OPTION C.**
 
-Raw local case libraries and working files may remain local. Only minimum approved references, candidates or Artifact context should cross the boundary.
+```text
+Daily content
+= recurring work-product supply and habit mechanism
 
-## 8. OD-05 — Lite-visible MGSN depth
+Prospect candidates
+= one growth-source capability
 
-### Options
+Neither
+= complete Lite Product identity
+```
 
-A. Build full provider discovery, Trust, Routing and marketplace depth inside Lite.
-
-B. Show a trusted shortlist or comparison preview and prepare a Capability Need Handoff.
-
-C. Exclude all provider-related surfaces.
-
-### Recommendation
-
-**ACCEPT OPTION B.**
-
-MGSN retains network discovery, Trust, Routing and cross-Organization collaboration ownership.
-
-## 9. OD-06 — External-action mode
-
-### Options
-
-A. Silent automated send and Publish.
-
-B. Final human confirmation by default, with copy/download/manual or governed Handoff modes.
-
-C. No external-use preparation.
-
-### Recommendation
-
-**ACCEPT OPTION B.**
+The Product baseline must distinguish:
 
 ```text
-prepared Artifact or Communication
-→ exact audience / recipient / account preview
+Prospect Candidate
+≠ Qualified Lead
+
+Service-Value Candidate
+≠ formal Opportunity
+
+Content draft
+≠ usable work product
+
+Work product ready
+≠ delivered or published
+```
+
+## 9. OD-06 — Cases, memory and reusable capability
+
+### Options
+
+A. No persistent memory; treat every AI interaction independently.
+
+B. Pool all user, case and organization data into unrestricted AI memory.
+
+C. Accept a governed loop from practice and outcome to scoped memory, case lessons, reusable Assets and Knowledge contribution candidates.
+
+### Recommendation
+
+**ACCEPT OPTION C.**
+
+Required chain:
+
+```text
+practice and outcome
+→ sourced observation / correction
+→ personal or organization memory candidate
+→ reviewed case lesson / reusable Asset candidate
+→ approved reuse within scope
+→ future work product or recommendation
+```
+
+Required distinctions:
+
+```text
+personal note ≠ organization truth
+case experience ≠ canonical Knowledge
+reusable ≠ public
+Evidence ≠ permission to publish
+accepted AI output ≠ organization policy
+```
+
+## 10. OD-07 — MarkReg and MGSN depth
+
+### Options
+
+A. Implement trademark lifecycle and global provider network directly inside Lite.
+
+B. Exclude MarkReg and MGSN entirely.
+
+C. Accept typed Handoff/Return integration while preserving destination ownership.
+
+### Recommendation
+
+**ACCEPT OPTION C.**
+
+Lite may:
+
+- prepare and launch MarkReg journeys;
+- continue a returned MarkReg result;
+- prepare an MGSN Capability Need;
+- display minimized provider candidates and returned outcomes;
+- connect results to future customer value.
+
+Lite does not own:
+
+- filing readiness;
+- trademark lifecycle state;
+- provider Trust and Routing;
+- provider appointment;
+- cross-organization collaboration lifecycle.
+
+## 11. OD-08 — Local/private and external-action baseline
+
+### Options
+
+A. unrestricted cloud synchronization and silent external action;
+
+B. local-only isolation with no ecosystem continuity;
+
+C. hybrid minimization and final human confirmation as the default for consequential MVP actions.
+
+### Recommendation
+
+**ACCEPT OPTION C.**
+
+Raw local files and case libraries may remain local. Only minimum approved context, references or derived work-product content should cross the boundary.
+
+Initial external modes should prefer:
+
+```text
+prepare
+→ preview exact version, recipient, audience, account and consequence
 → final human confirmation
 → manual, local-helper or governed operation
 → returned result
 ```
 
-## 10. OD-07 — Subscription and daily content contract
-
-### Owner clarification
-
-```text
-Reference price: RMB 99 / month
-Daily entitlement: at least one usable content unit per calendar day
-Supported types: illustrated post OR short video OR Moments copy
-```
+## 12. OD-09 — RMB 99 and daily entitlement
 
 ### Options
 
-A. Keep pricing and daily output outside the Product Charter.
+A. Remove all commercial-plan discussion from Book 06.
 
-B. Promise only a daily recommendation or topic.
+B. Lock RMB 99, daily content and customer candidates as permanent constitutional requirements.
 
-C. Lock the RMB 99 reference subscription and one usable Daily Content Unit per calendar day.
-
-D. Promise all three content types every day.
+C. Retain the RMB 99 plan as a bounded commercial-plan and MVP experiment candidate under the enduring Product Charter.
 
 ### Recommendation
 
 **ACCEPT OPTION C.**
 
-Important controls:
+The candidate plan may test:
 
-- one of the supported types per day, not all three;
-- the format mix must be disclosed;
-- a topic, title, script, scene plan or video brief does not satisfy the daily entitlement;
-- a unit declared as video counts only when a usable video is delivered;
-- the base plan may use shared content, controlled personalization, templates and batch rendering;
-- one bespoke expert article or bespoke video per subscriber per day is not included in the accepted base promise;
-- the reference price may later vary by edition, region, promotion, tax or channel.
+- low-friction acquisition;
+- recurring daily/weekly use;
+- daily or frequent content supply;
+- a bounded number of prospect candidates;
+- basic Artifact/Render quotas;
+- MarkReg entry and conversion;
+- retention, cost and gross margin.
 
-## 11. OD-08 — Intention-customer supply
+The plan may change without redefining Lite.
+
+```text
+Product Charter
+≠ price list
+
+Product capability
+≠ commercial entitlement
+
+Commercial entitlement
+≠ universal Product obligation
+```
+
+## 13. OD-10 — MVP 0
 
 ### Options
 
-A. Do not provide customer candidates.
+A. Generate 30 days of content.
 
-B. Provide a large unverified list with a fixed daily quantity.
+B. Supply a fixed number of new prospects.
 
-C. Provide explainable intention-customer candidates as a second core output and defer fixed quantity until quality validation.
-
-D. Treat candidates as formal Opportunities automatically.
+C. Prove one Customer Opportunity-to-Governed-Service Loop.
 
 ### Recommendation
 
 **ACCEPT OPTION C.**
 
-A candidate should preserve where available:
-
-- lawful or authorized source;
-- identity and contactability;
-- reason and relevant service signal;
-- freshness;
-- confidence and limitations;
-- duplicate and suppression state;
-- permitted-use and outreach context;
-- user qualification;
-- response and formalization result.
-
-The following distinctions remain locked:
-
 ```text
-intention-customer candidate
-≠ guaranteed customer
-
-contact found
-≠ contact permitted by every channel
-
-candidate accepted by user
-≠ formal Opportunity
-
-formal Opportunity
-≠ Order or revenue
+authorized customer and trademark context
+→ relevant service-value candidate
+→ explanation and work product
+→ user-confirmed customer follow-up
+→ meaningful response / no response / rejection
+→ qualified service need
+→ MarkReg or formal service Handoff
+→ returned outcome and future continuity
 ```
 
-The later Product baseline must decide minimum weekly/monthly quantity, invalid-candidate replacement, qualification levels, exclusivity, contact scope and compliance rules.
+The MVP may use content and prospect supply as supporting experiments, but it does not pass merely because it produces many files or candidate records.
 
-## 12. Commercial viability decision
+## 14. Commercial-plan guardrails
 
-The RMB 99 reference model is accepted only with the following operating assumptions:
+Any Lite commercial plan should specify separately:
 
-- reusable editorial calendars;
-- shared industry and jurisdiction content pools;
-- deterministic templates;
-- format rotation;
-- batch production;
-- controlled personalization;
-- limited manual review in the base tier;
-- measured Render, TTS, storage, lead and support costs;
-- premium tiers or credits for expensive bespoke output.
+- target user and edition;
+- price and billing period;
+- entitlement window;
+- supported work products;
+- Render, Edit and Publish modes;
+- customer/prospect candidate source and quantity;
+- support and human-review level;
+- storage and local/private capability;
+- MarkReg/MGSN access;
+- invalid-output and invalid-candidate treatment;
+- usage and cost limits;
+- upgrade and cancellation behavior.
 
-The Product must not preserve gross margin by supplying unusable content or fake leads.
+Low price does not justify:
 
-## 13. Updated MVP Decision
+- unusable output;
+- fake or stale leads;
+- hidden source defects;
+- unsafe publication;
+- customer data leakage;
+- false formal state.
 
-The accepted MVP 0 is:
-
-```text
-30-Day Daily Content and Customer Development Loop
-```
-
-It must test:
-
-- daily content fulfillment;
-- illustrated, Moments and selected template-video formats;
-- content use and fatigue;
-- intention-customer quality;
-- qualification and follow-up;
-- formal Opportunity or MarkReg Handoff;
-- subscription use, retention and cancellation;
-- production cost and gross margin;
-- privacy, rights and external-action safety.
-
-## 14. Decision effect
+## 15. Decision effect
 
 ```text
 OD-01: ACCEPT ON OWNER MERGE
@@ -297,9 +376,11 @@ OD-04: ACCEPT ON OWNER MERGE
 OD-05: ACCEPT ON OWNER MERGE
 OD-06: ACCEPT ON OWNER MERGE
 OD-07: ACCEPT ON OWNER MERGE
-OD-08: ACCEPT ON OWNER MERGE WITH QUALITY BOUNDARY
+OD-08: ACCEPT ON OWNER MERGE
+OD-09: ACCEPT ON OWNER MERGE
+OD-10: ACCEPT ON OWNER MERGE
 ```
 
-After merge, Product record, journey and scenario planning is authorized.
+Owner merge authorizes Product-local record, journey, scenario, Handoff/Return, MVP and commercial-plan planning.
 
-Chapter-map acceptance and manuscript drafting remain unauthorized until the Product baseline reconciles.
+It does not accept a chapter map or manuscript and does not authorize implementation, production or External Protected Action.
