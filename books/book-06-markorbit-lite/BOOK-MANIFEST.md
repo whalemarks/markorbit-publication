@@ -5,99 +5,92 @@
 ```text
 Book ID: B06
 Title: MarkOrbit Lite
-Status: Product Baseline v0.1 — Owner Accepted on Merge
+Status: Chapter Map v0.1 — Owner Accepted on Merge
 Canonical path: books/book-06-markorbit-lite/
+Chapter Map: B06-TOC-V0.1
+Chapter range: B06-CH-00–B06-CH-33
 Manuscript files: 0
-Chapter map: not created
 Product Charter: B06-PLN-0004 v0.3
-Owner Decisions: B06-PLN-0005 v0.3
-Commercial Plan Candidate: B06-PLN-0006
 Product Baseline: B06-SPEC-0001–0004 v0.1
-Product Baseline Review: B06-REV-0004
+Chapter Map record: B06-PLN-0007
+Chapter Map review: B06-REV-0005
 ```
 
-## Inventory
+## Current inventory
 
 ```text
+planning/B06-PLN-0001–0007
+specifications/B06-SPEC-0001–0004
+reviews/B06-REV-0001–0005
 README.md
 BOOK-GOVERNANCE.md
 BOOK-MANIFEST.md
 BOOK-STATUS.md
 CHANGELOG.md
 publication.yaml
-
-planning/
-  B06-PLN-0001–0006
-
-specifications/
-  README.md
-  B06-SPEC-0001_Product_Local_Records_and_Ownership.md
-  B06-SPEC-0002_Reference_Journeys_and_State_Transitions.md
-  B06-SPEC-0003_Conformance_Scenarios_and_Failure_Paths.md
-  B06-SPEC-0004_Handoff_Work_Product_MVP_and_Historical_Reconciliation.md
-
-reviews/
-  B06-REV-0001–0004
 ```
 
-## Governing dependencies
-
-- Architecture Canon and Books 01–04 Portfolio Baseline;
-- Book 05 MarkReg RC1 for bounded Lite/MarkReg contracts;
-- accepted Book 06 Pre-Writing Audit;
-- Product Charter v0.3 and OD-01–OD-10.
+No manuscript chapter file has been created by the Chapter Map task.
 
 ## Controlled Product Baseline
 
 ```text
-ML-S01–S05      Session, Today and interaction
-ML-O01–O08      observations, signals and value candidates
-ML-W01–W10      work products and Prepared Actions
-ML-M01–M08      memory, cases and reusable Assets
-ML-H01–H08      Handoff and Return continuity
-ML-E01–E06      evaluation and commercial experiments
-ML-J01–J04      reference journeys
-ML-SCN-01–24    conformance scenarios
-ML-HC-01–HC-08  Handoff contracts
-ML-AC-01–AC-12  MVP acceptance criteria
+ML-S01–S05
+ML-O01–O08
+ML-W01–W10
+ML-M01–M08
+ML-H01–H08
+ML-E01–E06
+ML-J01–J04
+ML-SCN-01–24
+ML-HC-01–HC-08
+ML-AC-01–AC-12
 ```
 
-## Ownership result
-
-Lite owns Product-local candidate, presentation, preparation, Envelope, continuity and evaluation records.
-
-Lite does not own parallel formal:
-
-- Customer, Contact, Trademark, Matter, Order or Provider;
-- Opportunity, Task, Workflow or Communication;
-- Document, Evidence, approval or official status;
-- MarkReg lifecycle or MGSN Trust/Route state.
-
-## Product / commercial separation
+## Chapter Map
 
 ```text
-Product Charter
-≠ commercial plan
-≠ entitlement
-≠ MVP experiment
-≠ implementation schema
+B06-TOC-V0.1
+Front Matter: CH00–CH01
+Part I — Product Constitution and Place in MarkOrbit: CH02–CH06
+Part II — The Daily Operating Model: CH07–CH11
+Part III — Customer and Service Growth: CH12–CH16
+Part IV — Professional Work Products: CH17–CH21
+Part V — Cases, Memory and Business Assets: CH22–CH25
+Part VI — MarkOrbit Gateways and Continuity: CH26–CH29
+Part VII — Conformance, Economics and Evolution: CH30–CH33
 ```
 
-RMB 99, recurring content and Prospect Candidate supply remain controlled commercial experiments.
-
-## Current result
+## Drafting waves
 
 ```text
-B06-SPEC-0001–0004 complete: YES
-Controlled ranges complete: YES
-Reference journeys complete: YES
-Conformance scenarios complete: YES
-Handoff mapping complete: YES
-MVP evaluation baseline complete: YES
-Historical V1 reconciliation complete: YES
-Product Baseline Review: PASS
+Wave 1 CH00–CH06
+Wave 2 CH07–CH11
+Wave 3 CH12–CH16
+Wave 4 CH17–CH21
+Wave 5 CH22–CH25
+Wave 6 CH26–CH29
+Wave 7 CH30–CH33
+```
+
+## Coverage result
+
+```text
+All Charter loops covered: YES
+All controlled ML families covered: YES
+All four reference journeys covered: YES
+All Handoff contracts covered: YES
+All MVP criteria covered: YES
+Orphaned controlled range: 0
 Change Proposal required: NO
-Ready for Chapter Map Candidate after owner merge: YES
-Ready for Chapter Map acceptance: NO
-Ready for manuscript drafting: NO
 ```
+
+## Current gate
+
+```text
+Chapter Map v0.1 owner merge
+→ controlled manuscript drafting authorized
+→ Wave 1 CH00–CH06 next
+```
+
+Implementation, production, public/commercial distribution, autonomous professional action and External Protected Action remain unauthorized.
