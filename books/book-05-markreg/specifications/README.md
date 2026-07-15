@@ -1,94 +1,54 @@
 # Book 05 Controlled Specifications
 
-These records provide shared Product contracts used across multiple chapters. Specifications remain authoritative over reader-facing appendices.
+Specifications remain authoritative over manuscript simplification and Appendix projections.
 
-## Current Specifications
+## Current Baseline
 
-- `B05-SPEC-0001_Product_Artifact_and_Decision_Map.md` — **Controlled Specification v0.2, PF-02 complete**. Defines controlled Product records, Decisions, evidence, lineage, versioning and lifecycle relationships.
-- `B05-SPEC-0002_Reference_Journeys.md` — **Controlled Specification v0.2, PF-03 complete**. Locks `EMBERLOOP` and `RIVERKITE` identities, steps, final states and chapter mapping.
-- `B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md` — **Controlled Specification v0.2, PF-04 complete**. Defines `MR-SCN-01–41`, severity, participant visibility, action rights, surfaces and Profile tests.
-- `B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md` — **Controlled Specification v0.2, PF-05 complete**. Defines Pack support states, service modules, source/Rule/form governance, later-stage commercial controls, AI limits and Profile evidence.
+| Specification | Status | Scope |
+| --- | --- | --- |
+| B05-SPEC-0001 | Controlled Specification v0.3 | Product records, Decisions, Evidence, Baselines, Views, Governance and lineages |
+| B05-SPEC-0002 | Controlled Specification v0.3 | `EMBERLOOP` `EL-01–40` and `RIVERKITE` `RK-01–18` |
+| B05-SPEC-0003 | Controlled Specification v0.3 | `MR-SCN-01–41`, severity, participant surfaces and Profile tests |
+| B05-SPEC-0004 | Controlled Specification v0.3 | Pack Support States, service modules, Sources, Rules, AI and commercial controls |
 
-## Reconciliation State
-
-```text
-B05-SPEC-0001 — PF-02 COMPLETE
-B05-SPEC-0002 — PF-03 COMPLETE
-B05-SPEC-0003 — PF-04 COMPLETE
-B05-SPEC-0004 — PF-05 COMPLETE
-All four controlled specifications reconciled: YES
-```
-
-- B05-REV-0014 accepts B05-SPEC-0001 v0.2.
-- B05-REV-0015 accepts B05-SPEC-0002 v0.2.
-- B05-REV-0016 accepts B05-SPEC-0003 v0.2.
-- B05-REV-0017 accepts B05-SPEC-0004 v0.2 and authorizes PF-06.
+All four were accepted for PF-06D by B05-REV-0026.
 
 ## Controlled Models
 
 ```text
-MR-A — Product artifact
-MR-C — scoped context
-MR-D — accountable Decision
-MR-E — evidence or source-backed record
-MR-B — baseline or obligation record
-MR-V — view or projection
-MR-G — governance and configuration record
+MR-A01–A30 — Product Artifacts
+MR-C01–C12 — scoped Contexts
+MR-D01–D13 — accountable Decisions
+MR-E01–E09 — Evidence and source-backed records
+MR-B01–B04 — Baselines and obligations
+MR-V01–V05 — Views and Projections
+MR-G01–G10 — Governance and configuration
+MR-SCN-01–41 — Conformance Scenarios
 ```
 
 ```text
-MR-SCN-01–MR-SCN-41
-→ standard, high-risk and zero-tolerance behavior
+MR-C01 = Capability Need
+MR-C12 = Applicant and Authority Context
 ```
+
+## PF-06D Reconciliation
 
 ```text
-Jurisdiction Pack module states
-→ Research Only
-→ Guidance Capable
-→ Preparation Capable
-→ Execution Capable
-→ Lifecycle Capable
-→ Suspended
-→ Retired
+PF06C2-F01: CLOSED
+PF06C3-F01: CLOSED
+PF06C4-F01: CLOSED
+PF06D-F01: CLOSED
+EL-01–EL-40 current IDs: COMPLETE
+RK-01–RK-18 current IDs: COMPLETE
+Open Specification finding: 0
 ```
 
-A record class, scenario pass, Pack release or publication status does not itself grant external authority.
+## Projection Rule
 
-## Service Modules in B05-SPEC-0004
+- Appendix A/B project B05-SPEC-0001;
+- Appendix C/E project B05-SPEC-0003 and participant/state contracts;
+- Appendix D projects B05-SPEC-0002;
+- Appendix F projects B05-SPEC-0004;
+- Appendix G combines Profile and Pack evidence limits.
 
-- new filing;
-- examination and response;
-- publication, opposition and adversarial work;
-- registration and maintenance;
-- renewal;
-- changes and recordals;
-- assignment, merger, succession and licensing;
-- portfolio and monitoring.
-
-A filing module does not automatically support renewal, recordal or disputes.
-
-## Commercial Boundary
-
-The controlled contract separates:
-
-- official fees;
-- mandatory third-party costs;
-- professional fees;
-- provider pass-through;
-- internal provider costs;
-- tax and currency adjustments;
-- later-stage fees;
-- discounts and credit;
-- internal margin.
-
-Internal cost or margin may not be represented as official fee.
-
-## Publication Projection Rule
-
-- Appendix A projects B05-SPEC-0001.
-- Appendices B, C and E project B05-SPEC-0001 and B05-SPEC-0003.
-- Appendix D projects B05-SPEC-0002.
-- Appendix F projects B05-SPEC-0004.
-- Appendix G projects the Profile requirements from B05-SPEC-0003 and Pack evidence limits from B05-SPEC-0004.
-
-PF-06 may improve language and compression but may not silently alter controlled meaning.
+A Specification, scenario pass, Pack release or publication status does not grant production or External Protected Action authority.
