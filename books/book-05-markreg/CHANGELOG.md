@@ -1,5 +1,23 @@
 # Book 05 Changelog
 
+## 2026-07-15 — PF-06C4 Part VII Editorial Finishing
+
+- Edited CH43–CH47 against B05-PUB-0001 Controlled Editorial Standard v0.2.
+- Normalized CH43–CH47 metadata to Complete Draft 1 and B05-TOC-V0.1 — Owner Accepted.
+- Wrote `EL-36–EL-40` and `RK-14–RK-18` explicitly into the active Part VII manuscript.
+- Reconciled Handoff Envelope, Product Session, Return Envelope and Participant Surface Projection terminology.
+- Reconciled Jurisdiction Pack, Rule, Pack Version, Organization Overlay and AI Task/Output governance.
+- Reconciled Metric Definition, Evaluation Record, Pilot Context, Pilot/Release Decision and Conformance Statement.
+- Replaced chapter-local scenarios with the controlled `MR-SCN-01–41` registry.
+- Preserved publication, implementation, production and External Protected Action as separate gates.
+- Preserved EMBERLOOP and RIVERKITE final positions without inventing official outcomes.
+- Reduced Part VII from approximately 3,041 lines to approximately 1,061 lines, about 65%.
+- Added B05-REV-0025 and accepted PF-06C4 manuscript work.
+- Closed PF-01 and PF-06C.
+- Recorded PF06C4-F01 for B05-SPEC-0002 Part VII and `RK-14–RK-18` controlled-ID reconciliation under PF-06D.
+- Authorized PF-06D — Whole-Book Closure.
+- Kept PF-06 overall, figures, validation, RC1 and final publication open.
+
 ## 2026-07-15 — PF-06C3 Part VI Editorial Finishing
 
 - Edited CH37–CH42 against B05-PUB-0001 Controlled Editorial Standard v0.2.

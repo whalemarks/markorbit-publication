@@ -2,9 +2,9 @@
 
 The manuscript is controlled by B05-TOC-V0.1, which is owner accepted.
 
-## Drafted Range
+## Drafted and Edited Range
 
-CH00–CH47 — all forty-eight planned manuscript files.
+CH00–CH47 — all forty-eight planned manuscript files are drafted, reviewed and editorially finished.
 
 ## Editorial Status
 
@@ -17,81 +17,34 @@ CH00–CH47 — all forty-eight planned manuscript files.
 | CH23–CH29 | Filing Preparation and Governed Execution | PF-06C1 complete |
 | CH30–CH36 | Examination, Publication and Disputes | PF-06C2 complete |
 | CH37–CH42 | Registration and Portfolio Continuity | PF-06C3 complete |
-| CH43–CH47 | Product Experience and Evolution | PF-06C4 next |
+| CH43–CH47 | Product Experience and Evolution | PF-06C4 complete |
 
 ## Completed Controlled Sequences
 
-### Part II — `EL-01–EL-08`
-
 ```text
-Need Brief
-→ jurisdiction and route candidates
-→ country-bundle Option Sets
-→ filing-unit candidates
-→ Applicant and Authority Context
-→ class candidates
-→ goods/services scope
-→ search and risk
+EL-01–EL-08 — Need, Strategy and Recommendation
+EL-09–EL-15 — Commercial Journey and Formal Intake
+EL-16–EL-22 — Filing Preparation and Governed Execution
+EL-23–EL-29 — Examination, Publication and Disputes
+EL-30–EL-35 — Registration and Portfolio Continuity
+EL-36–EL-40 — Product Experience and Evolution
 ```
 
-Accepted by [B05-REV-0020](../reviews/B05-REV-0020_PF-06B2A_Part_II_Editorial_Review.md).
+Accepted by B05-REV-0020 through B05-REV-0025.
 
-### Part III — `EL-09–EL-15`
-
-```text
-Proposal
-→ price basis and Quote
-→ Client Acceptance and Commercial Instruction
-→ Formal Intake
-→ Requirement Set
-→ Readiness Assessment
-→ Handoff Envelope and returned formal references
-```
-
-Accepted by [B05-REV-0021](../reviews/B05-REV-0021_PF-06B2B_Part_III_Editorial_Review.md).
-
-### Part IV — `EL-16–EL-22`
+### Part VII — `EL-36–EL-40`
 
 ```text
-Filing Package Candidate
-→ Professional Decision and Filing Approval
-→ Capability Need, Routing Recommendation and Human Selection
-→ Appointment Candidate, Provider Instruction and Provider Acceptance
-→ Execution Request
-→ submission, delivery, Provider and official Evidence
-→ Reconciliation Context and Recovery Plan
+Handoff Envelope
+→ Product Session
+→ Return Envelope
+→ Participant Surface Projection
+→ Source, Rule and Pack governance
+→ AI Task and Output governance
+→ Metric Definition and Evaluation
+→ Pilot Context and Pilot/Release Decision
+→ Conformance Statement
 ```
-
-Accepted by [B05-REV-0022](../reviews/B05-REV-0022_PF-06C1_Part_IV_Editorial_Review.md).
-
-### Part V — `EL-23–EL-29`
-
-```text
-Official Event Snapshot and scoped Context
-→ Issue Set and Response Option Set
-→ Response Strategy and Response Package
-→ official acknowledgement with examination continuing
-→ Publication Window and challenge monitoring
-→ Adversarial and Remedy Contexts
-→ Deadline Record, Outcome Snapshot and Communication Packet
-```
-
-Accepted by [B05-REV-0023](../reviews/B05-REV-0023_PF-06C2_Part_V_Editorial_Review.md).
-
-### Part VI — `EL-30–EL-35`
-
-```text
-Registration Outcome Record, scope diff and Right Baseline
-→ Maintenance Obligation Set and Use-Evidence Coverage
-→ Renewal Package, Renewal Approval and official update
-→ Recordal Context, Package, Approval and official update
-→ Transaction / Licence Context and Chain-of-Title View
-→ Portfolio Continuity View and Portfolio Action Plan
-```
-
-Accepted by [B05-REV-0024](../reviews/B05-REV-0024_PF-06C3_Part_VI_Editorial_Review.md).
-
-B05-REV-0023 and B05-REV-0024 record PF06C2-F01 and PF06C3-F01. B05-SPEC-0002 Part V/VI record-ID references require final reconciliation under PF-06D.
 
 ## Metadata Progress
 
@@ -103,7 +56,8 @@ CH16–CH22: COMPLETE
 CH23–CH29: COMPLETE
 CH30–CH36: COMPLETE
 CH37–CH42: COMPLETE
-CH43–CH47: OPEN
+CH43–CH47: COMPLETE
+PF-01 overall: COMPLETE
 ```
 
 Normalized active metadata:
@@ -123,7 +77,7 @@ Need Brief
 → Formal Intake, Requirement Set and Readiness Assessment
 → Handoff Envelope and formal references
 → Filing Package Candidate, Professional Review and Filing Approval
-→ Provider selection, appointment and acceptance
+→ provider selection, appointment and acceptance
 → governed Execution
 → submission, acknowledgement and reconciliation
 → examination, publication, disputes and remedies
@@ -131,10 +85,9 @@ Need Brief
 → maintenance and renewal
 → recordals and Chain-of-Title View
 → Portfolio Continuity View and Portfolio Action Plan
-→ standalone, embedded and cross-Product experience
-→ participant surfaces and authority
+→ Product Session, participant surfaces and typed Return
 → Jurisdiction Packs and AI governance
-→ metrics, quality, MVP and Conformance Profiles
+→ metrics, evaluation, Pilot and Conformance Statement
 ```
 
 ## Chapter Boundary Control
@@ -153,7 +106,17 @@ B05-ERRATA-0001 corrects the former derived-status typo that placed CH43 in Part
 - [B05-SPEC-0003 — Conformance Scenarios and User-Surface Contract](../specifications/B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md)
 - [B05-SPEC-0004 — Jurisdiction Pack and Commercial Control Contract](../specifications/B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md)
 
-B05-SPEC-0001 v0.2 controls active record IDs. Part V/VI B05-SPEC-0002 cross-reference findings remain open for PF-06D.
+B05-SPEC-0001 v0.2 controls active record IDs.
+
+## Open Cross-Reference Findings
+
+```text
+PF06C2-F01 — Part V EL-23–EL-29 IDs
+PF06C3-F01 — Part VI EL-30–EL-35 and RK-09–RK-13 IDs
+PF06C4-F01 — Part VII EL-36–EL-40 and RK-14–RK-18 IDs
+```
+
+The journey facts remain accepted. PF-06D must correct B05-SPEC-0002, Appendix D and related publication indexes.
 
 ## Current Editorial Reviews
 
@@ -164,9 +127,8 @@ B05-SPEC-0001 v0.2 controls active record IDs. Part V/VI B05-SPEC-0002 cross-ref
 - B05-REV-0022 — PF-06C1 Part IV
 - B05-REV-0023 — PF-06C2 Part V
 - B05-REV-0024 — PF-06C3 Part VI
+- B05-REV-0025 — PF-06C4 Part VII, PF-01 and PF-06C closure
 
 ## Next Controlled Task
 
-PF-06C4 edits CH43–CH47, normalizes their metadata and closes PF-01B.
-
-The next Review must confirm Product entry and embedded surfaces, participant rights, Jurisdiction Pack and AI governance, metrics, pilot and Conformance controls, `EL-36–EL-40`, `RK-14–RK-18`, and publication-versus-implementation authority.
+PF-06D performs whole-book Specification, Appendix, term, source and cross-reference reconciliation. It must close all three controlled findings before PF-06 and PF-08 can pass.

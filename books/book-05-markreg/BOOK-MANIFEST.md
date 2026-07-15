@@ -3,14 +3,14 @@
 ## Identity
 
 - **Canonical path:** `books/book-05-markreg/`
-- **Status:** Complete Draft 1 — Editorial Finishing Active
+- **Status:** Complete Draft 1 — Whole-Book Closure Next
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
 - **Portfolio dependency:** MO-PUB-BASELINE-0001
 - **Primary Product:** MarkReg
-- **Completed editorial range:** CH00–CH42
-- **Current substantive gate:** PF-06C4 — CH43–CH47
-- **Remaining RC1 metadata blocker:** PF-01B CH43–CH47
-- **Open controlled findings:** PF06C2-F01 and PF06C3-F01
+- **Completed editorial range:** CH00–CH47
+- **Metadata status:** PF-01 COMPLETE
+- **Current substantive gate:** PF-06D — Whole-Book Closure
+- **Open controlled findings:** PF06C2-F01, PF06C3-F01 and PF06C4-F01
 
 ## Directory Purpose
 
@@ -32,7 +32,7 @@
 | CH23–CH29 | Part IV — Filing Preparation and Governed Execution | PF-06C1 complete |
 | CH30–CH36 | Part V — Examination, Publication and Disputes | PF-06C2 complete |
 | CH37–CH42 | Part VI — Registration and Portfolio Continuity | PF-06C3 complete |
-| CH43–CH47 | Part VII — Product Experience and Evolution | PF-06C4 next |
+| CH43–CH47 | Part VII — Product Experience and Evolution | PF-06C4 complete |
 
 Appendix A–G sit outside chapter numbering and remain subject to PF-06D and PF-08.
 
@@ -40,24 +40,24 @@ Appendix A–G sit outside chapter numbering and remain subject to PF-06D and PF
 
 | Specification | Status |
 | --- | --- |
-| B05-SPEC-0001 | Controlled Specification v0.2 — PF-02 complete |
-| B05-SPEC-0002 | Controlled Specification v0.2 — PF-03 complete; Part V/VI ID mapping findings open |
-| B05-SPEC-0003 | Controlled Specification v0.2 — PF-04 complete |
-| B05-SPEC-0004 | Controlled Specification v0.2 — PF-05 complete |
+| B05-SPEC-0001 | Controlled Specification v0.2 — active record IDs |
+| B05-SPEC-0002 | Controlled Specification v0.2 — journey facts accepted; Part V–VII ID findings open |
+| B05-SPEC-0003 | Controlled Specification v0.2 — MR-SCN-01–41 and participant surfaces |
+| B05-SPEC-0004 | Controlled Specification v0.2 — Pack and commercial contract |
 
-Specifications remain authoritative over editorial simplification. PF06C2-F01 and PF06C3-F01 must close under PF-06D before structural validation.
+PF-06D must correct the B05-SPEC-0002 cross-reference alignment before PF-08.
 
 ## Appendix Inventory
 
 | Appendix | Status |
 | --- | --- |
-| A — Full-Lifecycle Artifact and Decision Map | PF-02 reconciled |
-| B — Lifecycle State and Authority Matrix | PF-02/PF-04 reconciled |
-| C — Participant Visibility and Action Rights Matrix | PF-04 reconciled |
-| D — Reference Journeys | PF-03 reconciled; Part V/VI ID mapping review required under PF-06D |
-| E — Priority Conformance Scenarios | PF-04 reconciled |
-| F — Minimum Jurisdiction Pack Checklist | PF-05 reconciled |
-| G — MarkReg Conformance Profiles | PF-04/PF-05 reconciled; PF-08 validation pending |
+| A — Full-Lifecycle Artifact and Decision Map | PF-02 reconciled; PF-06D final check |
+| B — Lifecycle State and Authority Matrix | PF-02/PF-04 reconciled; PF-06D final check |
+| C — Participant Visibility and Action Rights Matrix | PF-04 reconciled; PF-06D final check |
+| D — Reference Journeys | PF-03 reconciled; Part V–VII ID corrections required |
+| E — Priority Conformance Scenarios | PF-04 reconciled; PF-06D final check |
+| F — Minimum Jurisdiction Pack Checklist | PF-05 reconciled; PF-06D final check |
+| G — MarkReg Conformance Profiles | PF-04/PF-05 reconciled; PF-06D and PF-08 pending |
 
 ## Editorial Apparatus
 
@@ -65,8 +65,8 @@ Specifications remain authoritative over editorial simplification. PF06C2-F01 an
 | --- | --- |
 | B05-PUB-0001 | Controlled Editorial Standard v0.2 |
 | B05-PUB-0002 | controlled source-note scaffold |
-| B05-PUB-0003 | Controlled Working Glossary v0.2 |
-| B05-PUB-0004 | Controlled Working Index v0.2 |
+| B05-PUB-0003 | Controlled Working Glossary v0.2; PF-06D reconciliation required |
+| B05-PUB-0004 | Controlled Working Index v0.2; PF-06D reconciliation required |
 | B05-PUB-0005 | 12 figures planned; 0 created |
 | B05-PUB-0006 | controlled Back Matter baseline |
 | B05-PUB-0007 | controlled cross-book scaffold |
@@ -77,15 +77,13 @@ Specifications remain authoritative over editorial simplification. PF06C2-F01 an
 
 ```text
 PF-06A — COMPLETE
-PF-06B1 CH00–CH07 — COMPLETE / B05-REV-0019
-PF-06B2A CH08–CH15 — COMPLETE / EL-01–EL-08 / B05-REV-0020
-PF-06B2B CH16–CH22 — COMPLETE / EL-09–EL-15 / B05-REV-0021
-PF-06B overall — COMPLETE
-PF-06C1 CH23–CH29 — COMPLETE / EL-16–EL-22 / B05-REV-0022
-PF-06C2 CH30–CH36 — COMPLETE / EL-23–EL-29 / B05-REV-0023
-PF-06C3 CH37–CH42 — COMPLETE / EL-30–EL-35 / B05-REV-0024
-PF-06C4 CH43–CH47 — AUTHORIZED AND NEXT
-PF-06D — PLANNED / PF06C2-F01 AND PF06C3-F01 MUST CLOSE
+PF-06B CH00–CH22 — COMPLETE
+PF-06C1 CH23–CH29 — COMPLETE / B05-REV-0022
+PF-06C2 CH30–CH36 — COMPLETE / B05-REV-0023
+PF-06C3 CH37–CH42 — COMPLETE / B05-REV-0024
+PF-06C4 CH43–CH47 — COMPLETE / B05-REV-0025
+PF-06C overall — COMPLETE
+PF-06D — AUTHORIZED AND NEXT / THREE FINDINGS MUST CLOSE
 ```
 
 ## Metadata Inventory
@@ -98,49 +96,44 @@ CH16–CH22: COMPLETE under PF-06B2B
 CH23–CH29: COMPLETE under PF-06C1
 CH30–CH36: COMPLETE under PF-06C2
 CH37–CH42: COMPLETE under PF-06C3
-CH43–CH47: OPEN
-PF-01 overall: OPEN
+CH43–CH47: COMPLETE under PF-06C4
+PF-01 overall: COMPLETE
 ```
 
-## Controlled Part VI Records
+## Controlled Part VII Records
 
 ```text
-MR-E08 — Registration Outcome Record
-MR-V01 — Filing and Scope Diff View
-MR-B01 — Right Baseline
-MR-B02 — Maintenance Obligation Set
-MR-B03 — Use-Evidence Coverage Record
-MR-A26 — Renewal Package Candidate
-MR-D08 — Renewal Approval
-MR-C07 — Recordal Context
-MR-A27 — Recordal Package Candidate
-MR-D09 — Recordal Approval
-MR-C08 — Transaction Context
-MR-C09 — Licence Context
-MR-A28 — Affected-Right Set
-MR-V03 — Chain-of-Title View
-MR-V04 — Portfolio Continuity View
-MR-A29 — Portfolio Action Plan
-MR-D10 — Non-Renewal Decision
-MR-E09 — Official Update Evidence
-EL-30–EL-35 — EMBERLOOP Part VI steps
-RK-09–RK-13 — RIVERKITE Part VI steps
+MR-A12 — Handoff Envelope
+MR-C10 — Product Session
+MR-A30 — Return Envelope
+MR-V05 — Participant Surface Projection
+MR-E07 — Source Record
+MR-G01 — Jurisdiction Pack
+MR-G02 — Rule Record
+MR-G03 — Pack Version Record
+MR-G04 — Rule Change Candidate
+MR-G05 — Organization Overlay
+MR-G06 — AI Task Context
+MR-G07 — AI Output Record
+MR-G08 — Metric Definition
+MR-G09 — Evaluation Record
+MR-G10 — Conformance Statement
+MR-C11 — Pilot Context
+MR-D12 — Pack Release Approval
+MR-D13 — Pilot or Release Decision
+EL-36–EL-40 — EMBERLOOP Part VII steps
+RK-14–RK-18 — RIVERKITE Part VII steps
 ```
 
 ## Open Controlled Findings
 
 ```text
-PF06C2-F01
-- B05-SPEC-0002 Part V MR-* references require current-ID reconciliation
-
-PF06C3-F01
-- B05-SPEC-0002 EL-30–EL-35 and RK-09–RK-13 MR-* references require current-ID reconciliation
-
-Journey facts remain accepted.
-Active manuscript uses B05-SPEC-0001 v0.2 IDs.
-PF-06D must reconcile Specification, Appendix D and related indexes.
-Both findings block PF-06D closure and PF-08 validation.
+PF06C2-F01 — B05-SPEC-0002 EL-23–EL-29 Part V IDs
+PF06C3-F01 — B05-SPEC-0002 EL-30–EL-35 and RK-09–RK-13 IDs
+PF06C4-F01 — B05-SPEC-0002 EL-36–EL-40 and RK-14–RK-18 IDs
 ```
+
+Journey facts remain accepted. The active manuscript uses B05-SPEC-0001 v0.2 IDs. PF-06D must reconcile B05-SPEC-0002, Appendix D, Glossary, Subject Index and related projections.
 
 ## Reference Journey Baseline
 
@@ -151,21 +144,17 @@ Both findings block PF-06D closure and PF-08 validation.
 
 - B05-REV-0001 through B05-REV-0013 — manuscript, architecture and publication baseline;
 - B05-REV-0014 through B05-REV-0017 — PF-02 through PF-05;
-- B05-REV-0018 through B05-REV-0024 — PF-06A through PF-06C3.
+- B05-REV-0018 through B05-REV-0025 — PF-06A through PF-06C4.
 
 ## Current Gate
 
 ```text
-CH00–CH47 Complete Draft 1
-→ PF-02 through PF-05 complete
-→ PF-06A and PF-06B complete
-→ PF-06C1 CH23–CH29 complete
-→ PF-06C2 CH30–CH36 complete
-→ PF-06C3 CH37–CH42 complete
-→ PF-06C4 CH43–CH47
+CH00–CH47 Complete Draft 1 and editorial finishing complete
+→ PF-01 through PF-05 complete
+→ PF-06A, PF-06B and PF-06C complete
 → PF-06D whole-book closure and finding resolution
-→ PF-07 publication apparatus
-→ PF-08 validation
+→ PF-07 publication apparatus and figures
+→ PF-08 structural and rendered validation
 → PF-09 Release Candidate 1 and owner publication Decision
 ```
 

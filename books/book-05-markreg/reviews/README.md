@@ -25,24 +25,27 @@ This directory contains owner, architecture, chapter-map, manuscript, productiza
 - `B05-REV-0018_PF-06A_Editorial_Baseline_and_Term_Audit.md` — accepts the editorial baseline
 - `B05-REV-0019_PF-06B1_Front_Matter_and_Part_I_Editorial_Review.md` — accepts CH00–CH07
 - `B05-REV-0020_PF-06B2A_Part_II_Editorial_Review.md` — accepts CH08–CH15 and `EL-01–EL-08`
-- `B05-REV-0021_PF-06B2B_Part_III_Editorial_Review.md` — accepts CH16–CH22 and `EL-09–EL-15`; closes PF-06B
+- `B05-REV-0021_PF-06B2B_Part_III_Editorial_Review.md` — accepts CH16–CH22 and closes PF-06B
 - `B05-REV-0022_PF-06C1_Part_IV_Editorial_Review.md` — accepts CH23–CH29 and `EL-16–EL-22`
-- `B05-REV-0023_PF-06C2_Part_V_Editorial_Review.md` — accepts CH30–CH36 and `EL-23–EL-29`; records PF06C2-F01
-- `B05-REV-0024_PF-06C3_Part_VI_Editorial_Review.md` — accepts CH37–CH42, `EL-30–EL-35` and `RK-09–RK-13`; records PF06C3-F01 and authorizes PF-06C4
+- `B05-REV-0023_PF-06C2_Part_V_Editorial_Review.md` — accepts CH30–CH36 and records PF06C2-F01
+- `B05-REV-0024_PF-06C3_Part_VI_Editorial_Review.md` — accepts CH37–CH42 and records PF06C3-F01
+- `B05-REV-0025_PF-06C4_Part_VII_Editorial_Review.md` — accepts CH43–CH47, closes PF-01 and PF-06C, records PF06C4-F01 and authorizes PF-06D
 
 ## Open Controlled Findings
 
 ```text
 PF06C2-F01
-- B05-SPEC-0002 Part V record references require current-ID reconciliation
+- B05-SPEC-0002 EL-23–EL-29 Part V references require current-ID reconciliation
 
 PF06C3-F01
-- B05-SPEC-0002 EL-30–EL-35 and RK-09–RK-13 record references require current-ID reconciliation
+- B05-SPEC-0002 EL-30–EL-35 and RK-09–RK-13 references require current-ID reconciliation
+
+PF06C4-F01
+- B05-SPEC-0002 EL-36–EL-40 and RK-14–RK-18 references require current-ID reconciliation
 
 Active manuscript uses B05-SPEC-0001 v0.2 IDs.
 PF-06D must update B05-SPEC-0002, Appendix D and related indexes.
-Both findings block PF-06D closure and PF-08 validation.
-They do not block PF-06C4 manuscript editing.
+All three findings block PF-06D closure and PF-08 validation.
 ```
 
 ## Current Gate
@@ -50,16 +53,11 @@ They do not block PF-06C4 manuscript editing.
 CH00–CH47 remain Complete Draft 1.
 
 ```text
-PF-01A: COMPLETE
-PF-01B: PARTIAL — CH02–CH42 complete; CH43–CH47 open
-PF-02–PF-05: COMPLETE
+PF-01–PF-05: COMPLETE
 PF-06A: COMPLETE
 PF-06B: COMPLETE
-PF-06C1 CH23–CH29: COMPLETE
-PF-06C2 CH30–CH36: COMPLETE
-PF-06C3 CH37–CH42: COMPLETE
-PF-06C4 CH43–CH47: AUTHORIZED AND NEXT
-PF-06D: PLANNED / FINDINGS MUST CLOSE
+PF-06C: COMPLETE
+PF-06D: AUTHORIZED AND NEXT / THREE FINDINGS MUST CLOSE
 PF-06 overall: OPEN
 PF-07–PF-09: OPEN
 ```
