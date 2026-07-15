@@ -2,16 +2,17 @@
 
 ## Status
 
-- **Status:** Controlled Baseline
-- **Decision:** Book 05 will use both reader-facing Appendix A–G and independent publication apparatus
-- **Authority:** B05-REV-0012, B05-PLN-0004 and owner direction following PR #43
-- **Applies to:** Book 05 publication finishing and all rendered editions
+- **Status:** Controlled Back Matter Map v0.2 — PF-07 reconciled
+- **Decision:** Book 05 uses reader-facing Appendix A–G and independent publication apparatus
+- **Authority:** B05-REV-0013, B05-REV-0026 and B05-PLN-0004
+- **Applies to:** repository, reader PDF, print and implementation-oriented editions
+- **Rendered order validation:** pending PF-08
 
-## 1. Decision
+## 1. Reader Architecture
 
-Book 05 must not end at CH47 without reader-reference material.
+Book 05 must not end at CH47 without compact reader-reference and source material.
 
-The final publication architecture is:
+The controlled reader order is:
 
 ```text
 Front Matter
@@ -23,221 +24,182 @@ Front Matter
 → Figure Register
 ```
 
-Editorial Style, Cross-Book Reconciliation and RC1 Checklist are controlled production records. They may be included in a repository or professional edition but do not need to appear as reader chapters in every rendered edition.
+Editorial Style, Term Audit, Cross-Book Reconciliation, publication planning, Reviews and the RC1 Checklist are production controls. A repository or implementation-oriented edition may include them, but a general reader edition need not render them as chapters.
 
-## 2. Why Appendices and Publication Apparatus Are Separate
-
-Appendices answer:
-
-> What compact reference does the reader need while using the book?
-
-Publication apparatus answers:
-
-> How is the book edited, sourced, indexed, illustrated, reconciled and validated?
-
-The two functions should not be collapsed.
+## 2. Asset Classes
 
 ```text
-Appendix = reader-facing reference projection
-Publication record = editorial and release control
 Specification = controlled Product truth
+Appendix = reader-facing reference projection
+Figure = controlled visual projection
+Publication apparatus = source, editorial, navigation and release control
+Rendered edition = presentation of the controlled baseline
 ```
 
-## 3. Final Reader-Facing Back Matter
+No later projection may silently change an earlier authority.
 
-### Appendix A — Full-Lifecycle Artifact and Decision Map
+## 3. Reader-Facing Appendix Inventory
 
-Reader need: identify the major artifacts, decisions, lineage, owners and formalization boundaries.
+| Appendix | Reader purpose | Controlling source | PF-07 state |
+| --- | --- | --- | --- |
+| A — Full-Lifecycle Artifact and Decision Map | identify records, Decisions, lineages and formalization boundaries | B05-SPEC-0001 v0.3 | content reconciled; FIG-02/03 available |
+| B — Lifecycle State and Authority Matrix | distinguish Product, formal, Approval, Execution, provider, official and projection states | CH07, B05-SPEC-0001/0003 v0.3 | content reconciled; FIG-04 available |
+| C — Participant Visibility and Action Rights Matrix | understand participant visibility, contribution and prohibited assumptions | CH44 and B05-SPEC-0003 v0.3 | content reconciled; FIG-09 available |
+| D — Reference Journeys | follow EMBERLOOP and RIVERKITE without rereading every chapter | B05-SPEC-0002 v0.3 | content reconciled; FIG-12 available |
+| E — Priority Conformance Scenarios | test constitutional, lifecycle, participant and publication boundaries | B05-SPEC-0003 v0.3 | content reconciled |
+| F — Minimum Jurisdiction Pack Checklist | determine whether a jurisdiction/service/stage is sourced and supportable | B05-SPEC-0004 v0.3 | content reconciled; FIG-10 available |
+| G — MarkReg Conformance Profiles | state supported Product depth honestly | CH46–CH47 and B05-SPEC-0003/0004 v0.3 | content reconciled; FIG-11 available |
 
-Controlled source: B05-SPEC-0001 after PF-02.
+Appendix A–G remain reader projections. They do not create Rules, authority, official truth or implementation permission.
 
-### Appendix B — Lifecycle State and Authority Matrix
+## 4. Publication Apparatus Inventory
 
-Reader need: distinguish Product, formal, Execution, provider, official, professional and client-facing states.
+| Record | Purpose | Current state |
+| --- | --- | --- |
+| B05-PUB-0001 | Editorial Style and Terminology | Controlled Editorial Standard v0.2 |
+| B05-PUB-0002 | Source and Authority Notes and Reader Notice | Controlled Reader Source Notice v1.0 — PF-07 complete |
+| B05-PUB-0003 | Glossary | Controlled Glossary v0.3; stable layout references available |
+| B05-PUB-0004 | Subject Index | Controlled Index v0.3; stable layout references available |
+| B05-PUB-0005 | Figure Register | Controlled Figure Register v1.0; 11 retained and 1 merged |
+| B05-PUB-0006 | Back Matter and Appendix Map | Controlled Back Matter Map v0.2 |
+| B05-PUB-0007 | Cross-Book Reconciliation | Controlled Reconciliation v0.2 |
+| B05-PUB-0008 | RC1 Checklist | Controlled Checklist v0.2; PF-08/PF-09 open |
+| B05-PUB-0009 | Term Variation and Editorial Audit | Controlled Audit v0.2 — closed |
 
-Controlled sources: CH07, CH21–CH42 and the extended artifact/scenario contracts.
+## 5. Controlled Figure Inventory
 
-### Appendix C — Participant Visibility and Action Rights Matrix
+```text
+B05-FIG-01–04: retained
+B05-FIG-05: merged into B05-FIG-03
+B05-FIG-06–12: retained
 
-Reader need: understand what clients, professionals, reviewers, approvers, coordinators, finance users, providers, administrators and AI may see and do.
+retained source files: 11
+separate rendered assets: pending PF-08
+```
 
-Controlled source: B05-SPEC-0003 after PF-04.
+The figure directory contains the source, caption, placement intent, accessibility description, grayscale notes and authority boundary for every retained figure.
 
-### Appendix D — Reference Journeys
-
-Reader need: follow `EMBERLOOP` and `RIVERKITE` across the complete lifecycle without rereading every chapter.
-
-Controlled source: B05-SPEC-0002 after PF-03.
-
-### Appendix E — Priority Conformance Scenarios
-
-Reader need: test whether an edition or implementation preserves the constitutional and safety boundaries.
-
-Controlled source: B05-SPEC-0003 after PF-04.
-
-### Appendix F — Minimum Jurisdiction Pack Checklist
-
-Reader need: determine whether a jurisdiction/service is sufficiently sourced, configured, reviewed and operable.
-
-Controlled source: B05-SPEC-0004 after PF-05.
-
-### Appendix G — MarkReg Conformance Profiles
-
-Reader need: state supported Product depth honestly and distinguish partial implementation from Full-Lifecycle conformance.
-
-Controlled sources: CH46–CH47 and the completed conformance checklist.
-
-## 4. Final Publication Apparatus
-
-### B05-PUB-0001 — Editorial Style and Terminology
-
-Controls terminology, capitalization, state language, source language, repetition and native-English editing.
-
-### B05-PUB-0002 — Source and Authority Notes
-
-Explains the authority of architecture records, specifications, official sources, provider evidence, organization Knowledge, scenarios and AI outputs.
-
-### B05-PUB-0003 — Glossary
-
-Defines reader-facing terms while preserving Book 02 Core authority and Book 05 artifact distinctions.
-
-### B05-PUB-0004 — Subject Index
-
-Provides stable chapter and appendix navigation and later rendered page references.
-
-### B05-PUB-0005 — Figure Register
-
-Controls the identity, purpose, source and status of reusable diagrams.
-
-### B05-PUB-0007 — Cross-Book Reconciliation
-
-Confirms Book 05 conformance with Books 01–04 and boundaries with Books 06–07.
-
-### B05-PUB-0008 — RC1 Checklist
-
-Records whether the manuscript, specifications, appendices, apparatus, figures, validation and owner gate support Release Candidate 1.
-
-## 5. Repository Structure
+## 6. Repository Structure
 
 ```text
 books/book-05-markreg/
 ├── manuscript/
-│   └── CH00–CH47
+│   └── B05-CH-00 ... B05-CH-47
 ├── specifications/
-│   └── B05-SPEC-0001–0004
+│   └── B05-SPEC-0001 ... B05-SPEC-0004
 ├── appendices/
-│   ├── B05-APP-A ... B05-APP-G
-│   └── README.md
+│   └── B05-APP-A ... B05-APP-G
 ├── figures/
-│   └── B05-FIG-01 ... B05-FIG-12
+│   ├── README.md
+│   └── eleven retained B05-FIG source files
 ├── publication/
-│   ├── B05-PUB-0001 ... B05-PUB-0008
-│   └── README.md
+│   └── B05-PUB-0001 ... B05-PUB-0009
 ├── planning/
 └── reviews/
 ```
 
-The `figures/` directory will be created when the first controlled figure source is added.
+## 7. Source-of-Truth Matrix
 
-## 6. Source-of-Truth Matrix
-
-| Reader asset | Controlled source of truth | May simplify | May create new rule |
+| Reader asset | Controlled source of truth | May simplify | May create new Rule or authority |
 | --- | --- | --- | --- |
 | Appendix A | B05-SPEC-0001 | yes | no |
-| Appendix B | extended artifact/state/scenario controls | yes | no |
+| Appendix B | B05-SPEC-0001/0003 and reviewed chapters | yes | no |
 | Appendix C | B05-SPEC-0003 and CH44 | yes | no |
 | Appendix D | B05-SPEC-0002 | yes | no |
 | Appendix E | B05-SPEC-0003 | yes | no |
 | Appendix F | B05-SPEC-0004 | yes | no |
-| Appendix G | CH46–CH47 and conformance checklist | yes | no |
+| Appendix G | CH46–CH47 and B05-SPEC-0003/0004 | yes | no |
 | Glossary | Book 02 terms plus reviewed Book 05 usage | yes | no |
-| Subject Index | final manuscript and appendices | navigation only | no |
-| Figures | referenced controlled chapters/specifications | visual only | no |
+| Subject Index | final manuscript, Appendices and Figures | navigation only | no |
+| Figures | cited chapters, Specifications and Appendices | visual layout only | no |
+| rendered page number | stable source identifier and final pagination | presentation only | no |
 
-## 7. Version and Reconciliation Rule
+## 8. Page-Reference Input Contract
 
-Every appendix and publication record should retain:
+The stable page-reference inputs are:
 
-- record ID;
-- status;
-- source baseline;
-- last reconciliation review;
-- known gaps;
-- superseded-by reference where applicable;
-- rendered-edition inclusion status.
+- chapter identifiers and headings;
+- Appendix identifiers and headings;
+- Specification identifiers;
+- controlled terms in B05-PUB-0003;
+- Subject Index entries in B05-PUB-0004;
+- B05-FIG identifiers and placement intent;
+- reader Back Matter order.
 
-When a specification changes materially:
+PF-08 may add rendered page numbers, anchors, bookmarks, footnotes or endnotes after pagination stabilizes.
 
-1. identify affected appendices, glossary terms, index entries and figures;
-2. mark them for revalidation;
-3. preserve the prior publication baseline;
-4. do not silently alter a released edition.
+```text
+stable identifier
+→ rendered page or anchor
 
-## 8. Edition Rule
+rendered page number
+≠ controlled identity
+```
 
-A repository edition may include all controlled publication records.
+A later repagination changes the rendered reference, not the underlying controlled source.
+
+## 9. Edition Rule
 
 A reader PDF or print edition should normally include:
 
 - Appendix A–G;
-- Source and Authority Notes;
+- Source and Authority Notes and final Reader Notice;
 - Glossary;
 - Subject Index;
-- figure captions and registered figures.
+- retained figures and captions;
+- a Figure Register or figure list.
 
 An implementation-oriented edition may additionally include:
 
+- controlled Specifications;
 - Cross-Book Reconciliation;
-- conformance and RC1 checklists;
-- specification identifiers and extended traceability.
+- Conformance and RC1 checklists;
+- extended source and Review traceability.
 
 All editions must preserve the same Product and authority meaning.
 
-## 9. Completion States
+## 10. Version and Change Control
 
-A Back Matter file may be:
+Every Appendix, Figure and publication record should retain:
 
-- planned;
-- controlled scaffold;
-- controlled draft;
-- reconciled candidate;
-- RC1;
-- superseded.
+- stable ID;
+- status and version;
+- source baseline;
+- latest reconciliation Review;
+- known gaps;
+- supersession or merge disposition;
+- reader-edition inclusion status.
 
-Creating a file path does not complete the content.
+When a Specification changes materially:
 
-The current Appendix A–G and publication records are controlled scaffolds except this Back Matter Map, which is the controlled structural baseline.
+1. identify affected Appendices, terms, Index entries and Figures;
+2. mark them for revalidation;
+3. preserve the prior publication baseline;
+4. issue a reviewed update rather than silently altering a released edition.
 
-## 10. Change Control
+Changing Appendix A–G inventory or reader order requires a recorded editorial reason and impact review. Moving a figure during layout does not change its controlled meaning.
 
-Changing the Appendix A–G inventory or the reader-facing order requires:
+## 11. PF-07 Completion State
 
-- a recorded editorial reason;
-- impact assessment on CH01, manifests, figures and rendered formats;
-- confirmation that no specification authority is moved into an appendix;
-- publication review.
+```text
+Appendix A–G inventory and reader order: COMPLETE
+Source and Authority Notes: COMPLETE
+Final Reader Notice: COMPLETE
+Glossary and Subject Index stable page-reference inputs: COMPLETE
+Twelve figure dispositions: COMPLETE
+Eleven retained controlled figure sources: COMPLETE
+Figure captions and accessibility text: COMPLETE
+Source-level grayscale and legibility review: COMPLETE
+Rendered order, page fit, links and pagination: OPEN — PF-08
+```
 
-Minor wording and navigation improvements do not require a chapter-map change.
-
-## 11. Acceptance Criteria
-
-This Back Matter architecture is accepted when:
-
-1. the paths and titles are recorded in active Book 05 manifests and navigation;
-2. CH01 includes the reader-facing Appendix A–G sequence;
-3. B05-PLN-0004 reflects the structural lock;
-4. B05-REV-0013 confirms no conflict with Book 04 or prior books;
-5. Appendix and publication files state their non-authoritative relationship to specifications;
-6. the later RC1 review verifies full content and rendered order.
-
-## 12. Boundary
+## 12. Authority Boundary
 
 This map does not:
 
-- declare Appendix A–G complete;
-- close PF-02 through PF-08;
 - make Book 05 RC1;
 - authorize final publication;
-- authorize implementation or external protected action.
+- validate rendered Mermaid or PDF output;
+- authorize implementation, production deployment or External Protected Action.
 
-It removes ambiguity about what Book 05 must contain before RC1.
+It completes the PF-07 source and publication-apparatus baseline for later validation.

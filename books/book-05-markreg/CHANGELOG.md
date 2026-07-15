@@ -1,5 +1,19 @@
 # Book 05 Changelog
 
+## 2026-07-15 — PF-07 Figures and Publication Apparatus
+
+- Reviewed all twelve planned Figure identities and retained eleven controlled source files.
+- Merged B05-FIG-05 into the expanded B05-FIG-03 without renumbering later Figures.
+- Added `figures/README.md` and B05-FIG-01–04 / B05-FIG-06–12 Mermaid source files.
+- Added captions, controlled source references, intended placements, accessibility descriptions and source-level grayscale/legibility notes.
+- Completed B05-PUB-0002 Controlled Reader Source Notice v1.0, final Reader Notice and citation conventions.
+- Completed B05-PUB-0005 Controlled Figure Register v1.0 and B05-PUB-0006 Back Matter Map v0.2.
+- Recorded stable Glossary, Subject Index and Figure page-reference inputs for PF-08 layout.
+- Updated B05-PUB-0008 RC1 Checklist to v0.3.
+- Added B05-REV-0027 and accepted PF-07 without architecture or Product semantic change.
+- Closed PF-07 and authorized PF-08 Structural and Rendered Validation.
+- Kept Mermaid parsing, actual grayscale output, pagination, target publication, RC1, final publication, implementation, production and External Protected Action open.
+
 ## 2026-07-15 — PF-06D Whole-Book Editorial Closure
 
 - Upgraded B05-SPEC-0001 through B05-SPEC-0004 to Controlled Specification v0.3.

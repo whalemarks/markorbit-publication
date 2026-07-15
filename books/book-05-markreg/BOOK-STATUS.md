@@ -2,15 +2,16 @@
 
 ## Current State
 
-- **Status:** Complete Draft 1 — PF-06 Editorial Closure Complete
+- **Status:** Complete Draft 1 — PF-07 Source Apparatus Complete
 - **Title:** MarkReg: The Full-Lifecycle International Trademark Product
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
 - **Manuscript:** CH00–CH47 drafted, reviewed and editorially finished
-- **Metadata:** PF-01 COMPLETE
 - **Specifications:** B05-SPEC-0001–0004 v0.3 reconciled
 - **Appendices:** Appendix A–G content-reconciled
-- **Current substantive gate:** PF-07 — Figures and Publication Apparatus
-- **Open PF-06 findings:** none
+- **Figures:** 11 retained Controlled Figure Source v1.0 files; B05-FIG-05 merged into B05-FIG-03
+- **Source apparatus:** Reader Source Notice v1.0 and final Reader Notice complete
+- **Current substantive gate:** PF-08 — Structural and Rendered Validation
+- **Open semantic findings:** none
 - **Architecture dependency:** MO-PUB-BASELINE-0001
 
 ## Completed Range
@@ -25,6 +26,7 @@ Part V — CH30–CH36: COMPLETE
 Part VI — CH37–CH42: COMPLETE
 Part VII — CH43–CH47: COMPLETE
 Appendix A–G content reconciliation: COMPLETE
+PF-07 Figure and Source apparatus: COMPLETE
 ```
 
 ## Controlled Baseline
@@ -45,17 +47,37 @@ RK-01–RK-18
 
 `MR-C01` is Capability Need. `MR-C12` is Applicant and Authority Context.
 
-## PF-06D Finding Resolution
+## Figure Disposition
 
 ```text
-PF06C2-F01 — CLOSED
-PF06C3-F01 — CLOSED
-PF06C4-F01 — CLOSED
-PF06D-F01 — CLOSED through MR-C12 registration
-Open editorial/semantic finding: 0
+B05-FIG-01: RETAINED
+B05-FIG-02: RETAINED
+B05-FIG-03: RETAINED AND EXPANDED
+B05-FIG-04: RETAINED
+B05-FIG-05: MERGED INTO B05-FIG-03
+B05-FIG-06: RETAINED
+B05-FIG-07: RETAINED
+B05-FIG-08: RETAINED
+B05-FIG-09: RETAINED
+B05-FIG-10: RETAINED
+B05-FIG-11: RETAINED
+B05-FIG-12: RETAINED
 ```
 
-The three earlier journey findings were ID-mapping corrections only. Case facts and reviewed final states did not change.
+No Figure ID was renumbered. Every retained source includes caption, controlled sources, intended placement, Mermaid, accessibility description, grayscale/legibility notes and authority boundary.
+
+## Source and Page-Reference State
+
+```text
+B05-PUB-0002 Source and Authority Notes v1.0: COMPLETE
+Final Reader Notice: COMPLETE
+Citation convention: COMPLETE
+B05-PUB-0005 Figure Register v1.0: COMPLETE
+B05-PUB-0006 Back Matter Map v0.2: COMPLETE
+Glossary stable reference inputs: COMPLETE
+Subject Index stable reference inputs: COMPLETE
+Rendered pages, anchors, links and pagination: OPEN — PF-08
+```
 
 ## Reference Journey Locks
 
@@ -81,6 +103,7 @@ RIVERKITE
 Recommendation ≠ Decision
 Readiness ≠ Approval
 Approval ≠ Execution
+Human Selection ≠ provider appointment or acceptance
 Provider Report ≠ Official Truth
 Submission ≠ official acknowledgement
 Registration ≠ certificate availability
@@ -94,9 +117,9 @@ Publication ≠ implementation or External Protected Action authority
 
 ## Accepted Reviews
 
-- B05-REV-0014 through B05-REV-0017 — PF-02 through PF-05;
-- B05-REV-0018 through B05-REV-0025 — PF-06A through PF-06C;
-- B05-REV-0026 — PF-06D Whole-Book Editorial Closure.
+- B05-REV-0014–0017 — PF-02 through PF-05;
+- B05-REV-0018–0026 — PF-06;
+- B05-REV-0027 — PF-07 Figures and Publication Apparatus.
 
 ## Publication-Finishing Assessment
 
@@ -107,23 +130,27 @@ PF-03: COMPLETE
 PF-04: COMPLETE
 PF-05: COMPLETE
 PF-06: COMPLETE
-PF-07 figures and remaining apparatus: AUTHORIZED AND NEXT
-PF-08 structural and rendered validation: OPEN
+PF-07: COMPLETE
+PF-08 structural and rendered validation: AUTHORIZED AND NEXT
 PF-09 RC1 and owner publication gate: OPEN
 ```
 
 ## Next Controlled Work
 
 ```text
-PF-07
-→ decide and create retained figures
-→ preserve Product / formal / Execution / provider / official legends
-→ complete final Source and reader notices
-→ prepare captions, accessibility and page-reference inputs
-→ update figure and publication inventories
-→ issue a separate PF-07 Review
+PF-08
+→ validate file inventory, filenames, headings and metadata
+→ validate Markdown links and fenced blocks
+→ validate controlled IDs, MR-SCN, EL, RK and Profiles
+→ parse and render all retained Mermaid figures
+→ inspect actual grayscale, accessibility, page fit and non-truncation
+→ generate target publication output
+→ validate Back Matter order, anchors, page references and navigation
+→ synchronize Manifest, Status, README, YAML and repository roadmap
+→ issue a separate structural and rendered Review
 ```
 
 Ready for unrestricted implementation: **NO**  
 Production ready: **NO**  
+Release Candidate 1 authorized: **NO**  
 External Protected Action authorized: **NO**

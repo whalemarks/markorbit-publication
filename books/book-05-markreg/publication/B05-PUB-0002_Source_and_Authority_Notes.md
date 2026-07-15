@@ -2,52 +2,61 @@
 
 ## Status
 
-- **Status:** Controlled Scaffold
-- **Primary workstreams:** PF-05 and PF-07
-- **Applies to:** the complete manuscript, Appendix A–G and rendered publication
+- **Status:** Controlled Reader Source Notice v1.0 — PF-07 complete
+- **Applies to:** CH00–CH47, B05-SPEC-0001–0004 v0.3, Appendix A–G, Figures and rendered editions
+- **Primary sources:** CH30, CH45, B05-SPEC-0004 v0.3 and B05-PUB-0007 v0.2
+- **Rendered citation validation:** pending PF-08
 
 ## 1. Purpose
 
-Book 05 defines Product architecture and governed professional journeys.
+Book 05 defines Product architecture, controlled records and governed professional journeys.
 
-It is not itself:
+It is not:
 
-- legislation;
-- an official trademark-office rule;
-- a current fee schedule;
+- legislation, regulation or treaty text;
+- an official trademark-office rule or current fee schedule;
 - a jurisdiction practice manual;
-- legal advice for a particular case;
-- proof of an official filing or right.
+- legal advice for a particular matter;
+- an official filing, receipt, registration, proceeding or register entry;
+- authority to implement, deploy or perform an External Protected Action.
 
-This record explains how the book uses and describes different source classes.
+These notes explain how the book classifies authority, sources, evidence, examples, figures and later rendered citations.
 
-## 2. Architecture and Publication Authority
+## 2. Internal Publication Authority
 
-The internal MarkOrbit authority order is:
+The MarkOrbit publication authority order is:
 
 1. repository Architecture Canon and accepted portfolio baseline;
 2. frozen or owner-accepted Books 01–04 records;
-3. owner-accepted Book 05 chapter map and active review decisions;
-4. controlled Book 05 specifications;
+3. owner-accepted Book 05 chapter map and active Review decisions;
+4. controlled Book 05 Specifications;
 5. reviewed active manuscript;
-6. reviewed appendices and publication apparatus;
-7. rendered exports.
+6. reviewed Appendix and publication apparatus;
+7. controlled figure sources;
+8. rendered or exported editions.
 
-A publication convenience cannot silently change the authority allocated by an upstream book.
+A later item may explain or project an earlier authority. It may not silently amend it.
+
+```text
+rendered convenience
+≠ controlled Product truth
+≠ implementation authority
+≠ official authority
+```
 
 ## 3. External Source Classes
 
-| Source class | Typical examples | Permitted use | Key limitation |
+| Source class | Typical examples | Permitted use | Principal limitation |
 | --- | --- | --- | --- |
-| legislation or treaty | statute, regulation, treaty text | legal basis and effective rule research | interpretation and current applicability may still require professional review |
-| official office rule | rule, practice manual, fee schedule, form instruction | operational jurisdiction rules | may change and may differ by service or effective date |
-| official record or notice | application record, receipt, office action, registration record | authoritative case event and status evidence | must be tied to the exact right, source and retrieval time |
-| official system behavior | portal validation, schema, response code | implementation and submission evidence | technical behavior may not equal legal acceptance |
-| judicial or administrative decision | published case or decision | interpretation and precedent research | authority and applicability vary by jurisdiction |
-| verified provider evidence | local advice, filing report, official document returned by provider | current practice and case progress | provider statement is not automatically official truth |
-| organization experience | prior matters, templates, internal notes, outcome patterns | reusable organizational Knowledge and candidate guidance | must not be generalized into law without validation |
-| secondary commentary | articles, databases, treatises, public guides | research, comparison and issue discovery | may be outdated, incomplete or commercially influenced |
-| AI-generated content | summaries, drafts, comparisons, extracted candidates | assistance inside a governed task | never a source by itself and may not invent authority |
+| legislation or treaty | statute, regulation, treaty text | legal-basis and effective-rule research | applicability and interpretation may require professional Review |
+| official office rule | practice manual, fee schedule, form instruction or official notice | operational jurisdiction Rule | may change by service, route, applicant or effective date |
+| official record or notice | application record, receipt, office action, decision, registration or register entry | authoritative case event and status Evidence | must match the exact right, procedure, source and retrieval time |
+| official system behavior | portal validation, schema, response or transaction identifier | implementation and transmission Evidence | technical behavior may not equal legal acceptance or official effect |
+| judicial or administrative decision | published judgment or administrative decision | precedent and interpretation research | authority, finality and applicability vary by jurisdiction |
+| verified provider evidence | local advice, filing report or official document returned by a provider | current practice and case progress | provider statement is not automatically Official Truth |
+| organization Knowledge | prior matters, templates, internal notes and reviewed patterns | question design, training, warning candidates and internal policy | cannot be generalized into law without controlled validation |
+| secondary commentary | articles, treatises, public guides and commercial databases | research, comparison and issue discovery | may be outdated, incomplete or commercially influenced |
+| AI output | extraction, comparison, draft, explanation or anomaly candidate | assistance inside a governed task | never a source by itself and never an accountable professional actor |
 
 ## 4. Source Record Minimum
 
@@ -55,7 +64,7 @@ A material source should retain:
 
 - source identity and title;
 - issuing authority or author;
-- jurisdiction;
+- jurisdiction and procedure;
 - source class;
 - publication or issue date;
 - effective date where known;
@@ -63,157 +72,226 @@ A material source should retain:
 - language;
 - stable location or retained copy where permitted;
 - version, checksum or other identity;
-- scope and exclusions;
-- reviewer or professional owner;
-- supersession status;
-- confidentiality or licence limits.
+- scope, exclusions and interpretation limits;
+- reviewer or Professional Owner;
+- supersession state;
+- confidentiality, licence or permitted-use limits.
 
-A bare URL is not sufficient provenance for high-risk Product behavior.
+A bare URL is not sufficient provenance for a high-risk Product claim or protected action.
 
-## 5. Official Truth Rule
+## 5. Official Truth and Product Projection
 
-MarkReg may display a Product projection of official status, but the projection must preserve:
+MarkReg may display a sourced Product projection of official status. The projection must preserve:
 
-- official source or verified evidence;
-- retrieval time;
+- official source or verified official Evidence;
 - official identifier;
 - jurisdiction and procedure;
-- interpretation status;
-- conflict, correction or supersession;
-- uncertainty where the source is incomplete.
+- retrieval time;
+- interpretation state;
+- correction or supersession history;
+- conflict and uncertainty;
+- the actor responsible for verification where material.
 
 ```text
-Product projection
-≠ official truth without source evidence
+Product Projection
+≠ official record
+
+Provider Report
+≠ Official Truth
+
+certificate
+≠ current register automatically
 ```
 
 ## 6. Deadline Rule
 
-A deadline may be:
+A date may be:
 
-- explicitly stated by an official source;
-- calculated from a sourced event and rule;
+- stated by an official source;
+- calculated from a sourced event and Rule;
 - estimated pending verification;
-- set as an earlier internal target;
-- displayed as a reminder.
+- an earlier internal target;
+- a reminder.
 
-These values must remain distinguishable.
+The Product must label the type, source, calculation, timezone, applicable calendar, confidence and responsible reviewer.
 
-The book does not provide a current deadline for any live matter merely by describing the deadline model.
+Describing the deadline model in this book does not provide a current deadline for a live matter.
 
-## 7. Fee Rule
+## 7. Fee and Commercial Source Rule
 
-Official fees, provider costs, professional fees, tax, exchange-rate effects and later-stage fees are separate source categories.
+The following remain separate:
 
-A published example or Pack version does not guarantee that a fee remains current.
+```text
+official fee
+≠ mandatory third-party cost
+≠ professional fee
+≠ provider pass-through
+≠ Internal Provider Cost
+≠ tax
+≠ currency adjustment
+≠ contingency
+≠ later-stage fee
+≠ discount or credit
+≠ margin
+```
 
-Before a protected commercial or external action, the applicable fee source and effective date must be revalidated according to the relevant Quote and jurisdiction controls.
+A published example, prior Quote, provider proposal or Pack Version does not guarantee that a fee remains current.
+
+Before a protected commercial or external action, the applicable official source, provider terms, currency policy, tax treatment, Quote version and effective date must be revalidated.
 
 ## 8. Provider Advice Rule
 
-Provider advice may be important where official guidance is unclear or current practice differs from published material.
+Provider advice may be important when official guidance is incomplete or current practice requires local interpretation.
 
-It should retain:
+The retained record should identify:
 
-- provider identity;
+- provider and professional capacity;
 - date;
-- jurisdiction and procedure;
-- question asked;
-- response scope;
+- jurisdiction, service and procedure;
+- question asked and response scope;
+- cited official basis where supplied;
 - commercial interest or conflict context;
-- official-source checks where available;
-- professional validation;
+- reviewer disposition;
+- expiry or recheck trigger;
 - generalization limits.
 
-Local provider status does not make every statement an official rule.
+Provider status does not convert every statement into an official Rule or official case event.
 
 ## 9. Organization Knowledge Rule
 
-Experience, templates and historical cases may support:
+Reviewed experience, templates and historical cases may support:
 
 - question design;
-- warning candidates;
-- evidence suggestions;
+- warning and blocker candidates;
+- Evidence suggestions;
 - provider capability assessment;
-- internal policy;
-- professional training;
+- internal policy and training;
 - Product improvement.
 
-They may not become an active jurisdiction rule without the controlled source and validation process.
+They may not become active jurisdiction Rules without source capture, impact analysis, Professional Review, testing and Pack Release Approval.
 
-Client and organization confidentiality must be preserved.
+Client, provider and organization confidentiality must remain purpose-limited.
 
-## 10. AI Source Rule
+## 10. AI Source and Citation Rule
 
-AI output may cite or map supplied sources.
+AI may extract, compare, map, summarize or draft from supplied sources.
 
-AI output is not itself the authority for a legal rule, fee, deadline, official event or outcome.
+A material AI task should retain:
 
-A material AI output should retain:
-
-- task and purpose;
-- model and system version;
+- purpose and prohibited use;
+- Product, system and model version;
 - input sources;
-- Jurisdiction Pack version;
+- active Pack and Rule versions where relevant;
 - generated time;
-- uncertainty;
-- Human Review outcome;
-- downstream artifact impact.
+- uncertainty and unsupported elements;
+- Human disposition;
+- downstream artifact and Decision impact.
 
-Hidden model reasoning is not required for publication. Verifiable source and decision basis are required.
+AI output is not authority for a current Rule, fee, deadline, official event, legal conclusion or outcome.
 
-## 11. Example and Scenario Rule
+Hidden model reasoning is not required for publication. Verifiable source, version, evidence and accountable Decision basis are required.
 
-`EMBERLOOP`, `RIVERKITE` and other scenarios are constructed Product examples.
+## 11. Examples and Reference Journeys
 
-They test architecture and behavior.
+`EMBERLOOP`, `RIVERKITE` and the controlled Conformance Scenarios are constructed Product examples.
 
-They do not:
+They test architecture, state, authority, failure and correction behavior. They do not:
 
-- establish current jurisdiction law;
 - represent a real client unless separately stated and authorized;
+- establish current jurisdiction law;
 - guarantee an outcome;
 - replace professional advice;
-- create a precedent.
+- create precedent;
+- authorize filing, payment, settlement, renewal, recordal or another protected action.
 
-## 12. Temporal Rule
+Independent jurisdictions and rights must remain independent in text, tables and figures.
 
-Trademark law, fees, forms, portals and practice change.
+## 12. Figure Source Rule
 
-A Book 05 release should identify its publication baseline and explain that live professional action requires the then-current controlled source and Pack version.
+Each retained figure cites controlled chapters, Specifications or Appendices and records:
 
-Historical artifacts should retain the source version used at the time rather than being rewritten under later rules.
+- figure ID and source version;
+- intended placement;
+- caption;
+- accessibility description;
+- grayscale and legibility notes;
+- simplifications and authority boundary.
 
-## 13. Citation Plan
+A figure is a projection. Its Mermaid layout does not create a new record, Rule, transition, Decision or authority claim.
 
-PF-05 and PF-07 should establish citation conventions for:
+## 13. Citation Convention
 
-- Architecture Canon and Books 01–04;
-- Book 05 specifications and reviews;
-- official sources;
-- provider or professional advice;
-- organization Knowledge;
-- case and scenario examples;
-- rendered figure sources.
+### 13.1 Internal controlled references
 
-The controlled Markdown source should use stable identifiers even where a later print or PDF edition adds page numbers or footnotes.
+Use stable identifiers in the controlled Markdown source:
 
-## 14. Reader Notice
+- `B05-CH-*` for chapters;
+- `B05-SPEC-*` for Specifications;
+- `B05-APP-*` for Appendices;
+- `B05-PUB-*` for publication records;
+- `B05-FIG-*` for figures;
+- `B05-REV-*` for Review decisions;
+- `MR-*`, `MR-SCN-*`, `EL-*` and `RK-*` for controlled Product records, scenarios and journey steps.
 
-The final publication should include a concise reader notice stating that:
+Repository links should point to the controlled source rather than to a generated export where practical.
 
-- Book 05 is a Product and architecture specification;
-- jurisdiction rules and live matter facts must be checked against current authoritative sources;
-- AI and Product guidance do not replace professional responsibility;
-- official rights and outcomes remain determined by the relevant authorities and evidence;
-- implementation, deployment and protected actions require separate authority.
+### 13.2 External sources
 
-## 15. Completion Work
+A rendered citation or source note should provide enough information to identify:
 
-This record becomes complete when:
+- issuing authority or author;
+- source title;
+- jurisdiction and source class;
+- publication, issue and effective date where known;
+- retrieval date for changeable online material;
+- language or translation basis;
+- stable location or retained reference where permitted;
+- limitation or supersession state where material.
 
-1. the source hierarchy is reconciled with B05-SPEC-0004 and CH45;
-2. material source categories are referenced consistently across the manuscript;
-3. the final reader notice is approved;
-4. citations and source notes validate in rendered output;
-5. no appendix or figure overstates its authority.
+### 13.3 Provider and organization sources
+
+Provider or organization material must be labelled as provider advice, organization Knowledge or internal Evidence rather than presented as an official source.
+
+Confidential material may be represented by a controlled reference without exposing protected content in a public edition.
+
+### 13.4 Rendered page references
+
+Glossary and Subject Index chapter, Appendix, Specification and figure identifiers are the stable layout inputs.
+
+PF-08 may add page numbers, internal anchors, footnotes or endnotes after pagination stabilizes. Page numbers are a rendered convenience and must not replace stable identifiers in the controlled source.
+
+## 14. Temporal and Edition Rule
+
+Trademark law, fees, forms, portals, provider availability and official practice change.
+
+Every released edition should identify:
+
+- publication baseline and date;
+- controlled Specification versions;
+- known jurisdiction and service exclusions;
+- whether figures and links were validated in that edition;
+- the requirement to use then-current Source and Pack Versions for live work.
+
+Historical artifacts should preserve the source version used at the time rather than being rewritten under later Rules.
+
+## 15. Final Reader Notice
+
+> **Reader Notice**  
+> *MarkReg: The Full-Lifecycle International Trademark Product* is a Product and architecture specification. It is not legislation, an official trademark-office source, a jurisdiction practice manual or legal advice for a particular matter. Trademark Rules, fees, forms, deadlines, official records and professional practice may change and must be checked against current authoritative sources and the applicable reviewed Jurisdiction Pack. Product and AI assistance do not replace professional responsibility, Human Review, exact-version approval or official Evidence. Rights, filings, proceedings and outcomes are determined by the relevant authorities and source-backed records. Publication of this book does not authorize implementation, production deployment, autonomous professional action or any External Protected Action.
+
+The notice should appear in Front Matter or immediately before the reader-facing Source and Authority Notes in every public edition.
+
+## 16. PF-07 Completion State
+
+```text
+Source hierarchy reconciled with CH45 and B05-SPEC-0004 v0.3: COMPLETE
+External source classes and limitations: COMPLETE
+Official Truth, deadline, fee, provider, organization and AI rules: COMPLETE
+Internal and external citation conventions: COMPLETE
+Figure source convention: COMPLETE
+Final Reader Notice: COMPLETE
+Stable page-reference inputs: COMPLETE
+Rendered citations, anchors and page numbers: OPEN — PF-08
+```
+
+This record is complete for PF-07. It does not make the book RC1 or authorize final publication.
