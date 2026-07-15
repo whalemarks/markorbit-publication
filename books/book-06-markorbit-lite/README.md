@@ -12,20 +12,9 @@
 - **Current authority:** Books 01–05, the Orbital Architecture Canon and the locked Portfolio Baseline
 - **Manuscript:** not started
 - **Chapter map:** not yet created
-- **Base Product Charter:** [B06-PLN-0004](planning/B06-PLN-0004_Product_Charter_Candidate.md)
+- **Product Charter:** [B06-PLN-0004 v0.2](planning/B06-PLN-0004_Product_Charter_Candidate.md)
 - **Owner Decisions:** [B06-PLN-0005 v0.2](planning/B06-PLN-0005_Product_Charter_Owner_Decision_Matrix.md)
-- **Charter Amendment:** [B06-PLN-0006](planning/B06-PLN-0006_Subscription_Daily_Content_and_Lead_Supply_Charter_Amendment.md)
-
-## Position
-
-```text
-Book 01 — Operating System principles
-→ Book 02 — Shared Core semantics
-→ Book 03 — Governed Execution
-→ Book 04 — Workplace, Product and Artifact architecture
-→ Book 05 — MarkReg Product and Lite/MarkReg interface boundary
-→ Book 06 — MarkOrbit Lite Product constitution and specification
-```
+- **Subscription detail:** [B06-PLN-0006](planning/B06-PLN-0006_Subscription_Daily_Content_and_Lead_Supply_Charter_Amendment.md)
 
 ## Concrete Product promise
 
@@ -52,7 +41,7 @@ When a unit is declared as video, a usable video representation must actually be
 
 ## Daily Growth Desk
 
-`Today` is retained as the Product home, but its practical meaning is the **Daily Growth Desk**:
+`Today` is the Product home, but its practical meaning is the **Daily Growth Desk**:
 
 ```text
 Today's Content
@@ -60,13 +49,6 @@ Today's Content
 + Action Queue
 + Results and Feedback
 ```
-
-It answers:
-
-- What can I publish today?
-- Who may be worth developing or following up today?
-- What should I do next?
-- What happened to the content and outreach already used?
 
 ## Two primary supply loops
 
@@ -99,12 +81,12 @@ An intention-customer candidate is not a guaranteed customer and is not a formal
 
 ## Capability priorities
 
-1. **Daily Content Supply** — reliable daily illustrated, video or private-domain content outcomes;
-2. **Intention-Customer Supply** — explainable candidates, qualification and development preparation;
-3. **Artifact, Render and Publish Enablement** — produce usable files and controlled Publish Packages;
-4. **Case, Knowledge and Professional Context** — support accurate, persuasive and reusable content;
-5. **Prepared Action and Product Handoff** — move qualified work into Communication, Opportunity, MarkReg, MGSN, Review or Execution;
-6. **Personal and Organization Continuity** — preserve Persona, preferences, organization identity, local/private context and outcomes.
+1. **Daily Content Supply**;
+2. **Intention-Customer Supply**;
+3. **Artifact, Render and Publish Enablement**;
+4. **Case, Knowledge and Professional Context**;
+5. **Prepared Action and Product Handoff**;
+6. **Personal and Organization Continuity**.
 
 `Today and Attention` is an interaction surface across these priorities rather than the main thing the subscriber buys.
 
@@ -153,7 +135,7 @@ It may stop before automated external send, autonomous Publish or any External P
 ## Owner Decisions
 
 ```text
-OD-01: canonical Lite identity + growth/action positioning
+OD-01: canonical Lite identity + daily content/customer-development positioning
 OD-02: Daily Content-to-Customer Development Journey
 OD-03: curated, reference-first Case Center MVP
 OD-04: hybrid-minimization local/private baseline
@@ -177,9 +159,7 @@ Lite ≠ AI chat only
 Daily Content Unit ≠ topic or raw draft
 Short Video delivered ≠ video brief prepared
 Intention-customer candidate ≠ formal Opportunity
-Recommendation ≠ Decision
 Prepared Action ≠ execution
-User confirmation ≠ Human Review
 Communication draft ≠ sent Communication
 Publish Package ≠ published
 Product result ≠ formal or external outcome
@@ -192,14 +172,14 @@ Local data ≠ ungoverned data
 - [B06-PLN-0001 — Pre-Writing Audit](planning/B06-PLN-0001_Pre-Writing_Audit.md)
 - [B06-PLN-0002 — Authority and Source Map](planning/B06-PLN-0002_Authority_and_Source_Map.md)
 - [B06-PLN-0003 — Supplemental Idea Assessment](planning/B06-PLN-0003_Supplemental_Idea_Assessment.md)
-- [B06-PLN-0004 — Product Charter Candidate](planning/B06-PLN-0004_Product_Charter_Candidate.md)
-- [B06-PLN-0005 v0.2 — Consolidated Product Charter Owner Decision Matrix](planning/B06-PLN-0005_Product_Charter_Owner_Decision_Matrix.md)
-- [B06-PLN-0006 — Subscription, Daily Content and Lead Supply Charter Amendment](planning/B06-PLN-0006_Subscription_Daily_Content_and_Lead_Supply_Charter_Amendment.md)
+- [B06-PLN-0004 v0.2 — Product Charter](planning/B06-PLN-0004_Product_Charter_Candidate.md)
+- [B06-PLN-0005 v0.2 — Consolidated Owner Decision Matrix](planning/B06-PLN-0005_Product_Charter_Owner_Decision_Matrix.md)
+- [B06-PLN-0006 — Subscription and Daily Supply detail](planning/B06-PLN-0006_Subscription_Daily_Content_and_Lead_Supply_Charter_Amendment.md)
 
 ## Reviews
 
 - [B06-REV-0001 — Pre-Writing Audit Review](reviews/B06-REV-0001_Pre-Writing_Audit_Review.md)
-- [B06-REV-0002 — Product Charter Candidate Review](reviews/B06-REV-0002_Product_Charter_Candidate_Review.md)
+- [B06-REV-0002 — Product Charter Review](reviews/B06-REV-0002_Product_Charter_Candidate_Review.md)
 - [B06-REV-0003 — Subscription, Daily Content and Lead Supply Review](reviews/B06-REV-0003_Subscription_Daily_Content_and_Lead_Supply_Review.md)
 
 ## Current gate
