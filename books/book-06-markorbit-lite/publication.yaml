@@ -8,7 +8,7 @@ book:
   product_charter_version: v0.3
   owner_decision_matrix: B06-PLN-0005_v0_3
   commercial_plan_candidate: B06-PLN-0006
-  base_charter_review: B06-REV-0002
+  base_product_charter_architecture_review: B06-REV-0002
   charter_v0_3_review: B06-REV-0003
 
 authority:
@@ -142,7 +142,7 @@ planning:
   product_charter_v0_3_candidate: complete
   owner_decision_matrix_v0_3: complete
   commercial_plan_and_mvp_experiment_candidate: complete
-  base_charter_review: pass
+  base_product_charter_architecture_review: pass
   charter_v0_3_review: pass
   owner_decisions: accepted_on_owner_merge
   product_record_journey_scenario_baseline: next_after_owner_merge
