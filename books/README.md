@@ -10,8 +10,8 @@ This directory contains the canonical MarkOrbit publications.
 | Book 02 | MarkOrbit Core Specification | `book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
-| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `book-05-markreg/` | Complete Draft 1 — CH00–CH47 Full Manuscript and Review Complete |
-| Book 06 | MarkOrbit Lite | `book-06-markorbit-lite/` | Planned |
+| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `book-05-markreg/` | Release Candidate 1 — Approved and Frozen |
+| Book 06 | MarkOrbit Lite | `book-06-markorbit-lite/` | Pre-Writing Audit v0.1 |
 | Book 07 | Mark Global Service Network | `book-07-mark-global-service-network/` | Planned |
 
 ## Baseline Rule
@@ -22,4 +22,6 @@ Book 02 remains frozen. Semantic changes require the existing Change Proposal pr
 
 Books 05–07 must consume the baseline and may not silently redefine it.
 
-Book 05 contains all CH00–CH47 manuscript files under B05-TOC-V0.1. B05-REV-0012 records Complete Draft 1 and B05-PLN-0004 defines the publication-finishing pack. Release Candidate 1 and final publication remain separate gates.
+Book 05 RC1 is frozen through its immutable content baseline, permanent release record and `release/book-05-rc1` pointer.
+
+Book 06 has entered controlled pre-writing audit. Its current files define source authority, Product boundaries and planning findings only; no Product Charter, chapter map or manuscript has been accepted.

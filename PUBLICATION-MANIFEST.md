@@ -8,7 +8,7 @@ Editorial or implementation convenience must not silently redefine architecture.
 
 ## Architecture Authority
 
-Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](architecture/MARKORBIT-ORBITAL-ARCHITECTURE-CANON-vNEXT.md).
+Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](governance/MARKORBIT-ORBITAL-ARCHITECTURE-CANON-vNEXT.md).
 
 - Version: vNext
 - Status: Owner Confirmed Canonical Working Baseline
@@ -23,11 +23,13 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](arc
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
-| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Complete Draft 1 — CH00–CH47 Full Manuscript and Review Complete |
-| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Planned |
+| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Release Candidate 1 — Approved and Frozen |
+| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Pre-Writing Audit v0.1 |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
-Book 05 has an owner-accepted chapter map, all forty-eight manuscript files, Part VII review and a first complete-manuscript review. B05-REV-0012 records Complete Draft 1 and authorizes publication finishing. Planned missing Book 06–07 directories may produce warnings only.
+Book 05 is frozen through its accepted RC1 content baseline, permanent release record and `release/book-05-rc1` pointer.
+
+Book 06 now has a controlled pre-writing audit scaffold. It does not yet have an accepted Product Charter, chapter map or manuscript.
 
 ## Planned Book Positioning
 
@@ -51,11 +53,13 @@ Defines independent organizational Workplaces and their consumption of MarkOrbit
 
 Defines the flagship full-lifecycle international trademark Product from need understanding through governed execution, examination, registration, portfolio continuity and Product evolution.
 
-Publication state: Complete Draft 1. CH00–CH47 are present and reviewed. B05-REV-0011 accepts Part VII. B05-REV-0012 identifies publication blockers and establishes B05-PUBLICATION-FINISHING-PACK-001. Release Candidate 1 and final publication remain unfinished gates.
+Publication state: Release Candidate 1 — Approved and Frozen. Final public/commercial distribution remains a separate unapproved gate.
 
 ### Book 06 — MarkOrbit Lite
 
-Future publication subject for the lightweight Workplace for trademark professionals.
+Dedicated publication subject for the Today-centered lightweight Workplace Product for trademark professionals.
+
+Current state: Pre-Writing Audit v0.1. Books 01–05 remain authoritative; supplemental Product ideas are discovery inputs only. Product Charter and chapter-map acceptance remain future gates.
 
 ### Book 07 — Mark Global Service Network
 
@@ -75,15 +79,18 @@ Book 04 — Release Candidate 1, Owner Accepted and Portfolio Locked
 Current gate:
 
 ```text
-Portfolio Baseline merged and effective
-→ Book 05 B05-TOC-V0.1 owner accepted
-→ CH00–CH47 Complete Draft 1
-→ B05-PUBLICATION-FINISHING-PACK-001
-→ Release Candidate 1 review
-→ owner publication decision
+Books 01–04 Portfolio Baseline
+→ Book 05 MarkReg RC1 approved and frozen
+→ Book 06 Pre-Writing Audit
+→ Book 06 Product Charter candidate
+→ Book 06 record / journey / scenario baseline
+→ Book 06 chapter-map candidate
+→ controlled manuscript drafting after owner acceptance
 ```
 
-Ready for Book 05 controlled publication finishing: **YES**
+Ready for Book 06 Product Charter candidate after audit owner merge: **YES**
+
+Ready for Book 06 manuscript drafting: **NO**
 
 Ready for unrestricted implementation: **NO**
 

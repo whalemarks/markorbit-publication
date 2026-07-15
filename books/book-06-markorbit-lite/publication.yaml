@@ -1,0 +1,48 @@
+book:
+  id: B06
+  title: MarkOrbit Lite
+  status: pre_writing_audit_v0_1
+  manuscript_files: 0
+  chapter_map: null
+  product_charter: null
+
+authority:
+  primary:
+    - MarkOrbit Orbital Architecture Canon vNext
+    - Books 01-04 Portfolio Baseline
+    - Book 05 MarkReg RC1 for bounded cross-product contracts
+  supplemental_inputs_override_baseline: false
+
+canonical_starting_profile:
+  product_type: lightweight_workplace_product
+  home_experience: today_next_best_action
+  primary_users:
+    - independent_trademark_professionals
+    - small_trademark_teams
+  organization_centered: true
+
+planning:
+  pre_writing_audit: complete_on_owner_merge
+  authority_source_map: complete
+  supplemental_idea_assessment: complete
+  product_charter_candidate: next
+  chapter_map_candidate: blocked_until_product_charter_review
+  manuscript_drafting: not_authorized
+
+findings:
+  book_01_principle_conflicts: 0
+  book_02_semantic_conflicts: 0
+  book_03_execution_conflicts: 0
+  book_04_workplace_product_conflicts: 0
+  book_05_interface_conflicts: 0
+  blocking_upstream_findings: 0
+  change_proposal_required: false
+
+authorization:
+  publication_planning: true
+  product_charter_drafting_after_audit_merge: true
+  manuscript_drafting: false
+  implementation: false
+  production: false
+  autonomous_professional_action: false
+  external_protected_action: false
