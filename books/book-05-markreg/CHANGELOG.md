@@ -1,5 +1,19 @@
 # Book 05 Changelog
 
+## 2026-07-15 — PF-09 Owner RC1 and Publication Decision
+
+- Added B05-PUB-0010 Owner RC1 and Publication Decision Record.
+- Added B05-REV-0029 PF-09 Owner RC1 and Publication Gate Review.
+- Recorded `9da21c4b2325d35710a1ba1acd9be9ca42d988b3` as the exact RC1 content baseline.
+- Recorded validated PF-08 head `6a210eb40d939eeea6f799c1be7435de7d5dd3aa` and final 579 / 579 passing validation result.
+- Accepted CH00–CH47, B05-SPEC-0001–0004 v0.3, Appendix A–G and eleven retained Figure sources as the RC1 inventory.
+- Upgraded B05-PUB-0008 RC1 Checklist to v1.0.
+- Closed B05-PUBLICATION-FINISHING-PACK-001 at RC1, effective upon owner merge of the PF-09 pull request.
+- Approved Release Candidate 1 effective upon owner merge.
+- Kept final publication and public/commercial distribution unapproved.
+- Kept implementation, production deployment, autonomous professional action and External Protected Action unauthorized.
+- Required a new candidate baseline and renewed validation for material post-RC1 changes.
+
 ## 2026-07-15 — PF-08 Structural and Rendered Validation
 
 - Added a reproducible Python validator and GitHub Actions workflow for Book 05.

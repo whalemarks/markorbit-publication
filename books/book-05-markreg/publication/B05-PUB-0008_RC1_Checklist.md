@@ -2,10 +2,11 @@
 
 ## Status
 
-- **Status:** Controlled Checklist v0.4 — PF-08 Updated
-- **Current book state:** Complete Draft 1 — PF-01 through PF-08 complete
-- **Target:** Book 05 Release Candidate 1
-- **Source:** B05-PUBLICATION-FINISHING-PACK-001, B05-VAL-0001 and B05-REV-0028
+- **Status:** Controlled Checklist v1.0 — PF-09 Decision Complete upon owner merge
+- **Book state:** Release Candidate 1 upon merge of the PF-09 pull request
+- **RC1 content baseline:** `9da21c4b2325d35710a1ba1acd9be9ca42d988b3`
+- **Owner Decision:** B05-PUB-0010
+- **Gate Review:** B05-REV-0029
 
 ## 1. Decision Rule
 
@@ -15,19 +16,22 @@ Complete Draft 1
 + editorial closure
 + controlled figures and Source apparatus
 + structural and rendered validation
-+ owner publication Decision
++ explicit owner Decision
 → Release Candidate 1
 ```
 
-RC1 remains separate from final publication, software implementation, production deployment and External Protected Action authority.
+Merge of the PF-09 pull request containing B05-PUB-0010 is the owner acceptance event. Closing it without merge leaves RC1 unauthorized.
+
+RC1 remains separate from final publication, implementation, production deployment and External Protected Action authority.
 
 ## 2. Manuscript and Metadata — COMPLETE
 
-- [x] all CH00–CH47 files present;
+- [x] CH00–CH47 are present;
+- [x] 48 manuscript files and seven Parts validate;
 - [x] titles and ranges match B05-TOC-V0.1;
 - [x] accepted chapter metadata is present;
-- [x] chapter transitions and conclusion are edited;
-- [x] no chapter or Appendix silently changes structure.
+- [x] editorial finishing and whole-book review are complete;
+- [x] no chapter or Appendix silently changes the accepted structure.
 
 ## 3. Controlled Specifications — COMPLETE
 
@@ -41,9 +45,9 @@ RC1 remains separate from final publication, software implementation, production
 ## 4. Appendices — COMPLETE
 
 - [x] Appendix A–G content is reconciled;
-- [x] Figure placement inputs are assigned;
+- [x] Figure placements are assigned;
 - [x] Appendices do not create authority;
-- [x] Appendix A–G are present in the rendered validation edition;
+- [x] Appendix A–G are present in the validation edition;
 - [x] rendered order and completeness checks pass.
 
 ## 5. Editorial and Source Apparatus — COMPLETE
@@ -51,118 +55,108 @@ RC1 remains separate from final publication, software implementation, production
 - [x] B05-PUB-0001 Controlled Editorial Standard applied;
 - [x] terminology and capitalization validated;
 - [x] B05-PUB-0002 Reader Source Notice v1.0 completed;
-- [x] final Reader Notice approved for the controlled source baseline;
-- [x] Source classes and citation conventions defined;
-- [x] Glossary and Subject Index reconciled;
-- [x] stable publication identifiers retained in the rendered edition;
-- [x] Source Notes, Glossary, Subject Index and Figure Register are present in the validation PDF.
+- [x] final Reader Notice and citation conventions completed;
+- [x] Glossary, Subject Index, Figure Register and Back Matter Map reconciled;
+- [x] stable publication identifiers retained in the rendered edition.
 
 ## 6. Figures — COMPLETE
 
 - [x] all twelve planned identities received a disposition;
 - [x] B05-FIG-05 is merged into B05-FIG-03;
 - [x] eleven retained Mermaid sources exist;
-- [x] source chapters, captions, placements, accessibility and boundaries are recorded;
-- [x] Mermaid syntax passes for all eleven sources;
-- [x] eleven SVG files render successfully;
+- [x] captions, controlled sources, placements, accessibility and boundaries are recorded;
+- [x] all eleven Mermaid sources parse and render to SVG;
 - [x] explicit RGB-color grayscale scan passes;
 - [x] Figure captions and stable identifiers appear in the PDF;
 - [x] no Figure introduces a new semantic or authority claim.
 
-## 7. Structural Validation — COMPLETE
+## 7. Structural and Rendered Validation — COMPLETE
 
 - [x] forty-eight manuscript files validate;
 - [x] Appendix A–G validate;
 - [x] four Specifications validate;
 - [x] eleven retained Figures and one merged disposition validate;
-- [x] numbering, headings and metadata validate;
-- [x] Markdown fences balance;
-- [x] hierarchical heading-path review passes;
+- [x] numbering, metadata, Markdown fences and hierarchical headings validate;
 - [x] repository-local links and fragments validate;
 - [x] controlled `MR-*`, `MR-SCN-*`, `EL-*` and `RK-*` ranges and coverage validate;
-- [x] Manifest/YAML inventory and phase checks pass.
-
-## 8. Rendered Validation — COMPLETE
-
-- [x] reader HTML generated;
-- [x] 360-page reader validation PDF generated;
-- [x] selectable text is present;
-- [x] all chapter and Appendix identifiers are present;
-- [x] all retained Figure captions are present;
-- [x] stable reader-source identifiers are present;
-- [x] PDF navigation annotations are present;
+- [x] reader HTML and PDF validation editions generate;
+- [x] selectable text, stable IDs, Figure captions and navigation validate;
 - [x] no source-document omission is detected;
-- [x] validation report and rendered artifacts are retained through CI.
+- [x] B05-VAL-0001 and B05-REV-0028 are accepted.
 
-Accepted PF-08 evidence:
+Final branch closure evidence:
 
 ```text
-B05-VAL-0001: PASS
-B05-REV-0028: ACCEPTED
-Workflow run: 29388230449
-Checks: 573 / 573 PASS
+GitHub Actions run: 29388824396
+Validated head SHA: 6a210eb40d939eeea6f799c1be7435de7d5dd3aa
+Checks: 579 / 579 PASS
 Warnings: 0
 Errors: 0
-Artifact digest: sha256:2a582f53a95bc50a2d9159ff6f8cf3a11e3811ccfc4bd96ed42adbd29e980e00
+Artifact ID: 8332449944
+Artifact digest:
+sha256:f463f4230df2fb9d147a80dcdc0b1638c501636f1ef826b988441295838d95ff
 ```
 
-## 9. Cross-Book Reconciliation — COMPLETE
+## 8. Cross-Book and Product Review — COMPLETE
 
 - [x] no Architecture Canon amendment is required;
 - [x] no Book 02 Core Change Proposal is required;
 - [x] no parallel Book 03 Execution authority is introduced;
 - [x] Book 04 Workplace/Product boundaries remain intact;
-- [x] Lite and MGSN references remain bounded;
-- [x] rendered Figures and copy preserve the authority boundary.
-
-## 10. Complete Product Review — COMPLETE FOR PF-08
-
-- [x] Product constitution is coherent through CH47;
-- [x] lifecycle sequence is complete;
 - [x] EMBERLOOP and RIVERKITE remain consistent;
-- [x] constitutional Rules are unchanged;
-- [x] Source, version and supersession remain visible;
-- [x] Human Review and authority remain explicit;
+- [x] constitutional Rules and controlled IDs are unchanged;
 - [x] Profiles do not overclaim support;
-- [x] publication claims do not exceed Evidence;
-- [x] B05-REV-0028 records the post-render Review.
+- [x] publication claims do not exceed Evidence.
 
-## 11. PF-09 Owner Decision — OPEN
+## 9. PF-09 Owner Decision — COMPLETE UPON MERGE
 
-The owner Decision must record:
+- [x] exact RC1 content baseline recorded;
+- [x] accepted manuscript and publication inventory recorded;
+- [x] Specification, Appendix and Figure baseline recorded;
+- [x] validation evidence recorded;
+- [x] unresolved findings recorded as zero;
+- [x] RC1 approval recorded in B05-PUB-0010;
+- [x] final-publication status recorded as not approved;
+- [x] implementation, production and protected-action boundaries recorded;
+- [x] material-change and revalidation rule recorded;
+- [x] B05-REV-0029 records the PF-09 gate review.
 
-- exact RC1 baseline commit;
-- accepted manuscript and publication inventory;
-- Specification, Appendix and Figure baseline;
-- B05-VAL-0001 and final branch validation evidence;
-- unresolved findings, if any;
-- Release Candidate 1 status;
-- final-publication status;
-- implementation, production and External Protected Action boundaries.
-
-- [ ] owner RC1 Decision recorded;
-- [ ] RC1 baseline commit recorded;
-- [ ] final-publication status recorded.
-
-## 12. Authority Boundary
+## 10. Exact RC1 Baseline
 
 ```text
+Repository: whalemarks/markorbit-publication
+RC1 content baseline commit:
+9da21c4b2325d35710a1ba1acd9be9ca42d988b3
+
+Validated PF-08 head:
+6a210eb40d939eeea6f799c1be7435de7d5dd3aa
+
+Owner Decision record:
+B05-PUB-0010
+```
+
+The PF-09 merge commit activates the Decision but does not silently change the exact RC1 content baseline.
+
+## 11. Authority Boundary
+
+```text
+Release Candidate 1 approved: YES — effective upon owner merge
 Final publication approved: NO
-Release Candidate 1 approved: NO
+Public/commercial distribution approved: NO
 Unrestricted implementation authorized: NO
 Production deployment authorized: NO
 Autonomous professional action authorized: NO
 External Protected Action authorized: NO
 ```
 
-## 13. Current Assessment
+## 12. Final Assessment
 
 ```text
-Complete Draft 1: YES
 PF-01–PF-08: COMPLETE
-Open PF-08 finding: 0
-PF-09 owner RC1 Decision: AUTHORIZED AND NEXT
-RC1 ready: NO — pending owner Decision
+PF-09: COMPLETE UPON OWNER MERGE
+Open blocking finding: 0
+Book 05 state after merge: RELEASE CANDIDATE 1
+Final publication gate: OPEN AND NOT APPROVED
 ```
 
-This Checklist becomes the owner RC1 gate under PF-09. PF-08 completion alone does not authorize RC1 or final publication.
+Any material change after the RC1 content baseline requires a new candidate baseline, renewed validation and an explicit owner supersession Decision.

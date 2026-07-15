@@ -1,8 +1,8 @@
 book: "Book 05"
 title: "MarkReg: The Full-Lifecycle International Trademark Product"
 canonical_path: "books/book-05-markreg/"
-status: "complete_draft_1_pf_08_structural_and_rendered_validation_complete"
-phase: "pf_08_complete_pf_09_owner_gate_next"
+status: "release_candidate_1_effective_on_pf_09_owner_merge"
+phase: "pf_09_owner_rc1_decision_complete_after_pf_08_complete"
 portfolio_baseline: "MO-PUB-BASELINE-0001"
 
 chapter_map:
@@ -14,11 +14,23 @@ chapter_map:
   metadata_complete: true
   line_edit_complete: true
 
+rc1:
+  decision_record: "B05-PUB-0010"
+  gate_review: "B05-REV-0029"
+  effective_event: "owner_merge_of_pf_09_pull_request"
+  effective_if_merged: true
+  ineffective_if_closed_unmerged: true
+  content_baseline_commit: "9da21c4b2325d35710a1ba1acd9be9ca42d988b3"
+  validated_pf_08_head: "6a210eb40d939eeea6f799c1be7435de7d5dd3aa"
+  approved_on_owner_merge: true
+  final_publication_approved: false
+  public_or_commercial_distribution_approved: false
+
 manuscript:
   drafted_range: "00-47"
   complete_draft: 1
   editorial_range_complete: "00-47"
-  release_candidate_ready: false
+  release_candidate_ready_on_owner_merge: true
   accepted_reviews:
     front_matter_and_part_i: "B05-REV-0019"
     part_ii: "B05-REV-0020"
@@ -30,6 +42,7 @@ manuscript:
     whole_book_closure: "B05-REV-0026"
     figures_and_apparatus: "B05-REV-0027"
     structural_and_rendered_validation: "B05-REV-0028"
+    owner_rc1_and_publication_gate: "B05-REV-0029"
 
 specifications:
   B05-SPEC-0001:
@@ -108,6 +121,7 @@ appendices:
   range: "A-G"
   content_reconciled: true
   validation_edition_complete: true
+  rc1_baseline_complete: true
 
 figures:
   planned_identities: 12
@@ -164,12 +178,15 @@ editorial:
     version: "v0.2"
   rc1_checklist:
     id: "B05-PUB-0008"
-    version: "v0.4"
-    status: "pf_08_complete_pf_09_open"
+    version: "v1.0"
+    status: "complete_on_owner_merge"
   term_audit:
     id: "B05-PUB-0009"
     version: "v0.2"
     status: "closed"
+  owner_decision:
+    id: "B05-PUB-0010"
+    status: "effective_on_owner_merge"
   semantic_findings_open: 0
 
 validation:
@@ -177,13 +194,14 @@ validation:
   review: "B05-REV-0028"
   workflow: ".github/workflows/book-05-pf08-validation.yml"
   validator: "books/book-05-markreg/validation/validate_book05.py"
-  github_actions_run: 29388230449
-  validated_head_sha: "27f2b4759773ff4f591282e60f0a3eacc778f8dd"
-  artifact_id: 8332248319
-  artifact_digest: "sha256:2a582f53a95bc50a2d9159ff6f8cf3a11e3811ccfc4bd96ed42adbd29e980e00"
+  github_actions_run: 29388824396
+  validated_head_sha: "6a210eb40d939eeea6f799c1be7435de7d5dd3aa"
+  merged_content_baseline_sha: "9da21c4b2325d35710a1ba1acd9be9ca42d988b3"
+  artifact_id: 8332449944
+  artifact_digest: "sha256:f463f4230df2fb9d147a80dcdc0b1638c501636f1ef826b988441295838d95ff"
   result: "pass"
-  checks: 573
-  passed: 573
+  checks: 579
+  passed: 579
   warnings: 0
   errors: 0
   outputs:
@@ -196,6 +214,14 @@ validation:
     pdf_navigation_annotations: 135
   reproducible: true
 
+findings:
+  pf_06_open: 0
+  pf_07_open: 0
+  pf_08_structural_open: 0
+  pf_08_rendered_open: 0
+  pf_08_semantic_open: 0
+  blocking_rc1_open: 0
+
 cross_book:
   architecture_canon_change_required: false
   book_02_change_proposal_required: false
@@ -204,7 +230,7 @@ cross_book:
   upstream_findings_open: 0
 
 publication_apparatus:
-  status: "pf_08_validation_complete_pf_09_next"
+  status: "rc1_approved_on_owner_merge_final_publication_open"
   source_notes_complete: true
   final_reader_notice_complete: true
   stable_page_reference_inputs_complete: true
@@ -212,10 +238,12 @@ publication_apparatus:
   validation_pdf_generated: true
   structural_validation_complete: true
   rendered_validation_complete: true
+  rc1_approved_on_owner_merge: true
   final_publication_approved: false
 
 publication_finishing_pack:
   id: "B05-PUBLICATION-FINISHING-PACK-001"
+  status: "complete_at_rc1_on_owner_merge"
   progress:
     pf_01_metadata: "complete"
     pf_02_artifacts: "complete"
@@ -225,20 +253,24 @@ publication_finishing_pack:
     pf_06_editorial_finishing: "complete"
     pf_07_figures_and_apparatus: "complete"
     pf_08_validation: "complete"
-    pf_09_rc1_gate: "authorized_next"
+    pf_09_rc1_gate: "complete_on_owner_merge"
 
 next_gate:
-  title: "PF-09 Owner RC1 and Publication Decision"
-  authorized_by_review: "B05-REV-0028"
+  title: "Separate Final Publication Owner Decision"
+  numbered_pf_gate: null
+  status: "open_not_approved"
   scope:
-    - "exact RC1 baseline commit"
-    - "accepted publication inventory"
-    - "validation evidence and unresolved findings"
-    - "owner Release Candidate 1 Decision"
-    - "final-publication and implementation authority boundaries"
+    - "exact final publication files"
+    - "cover, imprint, edition and distribution metadata"
+    - "final pagination and reader navigation"
+    - "external proofing corrections and RC1 impact"
+    - "public release and distribution scope"
+    - "continuing implementation and protected-action boundaries"
 
-release_candidate_ready: false
+release_candidate_ready_on_owner_merge: true
 final_publication_approved: false
+public_or_commercial_distribution_approved: false
 implementation_authorized: false
 production_authorized: false
+autonomous_professional_action_authorized: false
 external_protected_action_authorized: false
