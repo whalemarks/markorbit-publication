@@ -17,16 +17,7 @@ Specifications remain authoritative over manuscript simplification.
 
 ## 2. Book responsibility
 
-Book 06 may define:
-
-- Lite Product purpose and users;
-- the four Product loops;
-- Today and Product-local records;
-- customer and service growth journeys;
-- professional work products;
-- cases, memory and reusable capability;
-- typed Handoff/Return behavior;
-- conformance, MVP and commercial experiments.
+Book 06 may define Lite purpose, users, four Product loops, Today, Product-local records, customer/service growth, professional work products, memory/assets, Handoff/Return, conformance, MVP and commercial experiments.
 
 Book 06 may not redefine Core, Execution, Workplace, MarkReg, MGSN, Owning-Service or External Protected Action authority.
 
@@ -72,58 +63,53 @@ A manuscript chapter may explain a controlled record but may not change its mean
 
 ```text
 Wave 1 — B06-CH-00–B06-CH-06 + B06-REV-0006: ACCEPTED
-Wave 2 — B06-CH-07–B06-CH-11 + B06-REV-0007: OWNER ACCEPTED ON MERGE
+Wave 2 — B06-CH-07–B06-CH-11 + B06-REV-0007: ACCEPTED
+Wave 3 — B06-CH-12–B06-CH-16 + B06-REV-0008: OWNER ACCEPTED ON MERGE
 ```
 
-Wave 1 establishes Product constitution.
-
-Wave 2 establishes the daily operating model:
+Wave 3 establishes the Customer and Service Growth loop:
 
 ```text
-Lite Session
-→ Today Snapshot
-→ Authorized Context
-→ Source Observation
-→ Signal
-→ Candidate
-→ Recommendation
-→ User Disposition
-→ Qualification
-→ Prepared Action
-→ Handoff
-→ Return
-→ Continuation
+existing customer portfolio
+→ historical customer reactivation
+→ Prospect Candidate development
+→ Development Package
+→ Human-reviewed and user-confirmed contact
+→ typed response
+→ Qualification Result
+→ Opportunity / MarkReg Handoff
+→ destination revalidation
+→ Return and next value
 ```
 
-## 7. Wave 2 integrity locks
+## 7. Wave 3 integrity locks
 
 ```text
-Today item ≠ active Task
-Today ≠ official deadline source
-available information ≠ authorized context
-local access ≠ synchronization, AI permission or disclosure authority
-Observation ≠ canonical truth
-Signal ≠ verified need
-Service-Value Candidate ≠ formal Opportunity
+existing relationship ≠ automatic cross-sell authority
+past relationship ≠ current contact permission
+old contact ≠ current contactability
+publicly discoverable ≠ contactable through every channel
 Prospect Candidate ≠ Customer or Qualified Lead
-Recommendation ≠ Decision or approval
-inspection ≠ acceptance
-accept_for_preparation ≠ execution
+user acceptance ≠ formal Opportunity
+Development Package ≠ purchase intent
+prepared outreach ≠ sent Communication
+message delivered/read ≠ qualified need
+response ≠ Opportunity
 Qualification Result ≠ formal state
-user confirmation ≠ Human Review
-Continuation State ≠ destination state
-Handoff ≠ destination acceptance
+Opportunity Handoff ≠ Opportunity acceptance
+MarkReg Handoff ≠ Product Session, Matter or official action
 Return ≠ Lite-owned formal truth
-unknown external result ≠ completed or safe to retry
 ```
+
+Opt-out, suppression, relationship ownership, customer interest and professional risk override growth ranking.
 
 ## 8. Writing waves
 
 ```text
 Wave 1 CH00–CH06 — ACCEPTED
-Wave 2 CH07–CH11 — Complete Draft 1 on owner merge
-Wave 3 CH12–CH16 — next after owner merge
-Wave 4 CH17–CH21 — planned
+Wave 2 CH07–CH11 — ACCEPTED
+Wave 3 CH12–CH16 — Complete Draft 1 on owner merge
+Wave 4 CH17–CH21 — next after owner merge
 Wave 5 CH22–CH25 — planned
 Wave 6 CH26–CH29 — planned
 Wave 7 CH30–CH33 — planned
@@ -135,15 +121,7 @@ Part-level manuscript merges advance drafting but do not approve the whole-book 
 
 ## 9. Owner gates
 
-Owner acceptance is required for:
-
-- Product Charter;
-- Product Baseline;
-- Chapter Map;
-- each manuscript wave;
-- whole-book Complete Draft 1;
-- Release Candidate;
-- final publication.
+Owner acceptance is required for Product Charter, Product Baseline, Chapter Map, each manuscript wave, whole-book Complete Draft 1, Release Candidate and final publication.
 
 ## 10. Current authorization
 
@@ -152,8 +130,9 @@ Product Charter v0.3: ACCEPTED
 Product Baseline v0.1: ACCEPTED
 Chapter Map v0.1: ACCEPTED
 Wave 1 CH00–CH06: ACCEPTED
-Wave 2 CH07–CH11: OWNER ACCEPTED ON MERGE
-Wave 3 CH12–CH16 drafting after merge: AUTHORIZED
+Wave 2 CH07–CH11: ACCEPTED
+Wave 3 CH12–CH16: OWNER ACCEPTED ON MERGE
+Wave 4 CH17–CH21 drafting after merge: AUTHORIZED
 Whole-book Complete Draft 1: NOT YET ACHIEVED
 Implementation: NOT AUTHORIZED
 Production: NOT AUTHORIZED
