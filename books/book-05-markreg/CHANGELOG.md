@@ -1,5 +1,21 @@
 # Book 05 Changelog
 
+## 2026-07-15 — PF-06D Whole-Book Editorial Closure
+
+- Upgraded B05-SPEC-0001 through B05-SPEC-0004 to Controlled Specification v0.3.
+- Registered `MR-C12 Applicant and Authority Context` and reserved `MR-C01` for Capability Need.
+- Reconciled `EL-01–EL-40`, `RK-01–RK-18` and `MR-SCN-01–MR-SCN-41` to current record IDs.
+- Closed PF06C2-F01, PF06C3-F01, PF06C4-F01 and PF06D-F01.
+- Reconciled Appendix A–G to the v0.3 Specification baseline.
+- Upgraded Glossary and Subject Index to v0.3.
+- Closed B05-PUB-0009 Term Audit v0.2.
+- Completed B05-PUB-0007 Cross-Book Reconciliation v0.2.
+- Updated B05-PUB-0008 RC1 Checklist v0.2.
+- Preserved EMBERLOOP and RIVERKITE final reviewed states without invented outcomes.
+- Added B05-REV-0026 and accepted PF-06D.
+- Closed PF-06 overall and authorized PF-07.
+- Kept figures, validation, RC1, final publication, implementation, production and External Protected Action open.
+
 ## 2026-07-15 — PF-06C4 Part VII Editorial Finishing
 
 - Edited CH43–CH47 against B05-PUB-0001 Controlled Editorial Standard v0.2.
@@ -164,7 +180,7 @@
 - Added stable `EL-*` and `RK-*` step identifiers and a complete CH08–CH47 chapter-to-journey matrix.
 - Preserved independent jurisdiction and right states and prohibited invented future outcomes.
 - Reconciled the initial three urgent RIVERKITE deadlines with the wider set of five renewal-related workflows.
-- Recorded the final EMBERLOOP state as UK registered, US under examination, EU in opposition, and Japan/Australia candidates only.
+- Recorded the final EMBERLOOP state as UK registered, US under examination, EU in opposition, and Japan/Australia designations (OAPI, Cambodia, Croatia, Greece, Hungary, Iceland, Iran, Ireland, Israel, Italy, Kazakhstan, Kenya, Lao PDR, Latvia, Lithuania, Monaco, Morocco, Norway, ROK, Moldova, Malaysia, Mexico, India).
 - Recorded the final RIVERKITE state as four ordinary renewals, one ownership-linked renewal, one cancellation defense, and open evidence/licence actions.
 - Reconciled Appendix D as a controlled reader draft.
 - Added B05-REV-0015, closed PF-03 and authorized PF-04 Scenario and User-Surface Consolidation.
