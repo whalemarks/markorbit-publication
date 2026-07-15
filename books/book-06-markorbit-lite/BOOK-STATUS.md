@@ -7,7 +7,7 @@ PRODUCT CHARTER v0.2
 — OWNER ACCEPTED ON MERGE
 ```
 
-Before merge, this branch presents the amended Charter and recommended Owner Decisions.
+Before merge, this branch presents the amended Charter and consolidated OD-01–OD-08.
 
 Merge records owner acceptance of the Charter baseline, including the subscription, daily content and intention-customer supply amendment.
 
@@ -19,7 +19,7 @@ Merge records owner acceptance of the Charter baseline, including the subscripti
 - Case Center architectural decomposition;
 - supplemental Product idea assessment;
 - Product Charter Candidate;
-- Product Charter Owner Decision Matrix;
+- consolidated Product Charter Owner Decision Matrix v0.2;
 - Product Charter Candidate Review;
 - subscription, daily content and intention-customer Charter amendment;
 - amendment Review.
