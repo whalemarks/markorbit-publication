@@ -1,7 +1,7 @@
 # Book 06 Reviews
 
 - [B06-REV-0001 — Pre-Writing Audit Review](B06-REV-0001_Pre-Writing_Audit_Review.md)
-- [B06-REV-0002 — Base Product Charter Candidate Review](B06-REV-0002_Product_Charter_Candidate_Review.md)
+- [B06-REV-0002 — Base Product Charter Architecture Review](B06-REV-0002_Product_Charter_Candidate_Review.md)
 - [B06-REV-0003 — Product Charter v0.3 Review](B06-REV-0003_Product_Charter_v0_3_Review.md)
 
 ## Review gate
@@ -12,9 +12,11 @@ The Product Charter v0.3 acceptance set is:
 B06-PLN-0004 v0.3 — Product Charter
 + B06-PLN-0005 v0.3 — OD-01–OD-10
 + B06-PLN-0006 — Commercial Plan and MVP Experiment Candidate
-+ B06-REV-0002 — Base architecture Review
++ B06-REV-0002 — Base Product Charter Architecture Review
 + B06-REV-0003 — Product Charter v0.3 Review
 ```
+
+`B06-REV-0002` confirms that Book 06 can define Lite without reopening Core, Execution, Workplace, MarkReg or MGSN architecture.
 
 `B06-REV-0003` confirms that the revised Charter:
 
