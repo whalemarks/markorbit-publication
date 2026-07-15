@@ -15,7 +15,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   issues: write
   pull-requests: write
 
@@ -25,33 +25,8 @@ jobs:
     timeout-minutes: 30
 
     steps:
-      - name: Checkout repository branch
+      - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          ref: ${{ github.head_ref || github.ref_name }}
-
-      - name: Apply one-time validator source reconciliation
-        if: github.event_name == 'pull_request' && github.head_ref == 'agent/book-05-pf08-structural-rendered-validation'
-        shell: bash
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          path = Path("books/book-05-markreg/validation/validate_book05.py")
-          source = path.read_text(encoding="utf-8")
-          old = 'authority_ok = "authority" in low and "boundary" in low'
-          new = 'authority_ok = "boundary" in low'
-          if old in source:
-              source = source.replace(old, new, 1)
-              path.write_text(source, encoding="utf-8")
-          compile(source, str(path), "exec")
-          PY
-          if ! git diff --quiet -- books/book-05-markreg/validation/validate_book05.py; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add books/book-05-markreg/validation/validate_book05.py
-            git commit -m "Align PF-08 figure boundary validation"
-            git push origin "HEAD:${{ github.head_ref }}"
-          fi
 
       - name: Set up Python
         uses: actions/setup-python@v5
