@@ -13,6 +13,7 @@ Planned chapters: 34
 Current manuscript chapter files: 22
 Product Charter: B06-PLN-0004 v0.3
 Product Baseline: B06-SPEC-0001–0004 v0.1
+Chapter Map record: B06-PLN-0007
 Current review: B06-REV-0009
 ```
 
@@ -22,20 +23,42 @@ Current review: B06-REV-0009
 planning/B06-PLN-0001–0007
 specifications/B06-SPEC-0001–0004
 reviews/B06-REV-0001–0009
+manuscript/README.md
 manuscript/B06-CH-00–B06-CH-21
+README.md
+BOOK-GOVERNANCE.md
+BOOK-MANIFEST.md
+BOOK-STATUS.md
+CHANGELOG.md
+publication.yaml
+```
+
+## Controlled Product Baseline
+
+```text
+ML-S01–S05
+ML-O01–O08
+ML-W01–W10
+ML-M01–M08
+ML-H01–H08
+ML-E01–E06
+ML-J01–J04
+ML-SCN-01–24
+ML-HC-01–HC-08
+ML-AC-01–AC-12
 ```
 
 ## Chapter structure
 
 ```text
-Front Matter CH00–CH01: ACCEPTED
-Part I CH02–CH06: ACCEPTED
-Part II CH07–CH11: ACCEPTED
-Part III CH12–CH16: ACCEPTED
-Part IV CH17–CH21: Complete Draft 1 — owner accepted on merge
-Part V CH22–CH25: next after merge
-Part VI CH26–CH29: planned
-Part VII CH30–CH33: planned
+Front Matter: CH00–CH01 — Complete Draft 1 — ACCEPTED
+Part I: CH02–CH06 — Complete Draft 1 — ACCEPTED
+Part II: CH07–CH11 — Complete Draft 1 — ACCEPTED
+Part III: CH12–CH16 — Complete Draft 1 — ACCEPTED
+Part IV: CH17–CH21 — Complete Draft 1 — owner accepted on merge
+Part V: CH22–CH25 — next after merge
+Part VI: CH26–CH29 — planned
+Part VII: CH30–CH33 — planned
 ```
 
 ## Wave 4 manuscript inventory
@@ -46,10 +69,26 @@ Part VII CH30–CH33: planned
 - `B06-CH-20_Delivery_Communication_and_Publish_Preparation.md`;
 - `B06-CH-21_Outcomes_Corrections_and_Work_Product_Reuse.md`.
 
+## Accepted argument through CH21
+
+```text
+Product Constitution
+→ Daily Operating Model
+→ Customer and Service Growth
+→ Purpose and Structured Content
+→ Artifact Draft and immutable Version
+→ Review
+→ Render / Edit and Readiness
+→ Delivery / Communication / Publish preparation
+→ typed Outcome
+→ Feedback / Correction
+→ Reuse / Retirement
+```
+
 ## Review result
 
 ```text
-Structural coverage: PASS
+Wave 4 structural coverage: PASS
 ML-W01–ML-W10 coverage: PASS
 Version/Review integrity: PASS
 Render/Edit/Readiness integrity: PASS
