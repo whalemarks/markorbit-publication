@@ -32,7 +32,7 @@ jobs:
           ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Append PF-09 changelog entry once
-        if: github.event_name == 'push' && github.ref_name == 'agent/book-05-pf09-owner-rc1-decision'
+        if: (github.event_name == 'push' && github.ref_name == 'agent/book-05-pf09-owner-rc1-decision') || (github.event_name == 'pull_request' && github.head_ref == 'agent/book-05-pf09-owner-rc1-decision')
         shell: bash
         run: |
           python - <<'PY'
@@ -67,7 +67,7 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add books/book-05-markreg/CHANGELOG.md
             git commit -m "Record Book 05 PF-09 owner RC1 decision"
-            git push origin "HEAD:${{ github.ref_name }}"
+            git push origin "HEAD:${{ github.head_ref || github.ref_name }}"
           fi
 
       - name: Set up Python
