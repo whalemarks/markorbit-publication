@@ -1,432 +1,221 @@
-# B06-REV-0002 — Product Charter Candidate Review
+# B06-REV-0002 — Base Product Charter Architecture Review
 
 ## 1. Identity
 
 ```text
 Review ID: B06-REV-0002
 Book: Book 06 — MarkOrbit Lite
-Scope: B06-PLN-0004 and B06-PLN-0005
-Review type: Product Charter Gate Review
-Status: Candidate Review — effective on owner merge
-Decision classes: PASS / PRODUCT-LOCAL DECISION / REFRAME / CHANGE PROPOSAL REQUIRED
+Scope: stable Product architecture boundary established during initial Charter work
+Status: Supporting Review for Product Charter v0.3
+Current controlling Product Review: B06-REV-0003
+Decision classes: PASS / PRODUCT-LOCAL DECISION / EDITORIAL REFRAME / CHANGE PROPOSAL REQUIRED
 ```
 
-## 2. Review question
+## 2. Purpose
 
-> Does the Product Charter Candidate define a focused, useful and commercially credible MarkOrbit Lite Product while preserving the accepted Core, Execution, Workplace, MarkReg, MGSN, data, AI and authority boundaries?
+This Review preserves the stable architecture findings established during the initial Product Charter work.
 
-## 3. Reviewed records
+It does not control the final Product identity, commercial plan, first reference journey or MVP 0. Those decisions are controlled by:
 
-- `B06-PLN-0001 — Pre-Writing Audit`;
-- `B06-PLN-0002 — Authority and Source Map`;
-- `B06-PLN-0003 — Supplemental Idea Assessment`;
-- `B06-PLN-0004 — Product Charter Candidate`;
-- `B06-PLN-0005 — Product Charter Owner Decision Matrix`;
-- `B06-REV-0001 — Pre-Writing Audit Review`;
-- current Book 06 governance, manifest, status and machine state.
+- `B06-PLN-0004 v0.3`;
+- `B06-PLN-0005 v0.3`;
+- `B06-PLN-0006`;
+- `B06-REV-0003`.
 
-## 4. Product identity review
+## 3. Review question
 
-The Charter preserves:
+> Can Book 06 define a dedicated Lite Product without reopening accepted Core, Execution, Workplace, MarkReg or MGSN architecture?
+
+## 4. Baseline result
 
 ```text
-MarkOrbit Lite
-= Today-centered lightweight Workplace Product
-for trademark professionals
+Book 01 business/principle continuity: PASS
+Book 02 Core semantic conformance: PASS
+Book 03 Execution conformance: PASS
+Book 04 Workplace/Product conformance: PASS
+Book 05 MarkReg interface conformance: PASS
+Book 06 Product-planning boundary: PASS
 ```
 
-It uses `AI-assisted growth and action workspace` as a market-facing promise rather than a replacement architecture identity.
+The existing baseline is sufficient. Book 06 does not need a new upstream architecture identity or Change Proposal.
 
-### Result
+## 5. Stable Product boundary findings
 
-```text
-Book 04 Lite identity preserved: YES
-Growth elevated as major Product outcome: YES
-Growth made sole constitutional value: NO
-Generic CRM positioning introduced: NO
-Generic AI-chat positioning introduced: NO
-```
+Lite may define Product-local behavior for:
 
-**Decision:** PASS.
+- attention and Today presentation;
+- source-linked observations and candidates;
+- recommendations and user disposition;
+- Prepared Actions and business work products;
+- local/private context participation;
+- case-derived work-product preparation;
+- personal and organization continuity;
+- MarkReg and MGSN Handoffs;
+- Lite-specific metrics, pilots and conformance.
 
-## 5. User and problem review
+Lite must not create parallel semantics for:
 
-The Charter identifies:
+- Customer and Contact;
+- formal Opportunity;
+- active Task;
+- sent Communication;
+- Review and approval;
+- Order and Matter;
+- trademark lifecycle;
+- provider Trust and Routing;
+- official or External Protected Action;
+- canonical shared Knowledge;
+- Document and Evidence.
 
-- independent trademark professionals;
-- small trademark teams;
-- larger Workplace participants using Lite mode.
-
-The primary problem is correctly framed as fragmented attention, context, preparation and handoff—not lack of text generation alone.
-
-The user questions remain coherent:
-
-```text
-What deserves attention?
-Why does it matter?
-What should be prepared?
-What consequence is intended?
-Where should the next governed stage occur?
-What result returned?
-What may be learned safely?
-```
-
-**Decision:** PASS.
-
-## 6. Product-loop review
-
-The Charter defines:
+## 6. Stable constitutional distinctions
 
 ```text
-Today
-→ Understand
-→ Choose
-→ Prepare
-→ Confirm
-→ Handoff
-→ Outcome
-→ Learn
-```
-
-This loop is focused enough to distinguish Lite from the full Workplace while broad enough to support attention, growth, cases, Artifacts and cross-Product continuity.
-
-The loop does not claim ownership of formal work after Handoff.
-
-### Result
-
-```text
-Focused Product loop: YES
-One universal Workflow introduced: NO
-Task lifecycle duplicated: NO
-Communication lifecycle duplicated: NO
-Formal outcome flattened into Product state: NO
-```
-
-**Decision:** PASS.
-
-## 7. Product-owned-state review
-
-The Charter proposes state classes for:
-
-- interaction and attention;
-- observations and candidates;
-- preparation;
-- continuity and learning.
-
-It explicitly leaves controlled IDs, independent identity and lifecycle decisions to the next Product-record baseline.
-
-It does not create parallel:
-
-- Customer;
-- Opportunity;
-- Task;
-- Communication;
-- Order;
-- Matter;
-- Document;
-- Evidence;
-- Trademark;
-- provider network;
-- official-result objects.
-
-**Decision:** PASS.
-
-## 8. Core and Execution review
-
-The Charter preserves:
-
-```text
-Candidate ≠ formal object
+Today item ≠ active Task
 Recommendation ≠ Decision
-Prepared Action ≠ authorized action
-User confirmation ≠ Human Review
-Human Review ≠ Execution
-Handoff accepted ≠ action completed
-Product outcome ≠ formal or external outcome
+Prepared Action ≠ execution
+Communication draft ≠ sent Communication
+Product candidate ≠ formal Opportunity
+Handoff ≠ approval
+Return ≠ formal-object creation
+Publish Package ≠ published
+local access ≠ synchronization authority
+personal context ≠ organization truth
+AI assistance ≠ professional authority
 ```
 
-Formal object creation and protected actions remain routed through their Owning Services and Book 03 Execution.
+## 7. Case and work-product result
 
-### Result
-
-```text
-Book 02 semantic amendment required: NO
-Book 03 Execution amendment required: NO
-Owning Service authority preserved: YES
-External Protected Action authorized: NO
-```
-
-**Decision:** PASS.
-
-## 9. Workplace review
-
-The Charter remains:
-
-- individual-first but organization-centered;
-- compatible with standalone, embedded, mobile, local/private and degraded modes;
-- explicit about active Organization context;
-- narrower than the full Workplace;
-- unable to inherit unrestricted context through embedding.
-
-Lite does not absorb:
-
-- organization administration;
-- universal role and policy management;
-- all Product access;
-- the complete Workplace platform.
-
-**Decision:** PASS.
-
-## 10. MarkReg boundary review
-
-The Charter preserves:
-
-```text
-Lite candidate and context
-→ typed Handoff Envelope
-→ MarkReg revalidation and Product Session
-→ governed MarkReg journey
-→ typed Return Envelope
-→ Lite presentation and next attention
-```
-
-Lite does not own:
-
-- filing readiness;
-- Filing Approval;
-- application Package authority;
-- examination;
-- registration;
-- maintenance;
-- portfolio truth;
-- official action.
-
-**Decision:** PASS; Book 05 amendment required — NO.
-
-## 11. MGSN boundary review
-
-The recommended Lite-visible depth is limited to:
-
-- organization-authorized provider relationships;
-- purpose-limited shortlist or comparison preview;
-- Capability Need preparation;
-- MGSN Handoff;
-- returned candidate or collaboration summary.
-
-Lite does not define:
-
-- network Trust;
-- evidence-based provider ranking authority;
-- open bidding;
-- provider appointment;
-- Routing lifecycle;
-- cross-Organization collaboration depth.
-
-**Decision:** PASS; Book 07 remains independent.
-
-## 12. Case Center review
-
-The Charter preserves four distinct layers:
+Case-related capability is conforming if it preserves:
 
 ```text
 Internal Case Context
-→ Case Memory / Lesson Candidate
+→ Memory / Lesson Candidate
 → Approved Reusable Case Asset
-→ External Case Artifact or Publish Package
+→ External Case Artifact or Work Product
 ```
 
-The recommended MVP is curated and reference-first.
+The chain does not create a universal Core Case object and does not make client or Matter material automatically reusable or public.
 
-The Charter correctly rejects:
+## 8. Local/private result
 
-- universal automatic case ingestion;
-- automatic safe-anonymization assumptions;
-- automatic promotion to Knowledge;
-- result claims without source and scope;
-- Evidence copying without purpose limitation.
+The hybrid-minimization baseline is conforming:
 
-No new universal Core Case object is created.
+- raw local files and case libraries may remain local;
+- local/private retrieval must be governed;
+- only minimum approved references or derived context should cross the boundary;
+- derived output retains source class and restrictions;
+- credentials and device-bound secrets should remain local where possible;
+- local availability does not create authority.
 
-**Decision:** PASS.
+## 9. External-action result
 
-## 13. Data and privacy review
-
-The recommended baseline is hybrid minimization:
-
-```text
-raw local/private material remains in its authorized zone
-→ governed retrieval or local processing
-→ minimum candidate/reference/Artifact context crosses when allowed
-```
-
-The Charter preserves:
-
-- personal scope;
-- Organization scope;
-- client scope;
-- Matter scope;
-- local/private scope;
-- source and transformation trace;
-- purpose and destination;
-- expiry and review.
-
-It rejects unrestricted synchronization and unrestricted AI memory.
-
-**Decision:** PASS.
-
-## 14. AI review
-
-AI may assist with:
-
-- extraction;
-- summarization;
-- ranking;
-- explanation;
-- drafting;
-- transformation;
-- gap detection;
-- local/private retrieval under contract.
-
-AI does not receive:
-
-- professional identity;
-- approval power;
-- final recipient choice;
-- send or Publish authority;
-- formal mutation authority;
-- unrestricted memory access;
-- automatic case-publication authority.
-
-Personal AI Clone / Persona remains a governed experience layer.
-
-**Decision:** PASS.
-
-## 15. Reference-journey review
-
-The recommended Existing Client Value Journey is appropriate because it tests:
-
-- Today;
-- source and explanation;
-- growth and client interest;
-- Case Center;
-- Artifact creation;
-- Communication preparation;
-- final user confirmation;
-- MarkReg Handoff and Return;
-- outcome feedback;
-- learning boundaries.
-
-It is more distinctive than a generic reminder loop and less dependent on Book 07 than a provider-first loop.
-
-A Case-to-Content journey remains suitable as the second reference journey.
-
-**Decision:** PASS.
-
-## 16. MVP review
-
-MVP 0 proves one bounded vertical slice:
+The following default remains conforming:
 
 ```text
-one supported signal class
-→ Today
-→ explanation and user disposition
-→ one case-supported Artifact
-→ one Communication preparation
+prepare exact version
+→ inspect subject, customer/audience, recipient/account and consequence
+→ Human Review where required
 → final user confirmation
-→ one MarkReg Handoff / Return
-→ typed outcome and feedback
+→ governed or manual operation
+→ typed result
 ```
 
-It excludes silent external action, broad CRM, universal case ingestion and full network depth.
+Silent send, autonomous Publish, automatic provider appointment and External Protected Action are not authorized.
 
-This is sufficiently narrow for validation while retaining Lite’s distinctive value.
-
-**Decision:** PASS.
-
-## 17. Decision-matrix review
-
-Recommended dispositions:
+## 10. MarkReg result
 
 ```text
-OD-01 canonical Lite identity + AI growth/action promise: PASS
-OD-02 Existing Client Value Journey: PASS
-OD-03 curated reference-first Case Center MVP: PASS
-OD-04 hybrid-minimization local/private baseline: PASS
-OD-05 MGSN shortlist/preview + Handoff only: PASS
-OD-06 final human confirmation default: PASS
+Lite observation / candidate
+→ purpose-bound Handoff Envelope
+→ MarkReg revalidation and Product Session
+→ governed MarkReg journey
+→ typed Return Envelope
+→ Lite outcome and next-value presentation
 ```
 
-Each recommendation is Product-local and requires no upstream Change Proposal.
+Lite does not decide filing readiness, create Filing Approval or own the trademark lifecycle.
 
-## 18. Finding classification
+## 11. MGSN result
+
+```text
+Capability need
+→ minimized Capability Need preparation
+→ MGSN discovery / Trust / Routing
+→ human selection and governed collaboration
+→ returned candidate or outcome
+→ Lite presentation
+```
+
+Lite does not own provider ranking authority, open bidding, appointment or network Trust.
+
+## 12. Data and privacy result
+
+A conforming Lite Product must preserve:
+
+- personal, organization, customer, Matter and local scopes;
+- source and provenance;
+- purpose limitation;
+- approved synchronization;
+- anonymization and disclosure Review;
+- Evidence restrictions;
+- Artifact, Delivery and Publish lineage;
+- AI context minimization.
+
+No unrestricted data pooling or learning is accepted.
+
+## 13. AI result
+
+AI may prepare, explain, compare, rank, extract, summarize and suggest.
+
+AI may not silently:
+
+- inherit professional identity or licence;
+- sign or approve;
+- choose final external recipients;
+- send or publish;
+- create formal state;
+- appoint providers;
+- access unrestricted memory;
+- convert case outcomes into universal rules;
+- convert accepted wording into organization Policy.
+
+## 14. Finding classification
 
 ```text
 PASS findings:
-- Product identity, users, problem, loop and value model are coherent
-- five capability pillars remain bounded
-- first reference journey and MVP are suitable
-- Case Center can be implemented as Product-local composition
-- data, AI and external-action boundaries are preserved
+- existing Books 01–05 baseline is sufficient
+- Lite may own Product-local discovery, preparation and continuity
+- Handoff and Return boundaries are available
+- case and local/private capability can conform
 
 PRODUCT-LOCAL DECISIONS:
-- OD-01–OD-06
-- Product record inventory
-- controlled IDs
-- complete journey and scenario set
-- final module/navigation model
-- chapter map
+- enduring Product identity
+- core Product loops
+- Today meaning
+- first reference journey
+- Product-local record set
+- MVP and metrics
+- commercial plans and entitlements
 
 EDITORIAL REFRAME:
-- external market wording must keep the canonical identity visible
-- one-click wording must identify preparation, confirmation and actual result
-- asset/case terminology must preserve accepted meanings
+- any wording that makes content, lead supply, pricing or one interaction surface the whole Product
 
 UPSTREAM FINDINGS: 0
 CHANGE PROPOSAL REQUIRED: NO
 ```
 
-## 19. Merge effect
-
-Merge of the Product Charter pull request records owner acceptance of:
-
-- B06-PLN-0004 Product Charter v0.1;
-- OD-01–OD-06 recommended dispositions;
-- Existing Client Value Journey as the first reference-journey baseline;
-- MVP 0 as the first Product-loop validation boundary.
-
-Merge authorizes next preparation of:
-
-1. Product-local record inventory and controlled IDs;
-2. reference journeys;
-3. conformance scenarios;
-4. Handoff/Return mapping;
-5. MVP and evaluation records;
-6. chapter-map candidate after those records reconcile.
-
-Merge does not authorize manuscript drafting.
-
-## 20. Review decision
+## 15. Decision
 
 ```text
-Product Charter candidate: PASS
-Owner decisions clearly presented: YES
-Recommended options conform: YES
-Product loop focused: YES
-Core/Execution duplication: NO
-Workplace absorption: NO
-MarkReg absorption: NO
-MGSN absorption: NO
-Case Center boundary: PASS
-Data and privacy boundary: PASS
-AI authority expansion: NO
-First reference journey: PASS
-MVP boundary: PASS
-Upstream Change Proposal required: NO
-Ready for owner merge: YES
-Ready for Product record/journey/scenario baseline after merge: YES
+Base architecture boundary: PASS
+Ready for Product Charter v0.3 Review: YES
+Controls Product identity: NO
+Ready for owner merge only with B06-REV-0003: YES
 Ready for chapter-map acceptance: NO
 Ready for manuscript drafting: NO
 Implementation authorized: NO
 Production authorized: NO
 External Protected Action authorized: NO
 ```
+
+This supporting Review confirms the architecture boundary. `B06-REV-0003` controls the final Product Charter v0.3 decision.
