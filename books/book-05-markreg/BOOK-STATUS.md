@@ -2,17 +2,18 @@
 
 ## Current State
 
-- **Status:** Release Candidate 1 — effective upon owner merge of the PF-09 pull request
+- **Status:** Release Candidate 1 — APPROVED AND FROZEN
 - **Title:** MarkReg: The Full-Lifecycle International Trademark Product
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
 - **RC1 content baseline:** `9da21c4b2325d35710a1ba1acd9be9ca42d988b3`
+- **PF-09 Decision activation commit:** `2471862b59ac68cfa6bbd51c3f5dda708c92e11b`
 - **Owner Decision:** B05-PUB-0010
 - **PF-09 Review:** B05-REV-0029
-- **Final publication:** not approved
+- **Release record:** B05-REL-0001
+- **Release pointer:** `release/book-05-rc1`
+- **Final publication:** NOT APPROVED
 - **Open blocking finding:** none
 - **Architecture dependency:** MO-PUB-BASELINE-0001
-
-If the PF-09 pull request is closed without merge, Book 05 remains Complete Draft 1 and RC1 remains unauthorized.
 
 ## Completed Scope
 
@@ -26,8 +27,8 @@ Part V CH30–CH36: COMPLETE
 Part VI CH37–CH42: COMPLETE
 Part VII CH43–CH47: COMPLETE
 Appendix A–G: COMPLETE
-PF-01–PF-08: COMPLETE
-PF-09: COMPLETE UPON OWNER MERGE
+PF-01–PF-09: COMPLETE
+RC1 freeze: COMPLETE
 ```
 
 ## RC1 Inventory
@@ -44,7 +45,7 @@ Validation record: B05-VAL-0001
 Accepted prior Reviews: B05-REV-0001–0028 plus B05-ERRATA-0001
 ```
 
-B05-PUB-0010 and B05-REV-0029 are PF-09 governance records. They activate and document RC1 without silently amending its content baseline.
+B05-PUB-0010, B05-REV-0029 and B05-REL-0001 are governance and release-identification records. They do not silently amend the RC1 content baseline.
 
 ## Controlled Baseline
 
@@ -66,11 +67,11 @@ RK-01–RK-18
 
 ## Accepted Validation Evidence
 
-```text
-PF-08 final validated head:
-6a210eb40d939eeea6f799c1be7435de7d5dd3aa
+### RC1 content validation
 
+```text
 GitHub Actions run: 29388824396
+Validated head: 6a210eb40d939eeea6f799c1be7435de7d5dd3aa
 Checks: 579 / 579 PASS
 Warnings: 0
 Errors: 0
@@ -79,18 +80,20 @@ Artifact digest:
 sha256:f463f4230df2fb9d147a80dcdc0b1638c501636f1ef826b988441295838d95ff
 ```
 
-Rendered evidence:
+### PF-09 governance validation
 
 ```text
-Mermaid SVG files: 11
-Validation HTML: 623,202 bytes
-Validation PDF: 948,073 bytes
-Validation PDF pages: 360
-Selectable-text characters: 475,563
-PDF navigation annotations: 135
+GitHub Actions run: 29389959080
+Validated head: 0c1e5123119c03b948851bb82fae9cbd7d7b6479
+Checks: 585 / 585 PASS
+Warnings: 0
+Errors: 0
+Artifact ID: 8332849622
+Artifact digest:
+sha256:80e3162f8a229cf93a8b614d2b5a726a81bfddb65a991b7c49794119754d0936
 ```
 
-The generated HTML, PDF and SVG outputs are validation artifacts, not final-publication files.
+Generated HTML, PDF and SVG outputs are validation artifacts, not final-publication files.
 
 ## Finding Register
 
@@ -136,12 +139,11 @@ RC1 ≠ final publication
 Publication ≠ implementation or External Protected Action authority
 ```
 
-## Gate Assessment
+## Gate Result
 
 ```text
-PF-01–PF-08: COMPLETE
-PF-09: COMPLETE UPON OWNER MERGE
-Release Candidate 1: APPROVED UPON OWNER MERGE
+PF-01–PF-09: COMPLETE
+Book 05: RELEASE CANDIDATE 1 — APPROVED AND FROZEN
 Final publication: NOT APPROVED
 Public/commercial distribution: NOT APPROVED
 ```
