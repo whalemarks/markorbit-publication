@@ -10,23 +10,25 @@
 - [B06-REV-0008 — Wave 3 Customer and Service Growth Review](B06-REV-0008_Wave_3_Customer_and_Service_Growth_Review.md)
 - [B06-REV-0009 — Wave 4 Professional Work Products Review](B06-REV-0009_Wave_4_Professional_Work_Products_Review.md)
 - [B06-REV-0010 — Wave 5 Cases, Memory and Business Assets Review](B06-REV-0010_Wave_5_Cases_Memory_and_Business_Assets_Review.md)
+- [B06-REV-0011 — Wave 6 MarkOrbit Gateways and Continuity Review](B06-REV-0011_Wave_6_MarkOrbit_Gateways_and_Continuity_Review.md)
 
 ## Current gate
 
-`B06-REV-0010` confirms that CH22–CH25:
+`B06-REV-0011` confirms that CH26–CH29:
 
-- define authorized case context without absorbing Matter, Document or Evidence ownership;
-- define ML-M06 Case Lesson Candidate without inferring universal rules or causation;
-- preserve Client/Matter restrictions and reject anonymization as automatic permission;
-- define explicit Preference Candidate acceptance and scope;
-- separate Personal Memory and Organization Memory;
-- require Organization Review for shared memory;
-- define Reusable Asset Candidate with rights, audience, variables and reuse limits;
-- separate Reusable Asset from canonical Knowledge;
-- define ML-M08 Knowledge Contribution Candidate and ML-HC-08 Knowledge Governance Handoff;
-- preserve provenance, source authority, rights, versioning, correction, expiry, revocation and retirement;
-- define Reuse Evidence and Safety / Privacy Findings;
+- define `ML-H01–ML-H08` and destination-specific Handoff contracts;
+- preserve Handoff versus destination acceptance and Return versus Lite-owned formal truth;
+- define MarkReg Launch and Continuation without absorbing Product Session, Formal Intake, Matter or official action;
+- preserve Customer versus applicant identity and authority to instruct;
+- define MGSN Capability Need with staged disclosure and MGSN ownership of Trust, Routing and collaboration depth;
+- reject automatic provider appointment;
+- separate Human Review, Communication send, Opportunity formalization, Task/Workflow and Execution consequences;
+- preserve exact-version continuity and reject hidden one-click cascades;
+- preserve Local Only and Personal Private context under hybrid minimization;
+- preserve local readability versus synchronization, remote AI use and disclosure authority;
+- preserve more-information, rejected, unsupported, blocked, failed and unknown states;
+- reject blind retry where duplicate consequential action may occur;
 - introduce no Books 01–05 conflict or Book 07 preemption;
 - contain no blocking or major finding.
 
-Owner merge accepts Wave 5 as Complete Draft 1 and authorizes Wave 6 CH26–CH29 drafting only.
+Owner merge accepts Wave 6 as Complete Draft 1 and authorizes Wave 7 CH30–CH33 drafting only.
