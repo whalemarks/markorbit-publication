@@ -16,8 +16,12 @@ This directory contains the canonical MarkOrbit publications.
 
 ## Baseline Rule
 
-Books 01–04 form the pre-Product Portfolio Baseline. Book 02 semantic changes require Change Proposal. Books 05–07 consume the baseline and may not silently redefine it.
+Books 01–04 form the pre-Product Portfolio Baseline.
 
-Book 05 RC1 is approved and frozen.
+Book 02 remains frozen. Semantic changes require the existing Change Proposal process.
 
-Book 06 has accepted Product Charter v0.3, Product Baseline v0.1, Chapter Map B06-TOC-V0.1 and Waves 1–3. The current Wave 4 candidate drafts CH17–CH21 as Complete Draft 1 and authorizes Wave 5 CH22–CH25 after owner merge. Whole-book Complete Draft 1 has not yet been achieved.
+Books 05–07 must consume the baseline and may not silently redefine it.
+
+Book 05 RC1 is frozen through its immutable content baseline, permanent release record and `release/book-05-rc1` pointer.
+
+Book 06 has accepted Product Charter v0.3, Product Baseline v0.1, Chapter Map B06-TOC-V0.1 and Waves 1–3. The current Wave 4 candidate drafts CH17–CH21 as Complete Draft 1 and authorizes Wave 5 CH22–CH25 after owner merge. The whole-book Complete Draft 1 has not yet been achieved.
