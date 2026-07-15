@@ -1,10 +1,10 @@
 book:
   id: B06
   title: MarkOrbit Lite
-  status: wave_1_ch00_ch06_complete_draft_1_owner_accepted_on_merge
-  manuscript_files: 7
+  status: wave_2_ch07_ch11_complete_draft_1_owner_accepted_on_merge
+  manuscript_files: 12
   planned_chapters: 34
-  current_review: B06-REV-0006
+  current_review: B06-REV-0007
   chapter_map:
     id: B06-TOC-V0.1
     record: B06-PLN-0007
@@ -34,20 +34,20 @@ canonical_product:
 chapter_structure:
   front_matter:
     range: CH00-CH01
-    status: complete_draft_1_on_wave_1_merge
+    status: complete_draft_1_accepted
   parts:
     - id: I
       title: Product Constitution and Place in MarkOrbit
       range: CH02-CH06
-      status: complete_draft_1_on_wave_1_merge
+      status: complete_draft_1_accepted
     - id: II
       title: The Daily Operating Model
       range: CH07-CH11
-      status: next_after_wave_1_merge
+      status: complete_draft_1_owner_accepted_on_merge
     - id: III
       title: Customer and Service Growth
       range: CH12-CH16
-      status: planned
+      status: next_after_wave_2_merge
     - id: IV
       title: Professional Work Products
       range: CH17-CH21
@@ -68,15 +68,29 @@ chapter_structure:
 wave_1:
   range: CH00-CH06
   chapter_files: 7
-  status: complete_draft_1_owner_accepted_on_merge
+  status: complete_draft_1_accepted
   review: B06-REV-0006
+
+wave_2:
+  range: CH07-CH11
+  chapter_files: 5
+  status: complete_draft_1_owner_accepted_on_merge
+  review: B06-REV-0007
   structural_pass: true
-  product_charter_pass: true
-  product_baseline_pass: true
+  controlled_record_coverage_pass: true
+  daily_operating_sequence_pass: true
+  source_data_boundary_pass: true
+  failure_unknown_state_pass: true
   blocking_findings: 0
   major_findings: 0
   upstream_findings: 0
   change_proposal_required: false
+  controlled_records:
+    - ML-S01-ML-S05
+    - ML-O01-ML-O08
+    - ML-W05
+    - ML-W10
+    - ML-H01-ML-H02
 
 controlled_ranges:
   session_interaction: ML-S01-ML-S05
@@ -93,13 +107,13 @@ controlled_ranges:
 writing_waves:
   - wave: 1
     range: CH00-CH06
-    status: complete_draft_1_owner_accepted_on_merge
+    status: complete_draft_1_accepted
   - wave: 2
     range: CH07-CH11
-    status: authorized_after_wave_1_merge
+    status: complete_draft_1_owner_accepted_on_merge
   - wave: 3
     range: CH12-CH16
-    status: planned
+    status: authorized_after_wave_2_merge
   - wave: 4
     range: CH17-CH21
     status: planned
@@ -122,8 +136,9 @@ commercial_plan:
     - artifact_render_publish_quotas
 
 authorization:
-  wave_1_acceptance_on_merge: true
-  wave_2_drafting_after_merge: true
+  wave_1_accepted: true
+  wave_2_acceptance_on_merge: true
+  wave_3_drafting_after_merge: true
   whole_book_complete_draft_1: false
   implementation: false
   production: false
