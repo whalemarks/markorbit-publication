@@ -2,179 +2,134 @@
 
 ## Status
 
-- **Status:** Controlled Scaffold
-- **Primary workstreams:** PF-06 and PF-07
+- **Status:** Controlled Reconciliation v0.2 — PF-06D Complete
 - **Baseline:** MO-PUB-BASELINE-0001
-- **Scope:** Books 01–05 and downstream boundaries with Books 06–07
+- **Scope:** Books 01–05 and bounded downstream references to Books 06–07
+- **Review:** B05-REV-0026
 
 ## 1. Purpose
 
-This record verifies that publication editing, appendices and reader-reference material do not cause Book 05 to redefine the accepted MarkOrbit portfolio architecture.
+This record verifies that Book 05 editing, Specifications, Appendices and reader-reference material do not redefine the accepted MarkOrbit portfolio architecture.
 
-## 2. Book 01 Reconciliation
+## 2. Book 01
 
-Book 01 defines the industry vision and Operating System principles.
+Book 05 preserves independent organizations and Orbits, professional responsibility, shared meaning without centralization, governed collaboration and lifecycle continuity.
 
-Book 05 conforms by preserving:
+MarkReg remains one focused Product, not the whole Operating System.
 
-- independent organizations and Orbits;
-- professional responsibility;
-- shared meaning without centralization;
-- governed collaboration;
-- safe connection and lifecycle continuity.
+**Result:** principle change required — **NO**.
 
-Book 05 must not present MarkReg as the entire Operating System.
+## 3. Book 02 — Core
 
-## 3. Book 02 Reconciliation
+Book 05 may consume shared objects/identifiers, create Product-local records, hand candidates into Owning Services and record upstream findings.
 
-Book 02 defines frozen shared Core semantics and contracts.
+It does not redefine Organization, Client, Brand, Trademark, Order, Matter, Document, Evidence, Review, Communication, payment or other shared Core semantics.
 
-Book 05 may:
+### `MR-C12` assessment
 
-- consume shared objects and identifiers;
-- create Product-local artifacts;
-- hand candidates into Owning Services;
-- record an Upstream Finding where a missing shared contract is discovered.
+`MR-C12 Applicant and Authority Context` is a Book 05 Product-local Context that records candidate applicant/owner facts, instructor/signatory authority, Source conflicts and downstream impact.
 
-Book 05 may not:
+It does not create or modify:
 
-- redefine Organization, Client, Brand, Trademark, Order, Matter, Document, Evidence, Review, Communication or other shared concepts locally;
-- bypass the Book 02 Change Proposal process;
-- treat appendix definitions as new Core semantics.
+- a Core Organization, Client, Contact, Brand or Trademark object;
+- a formal applicant, owner or representative relationship;
+- an official register entry;
+- a shared authority or delegation record.
 
-## 4. Book 03 Reconciliation
+Registering `MR-C12` resolves a local Product-record collision and does not require a Book 02 Change Proposal.
 
-Book 03 defines governed Execution.
+**Result:** Core semantic Change Proposal required — **NO**.
 
-Book 05 may define:
+## 4. Book 03 — Execution
 
-- Product readiness;
-- package candidates;
-- requested actions;
-- Handoff Envelopes;
-- expected evidence;
-- Product-facing failure and reconciliation behavior.
+Book 05 defines Product readiness, Package Candidates, requested actions, Handoff Envelopes, expected Evidence and Product-facing recovery behavior.
 
-Book 05 may not:
+It does not create a parallel Workflow/Task authority, bypass Permission/Review/Approval/idempotency/audit, treat technical success as official effect or make MarkReg the universal Execution engine.
 
-- create a parallel Workflow or Task authority;
-- bypass permission, Review, approval, idempotency or audit controls;
-- treat technical success as official effect;
-- make the Product itself the universal Execution engine.
+**Result:** Execution amendment required — **NO**.
 
-## 5. Book 04 Reconciliation
+## 5. Book 04 — Workplace and Product Architecture
 
-Book 04 defines Workplace and Product Architecture.
+Book 05 preserves Workplace as organization-level operating environment; organization identity, role, permission and private Knowledge authority; focused Product identity; typed Handoff/Return behavior; private-first provider routing; and independent organization autonomy.
 
-Book 05 conforms by preserving:
+Standalone MarkReg does not become a replacement Workplace. `MR-C10 Product Session` and `MR-V05 Participant Surface Projection` remain Product-local interaction and View records.
 
-- Workplace as the organization-level operating environment;
-- organization identity, role, permission and private Knowledge authority;
-- focused Product identity;
-- Product embedding through controlled context;
-- typed Handoffs across Products;
-- private-first provider and network behavior;
-- independent organization autonomy.
-
-Book 05 standalone mode does not become a replacement Workplace.
+**Result:** Workplace/Product amendment required — **NO**.
 
 ## 6. Book 06 Boundary — MarkOrbit Lite
 
-Book 06 is expected to define a lightweight Workplace and local/personal operating context.
-
-Book 05 defines only the MarkReg behavior needed when embedded in Lite:
+Book 05 defines only the MarkReg behavior required when embedded in Lite:
 
 - purpose-limited context reuse;
 - local Product Session continuity;
-- personal note and organization-data separation;
-- typed handoff into an organization Workplace;
-- no change to legal rules, approval or external-action authority.
+- private-note separation;
+- typed Handoff into an organization Workplace;
+- no change to legal Rules, Approval or external-action authority.
 
-Book 05 must not pre-write the full Lite architecture.
+Book 05 does not predefine the full Lite architecture.
 
-## 7. Book 07 Boundary — Mark Global Service Network
+## 7. Book 07 Boundary — MGSN
 
-Book 07 is expected to define service-routing, Capability and Trust relationships across independent organizations.
+Book 05 defines only MarkReg’s provider-consumption boundary:
 
-Book 05 defines only the MarkReg need and consumption boundary:
+```text
+MR-C01 Capability Need
+→ evidence-based candidates
+→ MR-A14 Routing Recommendation
+→ MR-D04 Human Selection
+→ appointment / instruction
+→ MR-D05 Provider Acceptance
+→ Return Evidence
+```
 
-- Capability Need;
-- private-first discovery;
-- evidence-based eligibility and recommendation;
-- Human Selection;
-- provider appointment, instruction and acceptance;
-- return evidence and contextual trust feedback.
+It does not define an open bidding marketplace or automatic provider appointment.
 
-Book 05 must not turn MGSN into an open bidding marketplace or automatic provider appointment service.
+## 8. Horizontal Capabilities
 
-## 8. Horizontal Capability Boundary
+Crawl, Distillery, Brain, Intelligence, Artifact, Render, Edit and Publish may support MarkReg but remain separate systems or capabilities. They do not become Product constitution, Professional Review or authority.
 
-Crawl, Distillery, Brain, Intelligence, Artifact, Render, Edit and Publish may support MarkReg.
+## 9. Appendix and Publication Audit
 
-They remain separate horizontal systems or capabilities.
+Appendix A–G were reviewed against B05-SPEC-0001–0004 v0.3.
 
-Book 05 may describe required inputs and outputs but may not treat one horizontal capability as the Product constitution or authority source.
+They:
 
-## 9. Appendix Reconciliation
+- retain Book 05 controlled IDs;
+- do not redefine Book 02 terms;
+- do not expand Book 03 Execution;
+- preserve Book 04 authority;
+- keep Lite and MGSN references bounded;
+- distinguish publication, implementation, production and protected-action authority.
 
-Appendix A–G are reader projections.
+Figures remain PF-07 work and must preserve the same boundaries.
 
-They must not:
+## 10. Reconciliation Matrix
 
-- redefine Book 02 terms;
-- expand Book 03 Execution authority;
-- weaken Book 04 Workplace and Product boundaries;
-- define Book 06 or Book 07 in full;
-- make one figure or matrix the sole authority for a concept.
-
-Every appendix should cite its controlled Book 05 source and the relevant upstream boundary.
-
-## 10. Initial Reconciliation Matrix
-
-| Book 05 area | Primary upstream owner | Book 05 responsibility | Prohibited drift |
+| Book 05 area | Upstream owner | Book 05 responsibility | Prohibited drift |
 | --- | --- | --- | --- |
-| shared identities and formal objects | Book 02 | consume and reference | local semantic redefinition |
-| task, Review, approval and Execution mechanics | Book 03 | prepare and request governed action | parallel execution engine |
+| shared identities and formal objects | Book 02 | consume/reference | local Core redefinition |
+| Task, Review, Approval and Execution mechanics | Book 03 | prepare/request governed action | parallel Execution engine |
 | organization context and Product embedding | Book 04 | consume authorized context and provide Product journey | replacement Workplace |
-| provider network and trust | future Book 07 | express Capability Need and consume routed evidence | open marketplace or automatic appointment |
-| local/personal lightweight context | future Book 06 | provide embedded MarkReg behavior | defining Lite as merely a MarkReg shell |
-| trademark Product journey | Book 05 | own focused Product experience and Product-local artifacts | expansion into all IP or entire OS |
+| provider network and Trust | future Book 07 | express Capability Need and consume routed Evidence | marketplace/automatic appointment |
+| local/personal context | future Book 06 | provide embedded MarkReg behavior | defining full Lite architecture |
+| trademark Product journey | Book 05 | own Product-local lifecycle experience | expansion into entire OS |
 
-## 11. Findings Process
+## 11. Finding Process
 
-A reconciliation issue should become an Upstream Finding when:
+An issue becomes an upstream finding when shared semantics are missing/conflicting, Execution needs a new cross-Product contract, Workplace authority is ambiguous, future Lite/MGSN capability is pre-required, or publication wording implies unavailable authority.
 
-- a shared semantic is missing or conflicts;
-- Execution behavior requires a new cross-Product contract;
-- Workplace authority is ambiguous;
-- the Product requires a network or Lite capability not yet defined;
-- publication wording implies authority not present in the baseline.
+The issue cannot be solved by silently changing upstream meaning.
 
-The finding must identify the upstream owner and cannot be resolved by silent Book 05 wording.
-
-## 12. Current Finding Summary
-
-At the Complete Draft 1 and publication-architecture stage:
+## 12. PF-06D Result
 
 ```text
 Book 01 principle change required: NO
 Book 02 semantic Change Proposal required: NO
 Book 03 Execution amendment required: NO
-Book 04 Product boundary amendment required: NO
+Book 04 Product/Workplace amendment required: NO
 Book 06 or Book 07 pre-definition required: NO
+Open upstream findings: 0
+Book 05 local semantic findings: CLOSED
 ```
 
-This conclusion must be rerun after PF-02 through PF-07 and before RC1.
-
-## 13. Completion Work
-
-PF-06 and PF-07 must:
-
-1. compare controlled terms against Books 01–04;
-2. review all appendices and figures for architecture drift;
-3. record any Upstream Finding;
-4. verify downstream references to Lite and MGSN remain bounded;
-5. confirm publication and implementation claims remain separate;
-6. include the final reconciliation result in B05-PUB-0008.
-
-This record becomes complete when the RC1 cross-book review passes.
+PF-06D cross-book reconciliation is complete. Figure and rendered-format reconciliation remain PF-07/PF-08 gates.
