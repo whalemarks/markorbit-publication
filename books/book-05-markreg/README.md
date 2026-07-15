@@ -2,12 +2,13 @@
 
 ## Identity
 
-- **Status:** Complete Draft 1 — PF-06 Editorial Closure Complete
+- **Status:** Complete Draft 1 — PF-07 Source Apparatus Complete
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
 - **Manuscript:** CH00–CH47 complete
 - **Specifications:** B05-SPEC-0001–0004 v0.3
 - **Appendices:** A–G content-reconciled
-- **Current phase:** PF-07 — Figures and Publication Apparatus
+- **Figures:** 11 retained controlled sources; B05-FIG-05 merged into B05-FIG-03
+- **Current phase:** PF-08 — Structural and Rendered Validation
 
 ## Position
 
@@ -48,12 +49,26 @@ RK-01–18
 
 ## Publication Apparatus
 
-- [Editorial Standard](publication/B05-PUB-0001_Editorial_Style_and_Terminology.md) — v0.2
+- [Source and Authority Notes](publication/B05-PUB-0002_Source_and_Authority_Notes.md) — v1.0
 - [Glossary](publication/B05-PUB-0003_Glossary.md) — v0.3
 - [Subject Index](publication/B05-PUB-0004_Subject_Index.md) — v0.3
+- [Figure Register](publication/B05-PUB-0005_Figure_Register.md) — v1.0
+- [Back Matter Map](publication/B05-PUB-0006_Back_Matter_and_Appendix_Map.md) — v0.2
 - [Cross-Book Reconciliation](publication/B05-PUB-0007_Cross-Book_Reconciliation.md) — v0.2
-- [RC1 Checklist](publication/B05-PUB-0008_RC1_Checklist.md) — v0.2
+- [RC1 Checklist](publication/B05-PUB-0008_RC1_Checklist.md) — v0.3
 - [Term Audit](publication/B05-PUB-0009_Term_Variation_and_Editorial_Audit.md) — v0.2 closed
+
+## Controlled Figures
+
+[Figure source index](figures/README.md)
+
+```text
+B05-FIG-01–04: retained
+B05-FIG-05: merged into B05-FIG-03
+B05-FIG-06–12: retained
+```
+
+Each retained file contains Mermaid source, caption, source references, placement intent, accessibility description, grayscale/legibility notes and authority boundary. Actual renderer validation remains PF-08.
 
 ## Appendices
 
@@ -72,7 +87,7 @@ EMBERLOOP
 - UK registered with maintenance obligations
 - US under examination after acknowledged Response Package v2
 - EU in verified opposition
-- Japan / Australia candidates only
+- Japan / Australia future-action candidates only
 
 RIVERKITE
 - six independent rights
@@ -82,25 +97,26 @@ RIVERKITE
 - title, use-Evidence and licence work open
 ```
 
-## PF-06 Closure
+## PF-07 Closure
 
-[B05-REV-0026](reviews/B05-REV-0026_PF-06D_Whole-Book_Editorial_Closure.md) confirms:
+[B05-REV-0027](reviews/B05-REV-0027_PF-07_Figures_and_Publication_Apparatus.md) confirms:
 
-- four Specifications reconciled to v0.3;
-- Appendix A–G reconciled;
-- Glossary and Index reconciled;
-- PF06C2-F01, PF06C3-F01, PF06C4-F01 and PF06D-F01 closed;
-- no Architecture Canon or Books 02–04 amendment required;
-- PF-06 complete.
+- all twelve planned Figure identities received a disposition;
+- eleven controlled Figure source files were created;
+- B05-FIG-05 was merged into B05-FIG-03 without renumbering;
+- captions, source references, accessibility and source-level grayscale review are complete;
+- Source and Authority Notes and final Reader Notice are complete;
+- stable Glossary, Index and Figure page-reference inputs are complete;
+- no architecture, Specification, reference-journey or Conformance semantic change was introduced;
+- PF-07 is complete and PF-08 is authorized next.
 
 ## Current Gate
 
 ```text
-PF-01–PF-06: COMPLETE
-PF-07: AUTHORIZED AND NEXT
-PF-08: OPEN
+PF-01–PF-07: COMPLETE
+PF-08: AUTHORIZED AND NEXT
 PF-09: OPEN
 RC1 ready: NO
 ```
 
-Book 05 does not authorize implementation, production deployment, autonomous professional action or External Protected Action.
+Book 05 does not authorize final publication, implementation, production deployment, autonomous professional action or External Protected Action.
