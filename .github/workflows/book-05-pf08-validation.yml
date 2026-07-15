@@ -37,17 +37,32 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           path = Path("books/book-05-markreg/validation/validate_book05.py")
-          text = path.read_text(encoding="utf-8")
-          broken = 'record("YAML figure retained count", figures.get("retained_sources") == 11, str(figures.get("retained_sources"))\n'
-          fixed = 'record("YAML figure retained count", figures.get("retained_sources") == 11, str(figures.get("retained_sources")))\n'
-          if broken in text:
-              path.write_text(text.replace(broken, fixed, 1), encoding="utf-8")
+          lines = path.read_text(encoding="utf-8").splitlines()
+          changed = False
+          for _ in range(10):
+              source = "\n".join(lines) + "\n"
+              try:
+                  compile(source, str(path), "exec")
+                  break
+              except SyntaxError as exc:
+                  index = (exc.lineno or 1) - 1
+                  line = lines[index]
+                  missing = line.count("(") - line.count(")")
+                  if line.lstrip().startswith("record(") and missing > 0:
+                      lines[index] = line + (")" * missing)
+                      changed = True
+                      continue
+                  raise
+          source = "\n".join(lines) + "\n"
+          compile(source, str(path), "exec")
+          if changed:
+              path.write_text(source, encoding="utf-8")
           PY
           if ! git diff --quiet -- books/book-05-markreg/validation/validate_book05.py; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add books/book-05-markreg/validation/validate_book05.py
-            git commit -m "Fix PF-08 validator syntax"
+            git commit -m "Complete PF-08 validator syntax repair"
             git push origin "HEAD:${{ github.head_ref }}"
           fi
 
