@@ -5,9 +5,9 @@
 ```text
 Pre-Writing Audit — COMPLETE
 → Product Charter v0.3 — ACCEPTED
-→ Product Baseline v0.1 — OWNER ACCEPTED ON MERGE
-→ Chapter Map Candidate — NEXT
-→ controlled manuscript drafting after owner acceptance
+→ Product Baseline v0.1 — ACCEPTED
+→ Chapter Map v0.1 — OWNER ACCEPTED ON MERGE
+→ controlled manuscript drafting — NEXT
 ```
 
 ## Planning records
@@ -18,23 +18,26 @@ Pre-Writing Audit — COMPLETE
 - [B06-PLN-0004 v0.3 — Product Charter](B06-PLN-0004_Product_Charter_Candidate.md)
 - [B06-PLN-0005 v0.3 — Owner Decision Matrix](B06-PLN-0005_Product_Charter_Owner_Decision_Matrix.md)
 - [B06-PLN-0006 — Commercial Plan and MVP Experiment](B06-PLN-0006_Commercial_Plan_and_MVP_Experiment_Candidate.md)
+- [B06-PLN-0007 — Chapter Map Candidate / B06-TOC-V0.1](B06-PLN-0007_Chapter_Map_Candidate.md)
 
-## Product Baseline
+## Chapter Map acceptance
 
-See [Specifications](../specifications/README.md).
+Merge accepts:
 
-Merge of the Product Baseline PR accepts:
-
-- B06-SPEC-0001–0004 v0.1;
-- all listed `ML-*` controlled ranges;
-- four reference journeys;
-- 24 conformance scenarios;
-- eight Handoff contracts;
-- twelve MVP acceptance criteria;
-- historical V1 reconciliation.
+```text
+B06-TOC-V0.1
+B06-CH-00–B06-CH-33
+7 Parts plus Front Matter
+7 controlled drafting waves
+```
 
 ## Next task
 
-After merge, prepare a Chapter Map Candidate that projects the accepted Charter and Specifications without redefining them.
+```text
+Wave 1
+B06-CH-00–B06-CH-06
+```
 
-Chapter Map acceptance, manuscript drafting, implementation and production remain unauthorized.
+Wave 1 should establish the preface, accepted Table of Contents and Product Constitution before later journey chapters are drafted.
+
+Implementation, production and external-action authority remain outside manuscript drafting.

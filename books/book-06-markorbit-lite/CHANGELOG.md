@@ -1,34 +1,36 @@
 # Book 06 Changelog
 
-## Product Baseline v0.1 — Controlled Records, Journeys and Scenarios
+## Chapter Map v0.1 — B06-TOC-V0.1
 
-- added B06-SPEC-0001–0004;
-- assigned controlled Product-local ranges ML-S, ML-O, ML-W, ML-M, ML-H and ML-E;
-- assigned ML-J01–J04 reference journeys;
-- assigned ML-SCN-01–24 conformance scenarios;
-- assigned ML-HC-01–HC-08 Handoff contracts;
-- assigned ML-AC-01–AC-12 MVP acceptance criteria;
-- separated Lite-owned candidate/preparation state from formal Owning-Service truth;
-- defined Existing Customer Portfolio Opportunity as ML-J01;
-- defined historical customer, prospect and case-to-work-product journeys;
-- defined Artifact, Render, Edit, Delivery and Publish mapping;
-- defined MarkReg, MGSN, Review, Communication, Opportunity, Task/Execution, Delivery/Publish and Knowledge Handoffs;
-- defined Customer Opportunity-to-Governed-Service MVP evidence;
-- reconciled the early V1 model through KEEP, REFRAME, PRODUCT-LOCAL, MOVE TO OWNING SERVICE, DEFER and REJECT;
-- preserved RMB 99, content and Prospect Candidate supply as commercial experiments rather than Product identity;
-- found no Books 01–05 conflict and no required Change Proposal;
-- authorized a Chapter Map Candidate after owner merge;
-- did not create a chapter map or manuscript.
+- added B06-PLN-0007 — Chapter Map Candidate;
+- added B06-REV-0005 — Chapter Map Candidate Review;
+- established B06-CH-00–B06-CH-33;
+- established seven Parts plus Front Matter;
+- organized the book through Product Constitution, Daily Operating Model, Growth, Work Products, Memory/Assets, Ecosystem Gateways and Conformance/Evolution;
+- mapped every controlled `ML-*` family into one or more chapters;
+- assigned dedicated coverage to ML-J01–ML-J04;
+- preserved Book 04 as architectural authority without rewriting general Workplace content;
+- limited MarkReg to Launch/Continuation/Return interfaces;
+- limited MGSN to Capability Need and returned candidate boundaries;
+- retained content, Prospect Candidate supply and RMB 99 as subordinate capability/commercial topics;
+- established seven Part-sized drafting waves;
+- selected CH00–CH06 as Wave 1;
+- found no orphaned controlled range and no required Change Proposal;
+- did not create manuscript chapter files.
 
-## Product Charter v0.3 — AI Business Operating System Reframe
+## Product Baseline v0.1
+
+- accepted B06-SPEC-0001–0004;
+- established controlled records, journeys, scenarios, Handoff contracts and MVP criteria;
+- reconciled the early V1 model;
+- authorized preparation of the Chapter Map Candidate.
+
+## Product Charter v0.3
 
 - accepted Lite as the AI business operating system for independent trademark professionals and small agencies;
 - established four enduring Product loops;
-- reframed Today as the daily business cockpit;
-- prioritized existing-customer portfolio value;
-- separated Product constitution from commercial plans and experiments;
-- established Customer Opportunity-to-Governed-Service as MVP 0.
+- separated Product identity from commercial experiments.
 
 ## Earlier planning
 
-Pre-Writing Audit v0.1, Charter v0.1 and the superseded v0.2 subscription candidate remain part of the planning history. Only accepted records in the current authority chain control.
+Pre-Writing Audit v0.1 and superseded Charter candidates remain planning history only.

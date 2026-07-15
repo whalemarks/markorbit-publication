@@ -3,11 +3,11 @@
 ## Current status
 
 ```text
-PRODUCT BASELINE v0.1
+CHAPTER MAP v0.1
 — OWNER ACCEPTED ON MERGE
 ```
 
-PR #63 accepted Product Charter v0.3 and OD-01–OD-10. The current Product Baseline PR converts that Charter into controlled records, journeys, scenarios, Handoff contracts and evaluation criteria.
+Product Charter v0.3 and Product Baseline v0.1 are accepted. The current Chapter Map PR projects that authority into the controlled manuscript structure `B06-TOC-V0.1`.
 
 ## Product identity
 
@@ -21,28 +21,10 @@ lightweight Workplace Product
 individual-first but organization-centered
 ```
 
-## Accepted Charter loops
-
-1. Customer and Service Growth;
-2. Professional Work Products;
-3. Professional Memory and Business Assets;
-4. MarkOrbit Ecosystem Handoff.
-
-`Today` remains the daily business cockpit, not formal Task or deadline authority.
-
-## Candidate Product Baseline
+## Accepted baseline
 
 ```text
-B06-SPEC-0001 — Product-local Records and Ownership
-B06-SPEC-0002 — Reference Journeys and State Transitions
-B06-SPEC-0003 — Conformance Scenarios and Failure Paths
-B06-SPEC-0004 — Handoff, Work-Product, MVP and Historical Reconciliation
-B06-REV-0004 — Product Baseline Review
-```
-
-## Controlled ranges accepted on merge
-
-```text
+B06-SPEC-0001–0004 v0.1
 ML-S01–S05
 ML-O01–O08
 ML-W01–W10
@@ -55,104 +37,81 @@ ML-HC-01–HC-08
 ML-AC-01–AC-12
 ```
 
-These are publication-level semantic records and tests, not database tables.
-
-## Reference journeys
+## Chapter Map Candidate
 
 ```text
-ML-J01 Existing Customer Portfolio Opportunity
-ML-J02 Historical Customer Reactivation
-ML-J03 Prospect Candidate Development
-ML-J04 Case-to-Work-Product
+Chapter Map ID: B06-TOC-V0.1
+Chapter range: B06-CH-00–B06-CH-33
+Parts: 7 plus Front Matter
+Total chapters: 34
+Review: B06-REV-0005 — PASS
 ```
 
-The first primary journey remains `ML-J01`.
-
-## MVP 0
+## Seven movements
 
 ```text
-Customer Opportunity-to-Governed-Service Loop
+Product Constitution
+→ Daily Operating Model
+→ Customer and Service Growth
+→ Professional Work Products
+→ Cases, Memory and Business Assets
+→ MarkOrbit Gateways and Continuity
+→ Conformance, Economics and Evolution
 ```
 
-MVP 0 must prove a complete customer/service outcome:
+## Part ranges
 
 ```text
-authorized customer and trademark context
-→ explainable Service-Value Candidate
-→ trustworthy work product and follow-up
-→ final user-confirmed customer action
-→ typed response and qualification
-→ MarkReg or governed service Handoff
-→ returned result
-→ scoped feedback, correction or reusable candidate
+Front Matter: CH00–CH01
+Part I: CH02–CH06
+Part II: CH07–CH11
+Part III: CH12–CH16
+Part IV: CH17–CH21
+Part V: CH22–CH25
+Part VI: CH26–CH29
+Part VII: CH30–CH33
 ```
 
-Content or prospect volume alone cannot pass.
-
-## Historical V1 reconciliation
-
-The early V1 model is historical discovery evidence.
-
-Accepted treatment classes:
+## Controlled drafting waves
 
 ```text
-KEEP
-REFRAME
-PRODUCT-LOCAL
-MOVE TO OWNING SERVICE
-DEFER
-REJECT
+Wave 1: CH00–CH06
+Wave 2: CH07–CH11
+Wave 3: CH12–CH16
+Wave 4: CH17–CH21
+Wave 5: CH22–CH25
+Wave 6: CH26–CH29
+Wave 7: CH30–CH33
 ```
 
-Useful requirements around unified objects, privacy, platform/private separation, audit and Local-ready design are preserved. Early table names and collapsed object models are not current schema authority.
-
-## Current locks
-
-- Product identity is not price, entitlement or MVP experiment.
-- Today item is not active Task.
-- Service-Value Candidate is not formal Opportunity.
-- Prospect Candidate is not Customer or Qualified Lead.
-- Content is not Artifact.
-- Artifact is not Document, Evidence or file.
-- Render complete is not approved.
-- Publish Package ready is not published.
-- Handoff is not approval.
-- Return is not Lite-owned formal truth.
-- Personal memory is not organization truth.
-- Case experience is not canonical Knowledge.
-- Local access is not synchronization or authority.
-- MarkReg and MGSN retain their lifecycle ownership.
-
-## Findings
+## Coverage result
 
 ```text
-Book 01 principle conflict: 0
-Book 02 semantic conflict: 0
-Book 03 Execution conflict: 0
-Book 04 Workplace/Product conflict: 0
-Book 05 MarkReg interface conflict: 0
-Blocking upstream finding: 0
+Orphaned controlled range: 0
+Book 04 duplication conflict: 0
+Book 05 lifecycle conflict: 0
+Book 07/MGSN preemption: 0
+Commercial-plan constitutional drift: 0
 Change Proposal required: NO
 ```
 
 ## Next gate
 
 ```text
-Product Baseline owner merge
-→ Chapter Map Candidate
-→ owner review and acceptance
+Chapter Map owner merge
 → controlled manuscript drafting
+→ Wave 1: CH00–CH06
 ```
 
 ## Authorization
 
 ```text
-Product Baseline owner acceptance on merge: AUTHORIZED
-Chapter Map Candidate preparation after merge: AUTHORIZED
-Chapter Map acceptance: NOT YET AUTHORIZED
-Manuscript drafting: NOT AUTHORIZED
+Chapter Map owner acceptance on merge: AUTHORIZED
+Controlled manuscript drafting after merge: AUTHORIZED
+First drafting wave: CH00–CH06
 Implementation: NOT AUTHORIZED
 Production: NOT AUTHORIZED
+Public/commercial distribution: NOT AUTHORIZED
 Autonomous professional action: NOT AUTHORIZED
 External Protected Action: NOT AUTHORIZED
 ```
