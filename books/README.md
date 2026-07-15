@@ -11,7 +11,7 @@ This directory contains the canonical MarkOrbit publications.
 | Book 03 | MarkOrbit Execution System | `book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
 | Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `book-05-markreg/` | Release Candidate 1 — Approved and Frozen |
-| Book 06 | MarkOrbit Lite | `book-06-markorbit-lite/` | Product Charter v0.1 — Owner Accepted on Merge |
+| Book 06 | MarkOrbit Lite | `book-06-markorbit-lite/` | Product Charter v0.2 — Owner Accepted on Merge |
 | Book 07 | Mark Global Service Network | `book-07-mark-global-service-network/` | Planned |
 
 ## Baseline Rule
@@ -24,4 +24,4 @@ Books 05–07 must consume the baseline and may not silently redefine it.
 
 Book 05 RC1 is frozen through its immutable content baseline, permanent release record and `release/book-05-rc1` pointer.
 
-Book 06 has completed its Pre-Writing Audit and Product Charter Candidate. Owner merge accepts the Charter v0.1 baseline and OD-01–OD-06, then authorizes Product record, reference-journey and conformance-scenario planning. No chapter map or manuscript has been accepted.
+Book 06 has completed its Pre-Writing Audit and amended Product Charter Candidate. Owner merge accepts the Charter v0.2 baseline and OD-01–OD-08, including the RMB 99 monthly reference subscription, one usable Daily Content Unit per calendar day, intention-customer candidate supply and the Daily Content-to-Customer Development Journey. No chapter map or manuscript has been accepted.
