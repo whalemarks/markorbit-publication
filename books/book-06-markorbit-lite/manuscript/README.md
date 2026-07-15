@@ -14,9 +14,9 @@ Wave 1 — CH00–CH06: Complete Draft 1 — ACCEPTED
 Wave 2 — CH07–CH11: Complete Draft 1 — ACCEPTED
 Wave 3 — CH12–CH16: Complete Draft 1 — ACCEPTED
 Wave 4 — CH17–CH21: Complete Draft 1 — ACCEPTED
-Wave 5 — CH22–CH25: Complete Draft 1 — OWNER ACCEPTED ON MERGE
-Wave 6 — CH26–CH29: next after Wave 5 merge
-Wave 7 — CH30–CH33: not started
+Wave 5 — CH22–CH25: Complete Draft 1 — ACCEPTED
+Wave 6 — CH26–CH29: Complete Draft 1 — OWNER ACCEPTED ON MERGE
+Wave 7 — CH30–CH33: next after Wave 6 merge
 ```
 
 ## Wave 1 inventory
@@ -60,19 +60,26 @@ Wave 7 — CH30–CH33: not started
 - [B06-CH-24 — Reusable Assets and Knowledge Contribution](B06-CH-24_Reusable_Assets_and_Knowledge_Contribution.md)
 - [B06-CH-25 — Rights, Provenance, Retirement and Compounding Capability](B06-CH-25_Rights_Provenance_Retirement_and_Compounding_Capability.md)
 
-## Accepted argument through CH25
+## Wave 6 inventory
+
+- [B06-CH-26 — MarkReg Launch, Continuation and Return](B06-CH-26_MarkReg_Launch_Continuation_and_Return.md)
+- [B06-CH-27 — MGSN Capability Need and Provider Boundaries](B06-CH-27_MGSN_Capability_Need_and_Provider_Boundaries.md)
+- [B06-CH-28 — Review, Communication, Opportunity, Task and Execution Handoffs](B06-CH-28_Review_Communication_Opportunity_Task_and_Execution_Handoffs.md)
+- [B06-CH-29 — Local and Private Continuity, Failure and Unknown Outcomes](B06-CH-29_Local_and_Private_Continuity_Failure_and_Unknown_Outcomes.md)
+
+## Accepted argument through CH29
 
 ```text
 Product Constitution
 → Daily Operating Model
 → Customer and Service Growth
 → Professional Work Products
-→ authorized Case Context
-→ Case Lesson Candidate
-→ Preference / Personal / Organization Memory Candidate
-→ Reusable Asset / Knowledge Contribution Candidate
-→ rights, provenance and lifecycle governance
-→ bounded reuse and compounding capability
+→ Cases, Memory and Business Assets
+→ typed MarkReg and MGSN gateways
+→ Review / Communication / Opportunity / Task / Execution Handoffs
+→ destination revalidation and typed Return
+→ Local / Private continuity
+→ safe handling of rejection, failure and unknown outcomes
 ```
 
 ## Authority
