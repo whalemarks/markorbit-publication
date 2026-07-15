@@ -242,7 +242,7 @@ def check_yaml_state() -> None:
     figures = data.get("figures", {})
     record("YAML figure planned count", figures.get("planned_identities") == 12, str(figures.get("planned_identities")))
     record("YAML figure retained count", figures.get("retained_sources") == 11, str(figures.get("retained_sources")))
-    record("YAML PF-08 phase", "pf_08" in str(data.get("phase", "")), str(data.get("phase"))
+    record("YAML PF-08 phase", "pf_08" in str(data.get("phase", "")), str(data.get("phase")))
     progress = data.get("publication_finishing_pack", {}).get("progress", {})
     record("YAML PF-07 complete", progress.get("pf_07_figures_and_apparatus") == "complete", str(progress.get("pf_07_figures_and_apparatus")))
 
@@ -295,8 +295,8 @@ def render_figures(figures: list[Path]) -> dict[str, Path]:
 
 def reader_sources() -> list[Path]:
     docs: list[Path] = []
-    docs.extend(sorted((BOOK / "manuscript").glob("B05-CH-*.md"))
-    docs.extend(sorted((BOOK / "appendices").glob("B05-APP-*.md"))
+    docs.extend(sorted((BOOK / "manuscript").glob("B05-CH-*.md")))
+    docs.extend(sorted((BOOK / "appendices").glob("B05-APP-*.md")))
     pub = BOOK / "publication"
     docs.extend([
         pub / "B05-PUB-0002_Source_and_Authority_Notes.md",
