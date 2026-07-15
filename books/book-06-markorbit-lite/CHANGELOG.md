@@ -1,5 +1,30 @@
 # Book 06 Changelog
 
+## Wave 5 — Cases, Memory and Business Assets
+
+- drafted B06-CH-22–B06-CH-25 as Complete Draft 1;
+- defined authorized case context without Lite ownership of Matter, Document or Evidence truth;
+- defined ML-M06 Case Lesson Candidate with source, jurisdiction, time, limitations and Human Review;
+- preserved observed sequence versus causation and case success versus universal rule;
+- preserved Client/Matter restrictions and rejected anonymization as automatic publication permission;
+- preserved Evidence versus reusable content;
+- defined ML-M03 Preference Candidate with explicit acceptance, purpose and scope;
+- defined ML-M04 Personal Memory Candidate without identity or external-action authority;
+- defined ML-M05 Organization Memory Candidate with provenance and Organization Review;
+- preserved personal memory versus Organization memory and memory versus formal business truth;
+- defined ML-M07 Reusable Asset Candidate with rights, variables, audience, transformation and expiry controls;
+- defined ML-M08 Knowledge Contribution Candidate and ML-HC-08 Knowledge Governance Handoff;
+- preserved Reusable Asset versus canonical Knowledge and submission versus acceptance;
+- defined source provenance versus source authority;
+- defined versioning, correction propagation, review dates, revocation and retirement;
+- preserved active, limited, stale, superseded, revoked, blocked, retired and archived states;
+- defined ML-E03 Reuse Evidence and ML-E04 Safety / Privacy Finding;
+- defined compounding capability through safe reuse and real outcomes rather than library size;
+- added B06-REV-0010 — Wave 5 Cases, Memory and Business Assets Review;
+- found zero blocking, major or upstream findings;
+- authorized Wave 6 CH26–CH29 after owner merge;
+- did not authorize whole-book Complete Draft 1, implementation, production or distribution.
+
 ## Wave 4 — Professional Work Products
 
 - drafted B06-CH-17–B06-CH-21 as Complete Draft 1;
