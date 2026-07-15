@@ -10,6 +10,11 @@ Editorial or implementation convenience must not silently redefine architecture.
 
 Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](governance/MARKORBIT-ORBITAL-ARCHITECTURE-CANON-vNEXT.md).
 
+- Version: vNext
+- Status: Owner Confirmed Canonical Working Baseline
+- Effective date: 2026-07-13
+- Authority: Repository-level MarkOrbit architecture governance
+
 ## Book Registry
 
 | Book | Title | Canonical Path | Status |
@@ -22,22 +27,69 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](gov
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Wave 4 CH17–CH21 Complete Draft 1 — Owner Accepted on Merge |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
-## Book 06 position
+Book 05 is frozen through its accepted RC1 content baseline, permanent release record and `release/book-05-rc1` pointer.
 
-Book 06 defines the AI business operating system for independent trademark professionals and small agencies, architecturally a lightweight Workplace Product.
+Book 06 Product Charter v0.3, Product Baseline v0.1, Chapter Map B06-TOC-V0.1 and Waves 1–3 are accepted. The current Wave 4 candidate drafts Part IV as Complete Draft 1. Whole-book Complete Draft 1 has not yet been achieved.
 
-Accepted authority:
+## Planned Book Positioning
+
+### Book 01 — MarkOrbit — The Operating System for Global Brand Services
+
+Defines industry vision and Operating System principles. Publication state: Release Candidate 1.
+
+### Book 02 — MarkOrbit Core Specification
+
+Defines shared Core semantics, objects, services and contracts. Baseline B02-BASELINE-V0.1 remains frozen; semantic changes require the existing Change Proposal process.
+
+### Book 03 — MarkOrbit Execution System
+
+Defines how approved Core contracts become governed operational execution. Publication state: Release Candidate 1.
+
+### Book 04 — MarkOrbit Workplace and Product Architecture
+
+Defines independent organizational Workplaces and their consumption of MarkOrbit capabilities. Publication state: Release Candidate 1 — Owner Accepted / Portfolio Locked.
+
+### Book 05 — MarkReg
+
+Defines the flagship full-lifecycle international trademark Product. Publication state: Release Candidate 1 — Approved and Frozen. Final public/commercial distribution remains a separate unapproved gate.
+
+### Book 06 — MarkOrbit Lite
+
+Defines the AI business operating system for independent trademark professionals and small agencies, architecturally a lightweight Workplace Product.
+
+Accepted Product Baseline:
 
 ```text
-Product Charter v0.3
-Product Baseline v0.1
-B06-TOC-V0.1
-Wave 1 CH00–CH06
-Wave 2 CH07–CH11
-Wave 3 CH12–CH16
+B06-SPEC-0001–0004
+ML-S01–S05
+ML-O01–O08
+ML-W01–W10
+ML-M01–M08
+ML-H01–H08
+ML-E01–E06
+ML-J01–J04
+ML-SCN-01–24
+ML-HC-01–HC-08
+ML-AC-01–AC-12
 ```
 
-Current Wave 4 candidate:
+Accepted Chapter Map:
+
+```text
+B06-TOC-V0.1
+B06-CH-00–B06-CH-33
+7 Parts plus Front Matter
+```
+
+Accepted manuscript:
+
+```text
+Wave 1 CH00–CH06 — Product Constitution
+Wave 2 CH07–CH11 — The Daily Operating Model
+Wave 3 CH12–CH16 — Customer and Service Growth
+```
+
+Current Wave 4 manuscript candidate:
 
 ```text
 CH17 — From Purpose and Knowledge to Structured Content
@@ -49,7 +101,7 @@ CH21 — Outcomes, Corrections and Work-Product Reuse
 
 Wave 4 merge accepts CH17–CH21 as Complete Draft 1 and authorizes Wave 5 CH22–CH25.
 
-The accepted professional work-product chain is:
+Professional work-product chain:
 
 ```text
 Purpose and Authorized Context
@@ -64,12 +116,31 @@ Purpose and Authorized Context
 → Reuse / Retirement
 ```
 
-## Current gate
+RMB 99, recurring/daily content, Prospect Candidate quantity and quotas remain commercial experiments rather than Product constitution.
+
+### Book 07 — Mark Global Service Network
+
+Future publication subject for service-routing, Capability and Trust between independent Workplaces.
+
+## Books 01–04 Portfolio Baseline
+
+The current cross-book review is `MO-PUB-REV-0001` and the effective baseline is `MO-PUB-BASELINE-0001`.
+
+```text
+Book 01 — Release Candidate 1
+Book 02 — Frozen Core Specification Baseline v0.1
+Book 03 — Release Candidate 1
+Book 04 — Release Candidate 1, Owner Accepted and Portfolio Locked
+```
+
+Current gate:
 
 ```text
 Books 01–04 Portfolio Baseline
-→ Book 05 MarkReg RC1 frozen
-→ Book 06 Charter, Product Baseline and Chapter Map accepted
+→ Book 05 MarkReg RC1 approved and frozen
+→ Book 06 Product Charter v0.3 accepted
+→ Book 06 Product Baseline v0.1 accepted
+→ Book 06 Chapter Map v0.1 accepted
 → Waves 1–3 accepted
 → Wave 4 CH17–CH21 owner merge
 → Wave 5 CH22–CH25
