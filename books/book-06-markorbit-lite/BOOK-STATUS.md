@@ -3,13 +3,13 @@
 ## Current status
 
 ```text
-PRODUCT CHARTER v0.1
+PRODUCT CHARTER v0.2
 — OWNER ACCEPTED ON MERGE
 ```
 
-Before merge, this branch presents the candidate Charter and recommended decisions.
+Before merge, this branch presents the amended Charter and recommended Owner Decisions.
 
-Merge records owner acceptance of the Charter baseline.
+Merge records owner acceptance of the Charter baseline, including the subscription, daily content and intention-customer supply amendment.
 
 ## Completed
 
@@ -18,46 +18,91 @@ Merge records owner acceptance of the Charter baseline.
 - Core, Execution, Workplace, MarkReg and MGSN boundary review;
 - Case Center architectural decomposition;
 - supplemental Product idea assessment;
-- source and authority map;
 - Product Charter Candidate;
 - Product Charter Owner Decision Matrix;
-- Product Charter Candidate Review.
+- Product Charter Candidate Review;
+- subscription, daily content and intention-customer Charter amendment;
+- amendment Review.
 
 ## Accepted Product identity on merge
 
 ```text
 MarkOrbit Lite
-= Today-centered lightweight Workplace Product
+= lightweight Workplace Product
 for trademark professionals
 ```
 
 Market-facing promise:
 
-> The AI-assisted growth and action workspace through which trademark professionals discover value, prepare trusted work and move selected opportunities into governed outcomes.
+> The daily content and customer-development workspace for trademark professionals.
 
-## Accepted Product loop on merge
+## Commercial baseline accepted on merge
 
 ```text
-Today
-→ Understand
-→ Choose
-→ Prepare
-→ Confirm
-→ Handoff
-→ Outcome
-→ Learn
+Reference subscription: RMB 99 / month
+Daily entitlement: at least one usable content unit per calendar day
+Daily unit type: illustrated post OR short video OR Moments copy
+Second core output: ongoing intention-customer candidates
 ```
 
-## Owner decisions accepted on merge
+`Today` is the **Daily Growth Desk** that organizes these supplies and the next actions. It is not the Product promise by itself.
+
+## Core Product outputs
+
+### Daily Content Supply
 
 ```text
-OD-01: canonical Lite identity + AI growth/action market promise
-OD-02: Existing Client Value Journey as first reference journey
+content plan and governed sources
+→ usable illustrated post / short video / Moments copy
+→ preview, copy, download or Publish preparation
+→ use and publication feedback
+```
+
+### Intention-Customer Supply
+
+```text
+authorized observation
+→ intention-customer candidate
+→ source, reason, relevance and confidence
+→ user qualification
+→ follow-up package
+→ Communication / Opportunity / MarkReg Handoff
+→ typed outcome
+```
+
+## Owner Decisions accepted on merge
+
+```text
+OD-01: canonical Lite identity + growth/action market positioning
+OD-02: Daily Content-to-Customer Development Journey as first main journey
 OD-03: curated, reference-first Case Center MVP depth
 OD-04: hybrid-minimization local/private baseline
 OD-05: MGSN shortlist/preview + Capability Need Handoff only
 OD-06: final human confirmation as MVP external-action default
+OD-07: RMB 99 monthly subscription + one usable Daily Content Unit per calendar day
+OD-08: intention-customer candidates as a second core output, with quality boundary
 ```
+
+The Existing Client Value Journey remains an important reference-journey variant.
+
+## Revised MVP 0
+
+```text
+30-Day Daily Content and Customer Development Loop
+```
+
+It must validate:
+
+- one active reference subscription;
+- one usable Daily Content Unit for each covered day;
+- disclosed content-format rotation;
+- copy, download and manual Publish support;
+- intention-customer candidate supply;
+- candidate qualification and follow-up preparation;
+- user-confirmed outreach or Communication Handoff;
+- formal Opportunity or MarkReg Handoff where appropriate;
+- result, failure, suppression and feedback;
+- content, render, lead and gross-margin evidence.
 
 ## Findings
 
@@ -73,25 +118,27 @@ Change Proposal required: NO
 
 ## Current locks
 
-- Lite remains individual-first but organization-centered.
-- Growth and service conversion are major outcomes, not the sole constitutional value.
-- Today is not a universal Task list.
-- Product candidates do not become formal Core objects automatically.
-- Case Center keeps internal context, memory/lesson candidate, reusable Case Asset and external Artifact distinct.
+- A Daily Content Unit is a usable outcome, not a topic, headline or raw AI draft.
+- A video counts only when a usable video representation is actually delivered.
+- The RMB 99 plan may rotate content formats; it does not promise all three formats every day.
+- A daily bespoke video for every subscriber is not included in the accepted base promise.
+- An intention-customer candidate is not a guaranteed customer or formal Opportunity.
+- Fixed lead quantity is not yet accepted.
+- Formal Customer, Opportunity, Task and Communication state remains outside Lite.
+- External send and Publish remain governed and user-confirmed in the MVP.
 - MarkReg owns the trademark Product lifecycle.
 - MGSN owns network Trust, Routing and cross-Organization collaboration depth.
-- External send, Publish and protected actions remain governed.
-- AI assists and prepares; it does not inherit professional identity or authority.
+- AI assists, prepares and renders; it does not inherit professional identity or authority.
 
 ## Next gate
 
 ```text
 Product Charter owner merge
 → Product-local record inventory and controlled IDs
-→ reference journeys
+→ daily-content and intention-customer reference journeys
 → conformance scenarios
-→ Handoff / Return mapping
-→ MVP and evaluation baseline
+→ Artifact / Render / Publish and Handoff / Return mapping
+→ 30-day subscription MVP and evaluation baseline
 → chapter-map candidate
 ```
 
