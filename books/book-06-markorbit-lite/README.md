@@ -13,6 +13,7 @@
 - **Manuscript:** not started
 - **Chapter map:** not yet created
 - **Base Product Charter:** [B06-PLN-0004](planning/B06-PLN-0004_Product_Charter_Candidate.md)
+- **Owner Decisions:** [B06-PLN-0005 v0.2](planning/B06-PLN-0005_Product_Charter_Owner_Decision_Matrix.md)
 - **Charter Amendment:** [B06-PLN-0006](planning/B06-PLN-0006_Subscription_Daily_Content_and_Lead_Supply_Charter_Amendment.md)
 
 ## Position
@@ -151,9 +152,6 @@ It may stop before automated external send, autonomous Publish or any External P
 
 ## Owner Decisions
 
-- [B06-PLN-0005 — Base Product Charter Owner Decision Matrix](planning/B06-PLN-0005_Product_Charter_Owner_Decision_Matrix.md)
-- [B06-PLN-0006 — Subscription and Daily Supply Amendment](planning/B06-PLN-0006_Subscription_Daily_Content_and_Lead_Supply_Charter_Amendment.md)
-
 ```text
 OD-01: canonical Lite identity + growth/action positioning
 OD-02: Daily Content-to-Customer Development Journey
@@ -195,7 +193,7 @@ Local data ≠ ungoverned data
 - [B06-PLN-0002 — Authority and Source Map](planning/B06-PLN-0002_Authority_and_Source_Map.md)
 - [B06-PLN-0003 — Supplemental Idea Assessment](planning/B06-PLN-0003_Supplemental_Idea_Assessment.md)
 - [B06-PLN-0004 — Product Charter Candidate](planning/B06-PLN-0004_Product_Charter_Candidate.md)
-- [B06-PLN-0005 — Product Charter Owner Decision Matrix](planning/B06-PLN-0005_Product_Charter_Owner_Decision_Matrix.md)
+- [B06-PLN-0005 v0.2 — Consolidated Product Charter Owner Decision Matrix](planning/B06-PLN-0005_Product_Charter_Owner_Decision_Matrix.md)
 - [B06-PLN-0006 — Subscription, Daily Content and Lead Supply Charter Amendment](planning/B06-PLN-0006_Subscription_Daily_Content_and_Lead_Supply_Charter_Amendment.md)
 
 ## Reviews
