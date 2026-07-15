@@ -24,12 +24,12 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](gov
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
 | Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Release Candidate 1 — Approved and Frozen |
-| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Product Baseline v0.1 — Owner Accepted on Merge |
+| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Chapter Map v0.1 — Owner Accepted on Merge |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
 Book 05 is frozen through its accepted RC1 content baseline, permanent release record and `release/book-05-rc1` pointer.
 
-Book 06 Product Charter v0.3 is accepted. The current Product Baseline candidate converts that Charter into controlled records, journeys, scenarios, Handoff contracts and MVP criteria. No chapter map or manuscript has been accepted.
+Book 06 Product Charter v0.3 and Product Baseline v0.1 are accepted. The current Chapter Map candidate establishes B06-TOC-V0.1 and the controlled manuscript sequence. No manuscript chapter has yet been created.
 
 ## Planned Book Positioning
 
@@ -57,14 +57,7 @@ Defines the flagship full-lifecycle international trademark Product. Publication
 
 Defines the AI business operating system for independent trademark professionals and small agencies, architecturally a lightweight Workplace Product.
 
-Accepted Charter loops:
-
-1. Customer and Service Growth;
-2. Professional Work Products;
-3. Professional Memory and Business Assets;
-4. MarkOrbit Ecosystem Handoff.
-
-Candidate Product Baseline v0.1:
+Accepted Product Baseline:
 
 ```text
 B06-SPEC-0001–0004
@@ -80,7 +73,27 @@ ML-HC-01–HC-08
 ML-AC-01–AC-12
 ```
 
-The first primary journey is Existing Customer Portfolio Opportunity. MVP 0 is Customer Opportunity-to-Governed-Service.
+Chapter Map candidate:
+
+```text
+B06-TOC-V0.1
+B06-CH-00–B06-CH-33
+7 Parts plus Front Matter
+```
+
+Writing movement:
+
+```text
+Product Constitution
+→ Daily Operating Model
+→ Customer and Service Growth
+→ Professional Work Products
+→ Cases, Memory and Business Assets
+→ MarkOrbit Gateways and Continuity
+→ Conformance, Economics and Evolution
+```
+
+Owner merge authorizes controlled drafting beginning with CH00–CH06.
 
 RMB 99, recurring/daily content, Prospect Candidate supply and quotas remain commercial experiments rather than Product constitution.
 
@@ -105,17 +118,15 @@ Current gate:
 Books 01–04 Portfolio Baseline
 → Book 05 MarkReg RC1 approved and frozen
 → Book 06 Product Charter v0.3 accepted
-→ Book 06 Product Baseline v0.1 owner merge
-→ Book 06 Chapter Map Candidate
-→ controlled manuscript drafting after owner acceptance
+→ Book 06 Product Baseline v0.1 accepted
+→ Book 06 Chapter Map v0.1 owner merge
+→ Wave 1 manuscript drafting CH00–CH06
 ```
 
-Ready for Book 06 Chapter Map Candidate after Product Baseline owner merge: **YES**
-
-Ready for Book 06 Chapter Map acceptance: **NO**
-
-Ready for Book 06 manuscript drafting: **NO**
+Ready for Book 06 controlled manuscript drafting after Chapter Map owner merge: **YES**
 
 Ready for unrestricted implementation: **NO**
+
+Ready for production or public/commercial distribution: **NO**
 
 External protected action authorized: **NO**
