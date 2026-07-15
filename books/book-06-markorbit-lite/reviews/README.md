@@ -8,23 +8,22 @@
 - [B06-REV-0006 — Wave 1 Product Constitution Review](B06-REV-0006_Wave_1_Product_Constitution_Review.md)
 - [B06-REV-0007 — Wave 2 Daily Operating Model Review](B06-REV-0007_Wave_2_Daily_Operating_Model_Review.md)
 - [B06-REV-0008 — Wave 3 Customer and Service Growth Review](B06-REV-0008_Wave_3_Customer_and_Service_Growth_Review.md)
+- [B06-REV-0009 — Wave 4 Professional Work Products Review](B06-REV-0009_Wave_4_Professional_Work_Products_Review.md)
 
 ## Current gate
 
-`B06-REV-0008` confirms that CH12–CH16:
+`B06-REV-0009` confirms that CH17–CH21:
 
-- project ML-J01 Existing Customer Portfolio Opportunity;
-- project ML-J02 Historical Customer Reactivation;
-- project ML-J03 Prospect Candidate Development;
-- preserve the accepted growth-source priority;
-- preserve source, identity, duplicate, relationship-owner, contactability, opt-out and suppression controls;
-- define ML-W06 Development Package;
-- distinguish prepared outreach, sent Communication, response and qualified need;
-- preserve typed response, failure and unknown states;
-- preserve ML-O08 as Product-local qualification;
-- define Opportunity and MarkReg Handoffs with destination revalidation;
-- introduce no parallel Customer, Opportunity, Matter or MarkReg lifecycle;
+- define purpose-bound Structured Content;
+- define Artifact Draft and immutable Artifact Version;
+- preserve Artifact versus Document, Evidence and file distinctions;
+- define exact-version Human Review and separate final user confirmation;
+- define Render, Edit, validation and purpose-specific Readiness;
+- preserve Render complete versus approved;
+- define Delivery, Communication and Publish Packages without inventing external completion;
+- preserve failed, blocked and unknown external outcomes;
+- define Feedback, Correction, Reuse, Asset Candidate and Retirement;
 - introduce no Books 01–05 conflict or Book 07 preemption;
 - contain no blocking or major finding.
 
-Owner merge accepts Wave 3 as Complete Draft 1 and authorizes Wave 4 CH17–CH21 drafting only.
+Owner merge accepts Wave 4 as Complete Draft 1 and authorizes Wave 5 CH22–CH25 drafting only.
