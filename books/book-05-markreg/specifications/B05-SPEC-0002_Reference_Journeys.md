@@ -2,243 +2,156 @@
 
 ## Status
 
-- **Status:** Controlled Specification v0.2
-- **Applies to:** B05-CH-08 through B05-CH-47
+- **Status:** Controlled Specification v0.3 — PF-06D ID-Reconciled
+- **Applies to:** CH08–CH47
 - **Authority:** Book 05 Product specification
 - **Primary journeys:** `B05-JRN-A-EMBERLOOP` and `B05-JRN-B-RIVERKITE`
-- **Purpose:** Provide canonical end-to-end examples for Product conformance, chapter continuity, publication assets and implementation evaluation
-- **Supersedes:** the CH08–CH22-only journey progression in Controlled Draft v0.1
+- **Supersedes:** Controlled Specification v0.2
+- **Current record authority:** B05-SPEC-0001 v0.3
 
 ## 1. Purpose and Boundary
 
-The reference journeys show how MarkReg preserves context, source, version, responsibility, Human Judgment, formal-object boundaries and independent right histories across the lifecycle.
+These journeys test continuity across Product recommendations, Decisions, formal Handoffs, governed Execution, official Evidence and continuing rights.
 
-They are controlled examples. They are not:
-
-- legal advice;
-- statements of current jurisdiction law;
-- official office records;
-- production test data;
-- guarantees of filing, registration, renewal or dispute outcome;
-- permission to create external legal or financial effect.
-
-Where a journey step depends on a jurisdiction rule, the applicable Jurisdiction Pack and current source verification still govern.
+They are controlled examples, not legal advice, current jurisdiction law, official records, production test data, guaranteed outcomes or permission for External Protected Action.
 
 ## 2. Journey Control Rules
 
-### RJ-CR-01 — Locked case identity
+1. case identities and reviewed final states are locked;
+2. each jurisdiction and right keeps an independent state;
+3. no later outcome may be invented;
+4. recommendation is not action;
+5. provider report and Product projection are not Official Truth;
+6. formal Order, Matter, Review, Approval, financial, Execution and official records remain externally owned;
+7. absence of an action is a valid state;
+8. correction is explicit and versioned;
+9. B05-SPEC-0001 controls `MR-*` meaning;
+10. a journey mapping error changes the mapping, not the accepted case facts.
 
-The identities, organizations, marks, jurisdictions and portfolio structure defined in this specification are controlled facts for editorial continuity.
+## 3. Journey A — `B05-JRN-A-EMBERLOOP`
 
-### RJ-CR-02 — Independent jurisdiction and right state
-
-A portfolio-level view must not create one global status. Every jurisdiction, application, registration and proceeding retains its own source, scope and state.
-
-### RJ-CR-03 — No invented future outcome
-
-A later chapter or appendix may continue a journey only to the last reviewed manuscript state. It may not invent registration, settlement, renewal, recordal, cancellation, abandonment or official closure.
-
-### RJ-CR-04 — Recommendation is not action
-
-A recommended jurisdiction, class, provider, renewal, recordal, defense or portfolio action remains a candidate until the required accountable Decision and governed action occur.
-
-### RJ-CR-05 — Evidence and source remain visible
-
-Official events and outcomes require source-backed records. Provider reports, Product projections and client statements remain distinguishable from official truth.
-
-### RJ-CR-06 — Formal objects remain externally owned
-
-The journey may reference Product artifacts and typed Handoffs, but formal Order, Matter, Review, Approval, Payment, Communication, Execution and official records remain owned by their defined services or authorities.
-
-### RJ-CR-07 — Absence is a valid state
-
-A chapter does not need a fictional action merely to demonstrate coverage. If no renewal, recordal, appeal or transaction is active, the journey records that the action is not activated.
-
-### RJ-CR-08 — Controlled correction
-
-If a chapter example conflicts with this specification, the conflict must be reviewed. The specification or chapter is corrected explicitly; one value is not silently overwritten.
-
-## 3. Journey Step Record
-
-Every material journey step should identify:
-
-| Field | Meaning |
-| --- | --- |
-| step ID | stable `EL-*` or `RK-*` identifier |
-| chapter | chapter that introduces or tests the step |
-| journey role | primary example, contrast, continuity or governance example |
-| entry state | sourced state before the step |
-| Product records | applicable `MR-*` records from B05-SPEC-0001 |
-| accountable actors | users responsible for facts, Review, Decision or approval |
-| result | controlled result of the step |
-| boundary | distinction preserved by the step |
-| unresolved state | risk, unknown, blocker or future candidate |
-| next handoff | next controlled journey step |
-
-## 4. Journey A — `B05-JRN-A-EMBERLOOP`
-
-### 4.1 Locked Case Identity
+### 3.1 Locked Identity
 
 | Field | Controlled value |
 | --- | --- |
 | applicant | Northstar Kitchenware (Shenzhen) Co., Ltd. |
 | brand | `EMBERLOOP` word mark plus flame-loop device |
-| business | smart outdoor cooking equipment and companion mobile application |
-| current market at entry | China |
+| business | smart outdoor cooking equipment and companion application |
+| entry market | China |
 | planned markets | United States, European Union, United Kingdom, Japan and Australia |
 | timing | crowdfunding launch planned in four months |
-| budget | limited initial budget; core markets prioritized |
+| budget | core markets prioritized |
 | risk posture | search core markets before filing |
-| initial operating issue | applicant ambiguity between operating subsidiary and parent portfolio owner |
+| entry issue | operating-subsidiary and parent-owner ambiguity |
 
-The case may use separate word and device filing units. It must not imply that one application protects every mark form or jurisdiction.
+### 3.2 Controlled Timeline
 
-### 4.2 Part II — Need, Strategy and Recommendation
+| Step | Chapter(s) | Controlled result | Current records | Boundary |
+| --- | --- | --- | --- | --- |
+| EL-01 | CH08 | Need Brief v1 prioritizes word and core device; US/EU core, expansion preserved | MR-A01, MR-A02 | business objective is not filing instruction |
+| EL-02 | CH09 | direct, regional and Madrid routes compared; Japan/Australia deferred | MR-A03, MR-A04 | recommendation is not Decision |
+| EL-03 | CH10 | US+EU, US+EU+UK and conditional Madrid bundles compared | MR-A04 | bundle is not one right or one price |
+| EL-04 | CH11 | word, device/composite and simplified-device filing units separated | MR-A03 | one brand is not one automatic application |
+| EL-05 | CH12 | applicant ambiguity resolved with sources, client confirmation and Professional Decision | MR-C12, MR-D02 | operating company is not assumed owner |
+| EL-06 | CH13 | primary and related class candidates recorded with uncertainty | MR-A03 | class candidate is not filing scope |
+| EL-07 | CH14 | launch scope narrowed; future expansion retained separately | MR-A03, MR-A04 | business language is not filing wording |
+| EL-08 | CH15 | core-market search identifies moderate risk and narrowing recommendation | MR-A03, MR-D02 | search is not clearance or guarantee |
+| EL-09 | CH16 | Proposal compares word-only, word+device and wider-market alternatives | MR-A05 | Proposal is not Quote or acceptance |
+| EL-10 | CH17 | Quote v3 separates official, professional, provider, tax, currency and later-stage components | MR-A06 | price basis is versioned |
+| EL-11 | CH18 | client accepts US/EU/UK word+device scope against Quote v3 | MR-D01, MR-A07 | acceptance is exact-version and not filing |
+| EL-12 | CH19 | Formal Intake v4 requests only service-specific missing facts | MR-A08, MR-C12 | reused information remains confirmable |
+| EL-13 | CH20 | Requirement Set v2 identifies identity, mark, priority, signature, POA and formality needs | MR-A09 | uploaded file is not automatically valid Document |
+| EL-14 | CH21 | Readiness v5 is commercially ready, structurally ready, document-conditional and unapproved | MR-A10 | readiness is not Approval |
+| EL-15 | CH22 | Handoff Envelope carries exact accepted and reviewed references | MR-A12 | Handoff does not create Order, Matter or Execution |
+| EL-16 | CH23 | jurisdiction- and filing-unit-specific Filing Package Candidates prepared | MR-A11 | candidate is not filing |
+| EL-17 | CH24 | factual confirmation, Professional Decision and separate Filing Approvals recorded | MR-D02, MR-D03 | Approval is version- and route-specific |
+| EL-18 | CH25 | US private provider, EU governed service and UK manual route compared | MR-C01, MR-A14, MR-D04 | routing recommendation is not appointment |
+| EL-19 | CH26 | appointment candidate and Provider Instruction accepted for provider route | MR-A15, MR-A16, MR-D05 | receipt is not Provider Acceptance |
+| EL-20 | CH27 | approved work enters provider, connector or manual governed Execution | MR-A17 | Product preparation is not Execution |
+| EL-21 | CH28 | US/UK acknowledgements verified; EU technical success remains acknowledgement-unknown | MR-E01, MR-E02, MR-E03, MR-E04 | sent or technical success is not official acknowledgement |
+| EL-22 | CH29 | EU unknown state reconciled before any retry | MR-C02, MR-A18 | unknown is not failed or safe to retry |
+| EL-23 | CH30 | official events open US examination, EU adversarial and UK publication contexts independently | MR-E05, MR-C03, MR-C04, MR-C05 | Product projection is not Official Truth |
+| EL-24 | CH31 | US Issue Set and Response Option Set mapped to scope and evidence | MR-A19, MR-A20 | issue extraction is not response Decision |
+| EL-25 | CH32 | Response Strategy Decision leads to Strategy, Package v2, Approval, Execution and acknowledgement | MR-D06, MR-A21, MR-A22, MR-D03, MR-A17, MR-E01, MR-E04 | acknowledged response is not registration |
+| EL-26 | CH33 | EU opposition verified; UK no-challenge window closes and registration-stage candidate opens | MR-C04, MR-C05, MR-E05 | no challenge found is not registration |
+| EL-27 | CH34 | EU Adversarial Context supports defense and bounded negotiation | MR-C05, MR-A23, MR-A24, MR-D07 | opposition is not refusal, settlement or closure |
+| EL-28 | CH35 | no separate EMBERLOOP remedy is activated | MR-C06 | absence is preserved; no fictional remedy |
+| EL-29 | CH36 | independent Deadline, Outcome and Communication records prepared | MR-E06, MR-V02, MR-A25, MR-D11 | one brand does not create one global outcome |
+| EL-30 | CH37 | UK registration verified, scope diff prepared and Right Baseline created | MR-E08, MR-V01, MR-B01 | registration is not certificate availability |
+| EL-31 | CH38 | Maintenance Obligations, use-Evidence coverage and deadlines recorded | MR-B02, MR-B03, MR-E06 | reminder is not official deadline |
+| EL-32 | CH39 | no immediate UK renewal; future renewal remains a candidate | MR-A26, MR-D08 | future eligibility is not present instruction or renewed right |
+| EL-33 | CH40 | no EMBERLOOP recordal is activated | MR-C07, MR-A27, MR-D09 | absence is explicit |
+| EL-34 | CH41 | no EMBERLOOP assignment or licence transaction is activated | MR-C08, MR-C09, MR-A28, MR-V03 | brand use does not imply transaction |
+| EL-35 | CH42 | Portfolio View shows UK registered, US examination, EU opposition and deferred markets independently | MR-V04, MR-A29 | portfolio view preserves independent states |
+| EL-36 | CH43 | Workplace, client link and cross-Product return use one controlled journey | MR-A12, MR-C10, MR-A30 | surface is not authority |
+| EL-37 | CH44 | participants receive purpose-limited views and action rights | MR-V05 | visibility is not action right |
+| EL-38 | CH45 | later UK Pack version and EU source conflict follow controlled Rule change and release | MR-E07, MR-G01, MR-G02, MR-G03, MR-G04, MR-D12 | Pack change does not rewrite history |
+| EL-39 | CH46 | metrics and evaluation cover burden, rework, recovery and independent-state understanding | MR-G08, MR-G09, MR-C11, MR-D13 | legal outcome or speed alone is not Product quality |
+| EL-40 | CH47 | Conformance Statement preserves final states and separate authority gates | MR-G10, MR-D13 | publication or conformance is not implementation authority |
 
-| Step | Chapter | Controlled result | Main records and boundary |
-| --- | --- | --- | --- |
-| EL-01 | CH08 | Need Brief v1 prioritizes the word and core device before launch, with US and EU as core markets and an expansion route preserved | `MR-A01–MR-A02`; business objective is not filing instruction |
-| EL-02 | CH09 | direct, regional and Madrid-route options are compared; Japan and Australia remain deferred candidates | `MR-A03–MR-A04`; recommendation is not Decision |
-| EL-03 | CH10 | US+EU, US+EU+UK and conditional Madrid bundles are presented without merging legal consequences | `MR-A04`; bundle is not one right or price |
-| EL-04 | CH11 | word, composite/device and possible simplified device filing units are separated | `MR-A03`; brand identity is not one automatic application |
-| EL-05 | CH12 | applicant ambiguity is raised and resolved by accountable professional and client facts; prior requirement preview is invalidated | `MR-C01`, `MR-D02`; operating company is not assumed owner |
-| EL-06 | CH13 | primary and related class candidates are recorded with uncertainty and local variation | `MR-A03`; class candidate is not filing scope |
-| EL-07 | CH14 | narrower launch goods/services scope is selected; future expansion remains a note, not current protection | `MR-A03–MR-A04`; business language and filing wording remain distinct |
-| EL-08 | CH15 | knockout searches are recommended in core markets; expanded US/EU review identifies moderate grill-related risk and a narrowing recommendation | `MR-A03`; search is not clearance or registration guarantee |
-
-### 4.3 Part III — Commercial Journey and Formal Intake
-
-| Step | Chapter | Controlled result | Main records and boundary |
-| --- | --- | --- | --- |
-| EL-09 | CH16 | Proposal compares word-only, word+device and broader five-market alternatives | `MR-A05`; Proposal is not Quote or acceptance |
-| EL-10 | CH17 | Quote v3 separates official fees, professional fees, provider costs, tax, currency, validity, exclusions and later-stage fees | `MR-A06`; price basis remains versioned |
-| EL-11 | CH18 | client accepts the word+device option for US, EU and UK against Quote v3; deposit is required | `MR-D01`, `MR-A07`; acceptance is exact-version and not filing |
-| EL-12 | CH19 | Formal Intake v4 requests only service-specific missing facts and preserves reused-source lineage | `MR-A08`; reused information remains confirmable |
-| EL-13 | CH20 | Requirement Set v2 identifies applicant evidence, mark files, priority, signatures, POA and local formalities; one US declaration remains pending | `MR-A09`; uploaded file is not automatically valid Document |
-| EL-14 | CH21 | Readiness Assessment v5 is commercially ready after deposit, structurally ready, document-conditional and not yet approved for filing | `MR-A10`; readiness is not approval |
-| EL-15 | CH22 | Handoff Envelope references Quote v3, Commercial Instruction v1, Intake v4, Requirement Set v2 and Readiness v5 | `MR-A12`; Handoff does not itself create Order, Matter or Execution state |
-
-### 4.4 Part IV — Filing Preparation and Governed Execution
-
-| Step | Chapter | Controlled result | Main records and boundary |
-| --- | --- | --- | --- |
-| EL-16 | CH23 | jurisdiction- and filing-unit-specific Filing Package Candidates are prepared with exact sources, rendered views and diffs | `MR-A11`; package candidate is not filing |
-| EL-17 | CH24 | factual confirmation, Professional Review and separate US, EU and UK Filing Approvals are recorded | `MR-D02–MR-D03`; each approval is version- and route-specific |
-| EL-18 | CH25 | routing considers a private US provider, an EU governed service route and a UK manual official-portal route | `MR-C02`, `MR-A13`, `MR-D04`; recommendation is not provider appointment |
-| EL-19 | CH26 | provider instruction is accepted for the provider route; disclosure remains limited to accepted scope | `MR-A14–MR-A15`, `MR-D05`; receipt and acceptance remain distinct |
-| EL-20 | CH27 | approved work enters provider, connector or manual governed Execution routes without moving authority into MarkReg | `MR-A16`; Product preparation is not Execution |
-| EL-21 | CH28 | US and UK official acknowledgements are verified; EU shows technical success with acknowledgement unknown | `MR-E01–MR-E03`; sent or technical success is not official acknowledgement |
-| EL-22 | CH29 | EU unknown state is reconciled and official receipt is recovered before any retry | `MR-C03`, `MR-A17`; unknown does not mean failed or safe to retry |
-
-### 4.5 Part V — Examination, Publication and Disputes
-
-| Step | Chapter | Controlled result | Main records and boundary |
-| --- | --- | --- | --- |
-| EL-23 | CH30 | sourced Official Event Snapshots open US examination, EU publication/opposition and UK publication contexts independently | `MR-E04`, `MR-C04`; Product projection is not official truth |
-| EL-24 | CH31 | US Issue Set and Response Option Set are mapped to affected scope and evidence needs | `MR-A18–MR-A19`; issue extraction is not response Decision |
-| EL-25 | CH32 | US Response Strategy Decision leads to Response Package v2, renewed approval, governed filing and official acknowledgement; examination continues | `MR-D06`, `MR-A20–MR-A21`, `MR-E03`; response filed is not registration |
-| EL-26 | CH33 | EU opposition is verified; UK publication window closes with no challenge found and registration-stage candidate opens | `MR-C05`, `MR-E05`; no challenge detected is not registration |
-| EL-27 | CH34 | EU Adversarial Context supports defense and bounded negotiation with explicit authority | `MR-C06`, `MR-D07`; opposition is not refusal, settlement or closure |
-| EL-28 | CH35 | no separate EMBERLOOP appeal or cancellation remedy is activated in the reviewed baseline | `MR-C07`; absence is preserved rather than a fictional remedy invented |
-| EL-29 | CH36 | independent US, EU and UK Outcome Snapshots and Communication Packet are prepared with deadlines and unresolved states | `MR-A22–MR-A25`, `MR-E06`, `MR-D08`; one brand does not create one global outcome |
-
-### 4.6 Part VI — Registration and Portfolio Continuity
-
-| Step | Chapter | Controlled result | Main records and boundary |
-| --- | --- | --- | --- |
-| EL-30 | CH37 | sourced UK registration is verified, registered scope is compared with approved and acknowledged scope, and a Right Baseline is created | `MR-A26`, `MR-B01`, `MR-E07`; registration is not certificate availability |
-| EL-31 | CH38 | UK Maintenance Obligation Set records source-backed future duties, evidence reminders and responsibility | `MR-B02`; reminder is not official deadline |
-| EL-32 | CH39 | no immediate UK renewal is filed; future renewal remains an obligation/action candidate | `MR-A27`, `MR-D09`; future eligibility is not present instruction |
-| EL-33 | CH40 | no EMBERLOOP owner or recordal change is activated in the reviewed baseline | `MR-C08`, `MR-A28`; absence is explicit |
-| EL-34 | CH41 | no EMBERLOOP assignment or licence transaction is activated in the reviewed baseline | `MR-C09`, `MR-B03`; brand use does not imply transaction |
-| EL-35 | CH42 | Portfolio Continuity View shows UK registered, US under examination, EU in opposition, and Japan/Australia as candidates | `MR-V02–MR-V03`; one portfolio view preserves independent states |
-
-### 4.7 Part VII — Product Experience and Evolution
-
-| Step | Chapter | Controlled result | Main records and boundary |
-| --- | --- | --- | --- |
-| EL-36 | CH43 | one journey appears through Workplace, client link and cross-Product return without duplicating lifecycle state | `MR-C10`, `MR-G01–MR-G03`, `MR-A30`; surface is not authority |
-| EL-37 | CH44 | client, US professional, EU dispute professional, UK maintenance coordinator, finance and providers receive purpose-limited views | `MR-G04`; participant views do not expose unrestricted data |
-| EL-38 | CH45 | UK maintenance uses a later Pack version; EU procedural-source conflict enters disputed-rule handling | `MR-G05–MR-G07`, `MR-D12`; Pack change does not rewrite history |
-| EL-39 | CH46 | metrics evaluate question burden, professional changes, package rework, acknowledgement recovery and independent outcome understanding | `MR-G08–MR-G09`; legal outcome alone is not Product quality |
-| EL-40 | CH47 | final controlled position is recorded without inventing later office outcomes | `MR-V05`; Complete Draft or conformance claim is not implementation authority |
-
-### 4.8 Final Controlled Position
+### 3.3 Final Controlled Position
 
 ```text
 United Kingdom
 - sourced registered right
 - Right Baseline and maintenance obligations active
+- renewal not yet open
 - certificate availability remains a separate sourced fact
 
 United States
 - application remains under examination after acknowledged Response Package v2
-- no sourced registration event is assumed
+- no registration event is assumed
 
 European Union
-- application remains in a verified opposition process
-- defense and bounded negotiation are active contexts
+- application remains in verified opposition
+- defense and bounded negotiation remain active
 - no settlement, closure, refusal or registration is assumed
 
 Japan and Australia
-- remain recommendation or future-action candidates
+- remain future-action candidates
 - no filing is assumed
 ```
 
-## 5. Journey B — `B05-JRN-B-RIVERKITE`
+## 4. Journey B — `B05-JRN-B-RIVERKITE`
 
-### 5.1 Locked Case Identity
+### 4.1 Locked Identity
 
 | Field | Controlled value |
 | --- | --- |
 | portfolio | six `RIVERKITE` registrations |
-| official owner shown at entry | Riverkite Trading Limited |
-| current business owner claim | Riverkite Brands Pte. Ltd. after group restructuring |
-| initial deadline discovery | three renewal deadlines within 120 days |
-| broader portfolio result | five renewal-related workflows identified: four ordinary and one ownership-linked |
+| official owner at entry | Riverkite Trading Limited |
+| business-owner claim | Riverkite Brands Pte. Ltd. after restructuring |
+| urgent discovery | three renewal deadlines within 120 days |
+| wider result | four ordinary renewals plus one ownership-linked renewal |
 | challenged right | one registration in cancellation defense |
-| additional issues | chain-of-title gap, weak use evidence and licence expiry/review |
+| additional issues | title gap, weak use Evidence and licence review |
 
-The initial three-deadline discovery and later five-workflow portfolio view are not contradictory. The first is an urgent-window subset; the second is the wider governed action plan after full portfolio review.
+The urgent three-deadline subset and the wider five-renewal workflow are different views of the same portfolio.
 
-### 5.2 Entry and Contrast Rules
+### 4.2 Controlled Timeline
 
-RIVERKITE begins from official and portfolio records rather than a new-filing Need Brief.
+| Step | Chapter(s) | Controlled result | Current records | Boundary |
+| --- | --- | --- | --- | --- |
+| RK-01 | CH07, CH19 | six rights enter from purpose-limited source records | MR-E07 | portfolio data is not Official Truth without verification |
+| RK-02 | CH21, CH30, CH37 | official identifiers, owner, scope and source dates verified or marked conflicting | MR-E05, MR-E08, MR-B01 | incomplete verification blocks protected action |
+| RK-03 | CH12, CH35, CH40–CH41 | official owner and business-owner claim conflict; two-step title correction required | MR-C12, MR-C07, MR-C08, MR-V03 | business ownership is not recorded ownership |
+| RK-04 | CH17–CH18, CH38–CH39 | renewal, recordal and defense price, approval and instruction remain separate | MR-A06, MR-D01, MR-A07, MR-B02, MR-D08, MR-D09 | portfolio price is not one universal fee |
+| RK-05 | CH20–CH21 | authority, assignment, certification, originals and evidence assessed by action | MR-A09, MR-A10, MR-C12 | one document set is not universally valid |
+| RK-06 | CH23–CH29 | renewal, recordal and defense reuse Package, Review, Approval, Execution and Evidence controls | MR-A11, MR-D02, MR-D03, MR-A17, MR-E01, MR-E04 | later-stage service does not bypass governance |
+| RK-07 | CH35 | one cancellation challenge remains linked but separate from renewal and recordal | MR-C05, MR-C07, MR-D07 | one challenged right does not change five others |
+| RK-08 | CH36 | Deadline and Communication records preserve source, silence and consequences | MR-E06, MR-A25, MR-D11 | reminder is not responsibility and silence is not abandonment |
+| RK-09 | CH38 | weak use Evidence mapped by scope, territory, period and using entity | MR-B03 | evidence existence is not legal sufficiency |
+| RK-10 | CH39 | four ordinary renewals remain separate; one renewal depends on title correction | MR-A26, MR-D08 | renew all is prohibited |
+| RK-11 | CH40 | recordal preserves current, claimed and proposed values with partial official outcomes | MR-C07, MR-A27, MR-D09, MR-E09 | internal update is not official recordal |
+| RK-12 | CH41 | transaction, licence and chain links reviewed; gaps and expiry remain explicit | MR-C08, MR-C09, MR-A28, MR-V03, MR-B03 | licence is not assignment |
+| RK-13 | CH42 | Portfolio View and Action Plan preserve renew, correct, defend, evidence, licence and non-renewal options | MR-V04, MR-A29, MR-D10 | recommendation is not action |
+| RK-14 | CH43 | approved facts transfer from Lite to Workplace; private notes remain local | MR-A12, MR-C10, MR-A30 | local history is not organization truth |
+| RK-15 | CH44 | executive, specialists, coordinators and providers receive separate views | MR-V05 | one portfolio does not imply unrestricted access |
+| RK-16 | CH45 | official fee change affects open renewals by version and state | MR-E07, MR-G01, MR-G02, MR-G03, MR-G04, MR-D12 | new Rule does not rewrite completed history |
+| RK-17 | CH46 | metrics cover verified baselines, title gaps, evidence coverage, duplicate prevention and decisions | MR-G08, MR-G09, MR-C11, MR-D13 | activity volume is not quality |
+| RK-18 | CH47 | Conformance Statement retains six independent rights and unresolved contexts | MR-G10, MR-D13 | example is not production authority |
 
-It tests whether MarkReg can:
-
-1. verify registration identity and source freshness;
-2. distinguish official owner, business-owner claim and proposed recorded owner;
-3. maintain six independent right histories;
-4. separate renewal, recordal, cancellation defense, use evidence and licence work;
-5. prevent one `renew all` action where prerequisites differ;
-6. preserve contractual and official recordal effects separately;
-7. present portfolio options without autonomous protected action.
-
-### 5.3 Controlled Timeline
-
-| Step | Chapters | Controlled result | Main records and boundary |
-| --- | --- | --- | --- |
-| RK-01 | CH07, CH19 | portfolio entry identifies six rights and purpose-limited source records; no new-filing Need Brief is required | `MR-A01`, `MR-E09`; portfolio data is not official truth without verification |
-| RK-02 | CH21, CH30, CH37 | official identifiers, owner fields, scope and source dates are verified or marked conflicting | `MR-A10`, `MR-E04`, `MR-B01`; incomplete verification blocks protected action |
-| RK-03 | CH12, CH35, CH40–CH41 | official owner and business-owner claim conflict; a two-step chain-of-title correction is required for one renewal-linked right | `MR-C01`, `MR-C08–MR-C09`, `MR-B03`; business ownership is not recorded ownership |
-| RK-04 | CH17–CH18, CH38–CH39 | renewal, recordal and defense fees are separated; approvals and instructions remain per right and jurisdiction | `MR-A06–MR-A07`, `MR-B02`, `MR-D09`; portfolio price is not one universal fee |
-| RK-05 | CH20–CH21 | signatures, authority, assignment documents, certification, legalization, originals and evidence are assessed by action | `MR-A09–MR-A10`; one document set is not valid everywhere automatically |
-| RK-06 | CH23–CH29 | renewal, recordal and defense packages reuse exact-version Review, Approval, Execution, acknowledgement and reconciliation controls | `MR-A11–MR-A17`; later-stage service does not bypass filing governance |
-| RK-07 | CH35 | one registration receives a cancellation challenge; defense, recordal and renewal remain linked but separate Matters | `MR-C07`, `MR-D07`; one challenged right does not change five others |
-| RK-08 | CH36 | Deadline and Client Decision Records preserve official deadlines, internal targets, silence and consequences | `MR-A23–MR-A24`, `MR-E06`; reminder is not responsibility and silence is not abandonment |
-| RK-09 | CH38 | weak use evidence is mapped by goods, territory, period, source and using entity; vulnerability remains an assessment, not conclusion | `MR-B02`, `MR-E08`; evidence existence is not sufficient use automatically |
-| RK-10 | CH39 | four ordinary renewals proceed through separate packages; one additional renewal remains linked to ownership correction | `MR-A27`, `MR-D09`; `renew all` is prohibited |
-| RK-11 | CH40 | recordal packages preserve current, claimed and proposed values and allow partial official outcomes | `MR-C08`, `MR-A28`; internal update is not official recordal |
-| RK-12 | CH41 | chain-of-title links and licence terms are reviewed; missing link and licence expiry remain explicit | `MR-C09`, `MR-B03`, `MR-E08`; licence is not assignment |
-| RK-13 | CH42 | Portfolio Continuity View and Action Plan show renew, correct, defend, strengthen evidence, review licence and possible non-renewal options | `MR-V02–MR-V03`, `MR-D10`; recommendation is not action |
-| RK-14 | CH43 | approved facts transfer from Lite to Workplace; personal notes remain local | `MR-C10`, `MR-G01–MR-G03`; local history is not formal organization truth |
-| RK-15 | CH44 | executive, ownership specialist, renewal coordinator, defense professional, licence reviewer and providers receive separate views | `MR-G04`; one portfolio does not imply unrestricted access |
-| RK-16 | CH45 | official fee change affects open renewal packages differently according to version and state | `MR-G05–MR-G07`, `MR-D12`; new rule does not rewrite completed history |
-| RK-17 | CH46 | metrics track verified baselines, resolved title gaps, evidence coverage, duplicate prevention and documented non-renewal choices | `MR-G08–MR-G09`; activity volume is not quality |
-| RK-18 | CH47 | final controlled position retains six independent rights and unresolved action contexts | `MR-V05`; conformance example is not production authority |
-
-### 5.4 Final Controlled Position
+### 4.3 Final Controlled Position
 
 ```text
 Portfolio
@@ -247,143 +160,71 @@ Portfolio
 Renewal
 - four ordinary renewal workflows proceed separately
 - one renewal remains linked to a two-step chain-of-title correction
-- filing or renewed-right outcomes require their own acknowledgement evidence
+- official outcomes require their own Evidence
 
 Dispute
 - one registration remains in cancellation defense
 - unaffected registrations retain independent states
 
 Ownership
-- official-owner and business-owner differences remain visible until verified recordals
-- missing chain-of-title links are not filled by inference
+- official-owner and business-owner differences remain visible until verified recordal
+- missing title links are not filled by inference
 
 Evidence and licence
-- weak use-evidence categories remain action candidates
-- licence scope, quality-control context and expiry remain under review
+- weak use-Evidence categories remain action candidates
+- licence scope, quality control and expiry remain under review
 
-Portfolio decision
-- renew, correct, defend, strengthen evidence, review licence and non-renewal remain accountable options
+Portfolio Decisions
+- renew, correct, defend, strengthen Evidence, review licence and non-renewal remain accountable options
 - no automatic protected action is authorized
 ```
 
-## 6. CH08–CH47 Chapter-to-Journey Matrix
+## 5. Chapter-to-Journey Matrix
 
-The matrix distinguishes actual primary examples from controlled contrast and governance use.
-
-| Chapter | EMBERLOOP role | RIVERKITE role |
+| Range | EMBERLOOP role | RIVERKITE role |
 | --- | --- | --- |
-| CH08 | primary need example | contrast: portfolio entry does not require new-filing Need Brief |
-| CH09 | primary jurisdiction/route example | not primary |
-| CH10 | primary bundle example | contrast: portfolio grouping must not merge rights |
-| CH11 | primary filing-unit example | not primary |
-| CH12 | primary applicant ambiguity example | contrast: official owner versus business owner |
-| CH13 | primary class example | not primary |
-| CH14 | primary goods/services example | contrast: use evidence remains scope-specific |
-| CH15 | primary search/risk example | not primary |
-| CH16 | primary Proposal example | contrast: portfolio action options |
-| CH17 | primary filing-price example | contrast: renewal, recordal and defense fees separated |
-| CH18 | primary acceptance/instruction example | contrast: separate instructions per action |
-| CH19 | primary new-filing Intake example | primary portfolio-entry contrast |
-| CH20 | primary filing documents example | contrast: assignment, renewal and defense documents |
-| CH21 | primary Readiness example | contrast: per-right readiness |
-| CH22 | primary Handoff example | contrast: separate Matter and action handoffs |
-| CH23 | primary filing-package continuation | controlled reuse for renewal, recordal and defense packages |
-| CH24 | primary Review and Filing Approval continuation | controlled reuse for later-stage approvals |
-| CH25 | primary provider-routing continuation | contrast: provider need varies by action and right |
-| CH26 | primary appointment/instruction continuation | controlled reuse for later-stage engagements |
-| CH27 | primary execution-route continuation | controlled reuse without Product authority drift |
-| CH28 | primary acknowledgement continuation | controlled reuse for renewal/recordal evidence |
-| CH29 | primary unknown-state recovery | controlled reuse for duplicate-safe later-stage recovery |
-| CH30 | primary US/EU/UK official-event split | official-source verification of portfolio rights |
-| CH31 | primary US response-strategy example | not primary |
-| CH32 | primary US response-package example | defense package uses equivalent governance |
-| CH33 | primary EU/UK publication-window example | monitoring signal contrast |
-| CH34 | primary EU opposition example | cancellation defense comparison |
-| CH35 | no new EMBERLOOP remedy activated | primary cancellation-defense and ownership-dependency example |
-| CH36 | primary independent-outcome Communication | primary deadline and client-decision contrast |
-| CH37 | primary UK registration and Right Baseline | official-baseline verification across six rights |
-| CH38 | primary UK maintenance duties | primary maintenance, evidence and deadline comparison |
-| CH39 | future EMBERLOOP renewal candidate only | primary ordinary and ownership-linked renewals |
-| CH40 | no EMBERLOOP recordal activated | primary recordal and owner-update example |
-| CH41 | no EMBERLOOP transaction activated | primary assignment, licence and chain-of-title example |
-| CH42 | primary independent-jurisdiction portfolio view | primary six-right portfolio action view |
-| CH43 | primary Workplace/cross-Product example | primary Lite-to-Workplace example |
-| CH44 | primary multi-participant views | primary specialist and provider views |
-| CH45 | primary Pack-version and EU rule-conflict example | primary renewal fee-change example |
-| CH46 | primary filing/post-filing metrics | primary portfolio-continuity metrics |
-| CH47 | final controlled position | final controlled position |
+| CH08–CH15 | primary new-filing need and recommendation | portfolio-entry and owner contrast where relevant |
+| CH16–CH22 | primary commercial, Intake and Handoff | separate later-stage price, Requirement and readiness contrast |
+| CH23–CH29 | primary filing preparation, routing, Execution and recovery | same governance reused for renewal, recordal and defense |
+| CH30–CH36 | US examination, EU opposition and UK publication continuity | cancellation defense, ownership conflict and Deadline control |
+| CH37–CH42 | UK registration, maintenance and independent portfolio view | renewal, recordal, title, Evidence, licence and action planning |
+| CH43–CH47 | cross-surface experience, Pack change, metrics and Conformance | Lite-to-Workplace, participant views, fee change, metrics and Conformance |
 
-## 7. Version and Consistency Lock
+## 6. PF-06D Correction Register
 
-The following facts require explicit review before change:
+| Finding | Prior scope | Resolution |
+| --- | --- | --- |
+| PF06C2-F01 | Part V `EL-23–EL-29` used earlier record numbering | corrected to B05-SPEC-0001 v0.3 |
+| PF06C3-F01 | Part VI `EL-30–EL-35` and `RK-09–RK-13` used earlier numbering | corrected to B05-SPEC-0001 v0.3 |
+| PF06C4-F01 | Part VII `EL-36–EL-40` and `RK-14–RK-18` used earlier numbering | corrected to B05-SPEC-0001 v0.3 |
+| PF06D-F01 | `Applicant and Authority Context` collided with `MR-C01 Capability Need` | registered as `MR-C12` and corrected across Book 05 |
 
-### EMBERLOOP
+The case facts and final reviewed states did not change.
 
-- applicant identity;
-- word plus flame-loop device structure;
-- planned market list;
-- accepted US/EU/UK scope under Quote v3;
-- US acknowledgement and continuing examination;
-- EU opposition without invented closure;
-- UK sourced registration and maintenance;
-- Japan/Australia candidate-only state.
+## 7. Consistency and Evaluation Lock
 
-### RIVERKITE
-
-- six-right portfolio;
-- official-owner versus business-owner distinction;
-- initial urgent deadline subset;
-- four ordinary renewal workflows;
-- one ownership-linked renewal;
-- one cancellation-defense right;
-- weak use evidence;
-- licence review and expiry context.
-
-A proposed change must identify:
-
-1. source chapter or review requiring the change;
-2. affected step IDs;
-3. affected appendices, figures, scenarios and metrics;
-4. whether the change is editorial, Product-behavioral or jurisdictional;
-5. whether prior released editions require errata rather than silent revision.
-
-## 8. Editorial and Evaluation Use
-
-A chapter, appendix, figure, conformance scenario or implementation evaluation should:
-
-- cite the journey ID and step ID where practical;
-- preserve controlled facts and final state;
-- state when the journey is only a contrast rather than the primary chapter example;
-- avoid realistic-looking invented serial numbers, official deadlines or legal outcomes;
-- use synthetic identifiers in implementation tests;
-- keep client, provider and internal-confidential views purpose-limited.
-
-A new case is justified only when `EMBERLOOP` and `RIVERKITE` cannot test a materially different Product behavior.
-
-## 9. Conformance Requirements
-
-A conforming edition or implementation using these journeys must demonstrate that:
+A conforming edition or implementation must show that:
 
 1. EMBERLOOP jurisdictions remain independent;
 2. RIVERKITE rights remain independent;
-3. recommendation, Decision, Review, Approval, Execution and official effect remain separate;
-4. provider report and Product projection do not become official truth;
-5. changed upstream facts invalidate affected downstream versions explicitly;
-6. unknown state blocks optimistic retry;
-7. portfolio views do not create one global status;
-8. absence of an action is not replaced by a fictional event;
-9. final states do not exceed the reviewed manuscript baseline;
-10. Human authority and purpose-limited visibility remain observable.
+3. Recommendation, Decision, Review, Approval, Execution and official effect remain separate;
+4. provider report and Product projection do not become Official Truth;
+5. changed facts invalidate downstream versions explicitly;
+6. unknown state blocks unsafe retry;
+7. absence is not replaced by a fictional event;
+8. final states do not exceed the reviewed baseline;
+9. Human authority and purpose-limited visibility remain observable;
+10. journey mappings use current B05-SPEC-0001 identifiers.
 
-## 10. Completion Decision
+## 8. Completion State
 
-B05-SPEC-0002 v0.2 completes PF-03 when:
+```text
+EL-01–EL-40 current-ID reconciliation: COMPLETE
+RK-01–RK-18 current-ID reconciliation: COMPLETE
+CH08–CH47 continuity: COMPLETE
+Case identities and final states: UNCHANGED
+Appendix D projection: RECONCILED UNDER PF-06D
+Architecture Canon or Books 02–04 amendment required: NO
+```
 
-- both case identities are locked;
-- both controlled timelines extend through CH47;
-- the chapter-to-journey matrix covers CH08–CH47;
-- final states agree with B05-REV-0008 through B05-REV-0011;
-- Appendix D is reconciled;
-- a dedicated PF-03 review passes.
-
-This specification does not make Book 05 RC1 and does not authorize implementation, production deployment or external protected action.
+This specification does not authorize implementation, production deployment or External Protected Action.
