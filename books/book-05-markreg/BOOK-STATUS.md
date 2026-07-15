@@ -2,31 +2,32 @@
 
 ## Current State
 
-- **Status:** Complete Draft 1 — PF-07 Source Apparatus Complete
+- **Status:** Complete Draft 1 — PF-08 Structural and Rendered Validation Complete
 - **Title:** MarkReg: The Full-Lifecycle International Trademark Product
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
 - **Manuscript:** CH00–CH47 drafted, reviewed and editorially finished
 - **Specifications:** B05-SPEC-0001–0004 v0.3 reconciled
-- **Appendices:** Appendix A–G content-reconciled
-- **Figures:** 11 retained Controlled Figure Source v1.0 files; B05-FIG-05 merged into B05-FIG-03
-- **Source apparatus:** Reader Source Notice v1.0 and final Reader Notice complete
-- **Current substantive gate:** PF-08 — Structural and Rendered Validation
-- **Open semantic findings:** none
+- **Appendices:** Appendix A–G content-reconciled and rendered
+- **Figures:** eleven retained sources rendered; B05-FIG-05 merged into B05-FIG-03
+- **Validation:** B05-VAL-0001 and B05-REV-0028 accepted
+- **Current substantive gate:** PF-09 — Owner RC1 and Publication Decision
+- **Open blocking finding:** none
 - **Architecture dependency:** MO-PUB-BASELINE-0001
 
-## Completed Range
+## Completed Scope
 
 ```text
-Front Matter — CH00–CH01: COMPLETE
-Part I — CH02–CH07: COMPLETE
-Part II — CH08–CH15: COMPLETE
-Part III — CH16–CH22: COMPLETE
-Part IV — CH23–CH29: COMPLETE
-Part V — CH30–CH36: COMPLETE
-Part VI — CH37–CH42: COMPLETE
-Part VII — CH43–CH47: COMPLETE
-Appendix A–G content reconciliation: COMPLETE
-PF-07 Figure and Source apparatus: COMPLETE
+Front Matter CH00–CH01: COMPLETE
+Part I CH02–CH07: COMPLETE
+Part II CH08–CH15: COMPLETE
+Part III CH16–CH22: COMPLETE
+Part IV CH23–CH29: COMPLETE
+Part V CH30–CH36: COMPLETE
+Part VI CH37–CH42: COMPLETE
+Part VII CH43–CH47: COMPLETE
+Appendix A–G: COMPLETE
+PF-07 Figures and Source apparatus: COMPLETE
+PF-08 Structural and rendered validation: COMPLETE
 ```
 
 ## Controlled Baseline
@@ -47,47 +48,50 @@ RK-01–RK-18
 
 `MR-C01` is Capability Need. `MR-C12` is Applicant and Authority Context.
 
+## PF-08 Validation Baseline
+
+```text
+Record: B05-VAL-0001
+Review: B05-REV-0028
+GitHub Actions run: 29388230449
+Validated head SHA: 27f2b4759773ff4f591282e60f0a3eacc778f8dd
+Artifact digest: sha256:2a582f53a95bc50a2d9159ff6f8cf3a11e3811ccfc4bd96ed42adbd29e980e00
+Checks: 573 / 573 PASS
+Warnings: 0
+Errors: 0
+```
+
+Rendered evidence:
+
+```text
+Mermaid SVG files: 11
+Validation HTML: 623,202 bytes
+Validation PDF: 948,073 bytes
+Validation PDF pages: 360
+Selectable-text characters: 475,563
+PDF navigation annotations: 135
+```
+
+The generated outputs are validation artifacts, not RC1 or final-publication files.
+
 ## Figure Disposition
 
 ```text
-B05-FIG-01: RETAINED
-B05-FIG-02: RETAINED
-B05-FIG-03: RETAINED AND EXPANDED
-B05-FIG-04: RETAINED
+B05-FIG-01–04: RETAINED
 B05-FIG-05: MERGED INTO B05-FIG-03
-B05-FIG-06: RETAINED
-B05-FIG-07: RETAINED
-B05-FIG-08: RETAINED
-B05-FIG-09: RETAINED
-B05-FIG-10: RETAINED
-B05-FIG-11: RETAINED
-B05-FIG-12: RETAINED
+B05-FIG-06–12: RETAINED
 ```
 
-No Figure ID was renumbered. Every retained source includes caption, controlled sources, intended placement, Mermaid, accessibility description, grayscale/legibility notes and authority boundary.
-
-## Source and Page-Reference State
-
-```text
-B05-PUB-0002 Source and Authority Notes v1.0: COMPLETE
-Final Reader Notice: COMPLETE
-Citation convention: COMPLETE
-B05-PUB-0005 Figure Register v1.0: COMPLETE
-B05-PUB-0006 Back Matter Map v0.2: COMPLETE
-Glossary stable reference inputs: COMPLETE
-Subject Index stable reference inputs: COMPLETE
-Rendered pages, anchors, links and pagination: OPEN — PF-08
-```
+No Figure ID was renumbered. All retained sources passed Mermaid parsing, SVG generation, grayscale scanning, caption, source, accessibility and boundary checks.
 
 ## Reference Journey Locks
 
 ```text
 EMBERLOOP
 - UK registered with Right Baseline and maintenance obligations
-- UK renewal not yet open
 - US under examination after acknowledged Response Package v2
 - EU in verified opposition without assumed closure
-- Japan and Australia are future-action candidates only
+- Japan and Australia remain future-action candidates
 
 RIVERKITE
 - six independent registration histories
@@ -97,21 +101,21 @@ RIVERKITE
 - title, use-Evidence and licence actions remain open
 ```
 
-## Editorial and Authority Locks
+## Authority Locks
 
 ```text
 Recommendation ≠ Decision
 Readiness ≠ Approval
 Approval ≠ Execution
-Human Selection ≠ provider appointment or acceptance
 Provider Report ≠ Official Truth
 Submission ≠ official acknowledgement
 Registration ≠ certificate availability
 Renewal Approval ≠ renewed right
 Signed transaction ≠ official owner update
 Visibility ≠ action right
-Model memory ≠ current law
 Pilot ≠ production
+PF-08 pass ≠ PF-09 owner Decision
+Rendered validation edition ≠ Release Candidate 1
 Publication ≠ implementation or External Protected Action authority
 ```
 
@@ -119,36 +123,21 @@ Publication ≠ implementation or External Protected Action authority
 
 - B05-REV-0014–0017 — PF-02 through PF-05;
 - B05-REV-0018–0026 — PF-06;
-- B05-REV-0027 — PF-07 Figures and Publication Apparatus.
+- B05-REV-0027 — PF-07 Figures and Publication Apparatus;
+- B05-REV-0028 — PF-08 Structural and Rendered Validation.
 
-## Publication-Finishing Assessment
+## Gate Assessment
 
 ```text
-PF-01: COMPLETE
-PF-02: COMPLETE
-PF-03: COMPLETE
-PF-04: COMPLETE
-PF-05: COMPLETE
-PF-06: COMPLETE
-PF-07: COMPLETE
-PF-08 structural and rendered validation: AUTHORIZED AND NEXT
-PF-09 RC1 and owner publication gate: OPEN
+PF-01–PF-08: COMPLETE
+PF-09: AUTHORIZED AND NEXT
+Release Candidate 1: NOT YET AUTHORIZED
+Final publication: NOT AUTHORIZED
 ```
 
 ## Next Controlled Work
 
-```text
-PF-08
-→ validate file inventory, filenames, headings and metadata
-→ validate Markdown links and fenced blocks
-→ validate controlled IDs, MR-SCN, EL, RK and Profiles
-→ parse and render all retained Mermaid figures
-→ inspect actual grayscale, accessibility, page fit and non-truncation
-→ generate target publication output
-→ validate Back Matter order, anchors, page references and navigation
-→ synchronize Manifest, Status, README, YAML and repository roadmap
-→ issue a separate structural and rendered Review
-```
+PF-09 must record the owner Decision on the exact RC1 baseline commit, accepted publication inventory, unresolved findings, RC1 status, final-publication status and implementation/production/External Protected Action boundaries.
 
 Ready for unrestricted implementation: **NO**  
 Production ready: **NO**  

@@ -1,5 +1,19 @@
 # Book 05 Changelog
 
+## 2026-07-15 — PF-08 Structural and Rendered Validation
+
+- Added a reproducible Python validator and GitHub Actions workflow for Book 05.
+- Validated forty-eight chapters, Appendix A–G, four Specifications and eleven retained Figure sources.
+- Validated Markdown fences, hierarchical headings, repository-local links and controlled identifier ranges.
+- Rendered eleven Mermaid diagrams to grayscale SVG.
+- Generated a 623,202-byte HTML validation edition and a 360-page PDF validation edition.
+- Confirmed 475,563 selectable-text characters and 135 PDF navigation annotations.
+- Passed 573 of 573 checks with zero errors and zero warnings.
+- Recorded GitHub Actions run 29388230449 and artifact digest `sha256:2a582f53a95bc50a2d9159ff6f8cf3a11e3811ccfc4bd96ed42adbd29e980e00`.
+- Added B05-VAL-0001 and B05-REV-0028.
+- Closed PF-08 and authorized PF-09 Owner RC1 and Publication Decision.
+- Kept RC1, final publication, implementation, production and External Protected Action unauthorized pending separate Decisions.
+
 ## 2026-07-15 — PF-07 Figures and Publication Apparatus
 
 - Reviewed all twelve planned Figure identities and retained eleven controlled source files.

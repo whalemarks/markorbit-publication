@@ -2,13 +2,14 @@
 
 ## Identity
 
-- **Status:** Complete Draft 1 — PF-07 Source Apparatus Complete
+- **Status:** Complete Draft 1 — PF-08 Structural and Rendered Validation Complete
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
 - **Manuscript:** CH00–CH47 complete
 - **Specifications:** B05-SPEC-0001–0004 v0.3
-- **Appendices:** A–G content-reconciled
-- **Figures:** 11 retained controlled sources; B05-FIG-05 merged into B05-FIG-03
-- **Current phase:** PF-08 — Structural and Rendered Validation
+- **Appendices:** Appendix A–G reconciled and rendered in the validation edition
+- **Figures:** eleven retained and rendered; B05-FIG-05 merged into B05-FIG-03
+- **Validation:** B05-VAL-0001 and B05-REV-0028 accepted
+- **Current phase:** PF-09 — Owner RC1 and Publication Decision
 
 ## Position
 
@@ -47,28 +48,28 @@ RK-01–18
 - [B05-SPEC-0003 — Conformance Scenarios and User Surfaces](specifications/B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md) — v0.3
 - [B05-SPEC-0004 — Jurisdiction Pack and Commercial Controls](specifications/B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md) — v0.3
 
-## Publication Apparatus
+## Publication and Validation
 
 - [Source and Authority Notes](publication/B05-PUB-0002_Source_and_Authority_Notes.md) — v1.0
 - [Glossary](publication/B05-PUB-0003_Glossary.md) — v0.3
 - [Subject Index](publication/B05-PUB-0004_Subject_Index.md) — v0.3
 - [Figure Register](publication/B05-PUB-0005_Figure_Register.md) — v1.0
 - [Back Matter Map](publication/B05-PUB-0006_Back_Matter_and_Appendix_Map.md) — v0.2
-- [Cross-Book Reconciliation](publication/B05-PUB-0007_Cross-Book_Reconciliation.md) — v0.2
-- [RC1 Checklist](publication/B05-PUB-0008_RC1_Checklist.md) — v0.3
-- [Term Audit](publication/B05-PUB-0009_Term_Variation_and_Editorial_Audit.md) — v0.2 closed
+- [RC1 Checklist](publication/B05-PUB-0008_RC1_Checklist.md) — v0.4
+- [Validation source index](validation/README.md)
+- [B05-VAL-0001 — PF-08 Validation Baseline](validation/B05-VAL-0001_PF-08_Structural_and_Rendered_Validation.md)
 
 ## Controlled Figures
 
-[Figure source index](figures/README.md)
-
 ```text
-B05-FIG-01–04: retained
+B05-FIG-01–04: retained and rendered
 B05-FIG-05: merged into B05-FIG-03
-B05-FIG-06–12: retained
+B05-FIG-06–12: retained and rendered
 ```
 
-Each retained file contains Mermaid source, caption, source references, placement intent, accessibility description, grayscale/legibility notes and authority boundary. Actual renderer validation remains PF-08.
+[Figure source index](figures/README.md)
+
+All retained Figures passed Mermaid parsing, SVG rendering, grayscale scanning, caption, source, accessibility and boundary checks.
 
 ## Appendices
 
@@ -79,6 +80,21 @@ Each retained file contains Mermaid source, caption, source references, placemen
 - [E — Conformance Scenarios](appendices/B05-APP-E_Priority_Conformance_Scenarios.md)
 - [F — Jurisdiction Pack Checklist](appendices/B05-APP-F_Minimum_Jurisdiction_Pack_Checklist.md)
 - [G — Conformance Profiles](appendices/B05-APP-G_MarkReg_Conformance_Profiles.md)
+
+## PF-08 Validation Result
+
+```text
+GitHub Actions run: 29388230449
+Checks: 573 / 573 PASS
+Errors: 0
+Warnings: 0
+Rendered SVG files: 11
+Validation PDF: 360 pages
+Selectable-text characters: 475,563
+PDF navigation annotations: 135
+```
+
+[B05-REV-0028](reviews/B05-REV-0028_PF-08_Structural_and_Rendered_Validation.md) closes PF-08 and authorizes PF-09.
 
 ## Reference Journeys
 
@@ -97,26 +113,13 @@ RIVERKITE
 - title, use-Evidence and licence work open
 ```
 
-## PF-07 Closure
-
-[B05-REV-0027](reviews/B05-REV-0027_PF-07_Figures_and_Publication_Apparatus.md) confirms:
-
-- all twelve planned Figure identities received a disposition;
-- eleven controlled Figure source files were created;
-- B05-FIG-05 was merged into B05-FIG-03 without renumbering;
-- captions, source references, accessibility and source-level grayscale review are complete;
-- Source and Authority Notes and final Reader Notice are complete;
-- stable Glossary, Index and Figure page-reference inputs are complete;
-- no architecture, Specification, reference-journey or Conformance semantic change was introduced;
-- PF-07 is complete and PF-08 is authorized next.
-
 ## Current Gate
 
 ```text
-PF-01–PF-07: COMPLETE
-PF-08: AUTHORIZED AND NEXT
-PF-09: OPEN
-RC1 ready: NO
+PF-01–PF-08: COMPLETE
+PF-09: AUTHORIZED AND NEXT
+Release Candidate 1: NOT YET AUTHORIZED
+Final publication: NOT AUTHORIZED
 ```
 
-Book 05 does not authorize final publication, implementation, production deployment, autonomous professional action or External Protected Action.
+Book 05 does not authorize implementation, production deployment, autonomous professional action or External Protected Action.
