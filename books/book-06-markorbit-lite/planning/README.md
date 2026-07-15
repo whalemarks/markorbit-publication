@@ -5,10 +5,9 @@ This directory contains controlled planning records for **Book 06 — MarkOrbit 
 ## Current stage
 
 ```text
-Pre-Writing Audit
-→ authority and source reconciliation
-→ Product Charter candidate
-→ owner Decision
+Pre-Writing Audit — COMPLETE
+→ Product Charter v0.1 — OWNER ACCEPTED ON MERGE
+→ Product record / journey / scenario baseline — NEXT
 → chapter-map candidate
 → controlled drafting
 ```
@@ -20,3 +19,18 @@ No manuscript drafting, Product implementation, production deployment, autonomou
 - [B06-PLN-0001 — Pre-Writing Audit](B06-PLN-0001_Pre-Writing_Audit.md)
 - [B06-PLN-0002 — Authority and Source Map](B06-PLN-0002_Authority_and_Source_Map.md)
 - [B06-PLN-0003 — Supplemental Idea Assessment](B06-PLN-0003_Supplemental_Idea_Assessment.md)
+- [B06-PLN-0004 — Product Charter Candidate](B06-PLN-0004_Product_Charter_Candidate.md)
+- [B06-PLN-0005 — Product Charter Owner Decision Matrix](B06-PLN-0005_Product_Charter_Owner_Decision_Matrix.md)
+
+## Charter gate
+
+Merge of the Product Charter pull request records owner acceptance of:
+
+- the canonical Product identity and market promise;
+- the Today-centered Product loop;
+- the five capability pillars;
+- OD-01–OD-06;
+- the Existing Client Value Journey;
+- the MVP 0 Attention-to-Prepared-Value Loop.
+
+The next planning records must define Product-local controlled records, reference journeys, conformance scenarios, Handoff/Return mapping and evaluation before a chapter map may be accepted.
