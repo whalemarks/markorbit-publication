@@ -13,9 +13,9 @@ Chapter Map: B06-TOC-V0.1 — Owner Accepted
 Wave 1 — CH00–CH06: Complete Draft 1 — ACCEPTED
 Wave 2 — CH07–CH11: Complete Draft 1 — ACCEPTED
 Wave 3 — CH12–CH16: Complete Draft 1 — ACCEPTED
-Wave 4 — CH17–CH21: Complete Draft 1 — OWNER ACCEPTED ON MERGE
-Wave 5 — CH22–CH25: next after Wave 4 merge
-Wave 6 — CH26–CH29: not started
+Wave 4 — CH17–CH21: Complete Draft 1 — ACCEPTED
+Wave 5 — CH22–CH25: Complete Draft 1 — OWNER ACCEPTED ON MERGE
+Wave 6 — CH26–CH29: next after Wave 5 merge
 Wave 7 — CH30–CH33: not started
 ```
 
@@ -53,21 +53,26 @@ Wave 7 — CH30–CH33: not started
 - [B06-CH-20 — Delivery, Communication and Publish Preparation](B06-CH-20_Delivery_Communication_and_Publish_Preparation.md)
 - [B06-CH-21 — Outcomes, Corrections and Work-Product Reuse](B06-CH-21_Outcomes_Corrections_and_Work_Product_Reuse.md)
 
-## Accepted argument through CH21
+## Wave 5 inventory
+
+- [B06-CH-22 — From Case Context to Case Lesson](B06-CH-22_From_Case_Context_to_Case_Lesson.md)
+- [B06-CH-23 — Personal Memory, Organization Memory and Preferences](B06-CH-23_Personal_Memory_Organization_Memory_and_Preferences.md)
+- [B06-CH-24 — Reusable Assets and Knowledge Contribution](B06-CH-24_Reusable_Assets_and_Knowledge_Contribution.md)
+- [B06-CH-25 — Rights, Provenance, Retirement and Compounding Capability](B06-CH-25_Rights_Provenance_Retirement_and_Compounding_Capability.md)
+
+## Accepted argument through CH25
 
 ```text
 Product Constitution
 → Daily Operating Model
 → Customer and Service Growth
-→ Purpose and authorized sources
-→ Structured Content
-→ Artifact Draft and immutable Version
-→ Human Review
-→ Render / Edit and Readiness
-→ Delivery / Communication / Publish preparation
-→ typed Outcome
-→ Feedback / Correction
-→ Reuse / Retirement
+→ Professional Work Products
+→ authorized Case Context
+→ Case Lesson Candidate
+→ Preference / Personal / Organization Memory Candidate
+→ Reusable Asset / Knowledge Contribution Candidate
+→ rights, provenance and lifecycle governance
+→ bounded reuse and compounding capability
 ```
 
 ## Authority
