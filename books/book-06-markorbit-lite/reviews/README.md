@@ -9,21 +9,24 @@
 - [B06-REV-0007 — Wave 2 Daily Operating Model Review](B06-REV-0007_Wave_2_Daily_Operating_Model_Review.md)
 - [B06-REV-0008 — Wave 3 Customer and Service Growth Review](B06-REV-0008_Wave_3_Customer_and_Service_Growth_Review.md)
 - [B06-REV-0009 — Wave 4 Professional Work Products Review](B06-REV-0009_Wave_4_Professional_Work_Products_Review.md)
+- [B06-REV-0010 — Wave 5 Cases, Memory and Business Assets Review](B06-REV-0010_Wave_5_Cases_Memory_and_Business_Assets_Review.md)
 
 ## Current gate
 
-`B06-REV-0009` confirms that CH17–CH21:
+`B06-REV-0010` confirms that CH22–CH25:
 
-- define purpose-bound Structured Content;
-- define Artifact Draft and immutable Artifact Version;
-- preserve Artifact versus Document, Evidence and file distinctions;
-- define exact-version Human Review and separate final user confirmation;
-- define Render, Edit, validation and purpose-specific Readiness;
-- preserve Render complete versus approved;
-- define Delivery, Communication and Publish Packages without inventing external completion;
-- preserve failed, blocked and unknown external outcomes;
-- define Feedback, Correction, Reuse, Asset Candidate and Retirement;
+- define authorized case context without absorbing Matter, Document or Evidence ownership;
+- define ML-M06 Case Lesson Candidate without inferring universal rules or causation;
+- preserve Client/Matter restrictions and reject anonymization as automatic permission;
+- define explicit Preference Candidate acceptance and scope;
+- separate Personal Memory and Organization Memory;
+- require Organization Review for shared memory;
+- define Reusable Asset Candidate with rights, audience, variables and reuse limits;
+- separate Reusable Asset from canonical Knowledge;
+- define ML-M08 Knowledge Contribution Candidate and ML-HC-08 Knowledge Governance Handoff;
+- preserve provenance, source authority, rights, versioning, correction, expiry, revocation and retirement;
+- define Reuse Evidence and Safety / Privacy Findings;
 - introduce no Books 01–05 conflict or Book 07 preemption;
 - contain no blocking or major finding.
 
-Owner merge accepts Wave 4 as Complete Draft 1 and authorizes Wave 5 CH22–CH25 drafting only.
+Owner merge accepts Wave 5 as Complete Draft 1 and authorizes Wave 6 CH26–CH29 drafting only.
