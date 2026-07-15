@@ -241,7 +241,7 @@ def check_yaml_state() -> None:
     apparatus = data.get("publication_apparatus", {})
     figures = data.get("figures", {})
     record("YAML figure planned count", figures.get("planned_identities") == 12, str(figures.get("planned_identities")))
-    record("YAML figure retained count", figures.get("retained_sources") == 11, str(figures.get("retained_sources"))
+    record("YAML figure retained count", figures.get("retained_sources") == 11, str(figures.get("retained_sources")))
     record("YAML PF-08 phase", "pf_08" in str(data.get("phase", "")), str(data.get("phase"))
     progress = data.get("publication_finishing_pack", {}).get("progress", {})
     record("YAML PF-07 complete", progress.get("pf_07_figures_and_apparatus") == "complete", str(progress.get("pf_07_figures_and_apparatus")))
