@@ -24,12 +24,12 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](gov
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
 | Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Release Candidate 1 — Approved and Frozen |
-| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Product Charter v0.2 — Owner Accepted on Merge |
+| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Product Charter v0.3 — Owner Accepted on Merge |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
 Book 05 is frozen through its accepted RC1 content baseline, permanent release record and `release/book-05-rc1` pointer.
 
-Book 06 has completed its controlled Pre-Writing Audit and amended Product Charter Candidate. Owner merge accepts the Charter v0.2 baseline and OD-01–OD-08. No chapter map or manuscript has been accepted.
+Book 06 has completed its controlled Pre-Writing Audit and Product Charter v0.3 candidate. Owner merge accepts the enduring Product identity, four Product loops and OD-01–OD-10. No chapter map or manuscript has been accepted.
 
 ## Planned Book Positioning
 
@@ -57,24 +57,50 @@ Publication state: Release Candidate 1 — Approved and Frozen. Final public/com
 
 ### Book 06 — MarkOrbit Lite
 
-Dedicated publication subject for the lightweight Workplace Product serving trademark professionals.
+Dedicated publication subject for the lightweight Workplace Product serving independent trademark professionals and small agencies.
 
 Charter baseline on owner merge:
 
-- canonical identity: lightweight Workplace Product for trademark professionals;
-- market promise: daily content and customer-development workspace;
-- reference commercial model: RMB 99 per month;
-- daily entitlement: at least one usable illustrated post, short video or Moments copy per calendar day;
-- second core output: intention-customer candidates with source and quality boundaries;
-- home experience: Daily Growth Desk;
-- first main reference journey: Daily Content-to-Customer Development Journey;
-- important variant: Existing Client Value Journey;
-- MVP 0: 30-Day Daily Content and Customer Development Loop;
-- external action: final human confirmation default.
+```text
+User-facing identity:
+AI business operating system
+for independent trademark professionals and small trademark agencies
 
-A topic, brief or script does not satisfy the daily content entitlement by itself. When a daily unit is declared as video, a usable video representation must actually be delivered.
+Architectural identity:
+lightweight Workplace Product
+individual-first but organization-centered
+```
 
-An intention-customer candidate is not a guaranteed customer and is not a formal Opportunity. A fixed lead quantity remains a future Product decision after source, contactability and compliance validation.
+Enduring Product loops:
+
+1. Customer and Service Growth;
+2. Professional Work Products;
+3. Professional Memory and Business Assets;
+4. MarkOrbit Ecosystem Handoff.
+
+`Today` is the daily business cockpit through which those loops become actionable. It is not the Product identity and does not own formal Task or deadline truth.
+
+First primary reference journey:
+
+```text
+Existing Customer Portfolio Opportunity Journey
+```
+
+MVP 0:
+
+```text
+Customer Opportunity-to-Governed-Service Loop
+```
+
+Commercial and experiment candidates include:
+
+- RMB 99 monthly entry plan;
+- recurring or daily content supply;
+- bounded Prospect Candidate supply;
+- basic Artifact / Render / Publish quotas;
+- 30-day Growth Starter experiment.
+
+These commercial hypotheses may change without redefining Lite.
 
 Current next gate is the Product-local record, reference-journey and conformance-scenario baseline. Chapter-map acceptance and manuscript drafting remain later gates.
 
@@ -99,8 +125,8 @@ Current gate:
 Books 01–04 Portfolio Baseline
 → Book 05 MarkReg RC1 approved and frozen
 → Book 06 Pre-Writing Audit complete
-→ Book 06 Product Charter v0.2 owner merge
-→ Book 06 daily-content / intention-customer record, journey and scenario baseline
+→ Book 06 Product Charter v0.3 owner merge
+→ Book 06 Product record / journey / scenario baseline
 → Book 06 chapter-map candidate
 → controlled manuscript drafting after owner acceptance
 ```
