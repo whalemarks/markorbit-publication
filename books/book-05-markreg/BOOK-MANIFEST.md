@@ -3,15 +3,16 @@
 ## Identity
 
 - **Canonical path:** `books/book-05-markreg/`
-- **Status:** Release Candidate 1 — effective upon owner merge of the PF-09 pull request
+- **Status:** Release Candidate 1 — APPROVED AND FROZEN
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
 - **Portfolio dependency:** MO-PUB-BASELINE-0001
 - **Primary Product:** MarkReg
 - **RC1 content baseline:** `9da21c4b2325d35710a1ba1acd9be9ca42d988b3`
+- **PF-09 Decision activation commit:** `2471862b59ac68cfa6bbd51c3f5dda708c92e11b`
 - **Owner Decision:** B05-PUB-0010
 - **Gate Review:** B05-REV-0029
-
-If the PF-09 pull request is closed without merge, this manifest does not activate RC1.
+- **Release record:** B05-REL-0001
+- **Release pointer:** `release/book-05-rc1`
 
 ## Directory Inventory
 
@@ -21,6 +22,7 @@ If the PF-09 pull request is closed without merge, this manifest does not activa
 - `figures/` — eleven retained Figure sources and the B05-FIG-05 merge disposition;
 - `publication/` — B05-PUB-0001–0010;
 - `validation/` — validator, rendering configuration and B05-VAL-0001;
+- `releases/` — B05-REL-0001 and release index;
 - `planning/` — B05-PUBLICATION-FINISHING-PACK-001 and related plans;
 - `reviews/` — B05-REV-0001–0029 and B05-ERRATA-0001.
 
@@ -67,7 +69,7 @@ Figure renumbering: none
 Rendered SVG files in validation artifact: 11
 ```
 
-## Publication and Validation Inventory
+## Publication, Validation and Release Inventory
 
 | Record | Status |
 | --- | --- |
@@ -80,14 +82,18 @@ Rendered SVG files in validation artifact: 11
 | B05-PUB-0007 | Cross-Book Reconciliation v0.2 |
 | B05-PUB-0008 | RC1 Checklist v1.0 |
 | B05-PUB-0009 | Controlled Term Audit v0.2 — closed |
-| B05-PUB-0010 | Owner RC1 and Publication Decision — effective upon owner merge |
+| B05-PUB-0010 | Owner RC1 and Publication Decision — effective |
 | B05-VAL-0001 | PF-08 Structural and Rendered Validation v1.0 — PASS |
+| B05-REL-0001 | Book 05 RC1 Release Freeze — FROZEN |
 
 ## Exact Baseline and Validation Evidence
 
 ```text
 RC1 content baseline:
 9da21c4b2325d35710a1ba1acd9be9ca42d988b3
+
+PF-09 Decision activation commit:
+2471862b59ac68cfa6bbd51c3f5dda708c92e11b
 
 Validated PF-08 head:
 6a210eb40d939eeea6f799c1be7435de7d5dd3aa
@@ -124,9 +130,8 @@ Open blocking RC1 finding: 0
 ## Gate Result
 
 ```text
-PF-01–PF-08: COMPLETE
-PF-09: COMPLETE UPON OWNER MERGE
-Book 05: RELEASE CANDIDATE 1 UPON OWNER MERGE
+PF-01–PF-09: COMPLETE
+Book 05: RELEASE CANDIDATE 1 — APPROVED AND FROZEN
 Final publication: NOT APPROVED
 ```
 
