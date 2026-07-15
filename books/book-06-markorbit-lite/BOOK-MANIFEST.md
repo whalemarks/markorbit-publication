@@ -9,11 +9,11 @@ Status: Product Charter v0.2 — Owner Accepted on Merge
 Canonical path: books/book-06-markorbit-lite/
 Manuscript files: 0
 Chapter map: not created
-Product Charter: B06-PLN-0004 v0.2 candidate
+Product Charter: B06-PLN-0004 v0.2
 Consolidated Owner Decision Matrix: B06-PLN-0005 v0.2
-Subscription and Daily Supply Amendment: B06-PLN-0006 v0.1
-Base Charter Review: B06-REV-0002
-Amendment Review: B06-REV-0003
+Subscription and Daily Supply Detail: B06-PLN-0006 v0.1
+Base Architecture Review: B06-REV-0002
+Subscription and Daily Supply Review: B06-REV-0003
 ```
 
 ## Current inventory
@@ -39,15 +39,6 @@ reviews/B06-REV-0001_Pre-Writing_Audit_Review.md
 reviews/B06-REV-0002_Product_Charter_Candidate_Review.md
 reviews/B06-REV-0003_Subscription_Daily_Content_and_Lead_Supply_Review.md
 ```
-
-## Governing dependencies
-
-- Book 01 — industry vision and Operating System principles;
-- Book 02 — Frozen Core Specification Baseline v0.1;
-- Book 03 — governed Execution;
-- Book 04 — Workplace, Product, Artifact, Render, Edit, Delivery and Publish architecture;
-- Book 05 — MarkReg RC1 and bounded Lite/MarkReg contracts;
-- B06-REV-0001 — accepted Pre-Writing Audit baseline.
 
 ## Charter baseline on owner merge
 
@@ -83,27 +74,11 @@ MVP 0:
 30-Day Daily Content and Customer Development Loop
 ```
 
-## Product supply loops
-
-```text
-Daily Content Supply
-→ Artifact
-→ Render / optional Edit
-→ Publish preparation
-→ use result
-
-Intention-Customer Supply
-→ qualification
-→ follow-up package
-→ Communication / Opportunity / MarkReg Handoff
-→ typed result
-```
-
 ## Owner Decisions
 
 ```text
 OD-01 identity and positioning: ACCEPTED ON MERGE
-OD-02 first main reference journey: ACCEPTED ON MERGE AS DAILY CONTENT-TO-CUSTOMER DEVELOPMENT
+OD-02 first main reference journey: ACCEPTED ON MERGE
 OD-03 Case Center MVP depth: ACCEPTED ON MERGE
 OD-04 local/private baseline: ACCEPTED ON MERGE
 OD-05 Lite-visible MGSN depth: ACCEPTED ON MERGE
@@ -127,10 +102,9 @@ Formal Opportunity ≠ Order or revenue
 
 ```text
 Existing upstream baseline sufficient: YES
-Product Charter candidate complete: YES
-Subscription and daily supply amendment complete: YES
-Base Charter review: PASS
-Amendment review: PASS WITH CONTROL
+Product Charter v0.2 candidate complete: YES
+Base architecture Review: PASS
+Subscription and daily-supply Review: PASS WITH CONTROL
 Book 02 Change Proposal required: NO
 Book 03 amendment required: NO
 Book 04 amendment required: NO
