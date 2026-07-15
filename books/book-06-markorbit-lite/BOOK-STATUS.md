@@ -17,7 +17,7 @@ Merge records owner acceptance of the enduring Lite Product baseline. It does no
 B06-PLN-0004 v0.3 — Product Charter
 + B06-PLN-0005 v0.3 — Owner Decision Matrix
 + B06-PLN-0006 — Commercial Plan and MVP Experiment Candidate
-+ B06-REV-0002 — Base architecture Review
++ B06-REV-0002 — Base Product Charter Architecture Review
 + B06-REV-0003 — Product Charter v0.3 Review
 ```
 
