@@ -180,7 +180,7 @@
 - Added stable `EL-*` and `RK-*` step identifiers and a complete CH08–CH47 chapter-to-journey matrix.
 - Preserved independent jurisdiction and right states and prohibited invented future outcomes.
 - Reconciled the initial three urgent RIVERKITE deadlines with the wider set of five renewal-related workflows.
-- Recorded the final EMBERLOOP state as UK registered, US under examination, EU in opposition, and Japan/Australia designations (OAPI, Cambodia, Croatia, Greece, Hungary, Iceland, Iran, Ireland, Israel, Italy, Kazakhstan, Kenya, Lao PDR, Latvia, Lithuania, Monaco, Morocco, Norway, ROK, Moldova, Malaysia, Mexico, India).
+- Recorded the final EMBERLOOP state as UK registered, US under examination, EU in opposition, and Japan/Australia candidates only.
 - Recorded the final RIVERKITE state as four ordinary renewals, one ownership-linked renewal, one cancellation defense, and open evidence/licence actions.
 - Reconciled Appendix D as a controlled reader draft.
 - Added B05-REV-0015, closed PF-03 and authorized PF-04 Scenario and User-Surface Consolidation.
