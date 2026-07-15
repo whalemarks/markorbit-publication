@@ -1,40 +1,36 @@
 # Appendix A — Full-Lifecycle Artifact and Decision Map
 
-**Status:** Controlled Appendix Draft — PF-02 Reconciled; publication editing pending PF-06 and PF-07  
-**Primary source:** B05-SPEC-0001 v0.2  
+**Status:** Controlled Reader Draft v0.3 — PF-06D Reconciled  
+**Primary source:** B05-SPEC-0001 v0.3  
 **Supporting chapters:** CH08–CH47  
-**Reader purpose:** provide a compact, traceable map of the records and accountable decisions used across MarkReg.
+**Reader purpose:** provide a compact map of MarkReg Product records and accountable Decisions.
 
-## A.1 Authority and Reading Rule
-
-This appendix is a reader projection of B05-SPEC-0001.
+## A.1 Reading Rule
 
 ```text
-Controlled specification
-→ reviewed appendix projection
+Controlled Specification
+→ reviewed Appendix projection
 → reader reference
 ```
 
-If this appendix conflicts with B05-SPEC-0001, the specification controls until a reviewed update resolves the conflict.
-
-The record classes are:
+B05-SPEC-0001 controls if a conflict exists.
 
 | Prefix | Meaning |
 | --- | --- |
-| `MR-A` | versioned Product artifact or work product |
-| `MR-C` | scoped journey or proceeding context |
-| `MR-D` | accountable Human or accepted external decision |
-| `MR-E` | source-backed evidence or official-event record |
-| `MR-B` | continuing baseline or obligation record |
-| `MR-V` | derived view or projection |
-| `MR-G` | governance, Pack, AI, metric, evaluation or conformance record |
+| `MR-A` | Product Artifact |
+| `MR-C` | scoped Context |
+| `MR-D` | accountable Decision |
+| `MR-E` | Evidence or source-backed record |
+| `MR-B` | Baseline or obligation record |
+| `MR-V` | View or Projection |
+| `MR-G` | Governance and configuration record |
 
 ```text
 Artifact ≠ Decision
 Decision ≠ Approval unless defined
 Approval ≠ Execution
 Evidence ≠ interpretation
-Projection ≠ official truth
+Projection ≠ Official Truth
 ```
 
 ## A.2 New Filing Lineage
@@ -44,6 +40,7 @@ MR-A01 Business Context Snapshot
 → MR-A02 Need Brief
 → MR-A03 Recommendation Set
 → MR-A04 Option Set
+→ MR-C12 Applicant and Authority Context where material
 → MR-A05 Proposal
 → MR-A06 Quote
 → MR-D01 Client Acceptance
@@ -62,17 +59,17 @@ MR-A01 Business Context Snapshot
 → MR-B01 Right Baseline or another sourced outcome
 ```
 
-Not every filing journey reaches registration. An acknowledged application may continue into examination, publication, dispute, abandonment, refusal or another official outcome.
+An acknowledged application may continue into examination, publication, dispute, abandonment, refusal, registration or another sourced outcome.
 
-## A.3 Examination and Response Lineage
+## A.3 Examination, Publication and Dispute
 
 ```text
 MR-E05 Official Event Snapshot
 → MR-C03 Examination Context
 → MR-A19 Issue Set
 → MR-A20 Response Option Set
-→ MR-A21 Response Strategy
 → MR-D06 Response Strategy Decision
+→ MR-A21 Response Strategy
 → MR-A22 Response Package Candidate
 → MR-D03 Filing Approval
 → MR-A17 Execution Request
@@ -81,10 +78,6 @@ MR-E05 Official Event Snapshot
 → MR-V02 Outcome Snapshot
 ```
 
-The same notice may contain several issues. Each issue retains its affected scope, source, response option and consequence.
-
-## A.4 Publication, Opposition and Remedy Lineage
-
 ```text
 MR-E05 Official Event Snapshot
 → MR-C04 Publication Window Context
@@ -92,27 +85,27 @@ MR-E05 Official Event Snapshot
 → MR-A23 Evidence Plan
 → MR-A24 Adversarial Package Candidate
 → MR-D07 Adversarial or Settlement Decision
-→ MR-D03 Filing Approval where a protected filing follows
-→ later MR-E05 Official Event Snapshots
-→ MR-C06 Remedy Context where needed
+→ MR-D03 Filing Approval where needed
+→ MR-C06 Remedy Context where activated
 → MR-V02 Outcome Snapshot
 ```
 
-Informal concern, threatened opposition, filed opposition, accepted proceeding, settlement and official closure remain separate.
+Informal concern, formal challenge, Decision, filing, settlement instrument and official closure remain separate.
 
-## A.5 Registration and Maintenance Lineage
+## A.4 Registration and Maintenance
 
 ```text
 MR-E08 Registration Outcome Record
+→ MR-V01 Filing and Scope Diff View
 → MR-B01 Right Baseline
 → MR-B02 Maintenance Obligation Set
 → MR-B03 Use-Evidence Coverage Record
 → service-specific next actions
 ```
 
-A certificate is evidence associated with a result. It is not automatically the current official record or a complete Maintenance Obligation Set.
+A certificate is Evidence associated with an outcome. It is not automatically the current official register or a complete obligation set.
 
-## A.6 Renewal Lineage
+## A.5 Renewal
 
 ```text
 MR-B01 Right Baseline
@@ -127,9 +120,7 @@ MR-B01 Right Baseline
 → updated MR-B01 Right Baseline
 ```
 
-Renewal preparation, approval, filing, acknowledgement and official renewal remain distinct.
-
-## A.7 Recordal and Transaction Lineage
+## A.6 Recordal, Transaction and Licence
 
 ```text
 MR-B01 Right Baseline
@@ -143,15 +134,15 @@ MR-B01 Right Baseline
 → updated MR-B01 Right Baseline
 ```
 
+`MR-C09 Licence Context` remains distinct from ownership and assignment.
+
 ```text
-Signed assignment or merger document
+Signed transaction
 ≠ recordal filed
 ≠ official owner updated
 ```
 
-Licence context uses MR-C09 and does not become ownership merely because licensed use supports evidence.
-
-## A.8 Portfolio and Cross-Product Lineage
+## A.7 Portfolio and Cross-Product
 
 ```text
 independent MR-B01 Right Baselines
@@ -163,8 +154,6 @@ independent MR-B01 Right Baselines
 → service-specific Decisions and Handoffs
 ```
 
-For embedded and cross-Product use:
-
 ```text
 MR-A12 Handoff Envelope
 → MR-C10 Product Session
@@ -172,22 +161,22 @@ MR-A12 Handoff Envelope
 → MR-A30 Return Envelope
 ```
 
-The Return Envelope is idempotent and purpose-limited. It does not create a duplicate Order, Matter or official right.
+Return is idempotent and purpose-limited. It does not create duplicate formal objects or external effects.
 
-## A.9 Compact Controlled Record Index
+## A.8 Compact Record Index
 
-### Product artifacts
+### Product Artifacts
 
 | Range | Records |
 | --- | --- |
-| MR-A01–A04 | Business Context, Need Brief, Recommendation Set and Option Set |
+| MR-A01–A04 | Business Context, Need, Recommendation and Options |
 | MR-A05–A07 | Proposal, Quote and Commercial Instruction |
-| MR-A08–A12 | Formal Intake, Requirement Set, Readiness, Filing Package and Handoff Envelope |
-| MR-A13–A18 | Lifecycle Projection, routing, appointment, provider instruction, Execution request and recovery plan |
-| MR-A19–A25 | Issue Set, response options and strategy, response/adversarial packages, Evidence Plan and Communication Packet |
-| MR-A26–A30 | renewal, recordal, affected-right, portfolio action and Return records |
+| MR-A08–A12 | Intake, Requirements, Readiness, Filing Package and Handoff |
+| MR-A13–A18 | Lifecycle Projection, routing, appointment, provider instruction, Execution request and recovery |
+| MR-A19–A25 | Issues, response options/strategy, response/adversarial Packages, Evidence Plan and Communication |
+| MR-A26–A30 | renewal, recordal, affected rights, Portfolio Action and Return |
 
-### Scoped contexts
+### Scoped Contexts
 
 | Range | Records |
 | --- | --- |
@@ -195,58 +184,49 @@ The Return Envelope is idempotent and purpose-limited. It does not create a dupl
 | MR-C03–C06 | Examination, Publication Window, Adversarial and Remedy Contexts |
 | MR-C07–C09 | Recordal, Transaction and Licence Contexts |
 | MR-C10–C11 | Product Session and Pilot Context |
+| MR-C12 | Applicant and Authority Context |
 
-### Evidence and source records
+`MR-C01` is Capability Need. Applicant and authority meaning belongs only to `MR-C12`.
 
-| Range | Records |
-| --- | --- |
-| MR-E01–E04 | submission, delivery, provider report and official acknowledgement evidence |
-| MR-E05–E07 | Official Event Snapshot, Deadline Record and Source Record |
-| MR-E08–E09 | Registration Outcome Record and Official Update Evidence |
-
-### Baselines and views
+### Evidence, Baselines and Views
 
 | Range | Records |
 | --- | --- |
-| MR-B01–B04 | Right Baseline, Maintenance Obligations, Use-Evidence Coverage and Provider Capability Evidence |
-| MR-V01–V05 | scope diff, outcome, chain-of-title, portfolio and participant projections |
+| MR-E01–E04 | submission, delivery, Provider Report and official acknowledgement |
+| MR-E05–E07 | Official Event, Deadline and Source Records |
+| MR-E08–E09 | Registration Outcome and Official Update Evidence |
+| MR-B01–B04 | Right, maintenance, use-Evidence and provider-capability Baselines |
+| MR-V01–V05 | scope diff, outcome, chain of title, portfolio and participant projections |
 
-### Governance records
+### Governance Records
 
 | Range | Records |
 | --- | --- |
-| MR-G01–G05 | Jurisdiction Pack, rules, Pack version, change candidate and organization overlay |
+| MR-G01–G05 | Jurisdiction Pack, Rule, Pack Version, change candidate and Organization Overlay |
 | MR-G06–G07 | AI Task Context and AI Output Record |
 | MR-G08–G10 | Metric Definition, Evaluation Record and Conformance Statement |
 
-## A.10 Accountable Decision Index
+## A.9 Decision Index
 
-| ID | Decision | Accountable actor | Exact scope | Does not equal |
-| --- | --- | --- | --- | --- |
-| MR-D01 | Client Acceptance | authorized client actor | exact Quote version and commercial scope | payment, changed scope or filing |
-| MR-D02 | Professional Decision | eligible professional | recommendation, readiness, evidence, strategy or override | client authority or Execution |
-| MR-D03 | Filing Approval | authorized Human role | exact package, purpose, route, jurisdiction and expiry | Execution or official effect |
-| MR-D04 | Human Selection | authorized organization actor | provider or route choice | appointment or provider acceptance |
-| MR-D05 | Provider Acceptance | appointed provider | accepted engagement and conditions | official submission |
-| MR-D06 | Response Strategy Decision | professional plus client where needed | selected response, amendment and evidence | response filing approval |
-| MR-D07 | Adversarial or Settlement Decision | authorized client and professional roles | proceeding, terms, authority and consequence | signed agreement, filing or official closure |
-| MR-D08 | Renewal Approval | authorized owner/client and organization role | exact right, scope, package, fee and route | renewed right |
-| MR-D09 | Recordal Approval | authorized owner/client and organization role | exact change, rights, documents and jurisdictions | official update |
-| MR-D10 | Non-Renewal Decision | authorized owner/client | one right and understood consequence | official lapse before it occurs |
-| MR-D11 | Communication Approval | authorized reviewer or sender | exact recipients, purpose, content and attachments | delivery or acknowledgment |
-| MR-D12 | Pack Release Approval | accountable professional owner | exact Pack version and effective scope | official law or office rule |
-| MR-D13 | Pilot or Release Decision | authorized Product/publication reviewer | profile, evidence, limits and stop conditions | production authority unless separately granted |
+| ID | Decision | Does not equal |
+| --- | --- | --- |
+| MR-D01 | Client Acceptance | payment, changed scope or filing |
+| MR-D02 | Professional Decision | client authority or Execution |
+| MR-D03 | Filing Approval | Execution or official effect |
+| MR-D04 | Human Selection | appointment or acceptance |
+| MR-D05 | Provider Acceptance | official submission |
+| MR-D06 | Response Strategy Decision | Response Filing Approval |
+| MR-D07 | Adversarial or Settlement Decision | signed instrument, filing or official closure |
+| MR-D08 | Renewal Approval | filed renewal or renewed right |
+| MR-D09 | Recordal Approval | official update |
+| MR-D10 | Non-Renewal Decision | official lapse before it occurs |
+| MR-D11 | Communication Approval | delivery or acknowledgement |
+| MR-D12 | Pack Release Approval | legal enactment or official publication |
+| MR-D13 | Pilot or Release Decision | production or External Protected Action authority |
 
-## A.11 Formalization Boundary
+## A.10 Formalization Boundary
 
-The following remain outside Product-local ownership:
-
-- Core Organization, Client, Brand and Trademark objects;
-- formal Order, Matter, Task, Workflow and responsibility records;
-- formal Document, Evidence, Review, Approval, Communication and payment records;
-- Book 03 Execution attempts, idempotency and Events;
-- provider-system records;
-- official office applications, registrations, proceedings and register entries.
+MarkReg does not own Core Objects; formal Order, Matter, Task, Workflow, Document, Evidence, Review, Approval, Communication or financial records; Book 03 Execution records; provider-system records; or official office records.
 
 ```text
 Product-local candidate
@@ -256,32 +236,16 @@ Product-local candidate
 ≠ official record
 ```
 
-## A.12 Version and Change Rule
-
-Every material controlled record retains stable ID, version, purpose, sources, responsible actor, Review, validity, supersession and downstream references.
-
-A changed upstream fact does not silently mutate:
-
-- an accepted Quote;
-- an approved package;
-- a formal Order or Matter;
-- a provider instruction;
-- an Execution attempt;
-- an official record;
-- a sent Communication.
-
-## A.13 Publication Status
+## A.11 PF-06D Reconciliation State
 
 ```text
-PF-02 controlled-ID reconciliation: COMPLETE
-Full-lifecycle lineage reconciliation: COMPLETE
-Decision register reconciliation: COMPLETE
-Formalization boundary reconciliation: COMPLETE
-PF-03 reference-journey editing: STILL REQUIRED FOR APPENDIX D
-PF-04 scenario and participant editing: STILL REQUIRED FOR APPENDICES C, E AND G
-PF-05 Jurisdiction Pack editing: STILL REQUIRED FOR APPENDIX F
-PF-06 native-English and compression edit: REQUIRED
-PF-07 final figure and rendered layout integration: REQUIRED
+B05-SPEC-0001 v0.3 projection: COMPLETE
+MR-C12 registration: COMPLETE
+Record ranges and lineages: COMPLETE
+Decision index: COMPLETE
+Formalization boundary: COMPLETE
+Native-English and terminology edit: COMPLETE
+Figures and layout: OPEN — PF-07/PF-08
 ```
 
-Appendix A is now a controlled reader draft. It is not yet Release Candidate copy.
+Appendix A remains a controlled reader draft until figures and rendered validation pass. It does not authorize implementation, production deployment or External Protected Action.
