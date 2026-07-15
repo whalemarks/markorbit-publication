@@ -1,13 +1,15 @@
 # B06-PLN-0004 — MarkOrbit Lite Product Charter Candidate
 
+> **Amendment notice:** This base Charter is amended by `B06-PLN-0006 — Subscription, Daily Content and Lead Supply Charter Amendment`. Where that later record corrects the commercial promise, Today interpretation, first main journey, MVP 0 or Owner Decisions, `B06-PLN-0006` and consolidated `B06-PLN-0005 v0.2` control. The combined baseline is Product Charter v0.2.
+
 ## 1. Identity
 
 ```text
 Record: B06-PLN-0004
 Book: Book 06 — MarkOrbit Lite
-Record type: Product Charter Candidate
-Version: v0.1
-Status: Candidate — effective as the Product Charter baseline on owner merge
+Record type: Base Product Charter Candidate
+Version: v0.1, amended to combined Charter v0.2
+Status: Candidate — effective as part of the Product Charter baseline on owner merge
 Authority: Architecture Canon, Books 01–05, MO-PUB-BASELINE-0001 and B06-REV-0001
 Manuscript drafting authorized by this record alone: NO
 Implementation authorized: NO
@@ -15,11 +17,11 @@ Production authorized: NO
 External Protected Action authorized: NO
 ```
 
-## 2. Charter question
+## 2. Base Charter question
 
 > What Product is MarkOrbit Lite, for whom does it exist, which focused value loop does it own, which records and experiences may remain Product-local, which formal responsibilities must it consume or hand off, and what bounded MVP should prove its value without becoming a second Core, Execution system, Workplace platform, MarkReg or MGSN?
 
-This Charter translates the accepted pre-writing audit into a Product-level constitution.
+This base Charter translates the accepted pre-writing audit into a Product-level constitution.
 
 It does not define:
 
@@ -41,38 +43,35 @@ MarkOrbit Orbital Architecture Canon
 → Book 04 Workplace and Product Architecture
 → Book 05 MarkReg RC1 cross-Product contracts
 → Book 06 Pre-Writing Audit
-→ this Product Charter Candidate
+→ base Product Charter
+→ subscription and daily-supply amendment
 → future Lite Product records, journeys and scenarios
 → chapter map
 → manuscript
 → implementation specifications and ADRs
 ```
 
-Lower levels may clarify or implement this Charter.
+Lower levels may clarify or implement the combined Charter.
 
-They may not silently redefine its upstream authority.
+They may not silently redefine upstream authority.
 
-## 4. Canonical Product identity
+## 4. Base canonical Product identity
 
-The recommended canonical identity is:
-
-> **MarkOrbit Lite is a Today-centered lightweight Workplace Product for trademark professionals.**
+> **MarkOrbit Lite is a lightweight Workplace Product for trademark professionals.**
 
 It is:
 
 - individual-first but organization-centered;
 - designed primarily for independent trademark professionals and small teams;
 - usable as a lightweight entry surface for larger Organization Workplaces;
-- focused on attention, recommendations, preparation, business Artifacts and governed handoffs;
+- focused on daily content supply, intention-customer supply, preparation, business Artifacts and governed Handoffs;
 - capable of operating as a standalone Product, an embedded Product, a mobile experience or a local/private bridge;
 - narrower than the full Workplace platform;
 - independent from MarkReg and MGSN while interoperating with both.
 
-The recommended market-facing promise is:
+The concrete market promise is controlled by `B06-PLN-0006`:
 
-> **The AI-assisted growth and action workspace through which trademark professionals discover value, prepare trusted work and move selected opportunities into governed outcomes.**
-
-The market promise does not replace the canonical Product identity.
+> **Daily content and customer-development workspace for trademark professionals.**
 
 ```text
 Canonical identity
@@ -81,8 +80,11 @@ Canonical identity
 Lightweight Workplace Product
 ≠ generic CRM
 
-Growth workspace
-≠ revenue-only optimization engine
+Daily content supply
+≠ topic recommendation
+
+Intention-customer supply
+≠ guaranteed customer
 
 AI-assisted
 ≠ autonomous professional authority
@@ -90,978 +92,409 @@ AI-assisted
 
 ## 5. Primary users
 
-### 5.1 Primary user — independent trademark professional
+### 5.1 Independent trademark professional
 
 This user:
 
 - manages client relationships and professional delivery personally;
+- needs regular content to maintain visibility and develop customers;
+- needs relevant intention-customer candidates rather than an unverified contact dump;
 - works across email, chat, files, official sources, spreadsheets and local knowledge;
-- needs to recognize what deserves attention before it becomes urgent;
-- often prepares client-facing explanations, recommendations and follow-ups;
 - needs a lightweight operating environment rather than an enterprise administration system;
 - remains professionally accountable for advice, communication and action.
 
-### 5.2 Primary user — small trademark team
+### 5.2 Small trademark team
 
 This team:
 
 - shares selected clients, cases, templates and operating memory;
-- needs coordination without adopting a large Workplace administration surface;
+- needs daily content and development support without adopting a large Workplace administration surface;
 - requires role, organization, client and Matter boundaries;
 - may divide relationship, professional, finance and coordination responsibilities;
 - must not confuse shared visibility with authority.
 
-### 5.3 Secondary user — larger Workplace participant using Lite mode
+### 5.3 Larger Workplace participant using Lite mode
 
 A larger organization may expose Lite as:
 
-- a personal Today surface;
+- a Daily Growth Desk;
 - an individual professional workspace;
-- a mobile attention and preparation surface;
+- a mobile content, candidate and confirmation surface;
 - a local/private companion;
 - an embedded entry point into MarkReg, MGSN, Review or organization-specific applications.
 
 Lite mode does not replace the parent Workplace or inherit unrestricted organization access.
 
-### 5.4 Non-primary participants
-
-Clients, providers, finance users, administrators and external collaborators may receive purpose-limited Artifacts, confirmation surfaces or returned outcomes.
-
-They are not the primary operating users of Lite v0.1.
-
 ## 6. Primary Product problem
 
-Trademark professionals do not primarily suffer from a lack of information or a lack of text-generation tools.
+Trademark professionals do not mainly need one more general-purpose AI chat window.
 
-They suffer from fragmentation between:
+They need a dependable and affordable daily supply of material they can actually publish or use, plus relevant customers they may develop.
 
-- public and private sources;
-- client and Matter context;
-- personal notes and organizational memory;
-- trademark events and commercial opportunities;
-- professional knowledge and action preparation;
-- cases and reusable client communication;
-- recommendations and formal execution;
+They currently face fragmentation between:
+
+- trademark data and publishable content;
+- professional Knowledge and daily communication;
+- cases and reusable client persuasion;
+- content production and rendering;
+- public/private-domain output and lead development;
+- potential customer signals and formal Opportunity qualification;
+- recommendations and governed external action;
 - local tools and shared systems;
 - Product results and external outcomes.
 
-This fragmentation causes:
+This causes:
 
-- valuable work to be missed;
-- follow-up to occur late or without context;
-- cases and experience to remain difficult to reuse safely;
-- generic AI output that lacks source, subject and purpose;
-- duplicate preparation across Products;
-- unsafe shortcuts from suggestion to send, publish or formal action;
-- personal knowledge to remain isolated or to be shared without governance;
-- service opportunities to be treated as sales guesses rather than professional value candidates.
+- inconsistent public output;
+- long periods without useful content;
+- generic AI copy that cannot be used directly;
+- videos that remain scripts or briefs rather than finished output;
+- unverified lead lists with little development value;
+- missed client and service opportunities;
+- duplicated preparation;
+- unsafe shortcuts from generation to send or Publish.
 
-The Product problem is therefore:
+The corrected Product problem is:
 
-> How can a trademark professional understand what deserves attention now, why it matters, what trusted work should be prepared, which action or Artifact is appropriate, and where the result must be handed off—without losing professional responsibility, source trace, client interest, privacy or formal authority?
+> How can a trademark professional receive useful content every day, identify relevant intention-customer candidates, prepare trustworthy development actions and move qualified needs into the correct governed journey—at a low subscription price without sacrificing source quality, rights, professional responsibility, privacy or formal authority?
 
-## 7. Product promise
+## 7. Concrete Product promise
 
-Lite promises to help the user:
+For an initial reference price of RMB 99 per month, Lite promises:
 
-1. **notice** important professional and commercial signals;
-2. **understand** why a signal matters and what source supports it;
-3. **choose** whether to dismiss, defer, investigate or act;
-4. **prepare** a useful Artifact, Communication draft, qualification package or cross-Product handoff;
-5. **confirm** the exact purpose, subject, audience and consequence;
-6. **hand off** consequential work to the correct Product, Review, Execution boundary or Owning Service;
-7. **receive** typed results without misrepresenting Product or external state;
-8. **learn** from user disposition, corrections and sourced outcomes within the allowed personal and organization boundary.
+1. at least one usable Daily Content Unit per calendar day;
+2. a disclosed rotation of illustrated posts, short videos and Moments/private-domain copy;
+3. actual usable video delivery when the daily unit is declared as video;
+4. ongoing intention-customer candidates with reason, source and quality context;
+5. practical development angles and follow-up preparation;
+6. case, Knowledge, Asset and trademark-data support where authorized;
+7. copy, download, Render and Publish preparation;
+8. final user control over claims, audience, recipient, account and external action;
+9. formal Handoff to Communication, Opportunity, MarkReg, MGSN, Review or Execution where required;
+10. typed outcomes, correction and learning without false formal state.
 
-## 8. Primary Product loop
+The detailed contract is controlled by `B06-PLN-0006`.
 
-The canonical Lite loop is:
+## 8. Daily Growth Desk and Product loops
 
-```text
-Today
-→ Understand
-→ Choose
-→ Prepare
-→ Confirm
-→ Handoff
-→ Outcome
-→ Learn
-```
+`Today` remains the Product home, but it is not one abstract recommendation.
 
-The focused action spine is:
+It is the **Daily Growth Desk**:
 
 ```text
-Authorized observation or returned result
-→ Signal
-→ Value Candidate
-→ Explainable Recommendation
-→ User disposition
-→ Prepared Action or business Artifact
-→ Exact-purpose confirmation
-→ Typed Handoff or manual-confirmed operation
-→ Typed result return
-→ feedback, suppression, correction or memory candidate
+Today's Content
++ Customer Opportunities
++ Action Queue
++ Results and Feedback
 ```
 
-### 8.1 Today
+### 8.1 Daily Content Supply Loop
 
-Today answers:
+```text
+editorial calendar / trademark data / governed Knowledge / approved cases
+→ Content and Artifact preparation
+→ Render and optional Edit
+→ Daily Content Unit
+→ user preview and adjustment
+→ copy / download / Publish preparation
+→ use or publication result
+→ feedback
+```
 
-> What deserves my attention now?
+### 8.2 Intention-Customer Supply Loop
 
-It may aggregate:
+```text
+authorized observation
+→ commercial or professional signal
+→ intention-customer candidate
+→ source, reason, relevance and confidence
+→ user qualification
+→ development angle and follow-up package
+→ final user confirmation
+→ Communication or manual outreach
+→ response / no response / invalid candidate
+→ formal Opportunity or MarkReg Handoff where appropriate
+→ outcome and learning
+```
 
-- client and relationship signals;
-- trademark and lifecycle observations;
-- returned Product outcomes;
-- pending user decisions;
-- review or preparation needs;
-- service-conversion candidates;
-- case and content opportunities;
-- knowledge freshness or source conflicts;
-- local/private observations allowed for the current context.
+### 8.3 Combined loop
 
-Today is not a universal Task list.
-
-### 8.2 Understand
-
-The user should be able to inspect:
-
-- source and freshness;
-- subject and affected client;
-- reason for attention;
-- professional and commercial significance;
-- confidence and uncertainty;
-- missing context;
-- privacy and scope restrictions;
-- candidate next actions;
-- destination Product or service where applicable.
-
-### 8.3 Choose
-
-The user may:
-
-- inspect further;
-- accept for preparation;
-- dismiss;
-- snooze;
-- suppress a duplicate pattern;
-- correct facts;
-- request more information;
-- select a different action;
-- route to another person or Product where authorized.
-
-Selection is not execution.
-
-### 8.4 Prepare
-
-Lite may prepare:
-
-- client-facing explanations;
-- case-derived Artifacts;
-- Communication drafts;
-- opportunity qualification drafts;
-- client follow-up packages;
-- Content and Publish Packages;
-- MarkReg launch or continuation handoffs;
-- MGSN Capability Need handoffs;
-- Review requests;
-- requests for formal Opportunity or Task creation;
-- manual action checklists.
-
-Preparation remains versioned and purpose-bound.
-
-### 8.5 Confirm
-
-Before consequential handoff or external action, the user should see:
-
-- exact subject;
-- exact client or audience;
-- purpose;
-- selected version;
-- source limitations;
-- intended consequence;
-- recipient or destination;
-- required review or approval;
-- what Lite will do;
-- what Lite will not do;
-- what formal result is expected.
-
-### 8.6 Handoff
-
-Lite hands prepared work to:
-
-- MarkReg;
-- MGSN Gateway or a future governed network surface;
-- Human Review;
-- Book 03 Execution;
-- Communication Service;
-- Opportunity Service;
-- Task Service;
-- Document or Artifact formalization boundary;
-- local/manual user-confirmed operation;
-- another authorized Product or Workplace surface.
-
-Handoff transfers responsibility for the next bounded stage.
-
-It does not transfer object ownership or authority.
-
-### 8.7 Outcome
-
-Lite receives typed outcomes such as:
-
-- accepted for preparation;
-- more information required;
-- review requested;
-- formal Opportunity created or rejected;
-- MarkReg Product Session created;
-- Communication send accepted, failed or unknown;
-- Artifact delivered or published with evidence;
-- provider candidate set returned;
-- formal result reference returned;
-- external outcome unknown;
-- action blocked by Permission, Policy, review, stale context or unsupported capability.
-
-Lite presents the source result.
-
-It does not flatten all outcomes into `Done`.
-
-### 8.8 Learn
-
-Learning may use:
-
-- user acceptance or rejection;
-- dismissal and suppression;
-- corrected facts;
-- reviewer disposition;
-- returned Product result;
-- service-confirmed result;
-- client response where recorded;
-- conversion or non-conversion context;
-- Artifact reuse;
-- outcome and later correction;
-- explicit preference updates.
-
-Learning does not automatically promote personal activity, case experience or AI output into shared Knowledge or organization policy.
+```text
+Daily Content Unit
++ intention-customer candidate
++ case / service context
+→ targeted development action
+→ response and qualification
+→ governed service journey
+→ outcome and learning
+```
 
 ## 9. Product value model
 
-Lite should create value across six dimensions.
+Lite should create value across:
 
-### 9.1 Reduce missed work
+1. **Daily output continuity** — the subscriber has something useful to publish or share each day.
+2. **Customer-development supply** — relevant candidates and reasons are available for qualification.
+3. **Professional presentation** — outputs are accurate, usable and audience-appropriate.
+4. **Relationship value** — outreach serves a real client or prospect interest rather than indiscriminate pressure.
+5. **Appropriate service conversion** — qualified needs progress into Opportunity, MarkReg or another governed service journey.
+6. **Reusable capability** — cases, corrections, templates and outcomes improve future output within scope.
+7. **Operational safety** — external action, rights, privacy and formal state remain controlled.
+8. **Economic value** — the subscriber perceives value above RMB 99 while the Product retains sustainable gross margin.
 
-Examples:
+## 10. Capability priorities
 
-- important client or trademark signals surfaced in time;
-- stale or unresolved items made visible;
-- returned Product outcomes connected to next attention;
-- duplicate or low-value noise suppressed.
+1. **Daily Content Supply**
+2. **Intention-Customer Supply**
+3. **Artifact, Render and Publish Enablement**
+4. **Case, Knowledge and Professional Context**
+5. **Prepared Action and Cross-Product Handoff**
+6. **Personal and Organization Continuity**
 
-### 9.2 Improve professional judgment
+These are Charter priorities, not final navigation labels.
 
-Examples:
+## 11. Candidate Product-local state classes
 
-- sources, versions and uncertainty visible;
-- relevant prior experience discoverable;
-- candidate actions compared rather than asserted;
-- missing information exposed before action.
+The next Product baseline may define candidate records for:
 
-### 9.3 Strengthen relationship value and trust
+### Subscription and entitlement
 
-Examples:
+- Subscription Context;
+- Entitlement Window;
+- Daily Content Plan;
+- Daily Fulfillment Result.
 
-- relevant client follow-up prepared with context;
-- client interest distinguished from sales pressure;
-- communication reflects prior relationship and approved preferences;
-- claims remain sourced and bounded.
+### Content and Artifact
 
-### 9.4 Accelerate appropriate service conversion
+- Daily Content Unit;
+- Content Brief;
+- Content Draft;
+- Graphic Post;
+- Moments Copy;
+- Video Project;
+- Render Result;
+- Publish Package;
+- use and publication result presentation.
 
-Examples:
-
-- a genuine service need recognized earlier;
-- the correct client/contact and service explained;
-- qualification and client communication prepared faster;
-- selected need handed to MarkReg or another service without duplicate intake.
-
-### 9.5 Improve delivery and professional presentation
-
-Examples:
-
-- cases and Knowledge converted into reviewed Artifacts;
-- templates, Assets and source lineage preserved;
-- Delivery and Publish preparation remain channel-aware;
-- client-facing outputs are clearer and more consistent.
-
-### 9.6 Accumulate reusable personal and organizational capability
-
-Examples:
-
-- corrections and outcomes preserved;
-- useful cases become reviewed memory or Assets;
-- personal preferences remain scoped;
-- validated lessons become available for future work;
-- unsafe or stale patterns are retired.
-
-The governing value rule is:
-
-> Lite should increase the probability of useful, trusted and commercially valuable professional action without weakening client interest, source quality, professional responsibility, privacy or formal authority.
-
-## 10. Product capability pillars
-
-These are Charter-level capability pillars, not final navigation labels.
-
-### Pillar 1 — Today and Attention
-
-Purpose:
-
-- aggregate authorized observations and returned outcomes;
-- explain what deserves attention and why;
-- rank without hiding uncertainty;
-- support dismiss, snooze, suppress, correct and investigate behavior.
-
-Lite owns the Product experience and Product-local attention state.
-
-It does not own formal Task or deadline truth.
-
-### Pillar 2 — Growth and Relationship Value
-
-Purpose:
-
-- identify client follow-up and service-value candidates;
-- connect professional context to appropriate commercial action;
-- prepare qualification, explanation and follow-up;
-- measure appropriate conversion without treating revenue as the only outcome.
-
-Lite may own Product-local signals, Value Candidates and lead-like preparation state.
-
-Formal Customer, Contact, Opportunity, Communication and revenue facts remain external.
-
-### Pillar 3 — Case, Knowledge and Artifact Enablement
-
-Purpose:
-
-- discover authorized internal case context;
-- preserve useful lesson candidates;
-- create reviewed reusable Case Assets;
-- transform selected case facts into client-facing or public Artifacts;
-- preserve source, rights, anonymization, audience and lineage.
-
-The required chain is:
-
-```text
-Internal Case Context
-→ Case Memory / Lesson Candidate
-→ Approved Reusable Case Asset
-→ External Case Artifact or Publish Package
-```
-
-No universal Core Case object is introduced by this Charter.
-
-### Pillar 4 — Prepared Action and Cross-Product Handoff
-
-Purpose:
-
-- turn selected recommendations into inspectable packages;
-- preserve subject, purpose, sources, versions, restrictions and expected result;
-- launch or continue MarkReg journeys;
-- prepare MGSN Capability Needs;
-- request Review, Task, Opportunity, Communication or other governed operations;
-- receive typed Return results.
-
-Lite does not perform protected action merely because a package is complete.
-
-### Pillar 5 — Personal and Organization Continuity
-
-Purpose:
-
-- preserve personal preferences and corrections;
-- use authorized organization context;
-- maintain personal, organization, client, Matter and local scopes;
-- support local/private participation;
-- connect outcomes and feedback over time;
-- make Product origin and prior disposition visible.
-
-Personal context does not automatically become organization truth.
-
-Organization activity does not automatically become shared model training data.
-
-## 11. Product-owned state classes
-
-Book 06 may define Product-local records for the following classes during the next planning stage.
-
-### 11.1 Interaction and attention
-
-- Lite Session;
-- Today Snapshot;
-- Attention Item presentation;
-- user disposition;
-- snooze and suppression preference;
-- Product-local navigation and continuation state.
-
-### 11.2 Observation and candidate
+### Customer development
 
 - source-linked Observation;
-- Signal;
-- Value Candidate;
-- Product-local Lead candidate;
-- content or case-use candidate;
-- Recommendation presentation.
+- intention-customer candidate;
+- Candidate Qualification;
+- Development Angle;
+- Follow-Up Package;
+- candidate disposition, suppression and replacement result.
 
-### 11.3 Preparation
+### Handoff and continuity
 
-- Prepared Action representation;
-- Communication draft reference;
-- opportunity qualification draft;
-- Case Artifact draft;
-- Publish Package candidate;
+- Prepared Action;
 - Handoff Envelope;
-- missing-information and readiness result.
-
-### 11.4 Continuity and learning
-
 - Return Envelope presentation;
-- outcome observation;
-- user feedback;
-- correction;
-- preference candidate;
-- memory or reusable-Asset promotion candidate;
+- feedback, correction and learning candidate;
 - evaluation and pilot records.
 
-These state classes are not yet assigned controlled IDs.
-
-The next Product-record baseline must determine whether each class requires:
-
-- independent identity;
-- version;
-- lifecycle;
-- retention;
-- organization scope;
-- source references;
-- Owning Service handoff;
-- formal promotion or deletion behavior.
+These are candidate classes, not yet controlled IDs or database schemas.
 
 ## 12. Responsibilities consumed but not owned
 
 | Responsibility | Source authority | Lite responsibility |
 | --- | --- | --- |
-| Organization, User, Role, Permission and Policy | Book 02 / Workplace | consume authorized context and display active scope |
-| Customer and Customer Contact | Core Owning Services | reference, propose correction or request authorized operation |
-| formal Opportunity | Opportunity Service | discover and prepare candidate; request creation; present returned state |
-| active Task | Task Service | surface or propose work; never create shadow active status |
-| Communication send | Communication Service / Book 03 | draft, review-package, confirm and hand off |
+| Organization, User, Role, Permission and Policy | Book 02 / Workplace | consume authorized context |
+| Customer and Contact | Core Owning Services | reference and request governed operation |
+| formal Opportunity | Opportunity Service | supply and qualify candidate; request creation; present result |
+| active Task | Task Service | surface or propose work; no shadow status |
+| Communication send | Communication Service / Book 03 | draft, confirm and hand off |
 | Review and approval | governed responsibility boundaries | present exact-version package and receive disposition |
-| Order and Matter | Owning Services | reference and hand off; do not redefine lifecycle |
-| trademark lifecycle | MarkReg and relevant Owning Services | launch, continue and present returned results |
+| trademark lifecycle | MarkReg | launch, continue and present returned result |
 | provider discovery, Trust and Routing | MGSN | prepare Capability Need and show minimized returned candidates |
-| Document and Evidence | Core boundaries | reference, prepare Artifact or formalization request; preserve restrictions |
-| shared Knowledge | Knowledge governance | consume authorized sources and submit contribution candidates |
-| Publish result | governed Publish operation | prepare package, obtain confirmation and present evidence |
-| external or official action | Execution plus Owning Service / authority | prepare and hand off; never claim unsupported effect |
+| Artifact, Render, Delivery and Publish | Book 04 and governing capabilities | prepare, render, preview and present result without false publication state |
+| external or official action | Execution plus Owning Service / authority | prepare and hand off only |
 
-## 13. Formal cross-Product relationships
+## 13. Data, AI, rights and external-action constitution
 
-### 13.1 Lite to MarkReg
+Lite must preserve:
 
-```text
-Lite Observation / Value Candidate
-→ purpose-bound Handoff Envelope
-→ MarkReg revalidation and Product Session
-→ governed MarkReg journey
-→ typed Return Envelope
-→ Lite Today / Outcome presentation
-```
-
-Lite does not decide filing readiness, create Filing Approval or own the trademark lifecycle.
-
-### 13.2 Lite to MGSN
-
-```text
-Capability or provider need
-→ minimized Capability Need preparation
-→ MGSN discovery / Trust / Routing boundary
-→ human selection and governed collaboration
-→ returned candidate or outcome summary
-→ Lite presentation
-```
-
-Lite does not own provider ranking authority, open bidding, appointment or network Trust.
-
-### 13.3 Lite to Review and Execution
-
-```text
-Recommendation selected
-→ Prepared Action or Artifact
-→ exact-purpose confirmation
-→ Human Review where required
-→ Execution revalidation
-→ Owning Service operation
-→ typed result
-```
-
-User confirmation is not Human Review.
-
-Human Review is not execution authority.
-
-### 13.4 Lite to Communication
-
-```text
-candidate recipient and purpose
-→ draft variants
-→ source and attachment review
-→ exact recipient confirmation
-→ Communication handoff
-→ service-confirmed result
-```
-
-Lite must not mark a draft or prepared message as sent.
-
-### 13.5 Lite to Artifact, Delivery and Publish
-
-```text
-Content + sources + Assets + case context
-→ Artifact candidate
-→ review for defined use
-→ approved representation / Publish Package
-→ final user confirmation or governed operation
-→ Delivery / Publish evidence
-→ outcome return
-```
-
-`Publish Package ready` is not `published`.
-
-## 14. Data and privacy constitution
-
-Lite must preserve the data-zone distinctions established by Book 04:
-
-- Public Source;
-- Shared Governed;
-- Organization Private;
-- Client Restricted;
-- Matter Restricted;
-- Personal Private;
-- Local Device / Local Vault;
-- Trusted Network Exchange.
-
-### 14.1 Minimum context rule
-
-Every material candidate should preserve:
-
-- source;
-- controller and active organization;
-- subject;
-- client or Matter scope;
-- purpose;
-- classification;
-- freshness;
-- transformation history;
-- allowed fields;
-- destination;
-- expiry;
-- review requirement.
-
-### 14.2 Local and private data
-
-The recommended baseline is **hybrid minimization**:
-
-- raw local case libraries and working files may remain local;
-- Lite may retrieve or process them through a governed local/private Capability;
-- only the minimum approved candidate, references or derived Artifact context crosses the boundary;
-- derived output retains source class and does not become safe merely because raw data stayed local;
-- credentials, browser sessions and device-bound secrets remain local where possible;
-- local storage does not create authority.
-
-### 14.3 Personal versus organization context
-
-```text
-Personal note
-≠ organization Knowledge
-
-Personal preference
-≠ organization Policy
-
-Organization access
-≠ client-wide access
-
-Client relationship access
-≠ Matter access
-
-Local availability
-≠ synchronization permission
-```
-
-Promotion from personal or case experience into organization memory, reusable Asset or shared Knowledge requires a deliberate governed decision.
-
-## 15. AI constitution
-
-Lite may use governed AI to:
-
-- summarize;
-- classify;
-- compare;
-- extract;
-- rank candidates;
-- explain recommendations;
-- identify gaps;
-- prepare drafts;
-- transform approved Content into Artifact candidates;
-- suggest next actions;
-- support local/private retrieval where authorized.
-
-AI must preserve:
-
-- Agent identity;
-- capability and contract;
-- purpose;
-- data scope;
-- sources and versions;
-- confidence and uncertainty;
-- prohibited conclusions;
-- required Human Review;
-- output classification;
-- user and reviewer disposition.
-
-AI must not silently:
-
-- become the professional identity;
-- sign or approve;
-- choose final external recipients;
-- send or publish;
-- create official or formal state;
-- appoint a provider;
-- treat case success as universal law;
-- access all personal or organization memory;
-- convert accepted wording into organization policy;
-- retry an unknown external outcome.
-
-A Personal AI Clone or Persona is an experience and preference layer under these rules.
-
-It is not a digital replacement for the accountable professional.
-
-## 16. Product modes
-
-Lite may support several conforming modes.
-
-### 16.1 Standalone Lite
-
-Own application shell with authorized Organization context and focused Product identity.
-
-### 16.2 Workplace-embedded Lite
-
-Today, recommendation or preparation surfaces embedded inside a larger Workplace while retaining Lite origin and Product state.
-
-### 16.3 Mobile Lite
-
-Narrow attention, explanation, confirmation and return-result functions suitable for mobile operation.
-
-### 16.4 Local/private companion
-
-Local search, case retrieval, document extraction, rendering or credential-preserving assistance through a governed bridge.
-
-### 16.5 Degraded/manual mode
-
-Where a formal connector is unavailable, Lite may:
-
-- prepare a package;
-- explain manual steps;
-- allow copy/download;
-- require user confirmation;
-- record user-reported outcome separately from service-confirmed outcome.
-
-Mode differences must not weaken constitutional boundaries.
-
-## 17. Primary reference journey recommendation
-
-The recommended first reference journey is the **Existing Client Value Journey**.
-
-### 17.1 Trigger
-
-An authorized source indicates a potentially useful client action, such as:
-
-- an approaching maintenance need;
-- a portfolio gap;
-- an official or fee change relevant to an existing client;
-- a returned MarkReg result that creates a next client discussion;
-- a case pattern relevant to the client’s current situation.
-
-### 17.2 Journey
-
-```text
-Authorized client / trademark observation
-→ Today attention item
-→ source and relevance explanation
-→ service-value candidate
-→ user inspects client, scope and uncertainty
-→ user selects follow-up
-→ Lite prepares a case-supported client Artifact
-  and a purpose-specific Communication draft
-→ user confirms recipient, claims and intended consequence
-→ Communication handoff or manual confirmed send
-→ optional MarkReg launch handoff
-→ Communication / MarkReg result returns
-→ client response and outcome recorded where available
-→ user corrects, suppresses or promotes a lesson candidate
-```
-
-### 17.3 Why this journey is recommended
-
-It tests:
-
-- Today and attention;
-- growth without sales-only ranking;
-- client and trademark context;
+- Public, Shared Governed, Organization Private, Client Restricted, Matter Restricted, Personal Private, Local and Trusted Exchange zones;
 - source and freshness;
-- Case Center value;
-- Artifact preparation;
-- Communication boundary;
-- MarkReg Handoff and Return;
-- outcome feedback;
-- personal and organization learning.
+- purpose limitation;
+- case and client restrictions;
+- Asset and media rights;
+- AI identity, capability, context and uncertainty;
+- exact audience, recipient and account confirmation;
+- user-reported versus service/platform-confirmed outcomes.
 
-It is narrow enough for an MVP but broad enough to prove Lite’s distinctive value.
+```text
+Daily Content Unit
+≠ unreviewed model output
 
-## 18. MVP strategy
+Short Video delivered
+≠ script or scene plan
 
-A full lightweight Workplace constitution does not require a full Product implementation in the first release.
+Intention-customer candidate
+≠ guaranteed customer
 
-### MVP 0 — Attention-to-Prepared-Value Loop
+Contact found
+≠ unrestricted contact permission
 
-Goal:
+Publish Package ready
+≠ published
 
-> Prove that Lite can turn one authorized client/trademark signal into a trusted, reviewable and useful follow-up package and a governed next-step handoff.
+Candidate accepted
+≠ formal Opportunity
+```
 
-Minimum scope:
+## 14. First reference journey
 
-- one supported Organization context;
-- one client/trademark signal class;
-- Today card with source, reason and uncertainty;
-- inspect, dismiss, snooze and correct behavior;
-- one case-reference or case-derived Artifact path;
-- one client follow-up Communication draft;
-- exact recipient and purpose confirmation;
-- manual or Communication-Service handoff;
-- one MarkReg launch/return path;
-- typed outcomes and failure;
-- feedback and suppression;
-- explicit personal/local/private restrictions.
+The accepted first main journey on owner merge is the **Daily Content-to-Customer Development Journey**:
 
-MVP 0 may stop before automated send or any external protected action.
+```text
+subscriber profile and content calendar
+→ today's usable content Artifact
+→ copy, download or publication preparation
+→ public or private-domain use
+→ intention-customer candidate
+→ source and relevance inspection
+→ development angle and follow-up package
+→ final user confirmation
+→ outreach / Communication
+→ response and qualification
+→ formal Opportunity or MarkReg Handoff
+→ returned result and feedback
+```
 
-### MVP 1 — Governed Preparation and Case Continuity
+The Existing Client Value Journey remains an important variant.
 
-Adds:
+## 15. MVP strategy
 
-- several signal classes;
-- richer client/relationship qualification;
-- curated Case Memory and approved Case Assets;
-- Artifact versioning and audience variants;
-- review packages;
-- formal Opportunity creation request and returned state;
-- improved MarkReg continuation;
-- selected local/private retrieval.
+### MVP 0 — 30-Day Daily Content and Customer Development Loop
 
-### MVP 2 — Cross-Product and Team Depth
+It must test:
 
-Adds:
+- one active RMB 99 reference subscription;
+- a 30-day entitlement window;
+- at least one usable Daily Content Unit per covered day;
+- a disclosed format rotation;
+- selected template-rendered videos that are actually delivered;
+- copy, download and manual Publish support;
+- intention-customer candidate supply;
+- candidate quality and qualification;
+- one follow-up package and user-confirmed outreach;
+- formal Opportunity or MarkReg Handoff where appropriate;
+- typed results, invalid candidate, no response, failure and correction;
+- content use, fatigue, renewal, cancellation, cost and gross margin.
 
-- small-team responsibility and review;
-- more MarkReg return types;
-- Lite-visible MGSN shortlist and Capability Need handoff;
-- Delivery and Publish packages;
-- organization memory promotion and retirement;
-- more robust degraded/manual modes;
-- broader evaluation sets.
+MVP 0 may stop before automated external send, autonomous Publish, formal Opportunity mutation or any External Protected Action.
 
-### MVP 3 — Policy-Bounded Automation and Profiles
+### Later increments
 
-May add only where evidence supports it:
+Later work may add:
 
-- scheduled or policy-bounded preparation;
-- channel-specific automation with explicit authorization;
-- controlled multi-recipient workflows;
-- Growth Profile or organization-specific profiles;
-- broader local/private Capability integration;
-- advanced candidate ranking and evaluation.
+- more content formats and personalization;
+- richer case and Knowledge support;
+- wider Render/Edit capabilities;
+- formal Opportunity return integration;
+- small-team review;
+- local Publish helper;
+- MGSN shortlist and Capability Need Handoff;
+- policy-bounded automation after evidence.
 
-MVP 3 still does not imply unrestricted autonomous professional action.
-
-## 19. MVP exclusions
-
-The first Product-loop validation excludes:
-
-- complete CRM replacement;
-- universal Task management;
-- universal Matter or Order management;
-- full trademark lifecycle implementation;
-- full provider marketplace or network;
-- open bidding;
-- automatic provider appointment;
-- universal case ingestion;
-- automatic anonymization treated as sufficient disclosure approval;
-- automatic promotion of case experience into Knowledge;
-- organization-wide unrestricted AI memory;
-- silent group messaging;
-- autonomous public Publish;
-- automatic external retry after unknown outcome;
-- revenue maximization as the dominant ranking rule;
-- production filing or other External Protected Action.
-
-## 20. Product non-goals
+## 16. Non-goals
 
 Lite is not:
 
-- a smaller version of the entire Workplace platform;
-- a lightweight clone of MarkReg;
-- a second MGSN;
-- a replacement for Core;
-- a replacement for Execution;
-- a universal CRM;
-- a universal case-management system;
-- a generic AI chat application;
-- a content factory detached from professional context;
-- an autonomous sales agent;
-- an autonomous lawyer or trademark professional;
-- a global data pool;
+- a universal Workplace platform;
+- a reduced Core or MarkReg;
+- a complete CRM;
+- a full MGSN provider marketplace;
+- a generic AI chat tool;
+- a low-quality content counter;
+- a fake lead list;
 - an automatic publisher;
-- a shortcut around Human Review, Permission, Policy or Owning Services.
+- an autonomous sales or professional Agent;
+- a shortcut around rights, review, Permission, Policy or Owning Services.
 
-## 21. Success and quality model
+## 17. Success model
 
-Lite should be evaluated across several layers.
+The next baseline must measure:
 
-| Layer | Example question |
-| --- | --- |
-| attention quality | Did Lite surface valuable items without overwhelming the user? |
-| explanation quality | Could the user understand source, relevance, uncertainty and next options? |
-| professional quality | Were prepared claims, context and outputs accurate, bounded and reviewable? |
-| relationship value | Did the action serve a real client interest and strengthen trust? |
-| service conversion | Did an appropriate professional need progress into a qualified next step? |
-| Artifact quality | Was the output useful, sourced, audience-appropriate and reusable within scope? |
-| handoff quality | Did the destination accept the package without avoidable re-entry or lost context? |
-| safety | Were unsafe actions blocked and unknown outcomes preserved? |
-| privacy | Did data remain within purpose, organization, client, Matter and local boundaries? |
-| learning | Did correction and outcomes improve future behavior without contaminating truth? |
+### Content
 
-Candidate metrics include:
+- daily fulfillment;
+- actual usability;
+- copy/download/publish-preparation rate;
+- format mix and video render success;
+- edit and regeneration rate;
+- repetition and fatigue;
+- factual, source and rights defects.
 
-- valuable attention-item acceptance rate;
-- false-positive and dismissal reason;
-- duplicate/suppression rate;
-- time from signal to inspected recommendation;
-- time from selection to prepared package;
-- user modification rate;
-- reviewer correction rate;
-- handoff acceptance and rework;
-- client response and qualified-conversion rate;
-- Artifact reuse within approved scope;
-- source/freshness defects;
-- privacy or cross-scope defects;
-- blocked unsafe-action count;
-- unknown external-outcome rate;
-- lesson or Asset promotion approval/rejection.
+### Candidates
 
-Speed and activity are not sufficient success measures.
+- candidates supplied;
+- valid identity/contactability;
+- relevance and acceptance;
+- duplicate/stale/invalid rate;
+- contact attempts and responses;
+- qualified needs;
+- formal Opportunity and MarkReg Handoffs;
+- opt-out and compliance defects.
 
-## 22. Zero-tolerance conditions
+### Subscription economics
 
-A pilot or release must stop or block the affected capability if Lite:
+- 7-day and 30-day use;
+- renewal and cancellation reason;
+- perceived value relative to RMB 99;
+- generation, rendering, review, acquisition, storage and support cost;
+- gross margin without quality dilution.
 
-- sends or publishes externally without the required exact-version confirmation or approval;
-- exposes one client or Matter’s restricted information to another;
-- presents a Product candidate as a formal Opportunity, Task, Communication, Document, Evidence or official result;
-- treats an AI recommendation as professional approval;
-- invents or hides source, fee, deadline, official status or case outcome;
-- promotes private case experience into shared Knowledge without review;
-- appoints a provider automatically;
-- retries an unknown external action unsafely;
-- loses Product origin, source version or intended consequence;
-- treats local storage or access as authority;
-- absorbs the full MarkReg or MGSN lifecycle;
-- allows revenue ranking to override client interest or professional risk.
+## 18. Owner Decisions
 
-A blocked unsafe action is a Product success, not a throughput defect.
-
-## 23. Conformance obligations
-
-A conforming Lite implementation must demonstrate:
-
-- Organization and active context visibility;
-- focused Product loop;
-- Product-specific state rather than parallel Core objects;
-- source and provenance;
-- Candidate-before-Canonical behavior;
-- Recommendation-before-Decision behavior;
-- Prepared Action-before-Execution behavior;
-- exact-purpose confirmation;
-- version-specific review where required;
-- formal Handoff and Return;
-- safe failure and unknown-state preservation;
-- personal, organization, client, Matter and local data separation;
-- AI identity, capability, context and Human disposition;
-- Artifact/Document/Evidence distinction;
-- Delivery/Publish distinction;
-- no Workplace, MarkReg or MGSN absorption;
-- repeatable scenario and rendered-publication validation.
-
-## 24. Owner decisions and recommended dispositions
-
-The detailed alternatives are recorded in `B06-PLN-0005 — Product Charter Owner Decision Matrix`.
-
-Recommended dispositions are:
+The consolidated decisions are controlled by `B06-PLN-0005 v0.2`:
 
 ```text
-OD-01 Product identity:
-ACCEPT canonical Lite identity + AI-assisted growth/action market promise
-
-OD-02 first reference journey:
-ACCEPT Existing Client Value Journey
-
-OD-03 Case Center MVP depth:
-ACCEPT curated, reference-first, case-to-Artifact scope
-
-OD-04 local/private baseline:
-ACCEPT hybrid minimization with raw local sources retained locally
-
-OD-05 Lite-visible MGSN depth:
-ACCEPT shortlist/comparison preview + Capability Need Handoff only
-
-OD-06 external-action mode:
-ACCEPT final human confirmation as MVP default
+OD-01: Lite identity + daily content/customer-development positioning
+OD-02: Daily Content-to-Customer Development Journey
+OD-03: curated, reference-first Case Center
+OD-04: hybrid-minimization local/private baseline
+OD-05: MGSN shortlist/preview + Capability Need Handoff only
+OD-06: final human confirmation for MVP external action
+OD-07: RMB 99/month + one usable Daily Content Unit per calendar day
+OD-08: intention-customer supply as second core output with quality boundary
 ```
 
-Merge of the Product Charter PR records owner acceptance of these recommended dispositions unless the PR is amended before merge.
+## 19. Post-Charter work authorized on owner merge
 
-## 25. Post-Charter work authorized on owner merge
+Owner merge authorizes preparation of:
 
-Owner merge of this Charter authorizes preparation of:
+1. subscription and entitlement records;
+2. Daily Content Unit and Artifact/Render/Publish records;
+3. intention-customer candidate and qualification records;
+4. controlled IDs;
+5. content and customer-development journeys;
+6. conformance scenarios;
+7. Handoff and Return mapping;
+8. the 30-day MVP and evaluation baseline;
+9. a chapter-map candidate after reconciliation.
 
-1. Lite Product-local record inventory;
-2. reference journeys;
-3. conformance scenarios;
-4. Handoff and Return contract mapping;
-5. MVP and evaluation baseline;
-6. chapter-map candidate.
+It does not authorize manuscript drafting, implementation, production or External Protected Action.
 
-It does not yet authorize manuscript drafting.
-
-The chapter map should be accepted only after the Product record, journey and scenario baseline demonstrates that the Charter can be expressed without semantic gaps.
-
-## 26. Charter decision
+## 20. Combined Charter decision
 
 ```text
-Canonical Product identity: RECOMMENDED
-Market-facing promise: RECOMMENDED
-Primary users: LOCKED BY UPSTREAM BASELINE
-Primary Product loop: RECOMMENDED
-Five capability pillars: RECOMMENDED AS CHARTER PILLARS
-Product-owned state classes: CANDIDATE FOR NEXT BASELINE
-Existing Client Value Journey: RECOMMENDED FIRST REFERENCE JOURNEY
-MVP 0 boundary: RECOMMENDED
-Upstream Change Proposal required: NO
-Chapter-map drafting: AFTER OWNER MERGE
-Manuscript drafting: NOT AUTHORIZED
-Implementation: NOT AUTHORIZED
-Production: NOT AUTHORIZED
-Autonomous professional action: NOT AUTHORIZED
-External Protected Action: NOT AUTHORIZED
+Combined Product Charter version: v0.2
+Commercial promise: CORRECTED
+Daily content supply: CORE PRODUCT PROMISE
+Intention-customer supply: CORE PRODUCT PROMISE
+Today: DAILY GROWTH DESK / INTERACTION SHELL
+RMB 99 reference subscription: ACCEPTED ON OWNER MERGE
+One usable content unit per calendar day: ACCEPTED ON OWNER MERGE
+Fixed lead quantity: NOT YET LOCKED
+Rendered video counted only when actually delivered: LOCKED
+Books 01–05 conflict: 0
+Change Proposal required: NO
+Ready for Product record / journey / scenario baseline after owner merge: YES
+Ready for chapter-map acceptance: NO
+Ready for manuscript drafting: NO
+Implementation authorized: NO
+Production authorized: NO
+External Protected Action authorized: NO
 ```
