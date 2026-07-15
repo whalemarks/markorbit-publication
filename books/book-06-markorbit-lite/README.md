@@ -2,15 +2,15 @@
 
 ## Identity
 
-- **Status:** Wave 2 CH07–CH11 Complete Draft 1 — Owner Accepted on Merge
+- **Status:** Wave 3 CH12–CH16 Complete Draft 1 — Owner Accepted on Merge
 - **User-facing identity:** AI business operating system for independent trademark professionals and small trademark agencies
 - **Architectural identity:** lightweight Workplace Product, individual-first but Organization-centered
 - **Product Charter:** B06-PLN-0004 v0.3
 - **Product Baseline:** B06-SPEC-0001–0004 v0.1
 - **Chapter Map:** [B06-TOC-V0.1](planning/B06-PLN-0007_Chapter_Map_Candidate.md)
 - **Chapter range:** B06-CH-00–B06-CH-33
-- **Current manuscript:** [CH00–CH11](manuscript/README.md)
-- **Current Review:** [B06-REV-0007](reviews/B06-REV-0007_Wave_2_Daily_Operating_Model_Review.md)
+- **Current manuscript:** [CH00–CH16](manuscript/README.md)
+- **Current Review:** [B06-REV-0008](reviews/B06-REV-0008_Wave_3_Customer_and_Service_Growth_Review.md)
 
 ## Product definition
 
@@ -30,65 +30,52 @@ MarkOrbit Ecosystem Handoff
 ```text
 Front Matter CH00–CH01: Complete Draft 1 — ACCEPTED
 Part I CH02–CH06: Complete Draft 1 — ACCEPTED
-Part II CH07–CH11: Complete Draft 1 — owner accepted on merge
-Part III CH12–CH16: next after merge
-Part IV CH17–CH21: planned
+Part II CH07–CH11: Complete Draft 1 — ACCEPTED
+Part III CH12–CH16: Complete Draft 1 — owner accepted on merge
+Part IV CH17–CH21: next after merge
 Part V CH22–CH25: planned
 Part VI CH26–CH29: planned
 Part VII CH30–CH33: planned
 ```
 
-## Accepted argument through CH11
+## Accepted argument through CH16
 
 ```text
-professional reality and central question
-→ why Lite exists
-→ AI business operating system identity
-→ position in MarkOrbit
-→ users, value promise and four Product loops
-→ principles, boundaries and non-goals
-→ Today daily cockpit
-→ authorized context
-→ Observation and Signal
-→ Product-local Candidate
-→ Recommendation and User Disposition
-→ qualification
-→ Prepared Action
-→ Handoff, Return and continuation
+Product Constitution
+→ Daily Operating Model
+→ Existing Customer Portfolio Opportunities
+→ Historical Customer Reactivation
+→ Prospect Candidate Development
+→ Development Package and Human-confirmed contact
+→ typed response and Qualification Result
+→ Opportunity / MarkReg Handoff
+→ destination revalidation and Return
 ```
 
-Wave 2 establishes that:
-
-- Today organizes attention but is not a universal Task list or official deadline source;
-- information becomes context only under the correct identity, purpose, permission and data boundary;
-- local readability does not grant synchronization, AI or disclosure permission;
-- Observation, Signal, Candidate, Recommendation, Qualification and formal state remain distinct;
-- accept-for-preparation permits preparation, not external action;
-- Prepared Action must expose exact version, destination, consequence, Review and blockers;
-- Handoff is minimized and destination-revalidated;
-- Return remains destination-sourced;
-- unknown external outcomes remain unknown and are not blindly retried.
-
-## Daily operating model
+## Growth-source priority
 
 ```text
-Lite Session
-→ Today Snapshot
-→ Authorized Context
-→ Source Observation
-→ Signal
-→ Candidate
-→ Recommendation Presentation
-→ User Disposition
-→ Qualification Result
-→ Prepared Action
-→ Readiness Result
-→ Human Review / final confirmation
-→ Handoff Envelope
-→ destination revalidation
-→ Return Envelope Presentation
-→ Continuation State
+active existing customer portfolio
+→ historical customer reactivation
+→ user-owned prospects
+→ platform-supplied Prospect Candidate experiments
 ```
+
+This order reflects authorization, relationship quality and professional relevance rather than volume.
+
+## Customer and Service Growth locks
+
+- service availability does not create service relevance;
+- past relationship does not create permanent contact permission;
+- opt-out and suppression override growth ranking;
+- Prospect Candidate is not Customer, Qualified Lead or Opportunity;
+- public contact data is not permission for every channel;
+- Development Package does not prove purchase intent;
+- prepared outreach is not sent Communication;
+- response is not automatically qualified need;
+- Qualification Result remains Product-local;
+- Opportunity Service and MarkReg own formal state and revalidate Handoffs;
+- content, prospect quantity and RMB 99 remain commercial experiments.
 
 ## Chapter structure
 
@@ -120,10 +107,6 @@ ML-AC-01–AC-12
 
 Specifications remain authoritative over manuscript simplification.
 
-## Commercial separation
-
-RMB 99, recurring/daily content, Prospect Candidate supply and Render quotas remain commercial experiments. They do not define the Product constitution.
-
 ## Records
 
 - [Manuscript](manuscript/README.md)
@@ -134,9 +117,9 @@ RMB 99, recurring/daily content, Prospect Candidate supply and Render quotas rem
 ## Current gate
 
 ```text
-Wave 2 owner merge
-→ Wave 3 CH12–CH16
-→ Part III — Customer and Service Growth
+Wave 3 owner merge
+→ Wave 4 CH17–CH21
+→ Part IV — Professional Work Products
 ```
 
 Whole-book Complete Draft 1, implementation, production, public/commercial distribution, autonomous professional action and External Protected Action remain unauthorized.
