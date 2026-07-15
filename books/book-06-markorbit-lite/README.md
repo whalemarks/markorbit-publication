@@ -2,15 +2,15 @@
 
 ## Identity
 
-- **Status:** Wave 1 CH00–CH06 Complete Draft 1 — Owner Accepted on Merge
+- **Status:** Wave 2 CH07–CH11 Complete Draft 1 — Owner Accepted on Merge
 - **User-facing identity:** AI business operating system for independent trademark professionals and small trademark agencies
 - **Architectural identity:** lightweight Workplace Product, individual-first but Organization-centered
 - **Product Charter:** B06-PLN-0004 v0.3
 - **Product Baseline:** B06-SPEC-0001–0004 v0.1
 - **Chapter Map:** [B06-TOC-V0.1](planning/B06-PLN-0007_Chapter_Map_Candidate.md)
 - **Chapter range:** B06-CH-00–B06-CH-33
-- **Current manuscript:** [CH00–CH06](manuscript/README.md)
-- **Current Review:** [B06-REV-0006](reviews/B06-REV-0006_Wave_1_Product_Constitution_Review.md)
+- **Current manuscript:** [CH00–CH11](manuscript/README.md)
+- **Current Review:** [B06-REV-0007](reviews/B06-REV-0007_Wave_2_Daily_Operating_Model_Review.md)
 
 ## Product definition
 
@@ -28,17 +28,17 @@ MarkOrbit Ecosystem Handoff
 ## Manuscript progress
 
 ```text
-Front Matter CH00–CH01: Complete Draft 1 on Wave 1 merge
-Part I CH02–CH06: Complete Draft 1 on Wave 1 merge
-Part II CH07–CH11: next
-Part III CH12–CH16: planned
+Front Matter CH00–CH01: Complete Draft 1 — ACCEPTED
+Part I CH02–CH06: Complete Draft 1 — ACCEPTED
+Part II CH07–CH11: Complete Draft 1 — owner accepted on merge
+Part III CH12–CH16: next after merge
 Part IV CH17–CH21: planned
 Part V CH22–CH25: planned
 Part VI CH26–CH29: planned
 Part VII CH30–CH33: planned
 ```
 
-## Wave 1 argument
+## Accepted argument through CH11
 
 ```text
 professional reality and central question
@@ -47,17 +47,48 @@ professional reality and central question
 → position in MarkOrbit
 → users, value promise and four Product loops
 → principles, boundaries and non-goals
+→ Today daily cockpit
+→ authorized context
+→ Observation and Signal
+→ Product-local Candidate
+→ Recommendation and User Disposition
+→ qualification
+→ Prepared Action
+→ Handoff, Return and continuation
 ```
 
-Wave 1 establishes that:
+Wave 2 establishes that:
 
-- Lite is not one recommendation card;
-- Lite is not a content subscription or lead-list Product;
-- Lite is not a generic AI chat, universal CRM or universal case system;
-- Lite owns Product-local candidates, preparation and continuity;
-- formal business truth remains with Owning Services;
-- AI assists but does not inherit professional authority;
-- growth, work products, memory/assets and ecosystem Handoff operate as connected loops.
+- Today organizes attention but is not a universal Task list or official deadline source;
+- information becomes context only under the correct identity, purpose, permission and data boundary;
+- local readability does not grant synchronization, AI or disclosure permission;
+- Observation, Signal, Candidate, Recommendation, Qualification and formal state remain distinct;
+- accept-for-preparation permits preparation, not external action;
+- Prepared Action must expose exact version, destination, consequence, Review and blockers;
+- Handoff is minimized and destination-revalidated;
+- Return remains destination-sourced;
+- unknown external outcomes remain unknown and are not blindly retried.
+
+## Daily operating model
+
+```text
+Lite Session
+→ Today Snapshot
+→ Authorized Context
+→ Source Observation
+→ Signal
+→ Candidate
+→ Recommendation Presentation
+→ User Disposition
+→ Qualification Result
+→ Prepared Action
+→ Readiness Result
+→ Human Review / final confirmation
+→ Handoff Envelope
+→ destination revalidation
+→ Return Envelope Presentation
+→ Continuation State
+```
 
 ## Chapter structure
 
@@ -103,9 +134,9 @@ RMB 99, recurring/daily content, Prospect Candidate supply and Render quotas rem
 ## Current gate
 
 ```text
-Wave 1 owner merge
-→ Wave 2 CH07–CH11
-→ Part II — The Daily Operating Model
+Wave 2 owner merge
+→ Wave 3 CH12–CH16
+→ Part III — Customer and Service Growth
 ```
 
 Whole-book Complete Draft 1, implementation, production, public/commercial distribution, autonomous professional action and External Protected Action remain unauthorized.

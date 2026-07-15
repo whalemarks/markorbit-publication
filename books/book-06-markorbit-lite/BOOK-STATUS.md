@@ -3,11 +3,11 @@
 ## Current status
 
 ```text
-WAVE 1 — CH00–CH06
+WAVE 2 — CH07–CH11
 COMPLETE DRAFT 1 — OWNER ACCEPTED ON MERGE
 ```
 
-Product Charter v0.3, Product Baseline v0.1 and Chapter Map `B06-TOC-V0.1` are accepted. The current Wave 1 PR drafts Front Matter and Part I.
+Product Charter v0.3, Product Baseline v0.1 and Chapter Map `B06-TOC-V0.1` are accepted. Wave 1 CH00–CH06 is accepted. The current PR drafts Part II — The Daily Operating Model.
 
 ## Product identity
 
@@ -39,46 +39,73 @@ ML-HC-01–HC-08
 ML-AC-01–AC-12
 ```
 
-## Wave 1 acceptance set
+## Accepted manuscript
 
 ```text
-B06-CH-00 — Preface
-B06-CH-01 — Table of Contents
-B06-CH-02 — Why MarkOrbit Lite Exists
-B06-CH-03 — The AI Business Operating System for Trademark Professionals
-B06-CH-04 — Position Between Workplace, Core, Execution, MarkReg and MGSN
-B06-CH-05 — Users, Value Promise and the Four Product Loops
-B06-CH-06 — Principles, Boundaries and Non-Goals
-B06-REV-0006 — Wave 1 Product Constitution Review
+Wave 1 — CH00–CH06: COMPLETE DRAFT 1 — ACCEPTED
 ```
 
-## Wave 1 result
+## Wave 2 acceptance set
 
 ```text
-Chapter files drafted: 7
-Front Matter complete: CH00–CH01
-Part I complete: CH02–CH06
+B06-CH-07 — Today as the Daily Business Cockpit
+B06-CH-08 — Authorized Context, Sources and Data Boundaries
+B06-CH-09 — From Observation to Signal and Service-Value Candidate
+B06-CH-10 — Recommendation, Qualification and User Disposition
+B06-CH-11 — Prepared Action, Continuation and Safe Handoff
+B06-REV-0007 — Wave 2 Daily Operating Model Review
+```
+
+## Wave 2 result
+
+```text
+Chapter files drafted: 5
+Part II complete: CH07–CH11
 Blocking findings: 0
 Major findings: 0
 Upstream findings: 0
 Change Proposal required: NO
 ```
 
-Wave 1 establishes:
+Wave 2 establishes:
 
-- the daily professional problem Lite addresses;
-- Lite as an AI business operating system;
-- individual-first but Organization-centered operation;
-- responsibility allocation across Core, Execution, Workplace, MarkReg, MGSN and Owning Services;
-- primary users and the four Product loops;
-- constitutional principles, boundaries, non-goals and zero-tolerance conditions.
+- Today as a sourced, time-bound daily business cockpit;
+- active user, Organization, purpose, source and data classification context;
+- local access versus synchronization and private data versus platform supply;
+- Source Observation, Signal and candidate distinctions;
+- Recommendation Presentation, User Disposition and purpose-specific Qualification Result;
+- Prepared Action and typed Readiness Result;
+- Continuation State without invented destination state;
+- minimized Handoff Envelope, destination revalidation and typed Return;
+- visible stale, blocked, rejected, failed and unknown outcomes.
+
+## Accepted daily operating model
+
+```text
+Lite Session
+→ Today Snapshot
+→ Authorized Context
+→ Source Observation
+→ Signal
+→ Candidate
+→ Recommendation Presentation
+→ User Disposition
+→ Qualification Result
+→ Prepared Action
+→ Readiness Result
+→ Human Review / final confirmation
+→ Handoff Envelope
+→ destination revalidation
+→ Return Envelope Presentation
+→ Continuation State
+```
 
 ## Drafting progress
 
 ```text
-Wave 1 CH00–CH06: COMPLETE DRAFT 1 — OWNER ACCEPTED ON MERGE
-Wave 2 CH07–CH11: NEXT AFTER MERGE
-Wave 3 CH12–CH16: planned
+Wave 1 CH00–CH06: COMPLETE DRAFT 1 — ACCEPTED
+Wave 2 CH07–CH11: COMPLETE DRAFT 1 — OWNER ACCEPTED ON MERGE
+Wave 3 CH12–CH16: NEXT AFTER MERGE
 Wave 4 CH17–CH21: planned
 Wave 5 CH22–CH25: planned
 Wave 6 CH26–CH29: planned
@@ -89,28 +116,37 @@ The whole-book Complete Draft 1 has not yet been achieved.
 
 ## Current locks
 
-- Lite is not generic AI chat, a content factory, a lead marketplace or a universal CRM.
-- Today is the daily business cockpit, not the complete Product identity.
-- Candidate state remains distinct from formal business truth.
-- AI assists but does not inherit professional identity or authority.
-- Preparation remains distinct from Review, confirmation, execution and external result.
-- MarkReg and MGSN retain their lifecycle depth.
-- Commercial plans remain subordinate to Product identity.
-- Specifications remain authoritative over manuscript simplification.
+- Today item is not an active Task or official deadline source.
+- Available information is not automatically authorized context.
+- Local access is not synchronization, AI permission or disclosure authority.
+- Observation is not canonical truth.
+- Signal is not verified need.
+- Service-Value Candidate is not formal Opportunity.
+- Prospect Candidate is not Customer or Qualified Lead.
+- Recommendation is not Decision or approval.
+- User inspection is not acceptance.
+- Accept for preparation is not execution.
+- Qualification is purpose-specific and does not create formal state.
+- User confirmation is not Human Review.
+- Continuation State is not destination state.
+- Handoff is not destination acceptance.
+- Return is not Lite-owned formal truth.
+- Unknown external outcome remains unknown and is not blindly retried.
+- Client interest and professional risk override revenue ranking.
 
 ## Next gate
 
 ```text
-Wave 1 owner merge
-→ Wave 2 — CH07–CH11
-→ Part II: The Daily Operating Model
+Wave 2 owner merge
+→ Wave 3 — CH12–CH16
+→ Part III: Customer and Service Growth
 ```
 
 ## Authorization
 
 ```text
-Wave 1 owner acceptance on merge: AUTHORIZED
-Wave 2 drafting after merge: AUTHORIZED
+Wave 2 owner acceptance on merge: AUTHORIZED
+Wave 3 drafting after merge: AUTHORIZED
 Whole-book Complete Draft 1: NOT YET ACHIEVED
 Implementation: NOT AUTHORIZED
 Production: NOT AUTHORIZED
