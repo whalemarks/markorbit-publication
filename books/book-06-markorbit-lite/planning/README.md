@@ -6,11 +6,13 @@ This directory contains controlled planning records for **Book 06 — MarkOrbit 
 
 ```text
 Pre-Writing Audit — COMPLETE
-→ Product Charter v0.1 — OWNER ACCEPTED ON MERGE
+→ Product Charter v0.2 — OWNER ACCEPTED ON MERGE
 → Product record / journey / scenario baseline — NEXT
 → chapter-map candidate
 → controlled drafting
 ```
+
+The Product Charter baseline consists of the base Charter plus the subscription and daily-supply amendment.
 
 No manuscript drafting, Product implementation, production deployment, autonomous professional action or External Protected Action is authorized by the current planning stage.
 
@@ -21,16 +23,32 @@ No manuscript drafting, Product implementation, production deployment, autonomou
 - [B06-PLN-0003 — Supplemental Idea Assessment](B06-PLN-0003_Supplemental_Idea_Assessment.md)
 - [B06-PLN-0004 — Product Charter Candidate](B06-PLN-0004_Product_Charter_Candidate.md)
 - [B06-PLN-0005 — Product Charter Owner Decision Matrix](B06-PLN-0005_Product_Charter_Owner_Decision_Matrix.md)
+- [B06-PLN-0006 — Subscription, Daily Content and Lead Supply Charter Amendment](B06-PLN-0006_Subscription_Daily_Content_and_Lead_Supply_Charter_Amendment.md)
 
 ## Charter gate
 
-Merge of the Product Charter pull request records owner acceptance of:
+Merge of PR #63 records owner acceptance of:
 
-- the canonical Product identity and market promise;
-- the Today-centered Product loop;
-- the five capability pillars;
-- OD-01–OD-06;
-- the Existing Client Value Journey;
-- the MVP 0 Attention-to-Prepared-Value Loop.
+- Lite as a lightweight Workplace Product for trademark professionals;
+- the daily content and customer-development market promise;
+- the RMB 99 monthly reference subscription;
+- at least one usable Daily Content Unit per calendar day;
+- illustrated post, short video or Moments copy as supported daily formats;
+- intention-customer candidate supply as a second core output;
+- the Daily Growth Desk home experience;
+- the Daily Content-to-Customer Development Journey;
+- OD-01–OD-08;
+- the 30-Day Daily Content and Customer Development MVP.
 
-The next planning records must define Product-local controlled records, reference journeys, conformance scenarios, Handoff/Return mapping and evaluation before a chapter map may be accepted.
+The next planning records must define:
+
+- subscription and entitlement records;
+- Daily Content Unit, Artifact, Render and Publish state;
+- intention-customer candidate and qualification records;
+- controlled IDs;
+- reference journeys;
+- conformance scenarios;
+- Handoff/Return mapping;
+- 30-day fulfillment, quality, cost and retention evaluation.
+
+A chapter map may be accepted only after these records reconcile.
