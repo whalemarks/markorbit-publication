@@ -9,22 +9,22 @@
 The Product Charter v0.2 acceptance set is:
 
 ```text
-B06-PLN-0004 — Base Charter
+B06-PLN-0004 v0.2 — Product Charter
 + B06-PLN-0005 v0.2 — Consolidated OD-01–OD-08
-+ B06-PLN-0006 — Subscription and Daily Supply Amendment
-+ B06-REV-0002 — Base Charter Review
-+ B06-REV-0003 — Amendment Review
++ B06-PLN-0006 — Subscription and Daily Supply detail
++ B06-REV-0002 — Base architecture Review
++ B06-REV-0003 — Subscription and daily-supply Review
 ```
 
-`B06-REV-0002` confirms that the base Product Charter:
+`B06-REV-0002` confirms that the Product Charter:
 
 - preserves Books 01–05;
-- defines a focused Lite Product loop;
+- defines a focused Lite Product;
 - does not create parallel Core or Execution semantics;
 - preserves Workplace, MarkReg and MGSN boundaries;
-- defines a bounded Case Center and cross-Product Handoff model.
+- defines bounded Case Center and cross-Product Handoff behavior.
 
-`B06-REV-0003` confirms that the amendment:
+`B06-REV-0003` confirms that the owner clarification:
 
 - replaces the vague one-recommendation interpretation with a concrete daily subscription promise;
 - accepts RMB 99 per month as the initial reference price;
