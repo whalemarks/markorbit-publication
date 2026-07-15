@@ -2,14 +2,17 @@
 
 ## Identity
 
-- **Status:** Complete Draft 1 — PF-08 Structural and Rendered Validation Complete
+- **Status:** Release Candidate 1 — effective upon owner merge of the PF-09 pull request
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
-- **Manuscript:** CH00–CH47 complete
+- **RC1 content baseline:** `9da21c4b2325d35710a1ba1acd9be9ca42d988b3`
+- **Manuscript:** CH00–CH47, 48 files, seven Parts
 - **Specifications:** B05-SPEC-0001–0004 v0.3
-- **Appendices:** Appendix A–G reconciled and rendered in the validation edition
-- **Figures:** eleven retained and rendered; B05-FIG-05 merged into B05-FIG-03
-- **Validation:** B05-VAL-0001 and B05-REV-0028 accepted
-- **Current phase:** PF-09 — Owner RC1 and Publication Decision
+- **Appendices:** Appendix A–G
+- **Figures:** eleven retained; B05-FIG-05 merged into B05-FIG-03
+- **Owner Decision:** [B05-PUB-0010](publication/B05-PUB-0010_Owner_RC1_and_Publication_Decision.md)
+- **PF-09 Review:** [B05-REV-0029](reviews/B05-REV-0029_PF-09_Owner_RC1_and_Publication_Gate.md)
+
+If the PF-09 pull request is closed without merge, RC1 does not take effect.
 
 ## Position
 
@@ -55,7 +58,8 @@ RK-01–18
 - [Subject Index](publication/B05-PUB-0004_Subject_Index.md) — v0.3
 - [Figure Register](publication/B05-PUB-0005_Figure_Register.md) — v1.0
 - [Back Matter Map](publication/B05-PUB-0006_Back_Matter_and_Appendix_Map.md) — v0.2
-- [RC1 Checklist](publication/B05-PUB-0008_RC1_Checklist.md) — v0.4
+- [RC1 Checklist](publication/B05-PUB-0008_RC1_Checklist.md) — v1.0
+- [Owner RC1 and Publication Decision](publication/B05-PUB-0010_Owner_RC1_and_Publication_Decision.md)
 - [Validation source index](validation/README.md)
 - [B05-VAL-0001 — PF-08 Validation Baseline](validation/B05-VAL-0001_PF-08_Structural_and_Rendered_Validation.md)
 
@@ -81,20 +85,22 @@ All retained Figures passed Mermaid parsing, SVG rendering, grayscale scanning, 
 - [F — Jurisdiction Pack Checklist](appendices/B05-APP-F_Minimum_Jurisdiction_Pack_Checklist.md)
 - [G — Conformance Profiles](appendices/B05-APP-G_MarkReg_Conformance_Profiles.md)
 
-## PF-08 Validation Result
+## Accepted Validation Evidence
 
 ```text
-GitHub Actions run: 29388230449
-Checks: 573 / 573 PASS
+PF-08 final validated head:
+6a210eb40d939eeea6f799c1be7435de7d5dd3aa
+
+GitHub Actions run: 29388824396
+Checks: 579 / 579 PASS
 Errors: 0
 Warnings: 0
-Rendered SVG files: 11
-Validation PDF: 360 pages
-Selectable-text characters: 475,563
-PDF navigation annotations: 135
+Artifact ID: 8332449944
+Artifact digest:
+sha256:f463f4230df2fb9d147a80dcdc0b1638c501636f1ef826b988441295838d95ff
 ```
 
-[B05-REV-0028](reviews/B05-REV-0028_PF-08_Structural_and_Rendered_Validation.md) closes PF-08 and authorizes PF-09.
+The rendered HTML, PDF and SVG files are validation artifacts, not final-publication files.
 
 ## Reference Journeys
 
@@ -113,13 +119,13 @@ RIVERKITE
 - title, use-Evidence and licence work open
 ```
 
-## Current Gate
+## Gate Result
 
 ```text
 PF-01–PF-08: COMPLETE
-PF-09: AUTHORIZED AND NEXT
-Release Candidate 1: NOT YET AUTHORIZED
-Final publication: NOT AUTHORIZED
+PF-09: COMPLETE UPON OWNER MERGE
+Release Candidate 1: APPROVED UPON OWNER MERGE
+Final publication: NOT APPROVED
 ```
 
-Book 05 does not authorize implementation, production deployment, autonomous professional action or External Protected Action.
+RC1 approval permits controlled review, proofing and publication-format preparation. It does not authorize public/commercial distribution, implementation, production deployment, autonomous professional action or External Protected Action.
