@@ -1,13 +1,15 @@
 book:
   id: B06
   title: MarkOrbit Lite
-  status: product_charter_v0_1_owner_accepted_on_merge
+  status: product_charter_v0_2_owner_accepted_on_merge
   manuscript_files: 0
   chapter_map: null
   product_charter: B06-PLN-0004
-  product_charter_version: v0.1
+  product_charter_version: v0.1_amended_to_v0.2
   owner_decision_matrix: B06-PLN-0005
+  charter_amendment: B06-PLN-0006
   charter_review: B06-REV-0002
+  amendment_review: B06-REV-0003
 
 authority:
   primary:
@@ -15,13 +17,17 @@ authority:
     - Books 01-04 Portfolio Baseline
     - Book 05 MarkReg RC1 for bounded cross-product contracts
     - B06 Pre-Writing Audit accepted on PR 62 merge
+  owner_clarification:
+    - RMB 99 monthly reference subscription
+    - one usable daily content unit
+    - intention-customer candidate supply
   supplemental_inputs_override_baseline: false
 
 canonical_product:
   product_type: lightweight_workplace_product
-  home_experience: today_next_best_action
-  canonical_identity: today_centered_lightweight_workplace_product_for_trademark_professionals
-  market_promise: ai_assisted_growth_and_action_workspace
+  home_experience: daily_growth_desk
+  canonical_identity: lightweight_workplace_product_for_trademark_professionals
+  market_promise: daily_content_and_customer_development_workspace
   primary_users:
     - independent_trademark_professionals
     - small_trademark_teams
@@ -29,28 +35,48 @@ canonical_product:
     - lightweight_entry_for_larger_workplaces
   organization_centered: true
   product_loop:
-    - today
-    - understand
-    - choose
-    - prepare
+    - daily_supply
+    - inspect_and_choose
+    - prepare_and_render
     - confirm
-    - handoff
+    - publish_or_handoff
     - outcome
     - learn
 
-capability_pillars:
-  - today_and_attention
-  - growth_and_relationship_value
-  - case_knowledge_and_artifact_enablement
-  - prepared_action_and_cross_product_handoff
+commercial_model:
+  reference_price_cny_month: 99
+  billing_model: monthly_subscription
+  daily_content_entitlement:
+    minimum_usable_units_per_calendar_day: 1
+    permitted_types:
+      - illustrated_post
+      - short_video
+      - moments_copy
+    all_types_required_each_day: false
+    topic_only_counts_as_fulfillment: false
+    video_brief_counts_as_video_delivery: false
+  fixed_daily_lead_quantity: null
+  price_is_permanent_universal_price: false
+
+core_outputs:
+  - daily_content_supply
+  - intention_customer_candidate_supply
+
+capability_priorities:
+  - daily_content_supply
+  - intention_customer_supply
+  - artifact_render_and_publish_enablement
+  - case_knowledge_and_professional_context
+  - prepared_action_and_product_handoff
   - personal_and_organization_continuity
 
 owner_decisions:
   od_01_identity:
-    recommendation: canonical_lite_plus_ai_growth_action_market_promise
+    recommendation: canonical_lite_plus_growth_action_market_positioning
     status: accepted_on_owner_merge
   od_02_first_reference_journey:
-    recommendation: existing_client_value_journey
+    recommendation: daily_content_to_customer_development_journey
+    existing_client_value_journey_remains_variant: true
     status: accepted_on_owner_merge
   od_03_case_center_mvp_depth:
     recommendation: curated_reference_first_case_to_artifact
@@ -64,21 +90,34 @@ owner_decisions:
   od_06_external_action_mode:
     recommendation: final_human_confirmation_default
     status: accepted_on_owner_merge
+  od_07_subscription_daily_content:
+    recommendation: cny_99_month_and_one_usable_daily_content_unit
+    status: accepted_on_owner_merge
+  od_08_intention_customer_supply:
+    recommendation: core_output_with_quality_boundary_and_no_fixed_quantity_yet
+    status: accepted_on_owner_merge
 
 mvp:
-  first_reference_journey: existing_client_value_journey
-  mvp_0: attention_to_prepared_value_loop
+  first_reference_journey: daily_content_to_customer_development_journey
+  journey_variant:
+    - existing_client_value_journey
+  mvp_0: thirty_day_daily_content_and_customer_development_loop
+  daily_entitlement_days: 30
+  actual_video_required_when_unit_declared_video: true
   silent_external_action: false
   universal_case_ingestion: false
   full_crm_replacement: false
   full_mgsn_network: false
+  fixed_lead_quantity: false
 
 planning:
   pre_writing_audit: complete
   authority_source_map: complete
   supplemental_idea_assessment: complete
   product_charter_candidate: complete
+  subscription_daily_supply_amendment: complete
   product_charter_review: pass
+  amendment_review: pass_with_control
   owner_decisions: accepted_on_owner_merge
   product_record_journey_scenario_baseline: next_after_owner_merge
   chapter_map_candidate: blocked_until_record_journey_scenario_reconciliation
