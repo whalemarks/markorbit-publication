@@ -1,13 +1,17 @@
 book:
   id: B06
   title: MarkOrbit Lite
-  status: product_baseline_v0_1_owner_accepted_on_merge
+  status: chapter_map_v0_1_owner_accepted_on_merge
   manuscript_files: 0
-  chapter_map: null
-  product_charter: B06-PLN-0004
-  product_charter_version: v0.3
-  owner_decision_matrix: B06-PLN-0005
-  commercial_plan_candidate: B06-PLN-0006
+  chapter_map:
+    id: B06-TOC-V0.1
+    record: B06-PLN-0007
+    review: B06-REV-0005
+    status: accepted_on_owner_merge
+    chapter_start: B06-CH-00
+    chapter_end: B06-CH-33
+    total_chapters: 34
+  product_charter: B06-PLN-0004_v0_3
   product_baseline:
     version: v0.1
     specifications:
@@ -15,28 +19,43 @@ book:
       - B06-SPEC-0002
       - B06-SPEC-0003
       - B06-SPEC-0004
-    review: B06-REV-0004
-
-authority:
-  primary:
-    - MarkOrbit Orbital Architecture Canon vNext
-    - Books 01-04 Portfolio Baseline
-    - Book 05 MarkReg RC1
-    - Book 06 Product Charter v0.3
-  historical_inputs_are_authority: false
-  implementation_authorized: false
 
 canonical_product:
   user_facing_identity: ai_business_operating_system_for_trademark_professionals
   product_type: lightweight_workplace_product
   individual_first: true
   organization_centered: true
-  home_experience: today_daily_business_cockpit
   core_loops:
     - customer_and_service_growth
     - professional_work_products
     - professional_memory_and_business_assets
     - markorbit_ecosystem_handoff
+
+chapter_structure:
+  front_matter:
+    range: CH00-CH01
+  parts:
+    - id: I
+      title: Product Constitution and Place in MarkOrbit
+      range: CH02-CH06
+    - id: II
+      title: The Daily Operating Model
+      range: CH07-CH11
+    - id: III
+      title: Customer and Service Growth
+      range: CH12-CH16
+    - id: IV
+      title: Professional Work Products
+      range: CH17-CH21
+    - id: V
+      title: Cases, Memory and Business Assets
+      range: CH22-CH25
+    - id: VI
+      title: MarkOrbit Gateways and Continuity
+      range: CH26-CH29
+    - id: VII
+      title: Conformance, Economics and Evolution
+      range: CH30-CH33
 
 controlled_ranges:
   session_interaction: ML-S01-ML-S05
@@ -49,73 +68,62 @@ controlled_ranges:
   scenarios: ML-SCN-01-ML-SCN-24
   handoff_contracts: ML-HC-01-ML-HC-08
   acceptance_criteria: ML-AC-01-ML-AC-12
+  orphaned_ranges: 0
 
-reference_journeys:
-  primary: ML-J01_existing_customer_portfolio_opportunity
-  additional:
-    - ML-J02_historical_customer_reactivation
-    - ML-J03_prospect_candidate_development
-    - ML-J04_case_to_work_product
+writing_waves:
+  - wave: 1
+    range: CH00-CH06
+    status: next_after_owner_merge
+  - wave: 2
+    range: CH07-CH11
+    status: planned
+  - wave: 3
+    range: CH12-CH16
+    status: planned
+  - wave: 4
+    range: CH17-CH21
+    status: planned
+  - wave: 5
+    range: CH22-CH25
+    status: planned
+  - wave: 6
+    range: CH26-CH29
+    status: planned
+  - wave: 7
+    range: CH30-CH33
+    status: planned
 
-mvp:
-  name: customer_opportunity_to_governed_service_loop
-  mandatory_criteria: ML-AC-01-ML-AC-11
-  commercial_evidence: ML-AC-12
-  content_volume_alone_passes: false
-  prospect_volume_alone_passes: false
-  silent_external_action: false
-
-ownership:
-  lite_owns:
-    - product_local_candidate_state
-    - presentation_and_interaction
-    - work_product_preparation
-    - typed_envelopes
-    - continuity_and_evaluation
-  lite_does_not_own:
-    - formal_customer_contact_trademark_matter_order_provider
-    - formal_opportunity
-    - active_task_workflow
-    - communication_send_state
-    - document_evidence_approval
-    - markreg_lifecycle
-    - mgsn_trust_routing
-    - external_protected_action
+coverage:
+  charter_loops_complete: true
+  reference_journeys_complete: true
+  controlled_ranges_complete: true
+  book_04_duplication_conflicts: 0
+  book_05_lifecycle_conflicts: 0
+  book_07_mgsn_preemption: 0
+  commercial_constitutional_drift: 0
+  change_proposal_required: false
 
 commercial_plan:
-  record: B06-PLN-0006
   defines_product_identity: false
   hypotheses:
     - cny_99_monthly_entry_plan
     - recurring_or_daily_content
     - bounded_prospect_candidate_supply
     - artifact_render_publish_quotas
-    - thirty_day_growth_starter
 
-historical_reconciliation:
-  dispositions:
-    - keep
-    - reframe
-    - product_local
-    - move_to_owning_service
-    - defer
-    - reject
-  early_v1_schema_authority: false
-
-findings:
-  book_01_conflicts: 0
-  book_02_conflicts: 0
-  book_03_conflicts: 0
-  book_04_conflicts: 0
-  book_05_conflicts: 0
-  change_proposal_required: false
+planning:
+  pre_writing_audit: complete
+  product_charter_v0_3: accepted
+  product_baseline_v0_1: accepted
+  chapter_map_v0_1: owner_accepted_on_merge
+  controlled_manuscript_drafting_after_merge: authorized
+  next_wave: CH00-CH06
 
 authorization:
-  product_baseline_acceptance_on_merge: true
-  chapter_map_candidate_after_merge: true
-  chapter_map_acceptance: false
-  manuscript_drafting: false
+  chapter_map_acceptance_on_merge: true
+  controlled_manuscript_drafting_after_merge: true
   implementation: false
   production: false
+  public_commercial_distribution: false
   autonomous_professional_action: false
   external_protected_action: false
