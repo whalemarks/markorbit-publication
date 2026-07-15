@@ -69,6 +69,8 @@ jobs:
           python books/book-05-markreg/validation/validate_book05.py > /tmp/pf08-console.log 2>&1
           status=$?
           cat /tmp/pf08-console.log
+          mkdir -p books/book-05-markreg/build/pf08
+          cp /tmp/pf08-console.log books/book-05-markreg/build/pf08/console.log
           echo "exit_code=$status" >> "$GITHUB_OUTPUT"
           if [ -f books/book-05-markreg/build/pf08/validation-report.json ]; then
             python - <<'PY'
@@ -93,11 +95,12 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const path = 'books/book-05-markreg/build/pf08/validation-report.json';
+            const reportPath = 'books/book-05-markreg/build/pf08/validation-report.json';
+            const consolePath = 'books/book-05-markreg/build/pf08/console.log';
             const marker = '<!-- book-05-pf08-validation -->';
-            let body = `${marker}\n## Book 05 PF-08 validation\n\nValidation report was not generated.`;
-            if (fs.existsSync(path)) {
-              const report = JSON.parse(fs.readFileSync(path, 'utf8'));
+            let body;
+            if (fs.existsSync(reportPath)) {
+              const report = JSON.parse(fs.readFileSync(reportPath, 'utf8'));
               const errors = report.errors || [];
               const warnings = report.warnings || [];
               const errorBlock = errors.length
@@ -111,9 +114,16 @@ jobs:
                 `- **Checks:** ${report.checks}\n` +
                 `- **Passed:** ${report.passed}\n` +
                 `- **Errors:** ${errors.length}\n` +
-                `- **Warnings:** ${warnings.length}\n` + errorBlock + '\n' + warningBlock +
-                `\n\nWorkflow run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+                `- **Warnings:** ${warnings.length}\n` + errorBlock + '\n' + warningBlock;
+            } else {
+              const consoleText = fs.existsSync(consolePath)
+                ? fs.readFileSync(consolePath, 'utf8').slice(-12000)
+                : 'No console output was retained.';
+              body = `${marker}\n## Book 05 PF-08 validation\n\n` +
+                `Validation report was not generated. Validator traceback or console tail:\n\n` +
+                `\`\`\`text\n${consoleText}\n\`\`\``;
             }
+            body += `\n\nWorkflow run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
             const comments = await github.paginate(github.rest.issues.listComments, {
               owner: context.repo.owner,
               repo: context.repo.repo,
