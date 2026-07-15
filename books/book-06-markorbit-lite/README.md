@@ -2,15 +2,15 @@
 
 ## Identity
 
-- **Status:** Wave 5 CH22–CH25 Complete Draft 1 — Owner Accepted on Merge
+- **Status:** Wave 6 CH26–CH29 Complete Draft 1 — Owner Accepted on Merge
 - **User-facing identity:** AI business operating system for independent trademark professionals and small trademark agencies
 - **Architectural identity:** lightweight Workplace Product, individual-first but Organization-centered
 - **Product Charter:** B06-PLN-0004 v0.3
 - **Product Baseline:** B06-SPEC-0001–0004 v0.1
 - **Chapter Map:** [B06-TOC-V0.1](planning/B06-PLN-0007_Chapter_Map_Candidate.md)
 - **Chapter range:** B06-CH-00–B06-CH-33
-- **Current manuscript:** [CH00–CH25](manuscript/README.md)
-- **Current Review:** [B06-REV-0010](reviews/B06-REV-0010_Wave_5_Cases_Memory_and_Business_Assets_Review.md)
+- **Current manuscript:** [CH00–CH29](manuscript/README.md)
+- **Current Review:** [B06-REV-0011](reviews/B06-REV-0011_Wave_6_MarkOrbit_Gateways_and_Continuity_Review.md)
 
 ## Product definition
 
@@ -33,12 +33,12 @@ Part I CH02–CH06: Complete Draft 1 — ACCEPTED
 Part II CH07–CH11: Complete Draft 1 — ACCEPTED
 Part III CH12–CH16: Complete Draft 1 — ACCEPTED
 Part IV CH17–CH21: Complete Draft 1 — ACCEPTED
-Part V CH22–CH25: Complete Draft 1 — owner accepted on merge
-Part VI CH26–CH29: next after merge
-Part VII CH30–CH33: planned
+Part V CH22–CH25: Complete Draft 1 — ACCEPTED
+Part VI CH26–CH29: Complete Draft 1 — owner accepted on merge
+Part VII CH30–CH33: next after merge
 ```
 
-## Accepted argument through CH25
+## Accepted argument through CH29
 
 ```text
 professional reality and Product constitution
@@ -46,47 +46,71 @@ professional reality and Product constitution
 → Observation, Candidate and Prepared Action
 → Customer and Service Growth
 → Professional Work Products
-→ authorized Case Context
-→ Case Lesson Candidate
-→ Preference / Personal / Organization Memory Candidate
-→ Reusable Asset / Knowledge Contribution Candidate
-→ rights, provenance and lifecycle governance
-→ bounded reuse and compounding capability
+→ Cases, Memory and Business Assets
+→ typed MarkReg and MGSN gateways
+→ Review / Communication / Opportunity / Task / Execution Handoffs
+→ destination revalidation and typed Return
+→ Local / Private continuity
+→ safe handling of rejection, failure and unknown outcomes
 ```
 
-## Cases, Memory and Business Assets locks
-
-- case experience is not a universal rule;
-- observed sequence is not proven causation;
-- anonymization is not publication permission;
-- Evidence is not reusable content;
-- repeated behavior is not an accepted preference;
-- personal memory is not Organization memory;
-- memory is not formal business truth;
-- Personal Memory is not human identity or authority;
-- Organization memory requires Organization Review;
-- Reusable Asset is not canonical Knowledge;
-- Knowledge Contribution Candidate requires Knowledge governance;
-- AI output is not source authority;
-- internal approval is not public permission;
-- previous approval does not create permanent validity;
-- technical availability does not create reuse permission;
-- rights, provenance, version, steward, correction, expiry and retirement remain visible;
-- retired capability is not erased history.
-
-## Capability-compounding loop
+## Gateway and continuity loop
 
 ```text
-real work and Outcome
-→ Feedback / Correction
-→ scoped lesson / preference / memory candidate
-→ Human or Organization Review
-→ accepted memory / Reusable Asset / Knowledge contribution path
-→ purpose-matched reuse
-→ new Artifact and Outcome
-→ Reuse Evidence
-→ correction, scope change, expiry, revocation or retirement
+Lite Candidate / Artifact / Qualified Need
+→ purpose-specific Handoff Envelope
+→ destination revalidation
+→ accepted / more information / rejected / blocked / failed / unknown
+→ formal reference or destination result
+→ Return Envelope Presentation
+→ Today Attention Item / Continuation State
+→ safe next action from the last trustworthy state
 ```
+
+## Gateway and continuity locks
+
+- Handoff is not destination acceptance;
+- Return is not Lite-owned formal truth;
+- MarkReg Handoff is not Product Session, Formal Intake, Matter or official action;
+- customer identity is not applicant identity or authority to instruct;
+- Capability Need is not provider recommendation, appointment or assignment;
+- MGSN owns Trust, Routing and collaboration depth;
+- provider candidate returned is not provider appointed;
+- Human Review is not final user confirmation;
+- Communication accepted is not sent;
+- Qualification Result is not formal Opportunity;
+- Attention Item is not active Task;
+- Prepared Action is not Workflow or execution;
+- user confirmation does not grant protected-action authority;
+- local readability is not synchronization, remote AI use or disclosure authority;
+- derived information inherits relevant source restrictions;
+- more-information, rejection, block, failure and unknown remain distinct;
+- unknown external outcome is not completed, failed or safe to retry;
+- recency does not override authority in local/shared conflicts.
+
+## Destination boundaries
+
+```text
+MarkReg
+→ Product Session, Formal Intake, Matter and trademark lifecycle
+
+MGSN
+→ Capability, Trust, Routing and collaboration depth
+
+Human Review
+→ exact-version professional decision
+
+Communication Service
+→ send lifecycle and evidence
+
+Opportunity Service
+→ formal Opportunity state
+
+Task / Execution
+→ active work, Workflow and protected-action governance
+```
+
+Lite prepares, explains, hands off and presents Returns. It does not absorb these destination lifecycles.
 
 ## Chapter structure
 
@@ -120,7 +144,7 @@ Specifications remain authoritative over manuscript simplification.
 
 ## Commercial separation
 
-RMB 99, recurring/daily content, Prospect Candidate supply, Asset limits and Render quotas remain commercial experiments. They do not define the Product constitution or grant broader rights, authority or Review bypass.
+RMB 99, recurring/daily content, Prospect Candidate supply, Asset limits, Handoff support levels and Render quotas remain commercial experiments. They do not define the Product constitution or grant broader rights, authority or Review bypass.
 
 ## Records
 
@@ -132,9 +156,9 @@ RMB 99, recurring/daily content, Prospect Candidate supply, Asset limits and Ren
 ## Current gate
 
 ```text
-Wave 5 owner merge
-→ Wave 6 CH26–CH29
-→ Part VI — MarkOrbit Gateways and Continuity
+Wave 6 owner merge
+→ Wave 7 CH30–CH33
+→ Part VII — Conformance, Economics and Evolution
 ```
 
 Whole-book Complete Draft 1, implementation, production, public/commercial distribution, autonomous professional action and External Protected Action remain unauthorized.
