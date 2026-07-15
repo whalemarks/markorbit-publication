@@ -1,15 +1,15 @@
 book:
   id: B06
   title: MarkOrbit Lite
-  status: product_charter_v0_2_owner_accepted_on_merge
+  status: product_charter_v0_3_owner_accepted_on_merge
   manuscript_files: 0
   chapter_map: null
   product_charter: B06-PLN-0004
-  product_charter_version: v0.2
-  owner_decision_matrix: B06-PLN-0005_v0_2
-  charter_amendment: B06-PLN-0006
-  charter_review: B06-REV-0002
-  amendment_review: B06-REV-0003
+  product_charter_version: v0.3
+  owner_decision_matrix: B06-PLN-0005_v0_3
+  commercial_plan_candidate: B06-PLN-0006
+  base_charter_review: B06-REV-0002
+  charter_v0_3_review: B06-REV-0003
 
 authority:
   primary:
@@ -17,105 +17,133 @@ authority:
     - Books 01-04 Portfolio Baseline
     - Book 05 MarkReg RC1 for bounded cross-product contracts
     - B06 Pre-Writing Audit accepted on PR 62 merge
-  owner_clarification:
-    - RMB 99 monthly reference subscription
-    - one usable daily content unit
-    - intention-customer candidate supply
+  historical_inputs_are_authority: false
   supplemental_inputs_override_baseline: false
 
 canonical_product:
+  user_facing_identity: ai_business_operating_system_for_trademark_professionals
   product_type: lightweight_workplace_product
-  home_experience: daily_growth_desk
-  canonical_identity: lightweight_workplace_product_for_trademark_professionals
-  market_promise: daily_content_and_customer_development_workspace
-  chinese_expression: 每天有内容，每天有客户可开发
+  organization_centered: true
+  individual_first: true
   primary_users:
     - independent_trademark_professionals
-    - small_trademark_teams
-  secondary_mode:
+    - small_trademark_agencies
+  secondary_modes:
     - lightweight_entry_for_larger_workplaces
-  organization_centered: true
-  primary_supply_loops:
-    - daily_content_supply
-    - intention_customer_supply
+    - mobile_business_cockpit
+    - local_private_companion
+  home_experience: today_daily_business_cockpit
 
-commercial_model:
+core_product_loops:
+  - customer_and_service_growth
+  - professional_work_products
+  - professional_memory_and_business_assets
+  - markorbit_ecosystem_handoff
+
+growth_priority:
+  - existing_customer_portfolio
+  - historical_customer_reactivation
+  - user_owned_prospect
+  - platform_supplied_prospect_candidate
+
+capability_pillars:
+  - customer_and_service_growth
+  - professional_work_products
+  - cases_memory_and_reusable_capability
+  - daily_business_cockpit_and_prepared_action
+  - markorbit_gateways
+  - personal_organization_and_local_continuity
+
+reference_journeys:
+  primary: existing_customer_portfolio_opportunity
+  planned:
+    - historical_customer_reactivation
+    - prospect_candidate_development
+    - case_to_work_product
+
+mvp:
+  mvp_0: customer_opportunity_to_governed_service_loop
+  supporting_experiments:
+    - recurring_content_supply
+    - platform_supplied_prospect_candidates
+  pass_by_content_volume_alone: false
+  pass_by_lead_volume_alone: false
+  silent_external_action: false
+  autonomous_publish: false
+  full_crm_replacement: false
+  full_mgsn_network: false
+
+commercial_plan_candidate:
+  record: B06-PLN-0006
+  defines_product_identity: false
   reference_price_cny_month: 99
-  billing_model: monthly_subscription
-  daily_content_entitlement:
-    minimum_usable_units_per_calendar_day: 1
-    permitted_types:
-      - illustrated_post
-      - short_video
-      - moments_copy
-    all_types_required_each_day: false
-    topic_only_counts_as_fulfillment: false
-    script_only_counts_as_fulfillment: false
-    video_brief_counts_as_video_delivery: false
-    actual_video_required_when_declared_video: true
+  price_is_permanent_universal_price: false
+  candidate_features:
+    - recurring_or_daily_content_supply
+    - bounded_prospect_candidate_supply
+    - basic_artifact_render_publish_quotas
+    - markreg_entry_path
+    - thirty_day_growth_starter_experiment
   fixed_daily_lead_quantity: null
-  reference_price_is_permanent_universal_price: false
+  universal_daily_content_entitlement: false
 
-core_outputs:
-  - daily_content_supply
-  - intention_customer_candidate_supply
-
-capability_priorities:
-  - daily_content_supply
-  - intention_customer_supply
-  - artifact_render_and_publish_enablement
-  - case_knowledge_and_professional_context
-  - prepared_action_and_product_handoff
-  - personal_and_organization_continuity
+artifact_capability:
+  chain:
+    - governed_data_and_knowledge
+    - structured_content_and_intent
+    - artifact
+    - render
+    - optional_edit
+    - delivery_publish_or_communication_preparation
+    - user_confirmed_or_governed_operation
+    - typed_result
+  content_equals_artifact: false
+  artifact_equals_document: false
+  artifact_equals_evidence: false
+  render_complete_equals_approved: false
+  publish_package_equals_published: false
 
 owner_decisions:
   od_01_identity:
-    recommendation: lite_plus_daily_content_customer_development_positioning
+    recommendation: ai_business_operating_system_plus_lightweight_workplace_product
     status: accepted_on_owner_merge
-  od_02_first_reference_journey:
-    recommendation: daily_content_to_customer_development_journey
-    existing_client_value_journey_remains_variant: true
+  od_02_core_loops:
+    recommendation: four_enduring_product_loops
     status: accepted_on_owner_merge
-  od_03_case_center_mvp_depth:
-    recommendation: curated_reference_first_case_to_artifact
+  od_03_today:
+    recommendation: daily_business_cockpit_not_product_identity
     status: accepted_on_owner_merge
-  od_04_local_private_baseline:
-    recommendation: hybrid_minimization
+  od_04_first_reference_journey:
+    recommendation: existing_customer_portfolio_opportunity
     status: accepted_on_owner_merge
-  od_05_mgsn_depth:
-    recommendation: shortlist_preview_and_capability_need_handoff_only
+  od_05_content_and_prospect_supply:
+    recommendation: capabilities_and_commercial_plan_not_constitution
     status: accepted_on_owner_merge
-  od_06_external_action_mode:
-    recommendation: final_human_confirmation_default
+  od_06_memory_and_assets:
+    recommendation: governed_memory_case_and_reusable_capability_loop
     status: accepted_on_owner_merge
-  od_07_subscription_daily_content:
-    recommendation: cny_99_month_and_one_usable_daily_content_unit
+  od_07_markreg_mgsn_depth:
+    recommendation: typed_handoff_and_return_without_lifecycle_absorption
     status: accepted_on_owner_merge
-  od_08_intention_customer_supply:
-    recommendation: core_output_with_quality_boundary_and_no_fixed_quantity_yet
+  od_08_local_private_external_action:
+    recommendation: hybrid_minimization_and_final_human_confirmation
     status: accepted_on_owner_merge
-
-mvp:
-  first_reference_journey: daily_content_to_customer_development_journey
-  journey_variants:
-    - existing_client_value_journey
-  mvp_0: thirty_day_daily_content_and_customer_development_loop
-  daily_entitlement_days: 30
-  silent_external_action: false
-  autonomous_publish: false
-  universal_case_ingestion: false
-  full_crm_replacement: false
-  full_mgsn_network: false
-  fixed_lead_quantity: false
+  od_09_commercial_plan:
+    recommendation: cny_99_and_daily_entitlement_as_experiment_candidate
+    status: accepted_on_owner_merge
+  od_10_mvp_0:
+    recommendation: customer_opportunity_to_governed_service_loop
+    status: accepted_on_owner_merge
 
 planning:
   pre_writing_audit: complete
   authority_source_map: complete
   supplemental_idea_assessment: complete
-  product_charter_candidate: complete
-  subscription_daily_supply_amendment: complete
-  product_charter_review: pass
-  amendment_review: pass_with_control
+  product_charter_v0_3_candidate: complete
+  owner_decision_matrix_v0_3: complete
+  commercial_plan_and_mvp_experiment_candidate: complete
+  base_charter_review: pass
+  charter_v0_3_review: pass
   owner_decisions: accepted_on_owner_merge
   product_record_journey_scenario_baseline: next_after_owner_merge
   chapter_map_candidate: blocked_until_record_journey_scenario_reconciliation
