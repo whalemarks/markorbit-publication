@@ -24,12 +24,12 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](gov
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
 | Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Release Candidate 1 — Approved and Frozen |
-| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Wave 5 CH22–CH25 Complete Draft 1 — Owner Accepted on Merge |
+| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Wave 6 CH26–CH29 Complete Draft 1 — Owner Accepted on Merge |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
 Book 05 is frozen through its accepted RC1 content baseline, permanent release record and `release/book-05-rc1` pointer.
 
-Book 06 Product Charter v0.3, Product Baseline v0.1, Chapter Map B06-TOC-V0.1 and Waves 1–4 are accepted. The current Wave 5 candidate drafts Part V as Complete Draft 1. Whole-book Complete Draft 1 has not yet been achieved.
+Book 06 Product Charter v0.3, Product Baseline v0.1, Chapter Map B06-TOC-V0.1 and Waves 1–5 are accepted. The current Wave 6 candidate drafts Part VI as Complete Draft 1. Whole-book Complete Draft 1 has not yet been achieved.
 
 ## Planned Book Positioning
 
@@ -88,34 +88,36 @@ Wave 1 CH00–CH06 — Product Constitution
 Wave 2 CH07–CH11 — The Daily Operating Model
 Wave 3 CH12–CH16 — Customer and Service Growth
 Wave 4 CH17–CH21 — Professional Work Products
+Wave 5 CH22–CH25 — Cases, Memory and Business Assets
 ```
 
-Current Wave 5 manuscript candidate:
+Current Wave 6 manuscript candidate:
 
 ```text
-CH22 — From Case Context to Case Lesson
-CH23 — Personal Memory, Organization Memory and Preferences
-CH24 — Reusable Assets and Knowledge Contribution
-CH25 — Rights, Provenance, Retirement and Compounding Capability
+CH26 — MarkReg Launch, Continuation and Return
+CH27 — MGSN Capability Need and Provider Boundaries
+CH28 — Review, Communication, Opportunity, Task and Execution Handoffs
+CH29 — Local and Private Continuity, Failure and Unknown Outcomes
 ```
 
-Wave 5 merge accepts CH22–CH25 as Complete Draft 1 and authorizes Wave 6 CH26–CH29.
+Wave 6 merge accepts CH26–CH29 as Complete Draft 1 and authorizes Wave 7 CH30–CH33.
 
-Professional memory and business-asset chain:
+MarkOrbit gateway and continuity chain:
 
 ```text
-authorized case/work context
-→ Feedback / Correction
-→ Case Lesson / Preference / Memory Candidate
-→ Human or Organization Review
-→ accepted bounded memory / Reusable Asset / Knowledge contribution path
-→ purpose-matched reuse
-→ new Artifact and Outcome
-→ Reuse Evidence
-→ correction, expiry, revocation or retirement
+Lite Candidate / Artifact / Qualified Need
+→ purpose-specific Handoff Envelope
+→ destination revalidation
+→ accepted / more information / rejected / blocked / failed / unknown
+→ formal reference or destination result
+→ Return Envelope Presentation
+→ Today Attention Item / Continuation State
+→ safe next action from the last trustworthy state
 ```
 
-RMB 99, recurring/daily content, Prospect Candidate quantity, Asset limits and quotas remain commercial experiments rather than Product constitution.
+Lite does not absorb MarkReg Product Sessions, Formal Intake or Matters; MGSN Trust, Routing or provider appointment; Review approval; Communication send state; formal Opportunity; active Task/Workflow; or Execution and protected-action authority.
+
+RMB 99, recurring/daily content, Prospect Candidate quantity, Asset limits, Handoff support levels and quotas remain commercial experiments rather than Product constitution.
 
 ### Book 07 — Mark Global Service Network
 
@@ -140,12 +142,12 @@ Books 01–04 Portfolio Baseline
 → Book 06 Product Charter v0.3 accepted
 → Book 06 Product Baseline v0.1 accepted
 → Book 06 Chapter Map v0.1 accepted
-→ Waves 1–4 accepted
-→ Wave 5 CH22–CH25 owner merge
-→ Wave 6 CH26–CH29
+→ Waves 1–5 accepted
+→ Wave 6 CH26–CH29 owner merge
+→ Wave 7 CH30–CH33
 ```
 
-Ready for Book 06 Wave 6 drafting after Wave 5 owner merge: **YES**
+Ready for Book 06 Wave 7 drafting after Wave 6 owner merge: **YES**
 
 Whole-book Complete Draft 1 achieved: **NO**
 
