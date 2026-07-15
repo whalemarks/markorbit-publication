@@ -2,16 +2,18 @@
 
 ## Identity
 
-- **Status:** Product Charter v0.1 — Owner Accepted on Merge
+- **Status:** Product Charter v0.2 — Owner Accepted on Merge
 - **Publication subject:** MarkOrbit Lite
-- **Canonical identity:** Today-centered lightweight Workplace Product for trademark professionals
-- **Market promise:** AI-assisted growth and action workspace
+- **Canonical identity:** lightweight Workplace Product for trademark professionals
+- **Market promise:** daily content and customer-development workspace
+- **Reference price:** RMB 99 per month
 - **Primary users:** independent trademark professionals and small teams
 - **Secondary role:** lightweight entry for larger Organization Workplaces
 - **Current authority:** Books 01–05, the Orbital Architecture Canon and the locked Portfolio Baseline
 - **Manuscript:** not started
 - **Chapter map:** not yet created
-- **Product Charter:** [B06-PLN-0004 v0.1](planning/B06-PLN-0004_Product_Charter_Candidate.md)
+- **Base Product Charter:** [B06-PLN-0004](planning/B06-PLN-0004_Product_Charter_Candidate.md)
+- **Charter Amendment:** [B06-PLN-0006](planning/B06-PLN-0006_Subscription_Daily_Content_and_Lead_Supply_Charter_Amendment.md)
 
 ## Position
 
@@ -19,82 +21,151 @@
 Book 01 — Operating System principles
 → Book 02 — Shared Core semantics
 → Book 03 — Governed Execution
-→ Book 04 — Workplace and Product Architecture
+→ Book 04 — Workplace, Product and Artifact architecture
 → Book 05 — MarkReg Product and Lite/MarkReg interface boundary
 → Book 06 — MarkOrbit Lite Product constitution and specification
 ```
 
-## Product definition
+## Concrete Product promise
 
-> MarkOrbit Lite is a Today-centered lightweight Workplace Product for trademark professionals. It helps independent professionals and small teams convert fragmented signals, authorized context, governed Knowledge and cross-Product outcomes into explainable recommendations, Prepared Actions and business Artifacts, then hands consequential work to the correct Product, Human Review, Execution boundary or Owning Service.
+> For RMB 99 per month, Lite gives a trademark professional a daily supply of usable content and an ongoing supply of intention-customer candidates, then helps the professional publish, develop, follow up and move qualified needs into governed service journeys.
 
-Market-facing expression:
+Chinese market expression:
 
-> The AI-assisted growth and action workspace through which trademark professionals discover value, prepare trusted work and move selected opportunities into governed outcomes.
+> **每天有内容，每天有客户可开发。**
 
-## Product loop
+## Daily entitlement
 
 ```text
-Today
-→ Understand
-→ Choose
-→ Prepare
-→ Confirm
-→ Handoff
-→ Outcome
-→ Learn
+At least one usable content unit per calendar day
+→ illustrated post
+OR short video
+OR Moments / private-domain copy
 ```
 
-## Capability pillars
+This means one of the supported formats each day, not all three formats every day.
 
-1. **Today and Attention** — explain what deserves attention and why;
-2. **Growth and Relationship Value** — identify appropriate client and service-value candidates;
-3. **Case, Knowledge and Artifact Enablement** — turn authorized experience into reviewed private memory, reusable Assets and business Artifacts;
-4. **Prepared Action and Cross-Product Handoff** — move selected value into MarkReg, MGSN, Review, Execution or an Owning Service;
-5. **Personal and Organization Continuity** — preserve scoped preferences, local/private context, returned outcomes and reviewed learning.
+A Daily Content Unit must be directly usable. A topic, headline, raw draft, script, scene plan or `videoBrief` does not independently satisfy the promise.
 
-These are Charter pillars, not final navigation labels.
+When a unit is declared as video, a usable video representation must actually be delivered.
+
+## Daily Growth Desk
+
+`Today` is retained as the Product home, but its practical meaning is the **Daily Growth Desk**:
+
+```text
+Today's Content
++ Customer Opportunities
++ Action Queue
++ Results and Feedback
+```
+
+It answers:
+
+- What can I publish today?
+- Who may be worth developing or following up today?
+- What should I do next?
+- What happened to the content and outreach already used?
+
+## Two primary supply loops
+
+### Daily Content Supply
+
+```text
+editorial calendar / trademark data / governed Knowledge / approved cases
+→ content and Artifact preparation
+→ Render and optional Edit
+→ illustrated post / short video / Moments copy
+→ copy, download or Publish preparation
+→ use and publication result
+→ feedback
+```
+
+### Intention-Customer Supply
+
+```text
+authorized observation
+→ intention-customer candidate
+→ source, reason, relevance and confidence
+→ user qualification
+→ development angle and follow-up package
+→ user-confirmed outreach or Communication Handoff
+→ response / invalid / no response
+→ formal Opportunity or MarkReg Handoff where appropriate
+```
+
+An intention-customer candidate is not a guaranteed customer and is not a formal Opportunity.
+
+## Capability priorities
+
+1. **Daily Content Supply** — reliable daily illustrated, video or private-domain content outcomes;
+2. **Intention-Customer Supply** — explainable candidates, qualification and development preparation;
+3. **Artifact, Render and Publish Enablement** — produce usable files and controlled Publish Packages;
+4. **Case, Knowledge and Professional Context** — support accurate, persuasive and reusable content;
+5. **Prepared Action and Product Handoff** — move qualified work into Communication, Opportunity, MarkReg, MGSN, Review or Execution;
+6. **Personal and Organization Continuity** — preserve Persona, preferences, organization identity, local/private context and outcomes.
+
+`Today and Attention` is an interaction surface across these priorities rather than the main thing the subscriber buys.
 
 ## First reference journey
 
-The recommended first reference journey is the **Existing Client Value Journey**:
+The first main reference journey is the **Daily Content-to-Customer Development Journey**:
 
 ```text
-authorized client / trademark observation
-→ Today explanation
-→ service-value candidate
-→ case-supported client Artifact
-→ purpose-specific Communication draft
+subscriber profile and content calendar
+→ today's usable content Artifact
+→ copy, download or publication preparation
+→ public or private-domain use
+→ intention-customer candidate
+→ source and relevance inspection
+→ development angle and follow-up package
 → final user confirmation
-→ Communication and/or MarkReg Handoff
-→ typed result return
-→ feedback and learning candidate
+→ outreach / Communication
+→ response and qualification
+→ formal Opportunity or MarkReg Handoff
+→ returned result and feedback
 ```
+
+The Existing Client Value Journey remains an important variant.
 
 ## MVP 0
 
 ```text
-Attention-to-Prepared-Value Loop
+30-Day Daily Content and Customer Development Loop
 ```
 
-MVP 0 proves one signal class, one Today explanation, one case-supported client Artifact, one Communication preparation, one MarkReg Handoff/Return and typed outcome feedback.
+MVP 0 must prove:
 
-It may stop before automated external send or any External Protected Action.
+- a 30-day subscription entitlement;
+- at least one usable Daily Content Unit for each covered day;
+- a disclosed content-format rotation;
+- copy, download and manual Publish support;
+- intention-customer candidate supply;
+- candidate qualification and follow-up preparation;
+- user-confirmed outreach;
+- formal Opportunity or MarkReg Handoff where appropriate;
+- typed results, failure, correction and suppression;
+- content cost, render cost, candidate quality, retention and gross-margin evidence.
 
-## Owner decisions
+It may stop before automated external send, autonomous Publish or any External Protected Action.
 
-- [B06-PLN-0005 — Product Charter Owner Decision Matrix](planning/B06-PLN-0005_Product_Charter_Owner_Decision_Matrix.md)
+## Owner Decisions
+
+- [B06-PLN-0005 — Base Product Charter Owner Decision Matrix](planning/B06-PLN-0005_Product_Charter_Owner_Decision_Matrix.md)
+- [B06-PLN-0006 — Subscription and Daily Supply Amendment](planning/B06-PLN-0006_Subscription_Daily_Content_and_Lead_Supply_Charter_Amendment.md)
 
 ```text
-OD-01: canonical Lite identity + AI growth/action market promise
-OD-02: Existing Client Value Journey
+OD-01: canonical Lite identity + growth/action positioning
+OD-02: Daily Content-to-Customer Development Journey
 OD-03: curated, reference-first Case Center MVP
 OD-04: hybrid-minimization local/private baseline
 OD-05: MGSN shortlist/preview + Capability Need Handoff only
 OD-06: final human confirmation as MVP default
+OD-07: RMB 99/month + one usable Daily Content Unit per calendar day
+OD-08: intention-customer supply as a core output with quality boundary
 ```
 
-Merge of the Product Charter PR records acceptance of these recommended decisions unless amended before merge.
+Merge of PR #63 records acceptance of these recommended decisions unless amended before merge.
 
 ## Constitutional locks
 
@@ -105,17 +176,16 @@ Lite ≠ reduced MarkReg
 Lite ≠ MGSN Gateway
 Lite ≠ generic CRM
 Lite ≠ AI chat only
-Today item ≠ active Task
-Lead signal ≠ formal Opportunity
+Daily Content Unit ≠ topic or raw draft
+Short Video delivered ≠ video brief prepared
+Intention-customer candidate ≠ formal Opportunity
 Recommendation ≠ Decision
 Prepared Action ≠ execution
 User confirmation ≠ Human Review
-AI draft ≠ approved output
 Communication draft ≠ sent Communication
 Publish Package ≠ published
 Product result ≠ formal or external outcome
 Local data ≠ ungoverned data
-Personal AI Clone ≠ human identity or professional authority
 ```
 
 ## Planning records
@@ -126,21 +196,22 @@ Personal AI Clone ≠ human identity or professional authority
 - [B06-PLN-0003 — Supplemental Idea Assessment](planning/B06-PLN-0003_Supplemental_Idea_Assessment.md)
 - [B06-PLN-0004 — Product Charter Candidate](planning/B06-PLN-0004_Product_Charter_Candidate.md)
 - [B06-PLN-0005 — Product Charter Owner Decision Matrix](planning/B06-PLN-0005_Product_Charter_Owner_Decision_Matrix.md)
+- [B06-PLN-0006 — Subscription, Daily Content and Lead Supply Charter Amendment](planning/B06-PLN-0006_Subscription_Daily_Content_and_Lead_Supply_Charter_Amendment.md)
 
 ## Reviews
 
 - [B06-REV-0001 — Pre-Writing Audit Review](reviews/B06-REV-0001_Pre-Writing_Audit_Review.md)
 - [B06-REV-0002 — Product Charter Candidate Review](reviews/B06-REV-0002_Product_Charter_Candidate_Review.md)
+- [B06-REV-0003 — Subscription, Daily Content and Lead Supply Review](reviews/B06-REV-0003_Subscription_Daily_Content_and_Lead_Supply_Review.md)
 
 ## Current gate
 
 ```text
 Product Charter owner merge
-→ Product-local record inventory and controlled IDs
-→ reference journeys
-→ conformance scenarios
-→ Handoff / Return mapping
-→ MVP and evaluation baseline
+→ Daily Content Unit, subscription and intention-customer records
+→ reference journeys and conformance scenarios
+→ Artifact / Render / Publish and Handoff / Return mapping
+→ 30-day MVP and evaluation baseline
 → chapter-map candidate
 → owner acceptance
 → controlled manuscript drafting
