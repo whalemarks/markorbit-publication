@@ -2,17 +2,18 @@
 
 ## Identity
 
-- **Status:** Release Candidate 1 — effective upon owner merge of the PF-09 pull request
+- **Status:** Release Candidate 1 — APPROVED AND FROZEN
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
 - **RC1 content baseline:** `9da21c4b2325d35710a1ba1acd9be9ca42d988b3`
+- **PF-09 Decision activation commit:** `2471862b59ac68cfa6bbd51c3f5dda708c92e11b`
+- **Release pointer:** `release/book-05-rc1`
 - **Manuscript:** CH00–CH47, 48 files, seven Parts
 - **Specifications:** B05-SPEC-0001–0004 v0.3
 - **Appendices:** Appendix A–G
 - **Figures:** eleven retained; B05-FIG-05 merged into B05-FIG-03
 - **Owner Decision:** [B05-PUB-0010](publication/B05-PUB-0010_Owner_RC1_and_Publication_Decision.md)
 - **PF-09 Review:** [B05-REV-0029](reviews/B05-REV-0029_PF-09_Owner_RC1_and_Publication_Gate.md)
-
-If the PF-09 pull request is closed without merge, RC1 does not take effect.
+- **Release record:** [B05-REL-0001](releases/B05-REL-0001_Book_05_RC1_Release_Record.md)
 
 ## Position
 
@@ -51,7 +52,7 @@ RK-01–18
 - [B05-SPEC-0003 — Conformance Scenarios and User Surfaces](specifications/B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md) — v0.3
 - [B05-SPEC-0004 — Jurisdiction Pack and Commercial Controls](specifications/B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md) — v0.3
 
-## Publication and Validation
+## Publication, Validation and Release
 
 - [Source and Authority Notes](publication/B05-PUB-0002_Source_and_Authority_Notes.md) — v1.0
 - [Glossary](publication/B05-PUB-0003_Glossary.md) — v0.3
@@ -62,6 +63,8 @@ RK-01–18
 - [Owner RC1 and Publication Decision](publication/B05-PUB-0010_Owner_RC1_and_Publication_Decision.md)
 - [Validation source index](validation/README.md)
 - [B05-VAL-0001 — PF-08 Validation Baseline](validation/B05-VAL-0001_PF-08_Structural_and_Rendered_Validation.md)
+- [Release record index](releases/README.md)
+- [B05-REL-0001 — Book 05 RC1 Release Freeze](releases/B05-REL-0001_Book_05_RC1_Release_Record.md)
 
 ## Controlled Figures
 
@@ -122,9 +125,8 @@ RIVERKITE
 ## Gate Result
 
 ```text
-PF-01–PF-08: COMPLETE
-PF-09: COMPLETE UPON OWNER MERGE
-Release Candidate 1: APPROVED UPON OWNER MERGE
+PF-01–PF-09: COMPLETE
+Book 05: RELEASE CANDIDATE 1 — APPROVED AND FROZEN
 Final publication: NOT APPROVED
 ```
 
