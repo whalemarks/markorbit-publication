@@ -2,15 +2,15 @@
 
 ## Identity
 
-- **Status:** Wave 4 CH17–CH21 Complete Draft 1 — Owner Accepted on Merge
+- **Status:** Wave 5 CH22–CH25 Complete Draft 1 — Owner Accepted on Merge
 - **User-facing identity:** AI business operating system for independent trademark professionals and small trademark agencies
 - **Architectural identity:** lightweight Workplace Product, individual-first but Organization-centered
 - **Product Charter:** B06-PLN-0004 v0.3
 - **Product Baseline:** B06-SPEC-0001–0004 v0.1
 - **Chapter Map:** [B06-TOC-V0.1](planning/B06-PLN-0007_Chapter_Map_Candidate.md)
 - **Chapter range:** B06-CH-00–B06-CH-33
-- **Current manuscript:** [CH00–CH21](manuscript/README.md)
-- **Current Review:** [B06-REV-0009](reviews/B06-REV-0009_Wave_4_Professional_Work_Products_Review.md)
+- **Current manuscript:** [CH00–CH25](manuscript/README.md)
+- **Current Review:** [B06-REV-0010](reviews/B06-REV-0010_Wave_5_Cases_Memory_and_Business_Assets_Review.md)
 
 ## Product definition
 
@@ -32,44 +32,61 @@ Front Matter CH00–CH01: Complete Draft 1 — ACCEPTED
 Part I CH02–CH06: Complete Draft 1 — ACCEPTED
 Part II CH07–CH11: Complete Draft 1 — ACCEPTED
 Part III CH12–CH16: Complete Draft 1 — ACCEPTED
-Part IV CH17–CH21: Complete Draft 1 — owner accepted on merge
-Part V CH22–CH25: next after merge
-Part VI CH26–CH29: planned
+Part IV CH17–CH21: Complete Draft 1 — ACCEPTED
+Part V CH22–CH25: Complete Draft 1 — owner accepted on merge
+Part VI CH26–CH29: next after merge
 Part VII CH30–CH33: planned
 ```
 
-## Accepted argument through CH21
+## Accepted argument through CH25
 
 ```text
 professional reality and Product constitution
 → Today and Authorized Context
 → Observation, Candidate and Prepared Action
 → Customer and Service Growth
-→ Purpose and Structured Content
-→ Artifact Draft and immutable Version
-→ Review
-→ Render / Edit and Readiness
-→ Delivery / Communication / Publish preparation
-→ typed Outcome
-→ Feedback / Correction
-→ Reuse / Retirement
+→ Professional Work Products
+→ authorized Case Context
+→ Case Lesson Candidate
+→ Preference / Personal / Organization Memory Candidate
+→ Reusable Asset / Knowledge Contribution Candidate
+→ rights, provenance and lifecycle governance
+→ bounded reuse and compounding capability
 ```
 
-## Professional Work Products locks
+## Cases, Memory and Business Assets locks
 
-- raw AI text is not an approved Artifact;
-- Content is not Artifact;
-- Artifact is not Document, Evidence or file;
-- a mutable draft is not an exact reviewed version;
-- substantive edits create a new Artifact Version;
-- user confirmation is not Human Review;
-- Render complete is not approved;
-- file creation does not prove entitlement fulfillment;
-- Readiness is not approval or destination acceptance;
-- Publish Package ready is not published;
-- unknown external outcomes remain unknown and are not blindly retried;
-- previous approval does not authorize every future use;
-- reuse requires purpose, rights, source and Review continuity.
+- case experience is not a universal rule;
+- observed sequence is not proven causation;
+- anonymization is not publication permission;
+- Evidence is not reusable content;
+- repeated behavior is not an accepted preference;
+- personal memory is not Organization memory;
+- memory is not formal business truth;
+- Personal Memory is not human identity or authority;
+- Organization memory requires Organization Review;
+- Reusable Asset is not canonical Knowledge;
+- Knowledge Contribution Candidate requires Knowledge governance;
+- AI output is not source authority;
+- internal approval is not public permission;
+- previous approval does not create permanent validity;
+- technical availability does not create reuse permission;
+- rights, provenance, version, steward, correction, expiry and retirement remain visible;
+- retired capability is not erased history.
+
+## Capability-compounding loop
+
+```text
+real work and Outcome
+→ Feedback / Correction
+→ scoped lesson / preference / memory candidate
+→ Human or Organization Review
+→ accepted memory / Reusable Asset / Knowledge contribution path
+→ purpose-matched reuse
+→ new Artifact and Outcome
+→ Reuse Evidence
+→ correction, scope change, expiry, revocation or retirement
+```
 
 ## Chapter structure
 
@@ -103,7 +120,7 @@ Specifications remain authoritative over manuscript simplification.
 
 ## Commercial separation
 
-RMB 99, recurring/daily content, Prospect Candidate supply and Render quotas remain commercial experiments. They do not define the Product constitution.
+RMB 99, recurring/daily content, Prospect Candidate supply, Asset limits and Render quotas remain commercial experiments. They do not define the Product constitution or grant broader rights, authority or Review bypass.
 
 ## Records
 
@@ -115,9 +132,9 @@ RMB 99, recurring/daily content, Prospect Candidate supply and Render quotas rem
 ## Current gate
 
 ```text
-Wave 4 owner merge
-→ Wave 5 CH22–CH25
-→ Part V — Cases, Memory and Business Assets
+Wave 5 owner merge
+→ Wave 6 CH26–CH29
+→ Part VI — MarkOrbit Gateways and Continuity
 ```
 
 Whole-book Complete Draft 1, implementation, production, public/commercial distribution, autonomous professional action and External Protected Action remain unauthorized.
