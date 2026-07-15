@@ -39,6 +39,7 @@ jobs:
           path = Path("books/book-05-markreg/validation/validate_book05.py")
           lines = path.read_text(encoding="utf-8").splitlines()
           changed = False
+          allowed = ("record(", "docs.extend(")
           for _ in range(10):
               source = "\n".join(lines) + "\n"
               try:
@@ -48,7 +49,7 @@ jobs:
                   index = (exc.lineno or 1) - 1
                   line = lines[index]
                   missing = line.count("(") - line.count(")")
-                  if line.lstrip().startswith("record(") and missing > 0:
+                  if line.lstrip().startswith(allowed) and missing > 0:
                       lines[index] = line + (")" * missing)
                       changed = True
                       continue
