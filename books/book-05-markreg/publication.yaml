@@ -1,8 +1,8 @@
 book: "Book 05"
 title: "MarkReg: The Full-Lifecycle International Trademark Product"
 canonical_path: "books/book-05-markreg/"
-status: "complete_draft_1_pf_06_editorial_closure_complete"
-phase: "pf_07_figures_and_publication_apparatus_next"
+status: "complete_draft_1_pf_07_source_apparatus_complete"
+phase: "pf_08_structural_and_rendered_validation_next"
 portfolio_baseline: "MO-PUB-BASELINE-0001"
 
 chapter_map:
@@ -28,6 +28,7 @@ manuscript:
     part_vi: "B05-REV-0024"
     part_vii: "B05-REV-0025"
     whole_book_closure: "B05-REV-0026"
+    figures_and_apparatus: "B05-REV-0027"
 
 specifications:
   B05-SPEC-0001:
@@ -103,45 +104,82 @@ conformance:
   profile_claim_cannot_exceed_pack_state: true
 
 appendices:
-  B05-APP-A: "v0.3_pf_06d_reconciled"
-  B05-APP-B: "v0.3_pf_06d_reconciled"
-  B05-APP-C: "v0.3_pf_06d_reconciled"
-  B05-APP-D: "v0.3_pf_06d_reconciled"
-  B05-APP-E: "v0.3_pf_06d_reconciled"
-  B05-APP-F: "v0.3_pf_06d_reconciled"
-  B05-APP-G: "v0.3_pf_06d_reconciled_pf_08_validation_pending"
+  B05-APP-A: "v0.3_reconciled_figure_02_03_inputs_ready"
+  B05-APP-B: "v0.3_reconciled_figure_04_input_ready"
+  B05-APP-C: "v0.3_reconciled_figure_09_input_ready"
+  B05-APP-D: "v0.3_reconciled_figure_12_input_ready"
+  B05-APP-E: "v0.3_reconciled"
+  B05-APP-F: "v0.3_reconciled_figure_10_input_ready"
+  B05-APP-G: "v0.3_reconciled_figure_11_input_ready_pf_08_validation_pending"
+
+figures:
+  planned_identities: 12
+  retained_sources: 11
+  merged_sources: 1
+  merged_dispositions:
+    B05-FIG-05: "merged_into_B05-FIG-03"
+  retained_ids:
+    - "B05-FIG-01"
+    - "B05-FIG-02"
+    - "B05-FIG-03"
+    - "B05-FIG-04"
+    - "B05-FIG-06"
+    - "B05-FIG-07"
+    - "B05-FIG-08"
+    - "B05-FIG-09"
+    - "B05-FIG-10"
+    - "B05-FIG-11"
+    - "B05-FIG-12"
+  source_format: "mermaid_in_controlled_markdown"
+  captions_complete: true
+  source_references_complete: true
+  intended_placements_complete: true
+  accessibility_descriptions_complete: true
+  source_level_grayscale_review_complete: true
+  rendered_validation_complete: false
 
 editorial:
   standard:
     id: "B05-PUB-0001"
     version: "v0.2"
     status: "controlled_editorial_standard"
+  source_and_authority_notes:
+    id: "B05-PUB-0002"
+    version: "v1.0"
+    status: "controlled_reader_source_notice_complete"
+    reader_notice_complete: true
+    citation_convention_complete: true
   glossary:
     id: "B05-PUB-0003"
     version: "v0.3"
-    status: "controlled_reconciled"
+    status: "controlled_reconciled_stable_layout_inputs_complete"
   subject_index:
     id: "B05-PUB-0004"
     version: "v0.3"
-    status: "controlled_reconciled"
+    status: "controlled_reconciled_stable_layout_inputs_complete"
+  figure_register:
+    id: "B05-PUB-0005"
+    version: "v1.0"
+    status: "controlled_11_retained_1_merged"
+  back_matter_map:
+    id: "B05-PUB-0006"
+    version: "v0.2"
+    status: "controlled_pf_07_reconciled"
   cross_book:
     id: "B05-PUB-0007"
     version: "v0.2"
     status: "controlled_reconciliation_complete"
   rc1_checklist:
     id: "B05-PUB-0008"
-    version: "v0.2"
-    status: "pf_06_updated"
+    version: "v0.3"
+    status: "pf_07_updated_pf_08_pf_09_open"
   term_audit:
     id: "B05-PUB-0009"
     version: "v0.2"
     status: "closed"
+  stable_page_reference_inputs_complete: true
+  rendered_page_references_complete: false
   semantic_findings_open: 0
-  closed_findings:
-    - "PF06C2-F01"
-    - "PF06C3-F01"
-    - "PF06C4-F01"
-    - "PF06D-F01"
 
 cross_book:
   architecture_canon_change_required: false
@@ -151,11 +189,12 @@ cross_book:
   upstream_findings_open: 0
 
 publication_apparatus:
-  figures_planned: 12
-  figures_created: 0
-  source_notes_complete: false
-  page_references_complete: false
-  status: "pf_07_next"
+  status: "pf_07_source_complete_pf_08_render_validation_next"
+  source_notes_complete: true
+  final_reader_notice_complete: true
+  page_reference_inputs_complete: true
+  rendered_page_references_complete: false
+  target_publication_generated: false
 
 publication_finishing_pack:
   id: "B05-PUBLICATION-FINISHING-PACK-001"
@@ -166,18 +205,20 @@ publication_finishing_pack:
     pf_04_scenarios_and_surfaces: "complete"
     pf_05_jurisdiction_and_commercial: "complete"
     pf_06_editorial_finishing: "complete"
-    pf_07_figures_and_apparatus: "authorized_next"
-    pf_08_validation: "open"
+    pf_07_figures_and_apparatus: "complete"
+    pf_08_validation: "authorized_next"
     pf_09_rc1_gate: "open"
 
 next_gate:
-  title: "PF-07 Figures and Publication Apparatus"
-  authorized_by_review: "B05-REV-0026"
+  title: "PF-08 Structural and Rendered Validation"
+  authorized_by_review: "B05-REV-0027"
   scope:
-    - "figure disposition and controlled source assets"
-    - "captions, legends, accessibility and grayscale review"
-    - "final Source and reader notices"
-    - "page-reference inputs and publication inventory"
+    - "file inventory, metadata, links and fenced blocks"
+    - "controlled IDs, scenarios, EL, RK and Profiles"
+    - "Mermaid parsing and target renderer compatibility"
+    - "actual grayscale, accessibility, page fit and non-truncation"
+    - "Back Matter order, anchors, page references and navigation"
+    - "target publication generation and rendered Review"
 
 release_candidate_ready: false
 final_publication_approved: false
