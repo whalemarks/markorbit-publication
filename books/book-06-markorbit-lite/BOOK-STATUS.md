@@ -3,11 +3,11 @@
 ## Current status
 
 ```text
-WAVE 3 — CH12–CH16
+WAVE 4 — CH17–CH21
 COMPLETE DRAFT 1 — OWNER ACCEPTED ON MERGE
 ```
 
-Product Charter v0.3, Product Baseline v0.1, Chapter Map `B06-TOC-V0.1`, Wave 1 and Wave 2 are accepted. The current PR drafts Part III — Customer and Service Growth.
+Product Charter v0.3, Product Baseline v0.1, Chapter Map `B06-TOC-V0.1` and Waves 1–3 are accepted. The current PR drafts Part IV — Professional Work Products.
 
 ## Product identity
 
@@ -44,58 +44,59 @@ ML-AC-01–AC-12
 ```text
 Wave 1 — CH00–CH06: COMPLETE DRAFT 1 — ACCEPTED
 Wave 2 — CH07–CH11: COMPLETE DRAFT 1 — ACCEPTED
+Wave 3 — CH12–CH16: COMPLETE DRAFT 1 — ACCEPTED
 ```
 
-## Wave 3 acceptance set
+## Wave 4 acceptance set
 
 ```text
-B06-CH-12 — Existing Customer Portfolio Opportunities
-B06-CH-13 — Historical Customer Reactivation
-B06-CH-14 — Prospect Candidate Development
-B06-CH-15 — Development Packages, Customer Contact and Response
-B06-CH-16 — From Qualified Need to Opportunity and MarkReg
-B06-REV-0008 — Wave 3 Customer and Service Growth Review
+B06-CH-17 — From Purpose and Knowledge to Structured Content
+B06-CH-18 — Artifact Drafts, Versions and Review Packages
+B06-CH-19 — Render, Edit and Work-Product Readiness
+B06-CH-20 — Delivery, Communication and Publish Preparation
+B06-CH-21 — Outcomes, Corrections and Work-Product Reuse
+B06-REV-0009 — Wave 4 Professional Work Products Review
 ```
 
-## Wave 3 result
+## Wave 4 result
 
 ```text
 Chapter files drafted: 5
-Part III complete: CH12–CH16
+Part IV complete: CH17–CH21
 Blocking findings: 0
 Major findings: 0
 Upstream findings: 0
 Change Proposal required: NO
 ```
 
-Wave 3 establishes:
+Wave 4 establishes:
 
-- existing-customer portfolio value as the preferred first growth source;
-- historical customer reactivation based on a current trigger, verified contactability and opt-out controls;
-- Prospect Candidate development from authorized sources without inventing Customer, Qualified Lead or Opportunity state;
-- source authorization, identity resolution, duplicate and relationship-owner checks;
-- ML-W06 Development Package;
-- exact recipient, channel, work-product version and consequence confirmation;
-- typed response, no-response, invalid, opt-out, failed and unknown states;
-- purpose-specific ML-O08 Qualification Result;
-- ML-H07 Opportunity Formalization Request;
-- ML-H03 MarkReg Handoff and destination revalidation;
-- returned formal references without Lite ownership of formal truth.
+- purpose, audience and authorized source assembly;
+- Structured Content and Work-Product Candidate;
+- Artifact Draft and immutable Artifact Version;
+- exact-version Review Package and typed Review result;
+- deterministic versus generated fields;
+- Render Request, Render Result and substantive Edit behavior;
+- purpose-specific Readiness Result;
+- Delivery, Communication and Publish Package Candidates;
+- final confirmation and typed external outcomes;
+- Feedback, Correction, Reuse Evidence, Asset Candidate and Retirement.
 
-## Accepted growth loop
+## Accepted professional work-product loop
 
 ```text
-authorized portfolio / historical relationship / prospect source
-→ relevant Candidate
-→ Recommendation and User Disposition
-→ Development Package
-→ Human-reviewed and user-confirmed contact
-→ typed response
-→ Qualification Result
-→ Opportunity and/or MarkReg Handoff
-→ destination revalidation
-→ Return Envelope Presentation
-→ next value and scoped capability candidate
+Purpose and Authorized Context
+→ Structured Content
+→ Artifact Draft
+→ immutable Artifact Version
+→ Review Package and typed Review
+→ Render / Edit
+→ Readiness Result
+→ Delivery / Communication / Publish Package
+→ final confirmation and operation
+→ typed Outcome
+→ Feedback / Correction
+→ Reuse / Asset Candidate / Retirement
 ```
 
 ## Drafting progress
@@ -103,9 +104,9 @@ authorized portfolio / historical relationship / prospect source
 ```text
 Wave 1 CH00–CH06: COMPLETE DRAFT 1 — ACCEPTED
 Wave 2 CH07–CH11: COMPLETE DRAFT 1 — ACCEPTED
-Wave 3 CH12–CH16: COMPLETE DRAFT 1 — OWNER ACCEPTED ON MERGE
-Wave 4 CH17–CH21: NEXT AFTER MERGE
-Wave 5 CH22–CH25: planned
+Wave 3 CH12–CH16: COMPLETE DRAFT 1 — ACCEPTED
+Wave 4 CH17–CH21: COMPLETE DRAFT 1 — OWNER ACCEPTED ON MERGE
+Wave 5 CH22–CH25: NEXT AFTER MERGE
 Wave 6 CH26–CH29: planned
 Wave 7 CH30–CH33: planned
 ```
@@ -114,34 +115,34 @@ The whole-book Complete Draft 1 has not yet been achieved.
 
 ## Current locks
 
-- Existing-customer growth requires current professional relevance, not automatic cross-selling.
-- Past relationship does not imply current permission.
-- Opt-out and suppression override growth ranking.
-- Historical private data does not become platform prospect supply.
-- Prospect Candidate is not Customer, Qualified Lead or formal Opportunity.
-- Publicly discoverable does not mean contactable through every channel.
-- Platform-supplied prospect quantity and replacement rules remain commercial experiments.
-- Development Package does not prove purchase intent.
-- Prepared outreach is not sent Communication.
-- Message delivery, reading or response does not automatically prove qualified need.
-- Qualification Result remains Product-local.
-- Opportunity Service and MarkReg revalidate and own formal state.
-- MarkReg Handoff is not Formal Intake, Matter state or official action.
-- Client interest and professional risk override revenue ranking.
+- raw AI text is not an approved Artifact;
+- Content is not Artifact;
+- Artifact is not Document, Evidence or file;
+- a mutable draft is not an exact reviewed version;
+- substantive edits create a new Artifact Version;
+- user confirmation is not Human Review;
+- Render complete is not approved;
+- file creation does not prove entitlement fulfillment;
+- Readiness is not approval or destination acceptance;
+- Publish Package ready is not published;
+- unknown external outcome remains unknown and is not blindly retried;
+- previous approval does not authorize every future use;
+- customer-specific facts do not silently become reusable Assets;
+- source, rights, consent, expiry, correction and retirement remain visible.
 
 ## Next gate
 
 ```text
-Wave 3 owner merge
-→ Wave 4 — CH17–CH21
-→ Part IV: Professional Work Products
+Wave 4 owner merge
+→ Wave 5 — CH22–CH25
+→ Part V: Cases, Memory and Business Assets
 ```
 
 ## Authorization
 
 ```text
-Wave 3 owner acceptance on merge: AUTHORIZED
-Wave 4 drafting after merge: AUTHORIZED
+Wave 4 owner acceptance on merge: AUTHORIZED
+Wave 5 drafting after merge: AUTHORIZED
 Whole-book Complete Draft 1: NOT YET ACHIEVED
 Implementation: NOT AUTHORIZED
 Production: NOT AUTHORIZED

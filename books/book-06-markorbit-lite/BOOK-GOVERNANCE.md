@@ -64,53 +64,53 @@ A manuscript chapter may explain a controlled record but may not change its mean
 ```text
 Wave 1 — B06-CH-00–B06-CH-06 + B06-REV-0006: ACCEPTED
 Wave 2 — B06-CH-07–B06-CH-11 + B06-REV-0007: ACCEPTED
-Wave 3 — B06-CH-12–B06-CH-16 + B06-REV-0008: OWNER ACCEPTED ON MERGE
+Wave 3 — B06-CH-12–B06-CH-16 + B06-REV-0008: ACCEPTED
+Wave 4 — B06-CH-17–B06-CH-21 + B06-REV-0009: OWNER ACCEPTED ON MERGE
 ```
 
-Wave 3 establishes the Customer and Service Growth loop:
+Wave 4 establishes the Professional Work Products loop:
 
 ```text
-existing customer portfolio
-→ historical customer reactivation
-→ Prospect Candidate development
-→ Development Package
-→ Human-reviewed and user-confirmed contact
-→ typed response
-→ Qualification Result
-→ Opportunity / MarkReg Handoff
-→ destination revalidation
-→ Return and next value
+Purpose and Authorized Context
+→ Structured Content
+→ Artifact Draft / immutable Version
+→ Review
+→ Render / Edit
+→ Readiness
+→ Delivery / Communication / Publish preparation
+→ typed Outcome
+→ Feedback / Correction
+→ Reuse / Retirement
 ```
 
-## 7. Wave 3 integrity locks
+## 7. Wave 4 integrity locks
 
 ```text
-existing relationship ≠ automatic cross-sell authority
-past relationship ≠ current contact permission
-old contact ≠ current contactability
-publicly discoverable ≠ contactable through every channel
-Prospect Candidate ≠ Customer or Qualified Lead
-user acceptance ≠ formal Opportunity
-Development Package ≠ purchase intent
-prepared outreach ≠ sent Communication
-message delivered/read ≠ qualified need
-response ≠ Opportunity
-Qualification Result ≠ formal state
-Opportunity Handoff ≠ Opportunity acceptance
-MarkReg Handoff ≠ Product Session, Matter or official action
-Return ≠ Lite-owned formal truth
+raw AI text ≠ approved Artifact
+Content ≠ Artifact
+Artifact ≠ Document, Evidence or file
+mutable draft ≠ exact reviewed version
+substantive edit → new Artifact Version
+user confirmation ≠ Human Review
+Render complete ≠ approved
+file created ≠ entitlement fulfilled
+Readiness ≠ approval or destination acceptance
+Publish Package ready ≠ published
+unknown external result ≠ completed or safe to retry
+previous approval ≠ universal future approval
+reuse ≠ unrestricted copy-and-paste
 ```
 
-Opt-out, suppression, relationship ownership, customer interest and professional risk override growth ranking.
+Source, rights, client consent, deterministic fields, expiry, correction and retirement remain visible through the work-product lifecycle.
 
 ## 8. Writing waves
 
 ```text
 Wave 1 CH00–CH06 — ACCEPTED
 Wave 2 CH07–CH11 — ACCEPTED
-Wave 3 CH12–CH16 — Complete Draft 1 on owner merge
-Wave 4 CH17–CH21 — next after owner merge
-Wave 5 CH22–CH25 — planned
+Wave 3 CH12–CH16 — ACCEPTED
+Wave 4 CH17–CH21 — Complete Draft 1 on owner merge
+Wave 5 CH22–CH25 — next after owner merge
 Wave 6 CH26–CH29 — planned
 Wave 7 CH30–CH33 — planned
 ```
@@ -131,8 +131,9 @@ Product Baseline v0.1: ACCEPTED
 Chapter Map v0.1: ACCEPTED
 Wave 1 CH00–CH06: ACCEPTED
 Wave 2 CH07–CH11: ACCEPTED
-Wave 3 CH12–CH16: OWNER ACCEPTED ON MERGE
-Wave 4 CH17–CH21 drafting after merge: AUTHORIZED
+Wave 3 CH12–CH16: ACCEPTED
+Wave 4 CH17–CH21: OWNER ACCEPTED ON MERGE
+Wave 5 CH22–CH25 drafting after merge: AUTHORIZED
 Whole-book Complete Draft 1: NOT YET ACHIEVED
 Implementation: NOT AUTHORIZED
 Production: NOT AUTHORIZED

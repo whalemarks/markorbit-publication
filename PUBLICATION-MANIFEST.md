@@ -24,12 +24,12 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](gov
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
 | Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Release Candidate 1 — Approved and Frozen |
-| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Wave 3 CH12–CH16 Complete Draft 1 — Owner Accepted on Merge |
+| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Wave 4 CH17–CH21 Complete Draft 1 — Owner Accepted on Merge |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
 Book 05 is frozen through its accepted RC1 content baseline, permanent release record and `release/book-05-rc1` pointer.
 
-Book 06 Product Charter v0.3, Product Baseline v0.1, Chapter Map B06-TOC-V0.1, Wave 1 and Wave 2 are accepted. The current Wave 3 candidate drafts Part III as Complete Draft 1. Whole-book Complete Draft 1 has not yet been achieved.
+Book 06 Product Charter v0.3, Product Baseline v0.1, Chapter Map B06-TOC-V0.1 and Waves 1–3 are accepted. The current Wave 4 candidate drafts Part IV as Complete Draft 1. Whole-book Complete Draft 1 has not yet been achieved.
 
 ## Planned Book Positioning
 
@@ -86,27 +86,34 @@ Accepted manuscript:
 ```text
 Wave 1 CH00–CH06 — Product Constitution
 Wave 2 CH07–CH11 — The Daily Operating Model
+Wave 3 CH12–CH16 — Customer and Service Growth
 ```
 
-Current Wave 3 manuscript candidate:
+Current Wave 4 manuscript candidate:
 
 ```text
-CH12 — Existing Customer Portfolio Opportunities
-CH13 — Historical Customer Reactivation
-CH14 — Prospect Candidate Development
-CH15 — Development Packages, Customer Contact and Response
-CH16 — From Qualified Need to Opportunity and MarkReg
+CH17 — From Purpose and Knowledge to Structured Content
+CH18 — Artifact Drafts, Versions and Review Packages
+CH19 — Render, Edit and Work-Product Readiness
+CH20 — Delivery, Communication and Publish Preparation
+CH21 — Outcomes, Corrections and Work-Product Reuse
 ```
 
-Wave 3 merge accepts CH12–CH16 as Complete Draft 1 and authorizes Wave 4 CH17–CH21.
+Wave 4 merge accepts CH17–CH21 as Complete Draft 1 and authorizes Wave 5 CH22–CH25.
 
-Growth-source priority remains:
+Professional work-product chain:
 
 ```text
-existing customer portfolio
-→ historical customer reactivation
-→ user-owned prospects
-→ platform-supplied Prospect Candidate experiments
+Purpose and Authorized Context
+→ Structured Content
+→ Artifact Draft / immutable Version
+→ Review
+→ Render / Edit
+→ Readiness
+→ Delivery / Communication / Publish preparation
+→ typed Outcome
+→ Feedback / Correction
+→ Reuse / Retirement
 ```
 
 RMB 99, recurring/daily content, Prospect Candidate quantity and quotas remain commercial experiments rather than Product constitution.
@@ -134,13 +141,12 @@ Books 01–04 Portfolio Baseline
 → Book 06 Product Charter v0.3 accepted
 → Book 06 Product Baseline v0.1 accepted
 → Book 06 Chapter Map v0.1 accepted
-→ Wave 1 CH00–CH06 accepted
-→ Wave 2 CH07–CH11 accepted
-→ Wave 3 CH12–CH16 owner merge
-→ Wave 4 CH17–CH21
+→ Waves 1–3 accepted
+→ Wave 4 CH17–CH21 owner merge
+→ Wave 5 CH22–CH25
 ```
 
-Ready for Book 06 Wave 4 drafting after Wave 3 owner merge: **YES**
+Ready for Book 06 Wave 5 drafting after Wave 4 owner merge: **YES**
 
 Whole-book Complete Draft 1 achieved: **NO**
 

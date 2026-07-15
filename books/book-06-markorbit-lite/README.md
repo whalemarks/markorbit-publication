@@ -2,15 +2,15 @@
 
 ## Identity
 
-- **Status:** Wave 3 CH12–CH16 Complete Draft 1 — Owner Accepted on Merge
+- **Status:** Wave 4 CH17–CH21 Complete Draft 1 — Owner Accepted on Merge
 - **User-facing identity:** AI business operating system for independent trademark professionals and small trademark agencies
 - **Architectural identity:** lightweight Workplace Product, individual-first but Organization-centered
 - **Product Charter:** B06-PLN-0004 v0.3
 - **Product Baseline:** B06-SPEC-0001–0004 v0.1
 - **Chapter Map:** [B06-TOC-V0.1](planning/B06-PLN-0007_Chapter_Map_Candidate.md)
 - **Chapter range:** B06-CH-00–B06-CH-33
-- **Current manuscript:** [CH00–CH16](manuscript/README.md)
-- **Current Review:** [B06-REV-0008](reviews/B06-REV-0008_Wave_3_Customer_and_Service_Growth_Review.md)
+- **Current manuscript:** [CH00–CH21](manuscript/README.md)
+- **Current Review:** [B06-REV-0009](reviews/B06-REV-0009_Wave_4_Professional_Work_Products_Review.md)
 
 ## Product definition
 
@@ -31,51 +31,45 @@ MarkOrbit Ecosystem Handoff
 Front Matter CH00–CH01: Complete Draft 1 — ACCEPTED
 Part I CH02–CH06: Complete Draft 1 — ACCEPTED
 Part II CH07–CH11: Complete Draft 1 — ACCEPTED
-Part III CH12–CH16: Complete Draft 1 — owner accepted on merge
-Part IV CH17–CH21: next after merge
-Part V CH22–CH25: planned
+Part III CH12–CH16: Complete Draft 1 — ACCEPTED
+Part IV CH17–CH21: Complete Draft 1 — owner accepted on merge
+Part V CH22–CH25: next after merge
 Part VI CH26–CH29: planned
 Part VII CH30–CH33: planned
 ```
 
-## Accepted argument through CH16
+## Accepted argument through CH21
 
 ```text
-Product Constitution
-→ Daily Operating Model
-→ Existing Customer Portfolio Opportunities
-→ Historical Customer Reactivation
-→ Prospect Candidate Development
-→ Development Package and Human-confirmed contact
-→ typed response and Qualification Result
-→ Opportunity / MarkReg Handoff
-→ destination revalidation and Return
+professional reality and Product constitution
+→ Today and Authorized Context
+→ Observation, Candidate and Prepared Action
+→ Customer and Service Growth
+→ Purpose and Structured Content
+→ Artifact Draft and immutable Version
+→ Review
+→ Render / Edit and Readiness
+→ Delivery / Communication / Publish preparation
+→ typed Outcome
+→ Feedback / Correction
+→ Reuse / Retirement
 ```
 
-## Growth-source priority
+## Professional Work Products locks
 
-```text
-active existing customer portfolio
-→ historical customer reactivation
-→ user-owned prospects
-→ platform-supplied Prospect Candidate experiments
-```
-
-This order reflects authorization, relationship quality and professional relevance rather than volume.
-
-## Customer and Service Growth locks
-
-- service availability does not create service relevance;
-- past relationship does not create permanent contact permission;
-- opt-out and suppression override growth ranking;
-- Prospect Candidate is not Customer, Qualified Lead or Opportunity;
-- public contact data is not permission for every channel;
-- Development Package does not prove purchase intent;
-- prepared outreach is not sent Communication;
-- response is not automatically qualified need;
-- Qualification Result remains Product-local;
-- Opportunity Service and MarkReg own formal state and revalidate Handoffs;
-- content, prospect quantity and RMB 99 remain commercial experiments.
+- raw AI text is not an approved Artifact;
+- Content is not Artifact;
+- Artifact is not Document, Evidence or file;
+- a mutable draft is not an exact reviewed version;
+- substantive edits create a new Artifact Version;
+- user confirmation is not Human Review;
+- Render complete is not approved;
+- file creation does not prove entitlement fulfillment;
+- Readiness is not approval or destination acceptance;
+- Publish Package ready is not published;
+- unknown external outcomes remain unknown and are not blindly retried;
+- previous approval does not authorize every future use;
+- reuse requires purpose, rights, source and Review continuity.
 
 ## Chapter structure
 
@@ -107,6 +101,10 @@ ML-AC-01–AC-12
 
 Specifications remain authoritative over manuscript simplification.
 
+## Commercial separation
+
+RMB 99, recurring/daily content, Prospect Candidate supply and Render quotas remain commercial experiments. They do not define the Product constitution.
+
 ## Records
 
 - [Manuscript](manuscript/README.md)
@@ -117,9 +115,9 @@ Specifications remain authoritative over manuscript simplification.
 ## Current gate
 
 ```text
-Wave 3 owner merge
-→ Wave 4 CH17–CH21
-→ Part IV — Professional Work Products
+Wave 4 owner merge
+→ Wave 5 CH22–CH25
+→ Part V — Cases, Memory and Business Assets
 ```
 
 Whole-book Complete Draft 1, implementation, production, public/commercial distribution, autonomous professional action and External Protected Action remain unauthorized.
