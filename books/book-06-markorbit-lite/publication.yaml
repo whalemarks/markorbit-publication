@@ -1,10 +1,10 @@
 book:
   id: B06
   title: MarkOrbit Lite
-  status: wave_2_ch07_ch11_complete_draft_1_owner_accepted_on_merge
-  manuscript_files: 12
+  status: wave_3_ch12_ch16_complete_draft_1_owner_accepted_on_merge
+  manuscript_files: 17
   planned_chapters: 34
-  current_review: B06-REV-0007
+  current_review: B06-REV-0008
   chapter_map:
     id: B06-TOC-V0.1
     record: B06-PLN-0007
@@ -43,15 +43,15 @@ chapter_structure:
     - id: II
       title: The Daily Operating Model
       range: CH07-CH11
-      status: complete_draft_1_owner_accepted_on_merge
+      status: complete_draft_1_accepted
     - id: III
       title: Customer and Service Growth
       range: CH12-CH16
-      status: next_after_wave_2_merge
+      status: complete_draft_1_owner_accepted_on_merge
     - id: IV
       title: Professional Work Products
       range: CH17-CH21
-      status: planned
+      status: next_after_wave_3_merge
     - id: V
       title: Cases, Memory and Business Assets
       range: CH22-CH25
@@ -74,23 +74,35 @@ wave_1:
 wave_2:
   range: CH07-CH11
   chapter_files: 5
-  status: complete_draft_1_owner_accepted_on_merge
+  status: complete_draft_1_accepted
   review: B06-REV-0007
+
+wave_3:
+  range: CH12-CH16
+  chapter_files: 5
+  status: complete_draft_1_owner_accepted_on_merge
+  review: B06-REV-0008
   structural_pass: true
-  controlled_record_coverage_pass: true
-  daily_operating_sequence_pass: true
-  source_data_boundary_pass: true
-  failure_unknown_state_pass: true
+  reference_journey_coverage_pass: true
+  contact_relationship_safety_pass: true
+  candidate_formal_state_separation_pass: true
+  opportunity_markreg_boundary_pass: true
   blocking_findings: 0
   major_findings: 0
   upstream_findings: 0
   change_proposal_required: false
   controlled_records:
-    - ML-S01-ML-S05
-    - ML-O01-ML-O08
-    - ML-W05
-    - ML-W10
-    - ML-H01-ML-H02
+    - ML-J01-ML-J03
+    - ML-O03-ML-O05
+    - ML-O08
+    - ML-W06
+    - ML-H02
+    - ML-H03
+    - ML-H06
+    - ML-H07
+    - ML-HC-01
+    - ML-HC-04
+    - ML-HC-05
 
 controlled_ranges:
   session_interaction: ML-S01-ML-S05
@@ -110,13 +122,13 @@ writing_waves:
     status: complete_draft_1_accepted
   - wave: 2
     range: CH07-CH11
-    status: complete_draft_1_owner_accepted_on_merge
+    status: complete_draft_1_accepted
   - wave: 3
     range: CH12-CH16
-    status: authorized_after_wave_2_merge
+    status: complete_draft_1_owner_accepted_on_merge
   - wave: 4
     range: CH17-CH21
-    status: planned
+    status: authorized_after_wave_3_merge
   - wave: 5
     range: CH22-CH25
     status: planned
@@ -137,8 +149,9 @@ commercial_plan:
 
 authorization:
   wave_1_accepted: true
-  wave_2_acceptance_on_merge: true
-  wave_3_drafting_after_merge: true
+  wave_2_accepted: true
+  wave_3_acceptance_on_merge: true
+  wave_4_drafting_after_merge: true
   whole_book_complete_draft_1: false
   implementation: false
   production: false

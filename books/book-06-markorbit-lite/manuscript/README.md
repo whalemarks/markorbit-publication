@@ -11,9 +11,9 @@ Chapter Map: B06-TOC-V0.1 — Owner Accepted
 
 ```text
 Wave 1 — CH00–CH06: Complete Draft 1 — ACCEPTED
-Wave 2 — CH07–CH11: Complete Draft 1 — OWNER ACCEPTED ON MERGE
-Wave 3 — CH12–CH16: next after Wave 2 merge
-Wave 4 — CH17–CH21: not started
+Wave 2 — CH07–CH11: Complete Draft 1 — ACCEPTED
+Wave 3 — CH12–CH16: Complete Draft 1 — OWNER ACCEPTED ON MERGE
+Wave 4 — CH17–CH21: next after Wave 3 merge
 Wave 5 — CH22–CH25: not started
 Wave 6 — CH26–CH29: not started
 Wave 7 — CH30–CH33: not started
@@ -37,23 +37,29 @@ Wave 7 — CH30–CH33: not started
 - [B06-CH-10 — Recommendation, Qualification and User Disposition](B06-CH-10_Recommendation_Qualification_and_User_Disposition.md)
 - [B06-CH-11 — Prepared Action, Continuation and Safe Handoff](B06-CH-11_Prepared_Action_Continuation_and_Safe_Handoff.md)
 
-## Accepted argument through CH11
+## Wave 3 inventory
+
+- [B06-CH-12 — Existing Customer Portfolio Opportunities](B06-CH-12_Existing_Customer_Portfolio_Opportunities.md)
+- [B06-CH-13 — Historical Customer Reactivation](B06-CH-13_Historical_Customer_Reactivation.md)
+- [B06-CH-14 — Prospect Candidate Development](B06-CH-14_Prospect_Candidate_Development.md)
+- [B06-CH-15 — Development Packages, Customer Contact and Response](B06-CH-15_Development_Packages_Customer_Contact_and_Response.md)
+- [B06-CH-16 — From Qualified Need to Opportunity and MarkReg](B06-CH-16_From_Qualified_Need_to_Opportunity_and_MarkReg.md)
+
+## Accepted argument through CH16
 
 ```text
 Product Constitution
-→ Today daily cockpit
-→ authorized context
-→ Observation and Signal
-→ Product-local candidates
-→ Recommendation and User Disposition
-→ qualification
-→ Prepared Action
-→ safe Handoff and typed Return
+→ Daily Operating Model
+→ existing-customer portfolio value
+→ historical customer reactivation
+→ Prospect Candidate development
+→ Development Package and Human-confirmed contact
+→ typed response and Qualification Result
+→ Opportunity / MarkReg Handoff
+→ destination revalidation and Return
 ```
 
 ## Authority
-
-The manuscript projects:
 
 ```text
 Product Charter v0.3
