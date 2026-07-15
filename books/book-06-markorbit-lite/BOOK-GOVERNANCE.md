@@ -68,31 +68,61 @@ Every chapter must:
 
 A manuscript chapter may explain a controlled record but may not change its meaning.
 
-## 6. Wave 1 acceptance set
+## 6. Accepted manuscript waves
 
 ```text
-B06-CH-00–B06-CH-06
-+ B06-REV-0006
+Wave 1 — B06-CH-00–B06-CH-06 + B06-REV-0006: ACCEPTED
+Wave 2 — B06-CH-07–B06-CH-11 + B06-REV-0007: OWNER ACCEPTED ON MERGE
 ```
 
-Merge accepts Front Matter and Part I as Complete Draft 1.
+Wave 1 establishes Product constitution.
 
-The accepted Part I constitution must continue to govern later waves:
-
-- Lite is an AI business operating system and lightweight Workplace Product;
-- Lite is individual-first but Organization-centered;
-- Lite owns Product-local candidates, preparation and continuity;
-- Owning Services own formal truth;
-- four Product loops define enduring value;
-- content, prospects, price and quotas remain subordinate capabilities or commercial choices;
-- Human responsibility, source, scope, Handoff and destination revalidation remain visible.
-
-## 7. Writing waves
+Wave 2 establishes the daily operating model:
 
 ```text
-Wave 1 CH00–CH06 — Complete Draft 1 on owner merge
-Wave 2 CH07–CH11 — next after owner merge
-Wave 3 CH12–CH16 — planned
+Lite Session
+→ Today Snapshot
+→ Authorized Context
+→ Source Observation
+→ Signal
+→ Candidate
+→ Recommendation
+→ User Disposition
+→ Qualification
+→ Prepared Action
+→ Handoff
+→ Return
+→ Continuation
+```
+
+## 7. Wave 2 integrity locks
+
+```text
+Today item ≠ active Task
+Today ≠ official deadline source
+available information ≠ authorized context
+local access ≠ synchronization, AI permission or disclosure authority
+Observation ≠ canonical truth
+Signal ≠ verified need
+Service-Value Candidate ≠ formal Opportunity
+Prospect Candidate ≠ Customer or Qualified Lead
+Recommendation ≠ Decision or approval
+inspection ≠ acceptance
+accept_for_preparation ≠ execution
+Qualification Result ≠ formal state
+user confirmation ≠ Human Review
+Continuation State ≠ destination state
+Handoff ≠ destination acceptance
+Return ≠ Lite-owned formal truth
+unknown external result ≠ completed or safe to retry
+```
+
+## 8. Writing waves
+
+```text
+Wave 1 CH00–CH06 — ACCEPTED
+Wave 2 CH07–CH11 — Complete Draft 1 on owner merge
+Wave 3 CH12–CH16 — next after owner merge
 Wave 4 CH17–CH21 — planned
 Wave 5 CH22–CH25 — planned
 Wave 6 CH26–CH29 — planned
@@ -102,23 +132,6 @@ Wave 7 CH30–CH33 — planned
 Each wave uses one branch and one Draft PR unless an exceptional correction requires separation.
 
 Part-level manuscript merges advance drafting but do not approve the whole-book Complete Draft 1.
-
-## 8. Meaning integrity
-
-```text
-Today item ≠ active Task
-Service-Value Candidate ≠ formal Opportunity
-Prospect Candidate ≠ Qualified Lead
-Content ≠ Artifact
-Artifact ≠ Document or Evidence
-Render complete ≠ approved
-Publish Package ready ≠ published
-Handoff ≠ approval
-Return ≠ Lite-owned formal truth
-personal memory ≠ Organization truth
-case experience ≠ canonical Knowledge
-local access ≠ synchronization or authority
-```
 
 ## 9. Owner gates
 
@@ -138,11 +151,13 @@ Owner acceptance is required for:
 Product Charter v0.3: ACCEPTED
 Product Baseline v0.1: ACCEPTED
 Chapter Map v0.1: ACCEPTED
-Wave 1 CH00–CH06: OWNER ACCEPTED ON MERGE
-Wave 2 CH07–CH11 drafting after merge: AUTHORIZED
+Wave 1 CH00–CH06: ACCEPTED
+Wave 2 CH07–CH11: OWNER ACCEPTED ON MERGE
+Wave 3 CH12–CH16 drafting after merge: AUTHORIZED
 Whole-book Complete Draft 1: NOT YET ACHIEVED
 Implementation: NOT AUTHORIZED
 Production: NOT AUTHORIZED
 Public/commercial distribution: NOT AUTHORIZED
+Autonomous professional action: NOT AUTHORIZED
 External Protected Action: NOT AUTHORIZED
 ```
