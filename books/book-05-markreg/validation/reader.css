@@ -1,0 +1,29 @@
+@page {
+  size: A4;
+  margin: 18mm 16mm 20mm;
+  @bottom-center { content: counter(page); font-size: 9pt; color: #555; }
+}
+html { font-family: "DejaVu Sans", Arial, sans-serif; color: #111; line-height: 1.45; }
+body { font-size: 10.5pt; }
+header { page-break-after: always; padding-top: 45mm; }
+header h1 { font-size: 28pt; line-height: 1.15; }
+nav { page-break-after: always; }
+nav ol { columns: 2; column-gap: 10mm; }
+nav li { break-inside: avoid; margin-bottom: 2mm; }
+a { color: #111; text-decoration: underline; }
+.document { page-break-before: always; }
+h1 { font-size: 22pt; line-height: 1.2; margin: 0 0 8mm; }
+h2 { font-size: 16pt; margin-top: 8mm; break-after: avoid; }
+h3 { font-size: 12.5pt; margin-top: 6mm; break-after: avoid; }
+p, li { orphans: 3; widows: 3; }
+table { width: 100%; border-collapse: collapse; margin: 5mm 0; font-size: 8.5pt; break-inside: auto; }
+th, td { border: 0.4pt solid #777; padding: 2mm; vertical-align: top; }
+th { background: #eee; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; border: 0.4pt solid #aaa; background: #f7f7f7; padding: 3mm; font-size: 8pt; }
+code { font-family: "DejaVu Sans Mono", monospace; }
+blockquote { border-left: 2pt solid #777; margin-left: 0; padding-left: 5mm; color: #333; }
+.figure-atlas { page-break-before: always; }
+figure { page-break-before: always; margin: 0; }
+figure h2 { font-size: 15pt; }
+figure img { display: block; max-width: 100%; max-height: 220mm; margin: 5mm auto; object-fit: contain; }
+figcaption { font-size: 9pt; color: #333; margin-top: 3mm; }
