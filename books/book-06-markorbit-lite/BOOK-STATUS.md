@@ -3,11 +3,11 @@
 ## Current status
 
 ```text
-WAVE 5 — CH22–CH25
+WAVE 6 — CH26–CH29
 COMPLETE DRAFT 1 — OWNER ACCEPTED ON MERGE
 ```
 
-Product Charter v0.3, Product Baseline v0.1, Chapter Map `B06-TOC-V0.1` and Waves 1–4 are accepted. The current PR drafts Part V — Cases, Memory and Business Assets.
+Product Charter v0.3, Product Baseline v0.1, Chapter Map `B06-TOC-V0.1` and Waves 1–5 are accepted. The current PR drafts Part VI — MarkOrbit Gateways and Continuity.
 
 ## Product identity
 
@@ -46,57 +46,59 @@ Wave 1 — CH00–CH06: COMPLETE DRAFT 1 — ACCEPTED
 Wave 2 — CH07–CH11: COMPLETE DRAFT 1 — ACCEPTED
 Wave 3 — CH12–CH16: COMPLETE DRAFT 1 — ACCEPTED
 Wave 4 — CH17–CH21: COMPLETE DRAFT 1 — ACCEPTED
+Wave 5 — CH22–CH25: COMPLETE DRAFT 1 — ACCEPTED
 ```
 
-## Wave 5 acceptance set
+## Wave 6 acceptance set
 
 ```text
-B06-CH-22 — From Case Context to Case Lesson
-B06-CH-23 — Personal Memory, Organization Memory and Preferences
-B06-CH-24 — Reusable Assets and Knowledge Contribution
-B06-CH-25 — Rights, Provenance, Retirement and Compounding Capability
-B06-REV-0010 — Wave 5 Cases, Memory and Business Assets Review
+B06-CH-26 — MarkReg Launch, Continuation and Return
+B06-CH-27 — MGSN Capability Need and Provider Boundaries
+B06-CH-28 — Review, Communication, Opportunity, Task and Execution Handoffs
+B06-CH-29 — Local and Private Continuity, Failure and Unknown Outcomes
+B06-REV-0011 — Wave 6 MarkOrbit Gateways and Continuity Review
 ```
 
-## Wave 5 result
+## Wave 6 result
 
 ```text
 Chapter files drafted: 4
-Part V complete: CH22–CH25
+Part VI complete: CH26–CH29
 Blocking findings: 0
 Major findings: 0
 Upstream findings: 0
 Change Proposal required: NO
 ```
 
-Wave 5 establishes:
+Wave 6 establishes:
 
-- authorized case context without Lite ownership of Matter, Document or Evidence truth;
-- ML-M06 Case Lesson Candidate with bounded interpretation and Human Review;
-- explicit separation of observed sequence, causation and universal rule;
-- ML-M03 Preference Candidate with explicit acceptance and scope;
-- ML-M04 Personal Memory Candidate;
-- ML-M05 Organization Memory Candidate with Organization Review;
-- ML-M07 Reusable Asset Candidate with rights, variables, audience and reuse scope;
-- ML-M08 Knowledge Contribution Candidate and ML-HC-08 Knowledge Governance Handoff;
-- provenance and source-authority distinctions;
-- rights, version, owner, review date and correction propagation;
-- stale, superseded, revoked, blocked, retired and archived lifecycle states;
-- ML-E03 Reuse Evidence and ML-E04 Safety / Privacy Finding;
-- compounding capability based on trustworthy reuse rather than library size.
+- `ML-H01` common Handoff Envelope and destination-specific contracts;
+- `ML-H02` Return Envelope Presentation without Lite ownership of formal truth;
+- `ML-H03` and `ML-HC-01` MarkReg Launch/Continuation Handoff;
+- Product Session, Formal Intake and Matter ownership remaining with MarkReg;
+- destination revalidation of applicant, authority, trademark, procedure, source and Review context;
+- `ML-H04` and `ML-HC-02` MGSN Capability Need Handoff;
+- staged disclosure and MGSN ownership of Trust, Routing and provider collaboration depth;
+- no automatic provider appointment;
+- `ML-H05–ML-H08` and `ML-HC-03–ML-HC-06` typed Review, Communication, Opportunity, Task and Execution Handoffs;
+- exact-version continuity and no hidden one-click cascade;
+- Local Only and Personal Private continuity under hybrid minimization;
+- `ML-SCN-23–24` destination revalidation and local-access controls;
+- specific more-information, rejected, unsupported, blocked, failed and unknown states;
+- unknown outcomes protected from blind retry;
+- `ML-E04` Safety / Privacy Finding for boundary defects.
 
-## Accepted memory and capability loop
+## Accepted gateway and continuity loop
 
 ```text
-authorized case/work context
-→ Feedback / Correction
-→ Case Lesson / Preference / Memory Candidate
-→ Human or Organization Review
-→ accepted bounded memory / Reusable Asset / Knowledge contribution path
-→ purpose-matched future use
-→ new Artifact and Outcome
-→ Reuse Evidence
-→ correction, expiry, revocation or retirement
+Lite Candidate / Artifact / Qualified Need
+→ purpose-specific Handoff Envelope
+→ destination revalidation
+→ accepted / more information / rejected / blocked / failed / unknown
+→ formal reference or destination result
+→ Return Envelope Presentation
+→ Today Attention Item / Continuation State
+→ safe next action from the last trustworthy state
 ```
 
 ## Drafting progress
@@ -106,46 +108,47 @@ Wave 1 CH00–CH06: COMPLETE DRAFT 1 — ACCEPTED
 Wave 2 CH07–CH11: COMPLETE DRAFT 1 — ACCEPTED
 Wave 3 CH12–CH16: COMPLETE DRAFT 1 — ACCEPTED
 Wave 4 CH17–CH21: COMPLETE DRAFT 1 — ACCEPTED
-Wave 5 CH22–CH25: COMPLETE DRAFT 1 — OWNER ACCEPTED ON MERGE
-Wave 6 CH26–CH29: NEXT AFTER MERGE
-Wave 7 CH30–CH33: planned
+Wave 5 CH22–CH25: COMPLETE DRAFT 1 — ACCEPTED
+Wave 6 CH26–CH29: COMPLETE DRAFT 1 — OWNER ACCEPTED ON MERGE
+Wave 7 CH30–CH33: NEXT AFTER MERGE
 ```
 
 The whole-book Complete Draft 1 has not yet been achieved.
 
 ## Current locks
 
-- case experience is not a universal rule;
-- observed sequence is not proven causation;
-- anonymization is not publication permission;
-- Evidence is not reusable content;
-- repeated behavior is not an accepted preference;
-- personal memory is not Organization memory;
-- memory is not formal business truth;
-- Personal Memory is not human identity or external-action authority;
-- an internal Reusable Asset is not automatically public;
-- Reusable Asset is not canonical Knowledge;
-- Knowledge Contribution Candidate is not accepted Knowledge;
-- AI output is not source authority;
-- previous approval does not create permanent validity;
-- technical availability does not create reuse permission;
-- correction must propagate to affected downstream versions;
-- retirement blocks future recommendation but does not erase audit history;
-- local readability is not synchronization or disclosure authority.
+- Handoff is not destination acceptance;
+- Return is not Lite-owned formal truth;
+- MarkReg Handoff is not Product Session, Formal Intake, Matter or official action;
+- customer identity is not applicant identity or authority to instruct;
+- Capability Need is not provider recommendation, appointment or assignment;
+- MGSN owns Trust, Routing and collaboration depth;
+- provider candidate returned is not provider appointed;
+- Human Review is not final user confirmation;
+- Communication accepted is not sent;
+- Qualification Result is not formal Opportunity;
+- Attention Item is not active Task;
+- Prepared Action is not Workflow or execution;
+- user confirmation does not grant protected-action authority;
+- local readability is not synchronization, remote AI use or disclosure authority;
+- derived information inherits relevant source restrictions;
+- rejection, block, failure and unknown remain distinct;
+- unknown external outcome is not completed, failed or safe to retry;
+- recency does not override source authority in local/shared conflicts.
 
 ## Next gate
 
 ```text
-Wave 5 owner merge
-→ Wave 6 — CH26–CH29
-→ Part VI: MarkOrbit Gateways and Continuity
+Wave 6 owner merge
+→ Wave 7 — CH30–CH33
+→ Part VII: Conformance, Economics and Evolution
 ```
 
 ## Authorization
 
 ```text
-Wave 5 owner acceptance on merge: AUTHORIZED
-Wave 6 drafting after merge: AUTHORIZED
+Wave 6 owner acceptance on merge: AUTHORIZED
+Wave 7 drafting after merge: AUTHORIZED
 Whole-book Complete Draft 1: NOT YET ACHIEVED
 Implementation: NOT AUTHORIZED
 Production: NOT AUTHORIZED

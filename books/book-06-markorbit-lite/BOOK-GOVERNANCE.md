@@ -66,79 +66,99 @@ Wave 1 — B06-CH-00–B06-CH-06 + B06-REV-0006: ACCEPTED
 Wave 2 — B06-CH-07–B06-CH-11 + B06-REV-0007: ACCEPTED
 Wave 3 — B06-CH-12–B06-CH-16 + B06-REV-0008: ACCEPTED
 Wave 4 — B06-CH-17–B06-CH-21 + B06-REV-0009: ACCEPTED
-Wave 5 — B06-CH-22–B06-CH-25 + B06-REV-0010: OWNER ACCEPTED ON MERGE
+Wave 5 — B06-CH-22–B06-CH-25 + B06-REV-0010: ACCEPTED
+Wave 6 — B06-CH-26–B06-CH-29 + B06-REV-0011: OWNER ACCEPTED ON MERGE
 ```
 
-Wave 5 establishes the Professional Memory and Business Assets loop:
+Wave 6 establishes the MarkOrbit Ecosystem Handoff loop:
 
 ```text
-authorized case/work context
-→ Feedback / Correction
-→ Case Lesson / Preference / Memory Candidate
-→ Human or Organization Review
-→ accepted bounded memory / Reusable Asset / Knowledge contribution path
-→ purpose-matched reuse
-→ new Artifact and Outcome
-→ Reuse Evidence
-→ correction, expiry, revocation or retirement
+Lite Candidate / Artifact / Qualified Need
+→ purpose-specific Handoff Envelope
+→ destination revalidation
+→ accepted / more information / rejected / blocked / failed / unknown
+→ formal reference or destination result
+→ Return Envelope Presentation
+→ Today Attention Item / Continuation State
+→ safe next action from the last trustworthy state
 ```
 
-## 7. Wave 5 integrity locks
+## 7. Wave 6 integrity locks
 
 ```text
-case experience ≠ universal rule
-observed sequence ≠ proven causation
-anonymized ≠ authorized for publication
-Evidence ≠ reusable content
-repeated behavior ≠ accepted preference
-personal memory ≠ Organization memory
-memory ≠ formal business truth
-Personal Memory ≠ human identity or authority
-Reusable Asset ≠ canonical Knowledge
-Knowledge submission ≠ Knowledge acceptance
-AI output ≠ source authority
-previous approval ≠ permanent validity
-technical availability ≠ reuse permission
-retired ≠ erased history
+Handoff ≠ destination acceptance
+Return ≠ Lite-owned formal truth
+MarkReg Handoff ≠ Product Session / Formal Intake / Matter / official action
+customer identity ≠ applicant identity or authority to instruct
+Capability Need ≠ provider recommendation / appointment / assignment
+MGSN owns Trust, Routing and collaboration depth
+provider candidate returned ≠ provider appointed
+Human Review ≠ final user confirmation
+Communication accepted ≠ sent
+Qualification Result ≠ formal Opportunity
+Attention Item ≠ active Task
+Prepared Action ≠ Workflow or execution
+user confirmation ≠ protected-action authority
+local readability ≠ synchronization / remote AI use / disclosure authority
+derived information inherits relevant source restrictions
+rejected ≠ blocked ≠ failed ≠ unknown
+unknown external outcome ≠ completed / failed / safe to retry
 ```
 
-Client/Matter restrictions, source provenance, source authority, rights, audience, version, steward, review date, correction, expiry, revocation and retirement remain visible through the capability lifecycle.
+## 8. Handoff and Return rule
 
-## 8. Memory and promotion rule
+Every material Handoff must preserve:
+
+- origin Product and Lite Session;
+- active Organization and initiating user;
+- source Candidate, Artifact or Return;
+- exact selected version;
+- purpose and intended consequence;
+- destination;
+- data classification and disclosure scope;
+- required Review, authority and confirmation;
+- missing information and expiry;
+- return address and expected result classes.
+
+Every destination must revalidate within its own authority boundary.
+
+Every Return must preserve source Handoff, destination, result class, source time, formal reference where applicable and destination ownership of formal state.
+
+## 9. Local and private continuity rule
 
 ```text
-activity or outcome
-→ sourced Feedback / Correction
-→ scoped Candidate
-→ Human or Organization Review
-→ accepted personal memory / Organization memory / Reusable Asset / Knowledge contribution
+Local Only / Personal Private source
+→ local or permitted processing
+→ minimized derived context
+→ explicit disclosure decision
+→ destination-specific Handoff
 ```
 
-No promotion may be inferred from repeated use alone.
+Local access does not imply synchronization. Synchronization does not imply unrestricted sharing. Derived information does not lose source restrictions.
 
-Organization memory requires Organization Review. Canonical Knowledge requires Knowledge governance through `ML-HC-08`.
+Unknown outcomes suspend unsafe automatic retry until reconciliation.
 
-## 9. Writing waves
+## 10. Writing waves
 
 ```text
 Wave 1 CH00–CH06 — ACCEPTED
 Wave 2 CH07–CH11 — ACCEPTED
 Wave 3 CH12–CH16 — ACCEPTED
 Wave 4 CH17–CH21 — ACCEPTED
-Wave 5 CH22–CH25 — Complete Draft 1 on owner merge
-Wave 6 CH26–CH29 — next after owner merge
-Wave 7 CH30–CH33 — planned
+Wave 5 CH22–CH25 — ACCEPTED
+Wave 6 CH26–CH29 — Complete Draft 1 on owner merge
+Wave 7 CH30–CH33 — next after owner merge
 ```
 
 Each wave uses one branch and one Draft PR unless an exceptional correction requires separation.
 
 Part-level manuscript merges advance drafting but do not approve the whole-book Complete Draft 1.
 
-## 10. Owner gates
+## 11. Owner gates
 
 Owner acceptance is required for Product Charter, Product Baseline, Chapter Map, each manuscript wave, whole-book Complete Draft 1, Release Candidate and final publication.
 
-## 11. Current authorization
+## 12. Current authorization
 
 ```text
 Product Charter v0.3: ACCEPTED
@@ -148,8 +168,9 @@ Wave 1 CH00–CH06: ACCEPTED
 Wave 2 CH07–CH11: ACCEPTED
 Wave 3 CH12–CH16: ACCEPTED
 Wave 4 CH17–CH21: ACCEPTED
-Wave 5 CH22–CH25: OWNER ACCEPTED ON MERGE
-Wave 6 CH26–CH29 drafting after merge: AUTHORIZED
+Wave 5 CH22–CH25: ACCEPTED
+Wave 6 CH26–CH29: OWNER ACCEPTED ON MERGE
+Wave 7 CH30–CH33 drafting after merge: AUTHORIZED
 Whole-book Complete Draft 1: NOT YET ACHIEVED
 Implementation: NOT AUTHORIZED
 Production: NOT AUTHORIZED
