@@ -7,22 +7,19 @@ PRODUCT CHARTER v0.2
 — OWNER ACCEPTED ON MERGE
 ```
 
-Before merge, this branch presents the amended Charter and consolidated OD-01–OD-08.
+Before merge, this branch presents the combined Charter and consolidated OD-01–OD-08.
 
-Merge records owner acceptance of the Charter baseline, including the subscription, daily content and intention-customer supply amendment.
+Merge records owner acceptance of the subscription, daily content and intention-customer Product baseline.
 
-## Completed
+## Charter acceptance set
 
-- repository and Books 01–05 authority review;
-- Lite architectural-profile reconciliation;
-- Core, Execution, Workplace, MarkReg and MGSN boundary review;
-- Case Center architectural decomposition;
-- supplemental Product idea assessment;
-- Product Charter Candidate;
-- consolidated Product Charter Owner Decision Matrix v0.2;
-- Product Charter Candidate Review;
-- subscription, daily content and intention-customer Charter amendment;
-- amendment Review.
+```text
+B06-PLN-0004 v0.2 — Product Charter
++ B06-PLN-0005 v0.2 — OD-01–OD-08
++ B06-PLN-0006 — Subscription and Daily Supply detail
++ B06-REV-0002 — Base architecture Review
++ B06-REV-0003 — Amendment Review
+```
 
 ## Accepted Product identity on merge
 
