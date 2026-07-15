@@ -40,27 +40,48 @@ jobs:
 
       - name: Install system rendering dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get install -y \
+          sudo apt-get update -qq >/dev/null
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq \
             fonts-dejavu-core \
             libcairo2 \
             libffi-dev \
             libgdk-pixbuf-2.0-0 \
             libpango-1.0-0 \
             libpangocairo-1.0-0 \
-            shared-mime-info
+            shared-mime-info >/dev/null
 
       - name: Install Python validation dependencies
-        run: python -m pip install -r books/book-05-markreg/validation/requirements.txt
+        run: python -m pip install -q -r books/book-05-markreg/validation/requirements.txt
 
       - name: Install Mermaid CLI and browser
         run: |
-          npm install --no-save @mermaid-js/mermaid-cli
-          npx puppeteer browsers install chrome-headless-shell
+          npm install --silent --no-save @mermaid-js/mermaid-cli >/dev/null
+          npx puppeteer browsers install chrome-headless-shell >/dev/null
           echo "$GITHUB_WORKSPACE/node_modules/.bin" >> "$GITHUB_PATH"
 
       - name: Run structural and rendered validation
-        run: python books/book-05-markreg/validation/validate_book05.py
+        shell: bash
+        run: |
+          set +e
+          python books/book-05-markreg/validation/validate_book05.py > /tmp/pf08-console.log 2>&1
+          status=$?
+          cat /tmp/pf08-console.log
+          if [ -f books/book-05-markreg/build/pf08/validation-report.json ]; then
+            python - <<'PY'
+          import json
+          from pathlib import Path
+          path = Path("books/book-05-markreg/build/pf08/validation-report.json")
+          report = json.loads(path.read_text(encoding="utf-8"))
+          print("PF-08 report status:", report["status"])
+          print("PF-08 checks:", report["checks"])
+          print("PF-08 passed:", report["passed"])
+          for error in report.get("errors", []):
+              print("::error::" + error.replace("\n", " "))
+          for warning in report.get("warnings", []):
+              print("::warning::" + warning.replace("\n", " "))
+          PY
+          fi
+          exit "$status"
 
       - name: Upload PF-08 validation artifacts
         if: always()
