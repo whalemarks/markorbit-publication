@@ -2,145 +2,105 @@
 
 ## Identity
 
-- **Book:** Book 05
-- **Title:** MarkReg: The Full-Lifecycle International Trademark Product
-- **Canonical path:** `books/book-05-markreg/`
-- **Status:** Complete Draft 1 — Whole-Book Closure Next
+- **Status:** Complete Draft 1 — PF-06 Editorial Closure Complete
 - **Chapter Map:** B05-TOC-V0.1 — Owner Accepted
-- **Completed editorial range:** CH00–CH47
-- **Metadata:** PF-01 COMPLETE
-- **Current substantive phase:** PF-06D — Whole-Book Closure
-- **Open controlled findings:** PF06C2-F01, PF06C3-F01 and PF06C4-F01
+- **Manuscript:** CH00–CH47 complete
+- **Specifications:** B05-SPEC-0001–0004 v0.3
+- **Appendices:** A–G content-reconciled
+- **Current phase:** PF-07 — Figures and Publication Apparatus
 
-## Position in the Series
+## Position
 
 ```text
 Book 01 — Operating System principles
-        ↓
-Book 02 — Shared Core semantics
-        ↓
-Book 03 — Governed Execution
-        ↓
-Book 04 — Workplace and Product Architecture
-        ↓
-Book 05 — MarkReg Product constitution and lifecycle specification
+→ Book 02 — Shared Core semantics
+→ Book 03 — Governed Execution
+→ Book 04 — Workplace and Product Architecture
+→ Book 05 — MarkReg Product constitution and lifecycle specification
 ```
 
 Book 05 is not a jurisdictional legal manual, implementation PRD, official source, autonomous professional actor or production authority.
 
-## Manuscript Progress
-
-- Front Matter — CH00–CH01: complete
-- Part I — CH02–CH07: complete
-- Part II — CH08–CH15: complete
-- Part III — CH16–CH22: complete
-- Part IV — CH23–CH29: complete
-- Part V — CH30–CH36: complete
-- Part VI — CH37–CH42: complete
-- Part VII — CH43–CH47: complete
-
-## Part VII Controlled Sequence
+## Controlled Baseline
 
 ```text
-EL-36 / CH43 — Handoff Envelope, Product Session and Return Envelope
-EL-37 / CH44 — Participant Surface Projection and action rights
-EL-38 / CH45 — Source, Rule, Pack, overlay, AI and Pack Release controls
-EL-39 / CH46 — Metric Definition, Evaluation, Pilot Context and Pilot/Release Decision
-EL-40 / CH47 — Conformance Statement and separate authority gates
+MR-CR-01–08
+MR-A01–A30
+MR-C01–C12
+MR-D01–D13
+MR-E01–E09
+MR-B01–B04
+MR-V01–V05
+MR-G01–G10
+MR-SCN-01–41
+EL-01–40
+RK-01–18
 ```
 
-[B05-REV-0025](reviews/B05-REV-0025_PF-06C4_Part_VII_Editorial_Review.md) accepts Part VII, closes PF-01 and PF-06C, records PF06C4-F01 and authorizes PF-06D.
+`MR-C01` is Capability Need. `MR-C12` is Applicant and Authority Context.
 
-## Controlled Product Specifications
+## Specifications
 
-- [B05-SPEC-0001 — Product Artifact and Decision Map](specifications/B05-SPEC-0001_Product_Artifact_and_Decision_Map.md) — v0.2; controls current IDs
-- [B05-SPEC-0002 — Reference Journeys](specifications/B05-SPEC-0002_Reference_Journeys.md) — v0.2; Part V–VII ID corrections required
-- [B05-SPEC-0003 — Conformance Scenarios and User-Surface Contract](specifications/B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md) — v0.2
-- [B05-SPEC-0004 — Jurisdiction Pack and Commercial Control Contract](specifications/B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md) — v0.2
+- [B05-SPEC-0001 — Product Artifact and Decision Map](specifications/B05-SPEC-0001_Product_Artifact_and_Decision_Map.md) — v0.3
+- [B05-SPEC-0002 — Reference Journeys](specifications/B05-SPEC-0002_Reference_Journeys.md) — v0.3
+- [B05-SPEC-0003 — Conformance Scenarios and User Surfaces](specifications/B05-SPEC-0003_Conformance_Scenarios_and_User_Surfaces.md) — v0.3
+- [B05-SPEC-0004 — Jurisdiction Pack and Commercial Controls](specifications/B05-SPEC-0004_Jurisdiction_Pack_and_Commercial_Control_Contract.md) — v0.3
 
-PF-06D must reconcile B05-SPEC-0002, Appendix D and related publication records before PF-08.
+## Publication Apparatus
 
-## Editorial Baseline
+- [Editorial Standard](publication/B05-PUB-0001_Editorial_Style_and_Terminology.md) — v0.2
+- [Glossary](publication/B05-PUB-0003_Glossary.md) — v0.3
+- [Subject Index](publication/B05-PUB-0004_Subject_Index.md) — v0.3
+- [Cross-Book Reconciliation](publication/B05-PUB-0007_Cross-Book_Reconciliation.md) — v0.2
+- [RC1 Checklist](publication/B05-PUB-0008_RC1_Checklist.md) — v0.2
+- [Term Audit](publication/B05-PUB-0009_Term_Variation_and_Editorial_Audit.md) — v0.2 closed
 
-- [B05-PUB-0001 — Editorial Style and Terminology](publication/B05-PUB-0001_Editorial_Style_and_Terminology.md) — Controlled Editorial Standard v0.2
-- [B05-PUB-0003 — Glossary](publication/B05-PUB-0003_Glossary.md) — Controlled Working Glossary v0.2
-- [B05-PUB-0004 — Subject Index](publication/B05-PUB-0004_Subject_Index.md) — Controlled Working Index v0.2
-- [B05-PUB-0009 — Term Variation and Editorial Audit](publication/B05-PUB-0009_Term_Variation_and_Editorial_Audit.md) — Controlled Audit v0.1
+## Appendices
 
-## Editorial Batch Sequence
-
-```text
-PF-06A — COMPLETE
-PF-06B CH00–CH22 — COMPLETE
-PF-06C1 CH23–CH29 — COMPLETE
-PF-06C2 CH30–CH36 — COMPLETE
-PF-06C3 CH37–CH42 — COMPLETE
-PF-06C4 CH43–CH47 — COMPLETE
-PF-06C overall — COMPLETE
-PF-06D — AUTHORIZED AND NEXT / THREE FINDINGS MUST CLOSE
-```
-
-## Controlled Locks
-
-```text
-Surface ≠ authority
-Visibility ≠ action right
-Handoff ≠ approval
-Return ≠ formal-object creation
-Payment ≠ filing authority
-Model memory ≠ current law
-Provider advice ≠ official truth
-Change detection ≠ Rule adoption
-Speed ≠ quality
-Pilot ≠ production
-Conformance claim ≠ External Protected Action authority
-Publication ≠ implementation or production authorization
-```
+- [A — Artifact and Decision Map](appendices/B05-APP-A_Full-Lifecycle_Artifact_and_Decision_Map.md)
+- [B — State and Authority Matrix](appendices/B05-APP-B_Lifecycle_State_and_Authority_Matrix.md)
+- [C — Participant Rights Matrix](appendices/B05-APP-C_Participant_Visibility_and_Action_Rights_Matrix.md)
+- [D — Reference Journeys](appendices/B05-APP-D_Reference_Journeys.md)
+- [E — Conformance Scenarios](appendices/B05-APP-E_Priority_Conformance_Scenarios.md)
+- [F — Jurisdiction Pack Checklist](appendices/B05-APP-F_Minimum_Jurisdiction_Pack_Checklist.md)
+- [G — Conformance Profiles](appendices/B05-APP-G_MarkReg_Conformance_Profiles.md)
 
 ## Reference Journeys
 
-### `EMBERLOOP`
-
 ```text
-United Kingdom — registered; maintenance active; renewal not yet open
-United States — under examination after acknowledged Response Package v2
-European Union — verified opposition without assumed closure
-Japan / Australia — candidates only
+EMBERLOOP
+- UK registered with maintenance obligations
+- US under examination after acknowledged Response Package v2
+- EU in verified opposition
+- Japan / Australia candidates only
+
+RIVERKITE
+- six independent rights
+- four ordinary renewals
+- one ownership-linked renewal
+- one cancellation defense
+- title, use-Evidence and licence work open
 ```
 
-### `RIVERKITE`
+## PF-06 Closure
 
-```text
-six registrations
-→ four ordinary renewals
-→ one ownership-linked renewal
-→ one cancellation defense
-→ title, Evidence and licence actions remain open
-```
+[B05-REV-0026](reviews/B05-REV-0026_PF-06D_Whole-Book_Editorial_Closure.md) confirms:
 
-## Reader-Facing Appendices
-
-- [Appendix A — Full-Lifecycle Artifact and Decision Map](appendices/B05-APP-A_Full-Lifecycle_Artifact_and_Decision_Map.md)
-- [Appendix B — Lifecycle State and Authority Matrix](appendices/B05-APP-B_Lifecycle_State_and_Authority_Matrix.md)
-- [Appendix C — Participant Visibility and Action Rights Matrix](appendices/B05-APP-C_Participant_Visibility_and_Action_Rights_Matrix.md)
-- [Appendix D — Reference Journeys](appendices/B05-APP-D_Reference_Journeys.md)
-- [Appendix E — Priority Conformance Scenarios](appendices/B05-APP-E_Priority_Conformance_Scenarios.md)
-- [Appendix F — Minimum Jurisdiction Pack Checklist](appendices/B05-APP-F_Minimum_Jurisdiction_Pack_Checklist.md)
-- [Appendix G — MarkReg Conformance Profiles](appendices/B05-APP-G_MarkReg_Conformance_Profiles.md)
-
-Appendix A–G remain controlled reader drafts until PF-06D, PF-07 and PF-08 pass.
+- four Specifications reconciled to v0.3;
+- Appendix A–G reconciled;
+- Glossary and Index reconciled;
+- PF06C2-F01, PF06C3-F01, PF06C4-F01 and PF06D-F01 closed;
+- no Architecture Canon or Books 02–04 amendment required;
+- PF-06 complete.
 
 ## Current Gate
 
 ```text
-PF-01–PF-05: COMPLETE
-PF-06A/PF-06B/PF-06C: COMPLETE
-PF-06D: AUTHORIZED AND NEXT
-PF06C2-F01 / PF06C3-F01 / PF06C4-F01: OPEN FOR PF-06D
-PF-06 overall: OPEN
-PF-07–PF-09: OPEN
+PF-01–PF-06: COMPLETE
+PF-07: AUTHORIZED AND NEXT
+PF-08: OPEN
+PF-09: OPEN
+RC1 ready: NO
 ```
 
-## Authority Boundary
-
-Book 05 does not modify the Frozen Book 02 Core Specification, redefine Book 03 Execution, absorb Book 04 Workplace authority, automatically appoint providers, create Official Truth, authorize production deployment or authorize any External Protected Action.
+Book 05 does not authorize implementation, production deployment, autonomous professional action or External Protected Action.
