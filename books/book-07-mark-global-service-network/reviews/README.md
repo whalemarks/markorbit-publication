@@ -3,7 +3,7 @@
 ## Current Gate
 
 ```text
-Pre-Writing Audit v0.1
+Network and Product Charter v0.1
 Ready for Owner Acceptance on Merge
 ```
 
@@ -11,20 +11,32 @@ Ready for Owner Acceptance on Merge
 
 | ID | Review | Decision | Status |
 | --- | --- | --- | --- |
-| B07-REV-0001 | Pre-Writing Audit Review | PASS | Ready for Owner Acceptance on Merge |
+| B07-REV-0001 | Pre-Writing Audit Review | PASS | Accepted |
+| B07-REV-0002 | MGSN Network and Product Charter Review | PASS | Ready for Owner Acceptance on Merge |
 
-## Review Meaning
+## Current Review Result
 
-`B07-REV-0001` confirms that the starting direction is coherent with the current MarkOrbit authority chain and incorporates:
+`B07-REV-0002` confirms:
 
-- platform ownership and control of MGSN resources;
-- hub topology;
+- platform-owned managed-network identity;
+- central MGSN hub topology;
 - participant private-space boundaries;
-- external self-managed route continuity;
-- default platform matching;
-- user final confirmation;
-- procurement, funds and fulfillment hypotheses.
+- R1–R3 route constitution;
+- default Recommended Best Route with user confirmation;
+- platform procurement and price-layer model;
+- funds-control constitution with legal implementation deferred;
+- Provider Organization/Profile distinction;
+- Trust and performance model;
+- Core, MarkReg, Finance and Execution boundaries;
+- operator-assisted MVP 0.
 
-Owner merge authorizes preparation of a Network and Product Charter Candidate.
+```text
+Blocking findings: 0
+Major findings: 0
+Upstream Change Proposal required: NO
+Ready for Owner Acceptance on Merge: YES
+```
 
-It does not authorize a final Product Charter, Product Baseline, Chapter Map, manuscript, schema, API, payment implementation or production deployment.
+Owner merge authorizes preparation of a Controlled Product Baseline Candidate.
+
+It does not authorize Product Baseline acceptance, Chapter Map, manuscript, schema, API, payment implementation, provider appointment or production deployment.
