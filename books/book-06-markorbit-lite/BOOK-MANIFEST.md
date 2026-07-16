@@ -5,7 +5,7 @@
 ```text
 Book ID: B06
 Title: MarkOrbit Lite
-Status: RC Hardening A — Editorial and Structural Normalization — Owner Accepted on Merge
+Status: RC Hardening B — Reader Apparatus — Owner Acceptance on Merge
 Canonical path: books/book-06-markorbit-lite/
 Chapter Map: B06-TOC-V0.1
 Chapter range: B06-CH-00–B06-CH-33
@@ -15,7 +15,7 @@ Product Charter: B06-PLN-0004 v0.3
 Product Baseline: B06-SPEC-0001–0004 v0.1
 Chapter Map record: B06-PLN-0007
 RC Hardening Plan: B06-PLN-0008
-Current review: B06-REV-0014
+Current review: B06-REV-0015
 ```
 
 ## Current inventory
@@ -23,9 +23,11 @@ Current review: B06-REV-0014
 ```text
 planning/B06-PLN-0001–0008
 specifications/B06-SPEC-0001–0004
-reviews/B06-REV-0001–0014
+reviews/B06-REV-0001–0015
 manuscript/README.md
 manuscript/B06-CH-00–B06-CH-33
+reader-apparatus/README.md
+reader-apparatus/B06-APP-0001–B06-APP-0007
 README.md
 BOOK-GOVERNANCE.md
 BOOK-MANIFEST.md
@@ -62,6 +64,8 @@ Part VI: CH26–CH29 — Complete Draft 1 — ACCEPTED
 Part VII: CH30–CH33 — Complete Draft 1 — ACCEPTED
 Whole book: CH00–CH33 — Complete Draft 1 — ACCEPTED
 ```
+
+Reader Apparatus is separate end matter and does not create additional chapter IDs or alter `B06-TOC-V0.1`.
 
 ## Complete manuscript argument
 
@@ -100,27 +104,41 @@ Change Proposal required: NO
 ```text
 Review: B06-REV-0014
 Chapter files audited: 34
-Chapter files modified: 23
 Normalized chapter headers: 34 / 34
 Internal wave-merge metadata remaining: 0
-Internal drafting-wave content in CH01: removed
-CH33 roadmap: reader-facing Product evolution sequence applied
 Chapter ID/title/order changes: 0
 Controlled meaning changes: 0
-Blocking finding: 0
-Major finding: 0
-Upstream finding: 0
+Blocking / major / upstream findings: 0
+```
+
+## RC Hardening B result
+
+```text
+Review: B06-REV-0015
+Reader Apparatus records: B06-APP-0001–B06-APP-0007
+Glossary entries: 63
+Core distinctions: 30
+Semantic figure sources: 12 / 12
+Product-local records covered: 45 / 45
+Reference journeys covered: 4 / 4
+Conformance scenarios covered: 24 / 24
+Handoff contracts covered: 8 / 8
+MVP acceptance criteria covered: 12 / 12
+Stable anchors and subject index: complete
+Cross-format rendered validation: OPEN — HARDENING C
+Controlled meaning changes: 0
+Blocking / major / upstream findings: 0
 Change Proposal required: NO
 ```
 
-## RC hardening requirements
+## RC requirement status
 
 ```text
 RC-H01 chapter metadata: CLOSED ON HARDENING A MERGE
 RC-H02 reader-facing governance cleanup: CLOSED ON HARDENING A MERGE
-RC-H03 glossary and distinction apparatus: OPEN — HARDENING B
+RC-H03 glossary and distinction apparatus: CLOSED ON HARDENING B MERGE
 RC-H04 repetition and cross-references: CLOSED ON HARDENING A MERGE
-RC-H05 figures, appendices and index: OPEN — HARDENING B
+RC-H05 figures, appendices and index: CLOSED ON HARDENING B MERGE
 RC-H06 source, citation and rendered validation: OPEN — HARDENING C
 ```
 
@@ -128,9 +146,9 @@ RC-H06 source, citation and rendered validation: OPEN — HARDENING C
 
 ```text
 Whole-Book Complete Draft 1 — ACCEPTED
-→ Work Package A — OWNER ACCEPTED ON MERGE
-→ Work Package B — Reader Apparatus — AUTHORIZED NEXT
-→ Work Package C — Source, Render and RC Review
+→ Work Package A — ACCEPTED
+→ Work Package B — ACCEPTED ON MERGE
+→ Work Package C — Source, Citation, Render and RC Validation
 → owner Release Candidate decision
 ```
 
