@@ -5,15 +5,15 @@
 Book 07 consumes, in order:
 
 ```text
-MarkOrbit Orbital Architecture Canon vNext
-→ Books 01–04 Portfolio Baseline
+Active Canon vNext.1
+→ Active Decision Register vNext.1
+→ Books 01–04 accepted publication baseline
 → Book 02 Frozen Core Specification
 → Book 03 Execution System
-→ Book 04 Workplace and Product Architecture
 → Book 05 MarkReg RC1
 → Book 06 MarkOrbit Lite RC1
-→ accepted Book 07 Pre-Writing Audit v0.1
-→ accepted Book 07 Charter records
+→ accepted Book 07 Pre-Writing Audit
+→ reconciled Book 07 Charter baseline
 ```
 
 Historical tables, provider lists, pricing files and implementation concepts remain evidence only.
@@ -21,50 +21,79 @@ Historical tables, provider lists, pricing files and implementation concepts rem
 ## Current Gate
 
 ```text
-Network and Product Charter v0.1
+Reconciled Network and Product Charter v0.1
 Ready for Owner Acceptance on Merge
 ```
 
-## Owner Acceptance Meaning
+## Combined Charter Baseline
 
-Owner merge accepts:
+```text
+B07-PLN-0010
++ B07-PLN-0011 / OD-01–OD-33
++ B07-PLN-0013
++ B07-REV-0003
++ B07-VAL-0003
+```
 
-- `B07-PLN-0010` as the MGSN Network and Product Charter v0.1;
-- `B07-PLN-0011` and `OD-01–OD-33`;
-- `B07-REV-0002`;
-- `B07-VAL-0002`.
+`B07-PLN-0013` is the controlling reconciliation where earlier language is incomplete or ambiguous.
 
-Owner merge authorizes preparation of a Controlled Product Baseline Candidate only.
+## Authority Locks
 
-## Charter Locks
+### Workplace lock
 
-### Network identity lock
+The Originating Workplace retains customer relationship, originating commercial context, private pricing, internal Knowledge, approvals and accountable business responsibility.
 
-MGSN is the platform-owned and platform-governed managed global professional service network.
+### Core and Owning Service lock
 
-### Hub topology lock
+Core retains semantic authority. Owning Services retain formal-state authority.
 
-Demand-side and provider-side participants connect through MGSN.
+```text
+Workplace business sovereignty
+≠ unrestricted formal-state mutation
+```
 
-MGSN does not create an independent participant-to-participant network graph.
+### MGSN Connection lock
 
-### Platform resource lock
+An MGSN Connection or Gateway is a Workplace-scoped Product Installation and projection interface.
+
+```text
+MGSN Connection / Gateway
+≠ platform-owned MGSN Network
+```
+
+### MGSN Network lock
 
 The platform owns or governs:
 
-- provider supply;
-- admission and verification;
-- procurement terms;
-- matching and routing intelligence;
+- provider recruitment and admission;
+- provider supply portfolios;
+- Capability and qualification projections;
+- procurement and package terms;
+- matching and routing;
 - platform Trust and performance evidence;
-- funds and fulfillment controls;
-- network interfaces and operating rules.
+- funds and settlement controls;
+- fulfillment, correction and replacement;
+- suspension, retirement and network operating data.
 
-### Private-space lock
+### Provider Workplace lock
 
-Demand-side and provider-side participants retain independent private spaces.
+The Execution Provider Workplace retains provider-side operations, professional judgment and professional responsibility.
 
-Platform network ownership does not imply ownership of every customer, private professional method or official outcome.
+### Handoff and Return lock
+
+```text
+Projection
+≠ Handoff
+≠ Return
+
+Handoff sent
+≠ destination acceptance
+
+Return received
+≠ formal-state mutation
+```
+
+## Product Locks
 
 ### Route lock
 
@@ -78,97 +107,74 @@ R1 receives no implied MGSN procurement, funds, replacement or fulfillment guara
 
 ### Matching lock
 
-The default managed experience presents one Recommended Best Route with reasons and constraints.
-
-Ordinary MVP services require user confirmation before provider allocation.
+The default managed experience uses one Recommended Route and may include up to two materially differentiated alternatives where useful.
 
 ```text
 Automatic matching ≠ automatic appointment
 User confirmation ≠ Provider Acceptance
 ```
 
-Standing allocation requires a later explicit, revocable and service-specific mandate.
+### Participant lock
 
-### Preferred-provider lock
+Organization is the stable participant. Demand and supply are contextual roles with separate permission, financial, conflict and audit contexts.
 
-User preference does not override provider admission, Capability, qualification, conflict, availability, procurement, service-package or risk controls.
+### Introduction lock
+
+Demand participants may introduce providers and providers may introduce demand participants.
+
+Introduction creates provenance and bounded incentives, not automatic admission, permanent ownership or unrestricted routing rights.
 
 ### Commercial lock
 
-The initial model supports platform wholesale service and managed-service packages.
+The initial model supports platform wholesale procurement and managed-service packages.
 
 Provider procurement cost, official fees, platform service/risk cost and demand-side margin remain distinguishable.
 
-A lower-price strategy is not a universal lowest-price guarantee.
+Commercial optimization may not override professional fit, qualification, conflict, deadlines or unacceptable risk.
 
 ### Funds lock
 
-Platform-managed routes require typed collection, purpose allocation, release, settlement, refund and reconciliation controls.
+MGSN-managed routes require typed collection, purpose allocation, release, settlement, refund, dispute and reconciliation controls.
 
-The Charter does not claim a universal escrow, trust-account or payment-institution status.
+The Charter does not claim universal escrow, trust-account or regulated payment status.
 
 ### Provider and Trust lock
 
 ```text
-Core Organization
+Organization
 ≠ MGSN Provider Profile
 ≠ Capability Claim
 ≠ Evidence
 ≠ verification
-≠ service-specific Provider role
+≠ contextual Provider role
 ≠ Network Service Engagement
 ```
 
-Trust is multidimensional, source-aware, service-specific and correctable. It is not one public universal score.
+Trust is multidimensional, source-aware, service-specific, time-scoped and correctable.
 
 ### Formal-state lock
 
-MGSN must not silently duplicate:
-
-- Customer;
-- Contact;
-- Opportunity;
-- Order;
-- Matter;
-- Task;
-- Workflow;
-- Review;
-- Communication send state;
-- Finance ledger and accounting truth;
-- MarkReg official lifecycle;
-- Execution;
-- official outcome.
+MGSN must not silently duplicate or take formal authority over Customer, Contact, Opportunity, Order, Matter, Task, Workflow, Review, Communication send state, Finance ledger, MarkReg official lifecycle or official outcomes.
 
 ### MVP lock
 
-MVP 0 is operator-assisted and begins with international trademark filing and selected high-volume services for Chinese agencies and independent professionals using existing platform foreign associates and verified providers.
+MVP 0 is operator-assisted and begins with international trademark filing and selected high-volume services for Chinese agencies and independent professionals using existing proven foreign associates and selected verified providers.
 
 ## Decision Change Control
 
-Material change to `OD-01–OD-33` requires:
+Material change to the reconciled Charter requires:
 
 1. explicit Charter amendment or supersession;
-2. cross-book boundary review;
-3. updated Review and machine state;
-4. upstream Change Proposal assessment;
-5. owner acceptance before downstream baseline work relies on the change.
-
-A Book 02 or architecture Change Proposal may be required if Book 07 later proposes to:
-
-- own every user Customer;
-- mutate formal business facts outside an Owning Service;
-- erase provider professional responsibility;
-- create peer-to-peer participant authority;
-- equate recommendation with appointment;
-- treat projection as official truth;
-- release funds or execute protected action without authority.
+2. active-Canon and cross-book boundary review;
+3. updated Review, Validation and machine state;
+4. Book 02 Change Proposal assessment where Core semantics may change;
+5. Owner acceptance before downstream work relies on the change.
 
 ## Publication Governance
 
 ```text
 Pre-Writing Audit — ACCEPTED
-→ Network and Product Charter v0.1
-→ Owner Acceptance
+→ Reconciled Charter — READY FOR OWNER ACCEPTANCE
 → Controlled Product Baseline Candidate
 → Product Baseline Review and Owner Decision
 → Chapter Map Candidate
@@ -181,11 +187,11 @@ No later stage is implied by acceptance of an earlier stage.
 
 ## Current Non-Authorization
 
-Book 07 currently does not authorize:
+Book 07 does not currently authorize:
 
 ```text
 Controlled Product Baseline acceptance
-Chapter Map acceptance
+Chapter Map
 Manuscript drafting
 Provider database schema
 Routing API
