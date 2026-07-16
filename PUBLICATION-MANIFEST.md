@@ -24,12 +24,12 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](gov
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
 | Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Release Candidate 1 — Approved and Frozen |
-| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Wave 7 CH30–CH33 Complete Draft 1 — Owner Accepted on Merge |
+| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Whole-Book Complete Draft 1 — Owner Accepted on Merge |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
 Book 05 is frozen through its accepted RC1 content baseline, permanent release record and `release/book-05-rc1` pointer.
 
-Book 06 Product Charter v0.3, Product Baseline v0.1, Chapter Map B06-TOC-V0.1 and Waves 1–6 are accepted. The current Wave 7 candidate drafts Part VII as Complete Draft 1 and completes all 34 planned chapter files on owner merge. Whole-book Complete Draft 1 remains a separate review and owner gate.
+Book 06 Product Charter v0.3, Product Baseline v0.1, Chapter Map B06-TOC-V0.1 and Waves 1–7 are accepted. `B06-REV-0013` confirms the complete CH00–CH33 manuscript and authorizes a controlled Release Candidate hardening sequence. Release Candidate status remains unaccepted.
 
 ## Planned Book Positioning
 
@@ -73,74 +73,67 @@ ML-HC-01–HC-08
 ML-AC-01–AC-12
 ```
 
-Accepted Chapter Map:
+Accepted Chapter Map and manuscript:
 
 ```text
 B06-TOC-V0.1
 B06-CH-00–B06-CH-33
-7 Parts plus Front Matter
+34 / 34 chapter files
+Whole-Book Complete Draft 1
 ```
 
-Accepted manuscript:
+Whole-book review result:
 
 ```text
-Wave 1 CH00–CH06 — Product Constitution
-Wave 2 CH07–CH11 — The Daily Operating Model
-Wave 3 CH12–CH16 — Customer and Service Growth
-Wave 4 CH17–CH21 — Professional Work Products
-Wave 5 CH22–CH25 — Cases, Memory and Business Assets
-Wave 6 CH26–CH29 — MarkOrbit Gateways and Continuity
+Mechanical completeness: PASS
+Cross-Part continuity: PASS
+Product Charter coverage: PASS
+Product Baseline coverage: PASS
+Controlled-term meaning integrity: PASS
+Cross-Book boundary integrity: PASS
+Commercial/Product separation: PASS
+Implementation boundary: PASS
+Blocking findings: 0
+Major findings: 0
+Upstream findings: 0
+Change Proposal required: NO
 ```
 
-Current Wave 7 manuscript candidate:
-
-```text
-CH30 — MVP 0: Customer Opportunity to Governed Service
-CH31 — Evaluation, Conformance and Zero-Tolerance Conditions
-CH32 — Commercial Plans, Entitlements and Sustainable Economics
-CH33 — Product Evolution Without Constitutional Drift
-```
-
-Wave 7 merge accepts CH30–CH33 as Complete Draft 1 and results in 34 of 34 planned manuscript files drafted.
-
-It then authorizes a separate whole-book Complete Draft 1 review.
-
-MVP and validation chain:
-
-```text
-authorized customer/trademark context
-→ explainable Service-Value Candidate
-→ trustworthy work product
-→ confirmed customer action
-→ typed response and qualification
-→ governed Handoff and Return
-→ scoped capability accumulation
-→ Product and commercial evidence
-→ conformance and zero-tolerance review
-```
-
-Commercial hierarchy:
-
-```text
-Product identity
-→ Product Edition
-→ Commercial Plan
-→ Entitlement Window
-→ Fulfillment Observation
-```
-
-RMB 99, recurring/daily content, Prospect Candidate quantity, Asset limits, Handoff support levels and quotas remain commercial experiments rather than Product constitution.
-
-Evolution hierarchy:
+Complete manuscript argument:
 
 ```text
 Product Constitution
-→ Product Baseline
-→ publication and reader projection
-→ Product Increment
-→ implementation specification / ADR
-→ commercial plan and experiment
+→ Daily Operating Model
+→ Customer and Service Growth
+→ Professional Work Products
+→ Cases, Memory and Business Assets
+→ MarkOrbit Gateways and Continuity
+→ MVP and Product Conformance
+→ Commercial Plans and Sustainable Economics
+→ Product Evolution Without Constitutional Drift
 ```
+
+Release Candidate hardening requirements:
+
+```text
+RC-H01 — chapter metadata normalization
+RC-H02 — reader-facing governance cleanup
+RC-H03 — controlled terms and distinction apparatus
+RC-H04 — repetition and cross-reference hardening
+RC-H05 — figures, appendices and index
+RC-H06 — source, citation and rendered validation
+```
+
+Hardening order:
+
+```text
+Work Package A — Editorial and Structural Normalization
+→ Work Package B — Reader Apparatus
+→ Work Package C — Source, Render and RC Review
+→ owner Release Candidate decision
+```
+
+RMB 99, recurring/daily content, Prospect Candidate quantity, Asset limits, Handoff support levels and quotas remain commercial experiments rather than Product constitution.
 
 Lite does not absorb MarkReg Product Sessions, Formal Intake or Matters; MGSN Trust, Routing or provider appointment; Review approval; Communication send state; formal Opportunity; active Task/Workflow; or Execution and protected-action authority.
 
@@ -167,18 +160,19 @@ Books 01–04 Portfolio Baseline
 → Book 06 Product Charter v0.3 accepted
 → Book 06 Product Baseline v0.1 accepted
 → Book 06 Chapter Map v0.1 accepted
-→ Waves 1–6 accepted
-→ Wave 7 CH30–CH33 owner merge
-→ Whole-Book Complete Draft 1 Review
+→ Book 06 Waves 1–7 accepted
+→ Book 06 Whole-Book Complete Draft 1 owner merge
+→ RC Hardening A
+→ RC Hardening B
+→ RC Hardening C and RC Review
+→ owner Release Candidate decision
 ```
 
-All 34 Book 06 chapter files drafted after Wave 7 owner merge: **YES**
+All 34 Book 06 chapter files drafted: **YES**
 
-Whole-book Complete Draft 1 accepted by Wave 7 merge: **NO**
+Whole-book Complete Draft 1 ready for owner acceptance on review merge: **YES**
 
-Ready for whole-book Complete Draft 1 review after Wave 7 owner merge: **YES**
-
-Ready for Release Candidate: **NO**
+Ready for Book 06 Release Candidate: **NO**
 
 Ready for unrestricted implementation: **NO**
 
