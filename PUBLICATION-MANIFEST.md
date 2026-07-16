@@ -144,6 +144,7 @@ B07-PLN-0005 — Historical and Supplemental Input Assessment
 B07-PLN-0006 — Owner Decisions and Open Questions
 B07-PLN-0007 — Delivery Route, Matching and Continuity Model
 B07-PLN-0008 — Authority and Source Map
+B07-PLN-0009 — Network Topology and Private-Space Boundary
 B07-REV-0001 — Pre-Writing Audit Review
 ```
 
@@ -221,7 +222,7 @@ Private-space boundary
 Three-route planning model
 Default platform matching direction
 User final confirmation direction
-B07-PLN-0001–0008
+B07-PLN-0001–0009
 B07-REV-0001
 ```
 
