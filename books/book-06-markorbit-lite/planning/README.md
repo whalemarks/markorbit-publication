@@ -10,8 +10,9 @@ Pre-Writing Audit — COMPLETE
 → Waves 1–7 / CH00–CH33 — ACCEPTED
 → Whole-Book Complete Draft 1 — ACCEPTED
 → RC Hardening A — ACCEPTED
-→ RC Hardening B — OWNER ACCEPTANCE ON B06-REV-0015 MERGE
-→ RC Hardening C — AUTHORIZED NEXT
+→ RC Hardening B — ACCEPTED
+→ RC Hardening C — PASS
+→ Release Candidate 1 — READY FOR OWNER ACCEPTANCE ON MERGE
 ```
 
 ## Planning records
@@ -25,48 +26,57 @@ Pre-Writing Audit — COMPLETE
 - [B06-PLN-0007 — Chapter Map / B06-TOC-V0.1](B06-PLN-0007_Chapter_Map_Candidate.md)
 - [B06-PLN-0008 — Release Candidate Hardening Plan](B06-PLN-0008_Release_Candidate_Hardening_Plan.md)
 
-## Accepted reviews
+## Accepted and current reviews
 
 ```text
 B06-REV-0013 — Whole-Book Complete Draft 1
 B06-REV-0014 — RC Hardening A
 B06-REV-0015 — RC Hardening B
+B06-REV-0016 — RC Hardening C / Whole-Book RC Review
 ```
 
-## Hardening B result
+## Hardening C result
 
 ```text
-Reader Apparatus records: B06-APP-0001–B06-APP-0007
-Glossary entries: 63
-Core distinctions: 30
-Semantic figures: 12
-Product-local records covered: 45 / 45
-Journeys / scenarios / Handoff contracts / acceptance criteria: complete
-Subject index and stable anchors: complete
-Controlled meaning changes: 0
-Blocking / major / upstream findings: 0
+Source and citation review: PASS
+Machine assembly and YAML: PASS
+Local links: 283 / 0 broken
+Anchors: 10 / 0 broken
+Controlled IDs: 93 / 93
+Mermaid figures: 12 / 12
+PDF: 410 pages / 0 near-blank pages
+Blocking / major / warning findings: 0 / 0 / 0
+Change Proposal required: NO
 ```
 
-Closed on merge:
+Validation evidence:
 
 ```text
-RC-H03 — controlled terms and distinction apparatus
-RC-H05 — figures, appendices and index
+Reader-facing baseline:
+7ce03755e03bb4876768a34a4ee3d2c3b74bddb1
+Workflow run: 29477787207
+Artifact ID: 8367264203
+Artifact digest:
+sha256:2446561090311a6d6e5912ebdc1e109a2b0e5cf525109db9eb3b0762ee27236b
 ```
 
-## Remaining hardening work
+## RC hardening disposition
 
 ```text
-Work Package C — Source, Citation, Render and RC Validation
-RC-H06 — source, citation and rendered validation
+RC-H01 — CLOSED ON A MERGE
+RC-H02 — CLOSED ON A MERGE
+RC-H03 — CLOSED ON B MERGE
+RC-H04 — CLOSED ON A MERGE
+RC-H05 — CLOSED ON B MERGE
+RC-H06 — READY TO CLOSE ON CURRENT OWNER MERGE
 ```
 
-Work Package C must validate links, anchors, sources, Markdown/Mermaid syntax, PDF or equivalent long-form output, figures, tables, fonts, page breaks, immutable release inputs and whole-book Release Candidate readiness.
-
-## Next task
+## Current branch and decision
 
 ```text
 agent/book-06-rc-hardening-c-source-render-review
+→ owner merge accepts RC Hardening C
+→ owner merge accepts Book 06 Release Candidate 1
 ```
 
-Release Candidate acceptance, implementation, production and external-action authority remain separate gates.
+Final brand/design production, final rendered validation, public/commercial distribution, implementation, production and external-action authority remain separate gates.

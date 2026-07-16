@@ -6,10 +6,10 @@
 Record: B06-PLN-0008
 Book: Book 06 — MarkOrbit Lite
 Record type: Release Candidate Hardening Plan
-Status: Work Packages A and B complete — effective on owner merge
+Status: Work Packages A–C complete — RC1 ready for owner acceptance on merge
 Authority: B06-REV-0013
-Current review: B06-REV-0015
-Release Candidate accepted: NO
+Current review: B06-REV-0016
+Release Candidate 1 accepted on owner merge: YES
 Implementation authorized: NO
 Production authorized: NO
 Public/commercial distribution authorized: NO
@@ -46,7 +46,7 @@ RC-H02 — reader-facing governance cleanup: CLOSED ON PACKAGE A MERGE
 RC-H03 — controlled terms and distinction apparatus: CLOSED ON PACKAGE B MERGE
 RC-H04 — repetition and cross-reference hardening: CLOSED ON PACKAGE A MERGE
 RC-H05 — figures, appendices and index: CLOSED ON PACKAGE B MERGE
-RC-H06 — source, citation and rendered validation: OPEN — PACKAGE C
+RC-H06 — source, citation and rendered validation: READY TO CLOSE ON PACKAGE C / RC1 OWNER MERGE
 ```
 
 ## 5. Work Package A — Editorial and Structural Normalization
@@ -63,7 +63,7 @@ RC-H06 — source, citation and rendered validation: OPEN — PACKAGE C
 ### Result
 
 ```text
-Status: COMPLETE — ACCEPTED ON OWNER MERGE
+Status: COMPLETE — ACCEPTED
 Review: B06-REV-0014
 Chapter files audited: 34
 Chapter files modified: 23
@@ -109,7 +109,7 @@ B06-APP-0007 — Subject Index
 ### Result
 
 ```text
-Status: COMPLETE — EFFECTIVE ON OWNER MERGE
+Status: COMPLETE — ACCEPTED
 Review: B06-REV-0015
 Glossary entries: 63
 Core distinctions: 30
@@ -124,8 +124,6 @@ Controlled meaning changes: 0
 Blocking / major / upstream findings: 0
 ```
 
-Mermaid sources and semantic review are complete. Cross-format rendering, links, fonts, page breaks and final publication validation remain Package C.
-
 ### Branch
 
 ```text
@@ -134,63 +132,77 @@ agent/book-06-rc-hardening-b-reader-apparatus
 
 ## 7. Work Package C — Source, Citation, Render and RC Validation
 
-### 7.1 Source and citation policy
-
-- distinguish architecture authority from illustrative external facts;
-- identify claims requiring external verification;
-- verify temporally sensitive legal, commercial or technology examples;
-- add source notes where examples could be mistaken for authoritative law;
-- avoid turning examples into jurisdictional legal advice;
-- validate all internal paths and cross-references.
-
-### 7.2 Whole-book consistency checks
-
-- chapter numbering and title validation;
-- controlled term and capitalization check;
-- controlled ID uniqueness and coverage;
-- Markdown, Mermaid, code-block and table syntax;
-- broken links and anchors;
-- orphan figures or appendices;
-- duplicate headings and anchors;
-- unresolved TODO, candidate or internal-process wording;
-- Books 01–05 and Book 07 boundary review;
-- commercial-plan/Product separation;
-- implementation and authorization checks.
-
-### 7.3 Rendered validation
-
-Validate at least:
-
-- Markdown navigation;
-- PDF or equivalent long-form render;
-- headings and page breaks;
-- tables and code blocks;
-- Mermaid figure rendering and legibility;
-- glossary and index navigation;
-- internal links and anchors;
-- front matter and end matter;
-- missing assets and font substitution;
-- release manifest and immutable content baseline inputs.
-
-### 7.4 Whole-book RC review
-
-The separate RC review may decide:
+### 7.1 Validation records and tooling
 
 ```text
-PASS
-PASS WITH NON-BLOCKING RELEASE NOTES
-FAIL — CORRECTION REQUIRED
+B06-SRC-0001 — Source and Citation Policy
+B06-VAL-0001 — RC Validation Protocol
+B06-REL-0001 — RC Assembly Manifest
+B06-REL-0002 — Release Candidate 1 Record
+book06-assembly.yaml
+tools/book06_rc_validate.py
+.github/workflows/book06-rc-validation.yml
 ```
 
-### Acceptance criteria
+### 7.2 Source and citation result
 
 ```text
-blocking editorial/render/source findings: 0
-major findings: 0
-upstream conflicts: 0
-open RC-H01–RC-H06 requirements: 0
-whole-book rendered validation: PASS
-RC review: READY FOR OWNER DECISION
+External URLs: 0
+Date markers: 2 — both illustrative 2026-07-15 placeholders in CH09
+Currency markers: 11 — all RMB 99 commercial-hypothesis references
+Material external current claims requiring citation: 0
+Source/citation decision: PASS
+```
+
+### 7.3 Mechanical and coverage result
+
+```text
+Chapter files: 34 / 34
+Reader Apparatus files: 7 / 7
+Markdown files scanned: 82
+Local links checked: 283
+Broken local links: 0
+Anchors checked: 10
+Broken anchors: 0
+Controlled IDs: 93 / 93
+Unresolved editorial markers: 0
+YAML and assembly order: PASS
+```
+
+### 7.4 Rendered validation result
+
+```text
+Mermaid figures: 12 / 12 rendered
+Combined Markdown: generated
+HTML: generated
+PDF: generated
+PDF pages: 410
+PDF bytes: 842,295
+Near-blank PDF pages: 0
+Required chapter and appendix IDs present: PASS
+SHA-256 checksum set: generated
+```
+
+### 7.5 Workflow evidence
+
+```text
+Reader-facing validation baseline: 7ce03755e03bb4876768a34a4ee3d2c3b74bddb1
+Successful workflow run: 29477787207
+Artifact ID: 8367264203
+Artifact digest: sha256:2446561090311a6d6e5912ebdc1e109a2b0e5cf525109db9eb3b0762ee27236b
+```
+
+### 7.6 Whole-book RC review
+
+```text
+Status: COMPLETE — READY FOR OWNER RC1 DECISION
+Review: B06-REV-0016
+Decision: PASS
+Blocking findings: 0
+Major findings: 0
+Warnings: 0
+Upstream conflicts: 0
+Change Proposal required: NO
 ```
 
 ### Branch
@@ -199,21 +211,21 @@ RC review: READY FOR OWNER DECISION
 agent/book-06-rc-hardening-c-source-render-review
 ```
 
-## 8. Work order
+## 8. Work order result
 
 ```text
 Whole-Book Complete Draft 1 — ACCEPTED
 → Work Package A — ACCEPTED
-→ Work Package B — ACCEPTED ON OWNER MERGE
-→ Work Package C — AUTHORIZED NEXT
-→ owner Release Candidate decision
+→ Work Package B — ACCEPTED
+→ Work Package C — PASS
+→ Book 06 Release Candidate 1 — READY FOR OWNER ACCEPTANCE ON MERGE
 ```
 
-The work packages use one coherent branch and Draft PR each, not one branch per chapter.
+The work packages used one coherent branch and Draft PR each, not one branch per chapter.
 
 ## 9. Change escalation
 
-- editorial clarification stays in the active hardening PR;
+- editorial clarification stays in the active publication PR;
 - implementation questions are deferred to later Specifications/ADRs;
 - Product Increment proposals use the controlled Product process;
 - Product Baseline changes require versioning and owner acceptance;
@@ -226,12 +238,12 @@ No RC hardening PR may silently change the Product.
 ```text
 Whole-Book Complete Draft 1: ACCEPTED
 Work Package A: ACCEPTED
-Work Package B acceptance on merge: AUTHORIZED
-Work Package C after merge: AUTHORIZED
-Release Candidate acceptance: NOT AUTHORIZED
+Work Package B: ACCEPTED
+Work Package C: PASS — ACCEPTED ON OWNER MERGE
+Release Candidate 1: ACCEPTED ON OWNER MERGE
 Implementation: NOT AUTHORIZED
 Production: NOT AUTHORIZED
-Public/commercial distribution: NOT AUTHORIZED
+Final public/commercial distribution: NOT AUTHORIZED
 Autonomous professional action: NOT AUTHORIZED
 External Protected Action: NOT AUTHORIZED
 ```

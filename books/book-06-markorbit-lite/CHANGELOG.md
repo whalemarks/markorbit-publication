@@ -1,5 +1,27 @@
 # Book 06 Changelog
 
+## RC Hardening C — Source, Citation, Render and RC Validation
+
+- added `B06-SRC-0001` — Source and Citation Policy;
+- added `B06-VAL-0001` — Release Candidate Validation Protocol;
+- added `B06-REL-0001` — RC Assembly Manifest and machine-readable `book06-assembly.yaml`;
+- added `tools/book06_rc_validate.py` and the `Book 06 RC Validation` GitHub Actions workflow;
+- validated the ordered source set of 34 chapters and 7 Reader Apparatus records;
+- checked 283 local links and 10 anchors with zero broken targets;
+- confirmed 93 of 93 controlled IDs in the coverage appendices;
+- rendered 12 of 12 Mermaid semantic figures to SVG;
+- generated combined Markdown, HTML and a 410-page PDF with zero near-blank pages;
+- generated machine and human validation reports plus SHA-256 checksums;
+- completed Human source review of two illustrative date markers and eleven RMB 99 commercial-hypothesis references;
+- confirmed zero external URLs and zero material current external claims requiring citation;
+- corrected one validation-tool false positive caused by PDF title line wrapping and reran the workflow successfully;
+- recorded successful workflow run `29477787207`, artifact ID `8367264203` and artifact digest `sha256:2446561090311a6d6e5912ebdc1e109a2b0e5cf525109db9eb3b0762ee27236b`;
+- added `B06-REV-0016` — RC Hardening C Source, Render and Release Candidate Review;
+- added `B06-REL-0002` — Release Candidate 1 Record;
+- found zero blocking, major, warning or upstream findings and no required Change Proposal;
+- prepared RC-H06 closure and Book 06 Release Candidate 1 acceptance on owner merge;
+- retained final brand/design production, implementation, production deployment and public/commercial distribution as separate unauthorized gates.
+
 ## RC Hardening B — Reader Apparatus
 
 - added `reader-apparatus/README.md` as the governed reader-aid entry point;

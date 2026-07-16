@@ -11,9 +11,10 @@ Chapter Map: B06-TOC-V0.1 — Owner Accepted
 
 ```text
 Waves 1–7 / CH00–CH33: Complete Draft 1 — ACCEPTED
-RC Hardening A: OWNER ACCEPTED ON B06-REV-0014 MERGE
-RC Hardening B: OWNER ACCEPTANCE ON B06-REV-0015 MERGE
-Release Candidate: NOT ACCEPTED
+RC Hardening A: ACCEPTED
+RC Hardening B: ACCEPTED
+RC Hardening C: PASS
+Release Candidate 1: READY FOR OWNER ACCEPTANCE ON MERGE
 ```
 
 All 34 chapter files remain unchanged in ID, title, order and controlled meaning. Reader Apparatus is maintained as separate end matter and does not alter the Chapter Map.
@@ -81,7 +82,7 @@ The manuscript is supported by [B06-APP-0001–B06-APP-0007](../reader-apparatus
 - core distinction matrix;
 - abbreviation and ID guide;
 - 12 semantic diagrams;
-- 45-record coverage appendix;
+- controlled-record coverage;
 - journey/scenario/Handoff/acceptance coverage;
 - subject index.
 
@@ -93,18 +94,35 @@ Product Charter / Specifications / Chapter Map
 
 Specifications remain authoritative over chapter prose and reader aids.
 
+## Rendered validation
+
+```text
+Reader-facing baseline:
+7ce03755e03bb4876768a34a4ee3d2c3b74bddb1
+Workflow run: 29477787207
+Chapters: 34 / 34
+Reader Apparatus: 7 / 7
+Mermaid figures: 12 / 12
+PDF: 410 pages / 0 near-blank pages
+Blocking / major / warning findings: 0 / 0 / 0
+```
+
+The validation PDF is a reproducibility artifact, not the final branded edition.
+
 ## Review and next gate
 
 - [B06-REV-0013 — Whole-Book Complete Draft 1 Review](../reviews/B06-REV-0013_Whole_Book_Complete_Draft_1_Review.md)
 - [B06-REV-0014 — RC Hardening A Review](../reviews/B06-REV-0014_RC_Hardening_A_Editorial_and_Structural_Normalization_Review.md)
 - [B06-REV-0015 — RC Hardening B Review](../reviews/B06-REV-0015_RC_Hardening_B_Reader_Apparatus_Review.md)
-- [B06-PLN-0008 — Release Candidate Hardening Plan](../planning/B06-PLN-0008_Release_Candidate_Hardening_Plan.md)
+- [B06-REV-0016 — RC Hardening C and RC Review](../reviews/B06-REV-0016_RC_Hardening_C_Source_Render_and_RC_Review.md)
+- [B06-REL-0002 — Release Candidate 1 Record](../release/B06-REL-0002_Release_Candidate_1_Record.md)
 
 ```text
 Whole-Book Complete Draft 1 — ACCEPTED
 → RC Hardening A — ACCEPTED
-→ RC Hardening B — ACCEPTED ON MERGE
-→ RC Hardening C — Source, Citation, Render and RC Validation
+→ RC Hardening B — ACCEPTED
+→ RC Hardening C — PASS
+→ Release Candidate 1 — READY FOR OWNER ACCEPTANCE ON MERGE
 ```
 
-Hardening B does not authorize Release Candidate status, implementation, production, public/commercial distribution, autonomous professional action or External Protected Action.
+Owner merge accepts RC1 but does not authorize implementation, production deployment, final public/commercial distribution, autonomous professional action or External Protected Action.

@@ -1,0 +1,90 @@
+name: Book 06 RC Validation
+
+on:
+  pull_request:
+    paths:
+      - "books/book-06-markorbit-lite/**"
+      - "tools/book06_rc_validate.py"
+      - ".github/workflows/book06-rc-validation.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: book06-rc-validation-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-and-render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      SOURCE_COMMIT: ${{ github.event.pull_request.head.sha || github.sha }}
+
+    steps:
+      - name: Check out publication source
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install publication validation dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends fonts-dejavu-core fonts-noto-core
+          python -m pip install --upgrade pip
+          python -m pip install \
+            beautifulsoup4==4.12.3 \
+            markdown==3.7 \
+            pypdf==5.1.0 \
+            pyyaml==6.0.2 \
+            weasyprint==63.1
+          PUPPETEER_SKIP_DOWNLOAD=true npm install --global @mermaid-js/mermaid-cli@11.4.2
+
+      - name: Configure Mermaid browser
+        shell: bash
+        run: |
+          CHROME="$(command -v google-chrome || command -v google-chrome-stable || command -v chromium || command -v chromium-browser || true)"
+          if [ -z "$CHROME" ]; then
+            echo "No supported Chrome/Chromium executable found" >&2
+            exit 1
+          fi
+          cat > "$RUNNER_TEMP/mermaid-puppeteer.json" <<JSON
+          {
+            "executablePath": "$CHROME",
+            "args": ["--no-sandbox", "--disable-setuid-sandbox"]
+          }
+          JSON
+          echo "MERMAID_PUPPETEER_CONFIG=$RUNNER_TEMP/mermaid-puppeteer.json" >> "$GITHUB_ENV"
+
+      - name: Validate and render Book 06
+        run: |
+          python tools/book06_rc_validate.py \
+            --book-dir books/book-06-markorbit-lite \
+            --output-dir artifacts/book06-rc \
+            --source-commit "$SOURCE_COMMIT"
+
+      - name: Show validation report
+        if: always()
+        run: |
+          if [ -f artifacts/book06-rc/validation-report.md ]; then
+            cat artifacts/book06-rc/validation-report.md
+          fi
+
+      - name: Upload RC validation artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: book06-rc-validation-${{ github.event.pull_request.head.sha || github.sha }}
+          path: artifacts/book06-rc/
+          if-no-files-found: error
+          retention-days: 30
