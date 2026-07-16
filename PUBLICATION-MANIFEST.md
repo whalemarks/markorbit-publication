@@ -25,13 +25,11 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](arc
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
 | Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Release Candidate 1 — Approved and Frozen |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Release Candidate 1 — Owner Accepted |
-| Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Pre-Writing Audit v0.1 — Ready for Owner Acceptance on Merge |
-
+| Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Network and Product Charter v0.1 — Ready for Owner Acceptance on Merge |
 
 ## Portfolio Baseline
 
 Books 01–04 form the accepted pre-Product Portfolio Baseline.
-
 
 Book 02 remains frozen. Semantic changes require the existing Change Proposal process.
 
@@ -137,41 +135,54 @@ Book 06 RC1 acceptance does not approve final branded-publication production, Pr
 
 ## Book 07 — Mark Global Service Network
 
+### Accepted Pre-Writing Baseline
+
+Book 07 Pre-Writing Audit v0.1 was accepted through owner merge of PR #78 on 2026-07-16.
+
+```text
+B07-PLN-0001–0009 — ACCEPTED
+B07-REV-0001 — PASS / ACCEPTED
+B07-VAL-0001 — PASS / ACCEPTED
+```
+
+Accepted starting direction:
+
+```text
+Platform-owned MGSN resources
+Central MGSN hub
+Independent participant private spaces
+R1 External Self-Managed Route
+R2 Recommended Managed Route
+R3 Managed Preferred-Provider Route
+Default best-route matching
+User final confirmation
+Platform procurement, funds and fulfillment direction
+```
+
 ### Current Gate
 
 ```text
-Pre-Writing Audit v0.1
+Network and Product Charter v0.1
 Ready for Owner Acceptance on Merge
 ```
 
-### Current Planning Records
+### Current Charter Records
 
 ```text
-B07-PLN-0001 — Pre-Writing Audit
-B07-PLN-0002 — Product, Platform and Experience Direction
-B07-PLN-0003 — Authority, Ownership and Control Matrix
-B07-PLN-0004 — Commercial, Procurement and Funds-Control Hypotheses
-B07-PLN-0005 — Historical and Supplemental Input Assessment
-B07-PLN-0006 — Owner Decisions and Open Questions
-B07-PLN-0007 — Delivery Route, Matching and Continuity Model
-B07-PLN-0008 — Authority and Source Map
-B07-PLN-0009 — Network Topology and Private-Space Boundary
-B07-REV-0001 — Pre-Writing Audit Review
+B07-PLN-0010 — MGSN Network and Product Charter Candidate v0.1
+B07-PLN-0011 — Charter Owner Decision Matrix / OD-01–OD-33
+B07-REV-0002 — Network and Product Charter Review
+B07-VAL-0002 — Charter Scope and Consistency Check
 ```
 
-### Starting Product Interpretation
+### Charter Identity
 
 ```text
-Platform-owned MGSN hub
-+ platform-governed provider supply
-+ central participant connection
-+ independent private participant spaces
-+ aggregated demand and procurement
-+ default best-route matching
-+ user final confirmation
-+ controlled funds and fulfillment
-+ external self-managed route continuity bridge
-+ provider and network evolution
+MGSN is the platform-owned and platform-governed
+managed global professional service network
+that enables trademark professionals and agencies
+to deliver services worldwide through one governed
+commercial and fulfillment interface.
 ```
 
 ### Network Topology
@@ -186,8 +197,23 @@ Provider Workplace / Provider Interface
 
 MGSN does not create an independent participant-to-participant network graph.
 
+### Product Promise
 
-### Delivery Route Planning Model
+```text
+platform provider coverage
++ standardized service scope
++ aggregated demand
++ negotiated procurement
++ Recommended Best Route
++ user confirmation
++ controlled funds
++ milestone Evidence
++ correction and replacement
++ typed Return
++ provider and network learning
+```
+
+### Delivery Route Constitution
 
 ```text
 R1 — External Self-Managed Route
@@ -195,29 +221,124 @@ R2 — MGSN Recommended Managed Route
 R3 — MGSN Managed Preferred-Provider Route
 ```
 
-R1 remains permitted without provider import, but the user manages provider, price, payment, follow-up and manual Evidence return. No MGSN procurement, funds, replacement or fulfillment guarantee is implied.
+R1 remains permitted without provider import. The user manages negotiation, payment, follow-up and manual Evidence return. No MGSN procurement, funds, replacement or fulfillment guarantee is implied.
 
-R2 is the default when the user lacks a suitable external route. MGSN may automatically match and preselect a Recommended Best Route. The user retains final confirmation, rejection or adjustment.
+R2 is the default managed experience. MGSN may automatically compare and preselect one Recommended Best Route. The user confirms, rejects or adjusts before ordinary provider allocation.
 
-R3 permits a user preference inside MGSN, subject to platform admission, capability, qualification, conflict, availability, procurement, service and risk controls.
+R3 permits a preferred provider subject to platform admission, Capability, qualification, conflict, availability, procurement, service-package and risk controls.
 
 ```text
 Automatic matching ≠ automatic appointment
+Recommended Best Route ≠ final instruction
 User confirmation ≠ Provider Acceptance
 Same provider identity ≠ same route or guarantee
 External user report ≠ official truth
 ```
 
-### Review Result
+### Matching and User Choice
+
+The preferred Product presentation is:
 
 ```text
-Review: B07-REV-0001
+one Recommended Best Route
++ main reasons and constraints
++ rematch or preferred-provider request where permitted
++ External Self-Managed Route option
+```
+
+The complete provider pool is not a constitutional user-facing requirement.
+
+Standing platform allocation is deferred to a later explicit, revocable and service-specific mandate.
+
+### Commercial and Procurement Constitution
+
+```text
+platform wholesale network
++ managed-service packages
+```
+
+Pricing layers remain distinct:
+
+```text
+provider procurement cost
++ official fees and third-party disbursements
++ platform service, support and risk cost
++ demand-side margin where permitted
+= customer-facing offer
+```
+
+MGSN aims to obtain lower or more stable pricing and stronger service terms through aggregated demand, repeat volume and negotiated procurement.
+
+This is a strategic target, not a universal lowest-price guarantee.
+
+### Funds and Fulfillment Constitution
+
+```text
+offer accepted
+→ funds requested
+→ funds received or authorized
+→ purpose allocation
+→ provider commitment
+→ governed release
+→ Evidence and reconciliation
+→ settlement / refund / dispute
+→ closure
+```
+
+The Charter does not claim a universal escrow, trust-account or regulated payment status.
+
+Contracting entity, funds holder, accounting, tax, foreign-exchange, sanctions and client-money rules remain implementation prerequisites.
+
+### Provider and Trust Constitution
+
+```text
+Core Organization
+≠ MGSN Provider Profile
+≠ Capability Claim
+≠ Evidence
+≠ verification
+≠ service-specific Provider role
+≠ Network Service Engagement
+```
+
+MGSN Trust is multidimensional, source-aware, time-scoped and service-specific. It is not one permanent public score.
+
+### Initial MVP 0
+
+Primary demand-side users:
+
+- Chinese trademark agencies handling international work;
+- independent international trademark professionals;
+- authorized Lite, Workplace and MarkReg users.
+
+Initial provider cohort:
+
+- existing platform foreign associates;
+- proven high-volume filing providers;
+- selected verified law firms.
+
+Initial scope:
+
+- international trademark filing;
+- filing through registration where packaged;
+- selected high-volume post-filing and registration services;
+- operator-assisted specialist matters.
+
+MVP 0 is operator-assisted. Automation supports need typing, eligibility, comparison, recommendation and monitoring. Human operators retain admission, complex procurement, funds review, replacement, dispute and suspension responsibilities.
+
+### Charter Review Result
+
+```text
+Review: B07-REV-0002
 Decision: PASS
-Architecture authority: PASS
-Books 01–06 boundary: PASS
-Product direction: PASS
-Experience direction: PASS
-Historical input: PASS
+Authority chain: PASS
+Product and network identity: PASS
+Cross-book ownership boundaries: PASS
+Route and matching model: PASS
+Procurement and pricing model: PASS
+Funds-control constitution: PASS WITH LEGAL MODEL DEFERRED
+Provider and Trust model: PASS
+MVP 0: PASS
 Blocking findings: 0
 Major findings: 0
 Upstream Change Proposal required: NO
@@ -225,38 +346,34 @@ Upstream Change Proposal required: NO
 
 ### Owner Merge Effect
 
-Owner merge may accept:
+Owner merge accepts:
 
 ```text
-Book 07 Pre-Writing Audit v0.1
-Platform-owned MGSN hub interpretation
-Private-space boundary
-Three-route planning model
-Default platform matching direction
-User final confirmation direction
-B07-PLN-0001–0009
-B07-REV-0001
+B07-PLN-0010 v0.1
+B07-PLN-0011
+OD-01–OD-33
+B07-REV-0002
+B07-VAL-0002
 ```
 
-Owner merge may authorize:
+Owner merge authorizes preparation of:
 
 ```text
-Book 07 Network and Product Charter Candidate
+Book 07 Controlled Product Baseline Candidate
 ```
 
 Owner merge does not accept or authorize:
 
 ```text
-Final Product Charter
 Controlled Product Baseline
 Chapter Map
 Manuscript drafting
 Database schema
 API contracts
 Payment implementation
+Provider appointment implementation
 Production deployment
 Peer-to-peer participant network
-Autonomous provider appointment
 External Protected Action
 ```
 
@@ -266,9 +383,10 @@ External Protected Action
 Books 01–04 Portfolio Baseline
 → Book 05 RC1 approved and frozen
 → Book 06 RC1 owner accepted
-→ Book 07 Pre-Writing Audit v0.1
+→ Book 07 Pre-Writing Audit v0.1 accepted
+→ Book 07 Network and Product Charter v0.1
 → Owner acceptance
-→ Book 07 Network and Product Charter Candidate
+→ Book 07 Controlled Product Baseline Candidate
 ```
 
 ## Global Authority Boundary
