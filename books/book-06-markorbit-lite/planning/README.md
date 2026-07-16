@@ -9,8 +9,9 @@ Pre-Writing Audit — COMPLETE
 → Chapter Map B06-TOC-V0.1 — ACCEPTED
 → Waves 1–7 / CH00–CH33 — ACCEPTED
 → Whole-Book Complete Draft 1 — ACCEPTED
-→ RC Hardening A — OWNER ACCEPTED ON B06-REV-0014 MERGE
-→ RC Hardening B — READER APPARATUS — AUTHORIZED NEXT
+→ RC Hardening A — ACCEPTED
+→ RC Hardening B — OWNER ACCEPTANCE ON B06-REV-0015 MERGE
+→ RC Hardening C — AUTHORIZED NEXT
 ```
 
 ## Planning records
@@ -24,31 +25,24 @@ Pre-Writing Audit — COMPLETE
 - [B06-PLN-0007 — Chapter Map / B06-TOC-V0.1](B06-PLN-0007_Chapter_Map_Candidate.md)
 - [B06-PLN-0008 — Release Candidate Hardening Plan](B06-PLN-0008_Release_Candidate_Hardening_Plan.md)
 
-## Whole-book review result
-
-`B06-REV-0013` confirms:
+## Accepted reviews
 
 ```text
-34 / 34 chapter files present
-Whole-book continuity: PASS
-Product Charter coverage: PASS
-Product Baseline coverage: PASS
-Cross-Book boundaries: PASS
-Blocking findings: 0
-Major findings: 0
-Upstream findings: 0
+B06-REV-0013 — Whole-Book Complete Draft 1
+B06-REV-0014 — RC Hardening A
+B06-REV-0015 — RC Hardening B
 ```
 
-## RC Hardening A result
-
-`B06-REV-0014` confirms:
+## Hardening B result
 
 ```text
-34 / 34 chapter headers normalized
-23 chapter files modified
-CH01 internal drafting-wave details removed
-CH33 reader-facing evolution sequence applied
-Chapter ID/title/order changes: 0
+Reader Apparatus records: B06-APP-0001–B06-APP-0007
+Glossary entries: 63
+Core distinctions: 30
+Semantic figures: 12
+Product-local records covered: 45 / 45
+Journeys / scenarios / Handoff contracts / acceptance criteria: complete
+Subject index and stable anchors: complete
 Controlled meaning changes: 0
 Blocking / major / upstream findings: 0
 ```
@@ -56,30 +50,23 @@ Blocking / major / upstream findings: 0
 Closed on merge:
 
 ```text
-RC-H01 — chapter metadata normalization
-RC-H02 — reader-facing governance cleanup
-RC-H04 — repetition and cross-reference hardening
+RC-H03 — controlled terms and distinction apparatus
+RC-H05 — figures, appendices and index
 ```
 
-## Remaining hardening order
+## Remaining hardening work
 
 ```text
-Work Package B
-Reader Apparatus
-- RC-H03 controlled terms and distinction apparatus
-- RC-H05 figures, appendices and index
-
-→ Work Package C
-Source, Render and RC Review
-- RC-H06 source, citation and rendered validation
+Work Package C — Source, Citation, Render and RC Validation
+RC-H06 — source, citation and rendered validation
 ```
 
-Each package uses one coherent branch and Draft PR, not one branch per chapter.
+Work Package C must validate links, anchors, sources, Markdown/Mermaid syntax, PDF or equivalent long-form output, figures, tables, fonts, page breaks, immutable release inputs and whole-book Release Candidate readiness.
 
 ## Next task
 
 ```text
-agent/book-06-rc-hardening-b-reader-apparatus
+agent/book-06-rc-hardening-c-source-render-review
 ```
 
 Release Candidate acceptance, implementation, production and external-action authority remain separate gates.
