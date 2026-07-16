@@ -1,13 +1,13 @@
 book:
   id: B06
   title: MarkOrbit Lite
-  status: rc_hardening_a_owner_accepted_on_merge
+  status: rc_hardening_b_owner_acceptance_on_merge
   manuscript_files: 34
   planned_chapters: 34
   all_chapter_files_drafted: true
   whole_book_complete_draft_1_accepted: true
   release_candidate_accepted: false
-  current_review: B06-REV-0014
+  current_review: B06-REV-0015
   whole_book_review: B06-REV-0013
   rc_hardening_plan: B06-PLN-0008
   chapter_map:
@@ -139,6 +139,36 @@ rc_hardening_a:
   upstream_findings: 0
   change_proposal_required: false
 
+rc_hardening_b:
+  id: B06-REV-0015
+  decision: pass
+  status: owner_acceptance_on_merge
+  reader_apparatus:
+    index: reader-apparatus/README.md
+    records:
+      - B06-APP-0001
+      - B06-APP-0002
+      - B06-APP-0003
+      - B06-APP-0004
+      - B06-APP-0005
+      - B06-APP-0006
+      - B06-APP-0007
+  glossary_entries: 63
+  distinction_entries: 30
+  semantic_figures: 12
+  product_local_records_covered: 45
+  reference_journeys_covered: 4
+  conformance_scenarios_covered: 24
+  handoff_contracts_covered: 8
+  acceptance_criteria_covered: 12
+  stable_anchor_convention_applied: true
+  cross_format_render_validation_complete: false
+  controlled_meaning_changes: 0
+  blocking_findings: 0
+  major_findings: 0
+  upstream_findings: 0
+  change_proposal_required: false
+
 controlled_ranges:
   session_interaction: ML-S01-ML-S05
   observations_candidates: ML-O01-ML-O08
@@ -186,13 +216,13 @@ rc_hardening:
       status: closed_on_hardening_a_merge
     - id: RC-H03
       name: controlled_terms_and_distinction_apparatus
-      status: open_for_hardening_b
+      status: closed_on_hardening_b_merge
     - id: RC-H04
       name: repetition_and_cross_reference_hardening
       status: closed_on_hardening_a_merge
     - id: RC-H05
       name: figures_appendices_and_index
-      status: open_for_hardening_b
+      status: closed_on_hardening_b_merge
     - id: RC-H06
       name: source_citation_and_rendered_validation
       status: open_for_hardening_c
@@ -204,11 +234,12 @@ rc_hardening:
       branch: agent/book-06-rc-hardening-a-editorial-structure
     - id: B
       name: reader_apparatus
-      status: authorized_after_hardening_a_merge
+      status: owner_acceptance_on_merge
+      review: B06-REV-0015
       branch: agent/book-06-rc-hardening-b-reader-apparatus
     - id: C
       name: source_render_and_rc_review
-      status: sequential_gate
+      status: authorized_after_hardening_b_merge
       branch: agent/book-06-rc-hardening-c-source-render-review
 
 change_governance:
@@ -229,8 +260,9 @@ authorization:
   chapter_map_accepted: true
   waves_1_to_7_accepted: true
   whole_book_complete_draft_1_accepted: true
-  rc_hardening_a_acceptance_on_merge: true
-  rc_hardening_b_after_merge: true
+  rc_hardening_a_accepted: true
+  rc_hardening_b_acceptance_on_merge: true
+  rc_hardening_c_after_merge: true
   release_candidate: false
   implementation: false
   production: false
