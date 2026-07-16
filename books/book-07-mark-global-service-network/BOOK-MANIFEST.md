@@ -5,77 +5,55 @@
 ```text
 Book ID: Book 07
 Title: Mark Global Service Network
-Canonical path: books/book-07-mark-global-service-network/
-Current publication gate: Pre-Writing Audit v0.1
+Current gate: Network and Product Charter v0.1
+Status: Ready for Owner Acceptance on Merge
 ```
 
-## Current Controlled Records
-
-### Planning
+## Accepted Planning Baseline
 
 ```text
-B07-PLN-0001 — Pre-Writing Audit
-B07-PLN-0002 — Product, Platform and Experience Direction
-B07-PLN-0003 — Authority, Ownership and Control Matrix
-B07-PLN-0004 — Commercial, Procurement and Funds-Control Hypotheses
-B07-PLN-0005 — Historical and Supplemental Input Assessment
-B07-PLN-0006 — Owner Decisions and Open Questions
-B07-PLN-0007 — Delivery Route, Matching and Continuity Model
-B07-PLN-0008 — Authority and Source Map
-B07-PLN-0009 — Network Topology and Private-Space Boundary
+B07-PLN-0001–0009
+B07-REV-0001
+B07-VAL-0001
+Pre-Writing Audit v0.1
 ```
 
-### Review
+## Current Charter Records
 
 ```text
-B07-REV-0001 — Pre-Writing Audit Review
+B07-CHARTER-0001 — Network and Product Charter v0.1
+B07-DEC-0001 — Charter Decision Register
+B07-REV-0002 — Network and Product Charter Review
 ```
 
-### Validation
-
-```text
-B07-VAL-0001 — Pre-Writing Audit Scope Check
-```
-
-### Governance and State
-
-```text
-README.md
-BOOK-STATUS.md
-BOOK-MANIFEST.md
-GOVERNANCE.md
-CHANGELOG.md
-book-07-state.yaml
-planning/README.md
-reviews/README.md
-validation/README.md
-validation/B07-VAL-0001_Pre-Writing_Audit_Scope_Check.md
-```
-
-## Current Product Interpretation
+## Charter Interpretation
 
 ```text
 Platform-owned MGSN hub
 + platform-governed provider supply
 + unified procurement
-+ default best-route matching
++ default recommended best-route matching
 + user final confirmation
 + controlled funds and fulfillment
-+ private participant spaces
++ independent participant private spaces
 + external self-managed route continuity bridge
 ```
 
-## Network Topology
+## Initial Commercial and MVP Direction
 
 ```text
-Demand-side Workplace / Lite
-            ↓
-          MGSN
-            ↑
-Provider Workplace / Provider Interface
+Commercial model:
+platform wholesale procurement
++ managed transactions
++ optional subscription / entitlement
+
+MVP 0:
+selected international trademark filing-through-registration services
++ existing proven and strategic providers
++ operator-assisted operations
 ```
 
-## Delivery Route Planning Model
+## Delivery Routes
 
 ```text
 R1 — External Self-Managed Route
@@ -85,35 +63,24 @@ R3 — MGSN Managed Preferred-Provider Route
 
 ## Gate Effect
 
-Owner merge accepts the Pre-Writing Audit and authorizes preparation of a Network and Product Charter Candidate.
+Owner merge accepts the Charter and authorizes preparation of the Controlled Product Baseline Candidate.
 
-Owner merge does not accept:
+Owner merge does not authorize:
 
-- a final Product Charter;
-- controlled Product records;
-- Product Baseline;
 - Chapter Map;
 - manuscript;
 - schema or APIs;
+- legal funds custody without specialist approval;
 - payment implementation;
-- production routing or deployment.
+- production routing or provider appointment;
+- deployment.
 
 ## Integrity Locks
 
 ```text
-Book 07 manuscript files: 0 expected
-Book 07 Chapter Map: 0 expected
-Book 07 Product Charter: 0 accepted
-Book 07 controlled Product Baseline: 0 accepted
-Books 01–06 manuscript changes: prohibited in this audit
-Implementation files: prohibited in this audit
-B07-VAL-0001 result: PASS
-```
-
-## Next Authorized Record Family
-
-After owner acceptance:
-
-```text
-Book 07 Network and Product Charter Candidate
+Product Baseline files: 0 expected
+Chapter Map files: 0 expected
+Manuscript files: 0 expected
+Implementation files: 0 expected
+Books 01–06 manuscript changes: prohibited
 ```
