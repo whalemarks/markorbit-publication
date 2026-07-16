@@ -39,7 +39,7 @@ B07-REV-0002 — Network and Product Charter Review — PASS / READY FOR OWNER A
 
 ```text
 B07-VAL-0001 — Pre-Writing Audit Scope Check — PASS / ACCEPTED
-B07-VAL-0002 — Charter Scope and Consistency Check — pending final branch validation
+B07-VAL-0002 — Charter Scope and Consistency Check — PASS / READY FOR OWNER ACCEPTANCE
 ```
 
 ### Governance and State
@@ -94,6 +94,25 @@ Chinese trademark agencies and independent professionals
 + existing platform foreign associates
 + international trademark filing and selected high-volume services
 + operator-assisted matching, funds and fulfillment
+```
+
+## Charter Validation Result
+
+```text
+Total changed files: 16
+Charter Planning records added: 2
+Charter Review records added: 1
+Charter Validation records added: 1
+Book 07 governance/state/index files modified: 9
+Repository registry files modified: 3
+Product Baseline files: 0
+Chapter Map files: 0
+Manuscript files: 0
+Implementation files: 0
+Books 01–06 manuscript changes: 0
+Blocking findings: 0
+Major findings: 0
+Upstream Change Proposal required: NO
 ```
 
 ## Charter Gate Effect
