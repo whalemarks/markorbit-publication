@@ -24,6 +24,7 @@ planning_records:
   - B07-PLN-0006
   - B07-PLN-0007
   - B07-PLN-0008
+  - B07-PLN-0009
 
 review_records:
   - B07-REV-0001
@@ -59,6 +60,7 @@ accepted_on_owner_merge:
   product_and_experience_direction: true
   authority_and_control_matrix: true
   route_planning_model: true
+  topology_and_private_space_boundary: true
   review_b07_rev_0001: true
 
 authorized_on_owner_merge:
