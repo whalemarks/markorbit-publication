@@ -3,11 +3,11 @@
 ## Current status
 
 ```text
-RELEASE CANDIDATE 1
-— READY FOR OWNER ACCEPTANCE ON B06-REV-0016 MERGE
+RELEASE CANDIDATE 1 — APPROVED
+RC1 FREEZE — EFFECTIVE ON B06-REL-0003 OWNER MERGE
 ```
 
-Whole-Book Complete Draft 1 and RC Hardening A/B remain accepted. RC Hardening C has passed source, citation, navigation, semantic-figure and long-form rendered validation.
+Owner merge of PR #76 accepted RC Hardening C, closed `RC-H06` and accepted Book 06 Release Candidate 1. This freeze records the permanent RC1 identity without modifying any of the 41 reader-facing source inputs.
 
 Product Charter v0.3, Product Baseline v0.1, Chapter Map `B06-TOC-V0.1`, Waves 1–7, all 34 chapters and all 7 Reader Apparatus records remain unchanged in controlled meaning.
 
@@ -56,7 +56,26 @@ Whole book — CH00–CH33: COMPLETE DRAFT 1 — ACCEPTED
 Reader Apparatus — B06-APP-0001–0007: ACCEPTED
 ```
 
-## Current acceptance set
+## RC1 identity
+
+```text
+Reader-facing content baseline:
+7ce03755e03bb4876768a34a4ee3d2c3b74bddb1
+
+Owner-decision activation commit:
+060e807be90081977bcc322f1557b9fc950f5209
+
+Permanent freeze record:
+B06-REL-0003
+
+Machine release manifest:
+release/B06-RC1.yaml
+
+Release pointer after freeze merge:
+release/book-06-rc1
+```
+
+## Accepted review and release set
 
 ```text
 B06-REV-0013 — Whole-Book Complete Draft 1 Review
@@ -67,58 +86,52 @@ B06-PLN-0008 — Release Candidate Hardening Plan
 B06-SRC-0001 — Source and Citation Policy
 B06-VAL-0001 — RC Validation Protocol
 B06-REL-0001 — RC Assembly Manifest
-B06-REL-0002 — Release Candidate 1 Record
+B06-REL-0002 — Release Candidate 1 Decision Record
+B06-REL-0003 — Release Candidate 1 Freeze Record
+B06-RC1.yaml — Machine-readable frozen release manifest
 ```
 
-## Hardening A result
+## Hardening results
 
 ```text
-Chapter files audited: 34
-Normalized chapter headers: 34 / 34
-Internal wave-merge metadata remaining: 0
-Chapter ID/title/order changes: 0
-Controlled meaning changes: 0
-Blocking / major / upstream findings: 0
+Hardening A:
+34 / 34 normalized chapter headers
+controlled meaning changes: 0
+
+Hardening B:
+63 glossary entries
+30 core distinctions
+12 semantic figure sources
+45 / 45 Product-local records
+4 / 4 journeys
+24 / 24 scenarios
+8 / 8 Handoff contracts
+12 / 12 MVP criteria
+
+Hardening C:
+34 / 34 chapters
+7 / 7 Reader Apparatus records
+93 / 93 controlled IDs
+283 local links / 0 broken
+10 anchors / 0 broken
+12 / 12 Mermaid figures rendered
+410-page PDF / 0 near-blank pages
+external URLs: 0
+blocking / major / warning findings: 0 / 0 / 0
 ```
 
-## Hardening B result
+Validation evidence:
 
 ```text
-Glossary entries: 63
-Core distinctions: 30
-Semantic figure sources: 12 / 12
-Product-local records: 45 / 45
-Reference journeys: 4 / 4
-Conformance scenarios: 24 / 24
-Handoff contracts: 8 / 8
-MVP acceptance criteria: 12 / 12
-Subject index and stable anchors: complete
-Blocking / major / upstream findings: 0
-```
-
-## Hardening C result
-
-```text
-Reader-facing validation baseline:
-7ce03755e03bb4876768a34a4ee3d2c3b74bddb1
-
-Successful GitHub Actions run: 29477787207
+Content/render run: 29477787207
 Artifact ID: 8367264203
 Artifact digest:
 sha256:2446561090311a6d6e5912ebdc1e109a2b0e5cf525109db9eb3b0762ee27236b
 
-Chapter files: 34 / 34
-Reader Apparatus files: 7 / 7
-Markdown files scanned: 82
-Local links: 283 checked / 0 broken
-Anchors: 10 checked / 0 broken
-Controlled IDs: 93 / 93
-Mermaid figures: 12 / 12 rendered
-PDF: 410 pages / 842,295 bytes / 0 near-blank pages
-External URLs: 0
-Material current external claims requiring citation: 0
-Blocking / major / warning findings: 0 / 0 / 0
-Change Proposal required: NO
+Final governance run: 29478801425
+Artifact ID: 8367659673
+Artifact digest:
+sha256:dcfd3f85169f1275d38dd09e34f8338089bd4b6dbd90573a3ebe0dbd5c3819da
 ```
 
 ## Complete manuscript argument
@@ -160,35 +173,37 @@ Product Constitution
 ## Release Candidate requirement status
 
 ```text
-RC-H01 — CLOSED ON HARDENING A MERGE
-RC-H02 — CLOSED ON HARDENING A MERGE
-RC-H03 — CLOSED ON HARDENING B MERGE
-RC-H04 — CLOSED ON HARDENING A MERGE
-RC-H05 — CLOSED ON HARDENING B MERGE
-RC-H06 — READY TO CLOSE ON HARDENING C / RC1 OWNER MERGE
+RC-H01 — CLOSED
+RC-H02 — CLOSED
+RC-H03 — CLOSED
+RC-H04 — CLOSED
+RC-H05 — CLOSED
+RC-H06 — CLOSED
 ```
 
-## Next gate
+## Change control
+
+The 41 reader-facing RC1 inputs are immutable as RC1. Any change requires impact classification, renewed validation and a release decision. Administrative records outside the source set do not silently alter RC1.
+
+## Next gates
 
 ```text
-Whole-Book Complete Draft 1 — ACCEPTED
-→ RC Hardening A — ACCEPTED
-→ RC Hardening B — ACCEPTED
-→ RC Hardening C — PASS
-→ Release Candidate 1 — READY FOR OWNER ACCEPTANCE ON MERGE
+Release Candidate 1 — APPROVED
+→ RC1 Freeze — EFFECTIVE ON OWNER MERGE
+→ create release/book-06-rc1 from freeze merge commit
 → optional final brand/design production
 → final rendered validation
 → final public/commercial distribution decision
 ```
 
+Product implementation specifications and MVP development are separate controlled tracks.
+
 ## Authorization
 
 ```text
-Whole-Book Complete Draft 1: ACCEPTED
-RC Hardening A: ACCEPTED
-RC Hardening B: ACCEPTED
-RC Hardening C acceptance on merge: AUTHORIZED
-Release Candidate 1 acceptance on merge: AUTHORIZED
+Release Candidate 1: ACCEPTED
+RC1 freeze on owner merge: AUTHORIZED
+Final branded publication: NOT AUTHORIZED
 Implementation: NOT AUTHORIZED
 Production deployment: NOT AUTHORIZED
 Final public/commercial distribution: NOT AUTHORIZED
