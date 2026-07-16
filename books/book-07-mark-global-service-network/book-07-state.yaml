@@ -29,6 +29,9 @@ planning_records:
 review_records:
   - B07-REV-0001
 
+validation_records:
+  - B07-VAL-0001
+
 route_model:
   - id: R1
     name: external_self_managed
@@ -55,6 +58,16 @@ review:
   major_findings: 0
   upstream_change_proposal_required: false
 
+validation:
+  scope_check: pass
+  duplicate_planning_ids: 0
+  manuscript_files_added: 0
+  chapter_map_added: false
+  product_charter_added: false
+  product_baseline_added: false
+  implementation_files_added: 0
+  books_01_06_manuscript_files_modified: 0
+
 accepted_on_owner_merge:
   pre_writing_audit_v0_1: true
   product_and_experience_direction: true
@@ -62,6 +75,7 @@ accepted_on_owner_merge:
   route_planning_model: true
   topology_and_private_space_boundary: true
   review_b07_rev_0001: true
+  validation_b07_val_0001: true
 
 authorized_on_owner_merge:
   network_and_product_charter_candidate: true
