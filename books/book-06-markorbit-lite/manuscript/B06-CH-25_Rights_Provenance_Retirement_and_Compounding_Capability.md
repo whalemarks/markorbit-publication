@@ -1,6 +1,10 @@
 # B06-CH-25 — Rights, Provenance, Retirement and Compounding Capability
 
-## Chapter Role
+**Status:** Complete Draft 1  
+**Chapter Map:** B06-TOC-V0.1 — Owner Accepted  
+**Part:** Part V — Cases, Memory and Business Assets
+
+## Chapter Purpose
 
 This chapter defines the controls that keep accumulated lessons, memories and reusable Assets trustworthy over time.
 
@@ -9,8 +13,6 @@ The central proposition is:
 > Capability compounds only when every reused element remains traceable, authorized, current, correctable and removable.
 
 Without these controls, accumulation becomes technical and professional debt.
-
----
 
 ## 1. Compounding capability is the long-term value of Lite
 
@@ -575,7 +577,7 @@ This capability becomes difficult to replace because it is specific, explainable
 
 Its value depends on trust.
 
-## 26. Part V conclusion
+## Chapter Conclusion
 
 Cases, memories and Assets create compounding value only through a controlled lifecycle:
 

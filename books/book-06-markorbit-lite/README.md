@@ -2,7 +2,7 @@
 
 ## Identity
 
-- **Status:** Whole-Book Complete Draft 1 — Owner Accepted on B06-REV-0013 Merge
+- **Status:** RC Hardening A — Editorial and Structural Normalization — Owner Accepted on Merge
 - **User-facing identity:** AI business operating system for independent trademark professionals and small trademark agencies
 - **Architectural identity:** lightweight Workplace Product, individual-first but Organization-centered
 - **Product Charter:** B06-PLN-0004 v0.3
@@ -11,6 +11,7 @@
 - **Chapter range:** B06-CH-00–B06-CH-33
 - **Manuscript:** [CH00–CH33](manuscript/README.md)
 - **Whole-book Review:** [B06-REV-0013](reviews/B06-REV-0013_Whole_Book_Complete_Draft_1_Review.md)
+- **Current Review:** [B06-REV-0014](reviews/B06-REV-0014_RC_Hardening_A_Editorial_and_Structural_Normalization_Review.md)
 - **RC Hardening Plan:** [B06-PLN-0008](planning/B06-PLN-0008_Release_Candidate_Hardening_Plan.md)
 
 ## Product definition
@@ -26,7 +27,7 @@ Professional Memory and Business Assets
 MarkOrbit Ecosystem Handoff
 ```
 
-## Whole-book manuscript status
+## Manuscript status
 
 ```text
 Front Matter CH00–CH01: Complete Draft 1 — ACCEPTED
@@ -37,7 +38,7 @@ Part IV CH17–CH21: Complete Draft 1 — ACCEPTED
 Part V CH22–CH25: Complete Draft 1 — ACCEPTED
 Part VI CH26–CH29: Complete Draft 1 — ACCEPTED
 Part VII CH30–CH33: Complete Draft 1 — ACCEPTED
-Whole Book CH00–CH33: Complete Draft 1 — owner accepted on merge
+Whole Book CH00–CH33: Complete Draft 1 — ACCEPTED
 ```
 
 ## Complete manuscript argument
@@ -76,6 +77,29 @@ Implementation boundary: PASS
 Blocking findings: 0
 Major findings: 0
 Upstream findings: 0
+```
+
+## RC Hardening A
+
+`B06-REV-0014` records:
+
+```text
+34 / 34 chapter headers normalized
+23 chapter files modified
+internal wave-merge metadata remaining: 0
+CH01 internal drafting-wave content: removed
+CH33 reader-facing evolution sequence: applied
+chapter ID/title/order changes: 0
+controlled meaning changes: 0
+blocking / major / upstream findings: 0
+```
+
+Closed on merge:
+
+```text
+RC-H01 — chapter metadata normalization
+RC-H02 — reader-facing governance cleanup
+RC-H04 — repetition and cross-reference hardening
 ```
 
 ## Controlled baseline
@@ -118,27 +142,21 @@ Product identity ≠ Commercial Plan
 payment / premium edition ≠ authority
 ```
 
-## Release Candidate hardening
-
-Whole-book Complete Draft 1 is complete, but RC is not yet accepted.
-
-Required work:
+## Remaining Release Candidate hardening
 
 ```text
-RC-H01 — normalize chapter metadata
-RC-H02 — reader-facing governance cleanup
-RC-H03 — controlled terms and distinction apparatus
-RC-H04 — repetition and cross-reference hardening
-RC-H05 — figures, appendices and index
-RC-H06 — source, citation and rendered validation
+RC-H03 — controlled terms and distinction apparatus — Work Package B
+RC-H05 — figures, appendices and index — Work Package B
+RC-H06 — source, citation and rendered validation — Work Package C
 ```
 
 Execution order:
 
 ```text
-Work Package A — Editorial and Structural Normalization
-→ Work Package B — Reader Apparatus
+Work Package A — Editorial and Structural Normalization — OWNER ACCEPTED ON MERGE
+→ Work Package B — Reader Apparatus — AUTHORIZED NEXT
 → Work Package C — Source, Render and RC Review
+→ owner Release Candidate decision
 ```
 
 ## Product / commercial separation
@@ -159,15 +177,5 @@ RMB 99, recurring/daily content, Prospect Candidate supply, Asset limits, suppor
 - [Planning](planning/README.md)
 - [Specifications](specifications/README.md)
 - [Reviews](reviews/README.md)
-
-## Current gate
-
-```text
-Whole-Book Complete Draft 1 owner merge
-→ RC Hardening A
-→ RC Hardening B
-→ RC Hardening C and whole-book RC Review
-→ owner Release Candidate decision
-```
 
 Release Candidate status, implementation, production, public/commercial distribution, autonomous professional action and External Protected Action remain unauthorized.

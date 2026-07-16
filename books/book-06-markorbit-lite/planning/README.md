@@ -8,8 +8,9 @@ Pre-Writing Audit — COMPLETE
 → Product Baseline v0.1 — ACCEPTED
 → Chapter Map B06-TOC-V0.1 — ACCEPTED
 → Waves 1–7 / CH00–CH33 — ACCEPTED
-→ Whole-Book Complete Draft 1 — OWNER ACCEPTED ON B06-REV-0013 MERGE
-→ Release Candidate Hardening — NEXT
+→ Whole-Book Complete Draft 1 — ACCEPTED
+→ RC Hardening A — OWNER ACCEPTED ON B06-REV-0014 MERGE
+→ RC Hardening B — READER APPARATUS — AUTHORIZED NEXT
 ```
 
 ## Planning records
@@ -25,7 +26,7 @@ Pre-Writing Audit — COMPLETE
 
 ## Whole-book review result
 
-`B06-REV-0013` finds:
+`B06-REV-0013` confirms:
 
 ```text
 34 / 34 chapter files present
@@ -36,32 +37,49 @@ Cross-Book boundaries: PASS
 Blocking findings: 0
 Major findings: 0
 Upstream findings: 0
-RC hardening requirements: 6
 ```
 
-The six requirements concern metadata, reader-facing governance cleanup, controlled terms, repetition/cross-references, reader apparatus and source/render validation. They do not require Product Charter, Product Baseline or Chapter Map changes.
+## RC Hardening A result
 
-## Release Candidate hardening order
+`B06-REV-0014` confirms:
 
 ```text
-Work Package A
-Editorial and Structural Normalization
+34 / 34 chapter headers normalized
+23 chapter files modified
+CH01 internal drafting-wave details removed
+CH33 reader-facing evolution sequence applied
+Chapter ID/title/order changes: 0
+Controlled meaning changes: 0
+Blocking / major / upstream findings: 0
+```
 
-→ Work Package B
+Closed on merge:
+
+```text
+RC-H01 — chapter metadata normalization
+RC-H02 — reader-facing governance cleanup
+RC-H04 — repetition and cross-reference hardening
+```
+
+## Remaining hardening order
+
+```text
+Work Package B
 Reader Apparatus
+- RC-H03 controlled terms and distinction apparatus
+- RC-H05 figures, appendices and index
 
 → Work Package C
 Source, Render and RC Review
+- RC-H06 source, citation and rendered validation
 ```
 
-Each package should use one coherent branch and Draft PR, not one branch per chapter.
+Each package uses one coherent branch and Draft PR, not one branch per chapter.
 
 ## Next task
 
 ```text
-agent/book-06-rc-hardening-a-editorial-structure
+agent/book-06-rc-hardening-b-reader-apparatus
 ```
-
-Work Package A must normalize chapter headers, remove internal merge-state language from reader-facing prose, standardize controlled-term presentation and reduce avoidable repetition without changing Product meaning.
 
 Release Candidate acceptance, implementation, production and external-action authority remain separate gates.

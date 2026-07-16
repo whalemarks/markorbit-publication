@@ -1,6 +1,11 @@
 # B06-CH-26 — MarkReg Launch, Continuation and Return
 
-## Chapter Role
+**Status:** Complete Draft 1  
+**Chapter Map:** B06-TOC-V0.1 — Owner Accepted  
+**Part:** Part VI — MarkOrbit Gateways and Continuity  
+**Primary controls:** ML-H02, ML-H03, ML-HC-01
+
+## Chapter Purpose
 
 This chapter explains how Lite hands a qualified trademark-service need to MarkReg without duplicating MarkReg's lifecycle, and how MarkReg results return to Lite without becoming Lite-owned formal truth.
 
@@ -9,8 +14,6 @@ The central proposition is:
 > Lite prepares continuity; MarkReg owns the formal trademark Product lifecycle.
 
 The gateway succeeds when the user does not need to reconstruct the entire situation, while MarkReg still performs its own validation and creates its own controlled records.
-
----
 
 ## 1. Why Lite needs a MarkReg gateway
 
@@ -604,7 +607,7 @@ A conforming implementation should be able to answer:
 - How are duplicate launch requests prevented?
 - Can the user continue in MarkReg without re-entering authorized context?
 
-## 14. The gateway principle
+## Chapter Conclusion
 
 The MarkReg gateway should feel continuous to the user while remaining explicit in architecture.
 

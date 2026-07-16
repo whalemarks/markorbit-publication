@@ -1,14 +1,17 @@
 # B06-CH-20 — Delivery, Communication and Publish Preparation
 
-## Chapter status
+**Status:** Complete Draft 1  
+**Chapter Map:** B06-TOC-V0.1 — Owner Accepted  
+**Part:** Part IV — Professional Work Products  
+**Primary controls:** ML-W05, ML-W09, ML-H06, ML-HC-04, ML-HC-07, ML-SCN-16, ML-SCN-18
 
-```text
-Book: Book 06 — MarkOrbit Lite
-Chapter: B06-CH-20
-Part: IV — Professional Work Products
-Status: Complete Draft 1 — Owner Accepted on Wave 4 Merge
-Primary controls: ML-W05, ML-W09, ML-H06, ML-HC-04, ML-HC-07, ML-SCN-16, ML-SCN-18
-```
+## Chapter Purpose
+
+This chapter explains how a ready professional work product becomes a precisely defined Delivery, Communication or Publish package without confusing preparation with external completion.
+
+The central proposition is:
+
+> A professional result becomes an external action only through an exact package, current confirmation and a typed destination outcome.
 
 ## 20.1 A ready work product still needs a controlled destination
 
@@ -355,7 +358,7 @@ Failure/unknown handling defined?           YES / NO
 Response and correction route defined?      YES / NO
 ```
 
-## 20.18 Chapter conclusion
+## Chapter Conclusion
 
 A professional result becomes an external action only through a controlled package and an explicit destination decision.
 

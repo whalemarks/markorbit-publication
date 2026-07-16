@@ -1,13 +1,14 @@
 book:
   id: B06
   title: MarkOrbit Lite
-  status: whole_book_complete_draft_1_owner_accepted_on_merge
+  status: rc_hardening_a_owner_accepted_on_merge
   manuscript_files: 34
   planned_chapters: 34
   all_chapter_files_drafted: true
-  whole_book_complete_draft_1_accepted_on_merge: true
+  whole_book_complete_draft_1_accepted: true
   release_candidate_accepted: false
-  current_review: B06-REV-0013
+  current_review: B06-REV-0014
+  whole_book_review: B06-REV-0013
   rc_hardening_plan: B06-PLN-0008
   chapter_map:
     id: B06-TOC-V0.1
@@ -99,7 +100,7 @@ writing_waves:
     status: complete_draft_1_accepted
     review: B06-REV-0012
 
-whole_book_review:
+whole_book_review_result:
   id: B06-REV-0013
   decision: pass_with_rc_hardening_required
   chapter_files_expected: 34
@@ -117,7 +118,26 @@ whole_book_review:
   major_findings: 0
   upstream_findings: 0
   change_proposal_required: false
-  acceptance_on_merge: true
+  accepted: true
+
+rc_hardening_a:
+  id: B06-REV-0014
+  decision: pass
+  status: owner_accepted_on_merge
+  chapter_files_audited: 34
+  chapter_files_modified: 23
+  normalized_chapter_headers: 34
+  internal_wave_merge_metadata_remaining: 0
+  internal_drafting_waves_removed_from_ch01: true
+  ch33_reader_facing_evolution_sequence: true
+  chapter_id_changes: 0
+  chapter_title_changes: 0
+  chapter_order_changes: 0
+  controlled_meaning_changes: 0
+  blocking_findings: 0
+  major_findings: 0
+  upstream_findings: 0
+  change_proposal_required: false
 
 controlled_ranges:
   session_interaction: ML-S01-ML-S05
@@ -160,30 +180,31 @@ rc_hardening:
   requirements:
     - id: RC-H01
       name: chapter_metadata_normalization
-      status: open_for_rc
+      status: closed_on_hardening_a_merge
     - id: RC-H02
       name: reader_facing_governance_cleanup
-      status: open_for_rc
+      status: closed_on_hardening_a_merge
     - id: RC-H03
       name: controlled_terms_and_distinction_apparatus
-      status: open_for_rc
+      status: open_for_hardening_b
     - id: RC-H04
       name: repetition_and_cross_reference_hardening
-      status: open_for_rc
+      status: closed_on_hardening_a_merge
     - id: RC-H05
       name: figures_appendices_and_index
-      status: open_for_rc
+      status: open_for_hardening_b
     - id: RC-H06
       name: source_citation_and_rendered_validation
-      status: open_for_rc
+      status: open_for_hardening_c
   work_packages:
     - id: A
       name: editorial_and_structural_normalization
-      status: authorized_after_whole_book_merge
+      status: owner_accepted_on_merge
+      review: B06-REV-0014
       branch: agent/book-06-rc-hardening-a-editorial-structure
     - id: B
       name: reader_apparatus
-      status: sequential_gate
+      status: authorized_after_hardening_a_merge
       branch: agent/book-06-rc-hardening-b-reader-apparatus
     - id: C
       name: source_render_and_rc_review
@@ -207,8 +228,9 @@ authorization:
   product_baseline_accepted: true
   chapter_map_accepted: true
   waves_1_to_7_accepted: true
-  whole_book_complete_draft_1_acceptance_on_merge: true
-  rc_hardening_a_after_merge: true
+  whole_book_complete_draft_1_accepted: true
+  rc_hardening_a_acceptance_on_merge: true
+  rc_hardening_b_after_merge: true
   release_candidate: false
   implementation: false
   production: false

@@ -13,10 +13,11 @@
 - [B06-REV-0011 — Wave 6 MarkOrbit Gateways and Continuity Review](B06-REV-0011_Wave_6_MarkOrbit_Gateways_and_Continuity_Review.md)
 - [B06-REV-0012 — Wave 7 Conformance, Economics and Evolution Review](B06-REV-0012_Wave_7_Conformance_Economics_and_Evolution_Review.md)
 - [B06-REV-0013 — Whole-Book Complete Draft 1 Review](B06-REV-0013_Whole_Book_Complete_Draft_1_Review.md)
+- [B06-REV-0014 — RC Hardening A Editorial and Structural Normalization Review](B06-REV-0014_RC_Hardening_A_Editorial_and_Structural_Normalization_Review.md)
 
-## Current decision
+## Whole-book decision
 
-`B06-REV-0013` reviews CH00–CH33 as one manuscript and records:
+`B06-REV-0013` records:
 
 ```text
 Mechanical completeness: PASS
@@ -33,29 +34,48 @@ Upstream findings: 0
 Change Proposal required: NO
 ```
 
-## Release Candidate requirements
+## Current decision
 
-The whole-book review identifies six RC hardening requirements:
+`B06-REV-0014` records:
 
 ```text
-RC-H01 — normalize chapter metadata
-RC-H02 — reader-facing governance cleanup
-RC-H03 — controlled terms and distinction apparatus
-RC-H04 — repetition and cross-reference hardening
-RC-H05 — figures, appendices and index
-RC-H06 — source, citation and rendered validation
+RC Hardening A: PASS
+34 / 34 chapter headers normalized
+23 chapter files modified
+internal wave-merge metadata remaining: 0
+CH01 drafting-wave section removed
+CH33 reader-facing evolution sequence applied
+chapter ID/title/order changes: 0
+controlled meaning changes: 0
+blocking findings: 0
+major findings: 0
+upstream findings: 0
+Change Proposal required: NO
 ```
 
-These requirements do not block Whole-Book Complete Draft 1 acceptance. They must be closed before Release Candidate approval.
+## RC requirement status
+
+```text
+RC-H01 — CLOSED ON HARDENING A MERGE
+RC-H02 — CLOSED ON HARDENING A MERGE
+RC-H03 — OPEN — HARDENING B
+RC-H04 — CLOSED ON HARDENING A MERGE
+RC-H05 — OPEN — HARDENING B
+RC-H06 — OPEN — HARDENING C
+```
 
 ## Gate effect
 
 Owner merge accepts:
 
 ```text
-Book 06 Whole-Book Complete Draft 1
-B06-CH-00–B06-CH-33
-34 / 34 chapter files
+RC Hardening A — Editorial and Structural Normalization
 ```
 
-It authorizes `B06-PLN-0008` Work Package A only. It does not accept Release Candidate status or authorize implementation, production or distribution.
+It authorizes:
+
+```text
+RC Hardening B — Reader Apparatus
+```
+
+It does not accept Release Candidate status or authorize implementation, production, public/commercial distribution, autonomous professional action or External Protected Action.

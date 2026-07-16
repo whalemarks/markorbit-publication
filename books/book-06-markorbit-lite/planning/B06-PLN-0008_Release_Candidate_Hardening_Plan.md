@@ -6,8 +6,9 @@
 Record: B06-PLN-0008
 Book: Book 06 — MarkOrbit Lite
 Record type: Release Candidate Hardening Plan
-Status: Candidate — authorized on Whole-Book Complete Draft 1 owner merge
+Status: Work Package A complete — effective on owner merge
 Authority: B06-REV-0013
+Current review: B06-REV-0014
 Release Candidate accepted: NO
 Implementation authorized: NO
 Production authorized: NO
@@ -18,7 +19,7 @@ Public/commercial distribution authorized: NO
 
 The Complete Draft 1 establishes the full Book 06 argument and controlled Product meaning.
 
-Release Candidate hardening must now convert that complete draft into a consistent, reader-ready, source-validated and renderable publication without changing Product Charter v0.3, Product Baseline v0.1 or B06-TOC-V0.1 silently.
+Release Candidate hardening converts that complete draft into a consistent, reader-ready, source-validated and renderable publication without changing Product Charter v0.3, Product Baseline v0.1 or B06-TOC-V0.1 silently.
 
 ```text
 Complete argument
@@ -40,17 +41,15 @@ Complete argument
 - source validation must distinguish stable architecture claims from current external facts;
 - no hardening task authorizes implementation or production.
 
-## 4. Required findings
-
-The plan closes the six RC requirements from `B06-REV-0013`:
+## 4. Required findings and current disposition
 
 ```text
-RC-H01 — chapter metadata normalization
-RC-H02 — reader-facing governance cleanup
-RC-H03 — controlled terms and distinction apparatus
-RC-H04 — repetition and cross-reference hardening
-RC-H05 — figures, appendices and index
-RC-H06 — source, citation and rendered validation
+RC-H01 — chapter metadata normalization: CLOSED ON PACKAGE A MERGE
+RC-H02 — reader-facing governance cleanup: CLOSED ON PACKAGE A MERGE
+RC-H03 — controlled terms and distinction apparatus: OPEN — PACKAGE B
+RC-H04 — repetition and cross-reference hardening: CLOSED ON PACKAGE A MERGE
+RC-H05 — figures, appendices and index: OPEN — PACKAGE B
+RC-H06 — source, citation and rendered validation: OPEN — PACKAGE C
 ```
 
 ## 5. Work Package A — Editorial and Structural Normalization
@@ -66,7 +65,7 @@ RC-H06 — source, citation and rendered validation
 - remove internal drafting-wave details from CH01 reader content;
 - review CH33 roadmap language so it remains useful to readers without exposing unnecessary repository process;
 - reduce avoidable repeated boundary lists;
-- replace repeated full explanations with precise chapter/Specification cross-references;
+- replace repeated full explanations with precise chapter/Specification cross-references where useful;
 - preserve all deliberate zero-tolerance repetitions.
 
 ### Acceptance criteria
@@ -77,6 +76,18 @@ internal merge-state wording in public prose: 0
 controlled meaning changes: 0
 chapter order/title changes: 0
 unresolved editorial inconsistencies: 0
+```
+
+### Result
+
+```text
+Status: COMPLETE — EFFECTIVE ON OWNER MERGE
+Review: B06-REV-0014
+Chapter files audited: 34
+Chapter files modified: 23
+Blocking findings: 0
+Major findings: 0
+Upstream findings: 0
 ```
 
 ### Branch / PR
@@ -266,14 +277,14 @@ one coherent Draft PR
 ## 8. Work order
 
 ```text
-Whole-Book Complete Draft 1 owner merge
-→ Work Package A
-→ Work Package B
-→ Work Package C
+Whole-Book Complete Draft 1 — ACCEPTED
+→ Work Package A — COMPLETE ON OWNER MERGE
+→ Work Package B — AUTHORIZED NEXT
+→ Work Package C — sequential gate
 → owner Release Candidate decision
 ```
 
-The three packages should not be split into one branch per chapter.
+The three packages must not be split into one branch per chapter.
 
 ## 9. Change escalation
 
@@ -290,9 +301,10 @@ No RC hardening PR may silently change the Product.
 ## 10. Gate decision
 
 ```text
-Whole-Book Complete Draft 1 acceptance on merge: AUTHORIZED
-Work Package A after merge: AUTHORIZED
-Work Packages B and C: governed by sequential hardening gates
+Whole-Book Complete Draft 1: ACCEPTED
+Work Package A acceptance on merge: AUTHORIZED
+Work Package B after merge: AUTHORIZED
+Work Package C: governed by sequential hardening gate
 Release Candidate acceptance: NOT AUTHORIZED
 Implementation: NOT AUTHORIZED
 Production: NOT AUTHORIZED

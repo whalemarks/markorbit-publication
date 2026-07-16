@@ -96,7 +96,7 @@ Upstream findings: 0
 Change Proposal required: NO
 ```
 
-Owner merge accepts the whole-book Complete Draft 1. It does not accept Release Candidate status.
+Whole-Book Complete Draft 1 is accepted. It does not itself grant Release Candidate status.
 
 ## 8. Whole-book integrity locks
 
@@ -133,20 +133,45 @@ Work Package C — Source, Render and RC Review
 
 Hardening may clarify, normalize, compress and add reader aids. It may not silently change Product Charter, Product Baseline, Chapter Map, formal ownership or Human/External Action authority.
 
-## 10. RC requirements
+## 10. RC Hardening A
+
+`B06-REV-0014` records:
+
+```text
+34 / 34 chapter headers normalized
+23 chapter files modified
+internal wave-merge wording in chapter metadata: 0
+internal drafting-wave section in CH01: removed
+CH33 reader-facing evolution sequence: applied
+chapter ID/title/order changes: 0
+controlled meaning changes: 0
+blocking findings: 0
+major findings: 0
+upstream findings: 0
+Change Proposal required: NO
+```
+
+Work Package A closes:
 
 ```text
 RC-H01 — chapter metadata normalization
 RC-H02 — reader-facing governance cleanup
-RC-H03 — controlled terms and distinction apparatus
 RC-H04 — repetition and cross-reference hardening
-RC-H05 — figures, appendices and index
-RC-H06 — source, citation and rendered validation
 ```
 
-All six must be closed before Release Candidate acceptance.
+It does not close the remaining reader-apparatus or validation requirements.
 
-## 11. Commercial and evolution rules
+## 11. Remaining RC requirements
+
+```text
+RC-H03 — controlled terms and distinction apparatus: Work Package B
+RC-H05 — figures, appendices and index: Work Package B
+RC-H06 — source, citation and rendered validation: Work Package C
+```
+
+All requirements must be closed before Release Candidate acceptance.
+
+## 12. Commercial and evolution rules
 
 ```text
 Product Constitution
@@ -170,11 +195,11 @@ Class E — Constitutional change
 
 Class D requires Product Baseline versioning and owner acceptance. Class E requires Product Charter revision, cross-Book review and owner acceptance.
 
-## 12. Branch and PR rule
+## 13. Branch and PR rule
 
 RC hardening uses one coherent branch and Draft PR per work package. It must not create one branch per chapter unless a genuinely isolated correction requires separation.
 
-## 13. Owner gates
+## 14. Owner gates
 
 Owner acceptance is required for:
 
@@ -183,18 +208,20 @@ Owner acceptance is required for:
 - Chapter Map;
 - manuscript waves;
 - Whole-Book Complete Draft 1;
+- each RC hardening package;
 - Release Candidate;
 - final publication.
 
-## 14. Current authorization
+## 15. Current authorization
 
 ```text
 Product Charter v0.3: ACCEPTED
 Product Baseline v0.1: ACCEPTED
 Chapter Map v0.1: ACCEPTED
 Waves 1–7: ACCEPTED
-Whole-Book Complete Draft 1: OWNER ACCEPTED ON MERGE
-RC Hardening A: AUTHORIZED AFTER MERGE
+Whole-Book Complete Draft 1: ACCEPTED
+RC Hardening A: OWNER ACCEPTED ON MERGE
+RC Hardening B: AUTHORIZED AFTER MERGE
 Release Candidate: NOT AUTHORIZED
 Implementation: NOT AUTHORIZED
 Production: NOT AUTHORIZED

@@ -1,6 +1,11 @@
 # B06-CH-30 — MVP 0: Customer Opportunity to Governed Service
 
-## Chapter Role
+**Status:** Complete Draft 1  
+**Chapter Map:** B06-TOC-V0.1 — Owner Accepted  
+**Part:** Part VII — Conformance, Economics and Evolution  
+**Primary controls:** ML-AC-01–ML-AC-12, ML-E01
+
+## Chapter Purpose
 
 This chapter defines the first bounded Product proof for MarkOrbit Lite.
 
@@ -15,8 +20,6 @@ Customer Opportunity-to-Governed-Service Loop
 ```
 
 It is the minimum complete expression of the Lite Product Charter.
-
----
 
 ## 1. Why MVP 0 must be a complete loop
 
@@ -580,7 +583,7 @@ STOP
 
 The decision and supporting evidence should remain separate from marketing claims.
 
-## 18. Chapter conclusion
+## Chapter Conclusion
 
 MVP 0 is not a feature demo.
 

@@ -1,5 +1,25 @@
 # Book 06 Changelog
 
+## RC Hardening A — Editorial and Structural Normalization
+
+- audited all 34 manuscript chapter files;
+- normalized 34 of 34 chapter headers to a consistent reader-facing structure;
+- removed Wave merge and Owner-acceptance wording from reader-facing chapter metadata;
+- standardized later-wave `Chapter status` and `Chapter Role` structures as `Chapter Purpose` with optional Primary Controls;
+- standardized later-wave terminal sections as `Chapter Conclusion` where the existing chapter carried a concluding proposition;
+- removed the internal `Controlled Drafting Waves` section from CH01;
+- replaced CH33's repository-stage roadmap with a stable reader-facing Product evolution sequence;
+- modified 23 chapter files while retaining 11 already-conforming chapter files unchanged;
+- changed zero chapter IDs, titles, order or Part ranges;
+- changed zero Product Charter, Product Baseline, Specification, Handoff or formal-authority meanings;
+- added B06-REV-0014 — RC Hardening A Editorial and Structural Normalization Review;
+- closed RC-H01, RC-H02 and RC-H04 on owner merge;
+- retained RC-H03 and RC-H05 for Work Package B;
+- retained RC-H06 for Work Package C;
+- found zero blocking, major or upstream findings and no required Change Proposal;
+- authorized Work Package B after owner merge;
+- did not accept Release Candidate status or authorize implementation, production or distribution.
+
 ## Whole-Book Complete Draft 1 Review
 
 - reviewed B06-CH-00–B06-CH-33 as one complete manuscript;

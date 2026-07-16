@@ -1,6 +1,11 @@
 # B06-CH-31 — Evaluation, Conformance and Zero-Tolerance Conditions
 
-## Chapter Role
+**Status:** Complete Draft 1  
+**Chapter Map:** B06-TOC-V0.1 — Owner Accepted  
+**Part:** Part VII — Conformance, Economics and Evolution  
+**Primary controls:** ML-E01–ML-E04, ML-SCN-01–ML-SCN-24
+
+## Chapter Purpose
 
 This chapter defines how MarkOrbit Lite is evaluated as a Product and tested for conformance with its accepted Charter and Product Baseline.
 
@@ -21,8 +26,6 @@ Does Lite preserve the required meanings, responsibilities and safety controls w
 ```
 
 A release or pilot must not hide failure in one dimension behind success in the other.
-
----
 
 ## 1. Four evaluation record types
 
@@ -578,7 +581,7 @@ High usage or revenue cannot justify:
 
 Growth achieved by violating the Product Charter is constitutional drift, not success.
 
-## 18. Chapter conclusion
+## Chapter Conclusion
 
 Lite should be judged through evidence, not feature count or narrative confidence.
 

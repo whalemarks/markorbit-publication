@@ -1,6 +1,10 @@
 # B06-CH-24 — Reusable Assets and Knowledge Contribution
 
-## Chapter Role
+**Status:** Complete Draft 1  
+**Chapter Map:** B06-TOC-V0.1 — Owner Accepted  
+**Part:** Part V — Cases, Memory and Business Assets
+
+## Chapter Purpose
 
 This chapter explains how MarkOrbit Lite may turn reviewed lessons, templates and work-product patterns into reusable business capability while preserving the distinction between an internal reusable Asset and governed canonical Knowledge.
 
@@ -16,8 +20,6 @@ Reusable Asset
 Knowledge Contribution Candidate
 ≠ accepted Knowledge
 ```
-
----
 
 ## 1. Why reusable capability matters
 
@@ -545,7 +547,7 @@ accepted Asset
 
 Knowledge acceptance does not eliminate the need to maintain the Asset version used in actual work.
 
-## 22. Chapter conclusion
+## Chapter Conclusion
 
 Reusable capability emerges through controlled transformation:
 

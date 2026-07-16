@@ -1,6 +1,10 @@
 # B06-CH-22 — From Case Context to Case Lesson
 
-## Chapter Role
+**Status:** Complete Draft 1  
+**Chapter Map:** B06-TOC-V0.1 — Owner Accepted  
+**Part:** Part V — Cases, Memory and Business Assets
+
+## Chapter Purpose
 
 This chapter explains how MarkOrbit Lite may help a professional learn from actual case work without exposing restricted facts, confusing one outcome with a universal rule, or turning client Evidence into reusable public content.
 
@@ -14,8 +18,6 @@ case experience
 ```
 
 A case becomes useful to future work only through controlled interpretation.
-
----
 
 ## 1. Why case experience is difficult to reuse
 
@@ -490,7 +492,7 @@ The Product should avoid a single button labelled “Save to Knowledge.”
 
 Such a button hides several materially different decisions.
 
-## 17. Chapter conclusion
+## Chapter Conclusion
 
 Lite can create long-term professional value only when practical experience becomes reusable capability without losing its boundaries.
 

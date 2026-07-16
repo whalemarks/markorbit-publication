@@ -1,6 +1,11 @@
 # B06-CH-29 — Local and Private Continuity, Failure and Unknown Outcomes
 
-## Chapter Role
+**Status:** Complete Draft 1  
+**Chapter Map:** B06-TOC-V0.1 — Owner Accepted  
+**Part:** Part VI — MarkOrbit Gateways and Continuity  
+**Primary controls:** ML-H02, ML-E04, ML-SCN-23–ML-SCN-24
+
+## Chapter Purpose
 
 This chapter explains how Lite preserves continuity when information remains local or private, when a destination requests more information, when a Handoff is rejected or blocked, when systems fail, and when the external outcome is unknown.
 
@@ -9,8 +14,6 @@ The central proposition is:
 > Continuity means preserving enough trustworthy context to continue safely; it does not mean synchronizing everything or pretending uncertain outcomes are complete.
 
 A resilient Lite Product must make incomplete, blocked and unknown states visible rather than hiding them behind optimistic automation.
-
----
 
 ## 1. Continuity is not universal synchronization
 
@@ -672,7 +675,7 @@ A conforming implementation should answer:
 - How are suppression and retirement propagated?
 - Can the user resume from the last trustworthy state?
 
-## 22. The continuity principle
+## Chapter Conclusion
 
 A trustworthy Lite Product does not promise that every step will succeed.
 

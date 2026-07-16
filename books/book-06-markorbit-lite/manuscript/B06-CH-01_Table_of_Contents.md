@@ -1,7 +1,7 @@
 # B06-CH-01 — Table of Contents
 
 **Status:** Complete Draft 1  
-**Chapter Map ID:** B06-TOC-V0.1 — Owner Accepted  
+**Chapter Map:** B06-TOC-V0.1 — Owner Accepted  
 **Part:** Front Matter
 
 ## Chapter Map Authority
@@ -246,7 +246,7 @@ Explains Product versus edition, plan, entitlement and experiment; evaluates the
 
 ## B06-CH-33 — Product Evolution Without Constitutional Drift
 
-Defines how Lite may expand while preserving Product identity, controlled records, owner gates, upstream authority and the separation between publication, implementation and production.
+Defines how Lite may expand while preserving Product identity, controlled records, change governance, upstream authority and the separation between publication, implementation and production.
 
 ---
 
@@ -296,20 +296,6 @@ CH03–CH06
 ```
 
 Use this route to identify controlled records, scenarios, Handoff contracts and MVP criteria. This route does not itself authorize implementation.
-
-## Controlled Drafting Waves
-
-```text
-Wave 1 — CH00–CH06
-Wave 2 — CH07–CH11
-Wave 3 — CH12–CH16
-Wave 4 — CH17–CH21
-Wave 5 — CH22–CH25
-Wave 6 — CH26–CH29
-Wave 7 — CH30–CH33
-```
-
-Each wave should be drafted and reviewed as a coherent Part-sized unit rather than as isolated chapter branches.
 
 ## Publication Boundary
 

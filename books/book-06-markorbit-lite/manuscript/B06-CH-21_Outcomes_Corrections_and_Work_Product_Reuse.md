@@ -1,14 +1,17 @@
 # B06-CH-21 — Outcomes, Corrections and Work-Product Reuse
 
-## Chapter status
+**Status:** Complete Draft 1  
+**Chapter Map:** B06-TOC-V0.1 — Owner Accepted  
+**Part:** Part IV — Professional Work Products  
+**Primary controls:** ML-H02, ML-M01, ML-M02, ML-M07, ML-E02, ML-E03
 
-```text
-Book: Book 06 — MarkOrbit Lite
-Chapter: B06-CH-21
-Part: IV — Professional Work Products
-Status: Complete Draft 1 — Owner Accepted on Wave 4 Merge
-Primary controls: ML-H02, ML-M01, ML-M02, ML-M07, ML-E02, ML-E03
-```
+## Chapter Purpose
+
+This chapter explains how outcomes, feedback and corrections close the work-product loop and how bounded reuse can create compounding capability without turning one result into a universal rule.
+
+The central proposition is:
+
+> A work product proves its value through controlled use, observable outcomes, responsible correction and safe reuse—not when a file is generated.
 
 ## 21.1 The work-product loop does not end at delivery
 
@@ -379,7 +382,7 @@ Purpose
 
 The loop returns to future production with better context, not with automatic authority.
 
-## 21.18 Chapter conclusion
+## Chapter Conclusion
 
 The value of a professional work product is not proven when a file is generated. It is proven through controlled use, observable outcomes, responsible correction and bounded reuse.
 

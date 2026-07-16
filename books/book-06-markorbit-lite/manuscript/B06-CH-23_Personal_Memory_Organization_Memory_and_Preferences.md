@@ -1,6 +1,10 @@
 # B06-CH-23 — Personal Memory, Organization Memory and Preferences
 
-## Chapter Role
+**Status:** Complete Draft 1  
+**Chapter Map:** B06-TOC-V0.1 — Owner Accepted  
+**Part:** Part V — Cases, Memory and Business Assets
+
+## Chapter Purpose
 
 This chapter defines how MarkOrbit Lite may preserve continuity for an individual professional and a small Organization without treating every observed behavior as permission, every personal habit as shared policy, or every AI inference as memory.
 
@@ -16,8 +20,6 @@ personal memory
 memory candidate
 ≠ formal business truth
 ```
-
----
 
 ## 1. Why continuity matters
 
@@ -536,7 +538,7 @@ Correction Records
 
 This is capability accumulation with governance.
 
-## 20. Memory should reduce friction, not hide judgment
+## 20. Memory should reduce friction, not hide decisions
 
 Good memory helps Lite:
 
@@ -558,7 +560,7 @@ The Product should expose when memory materially influenced:
 - a suppression;
 - a review requirement.
 
-## 21. Chapter conclusion
+## Chapter Conclusion
 
 The proper memory model is:
 

@@ -1,6 +1,10 @@
 # B06-CH-33 — Product Evolution Without Constitutional Drift
 
-## Chapter Role
+**Status:** Complete Draft 1  
+**Chapter Map:** B06-TOC-V0.1 — Owner Accepted  
+**Part:** Part VII — Conformance, Economics and Evolution
+
+## Chapter Purpose
 
 This chapter closes Book 06 by defining how MarkOrbit Lite may expand in capability, edition, integration and commercial reach without losing the Product meaning accepted by the Product Charter and Product Baseline.
 
@@ -13,8 +17,6 @@ A Product that never evolves becomes irrelevant.
 A Product that changes identity every time a new feature, customer segment, model or price appears becomes incoherent.
 
 The goal is disciplined evolution.
-
----
 
 ## 1. What must remain stable
 
@@ -529,7 +531,7 @@ a mature agency asks for full CRM
 
 ## 13. Drift detection questions
 
-A roadmap or PR review should ask:
+A roadmap or change review should ask:
 
 - Does this change alter Product identity?
 - Does it create a parallel formal object?
@@ -542,7 +544,7 @@ A roadmap or PR review should ask:
 - Does it remove a failure or unknown state?
 - Does it change an accepted controlled meaning?
 
-A “yes” may require a Product Baseline change or Change Proposal rather than an ordinary implementation PR.
+A “yes” may require a Product Baseline change or Change Proposal rather than an ordinary implementation change.
 
 ## 14. Change classes
 
@@ -768,26 +770,24 @@ A useful Product is not defined by how many objects it owns.
 
 It is defined by how well it helps the user move through the right responsibilities.
 
-## 21. Roadmap order after Book 06
+## 21. A disciplined evolution sequence
 
-The publication implies a disciplined next order:
+The durable sequence after the Product constitution is established is:
 
-1. whole-book Complete Draft 1 review;
-2. editorial and controlled-term reconciliation;
-3. figures, glossary, index and reader apparatus;
-4. structural and rendered validation;
-5. Release Candidate decision;
-6. implementation baseline and ADRs;
-7. bounded MVP 0 pilot;
-8. commercial experiments;
-9. evidence-based Product increments;
-10. broader editions and integrations.
+```text
+reader-ready Product publication
+→ implementation specifications and ADRs
+→ bounded MVP 0 pilot
+→ conformance and commercial evidence
+→ evidence-based Product increments
+→ broader editions and integrations
+```
 
-Publication completion does not authorize implementation or production.
+Each step must consume the authority of the preceding layers rather than rewriting them through convenience.
 
-Those remain separate gates.
+Publication completion does not authorize implementation or production. Those remain separate gates.
 
-## 22. Closing proposition
+## Chapter Conclusion
 
 MarkOrbit Lite should remain lightweight in entry friction, not shallow in responsibility.
 

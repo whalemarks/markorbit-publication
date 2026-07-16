@@ -24,12 +24,12 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](gov
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
 | Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Release Candidate 1 — Approved and Frozen |
-| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Whole-Book Complete Draft 1 — Owner Accepted on Merge |
+| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | RC Hardening A — Editorial and Structural Normalization — Owner Accepted on Merge |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
 Book 05 is frozen through its accepted RC1 content baseline, permanent release record and `release/book-05-rc1` pointer.
 
-Book 06 Product Charter v0.3, Product Baseline v0.1, Chapter Map B06-TOC-V0.1 and Waves 1–7 are accepted. `B06-REV-0013` confirms the complete CH00–CH33 manuscript and authorizes a controlled Release Candidate hardening sequence. Release Candidate status remains unaccepted.
+Book 06 Product Charter v0.3, Product Baseline v0.1, Chapter Map B06-TOC-V0.1, Waves 1–7 and the Whole-Book Complete Draft 1 are accepted. `B06-REV-0014` records RC Hardening A with no blocking, major or upstream findings. Release Candidate status remains unaccepted.
 
 ## Planned Book Positioning
 
@@ -79,7 +79,7 @@ Accepted Chapter Map and manuscript:
 B06-TOC-V0.1
 B06-CH-00–B06-CH-33
 34 / 34 chapter files
-Whole-Book Complete Draft 1
+Whole-Book Complete Draft 1 — ACCEPTED
 ```
 
 Whole-book review result:
@@ -93,6 +93,24 @@ Controlled-term meaning integrity: PASS
 Cross-Book boundary integrity: PASS
 Commercial/Product separation: PASS
 Implementation boundary: PASS
+Blocking findings: 0
+Major findings: 0
+Upstream findings: 0
+Change Proposal required: NO
+```
+
+RC Hardening A result:
+
+```text
+Review: B06-REV-0014
+Chapter files audited: 34
+Chapter files modified: 23
+Normalized chapter headers: 34 / 34
+Internal wave-merge metadata remaining: 0
+CH01 internal drafting-wave content: removed
+CH33 reader-facing evolution sequence: applied
+Chapter ID/title/order changes: 0
+Controlled meaning changes: 0
 Blocking findings: 0
 Major findings: 0
 Upstream findings: 0
@@ -113,22 +131,22 @@ Product Constitution
 → Product Evolution Without Constitutional Drift
 ```
 
-Release Candidate hardening requirements:
+Release Candidate requirement status:
 
 ```text
-RC-H01 — chapter metadata normalization
-RC-H02 — reader-facing governance cleanup
-RC-H03 — controlled terms and distinction apparatus
-RC-H04 — repetition and cross-reference hardening
-RC-H05 — figures, appendices and index
-RC-H06 — source, citation and rendered validation
+RC-H01 — chapter metadata normalization: CLOSED ON HARDENING A MERGE
+RC-H02 — reader-facing governance cleanup: CLOSED ON HARDENING A MERGE
+RC-H03 — controlled terms and distinction apparatus: OPEN — HARDENING B
+RC-H04 — repetition and cross-reference hardening: CLOSED ON HARDENING A MERGE
+RC-H05 — figures, appendices and index: OPEN — HARDENING B
+RC-H06 — source, citation and rendered validation: OPEN — HARDENING C
 ```
 
 Hardening order:
 
 ```text
-Work Package A — Editorial and Structural Normalization
-→ Work Package B — Reader Apparatus
+Work Package A — Editorial and Structural Normalization — OWNER ACCEPTED ON MERGE
+→ Work Package B — Reader Apparatus — AUTHORIZED NEXT
 → Work Package C — Source, Render and RC Review
 → owner Release Candidate decision
 ```
@@ -161,8 +179,8 @@ Books 01–04 Portfolio Baseline
 → Book 06 Product Baseline v0.1 accepted
 → Book 06 Chapter Map v0.1 accepted
 → Book 06 Waves 1–7 accepted
-→ Book 06 Whole-Book Complete Draft 1 owner merge
-→ RC Hardening A
+→ Book 06 Whole-Book Complete Draft 1 accepted
+→ RC Hardening A owner merge
 → RC Hardening B
 → RC Hardening C and RC Review
 → owner Release Candidate decision
@@ -170,7 +188,9 @@ Books 01–04 Portfolio Baseline
 
 All 34 Book 06 chapter files drafted: **YES**
 
-Whole-book Complete Draft 1 ready for owner acceptance on review merge: **YES**
+Whole-book Complete Draft 1 accepted: **YES**
+
+RC Hardening A ready for owner acceptance on merge: **YES**
 
 Ready for Book 06 Release Candidate: **NO**
 
