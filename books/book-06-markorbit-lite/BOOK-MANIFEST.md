@@ -5,7 +5,7 @@
 ```text
 Book ID: B06
 Title: MarkOrbit Lite
-Status: Whole-Book Complete Draft 1 — Owner Accepted on B06-REV-0013 Merge
+Status: RC Hardening A — Editorial and Structural Normalization — Owner Accepted on Merge
 Canonical path: books/book-06-markorbit-lite/
 Chapter Map: B06-TOC-V0.1
 Chapter range: B06-CH-00–B06-CH-33
@@ -15,7 +15,7 @@ Product Charter: B06-PLN-0004 v0.3
 Product Baseline: B06-SPEC-0001–0004 v0.1
 Chapter Map record: B06-PLN-0007
 RC Hardening Plan: B06-PLN-0008
-Current review: B06-REV-0013
+Current review: B06-REV-0014
 ```
 
 ## Current inventory
@@ -23,7 +23,7 @@ Current review: B06-REV-0013
 ```text
 planning/B06-PLN-0001–0008
 specifications/B06-SPEC-0001–0004
-reviews/B06-REV-0001–0013
+reviews/B06-REV-0001–0014
 manuscript/README.md
 manuscript/B06-CH-00–B06-CH-33
 README.md
@@ -60,7 +60,7 @@ Part IV: CH17–CH21 — Complete Draft 1 — ACCEPTED
 Part V: CH22–CH25 — Complete Draft 1 — ACCEPTED
 Part VI: CH26–CH29 — Complete Draft 1 — ACCEPTED
 Part VII: CH30–CH33 — Complete Draft 1 — ACCEPTED
-Whole book: CH00–CH33 — Complete Draft 1 — owner accepted on merge
+Whole book: CH00–CH33 — Complete Draft 1 — ACCEPTED
 ```
 
 ## Complete manuscript argument
@@ -95,24 +95,42 @@ Upstream finding: 0
 Change Proposal required: NO
 ```
 
+## RC Hardening A result
+
+```text
+Review: B06-REV-0014
+Chapter files audited: 34
+Chapter files modified: 23
+Normalized chapter headers: 34 / 34
+Internal wave-merge metadata remaining: 0
+Internal drafting-wave content in CH01: removed
+CH33 roadmap: reader-facing Product evolution sequence applied
+Chapter ID/title/order changes: 0
+Controlled meaning changes: 0
+Blocking finding: 0
+Major finding: 0
+Upstream finding: 0
+Change Proposal required: NO
+```
+
 ## RC hardening requirements
 
 ```text
-RC-H01 chapter metadata
-RC-H02 reader-facing governance cleanup
-RC-H03 glossary and distinction apparatus
-RC-H04 repetition and cross-references
-RC-H05 figures, appendices and index
-RC-H06 source, citation and rendered validation
+RC-H01 chapter metadata: CLOSED ON HARDENING A MERGE
+RC-H02 reader-facing governance cleanup: CLOSED ON HARDENING A MERGE
+RC-H03 glossary and distinction apparatus: OPEN — HARDENING B
+RC-H04 repetition and cross-references: CLOSED ON HARDENING A MERGE
+RC-H05 figures, appendices and index: OPEN — HARDENING B
+RC-H06 source, citation and rendered validation: OPEN — HARDENING C
 ```
 
 ## Current gate
 
 ```text
-Whole-Book Complete Draft 1 owner merge
-→ B06-PLN-0008 Work Package A
-→ Work Package B
-→ Work Package C and RC Review
+Whole-Book Complete Draft 1 — ACCEPTED
+→ Work Package A — OWNER ACCEPTED ON MERGE
+→ Work Package B — Reader Apparatus — AUTHORIZED NEXT
+→ Work Package C — Source, Render and RC Review
 → owner Release Candidate decision
 ```
 
