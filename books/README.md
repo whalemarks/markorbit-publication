@@ -9,14 +9,14 @@ This directory contains the canonical MarkOrbit publications.
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | `book-01-operating-system/` | Release Candidate 1 |
 | Book 02 | MarkOrbit Core Specification | `book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `book-03-execution-system/` | Release Candidate 1 |
-| Book 04 | MarkOrbit Workplace and Product Architecture | `book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
+| Book 04 | MarkOrbit Workplace and Product Architecture | `book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Next-Version Correction Required |
 | Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `book-05-markreg/` | Release Candidate 1 — Approved and Frozen |
 | Book 06 | MarkOrbit Lite | `book-06-markorbit-lite/` | Release Candidate 1 — Owner Accepted |
-| Book 07 | Mark Global Service Network | `book-07-mark-global-service-network/` | Network and Product Charter v0.1 — Ready for Owner Acceptance on Merge |
+| Book 07 | Mark Global Service Network | `book-07-mark-global-service-network/` | Charter Candidate Retained / Progression Paused Pending `MO-ADR-WSP-001` |
 
 ## Baseline Rule
 
-Books 01–04 form the pre-Product Portfolio Baseline.
+Books 01–04 form the accepted pre-Product Portfolio Baseline.
 
 Book 02 remains frozen. Semantic changes require the existing Change Proposal process.
 
@@ -28,8 +28,18 @@ Book 06 RC1 was accepted through owner merge of PR #76 on 2026-07-16.
 
 Book 07 Pre-Writing Audit v0.1 was accepted through owner merge of PR #78 on 2026-07-16.
 
-The current Book 07 Charter Candidate defines MGSN as a platform-owned managed global service network with central hub topology, R1–R3 routes, default Recommended Best Route, user final confirmation, platform procurement, funds and fulfillment governance, and an operator-assisted international trademark MVP.
+## Pending Workplace Sovereignty Decision
 
-Owner merge may accept Charter v0.1 and authorize preparation of a Controlled Product Baseline Candidate.
+`MO-ADR-WSP-001` proposes an upstream correction distinguishing:
 
-No Book 07 Product Baseline, Chapter Map, manuscript or implementation is currently accepted.
+- Workplace business sovereignty;
+- Core semantic authority;
+- Owning Service formal state authority;
+- Product Installation and Projection;
+- MarkReg self-operated Workplace;
+- Lite operating Product and client projection;
+- Workplace MGSN connection versus platform-owned MGSN network.
+
+The accepted Book 04 edition remains unchanged, but a next-version correction is required if the ADR is accepted.
+
+The existing Book 07 Charter Candidate remains a reconciliation input. Preparation of a Controlled Product Baseline, Chapter Map, manuscript or implementation is paused until Owner decision and Charter reconciliation.

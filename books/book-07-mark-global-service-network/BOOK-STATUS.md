@@ -5,102 +5,122 @@
 ```text
 Book 07 — Mark Global Service Network
 Network and Product Charter v0.1
-Ready for Owner Acceptance on Merge
+Upstream Reconciliation Required
+Progression Paused Pending MO-ADR-WSP-001
 ```
 
 ## Accepted Baseline
 
-The following are already accepted through owner merge of PR #78:
+The following remain accepted through owner merge of PR #78:
 
 - Book 07 Pre-Writing Audit v0.1;
-- platform-owned MGSN hub interpretation;
-- participant private-space boundary;
+- platform-owned MGSN hub direction;
+- participant private-space boundary direction;
 - R1–R3 route model;
-- default best-route matching;
-- user final confirmation direction;
+- default platform matching with user confirmation;
 - B07-PLN-0001–0009;
 - B07-REV-0001;
 - B07-VAL-0001.
 
-## Current Charter Candidate
+## Existing Charter Candidate
 
-Owner merge may accept:
+The repository contains:
 
 ```text
-B07-PLN-0010 — MGSN Network and Product Charter v0.1
-B07-PLN-0011 — Owner Decision Matrix
-OD-01–OD-33
+B07-PLN-0010 — MGSN Network and Product Charter Candidate v0.1
+B07-PLN-0011 — Owner Decision Matrix / OD-01–OD-33
 B07-REV-0002 — Charter Review
 B07-VAL-0002 — Charter Scope and Consistency Check
 ```
 
-## Charter Identity
+These records remain valuable Product inputs, but they are not authorized to advance into a Controlled Product Baseline until reconciled with the Workplace sovereignty architecture correction.
+
+## Upstream Architecture Conflict
+
+`MO-ADR-WSP-001` identifies missing or ambiguous distinctions concerning:
+
+- Workplace business sovereignty;
+- Core semantic authority;
+- Owning Service formal state authority;
+- Product Installation;
+- Product Projection;
+- MarkReg self-operated Workplace;
+- Lite operating Product versus client projection;
+- Workplace MGSN connection versus platform-owned MGSN network;
+- Originating Workplace and Execution Provider Workplace;
+- cross-Workplace Handoff and Return.
+
+The previous Charter review conclusion that no upstream change was required is superseded by `MO-ARCH-REV-001` for this issue.
+
+## Preserved Charter Direction
+
+The following directions remain valid inputs:
 
 ```text
-MGSN is the platform-owned and platform-governed
-managed global professional service network
-that enables demand-side professionals and agencies
-to deliver services worldwide through one governed interface.
+Platform-owned and platform-governed MGSN network
+Central hub topology
+Participant private business spaces
+R1 External Self-Managed Route
+R2 MGSN Recommended Managed Route
+R3 MGSN Managed Preferred-Provider Route
+Multi-provider supply portfolios
+Recommended route and bounded user choice
+Contextual demand and supply roles
+Platform procurement, funds and fulfillment governance
+Operator-assisted international trademark MVP
 ```
 
-## Charter Decisions
+## Required Reconciliation Model
 
 ```text
-Central platform hub: ACCEPT RECOMMENDED
-Platform-owned provider supply and procurement: ACCEPT RECOMMENDED
-Participant private spaces: ACCEPT RECOMMENDED
-R1 External Self-Managed Route: ACCEPT RECOMMENDED
-R2 Recommended Managed Route: ACCEPT RECOMMENDED
-R3 Managed Preferred-Provider Route: ACCEPT RECOMMENDED
-One Recommended Best Route as default: ACCEPT RECOMMENDED
-Per-service user confirmation in MVP 0: ACCEPT RECOMMENDED
-Standing allocation deferred to policy-bounded plans: ACCEPT RECOMMENDED
-Wholesale + managed-service model: ACCEPT RECOMMENDED
-Funds and fulfillment governance: ACCEPT RECOMMENDED
-Operator-assisted international trademark MVP: ACCEPT RECOMMENDED
+Originating Workplace
+owns or controls Customer, Order, Matter
+and originating commercial responsibility
+        ↓ authorized projection
+MGSN
+owns or governs provider supply, procurement,
+routing, funds, fulfillment and platform Trust
+        ↓ controlled instruction
+Execution Provider Workplace
+owns provider-side operation and professional responsibility
+        ↓ governed Return
+Originating Workplace
+resumes business continuity
 ```
+
+Owning Services retain formal state authority throughout.
 
 ## Current Review Result
 
 ```text
-Authority chain: PASS
-Product and network identity: PASS
-Cross-book ownership boundaries: PASS
-Route and matching model: PASS
-Procurement and pricing model: PASS
-Funds-control constitution: PASS WITH LEGAL MODEL DEFERRED
-Provider and Trust model: PASS
-MVP 0: PASS
-Blocking findings: 0
-Major findings: 0
-Upstream Change Proposal required: NO
+Workplace sovereignty conflict identified: PASS
+ADR candidate prepared: PASS
+Books 02–07 impact assessment: PASS
+Book 07 upstream dependency: CONFIRMED
+Existing Charter deletion required: NO
+Charter reconciliation required: YES
+Blocking findings in ADR candidate: 0
+Major findings in ADR candidate: 0
+Owner ADR decision required: YES
 ```
 
 ## Next Gate
 
-Owner merge authorizes preparation of:
-
 ```text
-Book 07 Controlled Product Baseline Candidate
+Owner decision on MO-ADR-WSP-001
+→ Architecture Canon Amendment Candidate
+→ Book 07 Charter Reconciliation Record
+→ Re-review reconciled Charter
 ```
 
-The next gate may define:
-
-- MGSN Product-local records and controlled IDs;
-- Provider Profile, Capability, Evidence and Trust model;
-- R1–R3 route states;
-- matching, confirmation, allocation and Provider Acceptance contracts;
-- procurement, service offer and price layers;
-- funds and settlement projections;
-- Network Service Engagement;
-- Handoff and Return contracts;
-- reference journeys, scenarios and MVP evaluation.
+The Controlled Product Baseline Candidate is no longer the immediate next gate.
 
 ## Not Authorized
 
 ```text
-Controlled Product Baseline acceptance
-Chapter Map acceptance
+Final or unreconciled Charter acceptance
+Controlled Product Baseline preparation or acceptance
+Chapter Map
 Manuscript drafting
 Database schema
 API contracts

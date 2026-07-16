@@ -1,8 +1,8 @@
 book_id: B07
 title: Mark Global Service Network
-status: network_and_product_charter_v0_1_ready_for_owner_acceptance_on_merge
-current_gate: network_and_product_charter
-next_gate: controlled_product_baseline_candidate
+status: network_and_product_charter_upstream_reconciliation_required
+current_gate: workplace_sovereignty_upstream_reconciliation
+next_gate: owner_decision_on_mo_adr_wsp_001
 
 accepted_baseline:
   pre_writing_audit_v0_1: true
@@ -21,123 +21,66 @@ accepted_baseline:
   validation_records:
     - B07-VAL-0001
 
-charter_candidate:
+existing_charter_candidate:
   record: B07-PLN-0010
-  version: v0.1
   owner_decision_matrix: B07-PLN-0011
-  decisions: OD-01-OD-33
   review: B07-REV-0002
   validation: B07-VAL-0002
-  ready_for_owner_acceptance_on_merge: true
+  retained_as_reconciliation_input: true
+  ready_to_advance_to_product_baseline: false
 
-network_identity:
-  platform_owned_resources: true
+upstream_reconciliation:
+  notice: B07-PLN-0012
+  architecture_source_assessment: MO-ARCH-SRC-001
+  architecture_decision_candidate: MO-ADR-WSP-001
+  architecture_impact_assessment: MO-ARCH-IMP-001
+  architecture_review: MO-ARCH-REV-001
+  owner_adr_decision_required: true
+  canon_amendment_candidate_required_after_acceptance: true
+  book_07_charter_reconciliation_required: true
+
+preserved_direction:
+  platform_owned_mgsn_resources: true
   platform_governed_provider_supply: true
   managed_global_service_network: true
   central_hub_topology: true
   peer_to_peer_participant_network: false
   participant_private_spaces: true
-
-route_model:
-  - id: R1
-    name: external_self_managed
-    platform_managed: false
-    platform_guarantee: false
-    evidence_return: manual
-  - id: R2
-    name: mgsn_recommended_managed
-    platform_managed: true
-    default_matching: true
-    user_confirmation: true
-  - id: R3
-    name: mgsn_managed_preferred_provider
-    platform_managed: true
-    user_preference_subject_to_platform_gates: true
-
-matching:
-  default_output: one_recommended_best_route
-  full_provider_pool_required: false
-  user_may_accept_reject_or_adjust: true
-  rematch_supported: true
-  standing_allocation_default: false
+  external_self_managed_route_allowed: true
+  recommended_managed_route: true
+  managed_preferred_provider_route: true
+  multi_provider_supply_portfolios: true
+  contextual_demand_and_supply_roles: true
+  user_final_confirmation: true
   autonomous_provider_appointment: false
 
-commercial_model:
-  platform_wholesale_network: true
-  managed_service_packages: true
-  provider_cost_separate_from_customer_price: true
-  universal_lowest_price_guarantee: false
-  routing_margin_override_allowed: false
-
-funds_constitution:
-  typed_collection_allocation_release_settlement: true
-  evidence_before_consequential_release: true
-  universal_escrow_claim: false
-  legal_and_accounting_model_deferred: true
-
-provider_model:
-  core_organization_identity: true
-  mgsn_provider_profile: true
-  service_specific_provider_role: true
-  one_public_universal_trust_score: false
-
-mvp_0:
-  operator_assisted: true
-  primary_demand_users:
-    - chinese_trademark_agencies
-    - independent_international_trademark_professionals
-    - lite_workplace_markreg_users
-  initial_provider_cohort:
-    - existing_platform_foreign_associates
-    - proven_high_volume_filing_providers
-    - selected_verified_law_firms
-  initial_scope:
-    - international_trademark_filing
-    - filing_through_registration_where_packaged
-    - selected_high_volume_lifecycle_services
-  per_service_user_confirmation: true
+required_authority_distinctions:
+  workplace_business_sovereignty: true
+  core_semantic_authority: true
+  owning_service_formal_state_authority: true
+  physical_custody_separate: true
+  legal_and_source_rights_separate: true
+  product_installation_required: true
+  projection_separate_from_handoff: true
+  workplace_mgsn_connection_separate_from_network: true
+  originating_workplace_required: true
+  execution_provider_workplace_required: true
 
 review:
-  authority_chain: pass
-  product_identity: pass
-  cross_book_boundaries: pass
-  route_and_matching_model: pass
-  procurement_and_pricing: pass
-  funds_control: pass_with_legal_model_deferred
-  provider_and_trust_model: pass
-  mvp_0: pass
+  workplace_sovereignty_conflict_identified: pass
+  adr_candidate: pass
+  books_02_07_impact_assessment: pass
+  existing_charter_deletion_required: false
+  charter_reconciliation_required: true
   blocking_findings: 0
   major_findings: 0
-  upstream_change_proposal_required: false
-
-validation:
-  record: B07-VAL-0002
-  result: pass
-  total_changed_files: 16
-  charter_planning_records_added: 2
-  charter_review_records_added: 1
-  charter_validation_records_added: 1
-  book_07_governance_state_index_files_modified: 9
-  repository_registry_files_modified: 3
-  product_baseline_files_added: 0
-  chapter_map_files_added: 0
-  manuscript_files_added_or_modified: 0
-  implementation_files_added: 0
-  books_01_06_manuscript_files_modified: 0
-  duplicate_controlled_ids: 0
-
-authorized_on_owner_merge:
-  controlled_product_baseline_candidate: true
-  product_local_record_design: true
-  controlled_id_design: true
-  reference_journeys: true
-  conformance_scenarios: true
-  handoff_return_contract_planning: true
-  mvp_evaluation_baseline: true
+  owner_adr_decision_required: true
 
 not_authorized:
+  unreconciled_charter_acceptance: true
+  controlled_product_baseline_preparation: true
   controlled_product_baseline_acceptance: true
-  chapter_map_acceptance: true
+  chapter_map: true
   manuscript: true
   database_schema: true
   api_contracts: true
