@@ -6,7 +6,9 @@
 Record: B06-REL-0002
 Book: Book 06 — MarkOrbit Lite
 Release: Release Candidate 1
-Status: Candidate — accepted on owner merge
+Status: ACCEPTED
+Owner decision activation commit:
+060e807be90081977bcc322f1557b9fc950f5209
 Owner decision source: B06-REV-0016
 Final public/commercial distribution authorized: NO
 ```
@@ -122,7 +124,8 @@ A purely administrative change outside the reader-facing source set does not sil
 ## 8. Next controlled gates
 
 ```text
-Release Candidate 1 owner acceptance
+Release Candidate 1 — ACCEPTED
+→ RC1 freeze and permanent release pointer
 → optional final brand/design production
 → final rendered validation
 → final publication/distribution decision
@@ -130,8 +133,8 @@ Release Candidate 1 owner acceptance
 
 Implementation specifications and Product development remain separate from publication release.
 
-## 9. Owner merge effect
+## 9. Owner decision effect
 
-Owner merge accepts this Release Candidate 1 record and closes all RC Hardening requirements.
+Owner merge of PR #76 accepted this Release Candidate 1 record and closed all RC Hardening requirements.
 
-It does not approve final public/commercial distribution.
+`B06-REL-0003` permanently freezes the accepted RC1 identity. Neither record approves final public/commercial distribution.

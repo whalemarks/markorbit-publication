@@ -27,9 +27,11 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](arc
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Release Candidate 1 — Owner Accepted |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Pre-Writing Audit v0.1 — Ready for Owner Acceptance on Merge |
 
+
 ## Portfolio Baseline
 
 Books 01–04 form the accepted pre-Product Portfolio Baseline.
+
 
 Book 02 remains frozen. Semantic changes require the existing Change Proposal process.
 
@@ -69,40 +71,49 @@ ML-HC-01–HC-08
 ML-AC-01–AC-12
 ```
 
-Accepted Chapter Map and manuscript:
+Frozen RC1 reader-facing inventory:
 
 ```text
 B06-TOC-V0.1
-B06-CH-00–B06-CH-33
-34 / 34 chapter files
-Whole-Book Complete Draft 1 — ACCEPTED
+B06-CH-00–B06-CH-33: 34 chapters
+B06-APP-0001–B06-APP-0007: 7 Reader Apparatus records
+Total ordered reader-facing inputs: 41
 ```
 
-Accepted Reader Apparatus:
+Immutable identity:
 
 ```text
-B06-APP-0001 — Controlled Term Glossary
-B06-APP-0002 — Core Distinction Matrix
-B06-APP-0003 — Abbreviations and Controlled ID Guide
-B06-APP-0004 — Figure Register and Semantic Diagrams
-B06-APP-0005 — Controlled Record Coverage
-B06-APP-0006 — Journey, Scenario, Handoff and Acceptance Coverage
-B06-APP-0007 — Subject Index
-```
-
-Release Candidate validation:
-
-```text
-Review: B06-REV-0016
-Release record: B06-REL-0002
-Reader-facing inputs: 41
-Reader-facing baseline:
+Reader-facing content baseline:
 7ce03755e03bb4876768a34a4ee3d2c3b74bddb1
 
-Successful workflow run: 29477787207
-Artifact ID: 8367264203
-Artifact digest:
+Owner-decision activation commit:
+060e807be90081977bcc322f1557b9fc950f5209
+
+RC1 Decision Record:
+B06-REL-0002
+
+RC1 Freeze Record:
+B06-REL-0003
+
+Machine release manifest:
+release/B06-RC1.yaml
+
+Release pointer after freeze merge:
+release/book-06-rc1
+```
+
+Validation evidence:
+
+```text
+Content/render workflow run: 29477787207
+Content artifact ID: 8367264203
+Content artifact digest:
 sha256:2446561090311a6d6e5912ebdc1e109a2b0e5cf525109db9eb3b0762ee27236b
+
+Final governance workflow run: 29478801425
+Governance artifact ID: 8367659673
+Governance artifact digest:
+sha256:dcfd3f85169f1275d38dd09e34f8338089bd4b6dbd90573a3ebe0dbd5c3819da
 
 Chapters: 34 / 34
 Reader Apparatus: 7 / 7
@@ -110,7 +121,7 @@ Local links: 283 checked / 0 broken
 Anchors: 10 checked / 0 broken
 Controlled IDs: 93 / 93
 Semantic figures: 12 / 12 rendered
-PDF: 410 pages / 842,295 bytes / 0 near-blank pages
+PDF validation render: 410 pages / 0 near-blank pages
 External URLs: 0
 Material external claims requiring citation: 0
 Blocking / major / warning findings: 0 / 0 / 0
@@ -174,6 +185,7 @@ Provider Workplace / Provider Interface
 ```
 
 MGSN does not create an independent participant-to-participant network graph.
+
 
 ### Delivery Route Planning Model
 

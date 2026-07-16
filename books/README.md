@@ -14,6 +14,7 @@ This directory contains the canonical MarkOrbit publications.
 | Book 06 | MarkOrbit Lite | `book-06-markorbit-lite/` | Release Candidate 1 — Owner Accepted |
 | Book 07 | Mark Global Service Network | `book-07-mark-global-service-network/` | Pre-Writing Audit v0.1 — Ready for Owner Acceptance on Merge |
 
+
 ## Baseline Rule
 
 Books 01–04 form the pre-Product Portfolio Baseline.
@@ -29,3 +30,4 @@ Book 06 RC1 was accepted through owner merge of PR #76 on 2026-07-16. Final bran
 Book 07 currently contains a Pre-Writing Audit only. Owner merge may accept the platform-owned MGSN hub, private-space, route, matching, procurement, funds and experience direction and authorize preparation of a Network and Product Charter Candidate.
 
 No Book 07 Product Charter, Product Baseline, Chapter Map, manuscript or implementation is currently accepted.
+
