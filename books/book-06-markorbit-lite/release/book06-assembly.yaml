@@ -1,0 +1,74 @@
+book:
+  id: B06
+  title: MarkOrbit Lite
+  chapter_map: B06-TOC-V0.1
+  expected_chapters: 34
+  expected_reader_apparatus: 7
+  release_candidate_accepted: false
+
+source_order:
+  chapters:
+    - ../manuscript/B06-CH-00_Preface.md
+    - ../manuscript/B06-CH-01_Table_of_Contents.md
+    - ../manuscript/B06-CH-02_Why_MarkOrbit_Lite_Exists.md
+    - ../manuscript/B06-CH-03_The_AI_Business_Operating_System_for_Trademark_Professionals.md
+    - ../manuscript/B06-CH-04_Position_Between_Workplace_Core_Execution_MarkReg_and_MGSN.md
+    - ../manuscript/B06-CH-05_Users_Value_Promise_and_the_Four_Product_Loops.md
+    - ../manuscript/B06-CH-06_Principles_Boundaries_and_Non_Goals.md
+    - ../manuscript/B06-CH-07_Today_as_the_Daily_Business_Cockpit.md
+    - ../manuscript/B06-CH-08_Authorized_Context_Sources_and_Data_Boundaries.md
+    - ../manuscript/B06-CH-09_From_Observation_to_Signal_and_Service_Value_Candidate.md
+    - ../manuscript/B06-CH-10_Recommendation_Qualification_and_User_Disposition.md
+    - ../manuscript/B06-CH-11_Prepared_Action_Continuation_and_Safe_Handoff.md
+    - ../manuscript/B06-CH-12_Existing_Customer_Portfolio_Opportunities.md
+    - ../manuscript/B06-CH-13_Historical_Customer_Reactivation.md
+    - ../manuscript/B06-CH-14_Prospect_Candidate_Development.md
+    - ../manuscript/B06-CH-15_Development_Packages_Customer_Contact_and_Response.md
+    - ../manuscript/B06-CH-16_From_Qualified_Need_to_Opportunity_and_MarkReg.md
+    - ../manuscript/B06-CH-17_From_Purpose_and_Knowledge_to_Structured_Content.md
+    - ../manuscript/B06-CH-18_Artifact_Drafts_Versions_and_Review_Packages.md
+    - ../manuscript/B06-CH-19_Render_Edit_and_Work_Product_Readiness.md
+    - ../manuscript/B06-CH-20_Delivery_Communication_and_Publish_Preparation.md
+    - ../manuscript/B06-CH-21_Outcomes_Corrections_and_Work_Product_Reuse.md
+    - ../manuscript/B06-CH-22_From_Case_Context_to_Case_Lesson.md
+    - ../manuscript/B06-CH-23_Personal_Memory_Organization_Memory_and_Preferences.md
+    - ../manuscript/B06-CH-24_Reusable_Assets_and_Knowledge_Contribution.md
+    - ../manuscript/B06-CH-25_Rights_Provenance_Retirement_and_Compounding_Capability.md
+    - ../manuscript/B06-CH-26_MarkReg_Launch_Continuation_and_Return.md
+    - ../manuscript/B06-CH-27_MGSN_Capability_Need_and_Provider_Boundaries.md
+    - ../manuscript/B06-CH-28_Review_Communication_Opportunity_Task_and_Execution_Handoffs.md
+    - ../manuscript/B06-CH-29_Local_and_Private_Continuity_Failure_and_Unknown_Outcomes.md
+    - ../manuscript/B06-CH-30_MVP_0_Customer_Opportunity_to_Governed_Service.md
+    - ../manuscript/B06-CH-31_Evaluation_Conformance_and_Zero_Tolerance_Conditions.md
+    - ../manuscript/B06-CH-32_Commercial_Plans_Entitlements_and_Sustainable_Economics.md
+    - ../manuscript/B06-CH-33_Product_Evolution_Without_Constitutional_Drift.md
+  reader_apparatus:
+    - ../reader-apparatus/B06-APP-0001_Controlled_Term_Glossary.md
+    - ../reader-apparatus/B06-APP-0002_Core_Distinction_Matrix.md
+    - ../reader-apparatus/B06-APP-0003_Abbreviations_and_Controlled_ID_Guide.md
+    - ../reader-apparatus/B06-APP-0004_Figure_Register_and_Semantic_Diagrams.md
+    - ../reader-apparatus/B06-APP-0005_Controlled_Record_Coverage.md
+    - ../reader-apparatus/B06-APP-0006_Journey_Scenario_Handoff_and_Acceptance_Coverage.md
+    - ../reader-apparatus/B06-APP-0007_Subject_Index.md
+
+validation:
+  protocol: B06-VAL-0001
+  source_policy: B06-SRC-0001
+  workflow: .github/workflows/book06-rc-validation.yml
+  tool: tools/book06_rc_validate.py
+  required_outputs:
+    - Book-06-MarkOrbit-Lite-RC-Validation.md
+    - Book-06-MarkOrbit-Lite-RC-Validation.html
+    - Book-06-MarkOrbit-Lite-RC-Validation.pdf
+    - figures/figure-01.svg
+    - figures/figure-12.svg
+    - validation-report.json
+    - validation-report.md
+    - SHA256SUMS.txt
+
+authorization:
+  implementation: false
+  production: false
+  public_commercial_distribution: false
+  autonomous_professional_action: false
+  external_protected_action: false
