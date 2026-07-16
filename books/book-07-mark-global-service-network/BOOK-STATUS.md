@@ -4,9 +4,9 @@
 
 ```text
 Book 07 — Mark Global Service Network
-Controlled Product Baseline v0.1
-Ready for Owner Acceptance on Merge
-Chapter Map not yet authorized
+Controlled Product Baseline v0.1 — ACCEPTED
+Chapter Map v0.1 — Ready for Owner Acceptance on Merge
+Manuscript drafting not yet authorized
 ```
 
 ## Accepted Authority
@@ -14,58 +14,45 @@ Chapter Map not yet authorized
 ```text
 Active Canon vNext.1
 Active Decision Register vNext.1
-Book 07 Pre-Writing Audit v0.1
 Reconciled Network and Product Charter v0.1
-B07-PLN-0010
-B07-PLN-0011 / OD-01–OD-33
-B07-PLN-0013 controlling reconciliation
-B07-REV-0003 / PASS
-B07-VAL-0003 / PASS
+B07-SPEC-0001–0004
+B07-REV-0004 / PASS
+B07-VAL-0004 / PASS
 ```
 
-## Controlled Product Baseline Candidate
+## Chapter Map Candidate
 
 ```text
-B07-SPEC-0001 — MGSN Controlled Product Baseline Candidate
-B07-SPEC-0002 — Product-Local Record Catalog
-B07-SPEC-0003 — Reference Journeys and Conformance Scenarios
-B07-SPEC-0004 — Handoff, Return and MVP Acceptance Baseline
-B07-REV-0004 — Controlled Product Baseline Review / PASS
-B07-VAL-0004 — Scope and Consistency Check / PASS
+B07-TOC-V0.1 — 34 chapters / CH00–CH33
+B07-PLN-0014 — Chapter Coverage Matrix
+B07-PLN-0015 — Writing Wave Plan
+B07-REV-0005 — Chapter Map Review / PASS
+B07-VAL-0005 — Scope and Coverage Check / PASS
 ```
 
-## Controlled Coverage
+## Structure
 
 ```text
-MG-N01–N06 — Network Participation and Connection
-MG-C01–C08 — Capability and Supply
-MG-P01–P08 — Procurement and Service Offer
-MG-R01–R08 — Routing, Recommendation and Selection
-MG-F01–F10 — Funds, Fulfillment and Return
-MG-T01–T08 — Trust, Relationship and Network Learning
-MG-E01–E08 — Exception, Restriction and Governance
-
-Total Product-local records: 56
-Reference Journeys: 8
-Conformance Scenarios: 32
-Handoff / Return Contracts: 10
-MVP Acceptance Criteria: 16
+Front Matter: CH00–CH02
+Part I: CH03–CH06 — Network and Participants
+Part II: CH07–CH11 — Global Supply
+Part III: CH12–CH15 — Procurement and Offers
+Part IV: CH16–CH20 — Routing and Choice
+Part V: CH21–CH25 — Funds, Fulfillment and Return
+Part VI: CH26–CH29 — Trust and Governance
+Part VII: CH30–CH33 — MVP and Evolution
+Total: 34 chapters
 ```
 
-## Core Product Chain
+## Coverage Result
 
 ```text
-Originating Workplace
-→ authorized Capability Need projection
-→ MGSN Connection / Gateway
-→ platform-owned MGSN Network
-→ eligibility and Candidate Route Set
-→ Recommended Route and bounded alternatives
-→ user disposition
-→ provider allocation and acceptance
-→ funds and fulfillment checkpoints
-→ typed Return
-→ Originating Workplace / Owning Service validation
+Product-local records: 56 / 56
+Reference Journeys: 8 / 8
+Conformance Scenarios: 32 / 32
+Handoff / Return Contracts: 10 / 10
+MVP Acceptance Criteria: 16 / 16
+Unmapped controlled IDs: 0
 ```
 
 ## Review Result
@@ -74,33 +61,17 @@ Originating Workplace
 Decision: PASS
 Blocking findings: 0
 Major findings: 0
-Upstream architecture findings: 0
-Book 02 Change Proposal required now: NO
-Implementation authorization created: NO
+Upstream Change Proposal required: NO
 ```
 
 ## Owner Merge Effect
 
-Owner merge accepts `B07-SPEC-0001–0004` as the Book 07 Controlled Product Baseline v0.1 and authorizes preparation of a Chapter Map Candidate.
+Owner merge accepts `B07-TOC-V0.1`, `B07-PLN-0014`, `B07-PLN-0015`, `B07-REV-0005` and `B07-VAL-0005`.
 
-Owner merge does not authorize:
-
-```text
-Chapter Map acceptance
-Manuscript drafting
-Database schema
-API contracts
-Payment custody or funds release
-Automatic provider appointment
-Production deployment
-External Protected Action
-```
-
-## Next Gate
+Owner merge authorizes:
 
 ```text
-Controlled Product Baseline Owner Acceptance
-→ Chapter Map Candidate
-→ Chapter Map Review and Owner Decision
-→ only then manuscript drafting waves
+Writing Wave 1 — B07-CH-00 through B07-CH-06
 ```
+
+Owner merge does not authorize later Writing Waves, implementation, payment custody, automatic provider appointment, production deployment or External Protected Action.
