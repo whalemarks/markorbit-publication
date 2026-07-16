@@ -1,5 +1,27 @@
 # Book 06 Changelog
 
+## RC Hardening B — Reader Apparatus
+
+- added `reader-apparatus/README.md` as the governed reader-aid entry point;
+- added B06-APP-0001 — Controlled Term Glossary with 63 anchored entries;
+- added B06-APP-0002 — Core Distinction Matrix with 30 operational distinctions;
+- added B06-APP-0003 — Abbreviations and Controlled ID Guide;
+- separated publication IDs from `ML-*` semantic Product records and rejected one-table-per-record implications;
+- added B06-APP-0004 — Figure Register and Semantic Diagrams with 12 Mermaid figure sources;
+- semantically reviewed figure ownership, Human-decision, Handoff/Return, local/private and commercial/Product boundaries;
+- deferred Mermaid cross-format, PDF/equivalent, font, page-break and figure-legibility validation to Work Package C;
+- added B06-APP-0005 — Controlled Record Coverage for all 45 Product-local records;
+- added B06-APP-0006 — complete coverage for 4 journeys, 24 scenarios, 8 Handoff contracts and 12 MVP acceptance criteria;
+- added B06-APP-0007 — Subject Index with stable reader-navigation anchors;
+- connected Reader Apparatus from the Book and manuscript entry points without adding CH34 or changing `B06-TOC-V0.1`;
+- added B06-REV-0015 — RC Hardening B Reader Apparatus Review;
+- recorded zero Product Charter, Product Baseline, Specification, Chapter Map, chapter ID/title/order or formal-authority changes;
+- found zero blocking, major or upstream findings and no required Change Proposal;
+- closed RC-H03 and RC-H05 on owner merge;
+- retained RC-H06 for Work Package C;
+- authorized Work Package C after owner merge;
+- kept Release Candidate, implementation, production and distribution unauthorized.
+
 ## RC Hardening A — Editorial and Structural Normalization
 
 - audited all 34 manuscript chapter files;

@@ -2,7 +2,7 @@
 
 ## Identity
 
-- **Status:** RC Hardening A — Editorial and Structural Normalization — Owner Accepted on Merge
+- **Status:** RC Hardening B — Reader Apparatus — Owner Acceptance on Merge
 - **User-facing identity:** AI business operating system for independent trademark professionals and small trademark agencies
 - **Architectural identity:** lightweight Workplace Product, individual-first but Organization-centered
 - **Product Charter:** B06-PLN-0004 v0.3
@@ -10,8 +10,10 @@
 - **Chapter Map:** [B06-TOC-V0.1](planning/B06-PLN-0007_Chapter_Map_Candidate.md)
 - **Chapter range:** B06-CH-00–B06-CH-33
 - **Manuscript:** [CH00–CH33](manuscript/README.md)
+- **Reader Apparatus:** [B06-APP-0001–B06-APP-0007](reader-apparatus/README.md)
 - **Whole-book Review:** [B06-REV-0013](reviews/B06-REV-0013_Whole_Book_Complete_Draft_1_Review.md)
-- **Current Review:** [B06-REV-0014](reviews/B06-REV-0014_RC_Hardening_A_Editorial_and_Structural_Normalization_Review.md)
+- **Hardening A Review:** [B06-REV-0014](reviews/B06-REV-0014_RC_Hardening_A_Editorial_and_Structural_Normalization_Review.md)
+- **Current Review:** [B06-REV-0015](reviews/B06-REV-0015_RC_Hardening_B_Reader_Apparatus_Review.md)
 - **RC Hardening Plan:** [B06-PLN-0008](planning/B06-PLN-0008_Release_Candidate_Hardening_Plan.md)
 
 ## Product definition
@@ -27,7 +29,7 @@ Professional Memory and Business Assets
 MarkOrbit Ecosystem Handoff
 ```
 
-## Manuscript status
+## Accepted manuscript
 
 ```text
 Front Matter CH00–CH01: Complete Draft 1 — ACCEPTED
@@ -41,66 +43,69 @@ Part VII CH30–CH33: Complete Draft 1 — ACCEPTED
 Whole Book CH00–CH33: Complete Draft 1 — ACCEPTED
 ```
 
+## Reader Apparatus
+
+Hardening B adds a reader-facing end-matter layer without changing `B06-TOC-V0.1` or creating new Product authority:
+
+1. [Controlled Term Glossary](reader-apparatus/B06-APP-0001_Controlled_Term_Glossary.md)
+2. [Core Distinction Matrix](reader-apparatus/B06-APP-0002_Core_Distinction_Matrix.md)
+3. [Abbreviations and Controlled ID Guide](reader-apparatus/B06-APP-0003_Abbreviations_and_Controlled_ID_Guide.md)
+4. [Figure Register and Semantic Diagrams](reader-apparatus/B06-APP-0004_Figure_Register_and_Semantic_Diagrams.md)
+5. [Controlled Record Coverage](reader-apparatus/B06-APP-0005_Controlled_Record_Coverage.md)
+6. [Journey, Scenario, Handoff and Acceptance Coverage](reader-apparatus/B06-APP-0006_Journey_Scenario_Handoff_and_Acceptance_Coverage.md)
+7. [Subject Index](reader-apparatus/B06-APP-0007_Subject_Index.md)
+
+```text
+Glossary entries: 63
+Core distinctions: 30
+Semantic figures: 12
+Product-local records covered: 45 / 45
+Reference journeys: 4 / 4
+Conformance scenarios: 24 / 24
+Handoff contracts: 8 / 8
+MVP acceptance criteria: 12 / 12
+```
+
+The appendices are editorial projections. Specifications remain authoritative.
+
 ## Complete manuscript argument
 
 ```text
-professional reality and Product constitution
-→ Today and Authorized Context
-→ Observation, Candidate and Prepared Action
+Product Constitution
+→ Daily Operating Model
 → Customer and Service Growth
 → Professional Work Products
 → Cases, Memory and Business Assets
-→ typed MarkReg and MGSN gateways
-→ Review / Communication / Opportunity / Task / Execution Handoffs
-→ destination revalidation and typed Return
-→ Local / Private continuity and explicit failure states
-→ Customer Opportunity-to-Governed-Service MVP
-→ Product evaluation and Conformance Scenarios
-→ zero-tolerance controls
-→ Commercial Plans, Entitlements and Sustainable Economics
+→ MarkOrbit Gateways and Continuity
+→ MVP and Product Conformance
+→ Commercial Plans and Sustainable Economics
 → Product Evolution Without Constitutional Drift
 ```
 
-## Whole-book review
+## Hardening results
 
-`B06-REV-0013` records:
-
-```text
-34 / 34 chapter files
-Cross-Part continuity: PASS
-Product Charter coverage: PASS
-Product Baseline coverage: PASS
-Controlled-term meaning integrity: PASS
-Cross-Book boundary integrity: PASS
-Commercial/Product separation: PASS
-Implementation boundary: PASS
-Blocking findings: 0
-Major findings: 0
-Upstream findings: 0
-```
-
-## RC Hardening A
-
-`B06-REV-0014` records:
+### Hardening A — accepted
 
 ```text
 34 / 34 chapter headers normalized
-23 chapter files modified
 internal wave-merge metadata remaining: 0
-CH01 internal drafting-wave content: removed
-CH33 reader-facing evolution sequence: applied
 chapter ID/title/order changes: 0
 controlled meaning changes: 0
 blocking / major / upstream findings: 0
 ```
 
-Closed on merge:
+### Hardening B — accepted on merge
 
 ```text
-RC-H01 — chapter metadata normalization
-RC-H02 — reader-facing governance cleanup
-RC-H04 — repetition and cross-reference hardening
+B06-APP-0001–B06-APP-0007: complete
+controlled terms and distinctions: complete
+figure register and Mermaid semantic sources: complete
+coverage appendices and subject index: complete
+Product Charter / Baseline / Chapter Map changes: 0
+blocking / major / upstream findings: 0
 ```
+
+Cross-format figure rendering, links, fonts, page breaks and whole-book rendered validation remain Work Package C.
 
 ## Controlled baseline
 
@@ -117,9 +122,9 @@ ML-HC-01–HC-08
 ML-AC-01–AC-12
 ```
 
-Specifications remain authoritative over manuscript simplification.
-
 ## Core distinctions
+
+See the full [Core Distinction Matrix](reader-apparatus/B06-APP-0002_Core_Distinction_Matrix.md).
 
 ```text
 Today item ≠ active Task
@@ -142,38 +147,31 @@ Product identity ≠ Commercial Plan
 payment / premium edition ≠ authority
 ```
 
-## Remaining Release Candidate hardening
+## RC requirement status
 
 ```text
-RC-H03 — controlled terms and distinction apparatus — Work Package B
-RC-H05 — figures, appendices and index — Work Package B
-RC-H06 — source, citation and rendered validation — Work Package C
+RC-H01 — CLOSED ON HARDENING A MERGE
+RC-H02 — CLOSED ON HARDENING A MERGE
+RC-H03 — CLOSED ON HARDENING B MERGE
+RC-H04 — CLOSED ON HARDENING A MERGE
+RC-H05 — CLOSED ON HARDENING B MERGE
+RC-H06 — OPEN — HARDENING C
 ```
 
-Execution order:
+## Next gate
 
 ```text
-Work Package A — Editorial and Structural Normalization — OWNER ACCEPTED ON MERGE
-→ Work Package B — Reader Apparatus — AUTHORIZED NEXT
-→ Work Package C — Source, Render and RC Review
+Whole-Book Complete Draft 1 — ACCEPTED
+→ RC Hardening A — ACCEPTED
+→ RC Hardening B — ACCEPTED ON MERGE
+→ RC Hardening C — Source, Citation, Render and RC Validation
 → owner Release Candidate decision
 ```
-
-## Product / commercial separation
-
-```text
-Product identity
-→ Product Edition
-→ Commercial Plan
-→ Entitlement Window
-→ Fulfillment Observation
-```
-
-RMB 99, recurring/daily content, Prospect Candidate supply, Asset limits, support levels and Render quotas remain commercial experiments. They do not define the Product constitution or grant broader authority.
 
 ## Records
 
 - [Manuscript](manuscript/README.md)
+- [Reader Apparatus](reader-apparatus/README.md)
 - [Planning](planning/README.md)
 - [Specifications](specifications/README.md)
 - [Reviews](reviews/README.md)

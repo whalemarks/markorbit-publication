@@ -10,18 +10,13 @@ Chapter Map: B06-TOC-V0.1 — Owner Accepted
 ## Current manuscript status
 
 ```text
-Wave 1 — CH00–CH06: Complete Draft 1 — ACCEPTED
-Wave 2 — CH07–CH11: Complete Draft 1 — ACCEPTED
-Wave 3 — CH12–CH16: Complete Draft 1 — ACCEPTED
-Wave 4 — CH17–CH21: Complete Draft 1 — ACCEPTED
-Wave 5 — CH22–CH25: Complete Draft 1 — ACCEPTED
-Wave 6 — CH26–CH29: Complete Draft 1 — ACCEPTED
-Wave 7 — CH30–CH33: Complete Draft 1 — ACCEPTED
-Whole-Book Complete Draft 1: ACCEPTED
+Waves 1–7 / CH00–CH33: Complete Draft 1 — ACCEPTED
 RC Hardening A: OWNER ACCEPTED ON B06-REV-0014 MERGE
+RC Hardening B: OWNER ACCEPTANCE ON B06-REV-0015 MERGE
+Release Candidate: NOT ACCEPTED
 ```
 
-All 34 chapter files are present. Hardening A audited every chapter, modified 23 reader-facing files, normalized 34 of 34 chapter headers and changed no chapter ID, title, order or controlled Product meaning.
+All 34 chapter files remain unchanged in ID, title, order and controlled meaning. Reader Apparatus is maintained as separate end matter and does not alter the Chapter Map.
 
 ## Front Matter and Part I
 
@@ -78,42 +73,38 @@ All 34 chapter files are present. Hardening A audited every chapter, modified 23
 - [B06-CH-32 — Commercial Plans, Entitlements and Sustainable Economics](B06-CH-32_Commercial_Plans_Entitlements_and_Sustainable_Economics.md)
 - [B06-CH-33 — Product Evolution Without Constitutional Drift](B06-CH-33_Product_Evolution_Without_Constitutional_Drift.md)
 
-## Complete manuscript argument
+## Reader Apparatus
+
+The manuscript is supported by [B06-APP-0001–B06-APP-0007](../reader-apparatus/README.md):
+
+- controlled-term glossary;
+- core distinction matrix;
+- abbreviation and ID guide;
+- 12 semantic diagrams;
+- 45-record coverage appendix;
+- journey/scenario/Handoff/acceptance coverage;
+- subject index.
 
 ```text
-Product Constitution
-→ Daily Operating Model
-→ Customer and Service Growth
-→ Professional Work Products
-→ Cases, Memory and Business Assets
-→ MarkOrbit Gateways and Continuity
-→ MVP, Conformance and Zero-Tolerance Conditions
-→ Commercial Plans and Sustainable Economics
-→ Product Evolution Without Constitutional Drift
+Product Charter / Specifications / Chapter Map
+→ Chapter manuscript
+→ Reader Apparatus
 ```
 
-## Authority
-
-```text
-Product Charter v0.3
-→ Product Baseline v0.1
-→ B06-TOC-V0.1
-→ chapter prose
-```
-
-Specifications remain authoritative over simplified chapter explanation.
+Specifications remain authoritative over chapter prose and reader aids.
 
 ## Review and next gate
 
 - [B06-REV-0013 — Whole-Book Complete Draft 1 Review](../reviews/B06-REV-0013_Whole_Book_Complete_Draft_1_Review.md)
 - [B06-REV-0014 — RC Hardening A Review](../reviews/B06-REV-0014_RC_Hardening_A_Editorial_and_Structural_Normalization_Review.md)
+- [B06-REV-0015 — RC Hardening B Review](../reviews/B06-REV-0015_RC_Hardening_B_Reader_Apparatus_Review.md)
 - [B06-PLN-0008 — Release Candidate Hardening Plan](../planning/B06-PLN-0008_Release_Candidate_Hardening_Plan.md)
 
 ```text
 Whole-Book Complete Draft 1 — ACCEPTED
-→ RC Hardening A — OWNER ACCEPTED ON MERGE
-→ RC Hardening B — Reader Apparatus — AUTHORIZED NEXT
-→ RC Hardening C — Source, Render and RC Review
+→ RC Hardening A — ACCEPTED
+→ RC Hardening B — ACCEPTED ON MERGE
+→ RC Hardening C — Source, Citation, Render and RC Validation
 ```
 
-Hardening A does not authorize Release Candidate status, implementation, production, public/commercial distribution, autonomous professional action or External Protected Action.
+Hardening B does not authorize Release Candidate status, implementation, production, public/commercial distribution, autonomous professional action or External Protected Action.
