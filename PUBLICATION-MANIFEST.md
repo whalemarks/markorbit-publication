@@ -24,12 +24,12 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](gov
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
 | Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Release Candidate 1 — Approved and Frozen |
-| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Wave 6 CH26–CH29 Complete Draft 1 — Owner Accepted on Merge |
+| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Wave 7 CH30–CH33 Complete Draft 1 — Owner Accepted on Merge |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
 Book 05 is frozen through its accepted RC1 content baseline, permanent release record and `release/book-05-rc1` pointer.
 
-Book 06 Product Charter v0.3, Product Baseline v0.1, Chapter Map B06-TOC-V0.1 and Waves 1–5 are accepted. The current Wave 6 candidate drafts Part VI as Complete Draft 1. Whole-book Complete Draft 1 has not yet been achieved.
+Book 06 Product Charter v0.3, Product Baseline v0.1, Chapter Map B06-TOC-V0.1 and Waves 1–6 are accepted. The current Wave 7 candidate drafts Part VII as Complete Draft 1 and completes all 34 planned chapter files on owner merge. Whole-book Complete Draft 1 remains a separate review and owner gate.
 
 ## Planned Book Positioning
 
@@ -89,35 +89,60 @@ Wave 2 CH07–CH11 — The Daily Operating Model
 Wave 3 CH12–CH16 — Customer and Service Growth
 Wave 4 CH17–CH21 — Professional Work Products
 Wave 5 CH22–CH25 — Cases, Memory and Business Assets
+Wave 6 CH26–CH29 — MarkOrbit Gateways and Continuity
 ```
 
-Current Wave 6 manuscript candidate:
+Current Wave 7 manuscript candidate:
 
 ```text
-CH26 — MarkReg Launch, Continuation and Return
-CH27 — MGSN Capability Need and Provider Boundaries
-CH28 — Review, Communication, Opportunity, Task and Execution Handoffs
-CH29 — Local and Private Continuity, Failure and Unknown Outcomes
+CH30 — MVP 0: Customer Opportunity to Governed Service
+CH31 — Evaluation, Conformance and Zero-Tolerance Conditions
+CH32 — Commercial Plans, Entitlements and Sustainable Economics
+CH33 — Product Evolution Without Constitutional Drift
 ```
 
-Wave 6 merge accepts CH26–CH29 as Complete Draft 1 and authorizes Wave 7 CH30–CH33.
+Wave 7 merge accepts CH30–CH33 as Complete Draft 1 and results in 34 of 34 planned manuscript files drafted.
 
-MarkOrbit gateway and continuity chain:
+It then authorizes a separate whole-book Complete Draft 1 review.
+
+MVP and validation chain:
 
 ```text
-Lite Candidate / Artifact / Qualified Need
-→ purpose-specific Handoff Envelope
-→ destination revalidation
-→ accepted / more information / rejected / blocked / failed / unknown
-→ formal reference or destination result
-→ Return Envelope Presentation
-→ Today Attention Item / Continuation State
-→ safe next action from the last trustworthy state
+authorized customer/trademark context
+→ explainable Service-Value Candidate
+→ trustworthy work product
+→ confirmed customer action
+→ typed response and qualification
+→ governed Handoff and Return
+→ scoped capability accumulation
+→ Product and commercial evidence
+→ conformance and zero-tolerance review
+```
+
+Commercial hierarchy:
+
+```text
+Product identity
+→ Product Edition
+→ Commercial Plan
+→ Entitlement Window
+→ Fulfillment Observation
+```
+
+RMB 99, recurring/daily content, Prospect Candidate quantity, Asset limits, Handoff support levels and quotas remain commercial experiments rather than Product constitution.
+
+Evolution hierarchy:
+
+```text
+Product Constitution
+→ Product Baseline
+→ publication and reader projection
+→ Product Increment
+→ implementation specification / ADR
+→ commercial plan and experiment
 ```
 
 Lite does not absorb MarkReg Product Sessions, Formal Intake or Matters; MGSN Trust, Routing or provider appointment; Review approval; Communication send state; formal Opportunity; active Task/Workflow; or Execution and protected-action authority.
-
-RMB 99, recurring/daily content, Prospect Candidate quantity, Asset limits, Handoff support levels and quotas remain commercial experiments rather than Product constitution.
 
 ### Book 07 — Mark Global Service Network
 
@@ -142,14 +167,18 @@ Books 01–04 Portfolio Baseline
 → Book 06 Product Charter v0.3 accepted
 → Book 06 Product Baseline v0.1 accepted
 → Book 06 Chapter Map v0.1 accepted
-→ Waves 1–5 accepted
-→ Wave 6 CH26–CH29 owner merge
-→ Wave 7 CH30–CH33
+→ Waves 1–6 accepted
+→ Wave 7 CH30–CH33 owner merge
+→ Whole-Book Complete Draft 1 Review
 ```
 
-Ready for Book 06 Wave 7 drafting after Wave 6 owner merge: **YES**
+All 34 Book 06 chapter files drafted after Wave 7 owner merge: **YES**
 
-Whole-book Complete Draft 1 achieved: **NO**
+Whole-book Complete Draft 1 accepted by Wave 7 merge: **NO**
+
+Ready for whole-book Complete Draft 1 review after Wave 7 owner merge: **YES**
+
+Ready for Release Candidate: **NO**
 
 Ready for unrestricted implementation: **NO**
 
