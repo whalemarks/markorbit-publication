@@ -1,14 +1,17 @@
 # B06-CH-19 — Render, Edit and Work-Product Readiness
 
-## Chapter status
+**Status:** Complete Draft 1  
+**Chapter Map:** B06-TOC-V0.1 — Owner Accepted  
+**Part:** Part IV — Professional Work Products  
+**Primary controls:** ML-W07, ML-W08, ML-W10, ML-SCN-14–17
 
-```text
-Book: Book 06 — MarkOrbit Lite
-Chapter: B06-CH-19
-Part: IV — Professional Work Products
-Status: Complete Draft 1 — Owner Accepted on Wave 4 Merge
-Primary controls: ML-W07, ML-W08, ML-W10, ML-SCN-14–17
-```
+## Chapter Purpose
+
+This chapter explains how an exact Artifact Version becomes a usable representation through Render and Edit, and how a purpose-specific Readiness Result controls what may happen next.
+
+The central proposition is:
+
+> A polished representation is not automatically accurate, approved or ready for consequential use.
 
 ## 19.1 A representation is not the professional result
 
@@ -402,7 +405,7 @@ Expiry/revalidation known?                   YES / NO
 
 The result should name the next permitted action, not merely say “done.”
 
-## 19.16 Chapter conclusion
+## Chapter Conclusion
 
 Render and Edit make an Artifact usable in a medium. Readiness determines whether the exact version and representation may proceed to a defined next purpose.
 
