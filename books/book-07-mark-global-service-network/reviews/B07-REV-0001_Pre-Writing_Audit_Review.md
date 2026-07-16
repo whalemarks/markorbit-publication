@@ -3,7 +3,7 @@
 ## Status
 
 ```text
-Draft Review — Ready for Owner Decision
+Draft Review — Ready for Owner Acceptance on Merge
 ```
 
 ## Review Scope
@@ -12,129 +12,215 @@ Reviewed:
 
 - MarkOrbit Orbital Architecture Canon vNext;
 - Books 01–04 Portfolio Baseline;
-- Book 04 MGSN Gateway, network, evidence, Routing, Trust, ecosystem-learning and cross-Orbit governance chapters;
-- Book 05 provider discovery, selection, appointment, instruction, acceptance and execution boundaries;
-- Book 06 MGSN Capability Need and Handoff boundaries;
+- Book 04 MGSN Gateway, network, Capability Evidence, Routing, Trust, ecosystem-learning and cross-Orbit governance;
+- Book 05 provider discovery, selection, appointment, instruction, acceptance and Execution boundaries;
+- Book 06 MGSN Capability Need, Handoff and continuity boundaries;
 - historical provider, pricing, assignment, rating and supply-center concepts;
-- owner clarification that MGSN resources belong to the platform and that procurement, funds and interfaces are strategic control points;
-- owner clarification that all demand-side and provider-side participants connect to MGSN, not to one another as an independent network;
-- owner clarification that `private` means the participant's own Workplace or Lite operating space.
+- owner direction on platform ownership, procurement, funds and interface control;
+- owner direction that demand-side and provider-side participants connect to MGSN rather than to one another as a network;
+- owner direction that `private` means each participant's own Workplace, Lite or provider-side space;
+- owner direction permitting external self-managed routes;
+- owner direction that MGSN automatic matching is the default when no suitable external route exists, with final user confirmation retained.
 
 ## Review Decision
 
 ```text
 Architecture authority reviewed: PASS
 Books 01–06 boundary reviewed: PASS
-Owner platform-resource clarification incorporated: PASS
-Owner hub-topology clarification incorporated: PASS
+Platform-resource direction incorporated: PASS
+Hub topology incorporated: PASS
 Private-space boundary incorporated: PASS
+External self-managed route incorporated: PASS
+Default platform matching incorporated: PASS
+User final confirmation incorporated: PASS
 Platform-owned network interpretation: PASS
 Product-management direction: PASS
 Experience-design direction: PASS
 Procurement and funds-control direction: PASS AS HYPOTHESIS FRAMEWORK
 Historical input classified: PASS
-Canonical ownership conflicts: 0 confirmed / several open decisions
+Canonical ownership conflicts: 0 confirmed / open Charter decisions remain
 Blocking findings: 0
 Major findings: 0
 Upstream Change Proposal required: NO at pre-writing stage
-Ready for Network and Product Charter Candidate: YES, after owner acceptance of this audit
+Ready for Network and Product Charter Candidate: YES, after owner merge
 ```
 
 ## Accepted Starting Interpretation Candidate
 
 ```text
 MGSN is a platform-owned and platform-governed
-global professional service network hub.
+professional service network hub.
 
 Demand-side Workplace / Lite participants
 connect to MGSN.
 
-Provider-side Workplaces or interfaces
+Provider Workplaces or provider interfaces
 connect to MGSN.
 
-MGSN does not support an independent
-peer-to-peer network among participants.
-```
+MGSN does not create an independent
+peer-to-peer participant network.
 
-MGSN gives participating users access to global capability through controlled supply, procurement, routing, funds, fulfillment and network evolution.
+MGSN gives users global capability through
+platform supply, procurement, matching,
+funds, fulfillment and network evolution.
+```
 
 ## Meaning of Private Space
 
-`Private space` means the participant's own Workplace or Lite operating boundary.
-
-For demand-side users, it may contain:
+Demand-side private space may contain:
 
 - customers and customer contacts;
-- leads and opportunities;
+- leads and Opportunities;
 - internal relationships;
-- internal pricing and sales strategy;
-- documents, Knowledge and memory;
+- pricing and sales strategy;
+- Documents, Knowledge and memory;
 - preferences and approvals;
-- MGSN requests and returned results.
+- service history;
+- MGSN requests and returned results;
+- external-route declarations and uploaded evidence.
 
-For providers, it may contain:
+Provider private space may contain:
 
-- internal staff and workload;
+- people and workload;
 - methods and private Knowledge;
-- internal operating records;
+- internal operations;
 - private professional work;
-- evidence not approved for network display.
+- Evidence not approved for network display.
 
-Private space does not mean a user-owned provider network, unrestricted provider contacts, provider export, routing control or ownership of MGSN supply and network evidence.
+Private space does not mean a user-owned MGSN provider network, unrestricted provider export or ownership of platform Routing and Trust data.
 
 ## Constitutional Balance
 
-The correct balance is:
-
 ```text
-Platform owns and governs MGSN network resources,
+Platform owns and governs MGSN resources,
 participant connections, provider supply,
-procurement, routing interfaces, funds,
-fulfillment and platform network evidence.
+procurement, matching, routing interfaces,
+funds, fulfillment and network evidence.
 
-Demand-side users retain their own customers,
-internal business assets and private-space decisions.
+Demand-side users retain their customers,
+internal business assets and route decisions.
 
-Providers retain independent professional identity,
+Providers retain professional identity,
 qualification, private operations and responsibility.
 
-Both sides exchange only controlled projections
-through MGSN.
+Both sides exchange controlled projections
+through MGSN-managed interfaces.
 ```
+
+## Accepted Route Planning Candidate
+
+### R1 — External Self-Managed Route
+
+The user may continue using an external provider without importing it into Lite, Workplace or MGSN.
+
+```text
+User chooses external provider
+→ user manages negotiation, payment and follow-up
+→ platform visibility remains limited
+→ user manually uploads Documents and status
+→ Product resumes from source-qualified evidence
+```
+
+Consequences:
+
+- MGSN procurement does not apply;
+- MGSN funds protection does not apply;
+- MGSN replacement and fulfillment guarantees do not apply;
+- status may contain a process black hole until the user supplies evidence;
+- user-reported state must not be shown as provider-confirmed or official truth.
+
+### R2 — MGSN Recommended Managed Route
+
+When the user does not have a suitable external route, MGSN performs the default match.
+
+```text
+Service Need
+→ platform eligibility and supply evaluation
+→ Recommended Best Route
+→ user confirms, rejects or adjusts
+→ platform allocation
+→ Provider Acceptance
+→ managed fulfillment and Return
+```
+
+```text
+Automatic matching
+≠ automatic appointment
+
+Default recommendation
+≠ final instruction
+
+User confirmation
+≠ Provider Acceptance
+```
+
+### R3 — MGSN Managed Preferred-Provider Route
+
+The user may prefer a known provider.
+
+The platform may use that preference only after checking:
+
+- admission;
+- capability;
+- qualification;
+- conflict;
+- availability;
+- procurement terms;
+- service package;
+- risk;
+- suspension status.
+
+The same provider outside MGSN and inside MGSN represents two different routes with different responsibilities and guarantees.
 
 ## Product Findings
 
-### Finding P-01 — Global capability is platform-enabled
+### P-01 — Global capability is platform-enabled
 
-Users are not assumed to possess comprehensive global service capacity independently.
+Users are not assumed to possess comprehensive global capability independently.
 
-MGSN extends their operating capability.
+MGSN extends their operating capacity.
 
-### Finding P-02 — MGSN is a hub, not a participant mesh
+### P-02 — MGSN is a hub, not a participant mesh
 
-Demand-side and provider-side participants connect to MGSN.
+MGSN-managed relationships, instructions, funds, milestones and Returns remain platform-centered.
 
-The Product must not create an independent user-to-provider or Workplace-to-Workplace network graph.
+### P-03 — External freedom remains possible
 
-### Finding P-03 — Private space belongs to each participant
+The platform does not need to force a user to disclose or import every existing provider.
 
-The user's Workplace or Lite space remains private and may contain customers, relationships and business context.
+Freedom to operate externally must be paired with explicit responsibility and limited platform visibility.
 
-The provider's private operating space also remains distinct.
+### P-04 — Managed route should be the stronger default
 
-MGSN coordinates permitted exchange without merging the spaces.
+The Product should normally emphasize MGSN-managed fulfillment because it offers:
 
-### Finding P-04 — Procurement is a core Product function
+- platform procurement;
+- expected price advantage;
+- standardized scope;
+- funds control;
+- milestone evidence;
+- replacement and escalation;
+- native status continuity.
 
-Unified negotiation, service packaging and demand aggregation are central to attracting strong providers and demand-side users.
+### P-05 — Procurement is a core Product function
 
-### Finding P-05 — Funds control is a risk function
+Aggregated demand, service packaging and unified negotiation are central platform capabilities, not back-office details.
 
-Funds custody, staged release, official-fee separation, settlement and reconciliation are not merely monetization features.
+### P-06 — Funds control is a risk function
 
-They protect against non-performance, misuse, incomplete delivery and cross-border financial risk.
+Funds custody, staged release, official-fee separation, settlement and reconciliation protect against non-performance, incomplete delivery and cross-border financial risk.
 
-### Finding P-06 — Closed operation is strategically justified
+### P-07 — Automatic matching is valid decision preparation
+
+The platform may optimize and preselect the best route.
+
+Ordinary matching still requires the user's final confirmation unless a future accepted service mandate establishes standing allocation authority.
+
+### P-08 — User preference is bounded
+
+A preferred provider does not override platform admission, conflict, availability, procurement, service or risk controls.
+
+### P-09 — Closed operation is strategically justified
 
 A relatively closed hub protects:
 
@@ -145,115 +231,123 @@ A relatively closed hub protects:
 - interface stability;
 - funds control;
 - traceability;
-- replacement and suspension mechanisms;
-- prevention of unauthorized lateral relationship formation.
+- replacement and suspension;
+- prevention of unauthorized bypass.
 
-### Finding P-07 — User autonomy is bounded
+### P-10 — Provider attractiveness remains necessary
 
-The user needs meaningful control over service need, customer context, commercial acceptance and required approval.
-
-The user does not require ownership of provider supply, direct network rights, provider export or platform bypass.
-
-### Finding P-08 — Provider attractiveness must be designed
-
-Platform control is sustainable only if providers receive qualified demand, repeat volume, reliable payment, standardized instructions and fair dispute procedures.
+Provider participation requires qualified demand, repeat volume, reliable payment, standardized instructions and fair dispute procedures.
 
 ## Experience Findings
 
-### Finding X-01 — Service completion before provider browsing
+### X-01 — Route choice should be explicit
 
-The main Product experience should begin with service need and global capability coverage.
+The user should understand three choices:
 
-### Finding X-02 — Hub visibility must be explicit
+```text
+Recommended Platform Route
+Preferred Platform Provider
+Use My Own External Route
+```
 
-The interface should make clear that the participant is interacting with MGSN, not entering a public or peer-to-peer provider network.
+### X-02 — Consequences must be visible before confirmation
 
-### Finding X-03 — Controlled projection replaces direct sharing
+The route selector should explain:
 
-Customer and provider private-space information should enter MGSN only through purpose-limited projections.
+- who selects and manages the provider;
+- price basis;
+- funds protection;
+- fulfillment monitoring;
+- replacement support;
+- evidence return;
+- manual obligations;
+- platform guarantee.
 
-### Finding X-04 — Controlled disclosure is a deliberate design mechanism
+### X-03 — External route needs a continuity bridge
 
-Provider identity, cost, contact and case information may be disclosed progressively inside an MGSN service context.
+The Product should request expected documents, status and evidence without pretending it controls the external provider.
 
-### Finding X-05 — Communication does not create lateral network ownership
+### X-04 — Recommended route should be visually primary
 
-Named professional communication may be enabled where required, but the underlying network relationship remains participant-to-MGSN.
+The managed route may be emphasized because it offers the strongest continuity and risk control.
 
-### Finding X-06 — Funds and milestones must be visible
+The external route remains available without being presented as equivalent protection.
+
+### X-05 — Platform matching must be explainable
+
+The user should receive enough explanation about fit, price, timing, capability, availability and risk to make a meaningful decision, while confidential provider cost and internal algorithms remain protected.
+
+### X-06 — Funds and milestones must be visible
 
 The user should understand:
 
-- what has been paid;
-- what is held;
-- what may be released;
-- which evidence is pending;
-- whether a dispute or replacement is active.
+- amount paid;
+- amount held;
+- release conditions;
+- evidence pending;
+- dispute status;
+- replacement status.
 
-### Finding X-07 — Platform control must still be explainable
+### X-07 — Private spaces remain visually distinct
 
-Closed operation must not become unexplained allocation or arbitrary withholding.
+The design should communicate independent participant spaces connected through a central MGSN hub.
 
-Appropriate users need visibility into service scope, qualifications, commercial terms, platform responsibility and dispute mechanisms.
-
-### Finding X-08 — Visual identity should express a governed hub
-
-MGSN should visually emphasize independent private spaces connected to a central capability hub, protected funds, verified provider nodes and fulfillment continuity.
-
-It should not use a mesh-network, auction or public seller-directory metaphor.
+It should avoid public-marketplace or peer-to-peer network metaphors.
 
 ## Architecture Reconciliation
 
-The platform-owned hub model can conform with the Orbit architecture when these distinctions remain explicit:
+The planning model conforms with the Orbit architecture when these distinctions remain explicit:
 
 ```text
 independent Orbit
-≠ direct Orbit-to-Orbit network connection
+≠ direct Orbit-to-Orbit network graph
 
-MGSN connects Workplaces
-= Workplaces connect to the MGSN hub
+external self-managed route
+≠ MGSN-managed route
 
-private Workplace or Lite space
-≠ user-owned MGSN provider network
+external freedom
+≠ implied platform guarantee
+
+platform matching
+≠ autonomous provider appointment
+
+user confirmation
+≠ Provider Acceptance
 
 platform-owned network resource
-≠ platform ownership of every user customer
-
-platform-controlled provider relationship
-≠ elimination of provider professional independence
+≠ platform ownership of every customer
 
 platform procurement
-≠ hidden professional conflict
+≠ lowest-price-only allocation
 
 funds control
-≠ unregulated custody assumption
+≠ unreviewed legal custody assumption
 
 closed interface
-≠ unexplained or unauditable decision
-
-user autonomy
-≠ provider extraction, lateral networking or bypass
+≠ unexplained decision
 ```
 
-No upstream Change Proposal is required at this stage because the existing Canon permits a shared network responsibility and controlled capability Routing.
+No upstream Change Proposal is required at this stage.
 
-The Charter should clarify the phrase `MGSN connects independent Workplaces` as hub-mediated connectivity rather than direct peer-to-peer connectivity.
+A future Charter requires cross-book review if it proposes that MGSN universally owns user customers, formal Matters, professional decisions, Tasks, Workflows, Execution or official outcomes.
 
-A future Charter must trigger cross-book review if it proposes that the platform universally owns user customers, formal Matters, professional decisions or official outcomes.
+## Remaining Charter Decisions
 
-## Remaining Owner Decisions
+The Charter cannot be accepted until at least the following are constrained:
 
-The review cannot accept a Charter until the Owner constrains at least:
-
-- primary MGSN legal and commercial role;
-- first service and user segment;
-- provider selection and allocation model;
-- funds custody and release model;
-- pricing authority and resale model;
-- provider identity and communication disclosure stages;
-- non-circumvention and lateral relationship controls;
+- platform legal and commercial role;
+- Provider object and collaboration ownership;
+- standing allocation mandate;
+- number of user-visible options;
+- provider identity disclosure stages;
+- external-route projection and evidence minimum;
+- pricing and resale model;
+- funds holder and release model;
+- initial service scope and user segment;
 - initial provider cohort;
 - operator-assisted versus self-service MVP.
+
+See `B07-PLN-0006`.
 
 ## Gate Effect
 
@@ -261,11 +355,14 @@ Owner merge may accept:
 
 ```text
 Book 07 Pre-Writing Audit v0.1
-Platform-owned hub-network interpretation
+Platform-owned MGSN hub interpretation
 Private-space boundary
+Three-route planning model
+Default platform matching direction
+User final confirmation direction
 Product, Platform and Experience Direction
 Authority, Ownership and Control Matrix
-Commercial, Procurement and Funds-Control hypothesis framework
+Commercial, Procurement and Funds-Control hypotheses
 Historical Input Assessment
 Open Question Register
 B07-REV-0001
@@ -289,6 +386,13 @@ API contracts
 payment implementation
 production deployment
 peer-to-peer participant networking
-automatic provider appointment
+autonomous provider appointment
 external protected action
+```
+
+## Final Review Decision
+
+```text
+Decision: PASS
+Next gate: Network and Product Charter Candidate
 ```
