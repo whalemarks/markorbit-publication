@@ -1,6 +1,11 @@
 # B06-CH-32 — Commercial Plans, Entitlements and Sustainable Economics
 
-## Chapter Role
+**Status:** Complete Draft 1  
+**Chapter Map:** B06-TOC-V0.1 — Owner Accepted  
+**Part:** Part VII — Conformance, Economics and Evolution  
+**Primary controls:** ML-E05, ML-E06
+
+## Chapter Purpose
 
 This chapter explains how MarkOrbit Lite may be packaged, priced and operated sustainably without allowing one commercial plan to redefine the Product.
 
@@ -16,8 +21,6 @@ ML-E06 — Entitlement / Fulfillment Observation
 ```
 
 The RMB 99 monthly plan, recurring content, Prospect Candidate supply and production quotas remain hypotheses to be tested.
-
----
 
 ## 1. Product identity must remain above the plan
 
@@ -663,7 +666,7 @@ Commercial plan changes should require:
 
 A plan version may change monthly while the Product Charter remains stable.
 
-## 22. Chapter conclusion
+## Chapter Conclusion
 
 Commercial plans translate Lite's capabilities into understandable, bounded promises.
 
