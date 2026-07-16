@@ -31,6 +31,12 @@ B07-PLN-0009 — Network Topology and Private-Space Boundary
 B07-REV-0001 — Pre-Writing Audit Review
 ```
 
+### Validation
+
+```text
+B07-VAL-0001 — Pre-Writing Audit Scope Check
+```
+
 ### Governance and State
 
 ```text
@@ -42,6 +48,7 @@ CHANGELOG.md
 book-07-state.yaml
 planning/README.md
 reviews/README.md
+validation/B07-VAL-0001_Pre-Writing_Audit_Scope_Check.md
 ```
 
 ## Current Product Interpretation
@@ -99,6 +106,7 @@ Book 07 Product Charter: 0 accepted
 Book 07 controlled Product Baseline: 0 accepted
 Books 01–06 manuscript changes: prohibited in this audit
 Implementation files: prohibited in this audit
+B07-VAL-0001 result: PASS
 ```
 
 ## Next Authorized Record Family
