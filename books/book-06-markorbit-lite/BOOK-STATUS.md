@@ -3,13 +3,13 @@
 ## Current status
 
 ```text
-WHOLE-BOOK COMPLETE DRAFT 1
-— OWNER ACCEPTED ON B06-REV-0013 MERGE
+RC HARDENING A — EDITORIAL AND STRUCTURAL NORMALIZATION
+— OWNER ACCEPTED ON B06-REV-0014 MERGE
 ```
 
-Product Charter v0.3, Product Baseline v0.1, Chapter Map `B06-TOC-V0.1` and Waves 1–7 are accepted. All 34 planned chapters are present and the whole-book review finds no blocking, major or upstream conflict.
+Whole-Book Complete Draft 1 remains accepted. Product Charter v0.3, Product Baseline v0.1, Chapter Map `B06-TOC-V0.1`, Waves 1–7 and all 34 planned chapters remain unchanged in controlled meaning.
 
-Release Candidate hardening remains required.
+Release Candidate has not yet been accepted.
 
 ## Product identity
 
@@ -51,30 +51,30 @@ Wave 4 — CH17–CH21: COMPLETE DRAFT 1 — ACCEPTED
 Wave 5 — CH22–CH25: COMPLETE DRAFT 1 — ACCEPTED
 Wave 6 — CH26–CH29: COMPLETE DRAFT 1 — ACCEPTED
 Wave 7 — CH30–CH33: COMPLETE DRAFT 1 — ACCEPTED
-Whole book — CH00–CH33: COMPLETE DRAFT 1 — OWNER ACCEPTED ON MERGE
+Whole book — CH00–CH33: COMPLETE DRAFT 1 — ACCEPTED
 ```
 
-## Whole-book review acceptance set
+## Current acceptance set
 
 ```text
 B06-REV-0013 — Whole-Book Complete Draft 1 Review
 B06-PLN-0008 — Release Candidate Hardening Plan
+B06-REV-0014 — RC Hardening A Editorial and Structural Normalization Review
 ```
 
-## Whole-book review result
+## Hardening A result
 
 ```text
-Expected chapter files: 34
-Present chapter files: 34
-Missing chapter IDs: 0
-Duplicate chapter IDs: 0
-Cross-Part continuity: PASS
-Product Charter coverage: PASS
-Product Baseline coverage: PASS
-Controlled-term meaning integrity: PASS
-Cross-Book boundary integrity: PASS
-Commercial/Product separation: PASS
-Implementation boundary: PASS
+Chapter files audited: 34
+Chapter files modified: 23
+Normalized chapter headers: 34 / 34
+Internal wave-merge metadata remaining: 0
+Internal drafting-wave section in CH01: removed
+CH33 internal publication roadmap: reader-facing evolution sequence applied
+Chapter IDs changed: 0
+Chapter titles changed: 0
+Chapter order changed: 0
+Controlled meaning changes: 0
 Blocking findings: 0
 Major findings: 0
 Upstream findings: 0
@@ -121,22 +121,20 @@ Product Constitution
 ## Release Candidate hardening requirements
 
 ```text
-RC-H01 — normalize chapter metadata
-RC-H02 — reader-facing governance cleanup
-RC-H03 — controlled terms and distinction apparatus
-RC-H04 — repetition and cross-reference hardening
-RC-H05 — figures, appendices and index
-RC-H06 — source, citation and rendered validation
+RC-H01 — chapter metadata normalization: CLOSED ON HARDENING A MERGE
+RC-H02 — reader-facing governance cleanup: CLOSED ON HARDENING A MERGE
+RC-H03 — controlled terms and distinction apparatus: OPEN — HARDENING B
+RC-H04 — repetition and cross-reference hardening: CLOSED ON HARDENING A MERGE
+RC-H05 — figures, appendices and index: OPEN — HARDENING B
+RC-H06 — source, citation and rendered validation: OPEN — HARDENING C
 ```
-
-These are RC requirements, not Complete Draft 1 blockers.
 
 ## Next gate
 
 ```text
-Whole-Book Complete Draft 1 owner merge
-→ RC Hardening A — Editorial and Structural Normalization
-→ RC Hardening B — Reader Apparatus
+Whole-Book Complete Draft 1 — ACCEPTED
+→ RC Hardening A — OWNER ACCEPTED ON MERGE
+→ RC Hardening B — Reader Apparatus — AUTHORIZED NEXT
 → RC Hardening C — Source, Render and RC Review
 → owner Release Candidate decision
 ```
@@ -144,8 +142,9 @@ Whole-Book Complete Draft 1 owner merge
 ## Authorization
 
 ```text
-Whole-Book Complete Draft 1 acceptance on merge: AUTHORIZED
-RC Hardening A after merge: AUTHORIZED
+Whole-Book Complete Draft 1: ACCEPTED
+RC Hardening A acceptance on merge: AUTHORIZED
+RC Hardening B after merge: AUTHORIZED
 Release Candidate: NOT AUTHORIZED
 Implementation: NOT AUTHORIZED
 Production: NOT AUTHORIZED
