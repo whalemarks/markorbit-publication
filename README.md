@@ -6,7 +6,7 @@ It is not a software Product repository.
 
 ## Repository Layout
 
-- `architecture/` — repository-level architecture canon, decision candidates, impact assessments and reviews.
+- `architecture/` — repository-level architecture canon, amendment candidates, impact assessments and reviews.
 - `books/` — canonical book directories.
 - `shared/` — shared editorial assets, glossary material, templates and diagrams.
 - `reviews/` — repository and portfolio review records.
@@ -15,7 +15,7 @@ It is not a software Product repository.
 
 ## Architecture Authority
 
-The current repository-level authority is [MarkOrbit Orbital Professional Operating Architecture vNext](architecture/MARKORBIT-ORBITAL-ARCHITECTURE-CANON-vNEXT.md).
+The maintained repository-level authority is [MarkOrbit Orbital Professional Operating Architecture vNext](architecture/MARKORBIT-ORBITAL-ARCHITECTURE-CANON-vNEXT.md).
 
 ```text
 Each in its own orbit.
@@ -23,29 +23,28 @@ Connected by capability.
 Evolving together.
 ```
 
-Every professional organization retains its own customers, data, Knowledge, rules and internal operating autonomy. Shared MarkOrbit Products and network responsibilities provide governed capabilities, controlled interfaces and safe continuity without transferring formal business authority by implication.
+## Workplace Sovereignty Amendment Gate
 
-## Pending Architecture Decision
-
-The repository now contains:
+The accepted audit and ADR direction are now followed by:
 
 ```text
-MO-ADR-WSP-001
-Workplace Sovereignty, Product Installation,
-Projection and Managed Network Boundaries
+MO-ARCH-AMEND-001
+Workplace Sovereignty Canon Amendment Candidate
 ```
 
-The decision candidate proposes that Workplace be upgraded from a general operating environment or platform shell to the Organization-scoped business-sovereignty, accountability, Product-operation and projection boundary.
+The amendment establishes:
 
-It also distinguishes:
+- Workplace as the Organization-scoped business-sovereignty, accountability, Product-operation and projection boundary;
+- Core semantic authority separate from concrete-record business ownership;
+- Owning Service formal-state authority separate from Workplace business sovereignty;
+- Product Installation as the Workplace-scoped Product relationship;
+- MarkReg self-operated business as an isolated Workplace;
+- Lite as a lightweight Workplace Product with optional client projections;
+- Sites as a public-brand/content projection Product;
+- Workplace MGSN Connection separate from the platform-owned MGSN Network;
+- Originating Workplace, Execution Provider Workplace, Handoff and Return boundaries.
 
-- Core semantic authority from concrete-record business ownership;
-- Workplace business sovereignty from Owning Service formal state authority;
-- Lite operating Product from its client-facing projection;
-- Workplace MGSN connection from the platform-owned MGSN network;
-- Originating Workplace from Execution Provider Workplace.
-
-The current Canon remains authoritative until the Owner accepts the ADR and a separate Canon Amendment Candidate is merged.
+Book 02 remains frozen. The current assessment finds that no immediate Book 02 semantic Change Proposal is required.
 
 ## Book Registry
 
@@ -54,65 +53,36 @@ The current Canon remains authoritative until the Owner accepts the ADR and a se
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | Release Candidate 1 |
 | Book 02 | MarkOrbit Core Specification | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | Release Candidate 1 |
-| Book 04 | MarkOrbit Workplace and Product Architecture | Release Candidate 1 — Owner Accepted / Next-Version Correction Required if ADR accepted |
+| Book 04 | MarkOrbit Workplace and Product Architecture | Release Candidate 1 — Owner Accepted / Next-Version Correction Plan Ready |
 | Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | Release Candidate 1 — Approved and Frozen |
 | Book 06 | MarkOrbit Lite | Release Candidate 1 — Owner Accepted |
-| Book 07 | Mark Global Service Network | Charter Candidate retained / progression paused pending `MO-ADR-WSP-001` |
+| Book 07 | Mark Global Service Network | Charter Reconciliation Ready / Product Baseline Still Paused |
 
-The Books 01–04 Portfolio Baseline is governed by `MO-PUB-REV-0001` and `MO-PUB-BASELINE-0001`.
-
-Book 05 RC1 is frozen through its accepted release record and permanent release pointer.
-
-Book 06 RC1 was accepted through owner merge of PR #76 on 2026-07-16. Final branded production, implementation, deployment and public/commercial distribution remain separate gates.
-
-Book 07 Pre-Writing Audit v0.1 was accepted through owner merge of PR #78 on 2026-07-16.
-
-## Responsibility Chain
+## Reconciled Book 07 Direction
 
 ```text
-Book 01 — Industry vision and Operating System principles
-Book 02 — Shared Core semantics and contracts
-Book 03 — Governed Execution
-Book 04 — Workplace and Product Architecture
-Book 05 — MarkReg
-Book 06 — MarkOrbit Lite
-Book 07 — Mark Global Service Network
+Originating Workplace
+→ authorized demand projection
+→ platform-owned MGSN Network
+→ controlled provider allocation / instruction
+→ Execution Provider Workplace
+→ governed Return
+→ Originating Workplace
 ```
 
-## Preserved Book 07 Direction
-
-```text
-Platform-owned managed global service network
-+ central MGSN hub
-+ participant private spaces
-+ R1 External Self-Managed Route
-+ R2 Recommended Managed Route
-+ R3 Managed Preferred-Provider Route
-+ multi-provider supply portfolios
-+ recommended route and bounded user choice
-+ contextual demand and supply roles
-+ platform procurement, funds and fulfillment
-+ provider Trust and network evolution
-```
-
-Initial MVP direction remains operator-assisted international trademark service for Chinese agencies and independent professionals using existing platform foreign associates and selected verified providers.
+The existing platform-owned hub, R1–R3 routes, multi-provider supply, bounded choice, procurement, funds, fulfillment and operator-assisted MVP directions remain valid.
 
 ## Current Gate
 
 ```text
-Books 01–04 Portfolio Baseline
-→ Book 05 RC1 approved and frozen
-→ Book 06 RC1 owner accepted
-→ Book 07 Pre-Writing Audit accepted
-→ Book 07 Charter Candidate retained
-→ MO-ADR-WSP-001 Owner decision
-→ Canon Amendment Candidate
-→ Book 07 Charter Reconciliation
-→ Re-review
-→ only then consider Product Baseline Candidate
+Workplace Sovereignty Audit accepted
+→ MO-ARCH-AMEND-001 Owner acceptance
+→ Renewed Book 07 Charter Review
+→ Reconciled Charter acceptance
+→ only then Controlled Product Baseline Candidate
 ```
 
-No Book 07 Controlled Product Baseline, Chapter Map, manuscript, schema, API, payment implementation or production deployment is accepted or currently authorized.
+No Book 07 Product Baseline, Chapter Map, manuscript, schema, API, payment implementation, production routing or deployment is accepted or authorized.
 
 ## Authority Boundary
 

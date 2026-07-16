@@ -5,8 +5,8 @@
 ```text
 Book 07 — Mark Global Service Network
 Network and Product Charter v0.1
-Upstream Reconciliation Required
-Progression Paused Pending MO-ADR-WSP-001
+Canon Amendment Reconciliation Ready for Owner Acceptance
+Product Baseline progression remains paused
 ```
 
 ## Accepted Baseline
@@ -24,8 +24,6 @@ The following remain accepted through owner merge of PR #78:
 
 ## Existing Charter Candidate
 
-The repository contains:
-
 ```text
 B07-PLN-0010 — MGSN Network and Product Charter Candidate v0.1
 B07-PLN-0011 — Owner Decision Matrix / OD-01–OD-33
@@ -33,33 +31,44 @@ B07-REV-0002 — Charter Review
 B07-VAL-0002 — Charter Scope and Consistency Check
 ```
 
-These records remain valuable Product inputs, but they are not authorized to advance into a Controlled Product Baseline until reconciled with the Workplace sovereignty architecture correction.
+The Charter remains a valuable Product input but must be interpreted through the accepted Workplace sovereignty decision chain.
 
-## Upstream Architecture Conflict
+## Current Reconciliation Records
 
-`MO-ADR-WSP-001` identifies missing or ambiguous distinctions concerning:
+```text
+MO-ADR-WSP-001 — accepted architecture direction
+MO-ARCH-AMEND-001 — Canon Amendment Candidate
+B07-PLN-0012 — Upstream Reconciliation Notice
+B07-PLN-0013 — Workplace Sovereignty Charter Reconciliation
+MO-ARCH-REV-002 — Canon Amendment Review / PASS
+MO-ARCH-VAL-002 — Scope Check / PASS
+```
 
-- Workplace business sovereignty;
-- Core semantic authority;
-- Owning Service formal state authority;
-- Product Installation;
-- Product Projection;
-- MarkReg self-operated Workplace;
-- Lite operating Product versus client projection;
-- Workplace MGSN connection versus platform-owned MGSN network;
-- Originating Workplace and Execution Provider Workplace;
-- cross-Workplace Handoff and Return.
+## Reconciled Architecture
 
-The previous Charter review conclusion that no upstream change was required is superseded by `MO-ARCH-REV-001` for this issue.
+```text
+Originating Workplace
+owns or controls Customer, Order, Matter
+and originating commercial responsibility
+        ↓ authorized demand projection
+MGSN platform network
+owns or governs provider supply, procurement,
+routing, funds, fulfillment and platform Trust
+        ↓ controlled allocation / instruction
+Execution Provider Workplace
+owns provider-side operation and professional responsibility
+        ↓ governed Return
+Originating Workplace
+resumes customer and Matter continuity
+```
+
+Owning Services retain formal-state authority throughout.
 
 ## Preserved Charter Direction
-
-The following directions remain valid inputs:
 
 ```text
 Platform-owned and platform-governed MGSN network
 Central hub topology
-Participant private business spaces
 R1 External Self-Managed Route
 R2 MGSN Recommended Managed Route
 R3 MGSN Managed Preferred-Provider Route
@@ -70,56 +79,33 @@ Platform procurement, funds and fulfillment governance
 Operator-assisted international trademark MVP
 ```
 
-## Required Reconciliation Model
-
-```text
-Originating Workplace
-owns or controls Customer, Order, Matter
-and originating commercial responsibility
-        ↓ authorized projection
-MGSN
-owns or governs provider supply, procurement,
-routing, funds, fulfillment and platform Trust
-        ↓ controlled instruction
-Execution Provider Workplace
-owns provider-side operation and professional responsibility
-        ↓ governed Return
-Originating Workplace
-resumes business continuity
-```
-
-Owning Services retain formal state authority throughout.
-
 ## Current Review Result
 
 ```text
-Workplace sovereignty conflict identified: PASS
-ADR candidate prepared: PASS
-Books 02–07 impact assessment: PASS
-Book 07 upstream dependency: CONFIRMED
-Existing Charter deletion required: NO
-Charter reconciliation required: YES
-Blocking findings in ADR candidate: 0
-Major findings in ADR candidate: 0
-Owner ADR decision required: YES
+Canon Amendment Candidate: PASS
+Book 02 immediate Change Proposal required: NO
+Book 04 next-version correction plan: READY
+Book 07 Charter reconciliation: READY
+Blocking findings: 0
+Major findings: 0
 ```
 
-## Next Gate
+## Owner Merge Effect
+
+Owner merge accepts the Workplace sovereignty Canon amendment and Book 07 reconciliation direction.
+
+Owner merge authorizes:
 
 ```text
-Owner decision on MO-ADR-WSP-001
-→ Architecture Canon Amendment Candidate
-→ Book 07 Charter Reconciliation Record
-→ Re-review reconciled Charter
+Renewed Book 07 Charter review
+Reconciled Charter acceptance decision
+Book 04 next-version correction preparation
 ```
 
-The Controlled Product Baseline Candidate is no longer the immediate next gate.
-
-## Not Authorized
+Owner merge does not yet authorize:
 
 ```text
-Final or unreconciled Charter acceptance
-Controlled Product Baseline preparation or acceptance
+Controlled Product Baseline
 Chapter Map
 Manuscript drafting
 Database schema
@@ -127,12 +113,14 @@ API contracts
 Payment custody or funds release
 Provider appointment implementation
 Production deployment
-Peer-to-peer participant network
-Autonomous External Protected Action
+External Protected Action
 ```
 
-## Repository Integrity
+## Next Gate
 
-No Book 07 Chapter Map or manuscript should exist at this gate.
-
-Books 01–06 manuscript content remains unchanged.
+```text
+Owner acceptance of MO-ARCH-AMEND-001
+→ Renewed Book 07 Charter Review
+→ Reconciled Charter acceptance
+→ Controlled Product Baseline Candidate
+```
