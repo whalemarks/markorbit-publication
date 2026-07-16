@@ -1,86 +1,69 @@
 book_id: B07
 title: Mark Global Service Network
-status: controlled_product_baseline_v0_1_ready_for_owner_acceptance
-current_gate: controlled_product_baseline_owner_acceptance
-next_gate: chapter_map_candidate
+status: chapter_map_v0_1_ready_for_owner_acceptance
+current_gate: chapter_map_owner_acceptance
+next_gate: writing_wave_1
 
 active_architecture:
   canon: MARKORBIT-ORBITAL-ARCHITECTURE-CANON-vNEXT.1
   decision_register: DECISION-REGISTER-vNEXT.1
-  workplace_sovereignty_adr: MO-ADR-WSP-001
 
-accepted_charter:
-  pre_writing_audit_v0_1: true
+accepted_baselines:
   reconciled_charter_v0_1: true
-  charter: B07-PLN-0010
-  decision_matrix: B07-PLN-0011
-  controlling_reconciliation: B07-PLN-0013
-  review: B07-REV-0003
-  validation: B07-VAL-0003
-
-controlled_product_baseline_candidate:
+  controlled_product_baseline_v0_1: true
   specifications:
     - B07-SPEC-0001
     - B07-SPEC-0002
     - B07-SPEC-0003
     - B07-SPEC-0004
-  review: B07-REV-0004
-  validation: B07-VAL-0004
+
+chapter_map_candidate:
+  record: B07-TOC-V0.1
+  chapter_start: B07-CH-00
+  chapter_end: B07-CH-33
+  chapter_count: 34
+  parts: 7
+  coverage_matrix: B07-PLN-0014
+  writing_wave_plan: B07-PLN-0015
+  review: B07-REV-0005
+  validation: B07-VAL-0005
   ready_for_owner_acceptance: true
-  accepted_on_merge: true
-  chapter_map_authorized_on_merge: true
+  wave_1_authorized_on_merge: true
 
 controlled_coverage:
-  product_local_records:
-    MG-N: 6
-    MG-C: 8
-    MG-P: 8
-    MG-R: 8
-    MG-F: 10
-    MG-T: 8
-    MG-E: 8
-    total: 56
+  product_local_records: 56
   reference_journeys: 8
   conformance_scenarios: 32
   handoff_return_contracts: 10
   mvp_acceptance_criteria: 16
+  unmapped_ids: 0
 
-product_locks:
-  platform_owned_mgsn_network: true
-  workplace_business_sovereignty: true
-  owning_service_formal_state_authority: true
-  central_hub_topology: true
-  peer_to_peer_participant_network: false
-  three_route_model: true
-  multi_provider_supply_portfolios: true
-  contextual_demand_and_supply_roles: true
-  bidirectional_introduction: true
-  user_final_confirmation: true
-  automatic_provider_appointment: false
-  finance_ledger_duplicated: false
-  official_truth_owned_by_mgsn: false
+writing_waves:
+  wave_1: B07-CH-00..B07-CH-06
+  wave_2: B07-CH-07..B07-CH-11
+  wave_3: B07-CH-12..B07-CH-15
+  wave_4: B07-CH-16..B07-CH-20
+  wave_5: B07-CH-21..B07-CH-25
+  wave_6: B07-CH-26..B07-CH-29
+  wave_7: B07-CH-30..B07-CH-33
 
 review:
   decision: pass
   blocking_findings: 0
   major_findings: 0
-  upstream_architecture_findings: 0
-  book_02_change_proposal_required_now: false
-  implementation_authorization_created: false
+  upstream_change_proposal_required: false
 
 not_authorized:
-  chapter_map_acceptance: true
-  manuscript: true
+  later_writing_waves: true
   database_schema: true
   api_contracts: true
   payment_custody: true
   funds_release: true
-  provider_appointment_implementation: true
+  automatic_provider_appointment: true
   production_deployment: true
   external_protected_action: true
 
 integrity:
   manuscript_files_expected: 0
-  chapter_map_expected: false
-  product_baseline_accepted: false
+  chapter_map_expected: true
   implementation_files_allowed: false
