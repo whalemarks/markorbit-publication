@@ -1,6 +1,6 @@
 # B06-CH-12 — Existing Customer Portfolio Opportunities
 
-**Status:** Complete Draft 1 — Owner Accepted on Wave 3 Merge  
+**Status:** Complete Draft 1  
 **Chapter Map:** B06-TOC-V0.1 — Owner Accepted  
 **Part:** Part III — Customer and Service Growth
 
