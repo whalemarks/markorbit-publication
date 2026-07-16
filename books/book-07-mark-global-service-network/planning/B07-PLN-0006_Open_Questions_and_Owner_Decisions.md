@@ -1,240 +1,380 @@
-# B07-PLN-0006 — Open Questions and Owner Decisions
+# B07-PLN-0006 — Owner Decisions and Open Questions
 
 ## Status
 
 ```text
-Open for Owner Review
+Owner Direction Incorporated
+Open for Remaining Charter Decisions
 ```
 
 ## Purpose
 
-The current direction is strong enough to continue. Several starting decisions are now owner-directed; the remaining questions must be decided or constrained before accepting a Network and Product Charter.
+This record separates owner-confirmed pre-writing direction from questions that remain open for the Network and Product Charter Candidate.
 
-## A. Product and Architecture
+Owner confirmation at this stage accepts planning direction only. It does not accept a final Product Charter, controlled baseline, schema, API or implementation.
 
-### OD-01 — MGSN identity
+## A. Owner-Confirmed Pre-Writing Direction
 
-Owner direction incorporated:
-
-```text
-MGSN is a platform-owned and platform-governed
-global professional service network hub.
-```
-
-### OD-02 — User capability proposition
-
-Owner direction incorporated:
+### OD-01 — MGSN ownership
 
 ```text
-Users do not independently own global service capability.
-They obtain and continuously expand global capability through MGSN.
+MGSN resources, provider supply,
+procurement capability, routing interfaces,
+funds controls and network operating data
+are platform-owned or platform-governed resources.
 ```
 
-### OD-03 — Network topology
+Users gain access to global capability through MGSN. Access does not transfer ownership of the underlying supply network.
 
-Owner direction incorporated:
+### OD-02 — Central hub topology
 
 ```text
-Demand-side participants connect to MGSN.
-Provider-side participants connect to MGSN.
-MGSN does not support an independent peer-to-peer network among them.
+Demand-side Workplace / Lite
+            ↓
+          MGSN
+            ↑
+Provider Workplace / Provider Interface
 ```
 
-### OD-04 — Meaning of private space
+All MGSN participants connect to the platform hub.
 
-Owner direction incorporated:
+MGSN does not create an independent participant-to-participant network.
+
+### OD-03 — Meaning of private space
+
+`Private` means the independent Workplace, Lite or provider-side space controlled by each participant.
+
+Demand-side private space includes:
+
+- customers;
+- contacts;
+- internal relationships;
+- pricing;
+- Documents;
+- Knowledge;
+- preferences;
+- approvals;
+- business history.
+
+Provider private space includes internal staff, operations, methods, workload and professional records.
+
+Private space does not mean a user-owned MGSN provider subnetwork.
+
+### OD-04 — External self-managed route remains permitted
+
+A user may continue using an external provider without importing it into Lite, Workplace or MGSN.
 
 ```text
-Private space means the participant's own Workplace
-or Lite operating boundary containing customers,
-relationships, internal data, Knowledge, pricing,
-preferences, approvals and service history.
-
-Private space does not mean a user-owned MGSN provider network.
+External Self-Managed Route
+→ user manages provider, price, payment and follow-up
+→ platform visibility is limited
+→ user uploads documents and status manually
+→ Product continuity resumes from source-qualified evidence
 ```
 
-### OD-05 — Platform versus Orbit autonomy
+MGSN procurement, funds protection, replacement and fulfillment guarantees do not apply.
 
-Candidate constraint:
+### OD-05 — Platform matching is the default when no external route exists
 
-- platform owns and governs MGSN network resources, supply, procurement, routing, funds and fulfillment;
-- demand-side users retain their own customer relationships and internal business assets;
-- providers retain independent professional identity and responsibility;
-- both sides exchange only controlled projections through MGSN.
+When the user lacks a suitable external route, the normal experience is:
 
-### OD-06 — Provider as role or canonical object
+```text
+Service Need
+→ MGSN eligibility and supply evaluation
+→ platform Recommended Best Route
+→ user confirms, rejects or adjusts
+→ platform allocation
+→ provider acceptance
+```
+
+The platform may automatically match and preselect the recommended route.
+
+The user retains the final route decision unless a future accepted managed-service mandate expressly authorizes standing allocation.
+
+### OD-06 — User-preferred provider inside MGSN
+
+A user may state a provider preference.
+
+If that provider is admitted to or evaluated for MGSN, the preferred route remains subject to:
+
+- qualification;
+- capability scope;
+- conflict;
+- availability;
+- procurement terms;
+- service package;
+- funds and fulfillment rules;
+- platform suspension and risk controls.
+
+Preference does not compel platform admission or appointment.
+
+### OD-07 — Same provider may appear under different routes
+
+The same provider may be:
+
+- used outside MGSN as an External Self-Managed Route; or
+- used through MGSN as a managed preferred-provider route.
+
+The two routes have different procurement, payment, responsibility, evidence, status and guarantee consequences.
+
+### OD-08 — Platform price advantage is strategic
+
+MGSN intends to use aggregated demand and unified procurement to obtain stronger pricing and service terms than fragmented one-off buying.
+
+This is a strategic target and value proposition. It is not yet accepted as a universal price guarantee for every service or jurisdiction.
+
+## B. Remaining Product and Architecture Questions
+
+### OQ-01 — MGSN legal and commercial role
+
+For each service model, determine whether the platform acts as:
+
+- principal;
+- reseller;
+- disclosed agent;
+- managed-service provider;
+- marketplace operator;
+- payment coordinator;
+- another legally reviewed role.
+
+### OQ-02 — Provider as role or record
 
 Determine whether `Provider` is:
 
-- a role of Organization in an MGSN service context;
-- an MGSN-owned profile record;
+- an Organization role in a service context;
+- an MGSN-owned profile;
 - a Core object;
-- a provider-side projection;
+- a Product projection;
 - a combination under explicit ownership rules.
 
-### OD-07 — Provider connection and admission model
+### OQ-03 — Formal collaboration ownership
 
-Choose among:
+Determine which service owns:
 
-- invitation only;
-- platform recruitment;
-- verified application;
-- user suggestion followed by platform approval;
-- strategic provider program;
-- several controlled modes.
+- allocation;
+- instruction;
+- Provider Acceptance;
+- collaboration status;
+- milestone;
+- replacement;
+- closure.
 
-A user suggestion must not create a user-owned private subnetwork.
+MGSN must not silently duplicate Order, Matter, Task, Workflow or Execution authority.
 
-## B. Procurement and Commercial Model
+### OQ-04 — Standing allocation mandate
 
-### OD-08 — Primary commercial model
+Determine whether selected service packages may allow:
+
+```text
+user accepts managed-service mandate
+→ platform allocates eligible provider
+→ no separate provider-choice confirmation per transaction
+```
+
+This must remain distinct from ordinary automatic matching.
+
+## C. Matching and User Experience Questions
+
+### OQ-05 — Number of user-visible options
+
+Decide whether the user receives:
+
+- one Recommended Best Route;
+- one recommendation plus alternatives;
+- several ranked platform options;
+- only a service package with provider hidden;
+- different models by service category.
+
+### OQ-06 — Provider identity visibility
+
+Define when the user sees:
+
+- provider Organization;
+- responsible professional;
+- qualification;
+- evidence;
+- contact information;
+- availability;
+- cost or procurement information;
+- incidents or restrictions.
+
+### OQ-07 — Matching explanation
+
+Determine which matching dimensions must be explained without disclosing confidential procurement logic or enabling platform bypass.
+
+### OQ-08 — User-requested rematch
+
+Define:
+
+- valid rematch reasons;
+- alternative limits;
+- urgency impact;
+- price changes;
+- when platform policy may refuse an alternative.
+
+### OQ-09 — No-candidate and fallback
+
+Decide when MGSN may:
+
+- return no eligible route;
+- recruit new supply;
+- offer operator-assisted sourcing;
+- use an official connector;
+- suggest the user use an external self-managed route.
+
+## D. External Route Questions
+
+### OQ-10 — External route projection
+
+Define the minimum route projection required in MarkReg, Lite or Workplace.
+
+Candidate information includes:
+
+- route type;
+- provider identity if disclosed;
+- expected milestones;
+- user responsibility;
+- last known status;
+- status source;
+- required manual evidence;
+- next reminder.
+
+### OQ-11 — Provider identity withholding
+
+Decide whether the user may keep an external provider completely undisclosed while still using Product reminders and manual uploads.
+
+### OQ-12 — Continuity evidence minimum
+
+Determine which evidence is required before the Product may represent:
+
+- submitted;
+- officially acknowledged;
+- registered;
+- refused;
+- completed;
+- paid;
+- closed.
+
+### OQ-13 — Conflict between manual and official evidence
+
+Define reconciliation when:
+
+- user report conflicts with Document;
+- provider email conflicts with official source;
+- uploaded certificate belongs to another Matter;
+- external status becomes stale.
+
+### OQ-14 — External route conversion into MGSN
+
+Determine whether and when an active external route may switch to MGSN-managed fulfillment, including responsibility, price, payment, Document and milestone reset.
+
+## E. Procurement and Commercial Questions
+
+### OQ-15 — Primary commercial model
 
 Choose the initial priority among:
 
 - platform wholesale network;
 - managed service package;
-- controlled transaction marketplace;
-- subscription plus transaction services;
+- reseller model;
+- subscription plus managed transactions;
 - hybrid by service category.
 
-### OD-09 — Customer-facing pricing authority
+### OQ-16 — Customer-facing pricing authority
 
-Decide whether the user can:
+Determine whether the user may:
 
 - freely set resale price;
-- set price within a corridor;
+- set within a corridor;
 - use platform fixed packages;
-- receive recommended price;
-- choose by Product edition or service.
+- use recommended price;
+- vary by Product edition or service.
 
-### OD-10 — Procurement transparency
+### OQ-17 — Procurement transparency
 
-Determine which layers are visible to:
+Define visibility for:
 
 - end customer;
 - demand-side user;
 - provider;
-- platform operator;
-- finance and audit roles.
+- operator;
+- finance;
+- audit.
 
-### OD-11 — Referral and commission
+### OQ-18 — Routing neutrality
 
-Decide whether referral fees or commissions are permitted and how they are separated from professional routing relevance.
+Define how price, margin, preferred-provider status, performance, quality, capacity and strategic supply allocation influence matching.
 
-### OD-12 — Non-circumvention and lateral relationship control
+Commercial benefit must not silently override professional eligibility or customer interest.
+
+### OQ-19 — Non-circumvention
 
 Determine:
 
-- when provider identity and contact are disclosed;
-- which direct professional interactions are permitted inside an MGSN collaboration;
-- which interaction would create prohibited lateral relationship formation;
-- whether future work must remain within MGSN;
-- which bypass behavior triggers loss of protection, suspension or contractual consequence;
-- legal enforceability by jurisdiction.
+- contact disclosure stages;
+- prohibited bypass behavior;
+- consequences;
+- loss of platform guarantees;
+- enforceability;
+- treatment after collaboration completion.
 
-## C. Funds and Financial Risk
+## F. Funds and Financial-Risk Questions
 
-### OD-13 — Legal role of the platform
+### OQ-20 — Funds holder
 
-For each service model, determine whether the platform acts as:
+Determine which legal entity or regulated partner receives and holds funds.
 
-- principal;
-- disclosed agent;
-- controlled marketplace operator;
-- managed-service provider;
-- reseller;
-- payment coordinator;
-- another regulated role.
-
-### OD-14 — Funds custodian
-
-Decide which legal entity or regulated partner receives and holds funds.
-
-### OD-15 — Release model
+### OQ-21 — Release model
 
 Choose among:
 
 - milestone release;
 - official-fee release plus completion release;
-- full post-completion release;
-- provider credit model;
+- post-completion release;
+- provider credit;
 - service-specific rules.
 
-### OD-16 — Refund and replacement authority
+### OQ-22 — Refund and replacement authority
 
 Determine who decides:
 
 - refund;
 - partial refund;
-- provider replacement;
+- replacement;
 - platform compensation;
 - provider deduction;
 - dispute escalation.
 
-### OD-17 — Official-fee protection
+### OQ-23 — Official-fee protection
 
-Define controls for official fees, currency movement, unused balances and evidence.
+Define controls for:
 
-## D. Routing and User Choice
-
-### OD-18 — Selection and allocation model
-
-Determine when:
-
-- the platform selects and allocates;
-- the user selects among platform-qualified options;
-- the user expresses a preference but the platform allocates;
-- a Product or managed-service package fixes the route.
-
-### OD-19 — Provider identity visibility
-
-Decide disclosure stages for:
-
-- organization name;
-- professional name;
-- contact details;
-- provider cost;
-- qualifications;
+- official-fee separation;
+- currency movement;
+- unused balances;
 - evidence;
-- platform Trust and incidents.
+- refund;
+- reconciliation.
 
-### OD-20 — Communication model
+## G. Provider Governance Questions
 
-Decide which services use:
+### OQ-24 — Provider admission modes
 
-- platform-only messaging;
-- masked email or relay;
-- controlled meeting rooms;
-- named professional contact inside an MGSN collaboration;
-- no direct contact.
+Consider:
 
-No option should silently create participant-to-participant network ownership.
+- platform recruitment;
+- invitation;
+- verified application;
+- user suggestion followed by platform review;
+- strategic provider program.
 
-### OD-21 — Routing neutrality
+### OQ-25 — Verification depth
 
-Define how procurement margin, preferred-provider status, performance, quality, price and platform affiliation may influence routing.
+Define levels and expiry for identity, qualification, capability, office, references and outcomes.
 
-### OD-22 — No-candidate and fallback
+### OQ-26 — Performance and Trust visibility
 
-Decide when the platform may:
-
-- return no eligible provider;
-- recruit new supply;
-- use a controlled connector;
-- offer operator-assisted sourcing;
-- declare the request unsupported.
-
-An outside activity not governed by MGSN must not be represented as an MGSN route.
-
-## E. Provider Governance
-
-### OD-23 — Verification depth
-
-Determine verification levels and expiry rules for identity, qualification, capability, office, references and outcomes.
-
-### OD-24 — Performance and Trust model
-
-Determine which information remains:
+Determine which information is:
 
 - platform-private;
 - provider-visible;
@@ -242,71 +382,62 @@ Determine which information remains:
 - aggregate;
 - public, if any.
 
-### OD-25 — Dispute and correction rights
+### OQ-27 — Correction, suspension and retirement
 
-Define provider rights to notice, correction, response, evidence and appeal.
+Define provider notice, response, appeal, emergency suspension, active-service handling, reinstatement and historical retention.
 
-### OD-26 — Suspension and retirement
+## H. MVP and Publication Questions
 
-Define triggers, emergency suspension, active-service handling and reinstatement.
+### OQ-28 — Initial service scope
 
-### OD-27 — Provider data portability
+Choose among:
 
-Decide what provider-supplied data can be exported when leaving and which MGSN network, performance and historical records remain with the platform.
-
-Provider data portability must not create portability of demand-side customers or MGSN relationship graphs.
-
-## F. Product Scope
-
-### OD-28 — Initial service scope
-
-Decide whether MVP 0 begins with:
-
-- international trademark filing only;
-- trademark filing and registration stages;
+- international trademark filing;
+- filing and registration;
+- selected high-volume lifecycle services;
 - all trademark lifecycle services;
-- broader brand professional services;
-- selected high-volume jurisdictions.
+- broader brand services.
 
-### OD-29 — Initial demand-side user
+### OQ-29 — Initial demand-side user
 
-Choose the first primary user:
+Candidate priority:
 
-- independent professional using Lite;
-- small agency Workplace;
 - Chinese trademark agency international department;
-- MarkReg Product user;
-- platform internal operator-assisted model.
+- small agency;
+- independent professional;
+- MarkReg user;
+- operator-assisted internal model.
 
-### OD-30 — Initial supply-side provider
+### OQ-30 — Initial provider cohort
 
-Choose the first provider cohort:
+Candidate supply:
 
-- existing platform foreign associates;
+- existing foreign associates;
+- strategic high-volume providers;
 - verified law firms;
 - filing providers;
-- regional master providers;
-- strategic high-volume partners.
+- regional master providers.
 
-### OD-31 — Operator-assisted versus self-service
+### OQ-31 — Operator-assisted versus self-service
 
-Determine how much of MVP 0 is handled through platform operators before automation.
+Determine which matching, procurement, funds and exception activities remain operator-assisted in MVP 0.
 
-### OD-32 — Reference journeys
+### OQ-32 — Reference journeys
 
-Accept a minimum set covering:
+At minimum include:
 
-- routine filing;
+- routine filing with platform recommendation;
+- user-preferred MGSN provider;
+- external self-managed filing and manual status upload;
 - urgent opposition or cancellation;
 - provider conflict or unavailability;
 - official-fee advance;
 - non-performance and replacement;
-- provider connection and verification;
+- provider application and verification;
 - dispute and correction;
-- suspension or withdrawal;
-- controlled communication without lateral network creation.
+- suspension or withdrawal.
 
-### OD-33 — Book title and subtitle
+### OQ-33 — Book title and subtitle
 
 Current title:
 
@@ -317,25 +448,32 @@ Mark Global Service Network
 Candidate subtitle:
 
 ```text
-Platform-Governed Global Capability, Procurement and Trusted Fulfillment
+Platform-Governed Global Capability,
+Procurement and Trusted Fulfillment
 ```
 
-## Recommended Decisions Before Charter
+## Recommended Minimum Before Charter Acceptance
 
-The following are already owner-directed starting constraints:
+Before accepting a Charter Candidate, constrain at minimum:
 
 ```text
-OD-01 MGSN identity
-OD-02 user capability proposition
-OD-03 hub-and-spoke topology
-OD-04 private-space meaning
+OQ-01 legal/commercial role
+OQ-02 Provider ownership model
+OQ-03 collaboration ownership
+OQ-04 standing allocation mandate
+OQ-05 option presentation
+OQ-10 external route projection
+OQ-15 commercial model
+OQ-20 funds holder
+OQ-21 release model
+OQ-28 initial service scope
+OQ-29 initial user
+OQ-30 provider cohort
+OQ-31 operator assistance
 ```
 
-Before accepting the Charter Candidate, at minimum constrain:
+## Gate
 
-```text
-OD-05 through OD-08
-OD-13 through OD-15
-OD-18 through OD-20
-OD-28 through OD-31
-```
+Owner acceptance of Pre-Writing Audit v0.1 accepts OD-01–OD-08 as planning direction and authorizes preparation of the Network and Product Charter Candidate.
+
+It does not resolve OQ-01–OQ-33 or authorize implementation, payment custody, provider appointment, Product Baseline, Chapter Map or manuscript drafting.
