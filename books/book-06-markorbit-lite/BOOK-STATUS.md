@@ -3,13 +3,13 @@
 ## Current status
 
 ```text
-RC HARDENING B — READER APPARATUS
-— OWNER ACCEPTANCE ON B06-REV-0015 MERGE
+RELEASE CANDIDATE 1
+— READY FOR OWNER ACCEPTANCE ON B06-REV-0016 MERGE
 ```
 
-Whole-Book Complete Draft 1 and RC Hardening A remain accepted. Product Charter v0.3, Product Baseline v0.1, Chapter Map `B06-TOC-V0.1`, Waves 1–7 and all 34 chapters remain unchanged in controlled meaning.
+Whole-Book Complete Draft 1 and RC Hardening A/B remain accepted. RC Hardening C has passed source, citation, navigation, semantic-figure and long-form rendered validation.
 
-Release Candidate has not yet been accepted.
+Product Charter v0.3, Product Baseline v0.1, Chapter Map `B06-TOC-V0.1`, Waves 1–7, all 34 chapters and all 7 Reader Apparatus records remain unchanged in controlled meaning.
 
 ## Product identity
 
@@ -29,6 +29,7 @@ individual-first but Organization-centered
 B06-SPEC-0001–0004 v0.1
 B06-TOC-V0.1
 B06-CH-00–B06-CH-33
+B06-APP-0001–B06-APP-0007
 ML-S01–S05
 ML-O01–O08
 ML-W01–W10
@@ -41,7 +42,7 @@ ML-HC-01–HC-08
 ML-AC-01–AC-12
 ```
 
-## Accepted manuscript
+## Accepted manuscript and apparatus
 
 ```text
 Wave 1 — CH00–CH06: COMPLETE DRAFT 1 — ACCEPTED
@@ -52,6 +53,7 @@ Wave 5 — CH22–CH25: COMPLETE DRAFT 1 — ACCEPTED
 Wave 6 — CH26–CH29: COMPLETE DRAFT 1 — ACCEPTED
 Wave 7 — CH30–CH33: COMPLETE DRAFT 1 — ACCEPTED
 Whole book — CH00–CH33: COMPLETE DRAFT 1 — ACCEPTED
+Reader Apparatus — B06-APP-0001–0007: ACCEPTED
 ```
 
 ## Current acceptance set
@@ -60,8 +62,12 @@ Whole book — CH00–CH33: COMPLETE DRAFT 1 — ACCEPTED
 B06-REV-0013 — Whole-Book Complete Draft 1 Review
 B06-REV-0014 — RC Hardening A Review
 B06-REV-0015 — RC Hardening B Reader Apparatus Review
+B06-REV-0016 — RC Hardening C and Release Candidate Review
 B06-PLN-0008 — Release Candidate Hardening Plan
-B06-APP-0001–B06-APP-0007 — Reader Apparatus
+B06-SRC-0001 — Source and Citation Policy
+B06-VAL-0001 — RC Validation Protocol
+B06-REL-0001 — RC Assembly Manifest
+B06-REL-0002 — Release Candidate 1 Record
 ```
 
 ## Hardening A result
@@ -80,20 +86,40 @@ Blocking / major / upstream findings: 0
 ```text
 Glossary entries: 63
 Core distinctions: 30
-Abbreviation and controlled-ID guide: complete
 Semantic figure sources: 12 / 12
-Product-local record coverage: 45 / 45
+Product-local records: 45 / 45
 Reference journeys: 4 / 4
 Conformance scenarios: 24 / 24
 Handoff contracts: 8 / 8
 MVP acceptance criteria: 12 / 12
 Subject index and stable anchors: complete
-Product Charter / Baseline / Chapter Map changes: 0
 Blocking / major / upstream findings: 0
-Change Proposal required: NO
 ```
 
-Mermaid cross-format rendering, link/anchor validation, PDF/equivalent rendering, fonts, page breaks, sources and final whole-book RC review remain Work Package C.
+## Hardening C result
+
+```text
+Reader-facing validation baseline:
+7ce03755e03bb4876768a34a4ee3d2c3b74bddb1
+
+Successful GitHub Actions run: 29477787207
+Artifact ID: 8367264203
+Artifact digest:
+sha256:2446561090311a6d6e5912ebdc1e109a2b0e5cf525109db9eb3b0762ee27236b
+
+Chapter files: 34 / 34
+Reader Apparatus files: 7 / 7
+Markdown files scanned: 82
+Local links: 283 checked / 0 broken
+Anchors: 10 checked / 0 broken
+Controlled IDs: 93 / 93
+Mermaid figures: 12 / 12 rendered
+PDF: 410 pages / 842,295 bytes / 0 near-blank pages
+External URLs: 0
+Material current external claims requiring citation: 0
+Blocking / major / warning findings: 0 / 0 / 0
+Change Proposal required: NO
+```
 
 ## Complete manuscript argument
 
@@ -139,7 +165,7 @@ RC-H02 — CLOSED ON HARDENING A MERGE
 RC-H03 — CLOSED ON HARDENING B MERGE
 RC-H04 — CLOSED ON HARDENING A MERGE
 RC-H05 — CLOSED ON HARDENING B MERGE
-RC-H06 — OPEN — HARDENING C
+RC-H06 — READY TO CLOSE ON HARDENING C / RC1 OWNER MERGE
 ```
 
 ## Next gate
@@ -147,9 +173,12 @@ RC-H06 — OPEN — HARDENING C
 ```text
 Whole-Book Complete Draft 1 — ACCEPTED
 → RC Hardening A — ACCEPTED
-→ RC Hardening B — ACCEPTED ON MERGE
-→ RC Hardening C — Source, Citation, Render and RC Validation
-→ owner Release Candidate decision
+→ RC Hardening B — ACCEPTED
+→ RC Hardening C — PASS
+→ Release Candidate 1 — READY FOR OWNER ACCEPTANCE ON MERGE
+→ optional final brand/design production
+→ final rendered validation
+→ final public/commercial distribution decision
 ```
 
 ## Authorization
@@ -157,12 +186,12 @@ Whole-Book Complete Draft 1 — ACCEPTED
 ```text
 Whole-Book Complete Draft 1: ACCEPTED
 RC Hardening A: ACCEPTED
-RC Hardening B acceptance on merge: AUTHORIZED
-RC Hardening C after merge: AUTHORIZED
-Release Candidate: NOT AUTHORIZED
+RC Hardening B: ACCEPTED
+RC Hardening C acceptance on merge: AUTHORIZED
+Release Candidate 1 acceptance on merge: AUTHORIZED
 Implementation: NOT AUTHORIZED
-Production: NOT AUTHORIZED
-Public/commercial distribution: NOT AUTHORIZED
+Production deployment: NOT AUTHORIZED
+Final public/commercial distribution: NOT AUTHORIZED
 Autonomous professional action: NOT AUTHORIZED
 External Protected Action: NOT AUTHORIZED
 ```
