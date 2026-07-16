@@ -1,8 +1,8 @@
 book_id: B07
 title: Mark Global Service Network
-status: network_and_product_charter_upstream_reconciliation_required
-current_gate: workplace_sovereignty_upstream_reconciliation
-next_gate: owner_decision_on_mo_adr_wsp_001
+status: canon_amendment_reconciliation_ready_for_owner_acceptance
+current_gate: workplace_sovereignty_canon_amendment
+next_gate: renewed_charter_review
 
 accepted_baseline:
   pre_writing_audit_v0_1: true
@@ -29,23 +29,35 @@ existing_charter_candidate:
   retained_as_reconciliation_input: true
   ready_to_advance_to_product_baseline: false
 
-upstream_reconciliation:
-  notice: B07-PLN-0012
-  architecture_source_assessment: MO-ARCH-SRC-001
-  architecture_decision_candidate: MO-ADR-WSP-001
-  architecture_impact_assessment: MO-ARCH-IMP-001
-  architecture_review: MO-ARCH-REV-001
-  owner_adr_decision_required: true
-  canon_amendment_candidate_required_after_acceptance: true
-  book_07_charter_reconciliation_required: true
+workplace_sovereignty_chain:
+  accepted_adr_direction: MO-ADR-WSP-001
+  canon_amendment_candidate: MO-ARCH-AMEND-001
+  book_02_change_proposal_assessment: MO-B02-CPA-001
+  book_04_correction_plan: MO-ARCH-PLN-001
+  upstream_notice: B07-PLN-0012
+  charter_reconciliation: B07-PLN-0013
+  amendment_review: MO-ARCH-REV-002
+  amendment_validation: MO-ARCH-VAL-002
+  ready_for_owner_acceptance: true
+
+reconciled_authority:
+  workplace_business_sovereignty: true
+  core_semantic_authority: true
+  owning_service_formal_state_authority: true
+  physical_custody_separate: true
+  legal_and_source_rights_separate: true
+  product_installation_required: true
+  mgsn_connection_separate_from_network: true
+  platform_owned_mgsn_network: true
+  originating_workplace_required: true
+  execution_provider_workplace_required: true
+  handoff_and_return_required: true
 
 preserved_direction:
   platform_owned_mgsn_resources: true
   platform_governed_provider_supply: true
-  managed_global_service_network: true
   central_hub_topology: true
   peer_to_peer_participant_network: false
-  participant_private_spaces: true
   external_self_managed_route_allowed: true
   recommended_managed_route: true
   managed_preferred_provider_route: true
@@ -54,32 +66,22 @@ preserved_direction:
   user_final_confirmation: true
   autonomous_provider_appointment: false
 
-required_authority_distinctions:
-  workplace_business_sovereignty: true
-  core_semantic_authority: true
-  owning_service_formal_state_authority: true
-  physical_custody_separate: true
-  legal_and_source_rights_separate: true
-  product_installation_required: true
-  projection_separate_from_handoff: true
-  workplace_mgsn_connection_separate_from_network: true
-  originating_workplace_required: true
-  execution_provider_workplace_required: true
-
 review:
-  workplace_sovereignty_conflict_identified: pass
-  adr_candidate: pass
-  books_02_07_impact_assessment: pass
-  existing_charter_deletion_required: false
-  charter_reconciliation_required: true
+  canon_amendment_candidate: pass
+  book_02_immediate_change_proposal_required: false
+  book_04_correction_plan_ready: true
+  charter_reconciliation_ready: true
   blocking_findings: 0
   major_findings: 0
-  owner_adr_decision_required: true
+
+owner_merge_effect:
+  accept_canon_amendment_direction: true
+  remove_upstream_pause: true
+  authorize_renewed_charter_review: true
+  authorize_product_baseline: false
 
 not_authorized:
-  unreconciled_charter_acceptance: true
-  controlled_product_baseline_preparation: true
-  controlled_product_baseline_acceptance: true
+  controlled_product_baseline: true
   chapter_map: true
   manuscript: true
   database_schema: true
