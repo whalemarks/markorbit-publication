@@ -1,19 +1,22 @@
 book:
   id: B06
   title: MarkOrbit Lite
-  status: release_candidate_1_ready_for_owner_acceptance_on_merge
+  status: release_candidate_1_frozen_on_owner_merge
   manuscript_files: 34
   planned_chapters: 34
   reader_apparatus_files: 7
   ordered_reader_facing_inputs: 41
   all_chapter_files_drafted: true
   whole_book_complete_draft_1_accepted: true
-  release_candidate_accepted: false
-  release_candidate_1_acceptance_on_merge: true
+  release_candidate_accepted: true
+  release_candidate_1_frozen_on_owner_merge: true
   current_review: B06-REV-0016
   whole_book_review: B06-REV-0013
   rc_hardening_plan: B06-PLN-0008
-  release_record: B06-REL-0002
+  release_decision_record: B06-REL-0002
+  release_freeze_record: B06-REL-0003
+  release_machine_manifest: release/B06-RC1.yaml
+  release_pointer: release/book-06-rc1
   chapter_map:
     id: B06-TOC-V0.1
     record: B06-PLN-0007
@@ -127,84 +130,89 @@ whole_book_review_result:
   change_proposal_required: false
   accepted: true
 
-rc_hardening_a:
-  id: B06-REV-0014
-  decision: pass
-  status: accepted
-  chapter_files_audited: 34
-  chapter_files_modified: 23
-  normalized_chapter_headers: 34
-  internal_wave_merge_metadata_remaining: 0
-  chapter_id_changes: 0
-  chapter_title_changes: 0
-  chapter_order_changes: 0
-  controlled_meaning_changes: 0
-  blocking_findings: 0
-  major_findings: 0
-  upstream_findings: 0
-
-rc_hardening_b:
-  id: B06-REV-0015
-  decision: pass
-  status: accepted
-  reader_apparatus_records: B06-APP-0001-B06-APP-0007
-  glossary_entries: 63
-  distinction_entries: 30
-  semantic_figures: 12
-  product_local_records_covered: 45
-  reference_journeys_covered: 4
-  conformance_scenarios_covered: 24
-  handoff_contracts_covered: 8
-  acceptance_criteria_covered: 12
-  stable_anchor_convention_applied: true
-  controlled_meaning_changes: 0
-  blocking_findings: 0
-  major_findings: 0
-  upstream_findings: 0
-
-rc_hardening_c:
-  id: B06-REV-0016
-  decision: pass_ready_for_owner_rc1_decision
-  status: accepted_on_owner_merge
-  source_policy: B06-SRC-0001
-  validation_protocol: B06-VAL-0001
-  assembly_manifest: B06-REL-0001
-  release_record: B06-REL-0002
-  reader_facing_baseline_commit: 7ce03755e03bb4876768a34a4ee3d2c3b74bddb1
-  workflow_run: 29477787207
-  artifact_id: 8367264203
-  artifact_digest: sha256:2446561090311a6d6e5912ebdc1e109a2b0e5cf525109db9eb3b0762ee27236b
-  chapter_files: 34
-  reader_apparatus_files: 7
-  markdown_files_scanned: 82
-  local_links_checked: 283
-  broken_local_links: 0
-  anchors_checked: 10
-  broken_anchors: 0
-  controlled_ids_expected: 93
-  controlled_ids_covered: 93
-  mermaid_sources: 12
-  mermaid_rendered: 12
-  pdf_pages: 410
-  pdf_bytes: 842295
-  pdf_near_blank_pages: 0
-  external_urls: 0
-  material_external_claims_requiring_citation: 0
-  blocking_findings: 0
-  major_findings: 0
-  warnings: 0
-  upstream_findings: 0
-  change_proposal_required: false
+rc_hardening:
+  plan: B06-PLN-0008
+  packages:
+    a:
+      review: B06-REV-0014
+      status: accepted
+      normalized_chapter_headers: 34
+      controlled_meaning_changes: 0
+      blocking_findings: 0
+      major_findings: 0
+      upstream_findings: 0
+    b:
+      review: B06-REV-0015
+      status: accepted
+      glossary_entries: 63
+      distinction_entries: 30
+      semantic_figures: 12
+      product_local_records_covered: 45
+      reference_journeys_covered: 4
+      conformance_scenarios_covered: 24
+      handoff_contracts_covered: 8
+      acceptance_criteria_covered: 12
+      controlled_meaning_changes: 0
+      blocking_findings: 0
+      major_findings: 0
+      upstream_findings: 0
+    c:
+      review: B06-REV-0016
+      status: accepted
+      source_policy: B06-SRC-0001
+      validation_protocol: B06-VAL-0001
+      assembly_manifest: B06-REL-0001
+      decision_record: B06-REL-0002
+      reader_facing_baseline_commit: 7ce03755e03bb4876768a34a4ee3d2c3b74bddb1
+      workflow_run: 29477787207
+      artifact_id: 8367264203
+      artifact_digest: sha256:2446561090311a6d6e5912ebdc1e109a2b0e5cf525109db9eb3b0762ee27236b
+      chapter_files: 34
+      reader_apparatus_files: 7
+      local_links_checked: 283
+      broken_local_links: 0
+      anchors_checked: 10
+      broken_anchors: 0
+      controlled_ids_expected: 93
+      controlled_ids_covered: 93
+      mermaid_sources: 12
+      mermaid_rendered: 12
+      pdf_pages: 410
+      pdf_bytes: 842295
+      pdf_near_blank_pages: 0
+      external_urls: 0
+      material_external_claims_requiring_citation: 0
+      blocking_findings: 0
+      major_findings: 0
+      warnings: 0
+      upstream_findings: 0
+      change_proposal_required: false
+  requirements:
+    RC-H01: closed
+    RC-H02: closed
+    RC-H03: closed
+    RC-H04: closed
+    RC-H05: closed
+    RC-H06: closed
 
 release_candidate_1:
-  record: B06-REL-0002
-  status: ready_for_owner_acceptance_on_merge
+  decision_record: B06-REL-0002
+  freeze_record: B06-REL-0003
+  machine_manifest: release/B06-RC1.yaml
+  status: approved_and_frozen_on_owner_merge
   reader_facing_inputs: 41
   content_baseline_commit: 7ce03755e03bb4876768a34a4ee3d2c3b74bddb1
+  owner_decision_activation_commit: 060e807be90081977bcc322f1557b9fc950f5209
+  release_pointer: release/book-06-rc1
+  final_governance_validation:
+    workflow_run: 29478801425
+    validated_head: 21c548006ce12de27a1793275c128ad3e1d95f04
+    artifact_id: 8367659673
+    artifact_digest: sha256:dcfd3f85169f1275d38dd09e34f8338089bd4b6dbd90573a3ebe0dbd5c3819da
   primary_checksums:
     combined_markdown: sha256:1be848db2a0eeeb844f45d18d8a0513e9765c93a35029211f0ce3813af8df2f1
     html: sha256:d8b285dcd79b270a6dedc96a3da239bdf95697ef10fa45f2d504d88da2762e8b
-    pdf: sha256:28751ce7eafeb3bc018b7bf3f989bedf0652f50588b941c4e496ce9eb8eb9601
+    pdf_validation_render: sha256:28751ce7eafeb3bc018b7bf3f989bedf0652f50588b941c4e496ce9eb8eb9601
     validation_json: sha256:785cfa01144e17e71c8cbeef52eb19e75f8f825cfa588b8255de396563cb170f
 
 controlled_ranges:
@@ -236,50 +244,21 @@ commercial_plan:
     - artifact_render_publish_quotas
     - memory_asset_storage_and_review_quotas
     - handoff_support_and_return_service_levels
-  layers:
-    - product_identity
-    - product_edition
-    - commercial_plan
-    - entitlement_window
-    - fulfillment_observation
 
-rc_hardening:
-  plan: B06-PLN-0008
-  requirements:
-    - id: RC-H01
-      status: closed_on_hardening_a_merge
-    - id: RC-H02
-      status: closed_on_hardening_a_merge
-    - id: RC-H03
-      status: closed_on_hardening_b_merge
-    - id: RC-H04
-      status: closed_on_hardening_a_merge
-    - id: RC-H05
-      status: closed_on_hardening_b_merge
-    - id: RC-H06
-      status: closes_on_hardening_c_rc1_owner_merge
-  work_packages:
-    - id: A
-      status: accepted
-      review: B06-REV-0014
-    - id: B
-      status: accepted
-      review: B06-REV-0015
-    - id: C
-      status: pass_accepted_on_owner_merge
-      review: B06-REV-0016
-
-change_governance:
-  classes:
-    - editorial_clarification
-    - implementation_change
-    - product_increment
-    - product_baseline_change
-    - constitutional_change
+change_control:
+  reader_facing_rc1_baseline_is_immutable: true
+  administrative_change_outside_source_set_changes_rc1: false
+  source_change_requires_renewed_validation: true
+  material_change_requires_new_candidate_baseline: true
+  explicit_owner_supersession_required: true
+  release_pointer_must_not_move_to_different_baseline: true
   product_baseline_change_requires_owner_acceptance: true
   constitutional_change_requires_charter_revision: true
-  historical_models_are_automatic_authority: false
-  provider_or_tool_defines_product_identity: false
+
+reference_object:
+  git_tag_created: false
+  github_release_created: false
+  release_branch_created_after_freeze_merge: true
 
 authorization:
   product_charter_accepted: true
@@ -289,11 +268,12 @@ authorization:
   whole_book_complete_draft_1_accepted: true
   rc_hardening_a_accepted: true
   rc_hardening_b_accepted: true
-  rc_hardening_c_acceptance_on_merge: true
-  release_candidate_1_acceptance_on_merge: true
-  release_candidate_accepted: false
-  implementation: false
-  production: false
+  rc_hardening_c_accepted: true
+  release_candidate_1_accepted: true
+  release_candidate_1_freeze_on_owner_merge: true
+  final_branded_publication: false
+  product_implementation: false
+  production_deployment: false
   final_public_commercial_distribution: false
   autonomous_professional_action: false
   external_protected_action: false
