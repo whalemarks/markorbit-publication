@@ -35,13 +35,15 @@ Every professional organization retains its own customers, data, Knowledge, rule
 | Book 04 | MarkOrbit Workplace and Product Architecture | Release Candidate 1 — Owner Accepted / Portfolio Locked |
 | Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | Release Candidate 1 — Approved and Frozen |
 | Book 06 | MarkOrbit Lite | Release Candidate 1 — Owner Accepted |
-| Book 07 | Mark Global Service Network | Pre-Writing Audit v0.1 — Ready for Owner Acceptance on Merge |
+| Book 07 | Mark Global Service Network | Network and Product Charter v0.1 — Ready for Owner Acceptance on Merge |
 
 The Books 01–04 Portfolio Baseline is governed by `MO-PUB-REV-0001` and `MO-PUB-BASELINE-0001`.
 
 Book 05 RC1 is frozen through its accepted release record and permanent release pointer.
 
 Book 06 RC1 was accepted through owner merge of PR #76 on 2026-07-16. Final branded production, implementation, deployment and public/commercial distribution remain separate gates.
+
+Book 07 Pre-Writing Audit v0.1 was accepted through owner merge of PR #78 on 2026-07-16.
 
 ## Responsibility Chain
 
@@ -55,21 +57,31 @@ Book 06 — MarkOrbit Lite
 Book 07 — Mark Global Service Network
 ```
 
-## Current Book 07 Direction
+## Current Book 07 Charter Direction
 
 ```text
-Platform-owned MGSN resources
-+ central platform hub
+Platform-owned managed global service network
++ central MGSN hub
 + participant private spaces
-+ platform procurement and funds control
-+ default best-route matching
++ R1 External Self-Managed Route
++ R2 Recommended Managed Route
++ R3 Managed Preferred-Provider Route
++ one Recommended Best Route
 + user final confirmation
-+ external self-managed route continuity bridge
++ platform procurement, funds and fulfillment
++ provider Trust and network evolution
 ```
 
-Book 07 currently contains planning and review records only.
+Initial MVP direction:
 
-No Product Charter, Product Baseline, Chapter Map, manuscript, schema, API or implementation is accepted.
+```text
+Chinese trademark agencies and independent professionals
++ existing platform foreign associates
++ international trademark filing and selected high-volume services
++ operator-assisted operation
+```
+
+No controlled Product Baseline, Chapter Map, manuscript, schema, API, payment implementation or production deployment is accepted.
 
 ## Current Gate
 
@@ -77,9 +89,10 @@ No Product Charter, Product Baseline, Chapter Map, manuscript, schema, API or im
 Books 01–04 Portfolio Baseline
 → Book 05 RC1 approved and frozen
 → Book 06 RC1 owner accepted
-→ Book 07 Pre-Writing Audit v0.1
+→ Book 07 Pre-Writing Audit v0.1 accepted
+→ Book 07 Network and Product Charter v0.1
 → Owner acceptance
-→ Book 07 Network and Product Charter Candidate
+→ Book 07 Controlled Product Baseline Candidate
 ```
 
 ## Authority Boundary

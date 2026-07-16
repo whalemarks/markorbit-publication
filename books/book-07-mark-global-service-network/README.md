@@ -3,19 +3,25 @@
 ## Status
 
 ```text
-Pre-Writing Audit v0.1
+Network and Product Charter v0.1
 Ready for Owner Acceptance on Merge
 ```
 
-## Working Product Interpretation
+## Canonical Product Identity Candidate
 
-Mark Global Service Network, or MGSN, is the platform-owned and platform-governed global professional service network hub through which demand-side users and service providers connect to the platform.
+### User-facing identity
 
-MGSN gives users capabilities they do not independently possess.
+> **MGSN is the platform-managed global professional service network that enables trademark professionals and agencies to deliver services worldwide through one governed commercial and fulfillment interface.**
 
-> MGSN gives professional users governed access to global service capability, purchasing leverage, controlled funds, reliable fulfillment and continuously improving provider coverage through one stable platform interface.
+### Architectural identity
 
-## Network Topology Candidate
+> **MGSN is the platform-owned network responsibility that organizes provider supply, Capability, procurement, matching, funds protection, fulfillment, Trust and service continuity across independent participant spaces.**
+
+### Commercial identity
+
+> **MGSN is a managed global service procurement and fulfillment network, not a free provider directory or open bidding marketplace.**
+
+## Network Topology
 
 ```text
 Demand-side Workplace / Lite
@@ -25,73 +31,68 @@ Demand-side Workplace / Lite
 Provider Workplace / Provider Interface
 ```
 
-All demand-side and provider-side participants connect to MGSN.
+All MGSN-managed participants connect through the platform hub.
 
 MGSN does not create an independent peer-to-peer participant network.
 
-A permitted professional conversation may occur inside an MGSN-managed collaboration, but it does not create an unrestricted lateral network relationship or bypass right.
+## Product Promise
 
-## Meaning of Private Space
-
-`Private space` means the participant's own:
+MGSN gives a locally limited professional or agency access to global service Capability through:
 
 ```text
-Organization Workplace
-or
-MarkOrbit Lite personal / small-team space
-or
-provider-side private operating space
+platform provider coverage
++ standardized service scope
++ aggregated demand
++ negotiated procurement
++ Recommended Best Route
++ user confirmation
++ controlled funds
++ milestone Evidence
++ correction and replacement
++ typed Return
++ provider and network learning
 ```
 
-The demand-side private space may contain:
+## Participant Private Spaces
+
+Demand-side private space may contain:
 
 - customers and contacts;
-- leads, Opportunities and internal relationships;
-- customer-facing prices and sales strategy;
-- Documents, Knowledge and memory;
+- Opportunities and internal relationships;
+- customer-facing pricing and margin;
+- Documents, Evidence, Knowledge and memory;
 - preferences and approvals;
-- service history;
 - MGSN requests and Returns;
-- external-route declarations and manually uploaded evidence.
+- External Route projections.
 
-Private space does not mean a user-owned MGSN provider network, unrestricted provider export or ownership of platform procurement, Trust and routing infrastructure.
+Provider private space may contain:
 
-## Current Constitutional Candidate
+- people and roles;
+- workload and internal operations;
+- professional methods and work;
+- private cost and notes;
+- Evidence not approved for broader display.
 
-```text
-Platform-owned global service resources
-+ governed provider participation
-+ central MGSN hub topology
-+ unified capability and service taxonomy
-+ platform procurement and pricing strategy
-+ default best-route matching
-+ user final confirmation
-+ controlled routing and interface access
-+ funds and settlement control
-+ fulfillment and risk governance
-+ participant private spaces
-+ external-route manual continuity
-+ outcome and provider evolution
-```
+Private space does not mean demand-side ownership of MGSN provider supply, procurement terms, routing intelligence or platform Trust records.
 
-## Delivery Route Planning Model
+## Three Delivery Routes
 
 ### R1 — External Self-Managed Route
 
-The user may keep an external provider outside Lite, Workplace and MGSN.
+The user may retain an external provider without importing it into MGSN.
 
 ```text
-User manages provider, price, payment and follow-up
+user manages provider, price, payment and follow-up
 → platform visibility remains limited
 → user uploads Documents and status manually
-→ Product continuity resumes from source-qualified evidence
+→ Product resumes from source-qualified Evidence
 ```
 
-MGSN procurement, funds protection, replacement and fulfillment guarantees do not apply.
+No MGSN procurement, funds, replacement or fulfillment guarantee is implied.
 
 ### R2 — MGSN Recommended Managed Route
 
-When the user does not have a suitable external route, MGSN performs the default best-route match.
+R2 is the default when the user lacks a suitable external route or chooses platform capability.
 
 ```text
 Service Need
@@ -103,105 +104,165 @@ Service Need
 → managed fulfillment and Return
 ```
 
-Automatic matching does not equal automatic appointment.
+```text
+Automatic matching ≠ automatic appointment
+User confirmation ≠ Provider Acceptance
+```
 
 ### R3 — MGSN Managed Preferred-Provider Route
 
-The user may express a provider preference.
+The user may request a preferred provider.
 
-The preferred provider remains subject to platform admission, qualification, conflict, availability, procurement, service and risk controls.
+The preference remains subject to platform admission, Capability, qualification, conflict, availability, procurement, service-package and risk controls.
 
-The same provider may be used outside MGSN or through MGSN, but the two routes have different price, funds, responsibility, evidence and guarantee consequences.
+The same provider used outside and inside MGSN represents different routes with different price, funds, responsibility, Evidence and guarantee consequences.
 
-## Platform and User Authority
+## Default Matching Experience
 
-The platform controls:
-
-- network entry and provider admission;
-- provider supply and network resources;
-- capability classification and verification;
-- procurement strategy and negotiated supply terms;
-- matching and routing interfaces;
-- provider identity and disclosure stages;
-- funds, release and settlement controls;
-- fulfillment monitoring, replacement and suspension;
-- network data and platform Trust signals.
-
-Users retain bounded authority over:
-
-- customer relationship and customer Communication, unless a specific managed-service model says otherwise;
-- service need and customer objective;
-- authorization of customer-context projection into MGSN;
-- route choice;
-- confirmation, rejection or adjustment of the platform recommendation;
-- preferred-provider request where permitted;
-- required professional or commercial instruction;
-- outcome review, dispute and correction request.
-
-## Product and Design Direction
-
-The main experience should begin with:
+The preferred Product presentation is:
 
 ```text
-What service capability is required?
+one Recommended Best Route
++ main fit reasons and constraints
++ rematch or preferred-provider request where permitted
++ External Self-Managed Route option
 ```
 
-not:
+The full provider pool is not a constitutional user-facing requirement.
+
+The user retains final confirmation in ordinary MVP services.
+
+Standing platform allocation may be evaluated later under an explicit, revocable and service-specific mandate.
+
+## Commercial and Procurement Direction
+
+The initial Charter supports:
 
 ```text
-Browse all providers
+platform wholesale network
++ managed-service packages
 ```
 
-Candidate demand-side surfaces include:
-
-- Global Capability Coverage;
-- Service Need Workspace;
-- Route Choice and Consequence View;
-- Recommended Platform Route;
-- Preferred Provider Request;
-- External Route Continuity Bridge;
-- Commercial Offer;
-- Funds and Milestone Status;
-- MGSN Collaboration Room;
-- Outcome and Exception Center.
-
-The visual direction should express independent private spaces connected through a governed central hub, verified capability, protected funds and service continuity.
-
-It should not use an auction, public seller-directory, peer-to-peer mesh or five-star marketplace metaphor.
-
-## Non-Goals
-
-Book 07 must not reduce MGSN to:
+Pricing layers remain distinct:
 
 ```text
-provider directory
-open bidding hall
-free public marketplace
-lowest-price procurement board
-user-owned partner database
-peer-to-peer provider network
-uncontrolled direct-contact network
-automatic provider appointment engine
-unregulated escrow or payment wallet
-single universal provider score
+provider procurement cost
++ official fees and disbursements
++ platform service, support and risk cost
++ demand-side margin where permitted
+= customer-facing offer
 ```
+
+MGSN aims to obtain lower or more stable prices and stronger service terms through aggregated demand and negotiated procurement.
+
+This is a strategic target, not a universal lowest-price guarantee.
+
+## Funds and Fulfillment Direction
+
+```text
+offer accepted
+→ funds requested
+→ funds received or authorized
+→ purpose allocation
+→ provider commitment
+→ governed release
+→ Evidence and reconciliation
+→ settlement / refund / dispute
+→ closure
+```
+
+The Charter defines the required controls but does not claim a universal escrow, trust-account or regulated payment status.
+
+Legal entity, funds holder, accounting, tax, foreign-exchange, sanctions and client-money rules remain implementation prerequisites.
+
+## Initial MVP 0
+
+### Demand side
+
+- Chinese trademark agencies handling international work;
+- independent international trademark professionals;
+- authorized Lite, Workplace and MarkReg users.
+
+### Supply side
+
+- existing platform foreign associates;
+- proven high-volume filing providers;
+- selected verified law firms.
+
+### Service scope
+
+- international trademark filing;
+- filing through registration where a stable package exists;
+- selected high-volume post-filing and registration services;
+- operator-assisted specialist matters.
+
+### Operating model
+
+MVP 0 is operator-assisted.
+
+Automation supports need typing, eligibility, comparison, recommendation and monitoring. Human operators retain admission, complex procurement, funds review, replacement, dispute and suspension responsibilities.
+
+## Product Boundaries
+
+MGSN may define Product-local projections for provider supply, matching, commercial offer, funds, fulfillment and Trust.
+
+It does not replace:
+
+- Customer or Contact Owning Services;
+- Opportunity;
+- Order or Matter;
+- Task or Workflow;
+- Review;
+- Communication send state;
+- Finance ledger and accounting truth;
+- MarkReg official lifecycle;
+- Book 03 Execution;
+- official authority.
 
 ## Current Controlled Records
 
-See:
+### Accepted Pre-Writing Baseline
 
-- `BOOK-MANIFEST.md`;
-- `BOOK-STATUS.md`;
-- `GOVERNANCE.md`;
-- `planning/README.md`;
-- `reviews/README.md`.
+```text
+B07-PLN-0001–0009
+B07-REV-0001
+B07-VAL-0001
+```
+
+### Current Charter Candidate
+
+```text
+B07-PLN-0010 — Network and Product Charter v0.1
+B07-PLN-0011 — Owner Decision Matrix / OD-01–OD-33
+B07-REV-0002 — Charter Review
+B07-VAL-0002 — Charter Scope and Consistency Check
+```
+
+## Non-Goals
+
+MGSN is not:
+
+```text
+free provider directory
+open bidding marketplace
+lowest-price auction
+public job board
+user-owned provider network
+peer-to-peer participant network
+unrestricted provider-contact export
+public one-score rating platform
+automatic provider appointment engine
+unregulated escrow wallet
+replacement for Core, Execution, Workplace or MarkReg
+```
 
 ## Current Gate
 
 ```text
-Pre-Writing Audit v0.1
+Pre-Writing Audit v0.1 — ACCEPTED
+→ Network and Product Charter v0.1
 → Owner Acceptance
-→ Network and Product Charter Candidate
+→ Controlled Product Baseline Candidate
 ```
 
-This gate does not authorize a final Product Charter, controlled Product Baseline, Chapter Map, manuscript, schema, API, payment implementation or production deployment.
+This gate does not authorize Product Baseline acceptance, Chapter Map, manuscript, schema, API, payment implementation, provider appointment or production deployment.

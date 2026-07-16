@@ -1,36 +1,42 @@
 book_id: B07
 title: Mark Global Service Network
-status: pre_writing_audit_v0_1_ready_for_owner_acceptance_on_merge
-current_gate: pre_writing_audit
-next_gate: network_and_product_charter_candidate
+status: network_and_product_charter_v0_1_ready_for_owner_acceptance_on_merge
+current_gate: network_and_product_charter
+next_gate: controlled_product_baseline_candidate
 
-owner_direction:
-  platform_owns_mgsn_resources: true
-  hub_topology: true
-  peer_to_peer_network: false
-  private_space_is_participant_workplace_or_lite: true
-  external_self_managed_route_allowed: true
-  external_route_mgsn_guarantee: false
-  default_platform_matching_when_no_route: true
-  user_final_confirmation: true
-  autonomous_provider_appointment: false
+accepted_baseline:
+  pre_writing_audit_v0_1: true
+  planning_records:
+    - B07-PLN-0001
+    - B07-PLN-0002
+    - B07-PLN-0003
+    - B07-PLN-0004
+    - B07-PLN-0005
+    - B07-PLN-0006
+    - B07-PLN-0007
+    - B07-PLN-0008
+    - B07-PLN-0009
+  review_records:
+    - B07-REV-0001
+  validation_records:
+    - B07-VAL-0001
 
-planning_records:
-  - B07-PLN-0001
-  - B07-PLN-0002
-  - B07-PLN-0003
-  - B07-PLN-0004
-  - B07-PLN-0005
-  - B07-PLN-0006
-  - B07-PLN-0007
-  - B07-PLN-0008
-  - B07-PLN-0009
+charter_candidate:
+  record: B07-PLN-0010
+  version: v0.1
+  owner_decision_matrix: B07-PLN-0011
+  decisions: OD-01-OD-33
+  review: B07-REV-0002
+  validation: B07-VAL-0002
+  ready_for_owner_acceptance_on_merge: true
 
-review_records:
-  - B07-REV-0001
-
-validation_records:
-  - B07-VAL-0001
+network_identity:
+  platform_owned_resources: true
+  platform_governed_provider_supply: true
+  managed_global_service_network: true
+  central_hub_topology: true
+  peer_to_peer_participant_network: false
+  participant_private_spaces: true
 
 route_model:
   - id: R1
@@ -48,54 +54,101 @@ route_model:
     platform_managed: true
     user_preference_subject_to_platform_gates: true
 
+matching:
+  default_output: one_recommended_best_route
+  full_provider_pool_required: false
+  user_may_accept_reject_or_adjust: true
+  rematch_supported: true
+  standing_allocation_default: false
+  autonomous_provider_appointment: false
+
+commercial_model:
+  platform_wholesale_network: true
+  managed_service_packages: true
+  provider_cost_separate_from_customer_price: true
+  universal_lowest_price_guarantee: false
+  routing_margin_override_allowed: false
+
+funds_constitution:
+  typed_collection_allocation_release_settlement: true
+  evidence_before_consequential_release: true
+  universal_escrow_claim: false
+  legal_and_accounting_model_deferred: true
+
+provider_model:
+  core_organization_identity: true
+  mgsn_provider_profile: true
+  service_specific_provider_role: true
+  one_public_universal_trust_score: false
+
+mvp_0:
+  operator_assisted: true
+  primary_demand_users:
+    - chinese_trademark_agencies
+    - independent_international_trademark_professionals
+    - lite_workplace_markreg_users
+  initial_provider_cohort:
+    - existing_platform_foreign_associates
+    - proven_high_volume_filing_providers
+    - selected_verified_law_firms
+  initial_scope:
+    - international_trademark_filing
+    - filing_through_registration_where_packaged
+    - selected_high_volume_lifecycle_services
+  per_service_user_confirmation: true
+
 review:
-  architecture_authority: pass
-  books_01_06_boundary: pass
-  product_direction: pass
-  experience_direction: pass
-  historical_input: pass
+  authority_chain: pass
+  product_identity: pass
+  cross_book_boundaries: pass
+  route_and_matching_model: pass
+  procurement_and_pricing: pass
+  funds_control: pass_with_legal_model_deferred
+  provider_and_trust_model: pass
+  mvp_0: pass
   blocking_findings: 0
   major_findings: 0
   upstream_change_proposal_required: false
 
 validation:
-  scope_check: pass
-  duplicate_planning_ids: 0
-  manuscript_files_added: 0
-  chapter_map_added: false
-  product_charter_added: false
-  product_baseline_added: false
+  record: B07-VAL-0002
+  result: pass
+  total_changed_files: 16
+  charter_planning_records_added: 2
+  charter_review_records_added: 1
+  charter_validation_records_added: 1
+  book_07_governance_state_index_files_modified: 9
+  repository_registry_files_modified: 3
+  product_baseline_files_added: 0
+  chapter_map_files_added: 0
+  manuscript_files_added_or_modified: 0
   implementation_files_added: 0
   books_01_06_manuscript_files_modified: 0
-
-accepted_on_owner_merge:
-  pre_writing_audit_v0_1: true
-  product_and_experience_direction: true
-  authority_and_control_matrix: true
-  route_planning_model: true
-  topology_and_private_space_boundary: true
-  review_b07_rev_0001: true
-  validation_b07_val_0001: true
+  duplicate_controlled_ids: 0
 
 authorized_on_owner_merge:
-  network_and_product_charter_candidate: true
+  controlled_product_baseline_candidate: true
+  product_local_record_design: true
+  controlled_id_design: true
+  reference_journeys: true
+  conformance_scenarios: true
+  handoff_return_contract_planning: true
+  mvp_evaluation_baseline: true
 
 not_authorized:
-  final_product_charter: true
-  controlled_product_baseline: true
-  chapter_map: true
+  controlled_product_baseline_acceptance: true
+  chapter_map_acceptance: true
   manuscript: true
   database_schema: true
   api_contracts: true
-  payment_implementation: true
+  payment_custody: true
+  funds_release: true
+  provider_appointment_implementation: true
   production_deployment: true
-  peer_to_peer_participant_network: true
-  autonomous_provider_appointment: true
   external_protected_action: true
 
 integrity:
   manuscript_files_expected: 0
   chapter_map_expected: false
-  product_charter_accepted: false
   product_baseline_accepted: false
   implementation_files_allowed: false

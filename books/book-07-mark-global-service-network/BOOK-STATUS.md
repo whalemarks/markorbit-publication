@@ -4,66 +4,73 @@
 
 ```text
 Book 07 — Mark Global Service Network
-Pre-Writing Audit v0.1
+Network and Product Charter v0.1
 Ready for Owner Acceptance on Merge
 ```
 
-## Accepted on Owner Merge
+## Accepted Baseline
+
+The following are already accepted through owner merge of PR #78:
+
+- Book 07 Pre-Writing Audit v0.1;
+- platform-owned MGSN hub interpretation;
+- participant private-space boundary;
+- R1–R3 route model;
+- default best-route matching;
+- user final confirmation direction;
+- B07-PLN-0001–0009;
+- B07-REV-0001;
+- B07-VAL-0001.
+
+## Current Charter Candidate
 
 Owner merge may accept:
 
-- platform-owned and platform-governed MGSN hub interpretation;
-- demand-side and provider-side hub topology;
-- participant private-space boundary;
-- platform procurement, funds and fulfillment direction;
-- three delivery-route planning model;
-- default MGSN matching with final user confirmation;
-- Authority and Source Map;
-- Product, Platform and Experience Direction;
-- Authority, Ownership and Control Matrix;
-- Commercial, Procurement and Funds-Control hypotheses;
-- Historical Input Assessment;
-- Owner Decisions and Open Questions;
-- `B07-REV-0001`.
-
-## Owner-Confirmed Planning Direction
-
 ```text
-MGSN resources belong to and are governed by the platform.
-
-Demand-side users connect to MGSN.
-Providers connect to MGSN.
-MGSN does not create an independent lateral network.
-
-Private space means each participant's own
-Workplace, Lite or provider-side boundary.
-
-External Self-Managed Routes remain permitted.
-They require manual evidence return and do not
-receive implied MGSN guarantees.
-
-When no suitable external route exists,
-MGSN performs the default best-route match.
-The user retains final confirmation.
+B07-PLN-0010 — MGSN Network and Product Charter v0.1
+B07-PLN-0011 — Owner Decision Matrix
+OD-01–OD-33
+B07-REV-0002 — Charter Review
+B07-VAL-0002 — Charter Scope and Consistency Check
 ```
 
-## Route Planning Model
+## Charter Identity
 
 ```text
-R1 — External Self-Managed Route
-R2 — MGSN Recommended Managed Route
-R3 — MGSN Managed Preferred-Provider Route
+MGSN is the platform-owned and platform-governed
+managed global professional service network
+that enables demand-side professionals and agencies
+to deliver services worldwide through one governed interface.
 ```
 
-## Current Findings
+## Charter Decisions
 
 ```text
-Architecture authority reviewed: PASS
-Books 01–06 boundary reviewed: PASS
-Product direction: PASS
-Experience direction: PASS
-Procurement/funds direction: PASS AS HYPOTHESIS FRAMEWORK
-Historical input assessment: PASS
+Central platform hub: ACCEPT RECOMMENDED
+Platform-owned provider supply and procurement: ACCEPT RECOMMENDED
+Participant private spaces: ACCEPT RECOMMENDED
+R1 External Self-Managed Route: ACCEPT RECOMMENDED
+R2 Recommended Managed Route: ACCEPT RECOMMENDED
+R3 Managed Preferred-Provider Route: ACCEPT RECOMMENDED
+One Recommended Best Route as default: ACCEPT RECOMMENDED
+Per-service user confirmation in MVP 0: ACCEPT RECOMMENDED
+Standing allocation deferred to policy-bounded plans: ACCEPT RECOMMENDED
+Wholesale + managed-service model: ACCEPT RECOMMENDED
+Funds and fulfillment governance: ACCEPT RECOMMENDED
+Operator-assisted international trademark MVP: ACCEPT RECOMMENDED
+```
+
+## Current Review Result
+
+```text
+Authority chain: PASS
+Product and network identity: PASS
+Cross-book ownership boundaries: PASS
+Route and matching model: PASS
+Procurement and pricing model: PASS
+Funds-control constitution: PASS WITH LEGAL MODEL DEFERRED
+Provider and Trust model: PASS
+MVP 0: PASS
 Blocking findings: 0
 Major findings: 0
 Upstream Change Proposal required: NO
@@ -71,42 +78,41 @@ Upstream Change Proposal required: NO
 
 ## Next Gate
 
+Owner merge authorizes preparation of:
+
 ```text
-Book 07 Network and Product Charter Candidate
+Book 07 Controlled Product Baseline Candidate
 ```
 
-The Charter Candidate must constrain at least:
+The next gate may define:
 
-- MGSN legal/commercial role;
-- Provider ownership model;
-- collaboration-state ownership;
-- standing allocation mandate;
-- user-visible option model;
-- External Route Projection;
-- pricing and resale model;
-- funds holder and release model;
-- initial service scope and users;
-- initial provider cohort;
-- operator-assisted MVP boundary.
+- MGSN Product-local records and controlled IDs;
+- Provider Profile, Capability, Evidence and Trust model;
+- R1–R3 route states;
+- matching, confirmation, allocation and Provider Acceptance contracts;
+- procurement, service offer and price layers;
+- funds and settlement projections;
+- Network Service Engagement;
+- Handoff and Return contracts;
+- reference journeys, scenarios and MVP evaluation.
 
 ## Not Authorized
 
 ```text
-Final Product Charter
-Controlled Product Baseline
-Chapter Map
+Controlled Product Baseline acceptance
+Chapter Map acceptance
 Manuscript drafting
 Database schema
 API contracts
-Payment implementation
+Payment custody or funds release
+Provider appointment implementation
 Production deployment
 Peer-to-peer participant network
-Autonomous provider appointment
-External Protected Action
+Autonomous External Protected Action
 ```
 
 ## Repository Integrity
 
-No Book 07 manuscript or Chapter Map should exist at this gate.
+No Book 07 Chapter Map or manuscript should exist at this gate.
 
 Books 01–06 manuscript content remains unchanged.

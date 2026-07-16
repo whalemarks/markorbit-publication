@@ -12,8 +12,7 @@ This directory contains the canonical MarkOrbit publications.
 | Book 04 | MarkOrbit Workplace and Product Architecture | `book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
 | Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `book-05-markreg/` | Release Candidate 1 — Approved and Frozen |
 | Book 06 | MarkOrbit Lite | `book-06-markorbit-lite/` | Release Candidate 1 — Owner Accepted |
-| Book 07 | Mark Global Service Network | `book-07-mark-global-service-network/` | Pre-Writing Audit v0.1 — Ready for Owner Acceptance on Merge |
-
+| Book 07 | Mark Global Service Network | `book-07-mark-global-service-network/` | Network and Product Charter v0.1 — Ready for Owner Acceptance on Merge |
 
 ## Baseline Rule
 
@@ -25,9 +24,12 @@ Books 05–07 consume the accepted baseline and may not silently redefine it.
 
 Book 05 RC1 is frozen through its immutable content baseline, release record and `release/book-05-rc1` pointer.
 
-Book 06 RC1 was accepted through owner merge of PR #76 on 2026-07-16. Final branded production, implementation, deployment and public/commercial distribution remain separate gates.
+Book 06 RC1 was accepted through owner merge of PR #76 on 2026-07-16.
 
-Book 07 currently contains a Pre-Writing Audit only. Owner merge may accept the platform-owned MGSN hub, private-space, route, matching, procurement, funds and experience direction and authorize preparation of a Network and Product Charter Candidate.
+Book 07 Pre-Writing Audit v0.1 was accepted through owner merge of PR #78 on 2026-07-16.
 
-No Book 07 Product Charter, Product Baseline, Chapter Map, manuscript or implementation is currently accepted.
+The current Book 07 Charter Candidate defines MGSN as a platform-owned managed global service network with central hub topology, R1–R3 routes, default Recommended Best Route, user final confirmation, platform procurement, funds and fulfillment governance, and an operator-assisted international trademark MVP.
 
+Owner merge may accept Charter v0.1 and authorize preparation of a Controlled Product Baseline Candidate.
+
+No Book 07 Product Baseline, Chapter Map, manuscript or implementation is currently accepted.
