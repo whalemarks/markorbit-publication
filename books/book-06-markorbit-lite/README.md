@@ -2,7 +2,7 @@
 
 ## Identity
 
-- **Status:** Release Candidate 1 — Ready for Owner Acceptance on Merge
+- **Status:** Release Candidate 1 — Approved and Frozen on Owner Merge
 - **User-facing identity:** AI business operating system for independent trademark professionals and small trademark agencies
 - **Architectural identity:** lightweight Workplace Product, individual-first but Organization-centered
 - **Product Charter:** B06-PLN-0004 v0.3
@@ -11,9 +11,11 @@
 - **Chapter range:** B06-CH-00–B06-CH-33
 - **Manuscript:** [CH00–CH33](manuscript/README.md)
 - **Reader Apparatus:** [B06-APP-0001–B06-APP-0007](reader-apparatus/README.md)
-- **Current Review:** [B06-REV-0016](reviews/B06-REV-0016_RC_Hardening_C_Source_Render_and_RC_Review.md)
-- **RC1 Record:** [B06-REL-0002](release/B06-REL-0002_Release_Candidate_1_Record.md)
-- **Release Validation:** [release/README.md](release/README.md)
+- **RC Review:** [B06-REV-0016](reviews/B06-REV-0016_RC_Hardening_C_Source_Render_and_RC_Review.md)
+- **RC1 Decision Record:** [B06-REL-0002](release/B06-REL-0002_Release_Candidate_1_Record.md)
+- **RC1 Freeze Record:** [B06-REL-0003](release/B06-REL-0003_Book_06_RC1_Freeze_Record.md)
+- **Machine Release Manifest:** [`B06-RC1.yaml`](release/B06-RC1.yaml)
+- **Release Records:** [release/README.md](release/README.md)
 
 ## Product definition
 
@@ -28,21 +30,24 @@ Professional Memory and Business Assets
 MarkOrbit Ecosystem Handoff
 ```
 
-## Accepted reader-facing baseline
+## Frozen RC1 reader-facing baseline
 
 ```text
-Front Matter CH00–CH01: Complete Draft 1 — ACCEPTED
-Part I CH02–CH06: Complete Draft 1 — ACCEPTED
-Part II CH07–CH11: Complete Draft 1 — ACCEPTED
-Part III CH12–CH16: Complete Draft 1 — ACCEPTED
-Part IV CH17–CH21: Complete Draft 1 — ACCEPTED
-Part V CH22–CH25: Complete Draft 1 — ACCEPTED
-Part VI CH26–CH29: Complete Draft 1 — ACCEPTED
-Part VII CH30–CH33: Complete Draft 1 — ACCEPTED
-Whole Book CH00–CH33: Complete Draft 1 — ACCEPTED
-Reader Apparatus B06-APP-0001–0007: ACCEPTED
+B06-CH-00–B06-CH-33: 34 accepted chapters
+B06-APP-0001–B06-APP-0007: 7 accepted Reader Apparatus records
 Total ordered reader-facing inputs: 41
+
+Content baseline commit:
+7ce03755e03bb4876768a34a4ee3d2c3b74bddb1
+
+Owner-decision activation commit:
+060e807be90081977bcc322f1557b9fc950f5209
+
+Release pointer after freeze merge:
+release/book-06-rc1
 ```
+
+The release pointer is human-readable. The immutable commit SHAs, release records and checksums define RC1 identity.
 
 ## Reader Apparatus
 
@@ -58,14 +63,14 @@ Total ordered reader-facing inputs: 41
 Glossary entries: 63
 Core distinctions: 30
 Semantic figures: 12
-Product-local records covered: 45 / 45
+Product-local records: 45 / 45
 Reference journeys: 4 / 4
 Conformance scenarios: 24 / 24
 Handoff contracts: 8 / 8
 MVP acceptance criteria: 12 / 12
 ```
 
-The appendices are editorial projections. Specifications remain authoritative.
+Specifications remain authoritative over chapter prose and Reader Apparatus.
 
 ## Complete manuscript argument
 
@@ -81,46 +86,24 @@ Product Constitution
 → Product Evolution Without Constitutional Drift
 ```
 
-## Release Candidate validation
-
-`B06-REV-0016` records:
+## RC1 validation
 
 ```text
-Decision: PASS — READY FOR OWNER RELEASE CANDIDATE 1 DECISION
-Reader-facing source baseline:
-7ce03755e03bb4876768a34a4ee3d2c3b74bddb1
-Successful workflow run: 29477787207
-Artifact ID: 8367264203
-Artifact digest:
-sha256:2446561090311a6d6e5912ebdc1e109a2b0e5cf525109db9eb3b0762ee27236b
-
+Decision: PASS
+Content/render workflow: 29477787207
+Final governance workflow: 29478801425
 Chapters: 34 / 34
 Reader Apparatus: 7 / 7
 Controlled IDs: 93 / 93
 Local links: 283 checked / 0 broken
 Anchors: 10 checked / 0 broken
 Mermaid figures: 12 / 12
-PDF: 410 pages / 842,295 bytes / 0 near-blank pages
+PDF validation render: 410 pages / 0 near-blank pages
 External URLs: 0
 Blocking / major / warning findings: 0 / 0 / 0
 ```
 
 The validation PDF proves reproducible long-form rendering. It is not the final branded public edition.
-
-## Controlled baseline
-
-```text
-ML-S01–S05
-ML-O01–O08
-ML-W01–W10
-ML-M01–M08
-ML-H01–H08
-ML-E01–E06
-ML-J01–J04
-ML-SCN-01–24
-ML-HC-01–HC-08
-ML-AC-01–AC-12
-```
 
 ## Core distinctions
 
@@ -147,37 +130,21 @@ Product identity ≠ Commercial Plan
 payment / premium edition ≠ authority
 ```
 
-## RC requirement status
+## Change control
+
+The 41 reader-facing inputs are immutable under the RC1 identity. Any source change requires impact classification, renewed validation and a new release-impact decision. Material semantic changes require a new candidate baseline or explicit owner supersession.
+
+## Current gates
 
 ```text
-RC-H01 — CLOSED ON HARDENING A MERGE
-RC-H02 — CLOSED ON HARDENING A MERGE
-RC-H03 — CLOSED ON HARDENING B MERGE
-RC-H04 — CLOSED ON HARDENING A MERGE
-RC-H05 — CLOSED ON HARDENING B MERGE
-RC-H06 — READY TO CLOSE ON CURRENT OWNER MERGE
+Release Candidate 1: APPROVED
+RC1 freeze on owner merge: AUTHORIZED
+Final branded publication: NOT APPROVED
+Public/commercial distribution: NOT APPROVED
+Product implementation: NOT AUTHORIZED
+Production deployment: NOT AUTHORIZED
+Autonomous professional action: NOT AUTHORIZED
+External Protected Action: NOT AUTHORIZED
 ```
 
-## Current gate
-
-```text
-Whole-Book Complete Draft 1 — ACCEPTED
-→ RC Hardening A — ACCEPTED
-→ RC Hardening B — ACCEPTED
-→ RC Hardening C — PASS
-→ Release Candidate 1 — READY FOR OWNER ACCEPTANCE ON MERGE
-→ optional final brand/design production
-→ final rendered validation
-→ final public/commercial distribution decision
-```
-
-## Records
-
-- [Manuscript](manuscript/README.md)
-- [Reader Apparatus](reader-apparatus/README.md)
-- [Planning](planning/README.md)
-- [Specifications](specifications/README.md)
-- [Reviews](reviews/README.md)
-- [Release Validation](release/README.md)
-
-Owner merge accepts Book 06 Release Candidate 1. It does not authorize implementation, production deployment, final public/commercial distribution, autonomous professional action or External Protected Action.
+RC1 may be used for controlled proofing, brand/design preparation, implementation-specification drafting and MVP planning. Each remains a separate governed track.
