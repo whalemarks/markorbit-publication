@@ -4,109 +4,98 @@
 
 ```text
 Book 07 — Mark Global Service Network
-Pre-Writing Audit v0.1
+Network and Product Charter v0.1
 Ready for Owner Acceptance on Merge
 ```
 
-## Accepted on Owner Merge
-
-Owner merge may accept:
-
-- platform-owned and platform-governed MGSN hub interpretation;
-- demand-side and provider-side hub topology;
-- participant private-space boundary;
-- platform procurement, funds and fulfillment direction;
-- three delivery-route planning model;
-- default MGSN matching with final user confirmation;
-- Authority and Source Map;
-- Product, Platform and Experience Direction;
-- Authority, Ownership and Control Matrix;
-- Commercial, Procurement and Funds-Control hypotheses;
-- Historical Input Assessment;
-- Owner Decisions and Open Questions;
-- `B07-REV-0001`.
-
-## Owner-Confirmed Planning Direction
+## Accepted Baseline
 
 ```text
-MGSN resources belong to and are governed by the platform.
-
-Demand-side users connect to MGSN.
-Providers connect to MGSN.
-MGSN does not create an independent lateral network.
-
-Private space means each participant's own
-Workplace, Lite or provider-side boundary.
-
-External Self-Managed Routes remain permitted.
-They require manual evidence return and do not
-receive implied MGSN guarantees.
-
-When no suitable external route exists,
-MGSN performs the default best-route match.
-The user retains final confirmation.
+Pre-Writing Audit v0.1 — ACCEPTED
+B07-PLN-0001–0009 — ACCEPTED
+B07-REV-0001 — PASS / ACCEPTED
+B07-VAL-0001 — PASS / ACCEPTED
 ```
 
-## Route Planning Model
+## Current Charter Candidate
 
 ```text
-R1 — External Self-Managed Route
-R2 — MGSN Recommended Managed Route
-R3 — MGSN Managed Preferred-Provider Route
+B07-CHARTER-0001 — Network and Product Charter v0.1
+B07-DEC-0001 — Charter Decision Register
+B07-REV-0002 — Network and Product Charter Review
 ```
 
-## Current Findings
+## Charter Identity
 
 ```text
-Architecture authority reviewed: PASS
-Books 01–06 boundary reviewed: PASS
-Product direction: PASS
-Experience direction: PASS
-Procurement/funds direction: PASS AS HYPOTHESIS FRAMEWORK
-Historical input assessment: PASS
+Platform-owned MGSN hub
++ platform-governed provider supply
++ unified procurement
++ recommended best-route matching
++ user final confirmation
++ controlled funds and fulfillment
++ participant private spaces
++ external self-managed route continuity
+```
+
+## Initial Product Direction
+
+```text
+Primary commercial model:
+platform wholesale procurement
++ managed transactions
++ optional subscription / entitlement
+
+MVP 0:
+selected international trademark filing-through-registration services
++ proven provider cohort
++ operator-assisted matching, funds and exception handling
+```
+
+## Review Result
+
+```text
+B07-REV-0002: PASS
+Architecture conflicts: 0
+Books 01–06 conflicts: 0
 Blocking findings: 0
 Major findings: 0
 Upstream Change Proposal required: NO
 ```
 
-## Next Gate
+## Owner Merge Effect
+
+Owner merge may accept:
 
 ```text
-Book 07 Network and Product Charter Candidate
+Book 07 Network and Product Charter v0.1
+B07-CHARTER-0001
+B07-DEC-0001
+B07-REV-0002
 ```
 
-The Charter Candidate must constrain at least:
+Owner merge may authorize:
 
-- MGSN legal/commercial role;
-- Provider ownership model;
-- collaboration-state ownership;
-- standing allocation mandate;
-- user-visible option model;
-- External Route Projection;
-- pricing and resale model;
-- funds holder and release model;
-- initial service scope and users;
-- initial provider cohort;
-- operator-assisted MVP boundary.
+```text
+Book 07 Controlled Product Baseline Candidate
+```
 
 ## Not Authorized
 
 ```text
-Final Product Charter
-Controlled Product Baseline
 Chapter Map
 Manuscript drafting
 Database schema
 API contracts
+Legal funds custody without specialist approval
 Payment implementation
+Production routing or provider appointment
 Production deployment
-Peer-to-peer participant network
-Autonomous provider appointment
 External Protected Action
 ```
 
-## Repository Integrity
-
-No Book 07 manuscript or Chapter Map should exist at this gate.
+## Integrity
 
 Books 01–06 manuscript content remains unchanged.
+
+No Book 07 Product Baseline, Chapter Map or manuscript exists at this gate.
