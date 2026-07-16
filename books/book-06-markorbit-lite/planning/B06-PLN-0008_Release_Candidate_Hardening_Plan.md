@@ -6,9 +6,9 @@
 Record: B06-PLN-0008
 Book: Book 06 — MarkOrbit Lite
 Record type: Release Candidate Hardening Plan
-Status: Work Package A complete — effective on owner merge
+Status: Work Packages A and B complete — effective on owner merge
 Authority: B06-REV-0013
-Current review: B06-REV-0014
+Current review: B06-REV-0015
 Release Candidate accepted: NO
 Implementation authorized: NO
 Production authorized: NO
@@ -17,9 +17,7 @@ Public/commercial distribution authorized: NO
 
 ## 2. Purpose
 
-The Complete Draft 1 establishes the full Book 06 argument and controlled Product meaning.
-
-Release Candidate hardening converts that complete draft into a consistent, reader-ready, source-validated and renderable publication without changing Product Charter v0.3, Product Baseline v0.1 or B06-TOC-V0.1 silently.
+Release Candidate hardening converts the accepted Whole-Book Complete Draft 1 into a consistent, reader-ready, source-validated and renderable publication without silently changing Product Charter v0.3, Product Baseline v0.1 or `B06-TOC-V0.1`.
 
 ```text
 Complete argument
@@ -32,23 +30,22 @@ Complete argument
 
 ## 3. Hardening principles
 
-- hardening may clarify and compress but may not change controlled meaning;
-- Specifications remain authoritative over prose;
-- any Product Baseline or constitutional change requires its own gate;
-- internal repository governance and public manuscript content must be separated;
-- reader aids must explain controlled terms without creating new authority;
-- figures must remain semantic diagrams, not implementation architecture commitments;
-- source validation must distinguish stable architecture claims from current external facts;
-- no hardening task authorizes implementation or production.
+- hardening may clarify, normalize, compress and add reader aids but may not change controlled meaning;
+- Specifications remain authoritative over chapter prose and appendices;
+- any Product Baseline or constitutional change requires a separate gate;
+- internal repository governance and public manuscript content remain separate;
+- figures remain semantic diagrams, not implementation architecture;
+- source validation distinguishes stable architecture claims from current external facts;
+- no hardening task authorizes implementation, production or protected action.
 
-## 4. Required findings and current disposition
+## 4. RC requirement disposition
 
 ```text
 RC-H01 — chapter metadata normalization: CLOSED ON PACKAGE A MERGE
 RC-H02 — reader-facing governance cleanup: CLOSED ON PACKAGE A MERGE
-RC-H03 — controlled terms and distinction apparatus: OPEN — PACKAGE B
+RC-H03 — controlled terms and distinction apparatus: CLOSED ON PACKAGE B MERGE
 RC-H04 — repetition and cross-reference hardening: CLOSED ON PACKAGE A MERGE
-RC-H05 — figures, appendices and index: OPEN — PACKAGE B
+RC-H05 — figures, appendices and index: CLOSED ON PACKAGE B MERGE
 RC-H06 — source, citation and rendered validation: OPEN — PACKAGE C
 ```
 
@@ -56,154 +53,83 @@ RC-H06 — source, citation and rendered validation: OPEN — PACKAGE C
 
 ### Scope
 
-- normalize all CH00–CH33 chapter headers;
-- remove wave-merge acceptance wording from reader-facing chapter metadata;
-- preserve draft/release state in repository governance instead;
-- standardize chapter purpose/role and conclusion structure where useful;
-- standardize Product, Organization, Human Review and controlled-term capitalization;
-- choose and apply one spelling and punctuation convention;
-- remove internal drafting-wave details from CH01 reader content;
-- review CH33 roadmap language so it remains useful to readers without exposing unnecessary repository process;
-- reduce avoidable repeated boundary lists;
-- replace repeated full explanations with precise chapter/Specification cross-references where useful;
-- preserve all deliberate zero-tolerance repetitions.
+- normalize CH00–CH33 headers and reader-facing structure;
+- remove internal wave-merge wording from chapter metadata;
+- keep acceptance history in Governance, Status, Manifest and Review records;
+- remove internal drafting-wave details from CH01;
+- make CH33’s evolution sequence reader-facing;
+- reduce avoidable repetition without changing controlled meaning.
 
-### Acceptance criteria
+### Result
 
 ```text
-34 / 34 chapter headers normalized
-internal merge-state wording in public prose: 0
-controlled meaning changes: 0
-chapter order/title changes: 0
-unresolved editorial inconsistencies: 0
+Status: COMPLETE — ACCEPTED ON OWNER MERGE
+Review: B06-REV-0014
+Chapter files audited: 34
+Chapter files modified: 23
+Normalized chapter headers: 34 / 34
+Controlled meaning changes: 0
+Blocking / major / upstream findings: 0
+```
+
+### Branch
+
+```text
+agent/book-06-rc-hardening-a-editorial-structure
+```
+
+## 6. Work Package B — Reader Apparatus
+
+### Scope
+
+Create a reader-facing end-matter layer containing:
+
+- controlled-term glossary;
+- recurring distinction matrix;
+- abbreviations and controlled-ID guide;
+- figure register and semantic diagrams;
+- controlled-record-to-chapter coverage appendix;
+- journey/scenario/Handoff/acceptance coverage appendix;
+- reading routes and reader entry points;
+- subject index and stable anchors.
+
+### Accepted apparatus set
+
+```text
+reader-apparatus/README.md
+B06-APP-0001 — Controlled Term Glossary
+B06-APP-0002 — Core Distinction Matrix
+B06-APP-0003 — Abbreviations and Controlled ID Guide
+B06-APP-0004 — Figure Register and Semantic Diagrams
+B06-APP-0005 — Controlled Record Coverage
+B06-APP-0006 — Journey, Scenario, Handoff and Acceptance Coverage
+B06-APP-0007 — Subject Index
 ```
 
 ### Result
 
 ```text
 Status: COMPLETE — EFFECTIVE ON OWNER MERGE
-Review: B06-REV-0014
-Chapter files audited: 34
-Chapter files modified: 23
-Blocking findings: 0
-Major findings: 0
-Upstream findings: 0
+Review: B06-REV-0015
+Glossary entries: 63
+Core distinctions: 30
+Semantic figure sources: 12 / 12
+Product-local records covered: 45 / 45
+Reference journeys: 4 / 4
+Conformance scenarios: 24 / 24
+Handoff contracts: 8 / 8
+MVP acceptance criteria: 12 / 12
+Reader navigation, index and anchors: complete
+Controlled meaning changes: 0
+Blocking / major / upstream findings: 0
 ```
 
-### Branch / PR
+Mermaid sources and semantic review are complete. Cross-format rendering, links, fonts, page breaks and final publication validation remain Package C.
 
-```text
-agent/book-06-rc-hardening-a-editorial-structure
-one coherent Draft PR
-```
-
-## 6. Work Package B — Reader Apparatus
-
-### 6.1 Controlled-term glossary
-
-Create a reader-facing glossary covering at least:
-
-- Product;
-- Organization;
-- Customer;
-- Trademark;
-- Matter;
-- Opportunity;
-- Task;
-- Workflow;
-- Communication;
-- Document;
-- Evidence;
-- Artifact;
-- Review;
-- Prepared Action;
-- Handoff;
-- Return;
-- Today;
-- Candidate families;
-- MarkReg;
-- MGSN;
-- Owning Service;
-- Product Edition;
-- Commercial Plan;
-- Entitlement;
-- Fulfillment Observation;
-- Product Increment;
-- Product Baseline;
-- Constitutional Change.
-
-### 6.2 Distinction matrix
-
-Create a compact authoritative index of recurring distinctions, including:
-
-```text
-Today item ≠ active Task
-Candidate ≠ formal truth
-Recommendation ≠ Decision
-User confirmation ≠ Human Review
-Content ≠ Artifact
-Artifact ≠ Document / Evidence / file
-Render complete ≠ approved
-Package ready ≠ externally completed
-Prepared Action ≠ execution
-Handoff ≠ destination acceptance
-Return ≠ Lite-owned formal truth
-Capability Need ≠ provider appointment
-Personal Memory ≠ Organization Memory
-Reusable Asset ≠ canonical Knowledge
-local readability ≠ synchronization / disclosure authority
-unknown outcome ≠ safe to retry
-Product identity ≠ Commercial Plan
-payment / premium edition ≠ authority
-```
-
-### 6.3 Figure register
-
-Candidate core figures:
-
-1. Lite position in the MarkOrbit architecture;
-2. four connected Product loops;
-3. Today daily operating sequence;
-4. Observation → Signal → Candidate → Recommendation → Disposition;
-5. four customer-growth sources and three reference journeys;
-6. professional work-product lifecycle;
-7. case/memory/Asset/Knowledge promotion path;
-8. common Handoff/Return model and destination ownership;
-9. Local/Private Hybrid Minimization flow;
-10. Customer Opportunity-to-Governed-Service MVP 0;
-11. Product Identity → Edition → Plan → Entitlement → Fulfillment;
-12. editorial / implementation / Increment / Baseline / constitutional change ladder.
-
-Figures must not select database, API, model or infrastructure design.
-
-### 6.4 Appendices and index
-
-Create or confirm:
-
-- controlled-record-to-chapter coverage appendix;
-- journey/scenario/Handoff/acceptance-criteria appendix;
-- reading routes;
-- abbreviation list;
-- subject index or generated index source;
-- figure list;
-- stable cross-reference anchors.
-
-### Acceptance criteria
-
-```text
-glossary coverage of controlled terms: complete
-recurring distinction matrix: complete
-figure register: approved
-figures rendered and semantically reviewed: complete
-controlled coverage appendix: complete
-reader navigation and index source: complete
-```
-
-### Branch / PR
+### Branch
 
 ```text
 agent/book-06-rc-hardening-b-reader-apparatus
-one coherent Draft PR
 ```
 
 ## 7. Work Package C — Source, Citation, Render and RC Validation
@@ -213,8 +139,8 @@ one coherent Draft PR
 - distinguish architecture authority from illustrative external facts;
 - identify claims requiring external verification;
 - verify temporally sensitive legal, commercial or technology examples;
-- add source notes where a reader may otherwise treat an example as authoritative law;
-- avoid turning illustrative examples into jurisdictional legal advice;
+- add source notes where examples could be mistaken for authoritative law;
+- avoid turning examples into jurisdictional legal advice;
 - validate all internal paths and cross-references.
 
 ### 7.2 Whole-book consistency checks
@@ -222,14 +148,14 @@ one coherent Draft PR
 - chapter numbering and title validation;
 - controlled term and capitalization check;
 - controlled ID uniqueness and coverage;
-- code-block and table syntax;
-- broken links;
+- Markdown, Mermaid, code-block and table syntax;
+- broken links and anchors;
 - orphan figures or appendices;
 - duplicate headings and anchors;
 - unresolved TODO, candidate or internal-process wording;
-- Book 01–05 and Book 07 boundary review;
+- Books 01–05 and Book 07 boundary review;
 - commercial-plan/Product separation;
-- implementation and production authorization check.
+- implementation and authorization checks.
 
 ### 7.3 Rendered validation
 
@@ -239,16 +165,16 @@ Validate at least:
 - PDF or equivalent long-form render;
 - headings and page breaks;
 - tables and code blocks;
-- figure legibility;
+- Mermaid figure rendering and legibility;
 - glossary and index navigation;
-- internal links;
+- internal links and anchors;
 - front matter and end matter;
 - missing assets and font substitution;
 - release manifest and immutable content baseline inputs.
 
-### 7.4 RC review
+### 7.4 Whole-book RC review
 
-Create a separate whole-book RC review that may decide:
+The separate RC review may decide:
 
 ```text
 PASS
@@ -267,34 +193,31 @@ whole-book rendered validation: PASS
 RC review: READY FOR OWNER DECISION
 ```
 
-### Branch / PR
+### Branch
 
 ```text
 agent/book-06-rc-hardening-c-source-render-review
-one coherent Draft PR
 ```
 
 ## 8. Work order
 
 ```text
 Whole-Book Complete Draft 1 — ACCEPTED
-→ Work Package A — COMPLETE ON OWNER MERGE
-→ Work Package B — AUTHORIZED NEXT
-→ Work Package C — sequential gate
+→ Work Package A — ACCEPTED
+→ Work Package B — ACCEPTED ON OWNER MERGE
+→ Work Package C — AUTHORIZED NEXT
 → owner Release Candidate decision
 ```
 
-The three packages must not be split into one branch per chapter.
+The work packages use one coherent branch and Draft PR each, not one branch per chapter.
 
 ## 9. Change escalation
 
-During hardening:
-
 - editorial clarification stays in the active hardening PR;
-- implementation questions are recorded for later Specification/ADR work;
-- Product Increment proposals are deferred to a controlled Product process;
-- Product Baseline changes require explicit review;
-- constitutional changes require Product Charter revision and cross-Book review.
+- implementation questions are deferred to later Specifications/ADRs;
+- Product Increment proposals use the controlled Product process;
+- Product Baseline changes require versioning and owner acceptance;
+- constitutional changes require Charter revision and cross-Book review.
 
 No RC hardening PR may silently change the Product.
 
@@ -302,9 +225,9 @@ No RC hardening PR may silently change the Product.
 
 ```text
 Whole-Book Complete Draft 1: ACCEPTED
-Work Package A acceptance on merge: AUTHORIZED
-Work Package B after merge: AUTHORIZED
-Work Package C: governed by sequential hardening gate
+Work Package A: ACCEPTED
+Work Package B acceptance on merge: AUTHORIZED
+Work Package C after merge: AUTHORIZED
 Release Candidate acceptance: NOT AUTHORIZED
 Implementation: NOT AUTHORIZED
 Production: NOT AUTHORIZED
