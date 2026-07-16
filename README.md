@@ -6,16 +6,16 @@ It is not a software Product repository.
 
 ## Repository Layout
 
-- `architecture/` — repository-level architecture canon, amendment candidates, impact assessments and reviews.
+- `architecture/` — active Canon, decision registers, amendments, impact assessments and reviews.
 - `books/` — canonical book directories.
 - `shared/` — shared editorial assets, glossary material, templates and diagrams.
 - `reviews/` — repository and portfolio review records.
 - `release/` — candidate baselines and release artifacts.
 - `codex/` — explicit implementation-task records.
 
-## Architecture Authority
+## Active Architecture Authority
 
-The maintained repository-level authority is [MarkOrbit Orbital Professional Operating Architecture vNext](architecture/MARKORBIT-ORBITAL-ARCHITECTURE-CANON-vNEXT.md).
+The active repository-level authority is [MarkOrbit Orbital Professional Operating Architecture vNext.1](architecture/MARKORBIT-ORBITAL-ARCHITECTURE-CANON-vNEXT.1.md), together with [Architecture Decision Register vNext.1](architecture/DECISION-REGISTER-vNEXT.1.md).
 
 ```text
 Each in its own orbit.
@@ -23,28 +23,41 @@ Connected by capability.
 Evolving together.
 ```
 
-## Workplace Sovereignty Amendment Gate
+The previous vNext Canon and Decision Register remain historical working-baseline records.
 
-The accepted audit and ADR direction are now followed by:
+## Workplace Sovereignty Constitution
 
 ```text
-MO-ARCH-AMEND-001
-Workplace Sovereignty Canon Amendment Candidate
+Workplace
+= Organization-scoped business-sovereignty,
+  accountability, permission, Product-operation
+  and projection boundary
+
+Core
+= shared semantic authority and capabilities
+
+Owning Service
+= formal business-state authority
+
+MGSN Connection / Gateway
+= Workplace-scoped projection and network interface
+
+MGSN Network
+= platform-owned and platform-governed provider supply,
+  procurement, routing, funds, fulfillment and Trust
 ```
 
-The amendment establishes:
+Five authority dimensions remain separate:
 
-- Workplace as the Organization-scoped business-sovereignty, accountability, Product-operation and projection boundary;
-- Core semantic authority separate from concrete-record business ownership;
-- Owning Service formal-state authority separate from Workplace business sovereignty;
-- Product Installation as the Workplace-scoped Product relationship;
-- MarkReg self-operated business as an isolated Workplace;
-- Lite as a lightweight Workplace Product with optional client projections;
-- Sites as a public-brand/content projection Product;
-- Workplace MGSN Connection separate from the platform-owned MGSN Network;
-- Originating Workplace, Execution Provider Workplace, Handoff and Return boundaries.
+```text
+Business sovereignty
+Semantic authority
+Formal-state authority
+Physical custody
+Legal / source authority
+```
 
-Book 02 remains frozen. The current assessment finds that no immediate Book 02 semantic Change Proposal is required.
+Book 02 remains frozen. `MO-B02-CPA-001` concludes that no immediate Book 02 semantic Change Proposal is required by this architecture clarification.
 
 ## Book Registry
 
@@ -53,16 +66,17 @@ Book 02 remains frozen. The current assessment finds that no immediate Book 02 s
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | Release Candidate 1 |
 | Book 02 | MarkOrbit Core Specification | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | Release Candidate 1 |
-| Book 04 | MarkOrbit Workplace and Product Architecture | Release Candidate 1 — Owner Accepted / Next-Version Correction Plan Ready |
+| Book 04 | MarkOrbit Workplace and Product Architecture | Release Candidate 1 — Historical / Next-Version Correction Planned |
 | Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | Release Candidate 1 — Approved and Frozen |
 | Book 06 | MarkOrbit Lite | Release Candidate 1 — Owner Accepted |
-| Book 07 | Mark Global Service Network | Charter Reconciliation Ready / Product Baseline Still Paused |
+| Book 07 | Mark Global Service Network | Reconciled Charter v0.1 — Ready for Owner Acceptance on Merge |
 
 ## Reconciled Book 07 Direction
 
 ```text
 Originating Workplace
 → authorized demand projection
+→ MGSN Connection / Gateway
 → platform-owned MGSN Network
 → controlled provider allocation / instruction
 → Execution Provider Workplace
@@ -70,19 +84,18 @@ Originating Workplace
 → Originating Workplace
 ```
 
-The existing platform-owned hub, R1–R3 routes, multi-provider supply, bounded choice, procurement, funds, fulfillment and operator-assisted MVP directions remain valid.
+The platform-owned hub, R1–R3 routes, multi-provider supply, bounded choice, procurement, funds, fulfillment, contextual demand/supply roles and operator-assisted MVP remain valid.
 
 ## Current Gate
 
 ```text
-Workplace Sovereignty Audit accepted
-→ MO-ARCH-AMEND-001 Owner acceptance
-→ Renewed Book 07 Charter Review
-→ Reconciled Charter acceptance
-→ only then Controlled Product Baseline Candidate
+Active Canon vNext.1
+→ B07-REV-0003 renewed Charter review: PASS
+→ Reconciled Charter ready for Owner acceptance
+→ Controlled Product Baseline Candidate next
 ```
 
-No Book 07 Product Baseline, Chapter Map, manuscript, schema, API, payment implementation, production routing or deployment is accepted or authorized.
+No Book 07 Product Baseline, Chapter Map, manuscript, schema, API, payment implementation, production routing or deployment is accepted in the current branch.
 
 ## Authority Boundary
 

@@ -1,14 +1,23 @@
-# Book 07 Validation Index
+# B07-VAL-0003 — Reconciled Charter Scope and Authority Check
 
-| ID | Validation | Result | Status |
-| --- | --- | --- | --- |
-| B07-VAL-0001 | Pre-Writing Audit Scope Check | PASS | Accepted |
-| B07-VAL-0002 | Original Charter Scope and Consistency Check | PASS | Historical |
-| B07-VAL-0003 | Reconciled Charter Scope and Authority Check | PASS | Ready for Owner Acceptance on Merge |
+## Status
 
-## Current Validation
+```text
+Result: PASS
+```
 
-`B07-VAL-0003` confirms:
+## Checked Baseline
+
+```text
+Active Canon vNext.1
+DECISION-REGISTER-vNEXT.1
+B07-PLN-0010
+B07-PLN-0011
+B07-PLN-0013
+B07-REV-0003
+```
+
+## Authority Checks
 
 ```text
 Workplace business sovereignty preserved: PASS
@@ -22,7 +31,7 @@ External route boundary present: PASS
 Automatic matching / appointment distinction present: PASS
 ```
 
-Scope remains controlled:
+## Scope Checks
 
 ```text
 Controlled Product Baseline files added: 0
@@ -34,4 +43,8 @@ Books 02–06 manuscript files modified: 0
 External Protected Action authorized: NO
 ```
 
+## Decision
+
 The reconciled Charter is eligible for Owner acceptance on merge and may authorize preparation of a Controlled Product Baseline Candidate.
+
+The validation does not accept the Product Baseline itself or authorize implementation, payment custody, provider appointment, production deployment or External Protected Action.
