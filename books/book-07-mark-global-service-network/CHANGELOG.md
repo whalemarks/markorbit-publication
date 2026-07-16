@@ -1,80 +1,62 @@
 # Book 07 Changelog
 
-## 2026-07-16 — Reconciled Charter and Active Canon vNext.1
+## 2026-07-16 — Controlled Product Baseline v0.1 Candidate
 
 Added:
 
-- `MARKORBIT-ORBITAL-ARCHITECTURE-CANON-vNEXT.1`;
-- `DECISION-REGISTER-vNEXT.1`;
-- `B07-REV-0003` — Reconciled Network and Product Charter Review;
-- `B07-VAL-0003` — Reconciled Charter Scope and Authority Check.
+- `B07-SPEC-0001` — MGSN Controlled Product Baseline Candidate;
+- `B07-SPEC-0002` — Product-Local Record Catalog;
+- `B07-SPEC-0003` — Reference Journeys and Conformance Scenarios;
+- `B07-SPEC-0004` — Handoff, Return and MVP Acceptance Baseline;
+- `B07-REV-0004` — Controlled Product Baseline Review;
+- `B07-VAL-0004` — Scope and Consistency Check;
+- Specifications index.
 
-Activated and reconciled:
-
-- Workplace as the Organization-scoped business-sovereignty and accountability boundary;
-- Product Installation and Projection;
-- Core semantic authority versus Workplace business sovereignty;
-- Owning Service formal-state authority;
-- MGSN Connection / Gateway versus platform-owned MGSN Network;
-- Originating Workplace and Execution Provider Workplace;
-- Handoff and Return continuity;
-- Book 07 Charter through `B07-PLN-0013`.
-
-Renewed review result:
+Controlled coverage:
 
 ```text
-B07-REV-0003: PASS
-B07-VAL-0003: PASS
+56 Product-local records
+8 Reference Journeys
+32 Conformance Scenarios
+10 Handoff / Return Contracts
+16 MVP Acceptance Criteria
+```
+
+The baseline preserves Workplace business sovereignty, platform-owned MGSN authority, Core and Owning Service boundaries, three routes, multi-provider supply, bounded choice, contextual roles, bidirectional introduction, procurement, funds, fulfillment and Trust governance.
+
+Review result:
+
+```text
+B07-REV-0004: PASS
+B07-VAL-0004: PASS
 Blocking findings: 0
 Major findings: 0
 Book 02 Change Proposal required now: NO
-Reconciled Charter ready for Owner acceptance: YES
 ```
 
-The Product Baseline, Chapter Map, manuscript and implementation remain unaccepted.
+The Chapter Map, manuscript and implementation remain unaccepted.
+
+## 2026-07-16 — Reconciled Charter and Active Canon vNext.1
+
+Added Active Canon vNext.1, Active Decision Register vNext.1, `B07-REV-0003` and `B07-VAL-0003`.
+
+Activated Workplace sovereignty, Product Installation, MGSN Connection / Network separation, Originating and Execution Provider Workplace responsibilities, Handoff and Return continuity, and the controlling `B07-PLN-0013` reconciliation.
 
 ## 2026-07-16 — Workplace Sovereignty Reconciliation
 
-Added:
-
-- `B07-PLN-0012` — Upstream Reconciliation Notice;
-- `B07-PLN-0013` — Workplace Sovereignty Charter Reconciliation.
-
-The existing Charter was retained rather than deleted. Its platform-owned MGSN, R1–R3, multi-provider supply, procurement, funds, fulfillment and MVP direction remained valid subject to the controlling reconciliation.
+Added `B07-PLN-0012` and `B07-PLN-0013`. The existing Charter was retained and reconciled.
 
 ## 2026-07-16 — Network and Product Charter v0.1
 
-Added:
-
-- `B07-PLN-0010` — MGSN Network and Product Charter Candidate;
-- `B07-PLN-0011` — Owner Decision Matrix;
-- `OD-01–OD-33`;
-- `B07-REV-0002` — original Charter Review;
-- `B07-VAL-0002` — original Charter Scope and Consistency Check.
-
-Charter direction:
-
-- platform-owned managed global service network;
-- central MGSN hub topology;
-- R1 External Self-Managed Route;
-- R2 Recommended Managed Route;
-- R3 Managed Preferred-Provider Route;
-- multi-provider supply portfolios;
-- bounded user choice;
-- platform wholesale and managed-service model;
-- procurement, funds and fulfillment governance;
-- Provider and Trust model;
-- operator-assisted international trademark service MVP.
+Added `B07-PLN-0010`, `B07-PLN-0011`, `OD-01–OD-33`, `B07-REV-0002` and `B07-VAL-0002`.
 
 ## 2026-07-16 — Pre-Writing Audit v0.1
 
-Added the Book 07 governance shell, authority review, platform-owned MGSN direction, three-route model, historical-input assessment and initial Product/experience analysis.
-
-Pre-Writing Audit v0.1 was accepted through owner merge of PR #78.
+Added the Book 07 governance shell, authority review, platform-owned MGSN direction, three-route model, historical-input assessment and Product/experience analysis.
 
 ## Current Next Gate
 
 ```text
-Owner acceptance of Reconciled Charter v0.1
-→ Controlled Product Baseline Candidate
+Owner acceptance of Controlled Product Baseline v0.1
+→ Chapter Map Candidate
 ```
