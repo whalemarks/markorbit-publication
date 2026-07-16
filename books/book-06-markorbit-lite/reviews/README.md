@@ -11,24 +11,30 @@
 - [B06-REV-0009 — Wave 4 Professional Work Products Review](B06-REV-0009_Wave_4_Professional_Work_Products_Review.md)
 - [B06-REV-0010 — Wave 5 Cases, Memory and Business Assets Review](B06-REV-0010_Wave_5_Cases_Memory_and_Business_Assets_Review.md)
 - [B06-REV-0011 — Wave 6 MarkOrbit Gateways and Continuity Review](B06-REV-0011_Wave_6_MarkOrbit_Gateways_and_Continuity_Review.md)
+- [B06-REV-0012 — Wave 7 Conformance, Economics and Evolution Review](B06-REV-0012_Wave_7_Conformance_Economics_and_Evolution_Review.md)
 
 ## Current gate
 
-`B06-REV-0011` confirms that CH26–CH29:
+`B06-REV-0012` confirms that CH30–CH33:
 
-- define `ML-H01–ML-H08` and destination-specific Handoff contracts;
-- preserve Handoff versus destination acceptance and Return versus Lite-owned formal truth;
-- define MarkReg Launch and Continuation without absorbing Product Session, Formal Intake, Matter or official action;
-- preserve Customer versus applicant identity and authority to instruct;
-- define MGSN Capability Need with staged disclosure and MGSN ownership of Trust, Routing and collaboration depth;
-- reject automatic provider appointment;
-- separate Human Review, Communication send, Opportunity formalization, Task/Workflow and Execution consequences;
-- preserve exact-version continuity and reject hidden one-click cascades;
-- preserve Local Only and Personal Private context under hybrid minimization;
-- preserve local readability versus synchronization, remote AI use and disclosure authority;
-- preserve more-information, rejected, unsupported, blocked, failed and unknown states;
-- reject blind retry where duplicate consequential action may occur;
-- introduce no Books 01–05 conflict or Book 07 preemption;
-- contain no blocking or major finding.
+- define MVP 0 as the complete Customer Opportunity-to-Governed-Service Loop;
+- project ML-AC-01–ML-AC-12 and preserve ML-AC-01–11 as mandatory;
+- reject content and prospect volume as sufficient Product proof;
+- separate Product value evaluation from Product conformance;
+- project ML-E01–ML-E04 and ML-SCN-01–ML-SCN-24;
+- preserve BLOCKING, MAJOR and STANDARD scenario severity;
+- define zero-tolerance conditions that usage and revenue cannot offset;
+- recognize blocked unsafe action as successful control behavior;
+- define ML-E05 Commercial Experiment and ML-E06 Entitlement/Fulfillment Observation;
+- separate Product identity, Product Edition, Commercial Plan, Entitlement and Fulfillment;
+- retain RMB 99, recurring content and Prospect Candidate supply as experiments;
+- require honest, usable and quality-gated fulfillment;
+- include AI, data, human, platform and destination cost in sustainable economics;
+- define Product Constitution, Product Baseline, Product Increment, implementation/ADR and commercial-plan evolution layers;
+- classify editorial, implementation, Product Increment, Product Baseline and constitutional changes;
+- preserve all Books 01–05 and MGSN authority boundaries;
+- contain no blocking, major or upstream finding.
 
-Owner merge accepts Wave 6 as Complete Draft 1 and authorizes Wave 7 CH30–CH33 drafting only.
+Owner merge accepts Wave 7 as Complete Draft 1 and completes all 34 chapter files.
+
+It authorizes a separate whole-book Complete Draft 1 review only. It does not itself accept the whole book as Complete Draft 1 or authorize Release Candidate status, implementation, production or distribution.

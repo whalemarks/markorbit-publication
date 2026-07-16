@@ -1,5 +1,35 @@
 # Book 06 Changelog
 
+## Wave 7 — Conformance, Economics and Evolution
+
+- drafted B06-CH-30–B06-CH-33 as Complete Draft 1;
+- defined MVP 0 as the Customer Opportunity-to-Governed-Service Loop;
+- projected ML-AC-01–ML-AC-12 and preserved ML-AC-01–11 as mandatory Product criteria;
+- rejected content volume, prospect volume, file generation and clicks as sufficient Product proof;
+- defined bounded Evaluation Runs, typed Outcome Observations, Reuse Evidence and Safety / Privacy Findings;
+- separated Product value evaluation from Product conformance;
+- projected ML-SCN-01–ML-SCN-24 and BLOCKING, MAJOR and STANDARD severity;
+- defined editorial zero-tolerance conditions without creating new controlled IDs;
+- recognized blocked unsafe action as successful control behavior;
+- defined negative tests, unknown-outcome reconciliation and finding closure evidence;
+- defined ML-E05 Commercial Experiment and ML-E06 Entitlement / Fulfillment Observation;
+- separated Product identity, Product Edition, Commercial Plan, Entitlement Window and Fulfillment Observation;
+- retained the RMB 99 monthly plan as a commercial hypothesis rather than Product constitution;
+- retained recurring/daily content and Prospect Candidate supply as plan options with quality gates;
+- required usable, format-correct and quality-gated fulfillment;
+- defined quota, replacement, service credit, upgrade, downgrade and cancellation treatment;
+- included AI, Render, TTS, data, storage, support, professional Review and destination costs in sustainable economics;
+- rejected weakening Product controls to preserve low price or margin;
+- defined six Product evolution layers and five change classes;
+- preserved Product Charter and Product Baseline authority over Product Increments, implementation/ADRs and plans;
+- retained historical V1 reconciliation and tool/provider neutrality;
+- defined the durable moat as governed context, work, outcomes, memory, Assets and ecosystem continuity;
+- added B06-REV-0012 — Wave 7 Conformance, Economics and Evolution Review;
+- found zero blocking, major or upstream findings;
+- completed all 34 planned chapter files on owner merge;
+- authorized a separate whole-book Complete Draft 1 review after merge;
+- did not accept whole-book Complete Draft 1 or authorize RC, implementation, production or distribution.
+
 ## Wave 6 — MarkOrbit Gateways and Continuity
 
 - drafted B06-CH-26–B06-CH-29 as Complete Draft 1;

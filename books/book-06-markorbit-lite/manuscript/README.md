@@ -15,9 +15,11 @@ Wave 2 — CH07–CH11: Complete Draft 1 — ACCEPTED
 Wave 3 — CH12–CH16: Complete Draft 1 — ACCEPTED
 Wave 4 — CH17–CH21: Complete Draft 1 — ACCEPTED
 Wave 5 — CH22–CH25: Complete Draft 1 — ACCEPTED
-Wave 6 — CH26–CH29: Complete Draft 1 — OWNER ACCEPTED ON MERGE
-Wave 7 — CH30–CH33: next after Wave 6 merge
+Wave 6 — CH26–CH29: Complete Draft 1 — ACCEPTED
+Wave 7 — CH30–CH33: Complete Draft 1 — OWNER ACCEPTED ON MERGE
 ```
+
+All 34 planned chapter files are drafted on Wave 7 merge. Whole-book Complete Draft 1 acceptance remains subject to a separate whole-book review.
 
 ## Wave 1 inventory
 
@@ -67,7 +69,14 @@ Wave 7 — CH30–CH33: next after Wave 6 merge
 - [B06-CH-28 — Review, Communication, Opportunity, Task and Execution Handoffs](B06-CH-28_Review_Communication_Opportunity_Task_and_Execution_Handoffs.md)
 - [B06-CH-29 — Local and Private Continuity, Failure and Unknown Outcomes](B06-CH-29_Local_and_Private_Continuity_Failure_and_Unknown_Outcomes.md)
 
-## Accepted argument through CH29
+## Wave 7 inventory
+
+- [B06-CH-30 — MVP 0: Customer Opportunity to Governed Service](B06-CH-30_MVP_0_Customer_Opportunity_to_Governed_Service.md)
+- [B06-CH-31 — Evaluation, Conformance and Zero-Tolerance Conditions](B06-CH-31_Evaluation_Conformance_and_Zero_Tolerance_Conditions.md)
+- [B06-CH-32 — Commercial Plans, Entitlements and Sustainable Economics](B06-CH-32_Commercial_Plans_Entitlements_and_Sustainable_Economics.md)
+- [B06-CH-33 — Product Evolution Without Constitutional Drift](B06-CH-33_Product_Evolution_Without_Constitutional_Drift.md)
+
+## Complete manuscript argument
 
 ```text
 Product Constitution
@@ -75,11 +84,10 @@ Product Constitution
 → Customer and Service Growth
 → Professional Work Products
 → Cases, Memory and Business Assets
-→ typed MarkReg and MGSN gateways
-→ Review / Communication / Opportunity / Task / Execution Handoffs
-→ destination revalidation and typed Return
-→ Local / Private continuity
-→ safe handling of rejection, failure and unknown outcomes
+→ MarkOrbit Gateways and Continuity
+→ MVP, Conformance and Zero-Tolerance Conditions
+→ Commercial Plans and Sustainable Economics
+→ Product Evolution Without Constitutional Drift
 ```
 
 ## Authority
@@ -93,4 +101,12 @@ Product Charter v0.3
 
 Specifications remain authoritative over simplified chapter explanation.
 
-Manuscript status does not authorize implementation, production, public/commercial distribution, autonomous professional action or External Protected Action.
+## Next gate
+
+```text
+Wave 7 owner merge
+→ Whole-Book Complete Draft 1 Review
+→ owner acceptance only after findings are closed
+```
+
+Manuscript completion does not authorize Release Candidate status, implementation, production, public/commercial distribution, autonomous professional action or External Protected Action.
