@@ -17,10 +17,11 @@ Wave 4 — CH17–CH21: Complete Draft 1 — ACCEPTED
 Wave 5 — CH22–CH25: Complete Draft 1 — ACCEPTED
 Wave 6 — CH26–CH29: Complete Draft 1 — ACCEPTED
 Wave 7 — CH30–CH33: Complete Draft 1 — ACCEPTED
-Whole-Book Complete Draft 1: OWNER ACCEPTED ON B06-REV-0013 MERGE
+Whole-Book Complete Draft 1: ACCEPTED
+RC Hardening A: OWNER ACCEPTED ON B06-REV-0014 MERGE
 ```
 
-All 34 planned chapter files are present. `B06-REV-0013` finds no blocking, major or upstream conflict and authorizes Release Candidate hardening.
+All 34 chapter files are present. Hardening A audited every chapter, modified 23 reader-facing files, normalized 34 of 34 chapter headers and changed no chapter ID, title, order or controlled Product meaning.
 
 ## Front Matter and Part I
 
@@ -102,16 +103,17 @@ Product Charter v0.3
 
 Specifications remain authoritative over simplified chapter explanation.
 
-## Whole-book review and next gate
+## Review and next gate
 
 - [B06-REV-0013 — Whole-Book Complete Draft 1 Review](../reviews/B06-REV-0013_Whole_Book_Complete_Draft_1_Review.md)
+- [B06-REV-0014 — RC Hardening A Review](../reviews/B06-REV-0014_RC_Hardening_A_Editorial_and_Structural_Normalization_Review.md)
 - [B06-PLN-0008 — Release Candidate Hardening Plan](../planning/B06-PLN-0008_Release_Candidate_Hardening_Plan.md)
 
 ```text
-Whole-Book Complete Draft 1 owner merge
-→ RC Hardening A — Editorial and Structural Normalization
-→ RC Hardening B — Reader Apparatus
+Whole-Book Complete Draft 1 — ACCEPTED
+→ RC Hardening A — OWNER ACCEPTED ON MERGE
+→ RC Hardening B — Reader Apparatus — AUTHORIZED NEXT
 → RC Hardening C — Source, Render and RC Review
 ```
 
-Whole-book acceptance does not authorize Release Candidate status, implementation, production, public/commercial distribution, autonomous professional action or External Protected Action.
+Hardening A does not authorize Release Candidate status, implementation, production, public/commercial distribution, autonomous professional action or External Protected Action.
