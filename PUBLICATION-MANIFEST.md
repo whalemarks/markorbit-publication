@@ -24,12 +24,12 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](gov
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
 | Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Release Candidate 1 — Approved and Frozen |
-| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | RC Hardening A — Editorial and Structural Normalization — Owner Accepted on Merge |
+| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | RC Hardening B — Reader Apparatus — Owner Acceptance on Merge |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
 
 Book 05 is frozen through its accepted RC1 content baseline, permanent release record and `release/book-05-rc1` pointer.
 
-Book 06 Product Charter v0.3, Product Baseline v0.1, Chapter Map B06-TOC-V0.1, Waves 1–7 and the Whole-Book Complete Draft 1 are accepted. `B06-REV-0014` records RC Hardening A with no blocking, major or upstream findings. Release Candidate status remains unaccepted.
+Book 06 Product Charter v0.3, Product Baseline v0.1, Chapter Map `B06-TOC-V0.1`, Waves 1–7, Whole-Book Complete Draft 1 and RC Hardening A are accepted. `B06-REV-0015` records RC Hardening B with no blocking, major or upstream findings. Release Candidate status remains unaccepted.
 
 ## Planned Book Positioning
 
@@ -82,35 +82,33 @@ B06-CH-00–B06-CH-33
 Whole-Book Complete Draft 1 — ACCEPTED
 ```
 
-Whole-book review result:
+Reader Apparatus:
 
 ```text
-Mechanical completeness: PASS
-Cross-Part continuity: PASS
-Product Charter coverage: PASS
-Product Baseline coverage: PASS
-Controlled-term meaning integrity: PASS
-Cross-Book boundary integrity: PASS
-Commercial/Product separation: PASS
-Implementation boundary: PASS
-Blocking findings: 0
-Major findings: 0
-Upstream findings: 0
-Change Proposal required: NO
+B06-APP-0001 — Controlled Term Glossary
+B06-APP-0002 — Core Distinction Matrix
+B06-APP-0003 — Abbreviations and Controlled ID Guide
+B06-APP-0004 — Figure Register and Semantic Diagrams
+B06-APP-0005 — Controlled Record Coverage
+B06-APP-0006 — Journey, Scenario, Handoff and Acceptance Coverage
+B06-APP-0007 — Subject Index
 ```
 
-RC Hardening A result:
+Hardening B result:
 
 ```text
-Review: B06-REV-0014
-Chapter files audited: 34
-Chapter files modified: 23
-Normalized chapter headers: 34 / 34
-Internal wave-merge metadata remaining: 0
-CH01 internal drafting-wave content: removed
-CH33 reader-facing evolution sequence: applied
-Chapter ID/title/order changes: 0
-Controlled meaning changes: 0
+Review: B06-REV-0015
+Glossary entries: 63
+Core distinctions: 30
+Semantic figure sources: 12 / 12
+Product-local records covered: 45 / 45
+Reference journeys: 4 / 4
+Conformance scenarios: 24 / 24
+Handoff contracts: 8 / 8
+MVP acceptance criteria: 12 / 12
+Stable anchors and subject index: complete
+Cross-format rendered validation: OPEN — HARDENING C
+Product Charter / Baseline / Chapter Map changes: 0
 Blocking findings: 0
 Major findings: 0
 Upstream findings: 0
@@ -134,21 +132,12 @@ Product Constitution
 Release Candidate requirement status:
 
 ```text
-RC-H01 — chapter metadata normalization: CLOSED ON HARDENING A MERGE
-RC-H02 — reader-facing governance cleanup: CLOSED ON HARDENING A MERGE
-RC-H03 — controlled terms and distinction apparatus: OPEN — HARDENING B
-RC-H04 — repetition and cross-reference hardening: CLOSED ON HARDENING A MERGE
-RC-H05 — figures, appendices and index: OPEN — HARDENING B
-RC-H06 — source, citation and rendered validation: OPEN — HARDENING C
-```
-
-Hardening order:
-
-```text
-Work Package A — Editorial and Structural Normalization — OWNER ACCEPTED ON MERGE
-→ Work Package B — Reader Apparatus — AUTHORIZED NEXT
-→ Work Package C — Source, Render and RC Review
-→ owner Release Candidate decision
+RC-H01 — CLOSED ON HARDENING A MERGE
+RC-H02 — CLOSED ON HARDENING A MERGE
+RC-H03 — CLOSED ON HARDENING B MERGE
+RC-H04 — CLOSED ON HARDENING A MERGE
+RC-H05 — CLOSED ON HARDENING B MERGE
+RC-H06 — OPEN — HARDENING C
 ```
 
 RMB 99, recurring/daily content, Prospect Candidate quantity, Asset limits, Handoff support levels and quotas remain commercial experiments rather than Product constitution.
@@ -180,8 +169,8 @@ Books 01–04 Portfolio Baseline
 → Book 06 Chapter Map v0.1 accepted
 → Book 06 Waves 1–7 accepted
 → Book 06 Whole-Book Complete Draft 1 accepted
-→ RC Hardening A owner merge
-→ RC Hardening B
+→ RC Hardening A accepted
+→ RC Hardening B owner merge
 → RC Hardening C and RC Review
 → owner Release Candidate decision
 ```
@@ -190,7 +179,9 @@ All 34 Book 06 chapter files drafted: **YES**
 
 Whole-book Complete Draft 1 accepted: **YES**
 
-RC Hardening A ready for owner acceptance on merge: **YES**
+RC Hardening A accepted: **YES**
+
+RC Hardening B ready for owner acceptance on merge: **YES**
 
 Ready for Book 06 Release Candidate: **NO**
 
