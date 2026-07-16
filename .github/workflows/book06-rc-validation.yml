@@ -19,6 +19,8 @@ jobs:
   validate-and-render:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      SOURCE_COMMIT: ${{ github.event.pull_request.head.sha || github.sha }}
 
     steps:
       - name: Check out publication source
@@ -33,7 +35,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Install publication validation dependencies
         run: |
@@ -69,7 +71,7 @@ jobs:
           python tools/book06_rc_validate.py \
             --book-dir books/book-06-markorbit-lite \
             --output-dir artifacts/book06-rc \
-            --source-commit "$GITHUB_SHA"
+            --source-commit "$SOURCE_COMMIT"
 
       - name: Show validation report
         if: always()
@@ -82,7 +84,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: book06-rc-validation-${{ github.sha }}
+          name: book06-rc-validation-${{ github.event.pull_request.head.sha || github.sha }}
           path: artifacts/book06-rc/
           if-no-files-found: error
           retention-days: 30
