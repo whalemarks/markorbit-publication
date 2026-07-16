@@ -19,6 +19,7 @@ Ready for Owner Acceptance on Merge
 | B07-PLN-0006 | Owner Decisions and Open Questions | Owner Direction Incorporated / Charter Questions Open |
 | B07-PLN-0007 | Delivery Route, Matching and Continuity Model | Ready for Owner Acceptance on Merge |
 | B07-PLN-0008 | Authority and Source Map | Ready for Owner Acceptance on Merge |
+| B07-PLN-0009 | Network Topology and Private-Space Boundary | Ready for Owner Acceptance on Merge |
 
 ## Owner-Confirmed Planning Direction
 
