@@ -16,7 +16,7 @@ The Product thesis is:
 Platform-governed global supply
 + aggregated professional demand
 + unified procurement
-+ controlled routing
++ hub-controlled routing
 + funds and fulfillment protection
 + bounded user choice
 + provider outcome learning
@@ -27,7 +27,7 @@ Platform-governed global supply
 
 ### Architectural identity
 
-> MGSN is the platform-owned network responsibility that organizes, procures, governs and evolves global professional service capability.
+> MGSN is the platform-owned network hub that organizes, procures, governs and evolves global professional service capability.
 
 ### User-facing identity
 
@@ -37,9 +37,25 @@ Platform-governed global supply
 
 > One trusted platform interface can turn a locally limited professional into a globally capable service operator.
 
+## Network Topology
+
+```text
+Demand-side Workplace / Lite
+            ↓
+          MGSN
+            ↑
+Provider Workplace / Provider Interface
+```
+
+All demand-side and provider-side participants connect to MGSN.
+
+The Product does not establish an independent peer-to-peer network among them.
+
+The user experiences access to global capability, not ownership of or unrestricted direct connectivity to the underlying provider network.
+
 ## Product Wedge
 
-The first wedge should not be an open directory.
+The first wedge should not be an open directory or a user-managed provider network.
 
 The preferred wedge is:
 
@@ -52,16 +68,29 @@ platform-curated provider coverage
 → reliable cross-border service fulfillment
 ```
 
-Private relationships may be imported or referenced, but once the user requests MGSN-managed service, the service follows platform rules where required.
+A user may suggest a historical foreign associate to the platform. That associate may become an MGSN supply candidate after platform review and agreement.
 
-A user's historical foreign associate may become:
+The introduction does not create a user-owned MGSN subnetwork or a platform-bypass route.
 
-- an MGSN provider candidate;
-- a user-preferred provider;
-- a platform-approved supply relationship;
-- a direct external route outside MGSN.
+If a user chooses to obtain service entirely outside MGSN, that is an external activity outside MGSN guarantees, records and Product scope. Book 07 does not model it as an MGSN network route.
 
-These routes must remain distinguishable.
+## Private-Space Model
+
+The user operates through a private Workplace or Lite space containing customers, contacts, internal relationships, pricing, documents, knowledge, memory and approvals.
+
+The provider operates through a private Workplace or provider-side interface containing its internal people, methods, workload, evidence and professional work.
+
+MGSN connects authorized projections from both private spaces without merging them.
+
+```text
+User-private context
+→ authorized MGSN projection
+→ platform service context
+→ provider-permitted projection
+→ provider result
+→ MGSN validation and Return
+→ user-private space
+```
 
 ## Core Product Loops
 
@@ -69,12 +98,12 @@ These routes must remain distinguishable.
 
 ```text
 Capability gap
-→ provider recruitment
+→ provider recruitment or application
 → identity and qualification review
 → service and jurisdiction coverage
 → commercial negotiation
 → platform admission
-→ active supply
+→ active MGSN supply
 ```
 
 ### Loop 2 — Service Procurement
@@ -92,12 +121,13 @@ Demand aggregation
 
 ```text
 User service need
+→ authorized projection from Workplace or Lite
 → capability and service typing
 → eligibility and policy gates
 → platform routing
 → option or recommendation presentation
 → bounded user decision
-→ provider allocation or next step
+→ platform allocation or next step
 ```
 
 ### Loop 4 — Funds and Commitment
@@ -105,7 +135,7 @@ User service need
 ```text
 customer or user payment condition
 → platform funds control
-→ provider commitment
+→ provider commitment through MGSN
 → milestone or completion evidence
 → governed release
 → settlement and reconciliation
@@ -114,13 +144,13 @@ customer or user payment condition
 ### Loop 5 — Fulfillment
 
 ```text
-instruction package
+MGSN instruction package
 → provider acceptance
-→ service delivery
+→ service delivery through governed collaboration
 → status and evidence
 → exception and escalation
 → correction or replacement
-→ completion
+→ completion and Return
 ```
 
 ### Loop 6 — Provider Evolution
@@ -128,7 +158,7 @@ instruction package
 ```text
 outcome and delivery evidence
 → platform review
-→ capability and trust update
+→ capability and Trust update
 → routing consequence
 → reward, restriction, suspension or retirement
 ```
@@ -138,7 +168,7 @@ outcome and delivery evidence
 ```text
 repeated MGSN use
 → wider jurisdiction coverage
-→ better service selection
+→ better use of global service capability
 → accumulated platform-supported experience
 → stronger customer proposition
 → more demand
@@ -147,28 +177,42 @@ repeated MGSN use
 
 ## Experience Architecture Candidate
 
-The primary user experience should be designed around service completion, not provider browsing.
+The primary user experience should be designed around service completion, not provider browsing or network relationship management.
 
-Candidate surfaces:
+Candidate demand-side surfaces:
 
 ```text
+Private Workplace / Lite Space
 Global Capability Coverage
 Service Need Workspace
-Service Options and Constraints
-Platform Recommendation
+Platform Service Options
 Commercial Offer
 Funds and Milestone Status
-Collaboration and Delivery Room
+MGSN Collaboration Room
 Outcome and Exception Center
 Capability Expansion Dashboard
 ```
 
-A provider directory may exist for controlled discovery, but it is not the main Product identity.
+Candidate provider-side surfaces:
+
+```text
+Provider Private Space
+Capability and Evidence Submission
+MGSN Service Invitations
+Acceptance and Conditions
+Milestone and Delivery Workspace
+Settlement Status
+Correction and Dispute Center
+```
+
+A provider directory may exist for limited platform-controlled discovery, but it is not the main Product identity and does not create direct participant connections.
 
 ## Design Principles
 
 ```text
 Capability Before Provider
+MGSN Hub Before Lateral Connection
+Private Space Before Shared Projection
 Platform Reliability Before Open Choice
 Evidence Before Promotion
 Eligibility Before Allocation
@@ -188,15 +232,16 @@ User autonomy should be segmented.
 
 Potential platform decisions include:
 
-- provider admission;
-- provider suspension;
+- provider admission and suspension;
+- provider supply and coverage;
 - minimum evidence;
 - eligible provider set;
-- procurement model;
-- funds routing;
-- settlement conditions;
+- procurement model and negotiated provider cost;
+- routing and allocation rules;
+- funds routing and settlement conditions;
 - mandatory service package components;
 - security and disclosure boundaries;
+- provider identity and contact disclosure stages;
 - replacement or escalation policy;
 - which interface may execute a network action.
 
@@ -204,28 +249,28 @@ Potential platform decisions include:
 
 Potential user decisions include:
 
-- service need and customer objective;
-- permitted budget or customer price;
+- customer objective and service need;
+- which customer data may be projected into MGSN;
+- permitted customer budget or customer-facing price where authorized;
 - urgency and service depth;
-- approval of disclosed options;
-- preferred provider where the model permits preference;
-- acceptance of customer-facing offer;
+- acceptance of the platform offer;
+- approval of disclosed options where the model permits choice;
 - final instruction where professional or commercial authority requires it;
 - dispute or correction request.
 
-### Shared decisions
+### Shared or staged decisions
 
 Shared or staged decisions may include:
 
-- selection among platform-qualified providers;
+- selection among platform-qualified options where offered;
 - exception approval;
-- substitution;
+- provider substitution;
 - additional service scope;
 - disclosure of sensitive customer context.
 
 ## Provider Experience
 
-Providers should not feel like anonymous gig workers.
+Providers should not feel like anonymous gig workers, but they participate as MGSN supply rather than as direct members of a peer-to-peer network.
 
 The provider proposition may include:
 
@@ -240,6 +285,7 @@ The provider proposition may include:
 
 In return, providers accept:
 
+- connection to MGSN through an approved provider interface;
 - platform admission and monitoring;
 - negotiated commercial terms;
 - service-level requirements;
@@ -247,7 +293,7 @@ In return, providers accept:
 - milestone evidence;
 - platform settlement rules;
 - correction, suspension and audit procedures;
-- restrictions against unauthorized bypass where contractually permitted.
+- restrictions against unauthorized direct relationship formation or bypass where contractually permitted.
 
 ## Closed-Network Experience
 
@@ -256,36 +302,39 @@ Relative closure may be expressed through:
 - invitation or verified admission;
 - non-public demand;
 - controlled provider visibility;
-- masked contact until a permitted stage;
-- platform-mediated communication where required;
+- masked contact until a permitted service stage;
+- platform-mediated communication;
 - platform-managed funds;
 - service-package standardization;
 - limited data export;
 - traceable instruction and delivery;
-- controlled provider-client relationship transition.
+- no participant-to-participant network graph;
+- no provider-contact portability by default.
 
 Closed operation must still offer sufficient transparency for trust:
 
 - provider identity at the appropriate stage;
 - service scope;
 - evidence and qualification status;
-- price and inclusion clarity;
+- platform offer and inclusion clarity;
 - milestone and funds status;
 - platform responsibility;
 - dispute and appeal routes.
 
 ## Visual Direction
 
-MGSN should not look like a public e-commerce marketplace.
+MGSN should not look like a public e-commerce marketplace or social graph.
 
 The visual language should communicate:
 
 ```text
+Independent private spaces
+Central MGSN hub
 Global coverage
 Controlled gateways
 Capability routes
 Protected funds
-Verified nodes
+Verified provider nodes
 Service continuity
 Platform coordination
 Network evolution
@@ -293,15 +342,16 @@ Network evolution
 
 Preferred metaphors:
 
-- orbital routes;
-- governed gateways;
+- a central orbital hub with governed spokes;
 - capability coverage maps;
-- verified service nodes;
+- controlled gateways;
+- verified service nodes connected to MGSN;
 - protected transaction and fulfillment paths;
 - network growth over time.
 
 Avoid dominant metaphors of:
 
+- mesh or peer-to-peer network;
 - auction;
 - bidding hall;
 - seller storefront;
@@ -315,9 +365,10 @@ A bounded MVP may test:
 
 ```text
 platform provider inventory
++ provider-side MGSN connection
 + capability and jurisdiction coverage
 + service package and procurement terms
-+ typed service need
++ demand-side Workplace / Lite request
 + eligibility and routing
 + platform commercial offer
 + controlled payment
@@ -325,6 +376,7 @@ platform provider inventory
 + milestone reporting
 + funds release
 + outcome and provider update
++ Return to the demand-side private space
 ```
 
 This is a candidate for later Charter review, not an accepted commitment.
@@ -334,7 +386,7 @@ This is a candidate for later Charter review, not an accepted commitment.
 Useful measures include:
 
 - capability coverage by jurisdiction and service;
-- percentage of qualified needs with an eligible route;
+- percentage of qualified needs with an eligible MGSN route;
 - procurement advantage versus fragmented one-off buying;
 - provider response and acceptance reliability;
 - payment-to-delivery safety;
@@ -345,6 +397,6 @@ Useful measures include:
 - platform margin after support, risk and failure cost;
 - provider retention;
 - user global-coverage expansion;
-- unauthorized bypass, disclosure or funds incidents.
+- unauthorized bypass, lateral relationship, disclosure or funds incidents.
 
 Raw provider count or page views do not prove the Product.
