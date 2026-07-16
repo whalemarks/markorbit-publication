@@ -9,13 +9,13 @@ Architecture Canon
 → Book 06 Product Charter v0.3
 → Book 06 Product Baseline v0.1
 → B06-TOC-V0.1
-→ controlled manuscript waves
-→ Whole-Book Complete Draft 1
-→ Release Candidate hardening and review
+→ B06-CH-00–B06-CH-33
+→ B06-APP-0001–B06-APP-0007 Reader Apparatus
+→ Source, Render and RC Validation
 → implementation specifications / ADRs
 ```
 
-Specifications remain authoritative over manuscript simplification.
+Specifications remain authoritative over chapter prose and Reader Apparatus.
 
 ## 2. Book responsibility
 
@@ -39,66 +39,47 @@ ML-HC-01–HC-08
 ML-AC-01–AC-12
 ```
 
-## 4. Accepted Chapter Map
+## 4. Accepted Chapter Map and manuscript
 
 ```text
 B06-TOC-V0.1
 B06-CH-00–B06-CH-33
 7 Parts plus Front Matter
+34 / 34 chapter files
+Whole-Book Complete Draft 1 — ACCEPTED
 ```
-
-## 5. Manuscript rule
-
-Every chapter must:
-
-- project the accepted Charter and Specifications;
-- preserve Product/formal-state distinctions;
-- avoid silent upstream change;
-- avoid implementation-specific commitments;
-- keep commercial experiments subordinate to Product identity;
-- connect its argument to the accepted chapter role.
 
 A manuscript chapter may explain a controlled record but may not change its meaning.
 
-## 6. Accepted manuscript waves
+## 5. Reader Apparatus rule
+
+Reader Apparatus uses publication IDs `B06-APP-*` and may:
+
+- define reader-facing glossary entries;
+- collect recurring distinctions;
+- provide abbreviations and controlled-ID guidance;
+- visualize accepted relationships through semantic figures;
+- map records, journeys, scenarios, Handoff contracts and criteria to chapters;
+- provide reading routes, anchors and a subject index.
+
+Reader Apparatus may not:
+
+- create or redefine `ML-*` records;
+- change Product Charter, Product Baseline or Chapter Map;
+- add implementation schema, database tables, APIs or providers;
+- transfer formal ownership or authority;
+- claim runtime conformance;
+- claim rendered-publication completion before Work Package C.
 
 ```text
-Wave 1 — B06-CH-00–B06-CH-06 + B06-REV-0006: ACCEPTED
-Wave 2 — B06-CH-07–B06-CH-11 + B06-REV-0007: ACCEPTED
-Wave 3 — B06-CH-12–B06-CH-16 + B06-REV-0008: ACCEPTED
-Wave 4 — B06-CH-17–B06-CH-21 + B06-REV-0009: ACCEPTED
-Wave 5 — B06-CH-22–B06-CH-25 + B06-REV-0010: ACCEPTED
-Wave 6 — B06-CH-26–B06-CH-29 + B06-REV-0011: ACCEPTED
-Wave 7 — B06-CH-30–B06-CH-33 + B06-REV-0012: ACCEPTED
+Product Charter / Specifications / Chapter Map
+→ chapter prose
+→ Reader Apparatus
 ```
 
-## 7. Whole-Book Complete Draft 1
+A conflict is resolved upward in that order.
 
-`B06-REV-0013` examines:
-
-- 34-file mechanical completeness;
-- cross-Part continuity;
-- Product Charter and Product Baseline coverage;
-- controlled-term meaning integrity;
-- duplicate and conflicting explanation;
-- cross-Book boundaries;
-- commercial/Product separation;
-- implementation boundary;
-- reader apparatus and RC needs.
-
-Decision:
-
-```text
-PASS WITH RC HARDENING REQUIRED
-Blocking findings: 0
-Major findings: 0
-Upstream findings: 0
-Change Proposal required: NO
-```
-
-Whole-Book Complete Draft 1 is accepted. It does not itself grant Release Candidate status.
-
-## 8. Whole-book integrity locks
+## 6. Whole-book integrity locks
 
 ```text
 Today item ≠ active Task
@@ -121,57 +102,61 @@ Product identity ≠ Commercial Plan
 payment / premium edition ≠ authority
 ```
 
-## 9. RC hardening rule
+## 7. RC hardening governance
 
 Release Candidate hardening is governed by `B06-PLN-0008`:
 
 ```text
 Work Package A — Editorial and Structural Normalization
 Work Package B — Reader Apparatus
-Work Package C — Source, Render and RC Review
+Work Package C — Source, Citation, Render and RC Validation
 ```
 
 Hardening may clarify, normalize, compress and add reader aids. It may not silently change Product Charter, Product Baseline, Chapter Map, formal ownership or Human/External Action authority.
 
-## 10. RC Hardening A
+## 8. RC Hardening A
 
 `B06-REV-0014` records:
 
 ```text
 34 / 34 chapter headers normalized
-23 chapter files modified
-internal wave-merge wording in chapter metadata: 0
-internal drafting-wave section in CH01: removed
-CH33 reader-facing evolution sequence: applied
+internal wave-merge metadata remaining: 0
 chapter ID/title/order changes: 0
 controlled meaning changes: 0
-blocking findings: 0
-major findings: 0
-upstream findings: 0
-Change Proposal required: NO
+blocking / major / upstream findings: 0
 ```
 
-Work Package A closes:
+Work Package A closes `RC-H01`, `RC-H02` and `RC-H04`.
+
+## 9. RC Hardening B
+
+`B06-REV-0015` records:
 
 ```text
-RC-H01 — chapter metadata normalization
-RC-H02 — reader-facing governance cleanup
-RC-H04 — repetition and cross-reference hardening
+B06-APP-0001–B06-APP-0007 complete
+Glossary entries: 63
+Core distinctions: 30
+Semantic figure sources: 12
+Product-local records covered: 45 / 45
+Journeys / scenarios / Handoff contracts / acceptance criteria: complete
+Stable anchors and subject index: complete
+Product Charter / Baseline / Chapter Map changes: 0
+blocking / major / upstream findings: 0
 ```
 
-It does not close the remaining reader-apparatus or validation requirements.
+Work Package B closes `RC-H03` and `RC-H05` on owner merge.
 
-## 11. Remaining RC requirements
+Mermaid semantic sources are reviewed, but cross-format rendering, links, anchors, PDF/equivalent output, fonts and page placement remain Work Package C.
+
+## 10. Remaining RC requirement
 
 ```text
-RC-H03 — controlled terms and distinction apparatus: Work Package B
-RC-H05 — figures, appendices and index: Work Package B
 RC-H06 — source, citation and rendered validation: Work Package C
 ```
 
-All requirements must be closed before Release Candidate acceptance.
+Release Candidate acceptance requires closure of all RC requirements and a separate whole-book RC review.
 
-## 12. Commercial and evolution rules
+## 11. Commercial and evolution rules
 
 ```text
 Product Constitution
@@ -183,7 +168,7 @@ Product Constitution
 
 Price, content cadence, Prospect Candidate quantity, Render quota, support and Review level may change independently of the Product Charter.
 
-Changes must be classified as:
+Changes are classified as:
 
 ```text
 Class A — Editorial clarification
@@ -195,11 +180,11 @@ Class E — Constitutional change
 
 Class D requires Product Baseline versioning and owner acceptance. Class E requires Product Charter revision, cross-Book review and owner acceptance.
 
-## 13. Branch and PR rule
+## 12. Branch and PR rule
 
 RC hardening uses one coherent branch and Draft PR per work package. It must not create one branch per chapter unless a genuinely isolated correction requires separation.
 
-## 14. Owner gates
+## 13. Owner gates
 
 Owner acceptance is required for:
 
@@ -212,7 +197,7 @@ Owner acceptance is required for:
 - Release Candidate;
 - final publication.
 
-## 15. Current authorization
+## 14. Current authorization
 
 ```text
 Product Charter v0.3: ACCEPTED
@@ -220,8 +205,9 @@ Product Baseline v0.1: ACCEPTED
 Chapter Map v0.1: ACCEPTED
 Waves 1–7: ACCEPTED
 Whole-Book Complete Draft 1: ACCEPTED
-RC Hardening A: OWNER ACCEPTED ON MERGE
-RC Hardening B: AUTHORIZED AFTER MERGE
+RC Hardening A: ACCEPTED
+RC Hardening B acceptance on merge: AUTHORIZED
+RC Hardening C after merge: AUTHORIZED
 Release Candidate: NOT AUTHORIZED
 Implementation: NOT AUTHORIZED
 Production: NOT AUTHORIZED
