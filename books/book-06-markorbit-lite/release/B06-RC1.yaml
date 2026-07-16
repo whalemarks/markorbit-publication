@@ -1,0 +1,95 @@
+release:
+  id: "B06-REL-0003"
+  book: "Book 06"
+  title: "MarkOrbit Lite"
+  state: "release_candidate_1_frozen_on_owner_merge"
+  freeze_date: "2026-07-16"
+  content_baseline_commit: "7ce03755e03bb4876768a34a4ee3d2c3b74bddb1"
+  owner_decision_activation_commit: "060e807be90081977bcc322f1557b9fc950f5209"
+  release_pointer: "release/book-06-rc1"
+  owner_decision_record: "B06-REL-0002"
+  gate_review: "B06-REV-0016"
+  freeze_record: "B06-REL-0003_Book_06_RC1_Freeze_Record.md"
+
+inventory:
+  manuscript_files: 34
+  chapter_range: "B06-CH-00-B06-CH-33"
+  parts: 7
+  front_matter: true
+  reader_apparatus_files: 7
+  reader_apparatus_range: "B06-APP-0001-B06-APP-0007"
+  ordered_reader_facing_inputs: 41
+  specifications:
+    range: "B06-SPEC-0001-B06-SPEC-0004"
+    version: "v0.1"
+  product_charter: "B06-PLN-0004_v0.3"
+  chapter_map: "B06-TOC-V0.1"
+  semantic_figures: 12
+  product_local_records: 45
+  reference_journeys: 4
+  conformance_scenarios: 24
+  handoff_contracts: 8
+  acceptance_criteria: 12
+
+validation:
+  content_and_render:
+    workflow_run: 29477787207
+    validated_head: "7ce03755e03bb4876768a34a4ee3d2c3b74bddb1"
+    decision: "pass"
+    chapters_expected: 34
+    chapters_passed: 34
+    apparatus_expected: 7
+    apparatus_passed: 7
+    controlled_ids_expected: 93
+    controlled_ids_passed: 93
+    mermaid_expected: 12
+    mermaid_passed: 12
+    local_links_checked: 283
+    broken_local_links: 0
+    anchors_checked: 10
+    broken_anchors: 0
+    pdf_pages: 410
+    pdf_bytes: 842295
+    pdf_near_blank_pages: 0
+    blocking_findings: 0
+    major_findings: 0
+    warnings: 0
+    artifact_id: 8367264203
+    artifact_digest: "sha256:2446561090311a6d6e5912ebdc1e109a2b0e5cf525109db9eb3b0762ee27236b"
+  governance:
+    workflow_run: 29478801425
+    validated_head: "21c548006ce12de27a1793275c128ad3e1d95f04"
+    conclusion: "success"
+    artifact_id: 8367659673
+    artifact_digest: "sha256:dcfd3f85169f1275d38dd09e34f8338089bd4b6dbd90573a3ebe0dbd5c3819da"
+
+checksums:
+  combined_markdown: "sha256:1be848db2a0eeeb844f45d18d8a0513e9765c93a35029211f0ce3813af8df2f1"
+  html: "sha256:d8b285dcd79b270a6dedc96a3da239bdf95697ef10fa45f2d504d88da2762e8b"
+  pdf_validation_render: "sha256:28751ce7eafeb3bc018b7bf3f989bedf0652f50588b941c4e496ce9eb8eb9601"
+  validation_report_json: "sha256:785cfa01144e17e71c8cbeef52eb19e75f8f825cfa588b8255de396563cb170f"
+
+authority:
+  release_candidate_1_approved: true
+  release_candidate_1_frozen_on_owner_merge: true
+  final_branded_publication_approved: false
+  public_or_commercial_distribution_approved: false
+  product_implementation_authorized: false
+  production_deployment_authorized: false
+  autonomous_professional_action_authorized: false
+  external_protected_action_authorized: false
+
+change_control:
+  reader_facing_baseline_is_immutable: true
+  administrative_change_outside_source_set_changes_rc1: false
+  source_change_requires_renewed_validation: true
+  material_change_requires_new_candidate_baseline: true
+  material_change_requires_owner_decision: true
+  explicit_owner_supersession_required: true
+  release_pointer_must_not_move_to_different_baseline: true
+
+reference_object:
+  git_tag_created: false
+  github_release_created: false
+  release_branch_created_after_freeze_merge: true
+  reason: "Immutable SHAs plus permanent release records, a machine manifest and a dedicated release branch are used because the connected GitHub capability does not expose tag or GitHub Release creation."
