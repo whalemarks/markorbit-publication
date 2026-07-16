@@ -48,6 +48,7 @@ CHANGELOG.md
 book-07-state.yaml
 planning/README.md
 reviews/README.md
+validation/README.md
 validation/B07-VAL-0001_Pre-Writing_Audit_Scope_Check.md
 ```
 
