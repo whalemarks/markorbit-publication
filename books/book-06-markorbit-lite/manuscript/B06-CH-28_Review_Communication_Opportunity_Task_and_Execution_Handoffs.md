@@ -1,6 +1,11 @@
 # B06-CH-28 — Review, Communication, Opportunity, Task and Execution Handoffs
 
-## Chapter Role
+**Status:** Complete Draft 1  
+**Chapter Map:** B06-TOC-V0.1 — Owner Accepted  
+**Part:** Part VI — MarkOrbit Gateways and Continuity  
+**Primary controls:** ML-H01, ML-H05–ML-H08, ML-HC-03–ML-HC-07
+
+## Chapter Purpose
 
 This chapter explains why Lite must use distinct Handoff contracts for Review, Communication, Opportunity, Task and Execution rather than hiding all consequences behind one generic action button.
 
@@ -9,8 +14,6 @@ The central proposition is:
 > Different destinations create different formal consequences, so each Handoff must identify the exact decision, authority, version and result expected from that destination.
 
 Lite may orchestrate continuity across these services. It may not collapse their responsibilities into a single Product-local state.
-
----
 
 ## 1. A single “execute” action is unsafe
 
@@ -644,7 +647,7 @@ A conforming implementation should answer:
 - What happens when the result is unknown?
 - Is any protected action being implied or triggered?
 
-## 16. The typed-Handoff principle
+## Chapter Conclusion
 
 Lite should feel like one coherent Product while preserving multiple formal responsibility boundaries.
 
