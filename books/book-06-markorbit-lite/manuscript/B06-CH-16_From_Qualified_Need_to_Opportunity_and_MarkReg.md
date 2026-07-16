@@ -1,6 +1,6 @@
 # B06-CH-16 — From Qualified Need to Opportunity and MarkReg
 
-**Status:** Complete Draft 1 — Owner Accepted on Wave 3 Merge  
+**Status:** Complete Draft 1  
 **Chapter Map:** B06-TOC-V0.1 — Owner Accepted  
 **Part:** Part III — Customer and Service Growth
 
