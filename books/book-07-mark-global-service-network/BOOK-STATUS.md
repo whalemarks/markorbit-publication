@@ -4,56 +4,92 @@
 
 ```text
 Book 07 — Mark Global Service Network
-Pre-Writing Audit v0.1
-Ready for Owner Acceptance on Merge
+Pre-Writing Audit v0.1 — Owner Accepted
+Product and Experience Decision Lock — PASS
+Ready for Network and Product Charter Candidate v0.1
 ```
 
-## Accepted on Owner Merge
+## Accepted Pre-Writing Baseline
 
-Owner merge may accept:
+The accepted baseline includes:
 
-- platform-owned and platform-governed MGSN hub interpretation;
-- demand-side and provider-side hub topology;
-- participant private-space boundary;
+- platform-owned and platform-governed MGSN resources;
+- central MGSN hub topology;
+- participant private-space boundaries;
 - platform procurement, funds and fulfillment direction;
-- three delivery-route planning model;
-- default MGSN matching with final user confirmation;
-- Authority and Source Map;
-- Product, Platform and Experience Direction;
-- Authority, Ownership and Control Matrix;
-- Commercial, Procurement and Funds-Control hypotheses;
-- Historical Input Assessment;
-- Owner Decisions and Open Questions;
-- `B07-REV-0001`.
+- three delivery routes;
+- default platform matching with final user confirmation;
+- External Self-Managed Route continuity;
+- Books 01–06 authority and boundary review;
+- `B07-PLN-0001–0009`;
+- `B07-REV-0001`;
+- `B07-VAL-0001`.
 
-## Owner-Confirmed Planning Direction
+## Unified Product and Experience Direction
+
+The current Charter-candidate direction additionally establishes:
 
 ```text
-MGSN resources belong to and are governed by the platform.
+Organization is the stable participant.
+Demand and Supply are contextual roles.
 
-Demand-side users connect to MGSN.
-Providers connect to MGSN.
-MGSN does not create an independent lateral network.
+MGSN remains the central managed hub.
+No participant-owned peer-to-peer network is created.
 
-Private space means each participant's own
-Workplace, Lite or provider-side boundary.
+MGSN maintains multi-provider supply portfolios.
+Default user presentation:
+1 Recommended Route + up to 2 meaningful alternatives.
 
-External Self-Managed Routes remain permitted.
-They require manual evidence return and do not
-receive implied MGSN guarantees.
+Provider disclosure is staged.
+Direct contacts and procurement data remain controlled.
 
-When no suitable external route exists,
-MGSN performs the default best-route match.
-The user retains final confirmation.
+Demand and provider participants may introduce counterparties.
+Introduction requires independent onboarding.
+
+Introductions create Relationship Provenance,
+not automatic ownership or permanent exclusivity.
+
+Initial incentives are bounded and event-based.
+Default attribution period is 12 months,
+renewable through successful managed collaboration.
+
+Genuine pre-existing business may remain external.
+MGSN-originated business remains on the managed route.
+
+Dual-role permissions, payables, receivables,
+conflicts and audit contexts remain separated.
 ```
 
-## Route Planning Model
+## Controlled Interpretation
+
+```text
+B07-PLN-0001–0009
+→ accepted Pre-Writing authority and boundaries
+
+B07-PLN-0010
+→ supplemental multi-role and network-growth input
+
+B07-PLN-0011
+→ controlling Product and experience decision-lock candidate
+
+B07-PLN-0012
+→ current remaining Charter questions
+
+B07-REV-0002
+→ consistency review and readiness decision
+```
+
+Where earlier planning wording conflicts with `B07-PLN-0011`, the latter controls for Charter drafting.
+
+## Route Model
 
 ```text
 R1 — External Self-Managed Route
 R2 — MGSN Recommended Managed Route
 R3 — MGSN Managed Preferred-Provider Route
 ```
+
+The default MGSN-managed experience may present one recommendation plus up to two materially differentiated alternatives. This is bounded choice, not an open provider directory or bidding market.
 
 ## Current Findings
 
@@ -62,32 +98,39 @@ Architecture authority reviewed: PASS
 Books 01–06 boundary reviewed: PASS
 Product direction: PASS
 Experience direction: PASS
-Procurement/funds direction: PASS AS HYPOTHESIS FRAMEWORK
-Historical input assessment: PASS
+Participant-role consistency: PASS
+Multi-provider supply strategy: PASS
+Bidirectional introduction model: PASS
+Relationship protection model: PASS
+Dual-role finance and permission separation: PASS
+Publication boundary: PASS
+
 Blocking findings: 0
 Major findings: 0
 Upstream Change Proposal required: NO
+Ready for Charter Candidate: YES
 ```
 
 ## Next Gate
 
 ```text
-Book 07 Network and Product Charter Candidate
+Book 07 Network and Product Charter Candidate v0.1
 ```
 
-The Charter Candidate must constrain at least:
+The Charter Candidate must incorporate `CD-01–CD-12` from `B07-PLN-0011` and resolve or explicitly constrain:
 
-- MGSN legal/commercial role;
-- Provider ownership model;
-- collaboration-state ownership;
-- standing allocation mandate;
-- user-visible option model;
-- External Route Projection;
-- pricing and resale model;
+- MGSN legal and commercial role;
+- formal collaboration-record ownership;
+- Provider Profile and Capability ownership;
+- standing managed-service mandate;
 - funds holder and release model;
-- initial service scope and users;
-- initial provider cohort;
-- operator-assisted MVP boundary.
+- pricing authority;
+- service-category disclosure rules;
+- non-circumvention model;
+- initial service scope and participant cohort;
+- operator-assisted MVP boundary;
+- External Route continuity evidence;
+- related-party and self-routing policy.
 
 ## Not Authorized
 
@@ -101,12 +144,14 @@ API contracts
 Payment implementation
 Production deployment
 Peer-to-peer participant network
+Open provider directory
+Open bidding market
 Autonomous provider appointment
 External Protected Action
 ```
 
 ## Repository Integrity
 
-No Book 07 manuscript or Chapter Map should exist at this gate.
+No Book 07 manuscript, Chapter Map, Product Baseline, schema, API or runtime implementation should exist at this gate.
 
 Books 01–06 manuscript content remains unchanged.
