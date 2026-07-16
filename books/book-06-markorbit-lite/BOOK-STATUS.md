@@ -3,11 +3,13 @@
 ## Current status
 
 ```text
-WAVE 6 — CH26–CH29
+WAVE 7 — CH30–CH33
 COMPLETE DRAFT 1 — OWNER ACCEPTED ON MERGE
 ```
 
-Product Charter v0.3, Product Baseline v0.1, Chapter Map `B06-TOC-V0.1` and Waves 1–5 are accepted. The current PR drafts Part VI — MarkOrbit Gateways and Continuity.
+Product Charter v0.3, Product Baseline v0.1, Chapter Map `B06-TOC-V0.1` and Waves 1–6 are accepted. The current PR drafts Part VII — Conformance, Economics and Evolution.
+
+On merge, all 34 planned chapter files will exist. Whole-book Complete Draft 1 acceptance remains subject to a separate whole-book review.
 
 ## Product identity
 
@@ -47,58 +49,60 @@ Wave 2 — CH07–CH11: COMPLETE DRAFT 1 — ACCEPTED
 Wave 3 — CH12–CH16: COMPLETE DRAFT 1 — ACCEPTED
 Wave 4 — CH17–CH21: COMPLETE DRAFT 1 — ACCEPTED
 Wave 5 — CH22–CH25: COMPLETE DRAFT 1 — ACCEPTED
+Wave 6 — CH26–CH29: COMPLETE DRAFT 1 — ACCEPTED
 ```
 
-## Wave 6 acceptance set
+## Wave 7 acceptance set
 
 ```text
-B06-CH-26 — MarkReg Launch, Continuation and Return
-B06-CH-27 — MGSN Capability Need and Provider Boundaries
-B06-CH-28 — Review, Communication, Opportunity, Task and Execution Handoffs
-B06-CH-29 — Local and Private Continuity, Failure and Unknown Outcomes
-B06-REV-0011 — Wave 6 MarkOrbit Gateways and Continuity Review
+B06-CH-30 — MVP 0: Customer Opportunity to Governed Service
+B06-CH-31 — Evaluation, Conformance and Zero-Tolerance Conditions
+B06-CH-32 — Commercial Plans, Entitlements and Sustainable Economics
+B06-CH-33 — Product Evolution Without Constitutional Drift
+B06-REV-0012 — Wave 7 Conformance, Economics and Evolution Review
 ```
 
-## Wave 6 result
+## Wave 7 result
 
 ```text
 Chapter files drafted: 4
-Part VI complete: CH26–CH29
+Part VII complete: CH30–CH33
+Total planned chapter files on merge: 34 / 34
 Blocking findings: 0
 Major findings: 0
 Upstream findings: 0
 Change Proposal required: NO
 ```
 
-Wave 6 establishes:
+Wave 7 establishes:
 
-- `ML-H01` common Handoff Envelope and destination-specific contracts;
-- `ML-H02` Return Envelope Presentation without Lite ownership of formal truth;
-- `ML-H03` and `ML-HC-01` MarkReg Launch/Continuation Handoff;
-- Product Session, Formal Intake and Matter ownership remaining with MarkReg;
-- destination revalidation of applicant, authority, trademark, procedure, source and Review context;
-- `ML-H04` and `ML-HC-02` MGSN Capability Need Handoff;
-- staged disclosure and MGSN ownership of Trust, Routing and provider collaboration depth;
-- no automatic provider appointment;
-- `ML-H05–ML-H08` and `ML-HC-03–ML-HC-06` typed Review, Communication, Opportunity, Task and Execution Handoffs;
-- exact-version continuity and no hidden one-click cascade;
-- Local Only and Personal Private continuity under hybrid minimization;
-- `ML-SCN-23–24` destination revalidation and local-access controls;
-- specific more-information, rejected, unsupported, blocked, failed and unknown states;
-- unknown outcomes protected from blind retry;
-- `ML-E04` Safety / Privacy Finding for boundary defects.
+- MVP 0 as the complete Customer Opportunity-to-Governed-Service Loop;
+- ML-AC-01–ML-AC-11 as mandatory Product criteria and ML-AC-12 as required commercial evidence;
+- content and prospect volume as insufficient Product proof;
+- ML-E01–ML-E04 evaluation, outcome, reuse and safety/privacy evidence;
+- all ML-SCN-01–ML-SCN-24 scenario families and severity treatment;
+- zero-tolerance conditions that cannot be offset by usage or revenue;
+- blocked unsafe actions as successful control behavior;
+- ML-E05 Commercial Experiment and ML-E06 Entitlement/Fulfillment Observation;
+- Product identity, Edition, Commercial Plan, Entitlement and Fulfillment as separate layers;
+- RMB 99, recurring content and Prospect Candidate supply as experiments rather than Product constitution;
+- honest fulfillment, replacement, credits, unit economics and support/Review cost;
+- Product Constitution, Product Baseline, publication, Product Increment, implementation/ADR and commercial-plan evolution layers;
+- explicit change classes preventing constitutional drift;
+- the durable moat as governed context, work, outcomes, memory, Assets and ecosystem continuity.
 
-## Accepted gateway and continuity loop
+## Complete manuscript argument
 
 ```text
-Lite Candidate / Artifact / Qualified Need
-→ purpose-specific Handoff Envelope
-→ destination revalidation
-→ accepted / more information / rejected / blocked / failed / unknown
-→ formal reference or destination result
-→ Return Envelope Presentation
-→ Today Attention Item / Continuation State
-→ safe next action from the last trustworthy state
+Product Constitution
+→ Daily Operating Model
+→ Customer and Service Growth
+→ Professional Work Products
+→ Cases, Memory and Business Assets
+→ MarkOrbit Gateways and Continuity
+→ MVP and Conformance
+→ Commercial Plans and Sustainable Economics
+→ Product Evolution Without Constitutional Drift
 ```
 
 ## Drafting progress
@@ -109,47 +113,50 @@ Wave 2 CH07–CH11: COMPLETE DRAFT 1 — ACCEPTED
 Wave 3 CH12–CH16: COMPLETE DRAFT 1 — ACCEPTED
 Wave 4 CH17–CH21: COMPLETE DRAFT 1 — ACCEPTED
 Wave 5 CH22–CH25: COMPLETE DRAFT 1 — ACCEPTED
-Wave 6 CH26–CH29: COMPLETE DRAFT 1 — OWNER ACCEPTED ON MERGE
-Wave 7 CH30–CH33: NEXT AFTER MERGE
+Wave 6 CH26–CH29: COMPLETE DRAFT 1 — ACCEPTED
+Wave 7 CH30–CH33: COMPLETE DRAFT 1 — OWNER ACCEPTED ON MERGE
 ```
 
-The whole-book Complete Draft 1 has not yet been achieved.
+All chapter files are drafted on merge, but whole-book Complete Draft 1 is not accepted until the separate whole-book review is completed and owner-approved.
 
 ## Current locks
 
-- Handoff is not destination acceptance;
-- Return is not Lite-owned formal truth;
-- MarkReg Handoff is not Product Session, Formal Intake, Matter or official action;
-- customer identity is not applicant identity or authority to instruct;
-- Capability Need is not provider recommendation, appointment or assignment;
-- MGSN owns Trust, Routing and collaboration depth;
-- provider candidate returned is not provider appointed;
-- Human Review is not final user confirmation;
-- Communication accepted is not sent;
-- Qualification Result is not formal Opportunity;
-- Attention Item is not active Task;
-- Prepared Action is not Workflow or execution;
-- user confirmation does not grant protected-action authority;
-- local readability is not synchronization, remote AI use or disclosure authority;
-- derived information inherits relevant source restrictions;
-- rejection, block, failure and unknown remain distinct;
-- unknown external outcome is not completed, failed or safe to retry;
-- recency does not override source authority in local/shared conflicts.
+- authorized context and complete professional value are required for MVP 0;
+- content volume alone is insufficient;
+- prospect volume alone is insufficient;
+- Product value and conformance are separate tests;
+- all BLOCKING scenarios must pass;
+- usage or revenue cannot offset zero-tolerance violations;
+- blocked unsafe actions may be successful Product behavior;
+- Product identity is not a plan, price or entitlement;
+- payment does not grant access or authority;
+- premium plan does not grant professional, provider or protected-action authority;
+- fulfillment requires usable, quality-gated output rather than generation activity;
+- failed or invalid output is not silently counted as fulfilled;
+- low price does not justify unsafe or misleading output;
+- an unsuccessful RMB 99 experiment does not redefine the Product;
+- provider, AI model and implementation tool are not Product identity;
+- Product Increment and implementation changes cannot silently change the Product Baseline;
+- Constitutional changes require explicit Charter revision and cross-Book review;
+- historical models and prototypes remain evidence, not automatic authority.
 
 ## Next gate
 
 ```text
-Wave 6 owner merge
-→ Wave 7 — CH30–CH33
-→ Part VII: Conformance, Economics and Evolution
+Wave 7 owner merge
+→ Whole-Book Complete Draft 1 Review
+→ cross-chapter, term, structural and boundary audit
+→ owner acceptance only after findings are closed
 ```
 
 ## Authorization
 
 ```text
-Wave 6 owner acceptance on merge: AUTHORIZED
-Wave 7 drafting after merge: AUTHORIZED
-Whole-book Complete Draft 1: NOT YET ACHIEVED
+Wave 7 owner acceptance on merge: AUTHORIZED
+All 34 chapter files drafted on merge: YES
+Whole-book Complete Draft 1 review after merge: AUTHORIZED
+Whole-book Complete Draft 1 acceptance: NOT YET AUTHORIZED
+Release Candidate: NOT AUTHORIZED
 Implementation: NOT AUTHORIZED
 Production: NOT AUTHORIZED
 Public/commercial distribution: NOT AUTHORIZED
