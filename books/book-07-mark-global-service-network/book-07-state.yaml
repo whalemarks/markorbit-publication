@@ -110,6 +110,22 @@ review:
   major_findings: 0
   upstream_change_proposal_required: false
 
+validation:
+  record: B07-VAL-0002
+  result: pass
+  total_changed_files: 16
+  charter_planning_records_added: 2
+  charter_review_records_added: 1
+  charter_validation_records_added: 1
+  book_07_governance_state_index_files_modified: 9
+  repository_registry_files_modified: 3
+  product_baseline_files_added: 0
+  chapter_map_files_added: 0
+  manuscript_files_added_or_modified: 0
+  implementation_files_added: 0
+  books_01_06_manuscript_files_modified: 0
+  duplicate_controlled_ids: 0
+
 authorized_on_owner_merge:
   controlled_product_baseline_candidate: true
   product_local_record_design: true
