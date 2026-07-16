@@ -14,43 +14,30 @@
 - [B06-REV-0012 — Wave 7 Conformance, Economics and Evolution Review](B06-REV-0012_Wave_7_Conformance_Economics_and_Evolution_Review.md)
 - [B06-REV-0013 — Whole-Book Complete Draft 1 Review](B06-REV-0013_Whole_Book_Complete_Draft_1_Review.md)
 - [B06-REV-0014 — RC Hardening A Editorial and Structural Normalization Review](B06-REV-0014_RC_Hardening_A_Editorial_and_Structural_Normalization_Review.md)
+- [B06-REV-0015 — RC Hardening B Reader Apparatus Review](B06-REV-0015_RC_Hardening_B_Reader_Apparatus_Review.md)
 
-## Whole-book decision
-
-`B06-REV-0013` records:
+## Accepted decisions
 
 ```text
-Mechanical completeness: PASS
-Cross-Part continuity: PASS
-Product Charter coverage: PASS
-Product Baseline coverage: PASS
-Controlled-term meaning integrity: PASS
-Cross-Book boundary integrity: PASS
-Commercial/Product separation: PASS
-Implementation boundary: PASS
-Blocking findings: 0
-Major findings: 0
-Upstream findings: 0
-Change Proposal required: NO
+B06-REV-0013 — Whole-Book Complete Draft 1: PASS WITH RC HARDENING REQUIRED
+B06-REV-0014 — RC Hardening A: PASS
+B06-REV-0015 — RC Hardening B: PASS
 ```
 
-## Current decision
-
-`B06-REV-0014` records:
+## Hardening B evidence
 
 ```text
-RC Hardening A: PASS
-34 / 34 chapter headers normalized
-23 chapter files modified
-internal wave-merge metadata remaining: 0
-CH01 drafting-wave section removed
-CH33 reader-facing evolution sequence applied
-chapter ID/title/order changes: 0
-controlled meaning changes: 0
-blocking findings: 0
-major findings: 0
-upstream findings: 0
-Change Proposal required: NO
+B06-APP records: 7
+Glossary entries: 63
+Core distinctions: 30
+Semantic figures: 12
+Product-local records covered: 45 / 45
+Reference journeys: 4 / 4
+Conformance scenarios: 24 / 24
+Handoff contracts: 8 / 8
+MVP acceptance criteria: 12 / 12
+Controlled meaning changes: 0
+Blocking / major / upstream findings: 0
 ```
 
 ## RC requirement status
@@ -58,24 +45,18 @@ Change Proposal required: NO
 ```text
 RC-H01 — CLOSED ON HARDENING A MERGE
 RC-H02 — CLOSED ON HARDENING A MERGE
-RC-H03 — OPEN — HARDENING B
+RC-H03 — CLOSED ON HARDENING B MERGE
 RC-H04 — CLOSED ON HARDENING A MERGE
-RC-H05 — OPEN — HARDENING B
+RC-H05 — CLOSED ON HARDENING B MERGE
 RC-H06 — OPEN — HARDENING C
 ```
 
 ## Gate effect
 
-Owner merge accepts:
+Owner merge accepts RC Hardening B and authorizes:
 
 ```text
-RC Hardening A — Editorial and Structural Normalization
-```
-
-It authorizes:
-
-```text
-RC Hardening B — Reader Apparatus
+RC Hardening C — Source, Citation, Render and RC Validation
 ```
 
 It does not accept Release Candidate status or authorize implementation, production, public/commercial distribution, autonomous professional action or External Protected Action.
