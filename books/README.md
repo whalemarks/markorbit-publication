@@ -9,37 +9,42 @@ This directory contains the canonical MarkOrbit publications.
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | `book-01-operating-system/` | Release Candidate 1 |
 | Book 02 | MarkOrbit Core Specification | `book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `book-03-execution-system/` | Release Candidate 1 |
-| Book 04 | MarkOrbit Workplace and Product Architecture | `book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Next-Version Correction Required |
+| Book 04 | MarkOrbit Workplace and Product Architecture | `book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Next-Version Correction Plan Ready |
 | Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `book-05-markreg/` | Release Candidate 1 — Approved and Frozen |
 | Book 06 | MarkOrbit Lite | `book-06-markorbit-lite/` | Release Candidate 1 — Owner Accepted |
-| Book 07 | Mark Global Service Network | `book-07-mark-global-service-network/` | Charter Candidate Retained / Progression Paused Pending `MO-ADR-WSP-001` |
+| Book 07 | Mark Global Service Network | `book-07-mark-global-service-network/` | Charter Reconciliation Ready / Product Baseline Paused |
 
 ## Baseline Rule
 
 Books 01–04 form the accepted pre-Product Portfolio Baseline.
 
-Book 02 remains frozen. Semantic changes require the existing Change Proposal process.
+Book 02 remains frozen. Semantic changes require the existing Change Proposal process. `MO-B02-CPA-001` concludes that the current Workplace sovereignty correction does not require an immediate Book 02 semantic Change Proposal.
 
 Books 05–07 consume the accepted baseline and may not silently redefine it.
 
-Book 05 RC1 is frozen through its immutable content baseline, release record and `release/book-05-rc1` pointer.
+Book 05 RC1 remains frozen. Book 06 RC1 remains accepted.
 
-Book 06 RC1 was accepted through owner merge of PR #76 on 2026-07-16.
+## Workplace Sovereignty Reconciliation
 
-Book 07 Pre-Writing Audit v0.1 was accepted through owner merge of PR #78 on 2026-07-16.
+```text
+MO-ADR-WSP-001 — accepted architecture direction
+MO-ARCH-AMEND-001 — Canon Amendment Candidate
+MO-ARCH-PLN-001 — Book 04 Next-Version Correction Plan
+B07-PLN-0013 — Book 07 Charter Reconciliation
+```
 
-## Pending Workplace Sovereignty Decision
-
-`MO-ADR-WSP-001` proposes an upstream correction distinguishing:
+The amendment distinguishes:
 
 - Workplace business sovereignty;
 - Core semantic authority;
-- Owning Service formal state authority;
-- Product Installation and Projection;
+- Owning Service formal-state authority;
+- Product Installation and Product Projection;
 - MarkReg self-operated Workplace;
-- Lite operating Product and client projection;
-- Workplace MGSN connection versus platform-owned MGSN network.
+- Lite operating Product and optional client projection;
+- Sites public projection;
+- Workplace MGSN Connection versus platform-owned MGSN Network;
+- Originating Workplace and Execution Provider Workplace.
 
-The accepted Book 04 edition remains unchanged, but a next-version correction is required if the ADR is accepted.
+## Next Gate
 
-The existing Book 07 Charter Candidate remains a reconciliation input. Preparation of a Controlled Product Baseline, Chapter Map, manuscript or implementation is paused until Owner decision and Charter reconciliation.
+Owner acceptance of the Canon amendment authorizes renewed Book 07 Charter review. It does not itself authorize the Book 07 Controlled Product Baseline, Chapter Map, manuscript or implementation.
