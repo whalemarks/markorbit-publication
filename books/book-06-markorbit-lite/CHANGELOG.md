@@ -1,5 +1,24 @@
 # Book 06 Changelog
 
+## Whole-Book Complete Draft 1 Review
+
+- reviewed B06-CH-00–B06-CH-33 as one complete manuscript;
+- confirmed 34 of 34 planned chapter files are present with no missing or duplicate chapter IDs;
+- confirmed the complete argument from Product Constitution through daily operation, growth, work products, memory/assets, ecosystem gateways, MVP, conformance, economics and governed evolution;
+- confirmed all seven Part-to-Part transitions are coherent;
+- confirmed Product Charter v0.3 and Product Baseline v0.1 coverage;
+- confirmed all controlled ranges ML-S, ML-O, ML-W, ML-M, ML-H, ML-E, ML-J, ML-SCN, ML-HC and ML-AC have manuscript coverage;
+- confirmed recurring distinctions remain consistent and no parallel formal authority is introduced;
+- confirmed zero conflicts with Books 01–05 and no premature Book 07/MGSN lifecycle definition;
+- confirmed commercial plans, entitlements, providers and tools remain subordinate to Product identity;
+- found zero blocking, major or upstream findings and no required Change Proposal;
+- added B06-REV-0013 — Whole-Book Complete Draft 1 Review;
+- accepted the decision `PASS WITH RC HARDENING REQUIRED`;
+- identified RC-H01–RC-H06 covering metadata, reader-facing governance cleanup, glossary/distinctions, repetition/cross-references, figures/appendices/index and source/render validation;
+- added B06-PLN-0008 — Release Candidate Hardening Plan;
+- authorized Work Package A after owner merge;
+- did not accept Release Candidate status or authorize implementation, production or distribution.
+
 ## Wave 7 — Conformance, Economics and Evolution
 
 - drafted B06-CH-30–B06-CH-33 as Complete Draft 1;

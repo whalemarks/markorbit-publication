@@ -12,29 +12,50 @@
 - [B06-REV-0010 — Wave 5 Cases, Memory and Business Assets Review](B06-REV-0010_Wave_5_Cases_Memory_and_Business_Assets_Review.md)
 - [B06-REV-0011 — Wave 6 MarkOrbit Gateways and Continuity Review](B06-REV-0011_Wave_6_MarkOrbit_Gateways_and_Continuity_Review.md)
 - [B06-REV-0012 — Wave 7 Conformance, Economics and Evolution Review](B06-REV-0012_Wave_7_Conformance_Economics_and_Evolution_Review.md)
+- [B06-REV-0013 — Whole-Book Complete Draft 1 Review](B06-REV-0013_Whole_Book_Complete_Draft_1_Review.md)
 
-## Current gate
+## Current decision
 
-`B06-REV-0012` confirms that CH30–CH33:
+`B06-REV-0013` reviews CH00–CH33 as one manuscript and records:
 
-- define MVP 0 as the complete Customer Opportunity-to-Governed-Service Loop;
-- project ML-AC-01–ML-AC-12 and preserve ML-AC-01–11 as mandatory;
-- reject content and prospect volume as sufficient Product proof;
-- separate Product value evaluation from Product conformance;
-- project ML-E01–ML-E04 and ML-SCN-01–ML-SCN-24;
-- preserve BLOCKING, MAJOR and STANDARD scenario severity;
-- define zero-tolerance conditions that usage and revenue cannot offset;
-- recognize blocked unsafe action as successful control behavior;
-- define ML-E05 Commercial Experiment and ML-E06 Entitlement/Fulfillment Observation;
-- separate Product identity, Product Edition, Commercial Plan, Entitlement and Fulfillment;
-- retain RMB 99, recurring content and Prospect Candidate supply as experiments;
-- require honest, usable and quality-gated fulfillment;
-- include AI, data, human, platform and destination cost in sustainable economics;
-- define Product Constitution, Product Baseline, Product Increment, implementation/ADR and commercial-plan evolution layers;
-- classify editorial, implementation, Product Increment, Product Baseline and constitutional changes;
-- preserve all Books 01–05 and MGSN authority boundaries;
-- contain no blocking, major or upstream finding.
+```text
+Mechanical completeness: PASS
+Cross-Part continuity: PASS
+Product Charter coverage: PASS
+Product Baseline coverage: PASS
+Controlled-term meaning integrity: PASS
+Cross-Book boundary integrity: PASS
+Commercial/Product separation: PASS
+Implementation boundary: PASS
+Blocking findings: 0
+Major findings: 0
+Upstream findings: 0
+Change Proposal required: NO
+```
 
-Owner merge accepts Wave 7 as Complete Draft 1 and completes all 34 chapter files.
+## Release Candidate requirements
 
-It authorizes a separate whole-book Complete Draft 1 review only. It does not itself accept the whole book as Complete Draft 1 or authorize Release Candidate status, implementation, production or distribution.
+The whole-book review identifies six RC hardening requirements:
+
+```text
+RC-H01 — normalize chapter metadata
+RC-H02 — reader-facing governance cleanup
+RC-H03 — controlled terms and distinction apparatus
+RC-H04 — repetition and cross-reference hardening
+RC-H05 — figures, appendices and index
+RC-H06 — source, citation and rendered validation
+```
+
+These requirements do not block Whole-Book Complete Draft 1 acceptance. They must be closed before Release Candidate approval.
+
+## Gate effect
+
+Owner merge accepts:
+
+```text
+Book 06 Whole-Book Complete Draft 1
+B06-CH-00–B06-CH-33
+34 / 34 chapter files
+```
+
+It authorizes `B06-PLN-0008` Work Package A only. It does not accept Release Candidate status or authorize implementation, production or distribution.

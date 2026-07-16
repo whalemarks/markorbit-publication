@@ -3,13 +3,13 @@
 ## Current status
 
 ```text
-WAVE 7 — CH30–CH33
-COMPLETE DRAFT 1 — OWNER ACCEPTED ON MERGE
+WHOLE-BOOK COMPLETE DRAFT 1
+— OWNER ACCEPTED ON B06-REV-0013 MERGE
 ```
 
-Product Charter v0.3, Product Baseline v0.1, Chapter Map `B06-TOC-V0.1` and Waves 1–6 are accepted. The current PR drafts Part VII — Conformance, Economics and Evolution.
+Product Charter v0.3, Product Baseline v0.1, Chapter Map `B06-TOC-V0.1` and Waves 1–7 are accepted. All 34 planned chapters are present and the whole-book review finds no blocking, major or upstream conflict.
 
-On merge, all 34 planned chapter files will exist. Whole-book Complete Draft 1 acceptance remains subject to a separate whole-book review.
+Release Candidate hardening remains required.
 
 ## Product identity
 
@@ -50,46 +50,36 @@ Wave 3 — CH12–CH16: COMPLETE DRAFT 1 — ACCEPTED
 Wave 4 — CH17–CH21: COMPLETE DRAFT 1 — ACCEPTED
 Wave 5 — CH22–CH25: COMPLETE DRAFT 1 — ACCEPTED
 Wave 6 — CH26–CH29: COMPLETE DRAFT 1 — ACCEPTED
+Wave 7 — CH30–CH33: COMPLETE DRAFT 1 — ACCEPTED
+Whole book — CH00–CH33: COMPLETE DRAFT 1 — OWNER ACCEPTED ON MERGE
 ```
 
-## Wave 7 acceptance set
+## Whole-book review acceptance set
 
 ```text
-B06-CH-30 — MVP 0: Customer Opportunity to Governed Service
-B06-CH-31 — Evaluation, Conformance and Zero-Tolerance Conditions
-B06-CH-32 — Commercial Plans, Entitlements and Sustainable Economics
-B06-CH-33 — Product Evolution Without Constitutional Drift
-B06-REV-0012 — Wave 7 Conformance, Economics and Evolution Review
+B06-REV-0013 — Whole-Book Complete Draft 1 Review
+B06-PLN-0008 — Release Candidate Hardening Plan
 ```
 
-## Wave 7 result
+## Whole-book review result
 
 ```text
-Chapter files drafted: 4
-Part VII complete: CH30–CH33
-Total planned chapter files on merge: 34 / 34
+Expected chapter files: 34
+Present chapter files: 34
+Missing chapter IDs: 0
+Duplicate chapter IDs: 0
+Cross-Part continuity: PASS
+Product Charter coverage: PASS
+Product Baseline coverage: PASS
+Controlled-term meaning integrity: PASS
+Cross-Book boundary integrity: PASS
+Commercial/Product separation: PASS
+Implementation boundary: PASS
 Blocking findings: 0
 Major findings: 0
 Upstream findings: 0
 Change Proposal required: NO
 ```
-
-Wave 7 establishes:
-
-- MVP 0 as the complete Customer Opportunity-to-Governed-Service Loop;
-- ML-AC-01–ML-AC-11 as mandatory Product criteria and ML-AC-12 as required commercial evidence;
-- content and prospect volume as insufficient Product proof;
-- ML-E01–ML-E04 evaluation, outcome, reuse and safety/privacy evidence;
-- all ML-SCN-01–ML-SCN-24 scenario families and severity treatment;
-- zero-tolerance conditions that cannot be offset by usage or revenue;
-- blocked unsafe actions as successful control behavior;
-- ML-E05 Commercial Experiment and ML-E06 Entitlement/Fulfillment Observation;
-- Product identity, Edition, Commercial Plan, Entitlement and Fulfillment as separate layers;
-- RMB 99, recurring content and Prospect Candidate supply as experiments rather than Product constitution;
-- honest fulfillment, replacement, credits, unit economics and support/Review cost;
-- Product Constitution, Product Baseline, publication, Product Increment, implementation/ADR and commercial-plan evolution layers;
-- explicit change classes preventing constitutional drift;
-- the durable moat as governed context, work, outcomes, memory, Assets and ecosystem continuity.
 
 ## Complete manuscript argument
 
@@ -100,62 +90,62 @@ Product Constitution
 → Professional Work Products
 → Cases, Memory and Business Assets
 → MarkOrbit Gateways and Continuity
-→ MVP and Conformance
+→ MVP and Product Conformance
 → Commercial Plans and Sustainable Economics
 → Product Evolution Without Constitutional Drift
 ```
 
-## Drafting progress
+## Current integrity locks
+
+- Today item is not active Task;
+- Candidate is not formal truth;
+- Recommendation is not Decision;
+- User confirmation is not Human Review;
+- Content is not Artifact;
+- Artifact is not Document, Evidence or file;
+- Render complete is not approved;
+- Package ready is not externally completed;
+- Prepared Action is not execution;
+- Handoff is not destination acceptance;
+- Return is not Lite-owned formal truth;
+- Capability Need is not provider appointment;
+- Personal Memory is not Organization Memory;
+- Reusable Asset is not canonical Knowledge;
+- local readability is not synchronization or disclosure authority;
+- unknown external outcome is not completed, failed or safe to retry;
+- Product identity is not Commercial Plan;
+- payment or premium edition does not grant authority;
+- usage or revenue cannot offset BLOCKING controls;
+- provider, AI model and renderer do not define Product identity.
+
+## Release Candidate hardening requirements
 
 ```text
-Wave 1 CH00–CH06: COMPLETE DRAFT 1 — ACCEPTED
-Wave 2 CH07–CH11: COMPLETE DRAFT 1 — ACCEPTED
-Wave 3 CH12–CH16: COMPLETE DRAFT 1 — ACCEPTED
-Wave 4 CH17–CH21: COMPLETE DRAFT 1 — ACCEPTED
-Wave 5 CH22–CH25: COMPLETE DRAFT 1 — ACCEPTED
-Wave 6 CH26–CH29: COMPLETE DRAFT 1 — ACCEPTED
-Wave 7 CH30–CH33: COMPLETE DRAFT 1 — OWNER ACCEPTED ON MERGE
+RC-H01 — normalize chapter metadata
+RC-H02 — reader-facing governance cleanup
+RC-H03 — controlled terms and distinction apparatus
+RC-H04 — repetition and cross-reference hardening
+RC-H05 — figures, appendices and index
+RC-H06 — source, citation and rendered validation
 ```
 
-All chapter files are drafted on merge, but whole-book Complete Draft 1 is not accepted until the separate whole-book review is completed and owner-approved.
-
-## Current locks
-
-- authorized context and complete professional value are required for MVP 0;
-- content volume alone is insufficient;
-- prospect volume alone is insufficient;
-- Product value and conformance are separate tests;
-- all BLOCKING scenarios must pass;
-- usage or revenue cannot offset zero-tolerance violations;
-- blocked unsafe actions may be successful Product behavior;
-- Product identity is not a plan, price or entitlement;
-- payment does not grant access or authority;
-- premium plan does not grant professional, provider or protected-action authority;
-- fulfillment requires usable, quality-gated output rather than generation activity;
-- failed or invalid output is not silently counted as fulfilled;
-- low price does not justify unsafe or misleading output;
-- an unsuccessful RMB 99 experiment does not redefine the Product;
-- provider, AI model and implementation tool are not Product identity;
-- Product Increment and implementation changes cannot silently change the Product Baseline;
-- Constitutional changes require explicit Charter revision and cross-Book review;
-- historical models and prototypes remain evidence, not automatic authority.
+These are RC requirements, not Complete Draft 1 blockers.
 
 ## Next gate
 
 ```text
-Wave 7 owner merge
-→ Whole-Book Complete Draft 1 Review
-→ cross-chapter, term, structural and boundary audit
-→ owner acceptance only after findings are closed
+Whole-Book Complete Draft 1 owner merge
+→ RC Hardening A — Editorial and Structural Normalization
+→ RC Hardening B — Reader Apparatus
+→ RC Hardening C — Source, Render and RC Review
+→ owner Release Candidate decision
 ```
 
 ## Authorization
 
 ```text
-Wave 7 owner acceptance on merge: AUTHORIZED
-All 34 chapter files drafted on merge: YES
-Whole-book Complete Draft 1 review after merge: AUTHORIZED
-Whole-book Complete Draft 1 acceptance: NOT YET AUTHORIZED
+Whole-Book Complete Draft 1 acceptance on merge: AUTHORIZED
+RC Hardening A after merge: AUTHORIZED
 Release Candidate: NOT AUTHORIZED
 Implementation: NOT AUTHORIZED
 Production: NOT AUTHORIZED
