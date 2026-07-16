@@ -10,13 +10,14 @@ Architecture Canon
 → Book 06 Product Baseline v0.1
 → B06-TOC-V0.1
 → B06-CH-00–B06-CH-33
-→ B06-APP-0001–B06-APP-0007 Reader Apparatus
-→ Source, Citation, Render and RC Validation
-→ owner Release Candidate decision
-→ later implementation specifications / ADRs
+→ B06-APP-0001–B06-APP-0007
+→ B06-REV-0016 RC Review
+→ B06-REL-0002 RC1 Decision
+→ B06-REL-0003 RC1 Freeze
+→ later implementation specifications / ADRs or final-publication work
 ```
 
-Specifications remain authoritative over chapter prose and Reader Apparatus.
+Specifications remain authoritative over chapter prose and Reader Apparatus. Release records identify accepted publication baselines; they do not redefine Product meaning.
 
 ## 2. Book responsibility
 
@@ -40,49 +41,20 @@ ML-HC-01–HC-08
 ML-AC-01–AC-12
 ```
 
-## 4. Accepted chapter map, manuscript and apparatus
+## 4. Accepted reader-facing publication
 
 ```text
 B06-TOC-V0.1
 B06-CH-00–B06-CH-33
-7 Parts plus Front Matter
-34 / 34 chapter files
-Whole-Book Complete Draft 1 — ACCEPTED
-B06-APP-0001–B06-APP-0007 — ACCEPTED
+B06-APP-0001–B06-APP-0007
+34 chapter files
+7 Reader Apparatus files
 41 ordered reader-facing inputs
 ```
 
 A manuscript chapter or Reader Apparatus record may explain a controlled record but may not change its meaning.
 
-## 5. Reader Apparatus rule
-
-Reader Apparatus uses publication IDs `B06-APP-*` and may:
-
-- define reader-facing glossary entries;
-- collect recurring distinctions;
-- provide abbreviations and controlled-ID guidance;
-- visualize accepted relationships through semantic figures;
-- map records, journeys, scenarios, Handoff contracts and criteria to chapters;
-- provide reading routes, anchors and a subject index.
-
-Reader Apparatus may not:
-
-- create or redefine `ML-*` records;
-- change Product Charter, Product Baseline or Chapter Map;
-- add implementation schema, database tables, APIs or providers;
-- transfer formal ownership or authority;
-- claim runtime conformance;
-- grant implementation or external-action authority.
-
-```text
-Product Charter / Specifications / Chapter Map
-→ chapter prose
-→ Reader Apparatus
-```
-
-A conflict is resolved upward in that order.
-
-## 6. Whole-book integrity locks
+## 5. Whole-book integrity locks
 
 ```text
 Today item ≠ active Task
@@ -105,51 +77,25 @@ Product identity ≠ Commercial Plan
 payment / premium edition ≠ authority
 ```
 
-## 7. RC hardening governance
+## 6. RC hardening history
 
-Release Candidate hardening is governed by `B06-PLN-0008`:
-
-```text
-Work Package A — Editorial and Structural Normalization
-Work Package B — Reader Apparatus
-Work Package C — Source, Citation, Render and RC Validation
-```
-
-Hardening may clarify, normalize, compress, add reader aids and prove renderability. It may not silently change Product Charter, Product Baseline, Chapter Map, formal ownership or Human/External Action authority.
-
-## 8. RC Hardening A
-
-`B06-REV-0014` records:
+Release Candidate hardening was governed by `B06-PLN-0008`:
 
 ```text
-34 / 34 chapter headers normalized
-internal wave-merge metadata remaining: 0
-chapter ID/title/order changes: 0
-controlled meaning changes: 0
-blocking / major / upstream findings: 0
+Work Package A — Editorial and Structural Normalization — ACCEPTED
+Work Package B — Reader Apparatus — ACCEPTED
+Work Package C — Source, Citation, Render and RC Validation — ACCEPTED
 ```
 
-Work Package A closes `RC-H01`, `RC-H02` and `RC-H04`.
+### Hardening A
 
-## 9. RC Hardening B
+`B06-REV-0014` records 34 normalized chapter headers, zero chapter ID/title/order changes, zero controlled-meaning changes and zero blocking, major or upstream findings.
 
-`B06-REV-0015` records:
+### Hardening B
 
-```text
-B06-APP-0001–B06-APP-0007 complete
-Glossary entries: 63
-Core distinctions: 30
-Semantic figure sources: 12
-Product-local records covered: 45 / 45
-Journeys / scenarios / Handoff contracts / acceptance criteria: complete
-Stable anchors and subject index: complete
-Product Charter / Baseline / Chapter Map changes: 0
-blocking / major / upstream findings: 0
-```
+`B06-REV-0015` records seven Reader Apparatus files, 63 glossary entries, 30 distinctions, 12 semantic figure sources and complete coverage of all controlled records, journeys, scenarios, Handoff contracts and MVP criteria.
 
-Work Package B closes `RC-H03` and `RC-H05`.
-
-## 10. RC Hardening C
+### Hardening C
 
 `B06-REV-0016` records:
 
@@ -159,8 +105,8 @@ Machine assembly order: PASS
 Local links: 283 checked / 0 broken
 Anchors: 10 checked / 0 broken
 Controlled IDs: 93 / 93
-Mermaid figures: 12 / 12 rendered
-PDF: 410 pages / 842,295 bytes / 0 near-blank pages
+Mermaid figures: 12 / 12
+PDF validation render: 410 pages / 0 near-blank pages
 External URLs: 0
 Material external claims requiring citation: 0
 Blocking / major / warning findings: 0 / 0 / 0
@@ -168,35 +114,56 @@ Upstream conflicts: 0
 Change Proposal required: NO
 ```
 
-Validation evidence:
+All `RC-H01–RC-H06` requirements are closed.
+
+## 7. Release Candidate 1 identity
+
+`B06-REL-0002` records the accepted RC1 decision. `B06-REL-0003` permanently freezes the identity:
 
 ```text
-Reader-facing baseline: 7ce03755e03bb4876768a34a4ee3d2c3b74bddb1
-Workflow run: 29477787207
+Reader-facing content baseline:
+7ce03755e03bb4876768a34a4ee3d2c3b74bddb1
+
+Owner-decision activation commit:
+060e807be90081977bcc322f1557b9fc950f5209
+
+Machine release manifest:
+release/B06-RC1.yaml
+
+Release pointer after freeze merge:
+release/book-06-rc1
+```
+
+The content SHA is authoritative for the 41 reader-facing inputs. The owner-decision SHA proves RC1 acceptance. The release branch is a human-readable pointer and must not be moved to another baseline.
+
+## 8. Validation evidence
+
+```text
+Content/render workflow run: 29477787207
 Artifact ID: 8367264203
 Artifact digest:
 sha256:2446561090311a6d6e5912ebdc1e109a2b0e5cf525109db9eb3b0762ee27236b
+
+Final governance workflow run: 29478801425
+Artifact ID: 8367659673
+Artifact digest:
+sha256:dcfd3f85169f1275d38dd09e34f8338089bd4b6dbd90573a3ebe0dbd5c3819da
 ```
 
-Work Package C is `PASS` and closes `RC-H06` on owner merge.
+The generated PDF is a validation render, not the final branded publication.
 
-## 11. Release Candidate 1 rule
+## 9. RC1 change control
 
-`B06-REL-0002` defines the RC1 content baseline:
+After the freeze:
 
-```text
-34 chapters
-+ 7 Reader Apparatus records
-= 41 ordered reader-facing inputs
-```
+1. the 41 reader-facing RC1 inputs are immutable under the RC1 identity;
+2. administrative records outside that source set do not silently alter RC1;
+3. any source change requires impact classification and renewed validation;
+4. typographical, packaging or design corrections must be recorded and assessed;
+5. material semantic or authority change creates a new candidate baseline or explicit owner supersession;
+6. the `release/book-06-rc1` branch must not be force-moved to another baseline.
 
-Owner merge of `B06-REV-0016` accepts Book 06 Release Candidate 1.
-
-Release Candidate 1 means the Product publication is structurally complete, source-reviewed and reproducibly renderable. It does not mean final brand/design production, Product implementation, runtime conformance, production deployment or public/commercial distribution is approved.
-
-Any later change to the 41 reader-facing source files requires a new validation run and release-impact decision.
-
-## 12. Commercial and evolution rules
+## 10. Commercial and evolution rules
 
 ```text
 Product Constitution
@@ -208,7 +175,7 @@ Product Constitution
 
 Price, content cadence, Prospect Candidate quantity, Render quota, support and Review level may change independently of the Product Charter.
 
-Changes are classified as:
+Changes remain classified as:
 
 ```text
 Class A — Editorial clarification
@@ -220,24 +187,32 @@ Class E — Constitutional change
 
 Class D requires Product Baseline versioning and owner acceptance. Class E requires Product Charter revision, cross-Book review and owner acceptance.
 
-## 13. Branch and PR rule
+## 11. Publication and implementation separation
 
-Publication changes use one coherent branch and Draft PR per controlled work package. A change to the accepted RC1 content baseline must state its impact and rerun validation.
+Release Candidate 1 means the Product publication is structurally complete, source-reviewed and reproducibly renderable. It does not prove runtime conformance or authorize implementation, production or distribution.
 
-## 14. Owner gates
+RC1 may support:
+
+- controlled review and proofing;
+- final brand/design preparation;
+- implementation-specification and ADR drafting;
+- bounded MVP planning.
+
+Each remains a separate approval track.
+
+## 12. Owner gates
 
 Owner acceptance is required for:
 
 - Product Charter;
 - Product Baseline;
 - Chapter Map;
-- manuscript waves;
-- Whole-Book Complete Draft 1;
-- each RC hardening package;
-- Release Candidate;
-- final public/commercial publication.
+- manuscript and Reader Apparatus baselines;
+- Release Candidate and any superseding candidate;
+- final branded publication and distribution;
+- material Product or authority changes.
 
-## 15. Current authorization
+## 13. Current authorization
 
 ```text
 Product Charter v0.3: ACCEPTED
@@ -245,11 +220,11 @@ Product Baseline v0.1: ACCEPTED
 Chapter Map v0.1: ACCEPTED
 Waves 1–7: ACCEPTED
 Whole-Book Complete Draft 1: ACCEPTED
-RC Hardening A: ACCEPTED
-RC Hardening B: ACCEPTED
-RC Hardening C: PASS — ACCEPTED ON OWNER MERGE
-Release Candidate 1: ACCEPTED ON OWNER MERGE
-Implementation: NOT AUTHORIZED
+RC Hardening A/B/C: ACCEPTED
+Release Candidate 1: ACCEPTED
+RC1 freeze on owner merge: AUTHORIZED
+Final branded publication: NOT AUTHORIZED
+Product implementation: NOT AUTHORIZED
 Production deployment: NOT AUTHORIZED
 Final public/commercial distribution: NOT AUTHORIZED
 Autonomous professional action: NOT AUTHORIZED

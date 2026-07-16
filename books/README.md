@@ -11,7 +11,7 @@ This directory contains the canonical MarkOrbit publications.
 | Book 03 | MarkOrbit Execution System | `book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
 | Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `book-05-markreg/` | Release Candidate 1 — Approved and Frozen |
-| Book 06 | MarkOrbit Lite | `book-06-markorbit-lite/` | Release Candidate 1 — Ready for Owner Acceptance on Merge |
+| Book 06 | MarkOrbit Lite | `book-06-markorbit-lite/` | Release Candidate 1 — Approved and Frozen on Owner Merge |
 | Book 07 | Mark Global Service Network | `book-07-mark-global-service-network/` | Planned |
 
 ## Baseline Rule
@@ -24,6 +24,8 @@ Books 05–07 must consume the baseline and may not silently redefine it.
 
 Book 05 RC1 is frozen through its immutable content baseline, permanent release record and `release/book-05-rc1` pointer.
 
-Book 06 has accepted Product Charter v0.3, Product Baseline v0.1, Chapter Map `B06-TOC-V0.1`, all seven manuscript waves, Whole-Book Complete Draft 1 and RC Hardening A/B. `B06-REV-0016` records PASS for source, citation, navigation, 12 semantic figures and a 410-page long-form render with zero blocking, major, warning or upstream findings.
+Book 06 RC1 is identified by reader-facing content baseline `7ce03755e03bb4876768a34a4ee3d2c3b74bddb1`, owner-decision activation commit `060e807be90081977bcc322f1557b9fc950f5209`, `B06-REL-0002`, `B06-REL-0003` and `release/B06-RC1.yaml`.
 
-Owner merge accepts RC Hardening C, closes RC-H06 and accepts Book 06 Release Candidate 1. Final branded-publication production, implementation, production deployment and public/commercial distribution remain separate unauthorized gates.
+Owner merge of the freeze PR accepts the permanent RC1 freeze. The branch `release/book-06-rc1` is then created from the exact freeze merge commit and must not be moved to another baseline.
+
+Final branded-publication production, implementation, production deployment and public/commercial distribution remain separate unauthorized gates.
