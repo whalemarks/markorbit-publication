@@ -23,9 +23,9 @@ Connected by capability.
 Evolving together.
 ```
 
-Every professional organization retains its own clients, data, Knowledge, rules, relationships and commercial autonomy. MarkOrbit provides shared meaning, governed Execution and safe connection; it does not replace independent organizations with a centralized marketplace.
+Every professional organization retains its own customers, data, Knowledge, rules and internal operating autonomy. Shared MarkOrbit Products and network responsibilities provide governed capabilities, controlled interfaces and safe continuity without transferring formal business authority by implication.
 
-## Books 01–04 Portfolio Baseline and Book 05
+## Book Registry
 
 | Book | Title | Status |
 | --- | --- | --- |
@@ -33,15 +33,15 @@ Every professional organization retains its own clients, data, Knowledge, rules,
 | Book 02 | MarkOrbit Core Specification | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | Release Candidate 1 — Owner Accepted / Portfolio Locked |
-| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | Complete Draft 1 — CH00–CH47 Full Manuscript and Review Complete |
-| Book 06 | MarkOrbit Lite | Planned |
-| Book 07 | Mark Global Service Network | Planned |
+| Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | Release Candidate 1 — Approved and Frozen |
+| Book 06 | MarkOrbit Lite | Release Candidate 1 — Owner Accepted |
+| Book 07 | Mark Global Service Network | Pre-Writing Audit v0.1 — Ready for Owner Acceptance on Merge |
 
-The controlled portfolio review is [MO-PUB-REV-0001](reviews/portfolio/MO-PUB-REV-0001_Books_01-04_Portfolio_Baseline_Review.md).
+The Books 01–04 Portfolio Baseline is governed by `MO-PUB-REV-0001` and `MO-PUB-BASELINE-0001`.
 
-The effective lock is [MO-PUB-BASELINE-0001](release/baselines/MO-PUB-BASELINE-0001_Books_01-04.md).
+Book 05 RC1 is frozen through its accepted release record and permanent release pointer.
 
-Book 05 Complete Draft 1 is governed by `B05-REV-0012`. `B05-ERRATA-0001` confirms that Part VI is CH37–CH42 and Part VII is CH43–CH47 under B05-TOC-V0.1. `B05-PLN-0004` defines the publication-finishing pack.
+Book 06 RC1 was accepted through owner merge of PR #76 on 2026-07-16. Final branded production, implementation, deployment and public/commercial distribution remain separate gates.
 
 ## Responsibility Chain
 
@@ -51,22 +51,37 @@ Book 02 — Shared Core semantics and contracts
 Book 03 — Governed Execution
 Book 04 — Workplace and Product Architecture
 Book 05 — MarkReg
+Book 06 — MarkOrbit Lite
+Book 07 — Mark Global Service Network
 ```
+
+## Current Book 07 Direction
+
+```text
+Platform-owned MGSN resources
++ central platform hub
++ participant private spaces
++ platform procurement and funds control
++ default best-route matching
++ user final confirmation
++ external self-managed route continuity bridge
+```
+
+Book 07 currently contains planning and review records only.
+
+No Product Charter, Product Baseline, Chapter Map, manuscript, schema, API or implementation is accepted.
 
 ## Current Gate
 
 ```text
-Books 01–04 Portfolio Baseline effective
-→ Book 05 B05-TOC-V0.1 owner accepted
-→ CH00–CH47 complete manuscript
-→ Part VII and first full-book reviews complete
-→ Complete Draft 1
-→ B05-PUBLICATION-FINISHING-PACK-001
-→ Release Candidate 1 and owner publication gate
+Books 01–04 Portfolio Baseline
+→ Book 05 RC1 approved and frozen
+→ Book 06 RC1 owner accepted
+→ Book 07 Pre-Writing Audit v0.1
+→ Owner acceptance
+→ Book 07 Network and Product Charter Candidate
 ```
 
 ## Authority Boundary
 
-The Portfolio Baseline supports publication continuity and Book 05 Product drafting and finishing.
-
-It does not authorize unrestricted implementation, production deployment, autonomous professional action or external protected action.
+Publication acceptance does not authorize unrestricted implementation, production deployment, autonomous professional action, payment custody, provider appointment or External Protected Action.
