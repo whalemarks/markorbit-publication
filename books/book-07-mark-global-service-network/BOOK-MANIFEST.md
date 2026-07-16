@@ -6,41 +6,38 @@
 Book ID: Book 07
 Title: Mark Global Service Network
 Canonical path: books/book-07-mark-global-service-network/
-Current gate: Reconciled Network and Product Charter v0.1
+Current gate: Controlled Product Baseline v0.1
 Status: Ready for Owner Acceptance on Merge
-Next gate: Controlled Product Baseline Candidate
+Next gate: Chapter Map Candidate
 ```
 
-## Active Architecture
+## Active Authority
 
 ```text
 MARKORBIT-ORBITAL-ARCHITECTURE-CANON-vNEXT.1
 DECISION-REGISTER-vNEXT.1
-MO-ADR-WSP-001
-MO-ARCH-AMEND-001
+Reconciled Network and Product Charter v0.1
 ```
 
 ## Controlled Records
 
-### Accepted Pre-Writing
+### Accepted Planning and Charter
 
 ```text
-B07-PLN-0001–0009
-B07-REV-0001
-B07-VAL-0001
+B07-PLN-0001–0013
+B07-REV-0001–0003
+B07-VAL-0001–0003
 ```
 
-### Charter and Reconciliation
+### Controlled Product Baseline Candidate
 
 ```text
-B07-PLN-0010 — MGSN Network and Product Charter Candidate v0.1
-B07-PLN-0011 — Charter Owner Decision Matrix / OD-01–OD-33
-B07-PLN-0012 — Upstream Reconciliation Notice
-B07-PLN-0013 — Workplace Sovereignty Charter Reconciliation
-B07-REV-0002 — Original Charter Review / historical
-B07-REV-0003 — Reconciled Charter Review / PASS
-B07-VAL-0002 — Original Charter validation / historical
-B07-VAL-0003 — Reconciled Scope and Authority Check / PASS
+B07-SPEC-0001 — MGSN Controlled Product Baseline Candidate
+B07-SPEC-0002 — Product-Local Record Catalog
+B07-SPEC-0003 — Reference Journeys and Conformance Scenarios
+B07-SPEC-0004 — Handoff, Return and MVP Acceptance Baseline
+B07-REV-0004 — Controlled Product Baseline Review / PASS
+B07-VAL-0004 — Scope and Consistency Check / PASS
 ```
 
 ### Governance and State
@@ -53,76 +50,65 @@ GOVERNANCE.md
 CHANGELOG.md
 book-07-state.yaml
 planning/README.md
+specifications/README.md
 reviews/README.md
 validation/README.md
 ```
 
-## Reconciled Charter Identity
+## Controlled Coverage
+
+```text
+MG-N01–N06 — 6
+MG-C01–C08 — 8
+MG-P01–P08 — 8
+MG-R01–R08 — 8
+MG-F01–F10 — 10
+MG-T01–T08 — 8
+MG-E01–E08 — 8
+Total Product-local records — 56
+
+MG-J01–J08 — 8 Reference Journeys
+MG-SCN-01–SCN-32 — 32 Conformance Scenarios
+MG-HC-01–HC-10 — 10 Handoff / Return Contracts
+MG-AC-01–AC-16 — 16 MVP Acceptance Criteria
+```
+
+## Baseline Identity
 
 ```text
 Originating Workplace business sovereignty
++ authorized Capability Need projection
 + MGSN Connection / Gateway
-+ platform-owned managed MGSN Network
-+ multi-provider supply portfolios
-+ procurement and managed-service packages
-+ recommended route and bounded choice
-+ controlled funds and fulfillment
-+ Execution Provider Workplace responsibility
-+ governed Return
-+ platform Trust and network evolution
++ platform-owned MGSN Network
++ admitted multi-provider supply
++ procurement and managed-service offer
++ explainable routing and bounded choice
++ user disposition
++ provider allocation and acceptance
++ funds and fulfillment checkpoints
++ typed Return
++ Trust, correction and network evolution
 ```
 
-## Route Constitution
+## Review Result
 
 ```text
-R1 — External Self-Managed Route
-R2 — MGSN Recommended Managed Route
-R3 — MGSN Managed Preferred-Provider Route
-```
-
-## Initial Product Wedge
-
-```text
-Chinese trademark agencies and independent professionals
-+ existing proven foreign associates and selected verified providers
-+ international trademark filing and stable filing-through-registration packages
-+ selected high-volume post-filing services
-+ operator-assisted matching, procurement, funds and exception handling
-```
-
-## Renewed Review Result
-
-```text
-B07-REV-0003: PASS
-B07-VAL-0003: PASS
+B07-REV-0004: PASS
+B07-VAL-0004: PASS
 Blocking findings: 0
 Major findings: 0
 Book 02 Change Proposal required now: NO
-Reconciled Charter ready for Owner acceptance: YES
+Implementation authorization created: NO
 ```
 
 ## Owner Merge Effect
 
-Owner merge accepts:
-
-```text
-Active Canon vNext.1
-Active Decision Register vNext.1
-B07-PLN-0010
-B07-PLN-0011 / OD-01–OD-33
-B07-PLN-0013
-B07-REV-0003
-B07-VAL-0003
-Reconciled Book 07 Network and Product Charter v0.1
-```
-
-Owner merge authorizes preparation of a Controlled Product Baseline Candidate.
+Owner merge accepts `B07-SPEC-0001–0004` as the Book 07 Controlled Product Baseline v0.1 and authorizes preparation of a Chapter Map Candidate.
 
 Owner merge does not accept or authorize:
 
-- the Controlled Product Baseline itself;
-- Chapter Map;
-- manuscript;
+- Chapter Map acceptance;
+- manuscript drafting;
 - schema or APIs;
 - payment custody or funds release;
 - provider appointment implementation;
@@ -134,7 +120,6 @@ Owner merge does not accept or authorize:
 ```text
 Book 07 manuscript files: 0 expected
 Book 07 Chapter Map: 0 expected
-Book 07 Product Baseline: 0 accepted
 Database/API/runtime implementation files: prohibited
 Books 02–06 manuscript changes: prohibited
 ```

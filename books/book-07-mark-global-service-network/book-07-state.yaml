@@ -1,98 +1,75 @@
 book_id: B07
 title: Mark Global Service Network
-status: reconciled_network_and_product_charter_ready_for_owner_acceptance
-current_gate: reconciled_charter_owner_acceptance
-next_gate: controlled_product_baseline_candidate
+status: controlled_product_baseline_v0_1_ready_for_owner_acceptance
+current_gate: controlled_product_baseline_owner_acceptance
+next_gate: chapter_map_candidate
 
 active_architecture:
   canon: MARKORBIT-ORBITAL-ARCHITECTURE-CANON-vNEXT.1
   decision_register: DECISION-REGISTER-vNEXT.1
   workplace_sovereignty_adr: MO-ADR-WSP-001
-  canon_amendment: MO-ARCH-AMEND-001
-  activation_review: MO-ARCH-REV-003
 
-accepted_baseline:
+accepted_charter:
   pre_writing_audit_v0_1: true
-  planning_records:
-    - B07-PLN-0001
-    - B07-PLN-0002
-    - B07-PLN-0003
-    - B07-PLN-0004
-    - B07-PLN-0005
-    - B07-PLN-0006
-    - B07-PLN-0007
-    - B07-PLN-0008
-    - B07-PLN-0009
-  review_records:
-    - B07-REV-0001
-  validation_records:
-    - B07-VAL-0001
-
-reconciled_charter:
+  reconciled_charter_v0_1: true
   charter: B07-PLN-0010
   decision_matrix: B07-PLN-0011
   controlling_reconciliation: B07-PLN-0013
-  renewed_review: B07-REV-0003
+  review: B07-REV-0003
   validation: B07-VAL-0003
+
+controlled_product_baseline_candidate:
+  specifications:
+    - B07-SPEC-0001
+    - B07-SPEC-0002
+    - B07-SPEC-0003
+    - B07-SPEC-0004
+  review: B07-REV-0004
+  validation: B07-VAL-0004
   ready_for_owner_acceptance: true
   accepted_on_merge: true
-  ready_to_prepare_product_baseline_candidate_on_merge: true
-  product_baseline_accepted: false
+  chapter_map_authorized_on_merge: true
 
-reconciled_authority:
-  workplace_business_sovereignty: true
-  core_semantic_authority: true
-  owning_service_formal_state_authority: true
-  physical_custody_separate: true
-  legal_and_source_rights_separate: true
-  product_installation_required: true
-  projection_handoff_return_distinct: true
-  mgsn_connection_separate_from_network: true
+controlled_coverage:
+  product_local_records:
+    MG-N: 6
+    MG-C: 8
+    MG-P: 8
+    MG-R: 8
+    MG-F: 10
+    MG-T: 8
+    MG-E: 8
+    total: 56
+  reference_journeys: 8
+  conformance_scenarios: 32
+  handoff_return_contracts: 10
+  mvp_acceptance_criteria: 16
+
+product_locks:
   platform_owned_mgsn_network: true
-  originating_workplace_required: true
-  execution_provider_workplace_required: true
-
-preserved_direction:
-  platform_owned_mgsn_resources: true
-  platform_governed_provider_supply: true
+  workplace_business_sovereignty: true
+  owning_service_formal_state_authority: true
   central_hub_topology: true
   peer_to_peer_participant_network: false
-  external_self_managed_route_allowed: true
-  recommended_managed_route: true
-  managed_preferred_provider_route: true
+  three_route_model: true
   multi_provider_supply_portfolios: true
   contextual_demand_and_supply_roles: true
   bidirectional_introduction: true
   user_final_confirmation: true
-  autonomous_provider_appointment: false
+  automatic_provider_appointment: false
+  finance_ledger_duplicated: false
+  official_truth_owned_by_mgsn: false
 
-renewed_review:
-  authority_chain: pass
-  workplace_sovereignty: pass
-  mgsn_platform_authority: pass
-  connection_vs_network: pass
-  originating_provider_workplace_model: pass
-  route_model: pass
-  matching_and_bounded_choice: pass
-  commercial_and_procurement: pass
-  funds_and_fulfillment: pass_with_implementation_legal_gate
-  provider_and_trust: pass
-  product_installation_and_projection: pass
-  cross_book_ownership: pass
-  mvp_0: pass
+review:
+  decision: pass
   blocking_findings: 0
   major_findings: 0
+  upstream_architecture_findings: 0
   book_02_change_proposal_required_now: false
-
-owner_merge_effect:
-  activate_canon_vnext_1: true
-  accept_reconciled_charter: true
-  authorize_product_baseline_candidate_preparation: true
-  authorize_product_baseline_acceptance: false
+  implementation_authorization_created: false
 
 not_authorized:
-  controlled_product_baseline_acceptance: true
-  chapter_map: true
+  chapter_map_acceptance: true
   manuscript: true
   database_schema: true
   api_contracts: true
