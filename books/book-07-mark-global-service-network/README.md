@@ -3,9 +3,9 @@
 ## Status
 
 ```text
-Reconciled Network and Product Charter v0.1
+Controlled Product Baseline v0.1
 Ready for Owner Acceptance on Merge
-Next: Controlled Product Baseline Candidate
+Next: Chapter Map Candidate
 ```
 
 ## Active Authority
@@ -13,27 +13,18 @@ Next: Controlled Product Baseline Candidate
 ```text
 MARKORBIT-ORBITAL-ARCHITECTURE-CANON-vNEXT.1
 DECISION-REGISTER-vNEXT.1
+Reconciled Network and Product Charter v0.1
 ```
 
 ## Product Identity
 
-### User-facing
-
-> **MGSN is the platform-managed global professional service network that enables trademark professionals and agencies to deliver services worldwide through one governed commercial and fulfillment interface.**
-
-### Architectural
-
-> **MGSN is the platform-owned managed network that organizes provider supply, Capability, procurement, matching, funds, fulfillment, Trust and service continuity across independent Workplace business spaces.**
-
-### Commercial
-
-> **MGSN is a managed global service procurement and fulfillment network, not a free provider directory or open bidding marketplace.**
+> **MGSN is the platform-owned and platform-governed managed global professional-service network that enables participating Workplaces to obtain, provide and continuously improve global service capability through one controlled commercial and fulfillment interface.**
 
 ## Canonical Topology
 
 ```text
 Originating Workplace
-→ authorized demand projection
+→ authorized Capability Need projection
 → MGSN Connection / Gateway
 → platform-owned MGSN Network
 → controlled provider allocation / instruction
@@ -42,22 +33,29 @@ Originating Workplace
 → Originating Workplace
 ```
 
-The Originating Workplace retains customer and originating commercial context. The Execution Provider Workplace retains provider-side operation and professional responsibility. Owning Services retain formal-state authority.
+Workplace business sovereignty, Core semantic authority, Owning Service formal-state authority, provider professional responsibility and platform network control remain distinct.
 
-## Network Boundary
+## Controlled Product Record Families
 
 ```text
-MGSN Connection / Gateway
-≠ MGSN Network
-
-Workplace relationship history
-≠ ownership of platform provider supply
-
-Platform network control
-≠ ownership of every participant customer
+MG-N — Network Participation and Connection
+MG-C — Capability and Supply
+MG-P — Procurement and Service Offer
+MG-R — Routing, Recommendation and Selection
+MG-F — Funds, Fulfillment and Return
+MG-T — Trust, Relationship and Network Learning
+MG-E — Exception, Restriction and Governance
 ```
 
-MGSN-managed collaboration does not create an unrestricted participant-to-participant network graph.
+Coverage:
+
+```text
+56 Product-local records
+8 Reference Journeys
+32 Conformance Scenarios
+10 Handoff / Return Contracts
+16 MVP Acceptance Criteria
+```
 
 ## Three Delivery Routes
 
@@ -67,73 +65,61 @@ R2 — MGSN Recommended Managed Route
 R3 — MGSN Managed Preferred-Provider Route
 ```
 
-R1 remains outside implied MGSN procurement, funds, replacement and fulfillment guarantees. Continuity resumes through source-qualified manual Evidence.
-
-R2 is the default managed route.
-
-R3 permits a preferred provider subject to platform admission, Capability, qualification, conflict, availability, procurement, package and risk controls.
+R1 has explicit platform-visibility and guarantee limits. R2 is the default managed route. R3 remains subject to admission, Capability, qualification, conflict, availability, procurement, package and risk controls.
 
 ## Matching and Choice
-
-The Product may present:
 
 ```text
 one Recommended Route
 + up to two materially differentiated alternatives where useful
-+ rematch or preferred-provider request
-+ External Self-Managed Route option
++ user confirm / reject / rematch / preferred-provider / R1 disposition
++ provider allocation and acceptance
 ```
 
 ```text
 Automatic matching ≠ automatic appointment
 User confirmation ≠ Provider Acceptance
+Provider Acceptance ≠ completion
 ```
-
-The full provider pool, provider procurement cost and routing model are not constitutional user-facing requirements.
 
 ## Participant Model
 
-The stable participant is an Organization. Demand and supply are contextual roles.
+Organization is the stable participant identity. Demand and Supply are contextual roles.
 
-An Organization may request one Capability and provide another through separate permission, conflict, financial and audit contexts.
+An Organization may request one Capability and provide another through separated permission, conflict, financial and audit contexts.
 
-Demand participants may introduce existing providers. Providers may introduce existing demand participants. Introduction creates provenance and bounded incentives, not automatic admission, permanent ownership or unrestricted routing rights.
+Bidirectional introduction creates Relationship Provenance and bounded incentive eligibility, not automatic admission, permanent exclusivity, ownership of another participant or platform bypass rights.
+
+## Multi-Provider Supply
+
+MGSN may maintain multiple admitted providers for the same jurisdiction and service, including Recommended Primary, Qualified Alternative, Specialist, Urgent Capacity, Relationship-Preserved, Backup, Pilot and Restricted roles.
+
+These are dynamic platform classifications, not permanent public rankings.
 
 ## Commercial, Funds and Fulfillment
 
 ```text
 provider procurement cost
 + official fees and disbursements
-+ platform service, support and risk cost
++ platform service, support and risk layer
 + demand-side margin where permitted
 = customer-facing offer
 ```
 
-MGSN-managed routes require typed collection, allocation, release, Evidence, settlement, refund, dispute and reconciliation controls.
+MGSN requires typed funds checkpoints, milestone Evidence, correction, replacement, settlement and Return controls.
 
-The Charter does not claim universal escrow, trust-account or regulated payment status. The final legal, accounting, tax, foreign-exchange, sanctions and client-money model remains an implementation prerequisite.
+The Product Baseline does not claim universal escrow, trust-account, payment-institution or client-money authority and does not replace Finance ledger truth.
 
-## Initial MVP 0
-
-```text
-Chinese trademark agencies and independent professionals
-+ existing proven foreign associates and selected verified providers
-+ filing-through-registration packages where stable
-+ selected high-volume post-filing services
-+ operator-assisted admission, procurement, funds and exception handling
-```
-
-## Controlled Charter Baseline
+## Controlled Baseline Candidate
 
 ```text
-B07-PLN-0010 — Network and Product Charter Candidate v0.1
-B07-PLN-0011 — Owner Decision Matrix / OD-01–OD-33
-B07-PLN-0013 — Workplace Sovereignty Charter Reconciliation
-B07-REV-0003 — Reconciled Charter Review / PASS
-B07-VAL-0003 — Scope and Authority Check / PASS
+B07-SPEC-0001 — MGSN Controlled Product Baseline Candidate
+B07-SPEC-0002 — Product-Local Record Catalog
+B07-SPEC-0003 — Reference Journeys and Conformance Scenarios
+B07-SPEC-0004 — Handoff, Return and MVP Acceptance Baseline
+B07-REV-0004 — Controlled Product Baseline Review / PASS
+B07-VAL-0004 — Scope and Consistency Check / PASS
 ```
-
-`B07-PLN-0013` controls where earlier Charter wording is incomplete or ambiguous.
 
 ## Non-Goals
 
@@ -146,14 +132,14 @@ lowest-price auction
 user-owned provider network
 peer-to-peer participant network
 unrestricted provider-contact export
-public one-score rating platform
+public universal-score rating platform
 automatic provider appointment engine
 unregulated escrow wallet
-replacement for Core, Execution, Workplace or MarkReg
+replacement for Core, Execution, Workplace, Finance or MarkReg
 ```
 
 ## Gate Effect
 
-Owner merge accepts the reconciled Charter and authorizes preparation of a Controlled Product Baseline Candidate.
+Owner merge accepts `B07-SPEC-0001–0004` as the Controlled Product Baseline v0.1 and authorizes preparation of a Chapter Map Candidate.
 
-It does not accept the Product Baseline itself or authorize Chapter Map, manuscript, schema, API, payment implementation, provider appointment, production deployment or External Protected Action.
+It does not authorize Chapter Map acceptance, manuscript drafting, schema/API implementation, payment custody or release, automatic provider appointment, production deployment or External Protected Action.
