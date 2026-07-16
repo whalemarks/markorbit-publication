@@ -15,29 +15,36 @@
 - [B06-REV-0013 — Whole-Book Complete Draft 1 Review](B06-REV-0013_Whole_Book_Complete_Draft_1_Review.md)
 - [B06-REV-0014 — RC Hardening A Editorial and Structural Normalization Review](B06-REV-0014_RC_Hardening_A_Editorial_and_Structural_Normalization_Review.md)
 - [B06-REV-0015 — RC Hardening B Reader Apparatus Review](B06-REV-0015_RC_Hardening_B_Reader_Apparatus_Review.md)
+- [B06-REV-0016 — RC Hardening C Source, Render and Release Candidate Review](B06-REV-0016_RC_Hardening_C_Source_Render_and_RC_Review.md)
 
-## Accepted decisions
+## Decision chain
 
 ```text
 B06-REV-0013 — Whole-Book Complete Draft 1: PASS WITH RC HARDENING REQUIRED
 B06-REV-0014 — RC Hardening A: PASS
 B06-REV-0015 — RC Hardening B: PASS
+B06-REV-0016 — RC Hardening C / Whole-Book RC Review: PASS
 ```
 
-## Hardening B evidence
+## Final validation evidence
 
 ```text
-B06-APP records: 7
-Glossary entries: 63
-Core distinctions: 30
-Semantic figures: 12
-Product-local records covered: 45 / 45
-Reference journeys: 4 / 4
-Conformance scenarios: 24 / 24
-Handoff contracts: 8 / 8
-MVP acceptance criteria: 12 / 12
-Controlled meaning changes: 0
-Blocking / major / upstream findings: 0
+Reader-facing baseline:
+7ce03755e03bb4876768a34a4ee3d2c3b74bddb1
+
+Successful workflow run: 29477787207
+Artifact ID: 8367264203
+Artifact digest:
+sha256:2446561090311a6d6e5912ebdc1e109a2b0e5cf525109db9eb3b0762ee27236b
+
+Chapters: 34 / 34
+Reader Apparatus: 7 / 7
+Local links: 283 checked / 0 broken
+Anchors: 10 checked / 0 broken
+Controlled IDs: 93 / 93
+Mermaid figures: 12 / 12
+PDF: 410 pages / 842,295 bytes / 0 near-blank pages
+Blocking / major / warning findings: 0 / 0 / 0
 ```
 
 ## RC requirement status
@@ -48,15 +55,17 @@ RC-H02 — CLOSED ON HARDENING A MERGE
 RC-H03 — CLOSED ON HARDENING B MERGE
 RC-H04 — CLOSED ON HARDENING A MERGE
 RC-H05 — CLOSED ON HARDENING B MERGE
-RC-H06 — OPEN — HARDENING C
+RC-H06 — READY TO CLOSE ON CURRENT OWNER MERGE
 ```
 
 ## Gate effect
 
-Owner merge accepts RC Hardening B and authorizes:
+Owner merge accepts:
 
 ```text
-RC Hardening C — Source, Citation, Render and RC Validation
+RC Hardening C
+B06-REV-0016
+Book 06 Release Candidate 1
 ```
 
-It does not accept Release Candidate status or authorize implementation, production, public/commercial distribution, autonomous professional action or External Protected Action.
+It does not authorize implementation, production deployment, final public/commercial distribution, autonomous professional action or External Protected Action.
