@@ -2,13 +2,13 @@
 
 ## Repository Purpose
 
-The MarkOrbit publication repository is the unified publication home for MarkOrbit books, shared editorial assets, review materials, release artifacts, architecture decisions, governance records and controlled task records.
+The MarkOrbit publication repository is the unified publication home for MarkOrbit books, shared editorial assets, reviews, release artifacts, architecture decisions, governance records and controlled task records.
 
-Editorial or implementation convenience must not silently redefine architecture.
+Editorial, commercial or implementation convenience must not silently redefine accepted architecture.
 
 ## Architecture Authority
 
-Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](governance/MARKORBIT-ORBITAL-ARCHITECTURE-CANON-vNEXT.md).
+Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](architecture/MARKORBIT-ORBITAL-ARCHITECTURE-CANON-vNEXT.md).
 
 - Version: vNext
 - Status: Owner Confirmed Canonical Working Baseline
@@ -18,44 +18,42 @@ Current architecture authority: [MarkOrbit Orbital Architecture Canon vNext](gov
 ## Book Registry
 
 | Book | Title | Canonical Path | Status |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | `books/book-01-operating-system/` | Release Candidate 1 |
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 |
 | Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Owner Accepted / Portfolio Locked |
 | Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Release Candidate 1 — Approved and Frozen |
-| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Release Candidate 1 — Approved and Frozen on Owner Merge |
-| Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Planned |
+| Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Release Candidate 1 — Owner Accepted |
+| Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Pre-Writing Audit v0.1 — Ready for Owner Acceptance on Merge |
 
-Book 05 is frozen through its accepted RC1 content baseline, permanent release record and `release/book-05-rc1` pointer.
 
-Book 06 RC1 is accepted through `B06-REV-0016` and `B06-REL-0002`, and frozen through `B06-REL-0003`, `release/B06-RC1.yaml` and the post-merge `release/book-06-rc1` pointer.
+## Portfolio Baseline
 
-## Planned Book Positioning
+Books 01–04 form the accepted pre-Product Portfolio Baseline.
 
-### Book 01 — MarkOrbit — The Operating System for Global Brand Services
 
-Defines industry vision and Operating System principles. Publication state: Release Candidate 1.
+Book 02 remains frozen. Semantic changes require the existing Change Proposal process.
 
-### Book 02 — MarkOrbit Core Specification
+Books 05–07 consume the baseline and may not silently redefine Core, Execution or Workplace authority.
 
-Defines shared Core semantics, objects, services and contracts. Baseline B02-BASELINE-V0.1 remains frozen; semantic changes require the existing Change Proposal process.
+## Book 05 — MarkReg
 
-### Book 03 — MarkOrbit Execution System
+Book 05 defines the flagship full-lifecycle international trademark Product.
 
-Defines how approved Core contracts become governed operational execution. Publication state: Release Candidate 1.
+Publication state:
 
-### Book 04 — MarkOrbit Workplace and Product Architecture
+```text
+Release Candidate 1 — Approved and Frozen
+```
 
-Defines independent organizational Workplaces and their consumption of MarkOrbit capabilities. Publication state: Release Candidate 1 — Owner Accepted / Portfolio Locked.
+Book 05 RC1 is protected by its accepted release record, immutable content baseline and `release/book-05-rc1` pointer.
 
-### Book 05 — MarkReg
+Final public/commercial distribution remains a separate gate.
 
-Defines the flagship full-lifecycle international trademark Product. Publication state: Release Candidate 1 — Approved and Frozen. Final public/commercial distribution remains a separate unapproved gate.
+## Book 06 — MarkOrbit Lite
 
-### Book 06 — MarkOrbit Lite
-
-Defines the AI business operating system for independent trademark professionals and small agencies, architecturally a lightweight Workplace Product.
+Book 06 defines the AI business operating system for independent trademark professionals and small agencies, architecturally a lightweight Workplace Product.
 
 Accepted Product Baseline:
 
@@ -131,70 +129,149 @@ Upstream conflicts: 0
 Change Proposal required: NO
 ```
 
-Complete manuscript argument:
+RC Hardening A, B and C are accepted. `RC-H01–RC-H06` are closed.
+
+Book 06 RC1 was accepted through owner merge of PR #76 on 2026-07-16.
+
+Book 06 RC1 acceptance does not approve final branded-publication production, Product implementation, production deployment or final public/commercial distribution.
+
+## Book 07 — Mark Global Service Network
+
+### Current Gate
 
 ```text
-Product Constitution
-→ Daily Operating Model
-→ Customer and Service Growth
-→ Professional Work Products
-→ Cases, Memory and Business Assets
-→ MarkOrbit Gateways and Continuity
-→ MVP and Product Conformance
-→ Commercial Plans and Sustainable Economics
-→ Product Evolution Without Constitutional Drift
+Pre-Writing Audit v0.1
+Ready for Owner Acceptance on Merge
 ```
 
-All `RC-H01–RC-H06` requirements are closed.
-
-RMB 99, recurring/daily content, Prospect Candidate quantity, Asset limits, Handoff support levels and quotas remain commercial experiments rather than Product constitution.
-
-Lite does not absorb MarkReg Product Sessions, Formal Intake or Matters; MGSN Trust, Routing or provider appointment; Review approval; Communication send state; formal Opportunity; active Task/Workflow; or Execution and protected-action authority.
-
-Book 06 RC1 approval and freeze do not approve final branded-publication production, Product implementation, production deployment or final public/commercial distribution.
-
-### Book 07 — Mark Global Service Network
-
-Future publication subject for service-routing, Capability and Trust between independent Workplaces.
-
-## Books 01–04 Portfolio Baseline
-
-The current cross-book review is `MO-PUB-REV-0001` and the effective baseline is `MO-PUB-BASELINE-0001`.
+### Current Planning Records
 
 ```text
-Book 01 — Release Candidate 1
-Book 02 — Frozen Core Specification Baseline v0.1
-Book 03 — Release Candidate 1
-Book 04 — Release Candidate 1, Owner Accepted and Portfolio Locked
+B07-PLN-0001 — Pre-Writing Audit
+B07-PLN-0002 — Product, Platform and Experience Direction
+B07-PLN-0003 — Authority, Ownership and Control Matrix
+B07-PLN-0004 — Commercial, Procurement and Funds-Control Hypotheses
+B07-PLN-0005 — Historical and Supplemental Input Assessment
+B07-PLN-0006 — Owner Decisions and Open Questions
+B07-PLN-0007 — Delivery Route, Matching and Continuity Model
+B07-PLN-0008 — Authority and Source Map
+B07-PLN-0009 — Network Topology and Private-Space Boundary
+B07-REV-0001 — Pre-Writing Audit Review
 ```
 
-Current gate:
+### Starting Product Interpretation
+
+```text
+Platform-owned MGSN hub
++ platform-governed provider supply
++ central participant connection
++ independent private participant spaces
++ aggregated demand and procurement
++ default best-route matching
++ user final confirmation
++ controlled funds and fulfillment
++ external self-managed route continuity bridge
++ provider and network evolution
+```
+
+### Network Topology
+
+```text
+Demand-side Workplace / Lite
+            ↓
+          MGSN
+            ↑
+Provider Workplace / Provider Interface
+```
+
+MGSN does not create an independent participant-to-participant network graph.
+
+
+### Delivery Route Planning Model
+
+```text
+R1 — External Self-Managed Route
+R2 — MGSN Recommended Managed Route
+R3 — MGSN Managed Preferred-Provider Route
+```
+
+R1 remains permitted without provider import, but the user manages provider, price, payment, follow-up and manual Evidence return. No MGSN procurement, funds, replacement or fulfillment guarantee is implied.
+
+R2 is the default when the user lacks a suitable external route. MGSN may automatically match and preselect a Recommended Best Route. The user retains final confirmation, rejection or adjustment.
+
+R3 permits a user preference inside MGSN, subject to platform admission, capability, qualification, conflict, availability, procurement, service and risk controls.
+
+```text
+Automatic matching ≠ automatic appointment
+User confirmation ≠ Provider Acceptance
+Same provider identity ≠ same route or guarantee
+External user report ≠ official truth
+```
+
+### Review Result
+
+```text
+Review: B07-REV-0001
+Decision: PASS
+Architecture authority: PASS
+Books 01–06 boundary: PASS
+Product direction: PASS
+Experience direction: PASS
+Historical input: PASS
+Blocking findings: 0
+Major findings: 0
+Upstream Change Proposal required: NO
+```
+
+### Owner Merge Effect
+
+Owner merge may accept:
+
+```text
+Book 07 Pre-Writing Audit v0.1
+Platform-owned MGSN hub interpretation
+Private-space boundary
+Three-route planning model
+Default platform matching direction
+User final confirmation direction
+B07-PLN-0001–0009
+B07-REV-0001
+```
+
+Owner merge may authorize:
+
+```text
+Book 07 Network and Product Charter Candidate
+```
+
+Owner merge does not accept or authorize:
+
+```text
+Final Product Charter
+Controlled Product Baseline
+Chapter Map
+Manuscript drafting
+Database schema
+API contracts
+Payment implementation
+Production deployment
+Peer-to-peer participant network
+Autonomous provider appointment
+External Protected Action
+```
+
+## Current Portfolio Gate
 
 ```text
 Books 01–04 Portfolio Baseline
-→ Book 05 MarkReg RC1 approved and frozen
-→ Book 06 Product Charter v0.3 accepted
-→ Book 06 Product Baseline v0.1 accepted
-→ Book 06 Chapter Map v0.1 accepted
-→ Book 06 Waves 1–7 accepted
-→ Book 06 Whole-Book Complete Draft 1 accepted
-→ RC Hardening A/B/C accepted
-→ Book 06 Release Candidate 1 approved
-→ Book 06 RC1 freeze owner merge
-→ create release/book-06-rc1 pointer
-→ optional final brand/design production
-→ final publication/distribution decision
+→ Book 05 RC1 approved and frozen
+→ Book 06 RC1 owner accepted
+→ Book 07 Pre-Writing Audit v0.1
+→ Owner acceptance
+→ Book 07 Network and Product Charter Candidate
 ```
 
-All 34 Book 06 chapter files drafted: **YES**
-
-Whole-book Complete Draft 1 accepted: **YES**
-
-RC Hardening A/B/C accepted: **YES**
-
-Book 06 RC1 accepted: **YES**
-
-Book 06 RC1 freeze ready for owner merge: **YES**
+## Global Authority Boundary
 
 Ready for unrestricted implementation: **NO**
 
@@ -202,4 +279,4 @@ Ready for production deployment: **NO**
 
 Ready for final public/commercial distribution: **NO**
 
-External protected action authorized: **NO**
+External Protected Action authorized: **NO**

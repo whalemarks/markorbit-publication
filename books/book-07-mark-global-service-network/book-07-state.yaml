@@ -1,0 +1,101 @@
+book_id: B07
+title: Mark Global Service Network
+status: pre_writing_audit_v0_1_ready_for_owner_acceptance_on_merge
+current_gate: pre_writing_audit
+next_gate: network_and_product_charter_candidate
+
+owner_direction:
+  platform_owns_mgsn_resources: true
+  hub_topology: true
+  peer_to_peer_network: false
+  private_space_is_participant_workplace_or_lite: true
+  external_self_managed_route_allowed: true
+  external_route_mgsn_guarantee: false
+  default_platform_matching_when_no_route: true
+  user_final_confirmation: true
+  autonomous_provider_appointment: false
+
+planning_records:
+  - B07-PLN-0001
+  - B07-PLN-0002
+  - B07-PLN-0003
+  - B07-PLN-0004
+  - B07-PLN-0005
+  - B07-PLN-0006
+  - B07-PLN-0007
+  - B07-PLN-0008
+  - B07-PLN-0009
+
+review_records:
+  - B07-REV-0001
+
+validation_records:
+  - B07-VAL-0001
+
+route_model:
+  - id: R1
+    name: external_self_managed
+    platform_managed: false
+    platform_guarantee: false
+    evidence_return: manual
+  - id: R2
+    name: mgsn_recommended_managed
+    platform_managed: true
+    default_matching: true
+    user_confirmation: true
+  - id: R3
+    name: mgsn_managed_preferred_provider
+    platform_managed: true
+    user_preference_subject_to_platform_gates: true
+
+review:
+  architecture_authority: pass
+  books_01_06_boundary: pass
+  product_direction: pass
+  experience_direction: pass
+  historical_input: pass
+  blocking_findings: 0
+  major_findings: 0
+  upstream_change_proposal_required: false
+
+validation:
+  scope_check: pass
+  duplicate_planning_ids: 0
+  manuscript_files_added: 0
+  chapter_map_added: false
+  product_charter_added: false
+  product_baseline_added: false
+  implementation_files_added: 0
+  books_01_06_manuscript_files_modified: 0
+
+accepted_on_owner_merge:
+  pre_writing_audit_v0_1: true
+  product_and_experience_direction: true
+  authority_and_control_matrix: true
+  route_planning_model: true
+  topology_and_private_space_boundary: true
+  review_b07_rev_0001: true
+  validation_b07_val_0001: true
+
+authorized_on_owner_merge:
+  network_and_product_charter_candidate: true
+
+not_authorized:
+  final_product_charter: true
+  controlled_product_baseline: true
+  chapter_map: true
+  manuscript: true
+  database_schema: true
+  api_contracts: true
+  payment_implementation: true
+  production_deployment: true
+  peer_to_peer_participant_network: true
+  autonomous_provider_appointment: true
+  external_protected_action: true
+
+integrity:
+  manuscript_files_expected: 0
+  chapter_map_expected: false
+  product_charter_accepted: false
+  product_baseline_accepted: false
+  implementation_files_allowed: false
