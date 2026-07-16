@@ -1,14 +1,17 @@
 # B06-CH-17 — From Purpose and Knowledge to Structured Content
 
-## Chapter status
+**Status:** Complete Draft 1  
+**Chapter Map:** B06-TOC-V0.1 — Owner Accepted  
+**Part:** Part IV — Professional Work Products  
+**Primary controls:** ML-O06, ML-W01, ML-W10
 
-```text
-Book: Book 06 — MarkOrbit Lite
-Chapter: B06-CH-17
-Part: IV — Professional Work Products
-Status: Complete Draft 1 — Owner Accepted on Wave 4 Merge
-Primary controls: ML-O06, ML-W01, ML-W10
-```
+## Chapter Purpose
+
+This chapter explains how a defined purpose, authorized sources, current facts and governed Knowledge become Structured Content for a professional work product.
+
+The central proposition is:
+
+> Professional work-product production begins with purpose, not prompting.
 
 ## 17.1 A professional work product begins before writing
 
@@ -405,7 +408,7 @@ Destination and format known?           YES / NO
 
 A `NO` does not always prevent drafting, but it must affect readiness and downstream action.
 
-## 17.13 Chapter conclusion
+## Chapter Conclusion
 
 Professional work-product production begins with purpose, not prompting.
 
