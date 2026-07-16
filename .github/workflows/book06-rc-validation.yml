@@ -50,6 +50,25 @@ jobs:
             weasyprint==63.1
           PUPPETEER_SKIP_DOWNLOAD=true npm install --global @mermaid-js/mermaid-cli@11.4.2
 
+      - name: Validate release YAML records
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import yaml
+
+          paths = [
+              Path("books/book-06-markorbit-lite/publication.yaml"),
+              Path("books/book-06-markorbit-lite/release/book06-assembly.yaml"),
+              Path("books/book-06-markorbit-lite/release/B06-RC1.yaml"),
+          ]
+          for path in paths:
+              with path.open("r", encoding="utf-8") as handle:
+                  payload = yaml.safe_load(handle)
+              if not isinstance(payload, dict):
+                  raise SystemExit(f"Expected mapping in {path}")
+              print(f"validated YAML: {path}")
+          PY
+
       - name: Configure Mermaid browser
         shell: bash
         run: |
