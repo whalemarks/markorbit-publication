@@ -1,6 +1,11 @@
 # B06-CH-27 — MGSN Capability Need and Provider Boundaries
 
-## Chapter Role
+**Status:** Complete Draft 1  
+**Chapter Map:** B06-TOC-V0.1 — Owner Accepted  
+**Part:** Part VI — MarkOrbit Gateways and Continuity  
+**Primary controls:** ML-H04, ML-HC-02
+
+## Chapter Purpose
 
 This chapter explains how Lite expresses a service capability need to the Mark Global Service Network without becoming a provider directory, routing authority, appointment system or cross-Organization collaboration owner.
 
@@ -9,8 +14,6 @@ The central proposition is:
 > Lite may describe the capability that is needed; MGSN owns how trusted capability is discovered, minimized, routed and returned.
 
 The gateway must help a small trademark professional reach broader global capacity without exposing unnecessary customer information or pretending that a candidate provider has been selected or appointed.
-
----
 
 ## 1. Why Lite needs an MGSN gateway
 
@@ -511,7 +514,7 @@ Today shows:
 - a prepared customer approval message;
 - a next-step Handoff option.
 
-Lite does not automatically reveal the customer name or appoint the candidate.
+Lite does not automatically reveal the customer name or claim that a provider has been appointed.
 
 ## 14. Common failure patterns
 
@@ -578,7 +581,7 @@ A conforming implementation should answer:
 - What happens when no capability is available?
 - What happens when the Return is stale or unknown?
 
-## 16. The provider-boundary principle
+## Chapter Conclusion
 
 The MGSN gateway expands the user's reach without pretending that Lite owns the network.
 
