@@ -1,14 +1,17 @@
 # B06-CH-18 — Artifact Drafts, Versions and Review Packages
 
-## Chapter status
+**Status:** Complete Draft 1  
+**Chapter Map:** B06-TOC-V0.1 — Owner Accepted  
+**Part:** Part IV — Professional Work Products  
+**Primary controls:** ML-W02, ML-W03, ML-W04, ML-H05, ML-HC-03
 
-```text
-Book: Book 06 — MarkOrbit Lite
-Chapter: B06-CH-18
-Part: IV — Professional Work Products
-Status: Complete Draft 1 — Owner Accepted on Wave 4 Merge
-Primary controls: ML-W02, ML-W03, ML-W04, ML-H05, ML-HC-03
-```
+## Chapter Purpose
+
+This chapter defines the Artifact as a versioned business result and explains how immutable versions and exact-purpose Review Packages preserve professional responsibility.
+
+The central proposition is:
+
+> Versioning makes Review meaningful, and Review makes professional responsibility visible.
 
 ## 18.1 The Artifact is the business result
 
@@ -406,7 +409,7 @@ Later edits create new version?              YES / NO
 Allowed destinations known?                 YES / NO
 ```
 
-## 18.17 Chapter conclusion
+## Chapter Conclusion
 
 The Artifact is the versioned business result at the center of Lite’s professional production loop.
 
