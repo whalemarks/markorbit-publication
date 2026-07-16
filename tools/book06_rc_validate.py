@@ -16,7 +16,7 @@ import re
 import shutil
 import subprocess
 import sys
-from collections import Counter, defaultdict
+from collections import Counter
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
 from typing import Iterable
@@ -190,6 +190,31 @@ def validate_markdown_structure(book_dir: Path, report: ValidationReport) -> tup
     return chapters, apps
 
 
+def validate_assembly_manifest(book_dir: Path, chapters: list[Path], apps: list[Path], report: ValidationReport) -> None:
+    manifest_path = book_dir / "release" / "book06-assembly.yaml"
+    try:
+        manifest = yaml.safe_load(read_text(manifest_path))
+    except Exception as exc:  # noqa: BLE001
+        add_finding(report, "BLOCKING", "ASSEMBLY_PARSE", manifest_path, str(exc))
+        return
+
+    source_order = manifest.get("source_order", {}) if isinstance(manifest, dict) else {}
+    listed_chapters = [
+        (manifest_path.parent / item).resolve()
+        for item in source_order.get("chapters", [])
+    ]
+    listed_apps = [
+        (manifest_path.parent / item).resolve()
+        for item in source_order.get("reader_apparatus", [])
+    ]
+    expected_chapters = [path.resolve() for path in chapters]
+    expected_apps = [path.resolve() for path in apps]
+    if listed_chapters != expected_chapters:
+        add_finding(report, "BLOCKING", "ASSEMBLY_CHAPTER_ORDER", manifest_path, "Machine assembly chapter order does not match B06-CH-00–B06-CH-33")
+    if listed_apps != expected_apps:
+        add_finding(report, "BLOCKING", "ASSEMBLY_APP_ORDER", manifest_path, "Machine assembly Reader Apparatus order does not match B06-APP-0001–B06-APP-0007")
+
+
 def validate_fences_and_markers(paths: Iterable[Path], report: ValidationReport) -> None:
     for path in paths:
         text = read_text(path)
@@ -314,14 +339,6 @@ def render_mermaid(source_text: str, output_dir: Path, report: ValidationReport)
     return replaced, rendered
 
 
-def strip_leading_h1(text: str) -> str:
-    lines = text.splitlines()
-    for index, line in enumerate(lines):
-        if line.startswith("# "):
-            return "\n".join(lines[:index] + ["# " + line[2:]] + lines[index + 1 :])
-    return text
-
-
 def assemble_book(book_dir: Path, chapters: list[Path], apps: list[Path], output_dir: Path, report: ValidationReport) -> tuple[Path, Path, Path, list[Path]]:
     parts = [
         "# Book 06 — MarkOrbit Lite\n\n",
@@ -331,11 +348,11 @@ def assemble_book(book_dir: Path, chapters: list[Path], apps: list[Path], output
         "---\n\n",
     ]
     for path in chapters:
-        parts.append(strip_leading_h1(read_text(path)))
+        parts.append(read_text(path))
         parts.append("\n\n<div class=\"page-break\"></div>\n\n")
     parts.append("# Reader Apparatus\n\n")
     for path in apps:
-        parts.append(strip_leading_h1(read_text(path)))
+        parts.append(read_text(path))
         parts.append("\n\n<div class=\"page-break\"></div>\n\n")
 
     combined = "".join(parts)
@@ -402,17 +419,20 @@ def validate_pdf(pdf_path: Path, report: ValidationReport) -> None:
     report.pdf_blank_pages = blank
     if blank > 3:
         add_finding(report, "MAJOR", "PDF_BLANK_PAGES", pdf_path, f"Found {blank} near-blank pages")
-    full_text = "\n".join(text_samples)
+
+    # PDF line wrapping may split human-readable titles. Stable publication IDs
+    # are the appropriate integrity tokens for cross-render validation.
+    normalized_text = re.sub(r"\s+", " ", "\n".join(text_samples))
     required = [
         "B06-CH-00",
         "B06-CH-33",
-        "Controlled Term Glossary",
-        "Core Distinction Matrix",
-        "Subject Index",
+        "B06-APP-0001",
+        "B06-APP-0002",
+        "B06-APP-0007",
     ]
     for token in required:
-        if token not in full_text:
-            add_finding(report, "MAJOR", "PDF_TEXT", pdf_path, f"Required text missing from PDF extraction: {token}")
+        if token not in normalized_text:
+            add_finding(report, "MAJOR", "PDF_TEXT", pdf_path, f"Required publication ID missing from PDF extraction: {token}")
 
 
 def write_checksums(output_dir: Path) -> Path:
@@ -492,6 +512,7 @@ def main() -> int:
 
     report = ValidationReport(source_commit=args.source_commit, book_dir=str(book_dir))
     chapters, apps = validate_markdown_structure(book_dir, report)
+    validate_assembly_manifest(book_dir, chapters, apps, report)
     validation_paths = sorted(book_dir.rglob("*.md"))
     report.markdown_files_scanned = len(validation_paths)
     validate_fences_and_markers(chapters + apps, report)
