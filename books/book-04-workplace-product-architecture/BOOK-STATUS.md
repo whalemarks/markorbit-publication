@@ -20,7 +20,7 @@ Book 04 RC1 remains a valid historical publication baseline. CH00–CH39 and B04
 ## Accepted WP-A Foundation
 
 ```text
-Required Canon corrections mapped: 12 / 12
+MO-ARCH-PLN-001 corrections mapped: 12 / 12
 CH00–CH39 classified: 40 / 40
 Direct-impact chapters: 27
 Supporting-impact chapters: 13
