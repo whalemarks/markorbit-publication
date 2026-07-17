@@ -14,8 +14,7 @@ Repository release-state reconciliation — COMPLETE
 Books 05–07 Release Candidate 1 — APPROVED AND FROZEN
 Book 04 Workplace Sovereignty WP-A–WP-F — OWNER ACCEPTED / CLOSED
 Book 04 vNext Integration 01 — OWNER ACCEPTED
-Book 04 vNext Integration 02A — OWNER ACCEPTED
-Book 04 vNext Integration 02B — OWNER ACCEPTED
+Book 04 vNext Integration 02A–02C — OWNER ACCEPTED / 40 OF 40 CHAPTERS
 ```
 
 The Workplace Sovereignty clarification remains compatible with Book 02 and does not require an immediate Book 02 Change Proposal.
@@ -27,14 +26,14 @@ The Workplace Sovereignty clarification remains compatible with Book 02 and does
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | RC1 — Portfolio Baseline Accepted |
 | Book 02 | MarkOrbit Core Specification | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | RC1 — Portfolio Baseline Accepted |
-| Book 04 | MarkOrbit Workplace and Product Architecture | RC1 Historical / vNext Integration 02C Active |
+| Book 04 | MarkOrbit Workplace and Product Architecture | RC1 Historical / vNext Candidate 01 Active |
 | Book 05 | MarkReg | RC1 — Approved and Frozen |
 | Book 06 | MarkOrbit Lite | RC1 — Approved and Frozen |
 | Book 07 | Mark Global Service Network | RC1 — Approved and Frozen |
 
 ## Book 04 Workplace Sovereignty vNext
 
-### Accepted correction and preparation programme
+### Accepted correction and integration programme
 
 ```text
 WP-A — Canon and terminology reconciliation — OWNER MERGED
@@ -46,6 +45,7 @@ WP-F — full-book audit and GO integration decision — OWNER MERGED
 INTEGRATION-01 — deterministic candidate preparation — OWNER MERGED
 INTEGRATION-02A — CH00–CH12 editorial weave input — OWNER MERGED
 INTEGRATION-02B — CH13–CH27 editorial weave input — OWNER MERGED
+INTEGRATION-02C — CH28–CH39 editorial weave input — OWNER MERGED
 ```
 
 Programme result:
@@ -54,82 +54,71 @@ Programme result:
 Chapters accounted for: 40 / 40
 Required correction classes: 12 / 12
 Accepted amendment packages: 4 / 4
-Deterministic candidate build: PASS
-Integration 02A chapters: 13 / 13
-Integration 02B chapters: 15 / 15
+Editorial weave coverage: 40 / 40
 Blocking findings: 0
 RC1 manuscript files changed: 0
 Immediate Book 02 Change Proposal: NO
-Integrated editorial programme: ACTIVE
+Full candidate generation: AUTHORIZED
 ```
 
 ### Current controlled task
 
 ```text
-PUB-TASK-B04-VNEXT-INTEGRATION-02C
-CH28–CH39 Editorial Integration
+PUB-TASK-B04-VNEXT-CANDIDATE-01
+Apply Editorial Weave Inputs and Generate Full Candidate 01
 ```
 
 Outputs:
 
 ```text
-B04-PLN-0017 — Integration 02C execution plan
-B04-EDIT-0003 — CH28–CH39 Editorial Weave Patch Set
-B04-REV-0015 — Integration 02C editorial review / PASS
+B04-PLN-0018 — Full vNext Candidate 01 Generation
+B04-REV-0016 — Full Candidate 01 Generation Review / PASS
+build_book04_vnext_candidate_01.py — full-book weave applier
+validate_book04_vnext_candidate_01.py — structural and protected-boundary validator
+book04-vnext-candidate-01 — GitHub Actions review artifact
 ```
 
 Current result:
 
 ```text
-Assigned chapters: 12 / 12
-Chapter weave modules: 12 / 12
-Placement rules: 12 / 12
-Unattributed modules: 0
-Artifact / formal-record separation: PASS
-Render / Edit / Delivery / Publish separation: PASS
-Routing / appointment separation: PASS
-Trust contextuality: PASS
-Cross-Workplace sovereignty: PASS
-Portability boundary: PASS
-Adjacent-chapter continuity: PASS
+RC1 chapters discovered: 40 / 40
+Editorial weave modules discovered: 40 / 40
+Candidate chapters generated: 40 / 40
+Candidate chapters with provenance: 40 / 40
+Full chapter sequence: CH00–CH39
+Reader-visible correction-route appendices: 0
+Duplicate chapter identities: 0
+Missing chapter identities: 0
 RC1 source modification: 0
-Immediate Book 02 Change Proposal: NO
+Blocking findings: 0
+Immediate Book 02 Change Proposal required: NO
 ```
 
-Total paragraph-level weave coverage is now prepared for all forty chapters:
-
-```text
-CH00–CH12: 13 / 13
-CH13–CH27: 15 / 15
-CH28–CH39: 12 / 12
-Total: 40 / 40
-```
-
-The three patch sets are designed to be applied to the generated candidate outside RC1. They do not themselves grant acceptance to the resulting prose.
+Candidate 01 preserves the RC1 argument, inserts accepted vNext prose at an early natural section boundary in every chapter and records hidden source and editorial provenance. The complete manuscript is produced as a controlled review artifact rather than modifying the immutable RC1 directory.
 
 ## Next Controlled Gates
 
 ```text
-Owner merge of INTEGRATION-02C
-→ apply B04-EDIT-0001, B04-EDIT-0002 and B04-EDIT-0003
-→ generate complete continuous CH00–CH39 candidate
-→ full-book semantic, editorial and cross-part review
-→ explicit Owner acceptance decision
+Owner merge of CANDIDATE-01 generation
+→ full-book semantic and continuity review
+→ cross-chapter duplication and terminology review
+→ targeted editorial corrections
+→ Candidate 02 if required
+→ explicit Owner Acceptance Gate
 → optional publication finishing and freeze decision
 ```
 
-The next controlled task will convert all accepted editorial weave inputs into the first complete continuously edited Book 04 vNext candidate, preserving provenance and supersession records.
+Candidate 01 is the first complete full-book review object. It is not yet the accepted or frozen Book 04 vNext baseline.
 
 ## Book 04 Decision Sequence
 
 ```text
 WP-A–WP-F — ACCEPTED / CLOSED
-→ Integration 01 preparation — ACCEPTED
-→ Integration 02A CH00–CH12 — ACCEPTED
-→ Integration 02B CH13–CH27 — ACCEPTED
-→ Integration 02C CH28–CH39 — ACTIVE
-→ apply all editorial weave inputs
+→ Integration 01 — ACCEPTED
+→ Integration 02A–02C — ACCEPTED / 40 OF 40 CHAPTERS
+→ Candidate 01 generation — ACTIVE
 → full candidate review
+→ targeted correction or Candidate 02
 → Owner Acceptance Gate
 → optional publication finishing and freeze decision
 ```
@@ -137,7 +126,7 @@ WP-A–WP-F — ACCEPTED / CLOSED
 ## Future Publication and Architecture Workstreams
 
 - Book 01 and Book 03 public-release copyediting and branded rendering;
-- Book 04 vNext continuous candidate generation, semantic review and publication finishing;
+- Book 04 vNext full-book semantic review, final copyediting and publication finishing;
 - Books 05–07 optional final brand/design production and distribution decisions;
 - Structured Information and Derived Value specifications;
 - Local Vault architecture;

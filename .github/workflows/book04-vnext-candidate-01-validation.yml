@@ -1,0 +1,37 @@
+name: Book 04 vNext Candidate 01 Validation
+
+on:
+  pull_request:
+    paths:
+      - 'books/book-04-workplace-product-architecture/**'
+      - 'codex/tasks/PUB-TASK-B04-VNEXT-CANDIDATE-01.md'
+      - 'tools/build_book04_vnext_candidate_01.py'
+      - 'tools/validate_book04_vnext_candidate_01.py'
+      - '.github/workflows/book04-vnext-candidate-01-validation.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-candidate-01:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out publication repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate full Book 04 vNext Candidate 01
+        run: python tools/validate_book04_vnext_candidate_01.py --base-sha "${{ github.event.pull_request.base.sha }}"
+      - name: Generate complete review manuscript
+        run: python tools/build_book04_vnext_candidate_01.py --output build/book04-vnext-candidate-01
+      - name: Upload Candidate 01 review artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: book04-vnext-candidate-01
+          path: build/book04-vnext-candidate-01
+          if-no-files-found: error
+          retention-days: 90
