@@ -1,0 +1,38 @@
+name: Portfolio Copyedit 01 Validation
+
+on:
+  pull_request:
+    paths:
+      - 'portfolio/copyedit/**'
+      - 'portfolio/audits/**'
+      - 'portfolio/reviews/**'
+      - 'portfolio/decisions/**'
+      - 'codex/tasks/PUB-TASK-PORTFOLIO-COPYEDIT-01.md'
+      - 'tools/audit_portfolio_copyedit_01.py'
+      - 'tools/validate_portfolio_copyedit_01.py'
+      - '.github/workflows/portfolio-copyedit-01-validation.yml'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate control layer
+        run: python tools/validate_portfolio_copyedit_01.py --base-sha "${{ github.event.pull_request.base.sha }}"
+      - name: Generate copyedit findings
+        run: python tools/audit_portfolio_copyedit_01.py
+      - name: Verify generated report
+        run: |
+          test -f .artifacts/portfolio-copyedit-01/PORTFOLIO-AUD-0002_Cross_Book_Copyedit_Findings.md
+          test -f .artifacts/portfolio-copyedit-01/portfolio-copyedit-findings.json
+          grep -q 'Books scanned: 7 / 7' .artifacts/portfolio-copyedit-01/PORTFOLIO-AUD-0002_Cross_Book_Copyedit_Findings.md
+      - uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-copyedit-01
+          path: .artifacts/portfolio-copyedit-01/
