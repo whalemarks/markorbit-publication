@@ -15,29 +15,40 @@ Active Canon vNext.1
 → Reader Apparatus APP-A–APP-F
 → Final Publication Review and Validation
 → B07-REL-0001 RC1 Owner Decision
+→ B07-REL-0002 RC1 Permanent Freeze
 ```
 
-Historical provider lists, pricing files, database drafts and implementation concepts remain evidence only.
+Historical Provider lists, pricing files, database drafts and implementation concepts remain evidence only.
 
 ## Current Gate
 
 ```text
-Release Candidate 1
-Ready for Owner Acceptance on Merge
+Release Candidate 1 — APPROVED AND FROZEN
+Governance maintenance only
 ```
 
-## RC1 content identity
+## Frozen RC1 identity
 
 ```text
 Reader-facing baseline:
 7ab3ea3e01b42afda8b2f675e514b91df436e47d
 
+Owner Decision activation:
+2f59951ceacfde3ed379e6de5dad602a192f48e3
+
+Freeze activation:
+3d3469a5845c352a2d73f698ffc085d5abb3aa85
+
+Release pointer:
+release/book-07-rc1
+
 B07-REL-0001 — Owner Decision
+B07-REL-0002 — Permanent Freeze
 B07-REV-0017 — PASS
 B07-VAL-0017 — PASS
 ```
 
-The decision branch activates governance only. It does not silently redefine the reader-facing content baseline.
+Governance maintenance does not silently redefine the reader-facing content baseline.
 
 ## Authority Locks
 
@@ -133,13 +144,11 @@ MVP 0 is operator-assisted and begins with selected international trademark serv
 
 ## RC1 Change Control
 
-After Owner acceptance:
-
-1. CH00–CH33 and APP-A–APP-F form the RC1 reader-facing content baseline;
-2. any source change requires release-impact classification and renewed validation;
-3. material meaning or authority changes require a new candidate or explicit supersession;
-4. a separate permanent Freeze task must record immutable identities and a machine-readable manifest;
-5. final publication and distribution remain separate Owner gates.
+1. CH00–CH33 and APP-A–APP-F form the immutable RC1 reader-facing content baseline.
+2. Any source change requires release-impact classification and renewed validation.
+3. Material meaning or authority changes require a new candidate baseline or explicit Owner supersession.
+4. Governance maintenance may correct status and release metadata without changing controlled meaning.
+5. Final branded publication and distribution remain separate Owner gates.
 
 ## Publication Governance
 
@@ -153,8 +162,8 @@ Pre-Writing Audit — ACCEPTED
 → Editorial Hardening — COMPLETE
 → Reader Apparatus — COMPLETE
 → Final Publication Validation — PASS
-→ Release Candidate 1 — READY FOR OWNER ACCEPTANCE ON MERGE
-→ RC1 Permanent Freeze
+→ Release Candidate 1 — ACCEPTED
+→ RC1 Permanent Freeze — COMPLETE
 ```
 
 ## Current Non-Authorization

@@ -11,36 +11,41 @@ Chapter Map v0.1 — ACCEPTED
 Writing Waves 1–7 — COMPLETE
 Whole-Book Draft — COMPLETE
 Whole-Book Consistency Review — PASS
-Editorial Hardening Wave A — ACCEPTED
-Editorial Hardening Wave B — ACCEPTED
+Editorial Hardening Waves A and B — ACCEPTED
 Reader Apparatus — ACCEPTED
 Final Publication Validation — PASS / ACCEPTED
-Release Candidate 1 — READY FOR OWNER ACCEPTANCE ON MERGE
-Final Publication — NOT APPROVED
+Release Candidate 1 — APPROVED AND FROZEN
+Final Branded Publication — NOT APPROVED
 Public/Commercial Distribution — NOT APPROVED
 ```
 
-## RC1 content baseline
+## Frozen RC1 identity
 
 ```text
 Reader-facing content baseline:
 7ab3ea3e01b42afda8b2f675e514b91df436e47d
 
-Owner Decision:
+Owner Decision activation commit:
+2f59951ceacfde3ed379e6de5dad602a192f48e3
+
+Freeze activation commit:
+3d3469a5845c352a2d73f698ffc085d5abb3aa85
+
+Owner Decision record:
 B07-REL-0001
 
-Owner Decision Review:
-B07-REV-0017 — PASS
+Permanent Freeze record:
+B07-REL-0002
 
-Owner Decision Validation:
-B07-VAL-0017 — PASS
+Release pointer:
+release/book-07-rc1
 ```
 
 ## Publication inventory
 
 ```text
 Manuscript chapters: CH00–CH33 / 34 of 34
-Required appendices: APP-A–APP-F / 6 of 6
+Reader Apparatus: APP-A–APP-F / 6 of 6
 Missing chapters or appendices: 0
 ```
 
@@ -56,23 +61,34 @@ Missing controlled IDs: 0
 Duplicate controlled IDs: 0
 ```
 
-## Decision effect
+## Validation basis
 
 ```text
-Owner merges this PR
-→ Book 07 Release Candidate 1 ACCEPTED
-
-PR closes without merge
-→ Book 07 Release Candidate 1 NOT ACCEPTED
+B07-REV-0016 — PASS
+B07-VAL-0016 — PASS
+B07-REV-0017 — PASS
+B07-VAL-0017 — PASS
+Blocking findings: 0
+Major findings: 0
+Minor findings: 0
+Controlled semantic drift: 0
+Implementation authorization leakage: 0
 ```
 
-## Next Gate
+## Change control
+
+The frozen RC1 reader-facing inputs are immutable under this identity. Any source change requires impact classification and renewed validation. Any material meaning, authority, controlled-ID, Product Baseline or Chapter Map change requires a new candidate baseline or explicit Owner supersession.
+
+Governance-only maintenance may correct status, release references and machine metadata, but may not silently redefine the frozen reader-facing baseline.
+
+## Next publication gate
 
 ```text
-Book 07 RC1 Permanent Freeze
+Repository release-state reconciliation
+→ Book 04 Workplace Sovereignty vNext Correction
 ```
 
-The freeze must be completed in a separate controlled task using the exact accepted content baseline and the Owner Decision activation commit.
+Book 07 implementation specifications and MVP development remain separate controlled tracks.
 
 ## Not Authorized
 

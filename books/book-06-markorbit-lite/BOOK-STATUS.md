@@ -3,13 +3,11 @@
 ## Current status
 
 ```text
-RELEASE CANDIDATE 1 — APPROVED
-RC1 FREEZE — EFFECTIVE ON B06-REL-0003 OWNER MERGE
+RELEASE CANDIDATE 1 — APPROVED AND FROZEN
+Final branded publication — NOT APPROVED
+Public/commercial distribution — NOT APPROVED
+Product implementation — NOT AUTHORIZED
 ```
-
-Owner merge of PR #76 accepted RC Hardening C, closed `RC-H06` and accepted Book 06 Release Candidate 1. This freeze records the permanent RC1 identity without modifying any of the 41 reader-facing source inputs.
-
-Product Charter v0.3, Product Baseline v0.1, Chapter Map `B06-TOC-V0.1`, Waves 1–7, all 34 chapters and all 7 Reader Apparatus records remain unchanged in controlled meaning.
 
 ## Product identity
 
@@ -21,6 +19,31 @@ for independent trademark professionals and small trademark agencies
 Architectural:
 lightweight Workplace Product
 individual-first but Organization-centered
+```
+
+## Frozen RC1 identity
+
+```text
+Reader-facing content baseline:
+7ce03755e03bb4876768a34a4ee3d2c3b74bddb1
+
+Owner Decision activation commit:
+060e807be90081977bcc322f1557b9fc950f5209
+
+Freeze activation commit:
+4fce03cb7380117417b1ad479c743ef31a65b6c6
+
+Owner Decision record:
+B06-REL-0002
+
+Permanent Freeze record:
+B06-REL-0003
+
+Machine release manifest:
+release/B06-RC1.yaml
+
+Release pointer:
+release/book-06-rc1
 ```
 
 ## Accepted baseline
@@ -45,93 +68,25 @@ ML-AC-01–AC-12
 ## Accepted manuscript and apparatus
 
 ```text
-Wave 1 — CH00–CH06: COMPLETE DRAFT 1 — ACCEPTED
-Wave 2 — CH07–CH11: COMPLETE DRAFT 1 — ACCEPTED
-Wave 3 — CH12–CH16: COMPLETE DRAFT 1 — ACCEPTED
-Wave 4 — CH17–CH21: COMPLETE DRAFT 1 — ACCEPTED
-Wave 5 — CH22–CH25: COMPLETE DRAFT 1 — ACCEPTED
-Wave 6 — CH26–CH29: COMPLETE DRAFT 1 — ACCEPTED
-Wave 7 — CH30–CH33: COMPLETE DRAFT 1 — ACCEPTED
-Whole book — CH00–CH33: COMPLETE DRAFT 1 — ACCEPTED
-Reader Apparatus — B06-APP-0001–0007: ACCEPTED
+Writing Waves 1–7 — ACCEPTED
+Whole Book CH00–CH33 — ACCEPTED
+Reader Apparatus B06-APP-0001–0007 — ACCEPTED
 ```
 
-## RC1 identity
+## Validation evidence
 
 ```text
-Reader-facing content baseline:
-7ce03755e03bb4876768a34a4ee3d2c3b74bddb1
-
-Owner-decision activation commit:
-060e807be90081977bcc322f1557b9fc950f5209
-
-Permanent freeze record:
-B06-REL-0003
-
-Machine release manifest:
-release/B06-RC1.yaml
-
-Release pointer after freeze merge:
-release/book-06-rc1
-```
-
-## Accepted review and release set
-
-```text
-B06-REV-0013 — Whole-Book Complete Draft 1 Review
-B06-REV-0014 — RC Hardening A Review
-B06-REV-0015 — RC Hardening B Reader Apparatus Review
-B06-REV-0016 — RC Hardening C and Release Candidate Review
-B06-PLN-0008 — Release Candidate Hardening Plan
-B06-SRC-0001 — Source and Citation Policy
-B06-VAL-0001 — RC Validation Protocol
-B06-REL-0001 — RC Assembly Manifest
-B06-REL-0002 — Release Candidate 1 Decision Record
-B06-REL-0003 — Release Candidate 1 Freeze Record
-B06-RC1.yaml — Machine-readable frozen release manifest
-```
-
-## Hardening results
-
-```text
-Hardening A:
-34 / 34 normalized chapter headers
-controlled meaning changes: 0
-
-Hardening B:
-63 glossary entries
-30 core distinctions
-12 semantic figure sources
-45 / 45 Product-local records
-4 / 4 journeys
-24 / 24 scenarios
-8 / 8 Handoff contracts
-12 / 12 MVP criteria
-
-Hardening C:
-34 / 34 chapters
-7 / 7 Reader Apparatus records
-93 / 93 controlled IDs
-283 local links / 0 broken
-10 anchors / 0 broken
-12 / 12 Mermaid figures rendered
-410-page PDF / 0 near-blank pages
-external URLs: 0
-blocking / major / warning findings: 0 / 0 / 0
-```
-
-Validation evidence:
-
-```text
-Content/render run: 29477787207
-Artifact ID: 8367264203
-Artifact digest:
-sha256:2446561090311a6d6e5912ebdc1e109a2b0e5cf525109db9eb3b0762ee27236b
-
-Final governance run: 29478801425
-Artifact ID: 8367659673
-Artifact digest:
-sha256:dcfd3f85169f1275d38dd09e34f8338089bd4b6dbd90573a3ebe0dbd5c3819da
+Content/render workflow: 29477787207
+Final governance workflow: 29478801425
+Chapters: 34 / 34
+Reader Apparatus: 7 / 7
+Controlled IDs: 93 / 93
+Local links: 283 checked / 0 broken
+Anchors: 10 checked / 0 broken
+Mermaid figures: 12 / 12
+PDF validation render: 410 pages / 0 near-blank pages
+External URLs: 0
+Blocking / major / warning findings: 0 / 0 / 0
 ```
 
 ## Complete manuscript argument
@@ -148,7 +103,7 @@ Product Constitution
 → Product Evolution Without Constitutional Drift
 ```
 
-## Current integrity locks
+## Integrity locks
 
 - Today item is not active Task;
 - Candidate is not formal truth;
@@ -161,7 +116,7 @@ Product Constitution
 - Prepared Action is not execution;
 - Handoff is not destination acceptance;
 - Return is not Lite-owned formal truth;
-- Capability Need is not provider appointment;
+- Capability Need is not Provider appointment;
 - Personal Memory is not Organization Memory;
 - Reusable Asset is not canonical Knowledge;
 - local readability is not synchronization or disclosure authority;
@@ -170,39 +125,26 @@ Product Constitution
 - payment or premium edition does not grant authority;
 - usage or revenue cannot offset BLOCKING controls.
 
-## Release Candidate requirement status
-
-```text
-RC-H01 — CLOSED
-RC-H02 — CLOSED
-RC-H03 — CLOSED
-RC-H04 — CLOSED
-RC-H05 — CLOSED
-RC-H06 — CLOSED
-```
-
 ## Change control
 
-The 41 reader-facing RC1 inputs are immutable as RC1. Any change requires impact classification, renewed validation and a release decision. Administrative records outside the source set do not silently alter RC1.
+The 41 reader-facing RC1 inputs are immutable under the RC1 identity. Any source change requires impact classification, renewed validation and a release-impact decision. Material semantic changes require a new candidate baseline or explicit Owner supersession.
+
+Governance-only maintenance may correct release metadata without changing accepted Product meaning.
 
 ## Next gates
 
 ```text
-Release Candidate 1 — APPROVED
-→ RC1 Freeze — EFFECTIVE ON OWNER MERGE
-→ create release/book-06-rc1 from freeze merge commit
-→ optional final brand/design production
+Optional final brand/design production
 → final rendered validation
-→ final public/commercial distribution decision
+→ separate final public/commercial distribution decision
 ```
 
-Product implementation specifications and MVP development are separate controlled tracks.
+Implementation specifications and MVP development remain separate controlled tracks.
 
 ## Authorization
 
 ```text
-Release Candidate 1: ACCEPTED
-RC1 freeze on owner merge: AUTHORIZED
+Release Candidate 1: ACCEPTED AND FROZEN
 Final branded publication: NOT AUTHORIZED
 Implementation: NOT AUTHORIZED
 Production deployment: NOT AUTHORIZED

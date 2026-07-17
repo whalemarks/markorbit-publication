@@ -2,7 +2,7 @@
 
 ## Repository Purpose
 
-This repository is the unified publication and architecture-governance home for MarkOrbit. Publication convenience must not silently redefine accepted architecture.
+This repository is the unified publication and architecture-governance home for MarkOrbit. Publication convenience must not silently redefine accepted architecture, frozen Core semantics or accepted Product baselines.
 
 ## Active Architecture Authority
 
@@ -17,13 +17,13 @@ The previous vNext records remain historical. Book 02 remains the Frozen Core Sp
 
 | Book | Title | Status |
 | --- | --- | --- |
-| Book 01 | MarkOrbit — The Operating System for Global Brand Services | Release Candidate 1 |
+| Book 01 | MarkOrbit — The Operating System for Global Brand Services | Release Candidate 1 — Portfolio Baseline Accepted |
 | Book 02 | MarkOrbit Core Specification | Frozen Core Specification Baseline v0.1 |
-| Book 03 | MarkOrbit Execution System | Release Candidate 1 |
-| Book 04 | MarkOrbit Workplace and Product Architecture | Release Candidate 1 — Historical / Next-Version Correction Planned |
+| Book 03 | MarkOrbit Execution System | Release Candidate 1 — Portfolio Baseline Accepted |
+| Book 04 | MarkOrbit Workplace and Product Architecture | Release Candidate 1 — Historical / vNext Correction Planned |
 | Book 05 | MarkReg | Release Candidate 1 — Approved and Frozen |
-| Book 06 | MarkOrbit Lite | Release Candidate 1 — Owner Accepted and Frozen |
-| Book 07 | Mark Global Service Network | Controlled Product Baseline v0.1 — Ready for Owner Acceptance on Merge |
+| Book 06 | MarkOrbit Lite | Release Candidate 1 — Approved and Frozen |
+| Book 07 | Mark Global Service Network | Release Candidate 1 — Approved and Frozen |
 
 ## Workplace Sovereignty Constitution
 
@@ -38,58 +38,76 @@ MGSN Connection / Gateway
 ≠ platform-owned MGSN Network
 ```
 
+## Books 01–04 Portfolio Baseline
+
+```text
+MO-PUB-BASELINE-0001 — ACCEPTED
+Book 01 RC1 — ACCEPTED IN PORTFOLIO BASELINE
+Book 02 Frozen Core Specification Baseline v0.1 — ACTIVE
+Book 03 RC1 — ACCEPTED IN PORTFOLIO BASELINE
+Book 04 RC1 — OWNER ACCEPTED / PORTFOLIO LOCKED / HISTORICAL
+```
+
+The active Canon vNext.1 requires a controlled Book 04 Workplace Sovereignty next-version correction. Book 04 RC1 remains immutable and is not rewritten in place.
+
 ## Book 05 — MarkReg
 
-Book 05 RC1 remains frozen through its accepted release record and `release/book-05-rc1` pointer.
+```text
+State: Release Candidate 1 — Approved and Frozen
+Content baseline: 9da21c4b2325d35710a1ba1acd9be9ca42d988b3
+Decision activation: 2471862b59ac68cfa6bbd51c3f5dda708c92e11b
+Release record: B05-REL-0001
+Release pointer: release/book-05-rc1
+```
 
 ## Book 06 — MarkOrbit Lite
 
-Book 06 RC1 remains accepted and frozen. Lite remains a lightweight Workplace Product and may expose client-facing projections.
+```text
+State: Release Candidate 1 — Approved and Frozen
+Content baseline: 7ce03755e03bb4876768a34a4ee3d2c3b74bddb1
+Owner Decision activation: 060e807be90081977bcc322f1557b9fc950f5209
+Freeze activation: 4fce03cb7380117417b1ad479c743ef31a65b6c6
+Release record: B06-REL-0003
+Release pointer: release/book-06-rc1
+```
+
+Frozen reader-facing inventory:
+
+```text
+34 manuscript chapters
+7 Reader Apparatus records
+45 Product-local records
+4 Reference Journeys
+24 Conformance Scenarios
+8 Handoff Contracts
+12 MVP Acceptance Criteria
+```
 
 ## Book 07 — Mark Global Service Network
 
-### Accepted Authority
-
 ```text
-Book 07 Pre-Writing Audit v0.1
-Reconciled Network and Product Charter v0.1
-B07-PLN-0010
-B07-PLN-0011 / OD-01–OD-33
-B07-PLN-0013
-B07-REV-0003 / PASS
-B07-VAL-0003 / PASS
+State: Release Candidate 1 — Approved and Frozen
+Content baseline: 7ab3ea3e01b42afda8b2f675e514b91df436e47d
+Owner Decision activation: 2f59951ceacfde3ed379e6de5dad602a192f48e3
+Freeze activation: 3d3469a5845c352a2d73f698ffc085d5abb3aa85
+Owner Decision record: B07-REL-0001
+Freeze record: B07-REL-0002
+Release pointer: release/book-07-rc1
 ```
 
-### Controlled Product Baseline Candidate
+Frozen reader-facing and controlled inventory:
 
 ```text
-B07-SPEC-0001 — MGSN Controlled Product Baseline Candidate
-B07-SPEC-0002 — Product-Local Record Catalog
-B07-SPEC-0003 — Reference Journeys and Conformance Scenarios
-B07-SPEC-0004 — Handoff, Return and MVP Acceptance Baseline
-B07-REV-0004 — PASS
-B07-VAL-0004 — PASS
+34 manuscript chapters: CH00–CH33
+6 Reader Apparatus appendices: APP-A–APP-F
+56 Product-local records
+8 Reference Journeys
+32 Conformance Scenarios
+10 Handoff / Return Contracts
+16 MVP Acceptance Criteria
 ```
 
-### Controlled Coverage
-
-```text
-MG-N01–N06 — 6
-MG-C01–C08 — 8
-MG-P01–P08 — 8
-MG-R01–R08 — 8
-MG-F01–F10 — 10
-MG-T01–T08 — 8
-MG-E01–E08 — 8
-Total Product-local records — 56
-
-MG-J01–J08 — 8 Reference Journeys
-MG-SCN-01–SCN-32 — 32 Conformance Scenarios
-MG-HC-01–HC-10 — 10 Handoff / Return Contracts
-MG-AC-01–AC-16 — 16 MVP Acceptance Criteria
-```
-
-### Canonical Product Chain
+Canonical Product chain:
 
 ```text
 Originating Workplace
@@ -99,37 +117,21 @@ Originating Workplace
 → eligibility and Candidate Route Set
 → Recommended Route and bounded alternatives
 → user disposition
-→ provider allocation and acceptance
+→ Provider Allocation and Acceptance
 → funds and fulfillment checkpoints
 → typed Return
 → Originating Workplace / Owning Service validation
 ```
 
-### Review Result
-
-```text
-B07-REV-0004: PASS
-B07-VAL-0004: PASS
-Blocking findings: 0
-Major findings: 0
-Book 02 Change Proposal required now: NO
-Implementation authorization created: NO
-```
-
-### Gate Effect
-
-Owner merge accepts `B07-SPEC-0001–0004` as the Book 07 Controlled Product Baseline v0.1 and authorizes preparation of a Chapter Map Candidate.
-
-Owner merge does not authorize Chapter Map acceptance, manuscript drafting, database schema, API contracts, payment custody or funds release, automatic provider appointment, production deployment or External Protected Action.
-
 ## Current Portfolio Gate
 
 ```text
 Active Canon vNext.1
-→ Book 05 RC1 frozen
-→ Book 06 RC1 frozen
-→ Book 07 Controlled Product Baseline ready for Owner acceptance
-→ Chapter Map Candidate next
+→ Books 01–04 Portfolio Baseline accepted
+→ Book 02 frozen baseline active
+→ Books 05–07 RC1 approved and frozen
+→ publication release-state reconciliation
+→ Book 04 Workplace Sovereignty vNext Correction
 ```
 
 ## Global Authority Boundary
@@ -139,5 +141,7 @@ Ready for unrestricted implementation: **NO**
 Ready for production deployment: **NO**
 
 Ready for final public/commercial distribution: **NO**
+
+Autonomous professional action authorized: **NO**
 
 External Protected Action authorized: **NO**

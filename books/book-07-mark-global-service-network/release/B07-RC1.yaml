@@ -1,15 +1,17 @@
 book_id: B07
 title: Mark Global Service Network
 release: RC1
-status: frozen_on_owner_merge
+status: frozen
+freeze_date: 2026-07-17
 
 identity:
   reader_facing_content_baseline: 7ab3ea3e01b42afda8b2f675e514b91df436e47d
   owner_decision_activation_commit: 2f59951ceacfde3ed379e6de5dad602a192f48e3
   owner_decision_record: B07-REL-0001
   freeze_record: B07-REL-0002
-  freeze_activation_commit: set_to_freeze_pr_merge_commit_after_owner_merge
+  freeze_activation_commit: 3d3469a5845c352a2d73f698ffc085d5abb3aa85
   release_branch: release/book-07-rc1
+  release_branch_created: true
 
 inventory:
   manuscript_chapters: 34
@@ -39,6 +41,14 @@ frozen_inputs:
   specifications: true
   chapter_map: true
   charter: true
+
+change_control:
+  reader_facing_baseline_is_immutable: true
+  source_change_requires_impact_classification: true
+  source_change_requires_renewed_validation: true
+  material_change_requires_new_candidate_baseline: true
+  explicit_owner_supersession_required: true
+  release_branch_must_not_move_to_different_baseline: true
 
 not_authorized:
   final_branded_publication: true

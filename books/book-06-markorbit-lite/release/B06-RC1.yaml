@@ -2,11 +2,13 @@ release:
   id: "B06-REL-0003"
   book: "Book 06"
   title: "MarkOrbit Lite"
-  state: "release_candidate_1_frozen_on_owner_merge"
+  state: "release_candidate_1_frozen"
   freeze_date: "2026-07-16"
   content_baseline_commit: "7ce03755e03bb4876768a34a4ee3d2c3b74bddb1"
   owner_decision_activation_commit: "060e807be90081977bcc322f1557b9fc950f5209"
+  freeze_activation_commit: "4fce03cb7380117417b1ad479c743ef31a65b6c6"
   release_pointer: "release/book-06-rc1"
+  release_branch_created: true
   owner_decision_record: "B06-REL-0002"
   gate_review: "B06-REV-0016"
   freeze_record: "B06-REL-0003_Book_06_RC1_Freeze_Record.md"
@@ -71,7 +73,7 @@ checksums:
 
 authority:
   release_candidate_1_approved: true
-  release_candidate_1_frozen_on_owner_merge: true
+  release_candidate_1_frozen: true
   final_branded_publication_approved: false
   public_or_commercial_distribution_approved: false
   product_implementation_authorized: false

@@ -1,8 +1,8 @@
 book_id: B07
 title: Mark Global Service Network
-status: release_candidate_1_ready_for_owner_acceptance
-current_gate: release_candidate_owner_decision
-next_gate: release_candidate_1_permanent_freeze
+status: release_candidate_1_frozen
+current_gate: frozen_rc1_governance_maintenance
+next_gate: final_branded_publication_by_separate_owner_decision
 
 active_architecture:
   canon: MARKORBIT-ORBITAL-ARCHITECTURE-CANON-vNEXT.1
@@ -29,8 +29,18 @@ manuscript:
   reader_apparatus_complete: true
   release_candidate: true
   release_candidate_version: RC1
-  release_candidate_effective_on_owner_merge: true
+  release_candidate_approved: true
+  release_candidate_frozen: true
   release_candidate_content_baseline: 7ab3ea3e01b42afda8b2f675e514b91df436e47d
+
+release_identity:
+  owner_decision_record: B07-REL-0001
+  owner_decision_activation_commit: 2f59951ceacfde3ed379e6de5dad602a192f48e3
+  freeze_record: B07-REL-0002
+  freeze_activation_commit: 3d3469a5845c352a2d73f698ffc085d5abb3aa85
+  release_manifest: release/B07-RC1.yaml
+  release_branch: release/book-07-rc1
+  release_branch_created: true
 
 controlled_coverage:
   product_local_records: 56
@@ -87,11 +97,18 @@ release_candidate_owner_decision:
   record: B07-REL-0001
   review: B07-REV-0017
   validation: B07-VAL-0017
-  decision: accept_rc1_on_owner_merge
+  decision: accepted
   content_baseline: 7ab3ea3e01b42afda8b2f675e514b91df436e47d
   final_publication_approved: false
   public_distribution_approved: false
-  permanent_freeze_required: true
+  permanent_freeze_complete: true
+
+change_control:
+  reader_facing_baseline_is_immutable: true
+  source_change_requires_renewed_validation: true
+  material_change_requires_new_candidate_baseline: true
+  explicit_owner_supersession_required: true
+  governance_change_may_redefine_rc1: false
 
 not_authorized:
   final_branded_publication: true
@@ -108,5 +125,5 @@ not_authorized:
 
 integrity:
   implementation_files_allowed: false
-  owner_merge_required_for_rc1: true
-  permanent_freeze_is_separate_task: true
+  release_branch_must_not_move_to_different_baseline: true
+  frozen_reader_facing_inputs_may_change_in_governance_task: false

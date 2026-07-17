@@ -2,12 +2,13 @@
 
 ## Current State
 
-- **Status:** Release Candidate 1
+- **Status:** Release Candidate 1 — Portfolio Baseline Accepted
 - **Architecture:** Complete Draft 1 owner acceptance preserved.
 - **Manuscript:** CH00–CH34.
 - **Appendices:** A–H.
-- **Current review:** B03-REV-0007 — Publication Finishing and RC1 Review.
-- **Current gate:** Owner review of the Books 01–04 Portfolio Baseline.
+- **Accepted review:** B03-REV-0007 — Publication Finishing and RC1 Review.
+- **Portfolio baseline:** MO-PUB-BASELINE-0001 — ACCEPTED.
+- **Current gate:** controlled publication maintenance; final public-release production remains separate.
 
 ## Completed Work
 
@@ -34,6 +35,7 @@ AI and agent boundary: PASS
 Communication boundary: PASS
 Event authority and trace: PASS
 Book 02 Change Proposal required: NO
+Books 01–04 Portfolio Baseline: ACCEPTED
 ```
 
 ## MVP Result
@@ -46,10 +48,10 @@ Depth C external protected action: deferred
 
 ## Remaining Boundary
 
-Final public-release copyediting, published-format rendering and external distribution remain separate owner instructions.
+Final public-release copyediting, branded rendering and external distribution remain separate Owner instructions.
 
 Ready for unrestricted implementation: **NO**
 
 Production ready: **NO**
 
-External protected action authorized: **NO**
+External Protected Action authorized: **NO**

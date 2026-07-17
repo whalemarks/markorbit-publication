@@ -6,9 +6,9 @@
 Book ID: Book 07
 Title: Mark Global Service Network
 Canonical path: books/book-07-mark-global-service-network/
-Current gate: Release Candidate 1 Owner Decision
-Status: Ready for Owner Acceptance on Merge
-Next gate: RC1 Permanent Freeze
+Status: Release Candidate 1 — APPROVED AND FROZEN
+Current gate: Frozen RC1 governance maintenance
+Next publication gate: final branded publication only by separate Owner decision
 ```
 
 ## Active Authority
@@ -21,20 +21,26 @@ Controlled Product Baseline v0.1
 B07-TOC-V0.1
 ```
 
-## RC1 identity
+## Frozen RC1 identity
 
 ```text
 Reader-facing content baseline:
 7ab3ea3e01b42afda8b2f675e514b91df436e47d
 
+Owner Decision activation commit:
+2f59951ceacfde3ed379e6de5dad602a192f48e3
+
+Freeze activation commit:
+3d3469a5845c352a2d73f698ffc085d5abb3aa85
+
 Owner Decision:
 B07-REL-0001
 
-Owner Decision Review:
-B07-REV-0017 — PASS
+Permanent Freeze:
+B07-REL-0002
 
-Owner Decision Validation:
-B07-VAL-0017 — PASS
+Release branch:
+release/book-07-rc1
 ```
 
 ## Reader-facing inventory
@@ -77,6 +83,8 @@ MG-AC-01–AC-16 — 16 MVP Acceptance Criteria
 ```text
 B07-REV-0016 — PASS / ACCEPTED
 B07-VAL-0016 — PASS / ACCEPTED
+B07-REV-0017 — PASS / ACCEPTED
+B07-VAL-0017 — PASS / ACCEPTED
 Blocking findings — 0
 Major findings — 0
 Minor findings — 0
@@ -99,22 +107,20 @@ reviews/README.md
 validation/README.md
 appendices/README.md
 release/README.md
+release/B07-RC1.yaml
+release/B07-REL-0001_*
+release/B07-REL-0002_*
 ```
-
-## Owner merge effect
-
-Owner merge accepts `B07-REL-0001` and designates the exact reader-facing baseline as **Book 07 Release Candidate 1**.
-
-Owner merge authorizes a separate permanent RC1 freeze task. It does not approve final branded publication, public/commercial distribution or implementation.
 
 ## Integrity locks
 
 ```text
-CH00–CH33 changes in Owner Decision branch: prohibited
-APP-A–APP-F changes in Owner Decision branch: prohibited
-B07-SPEC-0001–0004 changes: prohibited
-Chapter Map changes: prohibited
-Canon or Charter changes: prohibited
-Database/API/payment/Trust runtime: prohibited
-Books 02–06 manuscript changes: prohibited
+CH00–CH33 changes under RC1 identity: prohibited
+APP-A–APP-F changes under RC1 identity: prohibited
+B07-SPEC-0001–0004 semantic changes: prohibited
+Chapter Map changes under RC1 identity: prohibited
+Canon or Charter changes through governance maintenance: prohibited
+Database/API/payment/Trust runtime: not authorized
 ```
+
+Final branded publication, public/commercial distribution and implementation remain separate controlled gates.
