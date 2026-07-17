@@ -1,0 +1,25 @@
+name: Portfolio Front Matter 01 Validation
+
+on:
+  pull_request:
+    paths:
+      - 'portfolio/front-matter/**'
+      - 'portfolio/plans/PORTFOLIO-PLN-0004_Common_Series_Front_Matter.md'
+      - 'portfolio/decisions/PORTFOLIO-DEC-0002_Front_Matter_Owner_Decisions.md'
+      - 'portfolio/reviews/PORTFOLIO-REV-0002_Common_Series_Front_Matter_Review.md'
+      - 'codex/tasks/PUB-TASK-PORTFOLIO-FRONT-MATTER-01.md'
+      - 'tools/validate_portfolio_front_matter_01.py'
+      - '.github/workflows/portfolio-front-matter-01-validation.yml'
+
+jobs:
+  validate-front-matter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate common series front matter
+        run: python tools/validate_portfolio_front_matter_01.py --base-sha '${{ github.event.pull_request.base.sha }}'
