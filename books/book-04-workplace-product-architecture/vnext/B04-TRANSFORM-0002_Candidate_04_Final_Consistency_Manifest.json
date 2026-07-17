@@ -4,12 +4,16 @@
   "authorized_changes": {
     "CH01": [
       ["Lite as a Lightweight Workplace", "Lite as a Lightweight Workplace Product"],
-      ["Lite is a lightweight Workplace", "Lite is a lightweight Workplace Product"]
+      ["Lite as a lightweight Workplace for", "Lite as a lightweight Workplace Product for"]
     ],
     "CH22": [
       ["Lite operate as a lightweight Workplace", "Lite operate as a lightweight Workplace Product"]
     ]
   },
-  "forbidden_reader_phrase": "Lite as a Lightweight Workplace",
+  "forbidden_reader_phrases": [
+    "Lite as a Lightweight Workplace",
+    "Lite as a lightweight Workplace for",
+    "Lite operate as a lightweight Workplace for"
+  ],
   "protected_chapters": ["CH00", "CH02", "CH03", "CH04", "CH05", "CH06", "CH07", "CH08", "CH09", "CH10", "CH11", "CH12", "CH13", "CH14", "CH15", "CH16", "CH17", "CH18", "CH19", "CH20", "CH21", "CH23", "CH24", "CH25", "CH26", "CH27", "CH28", "CH29", "CH30", "CH31", "CH32", "CH33", "CH34", "CH35", "CH36", "CH37", "CH38", "CH39"]
 }
