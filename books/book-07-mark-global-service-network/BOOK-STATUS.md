@@ -11,9 +11,9 @@ Chapter Map v0.1 — ACCEPTED
 Writing Waves 1–7 — COMPLETE
 Whole-Book Draft — COMPLETE
 Whole-Book Consistency Review — PASS
-Editorial Hardening Wave A — READY FOR OWNER ACCEPTANCE ON MERGE
-Editorial Hardening Wave B — NEXT
-Reader Apparatus — REQUIRED
+Editorial Hardening Wave A — ACCEPTED
+Editorial Hardening Wave B — READY FOR OWNER ACCEPTANCE ON MERGE
+Reader Apparatus — NEXT
 Release Candidate — NOT YET
 ```
 
@@ -34,38 +34,31 @@ B07-VAL-0013 — Whole-Book Validation
 ## Manuscript Completion
 
 ```text
-Front Matter: CH00–CH02
-Part I: CH03–CH06 — Network and Participants
-Part II: CH07–CH11 — Global Supply
-Part III: CH12–CH15 — Procurement and Offers
-Part IV: CH16–CH20 — Routing and Choice
-Part V: CH21–CH25 — Funds, Fulfillment and Return
-Part VI: CH26–CH29 — Trust and Governance
-Part VII: CH30–CH33 — MVP and Evolution
-
-Expected chapters: 34
-Present chapters: 34
-Missing chapters: 0
+CH00–CH33 present: 34 / 34
 Writing waves completed: 7 / 7
+Missing chapters: 0
 ```
 
 ## Editorial Hardening
 
 ```text
 B07-PLN-0016 — Editorial Hardening Plan
-B07-PLN-0018 — Wave A Chapter-Level Edit Log
-B07-REV-0014 — Wave A Review / PASS
-B07-VAL-0014 — Wave A Validation / PASS
 
-Wave A scope: CH00–CH16
-Chapters reviewed: 17 / 17
-Chapters directly edited: 6
-Chapters reviewed without direct edit: 11
-Blocking findings: 0
-Major findings: 0
+Wave A — CH00–CH16
+B07-PLN-0018 / B07-REV-0014 / B07-VAL-0014
+Reviewed: 17 / 17
+Directly edited: 6
+Decision: PASS / ACCEPTED
+
+Wave B — CH17–CH33
+B07-PLN-0019 / B07-REV-0015 / B07-VAL-0015
+Reviewed: 17 / 17
+Directly edited: 4
+Reviewed without direct edit: 13
+Decision: PASS / READY FOR OWNER ACCEPTANCE
 ```
 
-Wave A strengthened the Reader Promise, consolidated the reading path, concentrated the Product Constitution, and added transitions between Parts I–IV without changing controlled Product meaning.
+Wave B consolidated the Recommendation → User Disposition → Provider Allocation → Provider Acceptance chain; strengthened typed Return and uncertainty handling; unified the governance and appeal chain; added Part IV–VII transitions; and tightened the final Product synthesis without changing controlled meaning.
 
 ## Controlled Coverage
 
@@ -81,11 +74,11 @@ Controlled ID renames or deletions: 0
 ## Required Next Work
 
 ```text
-Editorial Hardening Wave B — CH17–CH33
 Reader Apparatus:
-  Glossary
+  Controlled Terminology Glossary
   Product-local Record Index
-  Journey / Scenario Index
+  Reference Journey Index
+  Conformance Scenario Index
   Handoff / Return and Acceptance Index
   Product / Implementation Boundary Notice
 Final publication validation
@@ -95,10 +88,10 @@ Release Candidate decision
 ## Next Gate
 
 ```text
-Editorial Hardening Wave B — CH17–CH33
+Reader Apparatus and Final Publication Validation
 ```
 
-Completion of Wave A does not confer Release Candidate status.
+Completion of Editorial Hardening does not confer Release Candidate status.
 
 ## Not Authorized
 
