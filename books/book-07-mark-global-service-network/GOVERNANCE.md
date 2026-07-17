@@ -8,7 +8,13 @@ Active Canon vNext.1
 → Books 01–06 accepted authority
 → accepted Book 07 Pre-Writing Audit
 → accepted reconciled Book 07 Charter
-→ B07-SPEC-0001–0004 Controlled Product Baseline Candidate
+→ accepted Controlled Product Baseline v0.1
+→ accepted Chapter Map v0.1
+→ CH00–CH33 manuscript
+→ Editorial Hardening Waves A and B
+→ Reader Apparatus APP-A–APP-F
+→ Final Publication Review and Validation
+→ B07-REL-0001 RC1 Owner Decision
 ```
 
 Historical provider lists, pricing files, database drafts and implementation concepts remain evidence only.
@@ -16,20 +22,22 @@ Historical provider lists, pricing files, database drafts and implementation con
 ## Current Gate
 
 ```text
-Controlled Product Baseline v0.1
+Release Candidate 1
 Ready for Owner Acceptance on Merge
 ```
 
-## Controlled Baseline
+## RC1 content identity
 
 ```text
-B07-SPEC-0001 — Product constitution and loops
-B07-SPEC-0002 — Product-local record catalog
-B07-SPEC-0003 — journeys and conformance scenarios
-B07-SPEC-0004 — Handoff, Return and MVP acceptance
-B07-REV-0004 — PASS
-B07-VAL-0004 — PASS
+Reader-facing baseline:
+7ab3ea3e01b42afda8b2f675e514b91df436e47d
+
+B07-REL-0001 — Owner Decision
+B07-REV-0017 — PASS
+B07-VAL-0017 — PASS
 ```
+
+The decision branch activates governance only. It does not silently redefine the reader-facing content baseline.
 
 ## Authority Locks
 
@@ -48,7 +56,7 @@ Workplace business sovereignty
 
 ### MGSN Network lock
 
-The platform owns or governs provider admission, supply portfolios, procurement, matching, network offers, funds controls, fulfillment, replacement, Trust, restrictions and network operating data.
+The platform owns or governs Provider admission, supply portfolios, procurement, matching, network offers, funds controls, fulfillment, replacement, Trust, restrictions and network operating data.
 
 ```text
 MGSN Connection / Gateway
@@ -57,7 +65,7 @@ MGSN Connection / Gateway
 
 ### Provider Workplace lock
 
-The Execution Provider Workplace retains provider-side operations, professional judgment and professional responsibility.
+The Execution Provider Workplace retains Provider-side operations, professional judgment and professional responsibility.
 
 ### Product-local record lock
 
@@ -99,71 +107,68 @@ User confirmation ≠ Provider Acceptance
 Provider Acceptance ≠ completion
 ```
 
-### Participant lock
+### Participant and supply locks
 
 Organization is stable identity. Demand and Supply are contextual roles with separate permission, financial, conflict and audit contexts.
 
-### Supply lock
-
-MGSN may maintain multiple providers per jurisdiction and service. Portfolio roles are dynamic platform classifications, not public permanent rankings.
-
-### Introduction lock
+MGSN may maintain multiple Providers per jurisdiction and service. Portfolio roles are dynamic platform classifications, not public permanent rankings.
 
 Bidirectional introduction creates Relationship Provenance and bounded incentive eligibility, not automatic admission, permanent ownership, exclusivity or bypass rights.
 
-### Commercial lock
+### Commercial and funds locks
 
 Provider procurement cost, official fees, platform service/risk layer and demand-side margin remain distinguishable. Commercial optimization cannot override qualification, conflict, professional fit, deadlines or unacceptable risk.
 
-### Funds lock
+MGSN uses typed funds requirements, allocations, release conditions, settlement and reconciliation projections, but does not claim universal escrow, trust-account, payment-institution or Finance-ledger authority.
 
-MGSN requires typed funds requirements, allocations, release conditions, settlement and reconciliation projections, but does not claim universal escrow, trust-account, payment-institution or Finance-ledger authority.
-
-### Trust lock
+### Trust and formal-state locks
 
 Trust is multidimensional, source-aware, service-specific, time-scoped and correctable. It is not one public universal score.
-
-### Formal-state lock
 
 MGSN must not silently duplicate or own Customer, Contact, Opportunity, Order, Matter, Task, Workflow, Review, Communication send truth, Finance ledger, MarkReg official lifecycle or official outcomes.
 
 ### MVP lock
 
-MVP 0 is operator-assisted and begins with international trademark filing and selected high-volume services for Chinese agencies and independent professionals using existing proven foreign associates and selected verified providers.
+MVP 0 is operator-assisted and begins with selected international trademark services, selected jurisdictions, existing proven associates and selected verified Providers.
 
-## Change Control
+## RC1 Change Control
 
-Material changes require:
+After Owner acceptance:
 
-1. explicit Baseline amendment or supersession;
-2. Charter and active-Canon boundary review;
-3. updated Review, Validation and machine state;
-4. Book 02 Change Proposal assessment where Core semantics may change;
-5. Owner acceptance before Chapter Map or implementation relies on the change.
+1. CH00–CH33 and APP-A–APP-F form the RC1 reader-facing content baseline;
+2. any source change requires release-impact classification and renewed validation;
+3. material meaning or authority changes require a new candidate or explicit supersession;
+4. a separate permanent Freeze task must record immutable identities and a machine-readable manifest;
+5. final publication and distribution remain separate Owner gates.
 
 ## Publication Governance
 
 ```text
 Pre-Writing Audit — ACCEPTED
 → Reconciled Charter — ACCEPTED
-→ Controlled Product Baseline — READY FOR OWNER ACCEPTANCE
-→ Chapter Map Candidate
-→ Chapter Map Review and Owner Decision
-→ Manuscript Waves
-→ Whole-Book Review
-→ Release Candidate Hardening
+→ Controlled Product Baseline — ACCEPTED
+→ Chapter Map — ACCEPTED
+→ Manuscript Waves — COMPLETE
+→ Whole-Book Review — PASS
+→ Editorial Hardening — COMPLETE
+→ Reader Apparatus — COMPLETE
+→ Final Publication Validation — PASS
+→ Release Candidate 1 — READY FOR OWNER ACCEPTANCE ON MERGE
+→ RC1 Permanent Freeze
 ```
 
 ## Current Non-Authorization
 
 ```text
-Chapter Map acceptance
-Manuscript drafting
+Final branded publication
+Public/commercial distribution
 Provider database schema
 Routing API
 Payment custody
 Funds release
-Automatic provider appointment
+Automatic Provider appointment
+Automated adverse Trust sanctions
 Production deployment
+Autonomous professional action
 External Protected Action
 ```
