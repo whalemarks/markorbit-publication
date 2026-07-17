@@ -53,7 +53,7 @@ def validate_declared_structure() -> None:
             raise ValidationError(f"Book 01 status missing: {statement}")
     for statement in (
         "CH00–CH34",
-        "Appendices: A–H",
+        "Appendices:** A–H",
         "Book 03 freeze: GRANTED",
         "B03-RC1-FROZEN-01",
     ):
@@ -105,14 +105,14 @@ def validate_manifest(book: Path, identifier: str) -> None:
 
 
 def validate_portfolio() -> None:
-    roadmap = (ROOT / "PUBLICATION-ROADMAP.md").read_text(encoding="utf-8")
+    registry = (ROOT / "PORTFOLIO-FREEZE-STATUS.md").read_text(encoding="utf-8")
     for statement in (
         "Book 01 | MarkOrbit — The Operating System for Global Brand Services | B01-RC1-FROZEN-01",
         "Book 03 | MarkOrbit Execution System | B03-RC1-FROZEN-01",
         "Seven-book frozen-baseline coverage: 7 / 7",
     ):
-        if statement not in roadmap:
-            raise ValidationError(f"portfolio roadmap missing: {statement}")
+        if statement not in registry:
+            raise ValidationError(f"portfolio freeze registry missing: {statement}")
 
 
 def validate_diff(base_sha: str | None) -> None:
