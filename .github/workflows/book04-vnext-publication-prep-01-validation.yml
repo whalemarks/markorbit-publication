@@ -36,7 +36,7 @@ jobs:
       - name: Commit materialized manuscript to PR branch
         shell: bash
         run: |
-          if git diff --quiet -- books/book-04-workplace-product-architecture/accepted-vnext; then
+          if [ -z "$(git status --porcelain -- books/book-04-workplace-product-architecture/accepted-vnext)" ]; then
             echo "Materialized manuscript already current."
             exit 0
           fi
