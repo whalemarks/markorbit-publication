@@ -23,10 +23,23 @@ jobs:
         with:
           python-version: '3.12'
       - name: Validate route-aware Candidate 02
-        run: python tools/validate_book04_vnext_candidate_02.py --base-sha "${{ github.event.pull_request.base.sha }}"
+        shell: bash
+        run: |
+          mkdir -p build/candidate02-diagnostics
+          set -o pipefail
+          python tools/validate_book04_vnext_candidate_02.py --base-sha "${{ github.event.pull_request.base.sha }}" 2>&1 | tee build/candidate02-diagnostics/VALIDATION.log
       - name: Generate complete Candidate 02 review manuscript
+        if: success()
         run: python tools/build_book04_vnext_candidate_02.py --output build/book04-vnext-candidate-02
+      - name: Upload Candidate 02 diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: book04-vnext-candidate-02-diagnostics
+          path: build/candidate02-diagnostics
+          retention-days: 30
       - name: Upload Candidate 02 review artifact
+        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: book04-vnext-candidate-02
