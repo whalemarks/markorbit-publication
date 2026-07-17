@@ -1,0 +1,39 @@
+name: Book 04 vNext Integration 01 Validation
+
+on:
+  pull_request:
+    paths:
+      - 'books/book-04-workplace-product-architecture/**'
+      - 'codex/tasks/PUB-TASK-B04-VNEXT-INTEGRATION-01.md'
+      - 'tools/build_book04_vnext_candidate.py'
+      - 'tools/validate_book04_vnext_integration_01.py'
+      - '.github/workflows/book04-vnext-integration-01-validation.yml'
+
+jobs:
+  validate-integration-preparation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out publication repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          show-progress: false
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate deterministic candidate preparation
+        id: validation
+        shell: bash
+        run: |
+          set +e
+          python tools/validate_book04_vnext_integration_01.py --base-sha "${{ github.event.pull_request.base.sha }}" > integration-validation.log 2>&1
+          result=$?
+          cat integration-validation.log
+          exit $result
+      - name: Upload validation diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: book04-integration-01-validation-log
+          path: integration-validation.log
