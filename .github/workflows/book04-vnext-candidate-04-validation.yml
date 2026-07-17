@@ -1,0 +1,34 @@
+name: Book 04 vNext Candidate 04 Validation
+
+on:
+  pull_request:
+    paths:
+      - 'codex/tasks/PUB-TASK-B04-VNEXT-CANDIDATE-04.md'
+      - 'books/book-04-workplace-product-architecture/**'
+      - 'tools/build_book04_vnext_candidate_04.py'
+      - 'tools/validate_book04_vnext_candidate_04.py'
+      - '.github/workflows/book04-vnext-candidate-04-validation.yml'
+  workflow_dispatch:
+
+jobs:
+  validate-candidate-04:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out publication repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate Candidate 04
+        run: python tools/validate_book04_vnext_candidate_04.py --base-sha "${{ github.event.pull_request.base.sha }}"
+      - name: Generate complete Candidate 04 manuscript
+        run: python tools/build_book04_vnext_candidate_04.py --output build/book04-vnext-candidate-04
+      - name: Upload Candidate 04 review artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: book04-vnext-candidate-04
+          path: build/book04-vnext-candidate-04
+          retention-days: 90
