@@ -33,9 +33,16 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Validate WP-A records, coverage and source boundary
+      - name: Validate required records and terminology
+        run: python tools/validate_book04_vnext_wp_a.py --only terms
+
+      - name: Validate chapter and finding coverage
+        run: python tools/validate_book04_vnext_wp_a.py --only coverage
+
+      - name: Validate protected source boundary
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
         run: |
           python tools/validate_book04_vnext_wp_a.py \
+            --only diff \
             --base-sha "$BASE_SHA"
