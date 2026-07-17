@@ -12,86 +12,62 @@ Writing Waves 1–7 — COMPLETE
 Whole-Book Draft — COMPLETE
 Whole-Book Consistency Review — PASS
 Editorial Hardening Wave A — ACCEPTED
-Editorial Hardening Wave B — READY FOR OWNER ACCEPTANCE ON MERGE
-Reader Apparatus — NEXT
-Release Candidate — NOT YET
+Editorial Hardening Wave B — ACCEPTED
+Reader Apparatus — COMPLETE / READY FOR OWNER ACCEPTANCE
+Final Publication Validation — PASS / READY FOR OWNER ACCEPTANCE
+Release Candidate — READY FOR OWNER DECISION ON MERGE
 ```
 
-## Accepted Authority
+## Publication inventory
 
 ```text
-Active Canon vNext.1
-Active Decision Register vNext.1
-Reconciled Network and Product Charter v0.1
-B07-SPEC-0001–0004
-B07-TOC-V0.1
-B07-PLN-0014 — Chapter Coverage Matrix
-B07-PLN-0015 — Writing Wave Plan
-B07-REV-0013 — Whole-Book Review
-B07-VAL-0013 — Whole-Book Validation
+Manuscript chapters: CH00–CH33 / 34 of 34
+Required appendices: APP-A–APP-F / 6 of 6
+Missing chapters or appendices: 0
 ```
 
-## Manuscript Completion
+## Reader Apparatus
 
 ```text
-CH00–CH33 present: 34 / 34
-Writing waves completed: 7 / 7
-Missing chapters: 0
+APP-A — Controlled Terminology Glossary
+APP-B — Product-Local Record Index
+APP-C — Reference Journey Index
+APP-D — Conformance Scenario Index
+APP-E — Handoff, Return and Acceptance Index
+APP-F — Product and Implementation Boundary Notice
 ```
 
-## Editorial Hardening
+## Final review and validation
 
 ```text
-B07-PLN-0016 — Editorial Hardening Plan
-
-Wave A — CH00–CH16
-B07-PLN-0018 / B07-REV-0014 / B07-VAL-0014
-Reviewed: 17 / 17
-Directly edited: 6
-Decision: PASS / ACCEPTED
-
-Wave B — CH17–CH33
-B07-PLN-0019 / B07-REV-0015 / B07-VAL-0015
-Reviewed: 17 / 17
-Directly edited: 4
-Reviewed without direct edit: 13
-Decision: PASS / READY FOR OWNER ACCEPTANCE
+B07-REV-0016 — PASS
+B07-VAL-0016 — PASS
+Blocking findings: 0
+Major findings: 0
+Minor findings: 0
+Controlled semantic drift: 0
+Implementation authorization leakage: 0
 ```
 
-Wave B consolidated the Recommendation → User Disposition → Provider Allocation → Provider Acceptance chain; strengthened typed Return and uncertainty handling; unified the governance and appeal chain; added Part IV–VII transitions; and tightened the final Product synthesis without changing controlled meaning.
-
-## Controlled Coverage
+## Controlled coverage
 
 ```text
-Product-local records: 56 / 56
-Reference Journeys: 8 / 8
-Conformance Scenarios: 32 / 32
-Handoff / Return Contracts: 10 / 10
-MVP Acceptance Criteria: 16 / 16
-Controlled ID renames or deletions: 0
-```
-
-## Required Next Work
-
-```text
-Reader Apparatus:
-  Controlled Terminology Glossary
-  Product-local Record Index
-  Reference Journey Index
-  Conformance Scenario Index
-  Handoff / Return and Acceptance Index
-  Product / Implementation Boundary Notice
-Final publication validation
-Release Candidate decision
+Product-local records indexed: 56 / 56
+Reference Journeys indexed: 8 / 8
+Conformance Scenarios indexed: 32 / 32
+Handoff / Return Contracts indexed: 10 / 10
+MVP Acceptance Criteria indexed: 16 / 16
+Missing controlled IDs: 0
+Duplicate controlled IDs: 0
 ```
 
 ## Next Gate
 
 ```text
-Reader Apparatus and Final Publication Validation
+Book 07 Release Candidate Owner Decision
 ```
 
-Completion of Editorial Hardening does not confer Release Candidate status.
+Merge accepts the Reader Apparatus and final publication-validation result. Release Candidate status still requires an explicit Owner decision.
 
 ## Not Authorized
 

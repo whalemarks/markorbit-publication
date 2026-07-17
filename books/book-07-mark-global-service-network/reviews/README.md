@@ -4,10 +4,10 @@
 
 ```text
 Whole-Book Draft — COMPLETE
-Whole-Book Consistency Review — PASS
-Editorial Hardening Wave A — PASS / ACCEPTED
-Editorial Hardening Wave B — PASS / READY FOR OWNER ACCEPTANCE
-Release Candidate — NOT YET
+Editorial Hardening Waves A and B — PASS / ACCEPTED
+Reader Apparatus — COMPLETE
+Final Publication Review — PASS
+Release Candidate — READY FOR OWNER DECISION ON MERGE
 ```
 
 ## Reviews
@@ -22,25 +22,23 @@ Release Candidate — NOT YET
 | B07-REV-0006–0012 | Writing Waves 1–7 Reviews | PASS | Accepted |
 | B07-REV-0013 | Whole-Book Completion and Consistency Review | PASS WITH EDITORIAL HARDENING REQUIRED | Accepted |
 | B07-REV-0014 | Editorial Hardening Wave A Review | PASS | Accepted |
-| B07-REV-0015 | Editorial Hardening Wave B Review | PASS | Ready for Owner Acceptance |
+| B07-REV-0015 | Editorial Hardening Wave B Review | PASS | Accepted |
+| B07-REV-0016 | Reader Apparatus and Final Publication Review | PASS | Ready for Owner Acceptance |
 
-## Current Review Result
-
-`B07-REV-0015` confirms:
+## Current review result
 
 ```text
-EH-B scope: CH17–CH33
-Chapters reviewed: 17 / 17
-Chapters directly edited: 4
-Chapters reviewed without direct edit: 13
-Missing chapters: 0
-Out-of-scope manuscript edits: 0
+Manuscript chapters: 34 / 34
+Required appendices: 6 / 6
+Controlled record coverage: 56 / 56
+Journey coverage: 8 / 8
+Scenario coverage: 32 / 32
+Handoff / Return coverage: 10 / 10
+MVP Acceptance coverage: 16 / 16
 Blocking findings: 0
 Major findings: 0
 Minor findings: 0
 Controlled semantic drift: 0
 ```
 
-Wave B strengthened the route-decision chain, Return and uncertainty semantics, governance continuity, Part transitions and final synthesis while preserving every controlled Product and authority boundary.
-
-Reader Apparatus and final publication validation remain required before Release Candidate review.
+`B07-REV-0016` authorizes an explicit Release Candidate Owner decision after merge. It does not itself accept Release Candidate status or authorize implementation.
