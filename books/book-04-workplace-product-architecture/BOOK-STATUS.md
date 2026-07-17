@@ -25,11 +25,12 @@ WP-C amendment manuscript: READY FOR OWNER ACCEPTANCE
 WP-D assigned chapters covered: 6 / 6
 WP-E assigned chapters covered: 8 / 8
 WP-E amendment manuscript: READY FOR OWNER ACCEPTANCE
+WP-F audit and GO decision: READY FOR OWNER ACCEPTANCE
 RC1 source modifications: 0
 Immediate Book 02 Change Proposal required: NO
 ```
 
-The WP-C and WP-E candidate-gate sentences remain solely as regression compatibility assertions. WP-C–WP-E and WP-F are Owner Accepted through merged PRs #103–#106.
+The WP-C, WP-E and WP-F candidate-gate sentences remain solely as regression compatibility assertions. WP-C–WP-F are Owner Accepted through merged PRs #103–#106.
 
 ## Integration 01 Package
 
@@ -64,7 +65,7 @@ immutable RC1 chapter
 = B04-vNEXT-CANDIDATE-01 generated review chapter
 ```
 
-The first generated candidate preserves RC1 chapter prose and attaches accepted correction modules at controlled chapter boundaries. INTEGRATION-02 will perform paragraph-level editorial weaving while preserving the same provenance and supersession controls.
+The first generated candidate preserves RC1 chapter prose and attaches accepted correction modules or ledger-routed package controls at controlled chapter boundaries. INTEGRATION-02 will perform paragraph-level editorial weaving while preserving the same provenance and supersession controls.
 
 ## Sequence
 
