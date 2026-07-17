@@ -1,0 +1,29 @@
+name: Book 04 vNext WP-D Validation
+
+on:
+  pull_request:
+    paths:
+      - "books/book-04-workplace-product-architecture/**"
+      - "codex/tasks/PUB-TASK-B04-VNEXT-WP-D.md"
+      - "tools/validate_book04_vnext_wp_d.py"
+      - ".github/workflows/book04-vnext-wp-d-validation.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-wp-d:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate WP-D records and protected boundary
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: python tools/validate_book04_vnext_wp_d.py --base-sha "$BASE_SHA"
