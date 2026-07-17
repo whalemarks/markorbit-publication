@@ -2,13 +2,16 @@
 
 ## Current State
 
-- **Status:** Release Candidate 1 — Portfolio Baseline Accepted
+- **Status:** `B03-RC1-FROZEN-01` — Approved and Frozen
+- **Historical accepted baseline:** Release Candidate 1 — Portfolio Baseline Accepted
 - **Architecture:** Complete Draft 1 owner acceptance preserved.
 - **Manuscript:** CH00–CH34.
 - **Appendices:** A–H.
 - **Accepted review:** B03-REV-0007 — Publication Finishing and RC1 Review.
-- **Portfolio baseline:** MO-PUB-BASELINE-0001 — ACCEPTED.
-- **Current gate:** controlled publication maintenance; final public-release production remains separate.
+- **Portfolio freeze review:** PORTFOLIO-REV-0002.
+- **Portfolio freeze decision:** PORTFOLIO-DEC-0002.
+- **Freeze manifest:** `FREEZE-MANIFEST.md`.
+- **Current gate:** optional public-release production and distribution decision.
 
 ## Completed Work
 
@@ -36,6 +39,8 @@ Communication boundary: PASS
 Event authority and trace: PASS
 Book 02 Change Proposal required: NO
 Books 01–04 Portfolio Baseline: ACCEPTED
+Book 03 freeze: GRANTED
+Frozen identifier: B03-RC1-FROZEN-01
 ```
 
 ## MVP Result
@@ -46,6 +51,10 @@ Depth B preview only: 5 workflows
 Depth C external protected action: deferred
 ```
 
+## Change Control
+
+The frozen Book 03 content set may change only through an explicit change proposal, impact analysis, new candidate identifier, Owner acceptance and a new freeze decision.
+
 ## Remaining Boundary
 
 Final public-release copyediting, branded rendering and external distribution remain separate Owner instructions.
@@ -53,5 +62,7 @@ Final public-release copyediting, branded rendering and external distribution re
 Ready for unrestricted implementation: **NO**
 
 Production ready: **NO**
+
+Public/commercial distribution authorized: **NO**
 
 External Protected Action authorized: **NO**
