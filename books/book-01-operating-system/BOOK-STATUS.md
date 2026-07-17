@@ -2,12 +2,15 @@
 
 ## Current State
 
-- **Status:** Release Candidate 1 — Portfolio Baseline Accepted
+- **Status:** `B01-RC1-FROZEN-01` — Approved and Frozen
+- **Historical accepted baseline:** Release Candidate 1 — Portfolio Baseline Accepted
 - **Manuscript:** Preface, Contents, Chapters 1–9 and Appendices A–C complete.
 - **Architecture alignment:** Reconciled with the MarkOrbit Orbital Architecture Canon and retained under the accepted Books 01–04 Portfolio Baseline.
 - **Accepted review:** B01-REV-0001 — Portfolio Baseline and RC1 Review.
-- **Portfolio baseline:** MO-PUB-BASELINE-0001 — ACCEPTED.
-- **Current gate:** controlled publication maintenance; final public-release production remains separate.
+- **Portfolio freeze review:** PORTFOLIO-REV-0002.
+- **Portfolio freeze decision:** PORTFOLIO-DEC-0002.
+- **Freeze manifest:** `FREEZE-MANIFEST.md`.
+- **Current gate:** optional public-release production and distribution decision.
 
 ## Completed Work
 
@@ -29,14 +32,22 @@ Editorial correction required: COMPLETED
 Semantic change to Book 02 required: NO
 Chapter map change required: NO
 Books 01–04 Portfolio Baseline: ACCEPTED
+Book 01 freeze: GRANTED
+Frozen identifier: B01-RC1-FROZEN-01
 ```
+
+## Change Control
+
+The frozen Book 01 content set may change only through an explicit change proposal, impact analysis, new candidate identifier, Owner acceptance and a new freeze decision.
 
 ## Remaining Boundary
 
-Release Candidate 1 is a publication baseline. Final public-release copyediting, branded rendering and external distribution remain separate Owner instructions.
+Final public-release copyediting, branded rendering and external distribution remain separate Owner instructions.
 
 Ready for unrestricted implementation: **NO**
 
 Production ready: **NO**
+
+Public/commercial distribution authorized: **NO**
 
 External Protected Action authorized: **NO**
