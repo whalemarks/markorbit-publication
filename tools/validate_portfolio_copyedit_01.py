@@ -60,7 +60,7 @@ def main() -> int:
         require("portfolio/copyedit/PORTFOLIO-STYLE-0001.md", (
             "MarkOrbit Workplace and Product Architecture",
             "Product ≠ Product Installation ≠ Product Projection",
-            "CHANGE PROPOSAL",
+            "CHANGE PROPOSAL REQUIRED",
         ))
         require("portfolio/copyedit/normalization-rules.json")
         rules = json.loads((ROOT / "portfolio/copyedit/normalization-rules.json").read_text(encoding="utf-8"))
@@ -68,6 +68,22 @@ def main() -> int:
             raise ValidationError("canonical title coverage is not 7 / 7")
         if rules.get("semantic_change_policy") != "CHANGE PROPOSAL REQUIRED":
             raise ValidationError("semantic change policy not locked")
+
+        require("portfolio/audits/PORTFOLIO-AUD-0002_Cross_Book_Copyedit_Findings.md", (
+            "Findings recorded: 18",
+            "Safe for publication overlay: 18 / 18",
+            "CHANGE PROPOSAL REQUIRED: 0 / 18",
+        ))
+        require("portfolio/copyedit/PORTFOLIO-OVERLAY-0001.json")
+        overlay = json.loads((ROOT / "portfolio/copyedit/PORTFOLIO-OVERLAY-0001.json").read_text(encoding="utf-8"))
+        if overlay.get("total_expected_corrections") != 18:
+            raise ValidationError("overlay correction count is not 18")
+        if overlay.get("semantic_changes") != 0 or overlay.get("frozen_source_mutation") is not False:
+            raise ValidationError("overlay boundary is not preserved")
+        require("portfolio/decisions/PORTFOLIO-DEC-0003_Copyedit_Findings_Disposition.md", (
+            "Safe publication-overlay corrections: 18 / 18",
+            "Semantic change proposals required: 0",
+        ))
         require("tools/audit_portfolio_copyedit_01.py")
         validate_diff(args.base_sha)
     except (ValidationError, json.JSONDecodeError) as exc:
