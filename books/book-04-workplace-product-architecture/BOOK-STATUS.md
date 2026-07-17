@@ -32,6 +32,7 @@ WP-F audit and GO decision: READY FOR OWNER ACCEPTANCE
 Integration 02A editorial weave input: READY FOR OWNER ACCEPTANCE
 Integration 02B editorial weave input: READY FOR OWNER ACCEPTANCE
 Integration 02C editorial weave input: READY FOR OWNER ACCEPTANCE
+Candidate 01 generation: READY FOR OWNER ACCEPTANCE
 RC1 source modifications: 0
 Immediate Book 02 Change Proposal required: NO
 ```
