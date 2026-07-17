@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """Render pagination-optimized review editions without changing frozen sources."""
 from pathlib import Path
-from tools import render_portfolio_review_editions_01 as base
+import sys
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from tools import render_portfolio_review_editions_01 as base  # noqa: E402
+
 base.OUT = ROOT / ".artifacts/portfolio-pagination-optimization-01"
 base.CSS_TEXT = r"""
 @page { size: 6in 9in; margin: 0.62in 0.55in 0.62in 0.65in; @bottom-center { content: counter(page); font-size: 7.5pt; color: #555; } }
