@@ -1,8 +1,8 @@
 book_id: B07
 title: Mark Global Service Network
-status: chapter_map_v0_1_ready_for_owner_acceptance
-current_gate: chapter_map_owner_acceptance
-next_gate: writing_wave_1
+status: whole_book_draft_complete_editorial_hardening_required
+current_gate: whole_book_review_owner_acceptance
+next_gate: editorial_hardening_wave_a
 
 active_architecture:
   canon: MARKORBIT-ORBITAL-ARCHITECTURE-CANON-vNEXT.1
@@ -11,24 +11,22 @@ active_architecture:
 accepted_baselines:
   reconciled_charter_v0_1: true
   controlled_product_baseline_v0_1: true
+  chapter_map_v0_1: true
   specifications:
     - B07-SPEC-0001
     - B07-SPEC-0002
     - B07-SPEC-0003
     - B07-SPEC-0004
 
-chapter_map_candidate:
-  record: B07-TOC-V0.1
+manuscript:
   chapter_start: B07-CH-00
   chapter_end: B07-CH-33
-  chapter_count: 34
-  parts: 7
-  coverage_matrix: B07-PLN-0014
-  writing_wave_plan: B07-PLN-0015
-  review: B07-REV-0005
-  validation: B07-VAL-0005
-  ready_for_owner_acceptance: true
-  wave_1_authorized_on_merge: true
+  chapter_count_expected: 34
+  chapter_count_present: 34
+  missing_chapters: 0
+  writing_waves_completed: 7
+  whole_book_draft_complete: true
+  release_candidate: false
 
 controlled_coverage:
   product_local_records: 56
@@ -36,34 +34,42 @@ controlled_coverage:
   conformance_scenarios: 32
   handoff_return_contracts: 10
   mvp_acceptance_criteria: 16
-  unmapped_ids: 0
+  unmapped_controlled_families: 0
 
-writing_waves:
-  wave_1: B07-CH-00..B07-CH-06
-  wave_2: B07-CH-07..B07-CH-11
-  wave_3: B07-CH-12..B07-CH-15
-  wave_4: B07-CH-16..B07-CH-20
-  wave_5: B07-CH-21..B07-CH-25
-  wave_6: B07-CH-26..B07-CH-29
-  wave_7: B07-CH-30..B07-CH-33
-
-review:
-  decision: pass
+whole_book_review:
+  review: B07-REV-0013
+  validation: B07-VAL-0013
+  decision: pass_with_editorial_hardening_required
   blocking_findings: 0
   major_findings: 0
+  minor_editorial_findings: 8
   upstream_change_proposal_required: false
+  book_02_semantic_change_proposal_required: false
+
+editorial_hardening:
+  plan: B07-PLN-0016
+  wave_a: B07-CH-00..B07-CH-16
+  wave_b: B07-CH-17..B07-CH-33
+  required: true
+
+reader_apparatus:
+  plan: B07-PLN-0017
+  glossary_required: true
+  product_record_index_required: true
+  journey_scenario_index_required: true
+  handoff_acceptance_index_required: true
+  implementation_boundary_notice_required: true
 
 not_authorized:
-  later_writing_waves: true
   database_schema: true
   api_contracts: true
   payment_custody: true
   funds_release: true
   automatic_provider_appointment: true
+  automated_trust_sanctions: true
   production_deployment: true
   external_protected_action: true
 
 integrity:
-  manuscript_files_expected: 0
-  chapter_map_expected: true
   implementation_files_allowed: false
+  release_candidate_requires_final_validation: true
