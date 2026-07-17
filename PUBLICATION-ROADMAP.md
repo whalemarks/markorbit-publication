@@ -13,11 +13,9 @@ Books 01–04 Portfolio Baseline — ACCEPTED
 Repository release-state reconciliation — COMPLETE
 Books 05–07 Release Candidate 1 — APPROVED AND FROZEN
 Book 04 Workplace Sovereignty WP-A–WP-F — OWNER ACCEPTED / CLOSED
-Book 04 vNext Integration 01 — OWNER ACCEPTED
-Book 04 vNext Integration 02A–02C — OWNER ACCEPTED / 40 OF 40 CHAPTERS
-Book 04 vNext Candidate 01 generation — OWNER ACCEPTED AS BUILD MILESTONE
-Book 04 vNext Candidate Review 01 — OWNER ACCEPTED / REVISE
-Book 04 vNext Candidate 02 generation — OWNER ACCEPTED AS BUILD MILESTONE
+Book 04 vNext Integration 01–02C — OWNER ACCEPTED
+Book 04 vNext Candidate 01–03 generation milestones — OWNER ACCEPTED
+Book 04 Candidate Reviews 01–02 — OWNER ACCEPTED / REVISE
 ```
 
 The Workplace Sovereignty clarification remains compatible with Book 02 and does not require an immediate Book 02 Change Proposal.
@@ -29,7 +27,7 @@ The Workplace Sovereignty clarification remains compatible with Book 02 and does
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | RC1 — Portfolio Baseline Accepted |
 | Book 02 | MarkOrbit Core Specification | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | RC1 — Portfolio Baseline Accepted |
-| Book 04 | MarkOrbit Workplace and Product Architecture | RC1 Historical / Candidate Review 02 — REVISE |
+| Book 04 | MarkOrbit Workplace and Product Architecture | RC1 Historical / Candidate Review 03 — REVISE |
 | Book 05 | MarkReg | RC1 — Approved and Frozen |
 | Book 06 | MarkOrbit Lite | RC1 — Approved and Frozen |
 | Book 07 | Mark Global Service Network | RC1 — Approved and Frozen |
@@ -40,11 +38,12 @@ The Workplace Sovereignty clarification remains compatible with Book 02 and does
 
 ```text
 WP-A–WP-F — OWNER MERGED / CLOSED
-INTEGRATION-01 — deterministic candidate preparation — OWNER MERGED
-INTEGRATION-02A–02C — editorial weave inputs — OWNER MERGED
-CANDIDATE-01 — deterministic full-book generation — OWNER MERGED
-CANDIDATE-REVIEW-01 — route and leakage audit — OWNER MERGED / REVISE
-CANDIDATE-02 — route-aware full-book generation — OWNER MERGED
+INTEGRATION-01–02C — OWNER MERGED
+CANDIDATE-01 — OWNER MERGED / DIAGNOSTIC BUILD
+CANDIDATE-REVIEW-01 — OWNER MERGED / REVISE
+CANDIDATE-02 — OWNER MERGED / ROUTE-AWARE BUILD
+CANDIDATE-REVIEW-02 — OWNER MERGED / REVISE
+CANDIDATE-03 — OWNER MERGED / EDITORIAL CONSOLIDATION BUILD
 ```
 
 Foundation result:
@@ -54,8 +53,8 @@ Chapters accounted for: 40 / 40
 Required correction classes: 12 / 12
 Accepted amendment packages: 4 / 4
 Editorial weave coverage: 40 / 40
-Explicit route entries: 40 / 40
 Reader-text leakage findings: 0
+Architecture authority regressions: 0
 RC1 manuscript files changed: 0
 Immediate Book 02 Change Proposal: NO
 ```
@@ -63,31 +62,31 @@ Immediate Book 02 Change Proposal: NO
 ### Current controlled task
 
 ```text
-PUB-TASK-B04-VNEXT-CANDIDATE-REVIEW-02
-Second Full-Book Semantic and Editorial Review
+PUB-TASK-B04-VNEXT-CANDIDATE-REVIEW-03
+Final Full-Book Review and Owner Acceptance Decision
 ```
 
 Review result:
 
 ```text
 Candidate chapters inspected: 40 / 40
-Candidate 01 route blockers closed: 7 / 7
+Candidate 02 blockers closed: 5 / 5
 Reader-text leakage findings: 0
 Architecture authority regression: 0
 Remaining title contradictions: 1
-Remaining route / placement majors: 1
-Supersession / consolidation majors: 3
-Exact duplicate paragraph clusters: 3
+Remaining stale transition findings: 1
+Remaining route / placement majors: 0
+Exact long-paragraph duplicate clusters: 0
 Owner Acceptance readiness: NO
-Candidate 03 required: YES
+Candidate 04 required: YES
 ```
 
-Candidate 02 is a valid route-aware review object, but it remains a layered manuscript. It preserves RC1 headings and primarily inserts accepted prose rather than executing final title changes, replacement, supersession and consolidation.
+Candidate 03 is architecturally and structurally sound. Final acceptance is blocked only because CH01 and CH22 retain the superseded phrase `Lite as a Lightweight Workplace`, while CH23 correctly defines Lite as a lightweight Workplace Product.
 
 ## Decision
 
 ```text
-REVISE — generate Candidate 03 before Owner Acceptance.
+REVISE — produce Candidate 04 as a bounded final consistency correction.
 Reopen architecture correction programme: NO
 Architecture Canon conflict: NO
 Immediate Book 02 Change Proposal: NO
@@ -96,32 +95,30 @@ Immediate Book 02 Change Proposal: NO
 ## Next Controlled Gates
 
 ```text
-Owner merge of CANDIDATE-REVIEW-02
-→ PUB-TASK-B04-VNEXT-CANDIDATE-03
-→ reviewed heading changes in generated candidate
-→ Product Installation placement correction
-→ targeted replacement and deduplication
-→ CH37 portability / exit structural consolidation
-→ generate complete CH00–CH39 Candidate 03
-→ final full-book semantic and editorial review
-→ explicit Owner Acceptance Gate
+Owner merge of CANDIDATE-REVIEW-03
+→ PUB-TASK-B04-VNEXT-CANDIDATE-04
+→ synchronize CH01 Table of Contents
+→ synchronize CH22 transition into CH23
+→ scan all reader-facing prose for superseded Lite-as-Workplace wording
+→ preserve all other Candidate 03 content and provenance
+→ final Owner Acceptance decision
 → optional publication finishing and freeze decision
 ```
 
-Candidate 03 is a bounded editorial consolidation task. It does not reopen WP-A–WP-F or change the immutable RC1 baseline.
+Candidate 04 is a bounded consistency correction. It does not reopen WP-A–WP-F, alter the architecture model or modify the immutable RC1 baseline.
 
 ## Book 04 Decision Sequence
 
 ```text
 WP-A–WP-F — ACCEPTED / CLOSED
-→ Integration 01 — ACCEPTED
-→ Integration 02A–02C — ACCEPTED
+→ Integration 01–02C — ACCEPTED
 → Candidate 01 — BUILD MILESTONE
 → Candidate Review 01 — REVISE
-→ Candidate 02 — ROUTE-AWARE BUILD MILESTONE
+→ Candidate 02 — BUILD MILESTONE
 → Candidate Review 02 — REVISE
-→ Candidate 03 — EDITORIAL CONSOLIDATION / ACCEPTANCE CANDIDATE
-→ final review
+→ Candidate 03 — EDITORIAL CONSOLIDATION BUILD
+→ Candidate Review 03 — REVISE
+→ Candidate 04 — FINAL CONSISTENCY CORRECTION
 → Owner Acceptance Gate
 → optional publication finishing and freeze decision
 ```
@@ -129,7 +126,7 @@ WP-A–WP-F — ACCEPTED / CLOSED
 ## Future Publication and Architecture Workstreams
 
 - Book 01 and Book 03 public-release copyediting and branded rendering;
-- Book 04 Candidate 03 consolidation, final review and publication finishing;
+- Book 04 Candidate 04 correction, Owner Acceptance and publication finishing;
 - Books 05–07 optional final brand/design production and distribution decisions;
 - Structured Information and Derived Value specifications;
 - Local Vault architecture;
