@@ -36,8 +36,11 @@ jobs:
         run: python tools/build_portfolio_release_candidates_01.py
       - name: Render optimized PDFs
         run: python tools/render_portfolio_paginated_editions_01.py
-      - name: Preflight optimized PDFs
-        run: python tools/preflight_portfolio_paginated_editions_01.py
+      - name: Preflight optimized PDFs with established engine
+        run: |
+          mv .artifacts/portfolio-pagination-optimization-01 .artifacts/portfolio-review-render-01
+          python tools/preflight_portfolio_review_editions_01.py
+          mv .artifacts/portfolio-review-render-01 .artifacts/portfolio-pagination-optimization-01
       - name: Validate comparison
         run: python tools/validate_portfolio_pagination_optimization_01.py --base-sha "${{ github.event.pull_request.base.sha }}" --outputs
       - uses: actions/upload-artifact@v4
