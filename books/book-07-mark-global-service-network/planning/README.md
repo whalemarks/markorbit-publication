@@ -5,8 +5,8 @@
 ```text
 Whole-Book Draft — COMPLETE
 Whole-Book Consistency Review — PASS
-Editorial Hardening — REQUIRED
-Next: Editorial Hardening Wave A / CH00–CH16
+Editorial Hardening Wave A — READY FOR OWNER ACCEPTANCE ON MERGE
+Next: Editorial Hardening Wave B / CH17–CH33
 ```
 
 ## Accepted Planning Baseline
@@ -35,21 +35,24 @@ Wave 6: CH26–CH29 — COMPLETE
 Wave 7: CH30–CH33 — COMPLETE
 ```
 
-## Current Planning Records
+## Editorial and Publication Planning Records
 
 | ID | Record | Status |
 | --- | --- | --- |
-| B07-PLN-0016 | Editorial Hardening Plan | Ready for Owner Acceptance |
-| B07-PLN-0017 | Reader Apparatus and Publication Validation Plan | Ready for Owner Acceptance |
+| B07-PLN-0016 | Editorial Hardening Plan | Accepted |
+| B07-PLN-0017 | Reader Apparatus and Publication Validation Plan | Accepted |
+| B07-PLN-0018 | Editorial Hardening Wave A Edit Log | Ready for Owner Acceptance |
 
-## Authorized Next Sequence on Merge
+## Editorial Hardening Sequence
 
 ```text
-1. Editorial Hardening Wave A — CH00–CH16
-2. Editorial Hardening Wave B — CH17–CH33
-3. Reader Apparatus preparation
-4. Final publication validation
-5. Release Candidate decision
+EH-A: CH00–CH16 — PASS / Ready for Owner Acceptance
+EH-B: CH17–CH33 — Authorized on EH-A merge
+Reader Apparatus preparation
+Final publication validation
+Release Candidate decision
 ```
+
+EH-A reviewed all 17 in-scope chapters and directly edited six structural nodes: CH00, CH01, CH02, CH06, CH11 and CH16.
 
 No planning record authorizes implementation, payment custody, funds release, automatic Provider appointment, automated Trust sanctions, production deployment or External Protected Action.
