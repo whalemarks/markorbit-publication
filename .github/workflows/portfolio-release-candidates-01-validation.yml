@@ -1,0 +1,39 @@
+name: Portfolio Release Candidates 01 Validation
+
+on:
+  pull_request:
+    paths:
+      - 'portfolio/front-matter/**'
+      - 'portfolio/copyedit/**'
+      - 'portfolio/planning/**'
+      - 'portfolio/reviews/**'
+      - 'portfolio/decisions/**'
+      - 'codex/tasks/PUB-TASK-PORTFOLIO-RELEASE-CANDIDATES-01.md'
+      - 'tools/build_portfolio_release_candidates_01.py'
+      - 'tools/validate_portfolio_release_candidates_01.py'
+      - '.github/workflows/portfolio-release-candidates-01-validation.yml'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build seven release candidates
+        run: python tools/build_portfolio_release_candidates_01.py
+      - name: Validate seven release candidates
+        run: python tools/validate_portfolio_release_candidates_01.py --base-sha "${{ github.event.pull_request.base.sha }}"
+      - name: Verify build report
+        run: |
+          grep -q 'Books generated: 7 / 7' .artifacts/portfolio-release-candidates-01/BUILD-REPORT.md
+          grep -q 'Approved overlay corrections applied: 18 / 18' .artifacts/portfolio-release-candidates-01/BUILD-REPORT.md
+          grep -q 'Candidate release authorization: NOT GRANTED' .artifacts/portfolio-release-candidates-01/BUILD-REPORT.md
+      - uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-release-candidates-01
+          path: .artifacts/portfolio-release-candidates-01/
