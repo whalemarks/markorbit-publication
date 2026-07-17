@@ -10,7 +10,6 @@ import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-BOOK = ROOT / "books/book-04-workplace-product-architecture"
 
 REQUIRED = (
     "codex/tasks/PUB-TASK-B04-VNEXT-CANDIDATE-REVIEW-01.md",
@@ -65,42 +64,59 @@ def generate(output: Path) -> None:
 def validate_findings() -> None:
     for path in REQUIRED:
         read(path)
-    audit = read(REQUIRED[2])
-    decision = read(REQUIRED[3])
-    review = read(REQUIRED[4])
-
-    expected = (
+    combined = "\n".join(read(path) for path in REQUIRED[2:])
+    for statement in (
         "Candidate chapters inspected: 40 / 40",
         "Chapter-route blockers: 7",
         "Reader-text leakage blockers: 3",
         "Owner Acceptance readiness: NO",
         "Candidate 02 required: YES",
         "REVISE — generate Candidate 02 before Owner Acceptance.",
-    )
-    for statement in expected:
-        if statement not in audit and statement not in decision and statement not in review:
+    ):
+        if statement not in combined:
             raise ValidationError(f"missing review result: {statement}")
 
     with tempfile.TemporaryDirectory() as tmp:
         out = Path(tmp) / "candidate"
         generate(out)
-        chapters = sorted((out / "manuscript").glob("CH*.md"))
+        manuscript = out / "manuscript"
+        chapters = sorted(manuscript.glob("CH??.md"))
         if len(chapters) != 40:
             raise ValidationError("Candidate 01 did not regenerate forty chapters")
 
-        checks = {
-            "CH01.md": ("Table of Contents", "Single organizational container", "Independence is not architectural isolation"),
-            "CH15.md": ("Capability Discovery and Skill Selection", "Intelligence is a derived and contextual evaluation"),
-            "CH18.md": ("From Prepared Action to Governed Execution", "A Capability describes what governed work can be supported"),
-            "CH22.md": ("Product Embedding and Cross-Product Context", "A Product Installation is the Workplace-scoped"),
-            "CH28.md": ("Asset Library and Reusable Resources", "Content is meaning under preparation"),
-            "CH39.md": ("Conclusion: Each in Its Own Orbit", "Assigned chapters: 12 / 12"),
+        title_expectations = {
+            "CH01.md": "Table of Contents",
+            "CH15.md": "Capability Discovery and Skill Selection",
+            "CH18.md": "From Prepared Action to Governed Execution",
+            "CH22.md": "Product Embedding and Cross-Product Context",
+            "CH28.md": "Asset Library and Reusable Resources",
+            "CH39.md": "Conclusion: Each in Its Own Orbit",
         }
-        for filename, tokens in checks.items():
-            text = (out / "manuscript" / filename).read_text(encoding="utf-8")
-            for token in tokens:
-                if token not in text:
-                    raise ValidationError(f"expected diagnostic finding absent from {filename}: {token}")
+        for filename, title in title_expectations.items():
+            text = (manuscript / filename).read_text(encoding="utf-8")
+            if title not in text:
+                raise ValidationError(f"expected RC1 chapter identity absent from {filename}: {title}")
+
+        ch01 = (manuscript / "CH01.md").read_text(encoding="utf-8").lower()
+        if "independence is not architectural isolation" not in ch01:
+            raise ValidationError("CH01 conceptual-route mismatch was not reproduced")
+        if "single organizational container" not in ch01:
+            raise ValidationError("CH01 reader-visible editorial instruction was not reproduced")
+
+        ch39 = (manuscript / "CH39.md").read_text(encoding="utf-8").lower()
+        if "assigned chapters: 12 / 12" not in ch39 or "placement rules present: 12 / 12" not in ch39:
+            raise ValidationError("CH39 batch-result leakage was not reproduced")
+
+        route_fingerprints = {
+            "CH15.md": ("intelligence", "derived"),
+            "CH18.md": ("capability", "skill"),
+            "CH22.md": ("product installation", "entitlement"),
+            "CH28.md": ("content", "formal business fact"),
+        }
+        for filename, tokens in route_fingerprints.items():
+            text = (manuscript / filename).read_text(encoding="utf-8").lower()
+            if not all(token in text for token in tokens):
+                raise ValidationError(f"route-mismatch fingerprint absent from {filename}")
 
     print("Candidate 01 diagnostic findings reproduced: PASS")
 
