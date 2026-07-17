@@ -7,13 +7,14 @@
 - **WP-A–WP-F and Integration 01–02C:** Owner Accepted
 - **Candidate 01:** diagnostic build milestone / final prose rejected
 - **Candidate 02:** route-aware build milestone / final prose rejected
-- **Candidate 03 generation:** Owner Accepted through merged PR #115
-- **Candidate Review 03:** Owner Accepted through merged PR #116 / REVISE
-- **Current task:** PUB-TASK-B04-VNEXT-CANDIDATE-04
-- **Current plan:** B04-PLN-0024
-- **Current transform:** B04-TRANSFORM-0002
-- **Current review:** B04-REV-0022 — Ready for Owner Review as final consistency-corrected acceptance candidate
-- **Next gate:** final Book 04 vNext Owner Acceptance decision
+- **Candidate 03:** editorial consolidation milestone / final prose rejected
+- **Candidate 04 generation:** Owner Accepted through merged PR #117
+- **Current task:** PUB-TASK-B04-VNEXT-OWNER-ACCEPTANCE-01
+- **Current plan:** B04-PLN-0025
+- **Current decision:** B04-DEC-0005 — ACCEPT
+- **Current review:** B04-REV-0023 — Owner Acceptance readiness PASS
+- **Current baseline:** B04-vNEXT-CANDIDATE-04 — Accepted editorial baseline
+- **Next gate:** optional publication preparation and freeze decision
 
 ## Historical compatibility
 
@@ -44,37 +45,22 @@ Immediate Book 02 Change Proposal required: NO
 
 The compatibility assertions remain regression fixtures. Their historical Owner gates have already been resolved through merged PRs.
 
-## Candidate Review 03 Result
+## Final Owner Acceptance Result
 
 ```text
 Candidate chapters inspected: 40 / 40
-Candidate 02 blockers closed: 5 / 5
+Candidate Review 03 findings closed: 2 / 2
 Reader-text leakage findings: 0
 Architecture authority regression: 0
-Remaining title contradictions: 1
-Remaining stale transition findings: 1
+Remaining title contradictions: 0
+Remaining stale transition findings: 0
 Remaining route / placement majors: 0
 Exact long-paragraph duplicate clusters: 0
-RC1 source modifications: 0
-Owner Acceptance readiness: NO
-Candidate 04 required: YES
-```
-
-## Candidate 04 Required Result
-
-```text
-Source Candidate 03 chapters: 40 / 40
-Candidate 04 chapters generated: 40 / 40
-CH01 navigation corrections: PASS
-CH22 transition correction: PASS
-Superseded Lite-as-Workplace reader findings: 0
-Candidate 03 content preservation exceptions: 2 / 2 authorized
-Reader-text leakage findings: 0
-Architecture authority regression: 0
 RC1 source modifications: 0
 Blocking findings: 0
 Immediate Book 02 Change Proposal required: NO
 Owner Acceptance readiness: YES
+Final decision: ACCEPT
 ```
 
 ## Sequence
@@ -89,8 +75,8 @@ WP-A–WP-F — ACCEPTED / CLOSED
 → CANDIDATE-03 — EDITORIAL CONSOLIDATION BUILD
 → CANDIDATE-REVIEW-03 — REVISE
 → CANDIDATE-04 — FINAL CONSISTENCY-CORRECTED ACCEPTANCE CANDIDATE
-→ explicit final Owner Acceptance decision
-→ optional freeze and publication preparation
+→ OWNER ACCEPTANCE — ACCEPT
+→ optional publication preparation and freeze decision
 ```
 
 ## Authorization
@@ -106,9 +92,9 @@ Candidate 02 generation mechanism: ACCEPTED
 Candidate 02 as final vNext prose: REJECTED
 Candidate 03 generation mechanism: ACCEPTED
 Candidate 03 as final vNext prose: REJECTED
-Candidate 04 generation: READY FOR OWNER ACCEPTANCE
-Candidate 04 as final vNext prose: NOT YET ACCEPTED
-Book 04 vNext owner acceptance: NOT YET GRANTED
+Candidate 04 generation mechanism: ACCEPTED
+Candidate 04 as final vNext prose: ACCEPTED
+Book 04 vNext owner acceptance: GRANTED
 Freeze, publication and distribution: NOT AUTHORIZED
 Implementation or deployment: NOT AUTHORIZED
 External Protected Action: NOT AUTHORIZED
