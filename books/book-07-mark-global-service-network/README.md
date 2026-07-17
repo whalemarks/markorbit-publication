@@ -3,10 +3,14 @@
 ## Status
 
 ```text
-Controlled Product Baseline v0.1
+Release Candidate 1
 Ready for Owner Acceptance on Merge
-Next: Chapter Map Candidate
+Reader-facing content baseline:
+7ab3ea3e01b42afda8b2f675e514b91df436e47d
+Next: RC1 Permanent Freeze
 ```
+
+Final publication and public/commercial distribution remain separate, unapproved gates.
 
 ## Active Authority
 
@@ -14,6 +18,8 @@ Next: Chapter Map Candidate
 MARKORBIT-ORBITAL-ARCHITECTURE-CANON-vNEXT.1
 DECISION-REGISTER-vNEXT.1
 Reconciled Network and Product Charter v0.1
+Controlled Product Baseline v0.1
+B07-TOC-V0.1
 ```
 
 ## Product Identity
@@ -27,7 +33,7 @@ Originating Workplace
 → authorized Capability Need projection
 → MGSN Connection / Gateway
 → platform-owned MGSN Network
-→ controlled provider allocation / instruction
+→ controlled Provider Allocation / Instruction
 → Execution Provider Workplace
 → governed Return
 → Originating Workplace
@@ -35,7 +41,7 @@ Originating Workplace
 
 Workplace business sovereignty, Core semantic authority, Owning Service formal-state authority, provider professional responsibility and platform network control remain distinct.
 
-## Controlled Product Record Families
+## Controlled Product Coverage
 
 ```text
 MG-N — Network Participation and Connection
@@ -45,16 +51,20 @@ MG-R — Routing, Recommendation and Selection
 MG-F — Funds, Fulfillment and Return
 MG-T — Trust, Relationship and Network Learning
 MG-E — Exception, Restriction and Governance
-```
 
-Coverage:
-
-```text
 56 Product-local records
 8 Reference Journeys
 32 Conformance Scenarios
 10 Handoff / Return Contracts
 16 MVP Acceptance Criteria
+```
+
+## Reader-facing inventory
+
+```text
+CH00–CH33 — 34 manuscript chapters
+APP-A–APP-F — 6 Reader Apparatus appendices
+Missing chapters or appendices — 0
 ```
 
 ## Three Delivery Routes
@@ -72,8 +82,8 @@ R1 has explicit platform-visibility and guarantee limits. R2 is the default mana
 ```text
 one Recommended Route
 + up to two materially differentiated alternatives where useful
-+ user confirm / reject / rematch / preferred-provider / R1 disposition
-+ provider allocation and acceptance
++ user confirmation, rejection, rematch, preferred-provider or R1 disposition
++ Provider Allocation and Acceptance
 ```
 
 ```text
@@ -82,19 +92,13 @@ User confirmation ≠ Provider Acceptance
 Provider Acceptance ≠ completion
 ```
 
-## Participant Model
+## Participant and Supply Model
 
-Organization is the stable participant identity. Demand and Supply are contextual roles.
+Organization is the stable participant identity. Demand and Supply are contextual roles with separated permission, conflict, finance and audit contexts.
 
-An Organization may request one Capability and provide another through separated permission, conflict, financial and audit contexts.
+MGSN may maintain multiple admitted providers for the same jurisdiction and service. Portfolio roles are dynamic platform classifications, not public permanent rankings.
 
-Bidirectional introduction creates Relationship Provenance and bounded incentive eligibility, not automatic admission, permanent exclusivity, ownership of another participant or platform bypass rights.
-
-## Multi-Provider Supply
-
-MGSN may maintain multiple admitted providers for the same jurisdiction and service, including Recommended Primary, Qualified Alternative, Specialist, Urgent Capacity, Relationship-Preserved, Backup, Pilot and Restricted roles.
-
-These are dynamic platform classifications, not permanent public rankings.
+Bidirectional introduction creates Relationship Provenance and bounded incentive eligibility, not automatic admission, permanent exclusivity, ownership or bypass rights.
 
 ## Commercial, Funds and Fulfillment
 
@@ -106,40 +110,20 @@ provider procurement cost
 = customer-facing offer
 ```
 
-MGSN requires typed funds checkpoints, milestone Evidence, correction, replacement, settlement and Return controls.
+MGSN uses typed funds checkpoints, milestone Evidence, correction, replacement, settlement and Return controls. The publication does not claim universal escrow, trust-account, payment-institution or client-money authority and does not replace Finance ledger truth.
 
-The Product Baseline does not claim universal escrow, trust-account, payment-institution or client-money authority and does not replace Finance ledger truth.
-
-## Controlled Baseline Candidate
+## RC1 Decision Records
 
 ```text
-B07-SPEC-0001 — MGSN Controlled Product Baseline Candidate
-B07-SPEC-0002 — Product-Local Record Catalog
-B07-SPEC-0003 — Reference Journeys and Conformance Scenarios
-B07-SPEC-0004 — Handoff, Return and MVP Acceptance Baseline
-B07-REV-0004 — Controlled Product Baseline Review / PASS
-B07-VAL-0004 — Scope and Consistency Check / PASS
+B07-REL-0001 — Book 07 Release Candidate 1 Owner Decision
+B07-REV-0017 — Release Candidate 1 Owner Decision Review / PASS
+B07-VAL-0017 — Release Candidate 1 Owner Decision Scope Check / PASS
 ```
 
-## Non-Goals
+Owner merge makes RC1 effective. Closing the PR without merge leaves RC1 unaccepted.
 
-MGSN is not:
+## Non-Goals and Non-Authorization
 
-```text
-free provider directory
-open bidding marketplace
-lowest-price auction
-user-owned provider network
-peer-to-peer participant network
-unrestricted provider-contact export
-public universal-score rating platform
-automatic provider appointment engine
-unregulated escrow wallet
-replacement for Core, Execution, Workplace, Finance or MarkReg
-```
+MGSN is not a free provider directory, open bidding marketplace, lowest-price auction, user-owned provider network, peer-to-peer participant network, public universal-score platform, automatic Provider appointment engine or unregulated escrow wallet.
 
-## Gate Effect
-
-Owner merge accepts `B07-SPEC-0001–0004` as the Controlled Product Baseline v0.1 and authorizes preparation of a Chapter Map Candidate.
-
-It does not authorize Chapter Map acceptance, manuscript drafting, schema/API implementation, payment custody or release, automatic provider appointment, production deployment or External Protected Action.
+RC1 does not authorize final branded publication, public/commercial distribution, schema/API implementation, payment custody, automatic funds release, automatic Provider appointment, automated Trust sanctions, production deployment, autonomous professional action or External Protected Action.
