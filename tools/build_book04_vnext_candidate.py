@@ -33,7 +33,8 @@ AMENDMENTS = {
     ),
 }
 
-CHAPTER_RE = re.compile(r"\bCH(?:0[0-9]|[1-3][0-9])\b")
+CANONICAL_CHAPTER_RE = re.compile(r"\bCH(?:0[0-9]|[1-3][0-9])\b")
+HISTORICAL_CHAPTER_RE = re.compile(r"\bCH[-_ ]?(0[0-9]|[1-3][0-9])\b", re.IGNORECASE)
 HEADING_RE = re.compile(r"(?m)^(#{1,6})\s+.*?\b(CH(?:0[0-9]|[1-3][0-9]))\b.*$")
 
 
@@ -43,13 +44,36 @@ def read(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
 
+def normalized_chapters(text: str) -> list[str]:
+    """Normalize both CH00 and historical CH-00/CH_00/CH 00 identifiers."""
+    return sorted({f"CH{match.group(1)}" for match in HISTORICAL_CHAPTER_RE.finditer(text)})
+
+
+def identify_rc1_chapter(path: Path) -> str | None:
+    filename_ids = normalized_chapters(path.name)
+    if len(filename_ids) == 1:
+        return filename_ids[0]
+    if len(filename_ids) > 1:
+        raise RuntimeError(f"ambiguous chapter identifiers in filename: {path.relative_to(ROOT)}")
+
+    # Historical manuscript files are allowed to carry the identifier only in
+    # their opening heading. Restrict inspection to the front matter so body
+    # cross-references cannot create false duplicate identities.
+    opening = "\n".join(read(path).splitlines()[:20])
+    heading_ids = normalized_chapters(opening)
+    if len(heading_ids) == 1:
+        return heading_ids[0]
+    if len(heading_ids) > 1:
+        raise RuntimeError(f"ambiguous chapter identifiers in opening heading: {path.relative_to(ROOT)}")
+    return None
+
+
 def discover_rc1() -> dict[str, Path]:
     found: dict[str, Path] = {}
     for path in sorted(RC1.rglob("*.md")):
-        ids = sorted(set(CHAPTER_RE.findall(path.name)))
-        if len(ids) != 1:
+        chapter = identify_rc1_chapter(path)
+        if chapter is None:
             continue
-        chapter = ids[0]
         if chapter in found:
             raise RuntimeError(f"duplicate RC1 source for {chapter}: {found[chapter]} and {path}")
         found[chapter] = path
@@ -81,7 +105,7 @@ def routes() -> dict[str, list[tuple[str, str, str]]]:
     for package, (amendment_path, ledger_path) in AMENDMENTS.items():
         amendment = read(amendment_path)
         ledger = read(ledger_path)
-        chapter_ids = sorted(set(CHAPTER_RE.findall(ledger)))
+        chapter_ids = sorted(set(CANONICAL_CHAPTER_RE.findall(ledger)))
         for chapter in chapter_ids:
             module = extract_module(amendment, chapter)
             result[chapter].append((package, amendment_path.name, module))
