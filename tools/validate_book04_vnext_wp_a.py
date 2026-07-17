@@ -58,14 +58,10 @@ def git(*args: str) -> str:
     return result.stdout.strip()
 
 
-def validate_records() -> None:
+def validate_terms() -> None:
     for path in REQUIRED_FILES:
         read(path)
-
     plan = read(REQUIRED_FILES[2])
-    impact = read(REQUIRED_FILES[3])
-    review = read(REQUIRED_FILES[4])
-
     required_terms = (
         "Workplace business sovereignty",
         "Semantic authority",
@@ -82,10 +78,14 @@ def validate_records() -> None:
         "Execution Provider Workplace",
         "Sites",
     )
-    missing_terms = [term for term in required_terms if term not in plan]
-    if missing_terms:
-        raise ValidationError(f"terminology lock missing: {', '.join(missing_terms)}")
+    missing = [term for term in required_terms if term not in plan]
+    if missing:
+        raise ValidationError(f"terminology lock missing: {', '.join(missing)}")
+    print("WP-A required records and terminology: PASS")
 
+
+def validate_coverage() -> None:
+    impact = read(REQUIRED_FILES[3])
     chapter_ids = set(re.findall(r"\bCH(?:0[0-9]|[1-3][0-9])\b", impact))
     expected = {f"CH{i:02d}" for i in range(40)}
     if chapter_ids != expected:
@@ -93,11 +93,11 @@ def validate_records() -> None:
         extra = sorted(chapter_ids - expected)
         raise ValidationError(f"chapter coverage mismatch; missing={missing}, extra={extra}")
 
-    if "MO-ARCH-PLN-001 corrections mapped: 12 / 12" not in read(
-        "books/book-04-workplace-product-architecture/BOOK-STATUS.md"
-    ):
+    status = read("books/book-04-workplace-product-architecture/BOOK-STATUS.md")
+    if "MO-ARCH-PLN-001 corrections mapped: 12 / 12" not in status:
         raise ValidationError("Book 04 status does not record 12 / 12 correction coverage")
 
+    review = read(REQUIRED_FILES[4])
     for needle in (
         "Blocking findings: 0",
         "Unmapped Canon correction: 0",
@@ -106,8 +106,7 @@ def validate_records() -> None:
     ):
         if needle not in review:
             raise ValidationError(f"review missing result: {needle}")
-
-    print("WP-A records and coverage: PASS")
+    print("WP-A chapter and finding coverage: PASS")
 
 
 def validate_diff(base_sha: str | None) -> None:
@@ -126,10 +125,15 @@ def validate_diff(base_sha: str | None) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--base-sha")
+    parser.add_argument("--only", choices=("terms", "coverage", "diff"))
     args = parser.parse_args()
     try:
-        validate_records()
-        validate_diff(args.base_sha)
+        if args.only in (None, "terms"):
+            validate_terms()
+        if args.only in (None, "coverage"):
+            validate_coverage()
+        if args.only in (None, "diff"):
+            validate_diff(args.base_sha)
     except ValidationError as exc:
         print(f"FAIL: {exc}", file=sys.stderr)
         return 1
