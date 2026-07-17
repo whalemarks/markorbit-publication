@@ -28,6 +28,8 @@ Book 02 remains the Frozen Core Specification Baseline v0.1. WP-A is an architec
 
 ## Canonical terminology lock
 
+The controlled phrase **Workplace business sovereignty** refers to the business-sovereignty dimension exercised by the accountable Organization through its Workplace. It must not be shortened in a way that implies semantic, formal-state, custody or legal authority.
+
 | Term | Controlled meaning | Must not collapse into |
 | --- | --- | --- |
 | Organization | accountable legal, commercial, professional or administrative participant | Workplace, Product, user account |
