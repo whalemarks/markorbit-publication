@@ -31,6 +31,30 @@ LEAK_TOKENS = (
     "Unattributed weave modules:", "Blocking findings:", "Immediate Book 02 Change Proposal",
     "**RETAIN", "**REPLACE", "**NORMALIZE", "**SUPERSEDE", "**PLACEMENT", "**AUTHORITY", "**CONTINUITY"
 )
+CUSTOM_PROSE = {
+    "conformance": (
+        "Book 04 defines a constitutional architecture rather than a universal application or "
+        "implementation specification. Conformance requires the distinctions established in this book "
+        "to remain visible in future Product charters, service specifications, ADRs and implementation "
+        "repositories. Book completion does not itself grant implementation, deployment, publication or "
+        "External Protected Action authority; each remains subject to a separate explicit gate."
+    ),
+    "final_chain": """The complete responsibility chain is:
+
+```text
+Core defines shared meaning.
+Workplace preserves organizational sovereignty and authorized context.
+Products provide focused experiences through governed Installations and Projections.
+AI prepares and recommends within inherited scope.
+Human professionals review and decide.
+Execution coordinates accepted work.
+Owning Services record formal business facts.
+MGSN connects independent Workplaces without absorbing them.
+Artifacts, Returns and Trust remain provenance-bearing and reviewable.
+```
+
+Each Orbit remains independent because authority, access, evidence and responsibility stay explicit across every collaboration boundary.""",
+}
 
 
 def read(path: Path) -> str:
@@ -159,8 +183,11 @@ def placement_index(lines: list[str], mode: str) -> int:
 
 def compose(route: dict, modules: dict[str, dict[str, str]]) -> tuple[str, list[str]]:
     source_ids = route["modules"]
-    if "custom_prose" in route:
-        prose = route["custom_prose"].strip()
+    if "custom_key" in route:
+        key = route["custom_key"]
+        if key not in CUSTOM_PROSE:
+            raise RuntimeError(f"unknown custom prose key: {key}")
+        prose = CUSTOM_PROSE[key]
     else:
         prose = "\n\n".join(modules[module_id]["prose"] for module_id in source_ids).strip()
     if any(token in prose for token in LEAK_TOKENS):
