@@ -5,9 +5,9 @@
 ```text
 Whole-Book Draft — COMPLETE
 Editorial Hardening Waves A and B — PASS / ACCEPTED
-Reader Apparatus — COMPLETE
-Final Publication Review — PASS
-Release Candidate — READY FOR OWNER DECISION ON MERGE
+Reader Apparatus — COMPLETE / ACCEPTED
+Final Publication Review — PASS / ACCEPTED
+Release Candidate 1 — READY FOR OWNER ACCEPTANCE ON MERGE
 ```
 
 ## Reviews
@@ -23,7 +23,8 @@ Release Candidate — READY FOR OWNER DECISION ON MERGE
 | B07-REV-0013 | Whole-Book Completion and Consistency Review | PASS WITH EDITORIAL HARDENING REQUIRED | Accepted |
 | B07-REV-0014 | Editorial Hardening Wave A Review | PASS | Accepted |
 | B07-REV-0015 | Editorial Hardening Wave B Review | PASS | Accepted |
-| B07-REV-0016 | Reader Apparatus and Final Publication Review | PASS | Ready for Owner Acceptance |
+| B07-REV-0016 | Reader Apparatus and Final Publication Review | PASS | Accepted |
+| B07-REV-0017 | Release Candidate 1 Owner Decision Review | PASS | Effective on Owner merge |
 
 ## Current review result
 
@@ -39,6 +40,7 @@ Blocking findings: 0
 Major findings: 0
 Minor findings: 0
 Controlled semantic drift: 0
+Implementation authorization leakage: 0
 ```
 
-`B07-REV-0016` authorizes an explicit Release Candidate Owner decision after merge. It does not itself accept Release Candidate status or authorize implementation.
+`B07-REV-0017` recommends acceptance of Book 07 Release Candidate 1 on Owner merge. It does not approve final publication, distribution or implementation.
