@@ -3,9 +3,10 @@
 ## Current Gate
 
 ```text
-Controlled Product Baseline v0.1 — ACCEPTED
-Chapter Map v0.1 — Ready for Owner Acceptance on Merge
-Next: Writing Wave 1 / CH00–CH06
+Whole-Book Draft — COMPLETE
+Whole-Book Consistency Review — PASS
+Editorial Hardening — REQUIRED
+Next: Editorial Hardening Wave A / CH00–CH16
 ```
 
 ## Accepted Planning Baseline
@@ -17,26 +18,38 @@ B07-PLN-0011 — Owner Decision Matrix / OD-01–OD-33
 B07-PLN-0012 — Historical upstream reconciliation notice
 B07-PLN-0013 — Controlling Workplace reconciliation
 B07-SPEC-0001–0004 — Controlled Product Baseline v0.1
+B07-TOC-V0.1 — Accepted Chapter Map / CH00–CH33
+B07-PLN-0014 — Chapter Coverage Matrix
+B07-PLN-0015 — Writing Wave Plan
 ```
 
-## Chapter Map Records
+## Completed Writing Waves
+
+```text
+Wave 1: CH00–CH06 — COMPLETE
+Wave 2: CH07–CH11 — COMPLETE
+Wave 3: CH12–CH15 — COMPLETE
+Wave 4: CH16–CH20 — COMPLETE
+Wave 5: CH21–CH25 — COMPLETE
+Wave 6: CH26–CH29 — COMPLETE
+Wave 7: CH30–CH33 — COMPLETE
+```
+
+## Current Planning Records
 
 | ID | Record | Status |
 | --- | --- | --- |
-| B07-TOC-V0.1 | Chapter Map Candidate / CH00–CH33 | Ready for Owner Acceptance |
-| B07-PLN-0014 | Chapter Coverage Matrix | PASS |
-| B07-PLN-0015 | Writing Wave Plan | Ready |
+| B07-PLN-0016 | Editorial Hardening Plan | Ready for Owner Acceptance |
+| B07-PLN-0017 | Reader Apparatus and Publication Validation Plan | Ready for Owner Acceptance |
 
-## Writing Waves
+## Authorized Next Sequence on Merge
 
 ```text
-Wave 1: CH00–CH06
-Wave 2: CH07–CH11
-Wave 3: CH12–CH15
-Wave 4: CH16–CH20
-Wave 5: CH21–CH25
-Wave 6: CH26–CH29
-Wave 7: CH30–CH33
+1. Editorial Hardening Wave A — CH00–CH16
+2. Editorial Hardening Wave B — CH17–CH33
+3. Reader Apparatus preparation
+4. Final publication validation
+5. Release Candidate decision
 ```
 
-Owner merge authorizes Wave 1 only. It does not authorize later Waves or implementation.
+No planning record authorizes implementation, payment custody, funds release, automatic Provider appointment, automated Trust sanctions, production deployment or External Protected Action.
