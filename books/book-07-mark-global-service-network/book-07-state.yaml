@@ -1,8 +1,8 @@
 book_id: B07
 title: Mark Global Service Network
-status: reader_apparatus_and_final_validation_ready_for_owner_acceptance
-current_gate: reader_apparatus_and_final_validation_owner_acceptance
-next_gate: release_candidate_owner_decision
+status: release_candidate_1_ready_for_owner_acceptance
+current_gate: release_candidate_owner_decision
+next_gate: release_candidate_1_permanent_freeze
 
 active_architecture:
   canon: MARKORBIT-ORBITAL-ARCHITECTURE-CANON-vNEXT.1
@@ -26,7 +26,11 @@ manuscript:
   missing_chapters: 0
   whole_book_draft_complete: true
   editorial_hardening_complete: true
-  release_candidate: false
+  reader_apparatus_complete: true
+  release_candidate: true
+  release_candidate_version: RC1
+  release_candidate_effective_on_owner_merge: true
+  release_candidate_content_baseline: 7ab3ea3e01b42afda8b2f675e514b91df436e47d
 
 controlled_coverage:
   product_local_records: 56
@@ -66,20 +70,32 @@ reader_apparatus:
   scenario_index_complete: true
   handoff_acceptance_index_complete: true
   implementation_boundary_notice_complete: true
-  ready_for_owner_acceptance: true
+  accepted: true
 
 final_publication_review:
   review: B07-REV-0016
   validation: B07-VAL-0016
   decision: pass
+  accepted: true
   blocking_findings: 0
   major_findings: 0
   minor_findings: 0
   controlled_semantic_drift: 0
   implementation_authorization_leakage: 0
-  release_candidate_decision_authorized_on_merge: true
+
+release_candidate_owner_decision:
+  record: B07-REL-0001
+  review: B07-REV-0017
+  validation: B07-VAL-0017
+  decision: accept_rc1_on_owner_merge
+  content_baseline: 7ab3ea3e01b42afda8b2f675e514b91df436e47d
+  final_publication_approved: false
+  public_distribution_approved: false
+  permanent_freeze_required: true
 
 not_authorized:
+  final_branded_publication: true
+  public_commercial_distribution: true
   database_schema: true
   api_contracts: true
   payment_custody: true
@@ -87,8 +103,10 @@ not_authorized:
   automatic_provider_appointment: true
   automated_trust_sanctions: true
   production_deployment: true
+  autonomous_professional_action: true
   external_protected_action: true
 
 integrity:
   implementation_files_allowed: false
-  release_candidate_requires_explicit_owner_decision: true
+  owner_merge_required_for_rc1: true
+  permanent_freeze_is_separate_task: true

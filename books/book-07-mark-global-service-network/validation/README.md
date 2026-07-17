@@ -11,7 +11,8 @@
 | B07-VAL-0013 | Whole-Book Completion Scope and Coverage Check | PASS | Accepted |
 | B07-VAL-0014 | Editorial Hardening Wave A Scope and Consistency Check | PASS | Accepted |
 | B07-VAL-0015 | Editorial Hardening Wave B Scope and Consistency Check | PASS | Accepted |
-| B07-VAL-0016 | Final Publication Scope, Coverage and Integrity Check | PASS | Ready for Owner Acceptance |
+| B07-VAL-0016 | Final Publication Scope, Coverage and Integrity Check | PASS | Accepted |
+| B07-VAL-0017 | Release Candidate 1 Owner Decision Scope Check | PASS | Effective on Owner merge |
 
 ## Current validation
 
@@ -29,15 +30,16 @@ Broken controlled references identified: 0
 Unresolved placeholders introduced: 0
 ```
 
-## Scope and authority
+## RC1 decision scope
 
 ```text
-Books 02–06 manuscript modifications: 0
-Book 07 manuscript modifications: 0
-Canon / Charter / Baseline / Chapter Map modifications: 0
-Implementation files: 0
-Controlled semantic drift: 0
-Implementation authorization leakage: 0
+Reader-facing content baseline:
+7ab3ea3e01b42afda8b2f675e514b91df436e47d
+
+Book 07 manuscript modifications in Owner Decision branch: 0 expected
+Reader Apparatus modifications: 0 expected
+Canon / Charter / Baseline / Chapter Map modifications: 0 expected
+Implementation files: 0 expected
 ```
 
 ## Publication state
@@ -47,8 +49,10 @@ Whole-Book Draft Complete: YES
 Editorial Hardening Complete: YES
 Reader Apparatus Complete: YES
 Final Publication Validation: PASS
-Release Candidate Ready for Owner Decision: YES
-Release Candidate Accepted: NO
+Release Candidate 1 Ready: YES
+Release Candidate 1 Effective: ON OWNER MERGE
+Final Publication Approved: NO
+Public/Commercial Distribution Approved: NO
 ```
 
-Implementation remains outside scope. No database, API, payment, routing, Trust-sanction or production authority is created by this validation.
+Implementation remains outside scope. No database, API, payment, routing, Trust-sanction, production or External Protected Action authority is created by this validation.
