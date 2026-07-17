@@ -21,6 +21,7 @@ TOP_LEVEL = (
     "TRANSFORM-REPORT.md",
     "BUILD-REPORT.md",
 )
+CONTROL_RECORDS = ("FREEZE-MANIFEST.md",)
 
 
 def sha256(path: Path) -> str:
@@ -30,6 +31,13 @@ def sha256(path: Path) -> str:
 
 
 def materialize(target: Path) -> None:
+    preserved: dict[str, bytes] = {}
+    if target.exists():
+        for name in CONTROL_RECORDS:
+            control = target / name
+            if control.is_file():
+                preserved[name] = control.read_bytes()
+
     with tempfile.TemporaryDirectory() as tmp:
         generated = Path(tmp) / "candidate04"
         subprocess.run(
@@ -51,9 +59,14 @@ def materialize(target: Path) -> None:
                 raise RuntimeError(f"missing generated file: {name}")
             shutil.copy2(source, target / name)
 
+    for name, content in preserved.items():
+        (target / name).write_bytes(content)
+
     files = sorted(
         path for path in target.rglob("*")
-        if path.is_file() and path.name != "MATERIALIZATION-MANIFEST.md"
+        if path.is_file()
+        and path.name != "MATERIALIZATION-MANIFEST.md"
+        and path.name not in CONTROL_RECORDS
     )
     lines = [
         "# Book 04 vNext Materialization Manifest",
