@@ -1,0 +1,38 @@
+name: Portfolio Books 01 and 03 Freeze 01 Validation
+
+on:
+  pull_request:
+    paths:
+      - 'codex/tasks/PUB-TASK-PORTFOLIO-B01-B03-FREEZE-01.md'
+      - 'books/book-01-operating-system/**'
+      - 'books/book-03-execution-system/**'
+      - 'portfolio/**'
+      - 'tools/freeze_books_01_03.py'
+      - 'tools/validate_books_01_03_freeze_01.py'
+      - '.github/workflows/portfolio-books-01-03-freeze-01-validation.yml'
+      - 'PUBLICATION-ROADMAP.md'
+
+jobs:
+  freeze-and-validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out publication repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate freeze manifests
+        run: python tools/freeze_books_01_03.py
+      - name: Validate portfolio freeze
+        run: python tools/validate_books_01_03_freeze_01.py --base-sha "${{ github.event.pull_request.base.sha }}"
+      - name: Upload generated freeze manifests
+        uses: actions/upload-artifact@v4
+        with:
+          name: books-01-03-freeze-manifests
+          path: |
+            books/book-01-operating-system/FREEZE-MANIFEST.md
+            books/book-03-execution-system/FREEZE-MANIFEST.md
+          retention-days: 90
