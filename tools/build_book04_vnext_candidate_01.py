@@ -88,34 +88,56 @@ def clean_candidate_lines(lines: list[str]) -> str:
     return "\n".join(output).strip()
 
 
+def fallback_blocks(module: str) -> str:
+    """Extract quoted prose and fenced equations when editorial labels vary."""
+    output: list[str] = []
+    in_fence = False
+    for line in module.splitlines()[1:]:
+        if line.startswith("```"):
+            in_fence = not in_fence
+            output.append(line)
+            continue
+        if in_fence or line.startswith(">"):
+            output.append(line)
+    return clean_candidate_lines(output)
+
+
 def extract_weave(module: str, chapter: str) -> str:
     lines = module.splitlines()[1:]
     captured: list[str] = []
     active = False
-    accepted_fields = {"Weave text", "Canonical equation", "AI insertion"}
-    stop_fields = {
-        "Operation", "Placement", "Retain", "Replace", "Remove", "Remove or normalize",
-        "Normalize", "Editorial rule", "Continuity", "Authority", "Supersession"
-    }
+    start_terms = ("weave", "candidate", "replacement", "insertion", "equation", "model", "prose", "text")
+    stop_terms = (
+        "operation", "placement", "retain", "remove", "normalize", "editorial rule",
+        "continuity", "authority", "supersession", "review note"
+    )
     for line in lines:
         match = FIELD_RE.match(line)
         if match:
             field = match.group(1).strip()
-            if field in accepted_fields:
+            lowered = field.lower()
+            inline = match.group(2).strip()
+            if any(lowered.startswith(term) for term in stop_terms):
+                active = False
+                continue
+            if any(term in lowered for term in start_terms):
                 active = True
-                inline = match.group(2).strip()
                 if inline:
                     captured.extend(["", inline])
                 continue
-            if field in stop_fields or field not in accepted_fields:
-                active = False
+            if active:
+                if inline:
+                    captured.extend(["", inline])
                 continue
+            continue
         if line.strip() == "---":
             active = False
             continue
         if active:
             captured.append(line)
     prose = clean_candidate_lines(captured)
+    if not prose:
+        prose = fallback_blocks(module)
     if not prose:
         raise RuntimeError(f"no candidate weave prose extracted for {chapter}")
     return prose
