@@ -5,7 +5,8 @@
 ```text
 Whole-Book Draft — COMPLETE
 Whole-Book Consistency Review — PASS
-Editorial Hardening Wave A — PASS
+Editorial Hardening Wave A — PASS / ACCEPTED
+Editorial Hardening Wave B — PASS / READY FOR OWNER ACCEPTANCE
 Release Candidate — NOT YET
 ```
 
@@ -20,24 +21,26 @@ Release Candidate — NOT YET
 | B07-REV-0005 | Chapter Map Review | PASS | Accepted |
 | B07-REV-0006–0012 | Writing Waves 1–7 Reviews | PASS | Accepted |
 | B07-REV-0013 | Whole-Book Completion and Consistency Review | PASS WITH EDITORIAL HARDENING REQUIRED | Accepted |
-| B07-REV-0014 | Editorial Hardening Wave A Review | PASS | Ready for Owner Acceptance |
+| B07-REV-0014 | Editorial Hardening Wave A Review | PASS | Accepted |
+| B07-REV-0015 | Editorial Hardening Wave B Review | PASS | Ready for Owner Acceptance |
 
 ## Current Review Result
 
-`B07-REV-0014` confirms:
+`B07-REV-0015` confirms:
 
 ```text
-EH-A scope: CH00–CH16
+EH-B scope: CH17–CH33
 Chapters reviewed: 17 / 17
-Chapters directly edited: 6
-Chapters reviewed without direct edit: 11
+Chapters directly edited: 4
+Chapters reviewed without direct edit: 13
 Missing chapters: 0
 Out-of-scope manuscript edits: 0
 Blocking findings: 0
 Major findings: 0
 Minor findings: 0
+Controlled semantic drift: 0
 ```
 
-Wave A reduced unnecessary repetition, consolidated the reading path, strengthened structural transitions and preserved every controlled Product and authority boundary.
+Wave B strengthened the route-decision chain, Return and uncertainty semantics, governance continuity, Part transitions and final synthesis while preserving every controlled Product and authority boundary.
 
-Editorial Hardening Wave B, Reader Apparatus and final publication validation remain required before Release Candidate review.
+Reader Apparatus and final publication validation remain required before Release Candidate review.
