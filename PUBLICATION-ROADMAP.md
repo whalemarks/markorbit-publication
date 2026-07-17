@@ -23,66 +23,69 @@ The Workplace Sovereignty clarification is active at architecture level and does
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | RC1 — Portfolio Baseline Accepted |
 | Book 02 | MarkOrbit Core Specification | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | RC1 — Portfolio Baseline Accepted |
-| Book 04 | MarkOrbit Workplace and Product Architecture | RC1 Historical / Workplace Sovereignty vNext WP-B Active |
+| Book 04 | MarkOrbit Workplace and Product Architecture | RC1 Historical / Workplace Sovereignty vNext WP-C Active |
 | Book 05 | MarkReg | RC1 — Approved and Frozen |
 | Book 06 | MarkOrbit Lite | RC1 — Approved and Frozen |
 | Book 07 | Mark Global Service Network | RC1 — Approved and Frozen |
 
 ## Book 04 Workplace Sovereignty vNext
 
-### WP-A — Accepted foundation
+### Accepted foundation
 
 ```text
-PUB-TASK-B04-VNEXT-WP-A — OWNER MERGED
-B04-PLN-0008 — terminology lock accepted
-B04-IMPACT-0001 — CH00–CH39 allocation accepted
-B04-REV-0006 — PASS
-12 / 12 Canon corrections mapped
-40 / 40 chapters classified
+WP-A — Canon and terminology reconciliation — OWNER MERGED
+WP-B — Workplace authority and data-boundary correction — OWNER MERGED
+
+WP-A corrections mapped: 12 / 12
+WP-A chapters classified: 40 / 40
+WP-B assigned chapters covered: 14 / 14
+WP-B five authority dimensions: 5 / 5
+RC1 manuscript files changed: 0
 ```
 
 ### Current controlled task
 
 ```text
-PUB-TASK-B04-VNEXT-WP-B
-WP-B — Workplace Authority and Data-Boundary Correction
+PUB-TASK-B04-VNEXT-WP-C
+WP-C — Product Installation and Projection Model
 ```
 
 Outputs:
 
 ```text
-B04-PLN-0009 — WP-B execution plan
-B04-VNEXT-WPB-0001 — authority and data-boundary amendment manuscript
-B04-CORR-0001 — chapter correction ledger
-B04-REV-0007 — WP-B Review / PASS
+B04-PLN-0010 — WP-C execution plan
+B04-VNEXT-WPC-0001 — Product Installation and Projection amendment manuscript
+B04-CORR-0002 — chapter correction ledger
+B04-REV-0008 — WP-C Review / PASS
 ```
 
 Scope result:
 
 ```text
-CH02–CH12, CH16, CH19 and CH37 covered: 14 / 14
-Five authority dimensions explicit: 5 / 5
+CH20–CH22, CH26–CH27, CH30–CH32 and CH38 covered: 9 / 9
+Product / Installation / Projection distinction: PASS
+Projection / Handoff / Return distinction: PASS
 Unmapped assigned chapters: 0
 RC1 manuscript files changed: 0
 Immediate Book 02 Change Proposal: NO
 ```
 
-WP-B uses a controlled vNext amendment layer. RC1 remains immutable. After Owner merge, the amendment supersedes only the affected authority and data-boundary interpretations listed in B04-CORR-0001.
+WP-C uses the same controlled amendment model as WP-B. RC1 remains immutable. After Owner merge, B04-VNEXT-WPC-0001 supersedes only the Product Installation and Projection interpretations listed in B04-CORR-0002.
 
 ## Next Controlled Gate
 
 ```text
-WP-C — Product Installation and Projection Model
+WP-D — MarkReg / Lite / Sites / MGSN Interface Correction
 ```
 
-WP-C will address Product Installation identity, entitlement, configuration, permission, Product Projection, context continuity, Handoff and Return distinctions. It is not authorized until WP-B Owner merge.
+WP-D will reconcile the Book 04 architectural profiles with the frozen Product and network publications while preserving their authority.
 
 ## Remaining Book 04 Sequence
 
 ```text
 WP-A — Canon and terminology reconciliation — ACCEPTED
-→ WP-B — Workplace authority and data-boundary correction — CANDIDATE
-→ WP-C — Product Installation and projection model
+→ WP-B — Workplace authority and data-boundary correction — ACCEPTED
+→ WP-C — Product Installation and projection model — CANDIDATE
 → WP-D — MarkReg / Lite / Sites / MGSN interface correction
 → WP-E — cross-Workplace collaboration and portability
 → WP-F — full-book impact review and next-version decision
