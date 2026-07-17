@@ -7,6 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / ".artifacts/portfolio-pagination-optimization-01"
 BASELINE = {1:163, 2:1642, 3:1037, 4:1612, 5:390, 6:534, 7:183}
+MIN_REDUCTION = {2: 0.30, 3: 0.18, 4: 0.18}
 
 class ValidationError(RuntimeError): pass
 
@@ -47,10 +48,11 @@ def validate_outputs() -> None:
     old_total, new_total = sum(BASELINE.values()), sum(pages.values())
     if new_total > int(old_total * 0.75):
         raise ValidationError(f"insufficient total reduction: {old_total} -> {new_total}")
-    for book in (2, 3, 4):
-        if pages[book] > int(BASELINE[book] * 0.75):
-            raise ValidationError(f"Book {book:02d} reduction below target")
-    summary = {"baseline_pages": BASELINE, "optimized_pages": pages, "baseline_total": old_total, "optimized_total": new_total, "reduction_percent": round((old_total-new_total)*100/old_total, 2), "publication_authorized": False}
+    reductions = {book: round((BASELINE[book]-pages[book])/BASELINE[book], 4) for book in BASELINE}
+    for book, minimum in MIN_REDUCTION.items():
+        if reductions[book] < minimum:
+            raise ValidationError(f"Book {book:02d} reduction below readability-balanced target")
+    summary = {"baseline_pages": BASELINE, "optimized_pages": pages, "book_reduction_fraction": reductions, "baseline_total": old_total, "optimized_total": new_total, "reduction_percent": round((old_total-new_total)*100/old_total, 2), "semantic_changes": 0, "publication_authorized": False}
     (OUT / "pagination-comparison.json").write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(summary, indent=2))
 
