@@ -23,78 +23,93 @@ The Workplace Sovereignty clarification is active at architecture level and does
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | RC1 — Portfolio Baseline Accepted |
 | Book 02 | MarkOrbit Core Specification | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | RC1 — Portfolio Baseline Accepted |
-| Book 04 | MarkOrbit Workplace and Product Architecture | RC1 Historical / Workplace Sovereignty vNext WP-C Active |
+| Book 04 | MarkOrbit Workplace and Product Architecture | RC1 Historical / Workplace Sovereignty vNext WP-F Decision Active |
 | Book 05 | MarkReg | RC1 — Approved and Frozen |
 | Book 06 | MarkOrbit Lite | RC1 — Approved and Frozen |
 | Book 07 | Mark Global Service Network | RC1 — Approved and Frozen |
 
 ## Book 04 Workplace Sovereignty vNext
 
-### Accepted foundation
+### Accepted correction programme
 
 ```text
 WP-A — Canon and terminology reconciliation — OWNER MERGED
 WP-B — Workplace authority and data-boundary correction — OWNER MERGED
+WP-C — Product Installation and Projection Model — OWNER MERGED
+WP-D — MarkReg / Lite / Sites / MGSN interface correction — OWNER MERGED
+WP-E — cross-Workplace collaboration and portability — OWNER MERGED
+```
 
-WP-A corrections mapped: 12 / 12
-WP-A chapters classified: 40 / 40
-WP-B assigned chapters covered: 14 / 14
-WP-B five authority dimensions: 5 / 5
+Programme result:
+
+```text
+Chapters accounted for: 40 / 40
+Required correction classes: 12 / 12
+Accepted amendment packages: 4 / 4
 RC1 manuscript files changed: 0
+Immediate Book 02 Change Proposal: NO
 ```
 
 ### Current controlled task
 
 ```text
-PUB-TASK-B04-VNEXT-WP-C
-WP-C — Product Installation and Projection Model
+PUB-TASK-B04-VNEXT-WP-F
+WP-F — Full-Book Impact Review and Next-Version Decision
 ```
 
 Outputs:
 
 ```text
-B04-PLN-0010 — WP-C execution plan
-B04-VNEXT-WPC-0001 — Product Installation and Projection amendment manuscript
-B04-CORR-0002 — chapter correction ledger
-B04-REV-0008 — WP-C Review / PASS
+B04-PLN-0013 — WP-F review plan
+B04-AUD-0001 — full-book vNext impact audit
+B04-DEC-0001 — integration decision / GO
+B04-INT-0001 — integrated candidate baseline manifest
+B04-REV-0011 — WP-F Review / PASS
 ```
 
-Scope result:
+Decision:
 
 ```text
-CH20–CH22, CH26–CH27, CH30–CH32 and CH38 covered: 9 / 9
-Product / Installation / Projection distinction: PASS
-Projection / Handoff / Return distinction: PASS
-Unmapped assigned chapters: 0
-RC1 manuscript files changed: 0
-Immediate Book 02 Change Proposal: NO
+GO — authorize preparation of an integrated Book 04 vNext Candidate Baseline.
 ```
 
-WP-C uses the same controlled amendment model as WP-B. RC1 remains immutable. After Owner merge, B04-VNEXT-WPC-0001 supersedes only the Product Installation and Projection interpretations listed in B04-CORR-0002.
+The GO decision does not create or accept the integrated candidate. It authorizes a separate controlled integration task after WP-F Owner merge.
 
 ## Next Controlled Gate
 
 ```text
-WP-D — MarkReg / Lite / Sites / MGSN Interface Correction
+PUB-TASK-B04-VNEXT-INTEGRATION-01
+Integrated Candidate Baseline Preparation
 ```
 
-WP-D will reconcile the Book 04 architectural profiles with the frozen Product and network publications while preserving their authority.
+The integration task must:
 
-## Remaining Book 04 Sequence
+- create a separate candidate-baseline directory;
+- integrate RC1 with accepted WP-B–WP-E amendments;
+- preserve CH00–CH39 traceability;
+- resolve every supersession entry;
+- retain amendment provenance;
+- run full-book and repository release-state validation;
+- return for explicit Owner acceptance.
+
+## Book 04 Decision Sequence
 
 ```text
-WP-A — Canon and terminology reconciliation — ACCEPTED
-→ WP-B — Workplace authority and data-boundary correction — ACCEPTED
-→ WP-C — Product Installation and projection model — CANDIDATE
-→ WP-D — MarkReg / Lite / Sites / MGSN interface correction
-→ WP-E — cross-Workplace collaboration and portability
-→ WP-F — full-book impact review and next-version decision
+WP-A — ACCEPTED
+→ WP-B — ACCEPTED
+→ WP-C — ACCEPTED
+→ WP-D — ACCEPTED
+→ WP-E — ACCEPTED
+→ WP-F — GO RECOMMENDATION / CANDIDATE
+→ Integrated Candidate Baseline Preparation
+→ Owner Acceptance Gate
+→ Publication finishing and freeze decision
 ```
 
 ## Future Publication and Architecture Workstreams
 
 - Book 01 and Book 03 public-release copyediting and branded rendering;
-- Book 04 vNext integration and publication finishing after WP-F;
+- Book 04 vNext integration and publication finishing;
 - Books 05–07 optional final brand/design production and distribution decisions;
 - Structured Information and Derived Value specifications;
 - Local Vault architecture;
