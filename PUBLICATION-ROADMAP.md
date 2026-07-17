@@ -13,6 +13,7 @@ Books 01–04 Portfolio Baseline — ACCEPTED
 Repository release-state reconciliation — COMPLETE
 Books 05–07 Release Candidate 1 — APPROVED AND FROZEN
 Book 04 Workplace Sovereignty WP-A–WP-F — OWNER ACCEPTED / CLOSED
+Book 04 vNext Integration 01 — OWNER ACCEPTED
 ```
 
 The Workplace Sovereignty clarification remains compatible with Book 02 and does not require an immediate Book 02 Change Proposal.
@@ -24,14 +25,14 @@ The Workplace Sovereignty clarification remains compatible with Book 02 and does
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | RC1 — Portfolio Baseline Accepted |
 | Book 02 | MarkOrbit Core Specification | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | RC1 — Portfolio Baseline Accepted |
-| Book 04 | MarkOrbit Workplace and Product Architecture | RC1 Historical / vNext Integration 01 Active |
+| Book 04 | MarkOrbit Workplace and Product Architecture | RC1 Historical / vNext Integration 02A Active |
 | Book 05 | MarkReg | RC1 — Approved and Frozen |
 | Book 06 | MarkOrbit Lite | RC1 — Approved and Frozen |
 | Book 07 | Mark Global Service Network | RC1 — Approved and Frozen |
 
 ## Book 04 Workplace Sovereignty vNext
 
-### Accepted correction programme
+### Accepted correction and preparation programme
 
 ```text
 WP-A — Canon and terminology reconciliation — OWNER MERGED
@@ -40,6 +41,7 @@ WP-C — Product Installation and Projection Model — OWNER MERGED
 WP-D — MarkReg / Lite / Sites / MGSN interface correction — OWNER MERGED
 WP-E — cross-Workplace collaboration and portability — OWNER MERGED
 WP-F — full-book audit and GO integration decision — OWNER MERGED
+INTEGRATION-01 — deterministic candidate preparation — OWNER MERGED
 ```
 
 Programme result:
@@ -48,62 +50,65 @@ Programme result:
 Chapters accounted for: 40 / 40
 Required correction classes: 12 / 12
 Accepted amendment packages: 4 / 4
+Deterministic candidate build: PASS
 Blocking findings: 0
 RC1 manuscript files changed: 0
 Immediate Book 02 Change Proposal: NO
-Integrated candidate preparation decision: GO
+Integrated editorial programme: AUTHORIZED
 ```
 
 ### Current controlled task
 
 ```text
-PUB-TASK-B04-VNEXT-INTEGRATION-01
-Integrated Candidate Baseline Preparation
+PUB-TASK-B04-VNEXT-INTEGRATION-02A
+CH00–CH12 Editorial Integration
 ```
 
 Outputs:
 
 ```text
-B04-PLN-0014 — integration execution plan
-B04-INT-0002 — deterministic candidate build specification
-B04-PROV-0001 — CH00–CH39 provenance ledger
-build_book04_vnext_candidate.py — deterministic candidate generator
-B04-REV-0012 — preparation review / PASS
+B04-PLN-0015 — Integration 02A execution plan
+B04-EDIT-0001 — CH00–CH12 Editorial Weave Patch Set
+B04-REV-0013 — Integration 02A editorial review / PASS
 ```
 
-Preparation result:
+Current result:
 
 ```text
-Chapter source entries: 40 / 40
-Accepted amendment packages represented: 4 / 4
-Deterministic build rule: PASS
-Unattributed correction route: 0
+Assigned chapters: 13 / 13
+Chapter weave modules: 13 / 13
+Placement rules: 13 / 13
+Unattributed modules: 0
+Authority and data-boundary locks: PASS
+Adjacent-chapter continuity: PASS
 RC1 source modification: 0
-Candidate generation readiness: PASS
+Immediate Book 02 Change Proposal: NO
 ```
 
-The generated candidate will be placed outside RC1 under `vnext/candidate-01/`. Generation preserves RC1 prose and inserts Owner-Accepted amendment controls at traceable chapter boundaries.
+The patch set records paragraph-level retain, replace, merge and insert operations for the front matter and Workplace foundation chapters. It is designed to be applied to the generated candidate outside RC1 and does not itself grant acceptance to the resulting prose.
 
 ## Next Controlled Gates
 
 ```text
-Owner merge of INTEGRATION-01
-→ generate B04-vNEXT-CANDIDATE-01
-→ PUB-TASK-B04-VNEXT-INTEGRATION-02
-→ paragraph-level editorial integration
-→ full candidate semantic review
+Owner merge of INTEGRATION-02A
+→ apply B04-EDIT-0001 to generated CH00–CH12
+→ continuous-prose review of the first candidate batch
+→ PUB-TASK-B04-VNEXT-INTEGRATION-02B for CH13–CH27
+→ PUB-TASK-B04-VNEXT-INTEGRATION-02C for CH28–CH39
+→ full candidate semantic and editorial review
 → explicit Owner acceptance decision
 ```
 
-INTEGRATION-02 will convert the mechanically integrated review candidate into a continuously edited manuscript while preserving every provenance and supersession record.
+Integration 02B will address Knowledge, intelligence, capabilities, Human Review, Product Installation, Product Projection and cross-Product continuity. Integration 02C will address Artifact and Delivery completion, network participation, cross-Workplace collaboration, portability, Trust and conformance.
 
 ## Book 04 Decision Sequence
 
 ```text
 WP-A–WP-F — ACCEPTED / CLOSED
-→ Integration 01 preparation — CANDIDATE
-→ deterministic candidate generation
-→ Integration 02 editorial integration
+→ Integration 01 preparation — ACCEPTED
+→ Integration 02A CH00–CH12 — ACTIVE
+→ Integration 02B CH13–CH27
+→ Integration 02C CH28–CH39
 → full candidate review
 → Owner Acceptance Gate
 → optional publication finishing and freeze decision

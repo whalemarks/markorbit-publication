@@ -1,0 +1,24 @@
+name: Book 04 vNext Integration 02A Validation
+
+on:
+  pull_request:
+    paths:
+      - 'books/book-04-workplace-product-architecture/**'
+      - 'codex/tasks/PUB-TASK-B04-VNEXT-INTEGRATION-02A.md'
+      - 'tools/validate_book04_vnext_integration_02a.py'
+      - '.github/workflows/book04-vnext-integration-02a-validation.yml'
+
+jobs:
+  validate-integration-02a:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out publication repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate CH00-CH12 editorial weave package
+        run: python tools/validate_book04_vnext_integration_02a.py --base-sha "${{ github.event.pull_request.base.sha }}"
