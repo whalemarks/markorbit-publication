@@ -15,6 +15,7 @@ Books 05–07 Release Candidate 1 — APPROVED AND FROZEN
 Book 04 Workplace Sovereignty WP-A–WP-F — OWNER ACCEPTED / CLOSED
 Book 04 vNext Integration 01 — OWNER ACCEPTED
 Book 04 vNext Integration 02A–02C — OWNER ACCEPTED / 40 OF 40 CHAPTERS
+Book 04 vNext Candidate 01 generation — OWNER ACCEPTED AS BUILD MILESTONE
 ```
 
 The Workplace Sovereignty clarification remains compatible with Book 02 and does not require an immediate Book 02 Change Proposal.
@@ -26,7 +27,7 @@ The Workplace Sovereignty clarification remains compatible with Book 02 and does
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | RC1 — Portfolio Baseline Accepted |
 | Book 02 | MarkOrbit Core Specification | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | RC1 — Portfolio Baseline Accepted |
-| Book 04 | MarkOrbit Workplace and Product Architecture | RC1 Historical / vNext Candidate 01 Active |
+| Book 04 | MarkOrbit Workplace and Product Architecture | RC1 Historical / Candidate Review 01 — REVISE |
 | Book 05 | MarkReg | RC1 — Approved and Frozen |
 | Book 06 | MarkOrbit Lite | RC1 — Approved and Frozen |
 | Book 07 | Mark Global Service Network | RC1 — Approved and Frozen |
@@ -36,79 +37,81 @@ The Workplace Sovereignty clarification remains compatible with Book 02 and does
 ### Accepted correction and integration programme
 
 ```text
-WP-A — Canon and terminology reconciliation — OWNER MERGED
-WP-B — Workplace authority and data-boundary correction — OWNER MERGED
-WP-C — Product Installation and Projection Model — OWNER MERGED
-WP-D — MarkReg / Lite / Sites / MGSN interface correction — OWNER MERGED
-WP-E — cross-Workplace collaboration and portability — OWNER MERGED
-WP-F — full-book audit and GO integration decision — OWNER MERGED
+WP-A–WP-F — OWNER MERGED / CLOSED
 INTEGRATION-01 — deterministic candidate preparation — OWNER MERGED
 INTEGRATION-02A — CH00–CH12 editorial weave input — OWNER MERGED
 INTEGRATION-02B — CH13–CH27 editorial weave input — OWNER MERGED
 INTEGRATION-02C — CH28–CH39 editorial weave input — OWNER MERGED
+CANDIDATE-01 — deterministic full-book generation — OWNER MERGED
 ```
 
-Programme result:
+Foundation result:
 
 ```text
 Chapters accounted for: 40 / 40
 Required correction classes: 12 / 12
 Accepted amendment packages: 4 / 4
 Editorial weave coverage: 40 / 40
-Blocking findings: 0
 RC1 manuscript files changed: 0
 Immediate Book 02 Change Proposal: NO
-Full candidate generation: AUTHORIZED
 ```
 
 ### Current controlled task
 
 ```text
-PUB-TASK-B04-VNEXT-CANDIDATE-01
-Apply Editorial Weave Inputs and Generate Full Candidate 01
+PUB-TASK-B04-VNEXT-CANDIDATE-REVIEW-01
+Full-Book Semantic, Continuity and Editorial Review
 ```
 
 Outputs:
 
 ```text
-B04-PLN-0018 — Full vNext Candidate 01 Generation
-B04-REV-0016 — Full Candidate 01 Generation Review / PASS
-build_book04_vnext_candidate_01.py — full-book weave applier
-validate_book04_vnext_candidate_01.py — structural and protected-boundary validator
-book04-vnext-candidate-01 — GitHub Actions review artifact
+B04-PLN-0019 — Candidate 01 Full-Book Review
+B04-AUD-0002 — Candidate 01 Full-Book Findings
+B04-DEC-0002 — Candidate 01 Review Decision
+B04-REV-0017 — Candidate 01 Full-Book Review
 ```
 
-Current result:
+Review result:
 
 ```text
-RC1 chapters discovered: 40 / 40
-Editorial weave modules discovered: 40 / 40
-Candidate chapters generated: 40 / 40
-Candidate chapters with provenance: 40 / 40
-Full chapter sequence: CH00–CH39
-Reader-visible correction-route appendices: 0
-Duplicate chapter identities: 0
-Missing chapter identities: 0
-RC1 source modification: 0
-Blocking findings: 0
-Immediate Book 02 Change Proposal required: NO
+Candidate chapters inspected: 40 / 40
+Structural completeness: PASS
+Provenance completeness: PASS
+Architecture authority regression: 0
+Chapter-route blockers: 7
+Reader-text leakage blockers: 3
+Continuity majors: 5
+RC1 source modifications: 0
+Owner Acceptance readiness: NO
+Candidate 02 required: YES
 ```
 
-Candidate 01 preserves the RC1 argument, inserts accepted vNext prose at an early natural section boundary in every chapter and records hidden source and editorial provenance. The complete manuscript is produced as a controlled review artifact rather than modifying the immutable RC1 directory.
+Candidate 01 demonstrated deterministic full-book generation but exposed route-aware editorial defects. Number-only matching placed accepted prose into chapters whose actual RC1 purpose differs from the planned module. Internal editorial and validation text also became reader-visible.
+
+## Decision
+
+```text
+REVISE — generate Candidate 02 before Owner Acceptance.
+Reopen architecture correction programme: NO
+Immediate Book 02 Change Proposal: NO
+```
 
 ## Next Controlled Gates
 
 ```text
-Owner merge of CANDIDATE-01 generation
-→ full-book semantic and continuity review
-→ cross-chapter duplication and terminology review
-→ targeted editorial corrections
-→ Candidate 02 if required
+Owner merge of CANDIDATE-REVIEW-01
+→ PUB-TASK-B04-VNEXT-CANDIDATE-02
+→ explicit chapter-to-module route manifest
+→ typed reader-facing prose extraction
+→ chapter-specific placement and supersession
+→ regenerate complete CH00–CH39 Candidate 02
+→ second full-book semantic and editorial review
 → explicit Owner Acceptance Gate
 → optional publication finishing and freeze decision
 ```
 
-Candidate 01 is the first complete full-book review object. It is not yet the accepted or frozen Book 04 vNext baseline.
+Candidate 02 must correct CH01, CH02, CH15, CH18, CH22 and CH28–CH31 routing; remove all reader-visible control text; preserve exact provenance; and add duplication and contradiction scans.
 
 ## Book 04 Decision Sequence
 
@@ -116,9 +119,10 @@ Candidate 01 is the first complete full-book review object. It is not yet the ac
 WP-A–WP-F — ACCEPTED / CLOSED
 → Integration 01 — ACCEPTED
 → Integration 02A–02C — ACCEPTED / 40 OF 40 CHAPTERS
-→ Candidate 01 generation — ACTIVE
-→ full candidate review
-→ targeted correction or Candidate 02
+→ Candidate 01 generation — ACCEPTED AS BUILD MILESTONE
+→ Candidate Review 01 — REVISE
+→ Candidate 02 route-aware regeneration
+→ second full candidate review
 → Owner Acceptance Gate
 → optional publication finishing and freeze decision
 ```
@@ -126,7 +130,7 @@ WP-A–WP-F — ACCEPTED / CLOSED
 ## Future Publication and Architecture Workstreams
 
 - Book 01 and Book 03 public-release copyediting and branded rendering;
-- Book 04 vNext full-book semantic review, final copyediting and publication finishing;
+- Book 04 Candidate 02 regeneration, full-book review, final copyediting and publication finishing;
 - Books 05–07 optional final brand/design production and distribution decisions;
 - Structured Information and Derived Value specifications;
 - Local Vault architecture;
