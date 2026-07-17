@@ -9,10 +9,12 @@
 - **WP-B:** Owner Accepted
 - **WP-C:** Owner Accepted
 - **WP-D:** Owner Accepted
-- **Current work package:** WP-E — Cross-Workplace Collaboration and Portability
-- **Current amendment:** B04-VNEXT-WPE-0001
-- **Current review:** B04-REV-0010 — PASS / Ready for Owner Acceptance
-- **Next gate:** WP-F — Full-Book Impact Review and Next-Version Decision
+- **WP-E:** Owner Accepted
+- **Current work package:** WP-F — Full-Book Impact Review and Next-Version Decision
+- **Current audit:** B04-AUD-0001
+- **Current decision:** B04-DEC-0001 — GO
+- **Current review:** B04-REV-0011 — PASS / Ready for Owner Acceptance
+- **Next gate:** PUB-TASK-B04-VNEXT-INTEGRATION-01
 
 ## Historical compatibility
 
@@ -24,47 +26,35 @@ WP-B five authority dimensions: 5 / 5
 WP-C assigned chapters covered: 9 / 9
 WP-C amendment manuscript: READY FOR OWNER ACCEPTANCE
 WP-D assigned chapters covered: 6 / 6
+WP-E assigned chapters covered: 8 / 8
 RC1 source modifications: 0
 Immediate Book 02 Change Proposal required: NO
 ```
 
-The WP-C candidate-gate sentence remains as a regression compatibility assertion. WP-C and WP-D are Owner Accepted through merged PRs #103 and #104.
+The WP-C candidate-gate sentence remains solely as a regression compatibility assertion. WP-C, WP-D and WP-E are Owner Accepted through merged PRs #103, #104 and #105.
 
-## WP-E Package
+## WP-F Package
 
 ```text
-PUB-TASK-B04-VNEXT-WP-E
-B04-PLN-0012 — Cross-Workplace Collaboration and Portability WP-E
-B04-VNEXT-WPE-0001 — Amendment Manuscript
-B04-CORR-0004 — Chapter Correction Ledger
-B04-REV-0010 — WP-E Review / PASS
+PUB-TASK-B04-VNEXT-WP-F
+B04-PLN-0013 — Full-Book Impact Review and Next-Version Decision
+B04-AUD-0001 — Full-Book vNext Impact Audit
+B04-DEC-0001 — Next-Version Integration Decision / GO
+B04-INT-0001 — Integrated Candidate Baseline Manifest
+B04-REV-0011 — WP-F Review / PASS
 ```
 
-## WP-E Result
+## WP-F Result
 
 ```text
-Assigned chapters: 8 / 8 covered
-Collaboration boundary: PASS
-Handoff / destination acceptance distinction: PASS
-Return / originating acceptance distinction: PASS
-Export / authority transfer distinction: PASS
-Portability classification: PASS
-Platform network asset exclusion: PASS
-Unmapped assigned chapters: 0
+Chapters accounted for: 40 / 40
+Correction classes accounted for: 12 / 12
+Accepted amendment packages: 4 / 4
 Blocking findings: 0
-RC1 source modifications: 0
-Book 02 Change Proposal required: NO
-```
-
-## Controlling distinctions
-
-```text
-access grant ≠ ownership transfer
-Handoff sent ≠ destination accepted
-Return received ≠ originating acceptance
-export copy ≠ authority transfer
-Workplace portability ≠ portability of the platform network
-participant relationship data ≠ shared Provider Supply ≠ global Routing assets ≠ network-wide Trust assets
+Unmapped chapters: 0
+RC1 source modification: 0
+Immediate Book 02 Change Proposal required: NO
+Integrated candidate preparation decision: GO
 ```
 
 ## Sequence
@@ -74,21 +64,30 @@ WP-A — ACCEPTED
 → WP-B — ACCEPTED
 → WP-C — ACCEPTED
 → WP-D — ACCEPTED
-→ WP-E — CANDIDATE
-→ WP-F — full-book review and vNext decision
+→ WP-E — ACCEPTED
+→ WP-F — CANDIDATE / GO RECOMMENDATION
 ```
+
+## Gate Effect
+
+Owner merge of WP-F:
+
+1. accepts the full-book impact audit;
+2. accepts the GO decision for integrated candidate preparation;
+3. closes MO-ARCH-PLN-001 work packages WP-A–WP-F;
+4. authorizes `PUB-TASK-B04-VNEXT-INTEGRATION-01`;
+5. preserves RC1 and all amendment provenance.
 
 ## Authorization
 
 ```text
 Book 04 RC1 historical baseline: ACCEPTED AND IMMUTABLE
-WP-B–WP-D amendment manuscripts: ACCEPTED
-WP-E amendment manuscript: READY FOR OWNER ACCEPTANCE
-New integrated vNext baseline: NOT YET CREATED
-WP-F before WP-E merge: NOT AUTHORIZED
-Production export, deletion or migration: NOT AUTHORIZED
+WP-B–WP-E amendment manuscripts: ACCEPTED
+WP-F audit and GO decision: READY FOR OWNER ACCEPTANCE
+Integrated vNext candidate: NOT YET CREATED
+Integrated candidate preparation after WP-F merge: AUTHORIZED
+Book 04 vNext owner acceptance: NOT YET GRANTED
+Freeze, publication and distribution: NOT AUTHORIZED
 Implementation or deployment: NOT AUTHORIZED
 External Protected Action: NOT AUTHORIZED
 ```
-
-Owner merge accepts WP-E, preserves RC1 and prior amendments, and authorizes WP-F. It does not itself create an integrated vNext baseline.
