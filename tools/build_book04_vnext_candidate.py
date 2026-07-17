@@ -33,9 +33,8 @@ AMENDMENTS = {
     ),
 }
 
-CANONICAL_CHAPTER_RE = re.compile(r"\bCH(?:0[0-9]|[1-3][0-9])\b")
 HISTORICAL_CHAPTER_RE = re.compile(r"\bCH[-_ ]?(0[0-9]|[1-3][0-9])\b", re.IGNORECASE)
-HEADING_RE = re.compile(r"(?m)^(#{1,6})\s+.*?\b(CH(?:0[0-9]|[1-3][0-9]))\b.*$")
+LEDGER_ROW_RE = re.compile(r"^\|\s*(CH(?:0[0-9]|[1-3][0-9]))\s*\|")
 
 
 def read(path: Path) -> str:
@@ -80,55 +79,31 @@ def discover_rc1() -> dict[str, Path]:
     return found
 
 
-def extract_heading_module(text: str, chapter: str) -> str | None:
-    matches = list(HEADING_RE.finditer(text))
-    for index, match in enumerate(matches):
-        if match.group(2) != chapter:
-            continue
-        level = len(match.group(1))
-        end = len(text)
-        for later in matches[index + 1 :]:
-            if len(later.group(1)) <= level:
-                end = later.start()
-                break
-        return text[match.start():end].strip()
-    return None
-
-
-def extract_ledger_row(ledger: str, chapter: str) -> str:
+def ledger_rows(ledger: str) -> dict[str, str]:
+    rows: dict[str, str] = {}
     for line in ledger.splitlines():
-        if line.lstrip().startswith("|") and re.search(rf"\|\s*{chapter}\s*\|", line):
-            return line.strip()
-    raise RuntimeError(f"correction ledger contains {chapter} but no chapter row was found")
+        match = LEDGER_ROW_RE.match(line.strip())
+        if not match:
+            continue
+        chapter = match.group(1)
+        if chapter in rows:
+            raise RuntimeError(f"duplicate correction-ledger row for {chapter}")
+        rows[chapter] = line.strip()
+    return rows
 
 
-def routes() -> dict[str, list[tuple[str, str, str, str, str]]]:
-    """Return package, amendment, ledger, route type and chapter control text."""
-    result: dict[str, list[tuple[str, str, str, str, str]]] = {
+def routes() -> dict[str, list[tuple[str, str, str, str]]]:
+    """Return package, amendment, ledger and accepted chapter correction row."""
+    result: dict[str, list[tuple[str, str, str, str]]] = {
         f"CH{i:02d}": [] for i in range(40)
     }
     for package, (amendment_path, ledger_path) in AMENDMENTS.items():
-        amendment = read(amendment_path)
-        ledger = read(ledger_path)
-        chapter_ids = sorted(set(CANONICAL_CHAPTER_RE.findall(ledger)))
-        for chapter in chapter_ids:
-            module = extract_heading_module(amendment, chapter)
-            if module is not None:
-                route_type = "chapter-module"
-                control = module
-            else:
-                route_type = "ledger-route"
-                row = extract_ledger_row(ledger, chapter)
-                control = (
-                    "### Chapter-specific correction route\n\n"
-                    f"{row}\n\n"
-                    "The complete controlling rules remain in the accepted amendment manuscript "
-                    f"`{amendment_path.name}`. This ledger route attributes the package to this "
-                    "chapter without inventing an unreviewed chapter-specific paraphrase."
-                )
-            result[chapter].append(
-                (package, amendment_path.name, ledger_path.name, route_type, control)
-            )
+        read(amendment_path)  # existence and accepted-source registration
+        rows = ledger_rows(read(ledger_path))
+        if not rows:
+            raise RuntimeError(f"no chapter rows found in {ledger_path.relative_to(ROOT)}")
+        for chapter, row in sorted(rows.items()):
+            result[chapter].append((package, amendment_path.name, ledger_path.name, row))
     return result
 
 
@@ -147,8 +122,6 @@ def build(output: Path) -> None:
     index_lines = ["# Book 04 vNext Candidate 01", "", "Status: GENERATED REVIEW CANDIDATE", ""]
     report = ["# Candidate Build Report", "", "```text"]
     routed_count = 0
-    module_count = 0
-    ledger_route_count = 0
 
     for chapter in sorted(sources):
         source_path = sources[chapter]
@@ -158,22 +131,23 @@ def build(output: Path) -> None:
             "<!--\n"
             f"candidate: B04-vNEXT-CANDIDATE-01\nchapter: {chapter}\n"
             f"rc1_source: {source_path.relative_to(ROOT)}\nrc1_sha256: {digest(body)}\n"
-            f"amendment_routes: {', '.join(p for p, _, _, _, _ in controls) or 'none'}\n"
+            f"amendment_routes: {', '.join(p for p, _, _, _ in controls) or 'none'}\n"
             "status: generated-review-candidate\n-->\n\n"
         )
         sections: list[str] = []
-        for package, amendment_name, ledger_name, route_type, control in controls:
+        for package, amendment_name, ledger_name, row in controls:
             routed_count += 1
-            if route_type == "chapter-module":
-                module_count += 1
-            else:
-                ledger_route_count += 1
             sections.append(
                 "\n\n---\n\n"
-                f"## Integrated vNext Control — {package}\n\n"
+                f"## Integrated vNext Control Route — {package}\n\n"
                 f"Amendment source: `{amendment_name}`  \n"
                 f"Correction ledger: `{ledger_name}`  \n"
-                f"Route type: `{route_type}`\n\n{control}\n"
+                "Route type: `accepted-ledger-row`\n\n"
+                "### Chapter-specific accepted correction\n\n"
+                f"{row}\n\n"
+                "The complete controlling rules remain in the cited Owner-Accepted amendment. "
+                "This mechanical candidate records the exact accepted chapter route without "
+                "inventing paragraph-level replacement prose."
             )
         candidate = header + body + "".join(sections) + "\n"
         target = manuscript / f"{chapter}.md"
@@ -185,9 +159,7 @@ def build(output: Path) -> None:
             "RC1 chapters discovered: 40 / 40",
             "Candidate chapters generated: 40 / 40",
             "Accepted amendments registered: 4 / 4",
-            f"Routed control modules generated: {routed_count}",
-            f"Direct chapter modules: {module_count}",
-            f"Ledger-routed package controls: {ledger_route_count}",
+            f"Accepted ledger routes generated: {routed_count}",
             "Duplicate chapter identities: 0",
             "Missing chapter identities: 0",
             "Unattributed inserted controls: 0",
