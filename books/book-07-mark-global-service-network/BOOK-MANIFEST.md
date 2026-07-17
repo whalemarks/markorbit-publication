@@ -6,9 +6,9 @@
 Book ID: Book 07
 Title: Mark Global Service Network
 Canonical path: books/book-07-mark-global-service-network/
-Current gate: Controlled Product Baseline v0.1
+Current gate: Release Candidate 1 Owner Decision
 Status: Ready for Owner Acceptance on Merge
-Next gate: Chapter Map Candidate
+Next gate: RC1 Permanent Freeze
 ```
 
 ## Active Authority
@@ -17,45 +17,44 @@ Next gate: Chapter Map Candidate
 MARKORBIT-ORBITAL-ARCHITECTURE-CANON-vNEXT.1
 DECISION-REGISTER-vNEXT.1
 Reconciled Network and Product Charter v0.1
+Controlled Product Baseline v0.1
+B07-TOC-V0.1
 ```
 
-## Controlled Records
-
-### Accepted Planning and Charter
+## RC1 identity
 
 ```text
-B07-PLN-0001–0013
-B07-REV-0001–0003
-B07-VAL-0001–0003
+Reader-facing content baseline:
+7ab3ea3e01b42afda8b2f675e514b91df436e47d
+
+Owner Decision:
+B07-REL-0001
+
+Owner Decision Review:
+B07-REV-0017 — PASS
+
+Owner Decision Validation:
+B07-VAL-0017 — PASS
 ```
 
-### Controlled Product Baseline Candidate
+## Reader-facing inventory
 
 ```text
-B07-SPEC-0001 — MGSN Controlled Product Baseline Candidate
+B07-CH-00–B07-CH-33 — 34 manuscript chapters
+APP-A–APP-F — 6 Reader Apparatus appendices
+Missing chapters or appendices — 0
+```
+
+## Accepted Product baseline
+
+```text
+B07-SPEC-0001 — MGSN Controlled Product Baseline
 B07-SPEC-0002 — Product-Local Record Catalog
 B07-SPEC-0003 — Reference Journeys and Conformance Scenarios
 B07-SPEC-0004 — Handoff, Return and MVP Acceptance Baseline
-B07-REV-0004 — Controlled Product Baseline Review / PASS
-B07-VAL-0004 — Scope and Consistency Check / PASS
 ```
 
-### Governance and State
-
-```text
-README.md
-BOOK-STATUS.md
-BOOK-MANIFEST.md
-GOVERNANCE.md
-CHANGELOG.md
-book-07-state.yaml
-planning/README.md
-specifications/README.md
-reviews/README.md
-validation/README.md
-```
-
-## Controlled Coverage
+## Controlled coverage
 
 ```text
 MG-N01–N06 — 6
@@ -73,53 +72,49 @@ MG-HC-01–HC-10 — 10 Handoff / Return Contracts
 MG-AC-01–AC-16 — 16 MVP Acceptance Criteria
 ```
 
-## Baseline Identity
+## Publication validation
 
 ```text
-Originating Workplace business sovereignty
-+ authorized Capability Need projection
-+ MGSN Connection / Gateway
-+ platform-owned MGSN Network
-+ admitted multi-provider supply
-+ procurement and managed-service offer
-+ explainable routing and bounded choice
-+ user disposition
-+ provider allocation and acceptance
-+ funds and fulfillment checkpoints
-+ typed Return
-+ Trust, correction and network evolution
+B07-REV-0016 — PASS / ACCEPTED
+B07-VAL-0016 — PASS / ACCEPTED
+Blocking findings — 0
+Major findings — 0
+Minor findings — 0
+Controlled semantic drift — 0
+Implementation authorization leakage — 0
 ```
 
-## Review Result
+## Governance and state records
 
 ```text
-B07-REV-0004: PASS
-B07-VAL-0004: PASS
-Blocking findings: 0
-Major findings: 0
-Book 02 Change Proposal required now: NO
-Implementation authorization created: NO
+README.md
+BOOK-STATUS.md
+BOOK-MANIFEST.md
+GOVERNANCE.md
+CHANGELOG.md
+book-07-state.yaml
+planning/README.md
+specifications/README.md
+reviews/README.md
+validation/README.md
+appendices/README.md
+release/README.md
 ```
 
-## Owner Merge Effect
+## Owner merge effect
 
-Owner merge accepts `B07-SPEC-0001–0004` as the Book 07 Controlled Product Baseline v0.1 and authorizes preparation of a Chapter Map Candidate.
+Owner merge accepts `B07-REL-0001` and designates the exact reader-facing baseline as **Book 07 Release Candidate 1**.
 
-Owner merge does not accept or authorize:
+Owner merge authorizes a separate permanent RC1 freeze task. It does not approve final branded publication, public/commercial distribution or implementation.
 
-- Chapter Map acceptance;
-- manuscript drafting;
-- schema or APIs;
-- payment custody or funds release;
-- provider appointment implementation;
-- production deployment;
-- External Protected Action.
-
-## Integrity Locks
+## Integrity locks
 
 ```text
-Book 07 manuscript files: 0 expected
-Book 07 Chapter Map: 0 expected
-Database/API/runtime implementation files: prohibited
+CH00–CH33 changes in Owner Decision branch: prohibited
+APP-A–APP-F changes in Owner Decision branch: prohibited
+B07-SPEC-0001–0004 changes: prohibited
+Chapter Map changes: prohibited
+Canon or Charter changes: prohibited
+Database/API/payment/Trust runtime: prohibited
 Books 02–06 manuscript changes: prohibited
 ```
