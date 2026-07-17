@@ -1,0 +1,26 @@
+name: Book 04 vNext Candidate Review 03 Validation
+
+on:
+  pull_request:
+    paths:
+      - 'codex/tasks/PUB-TASK-B04-VNEXT-CANDIDATE-REVIEW-03.md'
+      - 'books/book-04-workplace-product-architecture/**'
+      - 'tools/build_book04_vnext_candidate_03.py'
+      - 'tools/validate_book04_vnext_candidate_review_03.py'
+      - '.github/workflows/book04-vnext-candidate-review-03-validation.yml'
+  workflow_dispatch:
+
+jobs:
+  validate-candidate-review-03:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out publication repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate Candidate 03 final review
+        run: python tools/validate_book04_vnext_candidate_review_03.py --base-sha "${{ github.event.pull_request.base.sha }}"
