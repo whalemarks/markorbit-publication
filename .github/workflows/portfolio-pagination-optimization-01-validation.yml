@@ -1,0 +1,51 @@
+name: Portfolio Pagination Optimization 01 Validation
+
+on:
+  pull_request:
+    paths:
+      - 'portfolio/render/**'
+      - 'portfolio/reviews/**'
+      - 'portfolio/decisions/**'
+      - 'codex/tasks/PUB-TASK-PORTFOLIO-PAGINATION-OPTIMIZATION-01.md'
+      - 'tools/render_portfolio_paginated_editions_01.py'
+      - 'tools/preflight_portfolio_paginated_editions_01.py'
+      - 'tools/validate_portfolio_pagination_optimization_01.py'
+      - '.github/workflows/portfolio-pagination-optimization-01-validation.yml'
+  workflow_dispatch:
+
+jobs:
+  optimize-and-preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz-subset0 fonts-dejavu-core fonts-liberation2
+          python -m pip install --upgrade pip
+          python -m pip install markdown weasyprint pymupdf pillow
+      - name: Validate controls
+        run: python tools/validate_portfolio_pagination_optimization_01.py --base-sha "${{ github.event.pull_request.base.sha }}"
+      - name: Build release candidates
+        run: python tools/build_portfolio_release_candidates_01.py
+      - name: Render optimized PDFs
+        run: python tools/render_portfolio_paginated_editions_01.py
+      - name: Preflight optimized PDFs with established engine
+        run: |
+          mv .artifacts/portfolio-pagination-optimization-01 .artifacts/portfolio-review-render-01
+          python tools/preflight_portfolio_review_editions_01.py
+          mv .artifacts/portfolio-review-render-01 .artifacts/portfolio-pagination-optimization-01
+      - name: Validate comparison
+        run: python tools/validate_portfolio_pagination_optimization_01.py --base-sha "${{ github.event.pull_request.base.sha }}" --outputs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: portfolio-pagination-optimization-01
+          path: .artifacts/portfolio-pagination-optimization-01/
+          retention-days: 90

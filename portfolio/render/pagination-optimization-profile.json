@@ -1,0 +1,27 @@
+{
+  "schema": "markorbit-pagination-optimization/v1",
+  "identifier": "PORTFOLIO-PAGINATION-OPT-01",
+  "page_size_inches": [6, 9],
+  "body": {"font_size_pt": 9.6, "line_height": 1.34},
+  "margins_inches": {"top": 0.62, "outside": 0.55, "bottom": 0.62, "inside": 0.65},
+  "page_break_policy": {
+    "cover": "after",
+    "front_matter_file": "after",
+    "manuscript_source_file": "before",
+    "h1_inside_source_file": "avoid_before"
+  },
+  "spacing_pt": {
+    "paragraph_after": 5.2,
+    "h1_after": 12,
+    "h2_before": 13,
+    "h2_after": 6,
+    "h3_before": 10,
+    "h3_after": 4,
+    "list_after": 6,
+    "table_after": 8
+  },
+  "figures": {"max_height_inches": 6.7, "keep_with_caption": true},
+  "semantic_changes": 0,
+  "frozen_source_mutation": false,
+  "publication_authorized": false
+}
