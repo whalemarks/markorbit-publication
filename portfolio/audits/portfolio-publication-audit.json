@@ -1,0 +1,26 @@
+{
+  "summary": {
+    "books_audited": 7,
+    "dimensions_assessed": 6,
+    "release_ready_books": 0,
+    "publication_authorization": "NOT GRANTED",
+    "dimension_summary": {
+      "front_matter": {"ready": 1, "partial": 6, "missing": 0},
+      "publication_apparatus": {"ready": 5, "partial": 2, "missing": 0},
+      "cross_book_consistency": {"ready": 7, "partial": 0, "missing": 0},
+      "visual_production": {"ready": 0, "partial": 3, "missing": 4},
+      "rendering_readiness": {"ready": 0, "partial": 5, "missing": 2},
+      "release_governance": {"ready": 0, "partial": 5, "missing": 2}
+    }
+  },
+  "books": [
+    {"book":"Book 01","front_matter":"PARTIAL","publication_apparatus":"READY","cross_book_consistency":"READY","visual_production":"MISSING","rendering_readiness":"MISSING","release_governance":"PARTIAL"},
+    {"book":"Book 02","front_matter":"PARTIAL","publication_apparatus":"PARTIAL","cross_book_consistency":"READY","visual_production":"PARTIAL","rendering_readiness":"PARTIAL","release_governance":"MISSING"},
+    {"book":"Book 03","front_matter":"PARTIAL","publication_apparatus":"READY","cross_book_consistency":"READY","visual_production":"MISSING","rendering_readiness":"PARTIAL","release_governance":"PARTIAL"},
+    {"book":"Book 04","front_matter":"PARTIAL","publication_apparatus":"READY","cross_book_consistency":"READY","visual_production":"PARTIAL","rendering_readiness":"PARTIAL","release_governance":"PARTIAL"},
+    {"book":"Book 05","front_matter":"READY","publication_apparatus":"READY","cross_book_consistency":"READY","visual_production":"MISSING","rendering_readiness":"PARTIAL","release_governance":"MISSING"},
+    {"book":"Book 06","front_matter":"PARTIAL","publication_apparatus":"READY","cross_book_consistency":"READY","visual_production":"PARTIAL","rendering_readiness":"PARTIAL","release_governance":"PARTIAL"},
+    {"book":"Book 07","front_matter":"PARTIAL","publication_apparatus":"PARTIAL","cross_book_consistency":"READY","visual_production":"MISSING","rendering_readiness":"MISSING","release_governance":"PARTIAL"}
+  ],
+  "next_task": "PUB-TASK-PORTFOLIO-FRONT-MATTER-01"
+}
