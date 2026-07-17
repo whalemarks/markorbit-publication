@@ -1,0 +1,50 @@
+name: Publication Release State Validation
+
+on:
+  pull_request:
+    paths:
+      - "README.md"
+      - "books/README.md"
+      - "PUBLICATION-MANIFEST.md"
+      - "PUBLICATION-ROADMAP.md"
+      - "books/book-01-operating-system/BOOK-STATUS.md"
+      - "books/book-02-core-specification/BOOK-STATUS.md"
+      - "books/book-03-execution-system/BOOK-STATUS.md"
+      - "books/book-04-workplace-product-architecture/**"
+      - "books/book-05-markreg/**"
+      - "books/book-06-markorbit-lite/**"
+      - "books/book-07-mark-global-service-network/**"
+      - "architecture/**"
+      - "tools/validate_publication_release_state.py"
+      - ".github/workflows/publication-release-state-validation.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publication-release-state-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-release-state:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out publication repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate publication release state
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          python tools/validate_publication_release_state.py \
+            --base-sha "$BASE_SHA"
