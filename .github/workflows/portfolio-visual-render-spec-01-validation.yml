@@ -1,0 +1,26 @@
+name: Portfolio Visual Render Spec 01 Validation
+
+on:
+  pull_request:
+    paths:
+      - 'portfolio/visual/**'
+      - 'portfolio/render/**'
+      - 'portfolio/decisions/PORTFOLIO-DEC-0005_Visual_and_Rendering_Specification.md'
+      - 'portfolio/reviews/PORTFOLIO-REV-0004_Visual_and_Rendering_Specification_Review.md'
+      - 'codex/tasks/PUB-TASK-PORTFOLIO-VISUAL-RENDER-SPEC-01.md'
+      - 'tools/validate_portfolio_visual_render_spec_01.py'
+      - '.github/workflows/portfolio-visual-render-spec-01-validation.yml'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate visual and rendering specification
+        run: python tools/validate_portfolio_visual_render_spec_01.py --base-sha "${{ github.event.pull_request.base.sha }}"
