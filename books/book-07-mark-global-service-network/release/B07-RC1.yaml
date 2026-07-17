@@ -1,0 +1,54 @@
+book_id: B07
+title: Mark Global Service Network
+release: RC1
+status: frozen_on_owner_merge
+
+identity:
+  reader_facing_content_baseline: 7ab3ea3e01b42afda8b2f675e514b91df436e47d
+  owner_decision_activation_commit: 2f59951ceacfde3ed379e6de5dad602a192f48e3
+  owner_decision_record: B07-REL-0001
+  freeze_record: B07-REL-0002
+  freeze_activation_commit: set_to_freeze_pr_merge_commit_after_owner_merge
+  release_branch: release/book-07-rc1
+
+inventory:
+  manuscript_chapters: 34
+  manuscript_range: B07-CH-00..B07-CH-33
+  reader_apparatus_appendices: 6
+  appendix_range: APP-A..APP-F
+  product_local_records: 56
+  reference_journeys: 8
+  conformance_scenarios: 32
+  handoff_return_contracts: 10
+  mvp_acceptance_criteria: 16
+
+validation:
+  final_publication_review: B07-REV-0016
+  final_publication_validation: B07-VAL-0016
+  owner_decision_review: B07-REV-0017
+  owner_decision_validation: B07-VAL-0017
+  blocking_findings: 0
+  major_findings: 0
+  minor_findings: 0
+  controlled_semantic_drift: 0
+  implementation_authorization_leakage: 0
+
+frozen_inputs:
+  manuscript: true
+  reader_apparatus: true
+  specifications: true
+  chapter_map: true
+  charter: true
+
+not_authorized:
+  final_branded_publication: true
+  public_commercial_distribution: true
+  database_schema: true
+  api_implementation: true
+  payment_custody: true
+  automatic_funds_release: true
+  automatic_provider_appointment: true
+  automated_adverse_trust_sanctions: true
+  production_routing_or_deployment: true
+  autonomous_professional_action: true
+  external_protected_action: true
