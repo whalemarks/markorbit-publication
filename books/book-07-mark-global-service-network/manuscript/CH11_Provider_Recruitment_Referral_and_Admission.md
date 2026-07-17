@@ -1,17 +1,17 @@
 # B07-CH-11 — Provider Recruitment, Referral and Admission
 
-## Network Growth Needs Controlled Entry
+## Network growth needs controlled entry
 
-MGSN can grow through several channels:
+MGSN can discover potential participants through:
 
 - platform recruitment;
-- demand participant introduction;
+- demand-participant introduction;
 - provider introduction of demand participants;
 - historical associate migration;
 - operator research;
 - provider self-application.
 
-These channels help discover potential participants. They do not determine admission.
+These channels expand discovery. They do not determine admission.
 
 ```text
 introduced
@@ -23,9 +23,9 @@ introduced
 
 Every Organization joins independently and accepts platform governance in its own right.
 
-## Platform Recruitment
+## Platform recruitment
 
-The platform may recruit providers to fill coverage gaps, improve resilience or add specialist capability. Recruitment should begin from an identified supply need rather than from indiscriminate directory building.
+The platform may recruit providers to fill coverage gaps, improve resilience or add specialist capability. Recruitment should begin from an identified supply need rather than indiscriminate directory building.
 
 Examples include:
 
@@ -38,7 +38,7 @@ Examples include:
 
 Recruitment creates a candidate pipeline, not immediate network supply.
 
-## Demand-Side Introduction
+## Demand-side introduction
 
 A demand participant may already work with a trusted foreign associate. MGSN should allow that provider to be introduced so the relationship can benefit from standardized intake, managed funds, milestone visibility, exception handling and governed Return.
 
@@ -47,23 +47,22 @@ The introduction may record:
 - introducing Organization;
 - invited Organization;
 - declared prior relationship;
-- relationship start or evidence date;
+- relationship start or Evidence date;
 - jurisdiction and service scope;
 - preferred-route status;
 - disclosure limitations;
 - attribution and incentive eligibility.
 
-The existing provider may become a Relationship-Preserved candidate after admission. It does not receive automatic qualification or permanent exclusivity.
+After admission, the existing provider may become a Relationship-Preserved candidate. It does not receive automatic qualification or permanent exclusivity.
 
-## Provider-Side Introduction
+## Provider-side introduction
 
 A provider may invite an existing customer, agency or professional user into MGSN. The invited Organization can then use a Workplace or Lite experience and may access other admitted MGSN capabilities subject to its own verification, permissions and commercial terms.
 
-The introducing provider does not own the invited participant’s future demand across the network.
+The introducing provider does not own the invited participant's future demand across the network.
 
 ```text
-attribution
-≠ customer ownership
+attribution ≠ customer ownership
 ```
 
 ## Relationship Provenance
@@ -79,14 +78,14 @@ Provenance can support:
 - anti-poaching review;
 - migration from external to managed routes.
 
-It cannot substitute for capability, conflict, availability, qualification or performance review.
+It cannot substitute for Capability, conflict, availability, qualification or performance review.
 
-## Admission Gates
+## Admission gates
 
 A provider admission process may include:
 
 1. Organization identity verification;
-2. network terms acceptance;
+2. network-terms acceptance;
 3. Provider Network Profile review;
 4. Capability Claim submission;
 5. Evidence and Verification;
@@ -96,13 +95,11 @@ A provider admission process may include:
 9. availability and operational test;
 10. final activation decision.
 
-Some providers may be admitted provisionally for a narrow relationship-specific route while broader network eligibility remains pending. This must be explicit and controlled.
+A provider may be admitted provisionally for a narrow relationship-specific route while broader eligibility remains pending. The limitation must be explicit and controlled.
 
 ## Incentives
 
 MGSN should reward useful network activation, not raw invitation volume.
-
-A staged model may recognize:
 
 ```text
 invited
@@ -113,17 +110,15 @@ invited
 → retained activity
 ```
 
-Initial incentives may use platform credits, service-fee reductions or one-time settlement benefits rather than permanent commissions.
+Initial incentives may use platform credits, service-fee reductions or one-time settlement benefits rather than permanent commissions. Poor-quality or misleading introductions should not generate rewards and may trigger review.
 
-Poor-quality or misleading introductions should not generate rewards and may trigger review.
+## Protection without monopoly
 
-## Protection Without Monopoly
+Participants need confidence that bringing an existing relationship into MGSN will not erase its history. MGSN can preserve attribution, show “your existing provider,” and apply a bounded protection period.
 
-Participants need confidence that bringing an existing relationship into MGSN will not erase their history. MGSN can preserve attribution, show “your existing provider,” and apply a bounded protection period.
+The platform must still recommend alternatives when the original route is unavailable, conflicted, unqualified, excessively risky, materially overpriced, suspended or unsuitable for the customer's need.
 
-But the platform must still recommend alternatives when the original route is unavailable, conflicted, unqualified, excessively risky, materially overpriced, suspended or unsuitable for the customer’s need.
-
-## No Uncontrolled Network Edge
+## No uncontrolled network edge
 
 An invitation does not create an unrestricted participant-to-participant network connection.
 
@@ -135,16 +130,18 @@ Participant A
 
 Managed transactions remain hub-controlled. Direct professional communication may occur where necessary, but provider-pool export, uncontrolled routing and bypass of managed transaction controls are not implied.
 
-## Product Rule
+## Part II conclusion
 
-Recruitment and referral expand discovery. Admission creates governed participation.
+Part II has established the full supply-formation chain:
 
 ```text
-Discovery channel
-+ independent admission
-+ bounded provenance
-+ service-specific qualification
-= controlled network growth
+Organization
+→ Provider Network Profile
+→ Capability Claim
+→ Evidence and Verification
+→ Qualification and Availability
+→ Supply Portfolio Entry
+→ admitted Service Package
 ```
 
-With supply formation established, the next Part turns to aggregated demand, procurement and the construction of customer-facing service offers.
+Part III now asks how that qualified supply becomes commercially usable: how aggregated demand strengthens procurement, how cost layers remain distinguishable, how offers stay valid, and how routing integrity survives commercial incentives.

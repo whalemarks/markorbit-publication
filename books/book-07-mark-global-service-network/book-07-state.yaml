@@ -1,8 +1,8 @@
 book_id: B07
 title: Mark Global Service Network
-status: whole_book_draft_complete_editorial_hardening_required
-current_gate: whole_book_review_owner_acceptance
-next_gate: editorial_hardening_wave_a
+status: editorial_hardening_wave_a_ready_for_owner_acceptance
+current_gate: editorial_hardening_wave_a_owner_acceptance
+next_gate: editorial_hardening_wave_b
 
 active_architecture:
   canon: MARKORBIT-ORBITAL-ARCHITECTURE-CANON-vNEXT.1
@@ -48,8 +48,19 @@ whole_book_review:
 
 editorial_hardening:
   plan: B07-PLN-0016
-  wave_a: B07-CH-00..B07-CH-16
-  wave_b: B07-CH-17..B07-CH-33
+  wave_a:
+    scope: B07-CH-00..B07-CH-16
+    edit_log: B07-PLN-0018
+    review: B07-REV-0014
+    validation: B07-VAL-0014
+    chapters_reviewed: 17
+    chapters_edited: 6
+    chapters_no_direct_edit: 11
+    decision: pass
+    ready_for_owner_acceptance: true
+  wave_b:
+    scope: B07-CH-17..B07-CH-33
+    authorized_on_merge: true
   required: true
 
 reader_apparatus:
