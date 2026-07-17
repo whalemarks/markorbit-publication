@@ -42,9 +42,16 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Validate publication metadata
-        run: |
-          python tools/validate_publication_release_state.py --only metadata
+      - name: Validate repository metadata
+        run: python tools/validate_publication_release_state.py --only root
+
+      - name: Validate Book 07 document metadata
+        if: always()
+        run: python tools/validate_publication_release_state.py --only book07-docs
+
+      - name: Validate Book 07 machine metadata
+        if: always()
+        run: python tools/validate_publication_release_state.py --only book07-machine
 
       - name: Validate frozen source boundary
         if: always()
@@ -57,5 +64,4 @@ jobs:
 
       - name: Validate immutable release pointers
         if: always()
-        run: |
-          python tools/validate_publication_release_state.py --only refs
+        run: python tools/validate_publication_release_state.py --only refs
