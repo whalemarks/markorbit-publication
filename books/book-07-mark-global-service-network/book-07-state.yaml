@@ -1,8 +1,8 @@
 book_id: B07
 title: Mark Global Service Network
-status: editorial_hardening_wave_b_ready_for_owner_acceptance
-current_gate: editorial_hardening_wave_b_owner_acceptance
-next_gate: reader_apparatus_and_final_publication_validation
+status: reader_apparatus_and_final_validation_ready_for_owner_acceptance
+current_gate: reader_apparatus_and_final_validation_owner_acceptance
+next_gate: release_candidate_owner_decision
 
 active_architecture:
   canon: MARKORBIT-ORBITAL-ARCHITECTURE-CANON-vNEXT.1
@@ -24,8 +24,8 @@ manuscript:
   chapter_count_expected: 34
   chapter_count_present: 34
   missing_chapters: 0
-  writing_waves_completed: 7
   whole_book_draft_complete: true
+  editorial_hardening_complete: true
   release_candidate: false
 
 controlled_coverage:
@@ -34,49 +34,50 @@ controlled_coverage:
   conformance_scenarios: 32
   handoff_return_contracts: 10
   mvp_acceptance_criteria: 16
-  unmapped_controlled_families: 0
-
-whole_book_review:
-  review: B07-REV-0013
-  validation: B07-VAL-0013
-  decision: pass_with_editorial_hardening_required
-  blocking_findings: 0
-  major_findings: 0
-  upstream_change_proposal_required: false
-  book_02_semantic_change_proposal_required: false
+  missing_controlled_ids: 0
+  duplicate_controlled_ids: 0
 
 editorial_hardening:
   plan: B07-PLN-0016
-  required: true
   wave_a:
-    scope: B07-CH-00..B07-CH-16
-    edit_log: B07-PLN-0018
     review: B07-REV-0014
     validation: B07-VAL-0014
-    chapters_reviewed: 17
-    chapters_edited: 6
-    chapters_no_direct_edit: 11
     decision: pass
     accepted: true
   wave_b:
-    scope: B07-CH-17..B07-CH-33
-    edit_log: B07-PLN-0019
     review: B07-REV-0015
     validation: B07-VAL-0015
-    chapters_reviewed: 17
-    chapters_edited: 4
-    chapters_no_direct_edit: 13
     decision: pass
-    ready_for_owner_acceptance: true
+    accepted: true
+  complete: true
 
 reader_apparatus:
   plan: B07-PLN-0017
-  authorized_on_wave_b_merge: true
-  glossary_required: true
-  product_record_index_required: true
-  journey_scenario_index_required: true
-  handoff_acceptance_index_required: true
-  implementation_boundary_notice_required: true
+  appendices:
+    - APP-A
+    - APP-B
+    - APP-C
+    - APP-D
+    - APP-E
+    - APP-F
+  glossary_complete: true
+  product_record_index_complete: true
+  journey_index_complete: true
+  scenario_index_complete: true
+  handoff_acceptance_index_complete: true
+  implementation_boundary_notice_complete: true
+  ready_for_owner_acceptance: true
+
+final_publication_review:
+  review: B07-REV-0016
+  validation: B07-VAL-0016
+  decision: pass
+  blocking_findings: 0
+  major_findings: 0
+  minor_findings: 0
+  controlled_semantic_drift: 0
+  implementation_authorization_leakage: 0
+  release_candidate_decision_authorized_on_merge: true
 
 not_authorized:
   database_schema: true
@@ -90,4 +91,4 @@ not_authorized:
 
 integrity:
   implementation_files_allowed: false
-  release_candidate_requires_final_validation: true
+  release_candidate_requires_explicit_owner_decision: true
