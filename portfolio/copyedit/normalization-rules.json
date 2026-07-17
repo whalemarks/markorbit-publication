@@ -1,0 +1,42 @@
+{
+  "schema": "markorbit-publication-copyedit-rules/v1",
+  "series": {
+    "number_format": "Book %02d",
+    "range_format": "Books 01–07"
+  },
+  "canonical_titles": {
+    "Book 01": "MarkOrbit — The Operating System for Global Brand Services",
+    "Book 02": "MarkOrbit Core Specification",
+    "Book 03": "MarkOrbit Execution System",
+    "Book 04": "MarkOrbit Workplace and Product Architecture",
+    "Book 05": "MarkReg",
+    "Book 06": "MarkOrbit Lite",
+    "Book 07": "Mark Global Service Network"
+  },
+  "safe_replacements": [
+    {"from": "Book 1", "to": "Book 01"},
+    {"from": "Book 2", "to": "Book 02"},
+    {"from": "Book 3", "to": "Book 03"},
+    {"from": "Book 4", "to": "Book 04"},
+    {"from": "Book 5", "to": "Book 05"},
+    {"from": "Book 6", "to": "Book 06"},
+    {"from": "Book 7", "to": "Book 07"},
+    {"from": "Books 01-07", "to": "Books 01–07"},
+    {"from": "MarkOrbit Workplace & Product Architecture", "to": "MarkOrbit Workplace and Product Architecture"},
+    {"from": "Mark Global Services Network", "to": "Mark Global Service Network"}
+  ],
+  "protected_terms": [
+    "Organization",
+    "Workplace",
+    "Product",
+    "Product Installation",
+    "Product Projection",
+    "Owning Service",
+    "Human Review",
+    "External Protected Action",
+    "Artifact",
+    "Delivery",
+    "Publish"
+  ],
+  "semantic_change_policy": "CHANGE PROPOSAL REQUIRED"
+}
