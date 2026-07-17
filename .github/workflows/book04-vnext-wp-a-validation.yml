@@ -1,0 +1,48 @@
+name: Book 04 vNext WP-A Validation
+
+on:
+  pull_request:
+    paths:
+      - "architecture/planning/MO-ARCH-PLN-001_Book_04_Workplace_Sovereignty_Next_Version_Correction_Plan.md"
+      - "books/book-04-workplace-product-architecture/**"
+      - "codex/tasks/PUB-TASK-B04-VNEXT-WP-A.md"
+      - "tools/validate_book04_vnext_wp_a.py"
+      - ".github/workflows/book04-vnext-wp-a-validation.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: book04-vnext-wp-a-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-wp-a:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out publication repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate required records and terminology
+        run: python tools/validate_book04_vnext_wp_a.py --only terms
+
+      - name: Validate chapter and finding coverage
+        run: python tools/validate_book04_vnext_wp_a.py --only coverage
+
+      - name: Validate protected source boundary
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          python tools/validate_book04_vnext_wp_a.py \
+            --only diff \
+            --base-sha "$BASE_SHA"

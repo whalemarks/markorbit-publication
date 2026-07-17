@@ -20,9 +20,10 @@ Book 02 semantic changes require an accepted Change Proposal. Implementation dif
 ### Orbital Architecture and Books 01–04
 
 ```text
-Orbital Architecture Canon vNext — SUPERSEDED AS ACTIVE AUTHORITY
+Orbital Architecture Canon vNext — HISTORICAL
 Orbital Architecture Canon vNext.1 — ACTIVE
 Books 01–04 Portfolio Baseline — ACCEPTED
+Repository release-state reconciliation — COMPLETE
 ```
 
 The accepted Portfolio Baseline records:
@@ -39,7 +40,6 @@ The Workplace Sovereignty clarification is active at architecture level. It does
 ### Book 05 — MarkReg
 
 ```text
-Product foundation and Chapter Map — COMPLETE
 CH00–CH47 manuscript — COMPLETE
 Product Specifications B05-SPEC-0001–0004 — ACCEPTED
 Publication finishing PF-01–PF-09 — COMPLETE
@@ -50,12 +50,9 @@ Release pointer — release/book-05-rc1
 ### Book 06 — MarkOrbit Lite
 
 ```text
-Product Charter v0.3 — ACCEPTED
-Product Baseline v0.1 — ACCEPTED
+Product Charter and Product Baseline — ACCEPTED
 Chapter Map B06-TOC-V0.1 — ACCEPTED
-Writing Waves 1–7 — COMPLETE
-CH00–CH33 — COMPLETE
-Reader Apparatus B06-APP-0001–0007 — COMPLETE
+CH00–CH33 and Reader Apparatus — COMPLETE
 RC validation — PASS
 Release Candidate 1 — APPROVED AND FROZEN
 Freeze activation — 4fce03cb7380117417b1ad479c743ef31a65b6c6
@@ -65,61 +62,72 @@ Release pointer — release/book-06-rc1
 ### Book 07 — Mark Global Service Network
 
 ```text
-Pre-Writing Audit — ACCEPTED
-Reconciled Network and Product Charter — ACCEPTED
-Controlled Product Baseline v0.1 — ACCEPTED
+Reconciled Charter and Controlled Product Baseline — ACCEPTED
 Chapter Map B07-TOC-V0.1 — ACCEPTED
-Writing Waves 1–7 — COMPLETE
-CH00–CH33 — COMPLETE
-Reader Apparatus APP-A–APP-F — COMPLETE
+CH00–CH33 and Reader Apparatus — COMPLETE
 Final Publication Validation — PASS
 Release Candidate 1 — APPROVED AND FROZEN
 Freeze activation — 3d3469a5845c352a2d73f698ffc085d5abb3aa85
 Release pointer — release/book-07-rc1
 ```
 
-## Current Planned Publication Sequence
+## Current Book Registry
 
 | Book | Title | Canonical path | Status |
 | --- | --- | --- | --- |
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | `books/book-01-operating-system/` | Release Candidate 1 — Portfolio Baseline Accepted |
 | Book 02 | MarkOrbit Core Specification | `books/book-02-core-specification/` | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | `books/book-03-execution-system/` | Release Candidate 1 — Portfolio Baseline Accepted |
-| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | Release Candidate 1 — Historical / vNext Correction Planned |
+| Book 04 | MarkOrbit Workplace and Product Architecture | `books/book-04-workplace-product-architecture/` | RC1 Historical / Workplace Sovereignty vNext WP-A Active |
 | Book 05 | MarkReg: The Full-Lifecycle International Trademark Product | `books/book-05-markreg/` | Release Candidate 1 — Approved and Frozen |
 | Book 06 | MarkOrbit Lite | `books/book-06-markorbit-lite/` | Release Candidate 1 — Approved and Frozen |
 | Book 07 | Mark Global Service Network | `books/book-07-mark-global-service-network/` | Release Candidate 1 — Approved and Frozen |
 
-## Current Governance Task
+## Current Controlled Publication Task
 
 ```text
-PUB-TASK-REPO-RELEASE-STATE-RECONCILIATION
+PUB-TASK-B04-VNEXT-WP-A
+Book 04 Workplace Sovereignty vNext
+WP-A — Canon and Terminology Reconciliation
 ```
 
-Scope:
-
-1. establish Book 06 and Book 07 release pointers from exact freeze commits;
-2. reconcile repository and book-level status metadata;
-3. remove Book 07 conditional and placeholder freeze state;
-4. add automated release-state and protected-source validation;
-5. preserve all frozen reader-facing inputs unchanged.
-
-## Next Controlled Publication Gate
+Outputs:
 
 ```text
-MO-ARCH-PLN-001
-Book 04 Workplace Sovereignty Next-Version Correction
+B04-PLN-0008 — WP-A execution and terminology plan
+B04-IMPACT-0001 — CH00–CH39 impact register
+B04-REV-0006 — WP-A Review / PASS
 ```
 
-Required work packages:
+Result on Owner merge:
+
+```text
+12 / 12 required Canon corrections mapped
+40 / 40 chapters classified
+27 direct-impact chapters
+13 supporting-impact chapters
+0 unmapped chapters
+0 RC1 manuscript changes
+No immediate Book 02 Change Proposal
+```
+
+## Next Controlled Gate
+
+```text
+WP-B — Workplace Authority and Data-Boundary Correction
+```
+
+WP-B will address the Workplace definition, five authority dimensions, concrete business-record context, platform administration versus Partner access, private Knowledge and AI scope inheritance. It must be created as a separate controlled task after WP-A Owner merge.
+
+## Remaining Book 04 Sequence
 
 ```text
 WP-A — Canon and terminology reconciliation
-WP-B — Workplace authority and data-boundary correction
-WP-C — Product Installation and projection model
-WP-D — MarkReg / Lite / Sites / MGSN interface correction
-WP-E — cross-Workplace collaboration and portability
-WP-F — full-book impact review and next-version decision
+→ WP-B — Workplace authority and data-boundary correction
+→ WP-C — Product Installation and projection model
+→ WP-D — MarkReg / Lite / Sites / MGSN interface correction
+→ WP-E — cross-Workplace collaboration and portability
+→ WP-F — full-book impact review and next-version decision
 ```
 
 Book 04 RC1 remains immutable. The correction must produce a controlled next-version edition or a new candidate baseline explicitly superseding affected RC1 interpretations.
