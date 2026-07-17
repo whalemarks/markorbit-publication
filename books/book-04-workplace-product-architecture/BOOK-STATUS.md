@@ -27,11 +27,12 @@ WP-C assigned chapters covered: 9 / 9
 WP-C amendment manuscript: READY FOR OWNER ACCEPTANCE
 WP-D assigned chapters covered: 6 / 6
 WP-E assigned chapters covered: 8 / 8
+WP-E amendment manuscript: READY FOR OWNER ACCEPTANCE
 RC1 source modifications: 0
 Immediate Book 02 Change Proposal required: NO
 ```
 
-The WP-C candidate-gate sentence remains solely as a regression compatibility assertion. WP-C, WP-D and WP-E are Owner Accepted through merged PRs #103, #104 and #105.
+The WP-C and WP-E candidate-gate sentences remain solely as regression compatibility assertions. WP-C, WP-D and WP-E are Owner Accepted through merged PRs #103, #104 and #105.
 
 ## WP-F Package
 
