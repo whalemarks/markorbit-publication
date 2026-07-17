@@ -51,17 +51,19 @@ def validate_generated()->None:
   ch23=(out/"manuscript/CH23.md").read_text(encoding="utf-8")
   ch37=(out/"manuscript/CH37.md").read_text(encoding="utf-8")
   if "Lite as a Lightweight Workplace Product" not in ch01: raise ValidationError("CH01 title not synchronized")
-  if "Lite is a lightweight Workplace Product" not in ch01: raise ValidationError("CH01 description not synchronized")
+  if "Lite as a lightweight Workplace Product for" not in ch01: raise ValidationError("CH01 description not synchronized")
   if "Lite operate as a lightweight Workplace Product" not in ch22: raise ValidationError("CH22 transition not synchronized")
   if "Product Installation as Governed Workplace Participation" not in ch20: raise ValidationError("CH20 Product Installation placement regressed")
   if "Lite as a Lightweight Workplace Product" not in ch23: raise ValidationError("CH23 heading regressed")
   if "Portability, Exit and Revocation Across Orbits" not in ch37: raise ValidationError("CH37 portability structure regressed")
+  forbidden=("Lite as a Lightweight Workplace","Lite as a lightweight Workplace for","Lite operate as a lightweight Workplace for")
   for path in chapters:
    text=path.read_text(encoding="utf-8")
    if "candidate: B04-vNEXT-CANDIDATE-04" not in text: raise ValidationError(f"{path.name} missing Candidate 04 provenance")
    for line in text.splitlines():
-    if "Lite as a Lightweight Workplace" in line and "Workplace Product" not in line:
-     raise ValidationError(f"superseded Lite wording remains in {path.name}: {line}")
+    for phrase in forbidden:
+     if phrase in line and "Workplace Product" not in line:
+      raise ValidationError(f"superseded Lite wording remains in {path.name}: {line}")
   report=(out/"BUILD-REPORT.md").read_text(encoding="utf-8")
   for statement in EXPECTED:
    if statement not in report: raise ValidationError(f"build report missing: {statement}")
