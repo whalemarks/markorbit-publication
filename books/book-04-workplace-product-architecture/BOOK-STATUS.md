@@ -5,16 +5,13 @@
 - **Historical baseline:** Release Candidate 1 — Owner Accepted / Portfolio Locked
 - **RC1 manuscript:** CH00–CH39, immutable
 - **Chapter map:** B04-TOC-V0.1 — unchanged
-- **WP-A:** Owner Accepted
-- **WP-B:** Owner Accepted
-- **WP-C:** Owner Accepted
-- **WP-D:** Owner Accepted
-- **WP-E:** Owner Accepted
-- **Current work package:** WP-F — Full-Book Impact Review and Next-Version Decision
-- **Current audit:** B04-AUD-0001
-- **Current decision:** B04-DEC-0001 — GO
-- **Current review:** B04-REV-0011 — PASS / Ready for Owner Acceptance
-- **Next gate:** PUB-TASK-B04-VNEXT-INTEGRATION-01
+- **WP-A–WP-F:** Owner Accepted / correction programme closed
+- **Current task:** PUB-TASK-B04-VNEXT-INTEGRATION-01
+- **Current plan:** B04-PLN-0014
+- **Current build specification:** B04-INT-0002
+- **Current provenance ledger:** B04-PROV-0001
+- **Current review:** B04-REV-0012 — PASS / Ready for Owner Acceptance
+- **Next gate:** deterministic candidate generation and INTEGRATION-02 editorial integration
 
 ## Historical compatibility
 
@@ -32,61 +29,63 @@ RC1 source modifications: 0
 Immediate Book 02 Change Proposal required: NO
 ```
 
-The WP-C and WP-E candidate-gate sentences remain solely as regression compatibility assertions. WP-C, WP-D and WP-E are Owner Accepted through merged PRs #103, #104 and #105.
+The WP-C and WP-E candidate-gate sentences remain solely as regression compatibility assertions. WP-C–WP-E and WP-F are Owner Accepted through merged PRs #103–#106.
 
-## WP-F Package
+## Integration 01 Package
 
 ```text
-PUB-TASK-B04-VNEXT-WP-F
-B04-PLN-0013 — Full-Book Impact Review and Next-Version Decision
-B04-AUD-0001 — Full-Book vNext Impact Audit
-B04-DEC-0001 — Next-Version Integration Decision / GO
-B04-INT-0001 — Integrated Candidate Baseline Manifest
-B04-REV-0011 — WP-F Review / PASS
+PUB-TASK-B04-VNEXT-INTEGRATION-01
+B04-PLN-0014 — Integrated Candidate Baseline Preparation
+B04-INT-0002 — Deterministic Candidate Build Specification
+B04-PROV-0001 — CH00–CH39 Provenance Ledger
+tools/build_book04_vnext_candidate.py
+B04-REV-0012 — Integration Preparation Review / PASS
 ```
 
-## WP-F Result
+## Integration 01 Result
 
 ```text
-Chapters accounted for: 40 / 40
-Correction classes accounted for: 12 / 12
-Accepted amendment packages: 4 / 4
+Chapter source entries: 40 / 40
+Historical source coverage: 40 / 40
+Accepted amendment packages represented: 4 / 4
+Deterministic build rule: PASS
+Unattributed correction route: 0
 Blocking findings: 0
-Unmapped chapters: 0
 RC1 source modification: 0
-Immediate Book 02 Change Proposal required: NO
-Integrated candidate preparation decision: GO
+Candidate generation readiness: PASS
 ```
+
+## Candidate Generation Model
+
+```text
+immutable RC1 chapter
++ chapter-routed Owner-Accepted amendment controls
++ machine-readable provenance
+= B04-vNEXT-CANDIDATE-01 generated review chapter
+```
+
+The first generated candidate preserves RC1 chapter prose and attaches accepted correction modules at controlled chapter boundaries. INTEGRATION-02 will perform paragraph-level editorial weaving while preserving the same provenance and supersession controls.
 
 ## Sequence
 
 ```text
-WP-A — ACCEPTED
-→ WP-B — ACCEPTED
-→ WP-C — ACCEPTED
-→ WP-D — ACCEPTED
-→ WP-E — ACCEPTED
-→ WP-F — CANDIDATE / GO RECOMMENDATION
+WP-A–WP-F — ACCEPTED / CLOSED
+→ INTEGRATION-01 — CANDIDATE PREPARATION
+→ deterministic B04-vNEXT-CANDIDATE-01 generation
+→ INTEGRATION-02 — paragraph-level editorial integration
+→ full candidate semantic review
+→ Owner acceptance decision
+→ optional freeze and publication preparation
 ```
-
-## Gate Effect
-
-Owner merge of WP-F:
-
-1. accepts the full-book impact audit;
-2. accepts the GO decision for integrated candidate preparation;
-3. closes MO-ARCH-PLN-001 work packages WP-A–WP-F;
-4. authorizes `PUB-TASK-B04-VNEXT-INTEGRATION-01`;
-5. preserves RC1 and all amendment provenance.
 
 ## Authorization
 
 ```text
 Book 04 RC1 historical baseline: ACCEPTED AND IMMUTABLE
 WP-B–WP-E amendment manuscripts: ACCEPTED
-WP-F audit and GO decision: READY FOR OWNER ACCEPTANCE
-Integrated vNext candidate: NOT YET CREATED
-Integrated candidate preparation after WP-F merge: AUTHORIZED
+WP-F audit and GO decision: ACCEPTED
+Integration preparation mechanism: READY FOR OWNER ACCEPTANCE
+Generated vNext candidate: NOT YET OWNER ACCEPTED
 Book 04 vNext owner acceptance: NOT YET GRANTED
 Freeze, publication and distribution: NOT AUTHORIZED
 Implementation or deployment: NOT AUTHORIZED
