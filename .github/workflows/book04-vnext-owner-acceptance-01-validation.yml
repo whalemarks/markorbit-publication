@@ -1,0 +1,26 @@
+name: Book 04 vNext Owner Acceptance 01 Validation
+
+on:
+  pull_request:
+    paths:
+      - 'codex/tasks/PUB-TASK-B04-VNEXT-OWNER-ACCEPTANCE-01.md'
+      - 'books/book-04-workplace-product-architecture/**'
+      - 'tools/build_book04_vnext_candidate_04.py'
+      - 'tools/validate_book04_vnext_owner_acceptance_01.py'
+      - '.github/workflows/book04-vnext-owner-acceptance-01-validation.yml'
+      - 'PUBLICATION-ROADMAP.md'
+
+jobs:
+  validate-owner-acceptance:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out publication repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate final Owner Acceptance
+        run: python tools/validate_book04_vnext_owner_acceptance_01.py --base-sha "${{ github.event.pull_request.base.sha }}"
