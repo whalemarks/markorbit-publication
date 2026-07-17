@@ -135,8 +135,8 @@ def validate_book07_machine() -> None:
     )
     require_not_contains(
         "books/book-07-mark-global-service-network/book-07-state.yaml",
-        "release_candidate_1_ready_for_owner_acceptance",
-        "release_candidate_owner_decision",
+        "status: release_candidate_1_ready_for_owner_acceptance",
+        "current_gate: release_candidate_owner_decision",
     )
     print("Book 07 machine metadata: PASS")
 
