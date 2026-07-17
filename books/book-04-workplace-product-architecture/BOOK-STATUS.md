@@ -8,13 +8,12 @@
 - **Candidate 01:** diagnostic build milestone / final prose rejected
 - **Candidate 02:** route-aware build milestone / final prose rejected
 - **Candidate 03:** editorial consolidation milestone / final prose rejected
-- **Candidate 04 generation:** Owner Accepted through merged PR #117
-- **Current task:** PUB-TASK-B04-VNEXT-OWNER-ACCEPTANCE-01
-- **Current plan:** B04-PLN-0025
-- **Current decision:** B04-DEC-0005 — ACCEPT
-- **Current review:** B04-REV-0023 — Owner Acceptance readiness PASS
-- **Current baseline:** B04-vNEXT-CANDIDATE-04 — Accepted editorial baseline
-- **Next gate:** optional publication preparation and freeze decision
+- **Candidate 04:** Owner Accepted editorial baseline
+- **Current task:** PUB-TASK-B04-VNEXT-PUBLICATION-PREP-01
+- **Current plan:** B04-PLN-0026
+- **Current review:** B04-REV-0024 — Accepted manuscript materialization review
+- **Current baseline:** `accepted-vnext/` — repository-controlled Candidate 04 materialization
+- **Next gate:** explicit Book 04 vNext freeze decision
 
 ## Historical compatibility
 
@@ -63,6 +62,19 @@ Owner Acceptance readiness: YES
 Final decision: ACCEPT
 ```
 
+## Publication Preparation Required Result
+
+```text
+Accepted chapters materialized: 40 / 40
+Candidate 04 byte-equivalence: PASS
+Materialization manifest coverage: PASS
+Reader-text leakage findings: 0
+Architecture authority regression: 0
+RC1 source modifications: 0
+Publication freeze readiness: YES
+Freeze authorization: NOT YET GRANTED
+```
+
 ## Sequence
 
 ```text
@@ -76,7 +88,9 @@ WP-A–WP-F — ACCEPTED / CLOSED
 → CANDIDATE-REVIEW-03 — REVISE
 → CANDIDATE-04 — FINAL CONSISTENCY-CORRECTED ACCEPTANCE CANDIDATE
 → OWNER ACCEPTANCE — ACCEPT
-→ optional publication preparation and freeze decision
+→ ACCEPTED MANUSCRIPT MATERIALIZATION
+→ explicit freeze decision
+→ optional publication and distribution decision
 ```
 
 ## Authorization
@@ -95,6 +109,7 @@ Candidate 03 as final vNext prose: REJECTED
 Candidate 04 generation mechanism: ACCEPTED
 Candidate 04 as final vNext prose: ACCEPTED
 Book 04 vNext owner acceptance: GRANTED
+Accepted manuscript materialization: READY FOR OWNER ACCEPTANCE
 Freeze, publication and distribution: NOT AUTHORIZED
 Implementation or deployment: NOT AUTHORIZED
 External Protected Action: NOT AUTHORIZED
