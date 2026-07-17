@@ -1,0 +1,44 @@
+name: Portfolio Publication Audit 01 Validation
+
+on:
+  pull_request:
+    paths:
+      - 'codex/tasks/PUB-TASK-PORTFOLIO-PUBLICATION-AUDIT-01.md'
+      - 'portfolio/**'
+      - 'tools/audit_seven_book_publication_readiness.py'
+      - 'tools/validate_seven_book_publication_audit.py'
+      - '.github/workflows/portfolio-publication-audit-01-validation.yml'
+      - 'books/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit-and-validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out publication repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate seven-book audit
+        run: python tools/audit_seven_book_publication_readiness.py --output build/portfolio-publication-audit-01
+
+      - name: Validate audit and protected boundaries
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: python tools/validate_seven_book_publication_audit.py --base-sha "$BASE_SHA"
+
+      - name: Upload audit outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-publication-audit-01
+          path: build/portfolio-publication-audit-01/
+          retention-days: 90
