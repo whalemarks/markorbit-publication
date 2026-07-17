@@ -1,0 +1,48 @@
+{
+  "schema": "markorbit-publication-overlay/v1",
+  "identifier": "PORTFOLIO-OVERLAY-0001",
+  "source_audit": "PORTFOLIO-AUD-0002",
+  "operations": [
+    {
+      "book": "Book 01",
+      "file": "books/book-01-operating-system/manuscript/13_Appendix_C.md",
+      "operation": "replace_literal",
+      "from": "Book 1",
+      "to": "Book 01",
+      "classification": "SAFE_NORMALIZATION"
+    },
+    {
+      "book": "Book 04",
+      "file": "books/book-04-workplace-product-architecture/accepted-vnext/manuscript/CH01.md",
+      "operation": "replace_prefix",
+      "from": "../publication/",
+      "to": "../../publication/",
+      "expected_occurrences": 7,
+      "classification": "SAFE_LINK_CORRECTION"
+    },
+    {
+      "book": "Book 04",
+      "files": [
+        "CH03.md",
+        "CH04.md",
+        "CH13.md",
+        "CH18.md",
+        "CH27.md",
+        "CH30.md",
+        "CH32.md",
+        "CH33.md",
+        "CH34.md",
+        "CH36.md"
+      ],
+      "base": "books/book-04-workplace-product-architecture/accepted-vnext/manuscript/",
+      "operation": "replace_prefix",
+      "from": "../figures/",
+      "to": "../../figures/",
+      "expected_occurrences": 10,
+      "classification": "SAFE_LINK_CORRECTION"
+    }
+  ],
+  "total_expected_corrections": 18,
+  "semantic_changes": 0,
+  "frozen_source_mutation": false
+}
