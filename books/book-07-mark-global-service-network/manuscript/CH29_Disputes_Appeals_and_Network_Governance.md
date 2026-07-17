@@ -1,137 +1,123 @@
 # B07-CH-29 — Disputes, Appeals and Network Governance
 
-## 1. Governance is part of the product
+## Governance is part of the Product
 
-A managed network needs rules for adverse decisions, conflicts and disagreement. Without a governed process, platform control becomes arbitrary and participant Trust collapses.
+A managed network needs explicit rules for disagreement and adverse decisions. Without a governed process, platform control becomes arbitrary and participant Trust collapses.
 
-MGSN therefore treats disputes and appeals as first-class Product concerns.
+MGSN therefore treats Dispute, Appeal and Governance Review as first-class Product concerns.
 
-## 2. Dispute Case
+## Dispute Case
 
 A Dispute Case may arise from:
 
-- scope disagreement;
-- quality or evidence disagreement;
-- delay or missed deadline;
-- funds or refund disagreement;
+- scope, quality or Evidence disagreement;
+- delay or missed Deadline;
+- funds, refund or settlement disagreement;
 - attribution conflict;
 - provider substitution;
 - confidentiality or conduct concern;
 - Trust assessment;
-- restriction, suspension or retirement;
+- Restriction, Suspension or Retirement;
 - related-party or self-dealing allegation.
 
-The case should record parties, issue, evidence, affected engagement, requested remedy, interim controls and responsible reviewer.
+The case should record the parties, issue, affected engagement, Evidence, requested remedy, interim controls and responsible reviewer.
 
-## 3. Interim protection
+## Interim protection
 
-Some disputes require immediate protective action before final resolution.
-
-Possible interim measures include:
+Some disputes require protective action before final resolution. Possible measures include:
 
 - holding a funds-release step;
 - restricting new allocation;
-- preserving deadlines through replacement;
+- preserving a Deadline through Replacement;
 - limiting data access;
 - requiring additional approval;
-- preserving evidence;
+- preserving Evidence;
 - issuing a temporary warning.
 
-Interim action should be proportionate, time-limited and reviewable.
+Interim action must be proportionate, time-limited and reviewable. Emergency protection may precede full process, but it must not remove the later right to review.
 
-## 4. Operator authority
+## Operator authority
 
-Operators may coordinate facts, request evidence, apply existing policy and recommend outcomes.
+Operators may coordinate facts, request Evidence, apply existing policy and recommend outcomes. Material adverse decisions require defined authority, especially for:
 
-Material adverse decisions should require defined authority, especially for:
-
-- network suspension;
-- provider retirement;
+- network Suspension or Retirement;
 - substantial financial adjustment;
-- Trust consequences;
+- material Trust consequences;
 - related-party findings;
-- permanent provenance changes.
+- permanent Relationship Provenance changes.
 
 ```text
-Operator convenience
+Operator coordination
 ≠ unlimited governance authority
 ```
 
-## 5. Due process
+## Due process and appeal
 
 A fair process should provide, where legally and operationally appropriate:
 
 - notice of the issue;
-- access to material evidence;
+- access to material Evidence;
 - reasonable response time;
 - opportunity to correct facts;
 - impartial review;
-- reasoned outcome;
-- scope and duration of consequence;
-- appeal path;
-- audit trail.
+- a reasoned outcome;
+- scope and duration of any consequence;
+- an Appeal path;
+- an Audit trail.
 
-Emergency measures may precede full process, but they should not eliminate later review.
+An Appeal and Governance Review should identify the challenged decision, grounds, new or disputed Evidence, requested remedy, filing Deadline, reviewer independence where possible, and whether the original decision remains effective during review.
 
-## 6. Appeal and Governance Review
+Possible outcomes include affirm, modify, narrow, suspend, reverse or remand for further Evidence.
 
-An appeal should identify:
+## Abuse prevention
 
-- challenged decision;
-- grounds;
-- new or disputed evidence;
-- requested remedy;
-- filing deadline;
-- reviewer independent from the original decision where possible;
-- whether the original decision remains effective during review.
-
-Possible appeal outcomes include affirm, modify, narrow, suspend, reverse or remand for further evidence.
-
-## 7. Abuse prevention
-
-Governance must address abuse by any participant, including the platform.
-
-Relevant controls include:
+Governance must address abuse by any participant, including the platform. Relevant controls include:
 
 - anti-circumvention and undisclosed rebrokering rules;
 - self-dealing disclosure;
 - dual-role separation;
 - Trust manipulation detection;
-- false capability claims;
+- false Capability Claims;
 - retaliation prevention;
 - duplicate or strategic disputes;
 - conflicts of interest;
-- operator access logging.
+- operator-access logging.
 
-## 8. Restriction, suspension and retirement
+## Restriction, Suspension and Retirement
 
-These consequences are distinct.
+These consequences are distinct:
 
-- **Restriction** narrows a capability, route or activity.
-- **Suspension** temporarily disables participation or allocation.
+- **Restriction** narrows a Capability, route or activity;
+- **Suspension** temporarily disables participation or allocation;
 - **Retirement** ends a defined network role or participation scope.
 
-Each action should be scoped. A problem in one service should not automatically remove unrelated capability unless the evidence supports broader risk.
+Each action should be service-, jurisdiction- or role-scoped unless the Evidence supports a broader consequence. A problem in one service must not automatically erase unrelated Capability.
 
-## 9. Relationship to professional and legal responsibility
+## Relationship to legal and professional authority
 
 MGSN governance does not replace courts, regulators, professional bodies or contractual remedies.
 
-A platform decision may determine network participation or internal commercial treatment, but it does not conclusively determine legal liability or professional misconduct beyond its authority.
+A platform decision may determine network participation or internal commercial treatment. It does not conclusively determine legal liability or professional misconduct beyond the platform's authority.
 
-## 10. Governance records and portability
+## Governance records and portability
 
-Governance records may need retention after an engagement or Workplace exits, particularly for:
+Governance records may require retention after an engagement ends or a Workplace exits, particularly for unresolved disputes, financial reconciliation, sanctions or compliance, Trust correction, Audit and repeated-abuse detection.
 
-- unresolved disputes;
-- financial reconciliation;
-- sanctions or compliance;
-- Trust correction;
-- audit;
-- repeated-abuse detection.
+Retention must remain purpose-limited and legally governed. Workplace portability does not require the platform to erase records necessary to discharge its network, legal or Audit responsibilities.
 
-Retention must remain purpose-limited and legally governed.
+## Part VI conclusion
 
-## 11. Product rule
+CH26–CH29 establish a governed memory for the network:
 
-MGSN may govern its network only through explicit authority, evidence, proportionality, correction rights, appeal and audit. Platform ownership of the network does not authorize unreviewable or undisclosed decisions.
+```text
+Relationship Provenance
+→ Performance Evidence
+→ multidimensional Trust
+→ Network Learning Candidate
+→ Provider Evolution Decision
+→ Dispute, Appeal and Governance Review
+```
+
+The sequence preserves recognition and learning without creating permanent counterparty ownership, a universal public score or automatic punishment.
+
+Part VII now tests whether the Product can operate as a bounded, operator-assisted MVP, prove conformance under difficult scenarios, respect implementation prerequisites and evolve into durable global capability infrastructure.
