@@ -40,11 +40,12 @@ Candidate 03 generation: READY FOR OWNER ACCEPTANCE
 Candidate Review 03: Review PASS / Candidate Acceptance FAIL
 Candidate 04 required: YES
 Candidate 04 preparation: READY FOR OWNER ACCEPTANCE
+Freeze, publication and distribution: NOT AUTHORIZED
 RC1 source modifications: 0
 Immediate Book 02 Change Proposal required: NO
 ```
 
-The compatibility assertions remain regression fixtures. Their historical Owner gates have already been resolved through merged PRs.
+The compatibility assertions remain regression fixtures describing their historical gates. The current freeze state is recorded separately below.
 
 ## Final Owner Acceptance Result
 
