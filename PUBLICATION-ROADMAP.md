@@ -15,6 +15,7 @@ Books 05–07 Release Candidate 1 — APPROVED AND FROZEN
 Book 04 Workplace Sovereignty WP-A–WP-F — OWNER ACCEPTED / CLOSED
 Book 04 vNext Integration 01 — OWNER ACCEPTED
 Book 04 vNext Integration 02A — OWNER ACCEPTED
+Book 04 vNext Integration 02B — OWNER ACCEPTED
 ```
 
 The Workplace Sovereignty clarification remains compatible with Book 02 and does not require an immediate Book 02 Change Proposal.
@@ -26,7 +27,7 @@ The Workplace Sovereignty clarification remains compatible with Book 02 and does
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | RC1 — Portfolio Baseline Accepted |
 | Book 02 | MarkOrbit Core Specification | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | RC1 — Portfolio Baseline Accepted |
-| Book 04 | MarkOrbit Workplace and Product Architecture | RC1 Historical / vNext Integration 02B Active |
+| Book 04 | MarkOrbit Workplace and Product Architecture | RC1 Historical / vNext Integration 02C Active |
 | Book 05 | MarkReg | RC1 — Approved and Frozen |
 | Book 06 | MarkOrbit Lite | RC1 — Approved and Frozen |
 | Book 07 | Mark Global Service Network | RC1 — Approved and Frozen |
@@ -44,6 +45,7 @@ WP-E — cross-Workplace collaboration and portability — OWNER MERGED
 WP-F — full-book audit and GO integration decision — OWNER MERGED
 INTEGRATION-01 — deterministic candidate preparation — OWNER MERGED
 INTEGRATION-02A — CH00–CH12 editorial weave input — OWNER MERGED
+INTEGRATION-02B — CH13–CH27 editorial weave input — OWNER MERGED
 ```
 
 Programme result:
@@ -54,6 +56,7 @@ Required correction classes: 12 / 12
 Accepted amendment packages: 4 / 4
 Deterministic candidate build: PASS
 Integration 02A chapters: 13 / 13
+Integration 02B chapters: 15 / 15
 Blocking findings: 0
 RC1 manuscript files changed: 0
 Immediate Book 02 Change Proposal: NO
@@ -63,49 +66,59 @@ Integrated editorial programme: ACTIVE
 ### Current controlled task
 
 ```text
-PUB-TASK-B04-VNEXT-INTEGRATION-02B
-CH13–CH27 Editorial Integration
+PUB-TASK-B04-VNEXT-INTEGRATION-02C
+CH28–CH39 Editorial Integration
 ```
 
 Outputs:
 
 ```text
-B04-PLN-0016 — Integration 02B execution plan
-B04-EDIT-0002 — CH13–CH27 Editorial Weave Patch Set
-B04-REV-0014 — Integration 02B editorial review / PASS
+B04-PLN-0017 — Integration 02C execution plan
+B04-EDIT-0003 — CH28–CH39 Editorial Weave Patch Set
+B04-REV-0015 — Integration 02C editorial review / PASS
 ```
 
 Current result:
 
 ```text
-Assigned chapters: 15 / 15
-Chapter weave modules: 15 / 15
-Placement rules: 15 / 15
+Assigned chapters: 12 / 12
+Chapter weave modules: 12 / 12
+Placement rules: 12 / 12
 Unattributed modules: 0
-Knowledge / Intelligence authority separation: PASS
-AI scope inheritance: PASS
-Human Review / Owning Service separation: PASS
-Product / Installation / Projection distinction: PASS
-Handoff / Return continuity: PASS
+Artifact / formal-record separation: PASS
+Render / Edit / Delivery / Publish separation: PASS
+Routing / appointment separation: PASS
+Trust contextuality: PASS
+Cross-Workplace sovereignty: PASS
+Portability boundary: PASS
 Adjacent-chapter continuity: PASS
 RC1 source modification: 0
 Immediate Book 02 Change Proposal: NO
 ```
 
-The patch set records paragraph-level retain, replace, merge, insert and normalize operations for Part III and Part IV. It is designed to be applied to the generated candidate outside RC1 and does not itself grant acceptance to the resulting prose.
+Total paragraph-level weave coverage is now prepared for all forty chapters:
+
+```text
+CH00–CH12: 13 / 13
+CH13–CH27: 15 / 15
+CH28–CH39: 12 / 12
+Total: 40 / 40
+```
+
+The three patch sets are designed to be applied to the generated candidate outside RC1. They do not themselves grant acceptance to the resulting prose.
 
 ## Next Controlled Gates
 
 ```text
-Owner merge of INTEGRATION-02B
-→ PUB-TASK-B04-VNEXT-INTEGRATION-02C for CH28–CH39
-→ apply B04-EDIT-0001, B04-EDIT-0002 and B04-EDIT-0003 to generated CH00–CH39
-→ continuous-prose and cross-part review
-→ full candidate semantic and editorial review
+Owner merge of INTEGRATION-02C
+→ apply B04-EDIT-0001, B04-EDIT-0002 and B04-EDIT-0003
+→ generate complete continuous CH00–CH39 candidate
+→ full-book semantic, editorial and cross-part review
 → explicit Owner acceptance decision
+→ optional publication finishing and freeze decision
 ```
 
-Integration 02C will address Content, Artifact, Document, Render/Edit/Delivery/Publish, network participation, Routing, collaboration, portability, Trust, governance and conformance.
+The next controlled task will convert all accepted editorial weave inputs into the first complete continuously edited Book 04 vNext candidate, preserving provenance and supersession records.
 
 ## Book 04 Decision Sequence
 
@@ -113,8 +126,8 @@ Integration 02C will address Content, Artifact, Document, Render/Edit/Delivery/P
 WP-A–WP-F — ACCEPTED / CLOSED
 → Integration 01 preparation — ACCEPTED
 → Integration 02A CH00–CH12 — ACCEPTED
-→ Integration 02B CH13–CH27 — ACTIVE
-→ Integration 02C CH28–CH39
+→ Integration 02B CH13–CH27 — ACCEPTED
+→ Integration 02C CH28–CH39 — ACTIVE
 → apply all editorial weave inputs
 → full candidate review
 → Owner Acceptance Gate
@@ -124,7 +137,7 @@ WP-A–WP-F — ACCEPTED / CLOSED
 ## Future Publication and Architecture Workstreams
 
 - Book 01 and Book 03 public-release copyediting and branded rendering;
-- Book 04 vNext editorial integration, semantic review and publication finishing;
+- Book 04 vNext continuous candidate generation, semantic review and publication finishing;
 - Books 05–07 optional final brand/design production and distribution decisions;
 - Structured Information and Derived Value specifications;
 - Local Vault architecture;
