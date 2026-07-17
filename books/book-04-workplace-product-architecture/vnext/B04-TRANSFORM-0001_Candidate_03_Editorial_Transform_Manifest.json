@@ -1,0 +1,26 @@
+{
+  "candidate": "B04-vNEXT-CANDIDATE-03",
+  "source_candidate": "B04-vNEXT-CANDIDATE-02",
+  "heading_changes": {
+    "CH23": "B04-CH-23 — Lite as a Lightweight Workplace Product"
+  },
+  "definition_relocation": {
+    "source": "CH22",
+    "target": "CH20",
+    "concept": "Product Installation primary definition"
+  },
+  "targeted_normalization": {
+    "CH23": [
+      ["operate as a lightweight Workplace", "operate as a lightweight Workplace Product"],
+      ["Lite as a lightweight Workplace", "Lite as a lightweight Workplace Product"]
+    ]
+  },
+  "structured_subsections": {
+    "CH37": "Portability, Exit and Revocation Across Orbits"
+  },
+  "deduplication": {
+    "scope": "within chapter",
+    "minimum_paragraph_characters": 180,
+    "mode": "exact normalized prose paragraph only"
+  }
+}
