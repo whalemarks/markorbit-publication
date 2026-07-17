@@ -1,0 +1,38 @@
+{
+  "schema": "markorbit-visual-system/v1",
+  "series": "MarkOrbit",
+  "books": {
+    "Book 01": {"identifier": "OS", "canonical_title": "MarkOrbit — The Operating System for Global Brand Services"},
+    "Book 02": {"identifier": "CORE", "canonical_title": "MarkOrbit Core Specification"},
+    "Book 03": {"identifier": "EXEC", "canonical_title": "MarkOrbit Execution System"},
+    "Book 04": {"identifier": "WORK", "canonical_title": "MarkOrbit Workplace and Product Architecture"},
+    "Book 05": {"identifier": "REG", "canonical_title": "MarkReg"},
+    "Book 06": {"identifier": "LITE", "canonical_title": "MarkOrbit Lite"},
+    "Book 07": {"identifier": "NET", "canonical_title": "Mark Global Service Network"}
+  },
+  "page": {
+    "trim_inches": [6, 9],
+    "margins_inches": {"inner": 0.85, "outer": 0.65, "top": 0.7, "bottom": 0.8},
+    "chapter_start": "recto",
+    "front_matter_pagination": "lower-roman",
+    "body_pagination": "arabic"
+  },
+  "type_roles": {
+    "display": {"generic": "sans-serif", "weight": 600},
+    "body": {"generic": "serif", "minimum_print_pt": 10.0, "leading_ratio": 1.42},
+    "label": {"generic": "sans-serif", "weight": 500},
+    "code": {"generic": "monospace", "minimum_print_pt": 8.5},
+    "cjk_fallback_required": true
+  },
+  "hierarchy": {
+    "h1": {"break_before": "page", "keep_with_next": true},
+    "h2": {"keep_with_next": true},
+    "h3": {"keep_with_next": true},
+    "maximum_recommended_depth": 4
+  },
+  "figures": {"vector_preferred": true, "minimum_raster_ppi": 300, "alt_text_required_epub": true},
+  "tables": {"repeat_header": true, "vertical_rules_default": false, "minimum_print_pt": 8.5},
+  "callout_types": ["Definition", "Decision", "Constraint", "Example", "Warning", "Owner Decision Required"],
+  "font_binaries_committed": false,
+  "publication_authorized": false
+}
