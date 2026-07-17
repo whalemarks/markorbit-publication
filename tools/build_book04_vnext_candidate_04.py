@@ -46,17 +46,18 @@ def build(output: Path) -> None:
             text = text.replace("candidate: B04-vNEXT-CANDIDATE-03", "candidate: B04-vNEXT-CANDIDATE-04")
             text = text.replace("vNext Candidate 03", "vNext Candidate 04")
             path.write_text(text, encoding="utf-8")
-    forbidden = manifest["forbidden_reader_phrase"]
     findings = []
+    forbidden_phrases = manifest["forbidden_reader_phrases"]
     for path in chapters:
         for line_no, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
-            if forbidden in line and "Workplace Product" not in line:
-                findings.append(f"{path.name}:{line_no}:{line}")
+            for forbidden in forbidden_phrases:
+                if forbidden in line and "Workplace Product" not in line:
+                    findings.append(f"{path.name}:{line_no}:{line}")
     if findings: raise RuntimeError("superseded Lite wording remains:\n" + "\n".join(findings))
     index = ["# Book 04 vNext Candidate 04", "", "Status: FINAL CONSISTENCY-CORRECTED ACCEPTANCE CANDIDATE", ""]
     for path in chapters: index.append(f"- [{title(path.read_text(encoding='utf-8'))}](manuscript/{path.name})")
     (output / "CANDIDATE-INDEX.md").write_text("\n".join(index) + "\n", encoding="utf-8")
-    report = f"""# Candidate 04 Build Report
+    report = """# Candidate 04 Build Report
 
 ```text
 Source Candidate 03 chapters: 40 / 40
