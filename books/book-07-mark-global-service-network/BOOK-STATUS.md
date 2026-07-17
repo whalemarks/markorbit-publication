@@ -13,9 +13,27 @@ Whole-Book Draft — COMPLETE
 Whole-Book Consistency Review — PASS
 Editorial Hardening Wave A — ACCEPTED
 Editorial Hardening Wave B — ACCEPTED
-Reader Apparatus — COMPLETE / READY FOR OWNER ACCEPTANCE
-Final Publication Validation — PASS / READY FOR OWNER ACCEPTANCE
-Release Candidate — READY FOR OWNER DECISION ON MERGE
+Reader Apparatus — ACCEPTED
+Final Publication Validation — PASS / ACCEPTED
+Release Candidate 1 — READY FOR OWNER ACCEPTANCE ON MERGE
+Final Publication — NOT APPROVED
+Public/Commercial Distribution — NOT APPROVED
+```
+
+## RC1 content baseline
+
+```text
+Reader-facing content baseline:
+7ab3ea3e01b42afda8b2f675e514b91df436e47d
+
+Owner Decision:
+B07-REL-0001
+
+Owner Decision Review:
+B07-REV-0017 — PASS
+
+Owner Decision Validation:
+B07-VAL-0017 — PASS
 ```
 
 ## Publication inventory
@@ -24,29 +42,6 @@ Release Candidate — READY FOR OWNER DECISION ON MERGE
 Manuscript chapters: CH00–CH33 / 34 of 34
 Required appendices: APP-A–APP-F / 6 of 6
 Missing chapters or appendices: 0
-```
-
-## Reader Apparatus
-
-```text
-APP-A — Controlled Terminology Glossary
-APP-B — Product-Local Record Index
-APP-C — Reference Journey Index
-APP-D — Conformance Scenario Index
-APP-E — Handoff, Return and Acceptance Index
-APP-F — Product and Implementation Boundary Notice
-```
-
-## Final review and validation
-
-```text
-B07-REV-0016 — PASS
-B07-VAL-0016 — PASS
-Blocking findings: 0
-Major findings: 0
-Minor findings: 0
-Controlled semantic drift: 0
-Implementation authorization leakage: 0
 ```
 
 ## Controlled coverage
@@ -61,19 +56,32 @@ Missing controlled IDs: 0
 Duplicate controlled IDs: 0
 ```
 
+## Decision effect
+
+```text
+Owner merges this PR
+→ Book 07 Release Candidate 1 ACCEPTED
+
+PR closes without merge
+→ Book 07 Release Candidate 1 NOT ACCEPTED
+```
+
 ## Next Gate
 
 ```text
-Book 07 Release Candidate Owner Decision
+Book 07 RC1 Permanent Freeze
 ```
 
-Merge accepts the Reader Apparatus and final publication-validation result. Release Candidate status still requires an explicit Owner decision.
+The freeze must be completed in a separate controlled task using the exact accepted content baseline and the Owner Decision activation commit.
 
 ## Not Authorized
 
+- final branded publication;
+- public or commercial distribution;
 - database schema or API implementation;
 - payment custody or automated funds release;
 - automatic Provider appointment;
-- automated Trust sanctions;
+- automated adverse Trust sanctions;
 - production routing or deployment;
+- autonomous professional action;
 - External Protected Action.
