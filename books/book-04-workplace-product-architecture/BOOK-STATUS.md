@@ -35,6 +35,7 @@ Total chapter weave coverage: 40 / 40
 Candidate 01 generation: READY FOR OWNER ACCEPTANCE
 Candidate 02 generation: READY FOR OWNER ACCEPTANCE
 Candidate 03 generation: READY FOR OWNER ACCEPTANCE
+Candidate 04 preparation: READY FOR OWNER ACCEPTANCE
 RC1 source modifications: 0
 Immediate Book 02 Change Proposal required: NO
 ```
