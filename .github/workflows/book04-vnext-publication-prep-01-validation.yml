@@ -1,0 +1,47 @@
+name: Book 04 vNext Publication Prep 01 Validation
+
+on:
+  pull_request:
+    paths:
+      - 'codex/tasks/PUB-TASK-B04-VNEXT-PUBLICATION-PREP-01.md'
+      - 'books/book-04-workplace-product-architecture/**'
+      - 'tools/build_book04_vnext_candidate_04.py'
+      - 'tools/materialize_book04_vnext_accepted.py'
+      - 'tools/validate_book04_vnext_publication_prep_01.py'
+      - '.github/workflows/book04-vnext-publication-prep-01-validation.yml'
+      - 'PUBLICATION-ROADMAP.md'
+
+permissions:
+  contents: write
+
+jobs:
+  materialize-and-validate:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Materialize accepted Candidate 04
+        run: python tools/materialize_book04_vnext_accepted.py
+      - name: Validate materialized manuscript
+        run: python tools/validate_book04_vnext_publication_prep_01.py --base-sha "${{ github.event.pull_request.base.sha }}"
+      - name: Commit materialized manuscript to PR branch
+        shell: bash
+        run: |
+          if [ -z "$(git status --porcelain -- books/book-04-workplace-product-architecture/accepted-vnext)" ]; then
+            echo "Materialized manuscript already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add books/book-04-workplace-product-architecture/accepted-vnext
+          git commit -m "Materialize accepted Book 04 vNext manuscript"
+          git push origin "HEAD:${{ github.head_ref }}"

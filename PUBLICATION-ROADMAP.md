@@ -28,7 +28,7 @@ The Workplace Sovereignty clarification remains compatible with Book 02 and does
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | RC1 — Portfolio Baseline Accepted |
 | Book 02 | MarkOrbit Core Specification | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | RC1 — Portfolio Baseline Accepted |
-| Book 04 | MarkOrbit Workplace and Product Architecture | vNext Candidate 04 — Owner Accepted Editorial Baseline |
+| Book 04 | MarkOrbit Workplace and Product Architecture | vNext Candidate 04 — Owner Accepted / Materialization in Review |
 | Book 05 | MarkReg | RC1 — Approved and Frozen |
 | Book 06 | MarkOrbit Lite | RC1 — Approved and Frozen |
 | Book 07 | Mark Global Service Network | RC1 — Approved and Frozen |
@@ -50,7 +50,7 @@ CANDIDATE-04 — OWNER MERGED / FINAL CONSISTENCY BUILD
 OWNER-ACCEPTANCE-01 — ACCEPT
 ```
 
-Final result:
+Final editorial result:
 
 ```text
 Chapters accepted: 40 / 40
@@ -66,25 +66,44 @@ Immediate Book 02 Change Proposal: NO
 Owner Acceptance decision: ACCEPT
 ```
 
+## Current Controlled Task
+
+```text
+PUB-TASK-B04-VNEXT-PUBLICATION-PREP-01
+Materialize Accepted Manuscript and Prepare Freeze Candidate
+```
+
+Required result:
+
+```text
+Accepted chapters materialized: 40 / 40
+Candidate 04 byte-equivalence: PASS
+Materialization manifest coverage: PASS
+RC1 source modifications: 0
+Publication freeze readiness: YES
+Freeze authorization: NOT YET GRANTED
+```
+
+The accepted Candidate 04 is being materialized in `books/book-04-workplace-product-architecture/accepted-vnext/`. The directory remains generated from accepted sources and is verified byte-for-byte against a fresh Candidate 04 build.
+
 ## Decision
 
 ```text
 ACCEPT — Candidate 04 is the accepted Book 04 vNext editorial baseline.
-Reopen architecture correction programme: NO
-Architecture Canon conflict: NO
-Immediate Book 02 Change Proposal: NO
+Materialize accepted baseline: AUTHORIZED
+Freeze: NOT YET AUTHORIZED
+Public/commercial distribution: NOT YET AUTHORIZED
 ```
 
-The immutable RC1 manuscript remains the historical portfolio baseline. Candidate 04 is the accepted vNext editorial baseline; it has not yet been frozen or authorized for public/commercial distribution.
+The immutable RC1 manuscript remains the historical portfolio baseline.
 
 ## Next Controlled Gates
 
 ```text
-Owner merge of OWNER-ACCEPTANCE-01
-→ optional publication preparation
-→ decide whether to materialize the accepted Candidate 04 manuscript in a controlled baseline directory
-→ copyediting, references, front matter and rendering checks
-→ explicit freeze decision
+Owner merge of PUBLICATION-PREP-01
+→ verify repository materialization and SHA-256 manifest
+→ optional copyediting, references, front matter and rendering checks
+→ explicit Book 04 vNext freeze decision
 → explicit publication and distribution decision
 ```
 
@@ -101,13 +120,15 @@ WP-A–WP-F — ACCEPTED / CLOSED
 → Candidate Review 03 — REVISE
 → Candidate 04 — FINAL CONSISTENCY CORRECTION
 → Owner Acceptance — ACCEPT
-→ optional publication preparation and freeze decision
+→ Accepted manuscript materialization
+→ Freeze decision
+→ optional publication and distribution decision
 ```
 
 ## Future Publication and Architecture Workstreams
 
 - Book 01 and Book 03 public-release copyediting and branded rendering;
-- Book 04 accepted Candidate 04 materialization, publication finishing and freeze decision;
+- Book 04 accepted-vNext materialization, finishing and freeze decision;
 - Books 05–07 optional final brand/design production and distribution decisions;
 - Structured Information and Derived Value specifications;
 - Local Vault architecture;
