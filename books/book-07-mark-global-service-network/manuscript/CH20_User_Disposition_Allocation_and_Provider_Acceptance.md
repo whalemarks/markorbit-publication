@@ -1,65 +1,69 @@
 # B07-CH-20 — User Disposition, Allocation and Provider Acceptance
 
-## The user decides the route
+## The route decision has three authorities
 
-MGSN may recommend, explain and constrain. It does not silently appoint a provider on behalf of the Originating Workplace.
+MGSN may recommend, explain and constrain. It does not silently appoint a provider for the Originating Workplace.
 
-The user must be able to disposition the presented route.
+The routing sequence contains three distinct decisions:
 
-Typical dispositions include:
+```text
+MGSN recommends
+→ the authorized user disposes the route
+→ the provider accepts or refuses
+```
+
+Each decision answers a different question:
+
+- **Recommendation** — which eligible route appears best supported?
+- **User Disposition** — which route does the Originating Workplace authorize?
+- **Provider Acceptance** — will the selected provider accept the defined work under the stated conditions?
+
+```text
+Recommendation ≠ user instruction
+User Disposition ≠ Provider Allocation
+Provider Allocation ≠ Provider Acceptance
+```
+
+None may be silently collapsed into another.
+
+## User Disposition
+
+The user must be able to:
 
 - confirm the Recommended Route;
 - select an offered alternative;
 - request rematching;
-- request a preferred provider;
+- request an eligible preferred provider;
 - choose the External Self-Managed Route;
 - pause the decision;
 - reject all routes;
 - request clarification.
 
-```text
-Recommendation
-≠ user instruction
-```
+A valid disposition identifies the selected route, service scope, material assumptions, Service Offer reference, timing, exclusions, required Documents or funds, and the terms presented at that stage.
 
-## Meaningful confirmation
-
-A valid confirmation should identify:
-
-- the selected route;
-- service scope;
-- key assumptions;
-- customer-facing offer or commercial reference;
-- timing expectation;
-- material exclusions;
-- required documents or funds;
-- provider identity where disclosure is required at that stage;
-- acceptance of relevant terms.
-
-Confirmation should not rely on hidden material conditions.
-
-## User disposition is version-specific
+## Confirmation is version-specific
 
 The user confirms a particular version of:
 
-- Capability Need;
-- Candidate Route Set;
-- Service Offer;
-- route explanation;
+- the Capability Need;
+- the Candidate Route Set;
+- the Service Offer;
+- the route explanation;
 - material provider or package conditions.
 
-If those items change materially, the prior confirmation may no longer be sufficient.
+A material change may invalidate the earlier confirmation.
 
 ```text
 Materially changed route
-→ renewed user disposition
+→ reassessment
+→ renewed User Disposition where required
 ```
 
-## Allocation
+The Product must not treat stale consent as current authority.
 
-After user confirmation, MGSN may create or prepare a Provider Allocation.
+## Provider Allocation
 
-Allocation identifies the provider route the platform intends to instruct, subject to final controls.
+After User Disposition, MGSN may prepare a Provider Allocation. The allocation identifies the provider route the platform intends to instruct, subject to final readiness controls.
 
 It may include:
 
@@ -73,130 +77,94 @@ It may include:
 - contingency route;
 - permitted disclosure scope.
 
-```text
-User confirmation
-≠ Provider Allocation completed
-```
-
-An operator or controlled service may still need to verify funds, documentation, restrictions and instruction readiness.
+An operator or controlled service may still need to verify funds, Documents, restrictions and instruction readiness. Allocation is therefore a controlled preparation decision, not proof that an engagement exists.
 
 ## Provider Acceptance
 
-The provider must accept the proposed engagement.
+The provider must explicitly accept the proposed engagement. Provider Acceptance should confirm, as applicable:
 
-Provider Acceptance should confirm, as applicable:
-
-- ability to perform the service;
-- absence of disqualifying conflict;
+- ability and authority to perform the service;
+- absence of a disqualifying conflict;
 - current capacity;
-- acceptance of scope;
-- acceptance of procurement and settlement terms;
+- accepted scope and exclusions;
+- procurement and settlement terms;
 - deadline feasibility;
-- required professional responsibility;
-- any disclosed subcontracting or local-agent structure;
-- expected Evidence and Return obligations.
+- professional responsibility;
+- any disclosed subcontracting or required local-agent structure;
+- Evidence and Return obligations.
 
-```text
-Provider Allocation
-≠ Provider Acceptance
-```
+A provider may accept, decline, request clarification, identify a conflict, propose a permitted scope correction, state that the deadline cannot be met, request a commercial exception, or disclose a required additional professional participant.
 
-## Provider responses
-
-A provider may:
-
-- accept;
-- decline;
-- request clarification;
-- propose a permitted scope correction;
-- identify a conflict;
-- state that the deadline cannot be met;
-- request a price or disbursement exception;
-- disclose a required additional professional participant.
-
-The response may trigger renewed user confirmation if it changes material terms.
+A response that materially changes scope, timing, price or responsible party may require renewed User Disposition.
 
 ## No silent substitution
 
-If the allocated provider declines or becomes unavailable, MGSN must not silently substitute another provider while preserving the appearance of the original route.
-
-The Product should:
+If the allocated provider declines or becomes unavailable, MGSN must:
 
 1. record the failed or withdrawn allocation;
 2. reassess the Candidate Route Set;
 3. explain any material difference;
-4. obtain renewed user disposition where required;
+4. obtain renewed User Disposition where required;
 5. create a new Provider Allocation;
 6. obtain new Provider Acceptance.
 
+A substitute provider must not be presented as though the original confirmed route remained unchanged.
+
 ## Timing and expiry
 
-User confirmation and Provider Acceptance may expire.
-
-Expiry may be driven by:
+User Disposition and Provider Acceptance may expire because of:
 
 - Service Offer validity;
 - deadline movement;
-- availability window;
+- Availability window;
 - exchange-rate or official-fee change;
-- qualification expiry;
+- Qualification expiry;
 - conflict-check freshness;
 - provider acceptance deadline.
 
-The Product should not treat stale consent as current authorization.
+Expiry requires refresh, reassessment or renewed authority rather than silent continuation.
 
-## Preferred-provider requests
+## Preferred-provider and external-route outcomes
 
-A preferred-provider request is a user disposition, not a command that overrides governance.
+A preferred-provider request is a User Disposition, not an instruction that overrides MGSN gates. The outcome may be:
 
-MGSN should evaluate the requested provider through the same required gates. Outcomes may include:
+- R3 with the preferred provider accepted;
+- conditional availability requiring clarification;
+- ineligibility with an explanation;
+- an alternative managed route;
+- R1 selected by the Workplace.
 
-- preferred provider accepted through R3;
-- preferred provider conditionally available;
-- preferred provider ineligible with explanation;
-- alternative managed route offered;
-- external R1 route selected by the Workplace.
-
-## External-route disposition
-
-When the user chooses R1, the Product should make the boundary visible.
-
-The user should understand that MGSN is not assuming managed procurement, funds, fulfillment or replacement responsibility.
-
-The Product may still define:
-
-- expected Evidence;
-- reminders;
-- manual return fields;
-- unknown-outcome handling;
-- later resumption of Workplace continuity.
+When the user chooses R1, the Product must make clear that MGSN does not assume managed procurement, funds, fulfillment or replacement responsibility. It may still support expected Evidence, reminders, manual Return fields and later resumption of Workplace continuity.
 
 ## Audit and non-repudiation
 
-The Product should preserve:
+The decision chain should preserve:
 
-- who made the disposition;
-- authority to make it;
+- the authorized actor;
 - timestamp;
-- route and offer version;
+- route, need and offer versions;
 - explanation shown;
-- selected action;
-- any override or exception;
+- selected disposition;
+- overrides or exceptions;
+- allocation decision;
 - provider response;
 - renewed confirmations.
 
-This supports later resolution of disputes about what was recommended, selected or accepted.
+This record resolves later questions about what was recommended, authorized, allocated and accepted.
 
-## The final separation
+## Part IV conclusion
 
-The routing sequence contains three distinct decisions:
+CH16–CH20 have converted a customer need into a controlled route without transferring customer ownership or creating automatic appointment:
 
 ```text
-MGSN recommends
-→ user confirms
-→ provider accepts
+Capability Need Projection
+→ route classification
+→ eligibility and conflict gates
+→ Candidate Route Set
+→ explainable Recommendation
+→ User Disposition
+→ Provider Allocation
+→ Provider Acceptance
 ```
 
-None can be silently collapsed into another.
-
-The next stage begins only after a managed route has sufficient commitment to create a Managed Network Engagement and prepare funds, instruction and fulfillment controls.
+Part V begins only after sufficient commitment exists to create a Managed Network Engagement and govern funds, fulfillment, incidents and typed Return.
