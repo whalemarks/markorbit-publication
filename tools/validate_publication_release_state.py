@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 """Validate MarkOrbit publication release-state consistency.
 
-This validator is intentionally dependency-free. It checks governance metadata,
-immutable release identities, remote release pointers and the protected source
-boundary for frozen publication inputs.
+The validator is dependency-free and may run all checks or one named phase.
 """
 
 from __future__ import annotations
@@ -79,9 +77,7 @@ def run_git(*args: str) -> str:
         stderr=subprocess.PIPE,
     )
     if completed.returncode != 0:
-        raise ValidationError(
-            f"git {' '.join(args)} failed: {completed.stderr.strip()}"
-        )
+        raise ValidationError(f"git {' '.join(args)} failed: {completed.stderr.strip()}")
     return completed.stdout.strip()
 
 
@@ -104,7 +100,6 @@ def validate_metadata() -> None:
         "Book 07 | Mark Global Service Network | Release Candidate 1 — Approved and Frozen",
         BOOK07_FREEZE,
     )
-
     require_contains(
         "books/book-07-mark-global-service-network/BOOK-STATUS.md",
         "Release Candidate 1 — APPROVED AND FROZEN",
@@ -143,7 +138,6 @@ def validate_metadata() -> None:
         "FROZEN",
         "release/book-07-rc1",
     )
-
     require_not_contains(
         "books/book-07-mark-global-service-network/release/B07-RC1.yaml",
         "set_to_freeze_pr_merge_commit_after_owner_merge",
@@ -153,6 +147,7 @@ def validate_metadata() -> None:
         "release_candidate_1_ready_for_owner_acceptance",
         "release_candidate_owner_decision",
     )
+    print("metadata consistency: PASS")
 
 
 def validate_release_refs() -> None:
@@ -163,9 +158,7 @@ def validate_release_refs() -> None:
             raise ValidationError(f"release branch not found on origin: {branch}")
         actual_sha = match.group(1)
         if actual_sha != expected_sha:
-            raise ValidationError(
-                f"{branch} points to {actual_sha}, expected {expected_sha}"
-            )
+            raise ValidationError(f"{branch} points to {actual_sha}, expected {expected_sha}")
         print(f"release ref PASS: {branch} -> {actual_sha}")
 
 
@@ -173,7 +166,6 @@ def validate_protected_diff(base_sha: str | None) -> None:
     if not base_sha:
         print("protected source diff: SKIPPED (no base SHA supplied)")
         return
-
     changed = run_git("diff", "--name-only", f"{base_sha}...HEAD").splitlines()
     violations = [
         path
@@ -183,17 +175,18 @@ def validate_protected_diff(base_sha: str | None) -> None:
     if violations:
         formatted = "\n".join(f"- {path}" for path in violations)
         raise ValidationError(
-            "frozen or canonical source files changed in a governance-only task:\n"
-            + formatted
+            "frozen or canonical source files changed in a governance-only task:\n" + formatted
         )
     print(f"protected source diff PASS: {len(changed)} changed files checked")
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
+    parser.add_argument("--base-sha", help="Pull-request base SHA for protected-source checks.")
     parser.add_argument(
-        "--base-sha",
-        help="Pull-request base SHA used to enforce the frozen source boundary.",
+        "--only",
+        choices=("metadata", "protected", "refs"),
+        help="Run only one validation phase.",
     )
     parser.add_argument(
         "--skip-remote-refs",
@@ -206,16 +199,18 @@ def parse_args() -> argparse.Namespace:
 def main() -> int:
     args = parse_args()
     try:
-        validate_metadata()
-        validate_protected_diff(args.base_sha)
-        if args.skip_remote_refs:
-            print("release refs: SKIPPED")
-        else:
-            validate_release_refs()
+        if args.only in (None, "metadata"):
+            validate_metadata()
+        if args.only in (None, "protected"):
+            validate_protected_diff(args.base_sha)
+        if args.only in (None, "refs"):
+            if args.skip_remote_refs:
+                print("release refs: SKIPPED")
+            else:
+                validate_release_refs()
     except ValidationError as exc:
         print(f"FAIL: {exc}", file=sys.stderr)
         return 1
-
     print("publication release-state validation: PASS")
     return 0
 
