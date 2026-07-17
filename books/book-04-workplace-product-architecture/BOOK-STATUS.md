@@ -6,12 +6,12 @@
 - **RC1 manuscript:** CH00–CH39, immutable
 - **Chapter map:** B04-TOC-V0.1 — unchanged
 - **WP-A–WP-F:** Owner Accepted / correction programme closed
-- **Current task:** PUB-TASK-B04-VNEXT-INTEGRATION-01
-- **Current plan:** B04-PLN-0014
-- **Current build specification:** B04-INT-0002
-- **Current provenance ledger:** B04-PROV-0001
-- **Current review:** B04-REV-0012 — PASS / Ready for Owner Acceptance
-- **Next gate:** deterministic candidate generation and INTEGRATION-02 editorial integration
+- **Integration 01:** Owner Accepted through merged PR #107
+- **Current task:** PUB-TASK-B04-VNEXT-INTEGRATION-02A
+- **Current plan:** B04-PLN-0015
+- **Current editorial input:** B04-EDIT-0001 — CH00–CH12 Editorial Weave Patch Set
+- **Current review:** B04-REV-0013 — PASS / Ready for Owner Acceptance
+- **Next gate:** apply the accepted weave input to generated CH00–CH12, then continue Integration 02B
 
 ## Historical compatibility
 
@@ -30,18 +30,7 @@ RC1 source modifications: 0
 Immediate Book 02 Change Proposal required: NO
 ```
 
-The WP-C, WP-E and WP-F candidate-gate sentences remain solely as regression compatibility assertions. WP-C–WP-F are Owner Accepted through merged PRs #103–#106.
-
-## Integration 01 Package
-
-```text
-PUB-TASK-B04-VNEXT-INTEGRATION-01
-B04-PLN-0014 — Integrated Candidate Baseline Preparation
-B04-INT-0002 — Deterministic Candidate Build Specification
-B04-PROV-0001 — CH00–CH39 Provenance Ledger
-tools/build_book04_vnext_candidate.py
-B04-REV-0012 — Integration Preparation Review / PASS
-```
+The WP-C, WP-E and WP-F candidate-gate sentences remain solely as regression compatibility assertions. WP-C–WP-F and Integration 01 are Owner Accepted through merged PRs #103–#107.
 
 ## Integration 01 Result
 
@@ -56,25 +45,55 @@ RC1 source modification: 0
 Candidate generation readiness: PASS
 ```
 
-## Candidate Generation Model
+## Integration 02A Package
+
+```text
+PUB-TASK-B04-VNEXT-INTEGRATION-02A
+B04-PLN-0015 — CH00–CH12 Editorial Integration
+B04-EDIT-0001 — CH00–CH12 Editorial Weave Patch Set
+B04-REV-0013 — Integration 02A Editorial Review / PASS
+```
+
+## Integration 02A Result
+
+```text
+Assigned chapters: 13 / 13
+Chapter weave modules: 13 / 13
+Placement rules present: 13 / 13
+Unattributed weave modules: 0
+Organization / Workplace distinction: PASS
+Five-authority model: PASS
+Permission and support-access boundaries: PASS
+Customer-relationship authority: PASS
+Knowledge provenance and AI scope: PASS
+Custody / source-authority distinction: PASS
+Adjacent-chapter continuity: PASS
+Blocking findings: 0
+RC1 source modification: 0
+Immediate Book 02 Change Proposal required: NO
+```
+
+## Editorial Integration Model
 
 ```text
 immutable RC1 chapter
-+ chapter-routed Owner-Accepted amendment controls
-+ machine-readable provenance
-= B04-vNEXT-CANDIDATE-01 generated review chapter
++ deterministic provenance route
++ Owner-Accepted editorial weave input
+= continuously edited vNext candidate chapter
 ```
 
-The first generated candidate preserves RC1 chapter prose and attaches accepted correction modules or ledger-routed package controls at controlled chapter boundaries. INTEGRATION-02 will perform paragraph-level editorial weaving while preserving the same provenance and supersession controls.
+Integration 02A records what each CH00–CH12 chapter retains, replaces, merges or inserts, where the change belongs and which accepted authority controls it. The patch set is an editorial input; it is not itself the final continuous candidate manuscript.
 
 ## Sequence
 
 ```text
 WP-A–WP-F — ACCEPTED / CLOSED
-→ INTEGRATION-01 — CANDIDATE PREPARATION
-→ deterministic B04-vNEXT-CANDIDATE-01 generation
-→ INTEGRATION-02 — paragraph-level editorial integration
-→ full candidate semantic review
+→ INTEGRATION-01 — ACCEPTED
+→ INTEGRATION-02A — CH00–CH12 EDITORIAL WEAVE INPUT
+→ apply 02A to generated candidate
+→ INTEGRATION-02B — CH13–CH27
+→ INTEGRATION-02C — CH28–CH39
+→ full candidate semantic and editorial review
 → Owner acceptance decision
 → optional freeze and publication preparation
 ```
@@ -85,7 +104,8 @@ WP-A–WP-F — ACCEPTED / CLOSED
 Book 04 RC1 historical baseline: ACCEPTED AND IMMUTABLE
 WP-B–WP-E amendment manuscripts: ACCEPTED
 WP-F audit and GO decision: ACCEPTED
-Integration preparation mechanism: READY FOR OWNER ACCEPTANCE
+Integration 01 preparation mechanism: ACCEPTED
+Integration 02A editorial weave input: READY FOR OWNER ACCEPTANCE
 Generated vNext candidate: NOT YET OWNER ACCEPTED
 Book 04 vNext owner acceptance: NOT YET GRANTED
 Freeze, publication and distribution: NOT AUTHORIZED
