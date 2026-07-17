@@ -66,7 +66,15 @@ Workplace portability ≠ platform-network portability
 - Prefer `Book 04, Chapter 20` or a stable repository identifier when chapter numbering is controlled.
 - Do not create page-number references before final pagination.
 - A reference to a renamed or moved chapter must be corrected in the publication overlay and recorded in the findings ledger.
-- A reference whose correction changes meaning is not a copyedit; it requires a separate change proposal.
+- A reference whose correction changes meaning is not a copyedit.
+
+## Semantic-change gate
+
+```text
+CHANGE PROPOSAL REQUIRED
+```
+
+Use this classification whenever a proposed correction would change a definition, responsibility, authority boundary, lifecycle order, requirement or interpretation.
 
 ## Overlay boundary
 
