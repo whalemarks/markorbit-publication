@@ -1,6 +1,6 @@
 # B07-CH-16 — From Customer Need to Capability Need Projection
 
-## The routing process begins with a need, not a provider
+## Routing begins with a need, not a provider
 
 MGSN should not begin by asking which foreign associate a user wants to contact. It should begin by understanding what capability the Originating Workplace needs to deliver its own customer promise.
 
@@ -8,9 +8,7 @@ A customer may say:
 
 > We need to file this trademark in the United States quickly.
 
-That sentence is not yet a routable network instruction. It must be converted into a controlled Capability Need Projection.
-
-The projection describes the service need without transferring ownership of the customer relationship or exposing the entire Workplace record.
+That sentence is not yet a routable network instruction. It must be converted into a controlled Capability Need Projection: a purpose-limited description of the required service that does not transfer the customer relationship or expose the entire Workplace record.
 
 ```text
 Customer context
@@ -21,14 +19,14 @@ Customer context
 
 ## The Originating Workplace remains responsible
 
-The Originating Workplace owns and controls:
+The Originating Workplace controls:
 
 - the customer relationship;
 - the originating quote and commercial promise;
 - the relevant Order or Matter context;
 - internal approvals and private notes;
 - the decision to use R1, R2 or R3;
-- the decision about what data may be projected.
+- what information may be projected.
 
 MGSN receives only the information required to evaluate and coordinate a service route.
 
@@ -45,7 +43,7 @@ A useful Capability Need normally includes:
 
 - jurisdiction or regional system;
 - service type;
-- trademark, legal or administrative scope;
+- legal, trademark or administrative scope;
 - current procedural position;
 - filing, response or completion deadline;
 - urgency;
@@ -53,42 +51,23 @@ A useful Capability Need normally includes:
 - applicant or owner characteristics relevant to eligibility;
 - goods or services complexity;
 - document and signature requirements;
-- preferred route constraints;
+- preferred-route constraints;
 - conflict-check inputs;
 - confidentiality classification;
 - budget or offer constraints where relevant;
 - expected deliverables and Evidence.
 
-The need should be typed enough to support safe routing, but not overloaded with irrelevant customer history.
+The need should be typed enough to support safe routing without becoming a copy of the full customer file.
 
 ## Minimum necessary projection
 
-MGSN follows a minimum-necessary principle.
+At the first routing stage, MGSN may need jurisdiction, service category, deadline, entity type, conflict-check identifiers, special complexity and required response time.
 
-At the first routing stage, the network may need to know:
+It usually does not yet need the customer's full portfolio, internal pricing, unrelated communications, private strategy, all historical Documents or other Matters in the Workplace.
 
-- jurisdiction;
-- service category;
-- deadline;
-- entity type;
-- conflict-check identifiers;
-- special complexity;
-- required response time.
-
-It may not yet need:
-
-- the full customer portfolio;
-- internal pricing;
-- unrelated communications;
-- private strategic notes;
-- all historical documents;
-- other Matters in the Workplace.
-
-Additional information can be projected only when a route advances and a legitimate operational purpose exists.
+Additional information may be projected only when the route advances and a legitimate operational purpose exists.
 
 ## Progressive disclosure
-
-The projection should become more detailed in stages.
 
 ```text
 Stage 1 — route eligibility
@@ -97,40 +76,21 @@ Stage 3 — user-confirmed route preparation
 Stage 4 — provider instruction and fulfillment
 ```
 
-This prevents the platform from sending complete customer files to multiple candidate providers merely to obtain a recommendation.
+This staged approach prevents complete customer files from being sent to multiple candidate providers merely to obtain a recommendation.
 
 ## Need typing before provider comparison
 
-The same jurisdiction may require different capabilities for:
-
-- a routine filing;
-- a multi-class application;
-- an Office Action;
-- an opposition;
-- an assignment;
-- a renewal;
-- an urgent injunction-related matter;
-- a complex evidence submission.
+The same jurisdiction may require different capabilities for a routine filing, multi-class application, Office Action, opposition, assignment, renewal, urgent injunction-related matter or complex Evidence submission.
 
 A provider qualified for routine filing is not automatically qualified for contentious proceedings or high-risk advisory work.
 
-Therefore:
-
 ```text
-Jurisdiction match
-≠ Capability match
+Jurisdiction match ≠ Capability match
 ```
 
 ## Handling uncertainty
 
-The Originating Workplace may not know every detail at the beginning. A Capability Need may contain:
-
-- confirmed facts;
-- assumptions;
-- unknowns;
-- items requiring professional clarification;
-- deadline uncertainty;
-- missing Evidence.
+The Originating Workplace may not know every detail at the beginning. A Capability Need may contain confirmed facts, assumptions, unknowns, items requiring professional clarification, deadline uncertainty and missing Evidence.
 
 MGSN should not convert uncertainty into false precision. It may return:
 
@@ -141,27 +101,23 @@ MGSN should not convert uncertainty into false precision. It may return:
 
 ## Need changes
 
-A Capability Need is versioned. It may change because:
-
-- the customer changes scope;
-- a deadline becomes known;
-- new official correspondence arrives;
-- a conflict is identified;
-- an urgent service becomes necessary;
-- the preferred route changes;
-- a provider requests essential clarification.
+A Capability Need is versioned. It may change because the customer changes scope, a deadline becomes known, new official correspondence arrives, a conflict is identified, an urgent service becomes necessary, the preferred route changes or a provider requests essential clarification.
 
 Material changes require the Candidate Route Set and recommendation to be reassessed.
 
 ```text
-Changed need
-≠ unchanged recommendation by default
+Changed need ≠ unchanged recommendation by default
 ```
 
-## Product consequence
+## Part III conclusion and routing handoff
 
-The Capability Need Projection is the bridge between Workplace sovereignty and platform routing.
+CH12–CH15 established how demand becomes procurement leverage and a governed Service Offer. This chapter creates the bridge from that commercial preparation to route selection:
 
-It allows MGSN to use aggregated capability, procurement and fulfillment infrastructure without absorbing the customer relationship into the network.
+```text
+Workplace customer promise
+→ typed Capability Need
+→ minimum necessary Projection
+→ route classification and eligibility
+```
 
-The next step is not provider appointment. It is route classification: whether the need remains externally self-managed, uses an MGSN recommendation, or proceeds through a managed preferred provider.
+Part IV now evaluates R1, R2 and R3, applies eligibility and conflict gates, constructs the Candidate Route Set and preserves the separation between recommendation, user disposition, allocation and Provider Acceptance.
