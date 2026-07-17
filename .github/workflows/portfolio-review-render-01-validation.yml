@@ -1,0 +1,49 @@
+name: Portfolio Review Render 01 Validation
+
+on:
+  pull_request:
+    paths:
+      - 'portfolio/render/**'
+      - 'portfolio/planning/PORTFOLIO-PLN-0005_Seven_PDF_Review_Editions.md'
+      - 'portfolio/reviews/**'
+      - 'portfolio/decisions/**'
+      - 'codex/tasks/PUB-TASK-PORTFOLIO-REVIEW-RENDER-01.md'
+      - 'tools/build_portfolio_release_candidates_01.py'
+      - 'tools/render_portfolio_review_editions_01.py'
+      - 'tools/preflight_portfolio_review_editions_01.py'
+      - 'tools/validate_portfolio_review_render_01.py'
+      - '.github/workflows/portfolio-review-render-01-validation.yml'
+  workflow_dispatch:
+
+jobs:
+  render-and-preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install rendering and PDF inspection dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz-subset0 fonts-dejavu-core fonts-liberation2
+          python -m pip install --upgrade pip
+          python -m pip install markdown weasyprint pymupdf pillow
+      - name: Validate task controls
+        run: python tools/validate_portfolio_review_render_01.py --base-sha "${{ github.event.pull_request.base.sha }}"
+      - name: Rebuild seven release candidates
+        run: python tools/build_portfolio_release_candidates_01.py
+      - name: Render seven PDF review editions
+        run: python tools/render_portfolio_review_editions_01.py
+      - name: Preflight PDFs and render page previews
+        run: python tools/preflight_portfolio_review_editions_01.py
+      - name: Validate generated outputs
+        run: python tools/validate_portfolio_review_render_01.py --base-sha "${{ github.event.pull_request.base.sha }}" --outputs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-review-render-01
+          path: .artifacts/portfolio-review-render-01/
+          retention-days: 90
