@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 import subprocess
 from pathlib import Path
 
@@ -89,12 +90,13 @@ def validate_outputs() -> None:
     if "Book 1" in book1 or "Book 01" not in book1:
         raise ValidationError("Book 01 numbering overlay not applied")
     book4_manuscript = OUT / "book-04/manuscript"
-    if sum(path.read_text(encoding="utf-8").count("../publication/") for path in book4_manuscript.rglob("*.md")):
+    book4_text = "\n".join(path.read_text(encoding="utf-8") for path in book4_manuscript.rglob("*.md"))
+    if re.search(r"(?<!\.)\.\./publication/", book4_text):
         raise ValidationError("Book 04 stale publication links remain")
-    if sum(path.read_text(encoding="utf-8").count("../figures/") for path in book4_manuscript.rglob("*.md")):
+    if re.search(r"(?<!\.)\.\./figures/", book4_text):
         raise ValidationError("Book 04 stale figure links remain")
-    fixed_publication = sum(path.read_text(encoding="utf-8").count("../../publication/") for path in book4_manuscript.rglob("*.md"))
-    fixed_figures = sum(path.read_text(encoding="utf-8").count("../../figures/") for path in book4_manuscript.rglob("*.md"))
+    fixed_publication = book4_text.count("../../publication/")
+    fixed_figures = book4_text.count("../../figures/")
     if fixed_publication != 7 or fixed_figures != 10:
         raise ValidationError(f"Book 04 fixed link counts wrong: {fixed_publication}, {fixed_figures}")
 
