@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "series": "The MarkOrbit Publication Series",
+  "publication_authorized": false,
+  "shared": {
+    "series_attribution": "MarkOrbit Publication Project",
+    "named_author_credit": "OWNER DECISION REQUIRED",
+    "copyright_owner": "OWNER DECISION REQUIRED",
+    "publisher": "OWNER DECISION REQUIRED",
+    "publication_place": "OWNER DECISION REQUIRED",
+    "publication_year": "OWNER DECISION REQUIRED",
+    "license": "OWNER DECISION REQUIRED",
+    "distribution_channels": "OWNER DECISION REQUIRED"
+  },
+  "books": [
+    {"number": 1, "title": "MarkOrbit — The Operating System for Global Brand Services", "baseline": "B01-RC1-FROZEN-01", "isbn": "OWNER DECISION REQUIRED"},
+    {"number": 2, "title": "MarkOrbit Core Specification", "baseline": "Frozen Core Specification Baseline v0.1", "isbn": "OWNER DECISION REQUIRED"},
+    {"number": 3, "title": "MarkOrbit Execution System", "baseline": "B03-RC1-FROZEN-01", "isbn": "OWNER DECISION REQUIRED"},
+    {"number": 4, "title": "MarkOrbit Workplace and Product Architecture", "baseline": "B04-vNEXT-FROZEN-01", "isbn": "OWNER DECISION REQUIRED"},
+    {"number": 5, "title": "MarkReg", "baseline": "RC1 — Approved and Frozen", "isbn": "OWNER DECISION REQUIRED"},
+    {"number": 6, "title": "MarkOrbit Lite", "baseline": "RC1 — Approved and Frozen", "isbn": "OWNER DECISION REQUIRED"},
+    {"number": 7, "title": "Mark Global Service Network", "baseline": "RC1 — Approved and Frozen", "isbn": "OWNER DECISION REQUIRED"}
+  ]
+}
