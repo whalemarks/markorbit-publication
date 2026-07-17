@@ -8,12 +8,12 @@
 - **Candidate 01:** diagnostic build milestone / final prose rejected
 - **Candidate 02:** route-aware build milestone / final prose rejected
 - **Candidate 03 generation:** Owner Accepted through merged PR #115
-- **Current task:** PUB-TASK-B04-VNEXT-CANDIDATE-REVIEW-03
-- **Current plan:** B04-PLN-0023
-- **Current audit:** B04-AUD-0004 — Candidate 03 Final Findings
-- **Current decision:** B04-DEC-0004 — REVISE / Candidate 04 Required
-- **Current review:** B04-REV-0021 — Review PASS / Candidate Acceptance FAIL
-- **Next gate:** PUB-TASK-B04-VNEXT-CANDIDATE-04 — Final Navigation and Transition Consistency Correction
+- **Candidate Review 03:** Owner Accepted through merged PR #116 / REVISE
+- **Current task:** PUB-TASK-B04-VNEXT-CANDIDATE-04
+- **Current plan:** B04-PLN-0024
+- **Current transform:** B04-TRANSFORM-0002
+- **Current review:** B04-REV-0022 — Ready for Owner Review as final consistency-corrected acceptance candidate
+- **Next gate:** final Book 04 vNext Owner Acceptance decision
 
 ## Historical compatibility
 
@@ -41,21 +41,6 @@ Immediate Book 02 Change Proposal required: NO
 
 The compatibility assertions remain regression fixtures. Their historical Owner gates have already been resolved through merged PRs.
 
-## Candidate 03 Generation Result
-
-```text
-Source Candidate 02 chapters: 40 / 40
-Candidate 03 chapters generated: 40 / 40
-Reviewed heading changes applied: 1 / 1
-Product Installation placement corrections: 1 / 1
-Structured portability subsections: 1 / 1
-Reader-text leakage findings: 0
-Remaining route / placement majors: 0
-Exact long-paragraph duplicate clusters: 0
-RC1 source modifications: 0
-Blocking findings: 0
-```
-
 ## Candidate Review 03 Result
 
 ```text
@@ -72,15 +57,21 @@ Owner Acceptance readiness: NO
 Candidate 04 required: YES
 ```
 
-The remaining findings are limited to the generated CH01 Table of Contents entry and CH22 transition, both of which retain the superseded phrase `Lite as a Lightweight Workplace` while CH23 correctly defines Lite as a lightweight Workplace Product.
-
-## Decision
+## Candidate 04 Required Result
 
 ```text
-REVISE — produce Candidate 04 as a bounded final consistency correction.
-Reopen WP-A–WP-F: NO
-Architecture Canon conflict: NO
-Immediate Book 02 Change Proposal: NO
+Source Candidate 03 chapters: 40 / 40
+Candidate 04 chapters generated: 40 / 40
+CH01 navigation corrections: PASS
+CH22 transition correction: PASS
+Superseded Lite-as-Workplace reader findings: 0
+Candidate 03 content preservation exceptions: 2 / 2 authorized
+Reader-text leakage findings: 0
+Architecture authority regression: 0
+RC1 source modifications: 0
+Blocking findings: 0
+Immediate Book 02 Change Proposal required: NO
+Owner Acceptance readiness: YES
 ```
 
 ## Sequence
@@ -94,8 +85,8 @@ WP-A–WP-F — ACCEPTED / CLOSED
 → CANDIDATE-REVIEW-02 — REVISE
 → CANDIDATE-03 — EDITORIAL CONSOLIDATION BUILD
 → CANDIDATE-REVIEW-03 — REVISE
-→ CANDIDATE-04 — FINAL CONSISTENCY CORRECTION
-→ final Owner Acceptance decision
+→ CANDIDATE-04 — FINAL CONSISTENCY-CORRECTED ACCEPTANCE CANDIDATE
+→ explicit final Owner Acceptance decision
 → optional freeze and publication preparation
 ```
 
@@ -112,9 +103,8 @@ Candidate 02 generation mechanism: ACCEPTED
 Candidate 02 as final vNext prose: REJECTED
 Candidate 03 generation mechanism: ACCEPTED
 Candidate 03 as final vNext prose: REJECTED
-Candidate Review 03: Review PASS / Candidate Acceptance FAIL
-Candidate 04 required: YES
-Candidate 04 preparation: READY FOR OWNER ACCEPTANCE
+Candidate 04 generation: READY FOR OWNER ACCEPTANCE
+Candidate 04 as final vNext prose: NOT YET ACCEPTED
 Book 04 vNext owner acceptance: NOT YET GRANTED
 Freeze, publication and distribution: NOT AUTHORIZED
 Implementation or deployment: NOT AUTHORIZED
