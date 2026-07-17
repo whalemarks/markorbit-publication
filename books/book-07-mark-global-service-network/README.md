@@ -3,14 +3,18 @@
 ## Status
 
 ```text
-Release Candidate 1
-Ready for Owner Acceptance on Merge
+Release Candidate 1 — Approved and Frozen
 Reader-facing content baseline:
 7ab3ea3e01b42afda8b2f675e514b91df436e47d
-Next: RC1 Permanent Freeze
+Owner Decision activation:
+2f59951ceacfde3ed379e6de5dad602a192f48e3
+Freeze activation:
+3d3469a5845c352a2d73f698ffc085d5abb3aa85
+Release pointer:
+release/book-07-rc1
 ```
 
-Final publication and public/commercial distribution remain separate, unapproved gates.
+Final branded publication and public/commercial distribution remain separate, unapproved gates.
 
 ## Active Authority
 
@@ -39,7 +43,7 @@ Originating Workplace
 → Originating Workplace
 ```
 
-Workplace business sovereignty, Core semantic authority, Owning Service formal-state authority, provider professional responsibility and platform network control remain distinct.
+Workplace business sovereignty, Core semantic authority, Owning Service formal-state authority, Provider professional responsibility and platform network control remain distinct.
 
 ## Controlled Product Coverage
 
@@ -96,14 +100,14 @@ Provider Acceptance ≠ completion
 
 Organization is the stable participant identity. Demand and Supply are contextual roles with separated permission, conflict, finance and audit contexts.
 
-MGSN may maintain multiple admitted providers for the same jurisdiction and service. Portfolio roles are dynamic platform classifications, not public permanent rankings.
+MGSN may maintain multiple admitted Providers for the same jurisdiction and service. Portfolio roles are dynamic platform classifications, not public permanent rankings.
 
 Bidirectional introduction creates Relationship Provenance and bounded incentive eligibility, not automatic admission, permanent exclusivity, ownership or bypass rights.
 
 ## Commercial, Funds and Fulfillment
 
 ```text
-provider procurement cost
+Provider procurement cost
 + official fees and disbursements
 + platform service, support and risk layer
 + demand-side margin where permitted
@@ -112,18 +116,23 @@ provider procurement cost
 
 MGSN uses typed funds checkpoints, milestone Evidence, correction, replacement, settlement and Return controls. The publication does not claim universal escrow, trust-account, payment-institution or client-money authority and does not replace Finance ledger truth.
 
-## RC1 Decision Records
+## RC1 Decision and Freeze Records
 
 ```text
 B07-REL-0001 — Book 07 Release Candidate 1 Owner Decision
+B07-REL-0002 — Book 07 RC1 Permanent Freeze Record
 B07-REV-0017 — Release Candidate 1 Owner Decision Review / PASS
 B07-VAL-0017 — Release Candidate 1 Owner Decision Scope Check / PASS
+release/B07-RC1.yaml — machine-readable frozen release manifest
+release/book-07-rc1 — immutable release pointer
 ```
 
-Owner merge makes RC1 effective. Closing the PR without merge leaves RC1 unaccepted.
+## Change Control
+
+The frozen RC1 reader-facing inputs are immutable. Any source change requires impact classification and renewed validation. Any material meaning, authority, controlled-ID, Product Baseline or Chapter Map change requires a new candidate baseline or explicit Owner supersession.
 
 ## Non-Goals and Non-Authorization
 
-MGSN is not a free provider directory, open bidding marketplace, lowest-price auction, user-owned provider network, peer-to-peer participant network, public universal-score platform, automatic Provider appointment engine or unregulated escrow wallet.
+MGSN is not a free Provider directory, open bidding marketplace, lowest-price auction, user-owned Provider network, peer-to-peer participant network, public universal-score platform, automatic Provider appointment engine or unregulated escrow wallet.
 
 RC1 does not authorize final branded publication, public/commercial distribution, schema/API implementation, payment custody, automatic funds release, automatic Provider appointment, automated Trust sanctions, production deployment, autonomous professional action or External Protected Action.
