@@ -17,6 +17,8 @@ Book 04 vNext Integration 01–02C — OWNER ACCEPTED
 Book 04 vNext Candidate 01–04 generation milestones — OWNER ACCEPTED
 Book 04 Candidate Reviews 01–03 — OWNER ACCEPTED
 Book 04 vNext Candidate 04 — OWNER ACCEPTED EDITORIAL BASELINE
+Book 04 vNext accepted manuscript — MATERIALIZED
+Book 04 vNext frozen baseline — B04-vNEXT-FROZEN-01
 ```
 
 The Workplace Sovereignty clarification remains compatible with Book 02 and does not require an immediate Book 02 Change Proposal.
@@ -28,14 +30,14 @@ The Workplace Sovereignty clarification remains compatible with Book 02 and does
 | Book 01 | MarkOrbit — The Operating System for Global Brand Services | RC1 — Portfolio Baseline Accepted |
 | Book 02 | MarkOrbit Core Specification | Frozen Core Specification Baseline v0.1 |
 | Book 03 | MarkOrbit Execution System | RC1 — Portfolio Baseline Accepted |
-| Book 04 | MarkOrbit Workplace and Product Architecture | vNext Candidate 04 — Owner Accepted / Materialization in Review |
+| Book 04 | MarkOrbit Workplace and Product Architecture | B04-vNEXT-FROZEN-01 — Frozen Editorial Baseline |
 | Book 05 | MarkReg | RC1 — Approved and Frozen |
 | Book 06 | MarkOrbit Lite | RC1 — Approved and Frozen |
 | Book 07 | Mark Global Service Network | RC1 — Approved and Frozen |
 
 ## Book 04 Workplace Sovereignty vNext
 
-### Accepted programme
+### Completed programme
 
 ```text
 WP-A–WP-F — OWNER MERGED / CLOSED
@@ -48,15 +50,16 @@ CANDIDATE-03 — OWNER MERGED / EDITORIAL CONSOLIDATION BUILD
 CANDIDATE-REVIEW-03 — OWNER MERGED / REVISE
 CANDIDATE-04 — OWNER MERGED / FINAL CONSISTENCY BUILD
 OWNER-ACCEPTANCE-01 — ACCEPT
+PUBLICATION-PREP-01 — MATERIALIZED
+FREEZE-01 — FREEZE
 ```
 
-Final editorial result:
+Final result:
 
 ```text
-Chapters accepted: 40 / 40
-Required correction classes: 12 / 12
-Accepted amendment packages: 4 / 4
-Editorial weave coverage: 40 / 40
+Chapters frozen: 40 / 40
+Frozen metadata files: 5 / 5
+SHA-256 entries bound: 45 / 45
 Reader-text leakage findings: 0
 Architecture authority regressions: 0
 Remaining title contradictions: 0
@@ -64,48 +67,31 @@ Remaining stale transitions: 0
 RC1 manuscript files changed: 0
 Immediate Book 02 Change Proposal: NO
 Owner Acceptance decision: ACCEPT
+Freeze decision: GRANTED
 ```
-
-## Current Controlled Task
-
-```text
-PUB-TASK-B04-VNEXT-PUBLICATION-PREP-01
-Materialize Accepted Manuscript and Prepare Freeze Candidate
-```
-
-Required result:
-
-```text
-Accepted chapters materialized: 40 / 40
-Candidate 04 byte-equivalence: PASS
-Materialization manifest coverage: PASS
-RC1 source modifications: 0
-Publication freeze readiness: YES
-Freeze authorization: NOT YET GRANTED
-```
-
-The accepted Candidate 04 is being materialized in `books/book-04-workplace-product-architecture/accepted-vnext/`. The directory remains generated from accepted sources and is verified byte-for-byte against a fresh Candidate 04 build.
 
 ## Decision
 
 ```text
-ACCEPT — Candidate 04 is the accepted Book 04 vNext editorial baseline.
-Materialize accepted baseline: AUTHORIZED
-Freeze: NOT YET AUTHORIZED
-Public/commercial distribution: NOT YET AUTHORIZED
+FREEZE — B04-vNEXT-CANDIDATE-04 is frozen as B04-vNEXT-FROZEN-01.
+Reopen architecture correction programme: NO
+Architecture Canon conflict: NO
+Immediate Book 02 Change Proposal: NO
+Public/commercial distribution: NOT AUTHORIZED
 ```
 
-The immutable RC1 manuscript remains the historical portfolio baseline.
+The immutable RC1 manuscript remains the historical portfolio baseline. `accepted-vnext/` is now the frozen vNext editorial baseline and may be changed only through a separately authorized change proposal.
 
 ## Next Controlled Gates
 
 ```text
-Owner merge of PUBLICATION-PREP-01
-→ verify repository materialization and SHA-256 manifest
-→ optional copyediting, references, front matter and rendering checks
-→ explicit Book 04 vNext freeze decision
+Owner merge of FREEZE-01
+→ optional publication-format and rendering preparation
 → explicit publication and distribution decision
+→ optional branded release production
 ```
+
+Freeze does not authorize publication, commercial distribution, implementation or deployment.
 
 ## Book 04 Decision Sequence
 
@@ -121,14 +107,14 @@ WP-A–WP-F — ACCEPTED / CLOSED
 → Candidate 04 — FINAL CONSISTENCY CORRECTION
 → Owner Acceptance — ACCEPT
 → Accepted manuscript materialization
-→ Freeze decision
+→ B04-vNEXT-FROZEN-01 — FROZEN
 → optional publication and distribution decision
 ```
 
 ## Future Publication and Architecture Workstreams
 
 - Book 01 and Book 03 public-release copyediting and branded rendering;
-- Book 04 accepted-vNext materialization, finishing and freeze decision;
+- Book 04 optional publication-format, rendering and distribution decision;
 - Books 05–07 optional final brand/design production and distribution decisions;
 - Structured Information and Derived Value specifications;
 - Local Vault architecture;
