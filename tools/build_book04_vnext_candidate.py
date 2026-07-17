@@ -33,7 +33,9 @@ AMENDMENTS = {
     ),
 }
 
-HISTORICAL_CHAPTER_RE = re.compile(r"\bCH[-_ ]?(0[0-9]|[1-3][0-9])\b", re.IGNORECASE)
+HISTORICAL_CHAPTER_RE = re.compile(
+    r"\bCH[-_ ]?(0[0-9]|[1-3][0-9])(?=$|[^0-9])", re.IGNORECASE
+)
 LEDGER_ROW_RE = re.compile(r"^\|\s*(CH(?:0[0-9]|[1-3][0-9]))\s*\|")
 
 
@@ -53,12 +55,17 @@ def identify_rc1_chapter(path: Path) -> str | None:
         return filename_ids[0]
     if len(filename_ids) > 1:
         raise RuntimeError(f"ambiguous chapter identifiers in filename: {path.relative_to(ROOT)}")
-    opening = "\n".join(read(path).splitlines()[:20])
-    heading_ids = normalized_chapters(opening)
+
+    # Fallback only to the first Markdown heading. Do not scan front matter or
+    # prose because those may legitimately reference other chapters.
+    first_heading = next(
+        (line for line in read(path).splitlines() if line.lstrip().startswith("#")), ""
+    )
+    heading_ids = normalized_chapters(first_heading)
     if len(heading_ids) == 1:
         return heading_ids[0]
     if len(heading_ids) > 1:
-        raise RuntimeError(f"ambiguous chapter identifiers in opening heading: {path.relative_to(ROOT)}")
+        raise RuntimeError(f"ambiguous chapter identifiers in first heading: {path.relative_to(ROOT)}")
     return None
 
 
@@ -98,7 +105,7 @@ def routes() -> dict[str, list[tuple[str, str, str, str]]]:
         f"CH{i:02d}": [] for i in range(40)
     }
     for package, (amendment_path, ledger_path) in AMENDMENTS.items():
-        read(amendment_path)  # existence and accepted-source registration
+        read(amendment_path)
         rows = ledger_rows(read(ledger_path))
         if not rows:
             raise RuntimeError(f"no chapter rows found in {ledger_path.relative_to(ROOT)}")
