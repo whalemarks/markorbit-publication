@@ -8,10 +8,11 @@
 - **WP-A:** Owner Accepted
 - **WP-B:** Owner Accepted
 - **WP-C:** Owner Accepted
-- **Current work package:** WP-D — Product and Network Interface Correction
-- **Current amendment:** B04-VNEXT-WPD-0001
-- **Current review:** B04-REV-0009 — PASS / Ready for Owner Acceptance
-- **Next gate:** WP-E — Cross-Workplace Collaboration and Portability
+- **WP-D:** Owner Accepted
+- **Current work package:** WP-E — Cross-Workplace Collaboration and Portability
+- **Current amendment:** B04-VNEXT-WPE-0001
+- **Current review:** B04-REV-0010 — PASS / Ready for Owner Acceptance
+- **Next gate:** WP-F — Full-Book Impact Review and Next-Version Decision
 
 ## Historical compatibility
 
@@ -22,31 +23,33 @@ WP-B assigned chapters covered: 14 / 14
 WP-B five authority dimensions: 5 / 5
 WP-C assigned chapters covered: 9 / 9
 WP-C amendment manuscript: READY FOR OWNER ACCEPTANCE
+WP-D assigned chapters covered: 6 / 6
 RC1 source modifications: 0
 Immediate Book 02 Change Proposal required: NO
 ```
 
-The WP-C candidate-gate sentence is retained as a regression compatibility assertion. WP-C itself is Owner Accepted through merge of PR #103.
+The WP-C candidate-gate sentence remains as a regression compatibility assertion. WP-C and WP-D are Owner Accepted through merged PRs #103 and #104.
 
-## WP-D Package
+## WP-E Package
 
 ```text
-PUB-TASK-B04-VNEXT-WP-D
-B04-PLN-0011 — Product and Network Interfaces WP-D
-B04-VNEXT-WPD-0001 — Amendment Manuscript
-B04-CORR-0003 — Chapter Correction Ledger
-B04-REV-0009 — WP-D Review / PASS
+PUB-TASK-B04-VNEXT-WP-E
+B04-PLN-0012 — Cross-Workplace Collaboration and Portability WP-E
+B04-VNEXT-WPE-0001 — Amendment Manuscript
+B04-CORR-0004 — Chapter Correction Ledger
+B04-REV-0010 — WP-E Review / PASS
 ```
 
-## WP-D Result
+## WP-E Result
 
 ```text
-Assigned chapters: 6 / 6 covered
-MarkReg interface profile: PASS
-Lite interface profile: PASS
-Sites interface profile: PASS
-MGSN interface profile: PASS
-Originating / Execution Provider distinction: PASS
+Assigned chapters: 8 / 8 covered
+Collaboration boundary: PASS
+Handoff / destination acceptance distinction: PASS
+Return / originating acceptance distinction: PASS
+Export / authority transfer distinction: PASS
+Portability classification: PASS
+Platform network asset exclusion: PASS
 Unmapped assigned chapters: 0
 Blocking findings: 0
 RC1 source modifications: 0
@@ -56,12 +59,12 @@ Book 02 Change Proposal required: NO
 ## Controlling distinctions
 
 ```text
-MarkReg Product ≠ MarkReg self-operated Workplace
-Lite surface ≠ Workplace
-Sites public submission ≠ accepted business fact
-MGSN Connection / Gateway ≠ MGSN Network
-Originating Workplace ≠ Execution Provider Workplace
-candidate surfaced ≠ Provider appointed
+access grant ≠ ownership transfer
+Handoff sent ≠ destination accepted
+Return received ≠ originating acceptance
+export copy ≠ authority transfer
+Workplace portability ≠ portability of the platform network
+participant relationship data ≠ shared Provider Supply ≠ global Routing assets ≠ network-wide Trust assets
 ```
 
 ## Sequence
@@ -70,9 +73,22 @@ candidate surfaced ≠ Provider appointed
 WP-A — ACCEPTED
 → WP-B — ACCEPTED
 → WP-C — ACCEPTED
-→ WP-D — CANDIDATE
-→ WP-E — cross-Workplace collaboration and portability
+→ WP-D — ACCEPTED
+→ WP-E — CANDIDATE
 → WP-F — full-book review and vNext decision
 ```
 
-Owner merge accepts WP-D, preserves RC1 and prior amendments, and authorizes WP-E. It does not create an integrated vNext baseline or authorize implementation, deployment, distribution or External Protected Action.
+## Authorization
+
+```text
+Book 04 RC1 historical baseline: ACCEPTED AND IMMUTABLE
+WP-B–WP-D amendment manuscripts: ACCEPTED
+WP-E amendment manuscript: READY FOR OWNER ACCEPTANCE
+New integrated vNext baseline: NOT YET CREATED
+WP-F before WP-E merge: NOT AUTHORIZED
+Production export, deletion or migration: NOT AUTHORIZED
+Implementation or deployment: NOT AUTHORIZED
+External Protected Action: NOT AUTHORIZED
+```
+
+Owner merge accepts WP-E, preserves RC1 and prior amendments, and authorizes WP-F. It does not itself create an integrated vNext baseline.
