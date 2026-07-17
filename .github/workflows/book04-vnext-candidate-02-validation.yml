@@ -1,0 +1,47 @@
+name: Book 04 vNext Candidate 02 Validation
+
+on:
+  pull_request:
+    paths:
+      - 'codex/tasks/PUB-TASK-B04-VNEXT-CANDIDATE-02.md'
+      - 'books/book-04-workplace-product-architecture/**'
+      - 'tools/build_book04_vnext_candidate_02.py'
+      - 'tools/validate_book04_vnext_candidate_02.py'
+      - '.github/workflows/book04-vnext-candidate-02-validation.yml'
+  workflow_dispatch:
+
+jobs:
+  validate-candidate-02:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out publication repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate route-aware Candidate 02
+        shell: bash
+        run: |
+          mkdir -p build/candidate02-diagnostics
+          set -o pipefail
+          python tools/validate_book04_vnext_candidate_02.py --base-sha "${{ github.event.pull_request.base.sha }}" 2>&1 | tee build/candidate02-diagnostics/VALIDATION.log
+      - name: Generate complete Candidate 02 review manuscript
+        if: success()
+        run: python tools/build_book04_vnext_candidate_02.py --output build/book04-vnext-candidate-02
+      - name: Upload Candidate 02 diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: book04-vnext-candidate-02-diagnostics
+          path: build/candidate02-diagnostics
+          retention-days: 30
+      - name: Upload Candidate 02 review artifact
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: book04-vnext-candidate-02
+          path: build/book04-vnext-candidate-02
+          retention-days: 90
