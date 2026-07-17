@@ -21,9 +21,12 @@ WP-A chapters classified: 40 / 40
 WP-B assigned chapters covered: 14 / 14
 WP-B five authority dimensions: 5 / 5
 WP-C assigned chapters covered: 9 / 9
+WP-C amendment manuscript: READY FOR OWNER ACCEPTANCE
 RC1 source modifications: 0
 Immediate Book 02 Change Proposal required: NO
 ```
+
+The WP-C candidate-gate sentence is retained as a regression compatibility assertion. WP-C itself is Owner Accepted through merge of PR #103.
 
 ## WP-D Package
 
