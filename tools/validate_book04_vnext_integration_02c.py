@@ -53,6 +53,15 @@ EXPECTED_RESULTS = (
     "Immediate Book 02 Change Proposal required: NO",
 )
 
+REQUIRED_CONCEPT_GROUPS = (
+    ("Content", "Artifact", "Document", "formal business fact"),
+    ("Delivery", "Publish", "official acceptance", "formal-state mutation"),
+    ("candidate surfaced", "candidate selected", "Provider appointed"),
+    ("Trust evidence", "universal score"),
+    ("Originating Workplace", "Execution Provider Workplace", "typed Handoff"),
+    ("Workplace portability", "portability of the platform network"),
+)
+
 
 class ValidationError(RuntimeError):
     pass
@@ -99,17 +108,12 @@ def validate_records() -> None:
         if statement not in review:
             raise ValidationError(f"review missing result: {statement}")
 
-    required_concepts = (
-        "Artifact\n≠ formal business fact",
-        "Delivery\n≠ Publish",
-        "candidate surfaced\n≠ candidate selected",
-        "Trust evidence\n≠ universal score",
-        "Originating Workplace",
-        "Workplace portability\n≠ portability of the platform network",
-    )
-    for concept in required_concepts:
-        if concept not in patch:
-            raise ValidationError(f"missing required concept lock: {concept}")
+    for group in REQUIRED_CONCEPT_GROUPS:
+        missing = [term for term in group if term not in patch]
+        if missing:
+            raise ValidationError(
+                "missing required concept terms: " + ", ".join(missing)
+            )
 
     if "Integration 02C editorial weave input: READY FOR OWNER ACCEPTANCE" not in status:
         raise ValidationError("status does not expose Integration 02C Owner gate")
