@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "book-03-engineering-source-map:v1",
+  "taskId": "EXEC-PRE-001",
+  "frozenBaseline": "B03-RC1-FROZEN-01",
+  "authorityRepository": "whalemarks/markorbit-publication",
+  "authorityPath": "books/book-03-execution-system",
+  "implementationBoundary": {
+    "requiredRepositoryType": "dedicated-execution-repository",
+    "recommendedRepositoryName": "markorbit-execution",
+    "forbiddenRuntimeLocations": [
+      "whalemarks/markorbit-core",
+      "whalemarks/markorbit-publication",
+      "product-repository",
+      "integration-repository"
+    ]
+  },
+  "chapterMap": [
+    {"chapter":"B03-CH-00","assetClass":"authority-context","engineeringUse":"series and accountability context"},
+    {"chapter":"B03-CH-01","assetClass":"inventory","engineeringUse":"canonical chapter and appendix inventory"},
+    {"chapter":"B03-CH-02","assetClass":"product-boundary","engineeringUse":"Execution problem statement and value boundary"},
+    {"chapter":"B03-CH-03","assetClass":"architecture-boundary","engineeringUse":"Core, Execution, Integration and Product separation"},
+    {"chapter":"B03-CH-04","assetClass":"principles","engineeringUse":"execution invariants and design principles"},
+    {"chapter":"B03-CH-05","assetClass":"authority-boundary","engineeringUse":"allowed and forbidden Execution responsibilities"},
+    {"chapter":"B03-CH-06","assetClass":"context-contract","engineeringUse":"execution context inputs and governance context"},
+    {"chapter":"B03-CH-07","assetClass":"core-consumption","engineeringUse":"typed Core contract consumption boundary"},
+    {"chapter":"B03-CH-08","assetClass":"architecture-map","engineeringUse":"Execution layer components and dependency graph"},
+    {"chapter":"B03-CH-09","assetClass":"projection-model","engineeringUse":"reference-based subject map and Execution Progress View"},
+    {"chapter":"B03-CH-10","assetClass":"workflow-coordination","engineeringUse":"resolve-preview-review-apply-delegate-observe-expose lifecycle"},
+    {"chapter":"B03-CH-11","assetClass":"task-lifecycle","engineeringUse":"Task planning, activation, assignment, completion and trace boundaries"},
+    {"chapter":"B03-CH-12","assetClass":"review-lifecycle","engineeringUse":"review request, decision, conditions, expiry and stale handling"},
+    {"chapter":"B03-CH-13","assetClass":"communication-boundary","engineeringUse":"draft, review, approval and external-send separation"},
+    {"chapter":"B03-CH-14","assetClass":"event-audit","engineeringUse":"trace, audit correlation, replay and event-not-command rules"},
+    {"chapter":"B03-CH-15","assetClass":"governance-gates","engineeringUse":"Permission and Policy composition"},
+    {"chapter":"B03-CH-16","assetClass":"human-ai-handoff","engineeringUse":"AI assistance, disclosure and accountable human decision"},
+    {"chapter":"B03-CH-17","assetClass":"workflow-pattern","engineeringUse":"intake-execution depth-a contract source"},
+    {"chapter":"B03-CH-18","assetClass":"workflow-pattern","engineeringUse":"application-preparation depth-a contract source"},
+    {"chapter":"B03-CH-19","assetClass":"workflow-pattern","engineeringUse":"communication-review depth-a contract source"},
+    {"chapter":"B03-CH-20","assetClass":"workflow-pattern","engineeringUse":"provider-routing-preparation depth-b contract source"},
+    {"chapter":"B03-CH-21","assetClass":"workflow-pattern","engineeringUse":"office-action-response-preparation depth-b contract source"},
+    {"chapter":"B03-CH-22","assetClass":"workflow-pattern","engineeringUse":"renewal-preparation depth-b contract source"},
+    {"chapter":"B03-CH-23","assetClass":"workflow-pattern","engineeringUse":"assignment-preparation depth-b contract source"},
+    {"chapter":"B03-CH-24","assetClass":"workflow-pattern","engineeringUse":"evidence-review-preparation depth-b contract source"},
+    {"chapter":"B03-CH-25","assetClass":"idempotency-retry","engineeringUse":"semantic idempotency, replay, retry and reconciliation"},
+    {"chapter":"B03-CH-26","assetClass":"safe-failure","engineeringUse":"typed failure, partial completion and uncertainty"},
+    {"chapter":"B03-CH-27","assetClass":"version-change-control","engineeringUse":"source, preview, review and apply version binding"},
+    {"chapter":"B03-CH-28","assetClass":"human-review-governance","engineeringUse":"protected-action review requirements"},
+    {"chapter":"B03-CH-29","assetClass":"agent-governance","engineeringUse":"bounded agent assistance and forbidden autonomy"},
+    {"chapter":"B03-CH-30","assetClass":"observability","engineeringUse":"operation, attempt, service and event correlation"},
+    {"chapter":"B03-CH-31","assetClass":"mvp-boundary","engineeringUse":"Depth A, B and C scope lock"},
+    {"chapter":"B03-CH-32","assetClass":"workflow-registry","engineeringUse":"eight-workflow registry and common contract requirements"},
+    {"chapter":"B03-CH-33","assetClass":"readiness-model","engineeringUse":"readiness levels and implementation gates"},
+    {"chapter":"B03-CH-34","assetClass":"delivery-roadmap","engineeringUse":"formal EXEC-TASK sequence and repository boundary"}
+  ],
+  "workflowRegistry": [
+    {"id":"intake-execution","depth":"depth-a","applyEnabled":true,"externalAction":false,"sourceChapter":"B03-CH-17"},
+    {"id":"application-preparation","depth":"depth-a","applyEnabled":true,"externalAction":false,"sourceChapter":"B03-CH-18"},
+    {"id":"communication-review","depth":"depth-a","applyEnabled":true,"externalAction":false,"sourceChapter":"B03-CH-19"},
+    {"id":"provider-routing-preparation","depth":"depth-b","applyEnabled":false,"externalAction":false,"sourceChapter":"B03-CH-20"},
+    {"id":"office-action-response-preparation","depth":"depth-b","applyEnabled":false,"externalAction":false,"sourceChapter":"B03-CH-21"},
+    {"id":"renewal-preparation","depth":"depth-b","applyEnabled":false,"externalAction":false,"sourceChapter":"B03-CH-22"},
+    {"id":"assignment-preparation","depth":"depth-b","applyEnabled":false,"externalAction":false,"sourceChapter":"B03-CH-23"},
+    {"id":"evidence-review-preparation","depth":"depth-b","applyEnabled":false,"externalAction":false,"sourceChapter":"B03-CH-24"}
+  ],
+  "deferredProtectedActions": [
+    "external-communication-send",
+    "official-filing-or-submission",
+    "payment",
+    "provider-final-selection-and-engagement",
+    "provider-instruction-dispatch",
+    "assignment-recordal",
+    "renewal-filing",
+    "office-action-response-filing",
+    "evidence-certification",
+    "autonomous-professional-execution",
+    "unrestricted-core-mutation",
+    "autonomous-event-emission"
+  ],
+  "engineeringAssetGroups": [
+    "authority-and-boundary",
+    "execution-context-and-projections",
+    "workflow-coordination",
+    "task-and-review-lifecycles",
+    "governance-gates",
+    "version-idempotency-errors",
+    "observability-and-audit",
+    "workflow-patterns",
+    "mvp-readiness-and-delivery"
+  ],
+  "nextFormalTask": {
+    "id": "EXEC-TASK-001",
+    "title": "Initialize Execution Repository"
+  }
+}
