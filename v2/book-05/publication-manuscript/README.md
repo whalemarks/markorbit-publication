@@ -1,11 +1,12 @@
 # Book 05 v2 Publication Manuscript Workspace
 
-# MarkReg — Full-Lifecycle International Trademark Product
+# MarkReg — Full-Lifecycle International Trademark Growth and Service Product
 
 ## Status
 
 ```text
 Architecture direction: accepted
+Growth and conversion scope amendment: accepted
 Frozen Book 05 RC1: preserved
 First publication-grade reconstruction: in progress
 Final editorial readiness: not ready
@@ -25,12 +26,14 @@ It does not modify or replace:
 
 ## Product thesis
 
-MarkReg is MarkOrbit's full-lifecycle international trademark service Product.
+MarkReg is MarkOrbit's full-lifecycle international trademark growth and service Product.
 
-It helps a customer or professional move from an incomplete business objective to an accountable lifecycle of recommendation, commercial scope, intake, preparation, professional review, approved execution, sourced external result and continuing rights management.
+It helps a customer or professional move from an unanswered question or incomplete business objective to source-backed discovery, decision-ready conversion, accountable service delivery, evidence-backed results and continuing-right responsibility.
 
 ```text
-Customer objective
+Question, service need or commercial intent
+→ source-backed discovery
+→ governed content and explanation
 → decision-ready options
 → accepted service scope
 → sufficient intake
@@ -39,6 +42,7 @@ Customer objective
 → authorized execution
 → evidence-backed result
 → continuing lifecycle responsibility
+→ corrected knowledge and growth signal
 ```
 
 The lifecycle may feel unified to the customer without collapsing the authority of the participants and systems that make it possible.
@@ -53,7 +57,7 @@ Core
 = shared semantic authority
 
 MarkReg Product Installation
-= Workplace-scoped trademark-service operating capability
+= Workplace-scoped trademark growth and service operating capability
 
 MarkReg-operated Workplace
 = a self-operated commercial and delivery organization using MarkReg
@@ -68,15 +72,48 @@ MGSN Network
 = platform-owned managed global service network
 ```
 
-MarkReg may coordinate a complete customer experience. It does not thereby become:
+MarkReg may coordinate discovery, conversion and a complete customer service experience. It does not thereby become:
 
 - every customer's Relationship Owner;
 - the Contracting Party in every service mode;
-- the formal authority for every Order, Matter, payment or official state;
+- the formal authority for every Customer, Order, Matter, payment or official state;
 - the Professional Authority for every jurisdiction;
 - the owner of every Provider relationship;
+- the public publishing implementation owned by Sites;
+- the daily content and outreach workspace owned by Lite;
+- the canonical source authority owned by Knowledge and governed source systems;
 - a central database for every Workplace;
-- an autonomous legal practice.
+- an autonomous legal or marketing practice.
+
+## Growth and conversion boundary
+
+MarkReg now includes a governed Growth & Conversion Layer.
+
+```text
+MarkReg
+= service knowledge, decision logic, conversion routes and lifecycle outcomes
+
+Sites
+= public pages, publishing, indexing, schema, technical SEO and page performance
+
+Lite
+= content production, campaigns, distribution and daily marketing operations
+
+Knowledge / Brain
+= source, provenance, freshness and correction context
+```
+
+The new layer covers:
+
+- source-backed SEO and service discovery;
+- GEO and answer-engine-ready professional content;
+- content-to-service intent detection;
+- progressive clarification and option design;
+- conversion into decision-ready Intake;
+- factual, professional, SEO, GEO and conversion-quality testing;
+- correction, withdrawal and outcome feedback.
+
+It does not authorize MarkReg to absorb Sites, Lite or Knowledge.
 
 ## Reconstruction sources
 
@@ -94,8 +131,9 @@ These govern current meanings and boundary corrections.
 - `v2/book-05/BOOK-05-v2-MASTER.md`
 - `v2/book-05/manuscript/`
 - `v2/book-05/BOOK-05-v2-FULL-MANUSCRIPT-REVIEW.md`
+- `v2/book-05/publication-manuscript/BOOK-05-GROWTH-CONVERSION-SCOPE-AMENDMENT.md`
 
-These define the current 25-chapter architecture and the working expansion that preceded this publication reconstruction.
+These define the current 29-chapter architecture and the working expansion that preceded this publication reconstruction.
 
 ### Frozen Book 05 RC1 source
 
@@ -110,21 +148,24 @@ The frozen RC1 is a major source of developed argument, controlled distinctions,
 - Book 01 for platform and Product thesis;
 - Book 03 for governed execution, review and protected action;
 - Book 04 for Workplace sovereignty, Engagement and contribution boundaries;
-- Book 06 for Lite-to-MarkReg Handoff and Product separation;
+- Book 06 for Lite-to-MarkReg Handoff, content and Product separation;
 - Book 07 for MGSN Connection, Provider routing and typed Return.
 
 ## Planned reconstruction map
 
-The current Book 05 v2 master contains 25 chapters.
+The active Book 05 direction now contains 29 publication chapters.
 
 ```text
-Part I   Product promise and responsibility
-Part II  Full lifecycle and customer decision architecture
-Part III Production architecture
-Part IV  Quality, communication, evidence and recovery
-Part V   Economics
-Part VI  Learning and platform value
+Part I    Product promise and responsibility                 CH01–CH03
+Part II   Full lifecycle and customer decision architecture  CH04–CH11
+Part III  Production architecture                            CH12–CH16
+Part IV   Quality, communication, evidence and recovery       CH17–CH20
+Part V    Growth, discovery and conversion                    CH21–CH23
+Part VI   Economics                                           CH24–CH26
+Part VII  Learning and platform value                         CH27–CH29
 ```
+
+The earlier estimate of 28 chapters is superseded. The publication reconstruction already split registration from continuing-right maintenance and recovery, so the three approved growth chapters produce a 29-chapter structure.
 
 The reconstruction may consolidate valuable RC1 and v2 working-manuscript sections into longer chapters, but it must retain source lineage and must not delete unresolved historical material silently.
 
@@ -145,14 +186,27 @@ A reconstructed chapter should include, where applicable:
 - failure and recovery behavior;
 - open legal, Product or implementation questions.
 
-## Current batch
+## Current progress
 
-Batch 01 establishes the workspace and reconstructs:
+Completed publication reconstruction batches:
 
-- CH01 — One Accountable Lifecycle;
-- CH02 — Product, Service and Operating Model;
-- CH03 — Customer Relationship Modes;
-- CH04 — Intake and Decision Readiness.
+```text
+Batch 01 — CH01–CH04
+Batch 02 — CH05–CH08
+Batch 03 — CH09–CH12
+```
+
+Next controlled batch:
+
+```text
+Batch 04 — CH13–CH16
+Internal teams, systems, contributors, Providers,
+Certified Production Pool,
+progression into real work,
+and Professional Contribution Network
+```
+
+The Growth & Conversion Layer is planned for CH21–CH23 after the quality and responsibility chapters. It should not interrupt the current production-architecture sequence.
 
 ## Release limitation
 
@@ -167,4 +221,7 @@ It does not authorize:
 - automatic Provider appointment;
 - payment custody or escrow;
 - unrestricted customer or Workplace data access;
+- automatic marketing outreach;
+- publication of unverified legal or fee claims;
+- unrestricted A/B testing of legal facts, deadlines or material risks;
 - replacement of the frozen Book 05 RC1 baseline.
