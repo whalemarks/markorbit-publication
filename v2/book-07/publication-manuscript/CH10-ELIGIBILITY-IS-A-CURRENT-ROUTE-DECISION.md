@@ -1,84 +1,40 @@
 # CH10 — Eligibility Is a Current Route Decision
 
-A Provider can be qualified and still be the wrong route today.
+A Provider can be properly admitted and qualified yet still be the wrong route today.
+
+It may have a conflict, lack urgent capacity, depend on an expired Package, be unable to receive funds lawfully or require data that the Workplace cannot disclose.
 
 That is why MGSN must keep Qualification and Eligibility separate.
 
 ```text
 Qualified Capability
-≠ Eligible for this Need now
+≠ eligible for this Need now
 ```
 
-Qualification answers whether a Provider may supply a defined Capability through MGSN under current network rules.
+Qualification permits a Provider to be considered for a defined Capability. Eligibility determines whether a particular Provider, Capability and Service Package may enter the Candidate Route Set for the exact Need under current conditions.
 
-Eligibility asks whether that Provider, Capability and Service Package belong in the Candidate Route Set for this exact Need at this exact time.
+## 1. Eligibility is route-specific
 
-The second question is narrower, more volatile and more operationally important.
+The relevant unit is not the Provider Organization in the abstract.
 
-## 1. Why static provider status is not enough
-
-A network that stores only “approved provider” cannot route safely.
-
-A Provider may be generally qualified but:
-
-- conflicted for this customer;
-- unavailable before the deadline;
-- unable to support the requested language;
-- unable to accept the customer type;
-- operating under a package that has expired;
-- unable to receive the required funds;
-- restricted from the relevant procedural stage;
-- missing a current responsible professional;
-- unable to process the required Documents securely;
-- inappropriate for the current urgency or risk;
-- unable to accept a white-label or relationship-preserved arrangement;
-- under temporary review after a performance incident.
-
-Eligibility converts stable supply knowledge into a current route decision.
-
-```text
-Provider status describes supply in general.
-Eligibility evaluates a specific route under current conditions.
-```
-
-## 2. The unit of Eligibility
-
-Eligibility should not attach to the Organization in the abstract.
-
-The evaluated unit is closer to:
+It is closer to:
 
 ```text
 Provider Organization
 + Capability
 + Service Package version
 + current Provider state
-+ exact Capability Need version
++ exact Need version
 + route conditions
 ```
 
-This means the same Organization can be:
+The same Organization may be eligible for a routine filing but not an opposition, for one customer but not another, or under ordinary timing but not an urgent deadline.
 
-- eligible for routine filing but not an opposition;
-- eligible for one customer but conflicted for another;
-- eligible for ordinary timing but not urgent timing;
-- eligible through one package and ineligible through an expired package;
-- eligible for direct delivery but not a white-label route;
-- eligible in one office but unavailable in another.
+A universal “approved provider” flag erases the context that makes route selection safe.
 
-A single universal eligibility flag would erase the context that makes the decision meaningful.
+## 2. Qualification is the baseline gate
 
-## 3. Qualification is an input, not the result
-
-MGSN Qualification is a necessary gate for managed supply.
-
-It can establish that:
-
-- identity and network participation are acceptable;
-- the Capability Claim is supported;
-- required professional qualification has been verified where applicable;
-- the Service Package is admitted;
-- the Provider meets baseline data, communication, funds and performance requirements;
-- no general restriction prevents use of the Capability.
+MGSN Qualification should establish that the Provider may offer the Capability through the Network under defined conditions. It may rely on verified identity, relevant Professional Qualification, admitted package terms, accepted network obligations and no general restriction that blocks the service.
 
 Eligibility begins after that baseline.
 
@@ -90,103 +46,45 @@ Eligibility
 → permits inclusion in this Candidate Route Set
 ```
 
-A Provider that is not qualified should not be rescued by commercial preference, relationship history or route scarcity.
+Neither a preferred relationship nor commercial scarcity should rescue an unqualified Provider. Equally, qualification should not force inclusion when current facts make the route unusable.
 
-A Provider that is qualified should not be included automatically when current conditions make the route unsafe or unusable.
+## 3. The current decision uses material inputs
 
-## 4. Eligibility inputs
+Eligibility should use the inputs that genuinely affect the route rather than collecting every available fact.
 
-A robust Eligibility decision may consider several groups of inputs.
+The principal groups are:
 
-### 4.1 Need fit
+### Need fit
 
-- jurisdiction;
-- office or authority;
-- service family;
-- procedural stage;
-- desired outcome;
-- customer or applicant type;
-- goods, services or matter complexity;
-- language;
-- deadline and urgency;
-- required Evidence and Return;
-- relationship or delivery constraints.
+Jurisdiction, authority, service, procedural stage, deadline, urgency, language, applicant or customer constraints, required Evidence and delivery model.
 
-### 4.2 Provider and Capability state
+### Provider and Capability state
 
-- admission status;
-- Capability qualification;
-- current evidence;
-- responsible professional;
-- service restrictions;
-- suspension or review state;
-- package validity;
-- operational-readiness status.
+Admission, current qualification, responsible professional, package validity, restrictions, operational readiness and current Evidence.
 
-### 4.3 Conflict and professional constraints
+### Conflict and authority
 
-- customer identity where required;
-- related parties;
-- adverse parties;
-- current or former representation;
-- professional independence;
-- local appointment limitations;
-- required authority or mandate;
-- unresolved conflict status.
+Customer and related-party identity where required, current or former representation, professional independence, required appointment and unresolved conflict questions.
 
-### 4.4 Capacity and timing
+### Capacity and timing
 
-- declared availability;
-- response status;
-- workload;
-- office closure;
-- holiday or staffing issue;
-- document lead time;
-- courier or original-document dependency;
-- time required for conflict and acceptance;
-- deadline buffer.
+Availability, workload, office closures, document lead time, original-document dependencies, response time and deadline buffer.
 
-### 4.5 Commercial and funds conditions
+### Commercial and funds conditions
 
-- package version;
-- price validity;
-- official fee status;
-- tax and disbursement assumptions;
-- payment method;
-- currency or banking restrictions;
-- funds timing;
-- credit or prepayment condition;
-- customer budget constraint where relevant.
+Package scope, price validity, official fees, taxes, disbursements, prepayment, currency, banking restrictions and timing of funds.
 
-### 4.6 Data and security conditions
+### Data and relationship conditions
 
-- minimum necessary disclosure;
-- permitted transfer location;
-- confidentiality level;
-- personal or sensitive data;
-- document handling;
-- access permissions;
-- retention and deletion obligations;
-- need for a restricted communication channel.
+Minimum necessary disclosure, confidentiality, permitted transfer, restricted communication, Preferred Provider context, concentration risk and unresolved incidents.
 
-### 4.7 Network and relationship conditions
+The decision should be explainable without becoming an uncontrolled inventory of personal or commercial data.
 
-- existing preferred provider;
-- Relationship Provenance;
-- non-circumvention obligation;
-- affiliated-party disclosure;
-- concentration risk;
-- replacement readiness;
-- current Trust evidence;
-- unresolved complaint or dispute.
+## 4. Conflict is staged
 
-Eligibility should use only the inputs that are material to the route. More data is not automatically better decision-making.
+Not every Provider needs the customer’s identity at the beginning.
 
-## 5. Conflict is a staged decision
-
-Conflict checks often require identity disclosure, but not every provider needs to receive the customer’s identity.
-
-A possible staged process is:
+A sensible sequence may be:
 
 ```text
 preliminary fit without identity
@@ -196,131 +94,70 @@ preliminary fit without identity
 → final Eligibility
 ```
 
-Possible results may include:
-
-- clear;
-- conflict identified;
-- potential conflict requiring review;
-- information insufficient;
-- customer consent or waiver question;
-- provider unable to complete check;
-- source unavailable;
-- time insufficient for a safe decision.
+Possible results include clear, conflict identified, potential conflict requiring review, information insufficient or time insufficient for a safe decision.
 
 ```text
-conflict not identified
+Conflict not identified
 ≠ conflict cleared
 ```
 
-Where the check remains Unknown, the route should not be presented as fully eligible merely because no negative answer has appeared.
+Where the required check has not occurred, the route should remain conditional or Unknown rather than appear fully eligible.
 
-## 6. Availability is time-bound
+## 5. Availability is volatile
 
-Availability is one of the most unstable route inputs.
+A Provider may be qualified and generally active while unable to meet one deadline.
 
-A monthly declaration may be useful for portfolio planning. It may be inadequate for an urgent Matter.
-
-Availability should be tied to:
-
-- date and time;
-- expected service duration;
-- workload;
-- required responsible person;
-- Provider response;
-- deadline assumptions;
-- package conditions;
-- any capacity reservation.
-
-A route may move through states such as:
+Availability should be tied to the expected service duration, responsible professional, workload, Provider response and any capacity reservation.
 
 ```text
 availability unknown
-→ availability requested
+→ requested
 → provisionally available
 → capacity confirmed
 → Provider Acceptance
 ```
 
-A Provider’s failure to respond should not be interpreted as acceptance.
+Silence should not be converted into availability or acceptance.
+
+## 6. Professional fit is not enough
+
+A route may satisfy the professional requirements while failing commercially or operationally.
+
+The Package may have expired. Official fees may have changed. A required action may be excluded. The Provider may require prepayment that cannot be completed in time. Banking or data-transfer restrictions may block the route.
 
 ```text
-no decline received
-≠ available
-≠ accepted
-```
-
-## 7. Package and price validity
-
-A Provider can be qualified and available while the commercial route is still ineligible.
-
-Examples:
-
-- the package has expired;
-- official fees changed;
-- an inclusion no longer applies;
-- the Provider requires prepayment that cannot be completed in time;
-- the quote excludes a required action;
-- an urgent surcharge is unresolved;
-- banking restrictions prevent lawful payment;
-- the proposed customer-facing price no longer reflects the route.
-
-Eligibility should therefore check both professional fit and offer validity.
-
-```text
-professional fit
-+ unusable commercial terms
+Professional fit
++ unusable route conditions
 = ineligible route
 ```
 
-Price uncertainty can remain visible where the route is otherwise useful, but the Recommendation must not present an estimated route as fixed.
+Price uncertainty can remain visible when the route is otherwise useful, but an estimate must not be displayed as a fixed commitment.
 
-## 8. Relationship preference is an Eligibility input, not a bypass
+## 7. Relationship preference is an input, not a bypass
 
-A Workplace may prefer an existing Provider for legitimate reasons:
+An existing relationship may improve communication, preserve continuity and reduce onboarding work. It is a legitimate factor.
 
-- customer familiarity;
-- prior instruction history;
-- established communication;
-- reduced onboarding effort;
-- relationship protection;
-- prior successful work.
-
-MGSN should consider that preference.
-
-It should not override:
-
-- current qualification;
-- conflict;
-- availability;
-- package validity;
-- unacceptable risk;
-- material price difference without explanation;
-- customer interest;
-- suspension or restriction.
+It does not override current qualification, conflict, capacity, package validity, material risk or customer interest.
 
 ```text
-preferred
+Preferred
 ≠ eligible
 
-eligible
+Eligible
 ≠ recommended
 ```
 
-A relationship-preserved route can remain in the candidate set as a meaningful alternative even when another route is recommended, provided it remains safe and usable.
+A relationship-preserved route may remain a meaningful alternative when it is safe, even where another route is recommended.
 
-## 9. Eligibility is not ranking
+## 8. Eligibility is not ranking
 
-Eligibility is a threshold decision.
-
-It answers:
+Eligibility asks:
 
 > May this route be considered?
 
-It does not answer:
+Recommendation asks:
 
-> Is this the best route?
-
-Ranking or Recommendation occurs after the eligible set is formed.
+> Which eligible route best fits the Need and why?
 
 ```text
 Eligibility
@@ -330,203 +167,108 @@ Recommendation
 = reasoned choice among eligible routes
 ```
 
-This separation prevents commercial scoring from pulling an ineligible Provider into the candidate pool.
+This order prevents paid placement, platform margin or transaction volume from pulling an unsafe Provider into the Candidate Route Set.
 
-A Provider should not become eligible because it pays more, accepts lower procurement rates or generates more platform volume.
+## 9. Outcomes must express conditions and uncertainty
 
-## 10. Eligibility outcomes
+A binary result is often misleading.
 
-A useful decision model must support more than yes or no.
-
-Possible results may include:
+Useful outcomes include:
 
 ```text
 Eligible
 Eligible with disclosed conditions
-Eligible only after Provider confirmation
-Eligible only after customer approval
-Operator Review Required
-Professional Review Required
-Additional Evidence Required
-Conflict Review Required
-Package Refresh Required
-Temporarily Ineligible
+Provider confirmation required
+Customer approval required
+Conflict review required
+Additional Evidence required
+Package refresh required
+Operator or professional review required
+Temporarily ineligible
 Ineligible
 Unknown
 ```
 
-Each result should explain:
+The result should identify the Need and route versions evaluated, the material checks, unresolved conditions, validity period and next action.
 
-- evaluated Need version;
-- evaluated Provider/Capability/package;
-- evidence and source versions;
-- passed checks;
-- failed checks;
-- unresolved checks;
-- conditions;
-- expiry;
-- next action;
-- decision authority.
+A condition hidden in an operator note is not a governed condition. It must remain visible to route formation and Recommendation.
 
-The result should be reproducible enough for an operator to understand why the route entered or failed to enter the Candidate Route Set.
+## 10. No eligible route is a valid result
 
-## 11. Conditional Eligibility
+MGSN may find that no route can safely support the Need.
 
-A route may be useful only under conditions.
-
-Examples:
-
-- Provider must confirm capacity within two hours;
-- customer identity must pass conflict review;
-- official fees require refresh;
-- responsible professional must be named;
-- original power of attorney must follow within a deadline;
-- customer must accept an urgency surcharge;
-- the Provider may perform filing but not provide a broader opinion;
-- the route requires operator supervision;
-- the route is permitted only as a relationship-preserved route;
-- data disclosure must use a restricted channel.
-
-Conditional Eligibility should not be displayed as unconditional confidence.
-
-The Recommendation must show which condition remains open and whether the route can be accepted before it is resolved.
-
-## 12. No eligible route is a valid result
-
-MGSN may find no eligible Provider.
-
-That is not necessarily network failure.
-
-It may be the safest truthful result.
-
-Possible next steps include:
-
-- clarify or narrow the Need;
-- request more time;
-- remove an unnecessary constraint;
-- recruit or verify a specialist;
-- send the Matter to operator review;
-- use an external self-managed route;
-- disclose that MGSN cannot support the service;
-- safely decline;
-- preserve Unknown while further evidence is sought.
+The next step may be to clarify the Need, request more time, recruit a specialist, use an external self-managed route, escalate for review or safely decline.
 
 ```text
-no eligible route
+No Eligible Route
 ≠ permission to use an unverified contact
 ```
 
-A network that always produces a route will eventually produce false routes.
+A Network that always produces a route will eventually produce false routes.
 
-## 13. Re-evaluation triggers
+## 11. Eligibility expires
 
-Eligibility expires when material inputs change.
+Material changes should trigger targeted re-evaluation:
 
-Triggers may include:
+- Need or deadline changes;
+- conflict information arrives;
+- availability changes;
+- price or Package expires;
+- Professional Qualification or responsible professional changes;
+- a Provider is restricted;
+- data, sanctions or funds conditions change;
+- the requested action becomes more sensitive.
 
-- Need version change;
-- deadline change;
-- customer identity disclosure;
-- conflict result;
-- Provider availability change;
-- package expiry;
-- price refresh;
-- evidence expiry;
-- responsible-professional change;
-- Provider restriction or incident;
-- data or sanctions change;
-- customer route preference;
-- new related party;
-- required action becoming more sensitive.
-
-The system should re-evaluate only the affected conditions where possible, while preserving the previous result and reason.
+The previous decision and its reasons should remain available for audit.
 
 ```text
 Eligibility v1
 ≠ permanent route entitlement
 ```
 
-## 14. Eligibility and AI
+## 12. AI may assist but not manufacture the result
 
-AI may help:
+AI can compare Need, Capability and Package fields, identify missing information, summarize Evidence, detect stale inputs and draft an explanation.
 
-- compare Need fields to Capability and package fields;
-- detect missing information;
-- identify obvious restrictions;
-- summarize evidence;
-- generate an eligibility explanation;
-- flag stale or conflicting data;
-- prioritize operator review.
+It must not infer Professional Qualification from weak evidence, clear a conflict, invent availability, approve disclosure, turn Unknown into Eligible, appoint the Provider or authorize an external action.
 
-AI should not:
+The decision should preserve which parts were rule-based, model-assisted, human-reviewed or externally confirmed.
 
-- infer legal qualification from weak evidence;
-- clear conflicts;
-- invent Provider availability;
-- approve customer disclosure;
-- convert Unknown into Eligible;
-- bypass professional or human review;
-- appoint the Provider;
-- authorize an external action.
+## 13. Representative failure patterns
 
-```text
-AI eligibility support
-≠ authority to create Eligibility where required evidence is absent
-```
+### Qualified treated as available
 
-The decision should preserve which parts were deterministic, model-assisted, human-reviewed or externally confirmed.
+A current Provider is routed to an urgent Matter without capacity confirmation.
 
-## 15. Failure modes
+**Recovery:** retain Qualification but mark Eligibility unresolved until availability is confirmed.
 
-### 15.1 Qualified means always available
+### No conflict found treated as conflict cleared
 
-A Provider with current qualifications is routed to an urgent Matter without confirming capacity.
+Identity was never disclosed, yet the route is labelled conflict-free.
 
-Correct response: keep qualification stable but mark current Eligibility unresolved or negative until availability is confirmed.
+**Recovery:** record the missing check and gate final Eligibility.
 
-### 15.2 No conflict found means conflict cleared
+### Preferred relationship bypasses route conditions
 
-The customer identity was never disclosed, yet the route is labelled conflict-free.
+An old associate is included despite an expired Package and weak evidence.
 
-Correct response: record that conflict review has not occurred and gate final Eligibility.
+**Recovery:** preserve Relationship Provenance while applying the same current gates.
 
-### 15.3 Relationship preference overrides restriction
+### Commercial preference enters before Eligibility
 
-A long-term Provider is included despite an expired package and current evidence review.
+A high-margin Provider appears in the route set although the service does not fit.
 
-Correct response: preserve the preference but exclude or condition the route.
+**Recovery:** remove the route and review the commercial conflict in routing logic.
 
-### 15.4 Low price creates Eligibility
+## 14. Product principle
 
-A Provider that does not meet the professional scope is included because its procurement price is attractive.
-
-Correct response: apply professional and authority gates before commercial comparison.
-
-### 15.5 Stale Eligibility survives Need change
-
-The Need expands from routine filing to refusal response, but the original route remains eligible.
-
-Correct response: version the Need and re-evaluate Capability, qualification, package and authority.
-
-### 15.6 Unknown becomes positive through timeout
-
-A Provider does not answer the capacity request, and the system assumes availability after the deadline.
-
-Correct response: preserve Unknown or mark the route unavailable for the current deadline.
-
-## 16. Product principle
-
-Eligibility is the network’s current answer to a bounded question:
-
-> Can this qualified route safely and usefully serve this Need now, under the stated conditions?
+Eligibility turns admitted supply into a truthful current decision.
 
 ```text
-qualified supply
-+ exact Need
-+ current conflict, capacity, package, data and risk context
-= Eligibility decision
+Qualified Supply
++ Exact Need
++ Current Conditions
+= Eligible Route or a governed non-route result
 ```
 
-Eligibility protects the Candidate Route Set from stale, conflicted, commercially unusable or operationally impossible routes.
-
-The next chapter explains why the network should return a bounded set of meaningful alternatives rather than a provider directory, a hidden single route or a long list that pushes professional judgment back onto the user.
+The next chapter explains how eligible routes should be reduced to a small set of materially different alternatives rather than returned as another provider directory.
