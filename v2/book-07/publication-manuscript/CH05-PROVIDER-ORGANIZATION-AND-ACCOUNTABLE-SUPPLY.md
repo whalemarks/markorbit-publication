@@ -1,91 +1,71 @@
 # CH05 — Provider Organization and Accountable Supply
 
-A global service network cannot begin with a provider name.
+A global service network cannot begin with a name in an address book.
 
-A name may identify a person, a firm, a former colleague, a billing contact or an email address that once produced a successful result. None of those facts alone establishes who is responsible for a new professional engagement.
+A familiar person may have handled several matters well. The invoice may have come from a respected firm. The same email address may still work. Yet none of those facts alone answers the question that matters when a new instruction is at risk:
 
-MGSN therefore begins supply formation with an accountable Organization.
+> Which Organization is accepting responsibility for this exact service?
+
+MGSN therefore begins supply formation with an accountable Organization, not a remembered contact.
 
 ```text
 known contact
-≠ accountable Organization
-≠ admitted Provider representation
-≠ qualified Capability
+≠ accountable Provider Organization
 ≠ accepted engagement
 ```
 
-This distinction is more than data hygiene. It determines who accepts the work, who supervises the people performing it, who receives funds, who must correct an error and who remains answerable when a deadline is missed.
+This is not a clerical distinction. It determines who may accept the work, who supervises it, who receives money, who must correct an error and who remains answerable when a deadline is missed.
 
-## 1. The practical ambiguity behind a provider name
+## The ambiguity behind “our agent”
 
-International service relationships often develop informally.
-
-A professional may say:
+International relationships often develop through shorthand:
 
 - “We use Maria in this country.”
-- “This firm handled our last filing.”
-- “The old partner introduced us to a reliable lawyer.”
-- “Send it to the general trademark mailbox.”
+- “This firm handled our last case.”
+- “The old partner introduced us.”
+- “Send it to the general mailbox.”
 - “The invoice comes from another company, but the work is the same.”
 
-Each statement may contain useful history. Each can also hide a different responsibility structure.
+Each statement may describe useful history. Each may also conceal a different responsibility structure.
 
-The person receiving the email may not be the licensed professional. The professional may have moved firms. The firm named on an old invoice may have merged or dissolved. A local representative may subcontract another office. A group may use one commercial brand while separate legal entities perform work in different jurisdictions.
+The contact may have moved firms. The licensed professional may be someone else. The billing entity may not perform the work. A local office may pass the matter to another office. A commercial brand may represent several separate legal entities.
 
-When the network stores only a contact, it cannot reliably answer:
+A managed network must therefore be able to identify, at minimum:
 
-```text
-Who is the contracting participant?
-Who is the responsible professional?
-Which legal entity performs the service?
-Which office has jurisdictional authority?
-Who may accept instructions?
-Who may receive money?
-Who must return evidence?
-Who remains responsible for correction?
-```
+- the Organization participating in MGSN;
+- the office or jurisdictional context relevant to the service;
+- the people authorized to communicate or accept work;
+- the responsible professional where the service requires one;
+- any billing, affiliate or subcontracting relationship that changes accountability.
 
-A managed network must resolve these questions before it treats the relationship as usable supply.
+Without this structure, replacement, correction and funds reconciliation become guesswork.
 
-## 2. Organization is the stable participant identity
+## Organization is the stable participant
 
-The stable participant is the Organization.
+An Organization may be a law firm, trademark agency, translation company, investigation firm, notarial service or another institution capable of accepting service obligations.
 
-An Organization may be a law firm, trademark agency, translation company, investigation company, notarial service organization or another institution capable of accepting accountable service obligations.
+MGSN does not need to reproduce a universal corporate registry. It needs enough verified identity to attach network responsibility to the right participant.
 
-The Organization identity may include:
-
-- legal or registered name;
-- trading name where relevant;
-- legal form;
-- registration jurisdiction;
-- office locations;
-- current status;
-- official or professional identifiers;
-- authorized representatives;
-- approved operating contacts;
-- related or affiliated Organizations;
-- accepted network terms;
-- applicable restrictions or review flags.
-
-The purpose is not to create a universal corporate registry inside MGSN. The purpose is to identify the participant to which network responsibility attaches.
+The practical model is:
 
 ```text
 Person communicates.
 Organization participates.
 Responsible professional exercises professional judgment.
-Engagement records who accepted this exact work.
+Engagement records who accepted the work.
 ```
 
-These layers may overlap in a small practice, but they should not be collapsed.
+These roles may overlap in a small practice, but they should not be assumed to be identical.
 
-## 3. Provider is a contextual role, not a permanent species
+If a familiar lawyer changes firms, the relationship history can remain useful. The network must still determine which Organization is now participating, which professional authority continues and whether the existing engagement or package remains valid.
 
-An Organization is not permanently divided into either a buyer or a provider.
+## Provider is a contextual role
 
-A Chinese trademark agency may request United States filing capability while supplying China prosecution capability. A European law firm may provide local representation while purchasing translation or evidence-gathering support elsewhere. A specialist provider may request another provider for a service outside its own authority.
+An Organization is not permanently either a buyer or a provider.
 
-MGSN therefore treats Demand and Supply as contextual roles.
+A Chinese trademark agency may provide China prosecution services while purchasing United States filing capability. A European firm may provide local representation while buying translation or investigation support. A specialist may supply one Capability and request another.
+
+MGSN therefore treats Demand and Supply as contextual roles attached to an Organization.
 
 ```text
 Organization
@@ -93,287 +73,156 @@ Organization
 └── Supply Role for an admitted Capability
 ```
 
-The Supply Role is active only where the Organization has an admitted, qualified and currently usable Capability. The Demand Role arises only where an authorized Workplace projects a valid Capability Need.
+The shared Organization identity may preserve relationship history and Trust evidence. Operational access must still remain role-specific.
 
-A shared Organization identity can preserve relationship history and Trust evidence, but the two roles must not share unrestricted operational access.
+A firm acting on both sides of the network should not automatically expose the same customer data, conflict material, procurement terms, provider prices, receivables or payables in both contexts. Related-party decisions may require additional review.
 
-Dual participation requires separation of:
+The same participant can occupy both roles without collapsing them.
 
-- permissions;
-- customer visibility;
-- conflict data;
-- procurement terms;
-- provider pricing;
-- demand-side payables;
-- provider-side receivables;
-- settlement records;
-- audit context;
-- related-party decisions.
+## The Provider Network Profile
 
-```text
-same Organization
-≠ same role
-≠ same permission
-≠ same financial position
-≠ same customer access
-```
-
-## 4. The Provider Network Profile
-
-The Organization is the stable identity. The Provider Network Profile is MGSN’s governed representation of that Organization in a supply context.
+The Organization is the stable identity. The Provider Network Profile is MGSN’s governed supply-side representation of that Organization.
 
 It answers a narrower question:
 
 > What does the network currently know and permit about this Organization as a potential provider?
 
-A Provider Network Profile may contain:
+The profile may include verified identity references, offices, authorized contacts, languages, conflict process, confidentiality commitments, professional-status references, Capability Claims, package participation, restrictions and review dates.
 
-- verified Organization identity references;
-- relevant office and jurisdiction context;
-- professional and regulatory status references;
-- approved contacts and communication roles;
-- supported languages;
-- conflict-check process;
-- confidentiality and data-handling commitments;
-- funds and settlement prerequisites;
-- network participation state;
-- Capability Claims;
-- qualification results;
-- restrictions, suspensions and review dates;
-- correction and appeal history.
-
-The profile is not the provider’s entire internal system. It does not transfer ownership of staff records, methods, customer lists, internal costs or professional work product to the platform.
+It is not the Provider’s entire operating system.
 
 ```text
 Provider Workplace
-= provider-owned operating context
+= Provider-owned operations, people and professional methods
 
 Provider Network Profile
-= platform-governed supply representation
+= platform-governed representation used for network decisions
 ```
 
-The profile exists so MGSN can decide whether and how the Organization may appear in a managed route.
+MGSN does not acquire the Provider’s customer list, internal costs, staff files or work methods merely because the Organization participates in the network.
 
-## 5. Capability must be granular
+## Capability must be bounded
 
-The label “foreign agent” is not a sufficient Capability description.
+Labels such as “foreign agent”, “US lawyer” or “translation provider” are too broad for routing.
 
-Neither is:
-
-- “US lawyer”;
-- “EU representative”;
-- “translation provider”;
-- “trademark specialist”;
-- “renewal agent.”
-
-A routable Capability must be bounded enough to answer:
+A routable Capability must identify enough context to answer:
 
 ```text
-Who can perform
-what service
+who can perform
+which service
 in which jurisdiction
-for which procedural stage
-under which qualification
-with which limitations
-and with what expected evidence?
+at which procedural stage
+under which qualification and limitations
+with what expected evidence
 ```
 
-Relevant dimensions may include:
+A firm may handle routine applications but not oppositions. It may conduct administrative prosecution but not litigation. A translator may prepare a translation but not offer legal advice. A Provider may be suitable for ordinary work and unavailable for an urgent deadline.
 
-- jurisdiction and authority;
-- service family;
-- procedural stage;
-- ordinary or contentious work;
-- applicant or owner type;
-- language;
-- document requirements;
-- urgency;
-- regulated-sector limitations;
-- signing or local-representation requirements;
-- exclusions;
-- referral or subcontracting dependencies.
+MGSN therefore represents supply through bounded Capability Claims rather than a universal “approved provider” label.
 
-An Organization may handle ordinary applications but not hearings. It may conduct administrative prosecution but not litigation. It may translate evidence but not provide legal conclusions. It may be available for routine work while unable to accept urgent deadlines.
+The detailed verification and qualification of those claims belongs in CH08. At this stage, the important point is structural: the Organization accepts responsibility, while the Capability defines what that responsibility can cover.
 
-A managed network therefore represents supply as bounded Capability Claims rather than one universal provider label.
+## The responsible professional remains distinct
 
-## 6. The responsible professional and the Organization
+Some services require a responsible professional whose qualification and authority are linked to the Provider Organization.
 
-For some services, the Organization alone is not enough.
-
-The engagement may require a responsible professional whose qualification, role and authority are linked to the Organization. The network should be able to distinguish:
+The network should preserve the distinction among:
 
 ```text
 Provider Organization
-≠ responsible professional
-≠ operating contact
-≠ billing contact
-≠ local subcontractor
+responsible professional
+operating contact
+billing contact
+supporting or local participant
 ```
 
 The Organization may remain contractually and operationally accountable while a named professional exercises reserved judgment or signs a protected submission.
 
-The correct relationship depends on the service and applicable rules. MGSN should not invent that relationship. It should record the evidence and scope required for the route under review.
+If that professional leaves, MGSN should not make either of two opposite mistakes:
 
-Where a responsible professional changes, the network must decide whether:
+- treating the Organization as though its accountability disappeared; or
+- assuming that the same professional authority automatically continues through another person.
 
-- the Organization remains qualified;
-- a replacement professional is acceptable;
-- the affected package should be restricted;
-- open engagements require disclosure or approval;
-- the change creates a conflict, delay or authority gap.
+The affected Capability, package and open engagements may need re-verification, restriction, disclosure or replacement.
 
-The departure of one person should not silently erase organizational accountability. Nor should organizational continuity be used to assume that professional authority remains unchanged.
+## Existing relationships remain valuable
 
-## 7. Existing relationships and Relationship Provenance
+A Workplace may introduce a Provider it has used for years. That history can reduce coordination cost, preserve customer continuity and explain a route preference.
 
-A participant may introduce a trusted provider it has used for years.
+MGSN records this as Relationship Provenance.
 
-That history matters. It may support:
+The history matters, but it does not create permanent ownership of the Provider or customer. Nor does it bypass current checks.
 
-- route familiarity;
-- communication efficiency;
-- known working style;
-- continuity for an existing customer;
-- recommendation explanation;
-- bounded referral attribution;
-- non-circumvention review.
-
-MGSN should preserve this history as Relationship Provenance.
-
-But provenance does not create ownership of the provider or the customer.
+A relationship-preserved route still depends on current identity, Capability, conflict, availability, package terms and risk.
 
 ```text
-prior relationship
-≠ current qualification
-≠ permanent exclusivity
-≠ unrestricted customer access
-≠ automatic routing priority
+relationship preference
+≠ routing monopoly
 ```
 
-A prior provider can be presented as a relationship-preserved route only after current identity, Capability, conflict, availability, price and risk checks.
+The network should preserve professional capital without allowing history to become unchallengeable authority.
 
-The network protects history without turning history into monopoly.
+## Accountability begins with Provider Acceptance
 
-## 8. Accountable supply requires explicit acceptance
+An admitted Organization does not become responsible for a Matter merely because it appears in the network or is selected by a user.
 
-Even a fully admitted Organization does not become responsible for a Matter until it accepts the specific engagement.
-
-The accountable chain is:
+The chain is:
 
 ```text
 Organization identified
-→ Provider representation admitted
+→ supply representation admitted
 → Capability qualified
 → route eligible
-→ provider allocated
+→ Provider allocated
 → Provider Acceptance recorded
 → instruction authorized
 → work performed
 ```
 
-Provider Acceptance should confirm at least:
+Provider Acceptance should confirm the exact scope, relevant package, responsible contact or professional, price basis, deadline assumptions, conflict result, data obligations, expected deliverables and unresolved conditions.
 
-- the accepting Organization;
-- the relevant Capability and package;
-- the scope;
-- the responsible contact or professional where required;
-- price and funds prerequisites;
-- deadline assumptions;
-- conflict result;
-- data obligations;
-- expected deliverables and Return;
-- exclusions and unresolved conditions.
+Until that acceptance exists, MGSN has a possible route—not an accountable engagement.
 
-Without acceptance, the network has a possible route, not an accountable provider.
+Provider Acceptance also does not authorize every later action. Customer approval, professional authority and protected-action approval remain separate.
 
-```text
-Provider selected
-≠ Provider accepted
+## What failure reveals
 
-Provider accepted
-≠ customer authorized every action
-```
+Identity failures often remain invisible while work proceeds normally.
 
-Matter-specific customer authority and protected-action approval remain separate.
+They become obvious when:
 
-## 9. Failure modes when identity and responsibility are collapsed
+- the contact moves firms;
+- a different entity requests payment;
+- the experienced operator lacks authority for the action;
+- an affiliate influences selection without disclosure;
+- the Provider disappears during an open engagement.
 
-### 9.1 The contact moved firms
+In each case, recovery requires the network to reconstruct who accepted what, which Organization was responsible, which professional held authority, where the funds went and what evidence exists.
 
-A Workplace sends instructions to a familiar person without verifying the new Organization. The old firm believes it still holds the Matter; the new firm assumes it has authority; the customer does not know the representation changed.
+That reconstruction is possible only when identity and acceptance were recorded before the failure.
 
-Recovery requires identity reconciliation before further action.
-
-### 9.2 The invoice entity differs from the performing entity
-
-Funds are requested by one company while another performs the work. Without a disclosed relationship, tax, sanctions, refund and accountability questions become unclear.
-
-Recovery requires related-party disclosure and funds revalidation.
-
-### 9.3 The person is experienced but not authorized for the action
-
-A known operator prepares the work, but a protected filing or professional opinion requires another qualified person.
-
-Recovery requires the correct responsible professional and explicit action authority. Experience cannot fill the authority gap.
-
-### 9.4 The Organization provides and buys in the same engagement
-
-An affiliate on the demand side influences selection of an affiliated provider without disclosure.
-
-Recovery requires related-party review, conflict controls and independent approval.
-
-### 9.5 The provider disappears during an open engagement
-
-The network has only an email contact and no Organization-level acceptance record. Replacement becomes a forensic exercise.
-
-Recovery requires reconstructing scope, funds, documents, deadline and evidence before transfer.
-
-These failures show why accountable identity must be established before convenience.
-
-## 10. Exit does not erase responsibility
+## Exit does not erase responsibility
 
 An Organization may leave the network, lose a Capability, become suspended or retire a package.
 
-The change should stop unauthorized new work. It should not erase:
+The change may stop new work. It must not erase accepted engagements, instructions, funds records, Evidence, correction duties, dispute rights or audit history.
 
-- accepted engagements;
-- prior instructions;
-- funds records;
-- Evidence;
-- correction obligations;
-- dispute rights;
-- audit history;
-- legal retention duties.
+Open work must reach a controlled disposition: completion, correction, transfer, refund review, dispute, safe termination or reconciliation of an Unknown state.
 
-An open engagement must reach a controlled disposition:
+A Provider cannot become historically invisible merely because its current network status changed.
 
-```text
-complete
-transfer
-correct
-refund consideration
-dispute
-safe termination
-unknown pending reconciliation
-```
+## Product principle
 
-A provider cannot become historically invisible merely because its network state changed.
-
-## 11. Product principle
-
-MGSN does not route work to a generic contact.
-
-It forms accountable supply through four connected layers:
+MGSN forms accountable supply through four connected layers:
 
 ```text
 stable Organization
 + governed Provider Network Profile
-+ bounded Capability context
++ bounded Capability
 + matter-specific Provider Acceptance
 = accountable supply route
 ```
 
-This structure allows personal relationships to remain useful while making responsibility visible.
+The structure allows personal relationships to remain useful while making responsibility visible.
 
-The next chapter turns from identity to lifecycle. It explains why invitation, admission, qualification, activation, suspension and exit must remain separate decisions.
+The next chapter explains how a possible Provider moves from discovery to bounded activation—and why admission must remain a lifecycle rather than a one-time badge.
