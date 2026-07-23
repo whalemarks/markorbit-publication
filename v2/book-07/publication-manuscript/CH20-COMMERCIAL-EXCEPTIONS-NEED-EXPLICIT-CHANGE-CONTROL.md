@@ -1,68 +1,48 @@
 # CH20 — Commercial Exceptions Need Explicit Change Control
 
-Most service engagements begin with a package, price and deadline that appear stable.
+Professional engagements rarely remain exactly as first quoted.
 
-Then reality changes.
+The authority raises a fee. The customer adds a class. A deadline becomes urgent. Translation or legalization becomes necessary. A Provider discovers work outside the package. A conflict requires replacement. A bank restriction blocks the original payment path.
 
-The authority raises a fee. The Provider discovers a document problem. The customer adds another class. A conflict requires replacement. An urgent deadline creates overtime. A translation becomes necessary. A filing route changes. A bank restriction blocks payment. An official notice arrives earlier than expected.
-
-These are not rare edge cases. They are normal features of cross-border professional work.
-
-The danger begins when each exception is handled through an informal message that silently changes scope, price, authority or responsibility.
+These events are normal. The danger begins when they are handled through informal messages that silently rewrite scope, price, authority or responsibility.
 
 ```text
 commercial exception
 ≠ permission to rewrite the engagement silently
 ```
 
-MGSN therefore treats material commercial exceptions as governed change events.
+MGSN therefore treats material exceptions as governed change events.
 
-## 1. What counts as a commercial exception
+## 1. What requires change control
 
-A commercial exception is a material deviation from the accepted Service Package, Instruction Package, price, timing, Provider route or funds arrangement.
+A full change process is usually justified where the accepted engagement changes materially in:
 
-Examples include:
+- scope or procedural stage;
+- price or cost layer;
+- deadline or urgency;
+- Provider or responsible professional;
+- beneficiary or funds path;
+- customer data disclosure;
+- required Evidence;
+- authority or protected action;
+- cancellation, refund or correction treatment.
 
-- additional professional work;
-- new official fees;
-- increased official fees;
-- urgent-service surcharge;
-- extra translation or legalization;
-- additional goods, classes, applicants or jurisdictions;
-- revised deadline assumptions;
-- new Provider or supporting participant;
-- beneficiary change;
-- currency or tax change;
-- additional evidence requirement;
-- cancellation or pause;
-- correction caused by an earlier defect;
-- refund or credit proposal;
-- a change from R2 to R3 or R1.
+Minor clarification need not create unnecessary bureaucracy. The test is whether the change affects what someone must do, pay, approve, disclose or remain accountable for.
 
-A minor administrative clarification may not require full change control. A material change to price, authority, route, data, deadline or expected result usually does.
+## 2. Preserve the old and new engagement
 
-## 2. The change-control record
+A governed change should record:
 
-A governed change should identify:
-
-- engagement and current version;
-- change trigger;
-- requesting party;
-- date and urgency;
-- old scope and new scope;
-- old price and new price;
+- the current engagement version;
+- trigger and requesting party;
+- old and proposed scope;
+- old and proposed price;
 - affected cost layers;
-- deadline impact;
-- Provider and responsible-professional impact;
-- data or confidentiality impact;
-- authority required;
-- Evidence supporting the change;
-- alternatives;
-- consequence of rejection;
-- approval, rejection or pending state;
-- effective version.
-
-The record should make the difference visible rather than overwrite the original engagement.
+- deadline, Provider, data and authority impact;
+- supporting Evidence;
+- alternatives and consequences;
+- required approval;
+- final decision and effective version.
 
 ```text
 Engagement v1
@@ -71,338 +51,170 @@ Engagement v1
 → Engagement v2
 ```
 
-## 3. Price increases
+The original agreement should remain visible. A new message must not silently replace it.
 
-A Provider may request a price increase because:
+## 3. A Provider price request is not automatically payable
 
-- the scope was misunderstood;
-- official charges changed;
-- the Matter became more complex;
-- urgency increased;
-- additional work became necessary;
-- the original quote expired.
+A Provider may request more money because scope expanded, urgency changed, official charges increased or the original quote expired.
 
-The change request should separate:
-
-- Provider fee increase;
-- official-fee increase;
-- tax or disbursement increase;
-- platform-managed service increase;
-- customer-facing price change.
+The request should separate Provider fees, official fees, taxes, disbursements and any platform or customer-facing change.
 
 ```text
 Provider requests more money
 ≠ customer automatically owes more
 ```
 
-The network must check the accepted package, cause, evidence, prior disclosures and approval authority.
+The network must check the accepted package, cause, prior disclosure, Evidence and approval authority.
 
-## 4. Official-fee changes
+## 4. Official-fee changes require a source
 
-Official fees may change outside the Provider’s control.
+Official charges can change outside the Provider’s control. A valid change should identify the old and new amount, effective date, affected action, source, whether payment already occurred and the deadline consequence.
 
-A valid request should include the best available source or Evidence and identify:
+Where the source remains uncertain, the route should show the uncertainty instead of presenting the increase as settled fact.
 
-- old amount;
-- new amount;
-- effective date;
-- affected action;
-- whether the fee was already paid;
-- whether the action can wait;
-- refund or top-up treatment;
-- deadline risk.
+## 5. Scope expansion reopens dependent decisions
 
-Where the source remains uncertain, the route should state the uncertainty rather than presenting the change as settled fact.
+A new class, jurisdiction, applicant, translation, search or refusal response can affect far more than price.
 
-## 5. Scope expansion
-
-Scope may expand when the customer requests:
-
-- another class;
-- another country;
-- another applicant;
-- additional goods;
-- a priority claim;
-- translation;
-- search;
-- response to an official action;
-- another procedural stage.
-
-Scope expansion should update:
-
-- Need version;
-- Eligibility;
-- Service Package application;
-- price;
-- deadline;
-- documents;
-- conflict and authority review where relevant;
-- Provider Acceptance.
+The change may require renewed review of:
 
 ```text
-small customer request
-may create
-new professional and commercial obligations
+Need Version
+Eligibility
+Service Package
+Price
+Deadline
+Documents
+Conflict and Authority
+Provider Acceptance
 ```
 
-The change should not be appended to an old email while the system continues to display the old scope.
+A seemingly small customer request can create a new professional and commercial obligation. It should not be appended to an old email while the system continues to display the old scope.
 
-## 6. Emergency changes
+## 6. Urgency compresses time, not authority
 
-Urgency can justify faster decisions. It does not justify invisible decisions.
+Emergency changes may justify shortened review, a provisional estimate, rapid substitution, a narrower service or later documentation of an oral decision.
 
-An emergency change may require:
-
-- shortened review;
-- provisional estimate;
-- urgent Provider substitution;
-- additional fee;
-- narrowed service;
-- explicit risk acceptance;
-- temporary communication channel;
-- later documentation of an oral decision.
-
-The network should preserve:
+The record should still preserve:
 
 ```text
 what was known
-what was unknown
+what was Unknown
 who decided
 why delay was unsafe
 what remains to be reconciled
 ```
 
-Emergency action must still stop where professional, customer or protected-action authority is missing.
+Urgency does not authorize payment to an unverified beneficiary or a protected action without the required authority.
 
-## 7. Provider-caused correction
+## 7. Correction cost depends on cause
 
-An additional charge should not automatically be passed to the customer when the need arises from a Provider error.
+When additional work arises from a defect, the cost should not automatically be passed to the customer.
 
-The network should determine:
+The review should consider whether:
 
-- whether the original scope was clear;
-- whether the Provider used the approved version;
-- whether the defect was avoidable;
-- whether another participant contributed;
-- whether an official charge is unavoidable;
-- which correction obligations were accepted;
-- whether credit, refund or no-charge correction applies.
+- the original scope was clear;
+- the Provider used the approved version;
+- the defect was avoidable;
+- another participant contributed;
+- official charges are unavoidable;
+- a no-charge correction duty was accepted.
 
 ```text
 additional work occurred
 ≠ additional customer charge justified
 ```
 
-The conclusion may require professional, commercial or dispute review.
+Possible outcomes include no-charge correction, customer-funded scope change, shared cost, credit, refund or further dispute review.
 
-## 8. Customer-caused change
+## 8. Provider substitution changes the route
 
-A customer may change instructions after preparation or filing readiness.
-
-The change record should distinguish:
-
-- change before work began;
-- change after preparation;
-- change after approval;
-- change after protected action;
-- change after official fee payment.
-
-The economic consequence may differ at each stage.
-
-The Workplace should explain what work has already been earned and what future cost the new instruction creates.
-
-## 9. Provider substitution
-
-Changing Provider is both an operational and commercial exception.
-
-The change may affect:
-
-- price;
-- qualification;
-- conflict;
-- deadline;
-- data transfer;
-- documents;
-- funds already sent;
-- responsibility for prior work;
-- customer approval;
-- Evidence and Return.
+Replacing a Provider affects qualification, conflict, price, deadline, data transfer, documents, funds and responsibility for prior work.
 
 ```text
 replacement route
-≠ automatic continuation of old commercial terms
+≠ automatic continuation of old terms
 ```
 
-The new Provider must accept the revised route. The old Provider’s earned amount, refund obligation and open correction duties must be reconciled separately.
+The new Provider must accept the revised route. The former Provider’s earned amount, unused funds and open correction duties require separate reconciliation.
 
-## 10. Beneficiary and payment-path changes
+## 9. Beneficiary changes require renewed controls
 
-A new bank account, affiliate or payment route is material.
+A new bank account, affiliate or payment route should trigger identity, relationship, invoice, restriction and fraud checks.
 
-The change should trigger:
+A deadline must not force payment to an unverified beneficiary.
 
-- identity and relationship verification;
-- invoice review;
-- sanctions or restriction checks where required;
-- fraud controls;
-- currency and fee review;
-- refund-responsibility confirmation;
-- authorized approval.
+## 10. Cancellation is commercial and operational
 
-A deadline should not force payment to an unverified beneficiary.
+Cancellation may occur before Acceptance, after partial work, after official payment, after a protected action or during correction.
 
-## 11. Cancellation
+The record should state:
 
-Cancellation is not one state.
-
-It may occur:
-
-- before Provider Acceptance;
-- after Acceptance but before work;
-- after partial work;
-- after official fees are paid;
-- after protected action;
-- during correction;
-- during dispute.
-
-The cancellation record should state:
-
-- effective time;
-- authority;
-- work completed;
-- work stopped;
+- effective time and authority;
+- work completed and stopped;
 - official consequences;
-- evidence preserved;
+- Evidence preserved;
 - funds and refund treatment;
-- customer communication;
-- whether formal withdrawal or another action is required.
+- whether formal withdrawal is required.
 
 ```text
 commercial cancellation
 ≠ official withdrawal
 ```
 
-## 12. Credits and refunds
+Ending the commercial engagement does not necessarily reverse an official action already taken.
 
-A commercial exception may resolve through:
+## 11. Different changes require different approval
 
-- no-charge correction;
-- credit against future work;
-- partial refund;
-- full refund;
-- waived platform fee;
-- Provider fee reduction;
-- absorbed official or emergency cost;
-- negotiated settlement.
-
-The resolution should identify who bears the cost and why.
-
-A credit should not hide a repeated performance failure from Trust and portfolio review.
-
-## 13. Approval authority
-
-Different changes require different approval.
-
-- a Provider may confirm operational feasibility;
-- a professional may approve legal scope;
-- a customer may approve additional work or protected action;
-- a Workplace may approve commercial margin;
-- Finance may approve payment or refund;
-- MGSN may approve network route changes;
-- an operator may document but not authorize.
+A Provider may confirm feasibility. A professional may approve professional scope. A customer may approve additional work or a protected action. A Workplace may approve its commercial position. Finance may authorize payment or refund. MGSN may govern the route change.
 
 ```text
 person who receives the request
 ≠ person authorized to approve it
 ```
 
-## 14. Version and supersession
+An operator may document and escalate without holding the authority to decide.
 
-Once approved, the change should create a new effective version.
+## 12. Declined and unresolved changes
 
-The system should preserve:
+A change request may be rejected or remain unresolved.
 
-- previous package or instruction;
-- change request;
-- evidence;
-- approvals;
-- new version;
-- effective time;
-- actions performed under each version.
+The safe outcomes may include:
 
-This makes later disputes answerable.
-
-## 15. Declined or unresolved changes
-
-A change request may be declined.
-
-The result may be:
-
-- continue under original terms;
+- continue under the original terms;
 - narrow the scope;
 - pause;
 - cancel;
 - select another Provider;
-- choose R1;
+- choose an external self-managed route;
 - escalate;
-- remain Unknown pending evidence.
+- remain Unknown pending Evidence.
 
-The network should not allow the Provider to proceed under unapproved new terms merely because the customer has not responded.
+The Provider should not proceed under new terms merely because the customer or Workplace has not responded.
 
-## 16. AI boundaries
+## 13. Representative failure patterns
 
-AI may assist with:
+### Fee increase is buried in a reply
 
-- comparing old and new scope;
-- extracting price changes;
-- identifying affected cost layers;
-- detecting missing approval;
-- drafting a change summary;
-- flagging beneficiary or Provider changes;
-- tracking superseded versions.
+The Provider sends a new total without cause or cost-layer explanation. The correction is to require a typed change request.
 
-AI must not:
+### Customer changes goods after approval
 
-- approve an exception;
-- decide liability;
-- authorize extra payment;
-- waive customer rights;
-- infer consent from silence;
-- determine a professional action should proceed.
+The new list is used without a new instruction version. The correction is to update the Need and Instruction Package and obtain the required approvals.
 
-## 17. Failure modes
+### Urgency bypasses beneficiary checks
 
-### 17.1 Fee increase buried in a reply
+Funds are sent to new bank details to avoid missing a deadline. The correction is to hold the payment path and evaluate safe alternatives.
 
-The Provider sends a new total without identifying the cause.
+### Provider error becomes a customer surcharge
 
-Correct response: require a typed change request with cost-layer and scope explanation.
+A correction fee is passed through without reviewing responsibility. The correction is to determine cause and accepted correction duties before allocating cost.
 
-### 17.2 Customer changes goods after approval
+### Cancellation erases completed work
 
-The new list is used without a new instruction version.
+The engagement is simply marked cancelled. The correction is to preserve completed milestones, official consequences and funds reconciliation.
 
-Correct response: update the Need and Instruction Package and obtain the required approvals.
-
-### 17.3 Urgency bypasses beneficiary checks
-
-Funds are sent to new bank details to avoid missing a deadline.
-
-Correct response: hold the payment path until verified and evaluate safe alternatives.
-
-### 17.4 Provider error becomes customer surcharge
-
-A correction fee is passed through without reviewing responsibility.
-
-Correct response: determine cause, accepted correction duty and cost allocation.
-
-### 17.5 Cancellation erases completed work
-
-The engagement is marked cancelled with no milestone or refund reconciliation.
-
-Correct response: preserve completed work, official consequences and funds treatment.
-
-## 18. Product principle
+## 14. Product principle
 
 Commercial exceptions are not failures of standardization. They are the moments when standardization proves whether it is real.
 
@@ -415,4 +227,4 @@ material change identified
 = governed exception
 ```
 
-This completes the commercial and funds section. The next chapters turn to fulfillment itself: milestones, Return, correction, replacement and recovery when the accepted route does not proceed as expected.
+This completes the commercial section. The next chapters turn to fulfillment itself: observable milestones, typed Returns, correction, replacement and recovery.
