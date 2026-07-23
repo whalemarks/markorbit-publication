@@ -2,547 +2,242 @@
 
 Professional networks become unsafe when several different questions are answered with one word: approved.
 
-A provider may be a real Organization. It may have submitted evidence. A licence may have been verified. A team may have passed an operational assessment. A Capability may be admitted into MGSN. None of these facts alone means that the provider is authorized to perform every professional action for every customer and Matter.
+A Provider may be a real Organization. It may have supplied evidence. A licence may have been verified. Its team may have passed an operational assessment. A Capability may be admitted into MGSN. None of those facts alone means that the Provider may perform every professional action for every customer and Matter.
 
-The network must preserve the full distinction:
+The governing distinction is:
 
 ```text
 identity
-≠ evidence
-≠ verification
-≠ professional qualification
-≠ MarkOrbit certification
-≠ MGSN qualification
-≠ current eligibility
-≠ Provider Acceptance
-≠ Matter-specific authority
-≠ approval for a protected action
+→ Capability Claim
+→ Evidence and Verification
+→ Professional Qualification
+→ MGSN Qualification
+→ current Eligibility
+→ Provider Acceptance
+→ Matter-specific Authority
+→ protected-action approval
 ```
 
-This is one of the most important boundaries in Book 07.
+Each step answers a different question. A safe route does not skip from identity to action.
 
-## 1. Seven questions that must be answered separately
+## What the network must establish
 
-Before MGSN routes professional work, it may need to answer at least seven questions.
+Before routing professional work, MGSN may need to know:
 
-### Question 1 — Who is the participant?
+1. who the Organization and relevant people are;
+2. what Capability the Provider claims;
+3. what evidence supports the claim;
+4. what has actually been verified;
+5. what external professional framework recognizes;
+6. what MGSN permits through the network;
+7. whether the route is suitable and authorized for this exact Need now.
 
-This is an identity question.
+The later steps become more Matter-specific. The evidence and authority standard should become stronger as the route approaches an official or protected external action.
 
-It concerns the Organization, relevant offices, representatives and responsible people.
+## Evidence is source-bound
 
-### Question 2 — What does the participant claim?
+Evidence is not a decorative attachment. It is a sourced assertion with a scope and date.
 
-This is a Capability Claim question.
+A professional licence issued to one person does not automatically apply to an entire group. A firm registration does not prove that every employee may perform a reserved service. A prior filing receipt proves that work occurred, but may say little about current qualification for a different procedure.
 
-It concerns the service, jurisdiction, scope, limitations and dependencies the provider says it can support.
-
-### Question 3 — What evidence supports the claim?
-
-This is an Evidence question.
-
-The evidence may include official records, professional credentials, firm registrations, prior work, references, insurance, sample reports or historical network performance.
-
-### Question 4 — What has been checked?
-
-This is a Verification question.
-
-Verification records the source, date, method, result, reviewer and remaining uncertainty.
-
-### Question 5 — Does an external professional or legal framework recognize the relevant qualification or authority?
-
-This is a Professional Qualification and Professional Authority question.
-
-It cannot be created by platform preference.
-
-### Question 6 — Does MGSN permit this Capability under current network rules?
-
-This is a network Qualification question.
-
-It may include professional evidence plus terms, data, conflict, performance, package, funds and risk requirements.
-
-### Question 7 — May this provider accept and perform this exact work now?
-
-This is an Eligibility, Acceptance and Matter-specific authority question.
-
-It depends on current availability, conflict, scope, customer authorization, provider acceptance and any protected-action approval.
-
-A safe route does not skip from Question 1 to Question 7.
-
-## 2. Evidence is source-bound
-
-Evidence should be treated as a sourced assertion, not a decorative attachment.
-
-An evidence item should record:
-
-- source;
-- subject;
-- issue or retrieval date;
-- relevant jurisdiction;
-- relevant service scope;
-- current or historical status;
-- expiry or review date;
-- restrictions;
-- authenticity or confidence result;
-- rights and permitted use;
-- relation to the Provider Organization;
-- supersession or correction history.
-
-A professional licence issued to one person does not automatically apply to an entire group. A firm registration does not prove that every employee may perform a reserved service. A prior filing receipt proves that work occurred; it may not prove present qualification or responsibility for another service.
+A useful Evidence record identifies the source, subject, jurisdiction, service scope, date, expiry or review point, restrictions and relation to the Provider Organization.
 
 ```text
-evidence exists
-≠ evidence applies to this claim
-≠ evidence is current
+Evidence exists
+≠ Evidence applies to this claim
+≠ Evidence is current
 ```
 
-The network should preserve what the evidence actually establishes and what it does not.
+The network should state what the Evidence establishes and what remains Unknown.
 
-## 3. Verification is a governed check
+## Verification is a governed check
 
 Verification answers:
 
-> What did MGSN check, against which source, and with what result?
+> What did MGSN check, against which source, when and with what result?
 
-A useful Verification record should state:
+The result may be verified, partially verified, conflicting, expired, under review, unavailable or not required for the particular Capability.
 
-- the claim being checked;
-- the evidence used;
-- source authority;
-- verification method;
-- date and freshness rule;
-- person or controlled process performing the check;
-- result;
-- uncertainty;
-- restrictions;
-- next review trigger.
-
-Possible results may include:
-
-```text
-verified
-partially verified
-not verified
-conflicting evidence
-source unavailable
-expired
-under review
-not required for this Capability
-```
-
-These results should not be collapsed into pass/fail where the evidence does not support certainty.
+Verification should not create certainty where the source does not support it.
 
 ```text
 not verified
 ≠ proven false
 
-unknown
+Unknown
 ≠ approved
 ```
 
-Verification means the defined check was performed. It is not a guarantee of every future judgment, filing or outcome.
+Verification means that the declared check occurred. It is not a guarantee of future professional judgment, filing success or official outcome.
 
-## 4. Professional Qualification is externally grounded
+## Professional Qualification is externally grounded
 
-Professional Qualification concerns whether a person or Organization holds a status recognized by an applicable legal, regulatory, professional or official framework.
+Professional Qualification concerns status recognized by an applicable legal, official, regulatory or professional framework.
 
-Depending on the service, relevant evidence may concern:
+Depending on the service, the relevant evidence may concern a licence, firm authorization, local-agent status, right of representation, disciplinary status, jurisdictional limitation or continuing requirement.
 
-- licence or registration;
-- right of representation;
-- admission to a profession;
-- firm authorization;
-- local-agent status;
-- disciplinary or suspension status;
-- jurisdictional limitations;
-- role of a responsible professional;
-- expiry or continuing requirements.
-
-MGSN may collect, verify and reference this information. It does not manufacture the underlying qualification.
+MGSN may collect, verify and reference this information. It cannot manufacture the underlying qualification.
 
 ```text
-MGSN records or verifies qualification
-≠ MGSN grants legal qualification
+MGSN verifies Professional Qualification
+≠ MGSN grants Professional Qualification
 ```
 
-Where the applicable source or legal interpretation is uncertain, the network should narrow the route, require professional review or state that qualification remains unresolved.
+Where the source or legal interpretation is uncertain, the network should narrow the Capability, seek professional review or record the issue as unresolved. Reputation, branding and transaction volume cannot fill the gap.
 
-It should not infer authority from branding, reputation or historical volume.
+## Qualification is not Matter authority
 
-## 5. Professional Authority is not the same as qualification
+A professional may be generally qualified while lacking authority for a specific action.
 
-A professional may be qualified in general while lacking authority for a specific action.
+Authority may depend on jurisdiction, procedural stage, conflict result, relationship to the Provider Organization, customer mandate, local appointment, power of attorney, supervision or the exact protected action.
 
-Professional Authority may depend on:
-
-- the exact service;
-- jurisdiction;
-- procedural stage;
-- relationship to the Provider Organization;
-- current licence or appointment status;
-- customer or client authorization;
-- conflict result;
-- required local appointment;
-- scope of representation;
-- power of attorney or another mandate;
-- internal supervision;
-- legal or professional restrictions.
+A Provider may be qualified to advise on a filing but not yet appointed for the customer. It may be appointed for prosecution but not authorized to withdraw an application, settle a dispute or incur an additional cost.
 
 ```text
-professional qualification
+Professional Qualification
 ≠ authority for this Matter
 
-Matter authority
-≠ approval for every external action
+Matter-specific Authority
+≠ approval for every action
 ```
 
-For example, a provider may be qualified to advise on trademark filing but not appointed for the customer. It may be appointed for prosecution but not authorized to withdraw an application, settle a dispute or incur an unapproved cost.
+MGSN must preserve both the external qualification evidence and the Matter-specific authority chain.
 
-The network must therefore preserve both general authority evidence and Matter-specific authority.
+## MarkOrbit certification has a narrower purpose
 
-## 6. MarkOrbit capability certification
+MarkOrbit may certify that a person or Organization demonstrated a defined operational capability in a controlled learning or work context.
 
-MarkOrbit may certify that a person or Organization has demonstrated a defined operational capability inside a controlled learning, assessment or work context.
+Examples include preparing a bounded intake, reviewing Evidence quality, using an MGSN Return format, following escalation rules or completing a simulated task.
 
-Examples might include:
-
-- correct use of a standardized intake process;
-- ability to prepare a bounded work package;
-- evidence-quality review;
-- reliable use of an MGSN Return format;
-- understanding of escalation and safe-stop rules;
-- successful completion of simulated or reviewed tasks.
-
-Such certification can support operational confidence.
-
-It cannot substitute for a professional licence or legal authority.
+This certification can improve operational confidence. It is not a professional licence, customer mandate or right of representation.
 
 ```text
 MarkOrbit certification
-= evidence of assessed platform capability
+= assessed platform capability
 
 MarkOrbit certification
-≠ licence
-≠ right of audience
-≠ local representation authority
-≠ customer mandate
-≠ permission for a protected action
+≠ legal or professional authority
 ```
 
-A certified operator may still require review by an appropriately qualified professional. A licensed professional may still need training before using a particular MGSN process safely.
+A licensed professional may still need platform training. A certified operator may still require review and action by an appropriately qualified professional. The two forms of evidence complement one another without being interchangeable.
 
-The two forms of evidence can complement one another without being confused.
+## MGSN Qualification is network permission
 
-## 7. MGSN Qualification is service-specific permission
+MGSN Qualification answers whether an admitted Provider may offer a particular Capability through the network under current Product rules.
 
-MGSN Qualification answers whether an admitted provider may offer a particular Capability through the network under current Product rules.
+The decision may consider verified identity, relevant Professional Qualification, accepted terms, conflict process, confidentiality controls, Service Package, funds readiness, performance evidence and active restrictions.
 
-It may depend on:
+It is granular. A Provider may be qualified for routine filing, conditionally qualified for urgent work, subject to operator review or not qualified for contentious proceedings.
 
-- applicable Professional Qualification;
-- verified identity;
-- accepted terms;
-- confidentiality and data controls;
-- conflict process;
-- settlement readiness;
-- admitted Service Package;
-- response commitments;
-- performance history;
-- no active restriction or suspension;
-- required operational certification;
-- current evidence.
+A useful qualification decision identifies the Capability, scope, conditions, evidence basis, effective period, restrictions and review path.
 
-A provider may be:
+“Approved Provider” remains too vague to support safe routing.
 
-```text
-qualified for routine filing
-conditionally qualified for urgent work
-qualified only with operator review
-not qualified for contentious proceedings
-suspended for one package
-active for another package
-```
+## Eligibility is a current route decision
 
-MGSN Qualification is therefore granular and conditional.
+Qualification means that the Provider may supply a Capability through MGSN under defined conditions.
 
-It should identify:
+Eligibility asks whether that Provider, Capability and Package belongs in the Candidate Route Set for this exact Need now.
 
-- Capability;
-- scope;
-- conditions;
-- evidence basis;
-- effective date;
-- expiry or review trigger;
-- decision authority;
-- restrictions;
-- appeal path.
-
-“Approved provider” is too vague to support safe routing.
-
-## 8. Eligibility is a current route decision
-
-Qualification means that the provider may supply the Capability through MGSN under defined rules.
-
-Eligibility asks whether the provider belongs in the Candidate Route Set for this exact Need now.
-
-Eligibility may depend on:
-
-- jurisdiction and service fit;
-- current qualification;
-- conflict;
-- capacity;
-- urgency;
-- language;
-- package validity;
-- customer constraints;
-- data-transfer rules;
-- sanctions or funds restrictions;
-- prior relationship preference;
-- risk tier;
-- current suspension or incident;
-- required responsible professional.
+Conflict, capacity, urgency, package validity, customer constraints, data transfer, funds restrictions, current incidents and the responsible professional may all change the answer.
 
 ```text
 qualified
 ≠ currently eligible
 ```
 
-A provider may remain qualified while temporarily unavailable. It may be available but conflicted. It may be eligible for an ordinary Matter but not for a high-risk emergency.
+A Provider can remain qualified while temporarily unavailable. It can be available but conflicted. It can be eligible for an ordinary Matter and ineligible for an emergency.
 
-Eligibility should be recalculated from current evidence rather than inherited from a static provider status.
+CH10 develops Eligibility as a full routing decision. Here it matters because qualification must not be treated as permanent suitability.
 
-## 9. Provider Acceptance creates engagement responsibility
+## Provider Acceptance creates engagement responsibility
 
-An eligible provider has not yet accepted the work.
+An eligible route has not yet been accepted.
 
-Provider Acceptance should confirm the exact route and conditions, including:
+Provider Acceptance confirms the exact scope, package version, price, deadline assumptions, conflict result, required documents, responsible professional, data obligations, expected Return and unresolved conditions.
 
-- scope;
-- package version;
-- price;
-- deadline;
-- conflict result;
-- required documents;
-- responsible professional where relevant;
-- data and communication obligations;
-- expected Evidence and Return;
-- unresolved assumptions;
-- authority prerequisites.
+Silence is not acceptance. Selection by the user is not acceptance. Allocation is only a request for the Provider to commit.
 
 ```text
 eligible route
-≠ allocated route
 ≠ accepted engagement
 ```
 
-The provider should be able to decline when it cannot safely perform the work.
+The Provider must be able to decline or request clarification when it cannot safely perform the work.
 
-A network that treats provider silence as acceptance creates false accountability.
+## Customer instruction and protected-action approval remain separate
 
-## 10. Customer instruction and action authority remain separate
+Provider Acceptance does not authorize every external action.
 
-Provider Acceptance does not authorize every action.
+The Originating Workplace or customer may still need to approve the applicant, goods or services, translation, filing content, additional fee, withdrawal, settlement position, substitute Provider or executed document.
 
-The Originating Workplace or customer may still need to approve:
-
-- final filing content;
-- translations;
-- goods or services;
-- applicant details;
-- settlement position;
-- withdrawals;
-- additional fees;
-- use of a substitute provider;
-- execution of a document;
-- another External Protected Action.
-
-The governing chain may be:
+The practical chain is:
 
 ```text
 Provider qualified
-→ Provider eligible
+→ currently eligible
 → route selected
-→ Provider accepted
-→ customer or authorized actor approves
-→ protected action performed
-→ evidence returned
+→ Provider accepts
+→ authorized actor approves
+→ protected action occurs
+→ Evidence returns
 ```
 
-Each step should have its own evidence.
+Each transition should have its own evidence.
 
-```text
-AI Recommendation
-≠ approval
+AI Recommendation, operator review and payment status do not substitute for customer instruction or protected-action authority.
 
-operator review
-≠ customer instruction
+## Responsible-professional changes require review
 
-payment received
-≠ filing authorized
-```
+Authority can change after admission.
 
-## 11. Responsible professional changes
+A responsible professional may leave, become unavailable, develop a conflict, lose qualification or stop supervising the relevant service.
 
-Professional Authority can change after admission.
+MGSN must then determine which Capabilities and open engagements are affected, whether a replacement professional is acceptable, whether re-verification is required and whether customer disclosure or consent is needed.
 
-A named professional may:
+The historical record should preserve who performed prior work. A current replacement must not rewrite the earlier authority chain.
 
-- leave the Organization;
-- become unavailable;
-- lose or suspend qualification;
-- develop a conflict;
-- move to another office;
-- require replacement;
-- cease supervising the service.
-
-MGSN should not assume that the Organization’s profile automatically preserves the same authority.
-
-The network must determine:
-
-- which Capabilities are affected;
-- whether another responsible professional is acceptable;
-- whether re-verification is required;
-- whether open engagements must pause;
-- whether customer disclosure or consent is required;
-- whether a deadline emergency exists;
-- whether evidence or instructions must transfer.
-
-A change should preserve the historical chain rather than rewriting who performed prior work.
-
-## 12. Freshness, expiry and event-driven review
+## Freshness, Unknown and safe restriction
 
 Professional and operational evidence becomes stale.
 
-Freshness rules may require:
+Review may be periodic or triggered by inactivity, a firm change, a dispute, a sanctions issue, a new official status or a high-risk engagement.
 
-- periodic re-verification;
-- review before high-risk work;
-- review after a long inactive period;
-- review after a complaint or dispute;
-- review after a firm or responsible-professional change;
-- review after sanctions or payment changes;
-- review when an official source reports a new status.
+Expired evidence should not remain invisibly active. The network may request new evidence, narrow the Capability, require professional review, remove the route from the current candidate set or pause new work.
 
-Possible states include:
-
-```text
-current
-expiring
-expired
-under review
-disputed
-restricted
-superseded
-not applicable
-```
-
-Expired evidence should not remain invisibly active.
-
-The safe response may be to:
-
-- request new evidence;
-- narrow the Capability;
-- require operator or professional review;
-- remove the provider from the current candidate set;
-- pause new engagements;
-- transfer or monitor open work.
-
-## 13. Negative and unknown results
-
-A trustworthy network must be able to stop.
-
-It may find:
-
-- the professional register is unavailable;
-- the Organization name does not match;
-- a licence appears current but service scope is unclear;
-- the responsible person cannot be linked to the provider;
-- evidence conflicts;
-- the provider has not answered a material question;
-- legal review is needed;
-- customer authority is missing.
-
-The correct result may be Unknown.
+Sometimes the correct result is Unknown: the official source is unavailable, the names do not match, service scope is unclear or the responsible professional cannot be linked to the Provider.
 
 ```text
 Unknown
 ≠ Failure
 ≠ Success
-≠ Permission to infer
+≠ permission to infer
 ```
 
-Unknown may lead to clarification, enhanced review, a narrower route or exclusion from the Candidate Route Set.
+Commercial urgency does not justify invented certainty.
 
-The network should not create certainty merely because a deadline or commercial opportunity makes uncertainty inconvenient.
+## Correction, restriction and appeal
 
-## 14. Correction, restriction and appeal
+Providers should be able to correct inaccurate identity or qualification data, submit new evidence and challenge outdated restrictions.
 
-Providers must be able to challenge inaccurate qualification or authority information.
+A governed review preserves the original claim, original evidence, prior decision, new evidence, reason for change, reviewer and effective date.
 
-A governed correction path should preserve:
+Protective restriction may be immediate when active risk exists. Final findings and long-term sanctions still require evidence, scope and due process.
 
-- original claim;
-- original evidence;
-- original decision;
-- new evidence;
-- reason for change;
-- reviewer;
-- effective date;
-- affected packages and engagements.
+## What failure reveals
 
-Material restrictions may require:
+The authority stack becomes visible when a shortcut fails:
 
-- immediate protective action;
-- notification to affected Workplaces;
-- review of open engagements;
-- evidence preservation;
-- opportunity to respond;
-- appeal or reconsideration;
-- controlled reactivation where justified.
+- a platform certificate is presented as a legal licence;
+- one professional’s credential is treated as firm-wide authority;
+- qualification is mistaken for current availability;
+- Provider Acceptance is mistaken for customer approval;
+- an unavailable source is treated as positive verification;
+- historical success is used as current authority.
 
-Correction should improve the current representation without erasing the history used for prior routing decisions.
+The remedy is not another badge. It is a chain in which each decision states what has been established, by whom and for what purpose.
 
-## 15. Failure modes
-
-### 15.1 Platform certification presented as a licence
-
-A user sees a MarkOrbit badge and assumes the provider has legal authority to act in a jurisdiction.
-
-Correct response: label the certification scope and display separate professional-qualification evidence.
-
-### 15.2 Firm qualification inferred from one person
-
-One professional’s credential is attached to the Organization, and every team member is treated as authorized.
-
-Correct response: preserve the relation between the responsible professional, Organization and service.
-
-### 15.3 Qualification treated as permanent availability
-
-A provider is qualified but overloaded and cannot meet an urgent deadline.
-
-Correct response: exclude the route from current eligibility without falsely revoking qualification.
-
-### 15.4 Provider Acceptance treated as customer approval
-
-The provider accepts a filing package, and the system proceeds without final customer confirmation of the mark or goods.
-
-Correct response: require the separate approval or instruction checkpoint.
-
-### 15.5 Unknown evidence converted into approval
-
-An official source cannot be reached, but the provider is commercially important.
-
-Correct response: record Unknown, narrow or pause the route and escalate.
-
-### 15.6 Historical success used as current authority
-
-A provider handled many cases years ago, but current qualification and responsible-professional status are not checked.
-
-Correct response: treat history as experience evidence, not current authority.
-
-## 16. The complete authority chain
-
-The safest representation is cumulative:
+## The complete authority chain
 
 ```text
 Organization identity
@@ -555,34 +250,25 @@ Organization identity
 → current Eligibility
 → Provider Acceptance
 → customer or authorized approval
-→ External Protected Action
+→ protected external action
 → Evidence Return
 → formal-state validation by the Owning Service
 ```
 
 Not every service requires every step in the same form. The chain should become stricter as professional, legal, financial or deadline risk increases.
 
-## 17. Product principle
+## Product principle
 
-MGSN becomes trustworthy when it can explain not only that a provider appears capable, but exactly what has been established and what remains outside platform authority.
+MGSN becomes trustworthy when it can explain not only that a Provider appears capable, but exactly what has been established and what remains outside platform authority.
 
 ```text
-platform verification
-supports confidence
-
-professional qualification
-comes from the relevant external framework
-
-network qualification
-controls MGSN participation
-
-Matter authority
-controls this engagement
-
-action approval
-controls the protected act
+platform verification supports confidence
+professional qualification comes from the external framework
+network qualification controls MGSN participation
+Matter authority controls the engagement
+protected-action approval controls the act
 ```
 
-No badge, recommendation, prior success or payment should collapse these layers.
+No badge, Recommendation, prior success or payment should collapse these layers.
 
-With the supply side now established, the book turns to demand and routing. The next chapter explains how an Originating Workplace projects a Capability Need without surrendering its customer relationship or disclosing more information than the route requires.
+With accountable supply established, Part III turns to demand: how an Originating Workplace projects a Capability Need without surrendering its customer relationship or disclosing more information than the route requires.
