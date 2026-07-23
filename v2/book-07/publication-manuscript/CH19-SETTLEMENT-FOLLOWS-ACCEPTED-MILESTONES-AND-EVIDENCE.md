@@ -4,8 +4,6 @@ An invoice asks to be paid.
 
 Settlement decides whether an amount has become payable under the accepted engagement, milestone, Evidence and commercial terms.
 
-These are not the same event.
-
 ```text
 invoice received
 ≠ milestone completed
@@ -14,41 +12,27 @@ invoice received
 ≠ settlement executed
 ```
 
-MGSN therefore links settlement to accepted performance rather than to elapsed time, Provider assertion or payment pressure alone.
+MGSN therefore links settlement to accepted performance rather than elapsed time, Provider assertion or payment pressure alone.
 
-## 1. What settlement must answer
+## 1. Settlement is the commercial conclusion of a performance check
 
 A settlement decision should answer:
 
 - which engagement and package version applies;
 - which milestone is under review;
 - what the Provider promised;
-- what Evidence was required;
-- what was actually delivered;
-- who reviewed and accepted it;
+- what Evidence was required and returned;
+- who reviewed it;
 - whether correction remains open;
-- whether scope or price changed;
-- which amount is earned;
-- which amount remains reserved, disputed or refundable.
+- which amount is earned, reserved, disputed or refundable.
 
-Settlement is the commercial conclusion of a governed performance check.
+Without those answers, payment becomes detached from the work it is supposed to recognize.
 
-## 2. Milestones need clear acceptance criteria
+## 2. Milestones need visible acceptance criteria
 
-A milestone should define:
+A useful milestone identifies its purpose, expected output, deadline, Evidence, responsible Provider, review authority, correction path and settlement basis.
 
-- name and purpose;
-- expected output;
-- required Evidence;
-- deadline or timing assumption;
-- responsible Provider;
-- review authority;
-- acceptance criteria;
-- correction path;
-- settlement amount or formula;
-- holdback or exception rules.
-
-Examples may include:
+Examples include:
 
 ```text
 Conflict and Intake Confirmed
@@ -57,31 +41,14 @@ Customer-approved Package Ready
 Protected Action Performed
 Official Acknowledgement Returned
 Correction Completed
-Registration-stage Action Completed
 Certificate or Final Return Delivered
 ```
 
 The milestone name must not claim more than its Evidence proves.
 
-## 3. Evidence types
+## 3. Evidence has source, strength and scope
 
-Depending on the service, Evidence may include:
-
-- Provider acknowledgement;
-- work product;
-- filing copy;
-- official receipt;
-- payment receipt;
-- official correspondence;
-- tracking record;
-- signed document;
-- translated document with provenance;
-- customer approval;
-- correction report;
-- certificate;
-- structured Return.
-
-Evidence has strength, scope and source.
+Evidence may include Provider acknowledgement, work product, filing copy, official receipt, correspondence, signed documents, customer approval, correction report, certificate or structured Return.
 
 ```text
 Provider statement
@@ -91,18 +58,13 @@ uploaded document
 ≠ validated document
 ```
 
-The acceptance process should identify what each item establishes.
+The reviewer should identify what each item establishes and what remains Unknown.
 
-## 4. Acceptance authority
+## 4. Acceptance authority is role-specific
 
-Different milestones may require different reviewers.
+Different milestones require different reviewers.
 
-- an operator may confirm completeness;
-- a professional may review legal substance;
-- a customer may approve final content;
-- Finance may confirm cleared funds;
-- the Owning Service may validate formal-state impact;
-- MGSN may confirm Return completeness.
+An operator may confirm completeness. A professional may review legal substance. A customer may approve final content. Finance may confirm cleared funds. MGSN may confirm Return completeness. The Owning Service decides formal-state impact.
 
 ```text
 one reviewer
@@ -111,117 +73,87 @@ one reviewer
 
 The settlement record should name the authority that accepted the relevant milestone.
 
-## 5. Accepted, conditionally accepted and rejected
+## 5. Acceptance is not always binary
 
-Milestone review may produce:
+A milestone may be:
 
 ```text
 Accepted
 Accepted with Minor Follow-up
 Conditionally Accepted
-Correction Required
 Partially Accepted
+Correction Required
 Rejected
 Disputed
 Unknown Pending Evidence
 ```
 
-Conditional acceptance should state what remains open and whether settlement may proceed in full, in part or not at all.
+Conditional or partial acceptance should state what remains open and whether settlement may proceed in full, in part or not yet.
 
-## 6. Partial settlement
+## 6. Partial settlement must have a visible basis
 
-An engagement can create value before final completion.
+An engagement can create value before final completion. Preparation may be complete while filing is cancelled. One jurisdiction may succeed while another remains open. A milestone may be accepted while later work has not started.
 
-Partial settlement may be appropriate where:
+Partial settlement is legitimate when it follows the accepted scope and Evidence. It should not become an arbitrary compromise detached from the engagement structure.
 
-- preparation was completed but filing was cancelled;
-- one jurisdiction was completed and another failed;
-- one class proceeded and another was removed;
-- an official action was attempted but rejected for a correctable reason;
-- a milestone was accepted while later work remains open.
+## 7. Holdbacks preserve unresolved obligations
 
-Partial settlement requires a visible basis. It must not become an arbitrary compromise detached from scope and Evidence.
+A holdback may reserve part of an amount until an official receipt, certificate, correction, reimbursement or final confirmation arrives.
 
-## 7. Holdbacks
+It should identify:
 
-A holdback reserves part of an amount until a later condition is satisfied.
+- amount;
+- reason;
+- release condition;
+- review date;
+- authority.
 
-Possible reasons include:
+A holdback is different from rejecting all performance.
 
-- official receipt pending;
-- certificate not yet returned;
-- correction window still open;
-- Provider reimbursement not reconciled;
-- final customer confirmation pending;
-- dispute or complaint under review.
+## 8. Correction usually precedes final settlement
 
-A holdback should specify amount, reason, release condition and review date.
+Where a deliverable fails the acceptance criteria, the normal response may be correction rather than immediate termination.
 
-## 8. Correction before settlement
-
-Where a deliverable fails acceptance criteria, the normal response may be correction rather than immediate non-payment or termination.
-
-The correction record should state:
-
-- defect;
-- responsible party;
-- required correction;
-- deadline;
-- additional cost treatment;
-- effect on the Matter deadline;
-- new Evidence expected;
-- whether settlement is paused.
+The correction record should identify the defect, responsible party, deadline, expected new Evidence, cost treatment and effect on the Matter deadline.
 
 ```text
 correction requested
 ≠ engagement failed permanently
 ```
 
-Repeated or material correction may affect Trust, package admission and future eligibility.
+Repeated or material correction can later affect Trust and future route decisions. CH23 develops correction as a fulfillment process.
 
-## 9. Official action and formal state
+## 9. Return acceptance does not update formal state
 
-A Provider may return an official receipt or correspondence. MGSN can validate the Return for completeness and provenance.
-
-The Owning Service remains responsible for deciding whether and how the formal Matter state changes.
+A Provider may return an official receipt or correspondence. MGSN can assess whether the Return is complete and attributable.
 
 ```text
 Return accepted by MGSN
 ≠ formal state updated
 ```
 
-Settlement can be authorized for accepted Provider performance while a separate reconciliation issue remains open, if the accepted terms allow it. The two decisions should remain visible.
+The Owning Service remains responsible for deciding how the formal Matter record changes.
 
-## 10. Provider invoice and accepted amount
+Settlement for accepted Provider performance may proceed while formal-state reconciliation remains open, if the accepted terms permit it. The two decisions must remain visible.
 
-An invoice should reference:
+## 10. The invoice and accepted amount may differ
 
-- engagement;
-- milestone;
-- package or approved change;
-- cost layer;
-- currency;
-- taxes and disbursements;
-- supporting Evidence;
-- prior payments or credits.
+An invoice should reference the engagement, milestone, package or approved change, cost layer, currency, taxes, disbursements and prior credits.
 
-The accepted amount may differ from the invoice because of:
+The accepted amount may differ because of:
 
 - partial completion;
 - unapproved additional work;
 - duplicate billing;
-- wrong fee version;
+- wrong price version;
 - unused official funds;
 - approved correction;
-- exchange-rate treatment;
-- tax adjustment;
+- tax or exchange treatment;
 - dispute hold.
 
-The difference must be explained.
+The difference should be explained, not silently adjusted.
 
-## 11. Settlement sequence
-
-A controlled sequence may be:
+## 11. Controlled settlement sequence
 
 ```text
 Milestone Due
@@ -235,115 +167,55 @@ Milestone Due
 → Finance Reconciliation
 ```
 
-Each transition should be attributable and reversible only through a governed correction or reversal process.
+Each transition should be attributable. Reversal should occur only through governed correction or financial reversal.
 
-## 12. Disputes
+## 12. Silence is not milestone acceptance
 
-A settlement dispute may concern:
-
-- whether work was in scope;
-- whether the correct version was used;
-- whether the milestone was completed;
-- whether Evidence is sufficient;
-- whether extra work was approved;
-- whether official fees were paid;
-- whether delay caused loss;
-- whether a refund or credit is due.
-
-The dispute record should preserve:
-
-- claims by each party;
-- relevant versions;
-- communications;
-- Evidence;
-- funds state;
-- deadlines;
-- interim protective action;
-- decision authority;
-- resolution or continuing Unknown.
-
-## 13. No automatic settlement from elapsed time
-
-A Provider may expect payment after a number of days. The platform may use service-level expectations. Neither should convert silence into acceptance where material Evidence is required.
+A review period may expire. That does not automatically prove performance where material Evidence is required.
 
 ```text
 review period elapsed
 ≠ milestone necessarily accepted
 ```
 
-Where deemed acceptance is contractually used, it must be explicit, lawful and limited. High-risk or protected-action milestones should not rely on silent acceptance without careful review.
+Any deemed-acceptance rule must be explicit, lawful and limited. High-risk or protected-action milestones should not rely on silence without careful review.
 
-## 14. Trust and settlement
+## 13. Disputes should preserve the performance chain
 
-Settlement Evidence contributes to network Trust.
+A settlement dispute may concern scope, version, Evidence, official fees, extra work, delay, refund or credit.
 
-Useful signals include:
+The record should preserve:
 
-- on-time delivery;
-- complete Evidence;
-- low correction burden;
-- accurate invoicing;
-- official-fee reconciliation;
-- responsive dispute handling;
-- refund reliability.
+- each party’s claim;
+- relevant package and instruction versions;
+- communications;
+- Evidence;
+- funds state;
+- deadlines;
+- interim protective action;
+- decision authority.
 
-Trust should use the specific service and context rather than one universal public score.
+The dispute process is developed more fully in CH27.
 
-A disputed milestone should not automatically condemn the Provider. Patterns, materiality and resolution quality matter.
+## 14. Representative failure patterns
 
-## 15. AI boundaries
+### Invoice triggers automatic payment
 
-AI may assist with:
+The required official receipt is missing. The correction is to hold settlement pending Evidence or an approved exception.
 
-- comparing required and returned Evidence;
-- extracting invoice references;
-- detecting duplicate charges;
-- identifying missing receipts;
-- proposing a reconciliation table;
-- flagging scope or version mismatch.
+### The wrong role accepts the work
 
-AI must not:
+An operator approves legal substance outside their authority. The correction is to obtain the required professional or customer review.
 
-- accept professional work;
-- determine official truth;
-- authorize settlement;
-- decide liability;
-- resolve a dispute;
-- release funds.
+### Full payment follows partial work
 
-## 16. Failure modes
+Only preparation was completed, but the invoice covers filing and registration. The correction is to calculate the accepted milestone amount and preserve the remainder.
 
-### 16.1 Invoice triggers automatic payment
+### Return acceptance updates official state
 
-The required official receipt is missing.
+A Provider Return is treated as official Matter truth. The correction is to keep settlement, Return acceptance and formal-state validation separate.
 
-Correct response: hold settlement pending the defined Evidence or approved exception.
-
-### 16.2 Deliverable is accepted by the wrong role
-
-An operator approves legal substance outside their authority.
-
-Correct response: obtain the required professional or customer review.
-
-### 16.3 Full payment after partial work
-
-Only preparation was completed, but the invoice covers filing and registration.
-
-Correct response: calculate the accepted milestone amount and preserve the remainder.
-
-### 16.4 Correction history is erased
-
-A corrected document replaces the defective version with no trace.
-
-Correct response: preserve both versions, correction reason and acceptance decision.
-
-### 16.5 MGSN Return acceptance updates formal state
-
-A Provider Return is treated as official Matter truth without Owning Service validation.
-
-Correct response: separate Return acceptance from formal-state reconciliation.
-
-## 17. Product principle
+## 15. Product principle
 
 Settlement should reward accepted performance while preserving correction, dispute and formal-state boundaries.
 
@@ -356,4 +228,4 @@ clear milestone
 = accountable settlement
 ```
 
-The next chapter explains how commercial exceptions—fee increases, scope changes, emergency costs, cancellations and substitutions—must be governed rather than absorbed through informal messages.
+The next chapter explains how fee increases, scope changes, substitutions, cancellations and other commercial exceptions must be governed rather than absorbed through informal messages.
