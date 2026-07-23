@@ -2,227 +2,177 @@
 
 Almost every international professional-services business has one.
 
-It may be a spreadsheet, a contact database, a folder of quotations, a set of saved emails or simply the memory of one experienced partner. It contains the people who answered quickly, the firms that offered reasonable prices, the countries where original documents were required, the agents who solved difficult cases and the providers who should never be instructed again.
+It may be a spreadsheet, a folder of quotations, a contact database, a set of saved emails or simply the memory of one experienced partner. It records the people who answered quickly, the firms that charged reasonable fees, the countries where originals were required, the agents who solved difficult cases and the Providers who should not be instructed again.
 
 This private network is not irrational. It is often the product of years of costly experience.
 
-The problem is that its apparent simplicity hides structural fragility.
+Its weakness is that the experience and the operating structure are rarely stored in the same place.
 
-## Personal networks solve the first problem
+## Why the private network works at first
 
-When a firm first begins international work, the immediate question is practical:
-
-```text
-Who can handle this matter for us?
-```
-
-A referral from a trusted colleague is usually more useful than a public search. The receiving professional wants someone who has already responded, quoted and delivered. Personal networks reduce uncertainty by borrowing another person’s experience.
-
-At small scale, this works well. The same person may:
-
-- know the customer;
-- choose the Provider;
-- remember the price;
-- send the instruction;
-- monitor the deadline;
-- approve the invoice;
-- check the result;
-- decide whether to use the Provider again.
-
-The operating model is concentrated in one mind. Because the person remembers the context, the missing structure is not immediately visible.
-
-Scale exposes it.
-
-## A spreadsheet records rows, not obligations
-
-A typical provider spreadsheet contains:
+When a firm begins international work, the immediate question is practical:
 
 ```text
-country
-firm
-contact
-email
-filing fee
-registration fee
-notes
+Who can handle this Matter for us?
 ```
 
-These fields are useful, but they do not describe the actual relationship.
+A referral from a trusted colleague is usually more useful than a public search. It borrows another person’s experience and reduces the risk of instructing a complete stranger.
 
-The filing fee may be two years old. The contact may have moved. “Registration fee” may include professional service but exclude publication or certificate charges. “Original POA required” may apply only at a later stage. A note saying “good agent” may reflect one uncomplicated filing. A lower price may have depended on a temporary discount, a batch volume or an exchange rate that no longer applies.
+At small scale, one person may know the customer, select the Provider, remember the price, send the instruction, monitor the deadline, approve the invoice and check the result. The missing structure is hidden because the same mind carries the context.
 
-Most importantly, the row does not show:
+Scale exposes the gap.
 
-- who verified the information;
-- when it was verified;
-- which service stage it applies to;
-- which assumptions were used;
-- whether the Provider organization or only one person is trusted;
-- whether a conflict check is required before disclosure;
-- whether the Provider may use another local representative;
-- which evidence must be returned;
-- what happens when the Provider is silent;
-- who owns the relationship and commercial terms.
+A second colleague sees the same spreadsheet row but not the history behind it. A new employee finds the quote but cannot tell whether it remains current. A partner remembers that the Provider is “good” but not whether that judgment came from one routine filing or years of difficult work.
 
-A contact list is not a governed supply model.
+The firm still possesses the files. It has begun to lose their meaning.
 
-## Memory creates key-person risk
+## A row records facts, not obligations
 
-The strongest private networks are often also the most concentrated.
+A typical provider record may contain:
 
-One person knows that the provider in one country prefers WhatsApp for emergencies. Another remembers that a quoted fee includes only the first class. Someone else knows that the certificate is issued electronically and that courier charges should not be accepted. The information is real, but it is not available as a shared operating asset.
+```text
+country | firm | contact | email | filing fee | registration fee | notes
+```
 
-When that person is unavailable, leaves the firm or cannot reconstruct an old matter, the organization loses capability without losing any files. The files remain; the meaning disappears.
+Those fields are useful. They do not describe the service relationship.
 
-This is key-person risk in a professional network.
+The filing fee may be two years old. “Registration fee” may exclude publication, tax or certificate charges. “Original POA required” may apply only after filing. The contact may have changed firms. A note reading “fast and reliable” may describe ordinary work but say nothing about a contested or urgent Matter.
 
-It affects more than convenience. It can determine whether the firm notices a deadline, challenges an unexpected invoice, identifies a missing original document or understands why a prior application failed.
+The row usually does not explain:
 
-MGSN must convert experience into governed evidence without pretending that every tacit judgment can be reduced to a score.
+- who verified the information and when;
+- which service and stage it covers;
+- what assumptions sit behind the price;
+- whether confidence attaches to the Organization or one person;
+- whether conflict review is required before disclosure;
+- whether another local firm may perform the work;
+- which Evidence must be returned;
+- what happens if the Provider becomes silent;
+- who owns the customer relationship and negotiated terms.
 
-## Contact continuity is not organizational continuity
+A contact list can preserve memory. It cannot, by itself, govern supply.
 
-A familiar person may be the reason a Provider relationship works. But the person and the Provider organization are not the same.
+## Key-person risk is capability risk
 
-The person may:
+The strongest private networks are often the most concentrated.
 
-- change firms;
-- stop practising;
-- lose authority to bind the organization;
-- move into a different specialty;
-- continue communicating while the responsible professional changes;
-- refer the matter to an undisclosed third party.
+One person knows that a Provider prefers WhatsApp for urgent matters. Another remembers that the quote includes only the first class. Someone else knows that certificates are electronic and that a courier charge should be challenged. These facts may be accurate, but they remain attached to individuals rather than the operating system.
 
-The organization may also change ownership, payment details, service scope or professional status.
+When the person is unavailable or leaves, the organization can lose capability without losing a single document.
 
-A robust network therefore separates:
+That loss affects more than convenience. It can determine whether the firm notices a deadline, questions an unexpected invoice, finds a missing original or understands why a previous application failed.
+
+MGSN must convert experience into governed evidence while leaving room for professional judgment that cannot be reduced to a score.
+
+## A contact and an Organization are not the same
+
+A familiar person may be the reason a relationship works. The person may still move firms, stop practising, change specialty or continue communicating while the responsible professional changes.
+
+The Provider Organization may also change ownership, payment details, service scope or professional status.
+
+A robust supply record therefore distinguishes:
 
 ```text
 Provider Organization
 responsible professional
 operational contact
 authorized representative
-payment receiver
-local subcontractor or correspondent
+payment beneficiary
+disclosed local support
 ```
 
-The same individual may occupy several roles. The roles must still be recorded separately because the consequences differ when one changes.
+The same individual may occupy several roles. They remain separate because different consequences follow when one changes.
 
-## Price memory is commercially dangerous
+If a contact moves to a new firm, the relationship history can travel as provenance. The former Organization’s responsibility, the new Organization’s qualification and any open Engagement still require independent treatment.
 
-Private networks frequently compare Providers through remembered total prices.
+## Remembered price is not comparable price
 
-This creates several distortions.
+Private networks often compare Providers through remembered totals.
 
-First, different Providers may quote different scopes. One quote may include filing, publication and registration. Another may include only filing. One may include tax. Another may add it later. One may estimate official fees. Another may pass them through at cost.
+That comparison can be misleading even when every quote was honestly given. One Provider may include filing, publication and registration. Another may quote only filing. Tax, translation, official fees, disbursements or later-stage work may appear at different times.
 
-Second, a price can be correct when given and misleading later. Government fees change. Exchange rates move. courier requirements disappear or return. A provider changes its own policy after repeated late payment. A new local tax applies.
+Prices also age. Official fees change, exchange rates move, courier requirements change and Providers revise payment policies or volume discounts.
 
-Third, the lowest remembered price may belong to a Provider that is no longer available or appropriate for the specific work.
+MGSN should not replace private price memory with one public number. It needs versioned Service Packages whose scope, validity, assumptions, currency and cost layers are visible enough to compare.
 
-MGSN must not replace private price memory with a single public number. It needs versioned Service Offers whose scope, validity, assumptions, currency and cost layers can be understood.
+The important question is not “Who once gave the lowest price?” It is “Which current route offers the required work under understandable terms?”
 
-## Informal trust is difficult to challenge
+## Informal Trust needs dimensions
 
-Private networks rely heavily on trust. That is unavoidable and often beneficial. The danger is not trust itself; it is trust without dimensions.
+Trust is unavoidable in professional networks. The problem is not Trust; it is compression.
 
-A Provider may be:
+A Provider may be knowledgeable but slow, responsive but weak in Evidence, excellent at filing but unsuitable for disputes, or reliable in ordinary work but poor at correction. The phrase “trusted agent” compresses these differences into one permanent conclusion.
 
-- highly knowledgeable but slow to communicate;
-- responsive but weak in documentary evidence;
-- excellent in filing but unsuitable for disputes;
-- commercially flexible but inconsistent in invoice detail;
-- reliable for one partner but unavailable to the wider team;
-- strong in ordinary matters but poor at correction after error.
+Compression creates inertia. Warning signs are rationalized for incumbents, while new Providers struggle to enter because they lack historical volume.
 
-The phrase “trusted agent” compresses these differences into one conclusion.
+MGSN should preserve relationship history while making its basis visible, service-specific and contestable.
 
-Compression creates inertia. Once a Provider becomes trusted, later warning signs may be rationalized. Once a Provider is distrusted, evidence of improvement may be ignored. New Providers struggle to enter because they lack historical volume; incumbent Providers remain because replacing them feels risky.
+Past success should influence current assessment. It should not replace current qualification, conflict, availability or package review.
 
-MGSN should preserve relationship history while making the basis of Trust visible and contestable.
+## Protecting the customer relationship without blocking the work
 
-## The customer relationship becomes vulnerable
+Provider introductions create a recurring fear: circumvention.
 
-Private provider introductions create a recurring fear: circumvention.
+The originating firm may worry that the Provider will contact the customer directly or later accept work without the originator. The Provider may worry that its quote and local know-how will be used only to bargain with competitors.
 
-The originating firm may worry that the Provider will contact the customer directly, offer lower prices or later accept instructions without the originator. The Provider may worry that its quotation, know-how or local relationship will be used to bargain with competitors. Both sides may therefore restrict information, use intermediaries or communicate inefficiently.
+Two crude responses are common. One forbids all direct contact, even where professional clarification is necessary. The other treats the network as an open graph in which everyone may contact everyone.
 
-A crude response is to forbid all direct contact. That can damage delivery when the responsible professionals need to clarify facts.
-
-Another crude response is to assume that everyone in the network may communicate freely. That can erase provenance and commercial responsibility.
-
-The network needs a more precise model:
+A managed network needs a more precise structure:
 
 ```text
 relationship provenance
-+ engagement-scoped communication
++ Engagement-scoped communication
 + explicit representation context
-+ non-circumvention rules
++ bounded non-circumvention
 + legitimate portability and exit
 ```
 
-Protection should attach to real relationship value, not become permanent ownership of another organization’s future business.
+Protection should attach to real relationship value. It should not become permanent ownership of another Organization’s future business.
 
-## Failure reveals the missing structure
+## Failure reveals what the spreadsheet omitted
 
-A private network feels efficient while matters succeed.
+A private network feels efficient while the Matter succeeds.
 
-When a Provider disappears, the originator must answer questions the spreadsheet never captured:
+When a Provider disappears, the originator suddenly needs answers the spreadsheet was never designed to hold:
 
 - Did the Provider accept the final instruction?
-- Was the official fee actually paid?
+- Which version was used?
+- Was the official fee paid?
 - Which documents were submitted?
-- Is there a receipt?
-- Which deadline applies now?
-- Does another Provider have authority to inspect or continue the matter?
-- May prior correspondence be shared?
-- What amount can be refunded or reallocated?
-- What should be told to the customer?
-- Which part of the failure belongs to the Provider, the originator or the platform?
+- Is there an official receipt?
+- Which deadline now applies?
+- Can another Provider inspect or continue the Matter?
+- What funds can be refunded or reallocated?
+- What should be disclosed to the customer?
 
 Recovery depends on the quality of the historical chain.
 
-MGSN’s value is therefore not limited to choosing a Provider. It is the ability to preserve enough structure that a matter can be understood and continued when the relationship breaks.
+MGSN’s value is therefore not limited to selecting a Provider. It must preserve enough structure for a Matter to be understood and continued when a relationship breaks.
 
 ## Why a public directory is not the answer
 
-The weaknesses of private networks may suggest an obvious alternative: place all Providers in a searchable public directory.
+The weakness of private networks may suggest an obvious alternative: put every Provider in a searchable directory.
 
-That solves visibility, but not governance.
+That improves visibility, but it does not establish suitability for a specific Matter. It may reward marketing, popularity or paid placement. It can encourage users to treat professional work as interchangeable and usually does not govern the chain from instruction to Return.
 
-A public directory can show names, locations, service descriptions and perhaps reviews. It usually cannot establish current suitability for a particular Matter. It may reward marketing ability, historical popularity or paid placement. It can encourage customers or participants to treat professional work as interchangeable. It rarely owns the complete chain from instruction to Return.
+The real choice is not between a private spreadsheet and an open marketplace.
 
-The choice is not:
+The useful alternative is a managed network that combines structured supply, bounded access and accountable fulfillment.
 
-```text
-private spreadsheet
-or
-open marketplace
-```
+## Preserve the relationship; govern the route
 
-The more useful alternative is a managed network that combines structured supply with bounded access and accountable fulfillment.
-
-## What MGSN should preserve from private networks
-
-A new Product should not discard the strengths of existing relationships.
-
-Private networks contain valuable assets:
+MGSN should preserve what private networks do well:
 
 - lived experience;
-- contextual Trust;
 - negotiated terms;
 - language and communication fit;
-- understanding of customer expectations;
-- knowledge of who can solve unusual problems;
-- willingness to help during emergencies.
+- knowledge of unusual problems;
+- willingness to help in emergencies;
+- legitimate preferred-provider relationships.
 
-MGSN should allow a Workplace to preserve preferred Providers and relationship provenance. A managed preferred-provider route can respect prior relationships while still applying current admission, qualification, conflict, availability and risk controls.
+A managed preferred-provider route can respect that history while still applying current admission, qualification, conflict, availability and risk controls.
 
-The goal is not to force every instruction through a platform-selected stranger. It is to make both existing and new routes more governable.
-
-## The second lock
-
-The second constitutional lock is:
+The governing lock is:
 
 ```text
 Relationship history
@@ -233,6 +183,4 @@ Past success is evidence. It is not permanent appointment.
 
 A network that ignores history wastes professional capital. A network that treats history as unquestionable authority becomes closed and brittle.
 
-MGSN must hold both truths at once.
-
-The next chapter explains why this requirement leads to a managed network rather than a conventional marketplace.
+The next chapter explains why holding both truths requires a managed network rather than a conventional marketplace.
