@@ -6,422 +6,194 @@ Providers need clarification. Workplaces need status. Customers may need to answ
 
 But communication access can easily become a hidden ownership transfer.
 
-Once a Provider receives direct contact details, it may begin discussing unrelated matters. Once a Workplace sees the whole Provider pool, it may bypass managed routing. Once participants move to private messaging, the network loses the evidence needed to resolve scope, deadline and responsibility disputes.
-
-MGSN therefore permits communication where fulfillment requires it, while keeping access tied to the engagement.
-
 ```text
-permission to communicate
-≠ unrestricted participant connection
-≠ customer ownership transfer
-≠ Provider-pool export
+Permission to Communicate
+≠ Unrestricted Participant Connection
+≠ Customer Relationship Transfer
 ```
 
-## 1. Communication is part of execution evidence
+## 1. Conversation is necessary, but conversation is not workflow
 
-Communication is not merely conversation.
+Email, calls and messaging tools are useful channels. They do not by themselves preserve scope, authority, version, deadline or responsibility.
 
-A message may:
+A conversation becomes operationally significant when it changes:
 
-- clarify scope;
-- disclose a conflict fact;
-- change a deadline;
-- request an original document;
-- approve a translation;
-- reject an additional fee;
-- report a filing;
-- identify an error;
-- revoke an instruction;
-- create a recovery obligation.
+- scope;
+- deadline;
+- fee;
+- approval;
+- document state;
+- Provider condition;
+- official status;
+- cancellation or correction.
 
-The network must know which messages materially affect the engagement.
+Those changes must enter the governed engagement record.
 
 ```text
 Conversation
 ≠ Workflow
-
-but material communication
-must be linked to governed work
 ```
 
-MGSN should not try to turn every sentence into a formal object. It should preserve the communications that establish authority, commitment, exception, evidence and state transition.
+## 2. Four communication patterns
 
-## 2. Engagement-scoped access
+MGSN may support several patterns depending on the engagement.
 
-Communication access should be granted because a participant has a role in a defined engagement.
+### Managed Relay
 
-The scope may identify:
+The Provider communicates through the Originating Workplace or MGSN-managed channel. This is useful where customer identity remains masked, the Workplace owns the relationship or translation and coordination are required.
 
-- engagement;
-- Provider Organization;
-- Originating Workplace;
-- customer contact where necessary;
-- allowed participants;
-- communication purpose;
-- permitted data;
-- start and end time;
-- channel;
-- language;
-- confidentiality level;
-- recording or retention rules;
-- escalation path.
+### Direct Professional Channel
 
-```text
-participant admitted to MGSN
-≠ participant may contact everyone
-```
+The Provider communicates directly with the customer where professional work genuinely requires it.
 
-A Provider should not be able to browse all demand participants. A Workplace should not automatically gain exportable access to every Provider contact.
+### Joint Engagement Channel
 
-## 3. Direct communication can be necessary
+The Workplace, Provider and customer participate together, with roles and scope visible.
 
-Some professional services require direct interaction between the Provider and customer or authorized representative.
+### Restricted Confidential Channel
 
-Examples include:
+Sensitive professional, conflict, investigation or privileged content is handled in a restricted context. MGSN may know the channel exists and track required milestones without assuming a right to read all content.
 
-- conflict clarification;
-- professional interview;
-- signature formalities;
-- factual verification;
-- hearing preparation;
-- local representation requirements;
-- urgent procedural questions;
-- privileged advice where the correct relationship exists.
+The communication model should be selected deliberately rather than emerging accidentally from copied email addresses.
 
-MGSN should not prohibit necessary direct communication merely to preserve platform control.
+## 3. Relationship ownership and professional independence
 
-The question is not whether participants may speak directly. It is:
-
-> Under what role, scope, authority and record should they communicate?
-
-## 4. Communication models
-
-Different engagements may use different models.
-
-### Managed relay
-
-The Provider communicates through the Originating Workplace or MGSN-managed channel.
-
-Useful when:
-
-- customer identity remains masked;
-- the Workplace owns customer communication;
-- translation or coordination is needed;
-- the Provider does not need direct contact;
-- commercial separation must be preserved.
-
-### Direct professional channel
-
-The Provider communicates directly with an authorized customer contact for a defined professional purpose.
-
-The Workplace remains informed according to the agreed model, subject to privilege and professional rules.
-
-### Joint engagement channel
-
-The Workplace, Provider and authorized customer participants communicate together.
-
-Useful when scope, approval and responsibility need common visibility.
-
-### Restricted confidential channel
-
-Certain communications are accessible only to permitted professional participants.
-
-This may be necessary for conflict, legal advice, investigation or other sensitive work.
-
-The network should record the existence and governance of the channel without assuming a right to inspect privileged content.
-
-## 5. Relationship ownership and professional independence
-
-Engagement-scoped communication must preserve two truths at once.
-
-First, the Originating Workplace may remain the Relationship Owner and commercial coordinator.
-
-Second, the Provider may require professional independence and direct communication to perform its role responsibly.
+The Originating Workplace may remain the Relationship Owner while the Provider exercises independent professional judgment.
 
 ```text
 Relationship Owner
-≠ owner of professional judgment
+≠ Owner of Professional Judgment
 
-Provider professional independence
-≠ ownership of the customer relationship
+Provider Professional Independence
+≠ Ownership of Customer Relationship
 ```
 
-The communication model should not force a Provider to conceal professional risk. Nor should professional access become a pretext for unrelated solicitation.
+The Provider should be free to state a professional concern, refuse an unsafe instruction or request necessary clarification. That does not authorize solicitation of unrelated work or reuse of customer data.
 
-## 6. Contact disclosure must be progressive
+## 4. Contact disclosure should be progressive
 
-Before route confirmation, the user may see limited Provider information.
-
-After Allocation, additional information may be disclosed for conflict and acceptance.
-
-After Provider Acceptance, operational contacts may be exchanged.
-
-After direct communication is necessary, customer contact details may be disclosed for the defined purpose.
+Before route selection, limited Provider information may be sufficient. During conflict review, selected identity fields may be disclosed. After Provider Acceptance, the parties may receive the operational contact details required for delivery.
 
 ```text
 Candidate Route
-→ limited profile visibility
+→ Limited Profile Visibility
 
 Allocation
-→ conflict and acceptance disclosure
+→ Conflict and Acceptance Disclosure
 
 Accepted Engagement
-→ operational communication access
+→ Operational Communication Access
 ```
 
-Disclosure should not occur earlier than the decision requires.
+This progression protects both the Provider network and the customer relationship.
 
-## 7. Communication provenance
+## 5. Communication must remain attributable
 
-Material communication should retain:
+A material message should preserve:
 
-- sender;
-- represented Organization;
-- role;
+- sender and represented Organization;
 - recipients;
 - date and time;
-- channel;
-- engagement reference;
-- related Instruction Package or Task;
-- attachments and versions;
-- language and translation where relevant;
-- confidentiality classification;
-- acknowledgement or response status;
-- supersession or correction.
+- engagement and Matter reference;
+- Instruction Package version where relevant;
+- whether the message is information, request, approval, condition or professional advice;
+- attachments and their versions;
+- required response and deadline.
 
-A forwarded message should preserve the original source rather than appearing as a new instruction from the forwarder.
+A forwarded screenshot without source context may be useful evidence, but it should not automatically become an attributable instruction.
 
-## 8. Translation and interpretation risk
+## 6. Translation requires source separation
 
-Cross-border work often requires translation.
-
-The network should distinguish:
-
-- original message;
-- machine translation;
-- operator translation;
-- professional translation;
-- customer-approved translation;
-- Provider interpretation.
+Cross-border service often depends on translation. The network should distinguish:
 
 ```text
-translated summary
-≠ original instruction
+Original Message
+Machine Translation
+Operator Translation
+Professional Translation
+Customer-approved Translation
+Provider Interpretation
 ```
 
-Where wording affects authority or substantive action, the approved language and source should be clear.
-
-AI translation may assist understanding. It should not silently become the final legal or professional text.
-
-## 9. Material messages need acknowledgement
-
-Some communications should require explicit acknowledgement.
-
-Examples include:
-
-- Instruction Package;
-- deadline change;
-- fee change;
-- missing prerequisite;
-- Provider Acceptance condition;
-- customer approval;
-- cancellation;
-- correction request;
-- official notice;
-- replacement decision.
+A translated summary can help coordination. It should not silently replace the original instruction or professional text.
 
 ```text
-message sent
-≠ message received
-≠ message understood
+Translated Summary
+≠ Original Instruction
 ```
 
-The acknowledgement should identify the relevant version and any disagreement.
+Where a translation itself affects filing content or legal meaning, approval and version control belong in the Instruction Package.
 
-## 10. Channel migration
+## 7. Off-platform communication must return to the record
 
-Participants may move from the platform to email, phone, messaging applications or meetings.
-
-The Product cannot assume that all work remains in one interface.
-
-It should provide a way to record material off-platform communication, including:
-
-- call note;
-- meeting summary;
-- forwarded email;
-- uploaded attachment;
-- confirmation message;
-- operator attestation with source.
-
-A summary should state who prepared it and whether other participants confirmed it.
+Calls, WeChat, WhatsApp, meetings and private email may remain necessary. Material outcomes should be brought back as a call note, meeting summary, forwarded message, uploaded document or confirmation request.
 
 ```text
-operator note
-≠ participant-confirmed instruction
+Operator Note
+≠ Participant-confirmed Instruction
 ```
 
-## 11. Communication and customer approvals
+Where a note records a material approval or change, the relevant participant should confirm it before protected action.
 
-A Provider may ask the customer a question directly. The response may affect filing or another protected action.
+## 8. Status communication should separate assertion from evidence
 
-The system should determine:
+A Provider may write “filed,” “paid,” “accepted” or “registered.” Those statements matter, but they do not automatically prove the external event.
 
-- whether the customer contact has authority;
-- whether the Originating Workplace must review;
-- which version is approved;
-- whether the Provider may act immediately;
-- whether financial approval is separate;
-- whether professional review is required.
+Communication should distinguish:
 
-Direct communication does not remove the Instruction Package and Approval chain.
+- Provider assertion;
+- attached Provider work product;
+- official Evidence;
+- MGSN review;
+- Owning Service formal-state decision.
 
-## 12. Communication boundaries after completion
+This prevents a convenient status message from becoming false official truth.
 
-When an engagement closes, direct access should not automatically remain open forever.
+## 9. Communication access should end or narrow
 
-The communication state may become:
+When a Provider declines, an engagement closes, a participant is replaced or a restricted issue arises, communication access should be reviewed.
+
+Ending future access does not delete the messages and Evidence required for audit, correction, dispute or legal retention.
+
+A Provider should not retain open access to the broader customer relationship merely because one engagement once required direct contact.
+
+## 10. AI assistance remains bounded
+
+AI may summarize threads, identify unanswered questions, compare attachments, draft translations and detect deadline changes.
+
+It should not:
+
+- invent an approval;
+- convert silence into consent;
+- replace the original message;
+- decide privilege or professional confidentiality by itself;
+- send a consequential instruction without authorization;
+- expose restricted relationship or Provider information.
+
+AI output should remain traceable to the source communication.
+
+## 11. Failure and recovery
+
+Common failures include:
+
+- direct contact expands into unrelated solicitation;
+- a telephone approval is never confirmed;
+- a translated summary changes the instruction;
+- an important attachment remains only in a private mailbox;
+- a Provider status message is treated as official Evidence;
+- a replaced Provider retains unnecessary customer access.
+
+Recovery requires reconstructing the communication chain, restoring the correct version and authority, and limiting future access without erasing accountable history.
+
+## 12. Product principle
+
+Communication should make an engagement easier to complete without making its boundaries disappear.
 
 ```text
-active
-restricted to correction
-restricted to dispute
-read-only archive
-closed
-retained under legal or professional requirement
+Engagement-scoped Access
++ Attributable Material Decisions
++ Preserved Source and Version
+= Governed Communication
 ```
 
-Future Matters should create new authority and scope unless an explicit continuing relationship exists.
-
-## 13. Anti-circumvention without captivity
-
-MGSN needs protection against deliberate bypass of a managed engagement.
-
-Potential misconduct includes:
-
-- using disclosed contacts to move the same work off-platform;
-- soliciting the customer for related work during the protected period;
-- exporting the Provider pool;
-- hiding a direct settlement;
-- falsely labeling new work as unrelated;
-- using private channels to avoid evidence and fees.
-
-But anti-circumvention should not become permanent participant captivity.
-
-A fair model should define:
-
-- protected relationship or engagement;
-- duration;
-- excluded pre-existing relationships;
-- attribution evidence;
-- permitted direct communication;
-- independent future relationships;
-- dispute and correction route;
-- exit and portability boundaries.
-
-```text
-network protection
-≠ permanent ownership of participants
-```
-
-## 14. Confidentiality and privilege
-
-Different communications may carry different confidentiality obligations.
-
-MGSN should support classification such as:
-
-- ordinary operational;
-- customer confidential;
-- Provider confidential;
-- commercial confidential;
-- restricted conflict information;
-- potentially privileged;
-- legally retained;
-- dispute hold.
-
-The platform must not claim ownership or unrestricted analytical use of professional communications merely because it provides the channel.
-
-Access, retention, export and AI use should follow the applicable rights and policies.
-
-## 15. AI in communication
-
-AI may assist with:
-
-- summarizing long threads;
-- extracting decisions;
-- identifying unanswered questions;
-- comparing versions;
-- translating for provisional understanding;
-- detecting deadline or fee changes;
-- drafting a response;
-- linking messages to work items.
-
-AI must not:
-
-- invent acknowledgement;
-- treat a draft as sent;
-- infer customer authority without evidence;
-- remove uncertainty from translation;
-- disclose restricted content to unauthorized participants;
-- train on confidential professional content without rights;
-- autonomously send a material instruction or approval.
-
-```text
-AI communication draft
-≠ authorized message
-```
-
-## 16. Failure modes
-
-### 16.1 Direct contact becomes customer solicitation
-
-A Provider receives customer details for one filing and offers unrelated services directly.
-
-Correct response: preserve evidence, restrict access and apply the relationship-governance process.
-
-### 16.2 Workplace blocks necessary professional communication
-
-The Provider cannot clarify a material fact because all contact must pass through a commercial coordinator.
-
-Correct response: open a scoped professional channel with appropriate visibility and confidentiality.
-
-### 16.3 Phone approval is not recorded
-
-A customer approves a revised filing in a call, but the Provider and Workplace remember different versions.
-
-Correct response: create an attributable call note and obtain confirmation before action where required.
-
-### 16.4 Machine translation becomes final instruction
-
-An AI translation changes the meaning of a limitation.
-
-Correct response: preserve the original and require the appropriate reviewed translation.
-
-### 16.5 Off-platform message changes the deadline
-
-The Provider sends a private message that is never linked to the Matter.
-
-Correct response: capture the material message, update deadline evidence and trigger review.
-
-### 16.6 Closed engagement leaves permanent access
-
-Provider users continue to see customer documents after completion.
-
-Correct response: move the channel to the appropriate closed or restricted state.
-
-## 17. Product principle
-
-MGSN communication should be open enough to complete professional work and bounded enough to preserve authority, confidentiality and relationship integrity.
-
-```text
-engagement role
-+ communication purpose
-+ permitted participants
-+ data scope
-+ provenance and acknowledgement
-+ closure rule
-= governed communication access
-```
-
-The goal is not to trap every message inside a platform. It is to prevent the evidence and responsibility of an engagement from disappearing into uncontrolled conversation.
-
-The next chapter addresses a related risk: a Provider silently passing the work to another firm, professional or local representative without preserving accountability.
+The next chapter addresses what happens when the accepted Provider brings another participant into that communication and delivery chain.
