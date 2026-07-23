@@ -1,512 +1,269 @@
 # CH09 — Capability Need Projection and Minimum Necessary Disclosure
 
-MGSN should not begin by asking a Workplace to hand over a customer file.
+MGSN should not begin by asking a Workplace to upload a customer file.
 
-It should begin by asking what external capability is needed, for what purpose and with what minimum context.
+It should begin with a narrower question:
 
-That difference protects the Originating Workplace, the customer and the network itself.
+> What external capability is needed, for what purpose, and what is the least information required to make the next safe decision?
+
+That difference protects the customer relationship, reduces unnecessary disclosure and improves route quality.
 
 ```text
-customer file
+Customer File
 ≠ Capability Need
 
-Capability Need
-≠ permission to disclose everything
-
 Need Projection
-≠ transfer of customer relationship
+≠ transfer of the customer relationship
 ```
 
-A managed network becomes trustworthy when it can form a useful route from limited, purpose-bound information and request additional disclosure only when the next governed decision genuinely requires it.
+## 1. Start with the Need, not the familiar Provider
 
-## 1. The Need belongs to the Originating Workplace
+Traditional cross-border practice often begins with a name:
 
-A professional Workplace may recognize that it cannot complete a matter entirely with its own internal capability.
+> Send this to our usual agent in Country X.
 
-It may need:
+That sequence allows history to define the problem before the problem has been understood.
 
-- local trademark representation;
-- a translation;
-- a professional opinion;
-- evidence collection;
-- a notarization or legalization path;
-- an investigation;
-- an urgent filing route;
-- a specialist response;
-- a certificate or official-document follow-up;
-- another jurisdiction-specific service.
+Consider a customer who asks for an urgent filing in two jurisdictions. One application may require a local representative and an original power of attorney. The other may allow a scanned document but require a classification review. The customer may assume the same applicant address should be used in both places, while the Workplace knows that the corporate record has recently changed.
 
-The need arises inside the Originating Workplace’s business context.
-
-That Workplace still owns and governs:
-
-- the customer relationship;
-- the customer’s private identity and commercial history;
-- the internal Matter record;
-- the reason the service is needed;
-- its own advice and strategy;
-- its pricing and margin;
-- its internal notes and Knowledge;
-- the decision to seek an external route;
-- the decision to accept or reject a Recommendation.
-
-MGSN receives an authorized Projection of the Need. It does not absorb the whole Workplace or customer context.
-
-```text
-Originating Workplace creates or recognizes the Need.
-MGSN evaluates the projected Need.
-Provider receives only the context required for its governed role.
-```
-
-## 2. Need before provider
-
-Traditional practice often begins with a provider name:
-
-> We need something in Country X, so send it to the usual agent.
-
-That approach allows the historical relationship to define the problem before the problem has been understood.
-
-MGSN reverses the sequence:
+The useful first step is not Provider selection. It is Need formation.
 
 ```text
 Need
 → required Capability
-→ relevant service package
+→ relevant Service Package
 → current Eligibility
 → Candidate Route Set
 → Recommendation
 ```
 
-The Need should describe the desired outcome and operating constraints before a provider is chosen.
+A useful Need identifies the desired outcome, jurisdiction, procedural stage, deadline, material customer constraints, document state, data sensitivity and unresolved questions. It should not assume that one Provider or one legal action is already correct unless that conclusion has been established.
 
-A useful Need may identify:
+## 2. The Need remains inside the Originating Workplace
 
-- jurisdiction and authority;
-- service family;
-- current procedural stage;
-- desired outcome;
-- relevant deadline;
-- urgency;
-- applicant or owner type where material;
-- language;
-- document state;
-- existing provider or prior relationship;
-- professional or regulatory constraints;
-- data sensitivity;
-- known budget or commercial constraints;
-- required Evidence and Return;
-- unresolved questions.
+The Need arises from the Originating Workplace’s customer and Matter context.
 
-The Need should not assume that one specific provider, package or legal action is already correct unless that decision has been independently established.
+The Workplace ordinarily retains:
 
-## 3. Projection is a purpose-limited view
+- the customer relationship;
+- the full Matter record;
+- internal strategy and professional reasoning;
+- private pricing and margin;
+- customer communications;
+- unrelated portfolio information;
+- the decision to seek external capability;
+- the decision to accept, reject or challenge a Recommendation.
 
-The Originating Workplace may hold much more information than MGSN requires.
-
-For example, a trademark Matter may contain:
-
-- full customer records;
-- corporate documents;
-- beneficial ownership information;
-- signatures;
-- powers of attorney;
-- financial data;
-- litigation strategy;
-- correspondence;
-- unrelated marks and jurisdictions;
-- internal risk notes;
-- pricing and margin;
-- privileged or confidential analysis.
-
-MGSN should not receive this entire collection merely because one external Capability is needed.
-
-A Projection should specify:
+MGSN receives an authorized Projection of the Need. It does not absorb the entire Workplace context.
 
 ```text
-source Workplace
-purpose
-permitted recipient or route stage
-visible fields
-masked fields
-restricted Documents
-expiry or withdrawal condition
-return path
+Originating Workplace
+→ recognizes and governs the Need
+
+MGSN
+→ evaluates the authorized Projection
+
+Provider
+→ receives the context required for its accepted role
 ```
 
-The projection is a governed view, not a copied ownership transfer.
+Projection is therefore a controlled view of a Need, not a copy of the customer relationship.
+
+## 3. Projection is purpose-limited
+
+A trademark Matter may contain far more information than routing requires: corporate records, beneficial ownership data, signatures, powers of attorney, financial information, litigation strategy, privileged analysis, unrelated marks and internal risk notes.
+
+The existence of that information does not create permission to move it into the Network.
+
+A Projection should identify:
+
+- the source Workplace;
+- the routing or fulfillment purpose;
+- the Need version;
+- visible and masked fields;
+- restricted Documents;
+- permitted recipients or route stages;
+- approval requirements;
+- expiry, correction or withdrawal conditions;
+- the governed Return path.
 
 ```text
 Projection
-≠ duplication without control
+≠ uncontrolled duplication
 ≠ permanent network visibility
 ≠ permission for unrelated use
 ```
 
+The MGSN Connection is the Workplace-scoped control that enforces this boundary. The platform-owned Network receives only what the Connection is authorized to project.
+
 ## 4. Minimum necessary disclosure
 
-The minimum necessary principle asks:
+The minimum necessary principle is stage-specific.
 
-> What is the least information required to make the next safe decision?
-
-At the first routing stage, MGSN may need to know:
+At preliminary capability-fit stage, the Network may need only:
 
 - service and jurisdiction;
-- deadline;
-- broad applicant type;
-- conflict-check category;
+- procedural stage;
+- deadline and urgency;
+- broad applicant or customer type;
 - language;
-- package scope;
-- urgency;
-- whether a preferred provider exists;
-- whether special data restrictions apply.
+- desired package scope;
+- special data restrictions;
+- whether a preferred Provider exists.
 
-It may not yet need:
+It may not yet need the customer’s full identity, signed documents, banking data, complete Matter history, privileged advice or Workplace margin.
 
-- the customer’s full identity;
-- complete legal documents;
-- bank records;
-- signatures;
-- privileged analysis;
-- the full Matter history;
-- unrelated customer files;
-- private Workplace pricing.
-
-As the route progresses, disclosure may expand in governed stages.
+Disclosure should expand only when the next governed decision requires it.
 
 ```text
-route discovery
-→ limited masked context
+Capability fit
+→ masked service context
 
-conflict review
-→ identity fields required for conflict
+Preliminary Eligibility
+→ material route constraints
 
-provider acceptance
+Conflict review
+→ minimum identity fields required for that check
+
+Provider Acceptance
 → engagement scope and necessary Documents
 
-protected action
-→ approved final instruction and required authority evidence
+Protected action
+→ final approved instruction and authority evidence
 ```
 
-The disclosure should grow because a decision requires it—not because the platform can technically collect it.
+The sequence does not mean every Matter follows identical steps. It means the Network should be able to explain why each additional disclosure became necessary.
 
-## 5. Progressive disclosure
+## 5. Masked identity is still controlled identity
 
-Progressive disclosure allows a route to be evaluated without exposing the whole customer relationship too early.
+Masking should not create an anonymous, untraceable request.
 
-A possible sequence is:
-
-### Stage 1 — Capability fit
-
-The network sees only the service, jurisdiction, stage, urgency and general constraints.
-
-Purpose:
-
-- determine whether relevant supply exists;
-- identify candidate Service Packages;
-- detect obvious route gaps.
-
-### Stage 2 — preliminary Eligibility
-
-The network receives enough context to evaluate qualification, package, capacity, language, data and obvious risk restrictions.
-
-Customer identity may remain masked.
-
-### Stage 3 — conflict review
-
-Specific identity information may be disclosed to selected Providers or a controlled conflict process.
-
-The disclosure should be limited to what the conflict check requires.
-
-### Stage 4 — Provider Acceptance
-
-The selected Provider receives the agreed scope, deadlines, required Documents and authority prerequisites.
-
-### Stage 5 — action instruction
-
-Only after the appropriate approval does the Provider receive the final information and authorization required for a protected action.
-
-This sequence prevents routing convenience from becoming uncontrolled customer-data distribution.
-
-## 6. Masked identity is controlled identity
-
-Masking does not mean that the network operates without accountability.
-
-The Originating Workplace and MGSN should still maintain stable references that allow:
-
-- duplicate Need detection;
-- conflict escalation;
-- audit;
-- customer consent tracking;
-- correction;
-- withdrawal;
-- later reconciliation.
-
-A masked customer may appear through a controlled identifier or limited description until disclosure becomes necessary.
+The Originating Workplace and MGSN still need stable references for duplicate detection, conflict escalation, approval tracking, correction, withdrawal and later reconciliation.
 
 ```text
-masked identity
-≠ anonymous untraceable request
+Masked Identity
+≠ anonymous request
 
-stable internal reference
+Stable Internal Reference
 ≠ public customer disclosure
 ```
 
-The system should know who may reveal the identity, at which stage and to whom.
+The system should know who may reveal identity, at which stage, to which Provider and for what purpose.
 
-## 7. The MGSN Connection enforces the boundary
+Where conflict review requires the customer name or related parties, continued masking may itself become unsafe. The correct response is a controlled disclosure event—not either universal disclosure or permanent concealment.
 
-The MGSN Connection inside the Workplace is the controlled interface through which Needs are projected and Returns are received.
+## 6. Need quality determines route quality
 
-It should enforce:
+A vague instruction such as “please file this trademark” may hide the applicant, mark format, goods, priority position, required search, filing basis, prior application, documentary requirements and customer approval state.
 
-- authorized users and roles;
-- permitted Need types;
-- allowed data fields;
-- Document restrictions;
-- masking rules;
-- approval requirements;
-- applicable network terms;
-- permitted Return types;
-- audit and withdrawal controls.
-
-The Connection is not the platform-owned Network.
-
-```text
-MGSN Connection
-= Workplace-scoped projection and return control
-
-MGSN Network
-= platform-owned admission, routing and fulfillment environment
-```
-
-The Connection should reject a projection that exceeds its scope rather than silently broadening permissions.
-
-## 8. Need quality determines route quality
-
-A vague Need produces weak routing.
-
-“Please file this trademark” may hide:
-
-- which applicant should file;
-- whether the mark is word or design;
-- which goods or services matter;
-- whether priority is claimed;
-- whether a search is required;
-- whether the applicant has local restrictions;
-- whether an old application exists;
-- whether a deadline is imminent;
-- whether the customer has approved the final specification.
-
-MGSN should help the Originating Workplace structure the Need without pretending to make professional decisions that remain unresolved.
+MGSN should help structure the Need while preserving the source and confidence of each item.
 
 A Need may contain:
 
 ```text
-confirmed facts
+confirmed customer facts
 customer instructions
 professional assumptions
 open questions
-unknowns
+Unknowns
 deadlines
 required decisions
 ```
 
-These categories should remain separate.
+These categories should remain distinguishable.
+
+An internal assumption must not become a customer-confirmed instruction merely because the routing form needs a value. A prior Provider’s statement that a fee was paid must not become official payment evidence. Provenance is what makes later clarification, correction and dispute review possible.
+
+## 7. Preferred Providers do not receive automatic access
+
+A Workplace may identify an existing Provider relationship when it projects the Need.
+
+That preference can support continuity and relationship protection. It does not remove the need to check current qualification, conflict, availability, package validity and data scope.
 
 ```text
-assumption
-≠ customer fact
-
-unknown
-≠ negative
-
-requested action
-≠ authorized action
+Preferred Provider Named
+≠ currently eligible
+≠ appointed
+≠ customer file released
 ```
 
-## 9. Source and provenance
+If the preferred Provider is conflicted, unavailable or materially unsuitable, the Network should explain the issue and offer a governed alternative. Relationship Provenance should influence the route without becoming an access entitlement.
 
-Every important projected item should preserve provenance.
+## 8. Need versions matter
 
-The network may need to know:
+Needs change.
 
-- who entered the information;
-- whether it came from the customer, Workplace, official source or prior Provider;
-- when it was obtained;
-- which version is current;
-- whether it has been reviewed;
-- what uncertainty remains;
-- whether the customer approved it;
-- whether the item may be disclosed externally.
+The customer may add a class, change the applicant, discover an earlier application, alter the deadline or request urgent handling. A Provider may identify a documentary prerequisite or a conflict may force a different route.
 
-A Provider should not receive an instruction package that presents internal inference as customer-confirmed fact.
-
-For example:
-
-```text
-customer says the mark has not been used
-≠ Workplace has independently verified non-use
-
-old provider reports fee paid
-≠ official payment receipt confirmed
-```
-
-Provenance makes later correction and dispute resolution possible.
-
-## 10. Relationship-preserved routes without premature disclosure
-
-A Workplace may identify an existing preferred Provider while projecting the Need.
-
-MGSN may record:
-
-- the Provider reference;
-- Relationship Provenance;
-- whether continuity is desired;
-- whether the customer requested that Provider;
-- whether alternatives may be considered;
-- disclosure restrictions.
-
-The existing relationship does not require the Workplace to expose the entire customer record to the Provider before current Eligibility is checked.
-
-```text
-preferred Provider named
-≠ Provider currently eligible
-≠ Provider appointed
-≠ customer data automatically released
-```
-
-If the preferred Provider is conflicted, unavailable, unqualified or materially unsuitable, MGSN should explain the issue and offer a governed alternative.
-
-## 11. Need changes and version control
-
-A Need can change as information becomes available.
-
-Examples:
-
-- the customer adds a class;
-- the deadline changes;
-- an old filing is discovered;
-- the applicant entity changes;
-- a priority claim becomes unavailable;
-- the customer requests an urgent route;
-- the Provider identifies a document requirement;
-- a conflict requires a replacement route.
-
-Each material change may affect:
-
-- required Capability;
-- package;
-- price;
-- Eligibility;
-- Provider Acceptance;
-- customer approval;
-- deadline risk.
-
-The network should preserve Need versions rather than silently overwriting the request that supported the original Recommendation.
+A material change may affect Capability, Package, price, Eligibility, Provider Acceptance, disclosure and customer approval.
 
 ```text
 Need v1
-→ route and Recommendation v1
+→ Route and Recommendation v1
 
 Need v2
-→ re-evaluate affected route assumptions
+→ re-evaluate the assumptions affected by the change
 ```
 
-A change in one field should not automatically invalidate everything, but it should trigger the checks that depend on that field.
+The Network should preserve the earlier Need and route decision rather than silently rewriting the basis on which the first Recommendation was made.
 
-## 12. Urgency does not remove disclosure discipline
+## 9. Urgency narrows time, not authority
 
-Urgent work often creates pressure to send the whole file immediately.
+Urgent work often creates pressure to send the complete file immediately.
 
-A safer response is to identify the minimum urgent disclosure required for the next decision.
-
-For example:
-
-- deadline and authority may be required immediately;
-- customer identity may be needed for conflict;
-- the complete filing package may wait until the Provider confirms availability;
-- final instructions may still require customer approval;
-- payment evidence may need separate confirmation.
+A safer response is to identify the smallest urgent disclosure required for the next decision. The deadline and authority may need immediate confirmation; customer identity may be required for conflict; the full filing package may wait until capacity is confirmed; final content may still require customer approval.
 
 ```text
-urgent
+Urgent
 ≠ unrestricted disclosure
-≠ authority to infer missing instructions
+≠ permission to infer missing instructions
 ```
 
-Where the time remaining makes safe routing impossible, MGSN should expose that risk rather than pretend the route is normal.
+Where the remaining time makes safe routing impossible, MGSN should expose that risk rather than present an ordinary route with false confidence.
 
-## 13. Withdrawal and correction
+## 10. Withdrawal and correction
 
-The Originating Workplace should be able to withdraw or correct a Need Projection before an external action, subject to obligations already accepted.
+The Originating Workplace should be able to correct or withdraw a Projection before an external action, subject to obligations already accepted.
 
-A withdrawal should identify:
+Withdrawal should stop new use of the projected data. It may not erase evidence required for audit, dispute, financial reconciliation or legal retention.
 
-- who requested it;
-- which Need version is affected;
-- whether a Provider has been allocated or accepted;
-- whether funds or costs have been incurred;
-- whether Documents have already been disclosed;
-- what retention duties remain;
-- whether a deadline or legal risk survives.
+Correction should preserve the earlier value and the reason for change when the earlier value influenced Eligibility, Recommendation or Provider action.
 
-Withdrawal should stop new use of the projected data. It cannot always erase evidence already required for audit, dispute or legal retention.
+## 11. Representative failure patterns
 
-Correction should preserve the previous value and reason for change where the earlier value influenced routing or Provider action.
+### Whole-file upload before route formation
 
-## 14. Failure modes
+Several candidate Providers receive unnecessary personal, commercial and privileged information.
 
-### 14.1 Whole-file upload before route formation
+**Recovery:** replace the broad upload with a limited Need Projection and staged disclosure.
 
-A Workplace uploads the complete customer file to compare providers.
+### Masking continued beyond safe conflict review
 
-Several Providers receive unnecessary personal, commercial and privileged information.
+A route is described as conflict-free although the Provider never received the identity required to perform the check.
 
-Correct response: project a limited Need and disclose additional data only to the governed route stage.
+**Recovery:** record conflict as unresolved and conduct a controlled disclosure event.
 
-### 14.2 Masking prevents conflict review
+### Internal inference presented as customer instruction
 
-Customer identity remains hidden even after a Provider needs it to check conflict.
+The Workplace assumes the applicant or filing basis, and the Projection marks it confirmed.
 
-Correct response: request the minimum conflict fields through a controlled disclosure event.
+**Recovery:** restore provenance, classify the item as an assumption and obtain the required confirmation.
 
-### 14.3 Internal inference becomes customer instruction
+### Need change without route refresh
 
-The Workplace assumes which applicant entity should file, and the projection labels it confirmed.
+The customer adds another class, but the old Package, price and Recommendation remain active.
 
-Correct response: preserve the source as an assumption and require customer or professional confirmation.
+**Recovery:** create a new Need version and re-evaluate the dependent route conditions.
 
-### 14.4 Existing provider receives automatic access
+## 12. Product principle
 
-A preferred Provider is named, and the system releases the Matter because of prior history.
-
-Correct response: check current Eligibility and obtain the necessary disclosure authorization.
-
-### 14.5 Need changes without rerouting
-
-The customer adds a contentious element after a routine filing Provider was recommended.
-
-Correct response: version the Need and re-evaluate Capability, package, qualification and price.
-
-### 14.6 Urgency justifies uncontrolled disclosure
-
-A deadline is close, so all Documents are sent to an unaccepted Provider.
-
-Correct response: use an emergency controlled route or record that no safe route is available.
-
-## 15. Product principle
-
-MGSN should know enough to route safely without becoming the uncontrolled owner of every customer file.
+MGSN should obtain enough context to form a safe route without turning routing into indiscriminate customer-data collection.
 
 ```text
-Workplace-governed Need
-+ purpose-limited Projection
-+ minimum necessary disclosure
-+ progressive release
-+ source and version trace
-= routable demand without customer transfer
+Private Workplace Need
+→ Purpose-limited Projection
+→ Progressive Disclosure
+→ Current Route Evaluation
 ```
 
-The Need Projection gives MGSN the right problem to solve while preserving the Originating Workplace’s business sovereignty.
-
-The next chapter explains how the network evaluates qualified supply against this exact Need and why Eligibility must remain a current, route-specific decision rather than a permanent Provider badge.
+The next chapter asks what happens after the Need is projected: which admitted and qualified routes are actually usable for this exact Need now.
