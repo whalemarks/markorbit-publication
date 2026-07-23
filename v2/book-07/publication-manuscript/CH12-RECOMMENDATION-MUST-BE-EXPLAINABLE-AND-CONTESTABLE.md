@@ -2,7 +2,7 @@
 
 A Recommendation is not valuable because the platform has chosen.
 
-It is valuable because the participant can understand the choice, question it and decide what to do next.
+It is valuable because the Originating Workplace can understand the choice, question it and decide what happens next.
 
 ```text
 Recommendation
@@ -12,316 +12,179 @@ Recommendation
 ≠ guarantee of result
 ```
 
-MGSN should recommend one route only after it has formed a bounded Candidate Route Set and compared the routes against the exact Capability Need.
+MGSN should recommend a route only after it has formed a bounded Candidate Route Set from currently eligible supply.
 
-The recommendation must expose the material reasons, alternatives, conditions, commercial structure, authority limits and unresolved uncertainty.
+## 1. Recommend the route, not the brand
 
-## 1. What a Recommendation should answer
+A useful Recommendation concerns the whole route:
 
-A useful Recommendation should allow the Originating Workplace to answer:
-
-- Why is this route recommended?
-- Which Need requirements does it satisfy?
-- Which Provider and package are involved?
-- What has been verified?
-- What remains conditional or Unknown?
-- What will the Provider perform?
-- What will MGSN manage?
-- What must the Workplace or customer still decide?
-- What will the route cost and which items may change?
-- What timing assumptions apply?
-- What Evidence and Return are expected?
-- What happens if the Provider cannot perform?
-- Why were the alternatives not recommended?
-- Can the user reject, rematch or nominate another Provider?
-
-A recommendation that cannot answer these questions is an opaque selection result, not an accountable professional-service recommendation.
-
-## 2. The Recommendation object is route-specific
-
-MGSN should recommend a complete route, not merely a Provider brand.
-
-The route-specific recommendation may identify:
-
-- Need version;
-- Recommended Route reference;
-- Provider Organization and disclosure state;
-- Capability;
-- Service Package version;
-- route family—R1, R2 or R3;
-- qualification and Eligibility state;
+- the exact Need version;
+- Provider Organization and Capability;
+- Service Package and route family;
+- current Eligibility and unresolved conditions;
 - relationship context;
-- price structure;
-- timing;
-- Evidence and Return requirements;
-- conditions and Unknowns;
-- reasons for recommendation;
+- price and timing assumptions;
+- Evidence and Return expectations;
+- recovery structure;
 - meaningful alternatives;
-- user dispositions;
-- validity or refresh deadline.
+- validity period and required next decision.
 
-```text
-Provider is reputable
-```
+“Provider X is reputable” is not an adequate explanation.
 
-is not an adequate reason.
+A route may be recommended because it fits the precise service, has confirmed urgent capacity, includes necessary drafting and Evidence, preserves a valid existing relationship or offers a stronger recovery path.
 
-A route may be recommended because it is the strongest fit for the exact service, has confirmed availability, includes the necessary Evidence, preserves an existing relationship, supports an urgent deadline or offers a better recovery structure.
+The reason should be stated at that level of specificity.
 
-The recommendation should state the reason at that level of specificity.
+## 2. The explanation should answer practical questions
 
-## 3. Fit should be multidimensional
+The Workplace should be able to understand:
 
-Professional-route quality cannot be reduced to one score.
+- why the route fits the Need;
+- what has been verified;
+- what remains conditional or Unknown;
+- what the Provider will perform;
+- what MGSN will manage;
+- what the Workplace or customer must still approve;
+- what the route costs and which items may change;
+- what timing assumptions apply;
+- what Evidence should return;
+- what happens if the Provider cannot continue;
+- why the alternatives were not recommended;
+- how to reject, rematch or nominate another route.
 
-Relevant dimensions may include:
+An output that cannot answer these questions is an opaque selection result rather than an accountable Recommendation.
 
-- service and jurisdiction fit;
-- professional qualification;
-- Matter-specific authority prerequisites;
-- conflict status;
-- Provider availability;
+## 3. Fit is multidimensional
+
+Professional route quality cannot be reduced to one universal score.
+
+The material dimensions may include:
+
+- service, jurisdiction and procedural-stage fit;
+- Professional Qualification and authority prerequisites;
+- conflict and availability;
 - responsible professional;
-- package scope;
-- deadline fit;
-- language;
-- customer or applicant constraints;
-- Evidence quality;
-- communication reliability;
-- correction history;
-- recovery depth;
+- Package scope;
+- deadline and language;
+- customer constraints;
+- Evidence and communication quality;
+- correction and recovery history;
 - relationship continuity;
 - data and confidentiality fit;
-- price structure;
-- later-stage cost exposure;
-- concentration and dependency risk.
+- price structure and later-stage exposure;
+- concentration risk.
 
 The Recommendation should identify the dimensions that actually mattered.
 
-A Provider may be strongest overall without being best on every dimension.
-
 ```text
-recommended
+Recommended
 ≠ cheapest
 ≠ fastest
-≠ highest volume
 ≠ most popular
 ```
 
-The user should be able to see the trade-off.
+A Provider can be the strongest route without being best on every dimension. The trade-off should remain visible.
 
-## 4. Explain the route in plain operating terms
+## 4. Explain in operating language
 
-A recommendation explanation should avoid internal model jargon.
+Internal scores may support analysis, but they should not replace the rationale.
 
 Instead of saying:
 
-> Route A scored 87.4 and passed threshold R3.
+> Route A scored 87.4.
 
-it should say something like:
+MGSN should say:
 
-> Route A is recommended because the Provider is currently qualified for this filing stage, has confirmed capacity before the deadline, includes classification review and filing evidence in the quoted package, and has a verified relationship history with your Workplace. It is more expensive than Route B, but Route B has not yet confirmed urgent capacity and excludes specification drafting.
+> Route A is recommended because the Provider is currently qualified for this filing stage, has confirmed capacity before the deadline and includes classification review and filing Evidence. It costs more than Route B, but Route B has not confirmed urgent capacity and excludes specification drafting.
 
-The explanation should remain concise enough to use but detailed enough to audit.
+The explanation should be concise enough to use and detailed enough to audit.
 
-Internal scores may support the decision. They should not replace the decision rationale.
-
-## 5. Cost explanation must preserve layers
+## 5. Price needs scope and layers
 
 The Recommendation should show what the displayed price means.
 
-Relevant layers may include:
+Relevant layers may include Provider professional fees, official fees, taxes, disbursements, the platform-managed service layer and contingent or later-stage costs.
+
+The user should know which items are fixed, estimated, conditional, excluded, payable later or Unknown.
 
 ```text
-Provider professional fee
-+ official fees
-+ taxes and disbursements
-+ platform-managed service layer
-+ demand-side margin where permitted
-+ contingent or later-stage items
-= customer-facing offer
-```
-
-The user should know which items are:
-
-- fixed;
-- estimated;
-- conditional;
-- payable later;
-- dependent on official action;
-- excluded;
-- currently Unknown.
-
-```text
-Recommended Route price
+Recommended Route Price
 ≠ guaranteed final total where variables remain
 ```
 
-A lower-cost alternative may be meaningful if the user accepts narrower scope or more self-management. The Recommendation should explain that trade-off instead of treating price as a hidden commercial lever.
+A lower-cost alternative may still be useful where the Workplace accepts narrower scope or more self-management. That trade-off should be explicit rather than hidden inside a total.
 
-## 6. Timing explanation must include assumptions
+## 6. Timing needs assumptions
 
-Turnaround claims are often misleading when they do not identify what the clock measures.
+“Can start today” does not mean “the official result will arrive today.”
 
-The Recommendation should distinguish:
+The Recommendation should distinguish Provider response, conflict review, preparation time, submission timing, customer or funds dependencies, original-document lead time and official processing outside Provider control.
 
-- time to conflict review;
-- time to Provider Acceptance;
-- time to first professional review;
-- time to submission preparation;
-- expected filing or delivery time;
-- official processing time outside Provider control;
-- time required for original Documents, legalization or courier;
-- urgency assumptions;
-- dependencies on customer response or funds.
+Where a material assumption is unconfirmed, the route should remain conditional.
 
-```text
-Provider can begin today
-≠ official result will arrive today
-```
+## 7. Evidence and recovery belong in route quality
 
-Where timing depends on an unconfirmed assumption, the route should remain conditional.
+A route is not complete merely because the Provider can perform the primary task.
 
-## 7. Evidence and recovery should influence recommendation
+The Recommendation should consider whether the route will return useful acknowledgement, filing or delivery Evidence, official receipts, correspondence, fee evidence, deadline status, decisions, certificates and correction records.
 
-A route is not complete merely because the Provider can perform the primary service.
+It should also consider what happens when the Provider is silent, the deadline is threatened, a Document is rejected, the Return is incomplete or the Provider must be replaced.
 
-MGSN should consider whether the route will return:
+A slightly more expensive route may be stronger because it produces better Evidence and recovery—not because MGSN prefers it commercially.
 
-- acknowledgement of acceptance;
-- filing or submission evidence;
-- official receipt;
-- correspondence;
-- professional explanation;
-- invoice and official-fee evidence;
-- deadline status;
-- decision or certificate;
-- correction evidence;
-- structured Return data.
+## 8. Conditions and Unknowns must remain visible
 
-The route should also identify what happens when:
+Conflict may be pending. Capacity may await confirmation. Official fees may need refresh. The responsible professional may not yet be named. A power of attorney or original Document may still be required.
 
-- the Provider is silent;
-- the deadline is threatened;
-- Documents are rejected;
-- fees change;
-- an instruction is ambiguous;
-- the Provider cannot continue;
-- the Return is incomplete;
-- a dispute arises.
-
-A slightly more expensive route may be recommended because it provides better evidence, communication and recovery—not because the platform prefers the Provider commercially.
-
-## 8. Known conditions and Unknowns must be visible
-
-A Recommendation should never hide uncertainty to appear confident.
-
-Possible conditions include:
-
-- conflict clearance pending;
-- Provider capacity awaiting confirmation;
-- official fee under refresh;
-- responsible professional to be named;
-- customer identity required;
-- power of attorney form under review;
-- original Document required later;
-- price valid only until a stated date;
-- urgent surcharge not yet fixed;
-- later-stage fee not included.
-
-Possible Unknowns include:
-
-- official practice cannot be verified;
-- source unavailable;
-- Provider has not answered;
-- customer instruction incomplete;
-- deadline effect unclear;
-- external professional review required.
+Unknowns may arise because a source is unavailable, the Provider has not answered, the customer instruction is incomplete or professional review is still required.
 
 ```text
 Unknown
-≠ reason to fabricate certainty
+≠ permission to fabricate certainty
 ```
 
-The user should understand whether it can confirm the route now, confirm subject to conditions or must wait for clarification.
+The Workplace should understand whether it may confirm the route now, confirm subject to disclosed conditions or wait for clarification.
 
 ## 9. Alternatives need comparative explanation
 
-The Recommendation should explain why each meaningful alternative was not selected as the primary route.
+A route may be fully eligible and still not be recommended.
 
-For example:
-
-- lower price but narrower scope;
-- stronger specialist experience but slower timing;
-- existing relationship but expired package awaiting refresh;
-- faster route but higher official-fee uncertainty;
-- external self-managed route with less platform recovery support;
-- preferred Provider route subject to conflict or availability confirmation.
-
-The explanation should not demean the alternative Provider or reveal sensitive internal network intelligence.
-
-It should communicate the material trade-off.
+An alternative may offer lower cost but narrower scope, stronger specialist experience but slower timing, or relationship continuity but weaker recovery support.
 
 ```text
-not recommended
+Not Recommended
 ≠ unqualified
-≠ poor provider
+≠ poor Provider
 ```
 
-An alternative may be fully eligible but less suitable for the current Need.
+The explanation should identify the material trade-off without exposing sensitive internal network intelligence or demeaning the alternative Provider.
 
 ## 10. Recommendation must be contestable
 
-The Originating Workplace should be able to challenge the Recommendation.
+The Originating Workplace may identify a misunderstood Need, omitted cost, incorrect deadline, missing relationship history, conflict issue or customer preference.
 
-It may say:
-
-- the Need has been misunderstood;
-- the customer prioritizes relationship continuity;
-- the price comparison omits a cost;
-- a deadline assumption is wrong;
-- the Provider has relevant history not reflected in the route;
-- the user prefers a self-managed route;
-- the relationship should remain masked longer;
-- a conflict or related-party issue exists;
-- another Provider should be considered;
-- no route is acceptable.
-
-MGSN should support:
+It should be able to:
 
 ```text
 confirm
-choose alternative
-reject
+choose an alternative
+reject all routes
 request explanation
 request rematch
-nominate preferred Provider
+nominate a Preferred Provider
 choose R1
 change the Need
 escalate for review
 ```
 
-Contestability makes Recommendation a governed dialogue rather than a silent algorithmic decision.
+Contestability turns Recommendation into a governed decision process rather than a silent algorithmic output.
 
-## 11. The user decision is not Provider Acceptance
+## 11. User disposition does not create engagement responsibility
 
-When the Originating Workplace confirms a route, the Provider may still need to accept.
-
-The Provider should confirm:
-
-- exact scope;
-- package version;
-- price;
-- conflict result;
-- capacity;
-- deadline;
-- data obligations;
-- responsible professional;
-- authority prerequisites;
-- expected Return.
+When the Workplace confirms a route, the Provider may still need to accept the exact scope, Package, price, deadline, conflict result, documents, data obligations, responsible professional and Return expectations.
 
 ```text
-user confirms route
+User Confirms Route
 → Provider Allocation
 → Provider Acceptance
 ```
@@ -329,225 +192,99 @@ user confirms route
 Not:
 
 ```text
-user confirms route
-→ Provider automatically appointed
+User Confirms Route
+→ Provider Automatically Appointed
 ```
 
-The Provider may decline or request a governed change. The network must preserve the difference between the user’s route choice and the Provider’s acceptance of responsibility.
-
-## 12. Provider Acceptance is not customer action approval
-
-Even after Provider Acceptance, an External Protected Action may still require a separate approval or instruction.
-
-Examples may include:
-
-- final application content;
-- final translation;
-- applicant identity;
-- goods or services;
-- filing basis;
-- settlement position;
-- withdrawal;
-- signature;
-- additional official fee;
-- substitution of professional representative.
+Provider Acceptance also does not approve the customer’s final filing content, goods, applicant identity, settlement position, withdrawal or another protected action.
 
 ```text
-Recommended Route
+Recommendation
 ≠ Provider Appointment
 
 Provider Acceptance
 ≠ Customer Instruction
-
-Customer Instruction
-≠ Formal State Updated
 ```
 
-The Recommendation chapter ends at route disposition. It does not authorize execution by implication.
+The Recommendation chapter ends at route disposition. Execution does not begin by implication.
 
-## 13. Commercial conflicts and recommendation integrity
+## 12. Commercial integrity
 
-MGSN may have commercial incentives:
+MGSN may benefit from platform fees, procurement arrangements or strategic Provider relationships.
 
-- platform fees;
-- procurement savings;
-- volume arrangements;
-- referral arrangements;
-- strategic supply development;
-- preferred package economics.
+These incentives must remain subordinate to Eligibility and the user’s interest.
 
-Recommendation integrity requires these incentives to remain subordinate to Eligibility and user interest.
-
-Controls may include:
-
-- no paid entry into the eligible set;
-- no undisclosed sponsored ranking;
-- no suppression of relationship-preserved routes for platform margin;
-- no route recommendation based only on procurement spread;
-- conflict review for affiliated Providers;
-- separation of routing logic from sales incentives;
-- explanation of material commercial differences;
-- audit of unusual recommendation patterns.
+Controls should prevent paid entry into the Candidate Route Set, undisclosed sponsored ranking, suppression of relationship-preserved routes and Recommendation based only on platform margin.
 
 ```text
-higher platform margin
+Higher Platform Margin
 ≠ stronger route fit
 ```
 
-The platform does not need to disclose every internal procurement detail. It must govern conflicts that could materially distort the recommendation.
+The platform does not need to publish every internal procurement term. It must govern material conflicts that could distort the Recommendation.
 
-## 14. Recommendation and AI
+## 13. Freshness and correction
 
-AI can support Recommendation by:
+A Recommendation expires when the Need, availability, conflict result, price, Package, responsible professional, restriction or deadline changes materially.
 
-- comparing route fields;
-- normalizing package descriptions;
-- drafting explanations;
-- identifying trade-offs;
-- flagging missing evidence;
-- detecting stale inputs;
-- generating questions;
-- testing whether alternatives are meaningfully different.
+The Workplace should not confirm a stale Recommendation without the affected checks being refreshed.
 
-AI should not:
+Where the user identifies an error, MGSN should distinguish incorrect source data, stale information, missing context, routing-policy problems, model error and changed Need. The earlier Recommendation should remain available with the reason it was corrected.
 
-- create Eligibility;
-- invent Provider performance;
-- clear a conflict;
-- hide Unknowns;
-- disclose restricted data;
-- rank Providers based on popularity alone;
-- convert commercial preference into professional fit;
-- confirm the route for the user;
-- accept on behalf of the Provider;
-- approve a protected action.
+## 14. AI supports explanation, not authority
 
-The Recommendation should preserve the role of model assistance and the evidence relied upon.
+AI can compare route fields, normalize Package descriptions, draft explanations, identify trade-offs and detect stale inputs.
+
+It must not create Eligibility, invent performance, clear conflicts, hide Unknowns, confirm for the user, accept for the Provider or approve a protected action.
 
 ```text
-AI-generated explanation
-≠ accountable recommendation without governed evidence
+AI-generated Explanation
+≠ accountable Recommendation without governed Evidence
 ```
 
-## 15. Recommendation freshness
+## 15. Representative failure patterns
 
-A Recommendation is valid only while its material inputs remain current.
+### Best match without reasons
 
-It may need refresh when:
+The platform labels one Provider “best” and exposes no material basis.
 
-- Need changes;
-- Provider availability changes;
-- conflict result changes;
-- price or package expires;
-- responsible professional changes;
-- a Provider is restricted;
-- official fees change;
-- the user delays confirmation;
-- a deadline becomes urgent;
-- a route condition is not met.
+**Recovery:** reconstruct the Need, eligible set and route-specific rationale.
 
-The user should not be able to confirm a materially stale Recommendation without revalidation.
+### Conditions hidden to increase conversion
 
-The previous Recommendation should remain available for audit and explanation.
+The route appears ready although conflict, capacity or price remains unresolved.
 
-## 16. Recommendation feedback and correction
+**Recovery:** restore the conditional state and block disposition where necessary.
 
-If the user identifies an error, MGSN should distinguish:
+### Platform margin decides the route
 
-- incorrect source data;
-- stale data;
-- missing context;
-- routing-policy issue;
-- explanation defect;
-- commercial conflict;
-- model error;
-- operator judgment disagreement;
-- changed Need.
+A more profitable Provider is recommended despite weaker fit.
 
-The correction path may:
+**Recovery:** review commercial conflict, rebuild the Candidate Route Set and preserve the original decision for audit.
 
-- update the Need;
-- correct Provider data;
-- refresh Eligibility;
-- rebuild the Candidate Route Set;
-- regenerate the Recommendation;
-- escalate for human review;
-- preserve the original result and reason for correction.
+### Recommendation automatically executes
 
-A disputed Recommendation should not be quietly overwritten.
+The user clicks confirm and the Provider is treated as appointed or instructed.
 
-## 17. Failure modes
+**Recovery:** return the route to Allocation, obtain Provider Acceptance and preserve separate customer action approval.
 
-### 17.1 Recommendation without reasons
+### Stale Recommendation remains confirmable
 
-The platform labels one Provider “best match” and shows no material explanation.
+The Provider’s price and availability expire while the user delays.
 
-Correct response: provide route-specific fit, cost, timing, Evidence, risk and alternative reasoning.
+**Recovery:** revalidate the affected conditions before disposition.
 
-### 17.2 Recommendation hides conditions
+## 16. Product principle
 
-The route appears confirmed, but conflict and availability remain pending.
-
-Correct response: present the route as conditional and prevent premature allocation where necessary.
-
-### 17.3 Recommendation equals appointment
-
-The system sends instructions immediately after displaying the Recommended Route.
-
-Correct response: require user disposition, Provider Allocation, Provider Acceptance and any separate action approval.
-
-### 17.4 Margin drives route selection
-
-The highest-margin Provider is recommended despite weaker fit.
-
-Correct response: preserve Eligibility, conflict governance and recommendation audit.
-
-### 17.5 Alternative explanation is misleading
-
-An eligible alternative is described as “lower quality” when the actual difference is only slower timing.
-
-Correct response: explain the real trade-off without unsupported judgment.
-
-### 17.6 Stale recommendation remains actionable
-
-The user confirms after price and capacity expired.
-
-Correct response: refresh affected inputs and issue a new version.
-
-### 17.7 AI invents certainty
-
-The model fills an unanswered Provider condition with a probable assumption.
-
-Correct response: preserve Unknown and request evidence or review.
-
-## 18. Product principle
-
-A trustworthy Recommendation should be:
+A trustworthy Recommendation makes choice easier without taking the choice away.
 
 ```text
-Need-specific
-Evidence-backed
-Commercially governed
-Condition-aware
-Comparable
-Explainable
-Contestable
-Time-bound
-Non-executing
+Exact Need
++ Current Eligible Routes
++ Material Trade-offs
++ Visible Conditions
++ Contestable Explanation
+= Accountable Recommendation
 ```
 
-The full routing chain is:
-
-```text
-Capability Need Projection
-→ current Eligibility
-→ bounded Candidate Route Set
-→ explainable Recommendation
-→ user disposition
-→ Provider Allocation
-→ Provider Acceptance
-```
-
-Recommendation helps the user choose a route. It does not choose the customer’s legal act, appoint the Provider automatically or establish formal state.
-
-The next part of Book 07 turns from routing to engagement. It explains how allocation becomes Provider Acceptance, how an Instruction Package preserves authority and version, how communication remains engagement-scoped and why undisclosed rebrokering must be prohibited.
+Part IV turns from route choice to engagement formation. The next chapter explains why a selected route is still only pending until the Provider accepts responsibility.
