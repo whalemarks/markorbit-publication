@@ -4,322 +4,118 @@ A network invitation is easy to send.
 
 A usable professional supply relationship is much harder to establish.
 
-MGSN may discover a potential provider through a recommendation, an old associate list, public research, a provider application or an identified coverage gap. Discovery creates a candidate. It does not create an admitted participant, a qualified Capability or an active route.
+MGSN may discover a potential Provider through an introduction, an old associate list, public research, self-application or a known coverage gap. Discovery creates a candidate. It does not create an admitted participant, a qualified Capability or an active route.
 
 ```text
 known
 ≠ invited
 ≠ admitted
 ≠ qualified
-≠ activated
-≠ eligible now
+≠ active for every Need
 ```
 
-Admission is the governed lifecycle that turns a possible participant into bounded network supply—and removes, restricts or revalidates that supply when conditions change.
+Admission is the lifecycle that turns a possible participant into bounded network supply—and restricts, revalidates or retires that supply when conditions change.
 
-## 1. Why account registration is not admission
+## Registration is not admission
 
-Consumer platforms often treat registration as activation:
+Consumer platforms often treat a verified email as an active account. Professional fulfillment cannot.
 
-```text
-email verified
-→ account active
-```
+A Provider may be a real Organization but unsuitable for a particular service. It may hold a professional qualification but refuse MGSN terms. It may accept the terms while failing data, conflict, funds or operational-readiness checks. It may be qualified in one jurisdiction and unqualified in another. It may be admitted today and unavailable tomorrow.
 
-That model is inadequate for professional fulfillment.
+Admission therefore asks more than whether the Organization exists. It asks:
 
-A provider may be a real Organization but unsuitable for a particular service. It may hold a valid professional qualification but refuse MGSN terms. It may accept terms but fail conflict, data, sanctions, settlement or operational-readiness checks. It may be qualified in one jurisdiction and unqualified in another. It may be admitted today and unavailable tomorrow.
+- has the Organization independently chosen to participate;
+- is its identity sufficiently verified for the intended role;
+- which representatives and Workplaces are authorized;
+- what Capability is claimed;
+- what evidence supports the claim;
+- which Service Package is admitted;
+- what restrictions and review dates apply;
+- whether the route is operationally ready.
 
-The question is not merely:
+A network that reduces these questions to “approved” hides the very conditions routing must later enforce.
 
-> Does this Organization exist?
+## Admission begins from a supply purpose
 
-The network must ask:
+MGSN should not recruit Providers simply to enlarge a directory.
 
-- Has the Organization independently chosen to participate?
-- Is its identity sufficiently verified for the intended role?
-- Which Workplace and representatives are authorized to use the connection?
-- Which Capabilities are claimed?
-- What evidence supports those claims?
-- Which claims have been verified?
-- Which services are permitted through MGSN?
-- Which package terms have been accepted?
-- Is the Organization operationally ready now?
-- What restrictions, review dates or unresolved risks apply?
+A candidate should normally correspond to a real supply purpose: a missing jurisdiction, specialist procedure, urgent-capacity gap, language requirement, conflict alternative, concentration risk, price instability or existing relationship that the Workplace wants to bring into a managed route.
 
-Admission therefore has stages, evidence and reversible states.
+That purpose determines the depth of review.
 
-## 2. Discovery channels do not determine outcome
+Routine filing support does not necessarily require the same evidence, authority or operating tests as contentious proceedings or emergency work. Admission should be proportionate to the risk and intended use rather than identical for every Provider.
 
-Potential participants may enter the candidate pipeline through:
+## The admission journey
 
-- platform recruitment;
-- demand-side introduction;
-- provider-side introduction;
-- migration of a historical foreign-associate relationship;
-- operator research;
-- professional directories or official registers;
-- self-application;
-- response to a specific supply gap.
+The lifecycle can be understood in six larger stages.
 
-Each channel can provide useful context. None should bypass independent review.
+### 1. Candidate and independent participation
+
+MGSN records the candidate Organization, discovery source, intended supply purpose and known uncertainty.
+
+An introducer may establish Relationship Provenance, but cannot accept network, data or commercial obligations for the introduced Organization.
 
 ```text
-trusted introduction
-≠ verified identity
-
-public listing
-≠ current qualification
-
-prior successful work
-≠ permanent admission
-
-platform recruitment
-≠ guaranteed activation
-```
-
-The source of discovery should remain visible because it affects Relationship Provenance, confidence and possible incentives. It should not decide admission by itself.
-
-## 3. Admission begins from a supply purpose
-
-MGSN should not recruit providers simply to make the network look large.
-
-Admission should begin from a defined supply purpose, such as:
-
-- a jurisdiction with no qualified route;
-- excessive dependence on one provider;
-- insufficient urgent capacity;
-- a specialist procedural need;
-- a language gap;
-- recurring price instability;
-- poor evidence quality in existing routes;
-- need for an independent conflict alternative;
-- a participant’s established provider relationship that may be moved into a managed route.
-
-A supply purpose determines what must be evaluated.
-
-A provider being considered for ordinary filing support does not necessarily need the same evidence, insurance, professional scope or operational tests as a provider being considered for adversarial proceedings or high-value emergency work.
-
-```text
-admission depth
-should follow
-service risk and intended use
-```
-
-## 4. The admission chain
-
-A complete admission chain may include the following stages.
-
-### Stage 1 — Candidate identification
-
-The network records:
-
-- candidate Organization;
-- discovery source;
-- intended supply gap;
-- known jurisdiction and service context;
-- introducing participant where applicable;
-- initial evidence and uncertainty;
-- whether contact is authorized.
-
-The candidate remains inactive.
-
-### Stage 2 — Independent participation
-
-The Organization must participate in its own right.
-
-It should receive and accept the relevant network terms rather than being silently enrolled by an introducer.
-
-```text
-invitation by Participant A
+introduction by Participant A
 ≠ consent by Organization B
 ```
 
-The introducer may establish provenance. It cannot accept legal, commercial or data obligations for the invited Organization.
+The Organization must participate in its own right.
 
-### Stage 3 — Organization identity review
+### 2. Identity and connection
 
-The network evaluates the Organization identity required for the intended service.
+MGSN reviews the Organization identity required for the intended service and connects the correct Provider Workplace or operating context.
 
-This may include:
+The Connection defines whether the Organization acts in a Supply Role, Demand Role or both; which people have permission; what data may cross the boundary; and which restrictions or suspension conditions apply.
 
-- legal existence;
-- registered or professional name;
-- jurisdiction and office;
-- authorized representatives;
-- related entities;
-- professional or official identifiers;
-- current operating status;
-- funds and tax identity where relevant;
-- sanctions or restriction screening where required.
+The network should deny activity outside that scope rather than silently widening the connection.
 
-The result may be verified, partially verified, unresolved, rejected or sent for enhanced review.
+### 3. Provider Network Profile and Capability Claim
 
-### Stage 4 — Workplace connection and role enablement
+The candidate confirms the supply-side information needed for operation: offices, contacts, languages, conflict process, data handling, funds prerequisites and responsible professionals where relevant.
 
-Admission must identify which Provider Workplace or authorized operating context is connected to MGSN.
+It then states the Capability it proposes to supply.
 
-The connection should define:
+A claim should be bounded by service, jurisdiction, procedural stage, professional scope, limitations, dependencies and expected deliverables. A complete profile still does not prove the claim.
 
-- Supply Role, Demand Role or both;
-- authorized people and permissions;
-- data that may be projected;
-- Returns that may be received;
-- applicable terms and versions;
-- restrictions and suspension conditions.
+### 4. Evidence, Verification and Qualification
 
-The network should deny activity outside the connection scope instead of silently widening it.
+MGSN collects sourced and dated evidence, records what was checked and determines whether the Provider may offer the Capability through the network.
 
-### Stage 5 — Provider Network Profile
+The result may be fully or conditionally qualified, narrow in scope, pending evidence, restricted, rejected or suspended.
 
-The candidate provides or confirms the supply-side profile needed for network operation:
+Qualification must name the relevant Capability. “Approved Provider” is too broad when services carry different authority and risk.
 
-- offices;
-- operating contacts;
-- languages;
-- conflict process;
-- confidentiality and security practices;
-- communication rules;
-- funds prerequisites;
-- service interests;
-- responsible professionals where relevant.
+CH08 develops these distinctions in detail.
 
-A complete profile still does not prove a Capability.
+### 5. Service Package and operational readiness
 
-### Stage 6 — Capability Claim
+A qualified Capability must still become an operable offer.
 
-The provider states what it proposes to supply.
+The Service Package clarifies scope, prerequisites, exclusions, price layers, deliverables, Evidence, timing assumptions and change rules. An operational-readiness review may then test whether the Provider can actually acknowledge allocations, confirm conflicts, exchange documents, return evidence and use the required escalation channel.
 
-A claim should be bounded by:
+A test confirms the operating chain. It does not authorize a real protected action.
 
-- service;
-- jurisdiction;
-- procedural stage;
-- professional scope;
-- limitations;
-- dependencies;
-- urgency or capacity conditions;
-- expected deliverables.
+### 6. Bounded activation
 
-Broad labels should be narrowed before review.
+Activation allows the Capability and package to enter future Eligibility evaluation.
 
-### Stage 7 — Evidence and verification
+It does not mean that the Provider is eligible, recommended or appointed for every Need. Conflict, availability, package validity, data conditions, current evidence and Matter-specific risk still need to be checked.
 
-Evidence is collected, sourced, dated and checked.
+## Admission needs meaningful states
 
-The verification record should explain:
+A simple active/inactive flag hides the lifecycle.
 
-- what was checked;
-- against which source;
-- by whom or by which controlled process;
-- when;
-- with what result;
-- what remains uncertain;
-- when review or expiry occurs.
+Useful states may include candidate, invited, participation pending, identity review, profile incomplete, evidence pending, conditionally qualified, package review, operational test, active, restricted, suspended, exit pending, retired and rejected.
 
-```text
-evidence uploaded
-≠ evidence verified
-```
-
-### Stage 8 — Qualification decision
-
-MGSN determines whether the provider may offer the Capability through the network under current rules.
-
-The decision may be:
-
-- qualified;
-- conditionally qualified;
-- qualified only for a narrow service;
-- pending further evidence;
-- restricted;
-- rejected;
-- suspended.
-
-Qualification should name the scope. “Approved provider” is too broad when different services carry different authority and risk.
-
-### Stage 9 — Service Package Admission
-
-The network and provider define what an operable offer includes:
-
-- scope;
-- inputs;
-- exclusions;
-- professional fees;
-- official fees and disbursements;
-- deliverables;
-- evidence;
-- timing assumptions;
-- validity;
-- exception and change-control rules.
-
-Capability without an admitted package may remain informative but not routable.
-
-### Stage 10 — Operational-readiness test
-
-Before activation, MGSN may test whether the provider can actually operate the route.
-
-A test may examine:
-
-- response channel;
-- conflict-check process;
-- quote confirmation;
-- document exchange;
-- acknowledgement discipline;
-- Return format;
-- funds prerequisites;
-- escalation contact;
-- operator communication.
-
-An operational test does not authorize a real protected action. It confirms that the operating chain can function within the defined scope.
-
-### Stage 11 — Activation
-
-Activation enables the approved Capability and package to enter eligible supply evaluation.
-
-```text
-activated supply
-≠ eligible for every Need
-≠ automatically recommended
-≠ appointed
-```
-
-Conflict, availability, data, price and Matter-specific risk checks remain necessary.
-
-## 5. Admission states must be explicit
-
-A binary active/inactive status hides too much.
-
-MGSN may need states such as:
-
-```text
-candidate
-invited
-participation pending
-identity review
-profile incomplete
-Capability evidence pending
-verification in progress
-conditionally qualified
-package review
-operational test
-active
-restricted
-suspended
-exit pending
-retired
-rejected
-```
-
-These states should not become an uncontrolled collection of labels. They should correspond to governed decisions and allowed transitions.
+The point is not to create many labels. Each state should explain what the Provider may do now and which transition is possible next.
 
 For example:
 
 ```text
 active
 → evidence expires
-→ under review
-→ restricted
+→ restricted pending review
 → re-verified
 → active
 ```
@@ -327,196 +123,106 @@ active
 or:
 
 ```text
-active for ordinary filing
-→ repeated scope disputes
+active for routine filing
+→ repeated package ambiguity
 → package suspended
 → correction plan
 → narrow reactivation or retirement
 ```
 
-The state must tell the network what may happen next.
+The state must affect routing and fulfillment controls. A condition hidden in an internal note is not a real condition.
 
-## 6. Conditional and narrow admission
+## Conditional admission is often the honest answer
 
 Professional supply is rarely all-or-nothing.
 
-A provider may be admitted:
+A Provider may be admitted for one jurisdiction, one authority, routine applications only, a relationship-preserved route, a limited transaction value or a route requiring operator review. Funds coordination may remain disabled until banking checks are complete.
 
-- for one jurisdiction only;
-- for one office or authority;
-- for routine applications but not disputes;
-- for an existing relationship-preserved route only;
-- subject to operator review;
-- subject to a transaction limit;
-- subject to additional professional confirmation;
-- subject to renewed evidence before each engagement;
-- without funds coordination until banking review is complete.
+Conditional admission allows the network to learn without overstating certainty.
 
-Conditional admission can help the network learn without pretending certainty.
+It also prevents the opposite mistake: rejecting every new Provider until it has the same history as an incumbent. A bounded pilot can create evidence while keeping the limits visible.
 
-The conditions must be visible to routing and fulfillment controls. They should not be hidden in an internal note that the recommendation engine ignores.
-
-```text
-conditional qualification
-+ invisible condition
-= false activation
-```
-
-## 7. Freshness and re-admission
+## Freshness and revalidation
 
 Admission is not permanent.
 
-Important evidence and operating conditions change:
+Professional status, responsible people, bank accounts, package terms, official fees, data conditions, capacity and performance can all change.
 
-- licences expire or are suspended;
-- responsible professionals leave;
-- firms merge or change name;
-- bank accounts change;
-- sanctions or payment restrictions arise;
-- provider capacity declines;
-- service packages become outdated;
-- official fees change;
-- data requirements change;
-- performance reveals new risk.
-
-Every material admission component should have a freshness rule.
-
-Revalidation may be:
-
-- periodic;
-- event-driven;
-- risk-triggered;
-- required before a high-risk engagement;
-- required after a long inactive period;
-- required after a dispute or major correction.
+Material admission components therefore need freshness rules. Revalidation may be periodic, event-driven, risk-triggered, required after long inactivity or required before high-risk work.
 
 ```text
 verified once
 ≠ valid forever
 ```
 
-When evidence expires, the network should narrow, pause or review supply rather than silently treating old evidence as current.
+When evidence expires or a responsible professional leaves, MGSN should narrow, pause or review the affected supply rather than treating old evidence as current.
 
-## 8. Suspension is not the same as exit
+## Suspension, exit and open work
 
-Suspension temporarily limits activity.
+Suspension is a protective restriction. It may apply to all new supply or only to a Capability, package, jurisdiction, funds path, urgent work or data access.
 
-It may apply to:
+Existing engagements may still need completion, correction, Return or controlled transfer.
 
-- all new supply;
-- one Capability;
-- one Service Package;
-- one jurisdiction;
-- funds release;
-- urgent work;
-- access to certain data;
-- recommendation visibility.
+Exit ends future participation under the relevant scope. It does not erase accountable history. Retirement may be a planned end to a Capability; rejection may mean the candidate never entered active supply.
 
-Existing engagements may still require controlled completion, correction, transfer or Return.
+These outcomes should remain distinct because they affect Trust, appeals, data retention and open obligations differently.
 
-Exit ends future participation under the relevant scope. It does not erase accountable history.
+## Correction and appeal
 
-```text
-suspension
-= bounded restriction with continuing obligations
+Admission decisions affect both network risk and professional opportunity. They must be reviewable.
 
-exit
-= termination of future access with preserved history
-```
+A Provider should be able to correct identity data, submit new evidence, explain discrepancies, challenge an outdated restriction and request review of a material decision.
 
-Retirement may be a planned end to a Capability or package. Rejection may mean the candidate never entered active supply. These states should not be conflated because they carry different consequences for Trust, appeals, data and open work.
+The record should preserve the previous state, new evidence, decision reason, reviewer and effective date.
 
-## 9. Correction and appeal
+Immediate restrictions may still be necessary when active risk exists. Due process does not require unsafe supply to remain available while a review is pending.
 
-Admission decisions affect professional opportunity and network risk. They must be reviewable.
+## Incentives should follow useful supply
 
-A provider should be able to:
-
-- correct identity data;
-- submit new evidence;
-- explain an apparent discrepancy;
-- challenge an outdated restriction;
-- request review of a qualification result;
-- respond to performance findings;
-- appeal a material suspension where policy permits.
-
-Correction should preserve the earlier state, new evidence, decision maker and reason for change.
-
-Immediate protective restrictions may still be necessary where an urgent risk exists. Due process does not require the network to leave unsafe supply active while a review is pending.
-
-## 10. Admission and incentives
-
-MGSN may reward useful introductions, but incentives should follow successful network activation rather than invitation volume.
+MGSN may recognize valuable introductions, but the incentive should follow successful, independently admitted and useful supply—not invitation volume.
 
 A responsible sequence is:
 
 ```text
 introduced
 → independently participates
-→ verified
-→ admitted
-→ first managed engagement
-→ accepted completion
-→ retained useful activity
+→ verified and qualified
+→ admitted package activated
+→ managed work accepted and completed
+→ useful supply retained
 ```
 
-An introduction that never passes admission creates no supply value. A misleading introduction may create cost and risk.
+A referral that never passes admission creates no network capability. Attribution also should not create permanent customer ownership, commissions or routing monopoly by default.
 
-Attribution may support a bounded benefit. It should not create permanent commissions, customer ownership or routing monopoly by default.
+## What failure reveals
 
-## 11. Failure modes
+Admission failures usually come from collapsed stages:
 
-### 11.1 Invitation treated as activation
+- an invited associate appears as active before accepting terms;
+- one successful routine case becomes universal qualification;
+- expired evidence remains live;
+- suspension blocks the correction channel for open work;
+- exit deletes the history needed for reconciliation.
 
-A participant introduces a trusted associate, and the network immediately displays the associate as available.
+The remedy is not a larger profile. It is a lifecycle in which identity, claim, evidence, qualification, package, readiness, activation and exit remain separate and auditable.
 
-The provider has not accepted terms or confirmed service scope.
-
-Correct response: return the provider to candidate state and complete independent admission.
-
-### 11.2 One successful case becomes universal qualification
-
-A provider handled one ordinary filing well and is then routed a contentious matter.
-
-Correct response: separate service-specific Capability and qualification.
-
-### 11.3 Expired evidence remains active
-
-A qualification record has no review date, and the responsible professional has left.
-
-Correct response: restrict affected supply, obtain current evidence and review open engagements.
-
-### 11.4 Suspension erases open obligations
-
-A provider is suspended after performance concerns, and the system blocks all communication needed for correction.
-
-Correct response: restrict new work while preserving a controlled completion and dispute channel.
-
-### 11.5 Exit deletes history
-
-A former participant disappears from records, leaving no explanation for prior prices, instructions or Returns.
-
-Correct response: preserve immutable engagement and audit history while removing future access.
-
-## 12. Product principle
+## Product principle
 
 Admission is not a badge awarded once.
 
-It is a governed lifecycle connecting identity, participation, Capability, evidence, package, readiness, activation, revalidation and exit.
-
 ```text
-candidate discovery
+candidate
 → independent participation
-→ identity and profile review
-→ Capability evidence
-→ qualification
-→ package admission
+→ identity and connection
+→ Capability Claim
+→ evidence and qualification
+→ Service Package
 → operational readiness
 → bounded activation
-→ continuous revalidation
-→ controlled restriction or exit
+→ revalidation
+→ restriction, retirement or exit
 ```
 
-The network becomes credible not because it admits many providers, but because it can explain why a specific Capability is usable, under what conditions and for how long.
+The network becomes credible not because it admits many Providers, but because it can explain why a specific Capability is usable, under what conditions and for how long.
 
-The next chapter explains how admitted Capabilities become resilient supply portfolios and service packages that can be compared without pretending that professional services are identical commodities.
+The next chapter shows how admitted Capabilities become resilient supply portfolios and comparable Service Packages without turning professional services into an auction.
