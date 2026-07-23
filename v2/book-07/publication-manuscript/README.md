@@ -8,7 +8,7 @@
 
 This workspace reconstructs Book 07 as a reader-facing account of how MarkOrbit turns fragmented international professional supply into governed, explainable and recoverable fulfillment.
 
-The manuscript is not a technical specification, provider directory, implementation plan or network sales brochure. It explains the operating problem, Product model, participant responsibilities, commercial and professional boundaries, failure handling and long-term strategy in language intended for professional operators, Product leaders and institutional partners.
+The manuscript is not a technical specification, Provider directory, implementation plan or network sales brochure. It explains the operating problem, Product model, participant responsibilities, commercial and professional boundaries, failure handling and long-term strategy for professional operators, Product leaders and institutional partners.
 
 ## Source authority
 
@@ -32,11 +32,11 @@ By the end of the book, the reader should understand:
 1. why global professional capability cannot be reduced to a contact list;
 2. why MGSN must be a managed network rather than an open marketplace;
 3. how Workplaces preserve customer relationships and business sovereignty;
-4. how Provider identity, qualification, authority and availability are separated;
+4. how Provider identity, Qualification, Authority and availability are separated;
 5. how demand becomes an explainable route without automatic appointment;
-6. how instruction, funds, fulfillment, Evidence and Return remain governed;
-7. how correction, replacement and dispute handling create real network value;
-8. how Trust and network learning can improve without becoming a popularity score;
+6. how Instruction, funds, fulfillment, Evidence and Return remain governed;
+7. how Correction, Replacement and Dispute handling create network value;
+8. how Trust and network learning improve without becoming a popularity score;
 9. how MGSN differs from Core, Execution, Workplace, MarkReg, Lite and official authority.
 
 ## Whole-book architecture
@@ -58,41 +58,60 @@ Each chapter should:
 
 - begin from an operating problem rather than an internal schema;
 - explain why the distinction matters to a real participant;
-- preserve ownership and authority boundaries;
-- include failure modes and recovery implications;
+- preserve ownership and Authority boundaries;
+- include failure and recovery implications;
 - avoid presenting candidate architecture as deployed reality;
 - use examples without fabricating legal facts or production capability;
-- move the whole-book argument forward rather than repeating constitutional slogans.
+- move the whole-book argument forward rather than repeat constitutional slogans.
 
 ## Current progress
 
 ```text
 Master chapter architecture: complete
 Substantive long-form chapters: 32 / 32 complete
+Introduction: complete
+Eight Part introductions: complete
+Conclusion: complete
 First full long-form draft: complete
-Whole-book continuity audit: complete
+First controlled consolidation of CH01–CH32: complete
+Post-consolidation audit: complete
 Terminology normalization guide: complete
-Repetition and density reduction plan: complete
-First full-draft freeze candidate: open
-Introduction and Part introductions: not yet complete
-Glossary and reader apparatus: not yet complete
+Glossary and cross-reference plan: complete
+Figure and table inventory: complete
+Professional and legal review register: complete
+Controlled publication-review candidate: open
 Professional and legal review: not yet complete
+Copyedit and render review: not yet complete
 Frozen RC1 replacement: not authorized
-Final branded edition: not started
+Final Publication Freeze: not declared
 ```
 
 ## Current editorial phase
 
-The manuscript has moved from chapter creation to whole-book consolidation.
+The manuscript has moved from chapter creation and first consolidation into controlled publication review.
 
 Current priorities are:
 
-1. add the Introduction and eight Part introductions;
-2. normalize terminology, capitalization and cross-book references;
-3. reduce repeated explanations and excessive list density;
-4. strengthen chapter transitions;
-5. produce glossary, figures and reference appendices;
-6. complete professional, legal and publication review;
-7. prepare the first publishable freeze candidate.
+1. complete final terminology, capitalization and transition normalization;
+2. produce the controlled glossary and cross-book map;
+3. create the minimum figure and table set;
+4. complete professional, legal, data and funds review;
+5. add or verify external citations where factual authority is required;
+6. complete copyedit, branded design and render proofing;
+7. prepare the exact-source Final Publication Freeze candidate.
 
-New substantive chapters are not currently required.
+New substantive chapters and large-scale manuscript expansion are not currently required.
+
+## Publication status
+
+```text
+First Fully Consolidated Manuscript
+→ Controlled Publication-review Candidate
+→ Reviewed Publication Candidate
+→ Final Copyedit and Render
+→ Final Publication Freeze
+```
+
+Book 07 is currently at **Controlled Publication-review Candidate**.
+
+This status does not authorize implementation, production activation, professional action, funds custody or replacement of frozen Book 07 RC1.
