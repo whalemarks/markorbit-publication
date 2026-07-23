@@ -8,7 +8,7 @@
 
 This workspace reconstructs Book 07 as a reader-facing account of how MarkOrbit turns fragmented international professional supply into governed, explainable and recoverable fulfillment.
 
-The manuscript is not a technical specification, provider directory, implementation plan or network sales brochure. It must explain the operating problem, the Product model, participant responsibilities, commercial and professional boundaries, failure handling and long-term strategy in language that can be understood by professional operators, Product leaders and institutional partners.
+The manuscript is not a technical specification, provider directory, implementation plan or network sales brochure. It explains the operating problem, Product model, participant responsibilities, commercial and professional boundaries, failure handling and long-term strategy in language intended for professional operators, Product leaders and institutional partners.
 
 ## Source authority
 
@@ -32,12 +32,25 @@ By the end of the book, the reader should understand:
 1. why global professional capability cannot be reduced to a contact list;
 2. why MGSN must be a managed network rather than an open marketplace;
 3. how Workplaces preserve customer relationships and business sovereignty;
-4. how provider identity, qualification, authority and availability are separated;
+4. how Provider identity, qualification, authority and availability are separated;
 5. how demand becomes an explainable route without automatic appointment;
-6. how instruction, funds, fulfillment, evidence and Return remain governed;
+6. how instruction, funds, fulfillment, Evidence and Return remain governed;
 7. how correction, replacement and dispute handling create real network value;
 8. how Trust and network learning can improve without becoming a popularity score;
 9. how MGSN differs from Core, Execution, Workplace, MarkReg, Lite and official authority.
+
+## Whole-book architecture
+
+```text
+Part I — The Global Capability Problem — CH01–CH04
+Part II — Building Accountable Supply — CH05–CH08
+Part III — Turning Demand into a Route — CH09–CH12
+Part IV — Forming the Engagement — CH13–CH16
+Part V — Governing Commercial Reality — CH17–CH20
+Part VI — Making Fulfillment Observable and Recoverable — CH21–CH24
+Part VII — Governing Trust and Failure — CH25–CH28
+Part VIII — From Network to Infrastructure — CH29–CH32
+```
 
 ## Writing standard
 
@@ -54,9 +67,32 @@ Each chapter should:
 ## Current progress
 
 ```text
-Master chapter architecture: present
-Publication reconstruction Batch 01: CH01–CH04
-Full long-form manuscript: incomplete
+Master chapter architecture: complete
+Substantive long-form chapters: 32 / 32 complete
+First full long-form draft: complete
+Whole-book continuity audit: complete
+Terminology normalization guide: complete
+Repetition and density reduction plan: complete
+First full-draft freeze candidate: open
+Introduction and Part introductions: not yet complete
+Glossary and reader apparatus: not yet complete
+Professional and legal review: not yet complete
 Frozen RC1 replacement: not authorized
 Final branded edition: not started
 ```
+
+## Current editorial phase
+
+The manuscript has moved from chapter creation to whole-book consolidation.
+
+Current priorities are:
+
+1. add the Introduction and eight Part introductions;
+2. normalize terminology, capitalization and cross-book references;
+3. reduce repeated explanations and excessive list density;
+4. strengthen chapter transitions;
+5. produce glossary, figures and reference appendices;
+6. complete professional, legal and publication review;
+7. prepare the first publishable freeze candidate.
+
+New substantive chapters are not currently required.
