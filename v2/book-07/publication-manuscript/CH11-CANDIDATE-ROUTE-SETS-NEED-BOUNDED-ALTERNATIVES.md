@@ -1,10 +1,10 @@
 # CH11 — Candidate Route Sets Need Bounded Alternatives
 
-A provider directory gives the user names.
+A Provider directory gives the user names.
 
 A managed network must give the user a decision structure.
 
-That difference is the purpose of the Candidate Route Set.
+That structure is the Candidate Route Set.
 
 ```text
 Provider List
@@ -19,235 +19,146 @@ Candidate Route
 
 Once MGSN has formed the Need and evaluated current Eligibility, it should produce a small set of routes that are safe enough to consider, materially different enough to compare and clear enough to support an accountable choice.
 
-## 1. Why more choice can reduce control
+## 1. More visible choice can reduce control
 
-An open directory appears empowering because it offers many providers.
+A long list appears empowering, but it transfers unresolved network work back to the least informed participant.
 
-In practice, the user may not know:
-
-- which Provider is currently qualified;
-- whether the Provider has a conflict;
-- which package version applies;
-- whether prices include the same work;
-- whether the Provider can meet the deadline;
-- whether customer identity has been disclosed;
-- whether the route is managed or self-managed;
-- what Evidence will be returned;
-- what happens if the Provider fails.
-
-A long list transfers unresolved network work back to the user.
+The user may not know which Provider is qualified, conflicted, available or operating under a current Package. It may not know whether prices cover the same scope, whether the route is managed or self-managed, what Evidence will return or how the Matter can recover after failure.
 
 ```text
-visible choice volume
+Visible Choice Volume
 ≠ meaningful choice
 ```
 
-MGSN should reduce the eligible supply portfolio into a bounded, explainable set of alternatives.
+MGSN should therefore reduce eligible supply into a bounded set rather than expose the Provider pool.
 
-## 2. The Candidate Route is more than a Provider
+## 2. A Candidate Route is more than a Provider name
 
-A Candidate Route should represent the complete proposed path, not merely the name of a Provider.
+A Candidate Route represents a complete proposed path.
 
-It may include:
+It connects:
 
-- Provider Organization;
-- Provider Network Profile reference;
-- responsible professional requirements;
-- Capability;
-- Service Package version;
-- route type;
+- Provider Organization and relevant Capability;
+- Service Package and route family;
+- current Eligibility and conditions;
 - relationship context;
-- professional and network qualification state;
-- current Eligibility result;
-- price structure;
-- timing assumptions;
-- data and conflict conditions;
+- price and timing assumptions;
+- conflict, data and authority prerequisites;
+- expected Evidence and Return;
 - Provider Acceptance requirement;
-- required Evidence and Return;
-- recovery and replacement conditions;
+- recovery and replacement expectations;
 - known risks and Unknowns.
 
-The same Provider may appear through more than one route if the package, delivery model or responsibility structure is materially different.
+The same Provider can appear through different routes where the Package, management layer or responsibility structure is materially different. Several Providers should not be displayed as distinct alternatives when the practical trade-off is negligible.
 
-```text
-same Provider
-+ different package or responsibility chain
-= different route
-```
+## 3. The set should be intentionally small
 
-Conversely, several Providers should not appear as separate alternatives when their service, price, timing and risk are effectively identical and the distinction adds no decision value.
-
-## 3. A bounded set should be small
-
-The default Candidate Route Set should be intentionally limited.
-
-A useful pattern is:
+A useful default is:
 
 ```text
 one Recommended Route
 + up to two materially differentiated alternatives where useful
 ```
 
-There may be fewer routes when:
+There may be one route where supply is scarce, the deadline is urgent or the customer requires a particular Provider. There may be no route where the Network cannot support the Need safely.
 
-- only one route is eligible;
-- alternatives would not be meaningfully different;
-- disclosure is restricted;
-- the deadline is urgent;
-- the customer requires an existing Provider;
-- all other supply is unavailable or unsafe.
+The number is not a rigid rule. Every displayed alternative must help the user make a real decision.
 
-There may be no route where the network cannot support the Need safely.
+## 4. Alternatives must differ materially
 
-The number is not an inflexible mathematical rule. The principle is that every displayed alternative must help the user make a real choice.
-
-## 4. Material differentiation
-
-An alternative is meaningful when it changes an important trade-off.
-
-Possible dimensions include:
+Meaningful differences may concern:
 
 - relationship continuity;
+- scope and Package inclusions;
 - price structure;
-- turnaround;
+- timing or urgent capacity;
 - professional specialization;
-- language;
-- urgency capacity;
-- evidence quality;
-- communication model;
-- direct versus managed route;
-- risk and review requirements;
-- data location;
-- replacement depth;
-- scope or package inclusion.
+- language and communication model;
+- Evidence quality;
+- data handling;
+- review requirements;
+- recovery depth.
 
-Examples:
+For example:
 
 ```text
-Route A — lower cost, standard timing, ordinary filing scope
-Route B — higher cost, urgent capacity, stronger deadline commitment
-Route C — existing Provider relationship, familiar communication, narrower evidence standard
+Route A
+lower cost, ordinary timing, standard filing scope
+
+Route B
+higher cost, confirmed urgent capacity, stronger deadline support
+
+Route C
+existing Provider relationship, familiar communication, narrower managed layer
 ```
 
-The alternatives should not be artificial variations created to make the Recommendation appear balanced.
+Alternatives should not be artificial variations created to make the Recommendation appear neutral.
 
-## 5. The three delivery-route families
+## 5. Three route families
 
-MGSN recognizes three broad delivery routes.
+### R1 — External self-managed route
 
-### R1 — External Self-managed Route
+The Originating Workplace uses an external Provider and remains responsible for selection, negotiation, instruction, payment, monitoring, Evidence and recovery.
 
-The Originating Workplace uses an external Provider outside the managed MGSN route.
+MGSN should not imply the same procurement, fulfillment or replacement protection as a managed route.
 
-The Workplace remains responsible for:
+### R2 — MGSN recommended managed route
 
-- provider choice;
-- negotiation;
-- instruction;
-- payment;
-- deadline follow-up;
-- evidence collection;
-- correction and recovery.
+MGSN forms the route from admitted supply, applies current Eligibility, recommends a route and manages the governed fulfillment chain after user disposition and Provider Acceptance.
 
-MGSN may retain limited source-qualified visibility where permitted, but it does not imply the same management, replacement or evidence guarantees as R2 or R3.
+### R3 — MGSN managed preferred-provider route
 
-### R2 — MGSN Recommended Managed Route
-
-MGSN forms the route from admitted supply, applies current Eligibility, provides a Recommendation and manages the governed fulfillment chain after user confirmation and Provider Acceptance.
-
-This is the default managed route.
-
-### R3 — MGSN Managed Preferred-provider Route
-
-The Originating Workplace identifies an existing Provider relationship, and MGSN attempts to preserve that route within managed controls.
-
-The Provider must still pass:
-
-- admission;
-- Capability review;
-- qualification;
-- conflict;
-- availability;
-- package;
-- price;
-- data;
-- risk and evidence requirements.
+The Workplace nominates an existing Provider relationship. MGSN preserves the preference only when the Provider passes current admission, qualification, conflict, availability, Package, data and risk requirements.
 
 ```text
-preferred Provider
+Preferred Provider
 ≠ automatic R3 route
 ```
 
-These route families should be disclosed because they carry different responsibilities and recovery expectations.
+The route family should be visible because responsibility and recovery differ.
 
-## 6. Route comparability requires normalized structure
+## 6. Comparability requires normalization
 
-Two routes cannot be compared merely by placing headline prices side by side.
+Two routes cannot be compared through headline price alone.
 
-The Candidate Route Set should normalize at least:
+The Candidate Route Set should normalize the material differences in:
 
-- included professional work;
-- excluded work;
-- official fees;
-- professional fees;
-- taxes;
-- disbursements;
-- platform-managed layer;
-- urgency or contingency items;
-- validity period;
+- included and excluded professional work;
+- official fees, taxes and disbursements;
+- platform-managed service layer;
+- urgency and contingent items;
 - timing assumptions;
 - deliverables;
-- Evidence;
-- expected Return;
-- likely later-stage costs.
+- Evidence and Return;
+- likely later-stage costs;
+- validity period.
 
 ```text
-lower headline price
+Lower Headline Price
 ≠ lower total route cost
 ```
 
-Where prices cannot yet be normalized, the uncertainty should be explicit.
+Where prices or timing remain estimated, the uncertainty should be explicit rather than presented as direct equivalence.
 
-A route with an estimate may remain a valid alternative, but it should not be displayed as directly equivalent to a fixed offer.
+## 7. Relationship context is relevant but bounded
 
-## 7. Relationship context should be visible but bounded
+The user should know whether a route uses its existing Provider, a new MGSN Provider, an affiliate, a specialist or a limited pilot route.
 
-The user should understand when a route is:
-
-- its existing Provider;
-- introduced by another participant;
-- a new MGSN-recommended Provider;
-- affiliated with another participant;
-- selected as a specialist or urgent-capacity route;
-- being tested under a limited pilot status.
-
-Relationship context can affect confidence, communication and continuity.
-
-It must not conceal:
-
-- current restrictions;
-- conflicts;
-- materially higher cost;
-- weaker evidence;
-- related-party incentives;
-- a paid ranking arrangement;
-- a narrower service scope.
+That context can affect continuity and confidence. It must not conceal restrictions, related-party incentives, materially higher cost, weaker Evidence or narrower scope.
 
 ```text
-relationship continuity
+Relationship Continuity
 = legitimate decision factor
 
-relationship ownership
-= not created by route display
+Route Display
+≠ ownership of the relationship
 ```
 
-## 8. Commercial influence must not decide Eligibility
+## 8. Commercial influence follows Eligibility
 
-MGSN may have commercial relationships with Providers. The network may earn service fees or benefit from standardized procurement.
+MGSN may earn fees or negotiate Provider terms. Those economics must not decide whether a route enters the Candidate Route Set.
 
-Those economics must not pull an ineligible route into the candidate set.
-
-The order is:
+The correct order is:
 
 ```text
 Qualification and Eligibility gates
@@ -255,248 +166,99 @@ Qualification and Eligibility gates
 → commercial comparison among eligible routes
 ```
 
-Not:
+A Provider should not buy entry through advertising, referral payments, volume commitments or preferred-placement fees. Material conflicts that could distort Recommendation should be governed and disclosed appropriately.
+
+## 9. Token alternatives create false choice
+
+An alternative is not meaningful when its Evidence has expired, its Package misses the Need, its Provider is unavailable, conflict review is incomplete or the Network would not actually allocate it.
 
 ```text
-commercial preference
-→ route inclusion
-→ justification afterward
-```
-
-A Provider should not buy its way into the route set through:
-
-- advertising;
-- higher platform payments;
-- referral incentives;
-- volume commitments;
-- preferred placement fees;
-- unrelated partnership status.
-
-Where a material commercial relationship could influence Recommendation, the relevant conflict should be governed and disclosed appropriately.
-
-## 9. Diversity without token alternatives
-
-A bounded route set should not use weak alternatives merely to create the appearance of competition.
-
-For example, an alternative is not meaningful when:
-
-- its evidence has expired;
-- its package does not cover the Need;
-- it cannot meet the deadline;
-- it has not completed conflict review;
-- the Provider is not available;
-- its price is not current;
-- the network would not actually allocate it.
-
-```text
-ineligible route shown as alternative
+Ineligible Route Shown as Alternative
 = false choice
 ```
 
-If only one route is eligible, MGSN should say so and explain the dependency risk.
+If only one route is eligible, MGSN should say so and explain the dependency. If no route is eligible, the set should remain empty.
 
-If no route is eligible, the set should be empty.
+## 10. Route transparency is not Provider-pool export
 
-## 10. Provider identity disclosure within the route set
+Before user disposition, MGSN may disclose enough to compare qualification, service fit, Package, timing, price, Evidence, relationship status and restrictions.
 
-The route set does not always need to reveal every Provider identity immediately.
-
-Before user disposition, MGSN may show enough information to compare:
-
-- qualification state;
-- service fit;
-- relationship status;
-- package scope;
-- timing;
-- price;
-- evidence and recovery expectations;
-- relevant restrictions.
-
-Provider identity may be disclosed where necessary for:
-
-- professional selection;
-- conflict review;
-- customer approval;
-- legal responsibility;
-- Provider Acceptance;
-- applicable transparency requirements.
-
-The disclosure model should not turn MGSN into an exportable provider directory.
+Provider identity should be disclosed when required for professional selection, conflict review, customer approval, Provider Acceptance or legal responsibility.
 
 ```text
-route transparency
-≠ unrestricted provider-pool export
+Route Transparency
+≠ unrestricted Provider-pool export
 ```
 
-## 11. Route evidence and provenance
+The Network should support accountable choice without becoming a downloadable directory.
 
-Each route should preserve how it was formed.
+## 11. The route set needs provenance and freshness
 
-Relevant evidence may include:
+Each route should preserve the Need version, Eligibility result, Package version, price validity, availability, conflict state, relationship provenance, routing-policy version and known Unknowns.
 
-- Need version;
-- eligibility decision;
-- Provider and Capability evidence versions;
-- package version;
-- availability confirmation;
-- conflict status;
-- quote and validity;
-- relationship provenance;
-- routing policy version;
-- operator or AI assistance;
-- known Unknowns;
-- reasons for inclusion.
+This supports explanation, audit, refresh, dispute review and recovery.
 
-This evidence supports:
+A route set becomes stale when the Need, deadline, conflict result, availability, price, Package, responsible professional or restriction changes. The prior set should remain visible rather than being silently rewritten.
 
-- Recommendation explanation;
-- later audit;
-- dispute review;
-- route refresh;
-- recovery after failure;
-- learning about supply gaps.
+## 12. User disposition remains a choice, not an appointment
 
-The network should be able to explain why a route was in the set and why another route was excluded.
-
-## 12. Route set freshness
-
-The Candidate Route Set is time-bound.
-
-It may become stale when:
-
-- the Need changes;
-- the Provider’s availability changes;
-- a conflict result arrives;
-- the package or price expires;
-- the responsible professional changes;
-- a Provider is restricted;
-- a deadline becomes urgent;
-- customer disclosure changes the risk;
-- the user delays its decision;
-- an official fee changes.
-
-A stale route set should not remain open indefinitely.
-
-Possible responses include:
+The user may confirm the Recommended Route, choose an alternative, reject all routes, request explanation or rematch, nominate a Preferred Provider, use R1, postpone or change the Need.
 
 ```text
-refresh route set
-remove stale route
-reconfirm price
-recheck availability
-request conflict review
-return to operator review
-```
-
-The system should preserve the prior set rather than silently rewriting the alternatives that the user originally saw.
-
-## 13. User dispositions
-
-The Candidate Route Set should support meaningful user responses.
-
-Possible dispositions include:
-
-- confirm the Recommended Route;
-- choose an alternative;
-- reject all routes;
-- request rematch;
-- request clarification;
-- nominate a preferred Provider;
-- choose the external self-managed route;
-- postpone;
-- narrow or change the Need;
-- escalate for professional or commercial review.
-
-```text
-route selected by user
-≠ Provider accepted
+Route Selected by User
+≠ Provider Accepted
 ≠ customer approved final action
 ```
 
-The next stage remains Provider Allocation and Acceptance.
+The next stage is Provider Allocation and Acceptance.
 
-## 14. Candidate set and AI
+## 13. AI can compare but cannot populate the set dishonestly
 
-AI may help:
+AI can normalize Package descriptions, identify material differences, detect missing comparison fields and draft route summaries.
 
-- compare eligible routes;
-- detect material differences;
-- normalize package descriptions;
-- identify missing comparison fields;
-- summarize known risks;
-- generate explanation drafts;
-- detect stale evidence;
-- test whether alternatives are genuinely differentiated.
+It must not include an ineligible Provider, invent price or availability, hide commercial influence, disclose restricted data, convert popularity into professional fit or turn the Recommended Route into appointment.
 
-AI should not:
+## 14. Representative failure patterns
 
-- include an ineligible Provider;
-- hide commercial influence;
-- invent a price or availability state;
-- treat public popularity as professional suitability;
-- disclose restricted Provider or customer data;
-- convert the Recommended Route into appointment;
-- suppress a relationship-preserved route without a governed reason.
+### Directory disguised as choice
 
-The route set should show which conclusions depend on model assistance and which depend on verified evidence or human review.
+The user receives twenty names with little route context.
 
-## 15. Failure modes
+**Recovery:** reduce them to eligible, materially differentiated routes.
 
-### 15.1 Directory disguised as choice
+### Hidden single route
 
-The user receives twenty Provider names with little package or qualification context.
+The platform presents one route as inevitable without explaining excluded alternatives or dependency.
 
-Correct response: form a bounded set of eligible, materially differentiated routes.
+**Recovery:** disclose why only one route remains and allow challenge or external self-management.
 
-### 15.2 Hidden single route
+### Lowest price dominates
 
-The platform displays one route as inevitable without explaining whether alternatives existed or why they were excluded.
+A cheaper route excludes necessary work and Evidence.
 
-Correct response: show the selection basis, dependency and available dispositions.
+**Recovery:** normalize scope and cost layers before Recommendation.
 
-### 15.3 Lowest price dominates
+### Paid placement enters the set
 
-A cheaper route excludes necessary work and evidence, but it appears first.
+A commercially preferred Provider appears despite weaker fit or unresolved conditions.
 
-Correct response: normalize package and cost structure before Recommendation.
+**Recovery:** remove the route and review the commercial conflict.
 
-### 15.4 Paid placement enters the set
+### Stale route remains selectable
 
-A commercially preferred Provider appears despite weaker service fit.
+The user confirms after price or capacity has expired.
 
-Correct response: keep Eligibility independent and govern commercial conflicts.
+**Recovery:** refresh the affected checks before Allocation.
 
-### 15.5 False alternatives
+## 15. Product principle
 
-Two ineligible or unavailable routes are shown to make the Recommendation seem neutral.
-
-Correct response: display only routes that the network could genuinely pursue.
-
-### 15.6 Provider pool leaks
-
-A Workplace exports all contact details from the Candidate Route Set and bypasses network controls.
-
-Correct response: apply progressive Provider disclosure and preserve route-scoped communication.
-
-### 15.7 Stale route chosen
-
-The user confirms a route after price and availability expired.
-
-Correct response: refresh affected checks before allocation.
-
-## 16. Product principle
-
-The Candidate Route Set converts qualified supply into governable choice.
+The Candidate Route Set converts eligible supply into governable choice.
 
 ```text
-current eligible routes
-+ normalized package and cost structure
-+ material differentiation
-+ bounded disclosure
-+ explicit route responsibilities
-= meaningful alternatives
+Eligible Routes
+→ bounded, materially different alternatives
+→ Recommendation
+→ meaningful user disposition
 ```
 
-The set should be small enough to understand, complete enough to expose real trade-offs and honest enough to return one route or no route when that is the truth.
-
-The next chapter explains how MGSN moves from alternatives to a Recommendation without turning explanation into manipulation or recommendation into appointment.
+The next chapter explains why the Recommendation must show its reasoning, uncertainty and trade-offs rather than present one route as an unexplained platform answer.
