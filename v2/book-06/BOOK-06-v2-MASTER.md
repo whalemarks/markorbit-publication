@@ -35,7 +35,7 @@ The home experience answers:
 - Which Capability should I practice or strengthen next?
 - Which Reflection or Evidence needs confirmation?
 
-Today should connect work, opportunity and learning rather than place Capability growth in a separate course library.
+Today connects work, opportunity and learning rather than placing Capability growth in a separate course library.
 
 ### Chapter 02 — Dynamic Workplace priorities
 
@@ -54,7 +54,7 @@ Personalized Guidance
 
 Lite uses market Data, Knowledge, trademark inventory, service opportunities, Source Capabilities and prior performance to propose useful topics rather than generic copy.
 
-A Source Capability may provide a disclosed lens. MO Mode may combine a Primary Capability with limited Supporting and Critic Capabilities to produce one coherent content plan.
+A Source Capability may provide a disclosed Lens. MO Mode may combine one Primary Capability with limited Supporting and Critic Capabilities to produce a coherent content plan.
 
 ### Chapter 04 — Trademark marketing pack
 
@@ -124,7 +124,7 @@ The matching Capability may use several Skills, but the user should receive one 
 
 ### Chapter 13 — Recommendation
 
-Lite produces a short, explainable recommendation set rather than a large unranked list. Each Recommendation states fit, trade-offs, missing verification and which Source or MO Capability materially shaped the result.
+Lite produces a short, explainable Recommendation set rather than a large unranked list. Each Recommendation states fit, trade-offs, missing verification and which Source or MO Capability materially shaped the result.
 
 ```text
 Recommendation
@@ -170,7 +170,7 @@ Opportunity work can support Capability growth only when the user’s actual con
 
 ## Part VII — Capability Center
 
-### Chapter 21 — My Capability Profile
+### Chapter 21 — My Capability Profile and Agent Capability Twin
 
 Lite presents a Product-local Capability Profile for the trademark professional.
 
@@ -185,44 +185,25 @@ It may show:
 - current gaps and recommended progression;
 - recent Capability versions used.
 
-The experience may use a map, tree or orbit view, but the visualization does not create semantic truth.
+The Agent Capability Twin is the evidence-bounded projection Lite uses to adapt guidance and surface the next useful Capability step.
 
-```text
-Capability Profile
-≠ Public Ranking
-≠ Professional Qualification
-≠ Permanent Judgment of the User
-```
-
-### Chapter 22 — Agent Capability Twin
-
-The Agent Capability Twin is Lite’s evidence-bounded projection of how the user currently works and develops as a trademark professional.
-
-It may support:
-
-- task-specific guidance;
-- choice of Lens, Council or MO Mode;
-- stronger review for unfamiliar work;
-- suggestions for simulation or practice;
-- identification of relevant Cases and Principles;
-- explanation of why a task remains outside current Production Authorization.
-
-It is not a personality clone and should not pretend to know the user beyond the authorized Evidence.
+It may support task-specific guidance, selection of Lens, Council or MO Mode, stronger review for unfamiliar work, and explanation of why an action remains outside current authorization.
 
 ```text
 Agent Capability Twin
 ≠ Personality Replica
 ≠ Autonomous Agent Acting as the User
-≠ Universal Competence Score
+≠ Public Ranking
+≠ Professional Qualification
 ```
 
-### Chapter 23 — Learning in work
+### Chapter 22 — Learning in work, Reflection and AI Mentor
 
 When a user meets an unfamiliar task, Lite may switch to guided mode, recommend a Source Skill, create a controlled Capability Composition, suggest simulation or require stronger review.
 
 After a meaningful invocation, Execution may return a Session Receipt containing Capability and Skill versions, Outcome, Evidence and user disposition.
 
-Lite may propose a Reflection Candidate asking:
+Lite may then propose a Reflection Candidate asking:
 
 - What did you adopt?
 - What did you change or reject?
@@ -232,37 +213,20 @@ Lite may propose a Reflection Candidate asking:
 
 The user or authorized Workplace reviews the Reflection before it enters the Capability Ledger.
 
+AI Mentor may recommend one Capability to strengthen, one relevant Case or Source Capability, a simulation, a missing Supporting or Critic Capability, professional review, or Evidence needed for progression.
+
 ```text
 AI-generated Reflection Draft
 ≠ User-confirmed Reflection
 ≠ Platform Principle
-```
 
-### Chapter 24 — AI Mentor
-
-AI Mentor connects work with the next useful Capability step.
-
-It may recommend:
-
-- one Capability to strengthen;
-- one relevant Case or Source Capability;
-- a simulation before real work;
-- a Supporting or Critic Capability missing from the current approach;
-- professional review for a risky decision;
-- evidence needed to substantiate progression.
-
-The Mentor should explain its basis, uncertainty and limits.
-
-```text
 Mentor Recommendation
 ≠ Assessment Decision
 ≠ Certification
 ≠ Professional Authority
 ```
 
-It should not tell a user that one business decision proves success or failure from a single Outcome.
-
-### Chapter 25 — Simulation and certification
+### Chapter 23 — Simulation, certification and Capability Ledger
 
 Lite provides entry to de-identified Cases, simulated clients, assessments and certification paths such as trademark commerce, content growth and US maintenance.
 
@@ -280,24 +244,11 @@ Learn
 
 Certification proves assessed MarkOrbit work competence. Production Authorization and Professional Qualification remain separate.
 
-### Chapter 26 — Capability Ledger and growth evidence
-
-The Lite Capability Ledger records authorized Product-local references to:
-
-- practice and invocation;
-- Session Receipts;
-- confirmed Reflection;
-- accepted Cases;
-- simulation and assessment;
-- certification;
-- paid-task contribution;
-- Capability version exposure.
+The Lite Capability Ledger records authorized Product-local references to practice, Session Receipts, confirmed Reflection, accepted Cases, simulation, assessment, certification, paid-task contribution and Capability-version exposure.
 
 XP or progression indicators may motivate learning, but they should represent defined Product events rather than a universal measure of intelligence or professional worth.
 
-Private Reflection remains private unless the user or Workplace authorizes broader use.
-
-### Chapter 27 — Paid tasks
+### Chapter 24 — Paid tasks and growth Evidence
 
 Qualified users may receive bounded verification, search, visual, content, assessment or MarkReg production tasks.
 
@@ -313,47 +264,37 @@ Paid Task Completed
 
 ## Part VIII — Business model
 
-### Chapter 28 — Subscription
+### Chapter 25 — Subscription
 
 Lite subscription provides ongoing operating Capabilities and is not metered by ordinary invocation count.
 
 Capability guidance, basic Reflection and the user’s own Capability Profile should not be artificially crippled to force transactional payment.
 
-### Chapter 29 — Training, certification and human-service revenue
+### Chapter 26 — Transaction and human-service revenue
 
-Separate revenue may arise from training, simulation, certification, expert assessment, professional review and paid human contribution.
+Separate revenue may arise from brokerage, transaction service, transfer support, professional review, training, simulation, certification, expert assessment and paid human contribution.
 
-Users pay for structured development, governed review and real human work—not for the platform silently claiming ownership of their Capability Profile.
+Users pay for structured development, governed review, transactions and real human work—not for the platform silently claiming ownership of their Capability Profile.
 
-### Chapter 30 — Transaction revenue
-
-Additional revenue may arise from brokerage, transaction service, transfer support and MarkReg-assisted delivery.
-
-Transaction economics and Capability-growth evidence remain connected but separately governed.
-
-### Chapter 31 — Free, Pro and Business
+### Chapter 27 — Free, Pro and Business
 
 Edition differences should reflect Workplace scale, collaboration, data scope, Capability governance, brand projection and operating controls—not artificial restriction of basic professional learning.
 
 ## Part IX — Product boundaries
 
-### Chapter 32 — Lite and MarkReg
+### Chapter 28 — Lite and MarkReg
 
 Lite discovers, grows and organizes opportunity; MarkReg may perform complete lifecycle delivery.
 
 MarkReg Outcomes and official Evidence may return to Lite through governed Session Receipt, Reflection and Case pathways. Handoff does not automatically transfer the customer relationship.
 
-### Chapter 33 — Lite and Sites
+### Chapter 29 — Lite and Sites
 
 Sites publishes controlled brand, service, content, Listing and selected Capability projections. It does not become Customer, Order, Capability-assessment or Payment authority.
 
-### Chapter 34 — Lite and MGSN
+### Chapter 30 — Lite, MGSN and future Founder-facing Products
 
-Lite may initiate a managed professional-service Need through the Workplace’s MGSN Connection, but it does not directly allocate unrestricted Providers.
-
-Provider Supply Capability is distinct from the user’s Agent Capability Profile.
-
-### Chapter 35 — Lite and Founder OS
+Lite may initiate a managed professional-service Need through the Workplace’s MGSN Connection, but it does not directly allocate unrestricted Providers. Provider Supply Capability is distinct from the user’s Agent Capability Profile.
 
 Lite remains a trademark-professional Capability Workplace.
 
