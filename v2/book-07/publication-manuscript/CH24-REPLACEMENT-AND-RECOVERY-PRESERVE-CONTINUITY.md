@@ -2,371 +2,165 @@
 
 A managed network is tested most clearly when the original route fails.
 
-A Provider may become conflicted, unresponsive, suspended, unavailable, unable to meet a deadline or unwilling to correct an error. The responsible professional may leave. A banking route may become unusable. A local requirement may invalidate the original package.
+A Provider may become conflicted, unresponsive, suspended, unavailable or unwilling to correct an error. A responsible professional may leave. A banking route may become unusable. A local requirement may invalidate the original package.
 
-Replacement is not simply choosing another name from a list.
+Replacement is not simply choosing another name.
 
 ```text
 new Provider selected
 ≠ engagement transferred
 ≠ authority transferred
-≠ documents transferred safely
 ≠ continuity preserved
 ```
 
-Recovery is the governed reconstruction of the engagement so a replacement route can continue without losing responsibility, evidence, deadline control or customer authority.
+Recovery is the governed reconstruction of the engagement so another route can continue without losing Evidence, deadline control, funds context or customer authority.
 
 ## 1. Replacement triggers
 
 Replacement may be considered when:
 
-- Provider declines before acceptance;
-- Allocation expires;
-- conflict appears;
-- capacity is unavailable;
-- Provider becomes unresponsive;
-- qualification or package is suspended;
-- a responsible professional departs;
-- repeated milestones fail;
+- the Provider declines or Allocation expires;
+- conflict or qualification concerns arise;
+- capacity disappears;
+- milestones repeatedly fail;
 - correction is refused or unsuccessful;
-- a commercial exception is rejected;
-- funds or beneficiary risk cannot be resolved;
-- customer or Workplace requests a permitted change;
+- funds, beneficiary or data risk cannot be resolved;
+- the responsible professional leaves;
 - the Provider exits the network.
 
-The trigger should identify whether the engagement is merely delayed, restricted, disputed or unsafe to continue.
-
-## 2. Replacement is not punishment
-
-A route may need replacement without misconduct.
-
-Examples include:
-
-- genuine conflict;
-- illness;
-- capacity shortage;
-- unexpected local requirement;
-- customer preference change;
-- sanctions or banking restrictions;
-- professional scope outside the Provider’s authority.
-
-The network should distinguish service continuity from blame.
+The trigger should identify whether the route is delayed, restricted, disputed or unsafe.
 
 ```text
 replacement required
 ≠ Provider wrongdoing proven
 ```
 
-## 3. Recovery begins with a current-state reconstruction
+Service continuity and responsibility review are related but separate.
 
-Before routing a replacement, MGSN should reconstruct:
+## 2. Recovery begins with current-state reconstruction
+
+Before a replacement route is formed, MGSN should reconstruct:
 
 - current Need and version;
-- accepted Service Package;
-- Provider Acceptance;
+- accepted package and Provider Acceptance;
 - Instruction Package versions;
 - completed and open milestones;
-- all Provider Returns;
-- official Evidence;
-- customer approvals;
-- deadlines;
+- Returns and official Evidence;
+- deadlines and customer approvals;
 - funds sent, used, unused or disputed;
 - documents held by each participant;
-- open correction obligations;
-- professional and customer authority;
-- unresolved Unknowns.
+- correction obligations and Unknowns.
 
-Without this reconstruction, the replacement Provider may repeat work, miss a deadline or act on an obsolete instruction.
+Without this reconstruction, a new Provider may repeat work, miss a deadline or act on an obsolete instruction.
 
-## 4. Safe-stop before transfer
+## 3. Safe-stop before transfer
 
-Some failures require immediate protection.
+Where active risk exists, MGSN may need to block new instructions, preserve communications, pause funds release, restrict data access and warn the Workplace of deadline exposure.
 
-A safe-stop may:
+Safe-stop does not erase the original Provider’s continuing obligations to return documents, Evidence or unused funds.
 
-- block new instructions to the original Provider;
-- prevent further funds release;
-- preserve all communications and Evidence;
-- warn the Originating Workplace of deadline exposure;
-- restrict customer-data access;
-- suspend affected packages;
-- require operator or professional review;
-- begin emergency route search.
+## 4. Replacement Eligibility is recalculated
 
-Safe-stop does not automatically terminate every obligation. The original Provider may still need to return documents, funds or evidence.
-
-## 5. Replacement eligibility is recalculated
-
-A replacement route must pass current checks.
+A backup Provider in the portfolio is not automatically eligible now.
 
 ```text
-backup Provider in portfolio
-≠ eligible replacement now
+backup Provider
+≠ eligible replacement
 ```
 
-The route may require:
-
-- current qualification;
-- conflict review;
-- availability;
-- urgency capacity;
-- package fit;
-- data-transfer approval;
-- price confirmation;
-- responsible professional;
-- customer approval;
-- Provider Acceptance.
+The replacement route may require renewed qualification, conflict review, availability, package fit, price, data permission, responsible professional, customer approval and Provider Acceptance.
 
 Emergency pressure cannot convert an unverified contact into an accountable route.
 
-## 6. Handoff package
+## 5. The handoff package
 
-A replacement handoff should include only the information necessary to continue safely, such as:
+A governed handoff should include only what is necessary to continue safely:
 
-- engagement summary;
-- Need and route history;
+- engagement and route history;
 - approved versions;
-- official identifiers;
-- completed work;
-- open actions;
-- deadline evidence;
-- customer approvals;
-- Provider Returns;
+- official identifiers and Evidence;
+- completed and open work;
+- deadline basis;
+- funds and document status;
 - correction history;
-- funds status;
-- known risks and Unknowns;
-- confidentiality and access restrictions.
-
-The package should identify the source and reliability of each material fact.
+- risks, Unknowns and access restrictions.
 
 ```text
 handoff summary
 ≠ permission to discard source Evidence
 ```
 
-## 7. Authority must be renewed
+Each material fact should retain its source and confidence.
+
+## 6. Authority must be renewed
 
 The original Provider’s Acceptance does not transfer.
 
-The replacement Provider must separately:
-
-- clear conflict;
-- accept the engagement;
-- acknowledge the Instruction Package;
-- identify the responsible professional;
-- confirm deadlines and assumptions;
-- accept the commercial terms;
-- receive required customer or professional authority.
-
-```text
-original customer mandate
-may remain relevant
-but
-replacement appointment and action authority
-must be verified
-```
+The replacement Provider must independently clear conflict, accept the engagement, acknowledge the Instruction Package and identify the responsible professional.
 
 Where a new POA, appointment or customer consent is required, the route remains blocked until it is obtained.
 
-## 8. Funds continuity
+```text
+replacement Provider
+≠ transferred Acceptance
+≠ transferred customer mandate
+```
 
-Replacement may leave funds with the original Provider.
+## 7. Funds, documents and communication continuity
 
-The network must distinguish:
+Replacement may leave professional fees, official-fee reserves, originals or certificates with the first Provider.
 
-- earned professional fees;
-- unused professional advances;
-- official fees already paid;
-- official-fee reserves not used;
-- disputed costs;
-- refund obligations;
-- new replacement costs;
-- emergency costs.
+The network must distinguish earned amounts, unused advances, official fees already paid, disputed costs, refunds and new recovery costs.
 
 ```text
 replacement cost
-≠ proof original Provider should bear it
+≠ proof the original Provider should bear it
 ```
 
-Commercial responsibility requires separate review.
+Original POAs, legalized documents, notices and certificates require an inventory and custody path. A scanned copy may support preparation but may not satisfy an original-document requirement.
 
-No new payment should be sent merely because a deadline is urgent without verifying the beneficiary and authority.
+The communication plan should also identify who speaks to the customer, what is confirmed, what remains disputed and which conclusions require fresh professional review.
 
-## 9. Document and original-material recovery
+## 8. Network replacement and official substitution
 
-The original Provider may hold:
+An application or proceeding may already name the original representative.
 
-- original POAs;
-- legalized documents;
-- signed declarations;
-- certificates;
-- official notices;
-- evidence originals;
-- translations;
-- customer property.
-
-Recovery should record:
-
-- what is held;
-- who owns or may access it;
-- whether it can be copied;
-- courier or transfer status;
-- deadline relevance;
-- retention obligation;
-- whether replacement can proceed without it.
-
-A scanned copy may support preparation but may not replace an original where an applicable rule requires one.
-
-## 10. Communication continuity
-
-The customer should not receive contradictory messages from multiple Providers.
-
-The transition plan should define:
-
-- who communicates with the customer;
-- whether the original Provider remains in the channel;
-- what has been confirmed;
-- what remains disputed;
-- which deadlines are urgent;
-- how the replacement is explained;
-- which professional conclusions require new review.
-
-Relationship ownership remains with the Originating Workplace unless separately changed.
-
-## 11. Open official actions
-
-An application or proceeding may already be before an authority.
-
-Replacement may require:
-
-- formal substitution of representative;
-- new appointment or POA;
-- notice to the authority;
-- retrieval of the official file;
-- confirmation of deadlines;
-- transfer of correspondence;
-- local professional review.
-
-The system should distinguish:
+Replacement may therefore require a new appointment, POA, notice to the authority, file retrieval or formal substitution.
 
 ```text
 MGSN replacement route active
 ≠ official representative changed
 ```
 
-Formal change remains subject to the applicable authority and Owning Service validation.
+The formal change remains subject to the applicable authority and Owning Service validation.
 
-## 12. Partial replacement
+## 9. Partial replacement and outcomes
 
-Not every failure requires replacing the whole engagement.
-
-Possible partial replacement includes:
-
-- new responsible professional within the same Organization;
-- replacement translator;
-- replacement local filing agent;
-- new banking or official-fee route;
-- specialist for one disputed issue;
-- Provider retained for ordinary work but removed from urgent work.
-
-The network should identify which responsibility changed and which remained.
-
-## 13. Recovery outcome states
+Not every failure requires replacing the entire engagement. The network may replace only the responsible professional, translator, filing agent, banking route or specialist component.
 
 Possible outcomes include:
 
-```text
-original route restored
-replacement accepted
-partial replacement accepted
-safe termination
-customer chooses R1
-Matter paused
-official remedy pursued
-refiling required
-dispute remains open
-rights loss suspected
-unknown pending reconciliation
-```
+- original route restored;
+- replacement or partial replacement accepted;
+- safe termination;
+- customer chooses R1;
+- Matter paused;
+- official remedy or refiling pursued;
+- dispute remains open;
+- rights loss suspected;
+- Unknown pending reconciliation.
 
 The outcome should not conceal unresolved harm.
 
-## 14. Trust and governance consequences
+## 10. Trust follows the recovery record
 
-After continuity is secured, MGSN may review:
+After continuity is secured, MGSN may review the cause, disclosure speed, handoff cooperation, Evidence quality, funds and document return, recurrence and whether network controls also failed.
 
-- cause of failure;
-- timeliness of disclosure;
-- cooperation in handoff;
-- Evidence quality;
-- funds and document return;
-- recurrence;
-- impact on the customer;
-- whether network controls failed.
+Consequences should be scoped to the affected Capability, package or portfolio role and should follow evidence and due process.
 
-Possible consequences may affect:
+## 11. Product principle
 
-- one package;
-- one Capability;
-- urgent-work eligibility;
-- portfolio role;
-- new engagement admission;
-- suspension;
-- remediation requirements.
-
-Trust consequences should follow evidence and due process.
-
-## 15. AI assistance
-
-AI may assist with:
-
-- reconstructing the engagement timeline;
-- inventorying documents and Returns;
-- identifying missing milestones;
-- comparing replacement package terms;
-- drafting a handoff summary;
-- detecting deadline conflicts;
-- highlighting unreconciled funds.
-
-AI must not:
-
-- appoint a replacement Provider;
-- transfer customer authority;
-- infer a conflict is cleared;
-- decide liability;
-- send protected instructions;
-- declare an official representative changed;
-- hide unresolved loss.
-
-## 16. Failure scenarios
-
-### 16.1 Provider disappears near a deadline
-
-The network has unanswered messages and no official filing Evidence.
-
-Correct response: safe-stop, reconstruct current state, verify the deadline and prepare an emergency eligible route.
-
-### 16.2 Replacement acts on the old goods list
-
-The handoff contains an outdated attachment without version context.
-
-Correct response: bind the replacement Instruction Package to the latest approved version.
-
-### 16.3 Funds sent twice
-
-The replacement is paid before the original Provider’s unused advance is reconciled.
-
-Correct response: separate urgent continuity funding from refund and responsibility review.
-
-### 16.4 Platform replacement mistaken for official substitution
-
-The new Provider is active in MGSN, but the authority still recognizes the old representative.
-
-Correct response: complete the required formal substitution and validate official evidence.
-
-## 17. Product principle
-
-A managed network provides continuity by preserving the engagement, not merely by changing the Provider name.
+A managed network preserves continuity by reconstructing the engagement, not merely by changing the Provider name.
 
 ```text
 failure detected
@@ -379,4 +173,4 @@ failure detected
 → funds, documents and formal-state reconciliation
 ```
 
-The next part of the book turns from individual fulfillment to network Trust, incidents, disputes and learning: how MGSN improves without reducing professional quality to a public star rating.
+The next part turns from individual fulfillment to Trust, incidents, disputes and network learning: how MGSN improves without reducing professional quality to a public star rating.
