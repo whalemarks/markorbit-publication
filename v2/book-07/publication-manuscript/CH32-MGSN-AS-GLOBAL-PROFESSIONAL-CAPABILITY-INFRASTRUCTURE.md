@@ -1,25 +1,10 @@
 # CH32 — MGSN as Global Professional Capability Infrastructure
 
-A professional Workplace does not become global merely because it can send email to a foreign agent.
+A professional Workplace does not become global merely because it can email a foreign agent.
 
-Global capability requires something more durable:
+Global capability requires accountable supply, current Eligibility, explainable route formation, explicit Acceptance, versioned Instructions, observable fulfillment, typed Returns, Correction, recovery and bounded cross-border control.
 
-- accountable Organizations;
-- qualified, service-specific supply;
-- current Eligibility;
-- explainable route formation;
-- explicit Provider Acceptance;
-- versioned Instructions;
-- governed communication;
-- observable fulfillment;
-- typed Returns;
-- Evidence-backed settlement;
-- correction, replacement and recovery;
-- service-specific Trust;
-- bounded dispute and learning controls;
-- cross-border data, authority and jurisdiction boundaries.
-
-MGSN brings these parts together as infrastructure.
+MGSN brings those elements together as infrastructure.
 
 ```text
 MGSN
@@ -33,31 +18,15 @@ MGSN
 
 It is a managed professional fulfillment network designed to turn external supply into usable operating capability.
 
-## 1. The original problem
+## 1. The operating problem revisited
 
-The book began with a familiar operating reality.
+The book began with a familiar pattern: a Workplace searches an old spreadsheet, asks a colleague or forwards a prior email to a known Provider.
 
-A Workplace needs work completed in another jurisdiction. It searches an old spreadsheet, asks a colleague, forwards a prior email or contacts a familiar Provider. The relationship may work. It may also fail because:
+The relationship may work. It may also fail because identity is unclear, qualification is stale, scope is ambiguous, the Provider never accepted, the wrong version is used, payment is mistaken for authority or completion is reported without Evidence.
 
-- the Provider’s current identity is unclear;
-- the responsible professional has changed;
-- the quoted scope is ambiguous;
-- qualification evidence is stale;
-- the Provider has a conflict;
-- the customer file is disclosed too early;
-- a route is selected but never accepted;
-- instructions use the wrong version;
-- payment is mistaken for action authority;
-- work is reported complete without Evidence;
-- the Provider disappears;
-- replacement cannot reconstruct the Matter;
-- the network learns nothing from the failure.
-
-MGSN exists to replace this fragile sequence with a governed one.
+MGSN replaces that fragile sequence with a governed route.
 
 ## 2. The complete operating topology
-
-The full topology is:
 
 ```text
 Originating Workplace
@@ -75,20 +44,18 @@ Originating Workplace
 → Observable Fulfillment
 → Typed Provider Return
 → Evidence Review
-→ Correction or Replacement where required
+→ Correction or Replacement
 → Settlement and Reconciliation
-→ Formal-state validation by the Owning Service
+→ Formal-state Validation by the Owning Service
 ```
 
-Every arrow represents a controlled handoff.
-
-No single step is allowed to impersonate the next.
+Every arrow is a controlled handoff.
 
 ```text
 Recommendation
 ≠ Appointment
 
-Acceptance
+Provider Acceptance
 ≠ Customer Instruction
 
 Payment
@@ -103,157 +70,62 @@ Return Accepted
 
 ## 3. Infrastructure preserves distinct sovereignties
 
-MGSN works only if it respects the different authorities already present.
+The Originating Workplace retains its customer relationship, private pricing, internal Matter context and decision to use or leave MGSN.
 
-### Originating Workplace sovereignty
+The Provider retains professional judgment, organizational accountability, responsible professionals and the right to accept or decline.
 
-The Workplace retains:
-
-- customer relationship;
-- internal Matter context;
-- private pricing and margin;
-- internal Knowledge;
-- customer-side communication;
-- decision to use, reject or leave MGSN;
-- responsibility for its own commitments.
-
-### Provider responsibility
-
-The Provider retains:
-
-- professional judgment;
-- Organization accountability;
-- responsible professionals;
-- right to accept or decline;
-- delivery methods;
-- correction obligations;
-- duties imposed by applicable law and professional rules.
-
-### Platform network control
-
-MGSN governs:
-
-- admission;
-- Capability representation;
-- Service Packages;
-- Eligibility;
-- route formation;
-- Recommendation controls;
-- Allocation;
-- fulfillment checkpoints;
-- Returns;
-- Trust evidence;
-- restrictions;
-- network learning.
-
-### Core, Execution and Owning Service authority
+MGSN governs network admission, Capability representation, Service Packages, Eligibility, route formation, Allocation, Fulfillment, Returns, Trust and restrictions.
 
 ```text
 Core
-= shared semantic authority
+= Shared Semantic Authority
 
 Execution
-= governed runtime coordination
+= Governed Runtime Coordination
 
 Owning Service
-= formal business-state authority
+= Formal Business-state Authority
 ```
 
 MGSN connects these layers. It does not erase them.
 
-## 4. The network’s fundamental unit is not the Provider
+## 4. The fundamental unit is the Accountable Route
 
-The most important unit is the accountable route.
+The Provider name is not enough.
 
 ```text
 Accountable Route
 = Provider Organization
-+ qualified Capability
-+ admitted Service Package
-+ current Eligibility
-+ accepted engagement
-+ versioned authority
-+ observable fulfillment
-+ required Evidence
-+ recovery path
++ Qualified Capability
++ Admitted Service Package
++ Current Eligibility
++ Explicit Acceptance
++ Versioned Authority
++ Observable Fulfillment
++ Required Evidence
++ Recovery Path
 ```
 
-A Provider name alone cannot carry these obligations.
+The same Organization may be suitable for one service and unsuitable for another. It may be qualified but unavailable, available but conflicted, or able to prepare without authority to execute the final action.
 
-The same Organization may be excellent for one service and unsuitable for another. It may be qualified but unavailable. It may be available but conflicted. It may accept preparation but lack authority for the final protected action.
-
-Infrastructure makes these differences operable.
+Infrastructure makes those differences operable.
 
 ## 5. Managed does not mean centralized professional judgment
 
-MGSN is managed because the network controls how supply becomes visible, selectable, accepted, monitored and recoverable.
-
-It does not mean the platform takes over every professional decision.
+MGSN is managed because it controls how supply becomes visible, selectable, accepted, monitored and recoverable.
 
 ```text
 Managed Network
 ≠ Platform Performs Every Service
 ```
 
-MGSN may standardize:
+The platform may standardize Intake, route comparison, Milestones, Evidence, Returns, Escalation and Replacement. Jurisdiction-specific professional judgment remains with appropriately qualified and authorized professionals.
 
-- intake;
-- route comparison;
-- evidence requirements;
-- communication records;
-- milestones;
-- returns;
-- escalation;
-- replacement;
-- settlement checkpoints.
-
-But jurisdiction-specific professional judgment remains with appropriately qualified and authorized professionals.
-
-## 6. Trust emerges from accountable work
-
-MGSN does not need a universal public star score.
-
-Its Trust model can emerge from:
-
-- current qualification evidence;
-- clear Acceptance;
-- deadline discipline;
-- package accuracy;
-- Evidence completeness;
-- correction conduct;
-- funds consistency;
-- replacement cooperation;
-- incident findings;
-- service-specific history.
-
-```text
-Trust
-= Evidence-backed Confidence for a Defined Context
-```
-
-Trust remains reviewable, time-bound and service-specific.
-
-It supports Eligibility and Recommendation. It does not replace them.
-
-## 7. Failure is part of the infrastructure model
+## 6. Failure is part of the design
 
 A network that works only when every Provider performs perfectly is not infrastructure.
 
-MGSN must assume:
-
-- Providers decline;
-- evidence expires;
-- deadlines move;
-- customers change scope;
-- official fees change;
-- documents are wrong;
-- communication is misunderstood;
-- responsible professionals leave;
-- payment routes fail;
-- Returns conflict with official Evidence;
-- disputes occur.
-
-The network becomes valuable when these events remain governable.
+Providers decline. Evidence expires. Deadlines move. Customers change scope. Documents are wrong. Payment routes fail. Responsible professionals leave. Disputes occur.
 
 ```text
 Reliable Capability
@@ -267,108 +139,64 @@ Reliable Capability
 + Recoverable Continuity
 ```
 
-## 8. The three delivery routes remain meaningful
+MGSN becomes valuable when those events remain governable.
 
-### R1 — External Self-managed Route
+## 7. Choice remains meaningful
 
-The Workplace uses an external Provider outside managed MGSN fulfillment and retains the related operating risk.
+The three delivery routes remain distinct:
 
-### R2 — MGSN Recommended Managed Route
+- R1 — External Self-managed Route;
+- R2 — MGSN Recommended Managed Route;
+- R3 — MGSN Managed Preferred-provider Route.
 
-MGSN forms and explains an eligible route and manages the accepted fulfillment chain.
+They preserve participant choice without pretending that every route offers the same visibility, Evidence or recovery support.
 
-### R3 — MGSN Managed Preferred-provider Route
+## 8. Growth should close capability gaps
 
-The Workplace preserves an existing Provider relationship while bringing the route inside current admission, qualification, package, conflict, Evidence and recovery controls.
+MGSN should recruit supply because operating Evidence reveals a gap—not merely to display geographic scale.
 
-These routes preserve choice without pretending that all routes offer the same visibility or guarantee.
+Useful growth responds to:
 
-## 9. Infrastructure grows by closing capability gaps
-
-MGSN should not recruit Providers merely to display geographic scale.
-
-Growth should respond to observed gaps:
-
-- no eligible route;
-- high concentration;
+- no Eligible Route;
+- excessive concentration;
 - weak urgent capacity;
 - poor Evidence quality;
-- recurrent conflict failures;
+- repeated Conflict or Replacement failure;
 - missing specialist services;
-- repeated replacement cost;
-- language or data restrictions;
-- unstable package pricing;
-- insufficient professional authority coverage.
+- unstable Package pricing;
+- insufficient authority coverage.
 
 ```text
-Useful Network Growth
-= Identified Gap
+Identified Gap
 → Qualified Supply
 → Admitted Package
 → Observed Fulfillment
 → Evidence-backed Learning
 ```
 
-## 10. Infrastructure must remain contestable and portable
+## 9. Infrastructure must remain portable and contestable
 
-Participants should remain because the network creates value, not because records, relationships or original documents are trapped.
-
-MGSN should support:
-
-- clear rights and roles;
-- Matter-level portability;
-- controlled wind-down;
-- relationship provenance;
-- open-obligation visibility;
-- original-document return;
-- funds reconciliation;
-- transition to replacement or external routes;
-- retained audit history without unrestricted reuse.
+Participants should remain because the network creates value, not because records, relationships, original documents or funds are trapped.
 
 ```text
 Retention by Reliability
 ≠ Retention by Lock-in
 ```
 
-## 11. AI is an assistant inside the control system
+Matter-level portability, controlled wind-down, original-document return, open-obligation visibility and Funds Reconciliation are part of infrastructure quality.
 
-AI can strengthen MGSN by assisting with:
+## 10. AI remains an assistant inside the control system
 
-- Need structuring;
-- Capability and package comparison;
-- missing-data detection;
-- version comparison;
-- stale-evidence alerts;
-- communication summaries;
-- deadline extraction;
-- Return normalization;
-- discrepancy detection;
-- incident chronology;
-- pattern and metric analysis.
+AI may help structure Needs, compare Packages, detect missing data, normalize Returns, identify stale Evidence and reconstruct timelines.
 
-AI cannot become the source of professional or customer authority.
-
-It must not:
-
-- invent qualification;
-- clear conflict;
-- appoint Providers;
-- approve fees or funds;
-- infer customer consent;
-- authorize protected actions;
-- accept official truth;
-- assign liability;
-- issue binding sanctions;
-- update formal state by itself.
+It cannot invent Qualification, clear Conflict, appoint Providers, approve Funds, infer consent, authorize Protected Actions, assign liability or update formal state by itself.
 
 ```text
 AI Assistance
 ≠ Autonomous Professional Authority
 ```
 
-## 12. The infrastructure test
-
-MGSN can be evaluated through a practical test.
+## 11. The infrastructure test
 
 For any external professional service, can the network answer:
 
@@ -384,13 +212,13 @@ What must happen next?
 What Evidence proves progress?
 Who may accept that Evidence?
 What happens if the Provider fails?
-How are funds and official state reconciled?
+How are funds and formal state reconciled?
 Can the Matter continue after exit?
 ```
 
 Where the network cannot answer, capability remains incomplete.
 
-## 13. From private memory to institutional capability
+## 12. From private memory to institutional capability
 
 The transformation at the center of Book 07 is:
 
@@ -404,38 +232,11 @@ Private Contact Memory
 → Recoverable Institutional Capability
 ```
 
-This transformation does not eliminate human relationships.
+This transformation does not eliminate human relationships. It preserves their value while reducing dependence on private memory and informal rescue work.
 
-It preserves their value while reducing dependence on memory, private spreadsheets and informal rescue work.
+## 13. Final synthesis
 
-## 14. MGSN within MarkOrbit
-
-Within the wider MarkOrbit system, MGSN provides the external professional fulfillment layer.
-
-The broader system may know:
-
-- the brand and trademark assets;
-- the customer and Matter context;
-- required actions;
-- deadlines;
-- documents;
-- formal states;
-- knowledge and evidence;
-- internal workflows.
-
-MGSN answers a distinct question:
-
-> When capability is not available inside the current Workplace, how can the system obtain it without losing sovereignty, accountability or recoverability?
-
-Its answer is not a directory. It is a managed route.
-
-## 15. Final synthesis
-
-The complete MGSN proposition is:
-
-> MGSN enables a professional Workplace to obtain and provide global service capability through a platform-governed network that preserves customer relationships, professional responsibility and formal-state authority while making supply eligible, instructions attributable, fulfillment observable, evidence reviewable and failure recoverable.
-
-The final operating equation is:
+> MGSN enables a professional Workplace to obtain and provide global service capability through a platform-governed network that preserves customer relationships, professional responsibility and formal-state authority while making supply eligible, instructions attributable, fulfillment observable, Evidence reviewable and failure recoverable.
 
 ```text
 Global Professional Capability
@@ -455,4 +256,4 @@ Global Professional Capability
 
 That is the difference between having foreign contacts and possessing global capability.
 
-Book 07 ends here, not with the promise that every jurisdiction, Provider and failure has already been solved, but with a clear architecture for how global professional work can become governable.
+Book 07 ends not with the claim that every jurisdiction and failure has already been solved, but with a coherent architecture for making global professional work governable.
