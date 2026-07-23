@@ -2,477 +2,188 @@
 
 A Provider can accept an engagement and still receive the wrong instruction.
 
-The wrong applicant name may be copied from an old email. A Power of Attorney may belong to another entity. The customer may have approved one goods specification while the Provider files another. A fee instruction may be unclear. A translation may change after the filing deadline. A message saying “please proceed” may not identify which version should be used.
+The wrong applicant may be copied from an old email. The customer may approve one goods specification while the Provider files another. A Power of Attorney may belong to a different entity. “Please proceed” may not identify the version that should be used.
 
-MGSN therefore requires an Instruction Package.
-
-The Instruction Package is the governed handoff that tells the accepted Provider what it may do, on what basis, with which documents and under which authority.
+MGSN therefore requires a versioned Instruction Package.
 
 ```text
 Provider Acceptance
-≠ complete Instruction
+≠ Complete Instruction
 
-Instruction sent
-≠ authority proven
-
-latest attachment
-≠ approved version
+Latest Attachment
+≠ Approved Version
 ```
 
-## 1. Why email threads are not enough
+## 1. Instruction is a governed package, not a message
 
-International professional work is frequently instructed through long email chains.
+An Instruction Package should answer five questions:
 
-A typical thread may contain:
+1. Who is instructing?
+2. For which customer, Matter and Provider?
+3. What exact action is requested?
+4. Which version and Evidence support it?
+5. Which authority and prerequisites permit it?
 
-- an early draft application;
-- a corrected applicant address;
-- several logo files;
-- different goods lists;
-- a quote with an expired validity date;
-- a Power of Attorney sent as both scan and photograph;
-- a later customer message approving only part of the work;
-- a Provider response containing new assumptions;
-- unrelated discussion from another Matter.
+It should connect the accepted route to the exact applicant, mark, goods or services, documents, deadline, fee approval and action scope.
 
-The parties may understand the thread at the time. Months later, no one can prove which combination of messages formed the final instruction.
+A message may transmit the Instruction Package. The message itself is not the complete authority record.
 
-An Instruction Package converts scattered communication into an explicit, versioned operating record.
+## 2. Five authority layers
 
-## 2. What the Instruction Package must answer
+An engagement may involve several different forms of authority:
 
-A reliable Instruction Package should answer:
+- Workplace Authority to manage the customer relationship and route;
+- Customer Authority to approve facts, content and commercial choices;
+- Professional Authority to make reserved judgments or act before an authority;
+- Financial Authority to approve or execute payment;
+- Protected-action Authority to file, withdraw, settle, sign or take another consequential external action.
 
-```text
-Who is instructing?
-For which customer and Matter?
-Which Provider accepted?
-What exact action is requested?
-Which version is approved?
-What authority supports the request?
-Which prerequisites are complete?
-Which remain outstanding?
-What deadline applies?
-What funds condition applies?
-What Evidence and Return are required?
-```
-
-It should not force the Provider to reconstruct authority from history.
-
-## 3. Minimum Instruction Package contents
-
-Depending on the service, the package may include:
-
-- package identity and version;
-- Originating Workplace;
-- customer or principal reference;
-- Matter reference;
-- Need version;
-- Provider Allocation and Acceptance reference;
-- Provider Organization and responsible professional;
-- Service Package version;
-- requested action;
-- included and excluded scope;
-- customer or authorized-user approval;
-- professional assumptions;
-- applicant, owner or party details;
-- required documents;
-- approved mark, wording, goods or other substantive content;
-- filing or response deadline;
-- funds status and permitted expenditure;
-- communication rules;
-- subcontracting restrictions;
-- confidentiality and data conditions;
-- required milestones;
-- expected Evidence;
-- expected Return;
-- escalation contacts;
-- unresolved conditions and Unknowns.
-
-Not every package needs every field. Every material instruction should have an identifiable source and version.
-
-## 4. Authority must be represented, not assumed
-
-The Instruction Package should distinguish several forms of authority.
-
-### Workplace authority
-
-Who inside the Originating Workplace may request or approve the service?
-
-### Customer authority
-
-What has the customer or principal approved?
-
-### Professional authority
-
-Which Provider or responsible professional may perform the requested service?
-
-### Financial authority
-
-Who may approve professional fees, official fees, disbursements or additional charges?
-
-### Protected-action authority
-
-Who may authorize filing, withdrawal, settlement, payment, submission or another External Protected Action?
-
-These forms of authority may be held by different people.
+These roles may be held by different people.
 
 ```text
 Relationship Owner
-≠ Delivery Owner
-≠ professional decision maker
-≠ financial approver
-≠ protected-action approver
+≠ Professional Decision Maker
+≠ Financial Approver
+≠ Protected-action Approver
 ```
 
-The package should identify the relevant authority for the actual action rather than relying on one generic “approved by” field.
+The Instruction Package should show which authority is present and which remains outstanding.
 
-## 5. Customer instruction must be attributable
+## 3. Version control is part of authority
 
-A customer instruction should retain:
+Applicant names, addresses, mark images, translations, goods, priority claims, Powers of Attorney, legal arguments, fee approvals and filing documents may all change.
 
-- source;
-- person or role;
-- date and time;
-- channel;
-- exact content approved;
-- relevant version;
-- limitations;
-- translation where relevant;
-- evidence of signature or authentication where required;
-- supersession status.
-
-A customer may say “please proceed” in response to a particular email. The instruction must remain linked to the content of that email.
-
-```text
-“proceed”
-without version and context
-= ambiguous authority
-```
-
-An operator should not attach a later document to an earlier approval unless the customer or another authorized actor confirms the change.
-
-## 6. Version identity is central
-
-The package should version every element that can change the action.
-
-Examples include:
-
-- applicant name;
-- address;
-- mark image;
-- mark description;
-- translation or transliteration;
-- goods or services;
-- priority claim;
-- filing basis;
-- Power of Attorney;
-- evidence set;
-- legal argument;
-- fee authorization;
-- Provider quote;
-- requested deadline.
-
-The record should show:
+The correct chain is:
 
 ```text
 Instruction Package v1
-→ correction requested
+→ Correction Requested
 → Instruction Package v2
-→ customer approves v2
-→ Provider acknowledges v2
+→ Customer Approves v2
+→ Provider Acknowledges v2
 ```
 
-Versioning must preserve v1 and explain why it was replaced.
+The earlier version remains part of the record. It explains what changed, who changed it and whether the Provider acted on an outdated instruction.
 
-## 7. Source hierarchy and conflict
+A current file should never silently overwrite the version that supported an earlier decision.
 
-Instruction components may come from different sources:
+## 4. Documents do not prove authority by themselves
 
-- customer submission;
-- internal Workplace record;
-- official registry data;
-- prior filing;
-- Provider advice;
-- AI-assisted extraction;
-- translation;
-- operator correction.
-
-These sources may conflict.
-
-For example:
-
-- the customer form shows one address;
-- the company certificate shows another format;
-- the previous application uses an old address;
-- the Provider proposes a local-format version.
-
-The Instruction Package should not silently choose one.
-
-It should record:
-
-- conflicting values;
-- source of each value;
-- resolution decision;
-- decision authority;
-- final approved value;
-- residual uncertainty.
+A document may be present but belong to the wrong party, be unsigned, expired, incomplete or approved for a different use.
 
 ```text
-source conflict
-≠ permission to normalize silently
+Document Present
+≠ Document Valid
+≠ Document Approved for This Use
+≠ Action Authorized
 ```
 
-## 8. Documents are not instructions by themselves
+The Instruction Package should connect each critical document to its subject, version, purpose, approval and current status.
 
-A signed document may be necessary, but its presence does not always prove the requested action.
+## 5. Facts, assumptions and instructions must remain distinct
 
-A Power of Attorney may:
+The Provider should be able to tell whether an item is:
 
-- be outdated;
-- identify the wrong entity;
-- cover a different jurisdiction;
-- lack required formality;
-- authorize representation generally but not the current commercial decision;
-- be signed but not approved for immediate use;
-- require an original later.
+- customer-confirmed fact;
+- official-source fact;
+- Workplace assumption;
+- professional interpretation;
+- open question;
+- requested action;
+- approved action.
 
-The package should record both document validity and action authority.
+An internal inference should not be presented as customer-confirmed information. An old Provider report should not be presented as official evidence without verification.
 
-```text
-Document present
-≠ Document valid
-≠ Document approved for this use
-≠ Action authorized
-```
+This distinction becomes essential when a filing is later challenged or corrected.
 
-## 9. Funds instructions
+## 6. Readiness is not one green status
 
-The Instruction Package may state funds conditions, including:
+An engagement may be ready for preparation while not ready for filing. It may be ready for professional review while waiting for customer approval or funds.
 
-- approved professional fee;
-- approved official fee;
-- tax and disbursement limits;
-- contingency ceiling;
-- whether Provider prepayment is required;
-- whether customer funds have been received;
-- whether payment evidence is available;
-- who may approve additional cost;
-- refund or unused-funds expectations.
-
-But it must not imply authority that the platform does not possess.
-
-```text
-funds status recorded
-≠ funds custody authorized
-
-fee approved
-≠ payment executed
-
-payment executed
-≠ professional action completed
-```
-
-The package should link to the relevant Finance or payment evidence rather than becoming the ledger of truth.
-
-## 10. Deadlines and time assumptions
-
-A Provider needs more than a date.
-
-The package should distinguish:
-
-- official deadline;
-- internal safety deadline;
-- customer-response deadline;
-- document courier deadline;
-- funds deadline;
-- Provider acknowledgement deadline;
-- Provider submission target;
-- time zone;
-- source and confidence of the deadline;
-- whether extension or late remedy is known, uncertain or unavailable.
-
-```text
-deadline copied from email
-≠ verified official deadline
-```
-
-Where the official deadline is Unknown, the package should say so and assign an owner for confirmation.
-
-## 11. Preconditions and readiness
-
-The Instruction Package should state whether the work is ready.
-
-Possible readiness states include:
+Useful states include:
 
 ```text
 Ready for Preparation
 Ready for Professional Review
 Ready for Customer Approval
-Ready for Filing after Funds
+Ready after Funds
 Ready for Protected Action
 Blocked by Missing Document
-Blocked by Conflict
-Blocked by Unknown Deadline
+Blocked by Conflict or Unknown Authority
 ```
 
-The package should identify which actions are permitted before full readiness.
+The state should explain the next permitted action. It should not imply broader permission.
 
-A Provider may be allowed to prepare a draft while filing remains prohibited. This distinction prevents preparatory work from being mistaken for action authority.
+## 7. Funds and professional authority remain separate
 
-## 12. Provider acknowledgement
-
-After receiving the Instruction Package, the Provider should acknowledge:
-
-- package identity and version;
-- document inventory;
-- scope;
-- deadline;
-- price and funds status;
-- authority conditions;
-- missing or unreadable items;
-- expected next milestone;
-- responsible person.
+Payment can be a prerequisite, but it does not approve the content or prove that the external action occurred.
 
 ```text
-Instruction transmitted
-≠ Instruction received
-≠ Instruction understood
-≠ Instruction accepted
+Fee Approved
+≠ Payment Executed
+≠ Filing Authorized
+≠ Filing Completed
 ```
 
-A mismatch should trigger clarification before protected action.
+The Instruction Package may reference a funds checkpoint. Formal finance records and payment execution remain separately governed.
 
-## 13. Change control after instruction
+## 8. Provider acknowledgement closes the handoff
 
-Changes may arise after the package is acknowledged.
+The Provider should acknowledge the exact Instruction Package version it received.
 
-Examples include:
-
-- customer changes goods;
-- Provider finds a legal issue;
-- official fee changes;
-- original document is unavailable;
-- deadline is corrected;
-- Provider proposes a substitute professional;
-- translation is revised;
-- customer withdraws part of the instruction.
-
-A material change should follow:
+Acknowledgement should identify material conditions, missing items and any inconsistency between the accepted engagement and the instruction.
 
 ```text
-change proposed
-→ impact identified
-→ affected authority rechecked
-→ price and deadline updated
-→ new version approved
-→ Provider acknowledges
+Instruction Sent
+≠ Instruction Received
+≠ Version Acknowledged
 ```
 
-The old version remains part of the audit history.
+Where the Provider identifies a discrepancy, the route should pause or return for correction rather than relying on an informal assumption.
 
-## 14. Revocation and cancellation
+## 9. Changes after acknowledgement
 
-An instruction can be revoked, narrowed or cancelled.
+A material change after acknowledgement may affect scope, price, deadline, conflict, professional review or customer approval.
 
-The revocation record should state:
+The change should produce a new version and, where necessary, renewed Provider Acceptance or customer authority.
 
-- instruction and version;
-- revoking actor and authority;
-- date and time;
-- actions already performed;
-- actions that must stop;
-- irreversible consequences;
-- funds consequences;
-- documents and data to retain or return;
-- Provider acknowledgement;
-- official-state implications.
+Examples include changing the applicant, adding a class, revising a translation, replacing a professional representative or authorizing a new official fee.
 
 ```text
-customer asks to stop
-≠ all consequences can be reversed
+Changed Instruction
+≠ Automatically Covered by Earlier Acceptance
 ```
 
-The Provider must report if the protected action has already occurred or a deadline consequence remains.
+## 10. Emergency instructions
 
-## 15. Instruction Package and AI
+Urgency may justify a narrow preliminary instruction, such as preparing a draft or checking a deadline.
 
-AI can assist with:
+The permitted action should be explicit. “Start urgently” should not be interpreted as authority to file, sign, withdraw or incur unapproved costs.
 
-- extracting fields;
-- comparing versions;
-- detecting inconsistent names or addresses;
-- identifying missing approvals;
-- preparing document inventories;
-- flagging deadline conflicts;
-- drafting structured package summaries.
+The record should preserve what was known, what remained Unknown, who authorized the limited step and what approval was still required.
 
-AI must not:
+## 11. Failure and correction
 
-- fabricate customer approval;
-- decide which conflicting identity is legally correct;
-- infer signature authority without evidence;
-- select a substantive filing version without approval;
-- mark a protected action authorized;
-- overwrite Unknown values.
+Common failures include:
+
+- the Provider uses a superseded attachment;
+- the wrong applicant or address is filed;
+- a translation is treated as approved when it was only a draft;
+- payment is treated as filing authority;
+- a replacement Provider receives incomplete history.
+
+Recovery begins by reconstructing the accepted route, Instruction Package versions, approvals, Provider acknowledgements and external Evidence. Correction should preserve the error and the repaired state rather than rewriting history.
+
+## 12. Product principle
+
+The Instruction Package converts an accepted engagement into attributable, versioned and bounded authority.
 
 ```text
-AI-assembled package
-≠ approved Instruction Package
+Provider Acceptance
+→ Instruction Package
+→ Authority and Readiness Check
+→ Provider Acknowledgement
+→ Permitted Work
 ```
 
-## 16. Failure modes
-
-### 16.1 The Provider uses the latest attachment
-
-The latest attachment was a draft, while the customer approved an earlier version.
-
-Correct response: bind approval to the exact version and require Provider acknowledgement.
-
-### 16.2 “Please proceed” is detached from context
-
-A message is copied into the Matter without the email it answered.
-
-Correct response: preserve source thread, approved content and version.
-
-### 16.3 Payment is treated as filing authority
-
-The customer pays an invoice, and the Provider files despite unresolved substantive approval.
-
-Correct response: separate financial readiness from protected-action approval.
-
-### 16.4 Provider advice silently changes customer data
-
-The Provider reformats an address and files it without confirming whether the change is substantive.
-
-Correct response: record source conflict and obtain the required approval.
-
-### 16.5 Missing original document is hidden
-
-A scan is accepted for preparation, but the system shows the package as fully ready.
-
-Correct response: show conditional readiness and the original-document deadline.
-
-### 16.6 Cancellation arrives after filing
-
-The Workplace sends a stop message after the Provider has submitted.
-
-Correct response: preserve timing, report irreversible action and determine the next authorized remedy.
-
-## 17. Product principle
-
-The Instruction Package is the authority-bearing bridge from Provider Acceptance to governed work.
-
-```text
-accepted route
-+ exact scope
-+ attributable authority
-+ versioned content
-+ documents and funds conditions
-+ deadline and expected Return
-= governable Instruction Package
-```
-
-It protects the customer from unintended action, the Workplace from ambiguous delegation and the Provider from being held responsible for undocumented assumptions.
-
-The next chapter explains how communications must remain tied to this engagement instead of opening an unrestricted participant network.
+The next chapter turns to the communication that surrounds this package. Communication must support delivery without silently transferring the customer relationship or losing the governed record.
