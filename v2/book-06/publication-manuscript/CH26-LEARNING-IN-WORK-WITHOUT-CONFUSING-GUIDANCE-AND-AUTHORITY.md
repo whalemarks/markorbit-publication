@@ -1,98 +1,129 @@
 # Chapter 26 — Learning in Work Without Confusing Guidance and Authority
 
-The strongest professional learning often happens at the moment a real task becomes difficult.
+The strongest professional learning often happens when a real task becomes difficult.
 
-Lite should therefore support learning in work. It should not force users to leave the operating environment, complete a generic course and later attempt to remember the lesson. It should recognize the gap, provide the right level of guidance and connect the user to review.
+Lite should support learning inside work. It should recognize the gap, provide the right level of guidance, preserve sources and connect the user to review.
 
-That convenience creates a serious boundary problem:
+That convenience creates a strict boundary:
 
 ```text
 Guidance
 ≠ authorization
 ```
 
-A system that explains how to perform a professional task must not imply that the user is now permitted to perform it without supervision or professional authority.
-
 ## 1. The work-learning loop
-
-A governed loop is:
 
 ```text
 Task encountered
-→ capability and authority check
-→ risk classification
+→ Capability and authority check
+→ Context Compiler
+→ risk and scope classification
 → guided mode or escalation
 → user work
 → review
-→ outcome evidence
-→ capability update
+→ Session Receipt
+→ validated Outcome
+→ private Reflection
+→ Capability Evaluation
 ```
 
-The loop begins with the actual task, but it does not allow the task to bypass the normal Assignment and authority model.
+The task does not bypass Assignment, Professional Authority or protected-action approval merely because it also creates learning.
 
-## 2. Guidance modes should be explicit
+## 2. Context Compiler prepares the bounded learning context
 
-Lite may offer several modes.
+Before guidance is composed, the Context Compiler should determine:
 
-### Reference mode
+- represented Person and Workplace;
+- Product Installation;
+- Capability and version;
+- user-confirmed facts and Unknowns;
+- jurisdiction and procedure;
+- current Knowledge sources;
+- permitted Skills and Tools;
+- user Capability Profile projection;
+- required supervision and review;
+- privacy, memory and learning policy;
+- deadline and risk.
 
-Provides reviewed Knowledge, definitions, examples and checklists.
+```text
+Context compiled
+≠ request validated
+≠ Assignment created
+≠ protected action authorized
+```
 
-### Guided preparation mode
+The Compiler reduces ambiguity without converting inference into authority.
 
-Helps the user prepare a bounded draft while preserving review requirements.
+## 3. Guidance modes should be explicit
 
-### Simulation mode
+Lite may offer:
 
-Uses a synthetic or de-identified scenario and cannot change production state.
+- **Reference mode** — reviewed Knowledge and examples;
+- **Guided preparation** — bounded drafting with review required;
+- **Simulation** — synthetic or de-identified practice isolated from production;
+- **Supervised production** — real work under accepted Assignment and review;
+- **Independent mode** — only where Capability, Eligibility and authority permit;
+- **Escalation** — route to reviewer, qualified professional or MarkReg.
 
-### Supervised production mode
+The active mode must be visible.
 
-Allows real work within an Assignment, with defined reviewer responsibility and restricted actions.
+## 4. AI Mentor teaches decision structure
 
-### Independent mode
+AI Mentor should help the user recognize:
 
-Available only where capability, role, Assignment and authority conditions are satisfied.
+- controlling facts;
+- missing Evidence;
+- relevant exceptions;
+- source and version;
+- authority boundary;
+- review requirement;
+- safe next action;
+- reason for escalation.
 
-### Escalation mode
+It should not merely output an answer to copy.
 
-Routes the user to a reviewer, qualified professional or MarkReg workflow when the task exceeds their scope.
+```text
+AI Mentor recommendation
+≠ assessment result
+≠ certification
+≠ Professional Authority
+```
 
-The mode should be visible. A user should not mistake a simulation for real filing preparation or a guided draft for approved professional work.
+## 5. Source Capability and Verified MO Capability remain distinguishable
 
-## 3. Risk determines how much guidance is enough
+Lite may teach a named author's framework or a source-derived Skill. It should preserve attribution and limitations.
 
-Low-risk activities may include:
+```text
+Source Skill
+≠ Verified MO Capability
+```
 
-- summarizing an official notice;
-- organizing documents;
-- drafting a factual customer update;
-- classifying internal content;
-- preparing a review checklist.
+A useful external method may be invoked as a bounded supporting or critic Skill without becoming platform canon.
 
-Higher-risk activities may include:
+## 6. Composition must remain bounded
 
-- interpreting a refusal;
-- determining legal use evidence;
-- changing ownership information;
-- recommending goods scope;
-- preparing a response affecting rights;
-- instructing a foreign Provider;
-- submitting an External Protected Action.
+A difficult task may combine:
 
-The higher the consequence, the more the system should require professional review, explicit approval and formal authority.
+- one Primary Capability;
+- Supporting Capabilities;
+- one or more Critic Capabilities;
+- deterministic Skills;
+- AI assistance;
+- human or professional review.
 
-## 4. AI explanation must expose its basis and limits
+The runtime should preserve a Capability Budget: a limit on how many sources, perspectives and Skills are introduced before the result becomes noisy or contradictory.
 
-A useful Guide should show:
+Material conflicts should be surfaced rather than blended silently.
 
-- the source Knowledge Object;
-- jurisdiction and effective date;
-- whether the rule is official, professional practice or internal guidance;
-- assumptions;
-- unresolved facts;
-- required evidence;
-- what the user may safely prepare;
+## 7. AI explanation must expose basis and limits
+
+A useful answer should show:
+
+- source type and effective date;
+- whether the claim is official, professional practice or internal guidance;
+- assumptions and Unknowns;
+- required Evidence;
+- what the user may prepare;
 - what requires review or authority.
 
 ```text
@@ -100,157 +131,136 @@ AI can explain a route
 ≠ AI can authorize the route
 ```
 
-## 5. The system should teach decision structure
-
-Learning in work should not merely give an answer. It should teach the user to recognize:
-
-- which facts control the decision;
-- what evidence is missing;
-- which exceptions matter;
-- where the authority boundary lies;
-- what must be documented;
-- when escalation is required.
-
-A user who only copies a generated answer has not necessarily gained capability.
-
-## 6. Guided work must remain attributable
+## 8. Guided work remains attributable
 
 The record should preserve:
 
 - who performed the work;
-- which AI or Guide assistance was used;
-- which templates and Knowledge versions were used;
-- who reviewed it;
-- what corrections were required;
-- which final action was approved;
-- whether the result was accepted.
+- Capability and Skill versions;
+- AI, Tool and Knowledge assistance;
+- user confirmations;
+- reviewer and corrections;
+- final disposition;
+- memory and learning policy.
 
-This allows capability evidence to distinguish independent work from heavily assisted work.
+This allows Capability evidence to distinguish independent performance from heavily assisted work.
 
-## 7. Review should be developmental and operational
+## 9. Session Receipt is the bounded runtime record
 
-A reviewer may return:
+A Session Receipt may capture the material path of one governed learning or production session.
 
-- corrections required before use;
-- explanation of missed issues;
-- a safer workflow;
-- examples of acceptable evidence;
-- a recommendation for simulation or refresher learning;
-- a capability update;
-- an operational acceptance or rejection.
+It is useful for Reflection, review and Capability Evaluation, but it is not formal truth.
 
-The educational feedback and the production decision should remain separate.
+```text
+Session Receipt
+≠ formal state
+≠ customer instruction
+≠ accepted Outcome
+≠ shared-learning permission
+```
+
+Retention should be proportionate to consequence and rights.
+
+## 10. Reflection should be user-confirmed
+
+After the work, Lite may prepare a Reflection Candidate describing:
+
+- what was attempted;
+- what changed in the user's understanding;
+- remaining uncertainty;
+- errors and corrections;
+- Evidence references;
+- proposed learning or production next step.
+
+The user should be able to edit, reject or keep it private.
+
+```text
+Reflection Candidate
+≠ raw conversation archive
+≠ manager judgment
+≠ canonical Principle
+```
+
+## 11. Review is both developmental and operational
+
+A reviewer may return educational feedback and a production disposition. These remain separate.
 
 ```text
 Useful learning feedback
 ≠ accepted production output
 ```
 
-## 8. Real customer work cannot be a hidden exercise
+Review may recommend correction, simulation, refresher learning, narrower scope or escalation.
 
-The system must not place an unqualified learner into customer work without clear supervision, responsibility and disclosure.
+## 12. Real customer work cannot be a hidden exercise
 
-Where supervised production is used, it should define:
+Where supervised production is used, the system should define:
 
 - Delivery Owner;
 - supervisor or reviewer;
-- task boundaries;
+- exact task boundaries;
 - customer-facing identity rules;
 - data access;
-- actions prohibited to the learner;
+- prohibited actions;
 - acceptance criteria;
 - correction responsibility;
-- compensation where the work creates value.
+- compensation where real value is created.
 
-## 9. Learning should not delay urgent obligations
+Learning does not justify undisclosed or unpaid production.
 
-A real deadline is not an educational opportunity first.
+## 13. Urgent obligations take priority
 
-When risk or urgency exceeds the safe learning route, Lite should escalate immediately. The user may study the completed case later through a de-identified or simulated version.
+A real deadline is not an educational opportunity first. When urgency exceeds the safe learning route, Lite should escalate immediately.
+
+The user may later learn through a de-identified or synthetic version.
+
+## 14. Capability Evaluation remains governed
+
+Learning, Session Receipt, Reflection and review may support a Capability Evaluation. They do not automatically update the user's profile.
 
 ```text
-Learning value
-≠ permission to endanger a customer deadline
+Outcome
+≠ automatic Capability upgrade
+
+AI Mentor confidence
+≠ proficiency decision
 ```
 
-## 10. Knowledge and workflow versions matter
+Material changes require Evidence, review, scope, recency and appeal.
 
-A user may have learned an old procedure. Guided mode should detect when:
+## 15. Learning memory belongs to a governed context
 
-- official forms changed;
-- fees changed;
-- deadlines changed;
-- Provider requirements changed;
-- a prior checklist was superseded;
-- a local practice note conflicts with current official information.
+Lite may remember completed lessons, recurring mistakes, reviewer feedback, simulations and goals primarily for the user and their Workplace.
 
-The system should not reward the repetition of obsolete practice.
+This does not create cross-Workplace retrieval, employee surveillance, shared Knowledge or model-training permission.
 
-## 11. Learning memory belongs to a governed context
-
-Lite may remember:
-
-- recurring mistakes;
-- preferred explanations;
-- completed lessons;
-- reviewer feedback;
-- simulations attempted;
-- capability goals.
-
-This memory should primarily support the person and their Workplace. It should not become platform-wide learning or employee surveillance automatically.
-
-## 12. Human judgment remains necessary
-
-AI may identify a probable gap, but a human reviewer may discover that:
-
-- the task was unusually difficult;
-- the user made the correct decision for the wrong reason;
-- the user understood the issue but lacked evidence;
-- the template caused the error;
-- the Knowledge source was outdated;
-- the review criterion was ambiguous.
-
-Capability changes should therefore preserve review context and appeal.
-
-## 13. Product implications
+## 16. Product implications
 
 Lite requires:
 
-- visible guidance modes;
-- task-risk classification;
-- capability and authority gates;
+- Context Compiler;
+- explicit guidance modes;
+- AI Mentor;
+- Capability composition and budget controls;
 - source-linked explanations;
-- guided drafts;
+- Session Receipt;
+- private Reflection;
 - reviewer routing;
-- supervision records;
-- correction and learning feedback;
 - urgent escalation;
-- version-aware Knowledge;
-- capability evidence integration.
+- Capability Evaluation and Ledger integration;
+- privacy, appeal and memory controls.
 
-## 14. Commercial implications
-
-Learning in work can support:
-
-- Pro and Business subscription value;
-- paid review;
-- supervised Contributions;
-- structured training paths;
-- reduced error and onboarding cost;
-- stronger retention.
-
-The commercial model should not intentionally make ordinary guidance weak in order to force unnecessary paid review. Paid professional work should correspond to real judgment, responsibility and production value.
-
-## 15. Operating principle
+## 17. Operating principle
 
 ```text
-Teach inside the work
-Show the source
-Declare the mode
-Preserve supervision
-Escalate consequence
-Record correction
-Never convert guidance into authority
+Teach inside the work.
+Compile context before composing guidance.
+Show the source.
+Declare the mode.
+Preserve attribution and supervision.
+Invite Reflection without forcing disclosure.
+Escalate consequence.
+Never convert guidance into authority.
 ```
 
-> Lite should help a professional become more capable through real work, while making it impossible to confuse a helpful explanation with permission to act on behalf of a customer.
+> Lite should help a professional become more capable through real work while making it impossible to confuse explanation, reflection, assessment and permission to act.
