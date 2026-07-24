@@ -2,42 +2,83 @@
 
 ## Capability remains stable while implementations vary
 
-A Capability Definition describes the governed outcome. The platform still needs to know how that outcome may be produced.
+A Capability Definition describes the governed outcome. The platform still needs to know how that outcome may be produced in a particular scenario.
 
 That production side contains several different concepts:
 
 ```text
-Skill
+Skill Definition
 Tool
 Service
 Implementation Profile
+Action / Invocation
 ```
 
-They should interoperate, but they should not be collapsed.
+They interoperate. They must not be collapsed.
 
-## Skill
+## Skill Definition
 
-A Skill is a reusable procedure or agent package that implements part or all of a Capability.
+A Skill Definition is a reusable, scenario-specific implementation of part or all of a Capability.
 
 It may include:
 
-- instructions;
+- purpose and supported Capability references;
+- accepted inputs and preconditions;
+- instructions or procedure;
 - deterministic rules;
 - prompt and model bindings;
 - Tool dependencies;
 - input and output adapters;
 - validation checks;
 - review expectations;
-- failure and escalation behavior.
+- failure, escalation and Unknown behavior;
+- Evidence emitted;
+- version and compatibility information.
 
-A Skill can be human-readable, machine-executable or hybrid.
+A Skill may be human-readable, machine-executable or hybrid.
 
 ```text
-Skill
-≠ Capability
+Skill Definition
+≠ Capability Definition
 ```
 
-The same Capability may be implemented by several Skills, and one Skill may support several Capabilities.
+The same Capability may be implemented by several Skills. One Skill may support several Capabilities when its scope and output remain explicit.
+
+A Skill never receives authority merely because it exists or performs well in another context.
+
+## Source Skill and Verified platform Skill
+
+Skills may have different origins and maturity.
+
+A **Source Skill** preserves a procedure, framework or decision method from an attributable source. Its assumptions, provenance and limits should remain visible.
+
+A **Composite Skill** combines compatible steps from several Source Skills or internal methods for a bounded scenario.
+
+An **Experimental Skill** is being evaluated under explicit restrictions.
+
+A **Verified platform Skill** has passed the relevant evaluation, compatibility, security and governance gates for its declared use.
+
+```text
+Source Skill
+≠ Verified MO Capability
+```
+
+A source method may be valuable without being sufficiently complete, current or safe to support a released Capability on its own.
+
+## Skill granularity
+
+A Skill should normally implement a coherent decision or production step that can be reused and evaluated.
+
+Examples include:
+
+- extract applicant identity from a signed instruction form;
+- reconcile registered goods with candidate use evidence;
+- calculate a sourced filing window;
+- draft a customer update from validated Matter events;
+- compare two versions of an Instruction Package;
+- screen a Provider Return for missing Evidence.
+
+“Do trademark work” is too broad. “Click submit” is an Action rather than a Skill.
 
 ## Tool
 
@@ -58,13 +99,12 @@ Examples include:
 Tool contracts should identify:
 
 - version;
-- accepted inputs;
-- outputs;
+- accepted inputs and outputs;
 - side effects;
-- data disclosure;
+- Data disclosure;
 - authentication context;
 - retry and idempotency behavior;
-- evidence emitted;
+- Evidence emitted;
 - known failure modes.
 
 ```text
@@ -72,9 +112,11 @@ Tool technically available
 ≠ Tool authorized for this request
 ```
 
+A Tool does not define professional meaning. The Skill and Capability explain why it is used, what its result means and which review follows.
+
 ## Service
 
-Service must be qualified because it can refer to different architectural roles.
+The word Service can refer to several architectural roles:
 
 ```text
 runtime service
@@ -83,9 +125,9 @@ Owning Service
 external professional service
 ```
 
-A runtime service executes code. A Product service is a commercial offering. An Owning Service controls formal state for a business object. An external professional service is delivered by a Provider under a specific authority contract.
+A runtime service executes software. A Product service is a user-facing or commercial offering. An Owning Service controls formal state for a business object. An external professional service is delivered by a Provider under a defined Engagement and authority contract.
 
-The word `service` alone is insufficient for consequential architecture decisions.
+The unqualified word `service` is insufficient for consequential architecture decisions.
 
 ## Implementation Profile
 
@@ -97,14 +139,14 @@ It may identify:
 - Skill versions;
 - Tool versions;
 - service dependencies;
-- supported M-mode;
-- maximum R-tier;
-- data scope;
+- supported Human–AI mode;
+- maximum risk and control tier;
+- Data and memory scope;
 - jurisdiction and language;
 - required human roles;
 - review policy;
-- performance evidence;
-- production authorization state;
+- evaluation Evidence;
+- production-authorization state;
 - rollback and replacement route.
 
 ```text
@@ -113,26 +155,27 @@ Capability Definition
 = governed implementation candidate
 ```
 
-The binding still does not create Assignment or permission to execute a specific request.
+The binding does not create Eligibility, Assignment or permission to execute a specific request.
 
 ## Human implementation
 
-A human implementation should not be represented merely by a person's name.
+A human implementation should not be represented merely by a Person’s name or job title.
 
 It should preserve:
 
-- relevant Capability evidence;
+- relevant Capability Profile Evidence;
 - jurisdiction and language;
-- professional qualification where needed;
+- Professional Qualification where needed;
 - permitted work class;
 - supervision requirement;
-- tool access;
-- data restrictions;
-- current production authorization.
+- Tool access;
+- Data restrictions;
+- current Production Authorization;
+- availability and conflict state at runtime.
 
 ```text
 experienced person
-≠ eligible implementation for every task
+≠ eligible implementation for every request
 ```
 
 ## AI implementation
@@ -148,7 +191,7 @@ An AI Implementation Profile should preserve:
 - allowed outputs;
 - prohibited actions;
 - review requirement;
-- evaluation evidence;
+- evaluation Evidence;
 - stop and escalation conditions.
 
 ```text
@@ -156,15 +199,15 @@ model capability
 ≠ invocation authority
 ```
 
-A stronger model does not automatically inherit the prior model's production approval.
+A stronger model does not automatically inherit a prior model’s Production Authorization.
 
 ## Deterministic implementation
 
-Deterministic systems can provide strong repeatability, but only if the rule and input remain valid.
+Deterministic systems provide repeatability only when the rule and input remain valid.
 
 ```text
 rule executed correctly
-≠ source rule correct
+≠ source rule current
 ≠ professional conclusion correct
 ```
 
@@ -180,10 +223,68 @@ deterministic extraction
 → contributor preparation
 → professional review
 → customer approval
-→ provider execution
+→ Provider execution
 ```
 
-A hybrid profile must preserve each component's contribution, authority and evidence rather than describing the whole route as “AI” or “human.”
+A hybrid profile must preserve each component’s Contribution, authority and Evidence rather than describing the whole route as “AI” or “human.”
+
+## Action and Invocation
+
+An Action or Invocation is one bounded use of a Skill, Tool or human procedure under an exact runtime context.
+
+It should normally resolve:
+
+- Capability Request and version;
+- selected Skill and Implementation Profile;
+- input references and versions;
+- represented Workplace and purpose;
+- Data and memory scope;
+- authority and review envelope;
+- time, cost and Tool budget;
+- Evidence and Session Receipt requirements;
+- idempotency or retry controls where relevant.
+
+```text
+Skill available
+≠ Skill invoked
+
+Skill invoked
+≠ Outcome accepted
+```
+
+An Invocation is an event in the execution lifecycle. It is not a new Skill or Capability version.
+
+## Composition Profile
+
+A complex request may use several Capabilities or Skills. The composition should be explicit rather than hidden in a large prompt.
+
+A Composition Profile may identify:
+
+```text
+one Primary Capability
+zero to three Supporting Capabilities
+zero or one Critic Capability
+Capability Budget
+conflicts and resolution rules
+```
+
+The Primary Capability owns the main decision structure. Supporting Capabilities answer bounded nodes. A Critic Capability examines a specified risk, assumption or failure mode.
+
+The Capability Budget limits:
+
+- context size;
+- number of active methods;
+- Tool calls;
+- time and cost;
+- review burden;
+- escalation depth.
+
+```text
+more Skills loaded
+≠ better composition
+```
+
+Composition should preserve disagreement when assumptions conflict. It should not average incompatible methods into a false consensus.
 
 ## Tool access and protected action
 
@@ -203,38 +304,45 @@ pay
 mutate
 ```
 
-Entitlement to a Tool does not authorize every operation.
+Entitlement to a Tool does not authorize every operation. Capability Composition does not create protected-action authority.
 
 ## Replacement and compatibility
 
 An implementation may be replaced only after checking:
 
 - output compatibility;
-- evidence compatibility;
+- Evidence compatibility;
 - changed risk;
 - changed review burden;
-- data disclosure;
+- Data disclosure;
 - side effects;
-- active work impact.
+- active work impact;
+- migration or revalidation needs.
 
 ```text
 same output schema
 ≠ same governance behavior
 ```
 
+A model, Skill or Tool update may require renewed simulation, shadow evaluation or supervised use without changing the Capability Definition itself.
+
 ## Core boundary
 
-Core may standardize the references and distinctions needed to describe implementations. It should not absorb every prompt, connector configuration, procedural checklist or vendor-specific API.
+Core may standardize the references and distinctions needed to describe Capabilities, Skills, implementations and Invocations. It should not absorb every prompt, connector configuration, procedural checklist or vendor-specific API.
 
-Those remain versioned implementation records owned by the relevant service or Product context.
+Source Skills, Product-local Skills and implementation records may remain versioned in their owning contexts. Their existence does not activate a new Core contract.
+
+Formal admission of any new shared semantic still requires the Book 02 governance route.
 
 ## Constitutional rule
 
 ```text
-Skills describe reusable procedures.
+Capabilities define governed outcomes.
+Skills describe reusable implementations.
 Tools perform bounded operations.
 Services host, own or deliver defined responsibilities.
-Implementation Profiles bind them to a Capability.
+Implementation Profiles bind them for evaluation.
+Actions and Invocations use them in exact runtime context.
 
-None alone proves eligibility, assignment, approval or authority.
+None alone proves Eligibility, Assignment, Approval or Authority.
 ```
