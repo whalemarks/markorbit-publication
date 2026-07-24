@@ -8,22 +8,24 @@ Every governed execution produces signals:
 - a Provider responded slowly;
 - a reviewer found a recurring defect;
 - an AI draft omitted an exception;
-- a customer misunderstood a recommendation;
+- a customer misunderstood a Recommendation;
 - an official fee changed;
 - a retry would have caused duplication;
 - a recovery route succeeded or failed.
 
 These signals should improve future work.
 
-But the learning chain must remain:
+The learning chain must remain:
 
 ```text
-Observed Event
-→ Validated Outcome
+Governed Execution
+→ Evidence-backed Outcome
+→ Session Receipt
 → Contextual Learning Signal
-→ Review
-→ Policy or Capability Candidate
-→ Controlled Change
+→ Reflection Candidate
+→ Case or Principle Candidate
+→ Change Proposal
+→ Controlled Adoption
 → Evaluation
 ```
 
@@ -34,27 +36,23 @@ One Outcome
 → Automatic Universal Rule
 ```
 
-## 2. Historical fact, learning signal and policy are different objects
+## 2. Historical fact, learning signal and policy are different
 
 The system must distinguish:
 
 ```text
 Historical Event
+≠ Session Receipt
+≠ Reflection
 ≠ Learning Signal
 ≠ Policy
+≠ Capability Definition
 ≠ Canonical Truth
 ```
 
-A Provider asking for an original POA may indicate:
+A Provider asking for an original power of attorney may indicate an official legal requirement, office practice, Provider policy, examiner request, temporary preference or misunderstanding.
 
-- an official legal requirement;
-- an office-specific practice;
-- a Provider policy;
-- an examiner request;
-- a temporary operational preference;
-- a misunderstanding.
-
-Execution history records what happened. Learning analysis determines what it may mean. Knowledge governance decides whether it becomes a reusable claim. Policy governance decides whether system behavior changes.
+Execution history records what happened. The Session Receipt records which context, versions and decisions were used. Reflection proposes what may have been learned. Knowledge and policy governance determine whether broader change is justified.
 
 ## 3. Learning begins only after Outcome validation
 
@@ -64,59 +62,98 @@ The system should consider:
 
 - whether the Contribution was accepted;
 - whether Review found material defects;
-- whether the external action succeeded;
-- whether official evidence confirmed the result;
+- whether external action succeeded;
+- whether official Evidence confirmed the result;
 - whether recovery was required;
 - whether customer delivery was correct;
 - whether financial reconciliation completed.
 
 ```text
-Task Completed
-≠ Outcome Validated
-≠ Positive Learning Evidence
+Task completed
+≠ Outcome validated
+≠ positive learning evidence
 ```
 
-## 4. Learning signals require context
+An unresolved or negative Outcome may still create valuable Evidence, especially when the performer identified uncertainty, blocked unsafe action or recovered well.
+
+## 4. Session Receipt creates reconstructable context
+
+A consequential session should preserve enough information to reconstruct the route without turning the entire conversation into permanent memory.
+
+A Session Receipt may reference:
+
+- Capability Request and version;
+- Context Package;
+- Primary, Supporting and Critic Capabilities;
+- Capability Budget;
+- selected Skill and Implementation Profile versions;
+- sources, Data and Knowledge versions;
+- Human–AI mode and control tier;
+- material Tool invocations;
+- human Decisions and Review dispositions;
+- Evidence emitted;
+- Outcome, correction and Unknown states;
+- memory and learning disposition.
+
+```text
+Session Receipt
+≠ raw conversation archive
+≠ formal-state record
+≠ shared learning permission
+```
+
+Its purpose is attribution and reconstruction.
+
+## 5. Reflection is a candidate, not an automatic conclusion
+
+Outcome data rarely captures the whole lesson. A successful result may reveal an inefficient question, hidden dependency or weak assumption. A failed result may still show excellent escalation and recovery.
+
+The system may draft a Reflection Candidate covering:
+
+- intended and actual Outcome;
+- decisive facts and sources;
+- key judgments;
+- what worked;
+- what failed or nearly failed;
+- uncertainty and counterexamples;
+- possible reusable lesson;
+- proposed visibility and use.
+
+Material interpretation should be confirmed by the user or authorized reviewer before it becomes durable profile evidence or enters a shared learning route.
+
+```text
+AI-drafted Reflection
+≠ user-confirmed Reflection
+
+Reflection Candidate
+≠ Capability change
+```
+
+## 6. Learning signals require context
 
 A useful signal should preserve:
 
-- Capability;
-- jurisdiction;
-- Work Package type;
-- complexity;
-- M-mode;
-- R-tier;
-- performer or implementation;
-- reviewer;
-- source versions;
-- input quality;
+- Capability and version;
+- jurisdiction and procedure;
+- Work Package type and complexity;
+- Human–AI mode and control tier;
+- performer, reviewer or implementation;
+- source and input quality;
 - deadline pressure;
 - customer changes;
 - Provider behavior;
-- external outcome;
+- external Outcome;
 - recovery burden.
 
 Without context, a good or bad result may be attributed to the wrong cause.
 
-## 5. Individual performance and system design must be separated
+## 7. Individual performance and system design must be separated
 
-Recurring defects may arise from:
-
-- performer capability;
-- unclear instructions;
-- bad templates;
-- outdated sources;
-- weak Intake;
-- missing Review capacity;
-- unsuitable M-mode;
-- poor Provider routing;
-- deadline compression;
-- interface design;
-- incorrect policy.
+Recurring defects may arise from performer Capability, unclear instructions, bad templates, outdated sources, weak Intake, missing Review capacity, unsuitable Human–AI mode, poor Provider routing, deadline compression, interface design or incorrect policy.
 
 ```text
-Error Observed in a Contribution
-≠ Contributor Solely Responsible
+Error observed in a Contribution
+≠ Contributor solely responsible
 ```
 
 Learning should ask both:
@@ -126,31 +163,11 @@ What did the performer do?
 What did the system make easy, difficult or invisible?
 ```
 
-## 6. Review findings are learning inputs, not automatic penalties
+Review findings are learning inputs, not automatic penalties.
 
-Review data may reveal:
+## 8. Good escalation is positive Evidence
 
-- defect type;
-- severity;
-- detectability;
-- recurrence;
-- correction quality;
-- source of ambiguity;
-- reviewer disagreement;
-- downstream effect.
-
-One Review finding should not automatically reduce a universal score or revoke authorization.
-
-```text
-One Defect
-≠ Universal Capability Failure
-```
-
-Patterns, severity and context matter.
-
-## 7. Good escalation is positive evidence
-
-A governed system should reward the correct handling of uncertainty.
+A governed system should reward correct handling of uncertainty.
 
 Positive signals include:
 
@@ -160,132 +177,151 @@ Positive signals include:
 - requesting professional Review;
 - escalating a conflict;
 - refusing unsupported certainty;
-- detecting a duplicate risk;
+- detecting duplicate risk;
 - disclosing limitations.
 
 ```text
 Escalation
-≠ Failure by Default
+≠ failure by default
 ```
 
-A low escalation rate can indicate hidden risk rather than strong performance.
+A low escalation rate may indicate hidden risk rather than strong performance.
 
-## 8. Provider learning must preserve evidence and commercial context
+## 9. Capability Composition must be evaluated as a route
 
-Provider evaluation may consider:
+A result produced by several Capabilities should not be attributed to one component merely because it was Primary.
 
-- acknowledgement time;
-- acceptance clarity;
-- professional qualification;
-- deadline reliability;
-- Return Contract completeness;
-- correction quality;
-- fee accuracy;
-- communication quality;
-- incident response;
-- official outcome.
+Evaluation may consider:
 
-But:
+- whether the Primary Capability framed the problem correctly;
+- whether Supporting Capabilities answered the right decision nodes;
+- whether the Critic identified material risk;
+- whether conflicts were preserved and resolved appropriately;
+- whether the Capability Budget was proportionate;
+- whether unused complexity created noise;
+- whether one missing Capability caused a blind spot.
 
 ```text
-Provider Reports Success
-≠ Positive Outcome Evidence
+Strong composed Outcome
+≠ every component performed well
+
+Weak composed Outcome
+≠ every component failed
 ```
 
-Official or independently validated evidence should support material conclusions.
+This is why Composition and Session Receipt records matter.
 
-Commercial margin must not silently replace suitability.
+## 10. Provider, user, model and Workflow evidence remain separate
+
+The same event may create:
+
+- user Capability Profile evidence;
+- contributor production evidence;
+- reviewer evidence;
+- Provider performance evidence;
+- model or Tool evidence;
+- Workflow evidence;
+- Capability Definition evidence.
+
+These should not collapse into one score.
 
 ```text
-Higher Margin
-≠ Better Provider Route
+Provider Return
+≠ Official Truth
+≠ User Capability evidence
+≠ Capability verification
 ```
 
-## 9. AI learning must distinguish model, prompt, tool and policy
+Official or independently validated Evidence should support material conclusions. Commercial margin must not silently replace suitability.
 
-An AI-related failure may result from:
+## 11. AI learning must distinguish model, policy, sources and Tools
 
-- model weakness;
-- model version change;
-- poor instruction;
-- missing source;
-- retrieval failure;
-- unsuitable tool;
-- excessive autonomy;
-- weak Review;
-- memory contamination;
-- bad input.
-
-The system should not simply conclude that “AI failed” or “AI succeeded.”
+An AI-related failure may result from model weakness, version change, poor instruction, missing source, retrieval failure, unsuitable Tool, excessive autonomy, weak Review, memory contamination or bad input.
 
 ```text
 AI Outcome
 = Model + Policy + Sources + Tools + Context + Human Disposition
 ```
 
-## 10. Model updates require re-evaluation
+A material model, prompt, source-pipeline, Tool-access, memory or autonomy change may require renewed simulation, shadow evaluation or supervised production.
 
 ```text
-Model v1 Evaluated
-≠ Model v2 Evaluated
+Model v1 evaluated
+≠ Model v2 evaluated
 ```
 
-Material changes to:
+## 12. Execution may propose changes to several layers
 
-- model;
-- system prompt;
-- source pipeline;
-- tool access;
-- memory policy;
-- autonomy;
-- output schema;
-
-may require renewed Simulation, shadow evaluation or supervised production before the earlier Production Authorization remains valid.
-
-## 11. Learning should update several layers differently
-
-A validated signal may lead to a candidate change in:
+A validated signal may support a Candidate change in:
 
 ```text
+Skill Definition
+Implementation Profile
+Capability Composition pattern
 Capability Definition
 Workflow Template
 Work Package Template
 Review Rubric
-R-tier Rule
-M-mode Policy
-Provider Routing
-Document Requirement
-Intake Question
+control-tier rule
+Human–AI mode policy
+Provider routing
+Intake question
 Evidence Contract
-Recovery Playbook
-Knowledge Candidate
-Public Content
+Recovery playbook
+Knowledge Claim
+Product guidance
 ```
 
 These layers have different owners and approval processes.
 
 ```text
-Execution Learns
-≠ Execution May Rewrite Every Layer
+Execution learns
+≠ Execution may rewrite every layer
 ```
 
-## 12. Policy changes require governed promotion
+A Skill correction may not require a Capability version. A Capability change does not automatically alter Core. A public-content change cannot alter professional truth.
 
-A policy candidate should state:
+## 13. The Capability evolution handoff
 
-- trigger signals;
-- evidence set;
+When execution Evidence suggests that the governed Outcome contract itself should change, Execution creates a bounded handoff rather than editing the Capability directly.
+
+The handoff may contain:
+
+- affected Capability and version;
+- supporting Session Receipts;
+- Reflections and Case Candidates;
+- proposed Principle Candidate;
+- supporting and contradicting Evidence;
+- affected Skills, assessments and Products;
+- risk, compatibility and migration concerns;
+- rights and privacy disposition;
+- unresolved Unknowns.
+
+```text
+Execution evidence
+→ Capability Change Proposal Candidate
+```
+
+The receiving governance process decides whether to reject, request more evidence, pilot an Experimental version or release a new Verified MO Capability version.
+
+```text
+Capability Change Proposal opened
+≠ Capability changed
+≠ production migration authorized
+```
+
+## 14. Policy changes require governed promotion
+
+A policy Candidate should state:
+
+- trigger signals and Evidence set;
 - affected scope;
-- expected benefit;
-- possible harm;
-- owner;
-- reviewer;
+- expected benefit and possible harm;
+- owner and reviewers;
 - approval authority;
-- rollout plan;
+- rollout or pilot plan;
 - rollback rule;
 - evaluation period.
-
-The change process is:
 
 ```text
 Signal
@@ -297,18 +333,14 @@ Signal
 → Evaluation
 ```
 
-## 13. Policy versions must not rewrite active history
-
-A Workflow or Review policy updated today should not silently change the meaning of work completed yesterday.
+A policy updated today should not silently change the meaning of work completed yesterday.
 
 ```text
-Policy v2 Published
-≠ Historical Execution Reinterpreted as if v2 Applied
+Policy v2 published
+≠ historical execution reinterpreted as if v2 applied
 ```
 
-Active workflows need explicit migration, grandfathering or revalidation decisions.
-
-## 14. Learning from incidents requires responsibility discipline
+## 15. Incidents, recovery and responsibility require discipline
 
 Incident analysis should separate:
 
@@ -321,69 +353,13 @@ Recovery Result
 Prevention Candidate
 ```
 
-It must not publish blame before evidence supports it.
+A failure signal is not proven fault.
 
-```text
-Failure Signal
-≠ Proven Fault
-```
+Recovery quality should be measured through detection, containment, Evidence preservation, customer notification, deadline protection, duplicate prevention, correction, financial reconciliation and final validation.
 
-## 15. Recovery quality is a learning dimension
+A good recovery does not erase the defect. It creates distinct positive Evidence.
 
-The system should observe:
-
-- detection speed;
-- containment;
-- evidence preservation;
-- customer notification;
-- deadline protection;
-- duplicate prevention;
-- correction quality;
-- financial reconciliation;
-- final validation.
-
-A good recovery does not erase the original defect, but it provides distinct positive evidence.
-
-## 16. Learning from customer communication must avoid manipulation
-
-Customer responses may reveal:
-
-- unclear explanation;
-- excessive questions;
-- hidden assumptions;
-- misleading certainty;
-- poor option design;
-- unclear costs;
-- failure to distinguish information from instruction.
-
-Improvement should increase comprehension and decision readiness, not merely conversion.
-
-```text
-Higher Conversion
-≠ Better Communication
-```
-
-## 17. Learning from public content cannot alter professional truth
-
-SEO, GEO and conversion performance may suggest that users misunderstand a rule or need a clearer explanation.
-
-They cannot change:
-
-- official fee;
-- deadline;
-- legal condition;
-- professional authority requirement;
-- source status.
-
-```text
-Search Demand
-≠ Professional Truth
-
-Conversion Performance
-≠ Correctness
-```
-
-## 18. Customer data does not automatically become shared learning
+## 16. Rights govern whether operational evidence may become learning
 
 ```text
 Operational Data
@@ -392,118 +368,84 @@ Operational Data
 ≠ AI-training Permission
 ```
 
-Before using a Matter in learning, the system must address:
+Before Matter-derived material enters wider learning, the system must address:
 
-- rights;
+- rights and permitted purpose;
 - confidentiality;
-- purpose;
-- minimization;
-- de-identification;
+- minimization and de-identification;
 - re-identification risk;
 - retention;
-- training consent;
-- publication consent.
+- correction and withdrawal;
+- training and publication permission.
 
-## 19. Synthetic learning objects may be safer
+Where a real case is too sensitive, a clearly labelled synthetic Case may preserve the decision structure without claiming to be a historical fact record.
 
-Where a real case is too sensitive, MarkOrbit can create a synthetic case preserving:
+## 17. Learning that affects people must support appeal
 
-- decision structure;
-- authority conflict;
-- evidence gap;
-- deadline pressure;
-- recovery path;
-- Human–AI interaction.
+Where learning influences Production Authorization, routing, compensation, reviewer eligibility or Provider status, affected people and Organizations need an appropriate way to inspect relevant Evidence, contest mistakes and provide context.
+
+Opaque universal scoring undermines professional trust.
 
 ```text
-Synthetic Case
-≠ Historical Fact Record
+One defect
+≠ universal Capability failure
+
+One success
+≠ universal Capability verification
 ```
 
-It must be labeled accordingly.
-
-## 20. Capability Evidence and policy learning must remain distinct
-
-The same event may create:
-
-- evidence about a performer;
-- evidence about a reviewer;
-- evidence about a Provider;
-- evidence about a model;
-- evidence about a Workflow;
-- evidence about a source.
-
-These should not be collapsed into one score.
-
-```text
-Strong Outcome
-≠ Every Component Performed Well
-```
-
-## 21. Learning must support appeal and correction
-
-Where learning affects:
-
-- Production Authorization;
-- routing;
-- compensation;
-- ranking;
-- reviewer eligibility;
-- Provider status;
-
-people and organizations need a way to inspect the relevant evidence, contest mistakes and provide additional context within appropriate privacy limits.
-
-Opaque scoring undermines professional trust.
-
-## 22. Metrics should include harm and rework
+## 18. Metrics should include harm and rework
 
 Useful measures include:
 
 - accepted Outcome rate;
-- Review defect severity;
-- rework cost;
+- defect severity;
+- rework and recovery cost;
 - Unknown duration;
-- recovery cost;
 - deadline margin;
-- evidence completeness;
+- Evidence completeness;
 - customer comprehension;
 - correction rate;
-- privacy incident rate;
-- duplicate prevention.
+- privacy incidents;
+- duplicate prevention;
+- escalation quality.
 
 ```text
-Throughput Alone
-≠ Execution Quality
+Throughput alone
+≠ execution quality
 ```
 
-## 23. Learning can recommend, not self-legislate
+## 19. Learning can recommend, not self-legislate
 
-AI may identify patterns and draft policy candidates. It cannot unilaterally:
+AI may identify patterns and draft Reflections, Cases, Principles or policy Candidates. It cannot unilaterally:
 
 - change Professional Authority rules;
-- lower R-tier;
-- expand data access;
+- lower control tiers;
+- expand Data access;
 - authorize training;
 - modify formal state;
-- activate external actions.
+- release a Capability version;
+- activate an External Protected Action.
 
 ```text
-AI Detects Pattern
-≠ Policy Adopted
+AI detects pattern
+≠ policy adopted
 ```
 
-## 24. The governing loop
+## 20. The governing loop
 
-The trusted learning loop is:
+The trusted execution-learning loop is:
 
 ```text
 Governed Execution
 → Evidence-backed Outcome
-→ Contextual Signal
-→ Rights and Quality Review
-→ Versioned Improvement Candidate
-→ Controlled Adoption
-→ Measured Result
+→ reconstructable Session Receipt
+→ contextual Reflection
+→ rights and quality review
+→ Case or Principle Candidate
+→ versioned Change Proposal
+→ controlled adoption or rejection
+→ measured result
 ```
 
 Execution learning should make the system safer, clearer and more capable. It must never turn operational frequency, commercial preference or model confidence into automatic truth.

@@ -4,15 +4,15 @@ A profession is usually described through titles.
 
 Trademark agent. Lawyer. Paralegal. Search analyst. Brand consultant. Filing specialist. Foreign associate. Portfolio manager.
 
-Titles are useful shorthand, but they are poor operating data.
+Titles are useful shorthand. They are poor operating data.
 
-Two people with the same title may have completely different abilities. A lawyer may understand litigation deeply and know little about international filing operations. A trademark agent may handle hundreds of domestic applications but have no experience with evidence-of-use requirements. A junior employee may be excellent at status verification and document control but lack authority to give legal advice. A local associate may be formally qualified yet weak in communication, deadline discipline or evidence return.
+Two people with the same title may have very different abilities. A lawyer may understand litigation deeply and know little about international filing operations. A trademark agent may handle hundreds of domestic applications but have no experience with evidence-of-use requirements. A junior employee may be excellent at status verification and document control but lack authority to give legal advice. A local associate may be formally qualified yet weak in communication, deadline discipline or Evidence Return.
 
-MarkOrbit needs a more precise map.
+MarkOrbit needs a more precise map, but it must avoid turning people into one score.
 
 ## 1. Why the profession must be decomposed
 
-Global brand services are delivered through thousands of recurring acts of judgment and coordination.
+Global brand services are delivered through recurring acts of understanding, judgment, coordination and recovery.
 
 A single trademark application may require the ability to:
 
@@ -29,110 +29,149 @@ A single trademark application may require the ability to:
 - explain risk and next steps;
 - monitor future events.
 
-Calling this “trademark filing” hides too much.
+Calling all of this “trademark filing” hides the work that must be taught, assigned, reviewed, priced and improved.
 
-When work remains hidden inside a broad service label, it becomes difficult to teach, assign, review, price or improve. Experienced people carry the process in memory. Junior staff learn through accidents. Customers cannot see where quality comes from. Platforms route work by organization name or price rather than actual capability.
+A Capability map makes the work visible without claiming that professional judgment is simple or interchangeable.
 
-A capability map makes the work visible.
+## 2. MarkOrbit needs two maps, not one
 
-## 2. The purpose is not to reduce professionals to scores
+The platform serves both a profession and the businesses in which that profession operates.
 
-Capability mapping can easily become dehumanizing.
+It therefore needs two related but distinct maps.
 
-A platform may be tempted to rank every person with one number, treat professional judgment as a set of interchangeable tasks or conclude that anyone who passes a test can replace an experienced specialist.
+### The Professional Capability Map
 
-That is not the MarkOrbit approach.
-
-The map has three purposes:
+This map classifies outcomes within trademark and brand services, including:
 
 ```text
-make professional outcomes explicit
-help users develop and access capability
-route work with appropriate authority and review
+customer understanding and service design
+brand and trademark strategy
+search and conflict analysis
+classification and goods design
+applicant and ownership verification
+filing preparation and formalities
+prosecution and office-action response
+opposition, cancellation and disputes
+registration, evidence, declarations and renewal
+assignment, licensing and transactions
+international planning and local-provider coordination
+customer communication and account management
+data verification and lifecycle intelligence
+content, visual presentation and commercialization
+quality, review, compliance and governance
+operations, finance and professional-network management
 ```
 
-It should preserve context, uncertainty, ethics and legal qualification. It should make expertise more visible, not pretend that expertise is simple.
+### The Business Capability Map
 
-## 3. The MarkOrbit 300
+This map covers the broader work required to build and operate a business:
 
-A useful first design target is approximately three hundred capability units covering the global trademark and brand-service profession.
+```text
+Vision
+Brand
+Product
+Market
+Sales
+Operations
+Finance
+People
+Expansion
+```
 
-The number is intentionally memorable. It is not a metaphysical claim about the exact size of the profession. The final map may contain more or fewer units, and different jurisdictions may require local extensions.
+The two maps can connect. They must not be collapsed.
+
+A trademark professional may need stronger Sales or Operations Capability. A founder may need brand strategy and international trademark planning. Shared Capability semantics can support both cases without redefining all business activity as trademark work.
+
+```text
+Professional Capability Map
+≠ Business Capability Map
+```
+
+## 3. Founder is a Persona, not a Capability Domain
+
+“Founder” describes a person’s operating context and responsibility pattern. It is not a coherent Capability Domain.
+
+A Founder Capability Profile may draw from Vision, Brand, Product, Market, Sales, Operations, Finance, People and Expansion. Another persona—such as trademark agency owner, international filing coordinator or portfolio manager—may draw from a different combination.
+
+```text
+Persona
+→ selects relevant Capability Domains
+→ establishes a Capability Profile
+→ shapes Product experience
+```
+
+This distinction matters because MarkOrbit may later support a Founder-facing Product without redefining Lite, Core or the Professional Capability Map.
+
+A future Founder OS would be a separate Product direction built on shared Capability semantics. It is not the hidden destination of every current Product.
+
+## 4. The MarkOrbit 300
+
+A useful design target is approximately three hundred professional Capability units covering the global trademark and brand-services field.
+
+The number is intentionally memorable. It is not a rigid ontology or a claim that the profession contains exactly three hundred truths.
 
 The target is large enough to represent meaningful specialization and small enough to remain understandable.
-
-A possible domain structure includes:
-
-```text
-01 Customer understanding and service design
-02 Brand and trademark strategy
-03 Search and conflict analysis
-04 Classification and goods/services design
-05 Applicant, ownership and entity verification
-06 Filing preparation and formalities
-07 Prosecution and office-action response
-08 Opposition, cancellation and disputes
-09 Registration, evidence, declarations and renewal
-10 Assignment, licensing and trademark transactions
-11 International planning and local-provider coordination
-12 Customer communication and account management
-13 Data verification and lifecycle intelligence
-14 Content, visual presentation and commercialization
-15 Quality, review, compliance and governance
-16 Operations, finance and professional-network management
-```
-
-Each domain can contain families and atomic units.
 
 For example:
 
 ```text
-Domain: Registration and maintenance
+Domain:
+Registration and Maintenance
 
-Family: United States post-registration maintenance
+Capability Family:
+United States post-registration maintenance
 
-Units:
-- determine Section 8 filing window
+Capabilities:
+- determine the Section 8 filing window
 - determine Section 15 eligibility
-- determine Section 71 filing window
+- determine the Section 71 filing window
 - verify current owner and correspondence details
 - reconcile registered goods with actual use
-- screen specimens by goods category
-- identify excusable nonuse issues
+- assess specimen readiness by goods category
+- identify excusable-nonuse issues
 - prepare customer evidence questions
 - prepare attorney instruction package
 - verify filing receipt and recorded goods
 ```
 
-This level of decomposition is useful because each unit can have a different risk, learning path, reviewer requirement and legal-authority boundary.
+Each Capability may then have several Skills and many Actions or Invocations.
 
-## 4. How large should a capability unit be?
+```text
+Capability Domain
+→ Capability Family
+→ Capability
+→ Skill
+→ Action / Invocation
+```
 
-A unit that is too broad becomes another job title. A unit that is too narrow becomes operational noise.
+“Atomic unit” is useful only when it refers to a reusable outcome. Clicking a button is not a professional Capability merely because it is small.
 
-The right size is a reusable professional outcome that can be observed and assessed.
+## 5. How large should a Capability be?
+
+A Capability that is too broad becomes another job title. A Capability that is too narrow becomes operational noise.
 
 “Understand US trademarks” is too broad.
 
 “Click the download button” is too narrow.
 
-“Determine the ordinary Section 8 filing window from the registration record and identify whether the grace period applies” is closer to the right level.
+“Determine the ordinary Section 8 filing window from the registration record and identify whether the grace period applies” is closer to the correct level.
 
-A unit should normally have:
+A first-class Capability should normally have:
 
-- a recognizable user or workflow outcome;
+- a recognizable user or Workflow outcome;
 - defined inputs and outputs;
 - a meaningful error condition;
 - observable performance;
-- a reason to train, route or review it separately.
+- a reason to train, route or review it separately;
+- an implementation that may change without changing the outcome promise.
 
-## 5. Capability families preserve professional context
+## 6. Families preserve professional context
 
-Atomic units should not be treated as isolated microtasks.
+Capabilities should not become isolated microtasks.
 
-A professional may correctly calculate a deadline and still fail the customer by misunderstanding ownership or goods use. Capability families preserve the relationship between units.
+A professional may correctly calculate a deadline and still fail the customer by misunderstanding ownership, goods use or authority. Capability families preserve the relationship among outcomes.
 
-A maintenance family might require:
+A maintenance family may combine:
 
 ```text
 status interpretation
@@ -146,11 +185,11 @@ professional handoff
 receipt verification
 ```
 
-Certification at a family level should require integrated case performance, not only individual quizzes.
+Assessment at family level should test integrated case performance, not only isolated quizzes.
 
-## 6. Global core and jurisdiction extensions
+## 7. Global foundations and jurisdiction extensions
 
-Some capabilities are broadly universal:
+Some Capabilities are broadly reusable:
 
 - verify source and date;
 - distinguish applicant from owner;
@@ -158,110 +197,92 @@ Some capabilities are broadly universal:
 - explain uncertainty;
 - preserve customer approval;
 - track deadlines;
-- review external returns.
+- review external Returns.
 
-Other capabilities are jurisdiction-specific:
+Others are jurisdiction-specific:
 
 - United States use-based filing;
-- European Union seniority or proof-of-use practice;
+- European Union proof-of-use practice;
 - China subclass strategy;
 - Madrid designation management;
 - local legalization and power-of-attorney requirements;
 - national opposition procedure.
 
-The capability system should therefore combine:
+The map should therefore support:
 
 ```text
-Global Capability Core
+Global Capability Foundation
 + Jurisdiction Extension
-+ Product or Role Profile
++ Product or Persona Profile
 ```
 
-This avoids duplicating universal professional practices for every country while preserving local differences.
+This avoids duplicating universal practices while preserving local differences.
 
-## 7. Levels describe demonstrated proficiency
+## 8. Proficiency is evidence-backed and Capability-specific
 
-MarkOrbit uses five proficiency levels.
+MarkOrbit may use five proficiency levels:
 
-### L1 — Awareness
+- **L1 — Awareness:** understands purpose, vocabulary and common risks.
+- **L2 — Assisted practitioner:** completes standard work with guidance and mandatory review.
+- **L3 — Independent practitioner:** performs bounded standard work and identifies common exceptions.
+- **L4 — Advanced specialist:** handles complex cases, reviews others and resolves conflicting Evidence.
+- **L5 — Expert or mentor:** defines standards, calibrates assessors and leads complex decisions.
 
-The user understands the purpose, vocabulary and common risks. The user can recognize when the capability is needed and interpret a basic output.
+Levels are Capability-specific. A person may be L4 in international filing operations, L2 in trademark transactions and L1 in litigation strategy.
 
-An L1 user should not be described as production-ready.
-
-### L2 — Assisted practitioner
-
-The user can complete a standard case with guided workflow, AI assistance, reference materials and mandatory review.
-
-The user follows a process but may not reliably handle exceptions.
-
-### L3 — Independent practitioner
-
-The user can independently perform standard work, identify common exceptions, explain reasoning and produce a reviewable result.
-
-L3 is the practical threshold for bounded independent production in many non-reserved tasks.
-
-### L4 — Advanced specialist
-
-The user can handle complex cases, review others, resolve conflicting evidence, adapt to exceptions and identify when expert or legally qualified intervention is required.
-
-### L5 — Expert or mentor
-
-The user can define standards, calibrate assessors, design cases, train specialists, contribute to governed knowledge and lead complex professional decisions.
-
-Levels are capability-specific. A person may be L4 in international filing operations, L2 in trademark transactions and L1 in litigation strategy.
-
-## 8. Evidence matters more than declared experience
-
-Years of experience can be valuable, but they are not sufficient proof.
-
-Ten years of repeating one narrow process does not automatically create advanced capability. A person with fewer years may have stronger evidence in a bounded area.
-
-MarkOrbit should consider multiple evidence types:
+Evidence may include education, qualification, training, simulation, supervised work, accepted Outcomes, review findings, correction history, jurisdiction recency and expert contribution.
 
 ```text
-formal education and qualification
-completed training
-simulation performance
-observed real work
-review history
-accepted outcomes
-error and correction history
-customer communication quality
-jurisdiction recency
-expert contribution
+Years of experience ≠ verified Capability level
+One successful case ≠ permanent proficiency
+Professional Qualification ≠ every operational Capability
 ```
 
-Evidence should remain contextual. A high score in one simulation is not permanent proof. A professional qualification is not proof of every operational capability. A successful result may reflect strong supervision rather than independent competence.
+## 9. Capability Profile and Capability Twin
 
-## 9. Capability decay is real
+A **Capability Profile** is an evidence-backed projection of what a Person, Organization or Workplace has practiced, demonstrated or is developing.
 
-Professional capability can become stale.
+A **Capability Twin** is a Product-facing representation that helps organize relevant evidence, current gaps, preferences, version exposure and recommended development routes.
 
-Rules change. Office systems change. forms change. technology changes. market practices change. A person may also stop performing a type of work.
+```text
+Capability Twin
+≠ personality replica
+≠ universal score
+≠ Professional Qualification
+≠ authority to act
+```
 
-The map should therefore represent recency and maintenance.
+A Profile may distinguish:
 
-A capability record may include:
+- assisted practice;
+- supervised production;
+- independently accepted work;
+- review experience;
+- certification;
+- Production Authorization;
+- current Professional Qualification;
+- recency and restrictions.
+
+Private Reflection and coaching remain under Workplace and Product governance. They do not automatically become shared platform Knowledge or training data.
+
+## 10. Capability decays and capacity changes
+
+Professional Capability can become stale. Rules, forms, office systems and market practice change. A person may stop performing a type of work.
+
+A profile should therefore preserve:
 
 - last verified date;
-- last production use;
-- current knowledge version;
-- required reassessment interval;
+- last relevant production use;
+- Knowledge and Capability version exposure;
+- reassessment interval;
 - active restrictions;
 - evidence confidence.
 
-This is especially important in jurisdictions or procedures that change quickly.
-
-## 10. Capability supply is not the same as capacity
-
-A person or organization may possess capability but have no time to accept work.
-
-MarkOrbit must distinguish:
+Capability also differs from authorization and capacity:
 
 ```text
 Capability
-= can reliably perform the outcome
+= can reliably produce the outcome
 
 Authorization
 = may perform it in this context
@@ -270,102 +291,105 @@ Capacity
 = is available to perform it now
 ```
 
-A qualified local lawyer may have the right capability and authority but be unavailable before a deadline. A certified contributor may be available but not authorized to access the customer data. A MarkReg reviewer may be capable but conflicted.
+Reliable routing requires all three.
 
-Reliable routing requires all three dimensions.
+## 11. Organizational Capability is a system property
 
-## 11. Organization capability is not the sum of employee badges
+A Workplace should not be treated as capable merely because one employee once passed an assessment.
 
-A Workplace may claim organizational capability only when it can reliably deliver an outcome through its people, systems, review process and continuity controls.
-
-An organization should not be treated as capable merely because one employee once passed an assessment.
-
-Organizational capability may require:
+Organizational Capability may require:
 
 - sufficient qualified people;
 - reviewer coverage;
-- process and data access;
+- maintained process and Data access;
 - backup capacity;
 - quality history;
 - conflict and confidentiality controls;
-- service continuity.
+- service continuity and recovery.
 
-This matters for MarkReg production and MGSN provider supply.
+This matters for MarkReg production and MGSN Provider supply.
 
-## 12. The capability graph
+```text
+Person Capability Profile
+≠ Workplace Capability Profile
+≠ Provider Supply Capability
+```
 
-A mature capability system becomes a graph rather than a flat catalog.
+Each is evidence-backed for a different purpose.
 
-It can represent:
+## 12. The map becomes a graph
+
+A mature Capability system is a graph rather than a flat catalog. It can represent:
 
 ```text
 prerequisites
-related capabilities
+related Capabilities
 jurisdiction extensions
+Source Capabilities
+compatible Skills
 common failure patterns
 required qualifications
-compatible execution modes
+permitted Human–AI modes
 review dependencies
 Product usage
 learning paths
 real demand
-available supply
+current supply and capacity
 ```
 
 The graph helps answer practical questions:
 
-- What must a user learn before reviewing use evidence?
-- Which capabilities are missing from a Workplace?
-- Where does MarkReg have a reviewer bottleneck?
-- Which jurisdictions depend on one provider?
-- Which training program will unlock real paid work?
-- Which capability should be automated next?
+- Which Capability is missing from a Workplace?
+- Which training route unlocks supervised real work?
+- Where does MarkReg lack reviewer capacity?
+- Which jurisdiction depends on one Provider?
+- Which Capability should be automated next?
+- Which Source Capability offers a useful but conflicting method?
 
-## 13. The map must remain connected to demand
+## 13. Demand should guide investment, not define truth
 
-A capability taxonomy can become an academic exercise if it is disconnected from real work.
+The map becomes academic if disconnected from real work.
 
-MarkOrbit should prioritize capabilities that appear in:
+MarkOrbit should prioritize Capabilities appearing in active Lite opportunities, MarkReg Matters, MGSN demand, recurring customer questions, Data-quality failures, review bottlenecks and high-risk decisions.
 
-- active Lite opportunities;
-- MarkReg matters and orders;
-- MGSN service demand;
-- recurring customer questions;
-- data-quality failures;
-- review bottlenecks;
-- high-risk professional decisions.
+Demand may guide investment in definitions, Skills, simulations, reviewers and Tools. It does not determine professional truth or automatically create a Verified MO Capability.
 
-Demand evidence should influence which capability definitions receive investment, simulation cases, reviewers and automation support.
+```text
+High demand ≠ verified method
+Frequent execution ≠ canonical Principle
+```
 
-## 14. The map creates a new form of professional mobility
+## 14. Professional mobility without sovereignty leakage
 
-Traditional professional careers depend heavily on employer reputation, location and informal networks.
+Evidence-backed Capability Profiles can make bounded competence more portable.
 
-A governed capability record can make bounded competence more portable.
+A professional in a small city may demonstrate strong evidence-review Capability. A former agency employee may contribute after leaving full-time work. A local attorney may become visible for a specific jurisdiction and service. An experienced practitioner may earn through assessment and expert review.
 
-A professional in a small city may demonstrate strong evidence-review capability. A former agency employee may continue contributing after leaving full-time work. A local attorney may become visible for a specific jurisdiction and service. An experienced practitioner may earn through assessment and expert review rather than only customer acquisition.
+Portability must remain controlled.
 
-This mobility must remain controlled. Portable capability evidence does not transfer confidential work, customer relationships or legal authority.
+```text
+Capability evidence portability
+≠ confidential Matter portability
+≠ customer relationship transfer
+≠ Professional Authority portability
+```
 
 ## 15. The strategic value
 
-The MarkOrbit 300 is not merely a course catalog.
-
-It can become the shared map connecting:
+The Capability maps connect:
 
 ```text
 what customers need
 what Products promise
 what people can do
-what organizations can deliver
+what Workplaces can deliver
 what AI can assist
 what professionals must authorize
 what work can be assigned
-what outcomes can be trusted
+what Outcomes can be trusted
+what evidence should improve next
 ```
 
-That map is a compounding asset.
+A competitor may copy a feature or recruit a Provider. It is harder to copy a living Capability graph supported by definitions, Source Capabilities, Skills, evidence, production history, review quality and real demand.
 
-A competitor may copy a feature or recruit a provider. It is harder to copy a living capability graph supported by definitions, learning, evidence, production history, review quality and real demand.
-
-The map succeeds only when it improves actual delivery. Its purpose is not to describe the profession beautifully. Its purpose is to make global professional capability easier to access, develop, verify and coordinate.
+The map succeeds only when it improves actual delivery and professional growth. Its purpose is not to describe the profession beautifully. Its purpose is to make global professional Capability easier to access, develop, verify, compose and coordinate without erasing context, sovereignty or authority.

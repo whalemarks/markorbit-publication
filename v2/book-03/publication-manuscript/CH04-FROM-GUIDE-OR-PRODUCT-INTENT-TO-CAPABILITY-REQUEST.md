@@ -5,7 +5,7 @@ Users do not think in execution contracts. They think in goals:
 - “Help me choose the right countries.”
 - “Prepare this application.”
 - “Review whether this evidence is enough.”
-- “Find a suitable provider.”
+- “Find a suitable Provider.”
 - “Send the client an update.”
 - “Create a marketing pack for this trademark.”
 
@@ -30,11 +30,11 @@ may leave unresolved:
 - whether the customer approved the cost;
 - whether a search or professional review was completed;
 - who is permitted to sign;
-- which provider or attorney is appointed;
-- what evidence must be returned;
+- which Provider or attorney is appointed;
+- what Evidence must be returned;
 - whether the user is asking for a quote, preparation or immediate filing.
 
-An AI system may infer some of these facts. It must not silently convert inference into authority.
+An AI system may infer some facts. It must not silently convert inference into authority.
 
 ```text
 Natural-language Intent
@@ -43,39 +43,51 @@ Natural-language Intent
 ≠ Protected-action Approval
 ```
 
-## 2. Guide, Product and Execution have different jobs
+## 2. Guide, Product, Context Compiler and Execution have different jobs
 
 ### Guide
 
-Guide helps a person understand a situation, reduce uncertainty and make decisions. It may:
-
-- ask high-value questions;
-- retrieve rules and options;
-- explain trade-offs;
-- recommend routes;
-- identify missing facts;
-- prepare structured choices.
+Guide helps a person understand a situation, reduce uncertainty and make decisions. It may ask high-value questions, retrieve rules, explain trade-offs, recommend routes and identify missing facts.
 
 Guide does not become Workflow merely because the conversation is multi-step. It does not gain authority merely because the user follows its advice.
 
 ### Product
 
-A Product provides the domain experience. Lite may help create content or qualify a commercial opportunity. MarkReg may guide service selection and formal intake. Sites may capture a public request. The Product determines what the user sees and which capabilities are available in that installation.
+A Product frames the domain experience. Lite may help create content or qualify a commercial opportunity. MarkReg may guide service selection and formal intake. Sites may capture a public request.
 
-A Product may initiate a request, but it should not invent authority that belongs to a Workplace, customer, professional or Owning Service.
+A Product may initiate a request. It cannot invent authority that belongs to a Workplace, customer, professional or Owning Service.
+
+### Context Compiler
+
+The Context Compiler turns approved and source-attributed context into the bounded execution context needed for one request.
+
+It may resolve:
+
+- represented Workplace and role;
+- Product Installation and entitlement;
+- current Capability versions;
+- confirmed facts and authorized reuse;
+- relevant Data and Knowledge references;
+- active policy and jurisdiction scope;
+- memory permissions;
+- risk, deadline and commercial constraints;
+- unresolved contradictions and Unknowns.
+
+The Context Compiler does not create new facts, confirmation or authority. It assembles an attributable context package.
 
 ### Execution
 
-Execution receives a sufficiently structured request and governs how the requested outcome may be produced, reviewed, approved, applied and evidenced.
+Execution receives a sufficiently structured request and governs how the requested outcome may be produced, composed, reviewed, approved, applied and evidenced.
 
 ```text
 Guide explains and prepares
 Product frames the experience
+Context Compiler assembles bounded context
 Execution governs the work
 Owning Service validates formal state
 ```
 
-These roles may be tightly integrated in the user interface, but their semantic responsibilities remain distinct.
+These roles may appear through one interface. Their semantic responsibilities remain distinct.
 
 ## 3. Capability Request as the entry contract
 
@@ -85,32 +97,29 @@ A robust request may contain:
 
 ```text
 Capability identifier and version
-Requester
-Represented Workplace and role
-Product Installation
-Purpose
-Expected Outcome
+Requester and represented role
+Workplace and Product Installation
+Purpose and expected Outcome
 Input references and exact versions
+Context Package reference
 Jurisdiction and procedure
-Risk classification
-Entitlement
-Data and disclosure scope
-Required professional qualification
+Risk and control tier
+Entitlement and Data scope
+Required Professional Qualification
 Review policy
-Allowed implementation bindings
+Allowed implementation classes
 Deadline and urgency
 Commercial constraints
+Capability Budget
 Memory and learning policy
 Expiry, cancellation and revocation policy
 ```
 
-The request does not need to expose all of this complexity to the user. The system may derive or inherit fields under explicit policy. It must preserve the distinction among confirmed facts, authorized reuse, source-derived candidates, inference, recommendation and Unknown.
+The interface does not need to expose all fields at once. Fields may be derived or inherited under explicit policy. The request must preserve the difference among confirmed facts, authorized reuse, source-derived Candidates, inference, Recommendation and Unknown.
 
 ## 4. The request is for an outcome, not a performer
 
 A calling Product should generally request the required Capability or Outcome rather than hard-code who must perform it.
-
-For example:
 
 ```text
 Requested Outcome:
@@ -127,17 +136,15 @@ Execution can then evaluate permitted implementations:
 - qualified professional approval;
 - hybrid production.
 
-There are legitimate exceptions. A customer may require a named lawyer. A Workplace may use an existing Provider. A conflict rule may exclude certain performers. These are request constraints, not reasons to collapse Capability into one permanent implementation.
+A customer may require a named lawyer. A Workplace may require an existing Provider. A conflict rule may exclude certain performers. These are request constraints, not reasons to collapse Capability into one permanent implementation.
 
 ```text
 Capability
-≠ One Tool
-≠ One Model
-≠ One Person
-≠ One Provider
+≠ one Tool
+≠ one model
+≠ one Person
+≠ one Provider
 ```
-
-This abstraction allows implementations to improve while keeping the promised outcome and governance stable.
 
 ## 5. Request construction from progressive understanding
 
@@ -151,12 +158,11 @@ Unstructured Intent
 → Route Recommendation
 → User or Professional Decision
 → Capability Request Candidate
+→ Context Compilation
 → Validation
 ```
 
-At each stage, the system should retain the epistemic status of the information.
-
-For example:
+At each stage, the system should retain epistemic status.
 
 ```text
 Country: United States
@@ -169,16 +175,16 @@ Likely Class: 3
 Status: AI inference, professional review required
 
 Mark Type: word mark
-Status: candidate assumption, user confirmation required
+Status: Candidate assumption, user confirmation required
 ```
 
-This allows the experience to remain conversational while preventing hidden assumptions from becoming filing data.
+This allows the experience to remain conversational without turning hidden assumptions into filing data.
 
 ## 6. Few questions, high information gain
 
-The goal is not to force users through long forms. It is to ask only the questions that materially change the route, authority, cost or risk.
+The goal is not to force users through long forms. It is to ask only questions that materially change route, authority, cost, disclosure or risk.
 
-High-value clarification questions include:
+High-value questions include:
 
 - Are you seeking information, preparation, review or formal execution?
 - Who should own or apply for the right?
@@ -190,19 +196,11 @@ High-value clarification questions include:
 - Are original, notarized or legalized documents available?
 - Is an existing Provider relationship required?
 
-Each question should have a reason. The interface can explain:
+The interface may explain what an answer changes, whether it can be deferred, which assumption would otherwise apply and who must confirm it.
 
-- what the answer changes;
-- whether the question can be deferred;
-- what assumption would otherwise apply;
-- who must confirm it;
-- whether professional advice is required.
+## 7. Request validation occurs before composition or Assignment
 
-This is more intelligent than either a blank prompt or a rigid universal form.
-
-## 7. Request validation occurs before assignment
-
-Once a Capability Request candidate exists, Execution validates whether work may proceed.
+Once a Capability Request Candidate exists, Execution validates whether work may proceed.
 
 Validation may check:
 
@@ -210,57 +208,98 @@ Validation may check:
 - references resolve to current versions;
 - requester and represented role are known;
 - Workplace and Product Installation permit the Capability;
-- the purpose is allowed;
-- data use and disclosure are within scope;
-- the expected outcome is sufficiently bounded;
+- purpose and Data use are allowed;
+- expected Outcome is sufficiently bounded;
 - risk and review policies are resolved;
-- the deadline is feasible;
-- prohibited actions are not embedded;
+- deadline is feasible;
 - dependencies are available;
-- commercial prerequisites are clear.
+- prohibited actions are not embedded;
+- commercial prerequisites are clear;
+- Capability version remains active.
 
-An invalid request should fail or return for clarification before assignment. It should not become an informal exception that the assignee must discover later.
+An invalid request should fail or return for clarification before composition or Assignment.
 
 ```text
-Request Accepted for Validation
-≠ Request Validated
-≠ Work Assigned
+Request accepted for validation
+≠ Request validated
+≠ Capability composed
+≠ Work assigned
 ```
 
 ## 8. Capability Request does not replace Workflow
 
-A Capability Request expresses a governed need for an outcome. A Workflow coordinates how a broader goal may progress through stages. The relationship can take several forms.
+A Capability Request expresses a governed need for an Outcome. A Workflow coordinates how a broader goal progresses through stages.
 
-### One request within a Workflow
+A renewal Workflow may invoke separate Capabilities for deadline verification, Evidence review, document preparation, customer communication and formal submission.
 
-A renewal Workflow may invoke separate Capabilities for deadline verification, evidence review, document preparation, customer communication and formal submission.
-
-### A request that creates a bounded Workflow
-
-A complex request may instantiate a Workflow template after validation.
-
-### A request fulfilled without a multi-step Workflow
-
-A deterministic data validation Capability may execute as a bounded operation with review and evidence but no elaborate Workflow.
-
-Therefore:
+A complex request may instantiate a bounded Workflow after validation. A deterministic validation request may require no elaborate Workflow.
 
 ```text
-Capability Request
-≠ Workflow
-
-Workflow
-≠ Capability
+Capability Request ≠ Workflow
+Workflow ≠ Capability
 ```
 
-The first defines what governed outcome is requested. The second coordinates a goal and its stages.
+## 9. Composition is a bounded runtime decision
 
-## 9. Capability Request does not equal Assignment
+Some validated requests need only one Capability. Others require a controlled composition.
 
-After validation, the system still needs to determine who or what is eligible.
+The default composition pattern is:
+
+```text
+one Primary Capability
++ zero to three Supporting Capabilities
++ zero or one Critic Capability
++ Capability Budget
++ explicit Conflict handling
+```
+
+The Primary Capability owns the main decision structure. Supporting Capabilities answer bounded decision nodes. A Critic Capability examines a declared risk or assumption.
+
+The Capability Budget may limit:
+
+- active Capability count;
+- context size;
+- Tool calls;
+- time and cost;
+- review burden;
+- escalation depth.
+
+The purpose is to avoid two opposite errors: using one method for every problem and loading so many methods that the result becomes noisy, contradictory and unauditable.
+
+```text
+more Capabilities loaded
+≠ better answer
+
+Capability Composition
+≠ Professional Authority
+≠ Approval to act
+```
+
+## 10. Conflict must remain visible
+
+Source or Composite Capabilities may disagree.
+
+One method may optimize for speed. Another may prioritize reversibility. One source may assume abundant capital. Another may assume scarcity. One legal source may describe formal rules while local practice produces exceptions.
+
+A composition record should preserve:
+
+- competing recommendations;
+- assumptions and scope;
+- supporting Evidence;
+- consequences of each route;
+- resolution authority;
+- selected route and rationale;
+- unresolved Unknowns.
+
+The model should not average incompatible methods into false consensus.
+
+## 11. Request, Composition and Assignment remain separate
+
+After validation and, where needed, composition, the system still determines who or what is eligible.
 
 ```text
 Validated Capability Request
+→ Composition Plan
 → Eligibility Evaluation
 → Implementation Candidate Set
 → Route Recommendation
@@ -268,51 +307,75 @@ Validated Capability Request
 → Assignment or Invocation
 ```
 
-A person can be capable but unavailable. A Provider can be listed but conflicted. An AI model can be technically suitable but prohibited for the data. A Contributor can be certified but not authorized for independent production.
+A Person can be capable but unavailable. A Provider can be listed but conflicted. A model can be technically suitable but prohibited for the Data. A Contributor can be certified but not authorized for independent production.
 
-The request should therefore avoid naming an assignee unless the route has already been properly selected and constrained.
+## 12. Requests are versioned and expirable
 
-## 10. Requests are versioned and expirable
-
-A request may become stale when:
-
-- inputs change;
-- a deadline passes;
-- the customer changes scope;
-- fees change materially;
-- the selected mark or applicant changes;
-- a new conflict appears;
-- the implementation version is withdrawn;
-- the Product policy changes;
-- the supporting Knowledge becomes stale.
+A request may become stale when inputs, deadline, scope, fees, mark, applicant, conflict, implementation, policy or supporting Knowledge changes.
 
 Execution should preserve request versions and define revalidation triggers.
 
 ```text
-Capability Request v1 Validated
-≠ Capability Request v2 Validated
+Capability Request v1 validated
+≠ Capability Request v2 validated
 ```
 
-This is critical when approvals or assignments were based on the earlier version.
+This is critical when an earlier version supported an Assignment, approval or Provider instruction.
 
-## 11. Cancellation and revocation start at the request boundary
+## 13. Session Receipt
 
-The requester or authorized actor may cancel a request before work begins. Once work is assigned or external action occurs, cancellation becomes more complex.
+Each consequential execution session should produce a bounded Session Receipt.
 
-Execution must determine:
+The Receipt may preserve:
 
-- whether an Assignment was accepted;
-- whether work or review was performed;
-- whether compensation is earned;
-- whether data access must be revoked;
-- whether external disclosure occurred;
-- whether a Provider can be recalled;
-- whether the underlying Matter needs correction;
-- which evidence must remain.
+- request and Capability versions;
+- compiled Context Package;
+- Composition Plan and conflicts;
+- selected Skills, implementations and Tools;
+- source references;
+- material model and policy versions;
+- human decisions and review dispositions;
+- Action and Invocation evidence;
+- Outcome status and Unknowns;
+- Capability Budget used;
+- learning and memory disposition.
 
-Revocation ends future authority. It does not erase historical evidence.
+```text
+Session Receipt
+≠ raw conversation archive
+≠ formal state
+≠ automatic Reflection
+```
 
-## 12. Examples of correctly bounded requests
+Its purpose is reconstruction: what context and versions were used, what happened, who decided and what may safely proceed next.
+
+## 14. Cancellation and revocation begin at the request boundary
+
+The requester or authorized actor may cancel before work begins. Once work is assigned or external action occurs, cancellation may require compensation review, Data-access revocation, Provider recall, Matter correction and Evidence retention.
+
+Revocation ends future authority. It does not erase historical Evidence.
+
+## 15. Learning handoff remains separate from runtime
+
+A completed session may produce Evidence for future learning, but runtime does not rewrite the Capability.
+
+A controlled handoff may create:
+
+```text
+Outcome and Session Receipt
+→ Reflection Candidate
+→ Case or Principle Candidate
+→ Capability Change Proposal
+```
+
+The user or authorized reviewer should confirm material Reflection. Rights, confidentiality and de-identification must be resolved before broader reuse.
+
+```text
+Outcome ≠ automatic Capability upgrade
+Session Receipt ≠ shared learning permission
+```
+
+## 16. Three bounded examples
 
 ### AI-assisted customer update
 
@@ -324,7 +387,7 @@ Outcome:
 A factual email draft based on validated Matter events
 
 Mode:
-M2 AI assist
+AI assist
 
 Restrictions:
 No sending, no new legal conclusion, no fee commitment
@@ -337,10 +400,10 @@ Relationship Owner review required
 
 ```text
 Capability:
-Prepare use-evidence candidate set
+Prepare use-evidence Candidate set
 
 Outcome:
-Organized evidence matrix for professional sufficiency review
+Organized Evidence matrix for professional sufficiency review
 
 Restrictions:
 Contributor may not decide final legal sufficiency
@@ -353,23 +416,23 @@ Qualified professional required
 
 ```text
 Capability:
-Submit approved filing package and return official evidence
+Submit approved filing package and return official Evidence
 
 Inputs:
 Exact approved package version
 
 Requirements:
-Provider appointment, acceptance, cost approval,
-professional authority and idempotency key
+Provider Appointment, Acceptance, cost approval,
+Professional Authority and idempotency key
 
 Evidence Contract:
-Official receipt, application number and fee evidence
+Official receipt, application number and fee Evidence
 ```
 
-The three requests may appear inside one customer journey. They remain different governed actions.
+The three requests may appear inside one customer journey. They remain separate governed actions.
 
-## 13. The entry-boundary principle
+## 17. The entry-boundary principle
 
-> Natural intent should be easy to express, but consequential work should begin only through a validated Capability Request that preserves context, scope, authority and evidence requirements.
+> Natural intent should be easy to express, but consequential work should begin only through a validated Capability Request that preserves context, versions, scope, authority, composition and Evidence requirements.
 
 This principle allows MarkOrbit to be conversational without becoming casual about execution.
