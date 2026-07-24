@@ -14,9 +14,8 @@ MGSN
 ≠ Automatic Appointment Engine
 ≠ Universal Escrow
 ≠ Public Rating Platform
+≠ Capability Canon Authority
 ```
-
-It is a managed professional fulfillment network designed to turn external supply into usable operating capability.
 
 ## 1. The operating problem revisited
 
@@ -33,6 +32,7 @@ Originating Workplace
 → Capability Need
 → Purpose-limited Projection
 → MGSN Connection
+→ Provider Supply Capability
 → Current Eligibility
 → Bounded Candidate Route Set
 → Explainable Recommendation
@@ -61,7 +61,7 @@ Provider Acceptance
 Payment
 ≠ Protected-action Authority
 
-Provider Report
+Provider Return
 ≠ Official Truth
 
 Return Accepted
@@ -74,7 +74,7 @@ The Originating Workplace retains its customer relationship, private pricing, in
 
 The Provider retains professional judgment, organizational accountability, responsible professionals and the right to accept or decline.
 
-MGSN governs network admission, Capability representation, Service Packages, Eligibility, route formation, Allocation, Fulfillment, Returns, Trust and restrictions.
+MGSN governs network admission, Provider Supply Capability, Service Packages, Eligibility, routing, Allocation, Fulfillment, Returns, Trust and restrictions.
 
 ```text
 Core
@@ -85,18 +85,20 @@ Execution
 
 Owning Service
 = Formal Business-state Authority
+
+Capability Governance
+= Shared Capability Version and Change Authority
 ```
 
-MGSN connects these layers. It does not erase them.
+MGSN connects these layers. It does not absorb them.
 
 ## 4. The fundamental unit is the Accountable Route
-
-The Provider name is not enough.
 
 ```text
 Accountable Route
 = Provider Organization
-+ Qualified Capability
++ Provider Supply Capability
++ Relevant Professional Qualification
 + Admitted Service Package
 + Current Eligibility
 + Explicit Acceptance
@@ -106,11 +108,26 @@ Accountable Route
 + Recovery Path
 ```
 
-The same Organization may be suitable for one service and unsuitable for another. It may be qualified but unavailable, available but conflicted, or able to prepare without authority to execute the final action.
+The same Organization may be suitable for one service and unsuitable for another. It may be qualified but unavailable, available but conflicted or able to prepare without authority to execute the final act.
 
-Infrastructure makes those differences operable.
+## 5. Provider Supply Capability is not shared Capability canon
 
-## 5. Managed does not mean centralized professional judgment
+MGSN needs a precise distinction:
+
+```text
+Provider Supply Capability
+≠ User Capability Profile
+≠ Source Capability
+≠ Verified MO Capability
+```
+
+A Provider Supply Capability describes what an accountable Organization may deliver through MGSN under stated conditions.
+
+A Verified MO Capability is a governed platform Capability version that may have multiple Skills and implementations.
+
+A Provider may implement, test or contribute evidence to that Capability without owning or automatically changing its definition.
+
+## 6. Managed does not mean centralized professional judgment
 
 MGSN is managed because it controls how supply becomes visible, selectable, accepted, monitored and recoverable.
 
@@ -119,13 +136,11 @@ Managed Network
 ≠ Platform Performs Every Service
 ```
 
-The platform may standardize Intake, route comparison, Milestones, Evidence, Returns, Escalation and Replacement. Jurisdiction-specific professional judgment remains with appropriately qualified and authorized professionals.
+The platform may standardize Intake, comparison, Milestones, Evidence, Returns, Escalation and Replacement. Jurisdiction-specific professional judgment remains with qualified and authorized professionals.
 
-## 6. Failure is part of the design
+## 7. Failure is part of the design
 
 A network that works only when every Provider performs perfectly is not infrastructure.
-
-Providers decline. Evidence expires. Deadlines move. Customers change scope. Documents are wrong. Payment routes fail. Responsible professionals leave. Disputes occur.
 
 ```text
 Reliable Capability
@@ -139,9 +154,51 @@ Reliable Capability
 + Recoverable Continuity
 ```
 
+Providers decline. Evidence expires. Responsible professionals leave. Documents are wrong. Payment routes fail. Disputes occur.
+
 MGSN becomes valuable when those events remain governable.
 
-## 7. Choice remains meaningful
+## 8. Trust and Capability verification remain separate
+
+MGSN Trust is a service-specific operating judgment based on qualification freshness, Acceptance, Milestones, Returns, Correction, Incident and recovery Evidence.
+
+```text
+High MGSN Trust
+≠ Professional Qualification
+≠ Current Eligibility
+≠ User Capability Verification
+≠ Verified MO Capability
+```
+
+Trust changes routing and control depth. It does not decide a shared Capability version.
+
+## 9. Network learning has a bounded handoff
+
+MGSN produces valuable evidence through real engagements.
+
+The controlled learning chain is:
+
+```text
+MGSN Engagement Evidence
+→ Rights and Confidentiality Review
+→ De-identification where required
+→ Attributed Case Candidate
+→ Capability Evaluation
+→ Principle Candidate or Capability Change Proposal
+→ Controlled Version Decision
+```
+
+```text
+One Provider Outcome
+≠ Platform Capability Canon
+
+MGSN Trust Adjustment
+≠ Capability Version Decision
+```
+
+MGSN supplies evidence and context. Capability governance decides whether broader change is justified.
+
+## 10. Choice remains meaningful
 
 The three delivery routes remain distinct:
 
@@ -151,7 +208,7 @@ The three delivery routes remain distinct:
 
 They preserve participant choice without pretending that every route offers the same visibility, Evidence or recovery support.
 
-## 8. Growth should close capability gaps
+## 11. Growth should close supply gaps
 
 MGSN should recruit supply because operating Evidence reveals a gap—not merely to display geographic scale.
 
@@ -160,8 +217,8 @@ Useful growth responds to:
 - no Eligible Route;
 - excessive concentration;
 - weak urgent capacity;
-- poor Evidence quality;
-- repeated Conflict or Replacement failure;
+- poor Return quality;
+- repeated conflict or replacement failure;
 - missing specialist services;
 - unstable Package pricing;
 - insufficient authority coverage.
@@ -174,69 +231,75 @@ Identified Gap
 → Evidence-backed Learning
 ```
 
-## 9. Infrastructure must remain portable and contestable
+A supply gap may also reveal the need for training, Simulation, a better Skill or a Capability Change Proposal. The conclusion still requires separate evaluation.
+
+## 12. Infrastructure remains portable and contestable
 
 Participants should remain because the network creates value, not because records, relationships, original documents or funds are trapped.
 
 ```text
 Retention by Reliability
 ≠ Retention by Lock-in
+
+Data Portability
+≠ Authority Portability
 ```
 
-Matter-level portability, controlled wind-down, original-document return, open-obligation visibility and Funds Reconciliation are part of infrastructure quality.
+Matter-level portability, controlled wind-down, document return, open-obligation visibility and funds reconciliation are part of infrastructure quality.
 
-## 10. AI remains an assistant inside the control system
+## 13. AI remains an assistant inside the control system
 
 AI may help structure Needs, compare Packages, detect missing data, normalize Returns, identify stale Evidence and reconstruct timelines.
 
-It cannot invent Qualification, clear Conflict, appoint Providers, approve Funds, infer consent, authorize Protected Actions, assign liability or update formal state by itself.
+It cannot invent Qualification, clear Conflict, appoint Providers, approve Funds, infer consent, authorize Protected Actions, assign liability, update formal state or approve a Capability version.
 
 ```text
 AI Assistance
 ≠ Autonomous Professional Authority
+≠ Capability Governance Authority
 ```
 
-## 11. The infrastructure test
+## 14. The infrastructure test
 
 For any external professional service, can the network answer:
 
 ```text
 What is needed?
 What may be disclosed?
+Which Provider Supply Capability is relevant?
 Who can perform it?
-Why is that route eligible?
+Why is the route eligible?
 What alternatives exist?
 Who accepted responsibility?
 Which version is authorized?
-What must happen next?
 What Evidence proves progress?
 Who may accept that Evidence?
 What happens if the Provider fails?
 How are funds and formal state reconciled?
 Can the Matter continue after exit?
+What may be learned without violating rights?
+Who decides whether Capability changes?
 ```
 
 Where the network cannot answer, capability remains incomplete.
 
-## 12. From private memory to institutional capability
-
-The transformation at the center of Book 07 is:
+## 15. From private memory to institutional capability
 
 ```text
 Private Contact Memory
 → Accountable Organization
-→ Governed Supply
+→ Governed Provider Supply Capability
 → Eligible Route
 → Accepted Engagement
 → Evidence-backed Completion
 → Recoverable Institutional Capability
 ```
 
-This transformation does not eliminate human relationships. It preserves their value while reducing dependence on private memory and informal rescue work.
+This transformation preserves human relationships while reducing dependence on private memory and informal rescue work.
 
-## 13. Final synthesis
+## 16. Final synthesis
 
-> MGSN enables a professional Workplace to obtain and provide global service capability through a platform-governed network that preserves customer relationships, professional responsibility and formal-state authority while making supply eligible, instructions attributable, fulfillment observable, Evidence reviewable and failure recoverable.
+> MGSN enables a professional Workplace to obtain and provide global service capability through a platform-governed network that preserves customer relationships, professional responsibility and formal-state authority while making supply eligible, Instructions attributable, fulfillment observable, Evidence reviewable, failure recoverable and learning governable.
 
 ```text
 Global Professional Capability
@@ -252,8 +315,9 @@ Global Professional Capability
 + Correction and Recovery
 + Service-specific Trust
 + Portability
++ Controlled Capability-learning Handoff
 ```
 
 That is the difference between having foreign contacts and possessing global capability.
 
-Book 07 ends not with the claim that every jurisdiction and failure has already been solved, but with a coherent architecture for making global professional work governable.
+Book 07 ends not with the claim that every jurisdiction and failure has already been solved, but with a coherent architecture for making global professional work governable without confusing service supply, user proficiency, official truth and shared Capability canon.
