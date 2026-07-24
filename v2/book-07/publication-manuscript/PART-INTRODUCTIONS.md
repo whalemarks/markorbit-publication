@@ -2,13 +2,11 @@
 
 ## Part I — The Global Capability Problem
 
-Global professional service appears to begin with supply: find a lawyer, an agent, a translator or another specialist in the target jurisdiction.
+Global professional service appears to begin with supply: find a lawyer, agent, translator or another specialist in the target jurisdiction.
 
 In practice, the real starting point is uncertainty. The originating team may not yet know the correct service, scope, authority, document, deadline or cost. Even when a trusted contact exists, the relationship may not reveal who is responsible, what is included or how failure will be recovered.
 
-Part I establishes the problem before introducing the solution.
-
-CH01 shows why global service capability is an operating problem rather than a directory problem. CH02 explains why private spreadsheets and institutional memory become unreliable as volume, jurisdictions and personnel change. CH03 distinguishes a managed network from an open marketplace. CH04 then sets the Product Constitution: Workplace sovereignty, Provider responsibility, bounded platform governance, authority separation, human choice, evidence-backed Return and protected-action controls.
+CH01 shows why global service capability is an operating problem rather than a directory problem. CH02 explains why private spreadsheets and institutional memory become unreliable as volume, jurisdictions and personnel change. CH03 distinguishes a managed network from an open marketplace. CH04 sets the Product Constitution: Workplace sovereignty, Provider responsibility, bounded platform governance, authority separation, human choice, Evidence-backed Return and protected-action controls.
 
 The question carried into Part II is no longer “Who do we know?” It is:
 
@@ -20,15 +18,18 @@ The question carried into Part II is no longer “Who do we know?” It is:
 
 A network cannot safely route work to a name.
 
-It needs a stable Organization identity, a governed representation of that Organization as a Provider, bounded Capability Claims, current evidence, an admitted Service Package and a clear understanding of professional authority.
+It needs a stable Organization identity, bounded Capability Claims, current Evidence, applicable Professional Qualification, admitted Provider Supply Capabilities, versioned Service Packages and clear authority boundaries.
 
-Part II builds the supply side in four stages.
+CH05 moves from informal contacts to accountable Organizations. CH06 treats admission as a lifecycle rather than account registration. CH07 organizes Provider Supply Capability into resilient portfolios and Service Packages. CH08 separates identity, Evidence, Verification, Professional Qualification, Capability Certification, MGSN Qualification, Provider Supply Capability admission, current Eligibility and Matter-specific Authority.
 
-CH05 moves from informal contacts to accountable Organizations and matter-specific responsibility. CH06 treats admission as a lifecycle rather than account registration. CH07 organizes supply into resilient portfolios and versioned Service Packages. CH08 separates identity, evidence, verification, professional qualification, MarkOrbit certification, MGSN qualification, current eligibility and Matter-specific authority.
+```text
+Provider Supply Capability
+≠ User Capability Profile
+≠ Source Capability
+≠ Verified MO Capability
+```
 
-The result is not yet a recommendation or engagement. It is a set of supply routes that may be considered under defined conditions.
-
-Part III begins when a Workplace brings a real Need into that governed supply environment.
+The result is not yet a Recommendation or Engagement. It is governed supply that may be evaluated for a real Need.
 
 ---
 
@@ -36,31 +37,23 @@ Part III begins when a Workplace brings a real Need into that governed supply en
 
 The demand side creates a different risk: too much information may be disclosed before the network knows who needs it.
 
-A customer file is not the same thing as a Capability Need. A Provider’s general qualification is not the same thing as current eligibility. A list of possible firms is not a meaningful route set. A recommendation is not an appointment.
+A customer file is not a Capability Need. A Provider’s general qualification is not current Eligibility. A list of firms is not a Candidate Route Set. A Recommendation is not an Appointment.
 
-Part III follows the Need from projection to choice.
+CH09 introduces purpose-limited Projection and progressive disclosure. CH10 evaluates current Eligibility against the exact Need, Package, conflict, capacity, data and deadline context. CH11 forms a bounded Candidate Route Set. CH12 requires Recommendation to be explainable, commercially honest and contestable.
 
-CH09 introduces purpose-limited Projection and progressive disclosure. CH10 evaluates current Eligibility against the exact Need, package, conflict, capacity, data and deadline context. CH11 forms a bounded Candidate Route Set rather than an overwhelming directory. CH12 requires Recommendation to be explainable, commercially honest and contestable.
-
-At the end of this Part, the user can make an informed disposition. But the Provider has not yet accepted responsibility.
-
-Part IV governs the transition from a chosen route to a real engagement.
+At the end of Part III, the user can make an informed disposition. The Provider has not yet accepted responsibility.
 
 ---
 
 ## Part IV — Forming the Engagement
 
-Selection is not acceptance.
+Selection is not Acceptance.
 
-The user may confirm a recommended route, but the Provider still needs to review the scope, conflict position, deadline, price, documents and authority conditions. Once accepted, the work must be governed by a versioned instruction package rather than an accumulation of email fragments.
+The Provider must still review scope, conflict, deadline, price, documents and authority conditions. Once accepted, the work must be governed by a versioned Instruction Package rather than an accumulation of email fragments.
 
-Part IV establishes engagement accountability.
+CH13 defines Provider Allocation as a pending state. CH14 makes the Instruction Package the attributable bundle of scope, versions, approvals and prerequisites. CH15 allows necessary communication while keeping it Engagement-scoped. CH16 addresses disclosed supporting participants and undisclosed rebrokering.
 
-CH13 defines Provider Allocation as a pending state that requires an explicit response. CH14 makes the Instruction Package the authoritative bundle of scope, versions, approvals and prerequisites. CH15 allows necessary communication while keeping it engagement-scoped and preserving customer relationships. CH16 addresses disclosed supporting participants and the risks of undisclosed rebrokering.
-
-By the end of the Part, the network knows who has accepted what work under which version and communication boundary.
-
-That accountability must now survive the commercial realities of fees, funds and change. Part V turns to those realities.
+By the end of the Part, the network knows who accepted what work under which version and communication boundary.
 
 ---
 
@@ -68,15 +61,11 @@ That accountability must now survive the commercial realities of fees, funds and
 
 Professional work can be correctly scoped and still fail through poor commercial control.
 
-A headline price may hide official fees, taxes, later-stage charges or excluded work. Customer payment may be mistaken for filing authority. A Provider invoice may be treated as proof of completion. An urgent fee increase may silently rewrite the engagement.
+A headline price may hide official fees, taxes, later-stage charges or excluded work. Customer payment may be mistaken for filing authority. A Provider invoice may be treated as proof of completion. An urgent fee increase may silently rewrite the Engagement.
 
-Part V separates these layers.
+CH17 separates procurement cost, official fees, disbursements, platform-managed service and customer-facing offer. CH18 defines typed funds checkpoints without claiming custody or treating payment as performance. CH19 connects Settlement to accepted Milestones and Evidence. CH20 governs scope, fee, urgency, Provider and cancellation changes through explicit change control.
 
-CH17 breaks the route economics into procurement cost, official fees, disbursements, platform-managed service and customer-facing offer. CH18 defines typed funds checkpoints without claiming custody or treating payment as performance. CH19 connects settlement to accepted milestones and evidence. CH20 governs scope changes, fee increases, emergency costs, substitutions, cancellations and corrections through explicit change control.
-
-The commercial chain is now visible. The next question is whether the work itself is visible.
-
-Part VI makes fulfillment observable and recoverable.
+The commercial chain is now visible. Part VI asks whether the work itself is visible.
 
 ---
 
@@ -84,29 +73,34 @@ Part VI makes fulfillment observable and recoverable.
 
 Activity is not progress.
 
-A long email thread, repeated assurances or a Provider’s statement that work is “in process” does not tell the Workplace whether a critical milestone has been achieved. Even a completed action is not safely usable until the supporting Evidence and Return are understood.
+A long email thread or a Provider’s statement that work is “in process” does not prove a Milestone. Even completed activity is not safely usable until the supporting Evidence and Return are understood.
 
-Part VI turns fulfillment into an evidence-bearing operating chain.
+CH21 defines observable Milestones, dependencies and acceptance states. CH22 introduces typed Provider Returns that distinguish Provider assertion, official Evidence, scoped review, formal-state Validation and Capability-learning candidates. CH23 treats Correction as part of fulfillment. CH24 explains how Replacement preserves continuity through Safe Stop, current-state reconstruction, renewed Eligibility, Acceptance and authority.
 
-CH21 defines observable milestones, dependencies and acceptance states. CH22 introduces typed Provider Returns that distinguish assertion, evidence, review and formal-state validation. CH23 treats correction as part of fulfillment rather than an informal afterthought. CH24 explains how replacement preserves continuity through safe-stop, current-state reconstruction, renewed eligibility, acceptance and authority.
+```text
+Provider Return
+≠ Official Truth
+≠ Capability Verification
+```
 
-These chapters reveal how Providers behave under ordinary work and failure. That evidence becomes the basis for Trust—but only if Trust is governed carefully.
-
-Part VII addresses Trust, incidents, disputes and learning.
+These chapters create the Evidence from which Trust may be formed—but only through bounded governance.
 
 ---
 
 ## Part VII — Governing Trust and Failure
 
-A managed network must learn from performance without reducing professional service to popularity.
+A managed network must learn from performance without reducing professional service to popularity or silently rewriting Capability canon.
 
-Trust must be specific to the service, jurisdiction, stage, evidence and time period. A complaint cannot be treated as a finding. A protective restriction cannot be treated as a final sanction. A platform dispute process cannot pretend to replace courts, regulators or professional bodies.
+Trust must be specific to Provider Supply Capability, Service Package, jurisdiction, stage, Evidence and time. A complaint is not a finding. A protective restriction is not a final sanction. A platform Dispute process does not replace courts, regulators or professional bodies.
 
-Part VII builds that governance.
+CH25 defines service-specific, evidence-backed MGSN Trust and separates it from Capability Verification. CH26 introduces Incident severity, containment, investigation and due process. CH27 separates operational, commercial, professional and external Dispute forums. CH28 routes Engagement Evidence into Product improvement and governed Capability-learning candidates without public star ratings.
 
-CH25 defines service-specific, evidence-backed and reviewable Trust. CH26 introduces Incident severity, containment, investigation and due process. CH27 separates operational, commercial, professional and external dispute forums. CH28 converts engagement, correction, incident and dispute evidence into network learning without public universal star ratings.
+```text
+Trust Increase
+≠ Capability Upgrade
+```
 
-The network can now improve its supply, routes and controls. The final Part asks what kind of network effect that learning should create—and how MGSN becomes infrastructure without becoming a lock-in system.
+The network can now improve supply, routes and controls. Part VIII asks what kind of network effect that learning should create.
 
 ---
 
@@ -114,12 +108,10 @@ The network can now improve its supply, routes and controls. The final Part asks
 
 Networks become valuable when participation improves reliability. They become dangerous when value depends on withheld data, hidden relationships and artificial exit friction.
 
-Part VIII closes Book 07 by testing whether MGSN can grow while preserving sovereignty, portability and accountable authority.
+CH29 distinguishes reliability-producing network effects from lock-in and defines bounded Matter portability. CH30 maps cross-border data, authority, funds and jurisdiction boundaries. CH31 replaces activity metrics with completion, Evidence, Correction and recovery measures. CH32 synthesizes MGSN as global professional capability infrastructure while keeping Capability Governance distinct from network operations.
 
-CH29 distinguishes reliability-producing network effects from lock-in and defines bounded Matter portability. CH30 maps the data, authority, funds and jurisdiction boundaries of cross-border work. CH31 replaces activity metrics with measures of completion, evidence, correction and recovery. CH32 synthesizes the full model of MGSN as global professional capability infrastructure.
+The final proposition is not that one platform should own global professional service or professional truth.
 
-The final proposition is not that one platform should own global professional service.
+It is that a Workplace should be able to obtain and provide external capability through a governed network while retaining its customer relationships, judgment, responsibility and freedom to leave—and that real service Evidence should improve Capability only through a controlled evaluation and version-decision path.
 
-It is that a professional Workplace should be able to obtain and provide external capability through a governed network while retaining its customer relationships, judgment, responsibility and freedom to leave.
-
-The Conclusion returns to the practical question that opened the book: not merely who can handle the work, but whether the route can be trusted to finish, prove, correct and recover it.
+The Conclusion returns to the practical question that opened the book: not merely who can handle the work, but whether the accountable route can finish, prove, correct and recover it.
