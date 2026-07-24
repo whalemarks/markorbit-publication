@@ -4,12 +4,12 @@ A managed network cannot operate without Trust.
 
 It also cannot rely on reputation, familiarity or one universal score.
 
-A Provider may be excellent at routine filing and weak in urgent disputes. A firm may produce strong professional work but incomplete Evidence Returns. A long-standing relationship may communicate smoothly while repeatedly missing price confirmations. A new Provider may have little history but perform one narrow service with exceptional discipline.
+A Provider may be excellent at routine filing and weak in urgent disputes. A firm may produce strong professional work but incomplete Returns. A new Provider may have little history but perform one narrow service with exceptional discipline.
 
-Trust must therefore answer a bounded question:
+Trust must answer a bounded question:
 
 ```text
-Trusted for what service,
+Trusted for what Provider Supply Capability,
 in which jurisdiction,
 at which stage,
 under which conditions,
@@ -18,78 +18,82 @@ and based on what current Evidence?
 
 ## 1. Reputation is not enough
 
-Statements such as “they are very good,” “we have worked together for years” or “they are a famous firm” may be useful context. They do not establish present route quality.
-
-A strong name may still be slow for routine work. Fast replies may still produce weak Evidence. A low price may fit a standardized package but not a complex proceeding. A long relationship may reduce coordination risk while increasing concentration risk.
+A famous name, long relationship or high transaction volume may provide context. None establishes current route quality.
 
 ```text
 Provider Reputation
 ≠ Service-specific Trust
 ```
 
-MGSN therefore translates broad reputation into evidence tied to a defined Capability, Service Package and operating context.
+MGSN translates broad reputation into evidence tied to a Provider Organization, Provider Supply Capability, Service Package and operating context.
 
 ## 2. Trust is contextual
 
 Trust may attach to:
 
-- a Provider Organization or specific office;
+- a Provider Organization or office;
 - a responsible professional;
-- a Capability or Service Package;
+- a Provider Supply Capability;
+- a Service Package;
 - a jurisdiction and procedural stage;
 - ordinary or urgent work;
-- Evidence, funds, correction or recovery behavior.
-
-A useful Trust statement is narrow:
-
-> This Provider has recent accepted Evidence of reliable ordinary filing work in this jurisdiction under this Package and timing range.
-
-It is not:
-
-> This Provider is globally excellent.
+- Return, funds, correction or recovery behavior.
 
 ```text
 Contextual Trust
-= Bounded confidence supported by current Evidence
+= Bounded Confidence Supported by Current Evidence
 ```
 
-## 3. Trust dimensions must remain visible
+## 3. Trust is not Capability verification
 
-A single aggregate score hides why a route is safe or risky.
+MGSN Trust is an operating judgment about a route.
 
-Useful dimensions may include:
+It is not the same as:
+
+```text
+MGSN Trust
+≠ User Capability Profile
+≠ Professional Qualification
+≠ Verified MO Capability
+≠ Current Eligibility
+```
+
+A trusted Provider route may still become ineligible because of conflict, capacity, expired qualification or Package change.
+
+A high Trust classification also does not decide that a Provider’s method should become the shared Capability canon.
+
+## 4. Trust dimensions remain visible
+
+Useful dimensions include:
 
 - qualification freshness;
 - conflict discipline;
-- Acceptance clarity;
+- Provider Acceptance clarity;
 - deadline performance;
 - scope and price accuracy;
-- Evidence completeness;
-- funds and beneficiary consistency;
+- Evidence and Return completeness;
+- funds consistency;
 - correction and replacement cooperation;
-- data and customer-relationship boundary compliance.
-
-Two Providers can have the same overall score while presenting very different operating risks.
+- data and customer-relationship compliance.
 
 ```text
 Same Aggregate Score
 ≠ Same Operating Risk
 ```
 
-The control response should follow the actual weakness. Weak Return discipline may require stronger Evidence review. Weak urgent capacity may narrow urgent Eligibility. One Package may be restricted while another remains active.
+The control response should follow the actual weakness.
 
-## 4. Trust comes from several evidence classes
+## 5. Evidence classes have different authority
 
 Trust may draw from:
 
 - identity and qualification records;
-- accepted engagements, milestones and Returns;
+- accepted engagements and milestones;
+- Provider Returns and official Evidence;
 - correction, replacement and settlement history;
 - Relationship Provenance;
 - substantiated Incident and Dispute findings;
-- lawful external professional or official records.
-
-Each source has different authority.
+- lawful external professional records.
 
 ```text
 Participant Feedback
@@ -102,57 +106,58 @@ Unverified Allegation
 ≠ Established Incident
 ```
 
-The network should preserve source, scope, date and confidence rather than flattening every input into one label.
+## 6. Trust evidence may support Capability learning only through a separate route
 
-## 5. Trust decays when evidence becomes stale
+Repeated service-specific evidence may reveal that a Service Package, Skill, checklist or Capability Definition needs review.
 
-Historical success remains useful. It does not prove current readiness.
+The path is:
+
+```text
+Trust and Engagement Evidence
+→ Rights and Attribution Review
+→ Case Candidate
+→ Capability Evaluation
+→ Capability Change Proposal where justified
+```
+
+```text
+Trust Increase
+≠ Capability Upgrade
+
+Trust Restriction
+≠ Capability Revocation
+```
+
+Capability governance must evaluate broader evidence, counterexamples and version impact.
+
+## 7. Trust decays when Evidence becomes stale
 
 ```text
 Historical Success
 ≠ Current Readiness
-```
 
-High-risk or urgent work may require fresher Evidence than ordinary work. The network should expose when Evidence is current, aging, historical, expired or under review.
-
-No negative history is also not enough.
-
-```text
 No Negative History
 ≠ Strong Positive Trust
 ```
 
-A new or rarely used Provider may enter through controlled conditions such as a pilot route, limited Package, operator review or transaction cap without being presented as proven.
+High-risk and urgent work may require fresher Evidence. New Providers may enter through pilot routes, narrow Packages or stronger review without being presented as proven.
 
-## 6. Serious negative evidence and due process
+## 8. Serious negative Evidence and due process
 
-One serious event may justify immediate protective restriction when it involves a non-recoverable deadline, false Evidence, misdirected funds, unauthorized action, data disclosure or refusal to return critical documents.
-
-That restriction is not the final finding.
+One serious event may justify immediate protective restriction when it involves a deadline, false Evidence, funds, unauthorized action, data disclosure or refusal to return documents.
 
 ```text
 Protective Restriction
 ≠ Final Blame Decision
 ```
 
-Material Trust consequences should remain reviewable. The Provider should normally be able to correct factual errors, submit Evidence, explain external causes and demonstrate remediation.
+Material consequences should remain reviewable. The Provider should normally be able to correct factual errors, provide Evidence and demonstrate remediation.
 
-The network must move fast enough to contain harm without converting accusation into permanent exclusion.
+## 9. Trust influences controls, not authority
 
-## 7. Trust should influence controls, not replace them
+Trust may affect route differentiation, review depth, Evidence requirements, portfolio role, revalidation and replacement planning.
 
-Trust may affect:
-
-- route differentiation;
-- review depth;
-- Evidence requirements;
-- urgent-work Eligibility;
-- transaction or funds limits;
-- portfolio role;
-- revalidation frequency;
-- replacement planning.
-
-Trust must not bypass Qualification, Conflict, Availability, Provider Acceptance, customer approval or Protected-action Authority.
+It must not bypass Qualification, Conflict, Capacity, Provider Acceptance, customer approval or Protected-action Authority.
 
 ```text
 High Trust
@@ -161,31 +166,18 @@ High Trust
 ≠ Authority
 ```
 
-A Provider should also not be penalized for safe refusal. Declining work because of Conflict, missing authority or professional restriction may demonstrate discipline rather than poor service.
+Safe refusal may demonstrate discipline rather than low quality.
 
-```text
-Provider Says No for a Valid Reason
-≠ Low Trust
-```
-
-## 8. Relationship Trust and network Trust
-
-A Workplace may have strong private confidence in a Provider. MGSN may have broader evidence from other engagements.
+## 10. Relationship Trust and network Trust
 
 ```text
 Workplace Relationship Trust
 ≠ MGSN Network Trust
 ```
 
-A Recommendation may explain both, but private relationship commentary should not automatically become public network information.
+A Recommendation may explain both. Private relationship commentary does not automatically become public network information.
 
-Commercial importance, transaction volume, subscription level or margin may create more data. They do not create Trust by themselves.
-
-## 9. Product principle
-
-Trust in MGSN is not a popularity label.
-
-It is a service-specific, evidence-backed and reviewable operating judgment.
+## 11. Product principle
 
 ```text
 Service Context
@@ -193,9 +185,7 @@ Service Context
 + Performance and Correction History
 + Incident and Dispute Findings
 + Transparent Limitations
-= Bounded Trust
+= Bounded MGSN Trust
 ```
 
-Trust can strengthen or narrow controls. It never replaces Qualification, Authority, Acceptance or Evidence.
-
-The next chapter examines Incidents: the events that require rapid containment, fair investigation and bounded consequences.
+Trust strengthens or narrows operating controls. It does not replace Qualification, Eligibility, Authority or Capability governance.

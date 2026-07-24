@@ -7,31 +7,35 @@ A filing copy, official acknowledgement, fee receipt, refusal, certificate, proc
 MGSN therefore treats the Return as a typed Evidence package.
 
 ```text
-message received
-≠ Return complete
+Message Received
+≠ Return Complete
 
-Return complete
-≠ Return accepted
+Return Complete
+≠ Return Accepted
 
-Return accepted
-≠ formal state updated
+Return Accepted
+≠ Formal State Updated
+
+Provider Return
+≠ Capability Verification
 ```
 
 ## 1. An attachment needs operating context
 
-A document may look conclusive while still leaving basic questions unanswered:
+A document may look conclusive while leaving basic questions unanswered:
 
-- which engagement and instruction version it belongs to;
+- which engagement and Instruction version it belongs to;
 - whether it is Provider-generated or official;
 - what scope it covers;
 - whether it is final, provisional or superseded;
-- which deadline or next action follows.
+- which deadline or next action follows;
+- which Capability and Service Package were involved.
 
 A Return places the Evidence inside an attributable engagement context.
 
 ## 2. Return types
 
-Useful types may include:
+Useful types include:
 
 - acknowledgement or progress Return;
 - milestone-completion Return;
@@ -49,109 +53,132 @@ The type determines which Evidence and review are required.
 Every material Return should identify:
 
 - engagement, Provider and milestone;
+- Provider Supply Capability and Service Package references;
 - related Instruction Package version;
 - Return type and event date;
-- summary and source;
-- Evidence inventory;
 - Provider assertions;
+- Evidence inventory;
+- official and non-official source distinction;
 - Unknowns and discrepancies;
 - deadline and financial impact;
 - required next action;
 - confidentiality and version.
 
-The envelope does not make all Returns identical. It makes their claims understandable.
-
 ## 4. Evidence must be attributable
 
-Each Evidence item should preserve its source, issuer, date, authority, language, relationship to the milestone, completeness and supersession state.
+Each item should preserve source, issuer, date, authority, language, relationship to the milestone, completeness and supersession state.
 
 ```text
-Evidence attached
-≠ Evidence attributable
-≠ Evidence sufficient
+Evidence Attached
+≠ Evidence Attributable
+≠ Evidence Sufficient
 ```
-
-A screenshot without a Matter reference, issuer or date may be useful but cannot support the same conclusion as an attributable official acknowledgement.
 
 ## 5. Provider assertion and official Evidence
 
-A Provider may report that an application is registered while the attached notice proves only acceptance for publication.
+A Provider may report registration while the attached notice proves only publication acceptance.
 
-The Return should preserve four distinct layers:
+The Return should preserve:
 
 ```text
 Provider Assertion
 Official Evidence
-MGSN Review
+MGSN Operational Review
+Professional Interpretation where required
 Owning Service Formal-state Decision
 ```
 
 ```text
-Provider says registered
-≠ official Evidence proves registration
-≠ formal Matter state updated
+Provider Says Registered
+≠ Official Evidence Proves Registration
+≠ Formal Matter State Updated
 ```
 
-## 6. Completeness and review authority
+## 6. Return evidence and Capability evidence are different
 
-A Return may be incomplete even when the central document is present. It may omit the applicant, classes, filing number, deadline, translation, fee receipt or next procedural step.
+A valid Return may provide useful evidence about service execution, Provider Supply Capability, Package quality or recovery behavior.
 
-Review should follow the question being answered:
+It does not, by itself, prove:
+
+- a user’s Capability Profile state;
+- Professional Qualification;
+- a Verified MO Capability;
+- a shared Capability version change.
+
+```text
+Accepted Return
+≠ User Capability Evidence
+≠ Verified MO Capability
+```
+
+Capability evaluation requires additional attribution, difficulty, assistance, review and comparable context.
+
+## 7. Completeness and review authority
+
+A Return may omit applicant identity, classes, filing number, deadline, translation, fee receipt or next step.
+
+Review should follow the question:
 
 - operational review checks attribution, files, versions and deadlines;
 - professional review interprets legal or technical meaning;
 - the Workplace or customer decides the next business instruction;
-- the Owning Service decides formal-state impact.
+- the Owning Service decides formal-state impact;
+- Capability governance decides whether the evidence supports broader learning.
 
 ```text
-MGSN operational acceptance
-≠ professional acceptance
-≠ customer instruction
-≠ formal-state validation
+MGSN Operational Acceptance
+≠ Professional Acceptance
+≠ Customer Instruction
+≠ Formal-state Validation
+≠ Capability Version Decision
 ```
 
-## 7. A Return may create a new Need
+## 8. A Return may create a new Need
 
-A Return can close one milestone while opening another:
-
-- an office action creates a response Need;
-- a certificate error creates a correction Need;
-- a refusal creates an appeal or refiling Need;
-- a conflict creates a replacement Need;
-- an official-fee shortfall creates a funds and deadline Need.
+An office action creates a response Need. A certificate error creates a correction Need. A conflict creates a replacement Need. A fee shortfall creates a funds and deadline Need.
 
 The new Need should be explicitly projected rather than buried in a status note.
 
-## 8. Version, discrepancy and Unknown
-
-A corrected Return should reference the earlier version, explain what changed and identify which Evidence is superseded.
+## 9. Return-derived learning follows a controlled path
 
 ```text
-latest Return
-≠ permission to erase earlier Return
+Provider Return
+→ Return Validation
+→ Rights and Confidentiality Review
+→ Attributed Case Candidate
+→ Capability Evaluation
+→ Capability Change Proposal where justified
 ```
 
-Discrepancies—such as a changed address, altered mark image, missing receipt or conflict between portal and email—may require the state `Unknown Pending Reconciliation`.
+MGSN may contribute the evidence. It does not directly mutate shared Capability canon.
 
-The network should preserve contradiction rather than force a clean status.
+## 10. Version, discrepancy and Unknown
 
-## 9. Security and portability
-
-Returns may contain signatures, identity documents, banking data, unpublished marks or privileged analysis. Access should follow engagement role, purpose and retention rules.
-
-A structured Return supports continuity when a Provider exits, staff change or replacement becomes necessary. Portability means enough context to continue safely, not unrestricted disclosure to unrelated participants.
-
-## 10. Product principle
-
-The Provider Return is the bridge between external activity and the Workplace’s governed understanding.
+A corrected Return should reference the earlier version, explain what changed and identify superseded Evidence.
 
 ```text
-Provider activity
-→ typed Return
-→ attributable Evidence
-→ scoped review
-→ acceptance, correction or new Need
-→ formal-state validation where appropriate
+Latest Return
+≠ Permission to Erase Earlier Return
 ```
 
-The next chapter explains why correction is a normal fulfillment path rather than an informal favor after the first delivery.
+Contradictions may require `Unknown Pending Reconciliation` rather than a forced clean status.
+
+## 11. Security and portability
+
+Returns may contain signatures, identity documents, banking data, unpublished marks or privileged analysis. Access follows engagement role, purpose and retention policy.
+
+Structured Returns support continuity during staff change or Provider replacement. Portability means enough context to continue safely, not unrestricted disclosure.
+
+## 12. Product principle
+
+```text
+Provider Activity
+→ Typed Return
+→ Attributable Evidence
+→ Scoped Review
+→ Acceptance, Correction or New Need
+→ Formal-state Validation where appropriate
+→ Capability Learning Candidate only through separate governance
+```
+
+The Provider Return is the bridge between external activity and governed understanding—not a shortcut from service completion to official truth or Capability canon.
