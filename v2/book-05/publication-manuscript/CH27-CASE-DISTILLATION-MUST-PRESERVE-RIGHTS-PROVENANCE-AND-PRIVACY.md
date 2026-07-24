@@ -1,193 +1,141 @@
 # Chapter 27 — Case Distillation Must Preserve Rights, Provenance and Privacy
 
-Every completed Matter contains reusable learning.
+Every completed Matter may contain reusable learning. It may reveal a missing document requirement, a weak customer question, a Provider exception, a flawed Work Package or a recurring AI failure.
 
-It may reveal that a country page omitted a document requirement, that a Provider routinely needs an original POA, that a customer question is confusing, that a Work Package needs another gate, or that an AI draft fails in a recurring way.
-
-But a Matter is not automatically a training asset, a public case study or platform-wide Knowledge Object.
+But a Matter is not automatically a training asset, public case or Capability update.
 
 ```text
 Operational Record
 ≠ Learning Asset
+≠ Reflection Candidate
+≠ Case Candidate
 ≠ Shared Knowledge
-≠ Public Case
+≠ Capability Change
 ≠ AI-training Permission
 ```
 
 ## 1. Distillation is a governed transformation
 
-A real Matter may become:
+A Matter may support several different derivatives:
 
-- a private Workplace lesson;
-- an internal MarkReg quality case;
-- a de-identified operating pattern;
-- a synthetic simulation;
-- an assessment scenario;
-- a reviewed Knowledge candidate;
-- an anonymized public case study;
-- a provider-performance signal;
-- a capability-evidence record.
+- Person-private Reflection;
+- Workplace-private Reflection;
+- internal quality case;
+- de-identified Case Candidate;
+- synthetic simulation;
+- assessment scenario;
+- Principle Candidate;
+- Capability Change Proposal;
+- public case study;
+- Provider performance evidence.
 
-Each transformation has a different purpose, audience, risk and rights basis.
+Each has a different purpose, audience, rights basis and approval route.
 
-A valid chain is:
+## 2. The controlled chain
 
 ```text
 Matter and Evidence
-→ Candidate Learning Signal
+→ Validated Service Outcome
+→ Reflection Candidate
 → Rights and Privacy Review
 → De-identification or Synthesis
-→ Professional Review
-→ Approved Learning Object
+→ Case Candidate
+→ Professional and Quality Review
+→ Principle Candidate or Capability Change Proposal
 → Controlled Use
-→ Correction and Withdrawal
+→ Evaluation, Correction or Withdrawal
 ```
 
-## 2. Customer files remain customer files
+No stage should be skipped merely because the lesson appears obvious.
 
-The fact that MarkReg processed a document does not create unrestricted reuse rights.
+## 3. Customer files remain customer files
 
-Protected materials may include:
+MarkReg access for service delivery does not create unrestricted reuse rights.
 
-- customer identity and contact information;
-- applicant and owner records;
-- unpublished marks;
-- business plans and market-entry strategy;
-- invoices and sales evidence;
-- contracts, licences and assignments;
-- internal pricing and margin;
-- professional advice;
-- Provider correspondence;
-- dispute and recovery history;
-- personal data of signatories and contacts.
+Protected material may include customer identity, unpublished marks, business strategy, invoices, sales evidence, contracts, advice, Provider correspondence, dispute history and personal data.
 
 ```text
 Access for Delivery
 ≠ Permission for Training, Marketing or Publication
 ```
 
-## 3. Rights must be purpose-specific
+The originating Relationship Owner, contractual terms, confidentiality duties and applicable law remain relevant.
 
-The distillation decision should record:
+## 4. Reflection should remain attributable and reviewable
 
-- source Matter;
-- Relationship Owner;
-- Contracting Party;
-- data controller or responsible Workplace where relevant;
-- original purpose;
-- proposed new purpose;
-- legal or contractual basis;
-- consent requirements;
-- confidentiality restrictions;
-- professional secrecy or privilege concerns;
-- intellectual-property ownership;
-- retention period;
-- approved audience;
-- withdrawal route.
+A Reflection Candidate should preserve:
 
-Payment for a service does not by itself answer these questions.
+- source Matter and Outcome;
+- author or generating process;
+- Evidence references;
+- interpretation and uncertainty;
+- affected Capability, Skill or Workflow;
+- privacy and reuse class;
+- proposed audience;
+- correction and expiry route.
 
-## 4. De-identification is not name deletion
+A user-confirmed Reflection may support private development without becoming a platform-wide learning asset.
 
-A case may remain identifiable after names are removed because of:
+## 5. De-identification is not name deletion
 
-- a rare trademark;
-- a unique jurisdiction combination;
-- exact dates and amounts;
-- distinctive goods;
-- public dispute history;
-- recognizable correspondence;
-- unusual recovery circumstances;
-- a small professional community.
+A case may remain identifiable through a rare mark, country combination, exact date, amount, goods scope, public dispute or small professional corridor.
 
-A de-identification review should consider:
+A review should consider direct identifiers, indirect identifiers, external correlation and insider recognition.
 
-```text
-Direct Identifiers
-Indirect Identifiers
-Contextual Re-identification Risk
-External Public Correlation
-Insider Recognition Risk
-```
+Where risk remains material, synthesis is safer than anonymization.
 
-Where risk remains material, the safer route is synthesis rather than anonymization.
+## 6. Synthetic cases preserve decision structure, not customer identity
 
-## 5. Synthetic cases should preserve the lesson, not the customer
+A synthetic case may alter names, countries, dates, goods, amounts and sequence while preserving:
 
-A synthetic case may combine or alter:
-
-- names;
-- countries;
-- dates;
-- goods;
-- amounts;
-- procedural sequence;
-- communication wording;
-- document types.
-
-The transformation must preserve the professional decision structure while breaking the link to a real person or Matter.
-
-The case should disclose that it is synthetic or composite where that distinction matters.
+- controlling facts;
+- authority conflict;
+- Evidence gap;
+- decision points;
+- recovery path;
+- Human–AI interaction.
 
 ```text
 Synthetic Case
 ≠ Historical Fact Record
 ```
 
-## 6. Provenance must survive transformation
+The object should be labeled synthetic or composite where that matters.
 
-A distilled object should retain a protected lineage back to:
+## 7. Provenance must survive transformation
 
-- the originating Matter or Matters;
+A distilled object should retain protected lineage to:
+
+- originating Matter or Matters;
 - source Evidence;
-- transformations performed;
-- reviewer;
+- transformation steps;
+- reviewers;
 - approved purpose;
-- effective version;
+- version;
 - derived artifacts;
 - corrections and withdrawals.
 
-Public users may not see the private lineage, but the responsible Workplace should be able to reconstruct it.
+Public readers may not see private lineage, but the responsible Workplace should be able to reconstruct it.
 
-Without provenance, the platform cannot determine whether a later correction to the source Matter affects the learning object.
+## 8. Facts, lessons and proposals remain separate
 
-## 7. Facts, lessons and recommendations remain separate
-
-A case may contain:
-
-- verified procedural facts;
-- Provider-reported practice;
-- professional interpretation;
-- customer decision;
-- operational failure;
-- recovery route;
-- editorial lesson;
-- product recommendation.
-
-These should not be collapsed into one narrative truth.
+A Matter may contain official facts, Provider assertions, professional interpretation, customer decisions, operational failures and product recommendations.
 
 ```text
 One Matter Outcome
-≠ Universal Rule
+≠ universal rule
+
+Provider practice in one Matter
+≠ official requirement
 ```
 
-A Provider requiring an original document in one case may reflect a country rule, Provider policy, specific examiner request or temporary practice. Distillation must identify which.
+Distillation must preserve epistemic status and jurisdictional scope.
 
-## 8. Failed cases are especially valuable and especially sensitive
+## 9. Failed cases are valuable and sensitive
 
-A missed deadline, rejected POA, abandoned application, payment dispute or wrong public claim may teach more than a routine success.
+A missed deadline, rejected POA or wrong public claim may teach more than routine success. It also creates higher risk of unfair blame and reputational harm.
 
-But failure cases create higher risks:
-
-- blame without complete evidence;
-- reputational harm;
-- disclosure of customer loss;
-- unfair Provider ranking;
-- employee surveillance;
-- legal dispute exposure;
-- incentives to conceal incidents.
-
-A distilled failure case should distinguish:
+A failure case should distinguish:
 
 ```text
 Observed Failure
@@ -195,198 +143,128 @@ Contributing Conditions
 Confirmed Responsibility
 Unresolved Responsibility
 Recovery Result
-Prevention Lesson
+Prevention Candidate
 ```
 
-## 9. Provider learning must remain contextual
+Good recovery does not erase the original defect, but it is separate positive evidence.
 
-Provider Returns and incidents may improve routing, but a single event should not create a universal reputation score.
+## 10. Service Outcome and Capability evidence are different
 
-Provider evidence should retain:
-
-- jurisdiction;
-- service type;
-- complexity;
-- source quality;
-- deadline pressure;
-- customer dependency;
-- whether the Provider controlled the failure;
-- recovery quality;
-- recency.
+A successful filing, registration or correction may provide useful execution evidence. It does not prove user mastery or mutate Capability canon.
 
 ```text
-One Delayed Matter
-≠ Provider Universally Unreliable
+Official Fact
+≠ Capability proof by itself
+
+Service Outcome
+≠ automatic Principle
+
+paid task completed
+≠ verified Capability
 ```
 
-## 10. Capability evidence requires attribution and fairness
+Capability evaluation requires attribution, difficulty, assistance, supervision, review, corrections and comparable evidence.
 
-A Contribution or review may support a Capability update only when the system knows:
+## 11. Provider performance evidence is not user Capability evidence
 
-- who performed the work;
-- permitted AI assistance;
-- supervision level;
-- task difficulty;
-- input quality;
-- acceptance criteria;
-- reviewer identity;
-- corrections;
-- final Outcome.
+Provider Supply Capability concerns what an organization can deliver through qualified people, process and current readiness. A user's Capability Profile concerns that person's demonstrated proficiency.
 
-A Contributor should be able to challenge misattributed errors or missing credit.
-
-## 11. Public case studies need a separate approval path
-
-A public case may support SEO, GEO, trust and customer education. Publication requires a stronger gate than internal learning.
-
-The gate should examine:
-
-- customer and partner permission;
-- confidentiality;
-- re-identification risk;
-- professional accuracy;
-- current legal and procedural relevance;
-- outcome evidence;
-- marketing claims;
-- jurisdictional advertising rules;
-- required disclaimers;
-- right to withdraw or correct.
+The same Matter may produce evidence relevant to both, but the records must remain separate.
 
 ```text
-Good Marketing Story
-≠ Safe Public Case
+Provider Return
+≠ Official Truth
+≠ user proficiency evidence
+≠ Verified MO Capability
 ```
 
-## 12. Outcome claims must be precise
+## 12. Capability evaluation needs a controlled proposal
 
-Public cases should distinguish:
+Where several Cases suggest a durable change, the result may be a Capability Change Proposal describing:
 
-- application filed;
-- official receipt obtained;
-- objection answered;
-- registration issued;
-- ownership record updated;
-- commercial transaction closed;
-- restoration accepted;
-- future obligations remaining.
+- affected Capability and version;
+- evidence set;
+- jurisdictions and contexts;
+- proposed change;
+- counterexamples;
+- rights and privacy review;
+- assessment and certification impact;
+- compatibility and migration impact;
+- evaluation plan;
+- rollback or rejection conditions.
 
-“Successfully completed” is insufficient where official or continuing-right work remains outstanding.
+MarkReg may propose. It does not directly rewrite the shared Capability canon.
 
-## 13. Matter-derived content enters the Growth layer through review
+## 13. Public cases require a separate approval path
 
-A case may create:
-
-- a service page correction;
-- FAQ;
-- GEO answer block;
-- customer checklist;
-- conversion question;
-- cost explanation;
-- recovery guide.
-
-The chain is:
+A public case may support education, SEO or trust. Publication requires review of consent, confidentiality, re-identification, accuracy, advertising rules, Outcome claims and withdrawal rights.
 
 ```text
-Matter Signal
-→ Claim Candidate
-→ Source and Generalizability Review
-→ Content Work Package
-→ Professional Review
-→ Published Projection
+Good marketing story
+≠ safe public case
 ```
 
-It must not directly rewrite public pages.
+“Successfully completed” is insufficient where official or continuing obligations remain.
 
-## 14. AI training and model improvement require explicit governance
+## 14. AI training requires explicit governance
 
-Operational data may improve:
-
-- prompts;
-- retrieval;
-- deterministic checks;
-- evaluation sets;
-- local Workplace assistance;
-- model fine-tuning.
-
-These are different uses.
+Operational data may improve prompts, retrieval, checks, evaluation sets, local assistance or models. These are different uses.
 
 ```text
 De-identification
-≠ Automatic AI-training Permission
+≠ automatic AI-training permission
 
-Contribution Acceptance
-≠ Model-training Consent
+Contribution acceptance
+≠ model-training consent
 ```
 
-The system should record purpose, data set, access, retention, model scope, opt-out or consent where required and deletion implications.
+Purpose, dataset, access, retention, model scope and deletion implications must be governed explicitly.
 
-## 15. Withdrawal and correction must propagate
+## 15. Capability Ledger and correction propagation
 
-A learning object may become unsafe because:
+A Capability Ledger may reference the Reflection, Case, evaluation and resulting decision. It preserves lineage without treating the source event as verified Capability by itself.
 
-- the source record was wrong;
-- a rule changed;
-- permission was withdrawn;
-- re-identification risk increased;
-- a dispute arose;
-- the case was overstated;
-- a Provider finding was reversed.
+Corrections should propagate to affected simulations, assessments, Knowledge notes, public cases, AI evaluation sets and Capability Change Proposals.
 
 Possible states include:
 
 ```text
-Active
+Candidate
+Approved for Limited Use
 Restricted
 Correction Pending
 Withdrawn
 Superseded
-Deleted Where Required
 Derivative Update Pending
 ```
-
-Corrections should reach simulations, assessments, Knowledge notes, public cases, content pages and AI evaluation sets where applicable.
 
 ## 16. Product implications
 
 MarkReg requires:
 
-- Candidate Learning Signals;
+- typed Service Outcomes;
+- Reflection and Case Candidates;
 - purpose-specific rights review;
-- de-identification assessment;
-- synthetic-case tooling;
+- de-identification and synthesis;
 - protected provenance;
 - professional and privacy review;
-- controlled audiences;
+- Capability Evaluation records;
+- Capability Change Proposals;
+- public-case gates;
 - correction and withdrawal propagation;
-- Capability and Provider evidence links;
-- public-case publication gates;
-- AI-use governance.
+- explicit AI-use governance.
 
-## 17. Commercial implications
-
-Governed case distillation can improve:
-
-- training;
-- review quality;
-- provider routing;
-- customer education;
-- SEO and GEO content;
-- conversion accuracy;
-- enterprise knowledge;
-- product differentiation.
-
-The commercial value comes from trustworthy transformation, not from treating private customer work as free platform content.
-
-## 18. Operating principle
+## 17. Operating principle
 
 ```text
-Preserve the source
-Check the rights
-Reduce identification risk
-Separate fact from lesson
-Review generalizability
-Approve the purpose
-Propagate corrections
+Preserve the source.
+Validate the Outcome.
+Check the rights.
+Reduce identification risk.
+Separate fact from lesson.
+Evaluate Capability cautiously.
+Propose before canonizing.
+Propagate corrections.
 ```
 
-> MarkReg should learn from every Matter without assuming that every Matter belongs to MarkReg.
+> MarkReg should learn from every Matter without assuming that every Matter belongs to MarkReg or that one successful service outcome proves a platform Capability.
