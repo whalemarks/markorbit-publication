@@ -1,205 +1,269 @@
 # Chapter 05 — What a Workplace Actually Has
 
-A Workplace does not begin with a feature list. It begins with an uneven collection of resources, obligations, relationships and constraints. Two Workplaces may subscribe to the same Product and still be economically and operationally different because what they actually possess is different.
+A Workplace does not begin with a feature list. It begins with an uneven collection of resources, obligations, relationships and constraints.
 
-A small trademark agency may have hundreds of long-standing customer relationships but little technical infrastructure. An independent attorney may have professional authority and deep jurisdiction knowledge but no marketing channel. A brand owner may control valuable trademark assets but lack transaction experience. A data team may have structured records and extraction capability but no right to provide legal advice. A media operator may have audience and traffic but no customer mandate to act.
+Two Workplaces may use the same Product and still have very different operating power. One may have deep customer relationships but little technical infrastructure. Another may have strong professional qualification but no delivery capacity. A third may have data, audience or capital but no authority to act for a customer.
 
-MarkOrbit therefore needs a resource model that is broader than staff, files and permissions.
+MarkOrbit therefore needs a resource model broad enough to represent what a Workplace can actually use, protect, develop and project.
 
 ## 1. Resources are not one thing
 
-A Workplace may hold at least the following resource classes:
+A Workplace may hold:
 
 - customer relationships;
-- professional capability;
-- legal or regulated qualification;
-- delivery capacity;
-- review authority;
-- jurisdiction presence;
-- language ability;
-- data and evidence;
-- private knowledge;
-- workflow know-how;
-- marketing channels and audience;
-- trademark or brand assets;
+- people and Memberships;
+- professional qualification;
+- Capability Profiles;
+- organizational delivery capability;
+- review capability;
+- capacity and readiness;
+- data, Evidence and Documents;
+- private Knowledge and operating memory;
 - provider relationships;
-- capital and payment access;
-- reputation and historical performance;
-- Product configuration and operational routines.
+- audience and channels;
+- trademark and brand assets;
+- Product configurations;
+- funds access and commercial arrangements.
 
-These resources behave differently. A customer relationship is not consumed like staff capacity. A trademark asset can be transferred, but a professional qualification usually cannot. Knowledge can be copied, but copying may be restricted. Reputation compounds through evidence, while cash is depleted through use. A provider relationship may be available only in one jurisdiction or only for a specific service type.
+These resources behave differently. A customer relationship is not consumed like capacity. A qualification cannot usually be transferred like an asset. Knowledge may be reusable but restricted. Capability evidence may be portable while customer files are not.
 
-Treating all resources as generic inventory would erase the distinctions that determine whether collaboration is possible.
+Treating every resource as generic inventory would erase the distinctions that determine whether collaboration is lawful and reliable.
 
 ## 2. Possession, control, access and authority
 
-The platform must distinguish four questions:
+The platform must ask four separate questions:
 
 ```text
 Does the Workplace possess the resource?
 Can it control the resource?
-Can a particular member access the resource?
+Can a particular member access it?
 Does anyone have authority to use it for this purpose?
 ```
 
-A Workplace may possess a customer record but lack consent to market a new service. It may access an official trademark database but have no authority to alter the official record. It may employ an attorney but not have that attorney available for a specific matter. It may hold a document but lack the right to disclose it to an external provider.
+A Workplace may possess a customer record but lack marketing consent. It may access official data but lack authority to alter formal state. It may employ a qualified attorney who is unavailable or conflicted for the current Matter.
 
-This leads to a central rule:
+> Resource presence does not equal resource usability.
 
-> resource presence does not equal resource usability.
+Purpose, scope, provenance, rights, restrictions and current state remain part of the resource.
 
-The resource model must preserve purpose, scope, provenance, rights, restrictions and current availability.
+## 3. Capability Profile is a governed Workplace resource
 
-## 3. Customer relationships as resources
+A Person's Capability Profile records bounded evidence about what that person has practiced, demonstrated, reviewed or been certified to perform.
 
-Customer relationships are among the most valuable and most easily abused Workplace resources.
+It may include:
 
-They include more than contact details. They may include:
+- Capability and version;
+- jurisdiction and language;
+- proficiency state;
+- Evidence basis;
+- supervision conditions;
+- assessment and certification records;
+- recency and expiry;
+- restrictions and appeals;
+- links to relevant Outcomes and Reflections.
 
-- relationship origin;
-- historical instructions;
-- pricing expectations;
-- communication preferences;
-- trust history;
-- conflict sensitivities;
-- future service opportunities;
-- referral restrictions;
-- marketing permissions;
-- non-circumvention expectations.
-
-A customer record can be visible to a Product without becoming a platform-owned lead. A contributor may receive limited customer context without acquiring any future communication right. A local provider may need the applicant name and address for filing but does not thereby obtain permission to solicit the applicant.
-
-The resource model must therefore preserve both utility and restraint.
-
-## 4. Capability resources
-
-A Workplace may contain capability at several levels:
+The profile belongs to the person within a governed privacy and portability model. The Workplace may hold an authorized operational view needed for staffing, supervision and development.
 
 ```text
-individual capability
-organizational capability
-review capability
-production capability
-surge capability
-external-network capability
+Capability Profile
+≠ employment ownership of the person's competence
+≠ public professional ranking
+≠ Professional Qualification
+≠ Production Authorization
 ```
 
-Individual capability belongs to a Person and is evidenced through work, assessment and history. Organizational capability describes what the Workplace can reliably deliver through people, process, supervision and infrastructure. Review capability may exist even when production capacity is temporarily unavailable. External-network capability may depend on MGSN or other authorized providers.
+A person can carry evidence of bounded capability between Workplaces without carrying confidential customer files, private pricing or former-employer operating memory.
 
-A Workplace should not advertise a capability merely because one member once performed it. It should represent:
+## 4. Capability Twin is a contextual projection, not a replica
 
-- who can perform it;
-- at what proficiency;
-- under what supervision;
-- with what Production Authorization;
-- in which jurisdiction;
-- with what current capacity;
-- with what evidence recency.
+A Workplace may use a Capability Twin to project the capabilities, gaps and dependencies relevant to current work.
 
-Capability is therefore a governed resource, not a marketing adjective.
+The Capability Twin may combine:
 
-## 5. Data and knowledge resources
+- authorized Capability Profile projections;
+- current assignments and supervision;
+- available reviewers;
+- Product and Tool access;
+- capacity and readiness;
+- organizational process strength;
+- external Provider dependencies;
+- known gaps and development routes.
 
-Data and knowledge must remain distinct.
-
-Data may include official records, customer-provided facts, correspondence, invoices, evidence files, timelines and operational events. Knowledge may include interpretations, internal playbooks, drafting patterns, country notes, pricing logic and lessons from prior work.
-
-A Workplace may have:
-
-- private operational knowledge;
-- shared organizational knowledge;
-- licensed platform knowledge;
-- public-source knowledge;
-- candidate knowledge awaiting review.
-
-The platform must not collapse these into one searchable pool without rights and scope controls. A member's ability to retrieve a document does not authorize cross-Workplace reuse. AI memory inside one Workplace does not become shared platform knowledge by default.
-
-## 6. Assets, audience and channels
-
-Some Workplaces possess commercial resources rather than production resources.
-
-Examples include:
-
-- registered trademarks available for resale;
-- customer demand lists;
-- social media audiences;
-- websites and mailing lists;
-- reseller rights;
-- content libraries;
-- brand concepts;
-- regional distribution relationships.
-
-These resources can create value when connected with other Workplaces, but they also create provenance risk. A trademark record is not proof of resale authority. A mailing list is not proof of marketing consent. A social audience is not proof of buyer demand. A brand concept is not proof of actual use.
-
-Every projected commercial resource needs its own evidence and rights model.
-
-## 7. Resources have state
-
-A useful resource profile must include state, not just existence.
-
-Possible states include:
+It is not a personality copy, a universal judgment of a person or a permanent score.
 
 ```text
-verified
-self-declared
-licensed
-restricted
-reserved
-committed
-available
-expired
-suspended
-unknown
+Capability Twin
+= contextual operating projection
+≠ personality replica
+≠ universal employability score
+≠ autonomous assignment authority
 ```
 
-A provider relationship may be verified but currently unavailable. A qualification may be valid but restricted to certain work. A trademark asset may exist but have disputed authority. A customer relationship may be active but excluded from a particular campaign.
+Its purpose is to help the Workplace see what it can safely produce now and what requires learning, review, external support or refusal.
 
-Without state, the platform will overestimate what the Workplace can actually contribute.
+## 5. Organizational capability is more than member badges
 
-## 8. Resource visibility is layered
+A Workplace should claim organizational capability only when it can reliably produce the governed Outcome through people, process and continuity controls.
 
-Not every resource belongs in public search.
+That may require:
+
+- sufficient capable people;
+- current Production Authorization;
+- qualified professional coverage;
+- reviewer capacity;
+- controlled data and Tool access;
+- documented Workflow and Evidence requirements;
+- backup routes;
+- correction and recovery capability.
+
+One employee's assessment or one successful Matter is not enough.
+
+```text
+individual Capability evidence
+≠ organizational Capability
+```
+
+Organizational capability is the ability of the operating system, not merely the strongest person in it.
+
+## 6. Capability, authority, capacity and readiness remain separate
+
+A Workplace may be able to perform an Outcome in general but unable to perform it safely now.
+
+```text
+Capability
+= can produce the governed Outcome
+
+Authority
+= may act in this context
+
+Capacity
+= has available production resources
+
+Readiness
+= required inputs, reviewers, Tools and dependencies are available
+```
+
+Reliable planning requires all four. A Capability Profile or Twin may support the decision, but neither creates Assignment, Professional Authority or customer instruction.
+
+## 7. Data, Knowledge and private memory
+
+Data may include official records, customer facts, correspondence, invoices, Evidence files and operational events. Knowledge may include interpreted rules, playbooks, drafting patterns and lessons.
+
+The Workplace may maintain:
+
+- customer-confidential records;
+- Person-private Reflection;
+- Workplace-private Reflection;
+- reviewed internal Knowledge;
+- licensed platform Knowledge;
+- public-source Knowledge;
+- shared candidates awaiting rights and quality review.
+
+```text
+Reflection Candidate
+≠ raw conversation archive
+≠ shared Knowledge
+≠ canonical Principle
+```
+
+A user's Reflection may improve their own Capability Profile and future guidance without becoming visible to managers, other Workplaces or the platform by default.
+
+## 8. The Capability Ledger preserves history without becoming authority
+
+A Capability Ledger records significant evidence-bearing events in the development and use of capability.
+
+It may reference:
+
+- learning completed;
+- simulations attempted;
+- assessments and certifications;
+- supervised and independent work;
+- accepted Outcomes;
+- review findings;
+- corrections and appeals;
+- expiry, restriction and renewal;
+- Capability Change Proposals derived from governed learning.
+
+The Ledger supports traceability. It does not itself decide that a person is qualified, eligible or authorized.
+
+```text
+Ledger entry
+≠ verified proficiency by itself
+≠ Professional Qualification
+≠ current task Eligibility
+```
+
+Different audiences should receive different projections of the Ledger.
+
+## 9. Customer relationships remain protected resources
+
+Customer relationships include more than contact data. They carry provenance, pricing expectations, communication preferences, trust history, marketing permissions and non-circumvention expectations.
+
+A Product may access a customer record without turning it into a platform lead. A contributor may receive minimum necessary context without acquiring future contact rights. A Provider may receive applicant details without obtaining the customer relationship.
+
+Capability development, Reflection and Ledger activity must not become a route for customer extraction.
+
+## 10. Resource visibility is layered
 
 A Workplace may maintain:
 
-- private internal resources;
+- Person-private resources;
+- Workplace-private resources;
 - organization-visible resources;
 - Product-visible resources;
 - network-projectable resources;
 - public resources.
 
-The same capability can appear differently at each layer. Internally, the Workplace may see detailed evidence and limitations. In a candidate route, another party may see only jurisdiction, proficiency, capacity band and eligibility. Publicly, the capability may not be shown at all.
+The same Capability may appear differently at each layer. The person may see detailed evidence and development gaps. The Workplace may see assignment-relevant scope. MGSN may receive only a purpose-limited Provider Supply Capability projection.
 
-Projection should reveal only what is necessary for the intended decision.
+```text
+Capability Profile portability
+≠ universal visibility
 
-## 9. Resource history matters
+Capability evidence portability
+≠ customer-data portability
 
-Resources change. Staff leave. Qualifications expire. customer relationships move. Capacity rises and falls. Provider performance improves or deteriorates. Assets are sold. Knowledge is superseded.
+Data portability
+≠ authority portability
+```
 
-The platform should preserve resource history because current state without history can mislead. A Workplace that once handled fifty filings may no longer have the responsible team. A provider that has recently failed deadlines should not be represented only by lifetime totals.
+## 11. Resources have state and history
 
-History supports:
+Capability, qualifications, relationships, capacity and Knowledge change over time.
 
-- recency assessment;
-- dependency analysis;
-- continuity planning;
-- audit;
-- fair recommendation;
-- organizational learning.
+Useful states may include:
 
-## 10. What the Product should do
+```text
+claimed
+candidate
+verified
+current
+restricted
+reserved
+committed
+expired
+suspended
+superseded
+unknown
+```
 
-A Product should help the Workplace answer:
+History supports recency assessment, continuity planning, appeals, dependency analysis and fair routing. It should not be reduced to lifetime totals or permanent scores.
+
+## 12. What Products should help the Workplace answer
+
+A Product should help the Workplace understand:
 
 ```text
 What do we have?
 What can we use now?
 What can we safely project?
-What are we dependent on?
+Which capability belongs to people, the organization or external supply?
+What evidence is current?
 What is restricted or uncertain?
-What is becoming stale?
+Where do we depend on one person, Provider or Tool?
+What should we learn, review, source or decline?
 ```
 
-It should not force the Workplace to expose everything, nor should it infer ownership from storage. It should make hidden asymmetry visible enough for better decisions while preserving business sovereignty.
+The Product should not force full exposure or infer ownership from storage.
 
-The strategic value of the resource model is not administrative completeness. It is the ability to connect Workplaces without pretending they are identical.
+> A Workplace becomes more capable when it can see the difference among resources, capability, authority, readiness and evidence—and can develop them without surrendering sovereignty.

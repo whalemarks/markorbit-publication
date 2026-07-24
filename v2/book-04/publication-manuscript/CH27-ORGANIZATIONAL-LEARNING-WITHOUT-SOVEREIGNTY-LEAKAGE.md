@@ -1,222 +1,224 @@
 # Chapter 27 — Organizational Learning Without Sovereignty Leakage
 
-A Workplace becomes stronger when experience is not lost. It should remember which instructions repeatedly confuse customers, which Providers fail to return evidence, which documents create delay, which pricing assumptions are unrealistic and which review steps prevent mistakes.
+A Workplace becomes stronger when experience is not lost. It should remember which instructions confuse customers, which documents create delay, which review steps prevent mistakes and which recovery routes work.
 
-Yet learning creates a second risk. Private customer facts, internal pricing, provider performance, strategy and professional judgment may be copied into shared systems, AI memory or platform rules without authority. The organization learns, but its sovereignty leaks.
+Yet learning can leak sovereignty when customer facts, internal pricing, provider history or professional judgment move into shared systems without authority.
 
-MarkOrbit therefore separates private organizational learning from shared platform learning.
+MarkOrbit therefore separates private Reflection, organizational learning and platform Capability evolution.
 
 ## 1. Experience is not automatically knowledge
-
-Every Matter, Order, Engagement, Contribution and Provider Return produces observations. Some are accurate. Some are incomplete, contextual, disputed or caused by unusual circumstances.
 
 ```text
 Experience
 ≠ verified fact
 ≠ general rule
 ≠ shared Knowledge
+≠ Capability change
 ≠ Core semantics
 ```
 
-A failed filing route may reveal a Provider problem, an incomplete instruction, a customer delay, a jurisdictional change or an isolated event. Treating the outcome as an immediate general rule would create false confidence.
+A failed route may reflect a Provider problem, incomplete instruction, customer delay, source outage or unusual official practice. The event must be interpreted before it is generalized.
 
-## 2. The first learning layer is Workplace-private memory
+## 2. The first learning layer is private
 
-A Workplace may legitimately retain private operating memory such as:
+A Workplace may retain private operating memory about:
 
 - customer communication preferences;
-- internal pricing and margin logic;
+- pricing and margin logic;
+- document pitfalls;
 - preferred Provider routes;
-- known document pitfalls;
-- internal quality checklists;
-- escalation practices;
-- staff allocation patterns;
+- internal review patterns;
+- staff and reviewer dependencies;
 - recurring exceptions;
-- customer-specific portfolio strategy;
-- lessons from failed or recovered matters.
+- recovered failures;
+- Capability gaps.
 
-This memory belongs to the Workplace's business context, subject to customer rights, professional duties, retention law and contractual restrictions.
+A Person may also keep private Reflections about their own work and development.
 
-It should not become public merely because the platform helped create or store it.
+```text
+Person-private Reflection
+≠ manager-visible performance record by default
 
-## 3. Learning objects need provenance
+Workplace-private learning
+≠ platform-owned Knowledge
+```
 
-A useful organizational observation should record:
+## 3. Reflection Candidate is the safe first object
 
-- originating Workplace;
-- source Matter, Order, Engagement or event;
-- observation author or generating process;
-- source evidence;
-- date and jurisdiction;
-- confidence and uncertainty;
-- affected Capability or workflow;
-- privacy and reuse classification;
-- review status;
-- expiry or revalidation date.
+A Reflection Candidate may preserve:
 
-Without provenance, a sentence such as “this jurisdiction always requires the original POA” can persist after the rule changes or may have arisen from one Provider's preference rather than official practice.
+- source event or Outcome;
+- author or generating process;
+- Evidence references;
+- interpretation;
+- uncertainty and alternatives;
+- affected Capability or Workflow;
+- privacy and reuse class;
+- requested audience;
+- correction and expiry.
 
-## 4. Private lessons can improve local operations first
+The person or authorized Workplace actor should confirm material Reflections before they influence a Capability Profile or organizational rule.
 
-The Workplace should be able to convert reviewed observations into:
+## 4. Local improvement may happen before shared promotion
 
-- private checklist changes;
+Reviewed private learning may improve:
+
+- checklists;
 - intake questions;
-- Provider warnings;
-- pricing assumptions;
-- internal routing preferences;
 - deadline buffers;
-- review requirements;
-- training scenarios;
-- customer explanation templates.
+- internal routing;
+- review intensity;
+- Provider warnings;
+- simulations;
+- customer explanations;
+- AI Mentor guidance.
 
-These changes remain local unless an authorized promotion process occurs.
+These changes remain local unless an authorized promotion path is completed.
 
-This allows organizations to improve rapidly without forcing every improvement into the shared platform layer.
-
-## 5. Shared learning requires a promotion path
-
-A candidate for broader use should follow a governed chain:
+## 5. Shared learning requires a controlled chain
 
 ```text
 Private Experience
-→ Candidate Observation
+→ Reflection Candidate
 → Rights Review
 → De-identification Review
-→ Evidence Review
-→ Scoped Shared Candidate
-→ Monitored Use
-→ Promotion, Correction or Rejection
+→ Case Candidate
+→ Evidence and Professional Review
+→ Principle Candidate or Capability Change Proposal
+→ Controlled Adoption
+→ Evaluation, Correction or Rejection
 ```
 
-The review should ask:
+A Case preserves context. A Principle Candidate proposes a reusable lesson. A Capability Change Proposal asks whether the governed Outcome contract, supporting Skills, evaluation or restrictions should change.
 
-- does the Workplace have the right to reuse the source information;
-- can the observation be separated from customer identity;
-- could the context still allow re-identification;
-- is the evidence sufficient;
-- is the observation jurisdiction- and time-specific;
-- does it conflict with authoritative sources;
-- is professional review required;
-- what scope and expiry should apply.
+None is canonical merely because it is frequent or commercially useful.
 
-## 6. De-identification is not deletion of names
+## 6. Capability evolution is not owned by one Product
 
-Trademark work is often highly identifiable. A rare mark, unusual jurisdiction combination, distinctive dispute, specific fee structure or small Provider corridor may reveal the customer even after names are removed.
-
-De-identification should consider:
-
-- unique trademark text or image;
-- registration and application numbers;
-- unusual goods or services;
-- exact dates and deadlines;
-- rare jurisdictions;
-- distinctive ownership history;
-- quoted prices;
-- document metadata;
-- combined facts that narrow identity.
-
-Some useful lessons cannot safely leave the originating Workplace. That limitation should be accepted rather than bypassed.
-
-## 7. AI memory must respect the same boundary
-
-An AI assistant may summarize a case, suggest a checklist or remember a user preference. These functions must distinguish:
-
-- session context;
-- Person-private memory;
-- Workplace-private memory;
-- Product configuration;
-- reviewed shared Knowledge;
-- model training.
+A Workplace, Lite, MarkReg, Execution or MGSN may produce evidence relevant to Capability evolution. No Product directly mutates the shared Capability canon.
 
 ```text
-Useful AI response
-≠ permission to store the source indefinitely
+Product Outcome
+≠ automatic Capability upgrade
 
-Workplace memory
-≠ cross-Workplace retrieval
-
-Repeated pattern
-≠ authorized model training
+frequent local practice
+≠ mandatory platform Capability
 ```
 
-A user should be able to understand what is remembered, where it is stored, who may retrieve it and how it may be corrected or deleted where rights permit.
+Capability change requires evidence across suitable contexts, rights review, compatibility analysis, evaluation and explicit governance.
 
-## 8. Provider and contributor performance learning
+## 7. Capability Ledger preserves evidence and decisions
 
-Workplaces need evidence about Provider and contributor performance. Relevant observations may include:
+A Capability Ledger may reference:
 
-- response time;
-- evidence completeness;
-- deadline reliability;
-- communication quality;
-- exception handling;
-- correction rate;
-- review outcomes;
-- recovery behavior;
-- scope and jurisdiction.
+- learning and simulations;
+- assessments and certifications;
+- supervised and independent work;
+- accepted Outcomes;
+- reviewer findings;
+- Reflections;
+- restrictions, appeals and renewals;
+- Capability Change Proposals and decisions.
 
-Performance evidence must remain contextual. One delayed matter during a government outage should not become a permanent public score. Private feedback, network eligibility and public reputation are separate layers requiring different rights and review.
+It preserves lineage without converting every event into verified proficiency.
 
-Providers and contributors should have a path to inspect material adverse evidence, explain context and challenge errors when that evidence affects eligibility or recommendation.
+```text
+Ledger entry
+≠ Capability verification by itself
+≠ Professional Qualification
+≠ current Eligibility
+```
 
-## 9. Organizational learning must not become employee surveillance
+## 8. Capability Profile and organizational learning remain distinct
 
-Operational evidence can improve systems, but it can also become intrusive monitoring. The platform should avoid interpreting every click, pause or message as a productivity judgment.
+A Capability Profile concerns evidence about a person's bounded proficiency and development. Organizational learning concerns the Workplace's processes, dependencies and collective delivery strength.
 
-Learning should focus on:
+A repeated defect may indicate:
 
-- Outcome quality;
-- evidence completeness;
-- deadline reliability;
-- review and correction;
-- workflow bottlenecks;
-- dependency risk.
+- individual Capability gap;
+- outdated Knowledge;
+- weak instructions;
+- missing Tool validation;
+- insufficient review capacity;
+- unrealistic deadline;
+- flawed Workflow.
 
-It should not create opaque rankings based on constant behavioral surveillance, especially where context, disability, language, caregiving or complex work affects activity patterns.
+The system should not automatically blame the visible performer.
 
-## 10. Learning must not silently change authority
+## 9. AI Mentor may propose, not decide
 
-A frequently successful route does not become the mandatory route. A high-performing contributor does not gain Production Authorization automatically. A Provider with many completed matters does not gain professional qualification. A repeated AI suggestion does not become formal advice.
+An AI Mentor may identify patterns, suggest a Reflection, recommend a simulation or point to missing Evidence.
 
-Changes to Capability, workflow, Product policy, shared Knowledge or Core must follow the relevant governance process.
+It cannot:
+
+- certify proficiency;
+- change a Capability level unilaterally;
+- grant Production Authorization;
+- determine Professional Qualification;
+- impose an employment consequence;
+- promote private learning to shared canon.
+
+```text
+AI detects pattern
+≠ learning adopted
+```
+
+## 10. Provider and contributor evidence remains contextual
+
+Relevant evidence may include response time, Return completeness, deadline reliability, correction quality and recovery behavior.
+
+One delayed Matter during an official outage should not create a permanent public score. Providers and contributors need a route to inspect material adverse evidence and challenge wrong attribution when it affects eligibility or routing.
+
+## 11. Learning must not become employee surveillance
+
+The platform should focus on Outcomes, Evidence, review, correction and dependency risk—not every click, pause or message.
+
+A Capability Twin is a contextual operating projection, not a continuous behavioral ranking. It should not infer diligence, loyalty or employability from activity traces.
+
+## 12. Rights and de-identification remain substantive
+
+Removing names may not protect a customer identified by a rare mark, unusual country sequence, exact fee or distinctive dispute.
+
+Some lessons cannot safely leave the originating Workplace. That limit should be accepted.
+
+## 13. Correction, supersession and forgetting
+
+Learning objects should support:
+
+- correction;
+- scope reduction;
+- supersession;
+- expiry;
+- withdrawal;
+- dispute status;
+- retained audit history where required;
+- deletion where legally appropriate.
+
+Corrections should propagate to affected checklists, simulations, AI Mentor guidance, Capability Profiles and approved shared Knowledge.
+
+## 14. Product implications
+
+Products should support:
+
+- Person-private and Workplace-private Reflection;
+- source and Evidence links;
+- rights and audience classification;
+- Case and Principle Candidates;
+- Capability Change Proposals;
+- Capability Ledger lineage;
+- de-identification and professional review;
+- challenge, correction and expiry;
+- separation of private evidence from public reputation;
+- AI memory and Mentor controls.
+
+## 15. The governing principle
 
 ```text
 Learning may propose.
 Evidence may support.
-Governance must authorize.
+Rights determine permitted use.
+Governance authorizes change.
+History remains correctable.
 ```
-
-## 11. Correction and forgetting
-
-Learning systems need correction paths. Source facts change, Providers improve, rules expire and prior assumptions prove wrong.
-
-A learning object should support:
-
-- correction;
-- supersession;
-- scope reduction;
-- expiry;
-- withdrawal;
-- dispute status;
-- retained audit history where required.
-
-Forgetting is also a governance function. Information should not be retained merely because storage is cheap.
-
-## 12. Product implications
-
-Products should support:
-
-- private observations with source links;
-- confidence and context;
-- rights and reuse classification;
-- local checklist and workflow updates;
-- de-identification review;
-- shared-learning proposals;
-- professional and evidence review;
-- challenge and correction;
-- AI memory controls;
-- expiry and revalidation;
-- separation of private performance evidence and public reputation.
 
 > A Workplace should become wiser through experience without surrendering the customers, relationships, judgment and private history that made the experience possible.

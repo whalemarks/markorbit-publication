@@ -2,103 +2,132 @@
 
 A professional does not become capable because a profile says so.
 
-A Capability Map is useful only when it distinguishes what a person has studied, what they can perform with assistance, what they can complete independently, what they can review and what they are formally authorized to do.
+Lite needs a governed Capability Center that distinguishes what a person has learned, practiced, demonstrated, reviewed, been certified to perform and is currently authorized to do.
 
 ```text
-Claimed skill
-→ evidence
-→ assessed level
-→ scope
-→ review conditions
-→ expiry and renewal
+Claimed Skill
+→ Evidence
+→ Capability Evaluation
+→ scoped Capability Profile
+→ current view, expiry and renewal
 ```
 
 ## 1. Capability is not identity decoration
 
-Ordinary platforms use skills as tags. The tags help search, but they say little about current reliability.
+Ordinary platforms use skills as tags. Lite should represent Capability as a versioned, scoped and evidence-backed asset.
 
-Lite should represent Capability as a governed, scoped and time-sensitive record. It may cover:
+The hierarchy remains:
 
-- trademark searching;
-- goods and services classification;
-- office-action analysis;
-- use-evidence review;
-- maintenance filing preparation;
-- translation review;
-- brand commercialization;
-- visual quality review;
-- transaction due diligence;
-- data verification;
-- customer communication;
-- workflow supervision.
+```text
+Capability Domain
+→ Capability
+→ Skill
+→ Action / Invocation
+```
 
-A user may be advanced in one jurisdiction and inexperienced in another. They may understand a task conceptually while lacking authority to perform it for a customer.
+A Capability is the governed Outcome contract. A Skill is one reusable method. An Action or Invocation is a bounded use in context.
 
-## 2. The progression ladder
+## 2. Capability classes matter
 
-A practical ladder is:
+Lite may expose or use:
+
+- **Source Capability** — derived from a named author, method or external source;
+- **Composite Capability** — combines several sources or Skills;
+- **Experimental Capability** — used under bounded evaluation;
+- **Verified MO Capability** — accepted through governed evidence, review and version control.
+
+```text
+Source Skill
+≠ Verified MO Capability
+
+popular method
+≠ canonical Capability
+```
+
+Source provenance should remain visible where it materially shapes the method.
+
+## 3. My Capability Profile belongs to the user
+
+My Capability Profile may contain:
+
+- Capability and version;
+- jurisdiction, language and procedure scope;
+- demonstrated proficiency;
+- evidence basis;
+- assistance and supervision conditions;
+- assessment and certification records;
+- recent production evidence;
+- restrictions, appeals and expiry;
+- learning goals and private Reflections.
+
+The profile belongs to the person under governed privacy and portability rules.
+
+```text
+Capability Profile
+≠ employer-owned identity
+≠ universal public ranking
+≠ Professional Qualification
+≠ Production Authorization
+```
+
+A Workplace receives only the projection needed for staffing, supervision and development.
+
+## 4. Agent Capability Twin is a contextual projection
+
+Lite may present an Agent Capability Twin: a current projection of what the user can safely do, what assistance is available and what remains outside scope.
+
+It may combine:
+
+- authorized Capability Profile evidence;
+- Product and Tool access;
+- current Knowledge versions;
+- supervision and reviewer availability;
+- recent practice;
+- capacity and workload;
+- known gaps and recommended development routes.
+
+```text
+Agent Capability Twin
+≠ personality replica
+≠ universal user judgment
+≠ automatic Assignment decision
+```
+
+The Twin should change with purpose and context rather than pretending to be one permanent digital copy.
+
+## 5. Proficiency remains scoped
+
+A practical progression may include:
 
 ```text
 Aware
-→ Learned
-→ Assisted
-→ Supervised Production
-→ Independent
-→ Advanced
-→ Reviewer
-→ Expert
+Learned
+Assisted
+Supervised Production
+Independent
+Advanced
+Reviewer
+Expert
 ```
 
-These levels should not be treated as universal rank.
+These are Capability-specific states, not a global rank.
 
-### Aware
+“US trademark expert” is too broad. “Can independently prepare routine US Section 8 evidence packages, excluding ownership disputes and excusable nonuse” is operationally useful.
 
-The person recognizes the task and its risks but has not completed structured learning.
-
-### Learned
-
-The person completed relevant instruction or reading. Completion does not prove performance.
-
-### Assisted
-
-The person can perform bounded parts with Guide support, templates or close supervision.
-
-### Supervised Production
-
-The person has completed real work under review. The evidence must distinguish production from simulation.
-
-### Independent
-
-The person has repeatedly produced acceptable outcomes within a defined scope.
-
-### Advanced
-
-The person handles exceptions, ambiguity and recovery within that scope.
-
-### Reviewer
-
-The person can evaluate the work of others against explicit criteria.
-
-### Expert
-
-The person contributes high-level judgment, develops methods or handles rare and consequential cases.
-
-## 3. Evidence types must remain distinct
+## 6. Evidence types remain distinct
 
 Capability evidence may include:
 
-- course completion;
-- simulation results;
-- assessment results;
-- supervised work;
-- accepted production Contributions;
-- reviewer feedback;
-- customer or Delivery Owner outcome evidence;
-- error and correction history;
-- official qualification;
-- external certification;
-- peer recognition;
-- recent practice volume.
+- learning completion;
+- simulation;
+- assessment;
+- supervised production;
+- accepted Contributions;
+- reviewer findings;
+- accepted Service Outcomes;
+- correction and recovery history;
+- professional qualification;
+- recent practice.
 
 ```text
 Course completed
@@ -107,49 +136,73 @@ Course completed
 Task performed once
 ≠ independent reliability
 
-Professional qualification
-≠ current capability in every task
+Official Fact
+≠ Capability proof by itself
+
+Paid task completed
+≠ Capability verification
 ```
 
-## 4. Scope is part of the capability
+Evidence should record AI assistance, supervision, task difficulty and reviewer role.
 
-Every Capability record should state:
+## 7. Private Reflection supports development
 
-- jurisdiction;
-- procedure or task;
-- mark or matter type;
-- complexity range;
-- language;
-- permitted role;
-- required supervision;
-- evidence basis;
-- review authority;
-- effective and expiry dates.
+After learning, simulation or real work, Lite may prepare a Reflection Candidate covering:
 
-“US trademark expert” is too broad to govern work. “Can independently prepare routine US Section 8 evidence packages, excluding disputed use and ownership changes” is more useful.
+- what happened;
+- what the user learned;
+- uncertainty and alternatives;
+- relevant Evidence;
+- affected Capability;
+- proposed next step.
 
-## 5. Capability is not permission
+The user should confirm, edit, reject or keep it private.
 
-The following distinctions remain mandatory:
+```text
+Reflection Candidate
+≠ raw conversation archive
+≠ shared Knowledge
+≠ canonical Principle
+```
+
+## 8. Capability Ledger preserves lineage
+
+The Capability Ledger may reference:
+
+- learning and simulations;
+- assessments and certifications;
+- supervised and independent work;
+- accepted Outcomes;
+- reviewer findings;
+- Reflections;
+- restrictions, appeals, expiry and renewal.
+
+It records evidence-bearing history without deciding authority by itself.
+
+```text
+Ledger entry
+≠ verified proficiency by itself
+≠ current Eligibility
+≠ Professional Authority
+```
+
+## 9. Capability is not permission
 
 ```text
 Capability
 ≠ Membership
+≠ Eligibility
 ≠ Assignment
 ≠ Production Authorization
 ≠ Professional Qualification
 ≠ Provider Appointment
 ```
 
-A capable person still needs the relevant Workplace role, Assignment, data access and—where required—professional authority.
+A capable person still needs the right Workplace role, accepted Assignment, data access and—where required—Professional Authority.
 
-A lawyer may be qualified but unavailable. A non-lawyer may be highly capable at preparation but unable to submit or represent the customer.
+## 10. Capability should decay when evidence becomes stale
 
-## 6. Capability should decay when evidence becomes stale
-
-Professional rules, systems and practice change. A capability earned years ago should not remain permanently current.
-
-A Capability may become:
+Possible states include:
 
 ```text
 Current
@@ -160,133 +213,62 @@ Superseded
 Revoked
 ```
 
-Renewal may depend on:
+Renewal may depend on rule changes, time since recent work, error history, reassessment, supervised production or qualification status.
 
-- time since last accepted work;
-- rule changes;
-- error history;
-- refresher learning;
-- reassessment;
-- recent supervised work;
-- qualification status.
+## 11. Capability should be multidimensional
 
-Perishability protects users from false confidence and gives professionals a clear refresh path.
-
-## 7. Errors are evidence too
-
-Capability systems often store only success. Lite should also record:
-
-- rejected Contributions;
-- material corrections;
-- missed issues;
-- repeated review findings;
-- recovery quality;
-- whether the person learned from the error.
-
-One error should not automatically destroy a Capability. Repeated or serious errors may require restriction, supervision or reassessment.
-
-## 8. Capability should be multi-dimensional
-
-A single score hides important differences. The map may separately show:
+A single score hides important differences. Lite may show separate dimensions for:
 
 - knowledge;
 - execution quality;
 - exception handling;
 - communication;
-- evidence discipline;
+- Evidence discipline;
 - timeliness;
 - review capability;
-- current practice;
-- confidence and uncertainty.
+- recent practice;
+- uncertainty.
 
-A person may be strong at technical analysis but weak at customer explanation. Another may communicate well but require stronger substantive review.
+No universal leaderboard should be created.
 
-## 9. Private, Workplace and network views differ
+## 12. AI Mentor may assist, not award authority
 
-The person may see a detailed private map including gaps and development recommendations.
+AI Mentor may organize Evidence, identify stale Capability, recommend learning, compare work with a rubric and prepare Reflection Candidates.
 
-The Workplace may see what is necessary for assignment, supervision and staffing.
+It cannot invent Evidence, certify proficiency, grant qualification, create Assignment or issue an irreversible Capability decision.
 
-A network projection should expose only the evidence and scope needed for the intended route.
+## 13. Appeals and correction
 
-```text
-Internal development record
-≠ public professional ranking
-```
+Users should be able to inspect the evidence basis, correct attribution, challenge reviews, submit new Evidence and request reassessment.
 
-Lite should not publish a universal leaderboard of professionals.
+Capability decisions affect work and income; legitimacy requires contestability.
 
-## 10. AI can assist but cannot award authority
-
-AI may:
-
-- organize evidence;
-- identify stale capabilities;
-- propose learning routes;
-- compare work with review criteria;
-- summarize recurring errors;
-- suggest supervision levels.
-
-AI cannot:
-
-- invent evidence;
-- grant a professional qualification;
-- convert course completion into independent status;
-- appoint a person to customer work;
-- suppress negative evidence;
-- issue an irreversible capability decision.
-
-## 11. Appeals and correction
-
-Capability decisions affect work and income. A user should be able to:
-
-- inspect the evidence basis;
-- correct identity or attribution errors;
-- challenge a review;
-- submit additional evidence;
-- request reassessment;
-- see the reason for restriction or expiry.
-
-The reviewing body and decision scope should be recorded.
-
-## 12. Product implications
+## 14. Product implications
 
 Lite requires:
 
-- scoped Capability definitions;
-- evidence records;
-- progression states;
-- assessment and review links;
-- expiry policies;
-- restriction and renewal workflows;
-- private and projected views;
-- Assignment eligibility checks;
+- Capability Domain and versioned Capability references;
+- Source, Composite, Experimental and Verified classes;
+- My Capability Profile;
+- Agent Capability Twin;
+- Capability Ledger;
+- private Reflection;
+- Evidence and evaluation records;
+- expiry, restriction and renewal;
+- private, Workplace and network projections;
 - appeal and correction;
-- links to paid Contributions and learning.
+- links to learning and paid Contributions.
 
-## 13. Commercial implications
-
-An evidence-backed Capability Map supports:
-
-- professional development;
-- safer task allocation;
-- paid review;
-- certification programs;
-- contribution networks;
-- stronger Workplace staffing;
-- subscription retention.
-
-It must not become a pay-to-rank system where purchasing a course or subscription automatically produces a higher professional status.
-
-## 14. Operating principle
+## 15. Operating principle
 
 ```text
-Evidence before level
-Scope before label
-Current practice before permanent status
-Capability before eligibility
-Eligibility before Assignment
-Authority before protected action
+Evidence before level.
+Scope before label.
+Reflection before forced inference.
+Current practice before permanent status.
+Capability before Eligibility.
+Eligibility before Assignment.
+Authority before protected action.
 ```
 
-> A Capability Map should help professionals grow and help Workplaces allocate work, without pretending that learning, evidence, permission and professional authority are the same thing.
+> Lite should help professionals understand and grow their real capabilities without turning identity, learning, evidence and authority into one score.

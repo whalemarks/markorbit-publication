@@ -1,148 +1,119 @@
 # Chapter 28 — Paid Tasks Require Eligibility, Scope, Review and Fair Compensation
 
-A professional platform can create real economic opportunity by decomposing work into bounded Contributions. It can also create a hidden labor market where complex production is mislabeled as training, low-paid workers carry professional risk and the platform captures value without accepting responsibility.
+A professional platform can create real economic opportunity by decomposing work into bounded Contributions. It can also create a hidden labor market where complex production is mislabeled as training and contextual evidence becomes a permanent score.
 
 Lite should support paid tasks only through a governed chain.
 
 ```text
 Need
 → Work Package
-→ eligibility
+→ Eligibility
 → offer and acceptance
 → Assignment
 → bounded data access
 → Contribution
-→ review
-→ acceptance, revision or rejection
-→ compensation and evidence
+→ Review
+→ accepted Outcome, revision or rejection
+→ compensation
+→ contextual Capability Evidence
 ```
 
 ## 1. A paid task is not a generic gig
 
-Examples may include:
+The unit is a versioned Work Package with an expected Outcome, not an undefined request to “help with this case.”
 
-- data verification;
-- trademark-status checking;
-- goods and services normalization;
-- search review;
-- visual-quality review;
-- translation verification;
-- content factual review;
-- buyer-request matching analysis;
-- due-diligence document review;
-- simulation or assessment evaluation;
-- MarkReg preparation work.
-
-The unit is a Work Package with an expected Outcome, not an undefined request to “help with this case.”
+Examples may include data verification, status checking, classification normalization, search review, translation verification, factual content review, due-diligence preparation or MarkReg production work.
 
 ## 2. Eligibility is multi-layered
 
 A participant may be eligible only when several conditions align:
 
-- relevant Capability and level;
-- evidence freshness;
+- relevant Capability and version;
+- current Capability Profile Evidence;
 - jurisdiction and language fit;
-- professional qualification where required;
-- current Capacity and Readiness;
+- Professional Qualification where required;
+- Production Authorization;
+- Capacity and Readiness;
 - conflict status;
-- Workplace Membership or network status;
-- data-security requirements;
-- required Reviewer availability;
+- data-security conditions;
+- reviewer availability;
 - accepted commercial terms.
 
 ```text
 Capability
-≠ eligibility
+≠ Eligibility
 
 Eligibility
 ≠ Assignment
 ```
 
-A ranking model may propose candidates. It cannot appoint them.
+A ranking or AI model may propose candidates. It cannot appoint them.
 
-## 3. The task offer must be understandable before acceptance
+## 3. Capability Profile and Agent Capability Twin support, but do not decide
+
+Lite may use an authorized projection of My Capability Profile and the Agent Capability Twin to identify plausible tasks, supervision needs and development routes.
+
+```text
+Twin suggests fit
+≠ Eligibility confirmed
+≠ Assignment accepted
+```
+
+Current task facts, conflict, authority, capacity and reviewer availability remain decisive.
+
+## 4. The offer must be understandable before acceptance
 
 The offer should state:
 
-- task purpose;
-- source Workplace and Product;
+- purpose and source Workplace;
+- Capability and Work Package version;
 - expected deliverable;
 - scope and exclusions;
 - source materials;
 - deadline;
+- permitted AI and Tools;
 - review standard;
 - revision expectations;
 - compensation and payment trigger;
-- intellectual-property and reuse terms;
+- rights and reuse terms;
 - confidentiality;
-- required tools;
-- professional-authority limits;
+- authority limits;
 - cancellation and dispute rules.
 
-A contributor should not discover after completion that the task was substantially larger or that acceptance depends on an unstated standard.
+Unstated standards should not appear after delivery.
 
-## 4. Assignment is a distinct event
+## 5. Assignment is a distinct event
 
-An Assignment records:
-
-- assigned person or organization;
-- accepted Work Package version;
-- represented role;
-- start and expiry;
-- data scope;
-- allowed actions;
-- reviewer;
-- compensation basis;
-- escalation route.
+An Assignment records the accepted Work Package version, represented role, data scope, allowed actions, reviewer, start and expiry, compensation basis and escalation route.
 
 ```text
 Task viewed
 ≠ task accepted
 
 Task accepted
-≠ production authorized beyond its scope
+≠ production authorized beyond scope
 ```
 
-## 5. Minimum necessary data applies
+## 6. Minimum necessary data applies
 
-A contributor should receive only the data needed for the task.
+A contributor should receive only the data needed for the task. Access should expire when the Assignment ends, while accepted Contributions and required audit Evidence remain governed.
 
-A visual reviewer may not need customer financial records. A translator may not need the complete Matter history. A data verifier may not need customer communication.
+Assignment-scoped access does not transfer the customer relationship.
 
-Access should expire when the Assignment ends, while accepted Contributions and necessary audit evidence remain governed.
+## 7. Production and protected action remain separate
 
-## 6. Production and protected action remain separate
-
-A contributor may prepare, analyze or review without being authorized to:
-
-- advise the customer directly;
-- bind the Workplace;
-- submit an official filing;
-- sign a document;
-- appoint a Provider;
-- receive customer funds;
-- modify formal Matter state.
+A contributor may prepare, analyze or review without authority to advise the customer directly, bind the Workplace, submit a filing, sign, appoint a Provider, receive customer funds or mutate formal state.
 
 ```text
 Contribution accepted
 ≠ External Protected Action authorized
 ```
 
-## 7. Review criteria must be defined
+## 8. Review criteria must be defined
 
-Review may test:
+Review may test accuracy, completeness, provenance, procedure, scope, uncertainty, timeliness and Evidence format.
 
-- factual accuracy;
-- completeness;
-- source provenance;
-- procedural correctness;
-- visual or language quality;
-- compliance with scope;
-- explanation of uncertainty;
-- timeliness;
-- evidence format.
-
-The reviewer should identify whether the result is:
+Possible dispositions include:
 
 ```text
 Accepted
@@ -153,92 +124,92 @@ Rejected for specified reason
 Cancelled because source or scope failed
 ```
 
-A rejection should not be a vague quality judgment.
+A rejection should not be an opaque quality judgment.
 
-## 8. Revision must not become unlimited unpaid work
+## 9. Revision must not become unlimited unpaid work
 
-The task terms should distinguish:
-
-- correction of the contributor's error;
-- clarification within original scope;
-- new source material;
-- changed instructions;
-- expanded scope;
-- reviewer preference not stated in the rubric.
+The terms should distinguish correction of contributor error, clarification within scope, changed source material, expanded instructions and reviewer preference not stated in the rubric.
 
 Material scope change should create an amendment and, where appropriate, additional compensation.
 
-## 9. Compensation should reflect production value and responsibility
-
-Compensation may consider:
-
-- complexity;
-- time;
-- scarcity of Capability;
-- jurisdiction;
-- urgency;
-- review responsibility;
-- professional qualification;
-- revision burden;
-- consequence of error;
-- rights transferred.
-
-The platform should not systematically pay based only on the lowest global labor price while charging customers for high professional value.
-
 ## 10. Training cannot replace payment
 
-A simulation, voluntary exercise or assessment may be unpaid when it produces no production value and the terms are clear.
+A Simulation or voluntary exercise may be unpaid when it produces no production value and the terms are clear.
 
-Real customer or platform production should not be relabeled as:
-
-- practice;
-- trial work;
-- certification evidence;
-- community contribution;
-- exposure.
+Real customer or platform production should not be relabeled as practice, trial work, certification evidence, community contribution or exposure.
 
 ```text
 Learning opportunity
 ≠ substitute for fair compensation
 ```
 
-Where supervised production creates value, compensation should be addressed even when the participant is also learning.
+## 11. Paid work may create Evidence, not automatic Capability verification
 
-## 11. Acceptance and payment triggers must be visible
+A paid Contribution may support Capability Evaluation only when the system preserves:
 
-Possible triggers include:
+- task difficulty;
+- exact Capability scope;
+- assistance and AI use;
+- supervision;
+- source quality;
+- reviewer findings;
+- corrections;
+- accepted Outcome;
+- later reversal or recovery.
 
-- Work Package acceptance;
-- reviewer acceptance;
-- customer or Delivery Owner acceptance;
-- milestone completion;
-- final evidence delivery;
-- resolution of a stated hold.
+```text
+Paid task completed
+≠ Capability verified
 
-The system should record:
+Contribution accepted
+≠ independent proficiency proven
+```
 
-- gross compensation;
-- platform or Workplace fee;
-- tax or withholding treatment where applicable;
-- currency;
-- payment status;
-- dispute or adjustment;
-- payment evidence.
+## 12. Session Receipt and Capability Ledger
+
+A material task may create a Session Receipt showing the bounded production path. Relevant accepted Evidence may later be referenced by the Capability Ledger.
+
+```text
+Session Receipt
+≠ formal state
+≠ payment entitlement by itself
+
+Ledger entry
+≠ current Eligibility
+```
+
+The user should be able to inspect attribution and challenge errors.
+
+## 13. Reflection remains private by default
+
+Lite may prepare a Reflection Candidate after the task, covering what was learned, what required correction and what development route is suggested.
+
+The user may edit, reject or keep it private.
+
+```text
+Reflection Candidate
+≠ mandatory performance confession
+≠ shared Knowledge
+≠ manager-visible record by default
+```
+
+## 14. Compensation should reflect value and responsibility
+
+Compensation may consider complexity, time, scarcity, jurisdiction, urgency, review burden, Professional Qualification, consequence of error and rights transferred.
+
+The platform should not systematically pay the lowest global labor price while charging customers for high professional value.
+
+## 15. Acceptance and payment triggers must be visible
+
+Possible triggers include Work Package acceptance, reviewer acceptance, milestone completion or final Evidence delivery.
+
+The system should record gross compensation, fees, currency, tax treatment, payment status, dispute and payment Evidence.
 
 This chapter does not authorize MarkOrbit to hold customer funds or operate unrestricted payment custody.
 
-## 12. Attribution and rights need explicit terms
+## 16. Attribution, rights and learning use are separate
 
-A Contribution may be:
-
-- private customer work;
-- Workplace-owned production;
-- licensed template content;
-- reviewer feedback;
-- shared Knowledge candidate;
-- public portfolio material.
-
-Acceptance does not automatically make confidential work public or convert it into training data.
+A Contribution may be private customer work, Workplace-owned production, licensed content, reviewer feedback, shared Knowledge candidate or public portfolio material.
 
 ```text
 Payment
@@ -246,109 +217,60 @@ Payment
 
 Contribution acceptance
 ≠ shared-learning consent
+≠ AI-training permission
 ```
 
-## 13. Quality history should be contextual
+Any broader use requires its own rights and review route.
 
-Lite may record:
+## 17. Quality history remains contextual
 
-- acceptance rate;
-- correction patterns;
-- timeliness;
-- task types;
-- reviewer findings;
-- dispute outcomes;
-- recent evidence.
+Lite may record acceptance, corrections, timeliness, task type, reviewer findings, disputes and recent Evidence.
 
 It should not create a universal public score that ignores task difficulty, reviewer variation or source-quality problems.
 
-A contributor must be able to challenge misattributed errors.
+## 18. Failure and recovery
 
-## 14. Conflict, circumvention and customer protection
+A failed task may involve source failure, contributor withdrawal, reviewer delay, late conflict, security incident or urgent reassignment.
 
-Paid tasks may expose customer or partner information. The contributor should not use that access to:
+The system should preserve completed work, revoke unnecessary access, reassign responsibly and decide compensation according to agreed terms.
 
-- contact the customer outside scope;
-- solicit future work;
-- bypass the Relationship Owner;
-- reuse private pricing;
-- disclose confidential cases;
-- redirect the Matter.
+## 19. AI participation must be disclosed where material
 
-The rules should be proportionate and time-bounded. They should not prevent the contributor from using general professional knowledge or serving independently sourced customers.
+The task should state permitted models and Tools, prohibited disclosure, required verification, provenance and who remains responsible.
 
-## 15. Failure and recovery
+AI assistance does not reduce the contributor's obligation to satisfy the acceptance criteria.
 
-A failed task may involve:
-
-- missed deadline;
-- unavailable source;
-- contributor withdrawal;
-- reviewer delay;
-- conflict discovered late;
-- security incident;
-- repeated failed revision;
-- urgent reassignment.
-
-The system should preserve work already completed, revoke unnecessary access, reassign responsibly and decide compensation according to the agreed terms.
-
-## 16. AI participation must be disclosed where material
-
-The task may permit, restrict or require AI assistance.
-
-The record should state:
-
-- permitted models or tools;
-- prohibited data disclosure;
-- required human verification;
-- whether AI-generated content is acceptable;
-- provenance requirements;
-- who remains responsible.
-
-AI assistance does not reduce the contributor's obligation to meet the acceptance criteria.
-
-## 17. Product implications
+## 20. Product implications
 
 Lite requires:
 
-- Work Package definitions;
-- eligibility rules;
+- Work Package and Capability references;
+- Eligibility rules;
 - transparent offers;
+- Profile and Twin projections;
 - Assignment and data-scope controls;
 - review rubrics;
 - revision and amendment workflows;
-- acceptance states;
-- compensation ledgers;
-- rights and confidentiality terms;
-- quality evidence and appeal;
-- failure recovery;
-- Capability Map integration.
+- compensation records;
+- Session Receipt;
+- contextual Capability Evidence;
+- Capability Ledger links;
+- private Reflection;
+- rights, appeal and recovery controls.
 
-## 18. Commercial implications
-
-Paid Contributions can support:
-
-- distributed professional production;
-- reviewer marketplaces;
-- agency overflow capacity;
-- capability development;
-- MarkReg preparation;
-- content and visual services;
-- data-quality operations.
-
-The commercial advantage should come from trusted decomposition, review and recovery—not from obscuring labor conditions or professional responsibility.
-
-## 19. Operating principle
+## 21. Operating principle
 
 ```text
-Define the work
-Verify eligibility
-Make terms visible
-Assign explicitly
-Limit access
-Review against criteria
-Pay for value
-Preserve rights and evidence
+Define the work.
+Verify Eligibility.
+Make terms visible.
+Assign explicitly.
+Limit access.
+Review against criteria.
+Pay for value.
+Treat Outcome as contextual Evidence.
+Preserve rights and appeal.
+Never disguise production as learning.
 ```
 
-> A paid-task system becomes professional infrastructure only when contributors know what they are accepting, customers know who remains responsible, and learning is never used to disguise unpaid production.
+> A paid-task system becomes professional infrastructure only when contributors know what they are accepting, customers know who remains responsible, and Capability growth is evidenced without converting paid work into automatic status.

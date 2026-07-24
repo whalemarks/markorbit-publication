@@ -1,359 +1,281 @@
 # Chapter 28 — Delivery Outcomes Should Improve Capability and Routing
 
-A completed Matter should not disappear into an archive.
+A completed Matter should not disappear into an archive. Its Outcome can improve future task design, reviewer allocation, Provider selection, customer questions and Capability development.
 
-Its Outcome can improve future task design, reviewer allocation, Provider selection, customer questions, public content and Capability development. But an Outcome does not speak for itself. It must be interpreted in context.
+But an Outcome does not interpret itself.
 
 ```text
 Completed Work
-→ Validated Outcome
-→ Contextual Quality Evidence
+→ Validated Service Outcome
+→ Contextual Execution Evidence
 → Reviewed Learning Signal
-→ Capability, Routing or Process Update
+→ Routing, Process or Capability Proposal
 ```
 
 ## 1. Completion is not enough
 
-A Work Package may be completed while the Matter later fails. A Provider may file on time but return poor evidence. A Contributor may produce an excellent analysis from incomplete inputs. A customer may reject a correct recommendation for commercial reasons.
+A Work Package may be complete while the Matter later fails. A Provider may act on time but return weak Evidence. A reviewer may repair a poor Contribution. A correct recommendation may be rejected for commercial reasons.
 
-Therefore the system should distinguish:
+The system should distinguish:
 
 - production completion;
 - review acceptance;
 - customer acceptance;
 - external action;
 - official acknowledgement;
-- lifecycle Outcome;
+- formal-state validation;
+- Service Outcome;
 - financial reconciliation;
-- later correction or reversal.
+- correction or reversal.
 
 ```text
-Task Accepted
-≠ Matter Successful
+Task accepted
+≠ Matter successful
 
-Matter Successful
-≠ Every Participant Performed Well
+Matter successful
+≠ every participant performed well
 ```
 
-## 2. Outcome evidence must be typed
+## 2. Official Fact, Service Outcome and Execution Evidence remain distinct
 
-Useful Outcome evidence includes:
-
-- official filing receipt;
-- official registration or recordal;
-- accepted response;
-- rejected document;
-- missed or met deadline;
-- customer clarification count;
-- rework volume;
-- Provider response time;
-- reviewer corrections;
-- customer complaint or appreciation;
-- refund or financial adjustment;
-- future obligation created;
-- recovery result.
-
-Each item should retain source, date, jurisdiction, task type and confidence.
-
-## 3. Capability updates require causal caution
-
-A good Outcome may result from:
-
-- strong Contributor work;
-- a reviewer correcting major errors;
-- a simple case;
-- excellent source data;
-- a forgiving official process;
-- Provider intervention;
-- customer expertise.
-
-A poor Outcome may result from:
-
-- stale official information;
-- incomplete customer evidence;
-- ambiguous instructions;
-- system failure;
-- Provider delay;
-- reviewer mistake;
-- Contributor error;
-- an inherently adverse legal position.
-
-Capability evidence should record contribution and conditions rather than assigning all credit or blame to the visible performer.
-
-## 4. The feedback unit is scoped
-
-Capability should improve or decline only within a relevant scope:
-
-- jurisdiction;
-- procedure;
-- Work Package type;
-- complexity;
-- language;
-- AI mode;
-- supervision level;
-- evidence quality;
-- recency.
+An official filing receipt or registration may confirm a formal event. A Service Outcome describes whether the promised service result was achieved. Execution Evidence records how the work was produced, reviewed, corrected and recovered.
 
 ```text
-Strong US Maintenance Work
-≠ Strong Global Prosecution Capability
+Official Fact
+≠ Service Outcome
+≠ Execution Evidence
+≠ Capability verification
 ```
 
-## 5. Review quality must also be measured
+One record may support another, but none should silently replace the others.
 
-Reviewer errors are often hidden because the reviewer has the last word.
+## 3. Outcome Evidence must be typed
 
-MarkReg should examine:
+Useful evidence may include:
 
-- whether review found material errors;
-- whether corrections were accurate;
-- whether the reviewer added unstated preferences;
-- whether escalation was appropriate;
-- whether review delayed the deadline;
-- whether later Outcomes confirmed or contradicted the review;
-- consistency across reviewers.
+- official receipt or decision;
+- accepted or rejected document;
+- deadline result;
+- review corrections;
+- customer clarification burden;
+- rework;
+- Provider response and Return completeness;
+- recovery result;
+- complaint, refund or adjustment;
+- future obligation created.
 
-Reviewer authority requires calibration and current evidence.
+Every item should preserve source, date, jurisdiction, work type, confidence and relationship to the accepted Outcome.
 
-## 6. Provider Returns require validation before routing feedback
+## 4. Capability evidence requires causal caution
 
-A Provider message such as “filed successfully” cannot be used as positive routing evidence until the required Return and official state are validated.
+A good Outcome may result from simple facts, strong source data, reviewer correction, Provider intervention or close supervision. A poor Outcome may arise from stale Knowledge, incomplete customer evidence, system failure or an inherently adverse legal position.
 
 ```text
-Provider Reports Done
-≠ Positive Provider Outcome Evidence
+Strong Outcome
+≠ every component performed well
+
+Poor Outcome
+≠ visible performer solely responsible
 ```
 
-Provider performance should consider:
+Capability evaluation must preserve difficulty, assistance, supervision, reviewer role, input quality and correction history.
 
-- acceptance clarity;
-- response time;
-- deadline reliability;
-- fee accuracy;
-- document guidance;
-- Return completeness;
-- correction handling;
-- official Outcome;
-- communication burden;
-- financial reconciliation.
+## 5. User Capability Profile and Provider Supply Capability are separate
 
-## 7. Routing should use eligibility before preference
+A user's Capability Profile concerns bounded proficiency supported by evidence. Provider Supply Capability concerns what a Provider Organization can deliver through people, process, qualification, capacity and continuity.
 
-A governed routing chain is:
+A Matter may create evidence relevant to both, but it must not be collapsed.
 
 ```text
-Work Package Need
-→ Mandatory Eligibility Gates
-→ Conflict and Authority Check
-→ Capacity and Deadline Check
-→ Contextual Quality Evidence
-→ Route Recommendation
-→ Human Selection or Authorized Rule
-→ Acceptance
+Provider performance evidence
+≠ user Capability evidence
+
+Provider Supply Capability
+≠ Professional Qualification
+≠ current Eligibility
 ```
 
-Quality history cannot rescue a candidate who lacks required qualification, authority or current availability.
+## 6. Provider Return requires validation
+
+A message saying “filed successfully” is not positive routing evidence until the required Return and official state are validated.
+
+```text
+Provider reports done
+≠ Return complete
+≠ Official Truth
+≠ positive Provider Outcome evidence
+```
+
+Provider evaluation may consider acceptance clarity, deadline reliability, fee accuracy, Return completeness, correction quality, official Outcome and recovery burden.
+
+## 7. Routing starts with eligibility
+
+```text
+Need
+→ mandatory qualification and authority gates
+→ conflict check
+→ capacity and deadline check
+→ contextual quality evidence
+→ explainable route recommendation
+→ selection
+→ Provider Acceptance or Assignment
+```
+
+Historical quality cannot rescue a candidate who lacks current qualification, authority or availability.
 
 ## 8. No single global score
 
-A single score hides differences in jurisdiction, task and evidence.
+A person, reviewer or Provider should not be reduced to one permanent score.
 
-A Provider or Contributor profile may instead show dimensions such as:
+A useful route view may show:
 
 ```text
-Eligibility: Confirmed for Scope
-Recent Quality: Strong
-Evidence Return: Moderate
-Deadline Reliability: Strong
-Complex-case Evidence: Limited
-Current Capacity: Low
-Conflict Status: Pending
+Capability scope: current
+Recent comparable evidence: strong
+Complex-case evidence: limited
+Correction quality: strong
+Return completeness: moderate
+Capacity: low
+Conflict status: pending
 ```
 
-The system should expose why a route is recommended.
+The system should expose why a route is recommended and what remains Unknown.
 
-## 9. Negative evidence needs proportional response
+## 9. Positive evidence does not create authority
 
-A negative event may lead to:
+Repeated successful work may support a Capability Evaluation or progression proposal. It does not create:
 
-- additional review;
-- narrower eligibility;
-- refresher learning;
-- supervised production;
-- temporary pause;
-- Provider remediation;
-- route restriction;
-- reassessment;
-- suspension or revocation.
-
-One minor correction should not automatically trigger exclusion. A serious concealment, confidentiality breach or unauthorized protected action may justify immediate restriction.
-
-## 10. Positive evidence should not create automatic authority
-
-Repeated successful Contributions may support progression, but still do not create:
-
-- professional qualification;
-- Provider appointment;
+- Professional Qualification;
+- Production Authorization;
+- Provider Appointment;
 - customer representation;
 - unrestricted data access;
 - authority for External Protected Actions.
 
 ```text
-Strong Quality History
+Strong quality history
 ≠ Professional Authority
 ```
 
-## 11. Capacity and readiness are current states
+## 10. Negative evidence requires proportional response
 
-The most capable person may not be the safest route when:
+A minor correction may justify coaching or additional review. A serious confidentiality breach or unauthorized protected action may justify immediate restriction.
 
-- overloaded;
-- unavailable in the required timezone;
-- reviewer unavailable;
-- conflict unresolved;
-- qualification renewal pending;
-- source system inaccessible;
-- deadline too short.
+Possible responses include:
 
-Routing must combine Capability with Capacity and Readiness.
+- refresher learning;
+- supervised production;
+- narrower eligibility;
+- reviewer recalibration;
+- Provider remediation;
+- temporary pause;
+- reassessment;
+- suspension or revocation.
 
-## 12. Commercial preference must be disclosed
+Appeal and corrected evidence remain part of legitimacy.
 
-MarkReg or an operating Workplace may prefer a route because of:
+## 11. Reflection and Capability Evaluation are controlled intermediates
 
-- negotiated price;
-- margin;
-- strategic partnership;
-- internal capacity;
-- customer package;
-- geography.
+A validated Outcome may support:
 
-Commercial preference may be legitimate, but it must not silently override material quality, relationship or authority factors.
+- Person-private Reflection;
+- Workplace-private Reflection;
+- Case Candidate;
+- reviewer calibration signal;
+- Provider routing signal;
+- Capability Evaluation;
+- Capability Change Proposal.
 
 ```text
-Higher Margin
-≠ Higher Suitability
+Outcome
+≠ automatic Reflection
+≠ automatic Capability upgrade
+≠ automatic shared learning
 ```
 
-## 13. Customer and partner relationship constraints affect routing
+Rights, attribution and review determine what may proceed.
 
-The technically best performer may not be permitted to contact or serve the customer directly.
+## 12. Process feedback is as important as performer feedback
 
-Routing should preserve:
+Repeated failures may indicate problems in Intake, Knowledge, templates, Work Package scope, Evidence Contract, review rubrics, Provider instructions, fee assumptions or deadline calculation.
 
-- Relationship Owner;
-- white-label rules;
-- co-delivery roles;
-- customer-selected Provider;
-- partner exclusions;
-- direct-contact permissions;
-- non-circumvention terms.
+The platform should not repeatedly penalize people for a defective system.
 
-Assignment access does not transfer the customer.
+## 13. Capability Change Proposals require more than one success
 
-## 14. Process feedback is as important as person feedback
+A proposal to alter a shared Capability should identify:
 
-Repeated failures may indicate that the problem lies in:
+- affected Capability and version;
+- evidence set and comparable contexts;
+- counterexamples;
+- rights and privacy status;
+- proposed contract, Skill or evaluation change;
+- compatibility impact;
+- assessment and certification impact;
+- pilot and rollback conditions.
 
-- Intake questions;
-- Jurisdiction Pack;
-- template;
-- Work Package scope;
-- Evidence Contract;
-- review rubric;
-- Provider instruction;
-- customer explanation;
-- fee assumption;
-- deadline calculation;
-- content page.
+MarkReg is a Capability proving ground. It is not the owner of the shared Capability canon.
 
-The system should not repeatedly penalize individuals for a defective workflow.
+## 14. Growth and conversion Outcomes remain subordinate to truth
 
-## 15. Content and conversion outcomes join the same feedback model
+Content and conversion work may reveal confusion, wrong routing or support burden. Those signals can improve questions and explanations.
 
-Growth work may produce Outcomes such as:
+```text
+Traffic
+≠ qualified demand
 
-- correct qualified Intake;
-- wrong service routing;
-- misleading estimate;
-- customer confusion;
-- high abandonment at a question;
-- public claim correction;
-- excessive support burden;
-- good rejection of an unsafe route.
+conversion performance
+≠ professional correctness
+```
 
-These signals can improve content, questions and routing, but traffic or conversion alone cannot update professional truth.
+Market behavior cannot change official fees, deadlines, authority requirements or professional truth.
 
-## 16. Feedback must be resistant to gaming
+## 15. Feedback must resist gaming
 
-Participants may optimize metrics by:
+Participants may avoid difficult tasks, hide corrections, escalate everything or suppress complaints.
 
-- avoiding difficult tasks;
-- escalating everything;
-- hiding corrections;
-- selecting only easy jurisdictions;
-- delaying acceptance until inputs are perfect;
-- encouraging unnecessary services;
-- suppressing customer complaints.
+Quality evidence should account for task difficulty, transparency, appropriate escalation, correction behavior and later Outcomes.
 
-Quality evidence should therefore account for task difficulty, transparency, escalation quality and later Outcomes.
+## 16. Capability Ledger and audit history
 
-## 17. Appeals and correction protect legitimacy
+A Capability Ledger may reference relevant Outcomes, reviews, Reflections, restrictions, appeals and evaluation decisions.
 
-A Contributor, reviewer or Provider should be able to challenge:
+It preserves lineage without turning every completed task into verified proficiency.
 
-- wrong attribution;
-- incomplete context;
-- reviewer error;
-- customer-caused delay;
-- source-system failure;
-- duplicate incident;
-- reversed official result.
+```text
+paid task completed
+≠ Capability verified
 
-Corrections should update routing evidence without erasing the original audit trail.
+Ledger entry
+≠ current Eligibility
+```
 
-## 18. Product implications
+## 17. Product implications
 
 MarkReg requires:
 
-- typed Outcome evidence;
-- contextual quality records;
-- Capability feedback;
-- reviewer calibration;
+- typed Official Facts, Service Outcomes and Execution Evidence;
 - Provider Return validation;
-- eligibility-first routing;
-- explainable multi-dimensional recommendations;
-- capacity and conflict state;
-- relationship constraints;
-- process-defect detection;
-- appeals and corrected evidence.
+- user Capability and Provider Supply separation;
+- explainable eligibility-first routing;
+- reviewer calibration;
+- Reflection and Case Candidates;
+- Capability Evaluations and Change Proposals;
+- appeals and corrected evidence;
+- Capability Ledger references;
+- process-defect detection.
 
-## 19. Commercial implications
-
-Better feedback improves:
-
-- margin through lower rework;
-- Provider procurement;
-- Contributor progression;
-- reviewer utilization;
-- customer retention;
-- white-label confidence;
-- recovery speed;
-- service expansion decisions.
-
-The goal is not to build a punitive leaderboard. It is to increase the probability of the right Outcome through accountable learning.
-
-## 20. Operating principle
+## 18. Operating principle
 
 ```text
-Validate the Outcome
-Preserve context
-Attribute cautiously
-Gate eligibility first
-Explain the route
-Measure reviewers too
-Correct the process
-Keep authority separate
+Validate the Outcome.
+Preserve context.
+Attribute cautiously.
+Separate user and Provider evidence.
+Gate eligibility first.
+Correct the process.
+Propose before changing Capability.
+Keep authority separate.
 ```
 
-> MarkReg becomes more reliable when every Outcome improves the next decision without turning contextual evidence into permanent reputation.
+> MarkReg becomes more reliable when every Outcome improves the next decision without turning contextual evidence into permanent reputation or automatic Capability canon.

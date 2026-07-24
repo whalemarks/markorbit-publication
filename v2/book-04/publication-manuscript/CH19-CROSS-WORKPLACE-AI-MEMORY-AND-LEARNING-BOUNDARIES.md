@@ -1,12 +1,10 @@
 # Chapter 19 — Cross-Workplace AI, Memory and Learning Boundaries
 
-AI makes the Workplace boundary more difficult and more important. A human can usually understand that information received for one client should not be reused for another. An AI system may retrieve, summarize, embed, cache or learn from information without making the boundary visible to the user.
+AI makes the Workplace boundary more difficult and more important. A model may retrieve, summarize, embed, cache or learn from information without making the boundary visible.
 
-MarkOrbit therefore treats AI access, memory and learning as separate governed activities.
+MarkOrbit therefore separates current inference, retrieval, memory, Reflection, Capability profiling and shared learning.
 
 ## 1. AI does not dissolve the Workplace boundary
-
-A Product may use AI to classify goods, summarize correspondence, prepare instructions, compare records, generate content or identify risk. The usefulness of the model does not create a general right to combine private Workplace information.
 
 ```text
 AI can technically access data
@@ -16,189 +14,202 @@ AI used in one Workplace
 ≠ AI may remember it in another Workplace
 ```
 
-The represented Workplace, Product Installation, declared task and data policy remain controlling context.
+The represented Workplace, Product Installation, task, purpose and data policy remain controlling context.
 
-## 2. Four different AI activities
+## 2. Six different activities
 
-The word “AI use” hides several distinct operations.
+The phrase “AI use” hides distinct operations:
 
-### Inference
+- **Inference** — producing an output for the current task;
+- **Retrieval** — selecting permitted sources for the task;
+- **Memory** — retaining information for later use;
+- **Reflection** — forming a user- or Workplace-reviewed interpretation of experience;
+- **Capability profiling** — updating an evidence-backed projection of proficiency or development needs;
+- **Shared learning** — proposing changes to Knowledge, policy, Capability or models.
 
-The model receives context to produce an output for a current task.
+Permission for one does not authorize the others.
 
-### Retrieval
+## 3. Reflection is not raw conversational memory
 
-The system searches approved sources and supplies relevant content to the model.
+A Reflection should be a bounded, attributable and reviewable object. It may record:
 
-### Memory
-
-The system stores information or derived preferences for later use.
-
-### Learning
-
-Data or outcomes influence shared prompts, rules, evaluation sets, models or platform Knowledge.
-
-Consent or authorization for one activity does not automatically authorize the others.
-
-## 3. Workplace-private memory
-
-A Workplace may benefit from private memory about:
-
-- customer communication preferences;
-- internal pricing rules;
-- preferred drafting style;
-- known provider experience;
-- private operating procedures;
-- organization-specific terminology;
-- recurring exceptions.
-
-That memory should remain scoped to the Workplace and relevant Product policies. It should record provenance and allow correction, review and deletion where required.
-
-Private memory must not silently become shared platform Knowledge.
-
-## 4. Person memory and organizational memory
-
-A Person may have personal preferences and professional experience that continue across memberships. An Organization also has private operating memory developed through its business.
-
-The system must not treat these as interchangeable.
-
-A professional may retain general skill and public knowledge when moving between firms. They may not carry confidential customer records, private pricing or protected internal procedures merely because those facts appeared in their AI history.
-
-Useful distinctions include:
+- what happened;
+- what the user believes they learned;
+- uncertainty and alternative explanations;
+- relevant Evidence;
+- affected Capability;
+- whether the Reflection is Person-private or Workplace-private;
+- whether it may be proposed for broader use.
 
 ```text
-Personal preference
-Professional capability evidence
-Public knowledge
-Workplace-private memory
-Customer-confidential fact
-Platform-reviewed Knowledge
+Reflection Candidate
+≠ raw conversation archive
+≠ automatic performance finding
+≠ shared Knowledge
+≠ canonical Principle
 ```
 
-Each category has different portability and reuse rights.
+The user should be able to confirm, edit, reject or keep the Reflection private.
 
-## 5. Cross-Workplace retrieval
+## 4. Person-private and Workplace-private memory
 
-Cross-Workplace retrieval should be prohibited by default unless an explicit lawful route exists.
+A Person may retain preferences, learning goals and portable Capability evidence. A Workplace may retain customer context, pricing rules, provider experience and organizational procedures.
+
+These are not interchangeable.
+
+A professional may carry general competence and authorized Capability evidence between Workplaces. They may not carry former-customer records, confidential pricing, privileged advice or private operating history merely because it appeared in an AI interaction.
+
+## 5. Capability Profile and Capability Twin use bounded projections
+
+AI may help organize evidence and identify gaps in a Capability Profile. A Workplace may use a Capability Twin to see capability, supervision, capacity and dependencies relevant to current work.
+
+Neither may become a hidden universal judgment.
+
+```text
+AI inference about proficiency
+≠ verified Capability evidence
+
+Capability Twin
+≠ personality replica
+≠ employee-surveillance score
+≠ Assignment authority
+```
+
+Material profile changes require attributable Evidence, review and appeal.
+
+## 6. AI Mentor is guidance, not assessment or authority
+
+An AI Mentor may:
+
+- explain a Capability structure;
+- identify missing evidence;
+- recommend learning or simulation;
+- compare a draft with a rubric;
+- suggest escalation;
+- prepare a Reflection Candidate.
+
+It may not:
+
+- certify proficiency;
+- grant Production Authorization;
+- create Professional Qualification;
+- assign customer work;
+- determine employment consequences;
+- publish a professional ranking.
+
+```text
+AI Mentor recommendation
+≠ assessment
+≠ certification
+≠ Professional Authority
+```
+
+## 7. Cross-Workplace retrieval is prohibited by default
 
 Legitimate routes may include:
 
 - public or licensed Knowledge;
 - a shared Engagement Projection;
-- an Assignment-scoped evidence package;
-- an Organization-approved shared library;
-- de-identified, reviewed platform learning;
-- customer-authorized portfolio-level access.
+- Assignment-scoped Evidence;
+- Organization-approved shared libraries;
+- customer-authorized portfolio access;
+- rights-reviewed, de-identified learning assets.
 
-The system should be able to explain why each retrieved source was available in the current context.
+The system should explain why every retrieved source was available in the current context.
 
-## 6. De-identification is not a magic solution
+## 8. De-identification is not a magic solution
 
-Removing names does not always remove commercial sensitivity. A distinctive trademark, country sequence, fee structure, unusual dispute or narrow date pattern may re-identify a customer or Workplace.
+Removing names may leave a case identifiable through a rare mark, jurisdiction sequence, fee structure, dispute or deadline pattern.
 
-Before experience is used for shared learning, the platform should consider:
+Before broader use, the platform should review rights, confidentiality, privilege, commercial sensitivity, aggregation and re-identification risk.
 
-- whether the event can be re-identified;
-- whether commercial strategy remains visible;
-- whether professional privilege or confidentiality applies;
-- whether the source agreement permits reuse;
-- whether aggregation is sufficient;
-- whether the learning can be expressed without retaining the underlying record.
+Some experience should remain private.
 
-## 7. From private outcome to shared learning
-
-A useful outcome may reveal a recurring pattern. That pattern should not become a global rule automatically.
-
-The governed path remains:
+## 9. From private experience to governed shared learning
 
 ```text
 Private experience
-→ candidate observation
-→ de-identification and rights review
-→ evidence review
-→ scoped candidate rule
-→ monitored use
-→ promotion, correction or rejection
+→ user-confirmed Reflection Candidate
+→ rights and de-identification review
+→ Case Candidate
+→ quality and professional review
+→ Principle Candidate or Capability Change Proposal
+→ controlled adoption
 ```
 
-This protects the platform from silent canonization and from turning one firm's practice into a universal standard.
+No step is automatic. A useful private Outcome does not become platform doctrine merely because the Product observed it.
 
-## 8. AI-generated authority leakage
+## 10. Capability Ledger projections remain audience-specific
 
-AI output may look polished enough to be mistaken for an approved legal or professional decision. Products must distinguish:
+A Capability Ledger may preserve assessments, supervised work, accepted Outcomes, review findings, corrections and expiry.
 
-- suggestion;
-- draft;
-- prediction;
-- extracted fact;
-- verified fact;
-- professional opinion;
-- approved instruction;
-- formal state.
+The Person may see a detailed development history. The Workplace may receive an assignment-relevant projection. A network may receive only minimum necessary Provider Supply Capability evidence.
 
-An AI recommendation cannot create Professional Qualification, Production Authorization, customer approval or Provider Appointment.
+```text
+Ledger visibility
+≠ universal visibility
 
-Human and professional review gates must remain visible where required.
+Capability Profile portability
+≠ Workplace-memory portability
+```
 
-## 9. External model and service providers
+## 11. External models and services
 
-When a Product sends data to an external AI service, the Workplace needs to know:
+When data is sent to an external AI service, the Workplace should know:
 
-- what data is sent;
-- for what purpose;
-- which provider receives it;
+- what is sent;
+- purpose;
+- provider and subprocessors;
 - retention and training policy;
-- geographical or regulatory implications;
-- whether subprocessors are involved;
-- how output and logs are stored;
-- whether a local or private alternative exists.
+- geography and regulatory implications;
+- output and log storage;
+- available local or private alternatives.
 
-A connector enabled for one Product Installation does not automatically authorize every other Product or Workplace.
+A connector enabled for one Product Installation does not authorize another Product or Workplace.
 
-## 10. Prompt and output evidence
+## 12. Session Receipt supports reconstruction without becoming truth
 
-For material professional actions, the system may need to retain enough evidence to reconstruct:
+For material AI-assisted work, a Session Receipt may preserve:
 
-- model and version;
-- relevant prompt or instruction template;
-- source context supplied;
-- retrieval references;
-- output;
-- human edits;
-- reviewer and approval;
-- final action taken.
+- represented Workplace and purpose;
+- Capability and Skill versions;
+- model, policy and Tool references;
+- sources retrieved;
+- significant user confirmations;
+- outputs and human edits;
+- review disposition;
+- memory and learning policy;
+- final action reference.
 
-This does not justify retaining every conversation forever. Evidence should be proportionate to risk, purpose and legal obligations.
+```text
+Session Receipt
+≠ formal state
+≠ customer approval
+≠ Professional Authority
+≠ shared-learning permission
+```
 
-## 11. User correction and contestability
+Evidence retention should remain proportionate to risk and legal obligations.
 
-AI memory and derived profiles can become inaccurate. A Workplace should be able to inspect and correct material remembered preferences, classifications or assumptions.
+## 13. Correction, contestability and forgetting
 
-Users should also be able to challenge:
+Users and Workplaces should be able to challenge material memories, profile inferences and retrieval decisions. They should be able to correct, supersede, restrict or delete information where rights and obligations permit.
 
-- why a source was retrieved;
-- why a recommendation was made;
-- whether private data crossed a boundary;
-- whether an output was treated as authoritative;
-- whether a memory should be removed or superseded.
+Forgetting is a governance function, not a technical failure.
 
-## 12. Product implications
+## 14. Product implications
 
 Each Product Installation should declare:
 
 - permitted AI functions;
-- approved data sources;
-- memory scope;
-- external service policy;
-- retention rules;
+- approved sources;
+- memory scopes;
+- Reflection policy;
+- Capability Profile and Twin access;
+- external-service policy;
+- retention and deletion rules;
 - training and shared-learning policy;
 - required human or professional review;
-- audit and correction mechanisms.
+- audit, appeal and correction routes.
 
-The interface should identify the current represented Workplace before AI actions that access private context.
-
-## 13. The operating principle
-
-AI should improve the intelligence available inside and between Workplaces without erasing the rights and responsibilities that define those Workplaces.
-
-> MarkOrbit permits intelligence to travel only through explicit, governed routes; it does not treat every useful experience as common property.
+> MarkOrbit permits intelligence to travel only through explicit, governed routes. Useful experience does not become common property, and AI assistance does not dissolve Workplace sovereignty.
