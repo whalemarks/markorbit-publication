@@ -4,131 +4,151 @@ One trusted Provider is useful.
 
 One Provider is not a resilient network.
 
-A professional relationship can be excellent for years and still become unavailable at the wrong moment because of conflict, workload, staffing change, professional restriction, payment friction or a deadline the Provider cannot safely accept.
+A professional relationship may work for years and still fail at the wrong moment because of conflict, workload, staffing change, qualification limits, payment friction or an unsafe deadline.
 
-MGSN therefore manages supply as a portfolio of bounded Capability routes rather than one permanent contact per country.
+MGSN therefore manages supply as a portfolio of bounded Provider Supply Capability routes rather than one permanent contact per country.
 
 ```text
-country contact list
-≠ service-specific supply portfolio
+Country Contact List
+≠ Provider Supply Portfolio
 ```
 
-A portfolio creates alternatives. A Service Package makes each alternative understandable and operable.
+## 1. Provider Supply Capability is a network supply projection
 
-## National coverage is too broad
+A Provider Supply Capability describes what an accountable Provider Organization may be able and willing to deliver through MGSN under stated conditions.
 
-A network may claim that it covers a jurisdiction because it knows one firm there. That says little about actual service capability.
+It is not the same as:
 
-Routine applications, office-action responses, oppositions, recordals, renewals, investigations, translations and urgent recovery may require different people, qualifications, prices and evidence.
+```text
+Provider Supply Capability
+≠ User Capability Profile
+≠ Source Capability
+≠ Verified MO Capability
+```
 
-A Provider that is excellent for ordinary filings may have no contentious team. A specialist may be essential for a difficult refusal but uneconomic for standard work. A low-cost route may depend on slower processing and narrow scope.
+- a User Capability Profile concerns evidence about a person’s bounded proficiency;
+- a Source Capability preserves a provenance-bound method;
+- a Verified MO Capability is a governed platform Capability version;
+- Provider Supply Capability is an operational supply offer backed by organization, qualification, people, process, capacity and Service Package.
 
-Coverage therefore means the existence of usable routes for defined Needs—not a flag on a map.
+A Provider may implement a shared Capability without owning the shared Capability Definition.
 
-## The Capability Supply Portfolio
+## 2. National coverage is too broad
+
+A network may claim a jurisdiction because it knows one firm there. That says little about actual service coverage.
+
+Routine applications, office-action responses, oppositions, recordals, renewals, investigations, translations and urgent recovery may require different people, qualifications, Packages and Evidence.
+
+Coverage means usable routes for defined Needs—not flags on a map.
+
+## 3. The Capability Supply Portfolio
 
 A Capability Supply Portfolio is the governed set of admitted routes for a defined service context.
 
-Each entry connects:
+Each route connects:
 
 ```text
 Provider Organization
-+ qualified Capability
++ Provider Supply Capability
++ relevant Professional Qualification
 + admitted Service Package
 + current portfolio role
-+ restrictions and freshness state
++ Capacity and Readiness
++ restrictions and Evidence freshness
 ```
-
-The context may be defined by jurisdiction, service family, procedural stage, complexity, language, urgency, authority, data conditions, funds requirements or Evidence and Return expectations.
 
 The portfolio does not transfer the Provider’s business into MGSN. It records that a route may be considered under declared conditions.
 
-## Portfolio roles are contextual
+## 4. A Capability claim is not yet supply
 
-A Provider does not need one universal rank.
+A Provider may claim a Capability. MGSN must still determine:
 
-It may be primary for routine filings, a specialist for complex classification, a backup for urgent work, a relationship-preserved route for one Workplace and unavailable for disputes.
-
-Useful portfolio roles may include Recommended Primary, Qualified Alternative, Specialist Route, Urgent-capacity Route, Relationship-preserved Route, Pilot Route or Restricted Route.
-
-These roles are internal, contextual and revisable. They are not permanent public status labels.
-
-A role should change when evidence, capacity, package quality, correction behavior or service-specific Trust changes—not because one operator likes the relationship or one unverified complaint appears.
-
-## Multiple routes create resilience, not an auction
-
-Multiple routes help the network survive conflict, deadline pressure, capacity failure, provider exit and specialist demand.
-
-They also reduce hidden dependence on one person, one firm, one payment path or one language team.
-
-But resilience does not require an open bidding hall.
+- whether the Organization and responsible professionals are identified;
+- whether Evidence supports the claim;
+- whether Professional Qualification applies;
+- whether MGSN Qualification is current;
+- whether an admitted Service Package exists;
+- whether Capacity, Readiness and restrictions permit routing.
 
 ```text
-multiple routes
-≠ lowest-price auction
-≠ public provider leaderboard
+Capability Claim
+≠ admitted Provider Supply Capability
+≠ current Eligibility
 ```
 
-A professional route should not win merely because it is cheapest or most visible. Suitability, authority, scope, evidence, availability, risk and recovery all matter.
+## 5. Portfolio roles are contextual
 
-A larger candidate pool can create noise. A better portfolio produces a small number of materially different and currently usable alternatives.
+A Provider may be primary for routine filings, specialist for complex classification, backup for urgent work and unavailable for disputes.
 
-## Existing relationships belong inside the portfolio
+Useful portfolio roles may include:
 
-Participants should be able to bring established Providers into MGSN.
+- Recommended Primary;
+- Qualified Alternative;
+- Specialist Route;
+- Urgent-capacity Route;
+- Relationship-preserved Route;
+- Pilot Route;
+- Restricted Route.
 
-Once independently admitted, an existing Provider may appear as a relationship-preserved route. Continuity can reduce coordination cost and protect legitimate commercial history.
+These roles are internal, service-specific, reviewable and temporary. They are not public rank or universal capability labels.
 
-The preference may influence routing, but cannot override current qualification, conflict, availability, package fit, unexplained cost, active restriction or material performance risk.
+## 6. Multiple routes create resilience, not an auction
 
 ```text
-relationship preference
-≠ routing monopoly
+Multiple Routes
+≠ Lowest-price Auction
+≠ Public Provider Leaderboard
 ```
 
-The network preserves provenance while retaining the ability to recommend a safer route.
+Suitability, authority, scope, Evidence, availability, risk and recovery matter more than raw price or visibility.
 
-## Honest gaps are part of portfolio quality
+A strong portfolio produces a small number of materially different and currently usable alternatives.
 
-A well-governed portfolio may return no eligible supply.
+## 7. Existing relationships belong inside the portfolio
 
-All qualified Providers may have conflicts. Evidence may have expired. The deadline may be unrealistic. A required package may not exist. Data or funds restrictions may prevent a safe route.
+Participants may introduce established Providers. Once independently admitted, the relationship may appear as a relationship-preserved route.
 
-The correct response may be to clarify the Need, seek operator review, recruit specialist supply, use an external self-managed route or decline safely.
+Relationship provenance may influence routing, but cannot override current qualification, conflict, availability, Package fit, unexplained cost, active restriction or material performance risk.
 
-MGSN should not turn an unverified contact into a route merely to avoid displaying a gap.
+```text
+Relationship Preference
+≠ Routing Monopoly
+```
+
+## 8. Honest gaps are part of portfolio quality
+
+A well-governed portfolio may return no Eligible Route.
+
+All Providers may be conflicted. Evidence may be stale. The deadline may be unrealistic. A Package may not exist. Data or funds restrictions may prevent a safe route.
 
 False coverage is more dangerous than incomplete coverage.
 
-## Capability is not an operable offer
+## 9. Capability is not an operable offer
 
-A Provider may be capable of performing a service without offering a clear commercial and operational route.
+A shared Capability answers:
 
-“Trademark filing” may or may not include classification advice, specification drafting, translation, local appointment, official fees, publication monitoring, registration-stage work or certificate delivery.
+> What governed Outcome can this Capability produce?
 
-Two Providers may use the same service name while promising materially different work.
+A Provider Supply Capability answers:
 
-A Capability answers:
-
-> What can this Provider potentially perform?
+> Which Provider Organization may deliver that Outcome under current network conditions?
 
 A Service Package answers:
 
-> What will this route deliver under this version, price basis and set of assumptions?
+> What exactly will this route deliver under this version, scope, price basis and set of assumptions?
 
 ```text
 Capability
+≠ Provider Supply Capability
 ≠ Service Package
-≠ engagement-specific instruction
+≠ engagement-specific Instruction Package
 ```
 
-## The Service Package grammar
-
-A common package structure allows comparison without pretending that jurisdictions are uniform.
+## 10. The Service Package grammar
 
 An admitted Service Package should make clear:
 
-- the Provider Organization and relevant Capability;
+- Provider Organization and Provider Supply Capability;
 - jurisdiction, service and procedural stage;
 - included and excluded work;
 - required inputs and customer assumptions;
@@ -137,96 +157,77 @@ An admitted Service Package should make clear:
 - timing assumptions;
 - deliverables, Evidence and expected Return;
 - validity, urgency and change-control rules;
-- restrictions and dependencies.
+- restrictions, dependencies and responsible professional conditions.
 
 The grammar is common. The legal and professional content remains jurisdiction- and Provider-specific.
 
-## Exclusions define responsibility
+## 11. Exclusions define responsibility
 
-Exclusions are not secondary fine print.
+A low headline price may exclude refusal responses, legalization, courier handling, later-stage fees, extra translation or urgent work.
 
-A package may exclude refusal responses, oppositions, legalization, courier handling, excessive goods charges, third-party searches, additional translation, later-stage fees or emergency work.
+Unknown items should remain Unknown until resolved. They should not be displayed as zero.
 
-A low headline price can therefore be more expensive than a higher quote that includes the likely next stages.
+## 12. Provider delivery and platform coordination
 
-The reader should be able to distinguish what is included, excluded, conditional, estimated, externally determined and not yet known.
-
-Unknown items should remain Unknown until resolved. They should not be presented as zero.
-
-## Provider delivery and platform coordination
-
-A managed route may combine professional delivery with platform coordination.
-
-The Provider may perform analysis, drafting, representation, filing and local follow-up. MGSN may manage intake, comparison, document completeness, milestones, communication routing, exceptions, replacement support and Return structure.
+The Provider may perform analysis, drafting, representation, filing and follow-up. MGSN may manage Intake, comparison, Milestones, communication routing, exceptions, replacement support and Return structure.
 
 ```text
-platform-managed coordination
-≠ platform performing reserved professional work
+Platform-managed Coordination
+≠ Platform Performing Reserved Professional Work
 ```
 
-The package should show who performs, who coordinates, who reviews and which Owning Service may update formal state.
+## 13. Versioning protects commitments
 
-## Versioning protects commitments
+Service Packages change when official fees, documentary requirements, capacity or Evidence standards change.
 
-Service Packages change when official fees, documentary requirements, prices, taxes, capacity or Evidence requirements change.
+An accepted engagement retains the accepted Package version unless a governed change is approved.
 
-The package therefore needs a version and effective period.
+Updating the current Package must not rewrite earlier quotes, obligations or dispute history.
 
-Updating the current package must not silently rewrite earlier quotes, accepted scope, Provider obligations, expected Evidence or dispute history.
-
-An accepted engagement should retain its package version unless a governed change is approved.
-
-## From package to engagement
-
-A package is a reusable baseline, not the final instruction.
-
-A Matter may involve unusual goods, multiple applicants, urgent timing, extra translation, legalization or non-standard official fees. Those variables create an engagement-specific offer or package application.
+## 14. From Package to engagement
 
 ```text
-admitted Service Package
-+ Matter-specific variables
-+ confirmed price and conditions
-= engagement-ready route
+Admitted Service Package
++ Matter-specific Variables
++ confirmed Price and Conditions
+= Engagement-ready Route
 ```
 
-Material deviations should be visible before Provider Acceptance. A general package name should not conceal a different actual scope.
+Material deviations should be visible before Provider Acceptance.
 
-## Portfolio governance and concentration
+## 15. Portfolio Evidence is not Capability canon
 
-Portfolio decisions should use current evidence: qualification, acceptance behavior, deadline performance, Return quality, correction history, capacity, price stability, package clarity and replacement outcomes.
+MGSN may learn from Provider Acceptance, Milestones, Returns, Corrections, Incidents and recovery.
 
-They should also expose concentration.
+That evidence may support:
 
-A portfolio may depend on one Provider, one responsible professional, one bank route or one package. Scarcity may make that unavoidable. Hidden scarcity creates false resilience.
+- portfolio role changes;
+- routing controls;
+- Package revisions;
+- Provider remediation;
+- an attributed Case Candidate;
+- a Capability Change Proposal.
 
-The network should know where failure would stop service, how quickly another route could be activated and which customer commitments are exposed.
-
-Recruitment should follow those gaps rather than superficial geographic expansion.
-
-## What failure reveals
-
-Portfolio and package failures are usually visible in a few recurring situations:
-
-- the only Provider becomes conflicted before a deadline;
-- the cheapest package excludes the costs most likely to arise;
-- a package update rewrites an accepted engagement;
-- the user cannot tell which work belongs to the Provider and which to MGSN;
-- an existing relationship remains preferred after its evidence becomes stale.
-
-The remedy is not more listings. It is a smaller set of qualified, versioned and genuinely different routes.
-
-## Product principle
-
-MGSN creates resilient supply through:
+It does not directly mutate the shared Capability Definition.
 
 ```text
-multiple qualified Capability routes
-+ contextual portfolio roles
-+ admitted and versioned Service Packages
-+ explicit scope, cost, Evidence and restrictions
-= resilient managed supply
+Provider Performance Evidence
+≠ Verified MO Capability
+
+Portfolio Role Change
+≠ Capability Version Decision
 ```
 
-This structure allows the network to compare without commoditizing, preserve relationships without creating monopolies and admit gaps without inventing coverage.
+## 16. Product principle
 
-The next chapter addresses the most sensitive boundary in Part II: what the network has verified, what an external professional framework recognizes and what authority exists for a specific Matter and action.
+```text
+Multiple Qualified Provider Supply Capability Routes
++ Contextual Portfolio Roles
++ Admitted and Versioned Service Packages
++ Explicit Scope, Cost, Evidence and Restrictions
+= Resilient Managed Supply
+```
+
+MGSN compares without commoditizing, preserves relationships without creating monopolies and uses evidence without confusing service supply with Capability canon.
+
+The next chapter addresses what the network has verified, what an external professional framework recognizes and what authority exists for a specific Matter and action.
