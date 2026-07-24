@@ -1,13 +1,14 @@
 # Chapter 27 — Simulation, Assessment and Certification Boundaries
 
-A professional learning system needs more than content consumption. It needs environments where users can make decisions, receive consequences, demonstrate competence and understand their limits.
+A professional learning system needs more than content consumption. It needs places where users can make decisions, observe consequences, demonstrate bounded competence and understand their limits.
 
-Simulation, assessment and certification serve different purposes. When they collapse into one badge-producing workflow, the result is easy to market but professionally weak.
+Simulation, Assessment and Certification serve different purposes.
 
 ```text
 Simulation
 ≠ Assessment
 ≠ Certification
+≠ Capability Profile
 ≠ Professional Qualification
 ≠ Production Authorization
 ```
@@ -16,33 +17,19 @@ Simulation
 
 A Simulation uses synthetic, fictional or sufficiently de-identified facts to reproduce professional decisions without changing a real Matter, customer or official record.
 
-It may simulate:
+It should specify:
 
-- a trademark search review;
-- goods selection;
-- a maintenance deadline;
-- an office action;
-- a buyer request;
-- a transfer due-diligence problem;
-- a customer communication issue;
-- an evidence-quality decision;
-- a Provider failure or recovery scenario.
-
-A Simulation should state:
-
+- Capability and version;
 - learning objective;
-- assumed jurisdiction and date;
-- facts supplied;
-- facts intentionally missing;
-- available tools;
+- jurisdiction and effective date;
+- facts supplied and intentionally missing;
+- permitted Skills, Tools and AI assistance;
 - expected decisions;
 - consequence model;
 - review criteria;
-- whether multiple valid paths exist.
+- whether multiple defensible routes exist.
 
-## 2. Simulation must not masquerade as production
-
-The environment should make the boundary visible.
+## 2. Simulation must remain isolated from production
 
 ```text
 Simulated customer
@@ -51,41 +38,50 @@ Simulated customer
 Simulated filing
 ≠ official filing
 
-Simulated evidence
-≠ accepted evidence
+Simulated Evidence
+≠ accepted Evidence
 ```
 
-Production credentials, live connectors, payment, customer messaging and External Protected Actions should remain disabled.
+Production credentials, live connectors, customer messaging, payment and External Protected Actions remain disabled.
 
-A realistic exercise does not need real customer data. Where a historical case is used, rights, confidentiality and re-identification risk must be reviewed.
+Where historical cases inform a Simulation, rights, confidentiality and re-identification risk require review.
 
-## 3. Assessment measures a defined claim
+## 3. Source, Composite and Experimental Capability may be tested safely
 
-An Assessment evaluates whether the participant can satisfy explicit criteria under specified conditions.
+Simulation is a suitable environment for evaluating:
 
-The record should include:
+- a Source Capability or named method;
+- a Composite Capability assembled from several Skills;
+- an Experimental Capability;
+- a proposed new critic or escalation route;
+- a changed AI or Tool implementation.
 
-- assessed Capability;
+```text
+Successful Simulation
+≠ Verified MO Capability
+```
+
+Repeated evidence, controlled review and production relevance remain necessary before broader adoption.
+
+## 4. Assessment measures a defined claim
+
+An Assessment should identify:
+
+- assessed Capability and version;
 - scope and level;
-- assessment version;
-- conditions and tools allowed;
+- conditions and Tools allowed;
+- AI-assistance policy;
 - identity assurance where required;
-- evaluator or automated components;
-- rubric;
-- evidence produced;
-- result;
-- uncertainty;
+- evaluator and rubric;
+- Evidence produced;
+- result and uncertainty;
 - appeal and reassessment route.
 
-An assessment should not claim more than it tested.
+An Assessment must not claim more than it tested.
 
-Passing a routine classification assessment does not prove ability to handle complex objections. Passing a simulated transfer review does not prove authority to provide legal advice.
+## 5. Assisted assessment can be legitimate
 
-## 4. Open-book and assisted assessment can be legitimate
-
-Professional work often uses Knowledge, checklists and AI. Assessment does not always need to prohibit assistance.
-
-Lite may distinguish:
+Professional work often uses Knowledge, checklists and AI. Lite may distinguish:
 
 ```text
 Knowledge-recall Assessment
@@ -96,42 +92,44 @@ Supervised Practical Assessment
 Reviewer Assessment
 ```
 
-The result should state the conditions. An AI-assisted result should not be presented as unassisted mastery.
+The result must preserve conditions. AI-assisted performance is not unassisted mastery.
 
-## 5. Certification is a governed recognition event
+## 6. Assessment produces evidence, not automatic profile mutation
 
-Certification may recognize that a person met a defined evidence standard at a point in time.
+Assessment results may support a Capability Evaluation. They do not directly rewrite My Capability Profile.
 
-A certification should identify:
+```text
+Assessment passed
+≠ Capability Profile updated automatically
+≠ current task Eligibility
+```
+
+The evaluation should consider scope, rubric quality, identity assurance, assistance, recency and contradictory evidence.
+
+## 7. Certification is a governed recognition event
+
+Certification may recognize that a person met a defined standard at a point in time.
+
+It should identify:
 
 - issuer;
-- Capability and scope;
-- level;
-- evidence requirements;
-- assessment route;
-- issue date;
-- expiry or review date;
+- Capability and version;
+- scope and level;
+- Evidence requirements;
+- Assessment route;
+- issue and expiry dates;
 - suspension and revocation rules;
 - verification method;
 - limitations.
 
 ```text
-Certified by MarkOrbit or a Workplace
-≠ licensed by a government or professional body
+MarkOrbit or Workplace Certification
+≠ government or professional licence
 ```
 
-The wording and visual presentation must avoid implying statutory status that the issuer cannot grant.
+Wording and visual presentation must not imply statutory status.
 
-## 6. Certification should be perishable
-
-Rules, products and professional practice change. Certification may require:
-
-- periodic reassessment;
-- continuing learning;
-- recent accepted work;
-- absence of unresolved serious quality issues;
-- updated qualification evidence;
-- review after major rule changes.
+## 8. Certification is perishable
 
 Possible states include:
 
@@ -144,65 +142,72 @@ Revoked
 Superseded
 ```
 
-A certificate should not remain active merely because the user still pays for a subscription.
+Renewal may require reassessment, continuing learning, recent accepted work, resolved quality issues or updated qualification evidence.
 
-## 7. Assessment and production evidence should complement each other
+Subscription payment cannot keep a certificate active.
 
-Simulation and assessment reveal controlled competence. Production evidence reveals performance under real constraints.
+## 9. Capability Ledger preserves the evidence chain
 
-A mature Capability decision may use both:
+The Capability Ledger may reference:
+
+- Simulation version and result;
+- Assessment Evidence;
+- Certification decision;
+- appeals and corrections;
+- later supervised production;
+- expiry and renewal.
+
+The Ledger provides lineage, not authority.
 
 ```text
-Learning evidence
-+ Simulation evidence
-+ Assessment evidence
-+ Supervised production
-+ Accepted outcomes
-+ Recent practice
+Ledger entry
+≠ Professional Qualification
+≠ Production Authorization
 ```
 
-Neither should automatically replace the other.
+## 10. Simulation, production and reflection complement each other
 
-## 8. The assessor needs scope and independence
+A mature Capability Evaluation may use:
 
-The assessor may be:
+```text
+Learning Evidence
++ Simulation Evidence
++ Assessment Evidence
++ Supervised Production
++ Accepted Outcomes
++ Recent Practice
++ user-confirmed Reflection
+```
 
-- a qualified reviewer;
-- a certified evaluator;
-- a Workplace supervisor;
-- an automated rubric for bounded components;
-- a panel for higher-level certification.
+None automatically replaces the others.
 
-The system should record conflicts. A person should not be the only assessor of their own production or commercial course.
+Reflection may explain why a result occurred, but it remains a candidate interpretation rather than verified performance by itself.
+
+## 11. Assessor scope and independence matter
+
+An assessor may be a qualified reviewer, certified evaluator, Workplace supervisor, bounded automated rubric or panel.
+
+Conflicts should be recorded. A person should not be the sole assessor of their own production or commercial course.
 
 Automated scoring may support consistency but should not decide ambiguous professional judgment without review.
 
-## 9. Appeals and corrections are part of legitimacy
+## 12. Appeals and corrections are part of legitimacy
 
-Participants should be able to:
+Participants should be able to inspect criteria, challenge identity or scoring errors, request human review, submit missing Evidence and retake under defined conditions.
 
-- inspect criteria;
-- challenge factual or identity errors;
-- request human review of automated scoring;
-- submit missing evidence;
-- appeal procedural unfairness;
-- retake under defined conditions.
+An appeal creates a review trail; it does not erase the original record.
 
-An appeal should not erase the original record. It should create a review trail.
+## 13. Certification cannot create unrestricted task eligibility
 
-## 10. Certification cannot create unrestricted task eligibility
-
-Even an active certification does not automatically create eligibility for every paid or customer task.
-
-Task eligibility may additionally require:
+Task Eligibility may also require:
 
 - current Membership;
 - jurisdiction and language fit;
-- recent evidence;
-- available Capacity;
-- conflict check;
-- required professional qualification;
-- supervisor or Reviewer availability;
+- recent Evidence;
+- Capacity and Readiness;
+- conflict clearance;
+- Professional Qualification;
+- reviewer availability;
 - accepted commercial terms;
 - Assignment.
 
@@ -213,70 +218,39 @@ Certification
 ≠ Customer Representation
 ```
 
-## 11. Fraud and integrity controls should be proportionate
+## 14. Public display must remain precise
 
-Higher-value certifications may require:
+A public badge should show exact name, scope, issuer, state, issue and expiry dates, verification route and material limitations.
 
-- identity verification;
-- assessment-session integrity;
-- plagiarism or answer-reuse detection;
-- evidence provenance;
-- assessor independence;
-- audit sampling;
-- revocation after fraud findings.
+Lite must not rank paid badges above stronger Evidence without disclosure.
 
-The controls should not become invasive surveillance by default. The level of monitoring should follow the consequence of the credential.
-
-## 12. Public display must be precise
-
-A public badge should show:
-
-- exact certification name;
-- scope;
-- issuer;
-- current state;
-- issue and expiry dates;
-- verification link;
-- limitations where material.
-
-It should not display an expired or suspended credential as active. A network search result should not rank paid badges above stronger evidence without disclosure.
-
-## 13. Product implications
+## 15. Product implications
 
 Lite requires:
 
-- Simulation definitions and isolated environments;
-- de-identification and synthetic-case controls;
-- assessment versions and rubrics;
+- isolated Simulation environments;
+- synthetic and de-identification controls;
+- Capability class and version references;
+- Assessment versions and rubrics;
 - assisted-condition labels;
 - evaluator roles;
-- certification issuance and verification;
+- Certification issuance and verification;
+- Capability Evaluation;
+- Ledger integration;
 - expiry, suspension and revocation;
 - appeal and reassessment;
-- Capability Map integration;
-- task-eligibility separation.
+- separation from task Eligibility and authority.
 
-## 14. Commercial implications
-
-Revenue may arise from:
-
-- structured courses;
-- simulations;
-- assessments;
-- certification;
-- refresher programs;
-- professional evaluation.
-
-The business model must not become pay-to-certify. Payment may buy access to instruction or assessment; it cannot buy a passing decision.
-
-## 15. Operating principle
+## 16. Operating principle
 
 ```text
-Practice without production risk
-Assess only what was tested
-Certify only what evidence supports
-Expire what is no longer current
-Never present platform certification as statutory authority
+Practice without production risk.
+Test the exact Capability claim.
+Record assistance and conditions.
+Evaluate before updating the profile.
+Certify only what Evidence supports.
+Expire what is no longer current.
+Never present platform certification as statutory authority.
 ```
 
-> Simulation should create safe difficulty, assessment should create credible evidence, and certification should create bounded recognition—not artificial professional authority.
+> Simulation should create safe difficulty, Assessment should create credible Evidence, and Certification should create bounded recognition—not artificial professional authority.
